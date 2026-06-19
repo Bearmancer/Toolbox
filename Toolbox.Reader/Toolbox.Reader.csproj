@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Toolbox.Reader</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Toolbox.Core\Toolbox.Core.csproj" />
+    <ProjectReference Include="..\Toolbox.Azure\Toolbox.Azure.csproj" />
+  </ItemGroup>
+</Project>
