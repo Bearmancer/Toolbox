@@ -1,5 +1,6 @@
 using OpenAI.Chat;
 using Toolbox.Core;
+using Toolbox.Core.Logging;
 
 namespace Toolbox.Azure;
 
@@ -11,31 +12,23 @@ public static class OpenAiService
         CancellationToken ct = default
     )
     {
-        using var session = Logger.BeginSession(ServiceType.Azure);
-        Logger.Starting("OpenAI.Chat");
+        using var session = Log.BeginSession(ServiceType.Azure);
+        using var op = Log.BeginOperation("OpenAI.Chat");
 
         if (prompt.Length > Constants.OpenAiMaxChars)
-            throw new ArgumentOutOfRangeException(
-                nameof(prompt),
-                $"Prompt length {prompt.Length} exceeds 512K"
-            );
+            throw new ArgumentOutOfRangeException(nameof(prompt), $"Prompt length {prompt.Length} exceeds 512K");
 
         var modelDeployment = deployment ?? AppConfig.OpenAiDeployment ?? "gpt-4o-mini";
         var client = AzureClients.CreateOpenAiClient();
         var chat = client.GetChatClient(modelDeployment);
         var messages = new ChatMessage[] { new UserChatMessage(prompt) };
 
-        Logger.ApiRequest("OpenAI", "CompleteChat", modelDeployment);
+        Log.Emit(new ApiRequested("OpenAI", "CompleteChat", modelDeployment));
         var startTime = DateTime.UtcNow;
-        var completion = await chat.CompleteChatAsync(
-            messages,
-            new ChatCompletionOptions(),
-            ct
-        );
-        var elapsed = DateTime.UtcNow - startTime;
-        Logger.ApiResponse("OpenAI", 200, elapsed);
+        var completion = await chat.CompleteChatAsync(messages, new ChatCompletionOptions(), ct);
+        Log.Emit(new ApiResponded("OpenAI", 200, (DateTime.UtcNow - startTime).TotalMilliseconds));
 
-        Logger.Complete("OpenAI.Chat");
+        op.Complete();
         return $"Model: {modelDeployment}\n---\n{completion.Value.Content[0].Text}";
     }
 }

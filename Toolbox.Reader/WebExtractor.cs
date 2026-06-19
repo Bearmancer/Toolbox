@@ -50,7 +50,7 @@ public static class WebExtractor
         }
     }
 
-    static ExtractedContent ExtractContent(string html, Uri sourceUrl)
+    private static ExtractedContent ExtractContent(string html, Uri sourceUrl)
     {
         var title = ExtractTitle(html);
         var content = ExtractMainContent(html);
@@ -59,7 +59,7 @@ public static class WebExtractor
         return new ExtractedContent(title, null, content, html, sourceUrl, null, wordCount, null);
     }
 
-    static string ExtractTitle(string html)
+    private static string ExtractTitle(string html)
     {
         var startTag = "<title>";
         var endTag = "</title>";
@@ -69,13 +69,12 @@ public static class WebExtractor
 
         startIndex += startTag.Length;
         var endIndex = html.IndexOf(endTag, startIndex, StringComparison.OrdinalIgnoreCase);
-        if (endIndex < 0)
-            return "Untitled";
-
-        return html[startIndex..endIndex].Trim();
+        return endIndex < 0
+            ? "Untitled"
+            : html[startIndex..endIndex].Trim();
     }
 
-    static string ExtractMainContent(string html)
+    private static string ExtractMainContent(string html)
     {
         var contentStart = html.IndexOf("<article", StringComparison.OrdinalIgnoreCase);
         if (contentStart < 0)
@@ -97,18 +96,13 @@ public static class WebExtractor
         return StripHtmlTags(content);
     }
 
-    static string StripHtmlTags(string html)
+    private static string StripHtmlTags(string html)
     {
         var result = Regex.Replace(html, "<[^>]+>", " ");
         result = Regex.Replace(result, @"\s+", " ");
         return result.Trim();
     }
 
-    static int CountWords(string text)
-    {
-        return text.Split(
-            [' ', '\t', '\n', '\r'],
-            StringSplitOptions.RemoveEmptyEntries
-        ).Length;
-    }
+    private static int CountWords(string text) =>
+        text.Split([' ', '\t', '\n', '\r'], StringSplitOptions.RemoveEmptyEntries).Length;
 }

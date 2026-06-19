@@ -1,6 +1,7 @@
 using System.ComponentModel;
 using Spectre.Console.Cli;
 using Toolbox.Core;
+using Toolbox.Core.Screen;
 using Toolbox.Reader;
 
 namespace Toolbox.Commands.Reader;

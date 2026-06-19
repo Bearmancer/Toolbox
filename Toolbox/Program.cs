@@ -1,6 +1,5 @@
 using Azure.Identity;
 using Microsoft.Extensions.Configuration;
-using Serilog;
 using Spectre.Console.Cli;
 using Toolbox.Commands;
 using Toolbox.Commands.Azure;
@@ -8,8 +7,9 @@ using Toolbox.Commands.Music;
 using Toolbox.Commands.Reader;
 using Toolbox.Commands.Sync;
 using Toolbox.Core;
+using Toolbox.Core.Logging;
 
-Log.Logger = LoggerBootstrap.CreateLogger("toolbox");
+LogPipeline.Configure("toolbox");
 AppState.Credential = new DefaultAzureCredential();
 
 var app = new CommandApp();
@@ -38,33 +38,22 @@ app.Configure(config =>
     config.AddCommand<OcrCommand>("ocr");
 });
 
-LoadConfig();
+loadConfig();
 return await app.RunAsync(args);
 
-static void LoadConfig()
+static void loadConfig()
 {
+    DotNetEnv.Env.Load();
     var config = new ConfigurationBuilder()
         .SetBasePath(Directory.GetCurrentDirectory())
-        .AddJsonFile("appsettings.json", true)
         .AddEnvironmentVariables("TOOLBOX_")
         .Build();
 
-    AppConfig.Endpoint = config["Endpoint"];
-    AppConfig.Key = config["Key"];
-    AppConfig.SpeechKey = config["SpeechKey"];
-    AppConfig.SpeechRegion = config["SpeechRegion"];
-    AppConfig.TranslatorRegion = config["TranslatorRegion"];
-    AppConfig.OpenAiDeployment = config["OpenAIDeployment"];
-    AppConfig.OpenAiEndpoint = config["OpenAIEndpoint"];
-    AppConfig.OpenAiKey = config["OpenAIKey"];
-    AppConfig.SpotifyClientId = config["SpotifyClientId"];
-    AppConfig.SpotifyClientSecret = config["SpotifyClientSecret"];
-    AppConfig.LastFmApiKey = config["LastFmApiKey"];
-    AppConfig.LastFmApiSecret = config["LastFmApiSecret"];
-    AppConfig.DiscogsUserToken = config["DiscogsUserToken"];
-    AppConfig.YouTubeApiKey = config["YouTubeApiKey"];
-    AppConfig.GoogleClientId = config["GoogleClientId"];
-    AppConfig.GoogleClientSecret = config["GoogleClientSecret"];
-    AppConfig.LogLevel = config["LogLevel"];
-    AppConfig.OutputFormat = config["OutputFormat"];
+    AppConfig.Endpoint = config["ENDPOINT"];
+    AppConfig.SpeechRegion = config["SPEECH_REGION"];
+    AppConfig.TranslatorRegion = config["TRANSLATOR_REGION"];
+    AppConfig.OpenAiDeployment = config["OPENAI_DEPLOYMENT"];
+    AppConfig.OpenAiEndpoint = config["OPENAI_ENDPOINT"];
+    AppConfig.LogLevel = config["LOG_LEVEL"];
+    AppConfig.OutputFormat = config["OUTPUT_FORMAT"];
 }

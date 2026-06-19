@@ -22,7 +22,7 @@ public static class TranslateService
 
         Log.Emit(new ApiRequested("Translate", "Translate", $"{fromLang}->{toLang}"));
         var startTime = DateTime.UtcNow;
-        var response = await client.TranslateAsync(toLang, new[] { text }, fromLang, ct);
+        var response = await client.TranslateAsync(toLang, [text], fromLang, ct);
         Log.Emit(new ApiResponded("Translate", 200, (DateTime.UtcNow - startTime).TotalMilliseconds));
 
         op.Complete();

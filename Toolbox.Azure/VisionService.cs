@@ -22,9 +22,9 @@ public static class VisionService
         var features = feature switch
         {
             "objects" => VisualFeatures.Objects,
-            "read"    => VisualFeatures.Read,
-            "tags"    => VisualFeatures.Tags,
-            _         => VisualFeatures.Tags,
+            "read" => VisualFeatures.Read,
+            "tags" => VisualFeatures.Tags,
+            _ => VisualFeatures.Tags,
         };
 
         var client = AzureClients.CreateImageAnalysisClient();

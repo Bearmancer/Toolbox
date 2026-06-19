@@ -1,5 +1,6 @@
 using Microsoft.CognitiveServices.Speech;
 using Toolbox.Core;
+using Toolbox.Core.Logging;
 
 namespace Toolbox.Azure;
 
@@ -12,27 +13,24 @@ public static class SpeechTtsService
         CancellationToken ct = default
     )
     {
-        using var session = Logger.BeginSession(ServiceType.Azure);
-        Logger.Starting("Speech.Synthesize");
+        using var session = Log.BeginSession(ServiceType.Azure);
+        using var op = Log.BeginOperation("Speech.Synthesize");
 
         if (text.Length > Constants.OpenAiMaxChars)
-            throw new ArgumentOutOfRangeException(
-                nameof(text),
-                $"Text length {text.Length} exceeds 512K"
-            );
+            throw new ArgumentOutOfRangeException(nameof(text), $"Text length {text.Length} exceeds 512K");
+
         var config = AzureClients.CreateSpeechConfig();
         config.SpeechSynthesisVoiceName = voice;
         using var synth = new SpeechSynthesizer(config);
 
-        Logger.ApiRequest("Speech", "SpeakText", voice);
+        Log.Emit(new ApiRequested("Speech", "SpeakText", voice));
         var startTime = DateTime.UtcNow;
         var result = await synth.SpeakTextAsync(text);
-        var elapsed = DateTime.UtcNow - startTime;
-        Logger.ApiResponse("Speech", 200, elapsed);
+        Log.Emit(new ApiResponded("Speech", 200, (DateTime.UtcNow - startTime).TotalMilliseconds));
 
         await File.WriteAllBytesAsync(outputPath, result.AudioData, ct);
 
-        Logger.Complete("Speech.Synthesize");
+        op.Complete();
         return $"Voice: {voice}\nSaved: {outputPath}\nSize: {result.AudioData.Length:N0} bytes";
     }
 }

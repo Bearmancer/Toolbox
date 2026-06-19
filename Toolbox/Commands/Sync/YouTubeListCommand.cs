@@ -1,5 +1,6 @@
 using Spectre.Console.Cli;
 using Toolbox.Core;
+using Toolbox.Core.Screen;
 using Toolbox.Sync;
 
 namespace Toolbox.Commands.Sync;

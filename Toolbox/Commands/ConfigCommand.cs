@@ -1,5 +1,6 @@
 using Spectre.Console.Cli;
 using Toolbox.Core;
+using Toolbox.Core.Screen;
 
 namespace Toolbox.Commands;
 
@@ -7,7 +8,7 @@ public class ConfigCommand : Command<ConfigCommand.Settings>
 {
     protected override int Execute(CommandContext context, Settings settings, CancellationToken ct)
     {
-        var mask = (string? s) =>
+        string mask(string? s) =>
             settings.Reveal || string.IsNullOrEmpty(s) ? s ?? "(not set)" : $"{s[..4]}...{s[^4..]}";
 
         if (settings.Action is null or "show")

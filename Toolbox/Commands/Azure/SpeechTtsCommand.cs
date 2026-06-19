@@ -2,6 +2,7 @@ using System.ComponentModel;
 using Spectre.Console.Cli;
 using Toolbox.Azure;
 using Toolbox.Core;
+using Toolbox.Core.Screen;
 
 namespace Toolbox.Commands.Azure;
 
@@ -16,7 +17,8 @@ public class SpeechTtsCommand : CommandBase<SpeechTtsCommand.Settings>
         var result = await SpeechTtsService.SynthesizeAsync(
             settings.Text,
             settings.Voice,
-            settings.Out
+            settings.Out,
+            ct
         );
         Ui.Info(result);
         return 0;

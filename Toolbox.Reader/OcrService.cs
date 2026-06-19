@@ -1,5 +1,6 @@
 using Azure;
 using Azure.AI.DocumentIntelligence;
+using Toolbox.Azure;
 using Toolbox.Core;
 using Toolbox.Core.Logging;
 

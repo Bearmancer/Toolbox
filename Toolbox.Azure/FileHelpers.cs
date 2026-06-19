@@ -7,19 +7,19 @@ public static class FileHelpers
         if (Path.IsPathRooted(input) && File.Exists(input))
             return input;
         var combined = Path.Combine(Constants.Resources, input);
-        if (File.Exists(combined))
-            return combined;
-        throw new FileNotFoundException($"File not found: {input}");
+        return File.Exists(combined)
+            ? combined
+            : throw new FileNotFoundException($"File not found: {input}");
     }
 
     public static byte[] ReadChecked(string path, long maxBytes, string serviceName)
     {
         var info = new FileInfo(path);
-        if (info.Length > maxBytes)
-            throw new ArgumentOutOfRangeException(
+        return info.Length > maxBytes
+            ? throw new ArgumentOutOfRangeException(
                 nameof(path),
                 $"Payload too large: {info.Length} bytes exceeds {maxBytes} byte limit for {serviceName}"
-            );
-        return File.ReadAllBytes(path);
+            )
+            : File.ReadAllBytes(path);
     }
 }

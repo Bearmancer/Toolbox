@@ -7,7 +7,7 @@ namespace Toolbox.Sync;
 
 public static class LastFmService
 {
-    static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
+    private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
 
     public static async Task<List<LastFmScrobble>> GetRecentTracksAsync(
         string apiKey,
@@ -107,11 +107,11 @@ public static class LastFmService
         return result;
     }
 
-    record LastFmRecentTracksResponse(LastFmRecentTracks? RecentTracks);
+    private record LastFmRecentTracksResponse(LastFmRecentTracks? RecentTracks);
 
-    record LastFmRecentTracks(IReadOnlyList<LastFmTrack>? Track);
+    private record LastFmRecentTracks(IReadOnlyList<LastFmTrack>? Track);
 
-    record LastFmTrack(
+    private record LastFmTrack(
         string? Name,
         LastFmArtist? Artist,
         LastFmAlbum? Album,
@@ -119,9 +119,9 @@ public static class LastFmService
         LastFmDate? Date
     );
 
-    record LastFmArtist(string? Text);
+    private record LastFmArtist(string? Text);
 
-    record LastFmAlbum(string? Text);
+    private record LastFmAlbum(string? Text);
 
-    record LastFmDate(string? Uts);
+    private record LastFmDate(string? Uts);
 }

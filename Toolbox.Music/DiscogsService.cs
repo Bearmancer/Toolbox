@@ -8,7 +8,7 @@ namespace Toolbox.Music;
 
 public static class DiscogsService
 {
-    static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
+    private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
 
     public static async Task<List<SearchResult>> SearchAsync(
         string query,
@@ -234,14 +234,11 @@ public static class DiscogsService
             return null;
 
         var parts = duration.Split(':');
-        if (
-            parts.Length == 2
+        return parts.Length == 2
             && int.TryParse(parts[0], out var minutes)
             && int.TryParse(parts[1], out var seconds)
-        )
-            return TimeSpan.FromMinutes(minutes) + TimeSpan.FromSeconds(seconds);
-
-        return null;
+            ? TimeSpan.FromMinutes(minutes) + TimeSpan.FromSeconds(seconds)
+            : null;
     }
 
     private record DiscogsSearchResponse(IReadOnlyList<DiscogsSearchResult>? Results);

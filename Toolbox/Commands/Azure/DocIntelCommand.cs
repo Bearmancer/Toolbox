@@ -2,6 +2,7 @@ using System.ComponentModel;
 using Spectre.Console.Cli;
 using Toolbox.Azure;
 using Toolbox.Core;
+using Toolbox.Core.Screen;
 
 namespace Toolbox.Commands.Azure;
 

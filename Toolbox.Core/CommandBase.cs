@@ -2,6 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using Azure;
 using Spectre.Console.Cli;
 using Toolbox.Core.Logging;
+using Toolbox.Core.Screen;
 
 namespace Toolbox.Core;
 

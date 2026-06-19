@@ -7,7 +7,7 @@ namespace Toolbox.Sync;
 
 public static class YouTubeService
 {
-    static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
+    private static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true };
 
     public static async Task<List<YouTubePlaylist>> GetPlaylistsAsync(
         string apiKey,
@@ -98,32 +98,32 @@ public static class YouTubeService
         return videos;
     }
 
-    record YouTubePlaylistResponse(IReadOnlyList<YouTubePlaylistItem>? Items);
+    private record YouTubePlaylistResponse(IReadOnlyList<YouTubePlaylistItem>? Items);
 
-    record YouTubePlaylistItem(
+    private record YouTubePlaylistItem(
         string Id,
         YouTubePlaylistSnippet? Snippet,
         YouTubePlaylistContentDetails? ContentDetails
     );
 
-    record YouTubePlaylistSnippet(
+    private record YouTubePlaylistSnippet(
         string Title,
         string? Description,
         string? ChannelId,
         string? ChannelTitle
     );
 
-    record YouTubePlaylistContentDetails(int ItemCount);
+    private record YouTubePlaylistContentDetails(int ItemCount);
 
-    record YouTubePlaylistItemResponse(IReadOnlyList<YouTubePlaylistItemDetail>? Items);
+    private record YouTubePlaylistItemResponse(IReadOnlyList<YouTubePlaylistItemDetail>? Items);
 
-    record YouTubePlaylistItemDetail(
+    private record YouTubePlaylistItemDetail(
         string Id,
         YouTubePlaylistItemSnippet? Snippet,
         YouTubePlaylistItemContentDetails? ContentDetails
     );
 
-    record YouTubePlaylistItemSnippet(
+    private record YouTubePlaylistItemSnippet(
         string Title,
         string? Description,
         string? ChannelId,
@@ -131,5 +131,5 @@ public static class YouTubeService
         DateTimeOffset? PublishedAt
     );
 
-    record YouTubePlaylistItemContentDetails(string? VideoId);
+    private record YouTubePlaylistItemContentDetails(string? VideoId);
 }
