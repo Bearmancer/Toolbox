@@ -8,8 +8,7 @@ using Azure.AI.TextAnalytics;
 using Azure.AI.Translation.Text;
 using Azure.AI.Vision.ImageAnalysis;
 using Azure.Core.Diagnostics;
-
-using Core.Modules;
+using Core;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,11 +17,11 @@ using Spectre.Console.Cli;
 
 namespace CLI.Azure;
 
-public class AzureCommandModule : ICommandModule
+public class AzureCommandModule
 {
     public void ConfigureServices(IServiceCollection services, IConfiguration configuration)
     {
-        AzureEventSourceListener.CreateConsoleLogger(EventLevel.LogAlways);
+        _ = new AzureEventSourceListener((args, level) => Telemetry.Debug("{EventName}: {Payload}", args.EventName!, args.Payload!), EventLevel.Warning);
 
         services.Configure<AzureOptions>(o =>
         {

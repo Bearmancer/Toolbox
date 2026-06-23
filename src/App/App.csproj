@@ -1,8 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
+    <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\CLI\CLI.csproj" />
     <ProjectReference Include="..\Core\Core.csproj" />
-
   </ItemGroup>
 
   <PropertyGroup>

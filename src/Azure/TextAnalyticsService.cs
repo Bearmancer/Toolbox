@@ -1,6 +1,6 @@
 using System.Text;
 using Azure.AI.TextAnalytics;
-using Core.Logging;
+using Core;
 
 namespace App.Services.Azure;
 
@@ -12,7 +12,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("TextAnalytics.Sentiment");
+        using var activity = Telemetry.StartActivity("TextAnalytics.Sentiment");
 
         if (text.Length > Constants.TextAnalyticsMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -20,14 +20,17 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
-        Log.Emit(new ApiRequested("TextAnalytics", "AnalyzeSentiment", language));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "TextAnalytics", "AnalyzeSentiment", language);
         var startTime = DateTime.UtcNow;
         var result = await client.AnalyzeSentimentAsync(text, language, ct);
-        Log.Emit(
-            new ApiResponded("TextAnalytics", 200, (DateTime.UtcNow - startTime).TotalMilliseconds)
+        Telemetry.Debug(
+            "API response: {Service} {StatusCode} {ElapsedMs:F0}ms",
+            "TextAnalytics",
+            200,
+            (DateTime.UtcNow - startTime).TotalMilliseconds
         );
 
-        op.Complete();
+        activity.Complete();
         return $"Sentiment: {result.Value.Sentiment}\nScores: positive={result.Value.ConfidenceScores.Positive:F2}, neutral={result.Value.ConfidenceScores.Neutral:F2}, negative={result.Value.ConfidenceScores.Negative:F2}";
     }
 
@@ -37,7 +40,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("TextAnalytics.Entities");
+        using var activity = Telemetry.StartActivity("TextAnalytics.Entities");
 
         if (text.Length > Constants.TextAnalyticsMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -45,18 +48,21 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
-        Log.Emit(new ApiRequested("TextAnalytics", "RecognizeEntities", language));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "TextAnalytics", "RecognizeEntities", language);
         var startTime = DateTime.UtcNow;
         var result = await client.RecognizeEntitiesAsync(text, language, ct);
-        Log.Emit(
-            new ApiResponded("TextAnalytics", 200, (DateTime.UtcNow - startTime).TotalMilliseconds)
+        Telemetry.Debug(
+            "API response: {Service} {StatusCode} {ElapsedMs:F0}ms",
+            "TextAnalytics",
+            200,
+            (DateTime.UtcNow - startTime).TotalMilliseconds
         );
 
         var sb = new StringBuilder();
         foreach (var e in result.Value)
             sb.AppendLine($"  [{e.Category}] {e.Text} (confidence={e.ConfidenceScore:F2})");
 
-        op.Complete();
+        activity.Complete();
         return sb.Length > 0 ? sb.ToString() : "(no entities)";
     }
 
@@ -66,7 +72,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("TextAnalytics.KeyPhrases");
+        using var activity = Telemetry.StartActivity("TextAnalytics.KeyPhrases");
 
         if (text.Length > Constants.TextAnalyticsMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -74,14 +80,17 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
-        Log.Emit(new ApiRequested("TextAnalytics", "ExtractKeyPhrases", language));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "TextAnalytics", "ExtractKeyPhrases", language);
         var startTime = DateTime.UtcNow;
         var result = await client.ExtractKeyPhrasesAsync(text, language, ct);
-        Log.Emit(
-            new ApiResponded("TextAnalytics", 200, (DateTime.UtcNow - startTime).TotalMilliseconds)
+        Telemetry.Debug(
+            "API response: {Service} {StatusCode} {ElapsedMs:F0}ms",
+            "TextAnalytics",
+            200,
+            (DateTime.UtcNow - startTime).TotalMilliseconds
         );
 
-        op.Complete();
+        activity.Complete();
         return string.Join(", ", result.Value);
     }
 
@@ -91,7 +100,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("TextAnalytics.DetectLanguage");
+        using var activity = Telemetry.StartActivity("TextAnalytics.DetectLanguage");
 
         if (text.Length > Constants.TextAnalyticsMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -99,14 +108,17 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
-        Log.Emit(new ApiRequested("TextAnalytics", "DetectLanguage", countryHint));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "TextAnalytics", "DetectLanguage", countryHint);
         var startTime = DateTime.UtcNow;
         var result = await client.DetectLanguageAsync(text, countryHint, ct);
-        Log.Emit(
-            new ApiResponded("TextAnalytics", 200, (DateTime.UtcNow - startTime).TotalMilliseconds)
+        Telemetry.Debug(
+            "API response: {Service} {StatusCode} {ElapsedMs:F0}ms",
+            "TextAnalytics",
+            200,
+            (DateTime.UtcNow - startTime).TotalMilliseconds
         );
 
-        op.Complete();
+        activity.Complete();
         return $"{result.Value.Name} ({result.Value.Iso6391Name}, confidence={result.Value.ConfidenceScore:F2})";
     }
 
@@ -116,7 +128,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("TextAnalytics.Pii");
+        using var activity = Telemetry.StartActivity("TextAnalytics.Pii");
 
         if (text.Length > Constants.TextAnalyticsMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -124,7 +136,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
-        Log.Emit(new ApiRequested("TextAnalytics", "RecognizePiiEntities", language));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "TextAnalytics", "RecognizePiiEntities", language);
         var startTime = DateTime.UtcNow;
         var result = await client.RecognizePiiEntitiesAsync(
             text,
@@ -132,15 +144,18 @@ public class TextAnalyticsService(TextAnalyticsClient client)
             new RecognizePiiEntitiesOptions(),
             ct
         );
-        Log.Emit(
-            new ApiResponded("TextAnalytics", 200, (DateTime.UtcNow - startTime).TotalMilliseconds)
+        Telemetry.Debug(
+            "API response: {Service} {StatusCode} {ElapsedMs:F0}ms",
+            "TextAnalytics",
+            200,
+            (DateTime.UtcNow - startTime).TotalMilliseconds
         );
 
         var sb = new StringBuilder();
         foreach (var e in result.Value)
             sb.AppendLine($"  [{e.Category}] {e.Text}");
 
-        op.Complete();
+        activity.Complete();
         return sb.Length > 0 ? sb.ToString() : "(no PII detected)";
     }
 }

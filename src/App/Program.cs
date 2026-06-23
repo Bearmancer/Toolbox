@@ -1,12 +1,12 @@
 using CLI;
+using CLI.Azure;
 using Core;
-using Core.Infrastructure;
-using Core.Logging;
 using DotNetEnv;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Spectre.Console;
 using Spectre.Console.Cli;
+using Spectre.Console.Cli.Extensions.DependencyInjection;
 
 namespace App;
 
@@ -24,36 +24,22 @@ public static class Program
             return 2;
         }
 
-        // 1. Load .env — SEQ_URL, endpoints must be available before anything else
         Env.TraversePath().Load();
+        Telemetry.Configure(args.Contains("--debug"));
 
-        // 2. Configure Serilog — SEQ_URL is now present so the Seq sink registers correctly
-        LogPipeline.Configure("app");
-
-        // 3. Wire Ctrl+C and ProcessExit — flushes Serilog on shutdown
-        Host.Initialize();
-
-        // 4. Build configuration from env vars (already loaded by DotNetEnv)
         var configuration = new ConfigurationBuilder().AddEnvironmentVariables().Build();
-
-        // 5. Build DI container — each module registers its own services and clients
         var services = new ServiceCollection();
-        var modules = CliModuleRegistry.GetAllModules();
 
-        foreach (var module in modules)
+        try
         {
-            try
-            {
-                module.ConfigureServices(services, configuration);
-            }
-            catch (InvalidOperationException ex)
-            {
-                AnsiConsole.MarkupLine($"[red]Configuration error:[/] {ex.Message}");
-                return 2;
-            }
+            new AzureCommandModule().ConfigureServices(services, configuration);
+        }
+        catch (InvalidOperationException ex)
+        {
+            AnsiConsole.MarkupLineInterpolated($"[red]Configuration error:[/] {ex.Message}");
+            return 2;
         }
 
-        // 6. Build Spectre app wired to DI — provider built exactly once via TypeRegistrar ??= cache
         var registrar = new TypeRegistrar(services);
         var app = new CommandApp(registrar);
 
@@ -61,11 +47,16 @@ public static class Program
         {
             cfg.SetApplicationName("app");
             cfg.SetApplicationVersion("1.0.0");
-            foreach (var module in modules)
-                module.ConfigureCommands(cfg);
+            new AzureCommandModule().ConfigureCommands(cfg);
         });
 
-        // 7. Run — Spectre resolves commands via TypeResolver → IServiceProvider
-        return await app.RunAsync(args);
+        var cts = new CancellationTokenSource();
+        Console.CancelKeyPress += (_, e) =>
+        {
+            e.Cancel = true;
+            cts.Cancel();
+        };
+
+        return await app.RunAsync(args, cts.Token);
     }
 }

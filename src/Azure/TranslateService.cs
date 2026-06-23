@@ -1,5 +1,5 @@
 using Azure.AI.Translation.Text;
-using Core.Logging;
+using Core;
 
 namespace App.Services.Azure;
 
@@ -12,7 +12,7 @@ public class TranslateService(TextTranslationClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("Translate.Translate");
+        using var activity = Telemetry.StartActivity("Translate {FromLang} -> {ToLang}", fromLang, toLang);
 
         if (text.Length > Constants.TranslatorMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -20,14 +20,8 @@ public class TranslateService(TextTranslationClient client)
                 $"Text length {text.Length} exceeds 50K"
             );
 
-        Log.Emit(new ApiRequested("Translate", "Translate", $"{fromLang}->{toLang}"));
-        var startTime = DateTime.UtcNow;
         var response = await client.TranslateAsync(toLang, [text], fromLang, ct);
-        Log.Emit(
-            new ApiResponded("Translate", 200, (DateTime.UtcNow - startTime).TotalMilliseconds)
-        );
-
-        op.Complete();
+        activity.Complete();
         return $"{fromLang} -> {toLang}: {response.Value[0].Translations[0].Text}";
     }
 }

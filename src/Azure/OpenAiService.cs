@@ -1,6 +1,6 @@
 using App.Services.Azure.Options;
 using Azure.AI.OpenAI;
-using Core.Logging;
+using Core;
 using Microsoft.Extensions.Options;
 using OpenAI.Chat;
 
@@ -14,7 +14,7 @@ public class OpenAiService(AzureOpenAIClient client, IOptions<AzureOptions> opts
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("OpenAI.Chat");
+        using var activity = Telemetry.StartActivity("OpenAI.Chat {Deployment}", deployment ?? "default");
 
         if (prompt.Length > Constants.OpenAiMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -26,12 +26,8 @@ public class OpenAiService(AzureOpenAIClient client, IOptions<AzureOptions> opts
         var chat = client.GetChatClient(modelDeployment);
         var messages = new ChatMessage[] { new UserChatMessage(prompt) };
 
-        Log.Emit(new ApiRequested("OpenAI", "CompleteChat", modelDeployment));
-        var startTime = DateTime.UtcNow;
         var completion = await chat.CompleteChatAsync(messages, new ChatCompletionOptions(), ct);
-        Log.Emit(new ApiResponded("OpenAI", 200, (DateTime.UtcNow - startTime).TotalMilliseconds));
-
-        op.Complete();
+        activity.Complete();
         return $"Model: {modelDeployment}\n---\n{completion.Value.Content[0].Text}";
     }
 }

@@ -1,7 +1,7 @@
 using System.Text;
 using Azure;
 using Azure.AI.DocumentIntelligence;
-using Core.Logging;
+using Core;
 
 namespace App.Services.Azure;
 
@@ -22,7 +22,7 @@ public class DocIntelService(DocumentIntelligenceClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("DocumentIntelligence.Analyze");
+        using var activity = Telemetry.StartActivity("DocumentIntelligence.Analyze");
 
         var path = FileHelpers.ResolvePath(filePath);
         var bytes = FileHelpers.ReadChecked(
@@ -31,25 +31,24 @@ public class DocIntelService(DocumentIntelligenceClient client)
             "DocumentIntelligence"
         );
 
-        Log.Emit(new ApiRequested("DocumentIntelligence", "AnalyzeDocument", modelId));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "DocumentIntelligence", "AnalyzeDocument", modelId);
         var startTime = DateTime.UtcNow;
         var operation = await client.AnalyzeDocumentAsync(
             WaitUntil.Completed,
             new AnalyzeDocumentOptions(modelId, BinaryData.FromBytes(bytes)),
             ct
         );
-        Log.Emit(
-            new ApiResponded(
-                "DocumentIntelligence",
-                200,
-                (DateTime.UtcNow - startTime).TotalMilliseconds
-            )
+        Telemetry.Debug(
+            "API response: {Service} {StatusCode} {ElapsedMs:F0}ms",
+            "DocumentIntelligence",
+            200,
+            (DateTime.UtcNow - startTime).TotalMilliseconds
         );
 
         var result = operation.Value;
         if (result.Pages.Count is 0)
         {
-            op.Fail();
+            Telemetry.Error("Model returned no pages");
             throw new InvalidOperationException("Model returned no pages");
         }
 
@@ -59,7 +58,7 @@ public class DocIntelService(DocumentIntelligenceClient client)
         sb.AppendLine("---");
         sb.AppendLine(result.Content);
 
-        op.Complete();
+        activity.Complete();
         return sb.ToString();
     }
 }

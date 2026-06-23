@@ -1,21 +1,17 @@
 using System.ComponentModel;
 using App.Services.Azure;
-using Core;
+using Spectre.Console;
 using Spectre.Console.Cli;
 
 namespace CLI.Azure;
 
 [Description("Synthesize text to speech using Azure Speech Service")]
-public class SpeechTtsCommand(SpeechTtsService service) : CommandBase<SpeechTtsCommand.Settings>
+public class SpeechTtsCommand(SpeechTtsService service) : AsyncCommand<SpeechTtsCommand.Settings>
 {
-    protected override async Task<int> ExecuteCommandAsync(
-        CommandContext context,
-        Settings settings,
-        CancellationToken ct
-    )
+    protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
     {
-        var result = await service.SynthesizeAsync(settings.Text, settings.Voice, settings.Out, ct);
-        Ui.Info(result);
+        var result = await service.SynthesizeAsync(s.Text, s.Voice, s.Out, ct);
+        AnsiConsole.MarkupLine(result);
         return 0;
     }
 

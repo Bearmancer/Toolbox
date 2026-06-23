@@ -1,32 +1,27 @@
+using System.ComponentModel;
 using App.Services.Azure;
-using Core;
+using Spectre.Console;
 using Spectre.Console.Cli;
 
 namespace CLI.Azure;
 
-[System.ComponentModel.Description("Detect Personally Identifiable Information (PII) in text")]
-public class PiiCommand(TextAnalyticsService service) : CommandBase<PiiCommand.Settings>
+[Description("Detect Personally Identifiable Information (PII) in text")]
+public class PiiCommand(TextAnalyticsService service) : AsyncCommand<PiiCommand.Settings>
 {
-    protected override async Task<int> ExecuteCommandAsync(
-        CommandContext ctx,
-        Settings s,
-        CancellationToken ct
-    )
+    protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
     {
-        var result = await service.PiiAsync(s.Text, language: s.Lang ?? "en", ct: ct);
-        Ui.Info(result);
+        var result = await service.PiiAsync(s.Text, language: s.Lang ?? "en", ct);
+        AnsiConsole.MarkupLine(result);
         return 0;
     }
 
     public sealed class Settings : CommandSettings
     {
-        [System.ComponentModel.Description(
-            "The text to scan for Personally Identifiable Information."
-        )]
+        [Description("The text to scan for Personally Identifiable Information.")]
         [CommandArgument(0, "<text>")]
         public required string Text { get; init; }
 
-        [System.ComponentModel.Description("The language of the text (e.g., 'en').")]
+        [Description("The language of the text (e.g., 'en').")]
         [CommandOption("--lang <LANG>")]
         public string? Lang { get; init; }
     }

@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using App.Services.Azure.Options;
-using Core.Logging;
+using Core;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 using Microsoft.Extensions.Options;
@@ -15,7 +15,7 @@ public class SpeechSttService(IOptions<AzureOptions> opts)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("Speech.Transcribe");
+        using var activity = Telemetry.StartActivity("Speech.Transcribe");
 
         var path = FileHelpers.ResolvePath(filePath);
         FileHelpers.ReadChecked(path, Constants.SpeechMaxBytes, "Speech");
@@ -43,7 +43,7 @@ public class SpeechSttService(IOptions<AzureOptions> opts)
         recognizer.SessionStopped += (_, _) => stopped.TrySetResult(true);
         recognizer.Canceled += (_, _) => stopped.TrySetResult(true);
 
-        Log.Emit(new ApiRequested("Speech", "StartContinuousRecognition", language));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "Speech", "StartContinuousRecognition", language);
         var startTime = DateTime.UtcNow;
         await recognizer.StartContinuousRecognitionAsync();
         using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
@@ -52,12 +52,12 @@ public class SpeechSttService(IOptions<AzureOptions> opts)
         await stopped.Task;
 
         await recognizer.StopContinuousRecognitionAsync();
-        Log.Emit(new ApiResponded("Speech", 200, (DateTime.UtcNow - startTime).TotalMilliseconds));
+        Telemetry.Debug("API response: {Service} {StatusCode} {ElapsedMs:F0}ms", "Speech", 200, (DateTime.UtcNow - startTime).TotalMilliseconds);
 
         if (ext is not ".wav")
             throw new InvalidOperationException("Extension is not WAV!");
 
-        op.Complete();
+        activity.Complete();
         return $"Language: {language}\nSegments: {segments.Count}\n---\n{string.Join(' ', segments)}";
     }
 

@@ -1,5 +1,5 @@
 using App.Services.Azure.Options;
-using Core.Logging;
+using Core;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.Extensions.Options;
 
@@ -14,7 +14,7 @@ public class SpeechTtsService(IOptions<AzureOptions> opts)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("Speech.Synthesize");
+        using var activity = Telemetry.StartActivity("Speech.Synthesize");
 
         if (text.Length > Constants.OpenAiMaxChars)
             throw new ArgumentOutOfRangeException(
@@ -26,14 +26,14 @@ public class SpeechTtsService(IOptions<AzureOptions> opts)
         config.SpeechSynthesisVoiceName = voice;
         using var synth = new SpeechSynthesizer(config);
 
-        Log.Emit(new ApiRequested("Speech", "SpeakText", voice));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "Speech", "SpeakText", voice);
         var startTime = DateTime.UtcNow;
         var result = await synth.SpeakTextAsync(text);
-        Log.Emit(new ApiResponded("Speech", 200, (DateTime.UtcNow - startTime).TotalMilliseconds));
+        Telemetry.Debug("API response: {Service} {StatusCode} {ElapsedMs:F0}ms", "Speech", 200, (DateTime.UtcNow - startTime).TotalMilliseconds);
 
         await File.WriteAllBytesAsync(outputPath, result.AudioData, ct);
 
-        op.Complete();
+        activity.Complete();
         return $"Voice: {voice}\nSaved: {outputPath}\nSize: {result.AudioData.Length:N0} bytes";
     }
 

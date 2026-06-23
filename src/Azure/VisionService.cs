@@ -1,6 +1,6 @@
 using System.Text;
 using Azure.AI.Vision.ImageAnalysis;
-using Core.Logging;
+using Core;
 
 namespace App.Services.Azure;
 
@@ -13,7 +13,7 @@ public class VisionService(ImageAnalysisClient client)
         CancellationToken ct = default
     )
     {
-        using var op = Log.BeginOperation("Vision.Analyze");
+        using var activity = Telemetry.StartActivity("Vision.Analyze");
 
         var path = FileHelpers.ResolvePath(filePath);
         var bytes = FileHelpers.ReadChecked(path, Constants.VisionMaxBytes, "ComputerVision");
@@ -26,7 +26,7 @@ public class VisionService(ImageAnalysisClient client)
             _ => VisualFeatures.Tags,
         };
 
-        Log.Emit(new ApiRequested("Vision", "Analyze", feature));
+        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "Vision", "Analyze", feature);
         var startTime = DateTime.UtcNow;
         var result = await client.AnalyzeAsync(
             BinaryData.FromBytes(bytes),
@@ -34,7 +34,7 @@ public class VisionService(ImageAnalysisClient client)
             new ImageAnalysisOptions { Language = language },
             ct
         );
-        Log.Emit(new ApiResponded("Vision", 200, (DateTime.UtcNow - startTime).TotalMilliseconds));
+        Telemetry.Debug("API response: {Service} {StatusCode} {ElapsedMs:F0}ms", "Vision", 200, (DateTime.UtcNow - startTime).TotalMilliseconds);
 
         var sb = new StringBuilder();
         if (feature is "tags" or "all" && result.Value.Tags is { } tags)
@@ -54,7 +54,7 @@ public class VisionService(ImageAnalysisClient client)
                     sb.AppendLine($"  {line.Text}");
         }
 
-        op.Complete();
+        activity.Complete();
         return sb.ToString();
     }
 }
