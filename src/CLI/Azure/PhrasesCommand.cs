@@ -1,5 +1,5 @@
 using System.ComponentModel;
-using App.Services.Azure;
+using Services.Azure;
 using Spectre.Console;
 using Spectre.Console.Cli;
 
