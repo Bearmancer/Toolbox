@@ -10,7 +10,14 @@ public class ChatCommand(OpenAiService service) : AsyncCommand<ChatCommand.Setti
 {
     protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
     {
-        var result = await service.ChatAsync(s.Prompt, s.Deployment, ct);
+        var result = await service.ChatAsync(
+            s.Prompt,
+            ct,
+            s.Deployment,
+            s.SystemPrompt,
+            s.Temperature,
+            s.MaxTokens
+        );
         AnsiConsole.MarkupLine(result);
         return 0;
     }
@@ -24,5 +31,18 @@ public class ChatCommand(OpenAiService service) : AsyncCommand<ChatCommand.Setti
         [Description("The OpenAI deployment name to use (overrides configuration).")]
         [CommandOption("--deployment <NAME>")]
         public string? Deployment { get; init; }
+
+        [Description("System prompt that sets the behavior and context for the model.")]
+        [CommandOption("--system-prompt <PROMPT>")]
+        public string? SystemPrompt { get; init; }
+
+        [Description("Sampling temperature between 0.0 and 2.0. Higher values increase randomness (default: 1.0).")]
+        [CommandOption("--temperature <TEMP>")]
+        [DefaultValue(1.0f)]
+        public float Temperature { get; init; } = 1.0f;
+
+        [Description("Maximum number of tokens to generate in the response.")]
+        [CommandOption("--max-tokens <N>")]
+        public int? MaxTokens { get; init; }
     }
 }

@@ -2,11 +2,12 @@ using CLI;
 using CLI.Azure;
 using Core;
 using DotNetEnv;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Services.Azure;
+using Services.Google;
 using Spectre.Console;
 using Spectre.Console.Cli;
-using Spectre.Console.Cli.Extensions.DependencyInjection;
+using CLI.Google;
 
 namespace App;
 
@@ -19,25 +20,32 @@ public static class Program
         if (!File.Exists(envPath))
         {
             await Console.Error.WriteLineAsync(
-                $".env not found at {envPath}. Create one at the repo root with all required keys."
-            );
+                $".env not found at {envPath}. Create one at the repo root with all required keys.");
             return 2;
         }
 
         Env.TraversePath().Load();
         Telemetry.Configure(args.Contains("--debug"));
 
-        var configuration = new ConfigurationBuilder().AddEnvironmentVariables().Build();
         var services = new ServiceCollection();
 
         try
         {
-            new AzureCommandModule().ConfigureServices(services, configuration);
+            services.AddAzureServices();
+            services.AddGoogleServices();
         }
         catch (InvalidOperationException ex)
         {
             AnsiConsole.MarkupLineInterpolated($"[red]Configuration error:[/] {ex.Message}");
             return 2;
+        }
+
+        if (args.Contains("--test"))
+        {
+            using var cts = new CancellationTokenSource();
+            var provider = services.BuildServiceProvider();
+            await ManualIntegrationTest.RunAsync(provider, cts.Token);
+            return 0;
         }
 
         var registrar = new TypeRegistrar(services);
@@ -47,16 +55,17 @@ public static class Program
         {
             cfg.SetApplicationName("app");
             cfg.SetApplicationVersion("1.0.0");
-            new AzureCommandModule().ConfigureCommands(cfg);
+            AzureCommandModule.ConfigureCommands(cfg);
+            GoogleCommandModule.ConfigureCommands(cfg);
         });
 
-        var cts = new CancellationTokenSource();
+        using var appCts = new CancellationTokenSource();
         Console.CancelKeyPress += (_, e) =>
         {
             e.Cancel = true;
-            cts.Cancel();
+            appCts.Cancel();
         };
 
-        return await app.RunAsync(args, cts.Token);
+        return await app.RunAsync(args, appCts.Token);
     }
 }

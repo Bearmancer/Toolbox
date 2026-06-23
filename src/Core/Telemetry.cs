@@ -1,7 +1,9 @@
 using System.Net.Sockets;
 using Serilog;
+using Serilog.Context;
 using Serilog.Core;
 using Serilog.Events;
+using Serilog.Formatting.Compact;
 using Serilog.Sinks.Spectre;
 using SerilogTracing;
 
@@ -9,7 +11,7 @@ namespace Core;
 
 public static class Telemetry
 {
-    public static LoggingLevelSwitch LevelSwitch { get; private set; } = null!;
+    private static LoggingLevelSwitch LevelSwitch { get; set; } = new(LogEventLevel.Information);
 
     public static void Configure(bool debug = false)
     {
@@ -17,7 +19,27 @@ public static class Telemetry
 
         var config = new LoggerConfiguration()
             .MinimumLevel.ControlledBy(LevelSwitch)
-            .WriteTo.File("logs/app.log")
+            .WriteTo.File(
+                new CompactJsonFormatter(),
+                "logs/app.jsonl",
+                rollingInterval: RollingInterval.Day,
+                retainedFileCountLimit: 7)
+            .WriteTo.Logger(lc => lc
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
+                    && e.Properties["Service"].ToString().Contains("Azure"))
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    "logs/azure.jsonl",
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7))
+            .WriteTo.Logger(lc => lc
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
+                    && e.Properties["Service"].ToString().Contains("Google"))
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    "logs/google.jsonl",
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7))
             .WriteTo.Spectre();
 
         if (IsSeqReachable())
@@ -25,6 +47,9 @@ public static class Telemetry
 
         Log.Logger = config.CreateLogger();
     }
+
+    public static IDisposable ForService(string service)
+        => LogContext.PushProperty("Service", service);
 
     public static void Info(string template, params object[] args)
         => Log.Information(template, args);
@@ -49,7 +74,11 @@ public static class Telemetry
             var task = client.ConnectAsync("localhost", 5341);
             return task.Wait(500);
         }
-        catch
+        catch (SocketException)
+        {
+            return false;
+        }
+        catch (IOException)
         {
             return false;
         }

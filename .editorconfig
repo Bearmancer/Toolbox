@@ -50,21 +50,78 @@ csharp_prefer_static_local_function = true:warning
 # ══════════════════════════════════════════════════════════════════════
 # 7. Disable unused variable/parameter flagging
 # ══════════════════════════════════════════════════════════════════════
+
+# IDE0059: Unnecessary assignment of a value to a variable
+# Suppressed because: Discards and unused returns are common in async patterns
+# and disposal patterns. The analyzer flags legitimate patterns like:
+#   using var _ = Telemetry.ForService("Azure");
+#   var _ = someDisposable;
 dotnet_diagnostic.IDE0059.severity = none
+
+# IDE0060: Remove unused parameter
+# Suppressed because: Interface implementations and framework callbacks require
+# parameters even when unused. Also, test scaffolding may have unused params.
 dotnet_diagnostic.IDE0060.severity = none
+
+# IDE0058: Expression value is never used
+# Suppressed because: Fluent API calls and method chaining often return values
+# that are intentionally ignored (e.g., builder patterns, LINQ side effects).
 dotnet_diagnostic.IDE0058.severity = none
+
+# IDE0051: Private member is unused
+# Suppressed because: Framework-required members (like event handlers, DI factories)
+# may appear unused to the analyzer but are needed at runtime.
 dotnet_diagnostic.IDE0051.severity = none
+
+# CS0219: Variable assigned but never used
+# Suppressed because: Discard patterns and intentional unused variables are common
+# in modern C# (e.g., using var _ = ...).
 dotnet_diagnostic.CS0219.severity = none
 
+# ══════════════════════════════════════════════════════════════════════
 # Style rules that should not block build (suggestion only)
+# ══════════════════════════════════════════════════════════════════════
+
+# IDE0011: Add braces
+# Suggestion because: Single-line if/else statements are acceptable for simple cases.
+# Enforcing braces everywhere adds visual noise for trivial logic.
 dotnet_diagnostic.IDE0011.severity = suggestion
+
+# IDE0022: Use expression body for method
+# Suggestion because: Expression bodies are preferred for single-line methods,
+# but multi-line methods are clearer with block bodies.
 dotnet_diagnostic.IDE0022.severity = suggestion
+
+# IDE0008: Use explicit type instead of var
+# Suppressed because: The project prefers var when type is apparent (see IDE0007/IDE0008 above).
+# This rule conflicts with the var preference policy.
 dotnet_diagnostic.IDE0008.severity = none
 
+# ══════════════════════════════════════════════════════════════════════
 # CA rules that are too noisy for existing codebase
+# ══════════════════════════════════════════════════════════════════════
+
+# CA1305: Specify IFormatProvider
+# Suppressed because: Most string formatting in this CLI tool uses invariant culture
+# by default. Requiring IFormatProvider everywhere adds boilerplate without benefit
+# for a single-locale CLI tool.
 dotnet_diagnostic.CA1305.severity = none
+
+# CA1725: Parameter names should match base declaration
+# Suppressed because: Renaming parameters to match interfaces would break existing
+# callers using named arguments. The mismatch is intentional for clarity.
 dotnet_diagnostic.CA1725.severity = none
+
+# CA1852: Type can be sealed
+# Suppressed because: Spectre.Console.Cli requires command types to be extensible.
+# Sealing them would break the framework's inheritance model.
 dotnet_diagnostic.CA1852.severity = none
+
+# IDE0052: Private member can be removed (value never read)
+# Suppressed because: Side-effect fields (like AzureEventSourceListener) need to
+# exist to prevent garbage collection. The field stores a reference to keep the
+# listener alive, even though it's never explicitly read.
+dotnet_diagnostic.IDE0052.severity = none
 
 # ══════════════════════════════════════════════════════════════════════
 # 8+9. PascalCase for ALL variables, no _ for private fields

@@ -10,7 +10,7 @@ public class LanguageCommand(TextAnalyticsService service) : AsyncCommand<Langua
 {
     protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
     {
-        var result = await service.DetectLanguageAsync(s.Text, countryHint: s.Lang ?? "us", ct);
+        var result = await service.DetectLanguageAsync(s.Text, countryHint: s.Country ?? "us", ct);
         AnsiConsole.MarkupLine(result);
         return 0;
     }
@@ -21,8 +21,8 @@ public class LanguageCommand(TextAnalyticsService service) : AsyncCommand<Langua
         [CommandArgument(0, "<text>")]
         public required string Text { get; init; }
 
-        [Description("Country hint to improve detection (e.g., 'us').")]
-        [CommandOption("--lang <LANG>")]
-        public string? Lang { get; init; }
+        [Description("Country hint to improve detection (e.g., 'us', 'gb').")]
+        [CommandOption("--country <CODE>")]
+        public string? Country { get; init; }
     }
 }

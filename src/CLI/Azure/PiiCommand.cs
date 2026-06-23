@@ -10,7 +10,7 @@ public class PiiCommand(TextAnalyticsService service) : AsyncCommand<PiiCommand.
 {
     protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
     {
-        var result = await service.PiiAsync(s.Text, language: s.Lang ?? "en", ct);
+        var result = await service.PiiAsync(s.Text, language: s.Lang ?? "en", s.Domain, ct);
         AnsiConsole.MarkupLine(result);
         return 0;
     }
@@ -24,5 +24,9 @@ public class PiiCommand(TextAnalyticsService service) : AsyncCommand<PiiCommand.
         [Description("The language of the text (e.g., 'en').")]
         [CommandOption("--lang <LANG>")]
         public string? Lang { get; init; }
+
+        [Description("Restrict PII detection to a specific domain (e.g., 'phi' for healthcare, 'none' for no domain filter).")]
+        [CommandOption("--domain <DOMAIN>")]
+        public string? Domain { get; init; }
     }
 }

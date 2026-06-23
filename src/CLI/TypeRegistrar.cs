@@ -5,9 +5,12 @@ namespace CLI;
 
 public sealed class TypeRegistrar(IServiceCollection services) : ITypeRegistrar
 {
+    private ServiceProvider? Provider;
+
     public ITypeResolver Build()
     {
-        return new TypeResolver(services.BuildServiceProvider());
+        Provider ??= services.BuildServiceProvider();
+        return new TypeResolver(Provider);
     }
 
     public void Register(Type service, Type implementation)

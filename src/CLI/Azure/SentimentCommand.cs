@@ -10,7 +10,7 @@ public class SentimentCommand(TextAnalyticsService service) : AsyncCommand<Senti
 {
     protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
     {
-        var result = await service.SentimentAsync(s.Text, language: s.Lang ?? "en", ct);
+        var result = await service.SentimentAsync(s.Text, s.Lang ?? "en", ct, s.OpinionMining);
         AnsiConsole.MarkupLine(result);
         return 0;
     }
@@ -24,5 +24,9 @@ public class SentimentCommand(TextAnalyticsService service) : AsyncCommand<Senti
         [Description("The language of the text (e.g., 'en').")]
         [CommandOption("--lang <LANG>")]
         public string? Lang { get; init; }
+
+        [Description("Enable opinion mining to extract aspect-level sentiment (e.g., 'food: positive, service: negative').")]
+        [CommandOption("--opinion-mining")]
+        public bool OpinionMining { get; init; }
     }
 }

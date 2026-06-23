@@ -3,15 +3,11 @@
     <RootNamespace>CLI</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DotNetEnv" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" />
-    <PackageReference Include="Microsoft.Extensions.Options" />
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
     <PackageReference Include="Spectre.Console.Cli" />
-    <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
-    <ProjectReference Include="..\Azure\Azure.csproj" />
+    <ProjectReference Include="..\Services\Azure\Azure.csproj" />
+    <ProjectReference Include="..\Services\Google\Google.csproj" />
   </ItemGroup>
 </Project>

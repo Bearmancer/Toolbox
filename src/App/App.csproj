@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
     <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" />
+    <PackageReference Include="DotNetEnv" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CLI\CLI.csproj" />
@@ -10,6 +11,5 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>App</RootNamespace>
-    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
   </PropertyGroup>
 </Project>
