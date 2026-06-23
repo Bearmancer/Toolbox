@@ -3,7 +3,7 @@ using Azure;
 using Azure.AI.DocumentIntelligence;
 using Core;
 
-namespace App.Services.Azure;
+namespace Services.Azure;
 
 public class DocIntelService(DocumentIntelligenceClient client)
 {
@@ -19,7 +19,7 @@ public class DocIntelService(DocumentIntelligenceClient client)
     public async Task<string> AnalyzeAsync(
         string filePath,
         string modelId,
-        CancellationToken ct = default
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("DocumentIntelligence.Analyze");

@@ -1,4 +1,4 @@
-namespace App.Services.Azure;
+namespace Services.Azure;
 
 public static class FileHelpers
 {

@@ -2,15 +2,15 @@ using System.Text;
 using Azure.AI.Vision.ImageAnalysis;
 using Core;
 
-namespace App.Services.Azure;
+namespace Services.Azure;
 
 public class VisionService(ImageAnalysisClient client)
 {
     public async Task<string> AnalyzeAsync(
         string filePath,
         string feature,
-        string language = "en",
-        CancellationToken ct = default
+        string language,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("Vision.Analyze");

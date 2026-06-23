@@ -1,18 +1,18 @@
 using System.Diagnostics;
-using App.Services.Azure.Options;
+using Services.Azure.Options;
 using Core;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
-using Microsoft.Extensions.Options;
 
-namespace App.Services.Azure;
 
-public class SpeechSttService(IOptions<AzureOptions> opts)
+namespace Services.Azure;
+
+public class SpeechSttService(AzureOptions opts)
 {
     public async Task<string> TranscribeAsync(
         string filePath,
-        string language = "en-US",
-        CancellationToken ct = default
+        string language,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("Speech.Transcribe");
@@ -79,7 +79,7 @@ public class SpeechSttService(IOptions<AzureOptions> opts)
 
     private SpeechConfig BuildSpeechConfig()
     {
-        var endpoint = new Uri(opts.Value.SpeechEndpoint!);
-        return SpeechConfig.FromEndpoint(endpoint, opts.Value.SpeechKey!);
+        var endpoint = new Uri(opts.SpeechEndpoint!);
+        return SpeechConfig.FromEndpoint(endpoint, opts.SpeechKey!);
     }
 }

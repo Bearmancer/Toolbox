@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <RootNamespace>App.Services.Azure</RootNamespace>
+    <RootNamespace>Services.Azure</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Azure.AI.DocumentIntelligence" />
@@ -9,7 +9,8 @@
     <PackageReference Include="Azure.AI.Vision.ImageAnalysis" />
     <PackageReference Include="Azure.AI.OpenAI" />
     <PackageReference Include="Microsoft.CognitiveServices.Speech" />
-
+    <PackageReference Include="Azure.Core" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />

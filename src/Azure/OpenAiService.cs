@@ -1,17 +1,17 @@
-using App.Services.Azure.Options;
+using Services.Azure.Options;
 using Azure.AI.OpenAI;
 using Core;
 using Microsoft.Extensions.Options;
 using OpenAI.Chat;
 
-namespace App.Services.Azure;
+namespace Services.Azure;
 
 public class OpenAiService(AzureOpenAIClient client, IOptions<AzureOptions> opts)
 {
     public async Task<string> ChatAsync(
         string prompt,
-        string? deployment = null,
-        CancellationToken ct = default
+        CancellationToken ct,
+        string? deployment = null
     )
     {
         using var activity = Telemetry.StartActivity("OpenAI.Chat {Deployment}", deployment ?? "default");

@@ -1,4 +1,4 @@
-namespace App.Services.Azure.Options;
+namespace Services.Azure.Options;
 
 public class AzureOptions
 {

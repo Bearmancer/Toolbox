@@ -2,14 +2,14 @@ using System.Text;
 using Azure.AI.TextAnalytics;
 using Core;
 
-namespace App.Services.Azure;
+namespace Services.Azure;
 
 public class TextAnalyticsService(TextAnalyticsClient client)
 {
     public async Task<string> SentimentAsync(
         string text,
-        string language = "en",
-        CancellationToken ct = default
+        string language,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("TextAnalytics.Sentiment");
@@ -36,8 +36,8 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 
     public async Task<string> EntitiesAsync(
         string text,
-        string language = "en",
-        CancellationToken ct = default
+        string language,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("TextAnalytics.Entities");
@@ -68,8 +68,8 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 
     public async Task<string> KeyPhrasesAsync(
         string text,
-        string language = "en",
-        CancellationToken ct = default
+        string language,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("TextAnalytics.KeyPhrases");
@@ -96,8 +96,8 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 
     public async Task<string> DetectLanguageAsync(
         string text,
-        string countryHint = "us",
-        CancellationToken ct = default
+        string countryHint,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("TextAnalytics.DetectLanguage");
@@ -124,8 +124,8 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 
     public async Task<string> PiiAsync(
         string text,
-        string language = "en",
-        CancellationToken ct = default
+        string language,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("TextAnalytics.Pii");

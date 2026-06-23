@@ -1,15 +1,15 @@
 using Azure.AI.Translation.Text;
 using Core;
 
-namespace App.Services.Azure;
+namespace Services.Azure;
 
 public class TranslateService(TextTranslationClient client)
 {
     public async Task<string> TranslateAsync(
         string text,
         string toLang,
-        string fromLang = "en",
-        CancellationToken ct = default
+        string fromLang,
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("Translate {FromLang} -> {ToLang}", fromLang, toLang);

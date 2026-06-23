@@ -1,17 +1,17 @@
-using App.Services.Azure.Options;
+using Services.Azure.Options;
 using Core;
 using Microsoft.CognitiveServices.Speech;
-using Microsoft.Extensions.Options;
 
-namespace App.Services.Azure;
 
-public class SpeechTtsService(IOptions<AzureOptions> opts)
+namespace Services.Azure;
+
+public class SpeechTtsService(AzureOptions opts)
 {
     public async Task<string> SynthesizeAsync(
         string text,
         string voice,
         string outputPath,
-        CancellationToken ct = default
+        CancellationToken ct
     )
     {
         using var activity = Telemetry.StartActivity("Speech.Synthesize");
@@ -28,6 +28,7 @@ public class SpeechTtsService(IOptions<AzureOptions> opts)
 
         Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "Speech", "SpeakText", voice);
         var startTime = DateTime.UtcNow;
+        await using var reg = ct.Register(() => _ = synth.StopSpeakingAsync());
         var result = await synth.SpeakTextAsync(text);
         Telemetry.Debug("API response: {Service} {StatusCode} {ElapsedMs:F0}ms", "Speech", 200, (DateTime.UtcNow - startTime).TotalMilliseconds);
 
@@ -39,7 +40,7 @@ public class SpeechTtsService(IOptions<AzureOptions> opts)
 
     private SpeechConfig BuildSpeechConfig()
     {
-        var endpoint = new Uri(opts.Value.SpeechEndpoint!);
-        return SpeechConfig.FromEndpoint(endpoint, opts.Value.SpeechKey!);
+        var endpoint = new Uri(opts.SpeechEndpoint!);
+        return SpeechConfig.FromEndpoint(endpoint, opts.SpeechKey!);
     }
 }
