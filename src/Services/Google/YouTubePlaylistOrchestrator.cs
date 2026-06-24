@@ -40,10 +40,18 @@ public class YouTubePlaylistOrchestrator(
         var skippedVideos = 0;
         var playlistStopwatch = Stopwatch.StartNew();
 
+        var playlistIndex = 0;
         foreach (var snapshot in playlistsToProcess)
         {
             if (ct.IsCancellationRequested)
                 break;
+
+            playlistIndex++;
+            Telemetry.Info(
+                "[{Index}/{Total}] {Title}",
+                playlistIndex,
+                playlistsToProcess.Count,
+                snapshot.Title);
 
             var (videos, skipped) = await ProcessPlaylistAsync(snapshot, ct);
             totalVideos += videos;
@@ -187,9 +195,8 @@ public class YouTubePlaylistOrchestrator(
         playlistStopwatch.Stop();
         var quotaUsed = youtubeService.QuotaUsed - quotaBefore;
 
-        Telemetry.Debug(
-            "Saved playlist: {Title} ({Count} videos, {Skipped} skipped) in {Elapsed:F1}s ({Quota} quota units)",
-            snapshot.Title,
+        Telemetry.Info(
+            "  done — {Count} videos, {Skipped} skipped in {Elapsed:F1}s ({Quota} quota units)",
             videos.Count,
             skipped,
             playlistStopwatch.Elapsed.TotalSeconds,
