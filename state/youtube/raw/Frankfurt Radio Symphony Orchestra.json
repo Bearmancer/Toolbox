@@ -1,0 +1,2367 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "zWxvz6_swdk",
+			"VideoPublishedAtRaw": "2016-04-04T14:40:29Z",
+			"VideoPublishedAtDateTimeOffset": "2016-04-04T14:40:29+00:00",
+			"VideoPublishedAt": "2016-04-04T20:10:29+05:30"
+		},
+		"ETag": "8yYysvWNWt9aVTqIYq6UmLx1zfs",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Keiko Abe: \nPrism Rhapsody \u2219 \nf\u00FCr Marimbafon und Orchester \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMartin Grubinger, Schlagzeug \u2219 \nVasily Petrenko, Dirigent \u2219\n\nAlte Oper Frankfurt, 18. M\u00E4rz 2016 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 0,
+			"PublishedAtRaw": "2023-11-26T04:19:33Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:19:33+00:00",
+			"PublishedAt": "2023-11-26T09:49:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zWxvz6_swdk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zWxvz6_swdk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zWxvz6_swdk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/zWxvz6_swdk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zWxvz6_swdk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/zWxvz6_swdk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Abe: Prism Rhapsody \u2219 hr-Sinfonieorchester \u2219 Martin Grubinger \u2219 Vasily Petrenko",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "p9YGQ86vIps",
+			"VideoPublishedAtRaw": "2014-10-19T08:44:00Z",
+			"VideoPublishedAtDateTimeOffset": "2014-10-19T08:44:00+00:00",
+			"VideoPublishedAt": "2014-10-19T14:14:00+05:30"
+		},
+		"ETag": "2MlwYvDyRwq5-WK77hUjNLpFH_8",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Thomas Ad\u00E8s: \nAsyla \u2219 \n\n(Einf\u00FChrung)  00:00  \u2219\nI.  08:02 \u2219\nII.  13:31\u2219\nIII. Ecstasio  20:02 \u2219\nIV.  26:20 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nMarkus Stenz, Dirigent \u2219\n\nAlte Oper Frankfurt, 26. September 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 1,
+			"PublishedAtRaw": "2023-11-26T04:12:18Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:12:18+00:00",
+			"PublishedAt": "2023-11-26T09:42:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "p9YGQ86vIps"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/p9YGQ86vIps/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/p9YGQ86vIps/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/p9YGQ86vIps/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/p9YGQ86vIps/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/p9YGQ86vIps/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Ad\u00E8s: Asyla \u2219 hr-Sinfonieorchester \u2219 Markus Stenz",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "CswXVujosHY",
+			"VideoPublishedAtRaw": "2024-01-02T11:00:08Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-02T11:00:08+00:00",
+			"VideoPublishedAt": "2024-01-02T16:30:08+05:30"
+		},
+		"ETag": "hS3U6C76cLnasN1BOpw5g3Kw2VY",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bernd Alois Zimmermann: \nMusique pour les soupers du Roi Ubu \u2219 \nBallet noir en sept parties et une entr\u00E9e\nf\u00FCr Orchester und Combo \u2219\n\nI. Entr\u00E9e de l\u2019Acad\u00E9mie  00:00 \u2219\nII. Ubu Roi, Capitaine Bordure et ses Partisans  01:56 \u2219\nIII. M\u00E8re Ubu et ses Gardes  05:04 \u2219\nIV. Pile, Cotice et l\u0027ours  07:02 \u2219\nV. Le Cheval a Phynances et les larbins de Phynances  08:21 \u2219\nVI. Pavane de Pissembock et Pissedoux  09:32 \u2219\nVII. Berceuse des petits financiers qui ne peuvent pas s\u0027endomir  12:55 \u2219\nVIII. Marche du d\u00E9cervellage  14:11 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAnja Bihlmaier, Dirigentin \u2219 \n\nAuftakt \u2219\nhr-Sendesaal Frankfurt, 3. November 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 2,
+			"PublishedAtRaw": "2024-01-13T11:16:28Z",
+			"PublishedAtDateTimeOffset": "2024-01-13T11:16:28+00:00",
+			"PublishedAt": "2024-01-13T16:46:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "CswXVujosHY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/CswXVujosHY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/CswXVujosHY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/CswXVujosHY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/CswXVujosHY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/CswXVujosHY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "B. A. Zimmermann: Musique pour les soupers du Roi Ubu \u2219 hr-Sinfonieorchester \u2219 Anja Bihlmaier",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "od8DrdiMAHc",
+			"VideoPublishedAtRaw": "2013-04-01T11:55:32Z",
+			"VideoPublishedAtDateTimeOffset": "2013-04-01T11:55:32+00:00",
+			"VideoPublishedAt": "2013-04-01T17:25:32+05:30"
+		},
+		"ETag": "naufiy-m-gRq_CkBTczngQdQJhw",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Beethoven: \n2. Leonoren-Ouvert\u00FCre \u2219 \n\nAdagio - Allegro - Presto \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nStanis\u0142aw Skrowaczewski, Dirigent \u2219\n\nAlte Oper Frankfurt, 22. M\u00E4rz 2013 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 3,
+			"PublishedAtRaw": "2023-11-26T04:04:22Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:04:22+00:00",
+			"PublishedAt": "2023-11-26T09:34:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "od8DrdiMAHc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: 2. Leonoren-Ouvert\u00FCre \u2219 hr-Sinfonieorchester \u2219 Stanis\u0142aw Skrowaczewski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "9Ij6I_zhBdU",
+			"VideoPublishedAtRaw": "2013-04-01T12:09:11Z",
+			"VideoPublishedAtDateTimeOffset": "2013-04-01T12:09:11+00:00",
+			"VideoPublishedAt": "2013-04-01T17:39:11+05:30"
+		},
+		"ETag": "XvDOWBqqYOyODqpSyJOCqgIPvdM",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms: \n1. Sinfonie \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Un poco sostenuto \u2013 Allegro  00:23 \u2219\nII. Andante sostenuto  18:40 \u2219\nIII. Un poco Allegretto e grazioso  28:26 \u2219\nIV. Adagio \u2013 Pi\u00F9 andante \u2013 Allegro non troppo, ma con brio \u2013 Pi\u00F9 allegro  33:45 \u2219\n                                                                 \nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nStanis\u0142aw Skrowaczewski, Dirigent \u2219\n\nAlte Oper Frankfurt, 22. M\u00E4rz 2013 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 4,
+			"PublishedAtRaw": "2023-11-26T04:04:29Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:04:29+00:00",
+			"PublishedAt": "2023-11-26T09:34:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9Ij6I_zhBdU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/9Ij6I_zhBdU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/9Ij6I_zhBdU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/9Ij6I_zhBdU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/9Ij6I_zhBdU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/9Ij6I_zhBdU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms: 1. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Stanis\u0142aw Skrowaczewski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1Vm9RMR80D0",
+			"VideoPublishedAtRaw": "2024-11-23T12:00:04Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-23T12:00:04+00:00",
+			"VideoPublishedAt": "2024-11-23T17:30:04+05:30"
+		},
+		"ETag": "9umen6VhspF1uGsJlroINz6EjEo",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5GNDg1Njc1QzZERjlFRjE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton Bruckner: \n6. Sinfonie A-Dur \u2219\n\nI. Majestoso  00:00 \u2219\nII. Adagio. Sehr feierlich  17:15 \u2219\nIII. Scherzo. Nicht schnell \u2013 Trio. Langsam \u2013 Scherzo. Nicht schnell  33:28 \u2219\nIV. Finale. Bewegt, doch nicht zu schnell  42:02 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nJohn Storg\u00E5rds, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 24. Mai 2024 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 5,
+			"PublishedAtRaw": "2024-11-23T12:15:26Z",
+			"PublishedAtDateTimeOffset": "2024-11-23T12:15:26+00:00",
+			"PublishedAt": "2024-11-23T17:45:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1Vm9RMR80D0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1Vm9RMR80D0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1Vm9RMR80D0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1Vm9RMR80D0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1Vm9RMR80D0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1Vm9RMR80D0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner: 6. Sinfonie \u2219 hr-Sinfonieorchester \u2219 John Storg\u00E5rds",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KDslVGf7OTQ",
+			"VideoPublishedAtRaw": "2013-03-05T18:25:18Z",
+			"VideoPublishedAtDateTimeOffset": "2013-03-05T18:25:18+00:00",
+			"VideoPublishedAt": "2013-03-05T23:55:18+05:30"
+		},
+		"ETag": "ozYY4Aa0OC0Ta13_LhFpNwvefK0",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Alfred Casella: \n2. Sinfonie \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Lento, grave, solenne - Allegro energico  00:34 \u2219\nII. Allegro molto vivace - Maggiore. Pi\u00F9 allegro - Allegro molto vivace  14:23 \u2219\nIII. Adagio, quasi andante  23:22 \u2219\nIV. Finale. Tempo di marcia ben risoluto, con fuoco \u2013 Allegro vivo Tempo I (Allegro risoluto) \u2013 Epilogo: Adagio mistico. Con tutta l\u0027intensit\u00E0 di espressione possibile  35:22 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nGianandrea Noseda, Dirigent \u2219\n\nDeutsche Erstauff\u00FChrung (German Premiere) \u2219\n\nAlte Oper Frankfurt, 1. M\u00E4rz 2013 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 6,
+			"PublishedAtRaw": "2023-11-26T04:03:33Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:03:33+00:00",
+			"PublishedAt": "2023-11-26T09:33:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KDslVGf7OTQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KDslVGf7OTQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KDslVGf7OTQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/KDslVGf7OTQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KDslVGf7OTQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/KDslVGf7OTQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Casella: 2. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Gianandrea Noseda",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "u8fqnipmUPA",
+			"VideoPublishedAtRaw": "2016-04-04T14:39:36Z",
+			"VideoPublishedAtDateTimeOffset": "2016-04-04T14:39:36+00:00",
+			"VideoPublishedAt": "2016-04-04T20:09:36+05:30"
+		},
+		"ETag": "esm8OpG5CYBibSFSiy2E_dOicqo",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Peter E\u00F6tv\u00F6s: \nSpeaking Drums \u2219 \nVier Gedichte f\u00FCr Solo-Schlagzeug und Orchester \u2219\n\n(Auftritt)  00:00 \u2219\nI. Tanzlied  00:49 \u2219 \nII. Nonsense Songs  05:09 \u2219\nIII. Passacaglia. Intrada \u2013 Saltarello \u2013 Bourr\u00E9e \u2013 Passepied \u2013 Gigue \u2013 Allemande \u2013 Finale  12:18 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMartin Grubinger, Schlagzeug \u2219 \nVasily Petrenko, Dirigent \u2219\n\nAlte Oper Frankfurt, 18. M\u00E4rz 2016 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 7,
+			"PublishedAtRaw": "2023-11-26T04:19:22Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:19:22+00:00",
+			"PublishedAt": "2023-11-26T09:49:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "u8fqnipmUPA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/u8fqnipmUPA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/u8fqnipmUPA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/u8fqnipmUPA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/u8fqnipmUPA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/u8fqnipmUPA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "E\u00F6tv\u00F6s: Speaking Drums \u2219 hr-Sinfonieorchester \u2219 Martin Grubinger \u2219 Vasily Petrenko",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "uRWFjK11lfw",
+			"VideoPublishedAtRaw": "2015-11-06T19:59:06Z",
+			"VideoPublishedAtDateTimeOffset": "2015-11-06T19:59:06+00:00",
+			"VideoPublishedAt": "2015-11-07T01:29:06+05:30"
+		},
+		"ETag": "q4L2ditB8XFPC9QXihQkxgnrb-E",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Cesar Franck: \nSinfonie d-Moll \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Lento \u2013 Allegro non troppo  00:41 \u2219\nII. Allegretto  18:37 \u2219\nIII. Allegro non troppo  28:15 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMarc Minkowski, Dirigent \u2219\n\nAlte Oper Frankfurt, 23. Oktober 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 8,
+			"PublishedAtRaw": "2023-11-26T04:16:50Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:16:50+00:00",
+			"PublishedAt": "2023-11-26T09:46:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "uRWFjK11lfw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/uRWFjK11lfw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/uRWFjK11lfw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/uRWFjK11lfw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/uRWFjK11lfw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/uRWFjK11lfw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Franck: Sinfonie d-Moll \u2219 hr-Sinfonieorchester \u2219 Marc Minkowski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "OGJm2hPT3_I",
+			"VideoPublishedAtRaw": "2014-07-13T12:56:29Z",
+			"VideoPublishedAtDateTimeOffset": "2014-07-13T12:56:29+00:00",
+			"VideoPublishedAt": "2014-07-13T18:26:29+05:30"
+		},
+		"ETag": "hE547gPRRQWK2DTTCH-DNHr3Ouc",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bearbeitung von Giovanni Sgambati\n\nDenis Kozhukhin, Klavier \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 11. April 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 9,
+			"PublishedAtRaw": "2023-11-26T04:10:32Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:10:32+00:00",
+			"PublishedAt": "2023-11-26T09:40:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "OGJm2hPT3_I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/OGJm2hPT3_I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/OGJm2hPT3_I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/OGJm2hPT3_I/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/OGJm2hPT3_I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/OGJm2hPT3_I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Gluck: \u00BBEurydikes Schattenwanderung\u00AB aus \u00BBOrpheus und Eurydike\u00AB \u2219 Denis Kozhukhin",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "JrOJK5kf7eM",
+			"VideoPublishedAtRaw": "2024-11-02T12:00:20Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-02T12:00:20+00:00",
+			"VideoPublishedAt": "2024-11-02T17:30:20+05:30"
+		},
+		"ETag": "kaPdbDUC9_IdS6JccXogWo-a8Q4",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4xOTEzQzhBQzU3MDNDNjcz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sofia Gubaidulina:\nDer Zorn Gottes \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMaxime Pascal, Dirigent \u2219 \n\nForum N \u2219\nhr-Sendesaal Frankfurt, 7. Mai 2024 \u2219\n\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 10,
+			"PublishedAtRaw": "2024-11-10T16:15:26Z",
+			"PublishedAtDateTimeOffset": "2024-11-10T16:15:26+00:00",
+			"PublishedAt": "2024-11-10T21:45:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "JrOJK5kf7eM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/JrOJK5kf7eM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/JrOJK5kf7eM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/JrOJK5kf7eM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/JrOJK5kf7eM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/JrOJK5kf7eM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Gubaidulina: Der Zorn Gottes \u2219 hr-Sinfonieorchester \u2219 Maxime Pascal",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ce6Pi9z1Hcs",
+			"VideoPublishedAtRaw": "2024-10-19T11:00:42Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-19T11:00:42+00:00",
+			"VideoPublishedAt": "2024-10-19T16:30:42+05:30"
+		},
+		"ETag": "8oBgjDh0zTH4WCTn1wXF4k0jLNU",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS40QTA3NTU2RkM1QzlCMzYx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sofia Gubaidulina:\nDialog: Ich und Du (3. Violinkonzert) \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nBaiba Skride, Violine \u2219\nMaxime Pascal, Dirigent \u2219 \n\nForum N \u2219\nhr-Sendesaal Frankfurt, 7. Mai 2024 \u2219\n\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 11,
+			"PublishedAtRaw": "2024-11-10T16:15:16Z",
+			"PublishedAtDateTimeOffset": "2024-11-10T16:15:16+00:00",
+			"PublishedAt": "2024-11-10T21:45:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ce6Pi9z1Hcs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ce6Pi9z1Hcs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ce6Pi9z1Hcs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ce6Pi9z1Hcs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ce6Pi9z1Hcs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ce6Pi9z1Hcs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Gubaidulina: Dialog: Ich und Du (3. Violinkonzert) \u2219 hr-Sinfonieorchester \u2219 Skride \u2219 Pascal",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0T9wZvdTNvs",
+			"VideoPublishedAtRaw": "2024-01-13T11:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-13T11:00:01+00:00",
+			"VideoPublishedAt": "2024-01-13T16:30:01+05:30"
+		},
+		"ETag": "o7ni3bcj5XsEFu8VTmI-hfl2W3Y",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wojciech Kilar:\nKrzesany \u2219\nSinfonische Dichtung f\u00FCr Orchester \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKrzysztof Urba\u0144ski, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. November 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 12,
+			"PublishedAtRaw": "2024-01-13T11:16:16Z",
+			"PublishedAtDateTimeOffset": "2024-01-13T11:16:16+00:00",
+			"PublishedAt": "2024-01-13T16:46:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0T9wZvdTNvs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0T9wZvdTNvs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0T9wZvdTNvs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/0T9wZvdTNvs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0T9wZvdTNvs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0T9wZvdTNvs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Kilar: Krzesany \u2219 hr-Sinfonieorchester \u2219 Krzysztof Urba\u0144ski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZrmaZGjWg1I",
+			"VideoPublishedAtRaw": "2014-06-16T09:17:55Z",
+			"VideoPublishedAtDateTimeOffset": "2014-06-16T09:17:55+00:00",
+			"VideoPublishedAt": "2014-06-16T14:47:55+05:30"
+		},
+		"ETag": "J246SiQkMpGpHw1UA7DdZKCOtX0",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt: \nTotentanz \u2219 \n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nBertrand Chamayou, Klavier \u2219\nJ\u00E9r\u00E9mie Rhorer, Dirigent \u2219\n\nAlte Oper Frankfurt, 23. Mai 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 13,
+			"PublishedAtRaw": "2023-11-26T04:08:00Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:08:00+00:00",
+			"PublishedAt": "2023-11-26T09:38:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZrmaZGjWg1I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZrmaZGjWg1I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZrmaZGjWg1I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ZrmaZGjWg1I/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZrmaZGjWg1I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZrmaZGjWg1I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Totentanz \u2219 hr-Sinfonieorchester \u2219 Bertrand Chamayou \u2219 J\u00E9r\u00E9mie Rhorer",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "srwNZmJfCUY",
+			"VideoPublishedAtRaw": "2014-06-16T09:13:09Z",
+			"VideoPublishedAtDateTimeOffset": "2014-06-16T09:13:09+00:00",
+			"VideoPublishedAt": "2014-06-16T14:43:09+05:30"
+		},
+		"ETag": "0IcQMOZgGL6BotQQpN6n7YkxLbc",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt: \nUngarische Fantasie \u2219 \n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nBertrand Chamayou, Klavier \u2219\nJ\u00E9r\u00E9mie Rhorer, Dirigent \u2219\n\nAlte Oper Frankfurt, 23. Mai 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 14,
+			"PublishedAtRaw": "2023-11-26T04:07:53Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:07:53+00:00",
+			"PublishedAt": "2023-11-26T09:37:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "srwNZmJfCUY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Ungarische Fantasie \u2219 hr-Sinfonieorchester \u2219 Bertrand Chamayou \u2219 J\u00E9r\u00E9mie Rhorer",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "cXQ1fgmUIPY",
+			"VideoPublishedAtRaw": "2015-10-07T15:41:53Z",
+			"VideoPublishedAtDateTimeOffset": "2015-10-07T15:41:53+00:00",
+			"VideoPublishedAt": "2015-10-07T21:11:53+05:30"
+		},
+		"ETag": "5yok5Id3FksauuVKP3fmDI3K45w",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Witold Lutos\u0142awski: \nKonzert f\u00FCr Orchester \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Intrada. Allegro maestoso 00:18 \u2219\nII. Capriccio Notturno e Arioso. Vivace  07:25 \u2219\nIII. Passacaglia, Toccata e Corale.  Andante con moto \u2013 Allegro giusto  13:37 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 15,
+			"PublishedAtRaw": "2023-11-26T04:16:42Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:16:42+00:00",
+			"PublishedAt": "2023-11-26T09:46:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "cXQ1fgmUIPY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Lutos\u0142awski: Konzert f\u00FCr Orchester \u2219 hr-Sinfonieorchester \u2219 Edward Gardner",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kR4SswzP8us",
+			"VideoPublishedAtRaw": "2015-10-07T15:38:25Z",
+			"VideoPublishedAtDateTimeOffset": "2015-10-07T15:38:25+00:00",
+			"VideoPublishedAt": "2015-10-07T21:08:25+05:30"
+		},
+		"ETag": "x9rQn0JovTBj7sYtQE0gk3P2BN8",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Witold Lutos\u0142awski: \nVariationen \u00FCber ein Thema von Paganini \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKirill Gerstein, Klavier \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 16,
+			"PublishedAtRaw": "2023-11-26T04:16:02Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:16:02+00:00",
+			"PublishedAt": "2023-11-26T09:46:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kR4SswzP8us"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Lutos\u0142awski: Variationen \u00FCber ein Thema von Paganini \u2219 hr-Sinfonieorchester \u2219 Gerstein \u2219 Gardner",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kR4SswzP8us",
+			"VideoPublishedAtRaw": "2015-10-07T15:38:25Z",
+			"VideoPublishedAtDateTimeOffset": "2015-10-07T15:38:25+00:00",
+			"VideoPublishedAt": "2015-10-07T21:08:25+05:30"
+		},
+		"ETag": "DmYZUni5EvVBZtWez9qTyKLicDQ",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Witold Lutos\u0142awski: \nVariationen \u00FCber ein Thema von Paganini \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKirill Gerstein, Klavier \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 17,
+			"PublishedAtRaw": "2023-11-26T04:16:07Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:16:07+00:00",
+			"PublishedAt": "2023-11-26T09:46:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kR4SswzP8us"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kR4SswzP8us/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Lutos\u0142awski: Variationen \u00FCber ein Thema von Paganini \u2219 hr-Sinfonieorchester \u2219 Gerstein \u2219 Gardner",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3t3VYxdz6tY",
+			"VideoPublishedAtRaw": "2014-07-15T09:50:52Z",
+			"VideoPublishedAtDateTimeOffset": "2014-07-15T09:50:52+00:00",
+			"VideoPublishedAt": "2014-07-15T15:20:52+05:30"
+		},
+		"ETag": "iCeki7isGA35JQz7IptGUQvMg3g",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler: \nTotenfeier \u2219 \n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nEliahu Inbal, Dirigent \u2219\n\nAlte Oper Frankfurt, 13. Juni 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 18,
+			"PublishedAtRaw": "2023-11-26T04:10:53Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:10:53+00:00",
+			"PublishedAt": "2023-11-26T09:40:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3t3VYxdz6tY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3t3VYxdz6tY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3t3VYxdz6tY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3t3VYxdz6tY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3t3VYxdz6tY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3t3VYxdz6tY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler: Totenfeier \u2219 hr-Sinfonieorchester \u2219 Eliahu Inbal",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "rSJZl1cNU8c",
+			"VideoPublishedAtRaw": "2024-03-23T11:00:49Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-23T11:00:49+00:00",
+			"VideoPublishedAt": "2024-03-23T16:30:49+05:30"
+		},
+		"ETag": "NaWAKKD9SKYBkZMWJZWbDt0rKG8",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gregor A. Mayrhofer: \nKonzert f\u00FCr Recycling-Perkussion und Orchester \u2219\n\nI. The happy tsunami of wealth  00:00 \u2219\nII. Meltdown \u2013 Meltup  11:31 \u2219\nIII. Plastic Bottle Cadenza  24:56 \u2219\nIV. Recycling Music  30:02 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nVivi Vassileva, Schlagzeug \u2219\nKrzysztof Urba\u0144ski, Dirigent \u2219 \n\nSpotlight \u2219\nAlte Oper Frankfurt, 9. November 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 19,
+			"PublishedAtRaw": "2024-04-07T04:43:55Z",
+			"PublishedAtDateTimeOffset": "2024-04-07T04:43:55+00:00",
+			"PublishedAt": "2024-04-07T10:13:55+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rSJZl1cNU8c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rSJZl1cNU8c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rSJZl1cNU8c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/rSJZl1cNU8c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rSJZl1cNU8c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/rSJZl1cNU8c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mayrhofer: Recycling Concerto \u2219 hr-Sinfonieorchester \u2219 Vivi Vassileva \u2219 Krzysztof Urba\u0144ski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tCpp6DzYFqw",
+			"VideoPublishedAtRaw": "2024-10-26T11:00:59Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-26T11:00:59+00:00",
+			"VideoPublishedAt": "2024-10-26T16:30:59+05:30"
+		},
+		"ETag": "dZdrtTMTT6W24JBVBGEhtCgkmWw",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5BRjJDODk5REM0NjkzMUIy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Olivier Messiaen: \nL\u0027Ascension \u2219\nQuatre m\u00E9ditations symphoniques \u2219\n\nI. Majest\u00E9 du Christ demandant sa gloire \u00E0 son P\u00E8re  00:00 \u2219\nII. All\u00E9luias sereins d\u2019une \u00E2me qui d\u00E9sire le ciel  05:52 \u2219\nIII. All\u00E9luia sur la trompette, all\u00E9luia sur la cymbale  12:35 \u2219\nIV. Pri\u00E8re du Christ montant vers son P\u00E8re  18:41 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMaxime Pascal, Dirigent \u2219 \n\nForum N \u2219\nhr-Sendesaal Frankfurt, 7. Mai 2024 \u2219\n\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 20,
+			"PublishedAtRaw": "2024-11-10T16:15:21Z",
+			"PublishedAtDateTimeOffset": "2024-11-10T16:15:21+00:00",
+			"PublishedAt": "2024-11-10T21:45:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tCpp6DzYFqw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tCpp6DzYFqw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tCpp6DzYFqw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tCpp6DzYFqw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tCpp6DzYFqw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tCpp6DzYFqw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Messiaen: L\u0027Ascension \u2219 hr-Sinfonieorchester \u2219 Maxime Pascal",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "5HAmrz3-ehI",
+			"VideoPublishedAtRaw": "2013-01-22T11:39:25Z",
+			"VideoPublishedAtDateTimeOffset": "2013-01-22T11:39:25+00:00",
+			"VideoPublishedAt": "2013-01-22T17:09:25+05:30"
+		},
+		"ETag": "TSX0OZdYuOdjMsvyKtT2jbFfh3I",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Jos\u00E9 Pablo Moncayo: \nHuapango \u2219 \n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nCarlos Miguel Prieto, Dirigent \u2219\n\nAlte Oper Frankfurt, 18. Januar 2013 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 21,
+			"PublishedAtRaw": "2023-11-26T04:02:52Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:02:52+00:00",
+			"PublishedAt": "2023-11-26T09:32:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "5HAmrz3-ehI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/5HAmrz3-ehI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/5HAmrz3-ehI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/5HAmrz3-ehI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/5HAmrz3-ehI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/5HAmrz3-ehI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Moncayo: Huapango \u2219 hr-Sinfonieorchester \u2219 Carlos Miguel Prieto",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KQ0YQmkLCFA",
+			"VideoPublishedAtRaw": "2022-08-05T19:00:08Z",
+			"VideoPublishedAtDateTimeOffset": "2022-08-05T19:00:08+00:00",
+			"VideoPublishedAt": "2022-08-06T00:30:08+05:30"
+		},
+		"ETag": "PTqEFNX7BXNVlhWlMeeIVD9dZAw",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "By the way, I haven\u0027t read Dune.\n\nMusic:\nGeorge Street Shuffle Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 22,
+			"PublishedAtRaw": "2024-03-25T23:07:38Z",
+			"PublishedAtDateTimeOffset": "2024-03-25T23:07:38+00:00",
+			"PublishedAt": "2024-03-26T04:37:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KQ0YQmkLCFA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KQ0YQmkLCFA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KQ0YQmkLCFA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/KQ0YQmkLCFA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KQ0YQmkLCFA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/KQ0YQmkLCFA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "People Who Spoil Old Books",
+			"VideoOwnerChannelId": "UC2kwy7zx2SBQVrPWyb4PMeQ",
+			"VideoOwnerChannelTitle": "Generic Entertainment"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VsleyYCh-BQ",
+			"VideoPublishedAtRaw": "2026-03-07T13:01:00Z",
+			"VideoPublishedAtDateTimeOffset": "2026-03-07T13:01:00+00:00",
+			"VideoPublishedAt": "2026-03-07T18:31:00+05:30"
+		},
+		"ETag": "fCzXDmtm6o6GGjj25fgiOngIYTE",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5DNkMwRUI2MkI4QkI4NDFG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Francis Poulenc: \nConcert champ\u00EAtre f\u00FCr Cembalo und Orchester \u2219\n\nI. Adagio \u2013 Allegro molto 00:00 \u2219\nII. Andante. Mouvement de Sicilienne 11:38 \u2219\nIII. Finale. Presto \u2013 Tempo Io (1er Mouvement) \u2013 Allegro giocoso \u2013 Tempo introduction 1er Mouvement 17:58 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMaxim Emelyanychev, Dirigent/Cembalo \u2219 \n\nBarock\u002B \u2219\nhr-Sendesaal Frankfurt, 31. Oktober 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 23,
+			"PublishedAtRaw": "2026-03-26T04:25:05Z",
+			"PublishedAtDateTimeOffset": "2026-03-26T04:25:05+00:00",
+			"PublishedAt": "2026-03-26T09:55:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VsleyYCh-BQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VsleyYCh-BQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VsleyYCh-BQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/VsleyYCh-BQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VsleyYCh-BQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/VsleyYCh-BQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Poulenc: Concert champ\u00EAtre \u2219 hr-Sinfonieorchester \u2219 Maxim Emelyanychev",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "6Nrexs0g6lk",
+			"VideoPublishedAtRaw": "2014-07-13T12:52:00Z",
+			"VideoPublishedAtDateTimeOffset": "2014-07-13T12:52:00+00:00",
+			"VideoPublishedAt": "2014-07-13T18:22:00+05:30"
+		},
+		"ETag": "3CdieOJetd45xFscrS8AbCUOMIw",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sergej Rachmaninow: \n2. Klavierkonzert \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Moderato  00:36 \u2219\nII. Adagio sostenuto  11:35 \u2219\nIII. Allegro scherzando  22:32 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nDenis Kozhukhin, Klavier \u2219\nMarin Alsop, Dirigentin \u2219\n\nAlte Oper Frankfurt, 11. April 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 24,
+			"PublishedAtRaw": "2023-11-26T04:10:27Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:10:27+00:00",
+			"PublishedAt": "2023-11-26T09:40:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "6Nrexs0g6lk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/6Nrexs0g6lk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/6Nrexs0g6lk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/6Nrexs0g6lk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/6Nrexs0g6lk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/6Nrexs0g6lk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Rachmaninow: 2. Klavierkonzert \u2219 hr-Sinfonieorchester \u2219 Denis Kozhukhin \u2219 Marin Alsop",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "eir1bXDWF34",
+			"VideoPublishedAtRaw": "2012-11-14T12:32:22Z",
+			"VideoPublishedAtDateTimeOffset": "2012-11-14T12:32:22+00:00",
+			"VideoPublishedAt": "2012-11-14T18:02:22+05:30"
+		},
+		"ETag": "Z-Mw_Wy6fp1LgwM4wKpShKGHNXk",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Faz\u0131l Say: \nHezarfen \u2013 Konzert f\u00FCr Ney-Fl\u00F6te und Orchester \n\n(Auftritt \u002B Einf\u00FChrung)  00:00 \nI. Istanbul, 1632  05:25\nII. Galataturm  11:20\nIII. Der Flug  16:26\nIV. Im algerischen Exil  23:17\n\nBurcu Karada\u011F, Ney \u2219 \nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219 \nHoward Griffiths, Dirigent \u2219 \n\nArtist in Residence Weekend Faz\u0131l Say \u2219\nhr-Sendesaal, Frankfurt, 10. November 2012 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 25,
+			"PublishedAtRaw": "2023-11-26T04:01:36Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:01:36+00:00",
+			"PublishedAt": "2023-11-26T09:31:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "eir1bXDWF34"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/eir1bXDWF34/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/eir1bXDWF34/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/eir1bXDWF34/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/eir1bXDWF34/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/eir1bXDWF34/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Say: Hezarfen \u2219 hr-Sinfonieorchester \u2219 Burcu Karada\u011F \u2219 Howard Griffiths",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8ZtMVdnnm_Q",
+			"VideoPublishedAtRaw": "2012-11-14T13:36:46Z",
+			"VideoPublishedAtDateTimeOffset": "2012-11-14T13:36:46+00:00",
+			"VideoPublishedAt": "2012-11-14T19:06:46+05:30"
+		},
+		"ETag": "cpZCYeMKKvQhQ70ayYUmH76zZKw",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Faz\u0131l Say: \nIstanbul Symphony (1. Sinfonie) \u2219\n\n(Auftritt \u002B Einf\u00FChrung)  00:00 \u2219\nI. Nostalgie  07:10 \u2219 \nII. Der Orden  17:20 \u2219 \nIII. Sultan-Ahmed-Moschee  21:25 \u2219 \nIV. H\u00FCbsch gekleidete junge M\u00E4dchen auf dem Schiff zu den Princess-Inseln  28:55 \u2219 \nV. \u00DCber die Reisenden auf dem Weg vom Bahnhof Haydarpa\u015Fa nach Anatolien  33:10 \u2219 \nVI. Orientalische Nacht  37:16 \u2219 \nVII. Finale  44:18 \u2219 \n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219 \nHoward Griffiths, Dirigent \u2219 \n\nArtist in Residence Weekend Faz\u0131l Say \u2219\nhr-Sendesaal, Frankfurt, 10. November 2012 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 26,
+			"PublishedAtRaw": "2023-11-26T04:01:47Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:01:47+00:00",
+			"PublishedAt": "2023-11-26T09:31:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8ZtMVdnnm_Q"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8ZtMVdnnm_Q/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8ZtMVdnnm_Q/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/8ZtMVdnnm_Q/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8ZtMVdnnm_Q/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8ZtMVdnnm_Q/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Say: Istanbul Symphony \u2219 hr-Sinfonieorchester \u2219 Howard Griffiths",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "NFvZ5onSX3I",
+			"VideoPublishedAtRaw": "2012-11-14T12:33:06Z",
+			"VideoPublishedAtDateTimeOffset": "2012-11-14T12:33:06+00:00",
+			"VideoPublishedAt": "2012-11-14T18:03:06+05:30"
+		},
+		"ETag": "fP8fxvNguatcXjL8sP_mzg5AUHs",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Faz\u0131l Say: \nUniverse Symphony (3. Sinfonie) \u2219 \n\n(Auftritt \u002B Einf\u00FChrung)  00:00 \u2219\nI. Ausdehnung des Universums  04:27 \u2219\nII. Venus  09:06 \u2219\nIII. Jupitersturm  12:10 \u2219\nIV. Gliese 681 g, ein erden\u00E4hnlicher Planet  14:38 \u2219\nV. Supernova  20:42 \u2219\nV. Dunkle Materie  23:24 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219 \nHoward Griffiths, Dirigent \u2219 \n\nDeutsche Erstauff\u00FChrung (German Premiere) \u2219 \n\nArtist in Residence Weekend Faz\u0131l Say \u2219\nhr-Sendesaal, Frankfurt, 10. November 2012 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 27,
+			"PublishedAtRaw": "2023-11-26T04:01:42Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:01:42+00:00",
+			"PublishedAt": "2023-11-26T09:31:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "NFvZ5onSX3I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/NFvZ5onSX3I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/NFvZ5onSX3I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/NFvZ5onSX3I/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/NFvZ5onSX3I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/NFvZ5onSX3I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Say: Universe Symphony \u2219 hr-Sinfonieorchester \u2219 Howard Griffiths",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "u2Rtd4tnFwU",
+			"VideoPublishedAtRaw": "2013-09-16T10:08:58Z",
+			"VideoPublishedAtDateTimeOffset": "2013-09-16T10:08:58+00:00",
+			"VideoPublishedAt": "2013-09-16T15:38:58+05:30"
+		},
+		"ETag": "e3HkfAP3WgJn7EeFNyDZl3_-ib4",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dmitrij Schostakowitsch: \n10. Sinfonie \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Moderato  00:28 \u2219 \nII. Allegro  25:15 \u2219\nIII. Allegretto  30:12 \u2219\nIV. Andante \u2013 Allegro  42:57 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nStanis\u0142aw Skrowaczewski, Dirigent \u2219\n\nAlte Oper Frankfurt, 6. September 2013 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 28,
+			"PublishedAtRaw": "2023-11-26T04:05:27Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:05:27+00:00",
+			"PublishedAt": "2023-11-26T09:35:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "u2Rtd4tnFwU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schostakowitsch: 10. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Stanis\u0142aw Skrowaczewski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_z8TZjcqYhY",
+			"VideoPublishedAtRaw": "2014-07-13T13:01:17Z",
+			"VideoPublishedAtDateTimeOffset": "2014-07-13T13:01:17+00:00",
+			"VideoPublishedAt": "2014-07-13T18:31:17+05:30"
+		},
+		"ETag": "WquSXEuxu9QsRBk9bOflzAGVkks",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dmitrij Schostakowitsch: \n7. Sinfonie  (\u00BBLeningrader\u00AB) \u2219\n\n(Auftritt)  00:00 \u2219\nI. Allegretto  00:32 \u2219\nII. Moderato (poco allegretto)  29:58 \u2219\nIII. Adagio -- Largo -- Moderato risoluto -- Largo -- Adagio  41:43 \u2219\nIV. Allegro non troppo  59:28 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nMarin Alsop, Dirigentin \u2219\n\nAlte Oper Frankfurt, 11. April 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 29,
+			"PublishedAtRaw": "2023-11-26T04:10:43Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:10:43+00:00",
+			"PublishedAt": "2023-11-26T09:40:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_z8TZjcqYhY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_z8TZjcqYhY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_z8TZjcqYhY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_z8TZjcqYhY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_z8TZjcqYhY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_z8TZjcqYhY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schostakowitsch: 7. Sinfonie  (\u00BBLeningrader\u00AB) \u2219 hr-Sinfonieorchester \u2219 Marin Alsop",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "AAswKcERSro",
+			"VideoPublishedAtRaw": "2015-06-01T12:54:51Z",
+			"VideoPublishedAtDateTimeOffset": "2015-06-01T12:54:51+00:00",
+			"VideoPublishedAt": "2015-06-01T18:24:51+05:30"
+		},
+		"ETag": "egLOoogTYCN1M56WOG4p7Z7tM0g",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Schubert: \n6. Sinfonie D 589 \u2219\n\n(Auftritt)  00:00 \u2219\nI. Adagio \u2013 Allegro 00:13 \u2219\nII. Andante  07:56 \u2219\nIII. Scherzo. Presto  14:18 \u2219\nIV. Allegro moderato  21:03 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony Orchestra \u2219\nAntonello Manacorda, Dirigent \u2219\n\nAlte Oper Frankfurt, 22. Mai 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 30,
+			"PublishedAtRaw": "2023-11-26T04:15:08Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:15:08+00:00",
+			"PublishedAt": "2023-11-26T09:45:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "AAswKcERSro"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/AAswKcERSro/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/AAswKcERSro/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/AAswKcERSro/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/AAswKcERSro/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/AAswKcERSro/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schubert: 6. Sinfonie D 589 \u2219 hr-Sinfonieorchester \u2219 Antonello Manacorda",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "rha2om3WO9A",
+			"VideoPublishedAtRaw": "2023-12-16T11:17:00Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-16T11:17:00+00:00",
+			"VideoPublishedAt": "2023-12-16T16:47:00+05:30"
+		},
+		"ETag": "ptxcu135Ql55A-OLFVaK5Di8gp4",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann: \n4. Sinfonie d-Moll op. 120 \u2219\n\nI. Ziemlich langsam \u2013 Lebhaft   00:00 \u2219\nII. Romanze. Ziemlich langsam  11:24 \u2219\nIII. Scherzo. Lebhaft  13:54 \u2219\nIV. Langsam \u2013 Lebhaft \u2013 Presto  19:16 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAnja Bihlmaier, Dirigentin \u2219 \n\nAuftakt \u2219\nhr-Sendesaal Frankfurt, 3. November 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 31,
+			"PublishedAtRaw": "2024-01-13T11:16:33Z",
+			"PublishedAtDateTimeOffset": "2024-01-13T11:16:33+00:00",
+			"PublishedAt": "2024-01-13T16:46:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rha2om3WO9A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rha2om3WO9A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rha2om3WO9A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/rha2om3WO9A/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rha2om3WO9A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/rha2om3WO9A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: 4. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Anja Bihlmaier",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7GfFiWeQ7yg",
+			"VideoPublishedAtRaw": "2024-03-14T12:00:06Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-14T12:00:06+00:00",
+			"VideoPublishedAt": "2024-03-14T17:30:06+05:30"
+		},
+		"ETag": "zmZmGYasR0R4rROQWobfq4nh74g",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS42MTI4Njc2QjM1RjU1MjlG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann: \nViolinkonzert d-Moll \u2219\n\nI. In kr\u00E4ftigem, nicht zu schnellem Tempo  00:00 \u2219\nII. Langsam  15:13 \u2219\nIII. Lebhaft, doch nicht schnell  20:53 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nSayaka Shoji, Violine \u2219  \nConstantinos Carydis, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 26. Januar 2024 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 32,
+			"PublishedAtRaw": "2024-04-07T04:44:14Z",
+			"PublishedAtDateTimeOffset": "2024-04-07T04:44:14+00:00",
+			"PublishedAt": "2024-04-07T10:14:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7GfFiWeQ7yg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7GfFiWeQ7yg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7GfFiWeQ7yg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/7GfFiWeQ7yg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7GfFiWeQ7yg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7GfFiWeQ7yg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Violinkonzert \u2219 hr-Sinfonieorchester \u2219 Sayaka Shoji \u2219 Constantinos Carydis",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tOYCHMnpIV0",
+			"VideoPublishedAtRaw": "2015-06-01T12:52:30Z",
+			"VideoPublishedAtDateTimeOffset": "2015-06-01T12:52:30+00:00",
+			"VideoPublishedAt": "2015-06-01T18:22:30+05:30"
+		},
+		"ETag": "URNLoQNARsv-VetY25fvpHpHZ70",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Arnold Sch\u00F6nberg: \n2. Kammersinfonie \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Adagio  00:24 \u2219\nII. Con fuoco  11:47  \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony Orchestra \u2219\nAntonello Manacorda, Dirigent \u2219\n\nAlte Oper Frankfurt, 22. Mai 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 33,
+			"PublishedAtRaw": "2023-11-26T04:15:02Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:15:02+00:00",
+			"PublishedAt": "2023-11-26T09:45:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tOYCHMnpIV0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tOYCHMnpIV0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tOYCHMnpIV0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tOYCHMnpIV0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tOYCHMnpIV0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tOYCHMnpIV0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sch\u00F6nberg: 2. Kammersinfonie \u2219 hr-Sinfonieorchester \u2219 Antonello Manacorda",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1DQUKpanJOE",
+			"VideoPublishedAtRaw": "2026-02-28T13:10:00Z",
+			"VideoPublishedAtDateTimeOffset": "2026-02-28T13:10:00+00:00",
+			"VideoPublishedAt": "2026-02-28T18:40:00+05:30"
+		},
+		"ETag": "DMGXSlrCOO7UmscRxLqJuTIJJIU",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5DRUQwODMxQzUyRTlGRkY3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Jean Sibelius: \n7. Sinfonie op. 105 \u2219\n\nAdagio \u2013 Allegro molto moderato \u2013 Vivace \u2013 Presto \u2013 Adagio \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nTabita Berglund, Dirigentin \u2219 \n\nAuftakt \u2219\nhr-Sendesaal Frankfurt, 21. November 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 34,
+			"PublishedAtRaw": "2026-03-31T20:37:13Z",
+			"PublishedAtDateTimeOffset": "2026-03-31T20:37:13+00:00",
+			"PublishedAt": "2026-04-01T02:07:13+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1DQUKpanJOE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1DQUKpanJOE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1DQUKpanJOE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1DQUKpanJOE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1DQUKpanJOE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1DQUKpanJOE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sibelius: 7. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Tabita Berglund",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "10ESN_t7txI",
+			"VideoPublishedAtRaw": "2014-10-19T08:48:16Z",
+			"VideoPublishedAtDateTimeOffset": "2014-10-19T08:48:16+00:00",
+			"VideoPublishedAt": "2014-10-19T14:18:16+05:30"
+		},
+		"ETag": "8onkP4iBK0QlMHzcoDqudNzz9Hk",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Alexander Skrjabin: \nProm\u00E9th\u00E9e \u2013 Le po\u00E8me du feu \u2219 \nAuff\u00FChrung mit notentextgetreuer Realisierung der \u00BBLuce-Stimme\u00AB \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nDmitri Levkovich, Klavier \u2219\nFrankfurter Kantorei \u2219\nKonzertchor Darmstadt \u2219\nMarkus Stenz, Dirigent \u2219\n\nFrank Kraus, Lichtdesign \u2219\nJens Schubbe, Dramaturgie \u2219\n\nAlte Oper Frankfurt, 26. September 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 35,
+			"PublishedAtRaw": "2023-11-26T04:12:31Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:12:31+00:00",
+			"PublishedAt": "2023-11-26T09:42:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "10ESN_t7txI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/10ESN_t7txI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/10ESN_t7txI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/10ESN_t7txI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/10ESN_t7txI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/10ESN_t7txI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Skrjabin: Prom\u00E9th\u00E9e \u2013 Le po\u00E8me du feu \u2219 hr-Sinfonieorchester \u2219 Dmitri Levkovich \u2219 Markus \u2219 Stenz",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WOTYBKwh8II",
+			"VideoPublishedAtRaw": "2014-12-02T15:10:17Z",
+			"VideoPublishedAtDateTimeOffset": "2014-12-02T15:10:17+00:00",
+			"VideoPublishedAt": "2014-12-02T20:40:17+05:30"
+		},
+		"ETag": "270M5ggBebTqOUZokk51TSZ-HcY",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Stanis\u0142aw Skrowaczewski: \nPassacaglia Immaginaria \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nStanis\u0142aw Skrowaczewski, Dirigent \u2219\n\nAlte Oper Frankfurt, 27. November 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 36,
+			"PublishedAtRaw": "2023-11-26T04:12:44Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:12:44+00:00",
+			"PublishedAt": "2023-11-26T09:42:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WOTYBKwh8II"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WOTYBKwh8II/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WOTYBKwh8II/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WOTYBKwh8II/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WOTYBKwh8II/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WOTYBKwh8II/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Skrowaczewski: Passacaglia Immaginaria \u2219 hr-Sinfonieorchester \u2219 Stanis\u0142aw Skrowaczewski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DBPX4VbhX4Y",
+			"VideoPublishedAtRaw": "2026-03-14T13:00:16Z",
+			"VideoPublishedAtDateTimeOffset": "2026-03-14T13:00:16+00:00",
+			"VideoPublishedAt": "2026-03-14T18:30:16+05:30"
+		},
+		"ETag": "HbAz7cUe_6OJtut_EtShcUMqmUQ",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS45NkVENTkxRDdCQUFBMDY4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Igor Strawinsky: \nPulcinella-Suite \u2219\n\nI. Sinfonia (Ouverture). Allegro moderato 00:00 \u2219\nII. Serenata. Larghetto 02:10 \u2219\nIII. Scherzino \u2013 Allegro \u2013 Andantino 05:33 \u2219\nIV. Tarantella 10:06 \u2219\nV. Toccata. Allegro 12:05 \u2219\nVI. Gavotta con due variazioni 13:05 \u2219\nVII. Vivo 17:14 \u2219\nVII. Minuetto. Molto moderato \u2013 Finale. Allegro assai 18:54 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMaxim Emelyanychev, Dirigent \u2219 \n\nBarock\u002B \u2219\nhr-Sendesaal Frankfurt, 31. Oktober 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 37,
+			"PublishedAtRaw": "2026-03-26T04:17:45Z",
+			"PublishedAtDateTimeOffset": "2026-03-26T04:17:45+00:00",
+			"PublishedAt": "2026-03-26T09:47:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DBPX4VbhX4Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/DBPX4VbhX4Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/DBPX4VbhX4Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/DBPX4VbhX4Y/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/DBPX4VbhX4Y/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/DBPX4VbhX4Y/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strawinsky: Pulcinella-Suite \u2219 hr-Sinfonieorchester \u2219 Maxim Emelyanychev",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "V8UKfGuruUc",
+			"VideoPublishedAtRaw": "2024-10-12T11:00:28Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-12T11:00:28+00:00",
+			"VideoPublishedAt": "2024-10-12T16:30:28+05:30"
+		},
+		"ETag": "j4KQkYIsa5JU1_5lqHG29C-gxS8",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS45RjNFMDhGQ0Q2RkFCQTc1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Igor Strawinsky: \nSinfonie in 3 S\u00E4tzen \u2219\n\nI. Viertel = 160 (Halbe = 80)  00:00 \u2219\nII. Andante \u2013 Interlude. L\u0027istesso tempo  10:36 \u2219\nIII. Con moto  16:36 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMaxime Pascal, Dirigent \u2219 \n\nForum N \u2219\nhr-Sendesaal Frankfurt, 7. Mai 2024 \u2219\n\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 38,
+			"PublishedAtRaw": "2024-11-10T16:15:11Z",
+			"PublishedAtDateTimeOffset": "2024-11-10T16:15:11+00:00",
+			"PublishedAt": "2024-11-10T21:45:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "V8UKfGuruUc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/V8UKfGuruUc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/V8UKfGuruUc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/V8UKfGuruUc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/V8UKfGuruUc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/V8UKfGuruUc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strawinsky: Sinfonie in 3 S\u00E4tzen \u2219 hr-Sinfonieorchester \u2219 Maxime Pascal",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Vz8uFugb1MY",
+			"VideoPublishedAtRaw": "2015-01-21T12:37:08Z",
+			"VideoPublishedAtDateTimeOffset": "2015-01-21T12:37:08+00:00",
+			"VideoPublishedAt": "2015-01-21T18:07:08+05:30"
+		},
+		"ETag": "g7syIL5gL_uqVJUNGE5Izc3guqk",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tan Dun: \nKonzert f\u00FCr Streichorchester und Zheng \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Andante molto \u2013 Melancholia \u2013 Tempo I  00:40 \u2219\nII. Allegretto  04:31 \u2219\nIII. Adagio  11:51 \u2219\nIV. Moderato \u2013 Allegro \u2013 Tempo I. Andante molto  16:18 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nYuan Li, Guzheng \u2219\nJulian Kuerti, Dirigent \u2219\n\nAlte Oper Frankfurt, 16. Januar 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 39,
+			"PublishedAtRaw": "2023-11-26T04:13:05Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:13:05+00:00",
+			"PublishedAt": "2023-11-26T09:43:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Vz8uFugb1MY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Vz8uFugb1MY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Vz8uFugb1MY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Vz8uFugb1MY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Vz8uFugb1MY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Vz8uFugb1MY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tan Dun: Konzert f\u00FCr Streichorchester und Zheng \u2219 hr-Sinfonieorchester \u2219 Yuan Li \u2219 Julian Kuerti",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "v-3GlOCaSXw",
+			"VideoPublishedAtRaw": "2026-02-14T13:01:30Z",
+			"VideoPublishedAtDateTimeOffset": "2026-02-14T13:01:30+00:00",
+			"VideoPublishedAt": "2026-02-14T18:31:30+05:30"
+		},
+		"ETag": "T0wDum1F_WJ3ESPdXIvyQ-bzscc",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS4zQzFBN0RGNzNFREFCMjBE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anna Thorvaldsd\u00F3ttir: \nARCHORA \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nTabita Berglund, Dirigentin \u2219 \n\nAuftakt \u2219\nhr-Sendesaal Frankfurt, 21. November 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 40,
+			"PublishedAtRaw": "2026-02-14T20:18:31Z",
+			"PublishedAtDateTimeOffset": "2026-02-14T20:18:31+00:00",
+			"PublishedAt": "2026-02-15T01:48:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "v-3GlOCaSXw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/v-3GlOCaSXw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/v-3GlOCaSXw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/v-3GlOCaSXw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/v-3GlOCaSXw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/v-3GlOCaSXw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Thorvaldsd\u00F3ttir: ARCHORA \u2219 hr-Sinfonieorchester \u2219 Tabita Berglund",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "S6Mn1UjggBY",
+			"VideoPublishedAtRaw": "2016-04-04T14:40:56Z",
+			"VideoPublishedAtDateTimeOffset": "2016-04-04T14:40:56+00:00",
+			"VideoPublishedAt": "2016-04-04T20:10:56+05:30"
+		},
+		"ETag": "cl0ha9l50A05nDZK1OEPWvJbbRs",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Peter Tschaikowsky: \nManfred-Sinfonie \u2219\n\n(Auftritt)  00:00 \u2219\nI. Lento lugubre \u2013 Moderato con moto \u2013 Andante  00:24 \u2219\nII. Vivace con spirito  16:23 \u2219\nIII. Pastorale. Andante con moto  26:11 \u2219\nIV. Allegro con fuoco  38:53 \u2219\n\n- I. Lento lugubre\n- II. Vivace con spirito\n26:11 - III. Pastorale. Andante con moto\n- IV. Allegro con fuoco\n[58:44 - Applause]\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nVasily Petrenko, Dirigent \u2219\n\nAlte Oper Frankfurt, 18. M\u00E4rz 2016 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 41,
+			"PublishedAtRaw": "2023-11-26T04:19:44Z",
+			"PublishedAtDateTimeOffset": "2023-11-26T04:19:44+00:00",
+			"PublishedAt": "2023-11-26T09:49:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "S6Mn1UjggBY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/S6Mn1UjggBY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/S6Mn1UjggBY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/S6Mn1UjggBY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/S6Mn1UjggBY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/S6Mn1UjggBY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tschaikowsky: Manfred-Sinfonie \u2219 hr-Sinfonieorchester \u2219 Vasily Petrenko",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "mr9bq2xIlKY",
+			"VideoPublishedAtRaw": "2026-02-28T13:01:22Z",
+			"VideoPublishedAtDateTimeOffset": "2026-02-28T13:01:22+00:00",
+			"VideoPublishedAt": "2026-02-28T18:31:22+05:30"
+		},
+		"ETag": "FSmEFsuJyiANxCxzCjA1A72nDC4",
+		"Id": "UEwxemdOQ29XdF83Ykl4ZUtvcVZVbU45clE4YTN6Zzl4LS41MzY4MzcwOUFFRUU3QzEx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner: \nVorspiel zur Oper \u00BBTristan und Isolde\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nTabita Berglund, Dirigentin \u2219 \n\nAuftakt \u2219\nhr-Sendesaal Frankfurt, 21. November 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
+			"PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
+			"Position": 42,
+			"PublishedAtRaw": "2026-03-31T20:37:20Z",
+			"PublishedAtDateTimeOffset": "2026-03-31T20:37:20+00:00",
+			"PublishedAt": "2026-04-01T02:07:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "mr9bq2xIlKY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/mr9bq2xIlKY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/mr9bq2xIlKY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/mr9bq2xIlKY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/mr9bq2xIlKY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/mr9bq2xIlKY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner: \u00BBTristan und Isolde\u00AB \u2013 Vorspiel \u2219 hr-Sinfonieorchester \u2219 Tabita Berglund",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	}
+]

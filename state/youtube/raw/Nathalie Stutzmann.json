@@ -1,0 +1,1732 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "1JS-sC1h2MI",
+			"VideoPublishedAtRaw": "2014-05-09T19:30:37Z",
+			"VideoPublishedAtDateTimeOffset": "2014-05-09T19:30:37+00:00",
+			"VideoPublishedAt": "2014-05-10T01:00:37+05:30"
+		},
+		"ETag": "YPxwhEiTCWXbtbvF2zCMvr1-Mqc",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ludwig van Beethoven: Symphony No. 3 Eroica / Nathalie Stutzmann, conductor \u00B7 Tapiola Sinfonietta / Recorded at Espoo Kulturcentrum, Finland, 24 January, 2014. Video by Tord Martinsson from Powerec Studio.\n\nWebsite of Nathalie Stutzmann:\nhttp://www.nathaliestutzmann.com\n\nFacebook page of Nathalie Stutzmann: https://www.facebook.com/Nathalie.Stutzmann\n\nWebsite of Powerec Studio:\nhttp://www.powerecstudio.com",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 0,
+			"PublishedAtRaw": "2025-10-16T06:28:46Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:28:46+00:00",
+			"PublishedAt": "2025-10-16T11:58:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1JS-sC1h2MI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1JS-sC1h2MI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1JS-sC1h2MI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1JS-sC1h2MI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1JS-sC1h2MI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1JS-sC1h2MI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven - Symphony No. 3 Eroica (complete/full) / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1YyyK-KdSvo",
+			"VideoPublishedAtRaw": "2020-07-03T17:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2020-07-03T17:00:01+00:00",
+			"VideoPublishedAt": "2020-07-03T22:30:01+05:30"
+		},
+		"ETag": "FNmsjTr_aNGUCImg-g5ekjPZnfE",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Composer: Ludwig van Beethoven\nConductor: Nathalie Stutzmann\nConcertmaster: Alexandra Preucil\n\n\nOuvert\u00FCre zu Coriolan Op. 62\n\n\n\nI dette opptaket fra 16. januar 2020 fremf\u00F8rer KSO og Stutzmann den oppr\u00F8rske og energiske Coriolan-ouverturen, skrevet av Ludwig van Beethoven i 1807. Stykket er inspirert av et tragisk skuespill av Heinrich Joseph von Collin, om den romerske generalen Gaius Marcius Coriolanus\u2019 liv og d\u00F8d p\u00E5 500-tallet f\u00F8r v\u00E5r tidsregning.\n\n\n\n\n#Beethoven #Overture #Coriolan #Concerto #classsicalmusic #SymphonyOrchestra #symphony #Stutzmann #NathalieStutzmann #KSO\n\n\nKristiansand Symphony Orchestra\n\n@kildenkrs\n\u27A1 Facebook: https://www.facebook.com/krs.symf/\n\u27A1 Instagram: https://www.instagram.com/kildenkrs/\n\u27A1 Spotify: https://open.spotify.com/artist/0cVMJ85dH3g80uxwSgCdY4",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 1,
+			"PublishedAtRaw": "2025-10-16T06:33:38Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:33:38+00:00",
+			"PublishedAt": "2025-10-16T12:03:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1YyyK-KdSvo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1YyyK-KdSvo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1YyyK-KdSvo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1YyyK-KdSvo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1YyyK-KdSvo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1YyyK-KdSvo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Coriolan Overture - Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UCgwcTw41rfITCT_cY7517DQ",
+			"VideoOwnerChannelTitle": "Kristiansand Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1hFCNTaShkI",
+			"VideoPublishedAtRaw": "2021-02-20T12:00:25Z",
+			"VideoPublishedAtDateTimeOffset": "2021-02-20T12:00:25+00:00",
+			"VideoPublishedAt": "2021-02-20T17:30:25+05:30"
+		},
+		"ETag": "aLM9Dy85h33G2ynu2sHd6198CbY",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Composer: Ludwig van Beethoven\nSolo Pianist: Sunwook Kim (\uAE40\uC120\uC6B1)\nConductor: Nathalie Stutzmann\nConcertmaster: Alexandra Preucil\n\n\n\nPiano Concerto No. 3 in C minor, Op. 37\n\uD53C\uC544\uB178 \uD611\uC8FC\uACE1 3\uBC88 (\uBCA0\uD1A0\uBCA4)\n\n\n\n00:00 I. Allegro con brio\n17:44 II. Largo\n28:00 III. Rondo \u2013 Allegro\n\n\n\n\nSunwook Kim, den yngste vinneren noensinne av Den internasjonale pianokonkurransen i Leeds, fremf\u00F8rer i dette opptaket fra 16. januar 2020 Beethovens 3. pianokonsert fra 1800. Pianokonserten utstr\u00E5ler eleganse og skj\u00F8nnhet med tydelig inspirasjon fra \u2013 og er kanskje ogs\u00E5 en hyllest til \u2013 W.A. Mozart.\n\n\n\n#Beethoven #Piano #Concerto #classsicalmusic #SymphonyOrchestra #symphony #Stutzmann #NathalieStutzmann #sunwookkim88 #Sunwook #\uAE40\uC120\uC6B1 #\uBCA0\uD1A0\uBCA4 #KSO\n\nKristiansand Symphony Orchestra\n\n@kildenkrs\n\u27A1 Facebook: https://www.facebook.com/krs.symf/\n\u27A1 Instagram: https://www.instagram.com/kildenkrs/\n\u27A1 Spotify: https://open.spotify.com/artist/0cVMJ85dH3g80uxwSgCdY4",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 2,
+			"PublishedAtRaw": "2025-10-16T06:29:26Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:26+00:00",
+			"PublishedAt": "2025-10-16T11:59:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1hFCNTaShkI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1hFCNTaShkI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1hFCNTaShkI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1hFCNTaShkI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1hFCNTaShkI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1hFCNTaShkI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Piano Concerto No. 3 - Sunwook Kim - Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UCgwcTw41rfITCT_cY7517DQ",
+			"VideoOwnerChannelTitle": "Kristiansand Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "uqn4ulnds-w",
+			"VideoPublishedAtRaw": "2020-12-16T14:58:35Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-16T14:58:35+00:00",
+			"VideoPublishedAt": "2020-12-16T20:28:35+05:30"
+		},
+		"ETag": "zC19lL5S8iOWykOYZAZFJTjAtx8",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Composer: Ludwig van Beethoven\nConductor: Nathalie Stutzmann\nKristiansand Symphony Orchestra\n\n\nSymphony No. 1 in C major, Op. 21\n\n\n00:00 Introduction by Nathalie Stutzmann\n01:54 I. Adagio molto \u2013 Allegro con brio (C major)\n11:47 II. Andante cantabile con moto (F major)\n19:56 III. Menuetto: Allegro molto e vivace (C major)\n23:35 IV. Adagio \u2013 Allegro molto e vivace (C major)\n\n\n\nLudwig van Beethovens Symfoni nr. 1 (1800). Fra en konsert i Kilden 6. november 2020, med sjefdirigent Nathalie Stuzmann og KSO. \nBeethovens f\u00F8rste symfoni har wienerklassisismens kvaliteter og kjennetegn, inspirert av forgjengerne Joseph Haydn og Wolfgang Amadeus Mozart. Musikken er munter og underholdende, preget av eleganse, klarhet og melodisk id\u00E9rikdom. Samtidens publikum ble lettere sjokkert av den originale innledningens harmoniske vendinger f\u00F8r det hele munner ut i tonearten c-moll.\n\n\n\n\n#Beethoven #Symphony #classsicalmusic #SymphonyOrchestra #Concerto #Stutzmann #NathalieStutzmann #Sinfonia #KSO\n\n\n@kildenkrs\n\u27A1 Facebook: https://www.facebook.com/krs.symf/\n\u27A1 Instagram: https://www.instagram.com/kildenkrs/\n\u27A1 Spotify: https://open.spotify.com/artist/0cVMJ85dH3g80uxwSgCdY4",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 3,
+			"PublishedAtRaw": "2025-10-16T06:29:12Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:12+00:00",
+			"PublishedAt": "2025-10-16T11:59:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "uqn4ulnds-w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/uqn4ulnds-w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/uqn4ulnds-w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/uqn4ulnds-w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/uqn4ulnds-w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/uqn4ulnds-w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Symphony No. 1 - Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UCgwcTw41rfITCT_cY7517DQ",
+			"VideoOwnerChannelTitle": "Kristiansand Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "eV5lX6J5rLg",
+			"VideoPublishedAtRaw": "2020-12-16T19:22:04Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-16T19:22:04+00:00",
+			"VideoPublishedAt": "2020-12-17T00:52:04+05:30"
+		},
+		"ETag": "cPWZkQPPIQdkaSL7Ehj7kdxp6nw",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Composer: Ludwig van Beethoven\nConductor: Nathalie Stutzmann\nKristiansand Symphony Orchestra\n\n\nSymphony No. 3 in E\u266D major, Op. 55, Sinfonia Eroica (Heroic Symphony)\n\n\n00:00 Introduction by Nathalie Stutzmann\n01:15 I. Allegro con brio (E\u266D major)\n17:40 II. Marcia funebre: Adagio assai (C minor)\n34:15 III. Scherzo. Allegro vivace - Trio (E\u266D major)\n40:09 IV. Finale. Allegro molto - Poco Andante - Presto (E\u266D major)\n\n\n\n\nEt av musikkhistoriens mest banebrytende verk, skapt med st\u00F8rre byggesteiner og bredere penseldrag enn noen tidligere symfoni. Beethoven baserte verket p\u00E5 opplysningstidens idealer om enkeltmenneskets frihet og rettigheter, og \u00F8nsket \u00E5 hylle general Napoleon Bonapartes fremganger. Men n\u00E5r den \u00E6rgjerrige korsikaneren utropte seg til keiser, rev Beethoven i stykker partiturets forside og tilegnet i stedet verket til fenomenet heltemot \u2013 \u00ABEroica\u00BB.\n\n\n\n#Beethoven #Symphony #classsicalmusic #SymphonyOrchestra #Concerto #Stutzmann #NathalieStutzmann #Sinfonia #Eroica #KSO\n\n@kildenkrs\n\u27A1 Facebook: https://www.facebook.com/krs.symf/\n\u27A1 Instagram: https://www.instagram.com/kildenkrs/\n\u27A1 Spotify: https://open.spotify.com/artist/0cVMJ85dH3g80uxwSgCdY4",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 4,
+			"PublishedAtRaw": "2025-10-16T06:28:28Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:28:28+00:00",
+			"PublishedAt": "2025-10-16T11:58:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "eV5lX6J5rLg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/eV5lX6J5rLg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/eV5lX6J5rLg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/eV5lX6J5rLg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/eV5lX6J5rLg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/eV5lX6J5rLg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Symphony No. 3, Eroica - Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UCgwcTw41rfITCT_cY7517DQ",
+			"VideoOwnerChannelTitle": "Kristiansand Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "LCxp_23b3Eo",
+			"VideoPublishedAtRaw": "2020-12-16T19:25:39Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-16T19:25:39+00:00",
+			"VideoPublishedAt": "2020-12-17T00:55:39+05:30"
+		},
+		"ETag": "refMSqm_36dIgaohRKFm6yMROSU",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Composer: Ludwig van Beethoven\nConductor: Nathalie Stutzmann\nKristiansand Symphony Orchestra\n\n\nSymphony No. 5 in C minor, Symphony of fate (Schicksalssinfonie)\n\n\n00:00 Introduction by Nathalie Stutzmann\n02:33 I. Allegro con brio (C minor)\n10:04 II. Andante con moto  (A\u266D major)\n19:25 III. Scherzo. Allegro (C minor)\n24:27 IV. Allegro (C major)\n\n\n\n\nSymfoni nr. 5, \u00ABSkjebnesymfonien\u00BB (1807\u201308)\nDen klassiske musikkens mest kjente klingende ikon og en str\u00E5lende oppvisning i hvordan et korthugget, enkelt grunnmateriale kan utvikles til et veritabelt mesterverk. De 7\u20138 minuttene som utgj\u00F8r f\u00F8rste sats er utvilsomt noe av det mest overveldende man kan oppleve i en konsertsal. Spenningen vedvarer gjennom hele symfonien, og vi tas med p\u00E5 en fascinerende reise fra m\u00F8rke til lys. Betegnelsen \u00ABSkjebnesymfonien\u00BB var formodentlig et PR-knep fra Beethovens assistent og biograf Anton Schindler.\n\n\n#Beethoven #Symphony #classsicalmusic #SymphonyOrchestra #Concerto #Stutzmann #NathalieStutzmann #Sinfonia #fate #KSO\n\n\n@kildenkrs\n\u27A1 Facebook: https://www.facebook.com/krs.symf/\n\u27A1 Instagram: https://www.instagram.com/kildenkrs/\n\u27A1 Spotify: https://open.spotify.com/artist/0cVMJ85dH3g80uxwSgCdY4",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 5,
+			"PublishedAtRaw": "2025-10-16T06:29:20Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:20+00:00",
+			"PublishedAt": "2025-10-16T11:59:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "LCxp_23b3Eo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/LCxp_23b3Eo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/LCxp_23b3Eo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/LCxp_23b3Eo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/LCxp_23b3Eo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/LCxp_23b3Eo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Symphony No. 5 - Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UCgwcTw41rfITCT_cY7517DQ",
+			"VideoOwnerChannelTitle": "Kristiansand Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Paw-4tXlSUU",
+			"VideoPublishedAtRaw": "2020-12-16T19:42:58Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-16T19:42:58+00:00",
+			"VideoPublishedAt": "2020-12-17T01:12:58+05:30"
+		},
+		"ETag": "UTLznG4OwjKnhjAwPXVuzeDbyxY",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Composer: Ludwig van Beethoven\nConductor: Nathalie Stutzmann\nKristiansand Symphony Orchestra\n\nSymphony No. 6 in F major, Op. 68 Pastoral\n\n\n00:00 Introduction by Nathalie Stutzmann\n02:32 I. Allegro ma non troppo (F major)\n15:12 II. Andante molto mosso (B\u266D major)\n28:20 III. Allegro (F major)\n34:43 IV. Allegro (F minor)\n36:56 V. Allegretto (F major)\n\n\n\nBeethoven trivdes mye bedre ute i naturen enn i bymilj\u00F8. Han gikk gjerne lange promenader i skogen for \u00E5 f\u00E5 inspirasjon og energi, og n\u00F8t oppriktig \u00E5 ferdes blant tr\u00E6r og blomster. En symfoni med naturen som tema var derfor ikke unaturlig for Beethoven, men kontroversielt blant seri\u00F8se musikkritikere som s\u00E5 ned p\u00E5 s\u00E5kalte tonemalerier eller programmusikk. I \u00ABPastoralesymfonien\u00BB beskrives s\u00E5 vel fuglekvitter, en sildrende bekk og uv\u00E6r. Verket pekte fram mot den romantiske perioden der beskrivende og fortellende musikk skulle bli mye mer vanlig.\n\n\n#Beethoven #Symphony #classsicalmusic #SymphonyOrchestra #Concerto #Stutzmann #NathalieStutzmann #Sinfonia #Pastorale #Pastoral #KSO\n\n\n@kildenkrs\n\u27A1 Facebook: https://www.facebook.com/krs.symf/\n\u27A1 Instagram: https://www.instagram.com/kildenkrs/\n\u27A1 Spotify: https://open.spotify.com/artist/0cVMJ85dH3g80uxwSgCdY4",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 6,
+			"PublishedAtRaw": "2025-10-16T06:28:33Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:28:33+00:00",
+			"PublishedAt": "2025-10-16T11:58:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Paw-4tXlSUU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Paw-4tXlSUU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Paw-4tXlSUU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Paw-4tXlSUU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Paw-4tXlSUU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Paw-4tXlSUU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Symphony No. 6, Pastorale - Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UCgwcTw41rfITCT_cY7517DQ",
+			"VideoOwnerChannelTitle": "Kristiansand Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "hBlNa9_RCNw",
+			"VideoPublishedAtRaw": "2016-09-03T05:36:03Z",
+			"VideoPublishedAtDateTimeOffset": "2016-09-03T05:36:03+00:00",
+			"VideoPublishedAt": "2016-09-03T11:06:03+05:30"
+		},
+		"ETag": "V1KDiFbEan6Lod-obiZkueg7Rck",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Georges Bizet: L\u0027Arl\u00E9sienne Suite No. 1 \u0026 Suite No. 2 / Nathalie Stutzmann, conductor \u00B7 @RoyalStockholmPhil / Recorded at Stockholm Concert Hall, October 2014.\n\nWebsite of Nathalie Stutzmann:\nhttp://www.nathaliestutzmann.com\n\nFacebook page of Nathalie Stutzmann: https://www.facebook.com/Nathalie.Stutzmann",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 7,
+			"PublishedAtRaw": "2025-10-16T06:28:51Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:28:51+00:00",
+			"PublishedAt": "2025-10-16T11:58:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "hBlNa9_RCNw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/hBlNa9_RCNw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/hBlNa9_RCNw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/hBlNa9_RCNw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/hBlNa9_RCNw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/hBlNa9_RCNw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bizet - L\u0027Arl\u00E9sienne Suite No. 1 \u0026 Suite No. 2 / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lKllRGGWdfs",
+			"VideoPublishedAtRaw": "2025-11-15T13:01:36Z",
+			"VideoPublishedAtDateTimeOffset": "2025-11-15T13:01:36+00:00",
+			"VideoPublishedAt": "2025-11-15T18:31:36+05:30"
+		},
+		"ETag": "Ne2sPjUWnGOdKJaa3KWNvN9Dbnc",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "A work full of contradictions that offers a glimpse into the composer\u0027s inner world. Johann Brahms was plagued by doubts when he composed his Fourth Symphony in E minor, Op. 98, in 1864/65. But anyone who hears French conductor Nathalie Stutzmann conducting the London Symphony Orchestra would find that hard to believe. The concert was recorded on 10 November 2022 at the Barbican Center, home of the London Symphony Orchestra.\n\n(00:00) I. Allegro non troppo\n(13:40) II. Andante moderato\n(26:08) III. Allegro Giocoso\n(32:29) IV. Allegro energico e passionato \u2013 Pi\u00F9 Allegro\n\nWhen it came to his symphonies, Johannes Brahms (1833\u20131897) reverently took cues from his great role model Ludwig van Beethoven. Some of his Romantic contemporaries, such as Franz Schubert, Robert Schumann, and Gustav Mahler also took inspiration in Beethoven\u0027s symphonies \u2014 in part to set themselves apart from the legendary composer. Brahms wrote to conductor Hermann Levi: \u0022You have no idea how it feels to always hear such a giant marching behind you!\u0022 He was referring to Beethoven\u0027s looming presence over his works. \n\nWhile contemporary critics of Brahms\u0027 Fourth Symphony claim that the composer still adhered to the form of the classical symphony in a conservative manner, others emphasized his innovations. The conductor Hans von B\u00FClow (1830\u20131894) described Brahms\u0027 Fourth as \u0022Beethoven\u0027s Tenth.\u0022 And Arnold Schoenberg (1874\u20131951), founder of the atonal twelve-tone technique, later wrote in his essay \u0022Brahms the Progressive\u0022 that, in his opinion, Brahms\u0027s motivic work paved the way for the dissolution of tonality.\n\nThis detailed motivic work is one of Johannes Brahms\u0027 stylistic devices. Right from the first movement of the Fourth Symphony, with its descending thirds, different motifs appear repeatedly. The second movement, the Andante, is dominated by dark wind sounds and delicate violin tones. Brahms is said to have viewed the future of classical music rather bleakly in light of the social upheavals of the mid-19th century. This contrasts sharply with the third movement and its playfull Allegro, where dance-like, lively melodies set the tempo. \n\nBrahms wrote to a friend about his Fourth Symphony, saying that he had written \u0022a collection of polkas and waltzes.\u0022 In the fourth movement, the composer then returns to the form of the Baroque passacaglia with 30 variations. He was probably inspired by both Johann Sebastian Bach and Ludwig van Beethoven\u0027s 32 Variations in C minor.\n\nBrahms had intended Hans von B\u00FClow to conduct the premiere. But then, much to B\u00FClow\u0027s chagrin, he conducted it himself. The payback came when B\u00FClow went on a world tour with Brahms\u0027 Fourth Symphony and captivated audiences around the globe. Although Brahms lived until 1897, he didn\u0027t write any other symphonies. Similarly, his friend Robert Schumann also composed only four symphonies in his lifetime.\n\nThe London Symphony Orchestra was founded in 1904 and is the oldest symphony orchestra in London. Since 1982, it\u0027s been based at the Barbican Centre. This recording was done there in 2022 and features conductor Nathalie Stutzmann. \n\nNathalie Stutzmann is currently the music director of the Atlanta Symphony Orchestra. The French singer and conductor conducts orchestras in Europe and Japan, as well as operas. At the Bayreuth Festival, she conducted Richard Wagner\u0027s \u0022Tannh\u00E4user\u0022 and was only the second woman ever \u2014 after Ukrainian conductor Oksana Lyniv \u2014 to conduct there since the festival was founded in 1876.\n\n\u00A9 2022 C Major Entertainment\n\nWatch more great concerts: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nFind the best of Brahms here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBU5_GAu2NLbH0fBf6CEX8kQ\n\nand check out more symphonies: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#symphony #brahms #romanticmusic",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 8,
+			"PublishedAtRaw": "2025-11-18T17:27:14Z",
+			"PublishedAtDateTimeOffset": "2025-11-18T17:27:14+00:00",
+			"PublishedAt": "2025-11-18T22:57:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lKllRGGWdfs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lKllRGGWdfs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lKllRGGWdfs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lKllRGGWdfs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lKllRGGWdfs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lKllRGGWdfs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms: Symphony No. 4 | London Symphony Orchestra \u0026 Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "NdPZn1IpoCU",
+			"VideoPublishedAtRaw": "2018-10-31T09:27:25Z",
+			"VideoPublishedAtDateTimeOffset": "2018-10-31T09:27:25+00:00",
+			"VideoPublishedAt": "2018-10-31T14:57:25+05:30"
+		},
+		"ETag": "JqNygI1Ll_wuVJ004YY3ziQHsZQ",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Dvo\u0159\u00E1k: Cello Concerto in B minor / Nathalie Stutzmann, conductor \u00B7 Antonio Meneses, cello \u00B7 OSESP Orquestra Sinf\u00F4nica do Estado de S\u00E3o Paulo / Recorded at Sala S\u00E3o Paulo, Brazil, 28 October 2017.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 9,
+			"PublishedAtRaw": "2025-10-16T06:28:39Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:28:39+00:00",
+			"PublishedAt": "2025-10-16T11:58:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "NdPZn1IpoCU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/NdPZn1IpoCU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/NdPZn1IpoCU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/NdPZn1IpoCU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/NdPZn1IpoCU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k - Cello Concerto / Nathalie Stutzmann and Antonio Meneses",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "4qkDmRG_I44",
+			"VideoPublishedAtRaw": "2025-10-15T12:00:14Z",
+			"VideoPublishedAtDateTimeOffset": "2025-10-15T12:00:14+00:00",
+			"VideoPublishedAt": "2025-10-15T17:30:14+05:30"
+		},
+		"ETag": "YuwjPEv5P311t3dVAT0ZboBGH3g",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Step into a storm of sound where a defiant horn blast summons tubular bells, savage chases, and a relentless supernatural fate. C\u00E9sar Franck\u2019s The Accursed Huntsman (the original French title is Le Chasseur maudit) unfolds vivid storytelling through orchestral color, mounting tension, and a finale that leaves the spine humming\u2014fifteen unforgettable minutes of drama, atmosphere, and raw musical theater. Watch and feel the hunt become the hunted. Here, the romantic piece is performed by Nathalie Stutzmann and the London Symphony Orchestra. The concert took place on November 10, 2022, at the Barbican Centre in London.\n\nC\u00E9sar Franck\u0027s (1822 - 1890) symphonic poem Le Chasseur Maudit, FWV 44 from 1882 is a prime example of so-called program music - instrumental works that are based on a non-musical subject. In the case of The Accursed Huntsman, this is the ballad Der wilde J\u00E4ger (The Wild Huntsman) by German poet Gottfried August B\u00FCrger (1747 - 1794). The poem tells the story of a Rhineland count who goes hunting on a Sunday morning. This is considered to be sinful behavior because he should have gone to church. The awareness of sin is embodied by two horsemen flanking the count. The rider on the left tempts him to do evil, the one on the right wants him to do good. The count follows the evil one, who clearly is the devil himself, and this leads to a series of terrible crimes from the one initial sin: He has a farmer who admonishes him against hunting flogged and his fields trampled on. He unleashes a murderous bloodbath on a shepherd and his flock. He desecrates the chapel of a hermit. But then the raging hunter finds himself alone in the forest and hears a voice that curses him. As punishment, he is condemned to be hunted by demons for all eternity. The hunter becomes the hunted and experiences hell on earth.\n\nC\u00E9sar Franck\u0027s symphonic poem follows the literary source closely. The dramatic plot develops in four sections:\n\n(00:00) The Peaceful Sunday Landscape (Le Paysage paisible du Dimanche)\n(03:05) The Hunt (La Chasse)\n(08:43) The Curse (La Mal\u00E9diction)\n(11:16) The Demons\u2018 Chase (La Poursuite des D\u00E9mons)\n\nThe defining feature of all the sections is the hunting motif played by the horns right at the beginning. In the course of the one-movement orchestral piece, this striking motif becomes the leitmotif. Its varied forms represent the states of mind of the hunter. In the first section, the hunting motif radiates self-will and pride. It is self-confidently contrasted with the singing of the faithful in the church and the sound of the church bells. The second section sets the scene for the hunt. Franck expresses the hunter\u0027s inner conflict between good and evil, so vividly described in B\u00FCrger\u0027s ballad, by means of an echo: the hunting theme played by the horns is restrainedly repeated by the woodwinds. You immediately sense that something is wrong. As it progresses, the hunting theme is taken over by the whole orchestra, and develops in a propulsive manner becoming increasingly aggressive. Three times the woodwinds counter with a softer melodic motif, which stands for the three victims of the hunter\u0027s crimes: the farmer (04:39), the shepherd (6:21) and the hermit (6:46); when the hunter suddenly finds himself alone in the forest and is afraid, the hunting motif is only heard in fragments and muted (07:26). In the third section, the curse against the count is heard in the low winds - but the theme of the curse also proves to be a variant of the hunting motif. In the fourth section, the hunting motif appears in a parodied form. Now it has been taken up by the demons surrounding the Count. The hunter has become the hunted. Shortly before the end of the tone poem, the bell sounds again, this time not as a harmonious church bell but as a monotonous death knell.\n\nWith The Accursed Huntsman, C\u00E9sar Franck once again proves himself to be a thoroughly Romantic composer. Popular Romantic subjects such as spooky horror stories with ghosts and supernatural forces or contradictions between outward action and inner states of mind are set to music perfectly here. The Accursed Huntsman is a successful example of how musical means can be used to tell an exciting story.\n\n\u00A9 2022 C MAJOR ENTERTAINMENT\n\nCheck out more music from the Romantic period in our playlist ROMANTIC MUSIC:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nAnd watch more concerts in YOUR PERSONAL CONCERT HALL:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic\n\n#romanticmusic #hunting #romanticmusic",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 10,
+			"PublishedAtRaw": "2025-10-16T06:33:33Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:33:33+00:00",
+			"PublishedAt": "2025-10-16T12:03:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "4qkDmRG_I44"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/4qkDmRG_I44/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/4qkDmRG_I44/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/4qkDmRG_I44/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/4qkDmRG_I44/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/4qkDmRG_I44/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Franck: The Accursed Huntsman | Nathalie Stutzmann and the London Symphony Orchestra",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "05D1BrxDSuw",
+			"VideoPublishedAtRaw": "2024-08-21T15:00:00Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-21T15:00:00+00:00",
+			"VideoPublishedAt": "2024-08-21T20:30:00+05:30"
+		},
+		"ETag": "nNe9XozZlS1bDnzdj7Pd65_gQJY",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "WDR Symphony Orchestra conducted by Nathalie Stutzmann. Xavier de Maistre as the harpist.\n\nI - Allegro moderato (\uD834\uDD5F = 100) - Meno mosso (\uD834\uDD5F = 84) - Tempo I - Pi\u00F9 mosso - Cadenza - Pi\u00F9 mosso: 0:00\nII - Tema con variazioni. Andante (\uD834\uDD60 = 88) - Largamente cantabile - Molto tranquillo (\uD834\uDD60 = 76) - Allegretto leggiero (\uD834\uDD60 = 120) - Animato (\uD834\uDD60 = 132) - Con molto espressione (\uD834\uDD60 = 72) - Coda. Andante (\uD834\uDD60 = 88): 11:18\nIII - Allegro giocoso (\uD834\uDD5F = 120) - Poco pesante - Pi\u00F9 mosso - Presto (\uD834\uDD5F = 144) - Meno mosso: 21:50\n\nGli\u00E8re\u0027s Harp Concerto was composed in 1938, the same year he was named People\u2019s Artist of the Soviet Union. It was written with close collaboration with Russian harpist Ksenia Erdely, principal harpist of the Bolshoi Theatre Orchestra. It was premiered in the Great Hall of the Moscow Conservatory on November 23 of 1938, performed by the Russian State Philharmonic Orchestra conducted by Leonid Steinberg, with Ksenia Erdely as the soloist. The work is still widely performed by virtuoso harpists even today.\n\nErdely\u0027s counsel was so helpful that Gli\u00E8re offered to give her credit as co-composer but she refused the honour, instead appearing as editor, as she preferred, when the work was published. Despite being written in 1938, the concerto is heavily anchored in the late Russian tradition to the point it could easily pass as written 50 years prior. It is described by a critic as with \u0022a heavy dose of Viennese Classicism crossed with Mozartean grace and touch of Russian romantic nationalism.\u0022 This late Russian traditional romanticism married well with the views of soviet authorities, who showered Gli\u00E8re with prizes and honours.\n\nThe first movement is structured in a modified concert sonata form. It begins with a brief orchestral gesture, followed by the introduction of an elegant and florid main theme introduced by the soloist. It culminates in a glowing tutti, after which a short cadenza-like passage composed of brilliant harp arpeggios begins a transition. A widely lyrical second theme is presented by the clarinet supported by the soloist. We find no closing cadence, instead the transition returns as it leads us to the development, which is more dramatic and modulates between several tonalities, not achieving a climax. The harpist then performs a virtuosic cadenza based on fragments of the themes, which merges into a rich inverted recapitulation (the second theme before the main one). A passionate coda ends the movement brilliantly.\n\nThe second movement is written as a set of a theme and six variations. It opens with brooding low strings before the soloist introduces the main theme of Russian folkloric nature. The first variation is an embellishment of the theme. Form, meter, key, and harmony remaining unchanged. A beautiful solo cello offers a lyrical counter melody. The second variation is played by full orchestra without solo harp, with a reverse version of the theme dominated by woodwinds. The third variation features light scales and arpeggios from the harp, decomposing the material in canonic forms. In the  fourth variation tempo quickens. The solo harp plays an accompanimental role to strings and woodwinds with rapid sixty-fourth-note arpeggios.\n\nThe fifth variation again puts the harp to the forefront, with the melody in the right hand thumb doubled by high strings, while the counter melody on the left hand is doubled by low strings. The sixth and final variation opens with violas sharing phrases will the cellos and the melody swifts to violins, all while the harpist accompanies until playing figure arpeggios and retakes it soloist role. The coda begins with the same brooding low string chords, horns reintroducing the main theme in its original shape, which passes to woodwinds and strings while the soloist supports with glissandos and arpeggios. A calm and elegant coda ends the movement, with a big glissando from the harpist.\n\nThe third movement is structured in sonata form. It begins with a brief but expecting orchestral introduction, preceding the exposition of a lively and cheerful main theme by the soloist, soon in dialogue with woodwinds and strings. Then a transition begins with brilliant arpeggios that mark the beginning of a short cadenza. A syncopated tutti leads us to a more expressive and flowing second theme. The ensuing development section is dominated by the main theme, culminating in a climax cut short by the recapitulation of the material. The coda begins with an abrupt quickening of the tempo, with virtuosic harp arpeggios above a lively orchestral accompaniment. A firm coda ends the entire work.\n\nPicture: \u0022Summer Day\u0022 (1917) by the Russian painter Sergei Vinogradov.\n\nMusical analysis partially written by myself. Source: https://tinyurl.com/2824tued\n\nTo check the score: https://tinyurl.com/23mhsbsn",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 11,
+			"PublishedAtRaw": "2025-10-16T06:31:31Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:31:31+00:00",
+			"PublishedAt": "2025-10-16T12:01:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "05D1BrxDSuw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/05D1BrxDSuw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/05D1BrxDSuw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/05D1BrxDSuw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/05D1BrxDSuw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/05D1BrxDSuw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Harp Concerto in E-flat major - Reinhold Gli\u00E8re",
+			"VideoOwnerChannelId": "UC9W3U300JG8OEQB7xQB8gNw",
+			"VideoOwnerChannelTitle": "Sergio C\u00E1novas"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "T4W-WsA_q5k",
+			"VideoPublishedAtRaw": "2022-03-22T20:25:03Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-22T20:25:03+00:00",
+			"VideoPublishedAt": "2022-03-23T01:55:03+05:30"
+		},
+		"ETag": "mRaL6e_jj9xRYovZdpB-55E0Db4",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Nathalie Stutzmann, conductor | Atlanta Symphony Orchestra\n2:45 R. STRAUSS: Tod und Verkla\u0308rung, Op. 24 (Death and Transfiguration)\n30:14 State Anthem of Ukraine\n35:00 MOZART: Requiem, K.626 (completed by Franz Xaver Su\u0308ssmayr) \n    Martina Jankov\u00E1, soprano\n    Sara Mingardo, mezzo-soprano\n    Kenneth Tarver, tenor\n    Burak Bilgili, bass\n    Atlanta Symphony Orchestra Chorus",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 12,
+			"PublishedAtRaw": "2025-10-16T06:30:38Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:30:38+00:00",
+			"PublishedAt": "2025-10-16T12:00:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "T4W-WsA_q5k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/T4W-WsA_q5k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/T4W-WsA_q5k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/T4W-WsA_q5k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/T4W-WsA_q5k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/T4W-WsA_q5k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "LIVE: Nathalie Stutzmann leads the ASO \u0026 Chorus | Strauss \u0026 Mozart (full concert)",
+			"VideoOwnerChannelId": "UCP4v8OQXpuJzbXVcMiQCvyA",
+			"VideoOwnerChannelTitle": "Atlanta Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "O6IYsXWjWv0",
+			"VideoPublishedAtRaw": "2020-12-12T23:00:11Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-12T23:00:11+00:00",
+			"VideoPublishedAt": "2020-12-13T04:30:11+05:30"
+		},
+		"ETag": "D6Z8sddnuRcTWv3NHetmFCcxYq0",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Composer: Maurice Ravel\nConductor: Nathalie Stutzmann\nKristiansand Symphony Orchestra\n\n\nLa valse, po\u00E8me chor\u00E9graphique pour orchestre (a choreographic poem for orchestra)\n\n\n\nLa valse - et koreografisk dikt for orkester, er et verk skrevet av Maurice Ravel i 1920. Urfremf\u00F8relsen fant sted i Paris 12. desember 1920. Verket har gjennom musikkhistorien blitt omtalt som en hyllest til valsen, selv om mange har hevdet at det l\u00E5 en sterk undertone av parodi eller kritikk i verket, myntet p\u00E5 Europas noe aparte borgerskap i og etter f\u00F8rste verdenskrig. Ravel selv nektet imidlertid for dette, og uttalte: \u0022Mens noen oppdager et fors\u00F8k p\u00E5 parodi, faktisk karikatur, ser andre kategorisk en tragisk hentydning i det - slutten p\u00E5 det andre imperiet og situasjonen i Wien etter krigen. Denne dansen kan virke tragisk, som enhver annen f\u00F8lelse ... presset til det ytterste. Men man skal bare se i den hva musikken uttrykker: en stigende progresjon av klang, som scenen kommer sammen for \u00E5 legge til lys og bevegelse.\u0022 \nUansett er dette \u00E5 anse som et melodisk mesterverk, nyskapende, til tider dissonant, spent til bristepunktet mellom det brutale og det skj\u00F8re.\n\n\n\n#Ravel #mauriceravel #Stutzmann #NathalieStutzmann #Concerto #classsicalmusic #SymphonyOrchestra #symphony #Valse #lavalse #KSO\n\n\n@kildenkrs\n\u27A1 Facebook: https://www.facebook.com/krs.symf/\n\u27A1 Instagram: https://www.instagram.com/kildenkrs/\n\u27A1 Spotify: https://open.spotify.com/artist/0cVMJ85dH3g80uxwSgCdY4",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 13,
+			"PublishedAtRaw": "2025-10-16T06:33:57Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:33:57+00:00",
+			"PublishedAt": "2025-10-16T12:03:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "O6IYsXWjWv0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/O6IYsXWjWv0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/O6IYsXWjWv0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/O6IYsXWjWv0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/O6IYsXWjWv0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/O6IYsXWjWv0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Maurice Ravel: La Valse - Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UCgwcTw41rfITCT_cY7517DQ",
+			"VideoOwnerChannelTitle": "Kristiansand Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "2DURLkSebck",
+			"VideoPublishedAtRaw": "2015-01-02T13:13:08Z",
+			"VideoPublishedAtDateTimeOffset": "2015-01-02T13:13:08+00:00",
+			"VideoPublishedAt": "2015-01-02T18:43:08+05:30"
+		},
+		"ETag": "k6ogMPHy2jDyTG0eD1VqjVlRTxM",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Felix Mendelssohn Bartholdy: Hebrides Overture \u0022Fingal\u0027s Cave\u0022 / Nathalie Stutzmann, conductor \u00B7 Mito Chamber Orchestra / Recorded at Art Tower Mito, Japan, 17 January 2014. Video by NHK.\n\nWatch full concert (shared podium with Seiji Ozawa):\nhttp://youtu.be/WEHG7T5-eW0\n\nWebsite of Nathalie Stutzmann:\nhttp://www.nathaliestutzmann.com\n\nFacebook page of Nathalie Stutzmann:\nhttps://www.facebook.com/Nathalie.Stutzmann",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 14,
+			"PublishedAtRaw": "2025-10-16T06:34:08Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:34:08+00:00",
+			"PublishedAt": "2025-10-16T12:04:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "2DURLkSebck"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/2DURLkSebck/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/2DURLkSebck/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/2DURLkSebck/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/2DURLkSebck/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/2DURLkSebck/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn - Hebrides Overture \u0022Fingal\u0027s Cave\u0022 (complete/full) / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1hGSdVn_PHk",
+			"VideoPublishedAtRaw": "2014-03-18T04:25:21Z",
+			"VideoPublishedAtDateTimeOffset": "2014-03-18T04:25:21+00:00",
+			"VideoPublishedAt": "2014-03-18T09:55:21+05:30"
+		},
+		"ETag": "zNjOW9AgMpVrRASs9RDhSJyBkA4",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Felix Mendelssohn Bartholdy: Symphony No. 1 in C minor / Nathalie Stutzmann, conductor \u00B7 OSESP Orquestra Sinf\u00F4nica do Estado de S\u00E3o Paulo / Recorded at Sala S\u00E3o Paulo, Brazil, 21 November 2013.\n\nNathalie Stutzmann talking about conducting Mendelssohn\u0027s Symphony No. 1: https://www.youtube.com/watch?v=pLs7C_1hzuk\n\nWebsite of Nathalie Stutzmann:\nhttp://www.nathaliestutzmann.com\n\nFacebook page of Nathalie Stutzmann:\nhttps://www.facebook.com/Nathalie.Stutzmann",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 15,
+			"PublishedAtRaw": "2025-10-16T06:29:37Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:37+00:00",
+			"PublishedAt": "2025-10-16T11:59:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1hGSdVn_PHk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1hGSdVn_PHk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1hGSdVn_PHk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1hGSdVn_PHk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1hGSdVn_PHk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1hGSdVn_PHk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn - Symphony No. 1 (complete/full) / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jJKxxaaEJb8",
+			"VideoPublishedAtRaw": "2015-01-02T13:14:23Z",
+			"VideoPublishedAtDateTimeOffset": "2015-01-02T13:14:23+00:00",
+			"VideoPublishedAt": "2015-01-02T18:44:23+05:30"
+		},
+		"ETag": "FVJ0tRFp1idj2ID5G0Crg5RJLYg",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Felix Mendelssohn Bartholdy: Symphony No. 4 in A major \u0022Italian\u0022 / Nathalie Stutzmann, conductor \u00B7 Mito Chamber Orchestra / Recorded at Art Tower Mito, Japan, 17 January 2014. Video by NHK.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 16,
+			"PublishedAtRaw": "2025-10-16T06:29:32Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:32+00:00",
+			"PublishedAt": "2025-10-16T11:59:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jJKxxaaEJb8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jJKxxaaEJb8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jJKxxaaEJb8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/jJKxxaaEJb8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jJKxxaaEJb8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/jJKxxaaEJb8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn - Symphony No. 4 \u0022Italian\u0022 / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ER0ML30biZ8",
+			"VideoPublishedAtRaw": "2014-03-16T19:26:18Z",
+			"VideoPublishedAtDateTimeOffset": "2014-03-16T19:26:18+00:00",
+			"VideoPublishedAt": "2014-03-17T00:56:18+05:30"
+		},
+		"ETag": "GLigQHgQuyxKxAsKo4nLcH8Bnoc",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wolfgang Amadeus Mozart: Symphony No. 35 Haffner / Nathalie Stutzmann, conductor \u00B7 Swedish Chamber Orchestra / Recorded at \u00D6rebro Konserthus, Sweden, 7 November, 2013. Video by Tord Martinsson from Powerec Studio.\n\nWebsite of Nathalie Stutzmann:\nhttp://www.nathaliestutzmann.com\n\nFacebook page of Nathalie Stutzmann:\nhttps://www.facebook.com/Nathalie.Stutzmann\n\nWebsite of Powerec Studio:\nhttp://www.powerecstudio.com",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 17,
+			"PublishedAtRaw": "2025-10-16T06:36:16Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:36:16+00:00",
+			"PublishedAt": "2025-10-16T12:06:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ER0ML30biZ8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ER0ML30biZ8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ER0ML30biZ8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ER0ML30biZ8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ER0ML30biZ8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ER0ML30biZ8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart - Symphony No. 35 Haffner (complete/full) / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_MPScSugF-w",
+			"VideoPublishedAtRaw": "2017-12-12T05:00:52Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-12T05:00:52+00:00",
+			"VideoPublishedAt": "2017-12-12T10:30:52+05:30"
+		},
+		"ETag": "9hAHXyMO_Zq78WSTdSCjmNHG6RY",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The french contralto and conductor Nathalie Stutzmann leads the RT\u00C9 National Symphony Orchestra in a jovial performance of Beethoven\u0027s Symphony No. 1 in C Major. The concert was recorded live on September 29, 2017.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 18,
+			"PublishedAtRaw": "2025-10-16T06:29:06Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:06+00:00",
+			"PublishedAt": "2025-10-16T11:59:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_MPScSugF-w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_MPScSugF-w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_MPScSugF-w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_MPScSugF-w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_MPScSugF-w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nathalie Stutzmann Conducts Beethoven - Symphony No. 1 (2017)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "FbfCWgOgwB8",
+			"VideoPublishedAtRaw": "2019-02-28T16:25:00Z",
+			"VideoPublishedAtDateTimeOffset": "2019-02-28T16:25:00+00:00",
+			"VideoPublishedAt": "2019-02-28T21:55:00+05:30"
+		},
+		"ETag": "IZ8LJAlDSzpV-DJeg4Jj9NNV114",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "French contralto and conductor Nathalie Stutzmann leads the RT\u00C9 National Symphony Orchestra in this performance of Beethoven\u2019s Symphony No. 5 in C Minor. It was recorded live in concert on February 23, 2019.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 19,
+			"PublishedAtRaw": "2025-10-16T06:29:16Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:16+00:00",
+			"PublishedAt": "2025-10-16T11:59:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "FbfCWgOgwB8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/FbfCWgOgwB8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/FbfCWgOgwB8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/FbfCWgOgwB8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/FbfCWgOgwB8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/FbfCWgOgwB8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nathalie Stutzmann conducts Beethoven - Symphony No. 5 (2019)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "9mIT6S-fbaU",
+			"VideoPublishedAtRaw": "2018-11-10T20:11:45Z",
+			"VideoPublishedAtDateTimeOffset": "2018-11-10T20:11:45+00:00",
+			"VideoPublishedAt": "2018-11-11T01:41:45+05:30"
+		},
+		"ETag": "xxUddMkie0dJY_4v9DRAHWBIFVA",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "French contralto and conductor Nathalie Stutzmann leads the S\u00E3o Paulo State Symphony Orchestra in this performance of Brahms\u2019 Symphony No. 1 in C Minor. It was recorded live on November 9, 2018.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 20,
+			"PublishedAtRaw": "2025-10-16T06:31:15Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:31:15+00:00",
+			"PublishedAt": "2025-10-16T12:01:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9mIT6S-fbaU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/9mIT6S-fbaU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/9mIT6S-fbaU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/9mIT6S-fbaU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/9mIT6S-fbaU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/9mIT6S-fbaU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nathalie Stutzmann conducts Brahms - Symphony No. 1 (2018)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Sjry6FhtYRw",
+			"VideoPublishedAtRaw": "2019-01-11T20:19:37Z",
+			"VideoPublishedAtDateTimeOffset": "2019-01-11T20:19:37+00:00",
+			"VideoPublishedAt": "2019-01-12T01:49:37+05:30"
+		},
+		"ETag": "-2Pu3mwTXAOAvS3ZmCPCyemZj7Y",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "French contralto and conductor Nathalie Stutzmann leads the RT\u00C9 National Symphony Orchestra in this performance of Haydn\u2019s Symphony No. 94 in G Major \u2019Surprise\u0027. It was recorded live in concert on January 11, 2019.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 21,
+			"PublishedAtRaw": "2025-10-16T06:29:46Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:46+00:00",
+			"PublishedAt": "2025-10-16T11:59:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Sjry6FhtYRw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Sjry6FhtYRw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Sjry6FhtYRw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Sjry6FhtYRw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Sjry6FhtYRw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Sjry6FhtYRw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nathalie Stutzmann conducts Haydn - Symphony No. 94 \u2019Surprise\u0027 (2019)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DzKYClgO7tg",
+			"VideoPublishedAtRaw": "2017-12-12T05:04:10Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-12T05:04:10+00:00",
+			"VideoPublishedAt": "2017-12-12T10:34:10+05:30"
+		},
+		"ETag": "K9zLsyN-hOJxv8TOJ2rPQERpOMQ",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The french contralto and conductor Nathalie Stutzmann leads the RT\u00C9 National Symphony Orchestra in a jovial performance of Prokofiev\u0027s First Symphony. The concert was recorded live on September 29, 2017.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 22,
+			"PublishedAtRaw": "2025-10-16T06:34:46Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:34:46+00:00",
+			"PublishedAt": "2025-10-16T12:04:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DzKYClgO7tg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/DzKYClgO7tg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/DzKYClgO7tg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/DzKYClgO7tg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/DzKYClgO7tg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nathalie Stutzmann conducts Prokofiev: Symphony No. 1 \u2018Classical\u0027 (2017)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "YNMxyrTleso",
+			"VideoPublishedAtRaw": "2018-04-29T11:05:58Z",
+			"VideoPublishedAtDateTimeOffset": "2018-04-29T11:05:58+00:00",
+			"VideoPublishedAt": "2018-04-29T16:35:58+05:30"
+		},
+		"ETag": "B83HE8tb6411qSS_dlS-WMQCCdM",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "French conductor Nathalie Stutzmann leads the Royal Stockholm Philharmonic Orchestra in this performance of Maurice Ravel\u2019s La Valse. It was recorded live in May 2017.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 23,
+			"PublishedAtRaw": "2025-10-16T06:34:59Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:34:59+00:00",
+			"PublishedAt": "2025-10-16T12:04:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "YNMxyrTleso"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/YNMxyrTleso/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/YNMxyrTleso/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/YNMxyrTleso/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/YNMxyrTleso/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nathalie Stutzmann conducts Ravel - La Valse (2017)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "W9CvXt6mh7o",
+			"VideoPublishedAtRaw": "2018-11-23T22:55:35Z",
+			"VideoPublishedAtDateTimeOffset": "2018-11-23T22:55:35+00:00",
+			"VideoPublishedAt": "2018-11-24T04:25:35+05:30"
+		},
+		"ETag": "s2Y4qP2B0pe6z0mZmc5FKxPBi2Y",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "French contralto and conductor Nathalie Stutzmann leads the RT\u00C9 National Symphony Orchestra in this performance of Tchaikovsky\u2019s Symphony No. 5 in E Minor. It was recorded live on November 23, 2018.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 24,
+			"PublishedAtRaw": "2025-10-16T06:29:41Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:41+00:00",
+			"PublishedAt": "2025-10-16T11:59:41+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "W9CvXt6mh7o"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/W9CvXt6mh7o/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/W9CvXt6mh7o/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/W9CvXt6mh7o/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/W9CvXt6mh7o/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/W9CvXt6mh7o/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nathalie Stutzmann conducts Tchaikovsky - Symphony No. 5 (2018)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "QgfXhpw1pJk",
+			"VideoPublishedAtRaw": "2020-04-22T16:35:16Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-22T16:35:16+00:00",
+			"VideoPublishedAt": "2020-04-22T22:05:16+05:30"
+		},
+		"ETag": "mjDJdPeiH87Nkogomr9B409Hcsk",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is about RTE\u0301 NSO play Dvorak Symphony No.7 conducted by Nathalie Stutzmann from Culture Night 2018",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 25,
+			"PublishedAtRaw": "2025-10-16T06:30:44Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:30:44+00:00",
+			"PublishedAt": "2025-10-16T12:00:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "QgfXhpw1pJk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/QgfXhpw1pJk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/QgfXhpw1pJk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/QgfXhpw1pJk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/QgfXhpw1pJk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/QgfXhpw1pJk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "RTE\u0301 NSO play Dvorak Symphony No.7 conducted by Nathalie Stutzmann from Culture Night 2018",
+			"VideoOwnerChannelId": "UCkt8AaqEMA41tiprny4Pb1g",
+			"VideoOwnerChannelTitle": "National Symphony Orchestra Ireland"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "eb2GxweVEyk",
+			"VideoPublishedAtRaw": "2016-10-22T12:49:24Z",
+			"VideoPublishedAtDateTimeOffset": "2016-10-22T12:49:24+00:00",
+			"VideoPublishedAt": "2016-10-22T18:19:24+05:30"
+		},
+		"ETag": "k1npJvgBSt9BnAzIlbilHOozCTI",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Schubert: Symphony No. 4 \u0022Tragic\u0022 / Nathalie Stutzmann, conductor \u00B7 OSESP Orquestra Sinf\u00F4nica do Estado de S\u00E3o Paulo / Recorded at Sala S\u00E3o Paulo, Brazil, 17 September 2016.\n\nWebsite of Nathalie Stutzmann:\nhttp://www.nathaliestutzmann.com\n\nFacebook page of Nathalie Stutzmann: https://www.facebook.com/Nathalie.Stutzmann",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 26,
+			"PublishedAtRaw": "2025-10-16T06:29:01Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:29:01+00:00",
+			"PublishedAt": "2025-10-16T11:59:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "eb2GxweVEyk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/eb2GxweVEyk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/eb2GxweVEyk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/eb2GxweVEyk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/eb2GxweVEyk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/eb2GxweVEyk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schubert - Symphony No. 4 \u0022Tragic\u0022 / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vihiqAByk_w",
+			"VideoPublishedAtRaw": "2025-11-27T15:01:48Z",
+			"VideoPublishedAtDateTimeOffset": "2025-11-27T15:01:48+00:00",
+			"VideoPublishedAt": "2025-11-27T20:31:48+05:30"
+		},
+		"ETag": "25BXNIDKwcn12Tw_AzT4R1JQpQ4",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Die Tondichtung \u0022Tod und Verkl\u00E4rung\u0022 von Richard Strauss, aufgef\u00FChrt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Nathalie Stutzmann, am 31. Oktober 2025 im M\u00FCnchner Herkulessaal aufgezeichnet. Nathalie Stutzmann mit freundlicher Genehmigung von Erato/ Warner Classics.\n\nRichard Strauss - \u0022Tod und Verkl\u00E4rung\u0022, op. 24 (TrV 158), Tondichtung f\u00FCr gro\u00DFes Orchester\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigentin: Nathalie Stutzmann\n\n\u25BA Web: https://www.br-chor.de/\n\u25BA Facebook: https://www.facebook.com/brchor/\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 27,
+			"PublishedAtRaw": "2025-11-27T18:07:59Z",
+			"PublishedAtDateTimeOffset": "2025-11-27T18:07:59+00:00",
+			"PublishedAt": "2025-11-27T23:37:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vihiqAByk_w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vihiqAByk_w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vihiqAByk_w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vihiqAByk_w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vihiqAByk_w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vihiqAByk_w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strauss - Tod und Verkl\u00E4rung | Nathalie Stutzmann | BRSO",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1AKpOepR2PM",
+			"VideoPublishedAtRaw": "2020-03-14T14:11:28Z",
+			"VideoPublishedAtDateTimeOffset": "2020-03-14T14:11:28+00:00",
+			"VideoPublishedAt": "2020-03-14T19:41:28+05:30"
+		},
+		"ETag": "q6c_CD0WPHSo6JHhmDrl03CGQBk",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Piotr Ilitch Tchaikovsky: Pique Dame Overture and Eugene Onegin Polonaise  / Nathalie Stutzmann, conductor \u00B7 RT\u00C9 National Symphony Orchestra / Recorded at Sala Radio Bucharest, Romania, 25 November 2018.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 28,
+			"PublishedAtRaw": "2025-10-16T06:34:17Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:34:17+00:00",
+			"PublishedAt": "2025-10-16T12:04:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1AKpOepR2PM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1AKpOepR2PM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1AKpOepR2PM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1AKpOepR2PM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1AKpOepR2PM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1AKpOepR2PM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Pique Dame Overture and Eugene Onegin Polonaise  / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "GjOC-a2HwJQ",
+			"VideoPublishedAtRaw": "2020-02-02T12:25:08Z",
+			"VideoPublishedAtDateTimeOffset": "2020-02-02T12:25:08+00:00",
+			"VideoPublishedAt": "2020-02-02T17:55:08+05:30"
+		},
+		"ETag": "ZXqxBg4b3TeDkT5hNQdPfdX70-I",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Piotr Ilitch Tchaikovsky: Symphony No. 5 / Nathalie Stutzmann, conductor \u00B7 RT\u00C9 National Symphony Orchestra / Recorded at Sala Radio Bucharest, Romania, 25 November 2018.",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 29,
+			"PublishedAtRaw": "2025-10-16T06:28:57Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:28:57+00:00",
+			"PublishedAt": "2025-10-16T11:58:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "GjOC-a2HwJQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/GjOC-a2HwJQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/GjOC-a2HwJQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/GjOC-a2HwJQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/GjOC-a2HwJQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Symphony No. 5 / Nathalie Stutzmann",
+			"VideoOwnerChannelId": "UC7dyXB_d4OcZgJj0naBO7aA",
+			"VideoOwnerChannelTitle": "Nathalie Stutzmann"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1qdkWaoYzw0",
+			"VideoPublishedAtRaw": "2021-12-13T08:42:10Z",
+			"VideoPublishedAtDateTimeOffset": "2021-12-13T08:42:10+00:00",
+			"VideoPublishedAt": "2021-12-13T14:12:10+05:30"
+		},
+		"ETag": "fSrx7hgd64qLPE7YmtSSpx4B8yQ",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "H\u00F6ren Sie Peter Tschaikowskys 5. Sinfonie gespielt von der NDR Radiophilharmonie unter der Leitung von Nathalie Stutzmann. Der Komponist Tschaikowsky wird in \u0022KonzertPlus: Tschaikowsky auf der Couch\u0022 von den Schauspieler*innen Miriam Maertens und Philippe Goos (Schauspiel Hannover) aus psychologischer Sicht betrachtet. Regie f\u00FChrte Alexander Radulescu.\n\nUnter dem Namen \u0022KonzertPlus\u0022 konzipiert und produziert die NDR Radiophilharmonie ein besonderes Videoformat. Hier verbinden sich Kompositionen der klassischen Musik mit Filmbildern, Texten, Schauspiel, Interviews und mehr.\n\nPETER TSCHAIKOWSKY\nSinfonie Nr. 5 e-Moll op. 64  00:00\nI. Andante - Allegro con anima  05:50\nII. Andante cantabile, con alcuna licenza  23:40\nIII. Valse. Allegro moderato  40:16\nIV. Finale. Andante maestoso - Allegro vivace 49:21\n\nMiriam Maertens, Schauspielerin\nPhilippe Goos, Schauspieler\nNathalie Stutzmann, Dirigentin\nAlexander Radulescu, Regie\nNDR Radiophilharmonie\n\nFoto Copyright: Micha Neugebauer\n\nWebsite: https://www.ndr.de/radiophilharmonie\nFacebook: https://www.facebook.com/NDRRadiophilharmonie\n\n#ndrradiophilharmonie #tschaikowsky #konzertplus",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 30,
+			"PublishedAtRaw": "2025-10-16T06:32:01Z",
+			"PublishedAtDateTimeOffset": "2025-10-16T06:32:01+00:00",
+			"PublishedAt": "2025-10-16T12:02:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1qdkWaoYzw0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1qdkWaoYzw0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1qdkWaoYzw0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1qdkWaoYzw0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1qdkWaoYzw0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tschaikowsky: 5. Sinfonie | Konzert Plus | NDR Radiophilharmonie",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jVpSrV21_X0",
+			"VideoPublishedAtRaw": "2025-11-29T15:01:26Z",
+			"VideoPublishedAtDateTimeOffset": "2025-11-29T15:01:26+00:00",
+			"VideoPublishedAt": "2025-11-29T20:31:26+05:30"
+		},
+		"ETag": "lTry-jiaD2vPJuGrpt0QrBMlcQQ",
+		"Id": "UEwxemdOQ29XdF83WkpRSjlmZlc3aGxlTG1qRFhtUEhWSy41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Die Ouvert\u00FCre aus Wagners Oper \u0022Tannh\u00E4user\u0022, aufgef\u00FChrt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Nathalie Stutzmann, am 31. Oktober 2025 im M\u00FCnchner Herkulessaal aufgezeichnet. Nathalie Stutzmann mit freundlicher Genehmigung von Erato/ Warner Classics.\n\nRichard Wagner -  \u0022Tannh\u00E4user\u0022, Ouvert\u00FCre\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigentin: Nathalie Stutzmann\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
+			"Position": 31,
+			"PublishedAtRaw": "2025-12-01T14:18:31Z",
+			"PublishedAtDateTimeOffset": "2025-12-01T14:18:31+00:00",
+			"PublishedAt": "2025-12-01T19:48:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jVpSrV21_X0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jVpSrV21_X0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jVpSrV21_X0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/jVpSrV21_X0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jVpSrV21_X0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/jVpSrV21_X0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner - Tannh\u00E4user-Ouvert\u00FCre | Nathalie Stutzmann | BRSO",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	}
+]

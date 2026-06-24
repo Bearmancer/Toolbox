@@ -1,0 +1,1152 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "qyPvwvUOOmA",
+			"VideoPublishedAtRaw": "2012-08-30T11:56:47Z",
+			"VideoPublishedAtDateTimeOffset": "2012-08-30T11:56:47+00:00",
+			"VideoPublishedAt": "2012-08-30T17:26:47+05:30"
+		},
+		"ETag": "OnITRTpDGAYw84W1foaeaRs5clU",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Every music lover should hear this as it has to be the finest live Dvorak 8th on record, Beecham\u0027s Royal Philharmonic players must have been on the edge of their corporate seats at it\u0027s performance in the Autumn of 1959.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 0,
+			"PublishedAtRaw": "2025-10-11T14:05:22Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:05:22+00:00",
+			"PublishedAt": "2025-10-11T19:35:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qyPvwvUOOmA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qyPvwvUOOmA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qyPvwvUOOmA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qyPvwvUOOmA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/qyPvwvUOOmA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "3) SIR THOMAS BEECHAM \u0026 Symphony #8 by Antonin Dvorak Live",
+			"VideoOwnerChannelId": "UCpwNcYYFoKtKYr8yJxNz3eg",
+			"VideoOwnerChannelTitle": "bigbenjamin37"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "gUKRRvOUPG0",
+			"VideoPublishedAtRaw": "2020-01-21T06:51:50Z",
+			"VideoPublishedAtDateTimeOffset": "2020-01-21T06:51:50+00:00",
+			"VideoPublishedAt": "2020-01-21T12:21:50+05:30"
+		},
+		"ETag": "QK24_ck537AnqWxxlVmg1Sb0lUM",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Dvo\u0159\u00E1k: Symphony No. 5, Op. 76\nI. Allegro, ma non troppo (0:00)\nII. Andante con moto (8:52)\nIII. Scherzo: Allegro scherzando (18:35)\nIV. Finale: Allegro molto (27:07)\n\nConductor: Sir Thomas Beecham\nLondon Philharmonic Orchestra\nLive Recording, 1936",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 1,
+			"PublishedAtRaw": "2025-10-11T13:59:30Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T13:59:30+00:00",
+			"PublishedAt": "2025-10-11T19:29:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "gUKRRvOUPG0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/gUKRRvOUPG0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/gUKRRvOUPG0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/gUKRRvOUPG0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/gUKRRvOUPG0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Anton\u00EDn Dvo\u0159\u00E1k: Symphony No. 5, Op. 76 (Conducted by Sir Thomas Beecham, Live 1936)",
+			"VideoOwnerChannelId": "UClWV23PpclK7uPFJvAj2XMg",
+			"VideoOwnerChannelTitle": "PucciniMD"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tzGrDc8pFbk",
+			"VideoPublishedAtRaw": "2014-11-19T02:42:03Z",
+			"VideoPublishedAtDateTimeOffset": "2014-11-19T02:42:03+00:00",
+			"VideoPublishedAt": "2014-11-19T08:12:03+05:30"
+		},
+		"ETag": "2-5Su5XRjYFHF0qkIKOzCFRqPa4",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nLudwig van Beethoven\nSymphony No 2 in D major, Op 36\n\nRoyal Philharmonic Orchestra\nSir Thomas Beecham\n\nLondon, December 1956",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 2,
+			"PublishedAtRaw": "2025-10-11T14:04:11Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:04:11+00:00",
+			"PublishedAt": "2025-10-11T19:34:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tzGrDc8pFbk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tzGrDc8pFbk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tzGrDc8pFbk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tzGrDc8pFbk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tzGrDc8pFbk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tzGrDc8pFbk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven - Symphony No 2 in D major, Op 36 - Beecham",
+			"VideoOwnerChannelId": "UC9UkGZY5ezEfdBUG5wgZDdA",
+			"VideoOwnerChannelTitle": "Cantus 5"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "28vK2oPVC-s",
+			"VideoPublishedAtRaw": "2022-11-04T12:39:10Z",
+			"VideoPublishedAtDateTimeOffset": "2022-11-04T12:39:10+00:00",
+			"VideoPublishedAt": "2022-11-04T18:09:10+05:30"
+		},
+		"ETag": "CbLaYcGrFlw4kQq6FarOdstKfR8",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Provided to YouTube by IDOL\n\nGwendoline: Overture (Live) \u00B7 BBC Symphony Orchestra \u00B7 Sir Thomas Beecham\n\nWorks of Chabrier, Franck, Gr\u00E9try, Lalo, M\u00E9hul, Saint-Sa\u00EBns, Delius, Balakirev \u0026 Strauss\n\n\u2117 BBC, under licence to ICA Classics Ltd.\n\nReleased on: 2019-05-17\n\nConductor: Sir Thomas Beecham\nOrchestra: BBC Symphony Orchestra\nComposer: Emmanuel Chabrier\n\nAuto-generated by YouTube.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 3,
+			"PublishedAtRaw": "2025-10-11T14:01:37Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:01:37+00:00",
+			"PublishedAt": "2025-10-11T19:31:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "28vK2oPVC-s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/28vK2oPVC-s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/28vK2oPVC-s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/28vK2oPVC-s/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/28vK2oPVC-s/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/28vK2oPVC-s/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Gwendoline: Overture (Live)",
+			"VideoOwnerChannelId": "UCHfUho3iVRigqmR1967Ow9g",
+			"VideoOwnerChannelTitle": "BBC Symphony Orchestra - Topic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "PSHC7mknOxk",
+			"VideoPublishedAtRaw": "2015-08-06T18:32:37Z",
+			"VideoPublishedAtDateTimeOffset": "2015-08-06T18:32:37+00:00",
+			"VideoPublishedAt": "2015-08-07T00:02:37+05:30"
+		},
+		"ETag": "YdC-_ydjMzCHg5eX-ZR7wMQbEAE",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Haydn: Symphony No. 102 in B-Flat Major\nRoyal Philharmonic Orchestra, conducted by Sir Thomas Beecham (1949)\nOriginally posted Dec. 22, 2008\n\nRecorded on June 11, June 23, and October 1, 1949, in EMI\u0027s Studio No. 1, Abbey Road, London, on Gramophone Company matrices 2EA 13975 through 13980.  Issued as HMV DB 21042 through DB 21044, and in automatic sequence as DB 9449 through DB 9451.  These are the only forms of issue of which I am aware, and, as a result, this remains perhaps the least-known of all Beecham\u0027s Haydn recordings.\n\nHaydn\u0027s Symphony No. 102 is in four movements:\n\n1. Largo; Allegro vivace (at 2:30)\n2. Adagio (at 7:48)\n3. Menuetto: Allegro (at 13:26)\n4. Presto (at 19:13)",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 4,
+			"PublishedAtRaw": "2025-10-11T14:06:24Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:06:24+00:00",
+			"PublishedAt": "2025-10-11T19:36:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "PSHC7mknOxk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/PSHC7mknOxk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/PSHC7mknOxk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/PSHC7mknOxk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/PSHC7mknOxk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn Symphony No. 102 (Beecham, 1949)",
+			"VideoOwnerChannelId": "UCvD-dEx3Wv2sdI2wED8ckRQ",
+			"VideoOwnerChannelTitle": "shellackophile"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "4KpZP7YWZLI",
+			"VideoPublishedAtRaw": "2023-06-12T20:33:19Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-12T20:33:19+00:00",
+			"VideoPublishedAt": "2023-06-13T02:03:19+05:30"
+		},
+		"ETag": "8qnPTUHX103PI0fJ0BoFjqfU4Sk",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "H\u00E4ndel :Ballet Suite \u0022The Great Elopement\u0022 (Arranged by Thomas Beecham)\n\nLondon Philharmonic Orchestra\nThomas Beecham (cond)\n\nrec.1945",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 5,
+			"PublishedAtRaw": "2025-10-11T14:02:43Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:02:43+00:00",
+			"PublishedAt": "2025-10-11T19:32:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "4KpZP7YWZLI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/4KpZP7YWZLI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/4KpZP7YWZLI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/4KpZP7YWZLI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/4KpZP7YWZLI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/4KpZP7YWZLI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "H\u00E4ndel :Ballet Suite \u0022The Great Elopement\u0022 / Thomas Beecham \u0026 London Philharmonic Orchestra 1945",
+			"VideoOwnerChannelId": "UCmO-YSs0f-t1QnVQ1EuLJIw",
+			"VideoOwnerChannelTitle": "Classical Music Archives"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "PN16YzXyQTE",
+			"VideoPublishedAtRaw": "2020-12-22T03:06:00Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-22T03:06:00+00:00",
+			"VideoPublishedAt": "2020-12-22T08:36:00+05:30"
+		},
+		"ETag": "pOs6lUGX9M7KtXBWpom4PUhnPZ4",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This recording of Wolfgang Amadeus Mozart\u0027s  Symphony No. 41 In C Major, K, 551, \u0022Jupiter\u0022 by Sir Thomas Beecham (1879-1961) conducting the Royal Philharmonic Orchestra was released by Columbia Records on its Odyssey Records subsidiary.\n\nTrack list:\n\n1. Allegro Vivace               0.00\n2. Andante Cantabile        8:02\u200B\n3. Menuetto Allegretto   16:30\u200B\n4. Finale Molto Allegro   22:25\u200B\n\nThe recording is in mono and the audio was taken from a US pressing of the Odyssey Records vinyl LP, part of a 3 record set of Mozart\u0027s last six symphonies.\n\nI have uploaded separate videos of each of the six Mozart symphonies in this Odyssey Records collection.  \n\n[Note: as far as I am aware, this recording is not currently available commercially]",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 6,
+			"PublishedAtRaw": "2025-10-11T14:03:28Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:03:28+00:00",
+			"PublishedAt": "2025-10-11T19:33:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "PN16YzXyQTE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/PN16YzXyQTE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/PN16YzXyQTE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/PN16YzXyQTE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/PN16YzXyQTE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/PN16YzXyQTE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart - Symphony No  41 - Jupiter - Sir Thomas Beecham, Royal Philharmonic",
+			"VideoOwnerChannelId": "UCwXaKhiAAsZbnDIB42RXRzw",
+			"VideoOwnerChannelTitle": "Mark\u0027s Music Collection - Classical"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KgDbi1jdcyY",
+			"VideoPublishedAtRaw": "2021-11-01T08:32:32Z",
+			"VideoPublishedAtDateTimeOffset": "2021-11-01T08:32:32+00:00",
+			"VideoPublishedAt": "2021-11-01T14:02:32+05:30"
+		},
+		"ETag": "ixoDbHBhMsXzMqA8TOHaWBwo5Wc",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Otto Nicolai  (1810 - 1849)\n\nMerry Wives of Windsor\n\nOuverture\n\nSir Thomas Beecham, direttore\nColumbia Symphony Orchestra\nNew York, 1949",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 7,
+			"PublishedAtRaw": "2025-10-11T14:01:30Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:01:30+00:00",
+			"PublishedAt": "2025-10-11T19:31:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KgDbi1jdcyY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KgDbi1jdcyY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KgDbi1jdcyY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KgDbi1jdcyY/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Nicolai: Merry Wives of Windsor, Ouverture - Thomas Beecham, direttore; Columbia Symphony Orchestra",
+			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "wtL5d-DWe4M",
+			"VideoPublishedAtRaw": "2022-01-20T14:58:48Z",
+			"VideoPublishedAtDateTimeOffset": "2022-01-20T14:58:48+00:00",
+			"VideoPublishedAt": "2022-01-20T20:28:48+05:30"
+		},
+		"ETag": "xY93CaSbFn8yBcrbJlzjN8dOZpI",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dedicated to my dearest best friend \u0026 greatest among artists Laetitia Hahn\n https://www.youtube.com/channel/UCF3hDpsC6iQDBRpl_8dhtYQ\n\n\u2022 Ferruccio Busoni: Piano Concerto op 39  (1901-\u201904)\nNoel Mewton Wood, Piano\nBBC Symphony Orchestra \u0026 BBC\u0027s Men Chorus, Conductor\nRecorded live at BBC Studio no.1, Maida Vale, London, January 1948\n\nFor other great productions have a look at: https://www.marstonrecords.com/\n\u0026 https://vimeo.com/user18903862/vod_pages",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 8,
+			"PublishedAtRaw": "2025-10-11T14:00:49Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:00:49+00:00",
+			"PublishedAt": "2025-10-11T19:30:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "wtL5d-DWe4M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/wtL5d-DWe4M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/wtL5d-DWe4M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/wtL5d-DWe4M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/wtL5d-DWe4M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/wtL5d-DWe4M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Noel Mewton-Wood \u0026 Sir Thomas Beecham Live: Busoni: Piano Concerto  (R.01-1948)",
+			"VideoOwnerChannelId": "UC2EMOWDoxzqfhzFtC52gjvg",
+			"VideoOwnerChannelTitle": "logaemsythgim"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZKjRXoHHaHc",
+			"VideoPublishedAtRaw": "2013-10-11T04:14:55Z",
+			"VideoPublishedAtDateTimeOffset": "2013-10-11T04:14:55+00:00",
+			"VideoPublishedAt": "2013-10-11T09:44:55+05:30"
+		},
+		"ETag": "TdNHLP7z03orA1poZCrDuvLn-7w",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nJean Sibelius\nSymphony No 7 in C major, Op 105\n\nRoyal Philharmonic Orchestra\nSir Thomas Beecham, conductor\n\nLive recording, London, September 1954",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 9,
+			"PublishedAtRaw": "2025-10-11T14:01:45Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:01:45+00:00",
+			"PublishedAt": "2025-10-11T19:31:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZKjRXoHHaHc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZKjRXoHHaHc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZKjRXoHHaHc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZKjRXoHHaHc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZKjRXoHHaHc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sibelius - Symphony No 7 in C major, Op 105 - Beecham",
+			"VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+			"VideoOwnerChannelTitle": "Classical Vault 1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "92YhOJp89tw",
+			"VideoPublishedAtRaw": "2023-03-15T21:21:41Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-15T21:21:41+00:00",
+			"VideoPublishedAt": "2023-03-16T02:51:41+05:30"
+		},
+		"ETag": "yyNXEeX84pDyuVtimlxdIs79WWU",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Silbelius: Symphony No. 2 in D major, Op. 43\nBBC Symphony Orchestra\nThomas Beecham\nLive recording at Royal Festival Hall, London, 8 December 1954\n00:00 - Allegretto\n08:49 - Tempo Andante, ma rubato\n21:02 - Vivacissimo\n27:31 - Finale. Allegro moderato\nA composi\u00E7\u00E3o da Sinfonia n\u00BA 2 em r\u00E9 maior, Op. 43, foi iniciada no inverno de 1901 em Rapallo, It\u00E1lia, logo ap\u00F3s a estreia bem-sucedida do popular \u201CFinlandia\u201D, e conclu\u00EDda em 1902 na Finl\u00E2ndia. Sibelius disse: \u0022Minha segunda sinfonia \u00E9 uma confiss\u00E3o da alma.\u0022 O bar\u00E3o Axel Carpelan, que deu o nome ao conhecido poema sinf\u00F4nico de Sibelius, \u201CFinlandia\u201D, escreveu ao compositor logo ap\u00F3s sua estreia de sucesso: \u0022Voc\u00EA est\u00E1 preso em casa h\u00E1 um bom tempo, \u00E9 hora de voc\u00EA viajar. Voc\u00EA passar\u00E1 o final do outono e o inverno na It\u00E1lia, um pa\u00EDs onde se aprende o \u201Ccant\u00E1bile\u201D, equil\u00EDbrio e harmonia, plasticidade e simetria das linhas, um pa\u00EDs onde tudo \u00E9 belo \u2013 at\u00E9 o feio \u00E9 belo na It\u00E1lia\u201D. Embora o Bar\u00E3o Carpelan n\u00E3o tivesse dinheiro para financiar essa viagem, ele levantou fundos suficientes para Sibelius ficar em uma vila nas montanhas perto de Rapallo, It\u00E1lia, onde o compositor anotou as primeiras notas da sinfonia.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 10,
+			"PublishedAtRaw": "2025-10-11T13:58:42Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T13:58:42+00:00",
+			"PublishedAt": "2025-10-11T19:28:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "92YhOJp89tw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/92YhOJp89tw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/92YhOJp89tw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/92YhOJp89tw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/92YhOJp89tw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "SIBELIUS - Symphony No. 2, Op. 43 ~ BBC Symphony Orchestra, Thomas Beecham (Live recording 1954)",
+			"VideoOwnerChannelId": "UCe_ti5TWfoF9Z_YrkkJHVsg",
+			"VideoOwnerChannelTitle": "STAGE d\u0027ORO"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "t2JlEkyC9EA",
+			"VideoPublishedAtRaw": "2015-02-15T10:43:15Z",
+			"VideoPublishedAtDateTimeOffset": "2015-02-15T10:43:15+00:00",
+			"VideoPublishedAt": "2015-02-15T16:13:15+05:30"
+		},
+		"ETag": "cW9Kfp80lRiqzQR65A2doz2HOh4",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Jean Sibelius\n\nTapiola op.112\n\nRoyal Philharmonic Orchestra\nSir Thomas Beecham\nLive recording, London, 8.XII.1955 (for the 90th birthday of Sibelius)",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 11,
+			"PublishedAtRaw": "2025-10-11T14:00:07Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:00:07+00:00",
+			"PublishedAt": "2025-10-11T19:30:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "t2JlEkyC9EA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/t2JlEkyC9EA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/t2JlEkyC9EA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/t2JlEkyC9EA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/t2JlEkyC9EA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/t2JlEkyC9EA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sibelius - Tapiola - RPO / Beecham live",
+			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+			"VideoOwnerChannelTitle": "incontrario motu"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "zuxsUphXDpY",
+			"VideoPublishedAtRaw": "2021-11-26T16:48:37Z",
+			"VideoPublishedAtDateTimeOffset": "2021-11-26T16:48:37+00:00",
+			"VideoPublishedAt": "2021-11-26T22:18:37+05:30"
+		},
+		"ETag": "Z-lYjDlBVeqGWI2xT1oM_h3ajvo",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dedicated to my dearest best friend \u0026 greatest among artists Laetitia Hahn\n https://www.youtube.com/channel/UCF3hDpsC6iQDBRpl_8dhtYQ\n\n\u2022 Handel: Concerto grosso, Op. 6 No. 10 in D minor, HWV328\n\u2022 Strauss, R: Till Eulenspiegels lustige Streiche, Op. 28\nRoyal Philharmonic Orchestra, Sir Thomas Beecham\nLive recording, Royal Festival Hall, London, England, United Kingdom, 20 January 1955\n\u2022 Bach, J S: Brandenburg Concerto No. 3 in G Major, BWV1048\n\u2022 Strauss, R: Don Juan, Op. 20\n\u2022 Ravel: Rapsodie Espagnole\nRoyal Philharmonic Orchestra, Sir Thomas Beecham\nLive recording Royal Festival Hall, London, England, United Kingdom, 18 January 1955\n\nFor other great productions have a look at: https://www.marstonrecords.com/\n\u0026 https://vimeo.com/user18903862/vod_pages",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 12,
+			"PublishedAtRaw": "2025-10-11T13:59:01Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T13:59:01+00:00",
+			"PublishedAt": "2025-10-11T19:29:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zuxsUphXDpY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zuxsUphXDpY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zuxsUphXDpY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/zuxsUphXDpY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zuxsUphXDpY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/zuxsUphXDpY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sir Thomas Beecham (1871-1961) Live: Handel, Strauss, Bach \u0026 Ravel  (London January 1955)",
+			"VideoOwnerChannelId": "UC2EMOWDoxzqfhzFtC52gjvg",
+			"VideoOwnerChannelTitle": "logaemsythgim"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "d1hUVnoIEiU",
+			"VideoPublishedAtRaw": "2022-10-20T07:28:42Z",
+			"VideoPublishedAtDateTimeOffset": "2022-10-20T07:28:42+00:00",
+			"VideoPublishedAt": "2022-10-20T12:58:42+05:30"
+		},
+		"ETag": "fml5yx9sVlfz-vQuj2SCFdBu_-0",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sir Thomas Beecham conducts the LPO in Haydn\u0027s Symphony No. 99, recorded on 4 October 1935 (except for the first part of the second movement, which was recorded on 28 February 1936).\r\n\r\nThe movements are:\r\n\r\n00:00 1st movement\r\n07:21 2nd movement\r\n13:39 3rd movement\r\n18:55 4th movement\r\n\r\nFrom Wikipedia: Sir Thomas Beecham, 2nd Baronet, CH (29 April 1879 \u2013 8 March 1961) was an English conductor and impresario best known for his association with the London Philharmonic and the Royal Philharmonic orchestras. He was also closely associated with the Liverpool Philharmonic and Hall\u00E9 orchestras. From the early 20th century until his death, Beecham was a major influence on the musical life of Britain and, according to the BBC, was Britain\u0027s first international conductor.\r\n\r\nBorn to a rich industrial family, Beecham began his career as a conductor in 1899. He used his access to the family fortune to finance opera from the 1910s until the start of the Second World War, staging seasons at Covent Garden, Drury Lane and His Majesty\u0027s Theatre with international stars, his own orchestra and a wide repertoire. Among the works he introduced to England were Richard Strauss\u0027s Elektra, Salome and Der Rosenkavalier and three operas by Frederick Delius.\r\n\r\nTogether with his younger colleague Malcolm Sargent, Beecham founded the London Philharmonic, and he conducted its first performance at the Queen\u0027s Hall in 1932. In the 1940s he worked for three years in the United States where he was music director of the Seattle Symphony and conducted at the Metropolitan Opera. After his return to Britain, he founded the Royal Philharmonic in 1946 and conducted it until his death in 1961.\r\n\r\nBeecham\u0027s repertoire was eclectic, sometimes favouring lesser-known composers over famous ones. His specialities included composers whose works were neglected in Britain before he became their advocate, such as Delius and Berlioz. Other composers with whose music he was frequently associated were Haydn, Schubert, Sibelius and the composer he revered above all others, Mozart.\r\n\r\n\r\nI made this transfer from Australian laminated 78 rpm pressings of LOX 305/7.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 13,
+			"PublishedAtRaw": "2025-10-11T14:03:51Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:03:51+00:00",
+			"PublishedAt": "2025-10-11T19:33:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "d1hUVnoIEiU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/d1hUVnoIEiU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/d1hUVnoIEiU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/d1hUVnoIEiU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/d1hUVnoIEiU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/d1hUVnoIEiU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sir Thomas Beecham and London Philharmonic Orchestra - Symphony No.99 in E flat (Haydn) (1935/6)",
+			"VideoOwnerChannelId": "UCrKgKTae6K7k3Xf9-JJbxHQ",
+			"VideoOwnerChannelTitle": "Vintage Sounds"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "qIxBiNbwfjY",
+			"VideoPublishedAtRaw": "2011-06-11T17:40:20Z",
+			"VideoPublishedAtDateTimeOffset": "2011-06-11T17:40:20+00:00",
+			"VideoPublishedAt": "2011-06-11T23:10:20+05:30"
+		},
+		"ETag": "Gsc_w3Oj4H7_V108bmu58EjHc90",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Symphony No.4 in A major, Op. 90 \u0022Italian\u0022\n\n00:00 - Allegro vivace\n08:14 - Andante con moto\n15:20 - Con moto moderato\n22:14 - Saltarello: Presto\n\nno copyright infringement intended\n\nhttp://www.youtube.com/newfranzferencliszt",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 14,
+			"PublishedAtRaw": "2025-10-11T14:04:29Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:04:29+00:00",
+			"PublishedAt": "2025-10-11T19:34:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qIxBiNbwfjY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qIxBiNbwfjY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qIxBiNbwfjY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qIxBiNbwfjY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/qIxBiNbwfjY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sir Thomas Beecham, Mendelssohn - Symphony No.4",
+			"VideoOwnerChannelId": "UC4pmmdi92mfOgxQAymC1ERw",
+			"VideoOwnerChannelTitle": "FirstPublicChannel"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "r9Oe_dXfbUs",
+			"VideoPublishedAtRaw": "2021-10-01T09:59:40Z",
+			"VideoPublishedAtDateTimeOffset": "2021-10-01T09:59:40+00:00",
+			"VideoPublishedAt": "2021-10-01T15:29:40+05:30"
+		},
+		"ETag": "awh4Rxi3zTMT0Xlmjfp5D_bA1no",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "More Beecham, and this time a Handel arrangement, recorded on 2 April 1940. The movements are:\r\n\r\n00:00  Introduction and Fugue\r\n04:42  Adagio\r\n10:04  Gavotte\r\n12:22  Musette\r\n14:26  Bouree\r\n16:43  Pastorale\r\n21:00  Finale - Allegro vivace\r\n\r\nFrom Wikipedia: Sir Thomas Beecham, 2nd Baronet, CH (29 April 1879 \u2013 8 March 1961) was an English conductor and impresario best known for his association with the London Philharmonic and the Royal Philharmonic orchestras. He was also closely associated with the Liverpool Philharmonic and Hall\u00E9 orchestras. From the early 20th century until his death, Beecham was a major influence on the musical life of Britain and, according to the BBC, was Britain\u0027s first international conductor.\r\n\r\nBorn to a rich industrial family, Beecham began his career as a conductor in 1899. He used his access to the family fortune to finance opera from the 1910s until the start of the Second World War, staging seasons at Covent Garden, Drury Lane and His Majesty\u0027s Theatre with international stars, his own orchestra and a wide repertoire. Among the works he introduced to England were Richard Strauss\u0027s Elektra, Salome and Der Rosenkavalier and three operas by Frederick Delius.\r\n\r\nTogether with his younger colleague Malcolm Sargent, Beecham founded the London Philharmonic, and he conducted its first performance at the Queen\u0027s Hall in 1932. In the 1940s he worked for three years in the United States where he was music director of the Seattle Symphony and conducted at the Metropolitan Opera. After his return to Britain, he founded the Royal Philharmonic in 1946 and conducted it until his death in 1961.\r\n\r\nBeecham\u0027s repertoire was eclectic, sometimes favouring lesser-known composers over famous ones. His specialities included composers whose works were neglected in Britain before he became their advocate, such as Delius and Berlioz. Other composers with whose music he was frequently associated were Haydn, Schubert, Sibelius and the composer he revered above all others, Mozart.\r\n\r\n\r\nIssued in England as Columbia LX 915-917, I have transferred this title from laminated Australian Columbia pressings of LOX 489-491.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 15,
+			"PublishedAtRaw": "2025-10-11T14:02:25Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:02:25+00:00",
+			"PublishedAt": "2025-10-11T19:32:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "r9Oe_dXfbUs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/r9Oe_dXfbUs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/r9Oe_dXfbUs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/r9Oe_dXfbUs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/r9Oe_dXfbUs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/r9Oe_dXfbUs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sir Thomas Beecham/London Philharmonic Orch - The Faithful Shepherd Suite (Handel, arr Beecham)1940)",
+			"VideoOwnerChannelId": "UCrKgKTae6K7k3Xf9-JJbxHQ",
+			"VideoOwnerChannelTitle": "Vintage Sounds"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "X7z2ZND8GEE",
+			"VideoPublishedAtRaw": "2022-10-17T11:13:15Z",
+			"VideoPublishedAtDateTimeOffset": "2022-10-17T11:13:15+00:00",
+			"VideoPublishedAt": "2022-10-17T16:43:15+05:30"
+		},
+		"ETag": "WHCqXuwvUb0688gvlkd5aHh9HAw",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This is the last of today\u0027s somewhat more extensive program of uploads, which celebrates Vintage Sounds\u0027 2,000 subscribers (see post on the Community page).\r\n\r\nHere, Beecham conducts the LPO in Haydn\u0027s Symphony No. 93, recorded on 18 December 1936.\r\n\r\nIn view of subsequent recording practices, it is interesting to note that Beecham recorded this symphony on 6 sides, each in a single take.\r\n\r\nThe movements are:\r\n\r\n00:00 1st movement\r\n06:44 2nd movement\r\n13:00 3rd movement\r\n17:08 4th movement\r\n\r\nFrom Wikipedia: Sir Thomas Beecham, 2nd Baronet, CH (29 April 1879 \u2013 8 March 1961) was an English conductor and impresario best known for his association with the London Philharmonic and the Royal Philharmonic orchestras. He was also closely associated with the Liverpool Philharmonic and Hall\u00E9 orchestras. From the early 20th century until his death, Beecham was a major influence on the musical life of Britain and, according to the BBC, was Britain\u0027s first international conductor.\r\n\r\nBorn to a rich industrial family, Beecham began his career as a conductor in 1899. He used his access to the family fortune to finance opera from the 1910s until the start of the Second World War, staging seasons at Covent Garden, Drury Lane and His Majesty\u0027s Theatre with international stars, his own orchestra and a wide repertoire. Among the works he introduced to England were Richard Strauss\u0027s Elektra, Salome and Der Rosenkavalier and three operas by Frederick Delius.\r\n\r\nTogether with his younger colleague Malcolm Sargent, Beecham founded the London Philharmonic, and he conducted its first performance at the Queen\u0027s Hall in 1932. In the 1940s he worked for three years in the United States where he was music director of the Seattle Symphony and conducted at the Metropolitan Opera. After his return to Britain, he founded the Royal Philharmonic in 1946 and conducted it until his death in 1961.\r\n\r\nBeecham\u0027s repertoire was eclectic, sometimes favouring lesser-known composers over famous ones. His specialities included composers whose works were neglected in Britain before he became their advocate, such as Delius and Berlioz. Other composers with whose music he was frequently associated were Haydn, Schubert, Sibelius and the composer he revered above all others, Mozart.\r\n\r\n\r\nI made this transfer from Australian laminated 78 rpm pressings of LOX 378-380.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 16,
+			"PublishedAtRaw": "2025-10-11T14:00:34Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:00:34+00:00",
+			"PublishedAt": "2025-10-11T19:30:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "X7z2ZND8GEE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/X7z2ZND8GEE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/X7z2ZND8GEE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/X7z2ZND8GEE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/X7z2ZND8GEE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/X7z2ZND8GEE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sir Thomas Beecham/London Philharmonic Orchestra - Symphony No.93 in D major \u0027London\u0027 (Haydn) (1936)",
+			"VideoOwnerChannelId": "UCrKgKTae6K7k3Xf9-JJbxHQ",
+			"VideoOwnerChannelTitle": "Vintage Sounds"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fUK-QAo_uvo",
+			"VideoPublishedAtRaw": "2025-09-24T10:45:07Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-24T10:45:07+00:00",
+			"VideoPublishedAt": "2025-09-24T16:15:07+05:30"
+		},
+		"ETag": "dTtMVBcfOP9iDq0b6ROMMfkpyMw",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bedrich Smetana   (1824 - 1884)\n\n\n\nProdan\u00E1 nev\u011Bsta\n(The Bartered Bride)\n\nOuverture  \n\nThomas Beecham, direttore\nLondon Philharmonica\nlive London, 1939",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 17,
+			"PublishedAtRaw": "2025-10-11T14:01:01Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:01:01+00:00",
+			"PublishedAt": "2025-10-11T19:31:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fUK-QAo_uvo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fUK-QAo_uvo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fUK-QAo_uvo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/fUK-QAo_uvo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fUK-QAo_uvo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/fUK-QAo_uvo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Smetana:   Prodan\u00E1 nev\u011Bsta (The Bartered Bride) -  Ouverture  -  Thomas Beecham; (live London, 1939)",
+			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "__9aK3vo3v0",
+			"VideoPublishedAtRaw": "2017-04-08T00:47:17Z",
+			"VideoPublishedAtDateTimeOffset": "2017-04-08T00:47:17+00:00",
+			"VideoPublishedAt": "2017-04-08T06:17:17+05:30"
+		},
+		"ETag": "KTFeUgRI7DCrWaR3fGd3i5h63Oo",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "I. Introduction. Chaconne 0:00\nII. Romanza 9:30\nIII. Minuet (with trio) 14:20\nIV. Finale 20:00\nPerformed by Lady Betty Humby Beecham (piano) with the London Philharmonic Orchestra conducted by Sir Thomas Beecham.\n\nRecorded on 18 \u0026 19 January 1945.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 18,
+			"PublishedAtRaw": "2025-10-11T14:03:43Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:03:43+00:00",
+			"PublishedAt": "2025-10-11T19:33:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "__9aK3vo3v0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/__9aK3vo3v0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/__9aK3vo3v0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/__9aK3vo3v0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/__9aK3vo3v0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Thomas Beecham (after Handel) : Concerto in A major for piano and orchestra (1944)",
+			"VideoOwnerChannelId": "UC9g5M2trqPDiGn5fC_dl63g",
+			"VideoOwnerChannelTitle": "Rodders"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VpPHM-uCpUU",
+			"VideoPublishedAtRaw": "2018-02-23T10:08:55Z",
+			"VideoPublishedAtDateTimeOffset": "2018-02-23T10:08:55+00:00",
+			"VideoPublishedAt": "2018-02-23T15:38:55+05:30"
+		},
+		"ETag": "SgulKJw_Z2sARt-GJw7e8uogdtU",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Introduction vesves Fugue - Adagio - Gavotte - Bourr\u00E9e - Minuet - Pastorale - Finale. Performed by the Royal Philharmonic Orchestra conducted by Lord Menuhin.\r\n\r\nEntr\u00E9e - Bourr\u00E9e - Musette - Gigue - Sarabande - Gavotte - Minuet - Scherzo vesves Trio. Performed by the Royal Philharmonic Orchestra conducted by Lord Menuhin.\r\n\r\nWatch also my Handel playlist: Georg Friedrich H\u00E4ndel - George Frideric Handel FAITHFUL SHEPHERD, SUITE FROM THE OPERA HWV 8A.",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 19,
+			"PublishedAtRaw": "2025-10-11T14:04:18Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:04:18+00:00",
+			"PublishedAt": "2025-10-11T19:34:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VpPHM-uCpUU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VpPHM-uCpUU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VpPHM-uCpUU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VpPHM-uCpUU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Thomas Beecham (after Handel) : The Faithful Shepherd, Suite for orchestra (1940)",
+			"VideoOwnerChannelId": "UCyIskmOQ7Y5rPK4hX7x5nbA",
+			"VideoOwnerChannelTitle": "jupon jouk"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tSRAme9YVfs",
+			"VideoPublishedAtRaw": "2017-03-31T19:58:55Z",
+			"VideoPublishedAtDateTimeOffset": "2017-03-31T19:58:55+00:00",
+			"VideoPublishedAt": "2017-04-01T01:28:55+05:30"
+		},
+		"ETag": "44dAfzQlV6CAgpl7W6BFwtzBkf4",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "I. The Pump Room 0:00\nII. Beau Nash 2:25\nIII. The Linleys 4:10\nIV. Hunting Dance 6:00\nV. Love Scene 7:30\nVI. The Quarrel 10:15\nVII. The Pump Room (reprise) 11:40\nVIII. The Plot 12:50\nIX. The Weary Flunkies 14:25\nX. The Exquisites (Madrigal) 16:35\nPerformed by the Royal Philharmonic Orchestra conducted by Sir Thomas Beecham.\n\nThe second part can be heard at https://www.youtube.com/watch?v=-bhVysFQBNM",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 20,
+			"PublishedAtRaw": "2025-10-11T14:04:35Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:04:35+00:00",
+			"PublishedAt": "2025-10-11T19:34:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tSRAme9YVfs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tSRAme9YVfs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tSRAme9YVfs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tSRAme9YVfs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tSRAme9YVfs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Thomas Beecham (after Handel) : The Great Elopement (Love In Bath), ballet (1945 rev. 1956)-part one",
+			"VideoOwnerChannelId": "UC9g5M2trqPDiGn5fC_dl63g",
+			"VideoOwnerChannelTitle": "Rodders"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Tq-C-hvi9Zo",
+			"VideoPublishedAtRaw": "2021-10-08T15:38:03Z",
+			"VideoPublishedAtDateTimeOffset": "2021-10-08T15:38:03+00:00",
+			"VideoPublishedAt": "2021-10-08T21:08:03+05:30"
+		},
+		"ETag": "t5k3WD6swHvd-Pk8yuv40L3Gi3A",
+		"Id": "UEwxemdOQ29XdF83WTF5d1JNMVlCT3FvTGktZHRYdGdSWi5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Music By Freemasons\n\nWolfgang Amadeus Mozart was admitted to the Viennese Masonic lodge \u201CZur Wohltatigkeit\u201D (\u201CBenificence\u201D) on Tuesday, 14th December, 1784. Mozart apparently introduced his father, Leopold Mozart, and his friend Franz Joseph Haydn into Freemasonry. \n\nMozart\u0027s last three symphonies, No. 39, 40, 41, are considered Masonic symphonies because of the key they are in. Here is a web page from the Temple Lodge No. 33 website with further information on this and on Mozart And Freemasonry:  http://www.templelodge33.ca/wolfgang-amadeus-mozart-and-freemasonry/  \n\nThis recording of Wolfgang Amadeus Mozart\u0027s  Symphony No. 40 In G Minor, K, 550 by Sir Thomas Beecham (1879-1961) conducting the Royal Philharmonic Orchestra was released by Columbia Records on its Odyssey Records subsidiary.\n\nTrack list:\n\n1. Allegro Molto     0.00\n2. Andante               5:27\u200B\n3. Menuetto, Allegretto      14:31\u200B\n4. Finale, Allegro                19:38\u200B\n\nThe recording is in mono and the audio was taken from a US pressing of the Odyssey Records vinyl LP, part of a 3 record set of Mozart\u0027s last six symphonies.\n\nI have uploaded separate videos of each of the six Mozart symphonies in this Odyssey Records collection.  \n\n[Note: as far as I am aware, this recording is not currently available commercially]",
+			"PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
+			"Position": 21,
+			"PublishedAtRaw": "2025-10-11T14:04:02Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:04:02+00:00",
+			"PublishedAt": "2025-10-11T19:34:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Tq-C-hvi9Zo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Tq-C-hvi9Zo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Tq-C-hvi9Zo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Tq-C-hvi9Zo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Tq-C-hvi9Zo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Tq-C-hvi9Zo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wolfgang Amadeus Mozart -  Symphony No. 40 - Sir Thomas Beecham",
+			"VideoOwnerChannelId": "UC7bISRDaMQ9TiStZAQHIcRg",
+			"VideoOwnerChannelTitle": "District 27 Freemasons, B.C. \u0026 Yukon"
+		}
+	}
+]

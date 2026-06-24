@@ -1,0 +1,1100 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "87SAHEswC1s",
+      "VideoPublishedAtRaw": "2023-10-12T22:30:00Z",
+      "VideoPublishedAtDateTimeOffset": "2023-10-12T22:30:00+00:00",
+      "VideoPublishedAt": "2023-10-13T04:00:00+05:30"
+    },
+    "ETag": "3uzG1eUNg4YS8WiMTHL6MjREMws",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This is probably the closest we\u0027ve ever get to hear and see the perfect Fifth that is very reminiscent of Carlos Kleiber\u0027s century\u0027s recording 15 years prior. \nSir Georg Solti is known to have researched the metronome setting in Beethoven\u0027s days and this is what we get to see as the result.\nCSO have had their many different leadership over the years but in my opinion Solti\u0027s era was their all-time-highest. During which also that the orchestra had played outside of North America in its 80-year history.\n\nWork title: Beethoven - Symphony No. 5 in C minor, Op. 67\nConductor: Sir Georg Solti\nOrchestra: Chicago Symphony Orchestra (CSO)\nVenue: Suntory Hall, Tokyo, Japan\nRecord Date: 15 Apr 1990\nRestoration Date: 12 June 2023\n\n(00:00) I. Allegro con brio\n(07:49) II. Andante con moto\n(17:30) III. Scherzo: Allegro\n(22:33) IV. Allegro\n\n--\nAuthor\u0027s note:\nThis content is managed through Youtube\u0027s Standard License Check and is purely intended to be under \u0022fair use\u0022 policy of non-profit educational purposes (section 107 of the Copyright Act 1976).\nDistributing this channel\u0027s content for commercial reason is prohibited.\nContact me at hkdenafel@gmail.com.",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 0,
+      "PublishedAtRaw": "2025-01-29T03:09:08Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:09:08+00:00",
+      "PublishedAt": "2025-01-29T08:39:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "87SAHEswC1s"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/87SAHEswC1s/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/87SAHEswC1s/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/87SAHEswC1s/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/87SAHEswC1s/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/87SAHEswC1s/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "(digital restoration) Beethoven Symphony No. 5 - Sir Georg Solti, Tokyo 1990",
+      "VideoOwnerChannelId": "UClzfREPR_5ftZLQrKTvqsCg",
+      "VideoOwnerChannelTitle": "Henri Denafel"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "4I6TvQ4aV0E",
+      "VideoPublishedAtRaw": "2021-05-09T09:00:15Z",
+      "VideoPublishedAtDateTimeOffset": "2021-05-09T09:00:15+00:00",
+      "VideoPublishedAt": "2021-05-09T14:30:15+05:30"
+    },
+    "ETag": "SZhYwNYKB9H0tZ0IWfzVS1UTtzo",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Symfonieorkest Vlaanderen / Flanders Symphony Orchestra\nKristiina Poska, conductor\n\nLudwig van Beethoven, Symphony no. 5\n\n00:00\u200B - Intro\n00:06\u200B - I. Allegro con brio\n07:21\u200B - II. Andante con moto\n16:09\u200B - III. Scherzo (allegro)\n20:52\u200B - IV. Allegro - Presto\n\nRecorded 15.01.2021 at Muziekcentrum De Bijloke Gent by Acoustic Recording Service\n\n-----------------------\nFollow us:\nwebsite | www.symfonieorkest.be\nFacebook | @symfonieorkest\nInstagram | @symfonieorkestvlaanderen",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 1,
+      "PublishedAtRaw": "2025-01-29T03:07:57Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:07:57+00:00",
+      "PublishedAt": "2025-01-29T08:37:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "4I6TvQ4aV0E"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/4I6TvQ4aV0E/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/4I6TvQ4aV0E/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/4I6TvQ4aV0E/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/4I6TvQ4aV0E/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/4I6TvQ4aV0E/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony no. 5 - Flanders Symphony Orchestra, Kristiina Poska",
+      "VideoOwnerChannelId": "UC0-LbAkXeCNyAB0ODRP1BXA",
+      "VideoOwnerChannelTitle": "Symfonieorkest Vlaanderen"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MIvD6fq6dZQ",
+      "VideoPublishedAtRaw": "2024-08-14T14:41:29Z",
+      "VideoPublishedAtDateTimeOffset": "2024-08-14T14:41:29+00:00",
+      "VideoPublishedAt": "2024-08-14T20:11:29+05:30"
+    },
+    "ETag": "UIDKSJH_wffIg6dASUwyOtTAnLE",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": ".\n*Ludwig van Beethoven (1770-1827)*\n\n\n*Sinfonie Nr.5 in c-moll, Op.67 [1808]*\n\nIntro - 00:00\nI. Allegro con brio - 00:15\nII. Andante con moto - 07:21\nIII. Scherzo: Allegro - Trio - 16:20\nIV. Allegro - 21:01\n\n\n\nFreiburger Barockorchester\n*Gottfried von der Goltz* (conductor)\n\n\n\n\n\n\n\n#Classical_Music\nRelated search keywords: Late Classical Music, Early Romantic Music, German Classical Music, L.V. Beethoven, Ludwig van Beethoven Symphony No.5 in c minor, Opus 67, Symphonie 5, Gottfried von der Goltz, Freiburger Baroque Orchestra, Barock-Orchester, First Viennese classical School, Wien, Vienna Classical Music, On period instruments",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 2,
+      "PublishedAtRaw": "2025-01-29T03:10:02Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:10:02+00:00",
+      "PublishedAt": "2025-01-29T08:40:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MIvD6fq6dZQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MIvD6fq6dZQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MIvD6fq6dZQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/MIvD6fq6dZQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MIvD6fq6dZQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/MIvD6fq6dZQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony No.5 in c minor, Op.67 / (On period instruments) Freiburger Barockorchester",
+      "VideoOwnerChannelId": "UCMAFEYSBxD9h4KEKR5DVHnw",
+      "VideoOwnerChannelTitle": "protestant7 (baroque music)"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CZHnlrb1dZc",
+      "VideoPublishedAtRaw": "2021-07-03T14:54:09Z",
+      "VideoPublishedAtDateTimeOffset": "2021-07-03T14:54:09+00:00",
+      "VideoPublishedAt": "2021-07-03T20:24:09+05:30"
+    },
+    "ETag": "p4eKzt74OvnAM_-enWVAenO2fO8",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C\uFF15\u756A \u30CF\u77ED\u8ABF\u3000op.67\n\u30E9\u30D5\u30A1\u30A8\u30EB\u30FB\u30AF\u30FC\u30D9\u30EA\u30C3\u30AF \u6307\u63EE \u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001 \u4EA4\u97FF\u697D\u56E3\n1969\u5E7411\u670820\u65E5\uFF1F",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 3,
+      "PublishedAtRaw": "2025-01-29T03:08:04Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:04+00:00",
+      "PublishedAt": "2025-01-29T08:38:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CZHnlrb1dZc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony No.5 \u3000Kubelik BRSO\u3000live",
+      "VideoOwnerChannelId": "UCDcxRVRSMoKFxdMQIVDLUiQ",
+      "VideoOwnerChannelTitle": "The Just Sound \u2755"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CZHnlrb1dZc",
+      "VideoPublishedAtRaw": "2021-07-03T14:54:09Z",
+      "VideoPublishedAtDateTimeOffset": "2021-07-03T14:54:09+00:00",
+      "VideoPublishedAt": "2021-07-03T20:24:09+05:30"
+    },
+    "ETag": "1gfRklLTn8KNKYPc-FIcDRz7YlM",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C\uFF15\u756A \u30CF\u77ED\u8ABF\u3000op.67\n\u30E9\u30D5\u30A1\u30A8\u30EB\u30FB\u30AF\u30FC\u30D9\u30EA\u30C3\u30AF \u6307\u63EE \u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001 \u4EA4\u97FF\u697D\u56E3\n1969\u5E7411\u670820\u65E5\uFF1F",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 4,
+      "PublishedAtRaw": "2025-01-29T03:08:06Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:06+00:00",
+      "PublishedAt": "2025-01-29T08:38:06+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CZHnlrb1dZc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony No.5 \u3000Kubelik BRSO\u3000live",
+      "VideoOwnerChannelId": "UCDcxRVRSMoKFxdMQIVDLUiQ",
+      "VideoOwnerChannelTitle": "The Just Sound \u2755"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "uVl8DzUmAGE",
+      "VideoPublishedAtRaw": "2024-12-11T08:52:45Z",
+      "VideoPublishedAtDateTimeOffset": "2024-12-11T08:52:45+00:00",
+      "VideoPublishedAt": "2024-12-11T14:22:45+05:30"
+    },
+    "ETag": "bJ_EgqV6Jkuz0yx9dLp37ASjA0M",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven : Symphony NO.5\n1st movement   00:08\n2nd   06:38\n3rd    18:01\n4th    23:35\nCharles Munch / Boston Symphony orchestra\n22/5/1960 Tokyo, Hibiya public hall live recording\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\u300C\u904B\u547D\u300D\n\u30B7\u30E3\u30EB\u30EB\u30FB\u30DF\u30E5\u30F3\u30B7\u30E5\u6307\u63EE\u3000\u30DC\u30B9\u30C8\u30F3\u4EA4\u97FF\u697D\u56E3\n1960\u5E745\u670822\u65E5\u3000\u6771\u4EAC\u3001\u65E5\u6BD4\u8C37\u516C\u4F1A\u5802\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DF\u30E5\u30F3\u30B7\u30E5/BSO\u306E\u521D\u6765\u65E5\u516C\u6F14\u304B\u3089\u3002NHK\u306E\u300C\u7ACB\u4F53\u97F3\u697D\u5802\u300D\u306B\u3088\u308B\u5B9F\u9A13\u7684\u30B9\u30C6\u30EC\u30AA\u653E\u9001\u306E\u8A18\u9332\u3067\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 5,
+      "PublishedAtRaw": "2025-01-29T03:08:34Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:34+00:00",
+      "PublishedAt": "2025-01-29T08:38:34+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "uVl8DzUmAGE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/uVl8DzUmAGE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/uVl8DzUmAGE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/uVl8DzUmAGE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethoven : Symphony no.5      C. Munch / BSO live in Japan 1960",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "9jCxdjcXuGE",
+      "VideoPublishedAtRaw": "2014-10-26T16:24:03Z",
+      "VideoPublishedAtDateTimeOffset": "2014-10-26T16:24:03+00:00",
+      "VideoPublishedAt": "2014-10-26T21:54:03+05:30"
+    },
+    "ETag": "ax42l23Y04Vy8Y0vzxquKst7Zik",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven (1770 - 1827) \nSymphony No. 5 in C minor, Op. 67\nSeiji Ozawa conducts NHK Orchestra, Tokyo\n\n\u8C9D\u591A\u82ACC\u5C0F\u8ABF\u7B2C\u4E94\u4EA4\u97FF\u66F2\n\u5C0F\u6FA4\u5F81\u723E",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 6,
+      "PublishedAtRaw": "2025-01-29T03:10:26Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:10:26+00:00",
+      "PublishedAt": "2025-01-29T08:40:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "9jCxdjcXuGE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/9jCxdjcXuGE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/9jCxdjcXuGE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/9jCxdjcXuGE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethoven Symphony No 5 - Seiji Ozawa (FULL)",
+      "VideoOwnerChannelId": "UCrPeNG7bu4qGZtBVeEE4M8A",
+      "VideoOwnerChannelTitle": "MyWorldNewsNetwork 2"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0Y9lJZ9GgLs",
+      "VideoPublishedAtRaw": "2015-11-23T17:17:42Z",
+      "VideoPublishedAtDateTimeOffset": "2015-11-23T17:17:42+00:00",
+      "VideoPublishedAt": "2015-11-23T22:47:42+05:30"
+    },
+    "ETag": "EdSc3RcuKQka61-W7K37TMAAjh0",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven 1770-1827\nSymphony No.5 in C minor op.67\n00:00  1. Allegro con brio\n07:17  2. Andante con moto\n17:11  3. Allegro \n22:20  4. Allegro - Presto\nRiccardo Muti, conductor\nThe Philadelphia Orchestra\n\n~~\u97F3\u6A02\u6703\u8A0A\u606F~~\n\n\u829D\u52A0\u54E5\u4EA4\u97FF\u6A02\u5718\nChicago Symphony Orchestra with Riccardo Muti\n\n2016/1/15,16 7:30pm \u81FA\u5317\u570B\u5BB6\u97F3\u6A02\u5EF3 \n\u5B78\u751F1200 2400 3000 3300 3600 4500 4800 5400 6800 8800 \u4F01\u696D\u8D0A\u52A9\u5340\n\n\u97F3\u6A02\u7E3D\u76E3\uFF1A\u91CC\u5361\u591A\u2027\u6155\u63D0\nMusic Director: Riccardo Muti\n\n1/15\n\u666E\u7F85\u9AD8\u83F2\u592B:\u7B2C\u4E00\u865F\u300A\u53E4\u5178\u300B\u4EA4\u97FF\u66F2\uFF0CD\u5927\u8ABF\uFF0C\u4F5C\u54C125\n\u4EA8\u5FB7\u5BC6\u7279: \u5354\u594F\u66F2\uFF0C\u70BA\u5F26\u6A02\u548C\u9285\u7BA1\u6240\u4F5C\n\u67F4\u53EF\u592B\u65AF\u57FA:\u7B2C\u56DB\u865F\u4EA4\u97FF\u66F2\uFF0CF\u5C0F\u8ABF\uFF0C\u4F5C\u54C136\nProkofiev: Symphony No. 1 in D major, Op. 25 \u201CClassical\u201D\nHindemith: Concert Music for Strings and Brass\nTchaikovsky: Symphony No. 4 in F minor, Op. 36\n\n1/16\n\u8C9D\u591A\u82AC:\u7B2C\u4E94\u865F\u300A\u547D\u904B\u300B\u4EA4\u97FF\u66F2\uFF0CC\u5C0F\u8ABF\uFF0C\u4F5C\u54C167\n\u99AC\u52D2:\u7B2C\u4E00\u865F\u300A\u5DE8\u4EBA\u300B\u4EA4\u97FF\u66F2\uFF0CD\u5927\u8ABF\nBeethoven: Symphony No. 5 in C minor, Op. 67\nMahler: Symphony No. 1 in D major, \u201CTitan\u201D",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 7,
+      "PublishedAtRaw": "2025-01-29T03:08:49Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:49+00:00",
+      "PublishedAt": "2025-01-29T08:38:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0Y9lJZ9GgLs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0Y9lJZ9GgLs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0Y9lJZ9GgLs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/0Y9lJZ9GgLs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0Y9lJZ9GgLs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/0Y9lJZ9GgLs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony No.5 op.67",
+      "VideoOwnerChannelId": "UCH6aH-ugIv1r0aJMsy2wcBA",
+      "VideoOwnerChannelTitle": "\u9EC3\u7D39\u7DB1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0B4uudNh9-Q",
+      "VideoPublishedAtRaw": "2020-09-05T08:00:12Z",
+      "VideoPublishedAtDateTimeOffset": "2020-09-05T08:00:12+00:00",
+      "VideoPublishedAt": "2020-09-05T13:30:12+05:30"
+    },
+    "ETag": "_OdCW-CNn-CqeifJlqqqfVVV8Yk",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven:\n5. Sinfonie c-Moll op. 67 \u2219\n\n(Auftritt)  00:00 \u2219\nI. Allegro con brio  00:23 \u2219\nII. Andante con moto  07:53 \u2219\nIII. Allegro  17:13 \u2219\nIV. Allegro \u2013 Presto  22:01 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nPhilippe Herreweghe, Dirigent \u2219\n\nBeethoven-Auftakt\nhr-Sendesaal Frankfurt, 27. August 2020\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 8,
+      "PublishedAtRaw": "2025-01-29T03:09:29Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:09:29+00:00",
+      "PublishedAt": "2025-01-29T08:39:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0B4uudNh9-Q"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0B4uudNh9-Q/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0B4uudNh9-Q/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/0B4uudNh9-Q/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0B4uudNh9-Q/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/0B4uudNh9-Q/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: 5. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Philippe Herreweghe",
+      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "peAADcnCldI",
+      "VideoPublishedAtRaw": "2022-06-17T09:10:39Z",
+      "VideoPublishedAtDateTimeOffset": "2022-06-17T09:10:39+00:00",
+      "VideoPublishedAt": "2022-06-17T14:40:39+05:30"
+    },
+    "ETag": "ftFCRzPbuEwgpzw5tQc42zBS_l4",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beim Benefizkonzert von Bundespr\u00E4sident Frank-Walter Steinmeier spielt das NDR Elbphilharmonie Ludwig van Beethovens ber\u00FChmte Sinfonie Nr. 5 e-Moll op. 67. Am Pult steht Chefdirigent Alan Gilbert. Ein Ausschnitt aus dem Konzert vom 27. Februar 2022 in der Elbphilharmonie Hamburg.\n\nLUDWIG VAN BEETHOVEN\nSinfonie Nr. 5 c-Moll op. 67  00:00\nI. Allegro con brio  00:01\nII. Andante con moto  07:15\nIII. Allegro  16:27\nIV. Allegro  24:18\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nKonzertmitschnitt vom Benefizkonzert des Bundespr\u00E4sidenten am 27. Februar 2022, Elbphilharmonie Hamburg\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo/\n\n#ndrelbphilharmonieorchester #ludwigvanbeethoven #benefzkonzert",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 9,
+      "PublishedAtRaw": "2025-01-29T03:09:23Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:09:23+00:00",
+      "PublishedAt": "2025-01-29T08:39:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "peAADcnCldI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/peAADcnCldI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/peAADcnCldI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/peAADcnCldI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/peAADcnCldI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Sinfonie Nr. 5  c-Moll op. 67 | Alan Gilbert | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "-TdCXYnznZ0",
+      "VideoPublishedAtRaw": "2023-01-11T05:56:55Z",
+      "VideoPublishedAtDateTimeOffset": "2023-01-11T05:56:55+00:00",
+      "VideoPublishedAt": "2023-01-11T11:26:55+05:30"
+    },
+    "ETag": "adWJmWYzjALiiGULXendnynQJ5w",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven: Symphonie No. 5 c-Moll op. 67 \u00B7 George Szell \u00B7 Wiener Philharmoniker \u00B7 Ludwig Van Beethoven\n\nBeethoven: Egmont-Ouverture, Klavierkonzert No. 3, Symphonie No. 5\n\n\u2117\u00A9 1998 ORFEO International Music GmbH",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 10,
+      "PublishedAtRaw": "2025-01-29T03:08:19Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:19+00:00",
+      "PublishedAt": "2025-01-29T08:38:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-TdCXYnznZ0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/-TdCXYnznZ0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/-TdCXYnznZ0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/-TdCXYnznZ0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/-TdCXYnznZ0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/-TdCXYnznZ0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphonie No. 5 c-Moll op. 67",
+      "VideoOwnerChannelId": "UCILTRn_RSzWPKjhVo13PGNg",
+      "VideoOwnerChannelTitle": "Daniel Ramirez-Carbajal"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "SFENM6ymq4k",
+      "VideoPublishedAtRaw": "2020-01-15T23:21:47Z",
+      "VideoPublishedAtDateTimeOffset": "2020-01-15T23:21:47+00:00",
+      "VideoPublishedAt": "2020-01-16T04:51:47+05:30"
+    },
+    "ETag": "6ep_BCgZtKt4HVXZscEb1Mh1NS8",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven (1770-1827)\nSYMPHONY NO. 5 in C minor, Op. 67\nOsaka Philharmonic Orchestra\nKOHO UNO, conductor\nRecording: Symphony Hall, Osaka, April 10, 2005\n\nI. Allegro con brio (0:00)\nII. Andante con moto (8:49)\nIII. Allegro (20:53)\nIV. Allegro (27:17)",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 11,
+      "PublishedAtRaw": "2025-01-29T03:10:35Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:10:35+00:00",
+      "PublishedAt": "2025-01-29T08:40:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "SFENM6ymq4k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/SFENM6ymq4k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/SFENM6ymq4k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/SFENM6ymq4k/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/SFENM6ymq4k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/SFENM6ymq4k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No. 5 - Osaka Philharmonic Orchestra/Uno (2005)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cik1EPK3p3E",
+      "VideoPublishedAtRaw": "2017-01-19T18:27:33Z",
+      "VideoPublishedAtDateTimeOffset": "2017-01-19T18:27:33+00:00",
+      "VideoPublishedAt": "2017-01-19T23:57:33+05:30"
+    },
+    "ETag": "bL5oart8l1m-Gib4VFre0pFIme8",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven (1770-1827)\nSYMPHONY NO. 5 in C minor, Op. 67\nSwedish Radio Symphony Orchestra\nEVGENY SVETLANOV, cond.\nRecording: Berwaldhallen, Stockholm, 15 \u0026 18 September 1989\n\nI. Allegro con brio (0:00)\nII. Andante con moto (7:24)\nIII. Allegro (17:39)\nIV. Allegro (23:03)",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 12,
+      "PublishedAtRaw": "2025-01-29T03:08:42Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:42+00:00",
+      "PublishedAt": "2025-01-29T08:38:42+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cik1EPK3p3E"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/cik1EPK3p3E/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/cik1EPK3p3E/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/cik1EPK3p3E/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/cik1EPK3p3E/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/cik1EPK3p3E/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No. 5 - Swedish Radio Symphony Orchestra/Svetlanov (1989)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "X8Brs_8SY3c",
+      "VideoPublishedAtRaw": "2018-10-17T09:23:49Z",
+      "VideoPublishedAtDateTimeOffset": "2018-10-17T09:23:49+00:00",
+      "VideoPublishedAt": "2018-10-17T14:53:49+05:30"
+    },
+    "ETag": "Wx2Nsq1VabJg1mqSzhD2olTIP9E",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven: Symphony No. 5 in C minor, Op. 67\n\nLahti Symphony Orchestra\nDima Slobodeniouk, conductor\n\nRecorded at the Sibelius Hall in Lahti, Finland on 11 October 2018.\n\nConcert performances of the Lahti Symphony Orchestra are also available at www.classiclive.com.",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 13,
+      "PublishedAtRaw": "2025-01-29T03:09:54Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:09:54+00:00",
+      "PublishedAt": "2025-01-29T08:39:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "X8Brs_8SY3c"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/X8Brs_8SY3c/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/X8Brs_8SY3c/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/X8Brs_8SY3c/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/X8Brs_8SY3c/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/X8Brs_8SY3c/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No. 5 / Lahti Symphony Orchestra \u0026 Dima Slobodeniouk",
+      "VideoOwnerChannelId": "UCnAO15sBwtI-f1OOw9ka35g",
+      "VideoOwnerChannelTitle": "Lahti Symphony Orchestra - Sinfonia Lahti"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "y8zkfMQj3Qg",
+      "VideoPublishedAtRaw": "2021-05-21T06:51:59Z",
+      "VideoPublishedAtDateTimeOffset": "2021-05-21T06:51:59+00:00",
+      "VideoPublishedAt": "2021-05-21T12:21:59+05:30"
+    },
+    "ETag": "aAHl5Io_rJTDI9FDIiOk3v_HX4M",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven: Symphony No. 5 in c-Moll Op. 67\nLorin Maazel\nSymphonieorchester des Bayerischen Rundfunks\n1995 Die Beethovenhalle, Bonn\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C\uFF15\u756A\u30CF\u77ED\u8ABF op 67\n\u30ED\u30EA\u30F3\u30FB\u30DE\u30BC\u30FC\u30EB\n\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n1995\u5E74\u3001\u30DC\u30F3\u30FB\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\u30CF\u30EC\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\u751F\u8A95225\u5468\u5E74\u8A18\u5FF5\u30B3\u30F3\u30B5\u30FC\u30C8\n\n00:06      I.  Allegro con brio\n07:39     II.  Andante con moto\n19:26    III.  Allegro. atacca\n24:46    IV.  Allegro - Presto\n#\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3 #beethoven",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 14,
+      "PublishedAtRaw": "2025-01-29T03:08:13Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:13+00:00",
+      "PublishedAt": "2025-01-29T08:38:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "y8zkfMQj3Qg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/y8zkfMQj3Qg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/y8zkfMQj3Qg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/y8zkfMQj3Qg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/y8zkfMQj3Qg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.5 Lorin Maazel /BRSO\u3000\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C\uFF15\u756A\u3000\u30ED\u30EA\u30F3\u30FB\u30DE\u30BC\u30FC\u30EB / \u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u97FF",
+      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
+      "VideoOwnerChannelTitle": "SPT"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Wvfz_JluW54"
+    },
+    "ETag": "r3pc5_9s1YrThy1GEZHXYcLqRJY",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 15,
+      "PublishedAtRaw": "2025-01-29T03:08:56Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:56+00:00",
+      "PublishedAt": "2025-01-29T08:38:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Wvfz_JluW54"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "y5JTeJtRQIA",
+      "VideoPublishedAtRaw": "2020-02-01T12:34:14Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-01T12:34:14+00:00",
+      "VideoPublishedAt": "2020-02-01T18:04:14+05:30"
+    },
+    "ETag": "xfg0WKQEgZEY99Rqm7ZrHp63s54",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven (1770-1827)\nSymphony No.5 In C Minor, Op.67\n\n(00:00) 1. Allegro Con Brio\n(07:52) 2. Andante Con Moto\n(18:54) 3. Allegro\n(24:08) 4. Allegro\n\nKlaus Tennstedt\n\nLondon Philharmonic Orchestra\n\nAugust 30, 1990",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 16,
+      "PublishedAtRaw": "2025-01-29T03:09:16Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:09:16+00:00",
+      "PublishedAt": "2025-01-29T08:39:16+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "y5JTeJtRQIA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/y5JTeJtRQIA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/y5JTeJtRQIA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/y5JTeJtRQIA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/y5JTeJtRQIA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Klaus Tennstedt Beethoven - Symphony No.5 (1990) London PO",
+      "VideoOwnerChannelId": "UCUJ1dfObdYYlod0mhfhOWdw",
+      "VideoOwnerChannelTitle": "classic channel N"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "UCryL4W7CCM",
+      "VideoPublishedAtRaw": "2022-02-13T19:55:11Z",
+      "VideoPublishedAtDateTimeOffset": "2022-02-13T19:55:11+00:00",
+      "VideoPublishedAt": "2022-02-14T01:25:11+05:30"
+    },
+    "ETag": "ff6z2OtYIwfoZ_oqyIfSwmDw_0A",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "NBC Symphony Orchestra\nconducted by Arturo Toscanini\n1952 Telecast\n\nMarch 22nd 1952\nRecorded at Carnegie Hall, New York City, USA\n\nThis is really, really good.\n\nPicture is pretty miserable. Sound is slightly miraculous.",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 17,
+      "PublishedAtRaw": "2025-01-29T03:10:19Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:10:19+00:00",
+      "PublishedAt": "2025-01-29T08:40:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "UCryL4W7CCM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/UCryL4W7CCM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/UCryL4W7CCM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/UCryL4W7CCM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/UCryL4W7CCM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Ludwig van Beethoven - Symphony No. 5 in C Minor (op. 67) (Toscanini/1952)",
+      "VideoOwnerChannelId": "UCdSofwhOqGP1BTth81VVw2A",
+      "VideoOwnerChannelTitle": "glagolitic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "M-29Yg1HIuA"
+    },
+    "ETag": "Lsmcp_dkBRR-lX-AnospjZyeAFI",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 18,
+      "PublishedAtRaw": "2025-01-29T03:09:49Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:09:49+00:00",
+      "PublishedAt": "2025-01-29T08:39:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "M-29Yg1HIuA"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "kywprmOV5wc",
+      "VideoPublishedAtRaw": "2020-01-01T19:43:15Z",
+      "VideoPublishedAtDateTimeOffset": "2020-01-01T19:43:15+00:00",
+      "VideoPublishedAt": "2020-01-02T01:13:15+05:30"
+    },
+    "ETag": "5K5p6ooLO_sIzQJanhpCZtaXWRU",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "#Beethoven2020 #Beethoven250 #DNSO\nDanish National Symphony Orchestra celebrates Beethoven\u0027s 250 birthday in 2020. \n\nSymphony No. 5 \nBy Ludwig van Beethoven\nConducted by Fabio Luisi\nDanish National Symphony Orchestra/DR SymfoniOrkestret\n\nRecorded live at DR Koncerthuset, Copenhagen, Denmark\nAll rights reserved\n\nWatch more concerts with Danish National Symphony Orchestra/DR SymfoniOrkestret here: \nhttps://www.dr.dk/drtv/serie/dr-k-klassisk_90776\n\nGet tickets:\nhttps://drkoncerthuset.dk/kalender/?filter=dr-symfoniorkestret",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 19,
+      "PublishedAtRaw": "2025-01-29T03:10:09Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:10:09+00:00",
+      "PublishedAt": "2025-01-29T08:40:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "kywprmOV5wc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/kywprmOV5wc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/kywprmOV5wc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/kywprmOV5wc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/kywprmOV5wc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/kywprmOV5wc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Symphony No. 5 - Beethoven  // Danish National Symphony Orchestra \u0026 Fabio Luisi (Live)",
+      "VideoOwnerChannelId": "UCGtAoge4_OloSgbXMyoh5vw",
+      "VideoOwnerChannelTitle": "DR Koncerthuset"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "LASUQ8lMCws",
+      "VideoPublishedAtRaw": "2020-09-12T13:58:05Z",
+      "VideoPublishedAtDateTimeOffset": "2020-09-12T13:58:05+00:00",
+      "VideoPublishedAt": "2020-09-12T19:28:05+05:30"
+    },
+    "ETag": "mzf03hPoG2wk-2yeTMPPhikwKmQ",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "#Beethoven250 #Fr\u00FChbeckDeBurgos #DNSOarchive\n[ 5:9 ] Danish National Symphony Orchestra celebrates Beethoven\u0027s 250 birthday in 2020 with special YouTube releases of all nine symphonies by Ludwig van Beethoven conducted by the orchestra\u0027s former  Chief Conductor Rafael Fr\u00FChbeck de Burgos. \n\nSymphony No. 5\nBy Ludwig van Beethoven\nConducted by Rafael Fr\u00FChbeck de Burgos\nDanish National Symphony Orchestra/DR Symfoniorkestret\n\nSound producer: Bernhard G\u00FCttler\nTV director: Arne J Rasmussen\n\nRecorded live at DR Koncerthuset, Copenhagen, Denmark\nAll rights reserved\n\nWatch more concerts with Danish National Symphony Orchestra/DR Symfoniorkestret here: \nhttps://www.dr.dk/drtv/serie/dr-k-klassisk_90776\n\nGet tickets:\nhttps://drkoncerthuset.dk/kalender/?filter=dr-symfoniorkestret",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 20,
+      "PublishedAtRaw": "2025-01-29T03:09:36Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:09:36+00:00",
+      "PublishedAt": "2025-01-29T08:39:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "LASUQ8lMCws"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/LASUQ8lMCws/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/LASUQ8lMCws/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/LASUQ8lMCws/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/LASUQ8lMCws/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/LASUQ8lMCws/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Symphony No. 5 - Beethoven  // Danish National Symphony Orchestra \u0026 Rafael Fr\u00FChbeck de Burgos (Live)",
+      "VideoOwnerChannelId": "UCGtAoge4_OloSgbXMyoh5vw",
+      "VideoOwnerChannelTitle": "DR Koncerthuset"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Jse7_-JFCPc",
+      "VideoPublishedAtRaw": "2022-12-04T20:00:03Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-04T20:00:03+00:00",
+      "VideoPublishedAt": "2022-12-05T01:30:03+05:30"
+    },
+    "ETag": "7vOnLUNPainrITgNdPSOQlJpTpM",
+    "Id": "UEwxemdOQ29XdF83WmFGSl95YjhPS1d4ZWMtcVZLT3ZMbC4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The Oslo Philharmonic with Conductor Herbert Blomstedt performs Ludwig van Beethovens Symphony No. 5 in Oslo Concert Hall. The recording was made on 18 November, 2021. \n\n#beethoven #classicalmusic #symphony \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Magnus Kaslegard\nScript: Steinar Yggeseth\nMusic producer: Vegard Landaas\nSound technician: Thomas Wold\nLighting design: Petter Dahl Nielsen\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nSubscribe to our channel: https://oslophil.lnk.to/oslophil-subs...\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
+      "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
+      "Position": 21,
+      "PublishedAtRaw": "2025-01-29T03:08:27Z",
+      "PublishedAtDateTimeOffset": "2025-01-29T03:08:27+00:00",
+      "PublishedAt": "2025-01-29T08:38:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Jse7_-JFCPc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Jse7_-JFCPc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Jse7_-JFCPc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Jse7_-JFCPc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Jse7_-JFCPc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Jse7_-JFCPc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Symphony No. 5 / Ludwig van Beethoven / Herbert Blomstedt / Oslo Philharmonic",
+      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+      "VideoOwnerChannelTitle": "Oslo Philharmonic"
+    }
+  }
+]

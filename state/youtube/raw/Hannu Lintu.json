@@ -1,0 +1,57 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "tW2vt3VMAbc",
+			"VideoPublishedAtRaw": "2024-11-22T14:00:58Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-22T14:00:58+00:00",
+			"VideoPublishedAt": "2024-11-22T19:30:58+05:30"
+		},
+		"ETag": "ryuLlk1qBIacOHWNqdj7Rlxd3H4",
+		"Id": "UEwxemdOQ29XdF83Ym13dDh2eVU4NzNIb0FFSjNQOFdiUC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Beethovens Violinkonzert D-Dur op. 61, aufgef\u00FChrt vom SWR Symphonieorchester unter der Leitung von Hannu Lintu, mit Isabelle Faust an der Violine. Live aufgenommen am 28. Juni 2024 in der Liederhalle Stuttgart.\n\nLudwig van Beethoven \u2013 Violinkonzert D-Dur op. 61\n\n00:20  I. Allegro man non troppo\n23:40  II. Larghetto - attacca\n32:37  III. Rondo (Allegro)\n\nMitwirkende:\nIsabelle Faust, Violine\nSWR Symphonieorchester\nDirigent: Hannu Lintu\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Web: http://swr.li/web-concerts\n\u25BA Facebook: / klassikswrkultur\n\nImpressum: https://www.swr.de/impressum\n\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette:\nhttps://www.swr.de/home/netiquette-100\n\nDatenschutz: https://www.swr.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7bmwt8vyU873HoAEJ3P8WbP",
+			"Position": 0,
+			"PublishedAtRaw": "2025-11-04T15:05:39Z",
+			"PublishedAtDateTimeOffset": "2025-11-04T15:05:39+00:00",
+			"PublishedAt": "2025-11-04T20:35:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tW2vt3VMAbc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tW2vt3VMAbc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tW2vt3VMAbc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tW2vt3VMAbc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tW2vt3VMAbc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tW2vt3VMAbc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven \u2013 Violinkonzert D-Dur op. 61 | Isabelle Faust | Hannu Lintu | SWR Symphonieorchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	}
+]

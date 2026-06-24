@@ -1,0 +1,1945 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "VNSo5EU7--8",
+			"VideoPublishedAtRaw": "2024-08-29T12:43:09Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-29T12:43:09+00:00",
+			"VideoPublishedAt": "2024-08-29T18:13:09+05:30"
+		},
+		"ETag": "rcvXpvR3g1rbp6hK5hbi35mOCIk",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann (1810-1856)\nSymphony No. 2, in C major, Op. 61\n\n(00:00) - 1. Sostenuto assai - Allegro ma non troppo \n(12:30) - 2. Scherzo. Allegro vivace \n(19:17) - 3. Adagio espressivo \n(27:06) - 4. Allegro molto vivace \n\nConductor \u2013  Franz Konwitschny\nOrchestra \u2013 Gewandhausorchester Leipzig\n\n Tonregie \u2013 Claus Struben\n\nRecorded 26-30 August 1961 , Leipzig, Studio Bethanienkirche",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 0,
+			"PublishedAtRaw": "2025-03-13T17:55:52Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:55:52+00:00",
+			"PublishedAt": "2025-03-13T23:25:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VNSo5EU7--8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VNSo5EU7--8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VNSo5EU7--8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/VNSo5EU7--8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VNSo5EU7--8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/VNSo5EU7--8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "[High quality] Robert Schumann - Symphony No. 2 / Franz Konwitschny \u0026 Gewandhausorchester Leipzig",
+			"VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
+			"VideoOwnerChannelTitle": "Tsubame Classics"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "H-B0UxtskLc",
+			"VideoPublishedAtRaw": "2024-09-16T04:00:35Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-16T04:00:35+00:00",
+			"VideoPublishedAt": "2024-09-16T09:30:35+05:30"
+		},
+		"ETag": "a4s7bGy9NljES21ltifl3PVxC4o",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Leopold Stokowski conducts the NY Philharmonic in performance of Robert Schumann\u2019s Symphony No. 2 in C major, Op. 61 on February 6th, 1949.\n\nThe program for the evening:\nhttps://archives.nyphil.org/index.php/artifact/a4639fe1-708f-45e2-8051-e229ccccce3d-0.1\n\nMr. Marchant\u2019s daughter wrote \u201Cbad quality\u201D on the back of the reel box, but I disagree. It is a little dull in sonic quality, but I tried to fix that a bit with EQ and I think it helped. It definitely sounds like something recorded off the radio, but I assume like most of Reynolds Marchant\u2019s NY Philharmonic recordings it was done at WCCO with a direct line. This is certainly not the best sounding of his NY Philharmonic recordings but it\u2019s still pretty good - especially with an exciting piece like Schumann\u2019s No 2 and Stokowski\u2019s aggressive pace. \n\nTechnical info:\nUnknown Scotch\n7\u201D Reel\n7 1/2 IPS\n\nI. Sostenuto assai \u2013 Allegro ma non troppo  00:00\nII. Scherzo. Allegro vivace  09:25\nIII. Adagio espressivo  15:15\nIV. Allegro molto vivace  25:07",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 1,
+			"PublishedAtRaw": "2025-03-13T17:55:12Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:55:12+00:00",
+			"PublishedAt": "2025-03-13T23:25:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "H-B0UxtskLc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/H-B0UxtskLc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/H-B0UxtskLc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/H-B0UxtskLc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/H-B0UxtskLc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Exciting! Stokowski conducts Schumann\u2019s No 2 in 1949 - NY Philharmonic",
+			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "oGng9fBhA2I",
+			"VideoPublishedAtRaw": "2024-11-02T18:00:24Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-02T18:00:24+00:00",
+			"VideoPublishedAt": "2024-11-02T23:30:24+05:30"
+		},
+		"ETag": "bD-EjSyoEcTcXHqWCxPMHLCei7E",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dimitri Mitropoulos conducts the Minneapolis Symphony in performance of Schumann\u2019s Symphony #2 op 61 on October 24th, 1947. This recording was made off direct lines to radio station KUOM from Northrup Auditorium in Minneapolis - essentially a high-quality copy of the broadcast before it went out over the airwaves. \n\nSome of you may have already watched Dimitri Mitropoulos conduct Beethoven\u2019s Leonore Overture No 3 on my channel:\nhttps://www.youtube.com/watch?v=tV3v1Ea36ac\n\nIn the introduction on that recording we get to hear Mitropoulos speak - to the University of Minnesota radio station KUOM\u2019s audience. He introduces the pieces played that night, starting with the Leonore Overture, then he mentions \u201Cone of Schumann\u2019s finest orchestral works\u201D - which is this performance and this recording! He then mentions  B\u00E9la Bart\u00F3k\u2019s Dance Suite for Orchestra - which I also have already posted on my channel:\nhttps://www.youtube.com/watch?v=Otv68_eKljI\n\nI almost have a complete concert - only missing a performance of Wagner\u2019s Prelude to Lohengrin to complete the 2nd part of the concert. Ironically I do have part of a Lohengrin performance - but it\u0027s the Met Opera and not the Minneapolis Symphony. \n\nAnother interesting note - the October 19th, 1947 Minneapolis Star Tribune reported: \n\u201CThrough special arrangement with the federal communications commission, the University of Minnesota radio station KUOM, will broadcast the opening concert of the Minneapolis Symphony orchestra at 8:30pm Friday.\u201D  KUOM usually signed off at 6pm so it required special permission to broadcast late - and we get to benefit with these recordings!\n\nTechnical info:\nTwo Unknown Scotch reels\n7\u201D Reels\n7 1/2 IPS (both)\n\n00:04 - Introduction\n00:06 - Sostenuto assai \u2013 Allegro ma non troppo\n12:03 - Scherzo. Allegro vivace\n18:33 - Adagio espressivo\n27:26 - Allegro molto vivace",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 2,
+			"PublishedAtRaw": "2025-03-13T17:55:07Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:55:07+00:00",
+			"PublishedAt": "2025-03-13T23:25:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "oGng9fBhA2I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/oGng9fBhA2I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/oGng9fBhA2I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/oGng9fBhA2I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/oGng9fBhA2I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mitropoulos conducts Schumann Symphony No 2 1947",
+			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xgAojbmsZwg",
+			"VideoPublishedAtRaw": "2022-04-09T08:38:31Z",
+			"VideoPublishedAtDateTimeOffset": "2022-04-09T08:38:31+00:00",
+			"VideoPublishedAt": "2022-04-09T14:08:31+05:30"
+		},
+		"ETag": "0MxDE-_Mn56a_V8m7qiF3ObSeU0",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS42MTI4Njc2QjM1RjU1MjlG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anja Bihlmaier, conductor\nClara Jumi-Kang, violin\nPresented by Paul Herriott, RT\u00C9 lyric fm\n\nGalina Ustvolskaya Suite for Orchestra\n\u200B\u200B\u200B\u200BMendelssohn Violin Concerto\nSchumann Symphony no. 2\n\nRead the programme here: https://bit.ly/NSO080422Prog\n\nThe sensational young Korean violinist Clara Jumi-Kang makes her debut with the National Symphony Orchestra as conductor Anja Bihlmaier returns for thrilling displays of light and shade by Mendelssohn and Schumann.\n\nMendelssohn\u2019s last, large-scale work for orchestra, the E minor Violin Concerto, was also one of his greatest creations: a heart-on-sleeve masterpiece that treats solo instrument and orchestra as equals to produce one of the 19th century\u2019s greatest concertos.\n\nShot through with Mendelssohn\u2019s signature lyrical lightness of touch, its sweet song-like directness has an operatic intensity about it, the fleet, quicksilver finale a dazzlingly choreographed duet between violin and orchestra.\n\nBegun in 1845, the year Mendelssohn\u2019s Violin Concerto was first performed, the premiere of Schumann\u2019s Second Symphony was conducted by Mendelssohn in 1846. Composed in the aftermath of Schumann\u2019s year-long nervous breakdown, it is cut from a very different cloth.\n\nA journey into the interior, it is a work of remarkable and affecting honesty, private despair giving way to new-found courage and determination in a closing statement of immense power.\n\nA one-time pupil of Shostakovich and a cult figure in her native Russia before her belated discovery in the West in the 1990s, Galina Ustvolskaya\u2019s distinctive voice earned her the nickname \u201Cthe lady with the hammer\u201D. Her 1959 Suite for Orchestra is a work of startling energy and animation, cartoon-like in places, grotesque in others, driven along by a muscular rhythmic verve and laced with the gentlest of melodies.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 3,
+			"PublishedAtRaw": "2025-03-13T18:00:14Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T18:00:14+00:00",
+			"PublishedAt": "2025-03-13T23:30:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xgAojbmsZwg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xgAojbmsZwg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xgAojbmsZwg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/xgAojbmsZwg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xgAojbmsZwg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xgAojbmsZwg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "NSO: Ustvolskaya, Mendelssohn, Schumann",
+			"VideoOwnerChannelId": "UCkt8AaqEMA41tiprny4Pb1g",
+			"VideoOwnerChannelTitle": "National Symphony Orchestra Ireland"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "iCzRm9mYX5E",
+			"VideoPublishedAtRaw": "2020-12-03T23:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-03T23:00:10+00:00",
+			"VideoPublishedAt": "2020-12-04T04:30:10+05:30"
+		},
+		"ETag": "0eqpQAoCBRUKP6rFmATnVCshx9c",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orpheus Chamber Orchestra performs Schumann Symphony No. 2\nand Mendelssohn Octet \u0027Scherzo\u0027 for orchestra. Recorded live at the Dresden Music Festival in October 2015 to celebrate the ten year anniversary of the reconstruction of the Frauenkirche.\n\nPROGRAM\n\nSchumann - Symphony No. 2 in C Major, Op. 61\n    Allegro ma non troppo\n    Scherzo - Allegro Vivace\n    Adagio espressivo\n    Allegro molto vivace\n\nENCORE | Mendelssohn- Octet in E-flat Major, Op. 20 (Orchestral version)\n    Scherzo\n\nVideo directed by Ana\u00EFs Spiro for medici.tv\n\nThis online concert presentation is made possible with the generous support of Women in Flavor and Fragrance Commerce, Inc.\n\n---\n\nPlease donate to Orpheus to help us remain resilient during COVID-19 related closures.\n\nThank you for your support. www.orpheusnyc.org/donate\n\n---\n\nABOUT ORPHEUS \n\nIn 1972, a group of young artists made history by creating an orchestra without a conductor in which musicians led themselves democratically. Since then, the Grammy Award-winning Orpheus Chamber Orchestra has recorded over 70 albums on all major classical labels, toured to 46 countries across four continents, and collaborated with hundreds of world-class soloists.\n\nOrpheus\u2019 34 member musicians work together as a collective and rotate leadership roles for all works performed, giving flight to unconventional interpretations. This democratic structure also extends to organizational functions including programming and governance: the orchestra elects three members to Artistic Director positions and three to the Board of Trustees.\n\nAn essential part of New York City\u2019s cultural landscape, Orpheus presents annual series at Carnegie Hall and the 92nd Street Y. Orpheus tours to major international venues and has appeared regularly in Japan for 30 years; recent engagements include the Prague Spring and Dresden Music Festivals and a 12-concert tour of Asia. The orchestra\u2019s extensive discography includes a February 2019 release on Deutsche Grammophon of Mendelssohn concertos with pianist Jan Lisiecki. Champions of chamber orchestra repertoire, Orpheus has commissioned and premiered over 50 new works.\n\nOrpheus shares its collaborative model, the Orpheus Process\u00AE, through education and community engagement initiatives that promote equity and access to the arts for listeners of all ages around the world. These include programs for K-12 students, opportunities for emerging professional musicians, and a music and wellness program for people living with Alzheimer\u2019s disease and other forms of dementia.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 4,
+			"PublishedAtRaw": "2025-03-13T17:49:39Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:49:39+00:00",
+			"PublishedAt": "2025-03-13T23:19:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iCzRm9mYX5E"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iCzRm9mYX5E/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iCzRm9mYX5E/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/iCzRm9mYX5E/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iCzRm9mYX5E/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/iCzRm9mYX5E/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Orpheus performs Schumann Symphony No. 2",
+			"VideoOwnerChannelId": "UCP1ajqCAhJqstCumgZ3q9Gg",
+			"VideoOwnerChannelTitle": "Orpheus Chamber Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "JEhOI7ODf7Q",
+			"VideoPublishedAtRaw": "2024-08-16T13:34:50Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-16T13:34:50+00:00",
+			"VideoPublishedAt": "2024-08-16T19:04:50+05:30"
+		},
+		"ETag": "zyHS0XEMyA8au-vQXYLhOkHiHZ8",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "R.Schumann / Symphony No.2 in C-major Op.61\n\n00:05  I.  Sostenuto assai - Allegro ma non troppo\n12:58  II. Scherzo ; Allegro vivace\n19:36  III. Adagio espressivo\n28:49  IV. Allegro molt vivace\n\u200BOttomar Suitner cond. StaatsKapelle Berlin\nrec.Aug/1987\n\n\u30ED\u30D9\u30EB\u30C8\u30FB\u30B7\u30E5\u30FC\u30DE\u30F3 \u4EA4\u97FF\u66F2\u7B2C2\u756A\u30CF\u9577\u8ABF \u4F5C\u54C161\n\u30AA\u30C8\u30DE\u30FC\u30EB\u30FB\u30B9\u30A6\u30A3\u30C8\u30CA\u30FC\u6307\u63EE\u30D9\u30EB\u30EA\u30F3\u30FB\u30B7\u30E5\u30BF\u30FC\u30C4\u30AB\u30DA\u30EC\n1987\u5E748\u6708 \u30D9\u30EB\u30EA\u30F3\u30A4\u30A8\u30B9\u30AD\u30EA\u30B9\u30C8\u5354\u4F1A",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 5,
+			"PublishedAtRaw": "2025-03-13T17:56:01Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:56:01+00:00",
+			"PublishedAt": "2025-03-13T23:26:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "JEhOI7ODf7Q"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/JEhOI7ODf7Q/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/JEhOI7ODf7Q/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/JEhOI7ODf7Q/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/JEhOI7ODf7Q/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/JEhOI7ODf7Q/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "R.Schumann / Symphony No.2 in C-major ~ \u200BOttomar Suitner \u0026 StaatsKapelle Berlin",
+			"VideoOwnerChannelId": "UCIEHKpNlSZEeXpgqiMZD_9w",
+			"VideoOwnerChannelTitle": "singasong2010"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "MW51EbvU3QA",
+			"VideoPublishedAtRaw": "2022-05-09T21:04:15Z",
+			"VideoPublishedAtDateTimeOffset": "2022-05-09T21:04:15+00:00",
+			"VideoPublishedAt": "2022-05-10T02:34:15+05:30"
+		},
+		"ETag": "8jnPWgjhIYLOI1Nykp5t5z35h54",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann (1810-1856)\nSymphony No. 2 in C major op. 61\nUSSR Symphony Orchestra\nConductor: Evgeny Svetlanov\nRecording: Great Hall of the Moscow Conservatory, 1982\n\nRemastered audio \u0026 video",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 6,
+			"PublishedAtRaw": "2025-03-13T17:50:09Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:50:09+00:00",
+			"PublishedAt": "2025-03-13T23:20:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "MW51EbvU3QA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/MW51EbvU3QA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/MW51EbvU3QA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/MW51EbvU3QA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/MW51EbvU3QA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/MW51EbvU3QA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Robert Schumann - Symphony No. 2 (Svetlanov)",
+			"VideoOwnerChannelId": "UCkw2Ft6k4l-sHTtGe1VyiOg",
+			"VideoOwnerChannelTitle": "Berlin Confidencial"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lnDJehTe6PU",
+			"VideoPublishedAtRaw": "2021-06-25T15:22:26Z",
+			"VideoPublishedAtDateTimeOffset": "2021-06-25T15:22:26+00:00",
+			"VideoPublishedAt": "2021-06-25T20:52:26+05:30"
+		},
+		"ETag": "fvwPvlaJqag6BpOaNcmijfNV2D8",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5GNDg1Njc1QzZERjlFRjE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Celi conducting Schumann\u0027s second symphony with the London Symphony Orchestra at London\u0027s Royal Festival Hall in September 1979.\n\n\n1. Sostenuto assai \u2014 Allegro, ma non troppo 0:00\n2. Scherzo: Allegro vivace 11:54\n3. Adagio espressivo 18:58\n4. Allegro molto vivace 31:12\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 7,
+			"PublishedAtRaw": "2025-03-13T18:02:50Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T18:02:50+00:00",
+			"PublishedAt": "2025-03-13T23:32:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lnDJehTe6PU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lnDJehTe6PU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lnDJehTe6PU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lnDJehTe6PU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Robert Schumann - Symphony no. 2: Sergiu Celibidache conducting the LSO in 1979",
+			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+			"VideoOwnerChannelTitle": "LSO live recordings"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "wPu1-ZBpHic",
+			"VideoPublishedAtRaw": "2020-05-24T15:32:51Z",
+			"VideoPublishedAtDateTimeOffset": "2020-05-24T15:32:51+00:00",
+			"VideoPublishedAt": "2020-05-24T21:02:51+05:30"
+		},
+		"ETag": "wEhEClUnWX5nTKoit8mcRfi1GoA",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Schumann\u0027s second symphony, in this performance by Sir Simon Rattle and the LSO at the Barbican from June 2014.\n\n1. Sostenuto assai, allegro ma non troppo 0:00\n2. Scherzo: allegro vivace 12:07\n3. Adagio espressivo 19:33\n4. Allegro molto vivace 29:47\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 8,
+			"PublishedAtRaw": "2025-03-13T17:50:32Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:50:32+00:00",
+			"PublishedAt": "2025-03-13T23:20:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "wPu1-ZBpHic"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/wPu1-ZBpHic/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/wPu1-ZBpHic/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/wPu1-ZBpHic/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Robert Schumann - Symphony no. 2: Sir Simon Rattle conducting the LSO in 2014",
+			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+			"VideoOwnerChannelTitle": "LSO live recordings"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "batpBXWAAx8",
+			"VideoPublishedAtRaw": "2021-09-01T05:28:47Z",
+			"VideoPublishedAtDateTimeOffset": "2021-09-01T05:28:47+00:00",
+			"VideoPublishedAt": "2021-09-01T10:58:47+05:30"
+		},
+		"ETag": "e521Qq-voJob1hbJiCITIeXgIs8",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4xOTEzQzhBQzU3MDNDNjcz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "I. Sostenuto assai - Un poco pi\u00F9 vivace - Allegro, ma non troppo 0:00\nII. Scherzo: Allegro vivace 12:45\nIII. Adagio espressivo 19:30\nIV. Allegro molto vivace 30:05\nPerformed by the Bergen Philharmonic Orchestra conducted by Aldo Ceccato.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 9,
+			"PublishedAtRaw": "2025-03-13T18:02:38Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T18:02:38+00:00",
+			"PublishedAt": "2025-03-13T23:32:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "batpBXWAAx8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/batpBXWAAx8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/batpBXWAAx8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/batpBXWAAx8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/batpBXWAAx8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Robert Schumann arr. Mahler : Symphony No. 2 in C major Op. 61 (1845-46 arr. 1890s)",
+			"VideoOwnerChannelId": "UC9g5M2trqPDiGn5fC_dl63g",
+			"VideoOwnerChannelTitle": "Rodders"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3751QAneCaY",
+			"VideoPublishedAtRaw": "2021-11-10T09:27:23Z",
+			"VideoPublishedAtDateTimeOffset": "2021-11-10T09:27:23+00:00",
+			"VideoPublishedAt": "2021-11-10T14:57:23+05:30"
+		},
+		"ETag": "vv6rp1jsLEX-uCYtz3r6i1ElTy0",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS45RjNFMDhGQ0Q2RkFCQTc1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Das G\u00FCrzenich-Orchester K\u00F6ln spielt unter der Leitung von Fran\u00E7ois-Xavier Roth die 2. Sinfonie in C-Dur op. 61 von Robert Schumann. Der G\u00FCrzenich-Kapellmeister setzt damit seinen Schumann-Zyklus fort, auf CD ver\u00F6ffentlicht sind bereits die 1. Sinfonie und die 4. Sinfonie in ihrer Urfassung.\n\nDie Aufnahme entstand am 29. Juni 2021.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 10,
+			"PublishedAtRaw": "2025-03-13T18:00:49Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T18:00:49+00:00",
+			"PublishedAt": "2025-03-13T23:30:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3751QAneCaY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3751QAneCaY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3751QAneCaY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3751QAneCaY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3751QAneCaY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3751QAneCaY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Robert Schumann\u23AESinfonie Nr. 2 C-Dur op. 61\u23AEG\u00FCrzenich-Orchester K\u00F6ln\u23AEFran\u00E7ois-Xavier Roth",
+			"VideoOwnerChannelId": "UC9ZTxQYqbsGfBOGvNsaIz8w",
+			"VideoOwnerChannelTitle": "G\u00FCrzenich-Orchester K\u00F6ln"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tSfruPYIKQw",
+			"VideoPublishedAtRaw": "2024-08-31T14:00:49Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-31T14:00:49+00:00",
+			"VideoPublishedAt": "2024-08-31T19:30:49+05:30"
+		},
+		"ETag": "IUxjD5VRx4TRbO8YiRG1lsjOFgo",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "schumann  symphony no.2 in c major\n\ni.   sostenuto assai ( 0:00 - )\nii.  scherzo (allegro vivace) ( 12:46 - )\niii. adagio espressivo ( 20:02 - )\niv. allegro molto vivace ( 31:37 - )\n\n( live recording.  oct 8, 1995  musikvereinssaal, vienna )\n\n\n\n\n*. source : refine classics cd-r (modified)\n*. r.muti    vienna philharmonic",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 11,
+			"PublishedAtRaw": "2025-03-13T17:55:46Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:55:46+00:00",
+			"PublishedAt": "2025-03-13T23:25:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tSfruPYIKQw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "schumann  symphony no.2 in c major ( r. muti )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "i-FX6B-uWwc",
+			"VideoPublishedAtRaw": "2021-11-01T12:23:17Z",
+			"VideoPublishedAtDateTimeOffset": "2021-11-01T12:23:17+00:00",
+			"VideoPublishedAt": "2021-11-01T17:53:17+05:30"
+		},
+		"ETag": "dkXn3OkBqDrwO8s4cOC9dLq7LXE",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumanns Sinfonie Nr. 2 C-Dur op. 61, gespielt vom damaligen NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) unter der Leitung seines damaligen Chefdirigenten Christoph von Dohn\u00E1nyi. Live aufgezeichnet am 14. Juni 2008 in der Laeiszhalle.\n\nRobert Schumann - Sinfonie Nr. 2 C-Dur op. 61  \n\n00:00:00 I. Sostenuto assai - Allegro ma non troppo  \n00:12:55 II. Scherzo. Allegro vivace  \n00:20:09 III. Adagio espressivo  \n00:30:34 IV. Allegro molto vivace  \n\nNDR Sinfonieorchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 12,
+			"PublishedAtRaw": "2025-03-13T17:49:55Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:49:55+00:00",
+			"PublishedAt": "2025-03-13T23:19:55+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "i-FX6B-uWwc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Sinfonie Nr. 2 | Christoph von Dohn\u00E1nyi | NDR Elbphilharmonie Orchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dgR-vuEE1_U",
+			"VideoPublishedAtRaw": "2021-09-18T20:00:09Z",
+			"VideoPublishedAtDateTimeOffset": "2021-09-18T20:00:09+00:00",
+			"VideoPublishedAt": "2021-09-19T01:30:09+05:30"
+		},
+		"ETag": "804PB3DuBFV4Gr7MdlPw6KuWy-8",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumanns Sinfonie Nr. 2 C-Dur op. 61, interpretiert vom WDR Sinfonieorchester unter der Leitung seines damaligen Chefdirigenten Semyon Bychkov in der K\u00F6lner Philharmonie. Aufgezeichnet am 13.12.2008 in der K\u00F6lner Philharmonie. Historische Aufnahme aus dem WDR Klassik-Archiv. \n\nRobert Schumann - Sinfonie Nr. 2 C-Dur op. 61\n\n00:00:00 I. Sostenuto assai \u2013 Allegro ma non troppo \n00:12:39 II. Scherzo. Allegro vivace\n00:20:14 III. Adagio espressivo - Allegro molto vivace\n00:30:20 IV. Allegro molto vivace\n\nWDR Sinfonieorchester \nSemyon Bychkov, Leitung \n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://www.wdr-sinfonieorchester.de \n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 13,
+			"PublishedAtRaw": "2025-03-13T17:49:06Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:49:06+00:00",
+			"PublishedAt": "2025-03-13T23:19:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dgR-vuEE1_U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/dgR-vuEE1_U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/dgR-vuEE1_U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/dgR-vuEE1_U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/dgR-vuEE1_U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Sinfonie Nr. 2 | Semyon Bychkov | WDR Sinfonieorchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "T1zwc59c7b4",
+			"VideoPublishedAtRaw": "2013-11-02T03:21:17Z",
+			"VideoPublishedAtDateTimeOffset": "2013-11-02T03:21:17+00:00",
+			"VideoPublishedAt": "2013-11-02T08:51:17+05:30"
+		},
+		"ETag": "ejETG9D9a6tKevRd4eGrUA7ENqQ",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nRobert Schumann\nSymphony No 2 in C major, Op 61\n\n1 Sostenuto assai - Allegro, ma non troppo\n2 Scherzo. Allegro vivace\n3 Adagio espressivo\n4 Allegro molto vivace\n\nMahler Chamber Orchestra\nDaniel Harding conductor\n\nLive recording. London, Proms 2013",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 14,
+			"PublishedAtRaw": "2025-03-13T17:49:15Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:49:15+00:00",
+			"PublishedAt": "2025-03-13T23:19:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "T1zwc59c7b4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/T1zwc59c7b4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/T1zwc59c7b4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/T1zwc59c7b4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/T1zwc59c7b4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/T1zwc59c7b4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Symphony No 2 in C major, Op 61 - Harding",
+			"VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+			"VideoOwnerChannelTitle": "Classical Vault 1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "IWGUGU_0n-w",
+			"VideoPublishedAtRaw": "2023-01-07T05:39:26Z",
+			"VideoPublishedAtDateTimeOffset": "2023-01-07T05:39:26+00:00",
+			"VideoPublishedAt": "2023-01-07T11:09:26+05:30"
+		},
+		"ETag": "QjJqF2xIhtpXfm511ZTqm68Fc6k",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orchestre national de France\nHeinz Wallberg\n\n1990s\n\n#Schumann\u3000#Wallberg\u3000#Schumann2",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 15,
+			"PublishedAtRaw": "2025-03-13T17:58:47Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:58:47+00:00",
+			"PublishedAt": "2025-03-13T23:28:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "IWGUGU_0n-w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/IWGUGU_0n-w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/IWGUGU_0n-w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/IWGUGU_0n-w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/IWGUGU_0n-w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/IWGUGU_0n-w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Symphony No.2  in C major, Op.61\uFF08Wallberg, Orchestre national de France\uFF09",
+			"VideoOwnerChannelId": "UCJkgxBwZS44LK_dfxzBIHkQ",
+			"VideoOwnerChannelTitle": "Classic Music Club"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ifhrmB2KFn0",
+			"VideoPublishedAtRaw": "2021-09-21T21:53:29Z",
+			"VideoPublishedAtDateTimeOffset": "2021-09-21T21:53:29+00:00",
+			"VideoPublishedAt": "2021-09-22T03:23:29+05:30"
+		},
+		"ETag": "fHX7Jil_jgb482A8jXn-8sDjvfE",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5BRjJDODk5REM0NjkzMUIy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "James Levine at 29 in Rome",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 16,
+			"PublishedAtRaw": "2025-03-13T18:02:27Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T18:02:27+00:00",
+			"PublishedAt": "2025-03-13T23:32:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ifhrmB2KFn0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ifhrmB2KFn0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ifhrmB2KFn0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ifhrmB2KFn0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ifhrmB2KFn0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Symphony no.2 C op.61 - Levine J.,RAI ROMA - May 13th,1972 - Roma",
+			"VideoOwnerChannelId": "UC8tVpbdyYB21cw76Kv1_ZXg",
+			"VideoOwnerChannelTitle": "Luca Chierici"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "031tGaLL0kI",
+			"VideoPublishedAtRaw": "2022-07-30T13:00:16Z",
+			"VideoPublishedAtDateTimeOffset": "2022-07-30T13:00:16+00:00",
+			"VideoPublishedAt": "2022-07-30T18:30:16+05:30"
+		},
+		"ETag": "hDPpFvCjB_ZLiMqUGKEO0zUIo2I",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u30B7\u30E5\u30FC\u30DE\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C\uFF12\u756A \u30CF\u9577\u8ABF\u3000op.61\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3 \u6307\u63EE \u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\n1985\u5E74\uFF1F",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 17,
+			"PublishedAtRaw": "2025-03-13T17:59:24Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:59:24+00:00",
+			"PublishedAt": "2025-03-13T23:29:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "031tGaLL0kI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/031tGaLL0kI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/031tGaLL0kI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/031tGaLL0kI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/031tGaLL0kI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/031tGaLL0kI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Symphony No.2 \u3000Bernstein Wiener\u3000live",
+			"VideoOwnerChannelId": "UCDcxRVRSMoKFxdMQIVDLUiQ",
+			"VideoOwnerChannelTitle": "The Just Sound \u2755"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "w8VX4CvX3aM",
+			"VideoPublishedAtRaw": "2022-06-11T05:23:44Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-11T05:23:44+00:00",
+			"VideoPublishedAt": "2022-06-11T10:53:44+05:30"
+		},
+		"ETag": "waZRa-Sjyj5tL5-ahEmhYHoT7V4",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u30B7\u30E5\u30FC\u30DE\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C\uFF12\u756A \u30CF\u9577\u8ABF\u3000op.61\n\u30AB\u30FC\u30EB\u30FB\u30B7\u30E5\u30FC\u30EA\u30D2\u30C8 \u6307\u63EE \u3000\u30D1\u30EA\u97F3\u697D\u9662 \u7BA1\u5F26\u697D\u56E3\n1952\u5E747\u6708",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 18,
+			"PublishedAtRaw": "2025-03-13T17:59:43Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:59:43+00:00",
+			"PublishedAt": "2025-03-13T23:29:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "w8VX4CvX3aM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/w8VX4CvX3aM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/w8VX4CvX3aM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/w8VX4CvX3aM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/w8VX4CvX3aM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/w8VX4CvX3aM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Symphony No.2 \u3000Schuricht\u3000OSCC",
+			"VideoOwnerChannelId": "UCDcxRVRSMoKFxdMQIVDLUiQ",
+			"VideoOwnerChannelTitle": "The Just Sound \u2755"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "x60CrlTiKCM",
+			"VideoPublishedAtRaw": "2023-12-13T22:13:03Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-13T22:13:03+00:00",
+			"VideoPublishedAt": "2023-12-14T03:43:03+05:30"
+		},
+		"ETag": "AO4Cjgszl2AgptZ0CccC37ENj-k",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This is part of a concert given in the Town Hall, Birmingham on 2 April 1981 by the CBSO conducted by a young Simon Rattle\n\nCity of Birmingham Symphony Orchestra \nconducted by\nSimon Rattle\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_fourfm/1981-04-02#at-20.45\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 19,
+			"PublishedAtRaw": "2025-03-13T17:57:04Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:57:04+00:00",
+			"PublishedAt": "2025-03-13T23:27:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "x60CrlTiKCM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/x60CrlTiKCM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/x60CrlTiKCM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/x60CrlTiKCM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/x60CrlTiKCM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/x60CrlTiKCM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Symphony No 2 - City of Birmingham Symphony Orchestra - Simon Rattle (B\u0027ham Town Hall,1981)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0GKvx-8KHE8",
+			"VideoPublishedAtRaw": "2021-02-15T14:21:35Z",
+			"VideoPublishedAtDateTimeOffset": "2021-02-15T14:21:35+00:00",
+			"VideoPublishedAt": "2021-02-15T19:51:35+05:30"
+		},
+		"ETag": "4aEWCSRGjUYSUoeGEEbl4jLx5gc",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Schumann Symphony no 2\nBerlin Philharmonic Orchestra\nHerbert von Karajan\nLive concert - Philharmonie Berlin\n9 January 1972\nKarajan only programmed this work twice - 1954 in Italy and this one.\nThankfully it was broadcast",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 20,
+			"PublishedAtRaw": "2025-03-13T17:50:00Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:50:00+00:00",
+			"PublishedAt": "2025-03-13T23:20:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0GKvx-8KHE8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0GKvx-8KHE8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0GKvx-8KHE8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0GKvx-8KHE8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0GKvx-8KHE8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Symphony no 2 Karajan live",
+			"VideoOwnerChannelId": "UC7IF8E4AvUzafiXt6w9yTuw",
+			"VideoOwnerChannelTitle": "Mark Hood"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fAnB45ZGIts",
+			"VideoPublishedAtRaw": "2019-11-13T11:42:22Z",
+			"VideoPublishedAtDateTimeOffset": "2019-11-13T11:42:22+00:00",
+			"VideoPublishedAt": "2019-11-13T17:12:22+05:30"
+		},
+		"ETag": "_eQBTOx2cebWbS75UV9YmgFD6VY",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tapiola Sinfonietta conducted by Sir Roger Norrington.\n\nRobert Schumann: Symphony No. 2 in C major Op. 61\nI. Sostenuto assai - Un poco p\u00ECu vivace - Allegro ma non troppo 00:11\nII. Scherzo: Allegro vivace 14:01\nIII. Adagio espressivo 22:01\nIV. Allegro molto vivace 29:22\n\nIntroduction to the symphony by Sir Roger Norrington: https://youtu.be/FU6Tt15objc \nRecorded live at the Espoo Cultural Centre, Finland, 12 September 2019.\n\nSound production: Pro Audile Oy\nVideo production: Kong \u0026 Takauma\nhttps://www.tapiolasinfonietta.fi/",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 21,
+			"PublishedAtRaw": "2025-03-13T17:50:13Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:50:13+00:00",
+			"PublishedAt": "2025-03-13T23:20:13+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fAnB45ZGIts"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fAnB45ZGIts/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fAnB45ZGIts/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/fAnB45ZGIts/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fAnB45ZGIts/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/fAnB45ZGIts/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Symphony No. 2 | Sir Roger Norrington conducts The Tapiola Sinfonietta",
+			"VideoOwnerChannelId": "UCXUebHjL8G_U-0-oQECvdWw",
+			"VideoOwnerChannelTitle": "Tapiola Sinfonietta"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DOWxkyxiI18",
+			"VideoPublishedAtRaw": "2017-01-26T21:00:18Z",
+			"VideoPublishedAtDateTimeOffset": "2017-01-26T21:00:18+00:00",
+			"VideoPublishedAt": "2017-01-27T02:30:18+05:30"
+		},
+		"ETag": "OIbnnUlU4gRR-fmENZ8GLPbp_Y8",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u0022Woods has seized on the essence of this Schumann Symphony. His reading is smooth, grand and exciting\u2026 one of the best recordings available. Highly Recommended- five stars\u201D\nZan Furtwangler, Audiophile Audition\n\nGramophone Editor\u0027s Choice- July 2012\n\nExplore the Score with interactive program notes here: http://kennethwoods.net/blog1/2011/11/26/explore-the-score-schumann-symphony-no-2/\n\nBuy the CD here: http://kennethwoods.net/blog1/product/hans-gal-symphony-no-4-sinfonia-concertante-robert-schumann-symphony-no-2/\n\nhttp://kennethwoods.net/blog1/\nhttps://www.facebook.com/kennethwoodsconductor/\nhttps://twitter.com/kennethwoods\n\nhttp://www.avie-records.com/\nhttp://www.orchestraoftheswan.org/\n\n\n\nVideo by Paolo Pezzangora",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 22,
+			"PublishedAtRaw": "2025-03-13T17:52:01Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:52:01+00:00",
+			"PublishedAt": "2025-03-13T23:22:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DOWxkyxiI18"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/DOWxkyxiI18/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/DOWxkyxiI18/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/DOWxkyxiI18/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/DOWxkyxiI18/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/DOWxkyxiI18/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Symphony no. 2-- Kenneth Woods/Orchestra of the Swan",
+			"VideoOwnerChannelId": "UCm7DCMsLebTfvJoGMc9nzIw",
+			"VideoOwnerChannelTitle": "Kenneth Woods"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "B0JhJ9aIg10",
+			"VideoPublishedAtRaw": "2019-08-11T22:57:16Z",
+			"VideoPublishedAtDateTimeOffset": "2019-08-11T22:57:16+00:00",
+			"VideoPublishedAt": "2019-08-12T04:27:16+05:30"
+		},
+		"ETag": "VI15XKnM2N6MBGcRGpAsFgrQVoc",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bruno Maderna, The Cleveland Orchestra.\nCuyahoga Falls, Blossom Music Center (August 5, 1972)",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 23,
+			"PublishedAtRaw": "2025-03-13T17:52:44Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:52:44+00:00",
+			"PublishedAt": "2025-03-13T23:22:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "B0JhJ9aIg10"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/B0JhJ9aIg10/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/B0JhJ9aIg10/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/B0JhJ9aIg10/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Schumann Symphony No.2 op.61 - Maderna / Cleveland (1972)",
+			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+			"VideoOwnerChannelTitle": "goodmanmusica"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "TdzXwiExqis",
+			"VideoPublishedAtRaw": "2021-02-05T00:09:17Z",
+			"VideoPublishedAtDateTimeOffset": "2021-02-05T00:09:17+00:00",
+			"VideoPublishedAt": "2021-02-05T05:39:17+05:30"
+		},
+		"ETag": "copKlDYBuQ1ESLcFS3V6IT5Arrw",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann. Symphony no. 2 in C major, op. 61\nBerliner Philharmoniker; George Szell, conductor\nRecorded live in the Philharmonie, Berlin, 26 June 1969\n\nI. Sostenuto assai - Allegro ma non troppo (0:00)\nII. Scherzo. Allegro vivace (11:06)\nIII. Adagio espressivo (18:03)\nIV. Allegro molto vivace (29:10)",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 24,
+			"PublishedAtRaw": "2025-03-13T17:50:48Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:50:48+00:00",
+			"PublishedAt": "2025-03-13T23:20:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "TdzXwiExqis"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/TdzXwiExqis/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/TdzXwiExqis/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/TdzXwiExqis/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/TdzXwiExqis/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/TdzXwiExqis/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann, Symphony no. 2: Szell/Berliner Philharmoniker/live in 1969",
+			"VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
+			"VideoOwnerChannelTitle": "Music Lover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-Bd4Xkvun2A",
+			"VideoPublishedAtRaw": "2023-03-10T08:15:00Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-10T08:15:00+00:00",
+			"VideoPublishedAt": "2023-03-10T13:45:00+05:30"
+		},
+		"ETag": "XoZOvyeQXXzj1F2h43Zk_pJn4Ys",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann (1810-1856)/Gustav Mahler (1860-1911)\nSymphony No. 2 in C Major, Op. 61\n0:00 I. Sostenuto assai \u2013 Un poco pi\u00F9 vivace \u2013 Allegro ma non troppo\n11:41 II. Scherzo. Allegro vivace\n18:13 III. Adagio espressivo\n27:18 IV. Allegro molto vivace\n\nGewandhausorchester \u0026 Riccardo Chailly\n\n\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\nSupport: https://www.buymeacoffee.com/hyunsangpark\n\n\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\nMusical compositions by Hyun-Sang Park: https://www.youtube.com/playlist?list=PLJC68BtI_4EgBskv9LNiS9pWKBTBRNyag\nMusical conducting by Hyun-Sang Park: https://www.youtube.com/playlist?list=PLJC68BtI_4EjiIRGCLBO8AcpFhXQAOiYU\nAnalyses of the musical compositions by Hyun-Sang Park \u0026 other composers: https://www.youtube.com/playlist?list=PLJC68BtI_4EjPT5qoaLYLw9YKDMYmxfKN\nHyun-Sang Park conducts Mahler: https://www.youtube.com/playlist?list=PLJC68BtI_4EgRxes5Xo2UMkEwFQoBw0Og\nHyun-Sang Park conducts and plays Scriabin: https://www.youtube.com/playlist?list=PLJC68BtI_4Eh5Z14IQ59royGHC8_ymqAC\nHyun-Sang Park conducts Sch\u00F6nberg\u0027s \u0022Pierrot Lunaire\u0022 (Complete): https://youtu.be/1WKNw112Jjk\nThe most important works of Hyun-Sang Park: https://www.youtube.com/playlist?list=PLJC68BtI_4EhY9hbnAsr2M_n1usYRbRUT\nAll musical works by Hyun-Sang Park: https://www.youtube.com/playlist?list=PLJC68BtI_4EiLwnndXAUjPBEsKGEVLdwQ\nHyun-Sang Park on Eastern and Western Scriptures and Classics: https://www.youtube.com/playlist?list=PLJC68BtI_4EhMbaS5a0aOuUAbZPSznx1e\n\n\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\n\uBC15\uD604\uC0C1 / Hyun-Sang Park: https://www.youtube.com/@composerpark\nHyun-Sang Park on Eastern and Western Scriptures and Classics: https://www.youtube.com/@parkbooks",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 25,
+			"PublishedAtRaw": "2025-03-13T17:58:15Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:58:15+00:00",
+			"PublishedAt": "2025-03-13T23:28:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-Bd4Xkvun2A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/-Bd4Xkvun2A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/-Bd4Xkvun2A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/-Bd4Xkvun2A/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/-Bd4Xkvun2A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/-Bd4Xkvun2A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann/Mahler: Symphony No. 2 \u2015 Gewandhausorchester \u0026 Riccardo Chailly\uFF0F\uC288\uB9CC/\uB9D0\uB7EC: \uAD50\uD5A5\uACE1 \uC81C2\uBC88",
+			"VideoOwnerChannelId": "UCQEdKPOTJ6CwP00NH6ZZjwQ",
+			"VideoOwnerChannelTitle": "Hyun-Sang Park\u0027s Classical Music Archive"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KjB58xjqMMM",
+			"VideoPublishedAtRaw": "2022-05-18T11:49:21Z",
+			"VideoPublishedAtDateTimeOffset": "2022-05-18T11:49:21+00:00",
+			"VideoPublishedAt": "2022-05-18T17:19:21+05:30"
+		},
+		"ETag": "gUwMO9Novo1EqsusuWuvkamVqyo",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann  (1810 - 1856)\n\nSymphony no. 2 in C major op. 61\n\nI       Sostenuto - Allegro ma non troppo\nII      Scherzo. Allegro vivace - Trio\nIII     Adagio espressivo\nIV     Allegro molto vivace\n\nArturo Toscanini, direttore\nN.B.C. Symphony Orchestra\nNew York, 1941",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 26,
+			"PublishedAtRaw": "2025-03-13T17:59:57Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:59:57+00:00",
+			"PublishedAt": "2025-03-13T23:29:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KjB58xjqMMM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KjB58xjqMMM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KjB58xjqMMM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/KjB58xjqMMM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KjB58xjqMMM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/KjB58xjqMMM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann:  Symphony no. 2 in C major op. 61 - Arturo Toscanini, direttore; N.B.C. Symphony Orchestra",
+			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "TFDCwvKP3d0",
+			"VideoPublishedAtRaw": "2022-06-24T10:48:40Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-24T10:48:40+00:00",
+			"VideoPublishedAt": "2022-06-24T16:18:40+05:30"
+		},
+		"ETag": "zBI_NnBW2szdHe1QedT2wdViNxg",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Historische Konzertaufnahme aus dem Dom zu L\u00FCbeck: John Eliot Gardiner und das damalige NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) spielen Schumanns Zweite Sinfonie beim Schleswig-Holstein Musik Festival 1989.\n\nROBERT SCHUMANN\nSinfonie Nr. 2 C-Dur op. 61  00:00\nI. Sostenuto assai - Allegro, ma non troppo  00:01\nII. Scherzo. Allegro vivace  12:44\nIII. Adagio espressivo  20:02\nIV. Allegro molto vivace  30:23\n\nJohn Eliot Gardiner, Dirigent\nNDR Sinfonieorchester\n\nMitschnitt vom 25. Juni 1989 aus dem Dom zu L\u00FCbeck\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #johneliotgardiner #schumann",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 27,
+			"PublishedAtRaw": "2025-03-13T17:49:21Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:49:21+00:00",
+			"PublishedAt": "2025-03-13T23:19:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "TFDCwvKP3d0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Sinfonie Nr. 2 C-Dur | John Eliot Gardiner | SHMF 1989 | NDR Elbphilharmonie Orchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fhtEBbP4p0U",
+			"VideoPublishedAtRaw": "2020-06-20T16:51:18Z",
+			"VideoPublishedAtDateTimeOffset": "2020-06-20T16:51:18+00:00",
+			"VideoPublishedAt": "2020-06-20T22:21:18+05:30"
+		},
+		"ETag": "ZJkZoCEbtapiqinqkAecH0R4lHg",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann (1810-1856)\nSYMPHONY NO. 2 in C major, Op. 61\nAmerican Symphony Orchestra\nLEOPOLD STOKOWSKI, conductor\nRecording: Carnegie Hall, New York City, October 11, 1970\n\nI. Sostenuto assai - Allegro ma non troppo (0:00)\nII. Scherzo. Allegro vivace (10:22)\nIII. Adagio espressivo (17:36)\nIV. Allegro molto vivace (26:19)",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 28,
+			"PublishedAtRaw": "2025-03-13T17:51:36Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:51:36+00:00",
+			"PublishedAt": "2025-03-13T23:21:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fhtEBbP4p0U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fhtEBbP4p0U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fhtEBbP4p0U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/fhtEBbP4p0U/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fhtEBbP4p0U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/fhtEBbP4p0U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Symphony No. 2 - American Symphony Orchestra/Stokowski (1970)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WG6rHQ_fHco",
+			"VideoPublishedAtRaw": "2017-12-27T19:37:29Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-27T19:37:29+00:00",
+			"VideoPublishedAt": "2017-12-28T01:07:29+05:30"
+		},
+		"ETag": "B6MBJ1VGmTrl29RSJj0pP9qLP3A",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann (1810-1856)\nSYMPHONY NO. 2 in C major, Op. 61\nOrchestre de la Suisse Romande\nERNEST ANSERMET, conductor\nRecording: Victoria Hall, Geneva, April 1965\n\nI. Sostenuto assai - Allegro ma non troppo (0:00)\nII. Scherzo. Allegro vivace (12:37)\nIII. Adagio espressivo (19:38)\nIV. Allegro molto vivace (28:58)",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 29,
+			"PublishedAtRaw": "2025-03-13T17:52:23Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:52:23+00:00",
+			"PublishedAt": "2025-03-13T23:22:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WG6rHQ_fHco"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WG6rHQ_fHco/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WG6rHQ_fHco/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WG6rHQ_fHco/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WG6rHQ_fHco/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WG6rHQ_fHco/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Symphony No. 2 - Orchestre de la Suisse Romande/Ansermet (1965)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UQo_LSF-4J0",
+			"VideoPublishedAtRaw": "2013-08-09T14:38:19Z",
+			"VideoPublishedAtDateTimeOffset": "2013-08-09T14:38:19+00:00",
+			"VideoPublishedAt": "2013-08-09T20:08:19+05:30"
+		},
+		"ETag": "H82rq9oXoiMwczbgvxVlXaHvPYc",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann: Symphony No.2 in C major, Op.61 (Mahler edition)\n\nI. Sostenuto assai - Allegro ma non troppo (00:00)\nII. Scherzo. Allegro vivace (12:09)\nIII. Adagio espressivo (18:56)\nIV. Allegro molto vivace (28:14)\n\nTokyo Symphony Orchestra\nHubert Soudant, conductor\n\nNovember 7, 2009\nSuntory Hall, Tokyo",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 30,
+			"PublishedAtRaw": "2025-03-13T17:52:05Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:52:05+00:00",
+			"PublishedAt": "2025-03-13T23:22:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UQo_LSF-4J0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/UQo_LSF-4J0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/UQo_LSF-4J0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/UQo_LSF-4J0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/UQo_LSF-4J0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Symphony No.2 in C major (Mahler edition) - Soudant / Tokyo Symphony Orchestra",
+			"VideoOwnerChannelId": "UCPmq1piwo3HjJPZKheGdwdQ",
+			"VideoOwnerChannelTitle": "fur bru"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "6O58OkBRLek",
+			"VideoPublishedAtRaw": "2013-08-09T14:44:50Z",
+			"VideoPublishedAtDateTimeOffset": "2013-08-09T14:44:50+00:00",
+			"VideoPublishedAt": "2013-08-09T20:14:50+05:30"
+		},
+		"ETag": "s1SNZtq2JaSBhxA8tC7ZnArEfIQ",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann: Symphony No.2 in C major, Op.61\n\nI. Sostenuto assai - Allegro ma non troppo (00:00)\nII. Scherzo. Allegro vivace (12:06)\nIII. Adagio espressivo (19:21)\nIV. Allegro molto vivace (29:35)\n\nStaatskapelle Dresden\nPaavo J\u00E4rvi, conductor\n\nOctober 18, 2005\nSemperoper, Dresden",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 31,
+			"PublishedAtRaw": "2025-03-13T17:50:56Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:50:56+00:00",
+			"PublishedAt": "2025-03-13T23:20:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "6O58OkBRLek"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/6O58OkBRLek/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/6O58OkBRLek/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/6O58OkBRLek/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/6O58OkBRLek/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Symphony No.2 in C major - P. J\u00E4rvi / Staatskapelle Dresden",
+			"VideoOwnerChannelId": "UCPmq1piwo3HjJPZKheGdwdQ",
+			"VideoOwnerChannelTitle": "fur bru"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "bK9U822cAT4"
+		},
+		"ETag": "aNIJ8QgaT-oBgj6jz2imG2cNgXo",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 32,
+			"PublishedAtRaw": "2025-03-13T17:58:03Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:58:03+00:00",
+			"PublishedAt": "2025-03-13T23:28:03+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "bK9U822cAT4"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WxbfkZ_BzwU"
+		},
+		"ETag": "gwCHd1w_-KTcTVXUwBD_YaxX0Gc",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 33,
+			"PublishedAtRaw": "2025-03-13T17:49:01Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:49:01+00:00",
+			"PublishedAt": "2025-03-13T23:19:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WxbfkZ_BzwU"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kNU2wsijVNg",
+			"VideoPublishedAtRaw": "2024-01-06T15:39:55Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-06T15:39:55+00:00",
+			"VideoPublishedAt": "2024-01-06T21:09:55+05:30"
+		},
+		"ETag": "9tz4P4C7w0m4VN9i35Tyfcx_GsE",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Guiyang Symphony Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 34,
+			"PublishedAtRaw": "2025-03-13T17:56:51Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:56:51+00:00",
+			"PublishedAt": "2025-03-13T23:26:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kNU2wsijVNg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kNU2wsijVNg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kNU2wsijVNg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kNU2wsijVNg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kNU2wsijVNg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kNU2wsijVNg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Talia Ilan conducts Schumann - Symphony No 2 in C Major, Op 61",
+			"VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+			"VideoOwnerChannelTitle": "Women Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "NsyOP3X6yMU",
+			"VideoPublishedAtRaw": "2024-01-18T04:43:08Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-18T04:43:08+00:00",
+			"VideoPublishedAt": "2024-01-18T10:13:08+05:30"
+		},
+		"ETag": "wQGXDtntjtG3xh24R3Sy-SfRxFQ",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Cleveland Orchestra perform\u2019s Robert Schumann\u2019s Second Symphony conducted by Christoph von Dohn\u00E1nyi.  Isaac Stern was this night\u2019s host for PBS Great Performances.",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 35,
+			"PublishedAtRaw": "2025-03-13T17:49:45Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:49:45+00:00",
+			"PublishedAt": "2025-03-13T23:19:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "NsyOP3X6yMU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/NsyOP3X6yMU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/NsyOP3X6yMU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/NsyOP3X6yMU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "The Cleveland Orchestra at Carnegie Hall (Oct. 3, 2000) Schumann Symphony No. 2",
+			"VideoOwnerChannelId": "UCICuyAtezBKpeeic1sRvMjw",
+			"VideoOwnerChannelTitle": "Violin Channel Classic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "X8Hm8wYDGHo",
+			"VideoPublishedAtRaw": "2024-07-26T06:01:14Z",
+			"VideoPublishedAtDateTimeOffset": "2024-07-26T06:01:14+00:00",
+			"VideoPublishedAt": "2024-07-26T11:31:14+05:30"
+		},
+		"ETag": "Pyv1m3aIb3e1ips8nIXVtMNMTTM",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Yannick N\u00E9zet-S\u00E9guin cond. / Chamber Orchestra of Europe\n00:00 - 1 Sostenuto assai - Allegro, ma non troppo\n11:08 - 2 Scherzo. Allegro vivace\n17:54 - 3 Adagio espressivo\n27:29 - 4 Allegro molto vivace\nrec. 4 November 2012\nbroadcast recording, Cit\u00E9 de la Musique, Paris",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 36,
+			"PublishedAtRaw": "2025-03-13T17:56:07Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T17:56:07+00:00",
+			"PublishedAt": "2025-03-13T23:26:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "X8Hm8wYDGHo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yannick N\u00E9zet S\u00E9guin - Schumann : Symphony No.2 C-Dur Op.61 (2012-Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Fb_tniIiAnI",
+			"VideoPublishedAtRaw": "2021-10-17T07:34:23Z",
+			"VideoPublishedAtDateTimeOffset": "2021-10-17T07:34:23+00:00",
+			"VideoPublishedAt": "2021-10-17T13:04:23+05:30"
+		},
+		"ETag": "bUizFA5mb-JZPnqMdwMrlcWzvoY",
+		"Id": "UEwxemdOQ29XdF83WnVhUnF3QU9rSWp0NEgtWUZjcmFrbS40QTA3NTU2RkM1QzlCMzYx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Carl Schuricht conducting the North German Radio Symphony Orchestra.\n\u30AB\u30FC\u30EB\u30FB\u30B7\u30E5\u30FC\u30EA\u30D2\u30C8\uFF08\u6307\u63EE\uFF09/ \u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u9332\u97F3\uFF1A1957\u5E744\u67083-5\u65E5\u3001\u30CF\u30F3\u30D6\u30EB\u30AF\u3001\u30B9\u30BF\u30B8\u30AA10\n\u30D7\u30E9\u30A4\u30D9\u30FC\u30C8\u30FB\u30A2\u30FC\u30AB\u30A4\u30D6\u304B\u3089\u306E\u5FA9\u523B\n\nThis channel is not participating in nor earning any money from the YouTube Partner program. If you are kindly willing to help me to keep this channel going on, you can buy me a cup of coffee at:\nhttps://www.paypal.me/pppatmidnight\n\n\u3053\u306E\u30C1\u30E3\u30F3\u30CD\u30EB\u306FYouTube\u30D1\u30FC\u30C8\u30CA\u30FC\u30FB\u30D7\u30ED\u30B0\u30E9\u30E0\u306B\u53C2\u52A0\u3057\u3066\u304A\u3089\u305A\u3001\u540C\u30D7\u30ED\u30B0\u30E9\u30E0\u306B\u57FA\u3065\u304F\u5E83\u544A\u53CE\u5165\u3092\u4E00\u5207\u5F97\u3066\u3044\u307E\u305B\u3093\u3002\u30B3\u30FC\u30D2\u30FC\u4E00\u676F\u5206\u306E\u3054\u539A\u610F\u3067\u3001\u30C1\u30E3\u30F3\u30CD\u30EB\u4E3B\u3092\u6FC0\u52B1\u3057\u3066\u3044\u305F\u3060\u3051\u308C\u3070\u5E78\u3044\u3067\u3059\u3002\u5F53\u30C1\u30E3\u30F3\u30CD\u30EB\u3092\u3054\u652F\u63F4\u306A\u3055\u308A\u305F\u3044\u65B9\u306F\u3001\u304A\u624B\u6570\u3067\u3059\u304C\u4EE5\u4E0B\u306E\u30EA\u30F3\u30AF\u304B\u3089\u3069\u3046\u305E\uFF1A\nhttps://www.paypal.me/pppatmidnight",
+			"PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
+			"Position": 37,
+			"PublishedAtRaw": "2025-03-13T18:02:20Z",
+			"PublishedAtDateTimeOffset": "2025-03-13T18:02:20+00:00",
+			"PublishedAt": "2025-03-13T23:32:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Fb_tniIiAnI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Fb_tniIiAnI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Fb_tniIiAnI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Fb_tniIiAnI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Fb_tniIiAnI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Fb_tniIiAnI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "\u3010\u8D85\u540D\u6F14\u3011Carl Schuricht \u0026 NDR - Schumann: Symphony No.2 in C major, Op.61 (1957 live)",
+			"VideoOwnerChannelId": "UCnmPYb0mc2WlGvfWtBXrQoA",
+			"VideoOwnerChannelTitle": "pianissimo at midnight"
+		}
+	}
+]

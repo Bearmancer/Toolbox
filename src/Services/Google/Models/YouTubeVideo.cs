@@ -10,4 +10,5 @@ public sealed record YouTubeVideo
     public required string ChannelId { get; init; }
     public string? TranslatedTitle { get; init; }
     public string? TranslatedDescription { get; init; }
+    public string? DetectedLanguage { get; init; }
 }

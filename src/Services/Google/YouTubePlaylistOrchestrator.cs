@@ -37,9 +37,22 @@ public class YouTubePlaylistOrchestrator(
 
         List<PlaylistSnapshot> playlistsToProcess = [.. newPlaylists, .. changedPlaylists];
 
+        if (playlistsToProcess.Count == 0)
+        {
+            Telemetry.Info("No playlists need updating — everything is current ({Unchanged} playlists unchanged, {Deleted} deleted)", unchangedPlaylists.Count, deletedPlaylists.Count);
+            return;
+        }
+
         var totalVideos = 0;
         var skippedVideos = 0;
-        var playlistStopwatch = Stopwatch.StartNew();
+
+        Dictionary<string, PlaylistSnapshot> updatedSnapshots = new(stored.PlaylistSnapshots);
+        foreach (var snapshot in deletedPlaylists)
+            updatedSnapshots.Remove(snapshot.PlaylistId);
+
+        var currentMonth = DateTimeOffset.UtcNow.Month;
+        var azureCharsUsed = stored.AzureCharsMonth == currentMonth ? stored.AzureCharsUsed : 0;
+        Telemetry.Info("Azure Translator: {Used} chars used this month (2,000,000 free tier)", azureCharsUsed);
 
         List<PlaylistSnapshot> processedSnapshots = [];
         var playlistIndex = 0;
@@ -56,10 +69,22 @@ public class YouTubePlaylistOrchestrator(
 
             try
             {
-                var (videos, skipped) = await ProcessPlaylistAsync(snapshot, ct);
+                var (videos, skipped, azureChars) = await ProcessPlaylistAsync(snapshot, ct);
                 totalVideos += videos;
                 skippedVideos += skipped;
+                azureCharsUsed += azureChars;
                 processedSnapshots.Add(snapshot);
+
+                updatedSnapshots[snapshot.PlaylistId] = snapshot;
+                await YouTubeFetchState.SaveAsync(ManifestFile, new YouTubeFetchState
+                {
+                    PlaylistSnapshots = new Dictionary<string, PlaylistSnapshot>(updatedSnapshots),
+                    LastChecked = DateTimeOffset.UtcNow,
+                    LastUpdated = DateTimeOffset.UtcNow,
+                    FetchComplete = false,
+                    AzureCharsUsed = azureCharsUsed,
+                    AzureCharsMonth = currentMonth,
+                }, ct);
             }
             catch (GoogleApiException ex)
             {
@@ -97,24 +122,22 @@ public class YouTubePlaylistOrchestrator(
 
         syncStopwatch.Stop();
 
-        Dictionary<string, PlaylistSnapshot> updatedSnapshots = new(stored.PlaylistSnapshots);
-        foreach (var snapshot in processedSnapshots)
-            updatedSnapshots[snapshot.PlaylistId] = snapshot;
-        foreach (var snapshot in deletedPlaylists)
-            updatedSnapshots.Remove(snapshot.PlaylistId);
+        var fetchComplete = processedSnapshots.Count == playlistsToProcess.Count;
 
         var newState = new YouTubeFetchState
         {
             PlaylistSnapshots = updatedSnapshots,
             LastChecked = DateTimeOffset.UtcNow,
             LastUpdated = DateTimeOffset.UtcNow,
-            FetchComplete = processedSnapshots.Count == playlistsToProcess.Count,
+            FetchComplete = fetchComplete,
+            AzureCharsUsed = azureCharsUsed,
+            AzureCharsMonth = currentMonth,
         };
 
         await YouTubeFetchState.SaveAsync(ManifestFile, newState, ct);
 
         Telemetry.Info(
-            "Sync complete in {Elapsed}s: {New} new, {Changed} changed, {Deleted} deleted, {Unchanged} unchanged | {TotalVideos} videos ({Skipped} skipped) | {Quota} quota units | {PlaylistsProcessed}/{PlaylistsTotal} playlists",
+            "Sync complete in {Elapsed}s: {New} new, {Changed} changed, {Deleted} deleted, {Unchanged} unchanged | {TotalVideos} videos ({Skipped} skipped) | {PlaylistsProcessed}/{PlaylistsTotal} playlists",
             syncStopwatch.Elapsed.TotalSeconds,
             newPlaylists.Count,
             changedPlaylists.Count,
@@ -122,8 +145,7 @@ public class YouTubePlaylistOrchestrator(
             unchangedPlaylists.Count,
             totalVideos,
             skippedVideos,
-            youtubeService.QuotaUsed,
-            playlistsToProcess.Count,
+            processedSnapshots.Count,
             current.Count);
     }
 
@@ -154,7 +176,7 @@ public class YouTubePlaylistOrchestrator(
             return;
         }
 
-        var (videos, skipped) = await ProcessPlaylistAsync(match, ct);
+        var (videos, skipped, _) = await ProcessPlaylistAsync(match, ct);
 
         stored = stored with
         {
@@ -169,14 +191,13 @@ public class YouTubePlaylistOrchestrator(
         await YouTubeFetchState.SaveAsync(ManifestFile, stored, ct);
 
         Telemetry.Info(
-            "Synced playlist {Title}: {Videos} videos ({Skipped} skipped) | {Quota} quota units",
-            match.Title, videos, skipped, youtubeService.QuotaUsed);
+            "Synced playlist {Title}: {Videos} videos ({Skipped} skipped)",
+            match.Title, videos, skipped);
     }
 
-    private async Task<(int Videos, int Skipped)> ProcessPlaylistAsync(PlaylistSnapshot snapshot, CancellationToken ct)
+    private async Task<(int Videos, int Skipped, int AzureChars)> ProcessPlaylistAsync(PlaylistSnapshot snapshot, CancellationToken ct)
     {
         var playlistStopwatch = Stopwatch.StartNew();
-        var quotaBefore = youtubeService.QuotaUsed;
         var sanitizedTitle = FileNameSanitizer.Sanitize(snapshot.Title);
 
         Telemetry.Debug("Processing playlist: {Title} ({Id})", snapshot.Title, snapshot.PlaylistId);
@@ -224,59 +245,71 @@ public class YouTubePlaylistOrchestrator(
         }
 
         var playlistPath = Path.Combine(ProcessedDir, $"{sanitizedTitle}.json");
-        var existingIds = await LoadExistingVideoIdsAsync(playlistPath, ct);
+        var existingVideos = await LoadExistingVideosAsync(playlistPath, ct);
+        var existingDict = new Dictionary<string, YouTubeVideo>();
+        foreach (var v in existingVideos)
+            existingDict.TryAdd(v.VideoId, v);
         var incomingIds = videos.Select(v => v.VideoId).ToHashSet();
 
-        if (existingIds.Count == 0)
+        if (existingVideos.Count == 0)
         {
             Telemetry.Info("  fresh sync: {Count} videos", videos.Count);
         }
         else
         {
-            var added = incomingIds.Except(existingIds).Count();
-            var removed = existingIds.Except(incomingIds).Count();
+            var added = incomingIds.Except(existingDict.Keys).Count();
+            var removed = existingDict.Keys.Except(incomingIds).Count();
             var net = added - removed;
             var netStr = net switch { > 0 => $"+{net}", 0 => "net 0", _ => $"{net}" };
             Telemetry.Info(
                 "  update sync: {Added} added, {Removed} removed ({Net}), {Total} total",
                 added, removed, netStr, videos.Count);
+
+            for (var i = 0; i < videos.Count; i++)
+            {
+                if (existingDict.TryGetValue(videos[i].VideoId, out var existing)
+                    && existing.TranslatedTitle is not null
+                    && existing.DetectedLanguage is not null)
+                {
+                    videos[i] = videos[i] with
+                    {
+                        TranslatedTitle = existing.TranslatedTitle,
+                        TranslatedDescription = existing.TranslatedDescription,
+                        DetectedLanguage = existing.DetectedLanguage,
+                    };
+                }
+            }
         }
 
-        var fetchedJson = JsonSerializer.Serialize(videos, YouTubeFetchState.JsonOptions);
-        await File.WriteAllTextAsync(playlistPath, fetchedJson, ct);
-
-        Telemetry.Debug("Translating {Count} videos for {Title}", videos.Count, snapshot.Title);
-
-        videos = await translationService.TranslateVideosAsync(videos, ct);
-
-        var untranslatedCount = videos.Count(v => v.TranslatedTitle is null);
-        if (untranslatedCount > 0)
+        var cachedVideos = videos.Where(v => v.TranslatedTitle is not null).ToList();
+        if (cachedVideos.Count > 0)
         {
-            Telemetry.Warn("  translation incomplete: {Count} videos missing English titles", untranslatedCount);
-        }
-        else
-        {
-            Telemetry.Info("  translations complete (100% coverage)");
+            var langGroups = cachedVideos
+                .GroupBy(v => v.DetectedLanguage ?? "unknown")
+                .OrderByDescending(g => g.Count())
+                .Select(g => $"{g.Count()} {g.Key}");
+            Telemetry.Info("  cache: {Count}/{Total} videos from previous run ({LangSummary})",
+                cachedVideos.Count, videos.Count, string.Join(", ", langGroups));
         }
 
-        Telemetry.Debug("Writing processed file: {Path} ({Count} videos)", playlistPath, videos.Count);
+        var (translatedVideos, azureChars) = await translationService.TranslateVideosAsync(videos, ct);
 
-        var playlistJson = JsonSerializer.Serialize(videos, YouTubeFetchState.JsonOptions);
+        Telemetry.Debug("Writing processed file: {Path} ({Count} videos)", playlistPath, translatedVideos.Count);
+
+        var playlistJson = JsonSerializer.Serialize(translatedVideos, YouTubeFetchState.JsonOptions);
         await File.WriteAllTextAsync(playlistPath, playlistJson, ct);
 
         Telemetry.Debug("Wrote {Size} bytes to {Path}", playlistJson.Length, playlistPath);
 
         playlistStopwatch.Stop();
-        var quotaUsed = youtubeService.QuotaUsed - quotaBefore;
 
         Telemetry.Info(
-            "  done — {Count} videos, {Skipped} skipped in {Elapsed:F1}s ({Quota} quota units)",
-            videos.Count,
+            "  done — {Count} videos, {Skipped} skipped in {Elapsed:F1}s",
+            translatedVideos.Count,
             skipped,
-            playlistStopwatch.Elapsed.TotalSeconds,
-            quotaUsed);
+            playlistStopwatch.Elapsed.TotalSeconds);
 
-        return (videos.Count, skipped);
+        return (translatedVideos.Count, skipped, azureChars);
     }
 
     private static void ArchivePlaylist(PlaylistSnapshot snapshot)
@@ -299,7 +332,7 @@ public class YouTubePlaylistOrchestrator(
         Directory.CreateDirectory(DeletedDir);
     }
 
-    private static async Task<HashSet<string>> LoadExistingVideoIdsAsync(string processedPath, CancellationToken ct)
+    private static async Task<List<YouTubeVideo>> LoadExistingVideosAsync(string processedPath, CancellationToken ct)
     {
         if (!File.Exists(processedPath))
             return [];
@@ -307,9 +340,8 @@ public class YouTubePlaylistOrchestrator(
         try
         {
             await using var stream = File.OpenRead(processedPath);
-            var existing = await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(
-                stream, YouTubeFetchState.JsonOptions, ct);
-            return existing?.Select(v => v.VideoId).ToHashSet() ?? [];
+            return await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(
+                stream, YouTubeFetchState.JsonOptions, ct) ?? [];
         }
         catch (JsonException)
         {

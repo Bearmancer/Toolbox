@@ -1,0 +1,1386 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "rIxfdsqd94M",
+			"VideoPublishedAtRaw": "2023-01-07T22:00:13Z",
+			"VideoPublishedAtDateTimeOffset": "2023-01-07T22:00:13+00:00",
+			"VideoPublishedAt": "2023-01-08T03:30:13+05:30"
+		},
+		"ETag": "XTeuB_n6PKBD9qzUmzlQGtVI7kk",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Piano Concerto No. 2 In G, Op. 44\n00:00   A1     Allegro Brillante\n\nNikita Magaloff (piano)\nColin Davis (conduct)\nLondon Symphony Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 0,
+			"PublishedAtRaw": "2024-12-12T18:22:23Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:22:23+00:00",
+			"PublishedAt": "2024-12-12T23:52:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rIxfdsqd94M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rIxfdsqd94M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rIxfdsqd94M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/rIxfdsqd94M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rIxfdsqd94M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/rIxfdsqd94M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "[LP] Tchaikovsky - Piano Concerto No. 2 - Magaloff (side A)",
+			"VideoOwnerChannelId": "UCyyjHR2jlsHqmmLMxQeDN3w",
+			"VideoOwnerChannelTitle": "Life is Long Playing"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Lo2KX1L5D6c",
+			"VideoPublishedAtRaw": "2023-01-07T22:15:00Z",
+			"VideoPublishedAtDateTimeOffset": "2023-01-07T22:15:00+00:00",
+			"VideoPublishedAt": "2023-01-08T03:45:00+05:30"
+		},
+		"ETag": "ui8rNbSFtuRe8xWNowBdFIlmgIc",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Piano Concerto No. 2 In G, Op. 44\n00:00   B1     Andante Non Troppo\n14:58   B2     Allegro Con Fuoco\n\nNikita Magaloff (piano)\nNelson Cooke (cello, B1)\nJohn Georgiadis (violin, B1) \nColin Davis (conduct)\nLondon Symphony Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 1,
+			"PublishedAtRaw": "2024-12-12T18:22:26Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:22:26+00:00",
+			"PublishedAt": "2024-12-12T23:52:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Lo2KX1L5D6c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Lo2KX1L5D6c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Lo2KX1L5D6c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Lo2KX1L5D6c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Lo2KX1L5D6c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Lo2KX1L5D6c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "[LP] Tchaikovsky - Piano Concerto No. 2 - Magaloff (side B)",
+			"VideoOwnerChannelId": "UCyyjHR2jlsHqmmLMxQeDN3w",
+			"VideoOwnerChannelTitle": "Life is Long Playing"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "y46y_E6imto"
+		},
+		"ETag": "vMBsSzqcIOhigK-0yOSBQS7BSVQ",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 2,
+			"PublishedAtRaw": "2024-12-12T18:25:02Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:25:02+00:00",
+			"PublishedAt": "2024-12-12T23:55:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "y46y_E6imto"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "5wNUxb3KDw0",
+			"VideoPublishedAtRaw": "2017-08-09T23:24:06Z",
+			"VideoPublishedAtDateTimeOffset": "2017-08-09T23:24:06+00:00",
+			"VideoPublishedAt": "2017-08-10T04:54:06+05:30"
+		},
+		"ETag": "2azqn5J0XGakAnwGjzMm4CyVi34",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Benno Moiseiwitsch (1890 - 1963), was a Ukrainian-born British pianist. He was particularly known for his interpretations of the late Romantic repertoire, especially the works of Sergei Rachmaninoff. Moiseiwitsch was noted for his elegance, poetry, lyrical phrasing, brilliance, rhythmic freedom, and relaxed virtuosity.\n\n\nPyotr Ilyich Tchaikovsky (1840 \u2013 93)\nPiano Concerto No. 2 in G major, Op. 44 (1879-80)\n\n00:00  Allegro brillante e molto vivace\n16:41  Andante non troppo\n24:02  Allegro con fuoco\n\n\nGeorge Weldon\nRoyal Liverpool Philharmonic\nRecorded in 1944\n*",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 3,
+			"PublishedAtRaw": "2024-12-12T18:24:11Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:24:11+00:00",
+			"PublishedAt": "2024-12-12T23:54:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "5wNUxb3KDw0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/5wNUxb3KDw0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/5wNUxb3KDw0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/5wNUxb3KDw0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/5wNUxb3KDw0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/5wNUxb3KDw0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Benno Moiseiwitsch plays Tchaikovsky Piano Concerto No.2 Op.44",
+			"VideoOwnerChannelId": "UCbAaEXtsduTH3T21sw6R3Uw",
+			"VideoOwnerChannelTitle": "Margo Beloved"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "uvBtjDKnDs8",
+			"VideoPublishedAtRaw": "2015-05-01T23:54:07Z",
+			"VideoPublishedAtDateTimeOffset": "2015-05-01T23:54:07+00:00",
+			"VideoPublishedAt": "2015-05-02T05:24:07+05:30"
+		},
+		"ETag": "7PcGxNOob_J42axzLPsKzuG6zOg",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nPeter Ilyich Tchaikovsky\nPiano Concerto No 2 in G major, Op 44\n\nDenis Matsuev, piano\n\nMariinsky Theatre Orchestra\nValery Gergiev\n\nNew York, January 2015",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 4,
+			"PublishedAtRaw": "2024-12-12T18:23:38Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:23:38+00:00",
+			"PublishedAt": "2024-12-12T23:53:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "uvBtjDKnDs8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/uvBtjDKnDs8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/uvBtjDKnDs8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/uvBtjDKnDs8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/uvBtjDKnDs8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/uvBtjDKnDs8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Denis Matsuev - Tchaikovsky - Piano Concerto No 2 - Gergiev",
+			"VideoOwnerChannelId": "UC9UkGZY5ezEfdBUG5wgZDdA",
+			"VideoOwnerChannelTitle": "Cantus 5"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Ra2Wjq1YyNw",
+			"VideoPublishedAtRaw": "2015-09-27T22:52:47Z",
+			"VideoPublishedAtDateTimeOffset": "2015-09-27T22:52:47+00:00",
+			"VideoPublishedAt": "2015-09-28T04:22:47+05:30"
+		},
+		"ETag": "S6iKlcJUkTGxCyZPFvKHR4znJTA",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Elisabeth Leonskaja, piano\nWDR Sinfonieorchester K\u00F6ln | Conductor: Kurt Sanderling\nRadio broadcast: WDR 3 Sonntagskonzert, 27 September 2015",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 5,
+			"PublishedAtRaw": "2024-12-12T18:23:50Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:23:50+00:00",
+			"PublishedAt": "2024-12-12T23:53:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Ra2Wjq1YyNw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Ra2Wjq1YyNw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Ra2Wjq1YyNw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Ra2Wjq1YyNw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Ra2Wjq1YyNw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Elisabeth Leonskaja \u2013 Tchaikovsky: Piano Concerto No. 2 in G major, op. 44",
+			"VideoOwnerChannelId": "UC-S5gvBsBLQ_NYPEgpP3PXQ",
+			"VideoOwnerChannelTitle": "KfjmIe02"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZCNWpoZBFr8",
+			"VideoPublishedAtRaw": "2022-11-10T11:32:47Z",
+			"VideoPublishedAtDateTimeOffset": "2022-11-10T11:32:47+00:00",
+			"VideoPublishedAt": "2022-11-10T17:02:47+05:30"
+		},
+		"ETag": "s0lFaP9U8z7dxFBUa8IooVlpwR0",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "September 28, 1959 in Budapest\n- Andras Korodi conducting Hungarian State Orchestra\n\n1. Allegro brillante  0:00\n2. Andante non troppo  19:29\n3. Allegro con fuoco  27:04",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 6,
+			"PublishedAtRaw": "2024-12-12T18:22:08Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:22:08+00:00",
+			"PublishedAt": "2024-12-12T23:52:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZCNWpoZBFr8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZCNWpoZBFr8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZCNWpoZBFr8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ZCNWpoZBFr8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZCNWpoZBFr8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZCNWpoZBFr8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Gilels plays Tchaikovsky Concerto No.2 in G major{Budapest}",
+			"VideoOwnerChannelId": "UCpWf-wUq2qIDhU60q5x7V2A",
+			"VideoOwnerChannelTitle": "Carlos Divergent"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Xyp125e0V5c",
+			"VideoPublishedAtRaw": "2022-06-09T12:29:07Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-09T12:29:07+00:00",
+			"VideoPublishedAt": "2022-06-09T17:59:07+05:30"
+		},
+		"ETag": "VpVzWKmciDVjXC75Z79vMtdab2E",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "December 18, 1972 in Moscow  Conservatory - Great Hall\n- Evgeny Svetlanov conducting USSR Symphony Orchestra\n\n1. Allegro brillante  0:00\n2. Andante non troppo  21:04\n3. Allegro con fuoco  30:26",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 7,
+			"PublishedAtRaw": "2024-12-12T18:21:57Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:57+00:00",
+			"PublishedAt": "2024-12-12T23:51:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Xyp125e0V5c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Xyp125e0V5c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Xyp125e0V5c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Xyp125e0V5c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Xyp125e0V5c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Xyp125e0V5c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Gilels plays Tchaikovsky Concerto \u2116 2 - Live {Moscow}",
+			"VideoOwnerChannelId": "UCpWf-wUq2qIDhU60q5x7V2A",
+			"VideoOwnerChannelTitle": "Carlos Divergent"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "6rhS4M6d0VM",
+			"VideoPublishedAtRaw": "2017-08-14T19:04:25Z",
+			"VideoPublishedAtDateTimeOffset": "2017-08-14T19:04:25+00:00",
+			"VideoPublishedAt": "2017-08-15T00:34:25+05:30"
+		},
+		"ETag": "2LMB6tq145dSmoq7pGV5tEj5SSM",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Maria Grinberg playing the Siloti edition of Tchaikovsky\u0027s PC 2, with the State SO under Kirill Kondrashin, recorded in 1946.",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 8,
+			"PublishedAtRaw": "2024-12-12T18:24:21Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:24:21+00:00",
+			"PublishedAt": "2024-12-12T23:54:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "6rhS4M6d0VM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/6rhS4M6d0VM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/6rhS4M6d0VM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/6rhS4M6d0VM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/6rhS4M6d0VM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Maria Grinberg plays Tchaikovsky Piano Concerto no. 2, op. 44",
+			"VideoOwnerChannelId": "UCekpmiQK3UE-SsNAhVdZf_w",
+			"VideoOwnerChannelTitle": "ADGO"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Vfnz1iOHgjc",
+			"VideoPublishedAtRaw": "2024-08-03T15:00:21Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-03T15:00:21+00:00",
+			"VideoPublishedAt": "2024-08-03T20:30:21+05:30"
+		},
+		"ETag": "JxC5vf5oL8pddMlIOyyekuyoAzM",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:04 - I. Allegro brillante e molto vivace\n22:31 - II. Andante non troppo\n38:19 - III. Allegro con fuoco\n45:35 - Medtner: Forgotten Melodies Op.38 No.6 - Canzona Serenata\n\nPianist: Nikolai Lugansky\nConductor: Mikhail Pletnev\nOrchestra: Russian National Orchestra\n\nRecorded at Grand Hall of Moscow Conservatory on 7 Apr 2015\n\n\uD83C\uDF1F Please consider joining the membership scheme on Patreon / Buy Me A Coffee! You may opt for a one-off donation through Buy Me A Coffee. \uD83C\uDF1F\n\u2022 Buy Me A Coffee: https://www.buymeacoffee.com/the_sokolover\n\u2022 Patreon: https://www.patreon.com/the_sokolover\n\n**No copyright infringement intended**\n#lugansky #tchaikovsky \n\u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u041B\u0443\u0433\u0430\u043D\u0441\u043A\u0438\u0439 - \u0427\u0430\u0439\u043A\u043E\u0432\u0441\u043A\u0438\u0439 \u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u0434\u043B\u044F \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E \u0441 \u043E\u0440\u043A\u0435\u0441\u0442\u0440\u043E\u043C \u2116 2",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 9,
+			"PublishedAtRaw": "2024-12-12T18:25:15Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:25:15+00:00",
+			"PublishedAt": "2024-12-12T23:55:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Vfnz1iOHgjc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Vfnz1iOHgjc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Vfnz1iOHgjc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Vfnz1iOHgjc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Vfnz1iOHgjc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Vfnz1iOHgjc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nikolai Lugansky - Tchaikovsky Piano Concerto No.2 in G major / Pletnev, RNO - Live 2015",
+			"VideoOwnerChannelId": "UCxaGLr9GbB0u_CdDU4vvGvA",
+			"VideoOwnerChannelTitle": "The Sokolover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xBLj9LWgJWM",
+			"VideoPublishedAtRaw": "2021-12-11T06:47:04Z",
+			"VideoPublishedAtDateTimeOffset": "2021-12-11T06:47:04+00:00",
+			"VideoPublishedAt": "2021-12-11T12:17:04+05:30"
+		},
+		"ETag": "h_Ytck8oMMpOuKiBjqdM614RL1k",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "State Academic Symphony Orchestra of the Russian Federation conducted by Vasily Petrenko\nNovember 30, 2021 Rachmaninov Concert Hall(Philharmonia-2)\n\n00:50 I. Moderato\n12:31 II. Adagio sostenuto\n24:04 III. Allegro scherzando",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 10,
+			"PublishedAtRaw": "2024-12-12T18:25:44Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:25:44+00:00",
+			"PublishedAt": "2024-12-12T23:55:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xBLj9LWgJWM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xBLj9LWgJWM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xBLj9LWgJWM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/xBLj9LWgJWM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xBLj9LWgJWM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xBLj9LWgJWM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nikolai Lugansky(2021) - Rachmaninoff Piano Concerto No. 2 in C minor, Op. 18",
+			"VideoOwnerChannelId": "UCdgnFYX0osnMROsthUpWXVA",
+			"VideoOwnerChannelTitle": "John Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xUuQMCLhfQo",
+			"VideoPublishedAtRaw": "2019-02-19T21:08:44Z",
+			"VideoPublishedAtDateTimeOffset": "2019-02-19T21:08:44+00:00",
+			"VideoPublishedAt": "2019-02-20T02:38:44+05:30"
+		},
+		"ETag": "ymQtxDUE84pyX33SOp-3gHL6LKY",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Noel Mewton-Wood, piano - Tchaikovsky - Concerto No. 2 in G, Op. 44 (1952 - complete)\n\n(00:00) I - Allegro brillante \n(17:58) II - Andante non troppo\n(25:49) III - Allegro con fuoco\n\nComposer: https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky\nComposition: https://en.wikipedia.org/wiki/Piano_Concerto_No._2_(Tchaikovsky) (ed. Siloti)\nPerformer: https://en.wikipedia.org/wiki/Noel_Mewton-Wood\n\nOrchestra: Winterthur Symphony Orchestra\nConductor: https://en.wikipedia.org/wiki/Walter_Goehr\n\nSubscribe: https://www.youtube.com/subscription_center?add_user=GregNichols1953\nChannel: https://www.youtube.com/user/GregNichols1953/\n\nNoel Mewton-Wood playlist: https://www.youtube.com/watch?v=EVJRSjtCXHU\u0026list=PLMeOYP-ZXc_2wwklAd3P660sNU2z-2FoR",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 11,
+			"PublishedAtRaw": "2024-12-12T18:21:37Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:37+00:00",
+			"PublishedAt": "2024-12-12T23:51:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xUuQMCLhfQo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xUuQMCLhfQo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xUuQMCLhfQo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/xUuQMCLhfQo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xUuQMCLhfQo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xUuQMCLhfQo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Noel Mewton-Wood, piano - Tchaikovsky - Concerto No. 2 in G, Op. 44 (1952 - complete)",
+			"VideoOwnerChannelId": "UCV7JAsv0tmYPV2pproA4s_g",
+			"VideoOwnerChannelTitle": "GregNichols1953"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "QpGATvFi8aQ",
+			"VideoPublishedAtRaw": "2018-01-04T11:27:27Z",
+			"VideoPublishedAtDateTimeOffset": "2018-01-04T11:27:27+00:00",
+			"VideoPublishedAt": "2018-01-04T16:57:27+05:30"
+		},
+		"ETag": "PRG1Mzz5gyiJ82LjDdL0Th7ag34",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u041F. \u0418. \u0427\u0430\u0439\u043A\u043E\u0432\u0441\u043A\u0438\u0439. \u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u2116 2 \u0434\u043B\u044F \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E \u0441 \u043E\u0440\u043A\u0435\u0441\u0442\u0440\u043E\u043C.\n\u041F\u0430\u0432\u0435\u043B \u041D\u0435\u0440\u0441\u0435\u0441\u044C\u044F\u043D (\u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E)\n\u0413\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u0441\u0438\u043C\u0444\u043E\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043E\u0440\u043A\u0435\u0441\u0442\u0440 \u00AB\u041D\u043E\u0432\u0430\u044F \u0420\u043E\u0441\u0441\u0438\u044F\u00BB\n\u0414\u0438\u0440\u0438\u0436\u0451\u0440 \u2013 \u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D \u0423\u0440\u044E\u043F\u0438\u043D\n\n19 \u0434\u0435\u043A\u0430\u0431\u0440\u044F 2017. \u041C\u043E\u0441\u043A\u0432\u0430, \u041A\u043E\u043D\u0446\u0435\u0440\u0442\u043D\u044B\u0439 \u0437\u0430\u043B \u0438\u043C\u0435\u043D\u0438 \u0421. \u0412. \u0420\u0430\u0445\u043C\u0430\u043D\u0438\u043D\u043E\u0432\u0430",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 12,
+			"PublishedAtRaw": "2024-12-12T18:24:34Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:24:34+00:00",
+			"PublishedAt": "2024-12-12T23:54:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "QpGATvFi8aQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/QpGATvFi8aQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/QpGATvFi8aQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/QpGATvFi8aQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/QpGATvFi8aQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/QpGATvFi8aQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Pavel Nersessian plays Tchaikovsky Piano concerto No. 2",
+			"VideoOwnerChannelId": "UC2Lrfti1NFEqKdV-mkkN4Yw",
+			"VideoOwnerChannelTitle": "Pavel Nersessian"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "T_a4OLV5aRs",
+			"VideoPublishedAtRaw": "2014-11-08T20:22:45Z",
+			"VideoPublishedAtDateTimeOffset": "2014-11-08T20:22:45+00:00",
+			"VideoPublishedAt": "2014-11-09T01:52:45+05:30"
+		},
+		"ETag": "GbEI4NrnMU0Zikc0Ubu3ZcOF-Pw",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Provided to YouTube by Kontor New Media GmbH\n\nPiano Concerto No. 2 in G Major, Op. 44: I. Allegro brillante \u00B7 Derek Han \u00B7 St. Petersburg Philharmonic Orchestra \u00B7 Paul Freeman\n\nTchaikovsky: Piano Concertos Nos. 1 \u0026 2\n\n\u2117 Brilliant Classics\n\nReleased on: 2006-04-01\n\nSoloist: Derek Han\nOrchestra: St. Petersburg Philharmonic Orchestra\nConductor: Paul Freeman\nComposer: Piotr Ilyich Tchaikovsky\nMusic Publisher: Brilliant Classics\n\nAuto-generated by YouTube.",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 13,
+			"PublishedAtRaw": "2024-12-12T18:21:11Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:11+00:00",
+			"PublishedAt": "2024-12-12T23:51:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "T_a4OLV5aRs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/T_a4OLV5aRs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/T_a4OLV5aRs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/T_a4OLV5aRs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/T_a4OLV5aRs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/T_a4OLV5aRs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Piano Concerto No. 2 in G Major, Op. 44: I. Allegro brillante",
+			"VideoOwnerChannelId": "UC8nihVufMYhfSODVXJqEFBQ",
+			"VideoOwnerChannelTitle": "Paul Freeman - Topic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_va7mDJiT-A",
+			"VideoPublishedAtRaw": "2015-11-29T17:47:19Z",
+			"VideoPublishedAtDateTimeOffset": "2015-11-29T17:47:19+00:00",
+			"VideoPublishedAt": "2015-11-29T23:17:19+05:30"
+		},
+		"ETag": "H83AqbfM4sg_b6wBPrxJ4c7_c7w",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "A sensational recording of Mikhail Pletnev playing Tchaikovsky\u0027s Piano Concerto no. 2, op. 44, with the Bulgarian Radio SO under Vassil Stefanov, live on 18 January 1979. The engineer messed up the first 90 seconds with the piano in the right channel only, which I\u0027ve tried to correct. The rest of the recording is fine. The photo shows Pletnev with his teacher Evgeny Timakin. Timing below:\n\n00:00 - 1\n19:49 - 2\n35:58 - 3\n\n\u041C\u0438\u0445\u0430\u0438\u043B \u041F\u043B\u0435\u0442\u043D\u0451\u0432 - \u0427\u0430\u0439\u043A\u043E\u0432\u0441\u043A\u0438\u0439 - \u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u0434\u043B\u044F \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E \u0441 \u043E\u0440\u043A\u0435\u0441\u0442\u0440\u043E\u043C - \u0412\u0430\u0441\u0438\u043B \u0421\u0442\u0435\u0444\u0430\u043D\u043E\u0432",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 14,
+			"PublishedAtRaw": "2024-12-12T18:23:58Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:23:58+00:00",
+			"PublishedAt": "2024-12-12T23:53:58+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_va7mDJiT-A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_va7mDJiT-A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_va7mDJiT-A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_va7mDJiT-A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_va7mDJiT-A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mikhail Pletnev plays Tchaikovsky Piano Concerto no. 2, op. 44 - live 1979",
+			"VideoOwnerChannelId": "UCekpmiQK3UE-SsNAhVdZf_w",
+			"VideoOwnerChannelTitle": "ADGO"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Fcdsle_s8Ms",
+			"VideoPublishedAtRaw": "2022-07-08T16:29:56Z",
+			"VideoPublishedAtDateTimeOffset": "2022-07-08T16:29:56+00:00",
+			"VideoPublishedAt": "2022-07-08T21:59:56+05:30"
+		},
+		"ETag": "c-5kVxgpqc9_fSvbPCXUBQLfXa8",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky\u0027s Piano Concerto No. 2 in G major, Op. 44, was written in 1879\u20131880. A Russian composer of the Romantic period. He was the first Russian composer whose music would make a lasting impression internationally.",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 15,
+			"PublishedAtRaw": "2024-12-12T18:22:00Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:22:00+00:00",
+			"PublishedAt": "2024-12-12T23:52:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Fcdsle_s8Ms"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Fcdsle_s8Ms/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Fcdsle_s8Ms/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Fcdsle_s8Ms/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Fcdsle_s8Ms/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Fcdsle_s8Ms/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Pyotr Ilyich Tchaikovsky - Piano Concerto No. 2 in G major, Op. 44",
+			"VideoOwnerChannelId": "UCOc5hhGx0fDLPHdTrPcRSMg",
+			"VideoOwnerChannelTitle": "Dynamo Revival"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "BzCoruz8iDA",
+			"VideoPublishedAtRaw": "2016-08-28T05:47:06Z",
+			"VideoPublishedAtDateTimeOffset": "2016-08-28T05:47:06+00:00",
+			"VideoPublishedAt": "2016-08-28T11:17:06+05:30"
+		},
+		"ETag": "ClNVjrhC2hHMzCh4kLzNobFw8ec",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky\nConcerto No. 2 in G major for Piano and Orchestra Op.44 (1879-1880)\nAllegro brillante  00:00\nAndante non troppo  21:06\nAllegro con fuoco  36:20\n\nIgor Zhukov, piano\nUSSR RTV Large Symphony Orchestra\nGennady Rozhdestvensky, conductor \n\nPicture: Ingrid Gow, Ben Davis and Dimity Azoury in George Balanchine\u2019s Ballet Imperial\n\nIn 1941, George Balanchine created from this scintillating concerto a choreography that he entitled Ballet Imperial, to evoke the era of czarist Russia\u0027s Imperial Ballet with its grandeur and elegance.",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 16,
+			"PublishedAtRaw": "2024-12-12T18:21:27Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:27+00:00",
+			"PublishedAt": "2024-12-12T23:51:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "BzCoruz8iDA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/BzCoruz8iDA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/BzCoruz8iDA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/BzCoruz8iDA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/BzCoruz8iDA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/BzCoruz8iDA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Pyotr Ilyich Tchaikovsky Piano Concerto No. 2 Op. 44",
+			"VideoOwnerChannelId": "UCQjO7K4W3WY0q1czuk8QzxA",
+			"VideoOwnerChannelTitle": "Pau Malatesta"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "khq3OljUf0k",
+			"VideoPublishedAtRaw": "2021-12-18T18:35:08Z",
+			"VideoPublishedAtDateTimeOffset": "2021-12-18T18:35:08+00:00",
+			"VideoPublishedAt": "2021-12-19T00:05:08+05:30"
+		},
+		"ETag": "CGJGWTG7IdMcFsQqgOgHxFiVQ1M",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tatiana Nikolaeva (Piano)\nUSSR State Symphony Orchestra\nNikolai Anosov (Conductor)\n\nP. Tchaikovsky: Concerto No. 2 for Piano and Orchestra, Op. 44\n\nPlaylist:\n00:00:00 Start\n00:00:03 T. Nikolaeva \u0026 Cond. N. Anosov - P. Tchaikovsky / Concerto No. 2 for Piano and Orchestra in G major, Op. 44. I Allegro\n00:22:31 T. Nikolaeva \u0026 Cond. N. Anosov - P. Tchaikovsky / Concerto No. 2 for Piano and Orchestra in G major, Op. 44. II Andante non troppo\n00:39:23 T. Nikolaeva \u0026 Cond. N. Anosov - P. Tchaikovsky / Concerto No. 2 for Piano and Orchestra in G major, Op. 44. III Allegro con fuoco\n\nLabel:\nPre-Melodiya\nAprelevsky plant\n\nDisc ID:\n33ND-0749\n33ND-0750\n\nReleased in 1960s\n\nLP: 33RPM/12\u0022\n\nCatalog ID: 730\n\nThis is my vinyl collection. All digitizing and photographs were taken by me. Enjoy classical music!\nYou can support the project here: https://www.donationalerts.com/r/vinylmusic\n\nDownload Hi-Res 96KHz/24bit FLAC record: http://lp.4xnet.ru/730/",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 17,
+			"PublishedAtRaw": "2024-12-12T18:24:47Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:24:47+00:00",
+			"PublishedAt": "2024-12-12T23:54:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "khq3OljUf0k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/khq3OljUf0k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/khq3OljUf0k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/khq3OljUf0k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/khq3OljUf0k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/khq3OljUf0k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tatiana Nikolaeva. P. Tchaikovsky: Piano Concerto No. 2. Nikolai Anosov (Conductor)",
+			"VideoOwnerChannelId": "UCe2641PSoeTiMBJ6kWGePvQ",
+			"VideoOwnerChannelTitle": "Classical Music on Vinyl"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "iAm5wRDah4Y",
+			"VideoPublishedAtRaw": "2015-02-21T17:38:23Z",
+			"VideoPublishedAtDateTimeOffset": "2015-02-21T17:38:23+00:00",
+			"VideoPublishedAt": "2015-02-21T23:08:23+05:30"
+		},
+		"ETag": "7JO95U-ene53zjc5ybC1FepV7Rc",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Provided to YouTube by The Orchard Enterprises\n\nTchaikovsky - Piano Concerto No. 2 in G Major, Op. 44: Piano Concerto No. 2 in G Major: I. \u00B7 Budapest Philharmonic Orchestra \u00B7 Piotr Ilyich Tchaikovsky \u00B7 Rico Saccani \u00B7 Denis Matsuev\n\nTchaikovsky \u0026 Rachmaninov: Piano Concertos\n\n\u2117 2007 BPO Live\n\nReleased on: 2007-06-17\n\nAuto-generated by YouTube.",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 18,
+			"PublishedAtRaw": "2024-12-12T18:21:14Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:14+00:00",
+			"PublishedAt": "2024-12-12T23:51:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iAm5wRDah4Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iAm5wRDah4Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iAm5wRDah4Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/iAm5wRDah4Y/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iAm5wRDah4Y/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/iAm5wRDah4Y/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Piano Concerto No. 2 in G Major, Op. 44: Piano Concerto No. 2 in G Major: I.",
+			"VideoOwnerChannelId": "UCKaDlOhcyUsoaszoKsK0ToQ",
+			"VideoOwnerChannelTitle": "Budapest Philharmonic Orchestra - Topic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "AucufPULLtg",
+			"VideoPublishedAtRaw": "2023-12-16T14:00:05Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-16T14:00:05+00:00",
+			"VideoPublishedAt": "2023-12-16T19:30:05+05:30"
+		},
+		"ETag": "mC7jCpfNjtqB63e7ZbTswtQcXnw",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "From the Alte Oper in Frankfurt:\nVladimir Fedoseyev conducts the Moscow Radio Symphony Orchestra in a performance of Pyotr Tchaikovsky\u0027s Piano Concerto No. 2 in G major, Op. 44. Featuring Mikhail Pletnev on piano.\n\nSubscribe to the Monarda Channel: https://www.youtube.com/@monardachannel\n\nPyotr Ilyich Tchaikovsky - Piano Concerto No. 2 in G major, Op. 44\n\n00:00 Intro\n00:15 I. Allegro brillante\n20:17 II. Andante non troppo\n33:51 III. Allegro con fuoco\n\nMikhail Pletnev - piano\nMoscow Radio Symphony Orchestra\nVladimir Fedoseyev - conductor\n\nDirected by Rodney Greenberg\n\nProduced by Monarda Arts\n\n\u00A9 1991, Monarda Arts",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 19,
+			"PublishedAtRaw": "2024-12-12T18:22:17Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:22:17+00:00",
+			"PublishedAt": "2024-12-12T23:52:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "AucufPULLtg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/AucufPULLtg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/AucufPULLtg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/AucufPULLtg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/AucufPULLtg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/AucufPULLtg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Piano Concerto No. 2 in G, Op. 44 (Mikhail Pletnev, Moscow Radio Symphony Orchestra)",
+			"VideoOwnerChannelId": "UC61kxzTCfg7NncCLdFQxg8w",
+			"VideoOwnerChannelTitle": "MONARDA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vyaQmQW3_5k",
+			"VideoPublishedAtRaw": "2016-02-27T13:09:17Z",
+			"VideoPublishedAtDateTimeOffset": "2016-02-27T13:09:17+00:00",
+			"VideoPublishedAt": "2016-02-27T18:39:17+05:30"
+		},
+		"ETag": "2IQaXFAmySspKcjGkS1ChEKEzEU",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky\n\nPiano concerto n\u00B02 op.44\n\nI. Allegro brillante e molto vivace\nII. Andante non troppo\nIII. Allegro con fuoco\n\nEmil Gilels\nHungarian State Orchestra\nAndr\u00E1s K\u00F3rodi\nLive recording, Budapest, 28.IX.1959",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 20,
+			"PublishedAtRaw": "2024-12-12T18:21:24Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:24+00:00",
+			"PublishedAt": "2024-12-12T23:51:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vyaQmQW3_5k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vyaQmQW3_5k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vyaQmQW3_5k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vyaQmQW3_5k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vyaQmQW3_5k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vyaQmQW3_5k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Piano concerto n\u00B02 - Gilels / K\u00F3rodi",
+			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+			"VideoOwnerChannelTitle": "incontrario motu"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "hBiMGYlnCtM",
+			"VideoPublishedAtRaw": "2021-04-09T18:04:25Z",
+			"VideoPublishedAtDateTimeOffset": "2021-04-09T18:04:25+00:00",
+			"VideoPublishedAt": "2021-04-09T23:34:25+05:30"
+		},
+		"ETag": "wfnsdoM2WOuc-jJ8z9vAN5kZ4m8",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tchaikovsky\u0027s second piano concerto, performed by Shura Cherkassky with the Toronto Symphony Orchestra conducted by G\u00FCnther Herbig.  The performance is from October 1987.  (Shura Cherkassky is at center in the photo shown above.)\n1st mvt. begins ~0:10\n2nd mvt. begins ~20:52\n3rd mvt. begins ~28:55",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 21,
+			"PublishedAtRaw": "2024-12-12T18:21:47Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:47+00:00",
+			"PublishedAt": "2024-12-12T23:51:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "hBiMGYlnCtM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/hBiMGYlnCtM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/hBiMGYlnCtM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/hBiMGYlnCtM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/hBiMGYlnCtM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/hBiMGYlnCtM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Piano Concerto no. 2 (Cherkassky; Toronto S.O./Herbig)",
+			"VideoOwnerChannelId": "UCeq81A3_ZzK5-A74k3BQ7hg",
+			"VideoOwnerChannelTitle": "noochinator2"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "nw5pn2QXyGQ",
+			"VideoPublishedAtRaw": "2022-04-15T16:00:26Z",
+			"VideoPublishedAtDateTimeOffset": "2022-04-15T16:00:26+00:00",
+			"VideoPublishedAt": "2022-04-15T21:30:26+05:30"
+		},
+		"ETag": "u9xzXqdsuUW-pxBQzezJbhpeHM8",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bruce Liu, winner of the 2021 International Chopin Piano Competition, joins the Philharmonia Orchestra and Principal Conductor Santtu-Matias Rouvali in Tchaikovsky\u2019s Piano Concerto No. 2. Bruce Liu made his UK debut in this performance, recorded live at the Royal Festival Hall in London on 10 March 2022.\n\nDiscover the rest of our videos about the piano here: https://www.youtube.com/playlist?list=PLqR22EoucCyfc2x7UXWmGtbM2a7vg7fWE \n\n00:00 Title\n00:38 I. Allegro brillante e molto vivace\n21:47 II. Andante non troppo\n36:54 III. Allegro con fuoco\n46:12 Encore: TCHAIKOVSKY Dance of the Four\r Swans (trans. Wild)\n\nThe Philharmonia is a world-class symphony orchestra, led by Principal Conductor Santtu-Matias Rouvali.\n\nBased in London at Southbank Centre\u2019s Royal Festival Hall, resident in cities and at festivals across England, and touring internationally, the Philharmonia creates thrilling performances for a global audience. Find out more about us on our website: https://philharmonia.co.uk/\n\nExplore our YouTube channel for performances, interviews, documentaries, listening guides and instrument films: https://www.youtube.com/@philharmonia_orchestra?sub_confirmation=1\n\nJoin our email list for regular updates on our live performances: https://tickets.philharmonia.co.uk/mailing-list\n\nThe Philharmonia is a registered charity, find out how to support our work: https://philharmonia.co.uk/join-support/\n\nFollow us on social media:\nFacebook: https://www.facebook.com/philharmoniaorchestra\nInstagram: https://www.instagram.com/philharmonia_orchestra/\nTwitter: https://twitter.com/philharmonia\nTikTok: https://www.tiktok.com/@philharmoniaorchestra",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 22,
+			"PublishedAtRaw": "2025-09-01T22:44:46Z",
+			"PublishedAtDateTimeOffset": "2025-09-01T22:44:46+00:00",
+			"PublishedAt": "2025-09-02T04:14:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "nw5pn2QXyGQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/nw5pn2QXyGQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/nw5pn2QXyGQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/nw5pn2QXyGQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/nw5pn2QXyGQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/nw5pn2QXyGQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Piano Concerto No. 2 with Bruce Liu",
+			"VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+			"VideoOwnerChannelTitle": "Philharmonia Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "QF_N-vqY98U",
+			"VideoPublishedAtRaw": "2017-04-07T07:54:16Z",
+			"VideoPublishedAtDateTimeOffset": "2017-04-07T07:54:16+00:00",
+			"VideoPublishedAt": "2017-04-07T13:24:16+05:30"
+		},
+		"ETag": "V4o3at6BE7x64HshkxiMxBk5NPk",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Peter Tschaikowsky: \n2. Klavierkonzert \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Allegro brilliante e molto vivace  00:38 \u2219\nII. Andante non troppo  21:39 \u2219\nIII. Allegro con fuoco  34:38 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nYefim Bronfman, Klavier \u2219\nPaavo J\u00E4rvi, Dirigent \u2219\n\nAlte Oper Frankfurt, 24. M\u00E4rz 2017 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 23,
+			"PublishedAtRaw": "2024-12-12T18:21:01Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:01+00:00",
+			"PublishedAt": "2024-12-12T23:51:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "QF_N-vqY98U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/QF_N-vqY98U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/QF_N-vqY98U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/QF_N-vqY98U/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/QF_N-vqY98U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/QF_N-vqY98U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tschaikowsky: 2. Klavierkonzert \u2219 hr-Sinfonieorchester \u2219 Yefim Bronfman \u2219 Paavo J\u00E4rvi",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VZ35D6OlcCc",
+			"VideoPublishedAtRaw": "2017-12-02T14:13:50Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-02T14:13:50+00:00",
+			"VideoPublishedAt": "2017-12-02T19:43:50+05:30"
+		},
+		"ETag": "2Cw0LELdr7dDmnvZhBMiKaMzJns",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Royal Concertgebouw, Amsterdam, October 29, 2015\n\nConcertgebouworkest\nGustavo Gimeno, conductor\n\n00:00  I. Allegro brillante e molto vivace\n19:58  II. Andante non troppo\n32:17  III. Allegro con fuoco\n\nPhoto: Renske Vrolijk / Royal Concertgebouw Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 24,
+			"PublishedAtRaw": "2024-12-12T18:21:41Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:41+00:00",
+			"PublishedAt": "2024-12-12T23:51:41+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VZ35D6OlcCc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VZ35D6OlcCc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VZ35D6OlcCc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/VZ35D6OlcCc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VZ35D6OlcCc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/VZ35D6OlcCc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yuja Wang plays Tchaikovsky Piano Concerto No. 2 in G major, Op. 44 in Amsterdam",
+			"VideoOwnerChannelId": "UCk-kZ2o6sLfcF4KtLUc0eJA",
+			"VideoOwnerChannelTitle": "Yuja Wang Unofficial"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Z85ly4in-B4",
+			"VideoPublishedAtRaw": "2021-03-12T17:38:51Z",
+			"VideoPublishedAtDateTimeOffset": "2021-03-12T17:38:51+00:00",
+			"VideoPublishedAt": "2021-03-12T23:08:51+05:30"
+		},
+		"ETag": "O8yJlzi-x2eTP0i3EvdKEtItSUc",
+		"Id": "UEwxemdOQ29XdF83WVhKRlY2ZHQtRFI5M1R3ckJxa2E0TS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Moscow Philharmonic Orchestra conducted by Yuri Simonov, Tchaikovsky Concert Hall Dec 9, 201\n00:06 - 19:35 I. Allegro brillante e molto vivace\n20:39 - 32:40 II. Andante non troppo\n33:01 - 39:20 III. Allegro con fuoco\n#YujaWang #Tchaikovsky\nThis recording is provided by Yuja Wang Archives http://yujawang.nicerweb.com/\n\u738B\u7FBD\u4F73\u5B58\u5EAB",
+			"PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
+			"Position": 25,
+			"PublishedAtRaw": "2024-12-12T18:21:50Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:21:50+00:00",
+			"PublishedAt": "2024-12-12T23:51:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Z85ly4in-B4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Z85ly4in-B4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Z85ly4in-B4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Z85ly4in-B4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Z85ly4in-B4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Z85ly4in-B4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yuja Wang: Tchaikovsky Piano Concerto No 2 in G major [HD]",
+			"VideoOwnerChannelId": "UCYqLczLWk7eyldwntib1VPA",
+			"VideoOwnerChannelTitle": "Peter 2.0"
+		}
+	}
+]

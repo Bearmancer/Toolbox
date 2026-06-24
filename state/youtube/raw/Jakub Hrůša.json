@@ -1,0 +1,1299 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "eXv6ykpjI1I",
+			"VideoPublishedAtRaw": "2020-04-22T14:40:07Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-22T14:40:07+00:00",
+			"VideoPublishedAt": "2020-04-22T20:10:07+05:30"
+		},
+		"ETag": "bl4McYOwTC0v8blGmlzxbonMYOk",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bamberg Symphony - Anton\u00EDn Leopold Dvo\u0159\u00E1k Symphony No 7 Movement 1 and 2\n\nThe Bamberg Symphony playing Dvo\u0159\u00E1ks Symphony No 7 in 2019 live at the National Center for Performing Arts in Beijing. \nThis performance was recorded during our China Tour in the Fall of 2019. Under the baton of Jakub Hr\u016F\u0161a, Bamberg Symphony rounded off their China tour at the NCPA in Beijing.\n\n//\n\nBamberger Symphoniker - Anton\u00EDn Leopold Dvo\u0159\u00E1k Symphonie Nr. 7 Satz 1 und 2\n\nDie Bamberger Symphoniker waren 2019 auf Tour in China. Diese Aufnahme zeigt das Konzert im NCPA in Beijing. Unter Leitung von Chefdirigent Jakub Hr\u016F\u0161a war dies das Abschlusskonzert der Tournee. Hier ist das Orchester mit dem 1. und 2. Satz aus Dvo\u0159\u00E1ks Symphonie Nr. 7.\n\n//\n\nFollow us and find out more on:\n\nWebsite: https://www.bamberger-symphoniker.de/ \nFacebook: https://www.facebook.com/bambergersym...\nInstagram: https://www.instagram.com/bambergsymp...\nTwitter: https://twitter.com/bambergsymphony",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 0,
+			"PublishedAtRaw": "2025-08-31T04:41:18Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:41:18+00:00",
+			"PublishedAt": "2025-08-31T10:11:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "eXv6ykpjI1I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/eXv6ykpjI1I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/eXv6ykpjI1I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/eXv6ykpjI1I/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/eXv6ykpjI1I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/eXv6ykpjI1I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bamberg Symphony - Anton\u00EDn Leopold Dvo\u0159\u00E1k Symphony No 7 Movement 1 and 2",
+			"VideoOwnerChannelId": "UC4sz_Evu102KsBVXEoJi8Lw",
+			"VideoOwnerChannelTitle": "Bamberger Symphoniker"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_OWAZgi9TEg",
+			"VideoPublishedAtRaw": "2020-04-22T08:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-22T08:00:10+00:00",
+			"VideoPublishedAt": "2020-04-22T13:30:10+05:30"
+		},
+		"ETag": "lA5Hr56qQKp_XydX1DhId2CCkDk",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bamberg Symphony - Anton\u00EDn Leopold Dvo\u0159\u00E1k Symphony No 7 Movement 3 and 4\n\nThe Bamberg Symphony playing Dvo\u0159\u00E1ks Symphony No 7 in 2019 live at the National Center for Performing Arts in Beijing. \nThis performance was recorded during our China Tour in the Fall of 2019. Under the baton of Jakub Hr\u016F\u0161a, Bamberg Symphony rounded off their China tour at the NCPA in Beijing.\n\n//\n\nBamberger Symphoniker - Anton\u00EDn Leopold Dvo\u0159\u00E1k Symphonie Nr. 7 Satz 3 und 4\n\nDie Bamberger Symphoniker waren 2019 auf Tour in China. Diese Aufnahme zeigt das Konzert im NCPA in Beijing. Unter Leitung von Chefdirigent Jakub Hr\u016F\u0161a war dies das Abschlusskonzert der Tournee. Hier ist das Orchester mit dem 3. und 4. Satz aus Dvo\u0159\u00E1ks Symphonie Nr. 7.\n\n//\n\nFollow us and find out more on:\n\nWebsite: https://www.bamberger-symphoniker.de/ \nFacebook: https://www.facebook.com/bambergersymphoniker/\nInstagram: https://www.instagram.com/bambergsymphony/\nTwitter: https://twitter.com/bambergsymphony",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 1,
+			"PublishedAtRaw": "2025-08-31T04:38:23Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:38:23+00:00",
+			"PublishedAt": "2025-08-31T10:08:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_OWAZgi9TEg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_OWAZgi9TEg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_OWAZgi9TEg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_OWAZgi9TEg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_OWAZgi9TEg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_OWAZgi9TEg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bamberg Symphony - Anton\u00EDn Leopold Dvo\u0159\u00E1k Symphony No 7 Movement 3 and 4",
+			"VideoOwnerChannelId": "UC4sz_Evu102KsBVXEoJi8Lw",
+			"VideoOwnerChannelTitle": "Bamberger Symphoniker"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_q2WYUEER2c",
+			"VideoPublishedAtRaw": "2024-06-26T00:00:14Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-26T00:00:14+00:00",
+			"VideoPublishedAt": "2024-06-26T05:30:14+05:30"
+		},
+		"ETag": "TnKRwUwaeF7OCrGoRrVrYPSsJJo",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bed\u0159ich Smetana\nM\u00E1 vlast - My Fatherland (My Country)\n\n[00:00:00] - Vy\u0161ehrad (The High Castle)\n[00:16:20] - Vltava (The Moldau)\n[00:29:12] - \u0160\u00E1rka\n[00:39:33] - Z \u010Desk\u00FDch luh\u016F a h\u00E1j\u016F (From Bohemia\u0027s Woods and Fields)\n[00:52:32] - T\u00E1bor\n[01:05:35] - Blan\u00EDk\n\nBamberg Symphony Orchestra\nJakub Hr\u016F\u0161a, conductor\n\nReccorded live on 20.07.2019\nat the Royal Albert Hall, London",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 2,
+			"PublishedAtRaw": "2025-06-06T22:45:17Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T22:45:17+00:00",
+			"PublishedAt": "2025-06-07T04:15:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_q2WYUEER2c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_q2WYUEER2c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_q2WYUEER2c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_q2WYUEER2c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_q2WYUEER2c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bamberg Symphony Orchestra - Bed\u0159ich Smetana - M\u00E1 vlast   My Fatherland (My Country)",
+			"VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+			"VideoOwnerChannelTitle": "Grande Valse Viennoise"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lVZxhT4Ii3k",
+			"VideoPublishedAtRaw": "2021-02-01T16:00:14Z",
+			"VideoPublishedAtDateTimeOffset": "2021-02-01T16:00:14+00:00",
+			"VideoPublishedAt": "2021-02-01T21:30:14+05:30"
+		},
+		"ETag": "WXTSLhxM_oSK0vPTnqofAU4CFyw",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bamberger Symphoniker, Jakub Hr\u016F\u0161a\n\nRichard Strauss: Eine Alpensinfonie, op. 64\n\nLive-Mitschnitt aus dem Joseph-Keilberth-Saal Bamberg vom 16.10.2020 in coronakonformer Orchesteraufstellung.\nLive recording from the Joseph-Keilberth-Saal Bamberg on 16.10.2020 in corona-compliant orchestral formation.",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 3,
+			"PublishedAtRaw": "2025-08-31T04:37:01Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:37:01+00:00",
+			"PublishedAt": "2025-08-31T10:07:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lVZxhT4Ii3k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lVZxhT4Ii3k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lVZxhT4Ii3k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lVZxhT4Ii3k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lVZxhT4Ii3k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lVZxhT4Ii3k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bamberger Symphoniker, Jakub Hr\u016F\u0161a - Richard Strauss: Eine Alpensinfonie, op. 64",
+			"VideoOwnerChannelId": "UC4sz_Evu102KsBVXEoJi8Lw",
+			"VideoOwnerChannelTitle": "Bamberger Symphoniker"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "44fteFpHwmI",
+			"VideoPublishedAtRaw": "2025-12-08T08:27:05Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-08T08:27:05+00:00",
+			"VideoPublishedAt": "2025-12-08T13:57:05+05:30"
+		},
+		"ETag": "xoQh34qew33rZIv4vwLXmfRw-Oc",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1. \u5E8F\u7AE0 I. Introduzione: Andante non troppo - Allegro vivace\u300000:00\n2 \u5BFE\u306E\u904A\u3073 II. Giuoco delle coppie: Allegro scherzando   10:40\n3. \u60B2\u6B4C III. Elegia: Andante non troppo    17:16\n4 \u4E2D\u65AD\u3055\u308C\u305F\u9593\u594F\u66F2 IV. Intermezzo interrotto: Allegretto   25:18\n5. \u7D42\u66F2 V. Finale: Pesante - Presto   30:01\nJakub Hr\u016F\u0161a / Vienna Philharmonic orchestra\n2/12/2019 Vienna, Musikverein Hall live recording\n\u30D0\u30EB\u30C8\u30FC\u30AF\uFF1A\u7BA1\u5F26\u697D\u306E\u305F\u3081\u306E\u5354\u594F\u66F2\n\u30E4\u30AF\u30D6\u30FB\u30D5\u30EB\u30B7\u30E3\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n2019\u5E7412\u67082\u65E5\u3000\u30A6\u30A3\u30FC\u30F3\u697D\u53CB\u5354\u4F1A\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30EB\u30B7\u30E3\u306E\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30FB\u30C7\u30D3\u30E5\u30FC\u5B9A\u671F\u516C\u6F14\u304B\u3089\u3002\u5F53\u521D\u3053\u306E\u516C\u6F14\u306F\u30DE\u30EA\u30B9\u30FB\u30E4\u30F3\u30BD\u30F3\u30B9\u304C\u632F\u308B\u306F\u305A\u3067\u3057\u305F\u304C\u3001\u4F53\u8ABF\u4E0D\u826F\u306B\u3088\u308A\u30D5\u30EB\u30B7\u30E3\u304C\u6307\u540D\u3055\u308C\u305F\u3082\u306E\u3067\u3059\u3002\u30E4\u30F3\u30BD\u30F3\u30B9\u306F\u3053\u306E\u516C\u6F14\u306E2\u65E5\u524D\u306B\u4EA1\u304F\u306A\u3063\u3066\u304A\u308A\u3001\u5F53\u65E5\u305D\u306E\u5831\u544A\u304C\u30B9\u30C6\u30FC\u30B8\u4E0A\u3067\u306A\u3055\u308C\u3001\u30D5\u30EB\u30B7\u30E3\u306E\u30C7\u30D3\u30E5\u30FC\u306F\u6025\u907D\u30DE\u30EA\u30B9\u306E\u8FFD\u60BC\u6F14\u594F\u4F1A\u3068\u306A\u3063\u3066\u3057\u307E\u3044\u307E\u3057\u305F\u3002",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 4,
+			"PublishedAtRaw": "2025-12-09T11:15:19Z",
+			"PublishedAtDateTimeOffset": "2025-12-09T11:15:19+00:00",
+			"PublishedAt": "2025-12-09T16:45:19+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "44fteFpHwmI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/44fteFpHwmI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/44fteFpHwmI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/44fteFpHwmI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/44fteFpHwmI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/44fteFpHwmI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "BARTOK: Concerto for Orchestra   Jakub Hr\u016F\u0161a / VPO debut live 2019",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "6rENhwU8xJ8",
+			"VideoPublishedAtRaw": "2019-07-30T14:23:40Z",
+			"VideoPublishedAtDateTimeOffset": "2019-07-30T14:23:40+00:00",
+			"VideoPublishedAt": "2019-07-30T19:53:40+05:30"
+		},
+		"ETag": "Ly6VtI-2aGt8Ne67QxdkpXXsZ1I",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Journey through the Czech countryside with Smetana\u2019s symphonic suite M\u00E1 vlast (\u2018My Country\u2019) \u2013 a colourful celebration of a nation\u2019s landscape, castles and warriors, with the sweeping melody of \u2018Vltava\u2019 at its heart.\nI. Vy\u0161ehrad 0:06\nII. Vltava 16:08\nIII. \u0160\u00E1rka 29:05\nIV. Z \u010Desk\u00FDch luh\u016F a h\u00E1j\u016F 39:35\nV. T\u00E1bor 53:00\nVI. Blan\u00EDk 1:06:05",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 5,
+			"PublishedAtRaw": "2025-08-31T04:30:14Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:30:14+00:00",
+			"PublishedAt": "2025-08-31T10:00:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "6rENhwU8xJ8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/6rENhwU8xJ8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/6rENhwU8xJ8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/6rENhwU8xJ8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/6rENhwU8xJ8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/6rENhwU8xJ8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bed\u0159ich Smetana - M\u00E1 vlast (\u2018My Country\u2019) [Jakub Hr\u016F\u0161a, Bamberg Symphony Orchestra]",
+			"VideoOwnerChannelId": "UCLxciB8PPrdcpVB2Y5zR32A",
+			"VideoOwnerChannelTitle": "Drtdr"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0iiwOk0Zf0k",
+			"VideoPublishedAtRaw": "2022-12-02T19:19:02Z",
+			"VideoPublishedAtDateTimeOffset": "2022-12-02T19:19:02+00:00",
+			"VideoPublishedAt": "2022-12-03T00:49:02+05:30"
+		},
+		"ETag": "CC4cgrZZHUeQzYPVVYhk4pGdMjQ",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 6,
+			"PublishedAtRaw": "2025-08-31T04:35:15Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:35:15+00:00",
+			"PublishedAt": "2025-08-31T10:05:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0iiwOk0Zf0k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0iiwOk0Zf0k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0iiwOk0Zf0k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/0iiwOk0Zf0k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0iiwOk0Zf0k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0iiwOk0Zf0k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bed\u0159ich Smetana - M\u00E1 vlast [Jakub Hr\u016F\u0161a, Bamberg Symphony Orchestra]",
+			"VideoOwnerChannelId": "UCvM09DwE70Eh6dmPkim7snQ",
+			"VideoOwnerChannelTitle": "P\u0159emet Balte\u00E1n"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "JFMOz0mLXBo",
+			"VideoPublishedAtRaw": "2025-03-27T09:15:35Z",
+			"VideoPublishedAtDateTimeOffset": "2025-03-27T09:15:35+00:00",
+			"VideoPublishedAt": "2025-03-27T14:45:35+05:30"
+		},
+		"ETag": "oax1KTZzYkbuC13FxnulZVlGBRQ",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "TMSO Special\nFri. 5. July 2024  , at Suntory Hall\nBruch: Violin Concerto No.1 in G minor, op.26\n\nJakub HR\u016E\u0160A ,  Conductor \nKaren GOMYO, Violin\nTokyo Metropolitan Symphony Orchestra\n\nMovements:\n01:30  I. Vorspiel: Allegro moderato\n10:20  II. Adagio\n19:38  III.Finale: Allegro energico\n\nYou can watch Program Note.\nhttps://www.tmso.or.jp/e/concert/detail/detail.php?id=3785\n\nSubscribe to our channel at\nhttps://www.youtube.com/user/TMSOMovie\n\nRead about our concerts : \nhttps://www.tmso.or.jp/e/concert/\n\nFollow us\uFF01\nX : https://x.com/tmsonews\nInstagram : https://www.instagram.com/tmsonews/\nFacebook : https://www.facebook.com/TokyoMetropolitanSymphonyOrchestra\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\nVideo production\uFF1AMedia Forest\nYouTube Ver edit\uFF1ATMSO",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 7,
+			"PublishedAtRaw": "2025-08-31T04:31:05Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:31:05+00:00",
+			"PublishedAt": "2025-08-31T10:01:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "JFMOz0mLXBo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/JFMOz0mLXBo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/JFMOz0mLXBo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/JFMOz0mLXBo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/JFMOz0mLXBo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/JFMOz0mLXBo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruch: Violin Concerto No.1 in G minor, op.26 / Jakub HR\u016E\u0160A, Karen GOMYO / TMSO",
+			"VideoOwnerChannelId": "UCW-bv9InoF-XIztER3wv7jg",
+			"VideoOwnerChannelTitle": "\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 / Tokyo Metropolitan Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "cv7B7NTAZMM",
+			"VideoPublishedAtRaw": "2025-12-26T17:49:34Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-26T17:49:34+00:00",
+			"VideoPublishedAt": "2025-12-26T23:19:34+05:30"
+		},
+		"ETag": "LUYZffDztRkXxgcIv92XfW6QJXA",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "B\u00E9la Bartok (1881 - 1945)\nThe Miraculous Mandarin (1918-1919)\n\nWiener Philharmoniker\nJakub Hr\u016F\u0161a\n7th December 2025\nWiener Musikverein, live recording",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 8,
+			"PublishedAtRaw": "2026-03-31T20:43:10Z",
+			"PublishedAtDateTimeOffset": "2026-03-31T20:43:10+00:00",
+			"PublishedAt": "2026-04-01T02:13:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "cv7B7NTAZMM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/cv7B7NTAZMM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/cv7B7NTAZMM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/cv7B7NTAZMM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/cv7B7NTAZMM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/cv7B7NTAZMM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "B\u00E9la Bartok - The Miraculous Mandarin | Jakub Hr\u016F\u0161a - Wiener Philharmoniker (2025 live)",
+			"VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+			"VideoOwnerChannelTitle": "Soffronitsky"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-cZhbxnkxaU",
+			"VideoPublishedAtRaw": "2022-10-31T20:08:43Z",
+			"VideoPublishedAtDateTimeOffset": "2022-10-31T20:08:43+00:00",
+			"VideoPublishedAt": "2022-11-01T01:38:43+05:30"
+		},
+		"ETag": "sk4OemJgyYnTVbKxxDdT59mAEYc",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Dvo\u0159\u00E1k \u2022 Cello Concerto in b minor, op. 104\nJohannes Moser, Violoncello\nJakub Hr\u016F\u0161a, Concductor\nPrague Philharmonia\nFebruary 11th, 2015",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 9,
+			"PublishedAtRaw": "2025-08-31T04:36:02Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:36:02+00:00",
+			"PublishedAt": "2025-08-31T10:06:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-cZhbxnkxaU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/-cZhbxnkxaU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/-cZhbxnkxaU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/-cZhbxnkxaU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/-cZhbxnkxaU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/-cZhbxnkxaU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "DVORAK Cello Concerto \u2022 Moser \u2022 Hr\u016F\u0161a \u2022 Prague Philharmonia \u2022 2015",
+			"VideoOwnerChannelId": "UCSbKeCVx4MqB-BvNhY3U8sA",
+			"VideoOwnerChannelTitle": "Johannes Moser"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_qcTrYPTgn8",
+			"VideoPublishedAtRaw": "2020-05-22T03:57:44Z",
+			"VideoPublishedAtDateTimeOffset": "2020-05-22T03:57:44+00:00",
+			"VideoPublishedAt": "2020-05-22T09:27:44+05:30"
+		},
+		"ETag": "-SGzl_KEsjuSZ8x_4HXXD7PkjFE",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Antonin Dvor\u00E1k (1841-1904) - Violin Concerto in A minor, Op. 53 (1879)\n1. Allegro ma non troppo (00:34)\n2. Adagio ma non troppo (10:48)\n3. Allegro giocoso, ma non troppo (21:56)\nEncore: A. Dvor\u00E1k - Cavatina from Romantic Pieces (34:14)\nJoshua Bell, violin\nJakub Hr\u016F\u0161a, conductor\nBamberg Symphony Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 10,
+			"PublishedAtRaw": "2025-08-31T04:31:49Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:31:49+00:00",
+			"PublishedAt": "2025-08-31T10:01:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_qcTrYPTgn8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_qcTrYPTgn8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_qcTrYPTgn8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_qcTrYPTgn8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_qcTrYPTgn8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_qcTrYPTgn8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvorak: Violin Concerto in A minor - Joshua Bell /Jakub Hr\u016F\u0161a /Bamberg Symphony Orchestra",
+			"VideoOwnerChannelId": "UCOTftYhMX1IihjOt2jefMCQ",
+			"VideoOwnerChannelTitle": "Violin Express"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "6HmDhHgIHJA",
+			"VideoPublishedAtRaw": "2021-05-07T20:36:11Z",
+			"VideoPublishedAtDateTimeOffset": "2021-05-07T20:36:11+00:00",
+			"VideoPublishedAt": "2021-05-08T02:06:11+05:30"
+		},
+		"ETag": "_FA151Q3QqGGIcT8q67yuO2vnZU",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Alexander Glazunov (1865-1936) - Violin Concerto in A minor, Op. 82 (1904)\n1. Moderato (00:06)\n2. Andante sostenuto (04:26)\n3. Pi\u00F9 animato (08:57)\n4. Allegro (14:50)\nJulia Fischer, violin\nJakub Hr\u016F\u0161a, conductor\nBamberg Symphony",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 11,
+			"PublishedAtRaw": "2025-08-31T04:37:35Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:37:35+00:00",
+			"PublishedAt": "2025-08-31T10:07:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "6HmDhHgIHJA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/6HmDhHgIHJA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/6HmDhHgIHJA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/6HmDhHgIHJA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/6HmDhHgIHJA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/6HmDhHgIHJA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Glazunov: Violin Concerto in A minor - Julia Fischer /Jakub Hr\u016F\u0161a /Bamberg Symphony",
+			"VideoOwnerChannelId": "UCOTftYhMX1IihjOt2jefMCQ",
+			"VideoOwnerChannelTitle": "Violin Express"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "PGw0eDr_Mok",
+			"VideoPublishedAtRaw": "2024-09-07T17:40:24Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-07T17:40:24+00:00",
+			"VideoPublishedAt": "2024-09-07T23:10:24+05:30"
+		},
+		"ETag": "flp1CQnWp3ZBzu4p6BmG8pClEWE",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 12,
+			"PublishedAtRaw": "2025-08-31T04:30:08Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:30:08+00:00",
+			"PublishedAt": "2025-08-31T10:00:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "PGw0eDr_Mok"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/PGw0eDr_Mok/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/PGw0eDr_Mok/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/PGw0eDr_Mok/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/PGw0eDr_Mok/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/PGw0eDr_Mok/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Jakub Hrusa Conducting the Bamberg Symphony Orchestra in Germany",
+			"VideoOwnerChannelId": "UCUZc6RwOe3JKUbc5tmsvZtw",
+			"VideoOwnerChannelTitle": "\u6708\u4E0B\u542C\u98CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "zbvy6uQ_3FQ",
+			"VideoPublishedAtRaw": "2023-01-22T19:22:00Z",
+			"VideoPublishedAtDateTimeOffset": "2023-01-22T19:22:00+00:00",
+			"VideoPublishedAt": "2023-01-23T00:52:00+05:30"
+		},
+		"ETag": "whuinDinLFt1ypM2jwYHXnRoS4Q",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler (1860-1911): Lieder eines fahrenden Gesellen\n\nBohuslav Martinu (1890-1959): Poln\u00ED Mse (Field Mass) \u2013 cantata for baritone, male choir, winds, piano, harmonium and percussion H279\n\nPavel Vranick\u00FD (1756-1808): Great Characteristic Symphony for Peace with the French Republic in C minor op. 31\n\nAudun Iversen, baritone\nPrague Philharmonic Choir (Luk\u00E1\u0161 Vasilek, conductor)\nPKF - Prague Philharmonia\nJakub Hr\u016F\u0161a, conductor",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 13,
+			"PublishedAtRaw": "2025-08-31T04:34:51Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:34:51+00:00",
+			"PublishedAt": "2025-08-31T10:04:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zbvy6uQ_3FQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zbvy6uQ_3FQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zbvy6uQ_3FQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zbvy6uQ_3FQ/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Jakub Hr\u016F\u0161a conducts Mahler, Martinu and Vranick\u00FD",
+			"VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
+			"VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vcoEQK3huRo",
+			"VideoPublishedAtRaw": "2023-01-08T15:03:16Z",
+			"VideoPublishedAtDateTimeOffset": "2023-01-08T15:03:16+00:00",
+			"VideoPublishedAt": "2023-01-08T20:33:16+05:30"
+		},
+		"ETag": "Oqqifl9DM8Q9Wfrln-gb0pwq9HA",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wolfgang Amadeus Mozart: Concerto for horn and orchestra no. 4 in E flat major KV495\n\nJean Sibelius: Concerto for Violin and Orchestra in D Minor Op. 47\n\nIgor Stravinsky: Pulcinella, unabridged version\n\nKate\u0159ina Jav\u016Frkov\u00E1, horn\nElina V\u00E4h\u00E4l\u00E4, violin\nMary Bevan, soprano\nSam Furness, tenor\nVuyani Minde, bass\n\nPrague Philharmonia\nJakub Hr\u016F\u0161a, musical direction",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 14,
+			"PublishedAtRaw": "2025-08-31T04:35:00Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:35:00+00:00",
+			"PublishedAt": "2025-08-31T10:05:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vcoEQK3huRo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vcoEQK3huRo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vcoEQK3huRo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vcoEQK3huRo/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Jakub Hr\u016F\u0161a conducts Mozart, Sibelius \u0026 Stravinsky",
+			"VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
+			"VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "HINFiRmf1pU",
+			"VideoPublishedAtRaw": "2022-12-10T23:03:23Z",
+			"VideoPublishedAtDateTimeOffset": "2022-12-10T23:03:23+00:00",
+			"VideoPublishedAt": "2022-12-11T04:33:23+05:30"
+		},
+		"ETag": "MuZyvghErohCtH0fF33KXxvYCpg",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ale\u0161 Pavlorek: Symphony Concerto for Wind Instruments (world premiere)\n\nReinhold Gli\u00E8re: Concerto for Horn op.91\n\nDmitri Shostakovich: Symphony no.9 n E flat major op.70\n\nRadek Baborak, solo horn\nPKF-Prague Philharmonia\nJakub Hr\u016F\u0161a, conductor",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 15,
+			"PublishedAtRaw": "2025-08-31T04:35:09Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:35:09+00:00",
+			"PublishedAt": "2025-08-31T10:05:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "HINFiRmf1pU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/HINFiRmf1pU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/HINFiRmf1pU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/HINFiRmf1pU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Jakub Hr\u016F\u0161a conducts PKF-Prague Philharmonia",
+			"VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
+			"VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "OP-2hIa7R_Y",
+			"VideoPublishedAtRaw": "2023-10-29T16:15:48Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-29T16:15:48+00:00",
+			"VideoPublishedAt": "2023-10-29T21:45:48+05:30"
+		},
+		"ETag": "WdFnh8G8PI8U8w1Jd23PWgm8ofg",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "2:13 Brahms : Piano Concerto No. 2\u3000\u30D6\u30E9\u30FC\u30E0\u30B9\uFF1A\u30D4\u30A2\u30CE\u5354\u594F\u66F2\u7B2C2\u756A\n56:13 Dvo\u0159\u00E1k : Symphony No. 8\u3000\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\n\nPiano : Igor Levit\u3000\u30D4\u30A2\u30CE\uFF1A\u30A4\u30B4\u30FC\u30EB\u30FB\u30EC\u30F4\u30A3\u30C3\u30C8\nRecording day : September 13, 2023\u30002023\u5E749\u670813\u65E5\u53CE\u9332\n\n#Jakubhrusa #Igorlevit #johannesbrahms #Brahms #Antonindvorak #dvo\u0159\u00E1k  #dvorak",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 16,
+			"PublishedAtRaw": "2025-08-31T04:34:39Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:34:39+00:00",
+			"PublishedAt": "2025-08-31T10:04:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "OP-2hIa7R_Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/OP-2hIa7R_Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/OP-2hIa7R_Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/OP-2hIa7R_Y/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/OP-2hIa7R_Y/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/OP-2hIa7R_Y/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Jakub Hr\u016F\u0161a conducts Wiener Philharmoniker with Igor Levit - \u30E4\u30AF\u30D6\u30FB\u30D5\u30EB\u30B7\u30E3\u6307\u63EE\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3",
+			"VideoOwnerChannelId": "UCHkpgbq278t80Er8ZjR2FdQ",
+			"VideoOwnerChannelTitle": "Nakka"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "x23r-EUjT3I"
+		},
+		"ETag": "RRHWUxENr2GlDB0PyI6_AMBWxMs",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 17,
+			"PublishedAtRaw": "2025-08-31T04:34:25Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:34:25+00:00",
+			"PublishedAt": "2025-08-31T10:04:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "x23r-EUjT3I"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7dbvIwB5eH4",
+			"VideoPublishedAtRaw": "2020-10-01T21:00:30Z",
+			"VideoPublishedAtDateTimeOffset": "2020-10-01T21:00:30+00:00",
+			"VideoPublishedAt": "2020-10-02T02:30:30+05:30"
+		},
+		"ETag": "t_dRFTqPsWm6Zq5KUy_5CRK6koI",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "La Orquesta Sinf\u00F3nica de Bamberg dirigida por Jakub Hr\u016F\u0161a en el Concierto Inaugural de la edici\u00F3n 2019 del Festival Internacional de M\u00FAsica de Primavera de Praga: la m\u00E1s importante celebraci\u00F3n musical anual de la Rep\u00FAblica Checa y una de las principales en Europa. Siguiendo la tradici\u00F3n del Festival desde que fuera creado en el a\u00F1o 1946, la Sinf\u00F3nica de Bamberg interpret\u00F3 entonces el ciclo de poemas sinf\u00F3nicos Mi patria del compositor checo Bedrich Smetana, con la cual da inicio esta serie de encuentros musicales, evocando y homenajeando a Smetana en el aniversario de su fallecimiento, que coincide cada a\u00F1o con el inicio del Festival.\u00A0\n\n\nBED\u0158ICH SMETANA (1824-1884)\nM\u00E1 vlast\u00A0(Mi Patria) \u00A0\n\u20031.\u00A0Vy\u0161ehrad (El Alto Castillo)\n\u20032. Vltava (El Moldava)\n\u20033. \u0160\u00E1rka (Guerrera amazona de la leyenda checa de la Guerra de las Doncellas)\n\u20034. Z \u010Desk\u00FDch luh\u016F a h\u00E1j\u016F (De los bosques y prados de Bohemia)\n\u20035. T\u00E1bor (ciudad del sur de Bohemia, antigua capital husita)\n\u20036. Blan\u00EDk (monta\u00F1a fundamental de las leyendas checas)",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 18,
+			"PublishedAtRaw": "2025-08-31T04:32:20Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:32:20+00:00",
+			"PublishedAt": "2025-08-31T10:02:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7dbvIwB5eH4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7dbvIwB5eH4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7dbvIwB5eH4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7dbvIwB5eH4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7dbvIwB5eH4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Orquesta Sinf\u00F3nica de Bamberg dirigida por Jakub Hr\u016F\u0161a",
+			"VideoOwnerChannelId": "UCdhjyulTSNif34XpNFHkQeg",
+			"VideoOwnerChannelTitle": "Mozarteum Argentino"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UY_QZtOoEug",
+			"VideoPublishedAtRaw": "2020-11-05T19:30:09Z",
+			"VideoPublishedAtDateTimeOffset": "2020-11-05T19:30:09+00:00",
+			"VideoPublishedAt": "2020-11-06T01:00:09+05:30"
+		},
+		"ETag": "oJE7Uf0QhkcIJA7neXrBZb5m460",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "No composer embodies Czech music and culture like Anton\u00EDn Dvo\u0159\u00E1k. So no matter where you\u2019re watching from across the world, in this Philharmonia Session all of us are heading on an adventure to the rolling hills and mysterious forests of the Czech countryside.  \n\nPainting these vivid musical landscapes is virtuoso cellist Alisa Weilerstein, creating both the exquisite tenderness of Silent Woods and the drama of the Rondo for cello and orchestra. \n\nJakub Hr\u016F\u0161a \u2013 conductor  \nAlisa Weilerstein \u2013 cello  \n\nProgramme: \n00:00 Introduction\n01:47 DVO\u0158\u00C1K Silent Woods, for cello and orchestra \n07:33 DVO\u0158\u00C1K Rondo, for cello and orchestra \n15:03 DVO\u0158\u00C1K Czech Suite\n40:55 Encore \u2013 DVO\u0158\u00C1K arr. RICHARD BIRCHALL Songs My Mother Taught Me\n\nRead our free programme notes here: https://spark.adobe.com/page/Rerutvu7DyHs9/\n\nWatch the rest of our Philharmonia Sessions videos here: https://www.youtube.com/playlist?list=PLqR22EoucCyfCuGoM7qulopbgMYuCslPf\n\nHear Jakub Hr\u016F\u0161a in concert, Sunday 24 March 2024, conducting Mussorgsky and Kabalevsky: https://philharmonia.co.uk/whats-on/pictures-at-an-exhibition-2/",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 19,
+			"PublishedAtRaw": "2025-08-31T04:37:59Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:37:59+00:00",
+			"PublishedAt": "2025-08-31T10:07:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UY_QZtOoEug"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/UY_QZtOoEug/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/UY_QZtOoEug/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/UY_QZtOoEug/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/UY_QZtOoEug/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/UY_QZtOoEug/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Philharmonia Sessions: Hr\u016F\u0161a conducts Dvo\u0159\u00E1k",
+			"VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+			"VideoOwnerChannelTitle": "Philharmonia Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KcvbGDarPzs",
+			"VideoPublishedAtRaw": "2023-09-15T14:18:54Z",
+			"VideoPublishedAtDateTimeOffset": "2023-09-15T14:18:54+00:00",
+			"VideoPublishedAt": "2023-09-15T19:48:54+05:30"
+		},
+		"ETag": "FwOeA3mwRO54W4Qlvvz0QSh_D2o",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Rachmaninoff\u0027s last major orchestral work, in the thrilling interpretation of the Wiener Philharmoniker led by Jakub Hr\u016F\u0161a. Recorded September 11th 2023.\n\nMovements:\n1. Non allegro (00:26)\n2. Andante con moto (Tempo di valse) (12:39)\n3. Lento assai \u2013 Allegro vivace \u2013 Lento assai. Come prima \u2013 Allegro vivace (23:01)",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 20,
+			"PublishedAtRaw": "2025-08-31T04:30:48Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:30:48+00:00",
+			"PublishedAt": "2025-08-31T10:00:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KcvbGDarPzs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KcvbGDarPzs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KcvbGDarPzs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/KcvbGDarPzs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KcvbGDarPzs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/KcvbGDarPzs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Rachmaninoff - Symphonic Dances, op. 45 (Hr\u016F\u0161a / VPO)",
+			"VideoOwnerChannelId": "UC2zc2RPFceV6O8ATXx8uF9Q",
+			"VideoOwnerChannelTitle": "dultz"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "riau5cJTMQM"
+		},
+		"ETag": "m_qZS4l5V6hul3IQdVOVIEpZGg8",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 21,
+			"PublishedAtRaw": "2025-08-31T04:34:33Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:34:33+00:00",
+			"PublishedAt": "2025-08-31T10:04:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "riau5cJTMQM"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "4ltE0qvEttw",
+			"VideoPublishedAtRaw": "2025-05-24T15:35:38Z",
+			"VideoPublishedAtDateTimeOffset": "2025-05-24T15:35:38+00:00",
+			"VideoPublishedAt": "2025-05-24T21:05:38+05:30"
+		},
+		"ETag": "yLGIy7KenhBaczSLJRR5qfYcVcw",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "with Jakub Hr\u016F\u0161a \u0026 Berlin Philharmonic\n\nBeethoven Piano Concerto No. 5\nBartok: Out of Doors, Sz. 81 - \u0022The Chase\u0022",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 22,
+			"PublishedAtRaw": "2025-08-31T04:31:37Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:31:37+00:00",
+			"PublishedAt": "2025-08-31T10:01:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "4ltE0qvEttw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/4ltE0qvEttw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/4ltE0qvEttw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/4ltE0qvEttw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/4ltE0qvEttw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/4ltE0qvEttw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Seong-Jin Cho | Beethoven Piano Concerto No. 5 (250414 Baden-Baden Easter Festival)",
+			"VideoOwnerChannelId": "UCoSYgN8PlWaDMz6FZkTqGuQ",
+			"VideoOwnerChannelTitle": "cho"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "K6u36_cJF78",
+			"VideoPublishedAtRaw": "2017-10-10T13:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2017-10-10T13:00:01+00:00",
+			"VideoPublishedAt": "2017-10-10T18:30:01+05:30"
+		},
+		"ETag": "uOM4uU6Vhl1V0PRmq_otJx2hTwk",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Radio Philharmonic Orchestra, conducted by Jakub Hr\u016F\u0161a, perform Richard Strauss\u0027 legendary Also sprach Zarathustra in this re-upload of a 2013 broadcast from Vredenburg, Utrecht.\n\nMusicians:\nRadio Philharmonic Orchestra\nJakub Hr\u016F\u0161a (conductor)   \n\nMore AVROTROS Klassiek:\n\u266C Facebook: https://www.facebook.com/AVROTROS.Klassiek/\n\u266C Twitter: https://twitter.com/klassiekonline\n\u266C Instagram: https://www.instagram.com/avrotrosklassiek/",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 23,
+			"PublishedAtRaw": "2025-08-31T04:42:16Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:42:16+00:00",
+			"PublishedAt": "2025-08-31T10:12:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "K6u36_cJF78"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/K6u36_cJF78/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/K6u36_cJF78/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/K6u36_cJF78/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/K6u36_cJF78/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/K6u36_cJF78/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strauss: Also sprach Zarathustra - Jakub Hr\u016F\u0161a - Radio Philharmonic Orchestra - Live",
+			"VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
+			"VideoOwnerChannelTitle": "AVROTROS Klassiek"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "FXYsjeRkMOM"
+		},
+		"ETag": "PvuD_KilE7mD4xicT8E7afw4Qo4",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 24,
+			"PublishedAtRaw": "2025-08-31T04:32:28Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:32:28+00:00",
+			"PublishedAt": "2025-08-31T10:02:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "FXYsjeRkMOM"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "AgnTdocKnLg",
+			"VideoPublishedAtRaw": "2020-03-17T15:06:19Z",
+			"VideoPublishedAtDateTimeOffset": "2020-03-17T15:06:19+00:00",
+			"VideoPublishedAt": "2020-03-17T20:36:19+05:30"
+		},
+		"ETag": "yMT4klu-yKLGIwaB-10xNB5M8qw",
+		"Id": "UEwxemdOQ29XdF83WmM4UG9OeXRJNW1jV2VXYWJVMTZIci4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Unser herzlicher Dank gilt dem Tschechischen Fernsehen, Robert Uxa, Jan Mudra und Jakub Hr\u016F\u0161a, die uns dieses Video zum Streaming zur Verf\u00FCgung stellen.",
+			"PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
+			"Position": 25,
+			"PublishedAtRaw": "2025-08-31T04:41:25Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:41:25+00:00",
+			"PublishedAt": "2025-08-31T10:11:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "AgnTdocKnLg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/AgnTdocKnLg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/AgnTdocKnLg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/AgnTdocKnLg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/AgnTdocKnLg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/AgnTdocKnLg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "\u00BBJakub Hr\u016F\u0161a und die Bamberger Symphoniker\u00AB - eine Musikdokumentation von Jan Mudra",
+			"VideoOwnerChannelId": "UC4sz_Evu102KsBVXEoJi8Lw",
+			"VideoOwnerChannelTitle": "Bamberger Symphoniker"
+		}
+	}
+]

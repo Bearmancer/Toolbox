@@ -1,0 +1,57 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "pG_Gwb11S_Q",
+			"VideoPublishedAtRaw": "2025-12-14T12:35:49Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-14T12:35:49+00:00",
+			"VideoPublishedAt": "2025-12-14T18:05:49+05:30"
+		},
+		"ETag": "X6ujtcrjM2iVdLXwl46QoBRW77o",
+		"Id": "UEwxemdOQ29XdF83YnlGMWVWUE5MR0lFWWVsNS1IZ2YtVS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Beethoven Symphony No. 2\n0:33:39 Schubert Symphony No. 9\n1:30:54 Schubert Rosamunde - Ballet Music No. 2\n\nThese performances were given as part of the 19898 season of BBC Promenade Concerts at the Royal Albert Hall, London on 21 August 1989.\n\nLondon Classical Players\nconducted by\nRoger Norrington\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ewwzc8\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7byF1eVPNLGIEYel5-Hgf-U",
+			"Position": 0,
+			"PublishedAtRaw": "2025-12-14T20:03:32Z",
+			"PublishedAtDateTimeOffset": "2025-12-14T20:03:32+00:00",
+			"PublishedAt": "2025-12-15T01:33:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "pG_Gwb11S_Q"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/pG_Gwb11S_Q/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/pG_Gwb11S_Q/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/pG_Gwb11S_Q/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/pG_Gwb11S_Q/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/pG_Gwb11S_Q/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Symphony No. 2,Schubert Symphony No. 9 - London Classical Players - Norrington (RAH, 1989)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	}
+]

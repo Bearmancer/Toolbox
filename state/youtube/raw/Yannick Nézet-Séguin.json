@@ -1,0 +1,1732 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "MB7GOgBqGhc",
+			"VideoPublishedAtRaw": "2019-05-20T15:13:03Z",
+			"VideoPublishedAtDateTimeOffset": "2019-05-20T15:13:03+00:00",
+			"VideoPublishedAt": "2019-05-20T20:43:03+05:30"
+		},
+		"ETag": "2WJp6sYBVlF5-5yKLgzOzsr4Wx0",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Philadelphia Orchestra \nYannick N\u00E9zet-S\u00E9guin \nPiano: Tony Siqi Yun, Mackenzie Melemed, Alexander Malofeev\n\nNational Centre for the Performing Arts (NCPA) (Beijing, China)\nMay 21, 2019 \n\nProgram:\n\nRichard Wagner: Lohengrin Prelude to Act 1\n\nTony Siqi Yun\nPyotr Ilyich Tchaikovsky Piano Concerto No. 1 in B minor, Op. 23\n\nMackenzie Melemed\nSergei Rachmaninoff\uFF1A Rhapsody on a Theme of Paganini, Op. 43\n\nAlexander Malofeev\nSergei Prokofiev \uFF1APiano Concerto No. 3 in C major, Op. 26",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 0,
+			"PublishedAtRaw": "2025-08-23T11:49:34Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:49:34+00:00",
+			"PublishedAt": "2025-08-23T17:19:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "MB7GOgBqGhc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/MB7GOgBqGhc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/MB7GOgBqGhc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/MB7GOgBqGhc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/MB7GOgBqGhc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "2019 CIMC Final with Yannick N\u00E9zet-S\u00E9guin and the Philadelphia Orchestra",
+			"VideoOwnerChannelId": "UCE_j1S3T7P-FwJ_0Rff12QA",
+			"VideoOwnerChannelTitle": "Amadeus TV"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "nSgC0d4k3YQ",
+			"VideoPublishedAtRaw": "2025-03-16T13:39:21Z",
+			"VideoPublishedAtDateTimeOffset": "2025-03-16T13:39:21+00:00",
+			"VideoPublishedAt": "2025-03-16T19:09:21+05:30"
+		},
+		"ETag": "GbqJ_kk3aSIhXdCrai7RHx7Lrbc",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "*Program*\nBeethoven Piano Concerto No.2 in B flat major, Op.19 (1793)\n00:01 l. Allegro con brio \n13:51 ll Adagio\n22:34 lll.Rondo: molto allegro \n-Encore-\n28:50 Haydn Sonata in E minor, Hob.XVI:34 III. Molto vivace\nSeong-Jin Cho : Pianist\nYannick N\u00E9zet-S\u00E9guin : Conductor\nThe Philadelphia Orchestra \n\nMarian Anderson Hall, Kimmel Center for the Performing Arts, \nPennsylvania .U.S.A\nPhotos: philorch, shine28\nEdit :made with the AI Editor\n\n* Broadcast on March 9, 2025 from WRTI 90.1 \nhttps://www.wrti.org/the-philadelphia-orchestra-in-concert..\nthe concert at Marian Anderson Hall on 09.28.2024.\n_______________________________\n\uD83C\uDFA7Music  curated by salon de muse\nAll rights reserved\n\uD83D\uDD17 Channel\nhttp://youtube.com/@salondemuseClassic\n\uD83D\uDCE9 Contact / \uBB38\uC758  \nEmail- ynsflutee@gmail.com\n(Please contact via email for business or licensing)\n#\uC870\uC131\uC9C4 #seongjincho #yannickn\u00E9zets\u00E9guin #\uC57C\uB2C9\uB124\uC81C\uC138\uAC31 #philorch #beethoven",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 1,
+			"PublishedAtRaw": "2025-08-23T11:41:59Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:41:59+00:00",
+			"PublishedAt": "2025-08-23T17:11:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "nSgC0d4k3YQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/nSgC0d4k3YQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/nSgC0d4k3YQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/nSgC0d4k3YQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/nSgC0d4k3YQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/nSgC0d4k3YQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "2024 09 28 Seong-Jin Cho l  Yannick N\u00E9zet-S\u00E9guin :  Beethoven Piano Concerto No.2 Op.19",
+			"VideoOwnerChannelId": "UC1mppDL4U3ZjXM3G88OhrwQ",
+			"VideoOwnerChannelTitle": "Salon de muse"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "guLUZVl6tvs",
+			"VideoPublishedAtRaw": "2019-12-29T12:59:50Z",
+			"VideoPublishedAtDateTimeOffset": "2019-12-29T12:59:50+00:00",
+			"VideoPublishedAt": "2019-12-29T18:29:50+05:30"
+		},
+		"ETag": "Fnigy6gcjEwwZuucoud5KaNdW94",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "S. Prokofiev. Piano Concerto \u2116 3 in C major, Op.26.\nSoloist Alexand\u0435r Malofeev. \nConductor Yannick N\u00E9zet-S\u00E9guin.\nPhiladelphia Orchestra.\nBeijing. National Centre for the Performing Arts.\n20/05/2019\n\n\u0421.\u0421. \u041F\u0440\u043E\u043A\u043E\u0444\u044C\u0435\u0432.  \u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u0434\u043B\u044F \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E \u0441 \u043E\u0440\u043A\u0435\u0441\u0442\u0440\u043E\u043C \u21163.\n\u0421\u043E\u043B\u0438\u0441\u0442 \u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440 \u041C\u0430\u043B\u043E\u0444\u0435\u0435\u0432.\n\u0414\u0438\u0440\u0438\u0436\u0435\u0440 \u042F\u043D\u043D\u0438\u043A \u041D\u0435\u0437\u0435-\u0421\u0435\u0433\u0435\u043D.\n\u0424\u0438\u043B\u0430\u0434\u0435\u043B\u044C\u0444\u0438\u0439\u0441\u043A\u0438\u0439 \u043E\u0440\u043A\u0435\u0441\u0442\u0440.\n\u041F\u0435\u043A\u0438\u043D. \u041D\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u0446\u0435\u043D\u0442\u0440 \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0445 \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432.\n20/05/2019",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 2,
+			"PublishedAtRaw": "2025-08-23T11:41:35Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:41:35+00:00",
+			"PublishedAt": "2025-08-23T17:11:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "guLUZVl6tvs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/guLUZVl6tvs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/guLUZVl6tvs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/guLUZVl6tvs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/guLUZVl6tvs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/guLUZVl6tvs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Alexander Malofeev / Yannick N\u00E9zet-S\u00E9guin  --  S. Prokofiev. Piano Concerto \u2116 3",
+			"VideoOwnerChannelId": "UCMzMYfjhZsnmCQ7kGA4q_nA",
+			"VideoOwnerChannelTitle": "Alexander Malofeev"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "wcCamtD5ufs",
+			"VideoPublishedAtRaw": "2017-03-02T13:10:51Z",
+			"VideoPublishedAtDateTimeOffset": "2017-03-02T13:10:51+00:00",
+			"VideoPublishedAt": "2017-03-02T18:40:51+05:30"
+		},
+		"ETag": "hzYTpDSYkiGUt_WNtvQiDCJWWII",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton Bruckner\nSymphony n.9 in D minor\n\nYannick N\u00E9zet-S\u00E9guin\nWiener Philharmoniker (Vienna Philharmonic)\n14/6/2016, Musikverein, live recording\n\nEnjoy!",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 3,
+			"PublishedAtRaw": "2025-08-23T11:43:01Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:43:01+00:00",
+			"PublishedAt": "2025-08-23T17:13:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "wcCamtD5ufs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/wcCamtD5ufs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/wcCamtD5ufs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/wcCamtD5ufs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/wcCamtD5ufs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Anton Bruckner - Symphony n.9 - N\u00E9zet-S\u00E9guin - Wiener Philharmoniker",
+			"VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+			"VideoOwnerChannelTitle": "Soffronitsky"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WwNLguYEqqg",
+			"VideoPublishedAtRaw": "2019-12-18T13:30:02Z",
+			"VideoPublishedAtDateTimeOffset": "2019-12-18T13:30:02+00:00",
+			"VideoPublishedAt": "2019-12-18T19:00:02+05:30"
+		},
+		"ETag": "PleyCjp6c-zPvvehLvbs2NjOzbw",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Arthur De Greef (1862-1940)\nConcerto N\u00BA 2 in B minor for Piano and Orchestra\n#1. Angoisse - Agitato - 00:00\n#2. S\u00E9paration: lento ma non troppo - 11:53\n#3. Sursum Corda: con moto ed energico - 17:25\nArtur Pizarro (Piano)\nFlemish Radio Orchestra\nYannick N\u00E9zet-S\u00E9guin (Conductor)\nI do not try to profit at all with these videos. I do not want to harm anyone. The composer, the publisher, or the corresponding persons can claim and dispose of their rights of execution at any time or request the elimination of this material.\nYo no intento lucrar en absoluto con estos videos. No deseo perjudicar a nadie. El compositor, la editorial, o las personas correspondientes pueden reclamar y disponer de sus derechos de ejecuci\u00F3n en cualquier momento o solicitar la eliminaci\u00F3n de este material.",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 4,
+			"PublishedAtRaw": "2025-08-23T11:47:36Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:47:36+00:00",
+			"PublishedAt": "2025-08-23T17:17:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WwNLguYEqqg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WwNLguYEqqg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WwNLguYEqqg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WwNLguYEqqg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WwNLguYEqqg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WwNLguYEqqg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Arthur De Greef (1862-1940) - Concerto N\u00BA 2 in B minor for Piano and Orchestra",
+			"VideoOwnerChannelId": "UCJG5ex3LH8wgDu70ql_OPVw",
+			"VideoOwnerChannelTitle": "Roberto Pintos Cadillac"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "zb4I5y-T9Uo",
+			"VideoPublishedAtRaw": "2024-06-14T14:39:39Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-14T14:39:39+00:00",
+			"VideoPublishedAt": "2024-06-14T20:09:39+05:30"
+		},
+		"ETag": "EfnVB_9IMfrR8Yd5Q7toCMyD-mQ",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Strauss\nDer Rosenkavalier, suite, op. 59 \n(The Rose-Bearer, suite, op. 59) ~ first version ~\n\nBavarian Radio Symphony Orchestra\nYannick N\u00E9zet-S\u00E9guin, conductor\n\nRecorded live on 31.07.2019\nat the Royal Albert Hall, London",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 5,
+			"PublishedAtRaw": "2025-08-23T11:42:57Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:42:57+00:00",
+			"PublishedAt": "2025-08-23T17:12:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zb4I5y-T9Uo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bavarian Radio Symphony Orchestra - R. Strauss - Der Rosenkavalier, suite, op. 59 ~ first version ~",
+			"VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+			"VideoOwnerChannelTitle": "Grande Valse Viennoise"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "rSLRTI05yHY",
+			"VideoPublishedAtRaw": "2025-03-10T05:20:13Z",
+			"VideoPublishedAtDateTimeOffset": "2025-03-10T05:20:13+00:00",
+			"VideoPublishedAt": "2025-03-10T10:50:13+05:30"
+		},
+		"ETag": "CjeFjWfDkttCpJNQ8D32JYYsCrM",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "2024/09/28\nMarian Anderson Hall, Kimmel Center for the Performing Arts, Pennsylvania \uD83C\uDDFA\uD83C\uDDF8\n\nPiano - Seong-Jin Cho \nConductor - Yannick N\u00E9zet-S\u00E9guin \nThe Philadelphia Orchestra \n\n\nBeethoven - Piano Concerto No.2 in B flat major, Op.19 (1793)\n00:00 i. Allegro con brio \n13:50 ii. Adagio\n22:33 iii.Rondo: molto allegro \n\n30:05 Encore: Haydn Sonata in E minor, Hob.XVI:34 III. Molto vivace\n\n\n\n#\uC870\uC131\uC9C4 #seongjincho #yannickn\u00E9zets\u00E9guin #philorch #beethoven",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 6,
+			"PublishedAtRaw": "2025-08-23T11:44:14Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:44:14+00:00",
+			"PublishedAt": "2025-08-23T17:14:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rSLRTI05yHY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rSLRTI05yHY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rSLRTI05yHY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rSLRTI05yHY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/rSLRTI05yHY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Piano Concerto No.2 in B flat major, Op.19 by Seong-Jin Cho",
+			"VideoOwnerChannelId": "UCF349Qw_rMid8jhMc29tUEA",
+			"VideoOwnerChannelTitle": " Impressions"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Poe7kur4rsI",
+			"VideoPublishedAtRaw": "2016-12-23T10:07:27Z",
+			"VideoPublishedAtDateTimeOffset": "2016-12-23T10:07:27+00:00",
+			"VideoPublishedAt": "2016-12-23T15:37:27+05:30"
+		},
+		"ETag": "MqV5zcV0d0tjIb-FFfzSMILxMSU",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Het Rotterdams Philharmonisch Orkest o.l.v. Yannick N\u00E9zet-S\u00E9guin speelt Beethovens \u0027Achtste symfonie\u0027.\n\nOpname: vrijdag 16 december 2016 in De Doelen in Rotterdam.\n\nMeer AVROTROS Klassiek?\nFacebook: https://www.facebook.com/AVROTROS.Klassiek\nTwitter: https://twitter.com/klassiekonline\nInstagram: https://www.instagram.com/avrotrosklassiek/",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 7,
+			"PublishedAtRaw": "2025-08-23T11:45:39Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:45:39+00:00",
+			"PublishedAt": "2025-08-23T17:15:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Poe7kur4rsI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Poe7kur4rsI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Poe7kur4rsI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Poe7kur4rsI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Poe7kur4rsI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Poe7kur4rsI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Symphony No. 8 - Rotterdam Philharmonic Orchestra - Live concert HD",
+			"VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
+			"VideoOwnerChannelTitle": "AVROTROS Klassiek"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Ci3ho1JJm4Q",
+			"VideoPublishedAtRaw": "2020-08-21T13:25:11Z",
+			"VideoPublishedAtDateTimeOffset": "2020-08-21T13:25:11+00:00",
+			"VideoPublishedAt": "2020-08-21T18:55:11+05:30"
+		},
+		"ETag": "S61Nj85ZDPLiw8ttoVDghqN5OVA",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms\n\nPiano Concerto No. 2 in B-flat major, Op. 83\n[0:00] 1. Allegro non troppo\n[18:55] 2. Allegro appassionato\n[28:12] 3. Andante\n[40:17] 4. Allegretto grazioso - [47:47] Un poco pi\u00F9 presto\n\n\n\n\n\nH\u00E9l\u00E8ne Grimaud, piano\nYannick N\u00E9zet-S\u00E9guin, conductor\nPhiladelphia Orchestra\n\n\n\nMarch 3, 2016\nPhiladelphia, Verizon Hall\n\n#H\u00E9l\u00E8neGrimaud #YannickN\u00E9zetS\u00E9guin #PhiladelphiaOrchestra #Brahms #Live",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 8,
+			"PublishedAtRaw": "2025-08-23T11:42:17Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:42:17+00:00",
+			"PublishedAt": "2025-08-23T17:12:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Ci3ho1JJm4Q"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Ci3ho1JJm4Q/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Ci3ho1JJm4Q/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Ci3ho1JJm4Q/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Ci3ho1JJm4Q/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms: Piano Concerto No. 2, Op. 83 / H\u00E9l\u00E8ne Grimaud; Yannick N\u00E9zet-S\u00E9guin: PhilOrch (2016.3.3)",
+			"VideoOwnerChannelId": "UC9au97pbEBBP3Y1CQcvTDJQ",
+			"VideoOwnerChannelTitle": "Jun Kumazawa"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "r55ozIuq0w4",
+			"VideoPublishedAtRaw": "2016-12-23T16:00:05Z",
+			"VideoPublishedAtDateTimeOffset": "2016-12-23T16:00:05+00:00",
+			"VideoPublishedAt": "2016-12-23T21:30:05+05:30"
+		},
+		"ETag": "DhL6f4lM-qeAIzilvPZOCfev5jQ",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Het Rotterdams Philharmonisch Orkest o.l.v. Yannick N\u00E9zet-S\u00E9guin speelt met violiste Ye-Eun Choi het \u0027Vioolconcert nr. 1\u0027 van Max Bruch.\n\nOpname: vrijdag 16 december 2016 in De Doelen in Rotterdam.\n\nMeer AVROTROS Klassiek?\nFacebook: https://www.facebook.com/AVROTROS.Klassiek\nTwitter: https://twitter.com/klassiekonline\nInstagram: https://www.instagram.com/avrotrosklassiek/",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 9,
+			"PublishedAtRaw": "2025-08-23T11:46:09Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:46:09+00:00",
+			"PublishedAt": "2025-08-23T17:16:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "r55ozIuq0w4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/r55ozIuq0w4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/r55ozIuq0w4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/r55ozIuq0w4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/r55ozIuq0w4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruch: Violin Concerto No. 1 - Rotterdam Philharmonic Orchestra and Ye-Eun Choi - Live concert HD",
+			"VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
+			"VideoOwnerChannelTitle": "AVROTROS Klassiek"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "J3ljm1isKa4",
+			"VideoPublishedAtRaw": "2017-02-12T22:13:51Z",
+			"VideoPublishedAtDateTimeOffset": "2017-02-12T22:13:51+00:00",
+			"VideoPublishedAt": "2017-02-13T03:43:51+05:30"
+		},
+		"ETag": "vtSUyJkeo4KL0IbuXnnY7Ce1o_0",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Lisa Batiashvili \u2013 Dvo\u0159\u00E1k: Violin Concerto in A minor, op. 53 Lisa Batiashvili, violin hr-Sinfonieorchester (Frankfurt Radio Symphony) Conductor: Paavo J\u00E4rvi .\r\n\r\nFull-length concert: Anton\u00EDn Dvo\u0159\u00E1k: Violin Concerto in A minor, Op. 53 (3rd movt) / Lisa .\r\n\r\nLisa Batiashvili \u2013 Dvo\u0159\u00E1k: Violin Concerto in A minor, op. 53 Lisa Batiashvili, violin hr-Sinfonieorchester (Frankfurt Radio Symphony) Conductor: Paavo J\u00E4rvi .\r\n\r\nAntonin Dvorak - Violin Concerto in A Minor, Op.53 I. Allegro ma non troppo (00:21) II. Adagio ma non troppo (11:22) \u0130. Allegro giocoso, ma non troppo (21:24) .",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 10,
+			"PublishedAtRaw": "2025-08-23T11:45:34Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:45:34+00:00",
+			"PublishedAt": "2025-08-23T17:15:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "J3ljm1isKa4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/J3ljm1isKa4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/J3ljm1isKa4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/J3ljm1isKa4/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k: Violin Concerto / Batiashvili \u00B7 N\u00E9zet-S\u00E9guin \u00B7 Berliner Philharmoniker",
+			"VideoOwnerChannelId": "UCODs8QvkHuyVL0nxVP8iU8w",
+			"VideoOwnerChannelTitle": "Saetine"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "08IFztal52Y",
+			"VideoPublishedAtRaw": "2024-06-24T12:58:32Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-24T12:58:32+00:00",
+			"VideoPublishedAt": "2024-06-24T18:28:32+05:30"
+		},
+		"ETag": "UmornYIXS58aftwM_AM151Iy284",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Joseph Haydn \nSinfonie e-Moll Hoboken-Verzeichnis I:44, \u201ETrauersinfonie\u201C\nSymphony No 44 in E minor, \u0022Mourning\u0022\nYannick N\u00E9zet--Seguin COE\n1. Allegro con brio, 4/4 0:12\n2. Menuetto: Allegretto, 3/4 6:45\n3. Adagio, 2/4 12:20\n4. Finale: Presto, 2/2 19:55\nThe Symphony No. 44 in E minor, Hoboken 1/44, was completed in 1772 by Joseph Haydn. It is popularly known as Trauer (English: Mourning). Late in life, Haydn asked for the slow movement of this symphony to be played at his funeral.",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 11,
+			"PublishedAtRaw": "2025-08-23T11:42:08Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:42:08+00:00",
+			"PublishedAt": "2025-08-23T17:12:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "08IFztal52Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/08IFztal52Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/08IFztal52Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/08IFztal52Y/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/08IFztal52Y/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/08IFztal52Y/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn Symphony No 44 in E minor \u201ETrauersinfonie\u201C Yannick N\u00E9zet--Seguin",
+			"VideoOwnerChannelId": "UCufhbfUWt6Gj1BIk7MMNZFg",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Mozart \u0026 Classicism"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "d9_FvWCivZQ",
+			"VideoPublishedAtRaw": "2024-11-01T07:37:18Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-01T07:37:18+00:00",
+			"VideoPublishedAt": "2024-11-01T13:07:18+05:30"
+		},
+		"ETag": "BBJyinprwENvTZvWGV0dAMEY41A",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Staatskapelle Dresden cond. by Yannick N\u00E9zet-S\u00E9guin\n00:00 - I. Allegrament\n09:07 - II. Adagio assai\n19:06 - III. Presto\nrec. 24 October 2006, Semperoper Dresden\nbroadcast live recording",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 12,
+			"PublishedAtRaw": "2025-08-23T11:38:50Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:38:50+00:00",
+			"PublishedAt": "2025-08-23T17:08:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "d9_FvWCivZQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/d9_FvWCivZQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/d9_FvWCivZQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/d9_FvWCivZQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/d9_FvWCivZQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/d9_FvWCivZQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Kirill Gerstein(Piano) -  Ravel : Piano Concerto in G (2006- Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vtIioNKC9e8",
+			"VideoPublishedAtRaw": "2025-01-07T23:42:47Z",
+			"VideoPublishedAtDateTimeOffset": "2025-01-07T23:42:47+00:00",
+			"VideoPublishedAt": "2025-01-08T05:12:47+05:30"
+		},
+		"ETag": "dqXmF48e6MEYvPrASR7YdKH5ftk",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Lang Lang, Chick Corea, and Maxim Lando play George Gershwin\u2019s Rhapsody In Blue with Yannick N\u00E9zet-S\u00E9guin conducting the Philadelphia Orchestra (no video)\n\nLink to whole concert (includes interviews with Chick and Lang Lang): https://www.wqxr.org/story/carnegie-hall-opens-season-music-broadcast-gershwin-and-bernstein/\n\nConcert Program:\n\nThis Summer, WQXR lets you relive highlights from our past season at Carnegie Hall. On Wednesday Oct. 4, WQXR broadcast the Carnegie Hall season opener with the music of Gershwin\u0027s Rhapsody in Blue and Bernstein\u0027s symphonic arrangements of his music for On the Waterfront and West Side Story. Featured soloists are pianists Lang Lang and Chick Corea, as well as 14-year-old Maxim Lando. The young pianist joined in on a two-piano arrangement of Rhapsody. Specifically, he played the left-hand part for Lang Lang, who was battling inflammation in his left arm. \n\nJeff Spurgeon and John Schaefer were the evening\u0027s hosts. Share your thoughts during the broadcast using #CHLive.\n\nListen to the archive of the concert above.\n\nProgram:\n\nLeonard Bernstein: On the Waterfront Symphonic Suite\nGeorge Gershwin: Rhapsody in Blue\nLeonard Bernstein: Symphonic Dances from West Side Story\n\nThe Philadelphia Orchestra\nYannick N\u00E9zet-S\u00E9guin, Music Director and Conductor\nLang Lang, Piano\nChick Corea, Piano\nMaxim Lando, Piano\n\nI don\u2019t own the rights to this content. I only put this up because I was looking for a recording of the 2 legends, Lang Lang and Chick Corea (as well as the rising star Maxim Lando) playing together and it took a little digging to actually find it so I thought I\u2019d put it on YouTube to make it more accessible! Huge thanks to WQXR for recording, documenting, and making this performance public for free!",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 13,
+			"PublishedAtRaw": "2025-08-23T11:46:22Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:46:22+00:00",
+			"PublishedAt": "2025-08-23T17:16:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vtIioNKC9e8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vtIioNKC9e8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vtIioNKC9e8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vtIioNKC9e8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vtIioNKC9e8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Lang Lang, Chick Corea, Maxim Lando play Gershwin\u2019s Rhapsody In Blue conducted by Y. N\u00E9zet-S\u00E9guin",
+			"VideoOwnerChannelId": "UC0eObm__v8nd0IM4CP40NVA",
+			"VideoOwnerChannelTitle": "The Jazz Documenter"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "W8YsFkhEIog",
+			"VideoPublishedAtRaw": "2023-10-16T10:43:41Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-16T10:43:41+00:00",
+			"VideoPublishedAt": "2023-10-16T16:13:41+05:30"
+		},
+		"ETag": "7ESMbLmm_hZt-0Du4BStEDWQYhI",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Daniil Trifonov @daniiltrifonov \nPhiladelphia Orchestra @ThePhiladelphiaOrchestra / Yannick N\u00E9zet-S\u00E9guin - \nFranz Liszt: Piano Concerto No. 1 in E-flat Major, S. 124 (1849)  \n\n00:00 Allegro maestoso \n06:00 Quasi adagio \n11:19 Allegretto vivace - Allegro animato \n15:26 Allegro marziale animato \n\n19:23 Applause \n\n21:41 [Encore] Johann Sebastian Bach: Cantata BWV147 \u0027Herz und Mund und Tat und Leben,\u0027 Jesu, Joy of Man\u2019s Desiring (Transcr. Myra Hess for Piano) \n\n25:17 Applause \n\n26:57 Daniil testing the piano before his performance  \n27:20 Yannick N\u00E9zet-S\u00E9guin talks about Daniil \n\nIsaac Stern Auditorium / Ronald O. Perelman Stage at Carnegie Hall, New York, USA \nSep. 29, 2022 \nCarnegie Hall\u0027s Opening Night of the 132nd Season \n@carnegiehall \n\nLive broadcast on WQXR \n(www.wqxr.org/story/opening-night-gala-2022-2023-season/?tab=summary) \n\nOussama Zahr\u0027s review: \n\n\u0022[...] Trifonov\u2019s passagework had a hard glare, and he lined up chords neatly like punctuation marks. Liszt threw down a gauntlet with 19 straight bars of trills in a piece already rife with difficulty, and Trifonov kept it sparking and spinning. It\u2019s a miracle he has any fingerprints left. His scherzo had a wonderfully light air about it. [...]\u0022 \n\n\uD83D\uDD17 www.nytimes.com/2022/09/30/arts/music/philadelphia-orchestra-carnegie-hall-review.html  \n\nRick Perdian\u2019s review:\n\n\u0022[...] But if one is to lose the thread, who better to lose it with than the poetic young Russian pianist, with his massive fortes, dreamy pianissimos and stretchy rubato? In the spirit of a piece the composer himself called a fantasy, Trifonov\u2019s imaginative playing sustained interest throughout, and seemed to inspire the orchestra as well. [...]\u0022 \n\n\uD83D\uDD17seenandheard-international.com/2022/10/the-philadelphia-orchestra-and-daniil-trifonov-shine-in-carnegie-halls-season-opener/\n\nDavid Wright\u2019s review:\n\n\u0022[...] Pianist Daniil Trifonov was the embodiment of a Romantic artist with flowing hair and open-collared shirt. At times he leapt off the piano bench as he dispatched the concerto\u2019s formidable technical challenges with passion and virtuosity. It was just as exhilarating to watch him play the thundering octaves, intricate ornamentations and sweeping arpeggios. [...]\u0022 \n\n\uD83D\uDD17 newyorkclassicalreview.com/2022/09/philadelphians-open-carnegie-season-in-high-yannick-mode-with-brash-ravel-fantastic-liszt \n \n#DaniilTrifonov \n#PhiladelphiaOrchestra \n#YannickNezetSeguin \n#YannickN\u00E9zetS\u00E9guin \n#Liszt \n#FranzLiszt \n#LisztPianoConcerto \n#PianoConcerto \n#CarnegieHall \n#WQXR  \n#JeffSpurgeon \n#JohnSchaefer \n#Radio",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 14,
+			"PublishedAtRaw": "2025-08-23T11:45:20Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:45:20+00:00",
+			"PublishedAt": "2025-08-23T17:15:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "W8YsFkhEIog"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/W8YsFkhEIog/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/W8YsFkhEIog/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/W8YsFkhEIog/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/W8YsFkhEIog/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/W8YsFkhEIog/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt, Piano Concerto No. 1",
+			"VideoOwnerChannelId": "UCXZZBKLQ-u5EvnImp4viijg",
+			"VideoOwnerChannelTitle": "Daniil Trifonov Fan"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "YMN_DWY9RX8",
+			"VideoPublishedAtRaw": "2016-04-25T10:13:29Z",
+			"VideoPublishedAtDateTimeOffset": "2016-04-25T10:13:29+00:00",
+			"VideoPublishedAt": "2016-04-25T15:43:29+05:30"
+		},
+		"ETag": "O8TrEnFonEn2aPQGgqyNxu8bXLs",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ervaar de grootsheid van Mahler\u0027s Tiende Symfonie in de prachtige uitvoering door het Rotterdams Philharmonisch Orkest, gedirigeerd door Yannick N\u00E9zet-S\u00E9guin, met de indrukwekkende mezzosopraan C\u00E9cile van de Sant. \n\n0:02 : 1 Adagio\n26:09 : 2 Scherzo I\n38:29 : 3 Purgatorio\n43:11 : 4 Scherzo II\n55:08 : 5 Finale\n\nAbonneer op dit kanaal: https://bit.ly/3FGTYP6 \n\nBekijk hier alle Concert video\u2019s: https://www.youtube.com/playlist?list=PL46E0820B6B18F367 \n\n----------\nWelkom op het kanaal van NPO Klassiek, h\u00E9t publieke platform voor klassieke muziek in de volle breedte: radio, podcasts, (live-)concerten, video\u0027s, muzieknieuws en speellijsten. NPO Klassiek is een gids voor iedereen die van klassieke muziek houdt of het wil leren kennen. Onder de nieuwe vlag blijven de bestaande programma\u2019s te horen die aansluiten op de dynamiek van de dag.\n\n----------\n\uD83C\uDFBC Ontdek meer van NPO Klassiek op onze website, socials en app!\n\u25BA Website: https://www.npoklassiek.nl\n\u25BA Instagram: https://www.instagram.com/npoklassiek\n\u25BA Facebook: https://www.facebook.com/npoklassiek\n\u25BA App iOS: https://apps.apple.com/nl/app/npo-klassiek/id356569274\n\u25BA App Android: https://play.google.com/store/apps/details?id=nl.omroep.npo.radio4\u0026hl=nl\n\n#npoklassiek #Mahler #mahlersymfonie #classicalmusic #klassiekemuziek",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 15,
+			"PublishedAtRaw": "2025-08-23T11:41:12Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:41:12+00:00",
+			"PublishedAt": "2025-08-23T17:11:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "YMN_DWY9RX8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/YMN_DWY9RX8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/YMN_DWY9RX8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/YMN_DWY9RX8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/YMN_DWY9RX8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/YMN_DWY9RX8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler - Symfonie nr. 10 - Yannick N\u00E9zet-S\u00E9guin | Concert",
+			"VideoOwnerChannelId": "UC52Ddf8E5GaGZBevLUM7PHw",
+			"VideoOwnerChannelTitle": "NPO Klassiek"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "K-Pwh5Y5z14",
+			"VideoPublishedAtRaw": "2019-02-08T09:09:20Z",
+			"VideoPublishedAtDateTimeOffset": "2019-02-08T09:09:20+00:00",
+			"VideoPublishedAt": "2019-02-08T14:39:20+05:30"
+		},
+		"ETag": "L1oaVT3yC-kri1lxuVOSEbWE3vs",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahlers Symphonie Nr. 1 in D-Dur, gespielt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Yannick N\u00E9zet-S\u00E9guin. Live aufgenommen im Jahr 2014. Eine Produktion von BR-KLASSIK.\n\nGustav Mahler\u0027s Symphony No. 1 in D major, performed by the Bavarian Radio Symphony Orchestra under the direction of Yannick N\u00E9zet-S\u00E9guin. Recorded live in 2014. A production of BR-KLASSIK.\n\nGustav Mahler - Symphonie Nr. 1 in D-Dur\n\nI. Langsam. Schleppend. Wie ein Naturlaut \u2013 Im Anfang sehr gem\u00E4chlich\nII. Kr\u00E4ftig bewegt, doch nicht zu schnell\nIII. Feierlich und gemessen, ohne zu schleppen\nIV. St\u00FCrmisch bewegt\n\nDie Symphonie Nr. 1 von Gustav Mahler stie\u00DF anfangs auf sehr kritische Ohren. Zu grell und rei\u00DFerisch waren die ironischen, karikierenden musikalischen Effekte, zu fremd die Gegens\u00E4tze von Triumph und Depression. Da half auch das als Erl\u00E4uterung gedachte, in den folgenden Auff\u00FChrungen beigelegte Programm Mahlers nicht. Er gab dabei seiner Symphonie den Namen \u0022Titan\u0022, in Anlehnung an Jean Pauls Roman. Doch das Publikum verstand diese sehr pittoresken Hinweise zu w\u00F6rtlich, worauf Mahler davon schnell wieder Abstand nahm. Heute geh\u00F6rt Mahlers Erste zu den monumentalsten und beliebtesten Werken in den Konzerts\u00E4len weltweit. \nDas Symphonieorchester des Bayerischen Rundfunks f\u00FChrte Gustav Mahlers Symphonie Nr. 1 am 27. Juni 2014 im M\u00FCnchner Herkulessaal auf. Die Leitung hatte der kanadische Dirigent Yannick N\u00E9zet-S\u00E9guin.\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Yannick N\u00E9zet-S\u00E9guin\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 16,
+			"PublishedAtRaw": "2025-08-23T11:41:06Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:41:06+00:00",
+			"PublishedAt": "2025-08-23T17:11:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "K-Pwh5Y5z14"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/K-Pwh5Y5z14/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/K-Pwh5Y5z14/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/K-Pwh5Y5z14/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/K-Pwh5Y5z14/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/K-Pwh5Y5z14/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler - Symphonie Nr. 1 | Yannick N\u00E9zet-S\u00E9guin | BRSO",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "hGQC_H_uWYw",
+			"VideoPublishedAtRaw": "2024-07-22T06:14:37Z",
+			"VideoPublishedAtDateTimeOffset": "2024-07-22T06:14:37+00:00",
+			"VideoPublishedAt": "2024-07-22T11:44:37+05:30"
+		},
+		"ETag": "NCgZ3eD81B6PmQIvuE3LS7L533Q",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Nicholas Angelich, Piano\nYannick N\u00E9zet-S\u00E9guin cond. / Chamber Orchestra of Europe\nI. Allegro affettuoso 00:00 \u2219\nII. Intermezzo. Andantino grazioso 16:21 \u2219\nIII. Allegro vivace  21:35\nrec. 4 November 2012\nbroadcast recording, Cit\u00E9 de la Musique, Paris",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 17,
+			"PublishedAtRaw": "2025-08-23T11:40:08Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:40:08+00:00",
+			"PublishedAt": "2025-08-23T17:10:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "hGQC_H_uWYw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/hGQC_H_uWYw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/hGQC_H_uWYw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/hGQC_H_uWYw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/hGQC_H_uWYw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nicholas Angelich - Schumann : Piano Concerto a-moll Op.54 (2012-Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vCXaPxeSkkI",
+			"VideoPublishedAtRaw": "2013-11-07T05:44:17Z",
+			"VideoPublishedAtDateTimeOffset": "2013-11-07T05:44:17+00:00",
+			"VideoPublishedAt": "2013-11-07T11:14:17+05:30"
+		},
+		"ETag": "iBaMryfRULtTwKtImiCRiztzFF8",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nSergei Prokofiev\nSymphony No 5 in B flat major, Op 100\n\n1 Andante\n2 Allegro marcato\n3 Adagio\n4 Allegro giocoso\n\nRotterdam Philharmonic Orchestra\nYannick N\u00E9zet-S\u00E9guin, conductor\n\nLive recording, London, Proms 2013",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 18,
+			"PublishedAtRaw": "2025-08-23T11:42:45Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:42:45+00:00",
+			"PublishedAt": "2025-08-23T17:12:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vCXaPxeSkkI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vCXaPxeSkkI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vCXaPxeSkkI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vCXaPxeSkkI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vCXaPxeSkkI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vCXaPxeSkkI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Prokofiev - Symphony No 5 in B flat major, Op 100 - N\u00E9zet-S\u00E9guin",
+			"VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+			"VideoOwnerChannelTitle": "Classical Vault 1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8voY7zPCzGs",
+			"VideoPublishedAtRaw": "2019-05-21T09:02:52Z",
+			"VideoPublishedAtDateTimeOffset": "2019-05-21T09:02:52+00:00",
+			"VideoPublishedAt": "2019-05-21T14:32:52+05:30"
+		},
+		"ETag": "QeGTlS35UTJPoPICdvB9m13hJ_A",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mackenzie Melemed performs Rachmaninoff\u0027s Rhapsody on a Theme of Paganini, Op.43 with The Philadelphia Orchestra and Yannick Nezet-Seguin at the grand finals of the 1st China International Music Competition. May 20, 2019 at The National Center for Performing Arts Beijing.",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 19,
+			"PublishedAtRaw": "2025-08-23T11:41:54Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:41:54+00:00",
+			"PublishedAt": "2025-08-23T17:11:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8voY7zPCzGs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8voY7zPCzGs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8voY7zPCzGs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8voY7zPCzGs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8voY7zPCzGs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Rachmaninoff - Rhapsody on a Theme of Paganini Op.43 (Melemed/N\u00E9zet-S\u00E9guin/Philadelphia Orchestra)",
+			"VideoOwnerChannelId": "UCJ2pV_x8-p3pYGuJGHU-2Cg",
+			"VideoOwnerChannelTitle": "Mackenzie Melemed"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "IFzCuydNyFk",
+			"VideoPublishedAtRaw": "2024-07-18T10:57:24Z",
+			"VideoPublishedAtDateTimeOffset": "2024-07-18T10:57:24+00:00",
+			"VideoPublishedAt": "2024-07-18T16:27:24+05:30"
+		},
+		"ETag": "98M1oc4jlMVftQnaOpGotMwi-SY",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Renaud Capu\u00E7on, Violin\nYannick N\u00E9zet-S\u00E9guin cond. / Chamber Orchestra of Europe\n(00:00) Vigoroso, ma non troppo presto\n(13:38) Lento\n(19:34) Animato, ma non presto\nrec. 3 November 2012\nbroadcast recording, Cit\u30FBde la Musique, Paris",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 20,
+			"PublishedAtRaw": "2025-08-23T11:40:02Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:40:02+00:00",
+			"PublishedAt": "2025-08-23T17:10:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "IFzCuydNyFk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/IFzCuydNyFk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/IFzCuydNyFk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/IFzCuydNyFk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/IFzCuydNyFk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Renaud Capu\u00E7on -  Schumann : Violin Concerto d-moll (2012-Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "rk_qun2DSKA",
+			"VideoPublishedAtRaw": "2022-10-28T08:58:25Z",
+			"VideoPublishedAtDateTimeOffset": "2022-10-28T08:58:25+00:00",
+			"VideoPublishedAt": "2022-10-28T14:28:25+05:30"
+		},
+		"ETag": "n_ElV4iytzOnUnTCTn9adW4GciM",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robin de Raaff (1968): Cello Concerto (2010-2013)\nOrchestra: 2 fl, 2 ob, 2 cl, bcl, 2 fag, cfag, 4 hrns, 2 tr, 2 trbn, tub, perc, pf, arp, vl I, vl II, Vle, Vlc, Cb\n\nCommissioned by the Rotterdam Philharmonic Orchestra and the Fund for the Performing Arts\nDedicated to Marien van Staalen and Yanick N\u00E9zet-S\u00E9guin\n\nWorld premiere: dedicatees, May 17, 2013, Rotterdam\n(with Ravel - La valse, Stravinsky - Le sacre du printemps)\nwww.cultura.nl/speel.POMS_NTR_705141.html\nzondagmiddagconcert.radio4.nl/uitzending\u2026-2013.html\n\nwww.robinderaaff.com\nwww.deussmusic.com/componisten/raaff\nnl.wikipedia.org/wiki/Robin_de_Raaff\n\nRecording made available by the composer.",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 21,
+			"PublishedAtRaw": "2025-08-23T11:50:24Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:50:24+00:00",
+			"PublishedAt": "2025-08-23T17:20:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rk_qun2DSKA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rk_qun2DSKA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rk_qun2DSKA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/rk_qun2DSKA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rk_qun2DSKA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/rk_qun2DSKA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Robin de Raaff - Cello Concerto",
+			"VideoOwnerChannelId": "UCAw4mzf6nwK4Ih5FPZbG6nA",
+			"VideoOwnerChannelTitle": "The Music of Robin de Raaff"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "a5PGq1Q3nEg",
+			"VideoPublishedAtRaw": "2018-11-19T06:35:59Z",
+			"VideoPublishedAtDateTimeOffset": "2018-11-19T06:35:59+00:00",
+			"VideoPublishedAt": "2018-11-19T12:05:59+05:30"
+		},
+		"ETag": "NCve0ArWGFBrR_cmCPor9hQZXwQ",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n\n---\n\nRobert Schumann\nSymphony No 1 in B-flat major, Op 38\n\nChamber Orchestra of Europe\nYannick N\u00E9zet-S\u00E9guin, conductor\n\nNovember 2012",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 22,
+			"PublishedAtRaw": "2025-08-23T11:49:23Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:49:23+00:00",
+			"PublishedAt": "2025-08-23T17:19:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "a5PGq1Q3nEg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/a5PGq1Q3nEg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/a5PGq1Q3nEg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/a5PGq1Q3nEg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/a5PGq1Q3nEg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/a5PGq1Q3nEg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Symphony No 1 in B-flat major, Op 38 - N\u00E9zet-S\u00E9guin",
+			"VideoOwnerChannelId": "UC9UkGZY5ezEfdBUG5wgZDdA",
+			"VideoOwnerChannelTitle": "Cantus 5"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VChno-dPejU",
+			"VideoPublishedAtRaw": "2016-01-12T08:17:41Z",
+			"VideoPublishedAtDateTimeOffset": "2016-01-12T08:17:41+00:00",
+			"VideoPublishedAt": "2016-01-12T13:47:41+05:30"
+		},
+		"ETag": "xLSk1MIaKwKpsxQa8YJ79NboWx4",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Schumann Cello Concerto \nLive from Paris Cit\u00E9 de la Musique 2 November 2012\nGautier Capucon, Yannick Nezet-Seguin, Chamber Orchestra of Europe COE\nwww.gautiercapucon.com",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 23,
+			"PublishedAtRaw": "2025-08-23T11:42:32Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:42:32+00:00",
+			"PublishedAt": "2025-08-23T17:12:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VChno-dPejU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VChno-dPejU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VChno-dPejU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VChno-dPejU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Schumann Cello Concerto Paris Gautier Capucon : Yannick Nezet Seguin   COE  2:11:12 2",
+			"VideoOwnerChannelId": "UCL2DRpL-MQ_vswhsyHzQJDg",
+			"VideoOwnerChannelTitle": "Gautier Capucon"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "FqgoechPAns",
+			"VideoPublishedAtRaw": "2022-09-03T13:42:54Z",
+			"VideoPublishedAtDateTimeOffset": "2022-09-03T13:42:54+00:00",
+			"VideoPublishedAt": "2022-09-03T19:12:54+05:30"
+		},
+		"ETag": "ZrW8AK6wV8RKsMqVVEy7MUx1JK8",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "14th International Tchaikovsky Competition \nRound 2  Phase 2\n\nMozart Concerto for Piano and Orchestra No. 20 in D minor, K.466\nPiano : Seong-Jin Cho (He was 17 years old, 3rd Prize)\nConductor : Alexey Utkin\n\nGreat Hall of the Moscow Conservatory,  June 24, 2011\n\n(Re-upload due to copyright issue)",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 24,
+			"PublishedAtRaw": "2025-08-23T11:44:44Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:44:44+00:00",
+			"PublishedAt": "2025-08-23T17:14:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "FqgoechPAns"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/FqgoechPAns/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/FqgoechPAns/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/FqgoechPAns/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/FqgoechPAns/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/FqgoechPAns/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Seong-Jin Cho - Mozart Piano Concerto No. 20 in D minor, K.466 (2011)",
+			"VideoOwnerChannelId": "UCLuGTD8qEhXlhc9CMIkl2rQ",
+			"VideoOwnerChannelTitle": "BlueRadio"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VtBDvGiYU3E",
+			"VideoPublishedAtRaw": "2022-03-18T13:06:30Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-18T13:06:30+00:00",
+			"VideoPublishedAt": "2022-03-18T18:36:30+05:30"
+		},
+		"ETag": "FBS7AwfMYyUFRbHOk_a1CiZoDSE",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "February 25, 2022 concert from Carnegie Hall.\n\nVienna Philharmonic Orchestra\nYannick N\u00E9zet-S\u00E9guin, conductor\nSeong-Jin Cho, piano\n\nSergei Rachmaninoff Piano Concerto No. 2, Op.18",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 25,
+			"PublishedAtRaw": "2025-08-23T11:45:12Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:45:12+00:00",
+			"PublishedAt": "2025-08-23T17:15:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VtBDvGiYU3E"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VtBDvGiYU3E/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VtBDvGiYU3E/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VtBDvGiYU3E/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/VtBDvGiYU3E/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Seong-jin Cho - Rachmaninoff Piano Concerto No.2, Op.18 / Vienna Philharmonic Orchestra",
+			"VideoOwnerChannelId": "UCGLAmNmVIhPZ6NpEMowKeQw",
+			"VideoOwnerChannelTitle": "Cho Rabbit"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "4PB3ZRjt2xY",
+			"VideoPublishedAtRaw": "2025-03-13T08:16:30Z",
+			"VideoPublishedAtDateTimeOffset": "2025-03-13T08:16:30+00:00",
+			"VideoPublishedAt": "2025-03-13T13:46:30+05:30"
+		},
+		"ETag": "jBLSC3wQwd7SoE0VBReogT4dobs",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "20240927-0929  2024-25 Season Opening Weekend\nMarian Anderson Hall, Kimmel Center for the Performing Arts, Philadelphia, PA, US\n\nPianist: Seong-Jin Cho\nPhiladelphia Orchestra\nConductor : Yannick N\u00E9zet-S\u00E9guin\n\nLudwig van Beethoven Piano Concerto No. 2 in B-flat major, Op. 19 \n00:01   I. Allegro con brio \n13:51  II. Adagio \n22:34 III. Rondo: Molto allegro\n28:51      Haydn Piano Sonata in E minor, Hob.XVI No.34 - III. Vivace molto (Encore)\n\n* Broadcasted on Mar 9, 2025 at  https://www.wrti.org/the-philadelphia-orchestra-in-concert/\n* You can replay this music at https://www.wrti.org/classical-archive-the-philadelphia-orchestra .\n\n\uD83D\uDCF7: instagram of minzookitty\n       instagram, facebook, x of primoartists, The Philadelphia Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 26,
+			"PublishedAtRaw": "2025-08-23T11:42:13Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:42:13+00:00",
+			"PublishedAt": "2025-08-23T17:12:13+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "4PB3ZRjt2xY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/4PB3ZRjt2xY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/4PB3ZRjt2xY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/4PB3ZRjt2xY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/4PB3ZRjt2xY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/4PB3ZRjt2xY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Seong-Jin Cho : Beethoven Piano Concerto No. 2 (20240927 Philadelphia)",
+			"VideoOwnerChannelId": "UCbuuWGqGgMoeF5tC4uMEatg",
+			"VideoOwnerChannelTitle": "Beautiful Life"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "wZ9ylqXldmI",
+			"VideoPublishedAtRaw": "2023-10-11T05:36:55Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-11T05:36:55+00:00",
+			"VideoPublishedAt": "2023-10-11T11:06:55+05:30"
+		},
+		"ETag": "rLDumLqSFeR15lnuBQR6Nz7VQ5E",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "20230119-20230121 Brahms\u2019s Piano Concerto No. 2\nKimmel Cultural Campus, Philadelphia, USA\n\nPianist: Seong-Jin Cho\nThe Philadelphia Orchestra\nConductor : Yannick N\u00E9zet-S\u00E9guin \n\n* PROGRAM \nBrahms Piano Concerto No. 2 in B-flat Major, Op. 83\n00:00   I. Allegro non troppo (\uBE60\uB974\uAC8C \uC9C0\uB098\uCE58\uC9C0 \uC54A\uAC8C)\n18:16  II. Allegro appassionato (\uBE60\uB974\uACE0 \uC5F4\uC815\uC801\uC73C\uB85C) \n27:07 III. Andante (\uB290\uB9AC\uAC8C)\n39:20 IV. Allegretto grazioso (\uC870\uAE08 \uBE60\uB974\uACE0 \uC6B0\uC544\uD558\uAC8C)\n\n49:04 Brahms Klavierstucke, op. 76 no.2, Capriccio in B minor (Encore)\n\n* Broadcasted from WRTI Radio on Oct 8, 2023\n   Recorded on Jan 21, 2023\n* You can listen again at the following link from timestamp 56:16 .\nhttps://www.wrti.org/classical-archive-the-philadelphia-orchestra-and-more\n\n\uD83D\uDCF7: Instagram, twitter, facebook of primoartists\n       minzookitty, https://www.facebook.com/jungtaesook",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 27,
+			"PublishedAtRaw": "2025-08-23T11:44:48Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:44:48+00:00",
+			"PublishedAt": "2025-08-23T17:14:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "wZ9ylqXldmI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/wZ9ylqXldmI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/wZ9ylqXldmI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/wZ9ylqXldmI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/wZ9ylqXldmI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/wZ9ylqXldmI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Seong-Jin Cho : Brahms Piano Concerto No. 2 in B-flat Major, Op. 83 (20230121 Philadelphia)",
+			"VideoOwnerChannelId": "UCbuuWGqGgMoeF5tC4uMEatg",
+			"VideoOwnerChannelTitle": "Beautiful Life"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "yFac54Qv5Lk",
+			"VideoPublishedAtRaw": "2025-03-30T21:12:47Z",
+			"VideoPublishedAtDateTimeOffset": "2025-03-30T21:12:47+00:00",
+			"VideoPublishedAt": "2025-03-31T02:42:47+05:30"
+		},
+		"ETag": "l8x75GJL9KBoRjMv4Uh_K2BvLxU",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1. \u0022Der Held\u0022 (The Hero)\n2. \u0022Des Helden Widersacher\u0022 (The Hero\u0027s Adversaries)\n3. \u0022Des Helden Gef\u00E4hrtin\u0022 (The Hero\u0027s Companion)\n4. \u0022Des Helden Walstatt\u0022 (The Hero at Battle)\n5. \u0022Des Helden Friedenswerke\u0022 (The Hero\u0027s Works of Peace)\n6. \u0022Des Helden Weltflucht und Vollendung\u0022 (The Hero\u0027s Retirement from this World and Completion)",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 28,
+			"PublishedAtRaw": "2025-03-30T22:14:47Z",
+			"PublishedAtDateTimeOffset": "2025-03-30T22:14:47+00:00",
+			"PublishedAt": "2025-03-31T03:44:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "yFac54Qv5Lk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/yFac54Qv5Lk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/yFac54Qv5Lk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/yFac54Qv5Lk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/yFac54Qv5Lk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/yFac54Qv5Lk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strauss - Ein Heldenleben, op. 40 | N\u00E9zet-S\u00E9guin - Wiener Philharmoniker - Albena Danailova",
+			"VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+			"VideoOwnerChannelTitle": "Soffronitsky"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "U5KGf4ilHks",
+			"VideoPublishedAtRaw": "2013-11-07T05:38:40Z",
+			"VideoPublishedAtDateTimeOffset": "2013-11-07T05:38:40+00:00",
+			"VideoPublishedAt": "2013-11-07T11:08:40+05:30"
+		},
+		"ETag": "xhBaK8nG-kpqbIeyFj-nmQE8Zlc",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nPyotr Ilyich Tchaikovsky\nRomeo and Juliet, Overture-Fantasy\n\nRotterdam Philharmonic Orchestra\nYannick N\u00E9zet-S\u00E9guin, conductor\n\nLive recording. London, Proms 2013",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 29,
+			"PublishedAtRaw": "2025-08-23T11:41:01Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:41:01+00:00",
+			"PublishedAt": "2025-08-23T17:11:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "U5KGf4ilHks"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/U5KGf4ilHks/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/U5KGf4ilHks/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/U5KGf4ilHks/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/U5KGf4ilHks/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/U5KGf4ilHks/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Romeo and Juliet, Overture-Fantasy - N\u00E9zet-S\u00E9guin",
+			"VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+			"VideoOwnerChannelTitle": "Classical Vault 1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "zKWYX5ohadQ",
+			"VideoPublishedAtRaw": "2020-03-15T05:21:39Z",
+			"VideoPublishedAtDateTimeOffset": "2020-03-15T05:21:39+00:00",
+			"VideoPublishedAt": "2020-03-15T10:51:39+05:30"
+		},
+		"ETag": "-ozPgDvjt-ogNlo---pTTcV1OW0",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "As The Philadelphia Orchestra suspended concerts and events in response to COVID-19, on Thursday, March 12 this special performance to an empty Verizon Hall was streamed live to audiences throughout the Philadelphia region and around the world.\n\nHabibi - Jeder Baum spricht\nBeethoven - Symphony Nos. 5 \u0026 6\n\nLearn more: https://www.philorch.org/",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 30,
+			"PublishedAtRaw": "2025-08-23T11:44:28Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:44:28+00:00",
+			"PublishedAt": "2025-08-23T17:14:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zKWYX5ohadQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zKWYX5ohadQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zKWYX5ohadQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zKWYX5ohadQ/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "The Philadelphia Orchestra: BeethovenNOW: Symphonies 5 \u0026 6",
+			"VideoOwnerChannelId": "UCFDAPHp97JRPFNT-CnTwKcg",
+			"VideoOwnerChannelTitle": "The Philadelphia Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "X8Hm8wYDGHo",
+			"VideoPublishedAtRaw": "2024-07-26T06:01:14Z",
+			"VideoPublishedAtDateTimeOffset": "2024-07-26T06:01:14+00:00",
+			"VideoPublishedAt": "2024-07-26T11:31:14+05:30"
+		},
+		"ETag": "KJZGvW-nwoZyS7XkXqCXC27rpPE",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Yannick N\u00E9zet-S\u00E9guin cond. / Chamber Orchestra of Europe\n00:00 - 1 Sostenuto assai - Allegro, ma non troppo\n11:08 - 2 Scherzo. Allegro vivace\n17:54 - 3 Adagio espressivo\n27:29 - 4 Allegro molto vivace\nrec. 4 November 2012\nbroadcast recording, Cit\u00E9 de la Musique, Paris",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 31,
+			"PublishedAtRaw": "2025-08-23T11:41:30Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:41:30+00:00",
+			"PublishedAt": "2025-08-23T17:11:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "X8Hm8wYDGHo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/X8Hm8wYDGHo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yannick N\u00E9zet S\u00E9guin - Schumann : Symphony No.2 C-Dur Op.61 (2012-Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "A0A_rCAtIeM",
+			"VideoPublishedAtRaw": "2021-10-07T08:32:48Z",
+			"VideoPublishedAtDateTimeOffset": "2021-10-07T08:32:48+00:00",
+			"VideoPublishedAt": "2021-10-07T14:02:48+05:30"
+		},
+		"ETag": "GhnbMfSWCx_ULRYE5-Up5XRjQO4",
+		"Id": "UEwxemdOQ29XdF83YnlIUTItZDgtSTI2c0ZXdG9iWWxOLS45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Philadelphia Orchestra conducted by Yannick N\u00E9zet-S\u00E9guin\nOctober 6, 2021 Carnegie Hall, Stern Auditorium\n\n00:35 I. Allegro\n08:00 II. Andante\n13:54 III. Allegro",
+			"PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
+			"Position": 32,
+			"PublishedAtRaw": "2025-08-23T11:44:01Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:44:01+00:00",
+			"PublishedAt": "2025-08-23T17:14:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "A0A_rCAtIeM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/A0A_rCAtIeM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/A0A_rCAtIeM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/A0A_rCAtIeM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/A0A_rCAtIeM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/A0A_rCAtIeM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yuja Wang: Shostakovich Piano Concerto No. 2 in F major, Op. 102(Carnegie Hall, 2021)",
+			"VideoOwnerChannelId": "UCdgnFYX0osnMROsthUpWXVA",
+			"VideoOwnerChannelTitle": "John Music"
+		}
+	}
+]

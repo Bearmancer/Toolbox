@@ -1,0 +1,952 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "AtGas81kcJs",
+      "VideoPublishedAtRaw": "2022-02-26T05:36:51Z",
+      "VideoPublishedAtDateTimeOffset": "2022-02-26T05:36:51+00:00",
+      "VideoPublishedAt": "2022-02-26T11:06:51+05:30"
+    },
+    "ETag": "TSxeazzYwFeysTc_poBbDgZl9uQ",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C\uFF13\u756A \u5909\u30DB\u9577\u8ABF op.55 \u300E\u82F1\u96C4\u300F\n\u30A8\u30D5\u30B2\u30CB\u30FC\u30FB\u30E0\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC \u6307\u63EE \u3000\u30EC\u30CB\u30F3\u30B0\u30E9\u30FC\u30C9\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\n1968\u5E7410\u670831\u65E5",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 0,
+      "PublishedAtRaw": "2025-08-03T04:23:48Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:23:48+00:00",
+      "PublishedAt": "2025-08-03T09:53:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "AtGas81kcJs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/AtGas81kcJs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/AtGas81kcJs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/AtGas81kcJs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/AtGas81kcJs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/AtGas81kcJs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony No.3 \u201CEroica\u201D \u3000Mravinsky Leningrad\u3000live",
+      "VideoOwnerChannelId": "UCDcxRVRSMoKFxdMQIVDLUiQ",
+      "VideoOwnerChannelTitle": "The Just Sound \u2755"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CZHnlrb1dZc",
+      "VideoPublishedAtRaw": "2021-07-03T14:54:09Z",
+      "VideoPublishedAtDateTimeOffset": "2021-07-03T14:54:09+00:00",
+      "VideoPublishedAt": "2021-07-03T20:24:09+05:30"
+    },
+    "ETag": "J38WRsymbZols1eFQ178OE2Eres",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C\uFF15\u756A \u30CF\u77ED\u8ABF\u3000op.67\n\u30E9\u30D5\u30A1\u30A8\u30EB\u30FB\u30AF\u30FC\u30D9\u30EA\u30C3\u30AF \u6307\u63EE \u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001 \u4EA4\u97FF\u697D\u56E3\n1969\u5E7411\u670820\u65E5\uFF1F",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 1,
+      "PublishedAtRaw": "2025-08-03T04:24:49Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:24:49+00:00",
+      "PublishedAt": "2025-08-03T09:54:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CZHnlrb1dZc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CZHnlrb1dZc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony No.5 \u3000Kubelik BRSO\u3000live",
+      "VideoOwnerChannelId": "UCDcxRVRSMoKFxdMQIVDLUiQ",
+      "VideoOwnerChannelTitle": "The Just Sound \u2755"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MPXeCUkDXto",
+      "VideoPublishedAtRaw": "2020-02-20T16:26:10Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-20T16:26:10+00:00",
+      "VideoPublishedAt": "2020-02-20T21:56:10+05:30"
+    },
+    "ETag": "u9jysCLx2MKoJKgxm8rKhMQoRVw",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven - Symphony No.6\n\n00:00 - I. Allegro ma non troppo\n11:19 - II. Andante molto mosso\n25:09 - III. Allegro\n31:14 - IV. Allegro\n35:32 - V. Allegretto\n\nDeutsches Symphonie-Orchester Berlin - Kurt Sanderling\n\n2.12.1991",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 2,
+      "PublishedAtRaw": "2025-08-03T04:27:35Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:27:35+00:00",
+      "PublishedAt": "2025-08-03T09:57:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MPXeCUkDXto"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MPXeCUkDXto/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MPXeCUkDXto/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/MPXeCUkDXto/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MPXeCUkDXto/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/MPXeCUkDXto/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony No.6 (DSO Berlin - Sanderling)",
+      "VideoOwnerChannelId": "UCXmLtLgp_-83OCUXGjTBBfQ",
+      "VideoOwnerChannelTitle": "cis moll"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "LLKk7JdeRZA",
+      "VideoPublishedAtRaw": "2020-02-09T07:45:53Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-09T07:45:53+00:00",
+      "VideoPublishedAt": "2020-02-09T13:15:53+05:30"
+    },
+    "ETag": "h2CwDefGQAU7MBFkH3wt6BXtvYs",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "First half of the program was Brahms\u2019s piano concert No,2 with Baremboim, and later half is Beethoven 8th Symphony which I post here.I think that this is pretty energetic performance.\n\nBeethoven\nSymphonie Nr. 8 op. 93\n\n[00:00~] 1. Allegro vivace e con brio \n[09:11~] 2. Allegretto scherzando \n[13:30~] 3. Tempo di menuetto \n[19:20~] 4. Allegro vivace\n\nBerlin Philharmonic Orchestra\nClaudio Abbado conductor\n\n17  or 18 November 1994\n\u2193\n\u25C6First program of this concert.\n\u3000Brahms; Klavierkonzert Nr. 2 op. 83\n\u3000Daniel Baremboim (Klavier)\n\n\u25C6Tchaikovsky Piano Concerto No.1 Argerich, Abbado BPO \n\u30008 Dec1994,LIVE radio broadcasting version.\n\u3000https://youtu.be/QrPGCWjRe6U",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 3,
+      "PublishedAtRaw": "2025-08-03T04:28:01Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:28:01+00:00",
+      "PublishedAt": "2025-08-03T09:58:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "LLKk7JdeRZA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/LLKk7JdeRZA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/LLKk7JdeRZA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/LLKk7JdeRZA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/LLKk7JdeRZA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/LLKk7JdeRZA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony Nr. 8 op. 93 Abbado 1994 Live -radio broadcasting tape-",
+      "VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+      "VideoOwnerChannelTitle": "Plow Fat"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Uk1B7SNq7-U",
+      "VideoPublishedAtRaw": "2022-12-01T18:05:27Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-01T18:05:27+00:00",
+      "VideoPublishedAt": "2022-12-01T23:35:27+05:30"
+    },
+    "ETag": "7nun6AaeGTBomQppUHIWTPaky_U",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven (baptised 17 December 1770\u00A0\u2013 26 March 1827) \nSymphony No. 3 In E-Flat Major, Op. 55 \u0022Eroica\u0022\n(00:00)  - 1. Allegro Con Brio\n(14:59)  - 2. Marcia Funebre (Adagio Assai)\n(29:24)  - 3. Scherzo - Trio (Allegro Vivace)\n(34:44)  - 4. Finale (Allegro Molto)\n\nConductor - Nikolaus Harnoncourt \nOrchestra - Royal Concertgebouw Orchestra\n\nRecorded 16 October 1988,LIVE",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 4,
+      "PublishedAtRaw": "2025-08-03T04:22:26Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:22:26+00:00",
+      "PublishedAt": "2025-08-03T09:52:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Uk1B7SNq7-U"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Uk1B7SNq7-U/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Uk1B7SNq7-U/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Uk1B7SNq7-U/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Uk1B7SNq7-U/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No. 3  \u0022Eroica\u0022 / Nikolaus Harnoncourt  \u0026  Royal Concertgebouw Orchestra LIVE",
+      "VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
+      "VideoOwnerChannelTitle": "Tsubame Classics"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "QAhJgUWoaR0",
+      "VideoPublishedAtRaw": "2021-06-19T08:50:32Z",
+      "VideoPublishedAtDateTimeOffset": "2021-06-19T08:50:32+00:00",
+      "VideoPublishedAt": "2021-06-19T14:20:32+05:30"
+    },
+    "ETag": "O_ADo5SMabshJF8RA9KjQALbb7o",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C4\u756A\u5909\u30ED\u9577\u8ABF op.60\n\u30B5\u30FC\u30FB\u30B2\u30AA\u30EB\u30B0\u30FB \u30B7\u30E7\u30EB\u30C6\u30A3 \n\u30ED\u30F3\u30C9\u4EA4\u97FF\u697D\u56E3\n1963\u5E744\u670829\u65E5\u6771\u4EAC\u6587\u5316\u4F1A\u9928\nLudwig van Beethoven: Sinfonie Nr.4 in B-Dur Op. 60 \nSir Georg Solti\nLondon Symphony Orchestra\n29. Apr. 1963 Tokyo Bunka Kaikan\n\n00:19   1. Adagio \u2013 Allegro vivace \n12:26   2. Adagio\n22:42   3. Scherzo and trio\n27:43   4. Finale\n\n#beethoven #\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 5,
+      "PublishedAtRaw": "2025-08-03T04:25:01Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:25:01+00:00",
+      "PublishedAt": "2025-08-03T09:55:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "QAhJgUWoaR0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/QAhJgUWoaR0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/QAhJgUWoaR0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/QAhJgUWoaR0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/QAhJgUWoaR0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.4 Sir Georg Solti/ Tokyo Live\u3000\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C4\u756A\u3000\u30B5\u30FC\u30FB\u30B2\u30AA\u30EB\u30B0\u30FB \u30B7\u30E7\u30EB\u30C6\u30A3\u3000\u6771\u4EAC\u516C\u6F14",
+      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
+      "VideoOwnerChannelTitle": "SPT"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "rTpBzG-a3yU",
+      "VideoPublishedAtRaw": "2022-11-25T12:33:00Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-25T12:33:00+00:00",
+      "VideoPublishedAt": "2022-11-25T18:03:00+05:30"
+    },
+    "ETag": "zz6aoFC93q4unOUYuqwYEcDMA5Q",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven: Sinfonie Nr.6 F-Dur op. 68 Pastorale\nEugen Jochum\nBamberger Symphoniker\n16. Sep. 1982, Tokyo Bunka Kaikan\n\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u30D8\u9577\u8ABF\u4F5C\u54C168\u300C\u7530\u5712\u300D\n\u30AA\u30A4\u30B2\u30F3\u30FB\u30E8\u30C3\u30D5\u30E0\uFF08\u6307\u63EE\uFF09\n\u30D0\u30F3\u30D9\u30EB\u30AF\u4EA4\u97FF\u697D\u56E3\n1982\u5E749\u670816\u65E5\u3000\u6771\u4EAC\u6587\u5316\u4F1A\u9928\n\n00:00   I.  Allegro ma non troppo\n11:13   II.  Andante molto moto\n24:28   III.  Allegro \n30:38   IV.  Allegro\n34:41    V.  Allegretto\n\n#beethoven  #\u30D9\u30FC\u30C8\u30FC\u30D9\u30F3",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 6,
+      "PublishedAtRaw": "2025-08-03T04:22:47Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:22:47+00:00",
+      "PublishedAt": "2025-08-03T09:52:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "rTpBzG-a3yU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/rTpBzG-a3yU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/rTpBzG-a3yU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/rTpBzG-a3yU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/rTpBzG-a3yU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/rTpBzG-a3yU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.6 Pastorale/ Eugen Jochum/ Tokyo Live\u3000\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u300C\u7530\u5712\u300D\u30E8\u30C3\u30D5\u30E0\u3000\u6771\u4EAC\u516C\u6F14",
+      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
+      "VideoOwnerChannelTitle": "SPT"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "gZZgC3fbJJo",
+      "VideoPublishedAtRaw": "2020-02-17T10:36:22Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-17T10:36:22+00:00",
+      "VideoPublishedAt": "2020-02-17T16:06:22+05:30"
+    },
+    "ETag": "ASZ5c5UTWJ4ayGIsoSctfi248HY",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The CD Edition\u0027s date which was relesed by DECCA is 1990, May,5, and 6\u0027s concert. This tape Edition is only May 6\u0027s concert. I prefer to this version.\nBeethoven,L.van Symphony No.5 in c Op.67\u3000\n1st(0:03) 2nd(7:48) 3rd(18:01) 4th(23:10) \n\nWiener Philharmoniker\nSir Georg Solti (Conducter)\n1990,May,6  at Gro\u00DFer Musikvereinssaal,Vienna",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 7,
+      "PublishedAtRaw": "2025-08-03T04:27:45Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:27:45+00:00",
+      "PublishedAt": "2025-08-03T09:57:45+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "gZZgC3fbJJo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/gZZgC3fbJJo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/gZZgC3fbJJo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/gZZgC3fbJJo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/gZZgC3fbJJo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/gZZgC3fbJJo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven; Symphony No.5 Solti VPO (1990 Live ) Radio broadcasting tape no edited",
+      "VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+      "VideoOwnerChannelTitle": "Plow Fat"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nOaaTxZ6FiU",
+      "VideoPublishedAtRaw": "2022-05-21T12:31:36Z",
+      "VideoPublishedAtDateTimeOffset": "2022-05-21T12:31:36+00:00",
+      "VideoPublishedAt": "2022-05-21T18:01:36+05:30"
+    },
+    "ETag": "3cuieQolj_Xl74BRPYSm-j7EAX0",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven; Symphony No.7 \nSEIJI OZAWA with Boston symphony orchestra\n1989 12,12 Live at Suntory hall in Tokyo, Japan\n This source is from Radio Broadcasting",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 8,
+      "PublishedAtRaw": "2025-08-03T04:23:21Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:23:21+00:00",
+      "PublishedAt": "2025-08-03T09:53:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nOaaTxZ6FiU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nOaaTxZ6FiU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nOaaTxZ6FiU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nOaaTxZ6FiU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nOaaTxZ6FiU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven; Symphony No.7 \u3010SEIJI OZAWA 1989 Live in Japan from Radio Broadcasting\u3011",
+      "VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+      "VideoOwnerChannelTitle": "Plow Fat"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "RUB2ItWrZSY",
+      "VideoPublishedAtRaw": "2022-02-14T13:30:33Z",
+      "VideoPublishedAtDateTimeOffset": "2022-02-14T13:30:33+00:00",
+      "VideoPublishedAt": "2022-02-14T19:00:33+05:30"
+    },
+    "ETag": "HeMCfMfUMhNrd2nBmqmq8Cec6wg",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30EB\u30FC\u30C9\u30F4\u30A3\u30D2\u30FB\u30F4\u30A1\u30F3\u30FB\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\nLudwig van Beethoven \n\n\u4EA4\u97FF\u66F2\u7B2C\u4E09\u756A\u5909\u30DB\u9577\u8ABF\u4F5C\u54C155\u300C\u82F1\u96C4\u300D\nSymphony No. 3 in E-flat Major Op.55  \u201CEroica\u201D\n\n\u30ED\u30EA\u30F3\u30FB\u30DE\u30BC\u30EB\nLorin Maazel\n\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u5F26\u697D\u56E3\nThe Philharmonia Orchestra\n\n1994\u5E745\u670826\u65E5\u3000\u6771\u4EAC\u30FB\u516D\u672C\u6728\u3000\u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\nMay 26th, 1994\u3000Suntory Hall, Tokyo\n\n00:17  1. Allegro con brio\n15:20  2. Marcia funebre: Adagio assai\n32:48  3. Scherzo: Allegro vivace\n38:20  4. Finale: Allegro molto",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 9,
+      "PublishedAtRaw": "2025-08-03T04:24:00Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:24:00+00:00",
+      "PublishedAt": "2025-08-03T09:54:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "RUB2ItWrZSY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/RUB2ItWrZSY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/RUB2ItWrZSY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/RUB2ItWrZSY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/RUB2ItWrZSY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven\u3000Symphony No. 3 in E-flat Major, Op.55  \u201CEroica\u201D\u3000Lorin Maazel / The Philharmonia Orchestra",
+      "VideoOwnerChannelId": "UC6Yadh6KSljp46HH86DR0UA",
+      "VideoOwnerChannelTitle": "Griffon Classic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1rAHOl-RVFU",
+      "VideoPublishedAtRaw": "2020-06-19T19:26:45Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-19T19:26:45+00:00",
+      "VideoPublishedAt": "2020-06-20T00:56:45+05:30"
+    },
+    "ETag": "9CjAqKeVpJ1SHEN1R_ZkjBdd33o",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Radio broadcast from 21 March 1968",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 10,
+      "PublishedAtRaw": "2025-08-03T04:26:41Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:26:41+00:00",
+      "PublishedAt": "2025-08-03T09:56:41+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1rAHOl-RVFU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1rAHOl-RVFU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1rAHOl-RVFU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/1rAHOl-RVFU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1rAHOl-RVFU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1rAHOl-RVFU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "George Szell and Chicago Symphony Orchestra LIVE 1968: Beethoven symphony no.5:",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "KJ81nrkDIyo",
+      "VideoPublishedAtRaw": "2020-06-19T15:02:25Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-19T15:02:25+00:00",
+      "VideoPublishedAt": "2020-06-19T20:32:25+05:30"
+    },
+    "ETag": "VP2C0P1O8amZCK4lTHWXcRm05iQ",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Radio broadcast from 21 March 1968.",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 11,
+      "PublishedAtRaw": "2025-08-03T04:26:49Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:26:49+00:00",
+      "PublishedAt": "2025-08-03T09:56:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "KJ81nrkDIyo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/KJ81nrkDIyo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/KJ81nrkDIyo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/KJ81nrkDIyo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/KJ81nrkDIyo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/KJ81nrkDIyo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "George Szell and Chicago Symphony Orchestra LIVE 1968: Beethoven symphony no.6 (Pastoral):",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "9mLp6UwU8I8",
+      "VideoPublishedAtRaw": "2019-07-30T16:00:01Z",
+      "VideoPublishedAtDateTimeOffset": "2019-07-30T16:00:01+00:00",
+      "VideoPublishedAt": "2019-07-30T21:30:01+05:30"
+    },
+    "ETag": "3CFrrEseka19NkuFNBVBLA7_WMY",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "American conductor Karina Canellakis leads the Swedish Radio Symphony Orchestra in a performance of Beethoven\u2019s Symphony No. 7. It was recorded live on April 10, 2019.\n\nMore info about Ms. Canellakis can be found here: http://karinacanellakis.com/",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 12,
+      "PublishedAtRaw": "2025-08-03T04:28:28Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:28:28+00:00",
+      "PublishedAt": "2025-08-03T09:58:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "9mLp6UwU8I8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/9mLp6UwU8I8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/9mLp6UwU8I8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/9mLp6UwU8I8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/9mLp6UwU8I8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/9mLp6UwU8I8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Karina Canellakis conducts Beethoven - Symphony No. 7 (2019)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6VHbC5FF8EQ",
+      "VideoPublishedAtRaw": "2020-01-28T21:02:05Z",
+      "VideoPublishedAtDateTimeOffset": "2020-01-28T21:02:05+00:00",
+      "VideoPublishedAt": "2020-01-29T02:32:05+05:30"
+    },
+    "ETag": "nxwtdldYG4oNbQpe9ZD70LXTavw",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven (1770-1827)\nSymphony No.7 in A major, Op.92\n\n(00:00) 1. Poco sostenuto - Vivace\n(13:14) 2. Allegretto\n(22:05) 3. Presto - Assai meno presto\n(29:52) 4. Allegro con brio\n\n\nKlaus Tennstedt\n\nNDR Symphony Orchestra\n\nApril 28, 1980",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 13,
+      "PublishedAtRaw": "2025-08-03T04:28:12Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:28:12+00:00",
+      "PublishedAt": "2025-08-03T09:58:12+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6VHbC5FF8EQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6VHbC5FF8EQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6VHbC5FF8EQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6VHbC5FF8EQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6VHbC5FF8EQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Klaus Tennstedt  Beethoven - Symphony No.7  (1980) NDR SO",
+      "VideoOwnerChannelId": "UCUJ1dfObdYYlod0mhfhOWdw",
+      "VideoOwnerChannelTitle": "classic channel N"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "8_wHykZRvwg",
+      "VideoPublishedAtRaw": "2022-03-07T11:09:44Z",
+      "VideoPublishedAtDateTimeOffset": "2022-03-07T11:09:44+00:00",
+      "VideoPublishedAt": "2022-03-07T16:39:44+05:30"
+    },
+    "ETag": "Tkl3PaVZSvs7XvNX_LqZpL6yGHE",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Today I found a long-time-mislaid cassette containing this performance of Claudio Abbado conducting the LSO in Beethoven\u0027s seventh symphony, as part of their 1984 Royal Festival Hall Beethoven cycle. Included with it was a clip from the Sunday Times concert review: \u0027With playing as fine as this, any fears that the music may be over-familiar, disappear...\u0027\n\n1. Poco sostenuto \u2013 vivace 0:00\n2. Allegretto 21:11\n3. Presto \u2013 Assai meno presto 20:57\n4. Allegro con brio 28:19\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are off-air audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings or streamed transmissions. We have greatly enjoyed these performances over the years - all of which were at least four years old at the time of posting - and just wish to share them with other music lovers for the pleasure of listening to the LSO in live performances. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 14,
+      "PublishedAtRaw": "2025-08-03T04:23:38Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:23:38+00:00",
+      "PublishedAt": "2025-08-03T09:53:38+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "8_wHykZRvwg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/8_wHykZRvwg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/8_wHykZRvwg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/8_wHykZRvwg/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Ludwig van Beethoven - Symphony no. 7: Claudio Abbado conducting the LSO in 1984",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "X0h0a0OiPJA",
+      "VideoPublishedAtRaw": "2016-10-26T14:55:02Z",
+      "VideoPublishedAtDateTimeOffset": "2016-10-26T14:55:02+00:00",
+      "VideoPublishedAt": "2016-10-26T20:25:02+05:30"
+    },
+    "ETag": "hZ0JiVkbXNJmIK3DRx-M03gCWBs",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Alex Yuill and Andrew Guo  performing at Franz Liszt Birthday Celebration \u0022Liszt Times Two\u0022 at Nichols Hall in Evanston, IL on October 22, 2016",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 15,
+      "PublishedAtRaw": "2025-08-03T04:21:37Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:21:37+00:00",
+      "PublishedAt": "2025-08-03T09:51:37+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "X0h0a0OiPJA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/X0h0a0OiPJA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/X0h0a0OiPJA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/X0h0a0OiPJA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/X0h0a0OiPJA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/X0h0a0OiPJA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Orpheus by Franz Liszt for two pianos",
+      "VideoOwnerChannelId": "UCjmMxTtsuCEnS4bHZZAXMvQ",
+      "VideoOwnerChannelTitle": "Renata Yuill"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YI0tKd5M0Wk",
+      "VideoPublishedAtRaw": "2020-12-19T06:57:58Z",
+      "VideoPublishedAtDateTimeOffset": "2020-12-19T06:57:58+00:00",
+      "VideoPublishedAt": "2020-12-19T12:27:58+05:30"
+    },
+    "ETag": "7bwixjqT0Awo9PZpwgB_jlwczLo",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Concert from Severance Hall, ripped from the Memories disc MR2537 which gives the date as 22 September 1966. The concert was documented for the Bell Telephone Hour (see the film of the finale on https://youtu.be/pt_LIn3RE2I ).",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 16,
+      "PublishedAtRaw": "2025-08-03T04:25:59Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:25:59+00:00",
+      "PublishedAt": "2025-08-03T09:55:59+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YI0tKd5M0Wk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YI0tKd5M0Wk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YI0tKd5M0Wk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/YI0tKd5M0Wk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YI0tKd5M0Wk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YI0tKd5M0Wk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Szell / Cleveland LIVE 1966: Beethoven symphony no.5 in C minor, op.67",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "VGjF5mWYnHo",
+      "VideoPublishedAtRaw": "2020-04-02T15:03:33Z",
+      "VideoPublishedAtDateTimeOffset": "2020-04-02T15:03:33+00:00",
+      "VideoPublishedAt": "2020-04-02T20:33:33+05:30"
+    },
+    "ETag": "iSuJF785JDzoiU0LD4hhSkAZFbg",
+    "Id": "UEwxemdOQ29XdF83YTc3eElnYndDcFpuTjhseG51ejVRWS45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "(Timings below.) Recorded live at Severance Hall in Cleveland on 7 May 1970. The broadcast begins with words from Szell about the shootings at Kent State University in Ohio earlier in the week. The concert contained Weber\u0027s overture to \u0027Oberon\u0027 [then Mozart\u0027s 40th, K550, not in this video] and the Beethoven. It was Szell\u0027s last performance of the Eroica in Cleveland, before the tour of Japan and Korea and his final concert in Anchorage which included the Eroica. According to Michael Charry\u0027s biography, after the 7 May concert Szell \u0022allowed himself a rare bit of self-praise, saying \u0027Now THAT was a performance!\u0027 \u0022 (Charry p.284)\n\n00:00 Szell\u0027s speech\n01:35 Oberon overture\n12:03 Beethoven 3:i Allegro con brio\n28:05 Beethoven 3:ii Marcia funebre, Adagio assai\n45:25 Beethoven 3:iii Scherzo, Allegro vivace - trio\n51:50 Beethoven 3:iv Finale, Allegro molto, poco andante",
+      "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
+      "Position": 17,
+      "PublishedAtRaw": "2025-08-03T04:27:14Z",
+      "PublishedAtDateTimeOffset": "2025-08-03T04:27:14+00:00",
+      "PublishedAt": "2025-08-03T09:57:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "VGjF5mWYnHo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/VGjF5mWYnHo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/VGjF5mWYnHo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/VGjF5mWYnHo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/VGjF5mWYnHo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/VGjF5mWYnHo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Szell and Cleveland LIVE in 1970: Beethoven symphony no. 3 in E flat (Eroica)",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  }
+]

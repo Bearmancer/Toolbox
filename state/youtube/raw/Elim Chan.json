@@ -1,0 +1,1075 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "oImniDBtJgE"
+    },
+    "ETag": "tByKGz6x0OQWXsXMsUtRkLWZFu0",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 0,
+      "PublishedAtRaw": "2025-03-16T15:32:02Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:32:02+00:00",
+      "PublishedAt": "2025-03-16T21:02:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "oImniDBtJgE"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "bAVprIlKwWM",
+      "VideoPublishedAtRaw": "2023-08-05T15:08:10Z",
+      "VideoPublishedAtDateTimeOffset": "2023-08-05T15:08:10+00:00",
+      "VideoPublishedAt": "2023-08-05T20:38:10+05:30"
+    },
+    "ETag": "ga0VbsqtJY4_jKbDvjH-qIVu980",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jan Lisiecki, piano\nBBC Symphony Orchestra\nElim Chan, conductor\n\nBeethoven Piano Concerto No. 3\n 0:00  Allegro con brio\n17:57 Largo\n27:17 Rondo. Allegro - Presto\n(Encore)\n38:35 Chopin Nocturne Op.9-2\n\nProm 14: Elgar\u2019s \u2018Enigma\u2019 Variations\nRoyal Albert Hall\nTue 25 July 2023\n\nhttps://www.facebook.com/theproms/videos/312640857775796/\nhttps://theartsdesk.com/classical-music/prom-14-lisiecki-bbcso-chan-fine-textures-and-subtle-delights\nhttps://bachtrack.com/review-prom-14-chan-lisiecki-koide-beethoven-elgar-bbc-symphony-london-july-2023",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 1,
+      "PublishedAtRaw": "2025-03-16T15:34:48Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:34:48+00:00",
+      "PublishedAt": "2025-03-16T21:04:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "bAVprIlKwWM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/bAVprIlKwWM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/bAVprIlKwWM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/bAVprIlKwWM/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "BBC Proms 2023, Jan Lisiecki,  Beethoven Piano Concerto No.3 (Audio)",
+      "VideoOwnerChannelId": "UCJ5z-WS6F7Pi_q-gpyYGETA",
+      "VideoOwnerChannelTitle": "K. S."
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1T1jlGlkIjU"
+    },
+    "ETag": "WuXIAhF4IQPwPr4funfZLqtrbb8",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 2,
+      "PublishedAtRaw": "2025-03-16T15:32:33Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:32:33+00:00",
+      "PublishedAt": "2025-03-16T21:02:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1T1jlGlkIjU"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "PKMAcCqnycQ",
+      "VideoPublishedAtRaw": "2022-11-26T16:33:35Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-26T16:33:35+00:00",
+      "VideoPublishedAt": "2022-11-26T22:03:35+05:30"
+    },
+    "ETag": "grY_0JpxblVbe3nKvTx6KF2_SbA",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Brahms Double Concerto in A minor Op. 102\nLiya Petrova - violin\nVictor Julien-Laferri\u00E8re - cello\nElim Chan - conductor\nOrchestre National de Lyon\nRencontres Musicales d\u0027\u00C9vian\nLa Grange au Lac/Medici TV",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 3,
+      "PublishedAtRaw": "2025-03-16T15:35:03Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:35:03+00:00",
+      "PublishedAt": "2025-03-16T21:05:03+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "PKMAcCqnycQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/PKMAcCqnycQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/PKMAcCqnycQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/PKMAcCqnycQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/PKMAcCqnycQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms - Double Concerto - L.Petrova, V.Julien-Laferri\u00E8re, E.Chan, Orchestre National de Lyon",
+      "VideoOwnerChannelId": "UC10BRekHEvlcu1J-3CBUehA",
+      "VideoOwnerChannelTitle": "Liya Petrova"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "L9ibB4lVozA",
+      "VideoPublishedAtRaw": "2022-04-02T22:00:07Z",
+      "VideoPublishedAtDateTimeOffset": "2022-04-02T22:00:07+00:00",
+      "VideoPublishedAt": "2022-04-03T03:30:07+05:30"
+    },
+    "ETag": "O_3jEwWWGLfgZ7_aTV9Jpy5fnok",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The Antwerp Symphony Orchestra with chief conductor Elim Chan\nJohannes Brahms: Symphony No. 4 in E minor, Op. 98 (1884)\nI. Allegro non troppo 0:25\nII. Andante moderato 13:31\nIII. Allegro giocoso 25:12\nIV. Allegro energico e passionato 31:39\n\nRecorded live at the Queen Elisabeth Hall in Antwerp",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 4,
+      "PublishedAtRaw": "2025-03-16T15:35:19Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:35:19+00:00",
+      "PublishedAt": "2025-03-16T21:05:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "L9ibB4lVozA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/L9ibB4lVozA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/L9ibB4lVozA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/L9ibB4lVozA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/L9ibB4lVozA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/L9ibB4lVozA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms: Symphony No. 4 in E minor, Op. 98 \u00B7 Antwerp Symphony Orchestra",
+      "VideoOwnerChannelId": "UCvNQrwOnvNpgypS-SyHuIng",
+      "VideoOwnerChannelTitle": "Antwerp Symphony Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "SO8g4-hNoNg",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:45Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:45+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:45+05:30"
+    },
+    "ETag": "vtfWFx6p25b0an4vuJdz9ukHIm8",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Violinist: Liya Petrova \nCellist: Julien Laferri\u00E8re\nOrchestre National de Lyon",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 5,
+      "PublishedAtRaw": "2025-03-16T15:33:56Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:33:56+00:00",
+      "PublishedAt": "2025-03-16T21:03:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "SO8g4-hNoNg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/SO8g4-hNoNg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/SO8g4-hNoNg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/SO8g4-hNoNg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/SO8g4-hNoNg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/SO8g4-hNoNg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Brahms - Double Concerto in A minor Op. 102",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "y0YIkrTuIsE",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:45Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:45+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:45+05:30"
+    },
+    "ETag": "Xf13VPVGYd3a01nivoGQLivDUpI",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Antwerp Symphony Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 6,
+      "PublishedAtRaw": "2025-03-16T15:34:04Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:34:04+00:00",
+      "PublishedAt": "2025-03-16T21:04:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "y0YIkrTuIsE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/y0YIkrTuIsE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/y0YIkrTuIsE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/y0YIkrTuIsE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/y0YIkrTuIsE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/y0YIkrTuIsE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Brahms - Symphony No.  4 in E minor, Op  98",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "fvMRqU1EU_U",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:47Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:47+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:47+05:30"
+    },
+    "ETag": "GiDl8sOHrJlY8oxF_nYI5G2cMbo",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Antwerp Symphony Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 7,
+      "PublishedAtRaw": "2025-03-16T15:33:49Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:33:49+00:00",
+      "PublishedAt": "2025-03-16T21:03:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "fvMRqU1EU_U"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/fvMRqU1EU_U/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/fvMRqU1EU_U/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/fvMRqU1EU_U/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/fvMRqU1EU_U/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/fvMRqU1EU_U/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Ludwig van Beethoven - Symphony n\u00B0 1 in C major, Op  21",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "_Gl-gpvKt1w",
+      "VideoPublishedAtRaw": "2023-11-20T09:52:13Z",
+      "VideoPublishedAtDateTimeOffset": "2023-11-20T09:52:13+00:00",
+      "VideoPublishedAt": "2023-11-20T15:22:13+05:30"
+    },
+    "ETag": "TREcniIj9g43qJGgThd2N8EOiYQ",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Rotterdam Philharmonic Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 8,
+      "PublishedAtRaw": "2025-03-16T15:34:41Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:34:41+00:00",
+      "PublishedAt": "2025-03-16T21:04:41+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "_Gl-gpvKt1w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/_Gl-gpvKt1w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/_Gl-gpvKt1w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/_Gl-gpvKt1w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/_Gl-gpvKt1w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Rimsky Korsakov - Sheherazade Op. 35",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MdOTe91CbAo",
+      "VideoPublishedAtRaw": "2019-04-10T16:00:04Z",
+      "VideoPublishedAtDateTimeOffset": "2019-04-10T16:00:04+00:00",
+      "VideoPublishedAt": "2019-04-10T21:30:04+05:30"
+    },
+    "ETag": "Ji5i0ct_FRt9UQvOcV-Hoz7iTbs",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Chinese conductor Elim Chan leads the Rotterdam Philharmonic Orchestra in this performance of Rimsky-Korsakov\u2019s Scheherazade. It was recorded live in concert on January 18, 2019.\n\nMore information about Ms. Chan can be found here: https://elimchan.com/",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 9,
+      "PublishedAtRaw": "2025-03-16T15:35:52Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:35:52+00:00",
+      "PublishedAt": "2025-03-16T21:05:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MdOTe91CbAo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MdOTe91CbAo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MdOTe91CbAo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/MdOTe91CbAo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MdOTe91CbAo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/MdOTe91CbAo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Rimsky-Korsakov - Scheherazade (2019)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "l5O81ldr5qQ",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:45Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:45+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:45+05:30"
+    },
+    "ETag": "LpYd8G8Nru4lwZiENyjrMuzP3kM",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "CAO ARR MINH Vietnamese National Anthem (Tien Quan Ca)\nROSSINI Overture: The Barber of Seville\nHAYDN Trumpet Concerto\nDVO\u0158\u00C1K Slavonic Dances Op 72\nSARASATE Zigeunerweisen\nSIBELIUS Symphony No 5\nMENDELSSOHN Scherzo from A Midsummer Night\u0027s Dream \nTCHAIKOVSKY Polonaise from Eugene Onegin\n\nLondon Symphony Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 10,
+      "PublishedAtRaw": "2025-03-16T15:33:40Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:33:40+00:00",
+      "PublishedAt": "2025-03-16T21:03:40+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "l5O81ldr5qQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/l5O81ldr5qQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/l5O81ldr5qQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/l5O81ldr5qQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/l5O81ldr5qQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/l5O81ldr5qQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Rossini, Haydn, Dvorak, Sarasate, Minh, Sibelius, Tchaikovsky and Mendelssohn",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "btaTWqwlLKY",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:45Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:45+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:45+05:30"
+    },
+    "ETag": "cw4S8lBoaU_pAgUStMP61KZ84_Q",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pianist: Aurel Dawidiuk\nDeutsche Kammerphilharmonie Bremen",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 11,
+      "PublishedAtRaw": "2025-03-16T15:33:45Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:33:45+00:00",
+      "PublishedAt": "2025-03-16T21:03:45+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "btaTWqwlLKY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/btaTWqwlLKY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/btaTWqwlLKY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/btaTWqwlLKY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/btaTWqwlLKY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/btaTWqwlLKY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Schumann - Klavierkonzert  a-Moll op. 54",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "QyzfVKvHU5c",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:41Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:41+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:41+05:30"
+    },
+    "ETag": "00H77fBgcgf4u9WZ6VevTlXx2pk",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Orquesta Filarm\u00F3nica de la UNAM",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 12,
+      "PublishedAtRaw": "2025-03-16T15:34:00Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:34:00+00:00",
+      "PublishedAt": "2025-03-16T21:04:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "QyzfVKvHU5c"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/QyzfVKvHU5c/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/QyzfVKvHU5c/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/QyzfVKvHU5c/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/QyzfVKvHU5c/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/QyzfVKvHU5c/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Shostakovich - Symphony No. 10",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YgClZkPnf_w",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:49Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:49+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:49+05:30"
+    },
+    "ETag": "lzi7ajQ7t2AP8ZUB5T6CB1NYolE",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Netherlands Philharmonic Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 13,
+      "PublishedAtRaw": "2025-03-16T15:33:52Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:33:52+00:00",
+      "PublishedAt": "2025-03-16T21:03:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YgClZkPnf_w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YgClZkPnf_w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YgClZkPnf_w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/YgClZkPnf_w/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YgClZkPnf_w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YgClZkPnf_w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts Tchaikovsky - Symphony No. 5",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "v3w7Vgn7rXM",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:41Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:41+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:41+05:30"
+    },
+    "ETag": "Pj5S_AG0or_Zx2wzq_C3dwXrvKs",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pianist: Igor Levit \nMahler Chamber Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 14,
+      "PublishedAtRaw": "2025-03-16T15:34:24Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:34:24+00:00",
+      "PublishedAt": "2025-03-16T21:04:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "v3w7Vgn7rXM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/v3w7Vgn7rXM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/v3w7Vgn7rXM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/v3w7Vgn7rXM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/v3w7Vgn7rXM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/v3w7Vgn7rXM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elim Chan conducts William Bolcom -  Piano Concerto No. 2",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "aimu8Sr9M3g",
+      "VideoPublishedAtRaw": "2023-03-24T14:47:28Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-24T14:47:28+00:00",
+      "VideoPublishedAt": "2023-03-24T20:17:28+05:30"
+    },
+    "ETag": "ExEKBwdTwOaGLl2fp3MOYCAKXtk",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The Antwerp Symphony Orchestra with chief conductor Elim Chan\nLudwig van Beethoven: Symphony n\u00B0 1 in C major, Op. 21 (1800)\n\n0:02 I. Adagio molto - allegro con brio\n8:58 II Andante cantabile con moto\n16:19 III. Menuetto: allegro molto e vivace\n19:49 IV. Adagio - allegro molto e vivace\n\nRecorded live at the Queen Elisabeth Hall in Antwerp",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 15,
+      "PublishedAtRaw": "2025-03-16T15:34:58Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:34:58+00:00",
+      "PublishedAt": "2025-03-16T21:04:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "aimu8Sr9M3g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/aimu8Sr9M3g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/aimu8Sr9M3g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/aimu8Sr9M3g/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/aimu8Sr9M3g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/aimu8Sr9M3g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Ludwig van Beethoven: Symphony n\u00B0 1 in C major, Op. 21 \u00B7 Antwerp Symphony \u0026 Elim Chan",
+      "VideoOwnerChannelId": "UCvNQrwOnvNpgypS-SyHuIng",
+      "VideoOwnerChannelTitle": "Antwerp Symphony Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "vv8exLFqXAY",
+      "VideoPublishedAtRaw": "2023-04-01T00:13:57Z",
+      "VideoPublishedAtDateTimeOffset": "2023-04-01T00:13:57+00:00",
+      "VideoPublishedAt": "2023-04-01T05:43:57+05:30"
+    },
+    "ETag": "vYE3ZPjnqrcIlGEHNt6TpRyQosA",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anna Clyne, This Midnight Hour \nMozart, Piano Concerto No.12 K.414 \nTchaikovsky, Symphony No.5 \n\nElim Chan Conductor \nSteven Osborne Piano \n\nTchaikovsky asks the whole orchestra to play \u2018with desire and passion\u2019 in his romantic Fifth Symphony; Anna Clyne creates a vision of music as a free spirit, running through the night; and Mozart relaxes with friends in a concerto that reveals him at his graceful, brilliant best. There\u2019s a lot to enjoy in tonight\u2019s concert, and with Elim Chan conducting and Scotland\u2019s foremost living pianist standing in for Amadeus himself, every note should go exactly where it belongs \u2013 straight to the heart.\n\nGMT 19 : 30 - 21 : 30, 17 March, 2023 @ Usher Hall, Edinburgh\n______________________________________________________________________\nFranz Schubert might never have completed his Symphony No 8, but he packed all the drama and emotion of a longer work into its two compelling movements \u2013 as well as his famously unforgettable melodies, of course.\n\nSchubert\u2019s \u2018Unfinished\u2019 forms the centrepiece of this wide-ranging concert, with Maxim Emelyanychev as both conductor and soloist in Mozart\u2019s spectacular, opera-inspired Piano Concerto No 22. The dashing good humour of Mozart\u2019s much-loved Overture to \u0027The Magic Flute\u0027, and the first UK performances of Sir James MacMillan\u2019s new, football-themed \u0027Eleven\u0027 complete a concert of high spirits and pithy power.\n\nMaxim Emelyanychev Conductor/Piano\n\nMOZART Overture, Die Zauberfl\u00F6te\nSCHUBERT Symphony No 8 \u2018Unfinished\u2019\nMACMILLAN Eleven (UK Premiere)\nMOZART Piano Concerto No 22 in E-flat, K482\n\nPresented by The Scottish Chamber Orchestra\nBST 19 : 30 - 21 : 30, 30 March, 2023 @ Queen\u0027s Hall, Edinburgh",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 16,
+      "PublishedAtRaw": "2025-03-16T15:34:54Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:34:54+00:00",
+      "PublishedAt": "2025-03-16T21:04:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "vv8exLFqXAY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/vv8exLFqXAY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/vv8exLFqXAY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/vv8exLFqXAY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/vv8exLFqXAY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/vv8exLFqXAY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart, Schubert, Tchaikovsky, Anna Clyne, and Macmillan @ Concert Halls in Edinburgh, March, 2023",
+      "VideoOwnerChannelId": "UC50V0d7WVdS4PXcTwn6Yd9A",
+      "VideoOwnerChannelTitle": "Robin Siwang Lam"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0SdzHdnNUZI",
+      "VideoPublishedAtRaw": "2025-02-08T21:51:05Z",
+      "VideoPublishedAtDateTimeOffset": "2025-02-08T21:51:05+00:00",
+      "VideoPublishedAt": "2025-02-09T03:21:05+05:30"
+    },
+    "ETag": "sPjAR0FnB8HvKJhKJ4Wg9C6Vunc",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "[Entrevista en audio desde el min. 10\u002715\u0022] \nEntrevista con la directora de orquesta hongkonguesa Elim Chan, maestra invitada al frente de la Orquesta Sinf\u00F3nica de Galicia, para su concierto en el Auditorio de Ferrol, el 6 de Febrero de 2025, con un programa monogr\u00E1fico en torno a la figura de Tchaikovsky, en el que interpretaron su suite de \u0027El lago de los cisnes\u0027 (Op. 20a) y su \u0027Sinfon\u00EDa N\u00BA6 en Sim, Op. 74, \u0022Pat\u00E9tica\u0022\u0027.\n\n\nOs Encontros Filharm\u00F3nicos (da Sociedade Filharm\u00F3nica Ferrolana), presentados por Jos\u00E9 \u00C1lvarez, periodista y miembro de la SFF, son una serie de entrevistas, debates y comentarios sobre temas musicales para acompa\u00F1ar a los aficionados de la m\u00FAsica de Ferrol (en Galicia, Espa\u00F1a), y de todo el mundo, en su disfrute y descubrimiento de cada temporada de conciertos de la Sociedad Filarm\u00F3nica Ferrolana, que cumple en 2024-25 su 76\u00AA temporada.\n\nNo dud\u00E9is en suscribiros a nuestros encuentros para profundizar, antes y despu\u00E9s de cada concierto, en las claves de la obras de cada programa, de la mano de los m\u00FAsicos espa\u00F1oles e internacionales que pasan cada mes por los escenarios de Ferrol.\n\nAdem\u00E1s, de vez en cuando, hablaremos tambi\u00E9n con int\u00E9rpretes, docentes y compositores sobre multitud de temas en torno a lo que nos apasiona: la m\u00FAsica cl\u00E1sica, la m\u00FAsica antigua, la m\u00FAsica contempor\u00E1nea... as\u00ED como la m\u00FAsica de c\u00E1mara actual m\u00E1s popular que completa nuestras temporadas, desde el flamenco al jazz, sin olvidar a algunos de los cantautores y agrupaciones musicales m\u00E1s emblem\u00E1ticas de nuestra tierra. \n\nPara m\u00E1s informaci\u00F3n, os invitamos a haceros miembros de la SFF: es muy adsequible (20\u20AC por trimestre), y la calidad de los conciertos es un aut\u00E9ntico lujo para los amantes de la m\u00FAsica de todas las edades.\n\nEchadle un vistazo a nuestra web: https://www.filarmonicaferrolana.gal/ y suscrib\u00EDos a nuestro p\u00F3dcast. \u00A1Os esperamos, amigos!",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 17,
+      "PublishedAtRaw": "2025-03-16T15:32:17Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:32:17+00:00",
+      "PublishedAt": "2025-03-16T21:02:17+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0SdzHdnNUZI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0SdzHdnNUZI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0SdzHdnNUZI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/0SdzHdnNUZI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0SdzHdnNUZI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/0SdzHdnNUZI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Os Encontros Filharm\u00F3nicos (da SFF) | Ep. 7 \u00B7 Elim Chan [6feb2025]",
+      "VideoOwnerChannelId": "UC5pOWgslN17zRU9BlLxkPzA",
+      "VideoOwnerChannelTitle": "Jos\u00E9 \u00C1lvarez D\u00EDaz"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "riCJJWcTe-g",
+      "VideoPublishedAtRaw": "2020-02-18T18:44:05Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-18T18:44:05+00:00",
+      "VideoPublishedAt": "2020-02-19T00:14:05+05:30"
+    },
+    "ETag": "TxgkP87Wna4VzB9BZefszX5iKcE",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann (1810-1856)\nKlavierkonzert a-Moll op. 54\nI. Allegro affettuoso\nII. Intermezzo. Andantino grazioso\nIII. Allegro vivace\n\nKlavier: Aurel Dawidiuk\nDeutsche Kammerphilharmonie Bremen\nDirigentin: Elim Chan\n\nElbphilharmonie Hamburg, Gro\u00DFer Saal\n22.6.2019\nFinale TONALi19-Klavierwettbewerb",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 18,
+      "PublishedAtRaw": "2025-03-16T15:35:26Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:35:26+00:00",
+      "PublishedAt": "2025-03-16T21:05:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "riCJJWcTe-g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/riCJJWcTe-g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/riCJJWcTe-g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/riCJJWcTe-g/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/riCJJWcTe-g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/riCJJWcTe-g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "R. Schumann: Klavierkonzert - Aurel Dawidiuk, Deutsche Kammerphilharmonie Bremen, Elim Chan",
+      "VideoOwnerChannelId": "UCR1RVu8FBJ7E628_MvbWjvA",
+      "VideoOwnerChannelTitle": "Aurel Dawidiuk"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sATNiVGgwts",
+      "VideoPublishedAtRaw": "2019-01-21T21:00:02Z",
+      "VideoPublishedAtDateTimeOffset": "2019-01-21T21:00:02+00:00",
+      "VideoPublishedAt": "2019-01-22T02:30:02+05:30"
+    },
+    "ETag": "prz10l5up6NeOLZZg_9jJ6CtzuQ",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Chinese conductor Elim Chan was the first ever female winner of the Donatella Flick Conduction Competition. In the Royal Concertgebouw of Amsterdam she leads the Rotterdam Philharmonic Orchestra through Rimsky-Korsakov\u0027s oriental fairytale \u0027Sheherazade Op. 35\u0027.\n\nThe musicians:\nRotterdam Philharmonic Orchestra\nElim Chan [conductor]\n\nThe musical program:\nRimsky-Korsakov: Sheherazade Op. 35\n\nRecording: The Sunday Morning Concert of Sunday the 20th of January 2019, live in The Concertgebouw in Amsterdam.\n\nMeer AVROTROS Klassiek:\n\u266C Facebook: https://www.facebook.com/AVROTROS.Klassiek/\n\u266C Twitter: https://twitter.com/klassiekonline\n\u266C Instagram: https://www.instagram.com/avrotrosklassiek/",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 19,
+      "PublishedAtRaw": "2025-03-16T15:35:59Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:35:59+00:00",
+      "PublishedAt": "2025-03-16T21:05:59+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sATNiVGgwts"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sATNiVGgwts/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sATNiVGgwts/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/sATNiVGgwts/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sATNiVGgwts/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sATNiVGgwts/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rimsky-Korsakov: Sheherazade Op. 35 - Rotterdam Philharmonic Orchestra, Elim Chan - Live Concert HD",
+      "VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
+      "VideoOwnerChannelTitle": "AVROTROS Klassiek"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xFf5GA2UpMs",
+      "VideoPublishedAtRaw": "2020-01-20T13:04:33Z",
+      "VideoPublishedAtDateTimeOffset": "2020-01-20T13:04:33+00:00",
+      "VideoPublishedAt": "2020-01-20T18:34:33+05:30"
+    },
+    "ETag": "hcZldAtdxWqm0hTvmdlhK5k4cdk",
+    "Id": "UEwxemdOQ29XdF83WmlPc0gzRXdaYjBCRzN4ZWJrTFByaC45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The Netherlands Philharmonic Orchestra led by Elim Chan perform Tchaikovsky\u0027s \u0027Symphony No. 5\u0027 during the Sunday Morning Concert of Sunday the 19th of January 2020, live in Het Concertgebouw in Amsterdam. \n\nOn the musical programme:\nPjotr Iljitsj Tchaikovsky - Symphony No. 5\n\nThe musicians:\nNetherlands Philharmonic Orchestra\nElim Chan [conductor]\n\nRecording: Sunday the 19th of January 2020, live in Het Concertgebouw in Amsterdam, The Netherlands.\n\nMore AVROTROS Klassiek:\n\u266C Facebook: https://www.facebook.com/AVROTROS.Klassiek/\n\u266C Twitter: https://twitter.com/klassiekonline\n\u266C Instagram: https://www.instagram.com/avrotrosklassiek/",
+      "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
+      "Position": 20,
+      "PublishedAtRaw": "2025-03-16T15:35:44Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T15:35:44+00:00",
+      "PublishedAt": "2025-03-16T21:05:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xFf5GA2UpMs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xFf5GA2UpMs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xFf5GA2UpMs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/xFf5GA2UpMs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xFf5GA2UpMs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/xFf5GA2UpMs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky: Symphony No. 5 - Netherlands Philharmonic Orchestra led by Elim Chan - Live Concert HD",
+      "VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
+      "VideoOwnerChannelTitle": "AVROTROS Klassiek"
+    }
+  }
+]

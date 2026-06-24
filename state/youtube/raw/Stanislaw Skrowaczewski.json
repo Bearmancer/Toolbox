@@ -1,0 +1,1132 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "Bl414dKMl9U",
+			"VideoPublishedAtRaw": "2016-01-06T00:01:12Z",
+			"VideoPublishedAtDateTimeOffset": "2016-01-06T00:01:12+00:00",
+			"VideoPublishedAt": "2016-01-06T05:31:12+05:30"
+		},
+		"ETag": "1dFr_LvVPIYDCbaHaID6bObNKIQ",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "*STANISLAW SKROWACZEWSKI | 1999 RAI TELECAST - 1/2*\nLudwig van BEETHOVEN: Leonora II, in C major, Op.72a (1805)\n0:30 | Overture\n(14:45 applause)\nOrchestra Sinfonica Nazionale della RAI\nStanis\u0142aw Skrowaczewski, conductor\nrecorded: PAL 4:3 | live, Auditorium RAI \u0022G.Agnelli\u0022, Torino | 23 April 1999\naudio remastering: Emilio Pessina, 2015\n---\n\u00A9 COPYRIGHT Disclaimer, Under Section 107 of the Copyright Act 1976. Allowance is made for \u0022fair use\u0022 for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 0,
+			"PublishedAtRaw": "2025-08-22T11:53:28Z",
+			"PublishedAtDateTimeOffset": "2025-08-22T11:53:28+00:00",
+			"PublishedAt": "2025-08-22T17:23:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Bl414dKMl9U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Bl414dKMl9U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Bl414dKMl9U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Bl414dKMl9U/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Bl414dKMl9U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Bl414dKMl9U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "BEETHOVEN Ov.Leonora No.2 | OSN RAI, S.Skrowaczewski | video 1999 \u00AE",
+			"VideoOwnerChannelId": "UC8Z1_7T9JhB5lcgmMdEqEDQ",
+			"VideoOwnerChannelTitle": "EP"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "od8DrdiMAHc",
+			"VideoPublishedAtRaw": "2013-04-01T11:55:32Z",
+			"VideoPublishedAtDateTimeOffset": "2013-04-01T11:55:32+00:00",
+			"VideoPublishedAt": "2013-04-01T17:25:32+05:30"
+		},
+		"ETag": "hTGCTkXBGfZeQ4fC-EizjEKEjDQ",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Beethoven: \n2. Leonoren-Ouvert\u00FCre \u2219 \n\nAdagio - Allegro - Presto \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nStanis\u0142aw Skrowaczewski, Dirigent \u2219\n\nAlte Oper Frankfurt, 22. M\u00E4rz 2013 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 1,
+			"PublishedAtRaw": "2025-08-21T12:42:54Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:54+00:00",
+			"PublishedAt": "2025-08-21T18:12:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "od8DrdiMAHc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/od8DrdiMAHc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: 2. Leonoren-Ouvert\u00FCre \u2219 hr-Sinfonieorchester \u2219 Stanis\u0142aw Skrowaczewski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "t3IkMreD99w",
+			"VideoPublishedAtRaw": "2017-10-21T01:45:28Z",
+			"VideoPublishedAtDateTimeOffset": "2017-10-21T01:45:28+00:00",
+			"VideoPublishedAt": "2017-10-21T07:15:28+05:30"
+		},
+		"ETag": "PNAtkAjomHDhQ0hfa0GWuxPvd0E",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ludwig van Beethoven (1770-1827)\nOVERTURE LEONORE NO. 2, Op. 72a\nNHK Symphony Orchestra\nSTANIS\u0141AW SKROWACZEWSKI, cond.\nRecording: NHK Hall, Tokyo, 2 \u0026 3 February 1996",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 2,
+			"PublishedAtRaw": "2025-08-21T12:42:50Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:50+00:00",
+			"PublishedAt": "2025-08-21T18:12:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "t3IkMreD99w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/t3IkMreD99w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/t3IkMreD99w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/t3IkMreD99w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/t3IkMreD99w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/t3IkMreD99w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Leonore II Overture - NHK Symphony Orchestra/Skrowaczewski (1996)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "SMwIOf4wzzA",
+			"VideoPublishedAtRaw": "2018-03-30T15:51:32Z",
+			"VideoPublishedAtDateTimeOffset": "2018-03-30T15:51:32+00:00",
+			"VideoPublishedAt": "2018-03-30T21:21:32+05:30"
+		},
+		"ETag": "rdE-tVRl_l1R7rObM41AZO4jOfY",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Between 1983 and 1992,  Skrowaczewski was principal conductor of the Hall\u00E9 Orchestra in Manchester. This Brahms was recorded probably in 1987.\n\nMy blog: https://sonarmc.com/wordpress/site01/2015/03/25/%e3%83%96%e3%83%a9%e3%83%bc%e3%83%a0%e3%82%b9%e4%ba%a4%e9%9f%bf%e6%9b%b2%e7%ac%ac%ef%bc%92%e7%95%aa%e3%81%ae%e8%81%b4%e3%81%8d%e6%af%94%e3%81%b9%ef%bc%88%ef%bc%92%ef%bc%89/",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 3,
+			"PublishedAtRaw": "2025-08-21T12:40:55Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:40:55+00:00",
+			"PublishedAt": "2025-08-21T18:10:55+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "SMwIOf4wzzA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/SMwIOf4wzzA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/SMwIOf4wzzA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/SMwIOf4wzzA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/SMwIOf4wzzA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/SMwIOf4wzzA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms Symphony No.2 in D Op.73 -  Stanislaw Skrowaczewski / Hall\u00E9 Orchestra",
+			"VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
+			"VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "l3fdLwnn4Ok",
+			"VideoPublishedAtRaw": "2016-11-29T09:45:43Z",
+			"VideoPublishedAtDateTimeOffset": "2016-11-29T09:45:43+00:00",
+			"VideoPublishedAt": "2016-11-29T15:15:43+05:30"
+		},
+		"ETag": "YoxRyi5warnmRnFHT4AbBXERN8g",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Skrowaczewski is a Bruckner specialist, and his cycle with the Saarbr\u00FCcken Orchestra is one of the few absolute references. He conducts the Nullte with a .\n\nStanis\u0142aw Skrowaczewski Saarbrucken Radio Symphony Orchestra 2003.11.6 Tokyo Opera City Concert Hall Live. Japan. Skrowaczewski is a Bruckner .\n\nConductor: Stanis\u0142aw Skrowaczewski Ensemble: Saarbrucken Radio Symphony Orchestra.\n\nBruckner\u0027s Seventh Symphony may top the list of Bruckner\u0027s most important compositions for it was not until its premiere that the composer\u0027s symphonic works .",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 4,
+			"PublishedAtRaw": "2025-08-21T12:42:14Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:14+00:00",
+			"PublishedAt": "2025-08-21T18:12:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "l3fdLwnn4Ok"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/l3fdLwnn4Ok/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/l3fdLwnn4Ok/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/l3fdLwnn4Ok/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/l3fdLwnn4Ok/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/l3fdLwnn4Ok/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner - Symphonies [Skrowaczewski, Saarbrucken RSO]",
+			"VideoOwnerChannelId": "UC68quBmya9yh2lOJoXGl5Bg",
+			"VideoOwnerChannelTitle": "Dosenklempner"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XJua3B8iNs8",
+			"VideoPublishedAtRaw": "2013-01-25T09:39:36Z",
+			"VideoPublishedAtDateTimeOffset": "2013-01-25T09:39:36+00:00",
+			"VideoPublishedAt": "2013-01-25T15:09:36+05:30"
+		},
+		"ETag": "cTYaYghyuGABmlRsUbvBc3Ha6Zk",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton Bruckner (1824 - 1896) - Symphony n\u00B02 in c minor (1877 version)\n\nI. Moderato (00:00)\nII. Adagio. (17:35)\nIII. Scherzo. Schnell (34:52)\nIV. Finale. Mehr schnell (41:45)\n\nBayerischer Rundfunk Symphonieorchester, Stanislaw Skrowaczewski (live recording 2009)",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 5,
+			"PublishedAtRaw": "2025-08-21T12:42:29Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:29+00:00",
+			"PublishedAt": "2025-08-21T18:12:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XJua3B8iNs8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/XJua3B8iNs8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/XJua3B8iNs8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/XJua3B8iNs8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/XJua3B8iNs8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner - Symphony n\u00B02 - Skrowaczewski (live recording 2009)",
+			"VideoOwnerChannelId": "UCSYuNpF6o0zgNJHYz45YXiw",
+			"VideoOwnerChannelTitle": "S\u00E9bastien Letocart - Composer"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-YCT7oNpaoA",
+			"VideoPublishedAtRaw": "2024-10-17T19:28:57Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-17T19:28:57+00:00",
+			"VideoPublishedAt": "2024-10-18T00:58:57+05:30"
+		},
+		"ETag": "W8QccVsadLFKATbLiQgpBRXOyM4",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton BRUCKNER (1824 - 1896)\nSymphony \u21165 in B Flat Major WAB 105 (1875 - 1876)\n\n0:00 I. Introduction: Adagio \u2013 Allegro\n20:58 II. Adagio: Sehr langsam\n39:49 III. Scherzo: Molto vivace\n53:59 IV. Finale: Adagio \u2013 Allegro moderato\n\nGothenburg Symphony Orchestra\nStanislaw Skrowaczewski, conductor\nRecorded at Gothenburg Concert Hall, 7 March 2014",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 6,
+			"PublishedAtRaw": "2025-08-21T12:40:31Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:40:31+00:00",
+			"PublishedAt": "2025-08-21T18:10:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-YCT7oNpaoA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/-YCT7oNpaoA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/-YCT7oNpaoA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/-YCT7oNpaoA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/-YCT7oNpaoA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/-YCT7oNpaoA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner / Symphony \u21165 / Skrowaczewski \u0026 Gothenburg Symphony Orchestra (Live 2014)",
+			"VideoOwnerChannelId": "UCzW8QChMI4Ggy229T5hsCoQ",
+			"VideoOwnerChannelTitle": "\u0413\u043B\u0435\u0431 \u0427\u0435\u043D\u0446\u043E\u0432"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "4pa4HyTAqY0",
+			"VideoPublishedAtRaw": "2018-02-17T11:03:10Z",
+			"VideoPublishedAtDateTimeOffset": "2018-02-17T11:03:10+00:00",
+			"VideoPublishedAt": "2018-02-17T16:33:10+05:30"
+		},
+		"ETag": "HSO66X3YAjqi-QkrEwb-bJuohuQ",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "It was his last visit to Berlin, a Sunday afternoon, April 17th, at the Philharmonie with the Rundfunksinfonie-Orchester Berlin. \nWe knew he wanted to come back in two years, but we also knew it might not meant to be. \nIt wasn\u00B4t.\nI think the applause only faded out at last because we didn\u00B4t bear to watch him taking the way offstage and onstage again and again. We all saw how difficult these steps were for him. Otherwise we would probably applaude him still. We didn\u00B4t want him to go.\nBut he went, and he will never come back.\nIf you believe in these things, he might now be with Bruckner, discussing the different editions and interpretations. \nEven if I don\u00B4t believe this myself, I like the idea.\nThank you, Stanislaw Skrowaczewski, for all these moments I forgot the world, my madness and all the sorrow around me.",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 7,
+			"PublishedAtRaw": "2025-08-21T12:41:44Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:41:44+00:00",
+			"PublishedAt": "2025-08-21T18:11:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "4pa4HyTAqY0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/4pa4HyTAqY0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/4pa4HyTAqY0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/4pa4HyTAqY0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/4pa4HyTAqY0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner Symphony 8 Skrowaczewski live 2016 Berlin",
+			"VideoOwnerChannelId": "UCxphQRcOcW489krHOQbxxbg",
+			"VideoOwnerChannelTitle": "Reichhard Buerger"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Az-kHLRQhsk",
+			"VideoPublishedAtRaw": "2014-12-02T15:59:19Z",
+			"VideoPublishedAtDateTimeOffset": "2014-12-02T15:59:19+00:00",
+			"VideoPublishedAt": "2014-12-02T21:29:19+05:30"
+		},
+		"ETag": "Yy6Pa_1V0B0BcBvNwuFQIwboyIU",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton Bruckner: \n9. Sinfonie \u2219\n\n(Auftritt)  00:00 \u2219\nI. Feierlich, misterioso  00:50 \u2219\nII. Scherzo. Bewegt, lebhaft - Trio. Schnell - Scherzo  25:16 \u2219\nIII. Adagio. Langsam, feierlich  36:19 \u2219\n                              \nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nStanis\u0142aw Skrowaczewski, Dirigent \u2219\n\nAlte Oper Frankfurt, 27. November 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 8,
+			"PublishedAtRaw": "2025-08-21T12:42:18Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:18+00:00",
+			"PublishedAt": "2025-08-21T18:12:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Az-kHLRQhsk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Az-kHLRQhsk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Az-kHLRQhsk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Az-kHLRQhsk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Az-kHLRQhsk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Az-kHLRQhsk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner: 9. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Stanis\u0142aw Skrowaczewski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "plDB1HRGfjc",
+			"VideoPublishedAtRaw": "2025-08-15T11:20:05Z",
+			"VideoPublishedAtDateTimeOffset": "2025-08-15T11:20:05+00:00",
+			"VideoPublishedAt": "2025-08-15T16:50:05+05:30"
+		},
+		"ETag": "FeM4eyiHbXXooo0wo0HkylJT7Ts",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "First half of a concert guest conducted by Skrowaczewski, who guested frequently in the 1960s and 1970s while music director of Minneapolis, a post that EO had held from 1931-36. (Szell was the first to invite Skrowaczewski to the United States, in 1958.) Taut Mozart and exciting Prokofiev are in this program. The second half, consisting of the Schumann 4 and Firebird suite, is separately posted on this channel.",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 9,
+			"PublishedAtRaw": "2025-08-21T04:10:42Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T04:10:42+00:00",
+			"PublishedAt": "2025-08-21T09:40:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "plDB1HRGfjc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/plDB1HRGfjc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/plDB1HRGfjc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/plDB1HRGfjc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/plDB1HRGfjc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/plDB1HRGfjc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart 38 Prokofiev Romeo Philadelphia Skrowaczewski Apr 1964 Live",
+			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+			"VideoOwnerChannelTitle": "Peter Kohn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "6hLu6bPaUuY",
+			"VideoPublishedAtRaw": "2016-09-30T02:50:15Z",
+			"VideoPublishedAtDateTimeOffset": "2016-09-30T02:50:15+00:00",
+			"VideoPublishedAt": "2016-09-30T08:20:15+05:30"
+		},
+		"ETag": "0K2B07XN0J5zxVPnPCwCyqFjBPE",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Jan Lisiecki performs Mozart\u0027s Piano Concerto No 20 with Gothenburg Symphony, conductod by Stanislaw Skrowaczewski.",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 10,
+			"PublishedAtRaw": "2025-08-21T23:12:31Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T23:12:31+00:00",
+			"PublishedAt": "2025-08-22T04:42:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "6hLu6bPaUuY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/6hLu6bPaUuY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/6hLu6bPaUuY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/6hLu6bPaUuY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/6hLu6bPaUuY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/6hLu6bPaUuY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart Piano Concerto No.20 in D minor, K.466 - Jan Lisiecki \u0026 Skrowaczewski",
+			"VideoOwnerChannelId": "UCCl89IgwJEO-DQqwCDQNm4w",
+			"VideoOwnerChannelTitle": "Erick Martinez"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8rsRNuDKHdg",
+			"VideoPublishedAtRaw": "2017-07-16T06:55:07Z",
+			"VideoPublishedAtDateTimeOffset": "2017-07-16T06:55:07+00:00",
+			"VideoPublishedAt": "2017-07-16T12:25:07+05:30"
+		},
+		"ETag": "vaG_PcZDyV1EQ1YZbqUrD0ej-Fg",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Daphnis Et Chlo\u00E9 (Ballet) \n\nSuite No. 1\n\nNocturne\nInterlude\nDanse Guerri\u00E8re\n\nSuite No.2\n\nLever Du Jour\nPantomime\nDanse G\u00E9n\u00E9rale\n\nhttps://sonarmc.com/wordpress/site01/2013/12/12/%e3%83%a9%e3%83%b4%e3%82%a7%e3%83%ab%e3%80%8c%e3%83%80%e3%83%95%e3%83%8b%e3%82%b9%e3%81%a8%e3%82%af%e3%83%ad%e3%82%a8%e3%80%8d%e3%81%ae%e8%81%b4%e3%81%8d%e6%af%94%e3%81%b9/",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 11,
+			"PublishedAtRaw": "2025-08-21T12:42:03Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:03+00:00",
+			"PublishedAt": "2025-08-21T18:12:03+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8rsRNuDKHdg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8rsRNuDKHdg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8rsRNuDKHdg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/8rsRNuDKHdg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8rsRNuDKHdg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8rsRNuDKHdg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Ravel  \u0022Daphnis et Chlo\u00E9\u0022  -  Skrowaczewski / The Minnesota Orchestra",
+			"VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
+			"VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KDUNEJTGmVU",
+			"VideoPublishedAtRaw": "2019-12-06T00:15:00Z",
+			"VideoPublishedAtDateTimeOffset": "2019-12-06T00:15:00+00:00",
+			"VideoPublishedAt": "2019-12-06T05:45:00+05:30"
+		},
+		"ETag": "UnJy7XYRIOCt2RAea-pG-fSeuyU",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u3010Full HD \u0026 HQ Audio\u3011\u3000\n\nStanis\u0142aw Skrowaczewski\nYomiuri Nippon Symphony Orchestra\n\n2009.9.15 Tokyo Japan",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 12,
+			"PublishedAtRaw": "2025-08-22T11:52:04Z",
+			"PublishedAtDateTimeOffset": "2025-08-22T11:52:04+00:00",
+			"PublishedAt": "2025-08-22T17:22:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KDUNEJTGmVU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KDUNEJTGmVU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KDUNEJTGmVU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KDUNEJTGmVU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Ravel: Rapsodie Espagnole / Stanis\u0142aw Skrowaczewski (2009)",
+			"VideoOwnerChannelId": "UCX0BhYdCh7x0RLgOytyUqXQ",
+			"VideoOwnerChannelTitle": "JAPAN 1913"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "OkIcGuZmKSk",
+			"VideoPublishedAtRaw": "2017-12-18T13:15:33Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-18T13:15:33+00:00",
+			"VideoPublishedAt": "2017-12-18T18:45:33+05:30"
+		},
+		"ETag": "OlVEwIE6DpqdzzmEgaAcRXaYVE0",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Live at Academy of Music in 1984",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 13,
+			"PublishedAtRaw": "2025-08-21T12:42:41Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:41+00:00",
+			"PublishedAt": "2025-08-21T18:12:41+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "OkIcGuZmKSk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/OkIcGuZmKSk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/OkIcGuZmKSk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/OkIcGuZmKSk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/OkIcGuZmKSk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/OkIcGuZmKSk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Richard Strauss \u0022Don Juan\u0022  Op. 20 - Stanis\u0142aw Skrowaczewski / Philadelphia Orchestra (Live, 1984)",
+			"VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
+			"VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "u2Rtd4tnFwU",
+			"VideoPublishedAtRaw": "2013-09-16T10:08:58Z",
+			"VideoPublishedAtDateTimeOffset": "2013-09-16T10:08:58+00:00",
+			"VideoPublishedAt": "2013-09-16T15:38:58+05:30"
+		},
+		"ETag": "954pBdQN2zmCb8fNJLi9LJNarIk",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dmitrij Schostakowitsch: \n10. Sinfonie \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Moderato  00:28 \u2219 \nII. Allegro  25:15 \u2219\nIII. Allegretto  30:12 \u2219\nIV. Andante \u2013 Allegro  42:57 \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nStanis\u0142aw Skrowaczewski, Dirigent \u2219\n\nAlte Oper Frankfurt, 6. September 2013 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 14,
+			"PublishedAtRaw": "2025-08-21T12:42:24Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:24+00:00",
+			"PublishedAt": "2025-08-21T18:12:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "u2Rtd4tnFwU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/u2Rtd4tnFwU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schostakowitsch: 10. Sinfonie \u2219 hr-Sinfonieorchester \u2219 Stanis\u0142aw Skrowaczewski",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ShG6nEHYLZw",
+			"VideoPublishedAtRaw": "2025-08-15T14:22:55Z",
+			"VideoPublishedAtDateTimeOffset": "2025-08-15T14:22:55+00:00",
+			"VideoPublishedAt": "2025-08-15T19:52:55+05:30"
+		},
+		"ETag": "_yqfRMskaqgdL1s93clItwU9vpY",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Skrowaczewski leads a Schumann 4 that is exciting and propulsive and full of tension, and a Firebird Suite that is taut and shows off Philadelphia\u2019s spectacular brass to its fullest advantage. He was a terrific conductor, and uses the abundant player talent before him to its maximum effect.",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 15,
+			"PublishedAtRaw": "2025-08-21T04:10:54Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T04:10:54+00:00",
+			"PublishedAt": "2025-08-21T09:40:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ShG6nEHYLZw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ShG6nEHYLZw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ShG6nEHYLZw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ShG6nEHYLZw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ShG6nEHYLZw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ShG6nEHYLZw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann 4 Stravinsky Firebird Philadelphia Skrowaczewski Apr 1964 Live",
+			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+			"VideoOwnerChannelTitle": "Peter Kohn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "f7XL4A-qBHk",
+			"VideoPublishedAtRaw": "2017-03-16T16:52:57Z",
+			"VideoPublishedAtDateTimeOffset": "2017-03-16T16:52:57+00:00",
+			"VideoPublishedAt": "2017-03-16T22:22:57+05:30"
+		},
+		"ETag": "ZhX6z1hfqPApNzYfRg2OuthJua0",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gidon Kremer(vn) / Stanis\u0142aw Skrowaczewski (cond) / Philadelphia Orchestra\n\nLive in 1983, Academy of Music, Philadelphia\nI attended this concert.\n\nMy blog:https://sonarmc.com/wordpress/site01/2014/03/22/%e3%82%b7%e3%83%99%e3%83%aa%e3%82%a6%e3%82%b9-%e3%83%b4%e3%82%a1%e3%82%a4%e3%82%aa%e3%83%aa%e3%83%b3%e5%8d%94%e5%a5%8f%e6%9b%b2%e3%83%8b%e7%9f%ad%e8%aa%bf%e4%bd%9c%e5%93%81%ef%bc%94%ef%bc%97/",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 16,
+			"PublishedAtRaw": "2025-08-21T12:42:08Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:08+00:00",
+			"PublishedAt": "2025-08-21T18:12:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "f7XL4A-qBHk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/f7XL4A-qBHk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/f7XL4A-qBHk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/f7XL4A-qBHk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/f7XL4A-qBHk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/f7XL4A-qBHk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sibelius Violin Concerto - Gidon Kremer / Skrowaczewski / PHO (Live)",
+			"VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
+			"VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "6SGS9prNZ0I",
+			"VideoPublishedAtRaw": "2019-06-04T07:23:17Z",
+			"VideoPublishedAtDateTimeOffset": "2019-06-04T07:23:17+00:00",
+			"VideoPublishedAt": "2019-06-04T12:53:17+05:30"
+		},
+		"ETag": "fOwLz5Q4lDbSEeJwGK4sPxO_P7M",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Stanislaw Skrowaczewski (1923-2017) (Poland)\n\u00AB Music at Night \u00BB symphonic variations (1949 ; rev. 1977)  **MUST HEAR**\nDir : Stanis\u0142aw Skrowaczewski\n\n1- Allegro drammatico (3.43)\n2- Moderato \u2013 Drammatico e rubato (3.54)\n3- Allegro misterioso \u2013 Rallentando al Largo (4.46)\n4- Allegro molto \u2013 Doppio meno mosso (5.43)\n\nOn collectionCB5 we can also listen to Stanislaw Skrowaczewski\u2019s \u00AB Symphony for Strings \u00BB (1949).  \n\nLIST OF UPLOADS OF COLLECTIONCB, COLLECTIONCB2, COLLECTIONCB3, COLLECTIONCB4, COLLECTIONCB5 \nand\nIDEAL \u0022DISCOTHEQUE\u0022 OF MORE THAN 1,700 ORCHESTRAL WORKS OF FEELINGS :\nhttp://www.corentinboissier.net/",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 17,
+			"PublishedAtRaw": "2025-08-22T11:51:17Z",
+			"PublishedAtDateTimeOffset": "2025-08-22T11:51:17+00:00",
+			"PublishedAt": "2025-08-22T17:21:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "6SGS9prNZ0I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/6SGS9prNZ0I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/6SGS9prNZ0I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/6SGS9prNZ0I/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/6SGS9prNZ0I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/6SGS9prNZ0I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Stanislaw Skrowaczewski (1923-2017): \u0022Music at Night\u0022 symphonic variations (1949)",
+			"VideoOwnerChannelId": "UC4WR_XeByEd0_QR2xnsNqWA",
+			"VideoOwnerChannelTitle": "collectionCB5"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "hOcCUsft0aw",
+			"VideoPublishedAtRaw": "2019-06-18T07:50:44Z",
+			"VideoPublishedAtDateTimeOffset": "2019-06-18T07:50:44+00:00",
+			"VideoPublishedAt": "2019-06-18T13:20:44+05:30"
+		},
+		"ETag": "kRWsxtlJUSN2U6yH_3JWJj70yOI",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Stanislaw Skrowaczewski (1923-2017) (Poland)\nSymphony for Strings (1949)  \nDir : Tadeusz Wojciechowski\n\n1- Adagio \u2013 Allegro (7.49)\n2- Adagio (5.08)\n3- Presto (5.54)\n \nOn collectionCB5 we can also listen to Stanislaw Skrowaczewski\u2019s  \u00AB Music at Night \u00BB symphonic variations (1949 ; rev. 1977).\n\nLIST OF UPLOADS OF COLLECTIONCB, COLLECTIONCB2, COLLECTIONCB3, COLLECTIONCB4, COLLECTIONCB5 \nand\nIDEAL \u0022DISCOTHEQUE\u0022 OF MORE THAN 1,700 ORCHESTRAL WORKS OF FEELINGS :\nhttp://www.corentinboissier.net/",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 18,
+			"PublishedAtRaw": "2025-08-22T11:50:39Z",
+			"PublishedAtDateTimeOffset": "2025-08-22T11:50:39+00:00",
+			"PublishedAt": "2025-08-22T17:20:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "hOcCUsft0aw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/hOcCUsft0aw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/hOcCUsft0aw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/hOcCUsft0aw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/hOcCUsft0aw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/hOcCUsft0aw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Stanislaw Skrowaczewski (1923-2017): Symphony for Strings (1949)",
+			"VideoOwnerChannelId": "UC4WR_XeByEd0_QR2xnsNqWA",
+			"VideoOwnerChannelTitle": "collectionCB5"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "2cGrsn7f77Y",
+			"VideoPublishedAtRaw": "2017-11-20T03:53:14Z",
+			"VideoPublishedAtDateTimeOffset": "2017-11-20T03:53:14+00:00",
+			"VideoPublishedAt": "2017-11-20T09:23:14+05:30"
+		},
+		"ETag": "wrlH-7fbwmNO2g9FDoFFaIcfLRo",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This concerto was written and conducted by Stanis\u0142aw Skrowaczewski.  He was the long time director of the Minnesota Orchestra.  The soloist is Thomas Stacy.  This LP recording was originally issued on Desto Records in 1971.\n\nThe Orchestra performed this piece in Carnegie Hall in 1971.  The New York Times critic who heard the Concerto was less than enthused referring to it as \u0022not modern\u0022 and that in the end it was \u0022a mess.\u0022  At the same time, he found the performance of the orchestra to be excellent, and praised Skrowaczewski\u0027s conducting. Of Thomas Stacy, he said \u0022Stacy must be the Horowitz of the English Horn.\u0022\n\nHe also noted the rarity of a concerto for the English Horn - saying, \u0022it\u0027s as rare as finding fur on fish.\u0022\n\nI am posting as part of an effort to share works that are not on Youtube already and that are no longer in print.",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 19,
+			"PublishedAtRaw": "2025-08-21T12:42:45Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:42:45+00:00",
+			"PublishedAt": "2025-08-21T18:12:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "2cGrsn7f77Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/2cGrsn7f77Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/2cGrsn7f77Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/2cGrsn7f77Y/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/2cGrsn7f77Y/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Stanis\u0142aw Skrowaczewski Concerto for English Horn and Orchestra",
+			"VideoOwnerChannelId": "UCQhOAJdrHg4VvcPNZoeWqcQ",
+			"VideoOwnerChannelTitle": "ly776 Classic Vinyl"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "QyrxSN35u0E",
+			"VideoPublishedAtRaw": "2017-10-21T16:28:37Z",
+			"VideoPublishedAtDateTimeOffset": "2017-10-21T16:28:37+00:00",
+			"VideoPublishedAt": "2017-10-21T21:58:37+05:30"
+		},
+		"ETag": "uj_U6GNbbNW2QnlN0Ede9pcyWcU",
+		"Id": "UEwxemdOQ29XdF83YXI5SmZsTjJYSHhSUEE1TlpUOVR5di4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky (1840-1893)\nSYMPHONY NO. 5 in E minor, Op. 64\nNHK Symphony Orchestra\nSTANIS\u0141AW SKROWACZEWSKI, cond.\nRecording: NHK Hall, Tokyo, 2 \u0026 3 February 1996\n\nI. Andante - Allegro con anima (0:00)\nII. Andante cantabile, con alcuna licenza (14:43)\nIII. Allegro moderato (28:07)\nIV. Finale. Andante maestoso - Allegro vivace (33:37)",
+			"PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
+			"Position": 20,
+			"PublishedAtRaw": "2025-08-21T12:41:48Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:41:48+00:00",
+			"PublishedAt": "2025-08-21T18:11:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "QyrxSN35u0E"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/QyrxSN35u0E/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/QyrxSN35u0E/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/QyrxSN35u0E/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/QyrxSN35u0E/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/QyrxSN35u0E/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Symphony No. 5 - NHK Symphony Orchestra/Skrowaczewski (1996)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	}
+]

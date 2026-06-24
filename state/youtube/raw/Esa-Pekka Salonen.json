@@ -1,0 +1,3345 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "B0m-xSV29ZI",
+      "VideoPublishedAtRaw": "2023-12-08T20:41:56Z",
+      "VideoPublishedAtDateTimeOffset": "2023-12-08T20:41:56+00:00",
+      "VideoPublishedAt": "2023-12-09T02:11:56+05:30"
+    },
+    "ETag": "RQ1zuBUUqb3d0UEgsatifWWACJQ",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This year\u2019s Nobel Prize Concert brings together world-renowned conductor Esa-Pekka Salonen and acclaimed violinist Julia Fischer, together with the Royal Stockholm Philharmonic Orchestra. On 8 December, works by Boccherini, Brahms and Ravel were performed on the Konserthuset Stockholm stage. The audience also heard a work by the exciting young composer Gabriella Smith.\n\nIn Sweden you can watch the concert on SVT Play. https://www.svtplay.se/nobelkonserten",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 0,
+      "PublishedAtRaw": "2024-11-10T20:57:15Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:57:15+00:00",
+      "PublishedAt": "2024-11-11T02:27:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "B0m-xSV29ZI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/B0m-xSV29ZI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/B0m-xSV29ZI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/B0m-xSV29ZI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/B0m-xSV29ZI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/B0m-xSV29ZI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "2023 Nobel Prize Concert",
+      "VideoOwnerChannelId": "UC-V6odR7HzLCuqjYeowPjLA",
+      "VideoOwnerChannelTitle": "Nobel Prize"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "4m60_16cF-U",
+      "VideoPublishedAtRaw": "2024-04-05T07:37:43Z",
+      "VideoPublishedAtDateTimeOffset": "2024-04-05T07:37:43+00:00",
+      "VideoPublishedAt": "2024-04-05T13:07:43+05:30"
+    },
+    "ETag": "9FKEWBTCpzvQAN6rW3NVf8rHXB0",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das NDR Elbphilharmonie Orchester spielt unter der Leitung von Esa-Pekka Salonen Alexander Skrjabins gro\u00DFbesetztes Orchesterwerk \u0022Po\u00E8me de l\u2019extase\u0022 aus dem Jahr 1908. Das Werk gipfelt in einem wahren Orchesterrausch - und wurde von manchem Zeitgenossen als \u0022obsz\u00F6n\u0022 empfunden. \n\nEin Ausschnitt aus dem Konzert im Rahmen des Internationalen Musikfests Hamburg am 12. Mai 2023. Die Aufnahme steht bis zum 11. Mai 2028 zur Verf\u00FCgung.\n \nALEXANDER SKRJABIN\nLe po\u00E8me de l\u2019extase op. 54\n\nEsa-Pekka Salonen, Dirigent\nNDR Elbphilharmonie Orchester\n\nWeitere Informationen:\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #esapekkasalonen #IMF",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 1,
+      "PublishedAtRaw": "2024-11-10T20:56:43Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:56:43+00:00",
+      "PublishedAt": "2024-11-11T02:26:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "4m60_16cF-U"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/4m60_16cF-U/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/4m60_16cF-U/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/4m60_16cF-U/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/4m60_16cF-U/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Alexander Skrjabin: \u0022Le po\u00E8me de l\u2019extase\u0022 | Esa-Pekka Salonen | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "_naJH44Lk3I",
+      "VideoPublishedAtRaw": "2009-12-22T18:09:31Z",
+      "VideoPublishedAtDateTimeOffset": "2009-12-22T18:09:31+00:00",
+      "VideoPublishedAt": "2009-12-22T23:39:31+05:30"
+    },
+    "ETag": "oEte-QiK9cJfpvIAD6RDXlWB2vk",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5CNTcxMDQ0NThBNzMxODYz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen conducts the Los Angeles Philharmonic Orchestra in Bernard Herrmann\u0027s \u0022Scene d\u0027amour\u0022 from Hitchcock\u0027s  \u0022Vertigo\u0022",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 2,
+      "PublishedAtRaw": "2024-11-10T21:59:47Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:59:47+00:00",
+      "PublishedAt": "2024-11-11T03:29:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "_naJH44Lk3I"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/_naJH44Lk3I/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/_naJH44Lk3I/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/_naJH44Lk3I/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/_naJH44Lk3I/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "B.Herrmann: \u0022Scene d\u0027amour\u0022  from Hitchcock\u0027s \u0022Vertigo\u0022 - E-P Salonen",
+      "VideoOwnerChannelId": "UCRYFqBRammKu0TRueEiNK4g",
+      "VideoOwnerChannelTitle": "Roberto Mastrosimone"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mYJAafkm_n4",
+      "VideoPublishedAtRaw": "2024-06-06T10:00:50Z",
+      "VideoPublishedAtDateTimeOffset": "2024-06-06T10:00:50+00:00",
+      "VideoPublishedAt": "2024-06-06T15:30:50+05:30"
+    },
+    "ETag": "3dOLW4SZYwlTdDZ8zsXHXtT8vUg",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Prom 23\nMon 30 Jul 2007 Royal Albert Hall\n\nProgramme\nMaurice Ravel\nLe tombeau de Couperin\n\nEsa\u2010Pekka Salonen\nPiano Concerto European premiere\n\nHector Berlioz\nRom\u00E9o et Juliette (La Reine Mab)\nRom\u00E9o et Juliette (Rom\u00E9o seul - Grande f\u00EAte chez Capulet)\nRom\u00E9o et Juliette (Introduction)Combats - Tumulte - Intervention du prince\nRom\u00E9o et Juliette (Sc\u00E8ne d\u0027amour)\n\nPerformers\nYefim Bronfman piano\nBBC Symphony Orchestra\nEsa-Pekka Salonen conductor",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 3,
+      "PublishedAtRaw": "2024-11-10T20:56:15Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:56:15+00:00",
+      "PublishedAt": "2024-11-11T02:26:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mYJAafkm_n4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mYJAafkm_n4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mYJAafkm_n4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mYJAafkm_n4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mYJAafkm_n4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "BBC Proms 2007 : Ravel, Salonen \u0026 Berlioz",
+      "VideoOwnerChannelId": "UCigQdafw3-nspaP2f2tswlA",
+      "VideoOwnerChannelTitle": "Proms-Music-Vault-II"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "V8rvWdyF3J4",
+      "VideoPublishedAtRaw": "2024-05-23T07:58:33Z",
+      "VideoPublishedAtDateTimeOffset": "2024-05-23T07:58:33+00:00",
+      "VideoPublishedAt": "2024-05-23T13:28:33+05:30"
+    },
+    "ETag": "PS_vOsuL7cHCOMIoBJhmCprT2UU",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4zQzFBN0RGNzNFREFCMjBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Hector Berlioz\u0027 Sc\u00E8ne d\u2019amour aus \u0022Rom\u00E9o et Juliette\u0022 op. 17, gespielt vom NDR Ephilharmonie Orchester beim Internationalen Musikfest Hamburg 2023 unter Leitung von Esa-Pekka Salonen. Eine Aufzeichnung vom 12. Mai 2023 aus der Elbphilharmonie.\n\nHector Berlioz - Sc\u00E8ne d\u2019amour aus \u0022Rom\u00E9o et Juliette\u0022 op. 17\n\nNDR Elbphilharmonie Orchester\nEsa-Pekka Salonen, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 4,
+      "PublishedAtRaw": "2024-11-10T21:49:52Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:49:52+00:00",
+      "PublishedAt": "2024-11-11T03:19:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "V8rvWdyF3J4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/V8rvWdyF3J4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/V8rvWdyF3J4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/V8rvWdyF3J4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/V8rvWdyF3J4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/V8rvWdyF3J4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz - Sc\u00E8ne d\u2019amour aus \u0022Rom\u00E9o et Juliette\u0022 | Esa-Pekka Salonen | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YZ7IHEEoKug",
+      "VideoPublishedAtRaw": "2023-05-27T13:30:13Z",
+      "VideoPublishedAtDateTimeOffset": "2023-05-27T13:30:13+00:00",
+      "VideoPublishedAt": "2023-05-27T19:00:13+05:30"
+    },
+    "ETag": "yLrltBur5G9FEY7QvcJeVmTP2Ok",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "bruckner  symphony No. 6 in a major\n\ni.  majestoso ( 0:00 - )\nii. adagio ( 15:41 - )\niii. scherzo - trio ( 35:21 - )\niv. finale ( 43:48 - )\n\n( live recording.  5.25.1985 )\n\n\n\n*. source : lucky ball cd-r (modified)\n*. e-p salonen    french national orchestra",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 5,
+      "PublishedAtRaw": "2024-11-10T20:58:27Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:58:27+00:00",
+      "PublishedAt": "2024-11-11T02:28:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YZ7IHEEoKug"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YZ7IHEEoKug/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YZ7IHEEoKug/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YZ7IHEEoKug/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YZ7IHEEoKug/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "bruckner  symphony No. 6 in a major ( e-p salonen )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "IBBpqEMRaZU",
+      "VideoPublishedAtRaw": "2013-03-24T19:51:00Z",
+      "VideoPublishedAtDateTimeOffset": "2013-03-24T19:51:00+00:00",
+      "VideoPublishedAt": "2013-03-25T01:21:00+05:30"
+    },
+    "ETag": "AujwGC3RSrlW6JLm-_wtamwuGxs",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS45RjNFMDhGQ0Q2RkFCQTc1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 6,
+      "PublishedAtRaw": "2024-11-10T21:06:21Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:06:21+00:00",
+      "PublishedAt": "2024-11-11T02:36:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "IBBpqEMRaZU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/IBBpqEMRaZU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/IBBpqEMRaZU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/IBBpqEMRaZU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/IBBpqEMRaZU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Debussy-La Mer,Orchestre de Paris-Salonen",
+      "VideoOwnerChannelId": "UC5E6lOoYtCqdW1vZO8NBDvA",
+      "VideoOwnerChannelTitle": "Opera Passione"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ZVCtYIKEA9s",
+      "VideoPublishedAtRaw": "2025-03-21T12:49:04Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-21T12:49:04+00:00",
+      "VideoPublishedAt": "2025-03-21T18:19:04+05:30"
+    },
+    "ETag": "cJ_68Or_LVJ0vYMFtuHXsjCxTok",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS43QzNCNkZENzIyMDY2MjZB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen und Pekka Kuusisto bringen gemeinsam mit dem NDR Elbphilharmonie Orchester das von Bryce Dessner eigens f\u00FCr Kuusisto komponierte Violinkonzert auf die B\u00FChne der der Elbphilharmonie Hamburg. Eine Aufzeichnung vom 31. Dezember 2024.\n\nBryce Dessner - Violinkonzert\n\n00:00:00 I. Satz  \n00:17:00 II. Satz  \n00:22:36 III. Satz  \n\nPekka Kuusisto, Violine\nNDR Elbphilharmonie Orchester\nEsa-Pekka Salonen, Dirigent\n\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR EO bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR EO auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 7,
+      "PublishedAtRaw": "2025-06-06T22:50:27Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T22:50:27+00:00",
+      "PublishedAt": "2025-06-07T04:20:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ZVCtYIKEA9s"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ZVCtYIKEA9s/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ZVCtYIKEA9s/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ZVCtYIKEA9s/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ZVCtYIKEA9s/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dessner - Violinkonzert | Esa-Pekka Salonen | Pekka Kuusisto | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "o_EBBt1GlD8",
+      "VideoPublishedAtRaw": "2016-01-10T06:46:19Z",
+      "VideoPublishedAtDateTimeOffset": "2016-01-10T06:46:19+00:00",
+      "VideoPublishedAt": "2016-01-10T12:16:19+05:30"
+    },
+    "ETag": "1irTVw9VyMS1vcu-34K3nmhg-S4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4zMEQ1MEIyRTFGNzhDQzFB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen (born June 30, 1958)  \nhttps://en.wikipedia.org/wiki/Esa-Pekka_Salonen\nKarawane for Orchestra and Chorus, 2014  [part 2]\n\nFinnish Radio Symphony Orchestra\nConductor : Hannu Lintu \n\nTapiola Chamber Choir, Directed by Hannu Norjanen\nKey Ensemble, Directed by Teemu Honkanen\n\nRecording Live\n\nOfficial Site: http://www.esapekkasalonen.com/index.php\n\nArtwork by Zdzislaw Beksinski\nVirtual Museum: http://www.dmochowskigallery.net/\n\n\n-",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 8,
+      "PublishedAtRaw": "2024-11-10T21:56:08Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:56:08+00:00",
+      "PublishedAt": "2024-11-11T03:26:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "o_EBBt1GlD8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/o_EBBt1GlD8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/o_EBBt1GlD8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/o_EBBt1GlD8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/o_EBBt1GlD8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/o_EBBt1GlD8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa -Pekka Salonen : Karawane for Orchestra \u0026 Chorus [Live 2]",
+      "VideoOwnerChannelId": "UCS-LEHFNQvMk0JB2W7xgrJg",
+      "VideoOwnerChannelTitle": "Chris \u0027Le Magnetique\u0027 1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "LvoK7Qfnu1Y",
+      "VideoPublishedAtRaw": "2024-03-21T11:00:26Z",
+      "VideoPublishedAtDateTimeOffset": "2024-03-21T11:00:26+00:00",
+      "VideoPublishedAt": "2024-03-21T16:30:26+05:30"
+    },
+    "ETag": "KN36GD2FjbZX_DI99GKdlz7ywn4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Finland vs Finland. Vackert.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 9,
+      "PublishedAtRaw": "2024-11-10T20:57:01Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:57:01+00:00",
+      "PublishedAt": "2024-11-11T02:27:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "LvoK7Qfnu1Y"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/LvoK7Qfnu1Y/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/LvoK7Qfnu1Y/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/LvoK7Qfnu1Y/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/LvoK7Qfnu1Y/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa Pekka Salonen Dirigerar Sibelius (SVT 1993-11-15)",
+      "VideoOwnerChannelId": "UCQCffwh2Ap3qfY9qnqLC64A",
+      "VideoOwnerChannelTitle": "Rosa Mannen"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "JpRYuELSuv4",
+      "VideoPublishedAtRaw": "2008-01-02T22:10:50Z",
+      "VideoPublishedAtDateTimeOffset": "2008-01-02T22:10:50+00:00",
+      "VideoPublishedAt": "2008-01-03T03:40:50+05:30"
+    },
+    "ETag": "hh6HuYpTTEKH73yonIPCJMA_WFg",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5CNTZFOTNGQzZEODg1RUQx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Gergiev conducting Salonen\u0027s Helix for orchestra at the PROMS. (2005)",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 10,
+      "PublishedAtRaw": "2024-11-10T21:59:26Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:59:26+00:00",
+      "PublishedAt": "2024-11-11T03:29:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "JpRYuELSuv4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/JpRYuELSuv4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/JpRYuELSuv4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/JpRYuELSuv4/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Esa-Pekka Salonen - Helix for orchestra - Gergiev",
+      "VideoOwnerChannelId": "UCeVk5OCFFxlTSyMgIQRBmcQ",
+      "VideoOwnerChannelTitle": "suasoires"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Ej9y4BVthlA",
+      "VideoPublishedAtRaw": "2021-01-22T11:05:05Z",
+      "VideoPublishedAtDateTimeOffset": "2021-01-22T11:05:05+00:00",
+      "VideoPublishedAt": "2021-01-22T16:35:05+05:30"
+    },
+    "ETag": "RaJynRx2Pqwqc-pE_iVbKzDWBi0",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS43NDhFRTgwOTRERTU4Rjg3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Truls M\u00F8rk au violoncelle et l\u0027Orchestre Philharmonique de Radio France sous la direction de Klaus M\u00E4kel\u00E4 interpr\u00E8te le Concerto pour violoncelle d\u0027Esa-Pekka Salonen. Extrait du concert donn\u00E9 le 6 mars 2020 \u00E0 l\u2019Auditorium de la Maison de la Radio \u00E0 Paris.\n\n#KlausM\u00E4kel\u00E4 #TrulsM\u00F8rk #OrchestrePhilharmoniquedeRadioFrance\n\n\nRetrouvez tous les concerts en vid\u00E9o de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 11,
+      "PublishedAtRaw": "2024-11-10T21:03:00Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:03:00+00:00",
+      "PublishedAt": "2024-11-11T02:33:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Ej9y4BVthlA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen : Concerto pour violoncelle",
+      "VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+      "VideoOwnerChannelTitle": "France Musique concerts"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "LuNIvZLl5Tk",
+      "VideoPublishedAtRaw": "2016-01-10T06:47:10Z",
+      "VideoPublishedAtDateTimeOffset": "2016-01-10T06:47:10+00:00",
+      "VideoPublishedAt": "2016-01-10T12:17:10+05:30"
+    },
+    "ETag": "3udqtVqMd2nRsdGsacCqXQqZwLg",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4xMzgwMzBERjQ4NjEzNUE5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen (born June 30, 1958)  \nhttps://en.wikipedia.org/wiki/Esa-Pekka_Salonen\n\nKarawane for Orchestra and Chorus, 2014 [part 1]\n\nFinnish Radio Symphony Orchestra\nConductor : Hannu Lintu \n\nTapiola Chamber Choir, Directed by Hannu Norjanen\nKey Ensemble, Directed by Teemu Honkanen\n\nRecording Live\n\nOfficial Site: http://www.esapekkasalonen.com/index.php\n\nArtwork by Zdzislaw Beksinski\nVirtual Museum: http://www.dmochowskigallery.net/\n\n-",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 12,
+      "PublishedAtRaw": "2024-11-10T21:55:57Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:55:57+00:00",
+      "PublishedAt": "2024-11-11T03:25:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "LuNIvZLl5Tk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/LuNIvZLl5Tk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/LuNIvZLl5Tk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/LuNIvZLl5Tk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/LuNIvZLl5Tk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/LuNIvZLl5Tk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen : Karawane for Orchestra \u0026 Chorus [Live 1]",
+      "VideoOwnerChannelId": "UCS-LEHFNQvMk0JB2W7xgrJg",
+      "VideoOwnerChannelTitle": "Chris \u0027Le Magnetique\u0027 1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nDTEcpMo1k0"
+    },
+    "ETag": "QIUqNl4gVr-h-ZUIzYHaf9mUYzw",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 13,
+      "PublishedAtRaw": "2024-11-10T20:59:08Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:59:08+00:00",
+      "PublishedAt": "2024-11-11T02:29:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nDTEcpMo1k0"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ESuFL9r3vkE",
+      "VideoPublishedAtRaw": "2022-12-22T18:18:04Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-22T18:18:04+00:00",
+      "VideoPublishedAt": "2022-12-22T23:48:04+05:30"
+    },
+    "ETag": "-ceTZa5MYLCRifAplWUfGYay5s0",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss, Metamorphoses, op. 11\nLudwig van Beethoven, Symphony No. 3 in E flat major \u0022Eroica\u0022\n\nSinfonia Grange au Lac\nEsa-Pekka Salonen, conductor",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 14,
+      "PublishedAtRaw": "2024-11-10T20:58:56Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:58:56+00:00",
+      "PublishedAt": "2024-11-11T02:28:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ESuFL9r3vkE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ESuFL9r3vkE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ESuFL9r3vkE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ESuFL9r3vkE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Esa-Pekka Salonen conducts Strauss and Beethoven",
+      "VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
+      "VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YwOcRZe-WeU",
+      "VideoPublishedAtRaw": "2024-01-22T14:33:49Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-22T14:33:49+00:00",
+      "VideoPublishedAt": "2024-01-22T20:03:49+05:30"
+    },
+    "ETag": "xsFdWwx0hymCELfyyai6uouLW7Y",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS45NkVENTkxRDdCQUFBMDY4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen zu Gast anl\u00E4sslich des Internationalen Musikfests Hamburg: Das NDR Elbphilharmonie Orchester spielt unter seiner Leitung Jean Sibelius\u0027 \u0022Rakastava\u0022 (\u0022Der Liebende\u0022). \n\nEin Konzertausschnitt vom 12. Mai 2023 aus der Elbphilharmonie Hamburg. Die Aufnahme steht noch bis zum 11. Mai 2028 zur Verf\u00FCgung.\n\nJEAN SIBELIUS \nRakastava (Der Liebende) op. 14  00:00\nI. Rakastava (Der Liebende). Andante con moto  00:01\nII. Rakastetun tie (Der Weg der Geliebten). Allegretto  04:50\nIII. Hyv\u00E4\u00E4 iltaa ... J\u00E4\u00E4 hyv\u00E4sti (Guten Abend ... Lebe wohl!). Andantino  07:05\n\nEsa-Pekka Salonen, Dirigent\nNDR Elbphilharmonie Orchester\n\nWeitere Informationen:\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #esapekkasalonen #IMF",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 15,
+      "PublishedAtRaw": "2024-11-10T21:50:04Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:50:04+00:00",
+      "PublishedAt": "2024-11-11T03:20:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YwOcRZe-WeU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YwOcRZe-WeU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YwOcRZe-WeU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YwOcRZe-WeU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YwOcRZe-WeU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen dirigiert Jean Sibelius: \u0022Rakastava\u0022 | IMF | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "dPPpR2ZBMtM",
+      "VideoPublishedAtRaw": "2017-11-24T14:10:53Z",
+      "VideoPublishedAtDateTimeOffset": "2017-11-24T14:10:53+00:00",
+      "VideoPublishedAt": "2017-11-24T19:40:53+05:30"
+    },
+    "ETag": "tHY1Wxi7V0MkXE2gjZiisW6a5Uk",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4yQUJFNUVCMzVDNjcxRTlF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Philharmonia Orchestra\nEsa-Pekka Salonen, conductor\nLive performance: 1 October 2017\nRoyal Festival Hall, Southbank Centre, London, UK\n\nMahler Symphony No. 3\nII. Tempo di Menuetto \n\nWatch the whole piece in our playlist: https://www.youtube.com/playlist?list=PLqR22EoucCyfOJdXv0m36aMuc__qKNsxW",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 16,
+      "PublishedAtRaw": "2024-11-10T21:54:48Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:54:48+00:00",
+      "PublishedAt": "2024-11-11T03:24:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "dPPpR2ZBMtM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/dPPpR2ZBMtM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/dPPpR2ZBMtM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/dPPpR2ZBMtM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/dPPpR2ZBMtM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/dPPpR2ZBMtM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen | Mahler\u0027s Third Symphony | II. Tempo di Menuetto (Philharmonia Orchestra)",
+      "VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+      "VideoOwnerChannelTitle": "Philharmonia Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "duPimGFi22s",
+      "VideoPublishedAtRaw": "2017-11-24T14:12:41Z",
+      "VideoPublishedAtDateTimeOffset": "2017-11-24T14:12:41+00:00",
+      "VideoPublishedAt": "2017-11-24T19:42:41+05:30"
+    },
+    "ETag": "d1b1k8nLi8cjqlDshFykrjDxIQc",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS40QzRDOEU0QUYwNUIxN0M1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Philharmonia Orchestra\nEsa-Pekka Salonen, conductor\nLive performance: 1 October 2017\nRoyal Festival Hall, Southbank Centre, London, UK\n\nMahler Symphony No. 3\nIII. Comodo (Scherzando) \n\nWatch the whole piece in our playlist: https://www.youtube.com/playlist?list=PLqR22EoucCyfOJdXv0m36aMuc__qKNsxW",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 17,
+      "PublishedAtRaw": "2024-11-10T21:54:51Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:54:51+00:00",
+      "PublishedAt": "2024-11-11T03:24:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "duPimGFi22s"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/duPimGFi22s/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/duPimGFi22s/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/duPimGFi22s/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/duPimGFi22s/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/duPimGFi22s/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen | Mahler\u0027s Third Symphony | III. Comodo (Scherzando) (Philharmonia Orchestra)",
+      "VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+      "VideoOwnerChannelTitle": "Philharmonia Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "vM3POOgwBGc",
+      "VideoPublishedAtRaw": "2017-11-24T14:13:59Z",
+      "VideoPublishedAtDateTimeOffset": "2017-11-24T14:13:59+00:00",
+      "VideoPublishedAt": "2017-11-24T19:43:59+05:30"
+    },
+    "ETag": "m8_OBIaUvBUjwp01Wu3SWEhtYSM",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41RTNBREYwMkI5QzU3RkY2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Philharmonia Orchestra\nEsa-Pekka Salonen, conductor\nLive performance: 1 October 2017\nRoyal Festival Hall, Southbank Centre, London, UK\n\nMahler Symphony No. 3\nIV. Sehr langsam\u2014Misterioso \n\nWatch the whole piece in our playlist: https://www.youtube.com/playlist?list=PLqR22EoucCyfOJdXv0m36aMuc__qKNsxW",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 18,
+      "PublishedAtRaw": "2024-11-10T21:54:54Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:54:54+00:00",
+      "PublishedAt": "2024-11-11T03:24:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "vM3POOgwBGc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/vM3POOgwBGc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/vM3POOgwBGc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/vM3POOgwBGc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/vM3POOgwBGc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/vM3POOgwBGc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen | Mahler\u0027s Third Symphony | IV. Sehr langsam\u2014Misterioso (Philharmonia Orchestra)",
+      "VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+      "VideoOwnerChannelTitle": "Philharmonia Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Gk5G5jrycos",
+      "VideoPublishedAtRaw": "2017-11-24T14:15:33Z",
+      "VideoPublishedAtDateTimeOffset": "2017-11-24T14:15:33+00:00",
+      "VideoPublishedAt": "2017-11-24T19:45:33+05:30"
+    },
+    "ETag": "xXdCb4DQQ_wYmAh1WNEGj-qbz5k",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5ENjI1QUI0MDI5NEQzODFE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Philharmonia Orchestra\nEsa-Pekka Salonen, conductor\nLive performance: 1 October 2017\nRoyal Festival Hall, Southbank Centre, London, UK\n\nMahler Symphony No. 3\nV. Lustig im Tempo und keck im Ausdruck \n\nWatch the whole piece in our playlist: https://www.youtube.com/playlist?list=PLqR22EoucCyfOJdXv0m36aMuc__qKNsxW",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 19,
+      "PublishedAtRaw": "2024-11-10T21:54:57Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:54:57+00:00",
+      "PublishedAt": "2024-11-11T03:24:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Gk5G5jrycos"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Gk5G5jrycos/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Gk5G5jrycos/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Gk5G5jrycos/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Gk5G5jrycos/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Gk5G5jrycos/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen | Mahler\u0027s Third Symphony | V. Lustig im Tempo und keck im Ausdruck",
+      "VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+      "VideoOwnerChannelTitle": "Philharmonia Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "L43DTSN-zmo",
+      "VideoPublishedAtRaw": "2017-12-06T16:31:46Z",
+      "VideoPublishedAtDateTimeOffset": "2017-12-06T16:31:46+00:00",
+      "VideoPublishedAt": "2017-12-06T22:01:46+05:30"
+    },
+    "ETag": "KKZmZ5FWVh0cbv-mvPlRq7_fgO8",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4yQjZFRkExQjFGODk3RUFD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Philharmonia Orchestra\nEsa-Pekka Salonen \u2013 conductor\nLive performance: 1 October 2017\nRoyal Festival Hall, Southbank Centre, London, UK\n\nMahler Symphony No. 3\nI. Kr\u00E4ftig. Entschieden\n\nWatch all of Mahler\u0027s Third Symphony in our playlist: https:www.youtube.com/playlist?list=PLqR22EoucCyfOJdXv0m36aMuc__qKNsxW\n\nThe Philharmonia is a world-class symphony orchestra, led by Principal Conductor Santtu-Matias Rouvali.\n\nBased in London at Southbank Centre\u2019s Royal Festival Hall, resident in cities and at festivals across England, and touring internationally, the Philharmonia creates thrilling performances for a global audience. Find out more about us on our website: https://philharmonia.co.uk/\n\nExplore our YouTube channel for performances, interviews, documentaries, listening guides and instrument films: https://www.youtube.com/@philharmonia_orchestra?sub_confirmation=1\n\nJoin our email list for regular updates on our live performances: https://tickets.philharmonia.co.uk/mailing-list\n\nThe Philharmonia is a registered charity, find out how to support our work: https://philharmonia.co.uk/join-support/\n\nFollow us on social media:\nFacebook: https://www.facebook.com/philharmoniaorchestra\nInstagram: https://www.instagram.com/philharmonia_orchestra/\nTwitter: https://twitter.com/philharmonia\nTikTok: https://www.tiktok.com/@philharmoniaorchestra",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 20,
+      "PublishedAtRaw": "2024-11-10T21:54:44Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:54:44+00:00",
+      "PublishedAt": "2024-11-11T03:24:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "L43DTSN-zmo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/L43DTSN-zmo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/L43DTSN-zmo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/L43DTSN-zmo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/L43DTSN-zmo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/L43DTSN-zmo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen | Mahler\u2019s Third Symphony | I. Kr\u00E4ftig. Entschieden (Philharmonia Orchestra)",
+      "VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+      "VideoOwnerChannelTitle": "Philharmonia Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2cAUIQdzo1A",
+      "VideoPublishedAtRaw": "2020-09-05T14:02:42Z",
+      "VideoPublishedAtDateTimeOffset": "2020-09-05T14:02:42+00:00",
+      "VideoPublishedAt": "2020-09-05T19:32:42+05:30"
+    },
+    "ETag": "HyxHJQgyz1X038b4fICyoScfmM8",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5DRUQwODMxQzUyRTlGRkY3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen: FOG (2019)\nHannu Lintu, conductor\nFinnish Radio Symphony Orchestra\nHelsinki Music Centre, 4 September 2020\n\n\nThis is the first concert of the Finnish Radio Symphony with audience present in the hall since the coronavirus-related restrictions were put in place in March 2020. The audience is still limited to 400 people in the 1700-capacity hall.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 21,
+      "PublishedAtRaw": "2024-11-10T21:51:14Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:51:14+00:00",
+      "PublishedAt": "2024-11-11T03:21:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2cAUIQdzo1A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/2cAUIQdzo1A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/2cAUIQdzo1A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/2cAUIQdzo1A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/2cAUIQdzo1A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen: FOG - Hannu Lintu, FRSO",
+      "VideoOwnerChannelId": "UCKYCFBv-BwkzBJ2oTiuc9lg",
+      "VideoOwnerChannelTitle": "koenigmoo"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6ygK8udsTHs",
+      "VideoPublishedAtRaw": "2013-02-08T22:51:29Z",
+      "VideoPublishedAtDateTimeOffset": "2013-02-08T22:51:29+00:00",
+      "VideoPublishedAt": "2013-02-09T04:21:29+05:30"
+    },
+    "ETag": "YgSYMPwqP04KNdLM79iL2h6-sDA",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS42Qzk5MkEzQjVFQjYwRDA4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Video part 2/2: http://youtu.be/2fJbxmlWjZc\n\nEsa-Pekka Salonen: LA Variations (1996)\nSanttu-Matias Rouvali, conductor\nFinnish Radio Symphony Orchestra\nHelsinki Music Centre, 30 January 2013",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 22,
+      "PublishedAtRaw": "2024-11-10T21:57:04Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:57:04+00:00",
+      "PublishedAt": "2024-11-11T03:27:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6ygK8udsTHs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6ygK8udsTHs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6ygK8udsTHs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6ygK8udsTHs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6ygK8udsTHs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen: LA Variations - Finnish Radio Symphony Orchestra (1/2)",
+      "VideoOwnerChannelId": "UCKYCFBv-BwkzBJ2oTiuc9lg",
+      "VideoOwnerChannelTitle": "koenigmoo"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2fJbxmlWjZc",
+      "VideoPublishedAtRaw": "2013-02-08T23:16:41Z",
+      "VideoPublishedAtDateTimeOffset": "2013-02-08T23:16:41+00:00",
+      "VideoPublishedAt": "2013-02-09T04:46:41+05:30"
+    },
+    "ETag": "XEUfCC9hEu7hXVMMhxJmrEUocp4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41NTZEOThBNThFOUVGQkVB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen: LA Variations (1996)\nSanttu-Matias Rouvali, conductor\nFinnish Radio Symphony Orchestra\nHelsinki Music Centre, 30 January 2013",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 23,
+      "PublishedAtRaw": "2024-11-10T21:57:07Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:57:07+00:00",
+      "PublishedAt": "2024-11-11T03:27:07+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2fJbxmlWjZc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/2fJbxmlWjZc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/2fJbxmlWjZc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/2fJbxmlWjZc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/2fJbxmlWjZc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen: LA Variations - Finnish Radio Symphony Orchestra (2/2)",
+      "VideoOwnerChannelId": "UCKYCFBv-BwkzBJ2oTiuc9lg",
+      "VideoOwnerChannelTitle": "koenigmoo"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "jm4wlf7VkCk",
+      "VideoPublishedAtRaw": "2013-01-27T20:43:59Z",
+      "VideoPublishedAtDateTimeOffset": "2013-01-27T20:43:59+00:00",
+      "VideoPublishedAt": "2013-01-28T02:13:59+05:30"
+    },
+    "ETag": "fwcE5KxtOjVeMixnd3nH3Fbju5s",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5GNjAwN0Y0QTFGOTVDMEMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Video part 2/2: http://www.youtube.com/watch?v=itSG2TSGNMI\n\nEsa-Pekka Salonen: Nyx (2010)\nHannu Lintu, conductor\nFinnish Radio Symphony Orchestra\nHelsinki Music Centre, 25 January 2013\n\nThe FRSO recorded this piece in 2011 in Helsinki. This is the Finnish concert premiere. The world premiere was performed in Paris.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 24,
+      "PublishedAtRaw": "2024-11-10T21:57:21Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:57:21+00:00",
+      "PublishedAt": "2024-11-11T03:27:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jm4wlf7VkCk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jm4wlf7VkCk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jm4wlf7VkCk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jm4wlf7VkCk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/jm4wlf7VkCk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen: Nyx - Finnish Radio Symphony Orchestra (1/2)",
+      "VideoOwnerChannelId": "UCKYCFBv-BwkzBJ2oTiuc9lg",
+      "VideoOwnerChannelTitle": "koenigmoo"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "itSG2TSGNMI",
+      "VideoPublishedAtRaw": "2013-01-27T20:42:25Z",
+      "VideoPublishedAtDateTimeOffset": "2013-01-27T20:42:25+00:00",
+      "VideoPublishedAt": "2013-01-28T02:12:25+05:30"
+    },
+    "ETag": "Bwz47J8ueKWGF59KiQMLQYkkGiY",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS43NERCMDIzQzFBMERCMEE3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen: Nyx (2010)\nHannu Lintu, conductor\nFinnish Radio Symphony Orchestra\nHelsinki Music Centre, 25 January 2013\n\nThe FRSO recorded this piece in 2011 in Helsinki. This is the Finnish concert premiere. The world premiere was performed in Paris.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 25,
+      "PublishedAtRaw": "2024-11-10T21:57:18Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:57:18+00:00",
+      "PublishedAt": "2024-11-11T03:27:18+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "itSG2TSGNMI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/itSG2TSGNMI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/itSG2TSGNMI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/itSG2TSGNMI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/itSG2TSGNMI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen: Nyx - Finnish Radio Symphony Orchestra (2/2)",
+      "VideoOwnerChannelId": "UCKYCFBv-BwkzBJ2oTiuc9lg",
+      "VideoOwnerChannelTitle": "koenigmoo"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "NgiRPs9MkQ8",
+      "VideoPublishedAtRaw": "2023-10-06T09:52:51Z",
+      "VideoPublishedAtDateTimeOffset": "2023-10-06T09:52:51+00:00",
+      "VideoPublishedAt": "2023-10-06T15:22:51+05:30"
+    },
+    "ETag": "ylMS8ngXSBE6HftmBCqMRAf1E4g",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das NDR Elbphilharmonie Orchester und Organistin Iveta Apkalna spielen unter der Leitung von Esa-Pekka Salonen dessen Werk \u0022Sinfonia concertante f\u00FCr Orgel und Orchester\u0022. \n\nEin Konzertausschnitt vom 12. Mai 2023 aus der Elbphilharmonie Hamburg. Die Aufnahme steht noch bis zum 11.5.2028 als Video-on-Demand zur Verf\u00FCgung.\n\nESA-PEKKA SALONEN\nSinfonia concertante f\u00FCr Orgel und Orchester\n\nEin Auftragswerk von\u00A0National Symphony Orchestra of the Polish Radio Katowice, Berliner Philharmoniker Foundation, Finnish Radio Symphony Orchestra, Philharmonie de Paris, Los Angeles Philharmonic und Elbphilharmonie Hamburg\n\nEsa-Pekka Salonen, Dirigent\nIveta Apkalna, Orgel\nNDR Elbphilharmonie Orchester\n\nWeitere Informationen:\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #esapekkasalonen #ivetaapkalna #IMF",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 26,
+      "PublishedAtRaw": "2024-11-10T20:57:32Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:57:32+00:00",
+      "PublishedAt": "2024-11-11T02:27:32+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "NgiRPs9MkQ8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/NgiRPs9MkQ8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/NgiRPs9MkQ8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/NgiRPs9MkQ8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/NgiRPs9MkQ8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen: Sinfonia concertante f\u00FCr Orgel und Orchester | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Z6nDYzvjbbQ",
+      "VideoPublishedAtRaw": "2011-01-09T10:02:54Z",
+      "VideoPublishedAtDateTimeOffset": "2011-01-09T10:02:54+00:00",
+      "VideoPublishedAt": "2011-01-09T15:32:54+05:30"
+    },
+    "ETag": "PJgD9QXFN0_izj83DlPaenBI4F4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5CQkEwRDA0MDkwNUM2MDY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Franco Donatoni (1927-2000): ESA - In cauda V, per orchestra (2000).\r\n\r\nLos Angeles Philharmonic diretta da Esa-Pekka Salonen.\r\n\r\nCover image: Paint by Lucio Fontana.\r\n\r\nThe music published in our channel is exclusively dedicated to divulgation purposes and not commercial. This within a program shared to study classic educational music of the 1900\u0027s (mostly Italian) which involves thousands of people around the world. If someone, for any reason, would deem that a video appearing in our channel violates the copyright, please inform us immediately before submit a claim to Youtube, and it will be our care to remove immediately the video accordingly.\r\n\r\n\r\nYour collaboration will be appreciated.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 27,
+      "PublishedAtRaw": "2024-11-10T21:58:13Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:58:13+00:00",
+      "PublishedAt": "2024-11-11T03:28:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Z6nDYzvjbbQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Z6nDYzvjbbQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Z6nDYzvjbbQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Z6nDYzvjbbQ/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Franco Donatoni: ESA -  In Cauda V (2000)",
+      "VideoOwnerChannelId": "UC3pxYg6cMzROwVT6AK31qNA",
+      "VideoOwnerChannelTitle": "TheWelleszCompany"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "L0canLobybo",
+      "VideoPublishedAtRaw": "2025-04-05T21:41:34Z",
+      "VideoPublishedAtDateTimeOffset": "2025-04-05T21:41:34+00:00",
+      "VideoPublishedAt": "2025-04-06T03:11:34+05:30"
+    },
+    "ETag": "rpbJ8-VpiXhlSbyBapSEA4GFxFA",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS42RTNCOEMxREI3Q0VDMjU2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Edvard Griegs Klavierkonzert in a-Moll, gespielt von Alice Sara Ott und dem Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Esa-Pekka Salonen. Live aufgenommen im Jahr 2015, eine Produktion von BR-KLASSIK.\n\nEdvard Grieg - Klavierkonzert in a-Moll, op. 16\nI. Allegro molto moderato\nII. Adagio - attacca\nIII. Allegro moderato e marcato - quasi presto - Andante maestoso\n\nAlice Sara Ott, Klavier\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Esa-Pekka Salonen\n\nEdvard Grieg\u0027s Piano Concerto in A Minor, performed by Alice Sara Ott and the Bavarian Radio Symphony Orchestra under the direction of Esa-Pekka Salonen. Recorded live in 2015, a production of BR-KLASSIK.\n\nEdvard Grieg - Piano Concerto in A Minor, Op. 16\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 28,
+      "PublishedAtRaw": "2025-04-20T23:44:05Z",
+      "PublishedAtDateTimeOffset": "2025-04-20T23:44:05+00:00",
+      "PublishedAt": "2025-04-21T05:14:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "L0canLobybo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/L0canLobybo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/L0canLobybo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/L0canLobybo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/L0canLobybo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/L0canLobybo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Grieg - Klavierkonzert | Alice Sara Ott | Esa-Pekka Salonen | BRSO",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "BqVojmQB_4s",
+      "VideoPublishedAtRaw": "2022-03-17T09:26:20Z",
+      "VideoPublishedAtDateTimeOffset": "2022-03-17T09:26:20+00:00",
+      "VideoPublishedAt": "2022-03-17T14:56:20+05:30"
+    },
+    "ETag": "b599NrSk8cNELaoOmI-1upkmPFk",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das NDR Elbphilharmonie Orchester spielt unter dem Dirigat von Esa-Pekka Salonen die \u0022Symphonie fantastique\u0022 von Hector Berlioz.\r\n\r\nHECTOR BERLIOZ\r\nSymphonie fantastique op. 14  00:00\r\nI. R\u00EAveries - Passions. Allegro agitato e appassionato assai 00:00:02\r\nII. Un Bal - Valse. Allegro non troppo  00:14:10\r\nIII. Scene aux champs. Adagio. 00:20:33\r\nIV. Marche au supplice. Allegro non troppo. 00:38:11\r\nV. Songe d\u0027une nuit du Sabbat. Larghetto - Allegro 00:43:00\r\n\r\nEsa-Pekka Salonen, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nKonzertmitschnitt aus der Elbphilharmonie Hamburg, 21. Januar 2022 \r\n\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\r\n\r\n#ndrelbphilharmonieorchester #esapekkasalonen #hectorberlioz",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 29,
+      "PublishedAtRaw": "2024-11-10T21:00:35Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:00:35+00:00",
+      "PublishedAt": "2024-11-11T02:30:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "BqVojmQB_4s"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/BqVojmQB_4s/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/BqVojmQB_4s/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/BqVojmQB_4s/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/BqVojmQB_4s/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Hector Berlioz: Symphonie fantastique | Esa-Pekka Salonen | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DKHw_Rxt7Qg",
+      "VideoPublishedAtRaw": "2023-02-23T17:47:56Z",
+      "VideoPublishedAtDateTimeOffset": "2023-02-23T17:47:56+00:00",
+      "VideoPublishedAt": "2023-02-23T23:17:56+05:30"
+    },
+    "ETag": "w78chkQOawTYRupM4r-l1IK8t7Y",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen: Cello concerto\n\nI\nII (14:00)\nIII (23:20)\n\nLauri Kankkunen, cello\nSusanna M\u00E4lkki, conductor\nHelsinki Philharmonic Orchestra\n\nLive on 08.12.2021",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 30,
+      "PublishedAtRaw": "2024-11-10T20:58:44Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:58:44+00:00",
+      "PublishedAt": "2024-11-11T02:28:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DKHw_Rxt7Qg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DKHw_Rxt7Qg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DKHw_Rxt7Qg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/DKHw_Rxt7Qg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DKHw_Rxt7Qg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DKHw_Rxt7Qg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Lauri Kankkunen | Esa-Pekka Salonen: Cello concerto",
+      "VideoOwnerChannelId": "UCiNtiaiS3xYgN6JVn2xHB0w",
+      "VideoOwnerChannelTitle": "LauriKankkunen"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "NO_EbTBFNkQ",
+      "VideoPublishedAtRaw": "2023-06-17T20:00:07Z",
+      "VideoPublishedAtDateTimeOffset": "2023-06-17T20:00:07+00:00",
+      "VideoPublishedAt": "2023-06-18T01:30:07+05:30"
+    },
+    "ETag": "eDfR6mQWa_eAzLY2uObpmHM1-ss",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "mahler  symphony no.1 in d major, \u0022titan\u0022\n\ni.   ( 0:00 - )\nii.  ( 16:14 - )\niii. ( 24:19 - )\niv. ( 34:42 - )\n\n( live recording.  4.27.2001  munich )\n\n\n*. source : en larmes cd-r (modified)\n*. e-p salonen        sinfonieorchester des bayerischen rundfunks",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 31,
+      "PublishedAtRaw": "2024-11-10T20:58:19Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:58:19+00:00",
+      "PublishedAt": "2024-11-11T02:28:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "NO_EbTBFNkQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/NO_EbTBFNkQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/NO_EbTBFNkQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/NO_EbTBFNkQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/NO_EbTBFNkQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "mahler  symphony no.1 in d major, \u0022titan\u0022 ( e-p salonen )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "M622tyRUYKg",
+      "VideoPublishedAtRaw": "2017-11-24T14:16:31Z",
+      "VideoPublishedAtDateTimeOffset": "2017-11-24T14:16:31+00:00",
+      "VideoPublishedAt": "2017-11-24T19:46:31+05:30"
+    },
+    "ETag": "MhBl4pbBdLNVn98w9pfsoORRW5A",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS44QzVGQUU2QjE2NDgxM0M4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Philharmonia Orchestra\nEsa-Pekka Salonen \u2013 conductor\nLive performance: 1 October 2017\nSouthbank Centre\u0027s Royal Festival Hall, London, UK\n\nMahler Symphony No. 3\nVI. Langsam\u2014Ruhevoll\u2014Empfunden \n\nWatch the whole piece in our playlist: https://www.youtube.com/playlist?list=PLqR22EoucCyfOJdXv0m36aMuc__qKNsxW\n\nThe Philharmonia is a world-class symphony orchestra, led by Principal Conductor Santtu-Matias Rouvali.\n\nBased in London at Southbank Centre\u2019s Royal Festival Hall, resident in cities and at festivals across England, and touring internationally, the Philharmonia creates thrilling performances for a global audience. Find out more about us on our website: https://philharmonia.co.uk/\n\nExplore our YouTube channel for performances, interviews, documentaries, listening guides and instrument films: https://www.youtube.com/@philharmonia_orchestra?sub_confirmation=1\n\nJoin our email list for regular updates on our live performances: https://tickets.philharmonia.co.uk/mailing-list\n\nThe Philharmonia is a registered charity, find out how to support our work: https://philharmonia.co.uk/join-support/\n\nFollow us on social media:\nFacebook: https://www.facebook.com/philharmoniaorchestra\nInstagram: https://www.instagram.com/philharmonia_orchestra/\nTwitter: https://twitter.com/philharmonia\nTikTok: https://www.tiktok.com/@philharmoniaorchestra",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 32,
+      "PublishedAtRaw": "2024-11-10T21:55:01Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:55:01+00:00",
+      "PublishedAt": "2024-11-11T03:25:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "M622tyRUYKg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/M622tyRUYKg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/M622tyRUYKg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/M622tyRUYKg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/M622tyRUYKg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/M622tyRUYKg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Esa-Pekka Salonen | Mahler\u0027s Symphony No. 3 | VI. Langsam\u2014Ruhevoll\u2014Empfunden",
+      "VideoOwnerChannelId": "UCKzx92ZqX1PKYTC-FC-CZRQ",
+      "VideoOwnerChannelTitle": "Philharmonia Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "U-VDp9x6l0c",
+      "VideoPublishedAtRaw": "2017-02-27T16:40:58Z",
+      "VideoPublishedAtDateTimeOffset": "2017-02-27T16:40:58+00:00",
+      "VideoPublishedAt": "2017-02-27T22:10:58+05:30"
+    },
+    "ETag": "Fkiusko6eimw9vboN38u-AKAoNc",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41QUZGQTY5OTE4QTREQUU4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "LIVE BROADCAST - HD STEREO  \nMitsuko Uchida plays Beethoven\u0027s Piano Concerto # 3 in C minor with the Swedish Radio Symphony Orchestra conducted by Esa-Pekka Salonen . This live broadcast took place in 1986. A young Mitsuko Uchida in her prime.\nWho are some of the greatest Living Pianists? See:\nhttps://www.rawassertions.com/the-13-greatest-living-classical-pianists-a-bakers-dozen/",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 33,
+      "PublishedAtRaw": "2024-11-10T21:04:21Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:04:21+00:00",
+      "PublishedAt": "2024-11-11T02:34:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "U-VDp9x6l0c"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/U-VDp9x6l0c/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/U-VDp9x6l0c/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/U-VDp9x6l0c/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/U-VDp9x6l0c/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/U-VDp9x6l0c/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "MITSUKO UCHIDA - Beethoven Piano Concerto #3 / Esa-Pekka Salonen ~LIVE  1986",
+      "VideoOwnerChannelId": "UCnueNY0E-QodiHAnQ2HHNJw",
+      "VideoOwnerChannelTitle": "GreatPerformers1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "jbejBHp7lrI",
+      "VideoPublishedAtRaw": "2022-05-07T08:16:02Z",
+      "VideoPublishedAtDateTimeOffset": "2022-05-07T08:16:02+00:00",
+      "VideoPublishedAt": "2022-05-07T13:46:02+05:30"
+    },
+    "ETag": "5ASEKVXU8cQ48zTMJgXJrcpffJI",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Joana Carneiro, conductor\nTara Erraught, mezzo-soprano\nPresented by Paul Herriott, RT\u00C9 lyric fm\n\nSalonen Helix\nMahler Lieder eines fahrenden Gesellen\nStravinsky Petrushka (1947 version)\n\nGoing in search of the great perhaps\u2026 a thrilling contemporary work accelerating into excelsis, a masterpiece song cycle in which a rejected lover seeks solace in nature, and a tale of three puppets entangled in an unlikely m\u00E9nage \u00E0 trois.\n\nMaking her debut with the National Symphony Orchestra, fast-rising star Joana Carneiro, a \u2018refined and exciting\u2026 conductor who makes us listen\u2019 (Mercury News), is joined by the \u2018magnetic stage presence\u2019 (Opera Traveller) and ever-welcome mezzo-soprano Tara Erraught.\n\nEssa-Pekka Salonen\u2019s Helix is an exercise in conjuring and stamina: two intertwined repeating phrases wrapping ever-tighter around each other even as they constantly accelerate to the point where something has to give!\n\nPrompted by unrequited love, Mahler\u2019s first song cycle, the poetic and poignant Lieder eines fahrenden Gesellen(Songs of a Wayfarer) goes to the aching romantic heart of a young would-be lover\u2019s pained first disappointment. Mahler\u2019s own lyrics underline his own forlorn autobiography, his sylvan and svelte music finding consolation and comfort in the natural world.\n\nPetrushka fuses two great Russian traditions \u2013 folk music and puppetry \u2013 into a \u2018ballet burlesque\u2019 in which puppets, newly come to life, become embroiled in a quarrel for the affections of a beautiful ballerina. Stravinsky\u2019s brightly colourful music is one of the richest and most brilliantly animated scores of the early 20th century.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 34,
+      "PublishedAtRaw": "2024-11-10T21:00:24Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:00:24+00:00",
+      "PublishedAt": "2024-11-11T02:30:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jbejBHp7lrI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jbejBHp7lrI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jbejBHp7lrI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/jbejBHp7lrI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jbejBHp7lrI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/jbejBHp7lrI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "NSO: Salonen, Mahler \u0026 Stravinsky",
+      "VideoOwnerChannelId": "UCkt8AaqEMA41tiprny4Pb1g",
+      "VideoOwnerChannelTitle": "National Symphony Orchestra Ireland"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7_nXGXE8Lb0",
+      "VideoPublishedAtRaw": "2016-01-10T06:22:00Z",
+      "VideoPublishedAtDateTimeOffset": "2016-01-10T06:22:00+00:00",
+      "VideoPublishedAt": "2016-01-10T11:52:00+05:30"
+    },
+    "ETag": "b26l7rbEpNrwKty8GMxNEn6SQY4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4zRDBDOEZDOUM0MDY5NEEz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen (born June 30, 1958)  \nhttps://en.wikipedia.org/wiki/Esa-Pek...\n\nEsa-Pekka Salonen: NYX for Orchestra, 2010\nPremiere, 2011 at Carnegie Hall by Atlanta Symphony Orchestra\n\nFinnish Radio Symphony Orchestra\nDirection: Hannu Lintu,\n\nNYX (Composition)\nThe piece is titled after the Goddess Nyx from Greek mythology. Salonen wrote of this inspiration:\nNyx is a symphonic poem by the Finnish composer Esa-Pekka Salonen. The work was jointly commissioned by Radio France, the Barbican Centre, the Atlanta Symphony Orchestra, Carnegie Hall, and the Finnish Broadcasting Company. It was premiered February 19, 2011 in the Th\u00E9\u00E2tre du Ch\u00E2telet, Paris, with Salonen conducting the Orchestre Philharmonique de Radio France. The piece is titled after the Goddess Nyx from Greek mythology.\nhttps://en.wikipedia.org/wiki/Nyx_%28...\n\nNYX in Mythology\nNyx is a shadowy figure in Greek mythology. At the very beginning of everything there\u0027s a big mass of dark stuff called Chaos, out of which comes Gaia or Ge, the Earth, who gives birth (spontaneously!) to Uranus, the starry heaven, and Pontus, the sea. Nyx (also sometimes known as Nox) is supposed to have been another child of Gaia, along with Erebus. The union of Nyx and Erebus produces Day.\n\nOfficial Site: http://www.esapekkasalonen.com/index.php\n\nArtwork by Zdzislaw Beksinski\nVirtual Museum: http://www.dmochowskigallery.net/\n\n-",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 35,
+      "PublishedAtRaw": "2024-11-10T21:05:00Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:05:00+00:00",
+      "PublishedAt": "2024-11-11T02:35:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7_nXGXE8Lb0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7_nXGXE8Lb0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7_nXGXE8Lb0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7_nXGXE8Lb0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7_nXGXE8Lb0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7_nXGXE8Lb0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "NYX for Orchestra by Esa-Pekka Salonen  [Live]",
+      "VideoOwnerChannelId": "UCS-LEHFNQvMk0JB2W7xgrJg",
+      "VideoOwnerChannelTitle": "Chris \u0027Le Magnetique\u0027 1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "i0rEQsgEkP0",
+      "VideoPublishedAtRaw": "2010-04-30T22:18:54Z",
+      "VideoPublishedAtDateTimeOffset": "2010-04-30T22:18:54+00:00",
+      "VideoPublishedAt": "2010-05-01T03:48:54+05:30"
+    },
+    "ETag": "2iU_nWI91bVHVbVVvAI6of76QHU",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4wNEU1MTI4NkZEMzVBN0JF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "1) PROMENADE, 2)GNOMO, 3)PROMENADE",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 36,
+      "PublishedAtRaw": "2024-11-10T21:58:27Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:58:27+00:00",
+      "PublishedAt": "2024-11-11T03:28:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "i0rEQsgEkP0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/i0rEQsgEkP0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/i0rEQsgEkP0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/i0rEQsgEkP0/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Pictures at an Exhibition Esa-Pekka Salonen 1-1.wmv",
+      "VideoOwnerChannelId": "UCmmOplvhs_GEdIojc24JVEw",
+      "VideoOwnerChannelTitle": "Elena Delgado y Cristina Mart\u00EDnez"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "l2ejVzjCSPk",
+      "VideoPublishedAtRaw": "2010-05-02T22:24:08Z",
+      "VideoPublishedAtDateTimeOffset": "2010-05-02T22:24:08+00:00",
+      "VideoPublishedAt": "2010-05-03T03:54:08+05:30"
+    },
+    "ETag": "_UAbqDa1bktHdvED3LZnDT5Os9g",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4wMTYxQzVBRDI1NEVDQUZE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 37,
+      "PublishedAtRaw": "2024-11-10T21:58:30Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:58:30+00:00",
+      "PublishedAt": "2024-11-11T03:28:30+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "l2ejVzjCSPk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/l2ejVzjCSPk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/l2ejVzjCSPk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/l2ejVzjCSPk/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Pictures at an Exhibition Esa-Pekka Salonen 2.wmv",
+      "VideoOwnerChannelId": "UCmmOplvhs_GEdIojc24JVEw",
+      "VideoOwnerChannelTitle": "Elena Delgado y Cristina Mart\u00EDnez"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "i0Nt2z6IvvU",
+      "VideoPublishedAtRaw": "2010-05-02T22:32:38Z",
+      "VideoPublishedAtDateTimeOffset": "2010-05-02T22:32:38+00:00",
+      "VideoPublishedAt": "2010-05-03T04:02:38+05:30"
+    },
+    "ETag": "Yvw2oZ5rSIgVt1KtNpU9dIWuQew",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4zMUEyMkQwOTk0NTg4MDgw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 38,
+      "PublishedAtRaw": "2024-11-10T21:58:34Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:58:34+00:00",
+      "PublishedAt": "2024-11-11T03:28:34+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "i0Nt2z6IvvU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/i0Nt2z6IvvU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/i0Nt2z6IvvU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/i0Nt2z6IvvU/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Pictures at an Exhibition Esa-Pekka Salonen 3.wmv",
+      "VideoOwnerChannelId": "UCmmOplvhs_GEdIojc24JVEw",
+      "VideoOwnerChannelTitle": "Elena Delgado y Cristina Mart\u00EDnez"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MkH4-_uR3fo",
+      "VideoPublishedAtRaw": "2010-05-02T22:39:03Z",
+      "VideoPublishedAtDateTimeOffset": "2010-05-02T22:39:03+00:00",
+      "VideoPublishedAt": "2010-05-03T04:09:03+05:30"
+    },
+    "ETag": "OAlkWziLmyXIBWkCwwcJaGP07Co",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS42QzdBMzlBQzQzRjQ0QkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 39,
+      "PublishedAtRaw": "2024-11-10T21:58:37Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:58:37+00:00",
+      "PublishedAt": "2024-11-11T03:28:37+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MkH4-_uR3fo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MkH4-_uR3fo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MkH4-_uR3fo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MkH4-_uR3fo/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Pictures at an Exhibition Esa-Pekka Salonen 4.wmv",
+      "VideoOwnerChannelId": "UCmmOplvhs_GEdIojc24JVEw",
+      "VideoOwnerChannelTitle": "Elena Delgado y Cristina Mart\u00EDnez"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0ezPjoO74mQ",
+      "VideoPublishedAtRaw": "2010-05-02T22:41:24Z",
+      "VideoPublishedAtDateTimeOffset": "2010-05-02T22:41:24+00:00",
+      "VideoPublishedAt": "2010-05-03T04:11:24+05:30"
+    },
+    "ETag": "-ArM7eTQgPa11BjH7CNfhiYUf0o",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41OURENDc2NEM1MDI5Mjky",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 40,
+      "PublishedAtRaw": "2024-11-10T21:58:51Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:58:51+00:00",
+      "PublishedAt": "2024-11-11T03:28:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0ezPjoO74mQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0ezPjoO74mQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0ezPjoO74mQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0ezPjoO74mQ/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Pictures at an Exhibition Esa-Pekka Salonen 5.wmv",
+      "VideoOwnerChannelId": "UCmmOplvhs_GEdIojc24JVEw",
+      "VideoOwnerChannelTitle": "Elena Delgado y Cristina Mart\u00EDnez"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xR3tJspIqlw",
+      "VideoPublishedAtRaw": "2010-05-02T22:48:19Z",
+      "VideoPublishedAtDateTimeOffset": "2010-05-02T22:48:19+00:00",
+      "VideoPublishedAt": "2010-05-03T04:18:19+05:30"
+    },
+    "ETag": "6b029XiwjZvOFZpxf_9HU8QeNjI",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4wRjhFM0MxMTU1MEUzQ0VB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 41,
+      "PublishedAtRaw": "2024-11-10T21:58:55Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:58:55+00:00",
+      "PublishedAt": "2024-11-11T03:28:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xR3tJspIqlw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xR3tJspIqlw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xR3tJspIqlw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xR3tJspIqlw/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Pictures at an Exhibition Esa-Pekka Salonen 6.wmv",
+      "VideoOwnerChannelId": "UCmmOplvhs_GEdIojc24JVEw",
+      "VideoOwnerChannelTitle": "Elena Delgado y Cristina Mart\u00EDnez"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nIfeQm-mrt8",
+      "VideoPublishedAtRaw": "2025-03-06T14:18:30Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-06T14:18:30+00:00",
+      "VideoPublishedAt": "2025-03-06T19:48:30+05:30"
+    },
+    "ETag": "FR6Spi1SUs5JUUqAOu9-DZtLkfQ",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS40MDNEMzA0QTBFRThFMzBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Maurice Ravels \u0022Bol\u00E9ro\u0022 mit Esa-Pekka Salonen und dem NDR Elbphilharmonie Orchester, aufgezeichnet beim Silvesterkonzert am  31.Dezember 2024 in der Elbphilharmonie Hamburg.\n\nMaurice Ravel - Bol\u00E9ro\n\nNDR Elbphilharmonie Orchester\nEsa-Pekka Salonen, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 42,
+      "PublishedAtRaw": "2025-03-06T17:42:29Z",
+      "PublishedAtDateTimeOffset": "2025-03-06T17:42:29+00:00",
+      "PublishedAt": "2025-03-06T23:12:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nIfeQm-mrt8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nIfeQm-mrt8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nIfeQm-mrt8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nIfeQm-mrt8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nIfeQm-mrt8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Ravel - Bol\u00E9ro | Esa-Pekka Salonen | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Hu9KcFsB84I",
+      "VideoPublishedAtRaw": "2014-03-03T04:00:37Z",
+      "VideoPublishedAtDateTimeOffset": "2014-03-03T04:00:37+00:00",
+      "VideoPublishedAt": "2014-03-03T09:30:37+05:30"
+    },
+    "ETag": "dniHKrEvnw1DSnWKA5cMrrPC-fo",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5CMEQ2Mjk5NTc3NDZFRUNB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Great interpretation of Maurice Ravel\u0027s Piano Concerto for Left Hand, played by Jean-Efflam Bavouzet and the Philharmonia Orchestra, and conducted by Esa-Pekka Salonen at 2010 BBC Proms.\n\nGran presentaci\u00F3n del Concierto de Piano para la Mano Izquierda de Maurice Ravel, interpretada por Jean-Efflam Bavouzet y la Orquesta Filarmonia, y dirigida por Esa-Pekka Salonen en los Proms de la BBC a\u00F1o 2010.\n\n(C) BBC and ALL their respective owners. No personal work here.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 43,
+      "PublishedAtRaw": "2024-11-10T21:05:44Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:05:44+00:00",
+      "PublishedAt": "2024-11-11T02:35:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Hu9KcFsB84I"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Hu9KcFsB84I/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Hu9KcFsB84I/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Hu9KcFsB84I/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Hu9KcFsB84I/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Hu9KcFsB84I/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Ravel: Piano Concerto for Left Hand / Salonen \u00B7 Bavouzet \u00B7 The Philharmonia Orchestra",
+      "VideoOwnerChannelId": "UCtsEu81RWSLnxNwGODX9crA",
+      "VideoOwnerChannelTitle": "Jose"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Re4kSLy1w8o",
+      "VideoPublishedAtRaw": "2025-03-01T05:47:48Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-01T05:47:48+00:00",
+      "VideoPublishedAt": "2025-03-01T11:17:48+05:30"
+    },
+    "ETag": "VMVo2L_dF5b6XZ-53-qd50rTdCc",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5EQkE3RTJCQTJEQkFBQTcz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30AB\u30EC\u30EF\u30E9\u306E\uFF14\u3064\u306E\u4F1D\u8AAC\u66F2\nBerlin Philharmonic Orch. cond by Esa-Pekka Salonen\n00:00   1. Lemmink\u00E4inen ja saaren neidot (Lemmink\u00E4inen and the Maidens of \u3000\u3000\n\u3000\u3000\u3000\u3000the Island\u3001\u30EC\u30F3\u30DF\u30F3\u30AB\u30A4\u30CD\u30F3\u3068\u5CF6\u306E\u4E59\u5973\u305F\u3061) \n18:17   2. Lemmink\u00E4inen tuonelassa (Lemmink\u00E4inen in Tuonela, \u30C8\u30A5\u30AA\u30CD\u30E9 \n                \u306E\u30EC\u30F3\u30DF\u30F3\u30AB\u30A4\u30CD\u30F3)\n32:28   3. Tuonelan joutsen (The Swan of Tuonela, \u30C8\u30A5\u30AA\u30CD\u30E9\u306E\u767D\u9CE5) \n42:46   4. Lemmink\u00E4inen kotiinpaluu (Lemmink\u00E4inen\u0027s Return, \u30EC\u30F3\u30DF\u30F3\u30AB\u30A4\n                \u30CD\u30F3\u306E\u5E30\u90F7\nrec. 11 May 2001, Philharmony Hall, Berlin",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 44,
+      "PublishedAtRaw": "2025-08-16T08:33:09Z",
+      "PublishedAtDateTimeOffset": "2025-08-16T08:33:09+00:00",
+      "PublishedAt": "2025-08-16T14:03:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Re4kSLy1w8o"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Re4kSLy1w8o/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Re4kSLy1w8o/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Re4kSLy1w8o/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Salonen / BPO - Sibelius :  Lemmink\u00E4inen Suite, Op.22 (2001- Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "b0uboikHxp0",
+      "VideoPublishedAtRaw": "2022-03-25T08:40:34Z",
+      "VideoPublishedAtDateTimeOffset": "2022-03-25T08:40:34+00:00",
+      "VideoPublishedAt": "2022-03-25T14:10:34+05:30"
+    },
+    "ETag": "yyiIy4SWP5dTjBQYLs71s534iZM",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das NDR Elbphilharmonie Orchester spielt unter dem Dirigat von Esa-Pekka Salonen dessen Werk \u0022Gemini\u0022. Das Werk mit den beiden S\u00E4tzen \u0022Pollux\u0022 und \u0022Castor\u0022 wurde 2018/19 uraufgef\u00FChrt. Eine Aufnahme vom Januar 2022 aus der Elbphilharmonie Hamburg.\r\n\r\nESA-PEKKA SALONEN\r\nGemini 00:00\r\nI. Pollux 00:06\r\nII. Castor 11:57\r\n\r\nEsa-Pekka Salonen, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nEin Mitschnitt aus der Elbphilharmonie Hamburg vom 21. Januar 2022 \r\n\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\r\n#ndrelbphilharmonieorchester #esapekkasalonen #gemini",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 45,
+      "PublishedAtRaw": "2024-11-10T21:00:32Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:00:32+00:00",
+      "PublishedAt": "2024-11-11T02:30:32+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "b0uboikHxp0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/b0uboikHxp0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/b0uboikHxp0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/b0uboikHxp0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/b0uboikHxp0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Salonen: \u0022Gemini\u0022 | Esa-Pekka Salonen | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "HAnVrdQ3qFk",
+      "VideoPublishedAtRaw": "2014-03-03T00:42:56Z",
+      "VideoPublishedAtDateTimeOffset": "2014-03-03T00:42:56+00:00",
+      "VideoPublishedAt": "2014-03-03T06:12:56+05:30"
+    },
+    "ETag": "gJYBqiTx_kVgmPkSgdPEgnKl_gg",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS42MTI4Njc2QjM1RjU1MjlG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Great interpretation of Alexander Scriabin\u0027s The Poem of Ecstasy, played by the Philharmonia Orchestra and conducted by Esa-Pekka Salonen at 2010 BBC Proms.\n\nGran presentaci\u00F3n del Poema del \u00C9xstasis interpretada por la Orquesta Filarmonia, y dirigida por Esa-Pekka Salonen en los Proms de la BBC a\u00F1o 2010.\n\n(C) BBC and ALL their respective owners. No personal work here.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 46,
+      "PublishedAtRaw": "2024-11-10T21:06:09Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:06:09+00:00",
+      "PublishedAt": "2024-11-11T02:36:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "HAnVrdQ3qFk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/HAnVrdQ3qFk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/HAnVrdQ3qFk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/HAnVrdQ3qFk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/HAnVrdQ3qFk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/HAnVrdQ3qFk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Scriabin: The Poem of Ecstasy / Salonen \u00B7 The Philharmonia Orchestra",
+      "VideoOwnerChannelId": "UCtsEu81RWSLnxNwGODX9crA",
+      "VideoOwnerChannelTitle": "Jose"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "61r_i-ZilT4",
+      "VideoPublishedAtRaw": "2021-03-05T07:12:32Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-05T07:12:32+00:00",
+      "VideoPublishedAt": "2021-03-05T12:42:32+05:30"
+    },
+    "ETag": "Jvrj1yIwB1DPzwU7ofP25tjCVro",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5DNkMwRUI2MkI4QkI4NDFG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sibelius Pohjola\u0027s Daughter Op 49 symphonic poem Esa Pekka Salonen Tonhalle Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 47,
+      "PublishedAtRaw": "2024-11-10T21:50:54Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:50:54+00:00",
+      "PublishedAt": "2024-11-11T03:20:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "61r_i-ZilT4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/61r_i-ZilT4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/61r_i-ZilT4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/61r_i-ZilT4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/61r_i-ZilT4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/61r_i-ZilT4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Pohjola\u0027s Daughter Op 49 symphonic poem Esa Pekka Salonen Tonhalle Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "bEA_ocvY654",
+      "VideoPublishedAtRaw": "2021-03-07T12:37:42Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-07T12:37:42+00:00",
+      "VideoPublishedAt": "2021-03-07T18:07:42+05:30"
+    },
+    "ETag": "r4uVk0gQbCCYXOoh2gXCLijgxz0",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS45NzUwQkI1M0UxNThBMkU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No 1 E minor, 1900\nEsa-Pekka Salonen conducts Swedish Radio Symphony Oorchestra\nAndante, ma non troppo - Allegro energico\nAndante (ma non troppo lento) 11:33\nScherzo (Allegro) 20:59\nFinale (Quasi una fantasia) 26:11",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 48,
+      "PublishedAtRaw": "2024-11-10T21:02:26Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:02:26+00:00",
+      "PublishedAt": "2024-11-11T02:32:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "bEA_ocvY654"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/bEA_ocvY654/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/bEA_ocvY654/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/bEA_ocvY654/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/bEA_ocvY654/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/bEA_ocvY654/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 1 E minor Esa Pekka Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1G7RoXPLbUE",
+      "VideoPublishedAtRaw": "2021-03-06T08:25:52Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-06T08:25:52+00:00",
+      "VideoPublishedAt": "2021-03-06T13:55:52+05:30"
+    },
+    "ETag": "HCkU-3M5g1b30ZQjXr30nAUmvFY",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS44Mjc5REFBRUE2MTdFRDU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No 2 in D major, 1902 \nEsa-Pekka Salonen conducts Swedish Radio Symphony Oorchestra\n1. Allegretto - Poco allegro - Tranquillo, ma poco a poco ravvivando il tempo allegro\n2. Tempo andante, ma rubato - Andante sostenuto 9:45\n3. Vivacissimo - Lento e suave \u2013 Largamente 23:40\n4. Finale (Allegro moderato) 29:31",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 49,
+      "PublishedAtRaw": "2024-11-10T21:02:53Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:02:53+00:00",
+      "PublishedAt": "2024-11-11T02:32:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1G7RoXPLbUE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1G7RoXPLbUE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1G7RoXPLbUE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/1G7RoXPLbUE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1G7RoXPLbUE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1G7RoXPLbUE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 2 D major Esa Pekka Salonen Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "VdCqUAMShHU",
+      "VideoPublishedAtRaw": "2023-08-03T05:21:00Z",
+      "VideoPublishedAtDateTimeOffset": "2023-08-03T05:21:00+00:00",
+      "VideoPublishedAt": "2023-08-03T10:51:00+05:30"
+    },
+    "ETag": "q6tM2JKqGU5cSEOaZKFlhdHP4tg",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No. 2 in D major, Op. 43, 1902 \nEsa-Pekka Salonen conducts Swedish Radio Symphony Oorchestra\n1. Allegretto - Poco allegro - Tranquillo, ma poco a poco ravvivando il tempo allegro 0:00\n2. Tempo andante, ma rubato - Andante sostenuto 10:30\n3. Vivacissimo - Lento e suave \u2013 Largamente 25:19\n4. Finale (Allegro moderato) 31:36",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 50,
+      "PublishedAtRaw": "2024-11-10T20:57:58Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:57:58+00:00",
+      "PublishedAt": "2024-11-11T02:27:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "VdCqUAMShHU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/VdCqUAMShHU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/VdCqUAMShHU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/VdCqUAMShHU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/VdCqUAMShHU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/VdCqUAMShHU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 2 D major Esa-Pekka Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "srVL8eBAEAc",
+      "VideoPublishedAtRaw": "2021-03-06T08:26:20Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-06T08:26:20+00:00",
+      "VideoPublishedAt": "2021-03-06T13:56:20+05:30"
+    },
+    "ETag": "wCZEKG0I7wC5Kg9jp83NWDVUKQ0",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5DMkU4NTY1QUFGQTYwMDE3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No 3 C major, 1907   \nEsa-Pekka Salonen conducts Swedish Radio Symphony Oorchestra\n1.Allegro moderato 0:00\n2.Andantino con moto, quasi allegretto, 11:20\n3.Moderato -- Allegro ma non tanto, 20:44",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 51,
+      "PublishedAtRaw": "2024-11-10T21:02:47Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:02:47+00:00",
+      "PublishedAt": "2024-11-11T02:32:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "srVL8eBAEAc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/srVL8eBAEAc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/srVL8eBAEAc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/srVL8eBAEAc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/srVL8eBAEAc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/srVL8eBAEAc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 3 C Major Esa Pekka Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "qLJEQTaZ144",
+      "VideoPublishedAtRaw": "2021-03-06T08:26:45Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-06T08:26:45+00:00",
+      "VideoPublishedAt": "2021-03-06T13:56:45+05:30"
+    },
+    "ETag": "wN6TRvXLLg_A80mNZVb8pGOC79k",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No 4 A minor\nEsa-Pekka Salonen Swedish Radio Symphony Orchestra\nI. Tempo molto moderato, quasi adagio 0:20\nII. Allegro molto vivace 10:12\nIII. Il tempo largo 15:00\nIV. Allegro 25:10",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 52,
+      "PublishedAtRaw": "2024-11-10T21:02:38Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:02:38+00:00",
+      "PublishedAt": "2024-11-11T02:32:38+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "qLJEQTaZ144"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/qLJEQTaZ144/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/qLJEQTaZ144/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/qLJEQTaZ144/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/qLJEQTaZ144/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/qLJEQTaZ144/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 4 A minor Esa Pekka Salonen Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "5ANzhtYiQKc",
+      "VideoPublishedAtRaw": "2021-03-06T08:27:19Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-06T08:27:19+00:00",
+      "VideoPublishedAt": "2021-03-06T13:57:19+05:30"
+    },
+    "ETag": "CQ-mWzEEJErjZqCtYW6GYiLer6Y",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4yQUE2Q0JEMTk4NTM3RTZC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No 5 E flat major,  1915/1919  \nEsa-Pekka Salonen Swedish Radio Symphony Orchestra\n1. Tempo molto moderato - Largamente - Allegro moderato\n2. Andante mosso, quasi allegretto 15:00\n3. Allegro molto 25:00",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 53,
+      "PublishedAtRaw": "2024-11-10T21:02:43Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:02:43+00:00",
+      "PublishedAt": "2024-11-11T02:32:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "5ANzhtYiQKc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/5ANzhtYiQKc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/5ANzhtYiQKc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/5ANzhtYiQKc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/5ANzhtYiQKc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/5ANzhtYiQKc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 5 E flat major Esa Pekka Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xmBzuWUu1qU",
+      "VideoPublishedAtRaw": "2021-03-06T08:27:46Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-06T08:27:46+00:00",
+      "VideoPublishedAt": "2021-03-06T13:57:46+05:30"
+    },
+    "ETag": "OpzL3yAYgyp086jzQFv31Y_scrs",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5DNzE1RjZEMUZCMjA0RDBB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No 6 D minor \nEsa-Pekka Salonen Swedish Radio Symphony Orchestra\nAllegro molto moderato 0:10\nAllegretto moderato 9:20\nPoco vivace 15:09\nAllegro molto 18:55",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 54,
+      "PublishedAtRaw": "2024-11-10T21:02:31Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:02:31+00:00",
+      "PublishedAt": "2024-11-11T02:32:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xmBzuWUu1qU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xmBzuWUu1qU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xmBzuWUu1qU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/xmBzuWUu1qU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xmBzuWUu1qU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/xmBzuWUu1qU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 6 D minor Esa Pekka Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YoodmkspZIQ",
+      "VideoPublishedAtRaw": "2021-03-06T08:28:16Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-06T08:28:16+00:00",
+      "VideoPublishedAt": "2021-03-06T13:58:16+05:30"
+    },
+    "ETag": "sZDiY1Zt5VeOKe4d9J8wqWnNWIE",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS43MTI1NDIwOTMwQjIxMzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony No 7 C major, 1924 \nEsa-Pekka Salonen conducts Swedish Radio Symphony Orchestra\nThe symphony is in one movement, with the following structure :\n1 Adagio (bb. 1-92)\n2 Un pochett. meno adagio -- poco affrett. -- Poco a poco affrettando il Tempo al ... Vivacissimo -- rallentando al ... (bb. 93-221)\n3 Adagio -- Poco a poco meno lento al ... (bb. 222-257)\n4 Allegro molto moderato -- Un pochett. affretando (bb. 258-285)\n5 Allegro moderato -- Poco a poco meno moderato (bb. 286-408)\n6 Vivace (bb. 409-448)\n7 Presto -- Poco a poco rallentando al ... (bb. 449-475)\n8 Adagio (bb. 476-495)\n9 Largamente molto -- Affettuoso (bb. 496-521)\n10 Tempo I (bb. 522-525)",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 55,
+      "PublishedAtRaw": "2024-11-10T21:02:35Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:02:35+00:00",
+      "PublishedAt": "2024-11-11T02:32:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YoodmkspZIQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YoodmkspZIQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YoodmkspZIQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/YoodmkspZIQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YoodmkspZIQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YoodmkspZIQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No 7 C Major Esa Pekka Salonen Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Oi50tt17tMs",
+      "VideoPublishedAtRaw": "2023-07-31T10:27:21Z",
+      "VideoPublishedAtDateTimeOffset": "2023-07-31T10:27:21+00:00",
+      "VideoPublishedAt": "2023-07-31T15:57:21+05:30"
+    },
+    "ETag": "12y1gYEkOB8AS6jkJE0mmbFdpMc",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius \nSymphony Nr 5 in E\u266D, op 82\nEsa-Pekka Salonen conducts BRSO\n1. Tempo molto moderato - Largamente - Allegro moderato 0:00\n2. Andante mosso, quasi allegretto 13:40\n3. Allegro molto 23:15\n4. Finale (Allegro moderato) 29:00",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 56,
+      "PublishedAtRaw": "2024-11-10T20:58:09Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:58:09+00:00",
+      "PublishedAt": "2024-11-11T02:28:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Oi50tt17tMs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Oi50tt17tMs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Oi50tt17tMs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Oi50tt17tMs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Oi50tt17tMs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Oi50tt17tMs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony Nr 5 in E\u266D Esa-Pekka Salonen BRSO",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ZVgtSKmkB4E",
+      "VideoPublishedAtRaw": "2025-02-13T13:32:10Z",
+      "VideoPublishedAtDateTimeOffset": "2025-02-13T13:32:10+00:00",
+      "VideoPublishedAt": "2025-02-13T19:02:10+05:30"
+    },
+    "ETag": "t6GqEAM4SAjtD3KQajYCKET3JqQ",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS42MjYzMTMyQjA0QURCN0JF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das NDR Elbphilharmonie Orchester spielt Richard Strauss\u0027 ber\u00FChmte Tondichtung unter Leitung von Esa-Pekka Salonen. Eine Aufzeichnung vom 31. Dezember 2024 aus der Elbphilharmonie Hamburg.\n\nRichard Strauss - Also sprach Zarathustra op. 30 - Tondichtung frei nach Friedrich Nietzsche f\u00FCr gro\u00DFes Orchester\n\n00:00:00 Einleitung  \n00:01:52 Von den Hinterweltlern  \n00:05:50 Von der gro\u00DFen Sehnsucht  \n00:08:04 Von den Freuden und Leidenschaften  \n00:10:10 Das Grablied  \n00:12:45 Von der Wissenschaft  \n00:16:58 Der Genesende  \n00:22:09 Das Tanzlied  \n00:29:45 Das Nachtwandlerlied  \n\nNDR Elbphilharmonie Orchester\nEsa-Pekka Salonen, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 57,
+      "PublishedAtRaw": "2025-02-14T17:27:22Z",
+      "PublishedAtDateTimeOffset": "2025-02-14T17:27:22+00:00",
+      "PublishedAt": "2025-02-14T22:57:22+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ZVgtSKmkB4E"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ZVgtSKmkB4E/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ZVgtSKmkB4E/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ZVgtSKmkB4E/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ZVgtSKmkB4E/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Strauss - Also sprach Zarathustra | Esa-Pekka Salonen | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "lnv7cr4TmgA",
+      "VideoPublishedAtRaw": "2023-09-17T11:30:23Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-17T11:30:23+00:00",
+      "VideoPublishedAt": "2023-09-17T17:00:23+05:30"
+    },
+    "ETag": "rHt5qPBX0Hp4HKbDlahsdj2vF9A",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "On our channel you will find new content with classical music every week, sometimes also full concerts.\nSee the best musicians and conductors, enjoy, and feel the music.\n\nSubscribe and receive new content twice a week.\nContent will be uploaded every Sunday and Wednesday at 11:30 GMT",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 58,
+      "PublishedAtRaw": "2024-11-10T20:57:43Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:57:43+00:00",
+      "PublishedAt": "2024-11-11T02:27:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "lnv7cr4TmgA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/lnv7cr4TmgA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/lnv7cr4TmgA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/lnv7cr4TmgA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/lnv7cr4TmgA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/lnv7cr4TmgA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Stravinsky Le Sacre du printemps Esa Pekka Salonen Finnish Radio Symphony Orches",
+      "VideoOwnerChannelId": "UCMQqcgdxWM3_uNHmg49NUOw",
+      "VideoOwnerChannelTitle": "classical-music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "QyZPt7GqNA8",
+      "VideoPublishedAtRaw": "2022-03-14T11:42:22Z",
+      "VideoPublishedAtDateTimeOffset": "2022-03-14T11:42:22+00:00",
+      "VideoPublishedAt": "2022-03-14T17:12:22+05:30"
+    },
+    "ETag": "e8XQphJBAA_2Vlz0Atn4BmRCNE0",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4zRjM0MkVCRTg0MkYyQTM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Stravinsky Le Sacre du printemps Esa-Pekka Salonen Finnish Radio Symphony Orchestra\n\nIgor Stravinsky: Le Sacre du printemps\nI L\u0027adoration de la terre \nII Le sacrifice \n\nEsa-Pekka Salonen, conductor\nFinnish Radio Symphony Orchestra\n\nRecorded in Musiikkitalo, Helsinki, Finland on 16.9.2016\nFull-length concert: https://areena.yle.fi/1-3721310\n\nFRSO is LIVE every week at Yle Areena: \nhttps://areena.yle.fi/tv/ohjelmat/57-7A4k1J0dd\nWatch all our concerts on demand at Yle Areena:\nhttps://areena.yle.fi/tv/ohjelmat/57-7A4k1J0dd\n\nSubscribe to our newsletter:\nhttps://yle.fi/aihe/sivu/rso-in-engli...\nWebsite of the Finnish Radio Symphony Orchestra:\nhttps://yle.fi/aihe/rso-english",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 59,
+      "PublishedAtRaw": "2024-11-10T21:00:48Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:00:48+00:00",
+      "PublishedAt": "2024-11-11T02:30:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "QyZPt7GqNA8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/QyZPt7GqNA8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/QyZPt7GqNA8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/QyZPt7GqNA8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/QyZPt7GqNA8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/QyZPt7GqNA8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Stravinsky Le Sacre du printemps Esa-Pekka Salonen Finnish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UCbR2rQmH7jsrpg8ESUsM10g",
+      "VideoOwnerChannelTitle": "Finnish Radio Symphony Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ai_fecckVhs",
+      "VideoPublishedAtRaw": "2017-12-29T07:15:06Z",
+      "VideoPublishedAtDateTimeOffset": "2017-12-29T07:15:06+00:00",
+      "VideoPublishedAt": "2017-12-29T12:45:06+05:30"
+    },
+    "ETag": "kKhRIXA-SYCjoA3ATmVygRJTBxE",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS41MzY4MzcwOUFFRUU3QzEx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Finnish conductor Susanna M\u00E4lkki leads the Helsinki Philharmonic Orchestra in an beast performance of Esa-Pekka Salonen\u2019s (a fellow Finnish conductor!) 2005 tone poem \u2018Helix\u0027. The concert was recorded live on December 1, 2017.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 60,
+      "PublishedAtRaw": "2024-11-10T21:54:22Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:54:22+00:00",
+      "PublishedAt": "2024-11-11T03:24:22+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ai_fecckVhs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ai_fecckVhs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ai_fecckVhs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ai_fecckVhs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ai_fecckVhs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Susanna M\u00E4lkki conducts Esa-Pekka Salonen - Helix (2017)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6KDbCFU7aRw",
+      "VideoPublishedAtRaw": "2023-05-11T15:36:26Z",
+      "VideoPublishedAtDateTimeOffset": "2023-05-11T15:36:26+00:00",
+      "VideoPublishedAt": "2023-05-11T21:06:26+05:30"
+    },
+    "ETag": "Xw0BXEFSQwUqLr6ILmYPJYKclx4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4yQzk4QTA5QjkzMTFFOEI1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Friday, 5 \u0026 Sunday, 7 May 2023\nHAMBURG\nELBPHILHARMONIE GROSSER SAAL\nNDR ELBPHILHARMONIE ORCHESTRA\nTAMARA STEFANOVICH, piano\nESA-PEKKA SALONEN, conductor\n\nPROGRAM:\nMagnus Lindberg\nConcerto for Piano and Orchestra No. 3 | 02:37\n\nEncore:\n\nGy\u00F6rgy Kurt\u00E1g\nPantomime / Zanken 2 / J\u00E1t\u00E9kok | 40:40\n\n- - - - - - - - - - - - - - - - - \nInterview with Tamara Stefanovich and Esa-Pekka Salonen | 42:34\n\n\nDue to illness, Yuja Wang unfortunately had to cancel her participation in this concert. Thankfully Tamara Stefanovich has agreed at short notice to take over in her place. The Finnish conductor and composer Esa-Pekka Salonen has been a very regular visitor to the Elbphilharmonie since last season. As part of the two-year \u00BBMultiverse\u00AB series focused on his multi-faceted artistry, he now returns for two more concert projects in quick succession with the NDR Elbphilharmonie Orchestra. In the first programme he is joined by the great pianist Tamara Stefanovich. Together, they present a new work by Salonen\u2019s friend and compatriot Magnus Lindberg. The Finnish composer known for his sonorous works has written a new piano concerto as a commissioned work for NDR. With this kind of dream team gathered, an unforgettable musical experience is guaranteed!",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 61,
+      "PublishedAtRaw": "2025-08-25T02:19:21Z",
+      "PublishedAtDateTimeOffset": "2025-08-25T02:19:21+00:00",
+      "PublishedAt": "2025-08-25T07:49:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6KDbCFU7aRw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6KDbCFU7aRw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6KDbCFU7aRw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6KDbCFU7aRw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6KDbCFU7aRw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6KDbCFU7aRw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tamara Stefanovich plays Magnus Lindberg: Piano Concerto No. 3 | Live in Hamburg",
+      "VideoOwnerChannelId": "UCbpbsJ7nzby_wGx21FjHcgg",
+      "VideoOwnerChannelTitle": "GrandPiano"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "STq69crFq5g",
+      "VideoPublishedAtRaw": "2012-12-08T18:39:52Z",
+      "VideoPublishedAtDateTimeOffset": "2012-12-08T18:39:52+00:00",
+      "VideoPublishedAt": "2012-12-09T00:09:52+05:30"
+    },
+    "ETag": "kKuTGNGphmBYZp_lS7KVt1MB2f4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS40QTA3NTU2RkM1QzlCMzYx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Orchestre Philharmonique de Radio France - Esa-Pekka Salonen (cond.) Recorded in live concert on XII.II.2011 at the Th\u00E9\u00E2tre du Ch\u00E2telet",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 62,
+      "PublishedAtRaw": "2024-11-10T21:06:38Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T21:06:38+00:00",
+      "PublishedAt": "2024-11-11T02:36:38+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "STq69crFq5g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/STq69crFq5g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/STq69crFq5g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/STq69crFq5g/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Witold Lutoslawski - Symphony N\u00BA4 (OPRF - Salonen)",
+      "VideoOwnerChannelId": "UCwqxCvCaDrTvqvz7LlVIVOA",
+      "VideoOwnerChannelTitle": "Justin Geplaveid"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "pgVXKT6TbPk",
+      "VideoPublishedAtRaw": "2022-11-30T10:18:37Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-30T10:18:37+00:00",
+      "VideoPublishedAt": "2022-11-30T15:48:37+05:30"
+    },
+    "ETag": "W0XhRqoIpv7av3ul1JPf4ndc2Is",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Esa-Pekka Salonen: Karawane, for choir and orchestra (first performance)\n\nSergei Prokofiev: Piano concerto no.2 op.16\n1. Andantino\n2. Scherzo\n3. Intermezzo\n4. Allegro tempestoso\n\nHector Berlioz: Fantastic Symphony op.14\n1. Daydreams \u2013 Passions\n2. A Ball\n3. Scene in the fields\n4. Death March\n5. A Sabbath Night\u0027s Dream\n\n\nYuja Wang, piano\nZ\u00FCrcher Sing-Academie\nTim Brown, conductor\nTonhalle Orchester Z\u00FCrich\nLionel Bringuier, director",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 63,
+      "PublishedAtRaw": "2024-11-10T20:59:13Z",
+      "PublishedAtDateTimeOffset": "2024-11-10T20:59:13+00:00",
+      "PublishedAt": "2024-11-11T02:29:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pgVXKT6TbPk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pgVXKT6TbPk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pgVXKT6TbPk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pgVXKT6TbPk/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Yuja Wang / Lionel Bringuier / Tonhalle Orchester Z\u00FCrich",
+      "VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
+      "VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2TGDMGCGREc"
+    },
+    "ETag": "V4usHjw4VyQkCwuj3iiXSzcd0G4",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS4xM0YyM0RDNDE4REQ1NDA0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 64,
+      "PublishedAtRaw": "2024-12-31T19:28:26Z",
+      "PublishedAtDateTimeOffset": "2024-12-31T19:28:26+00:00",
+      "PublishedAt": "2025-01-01T00:58:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2TGDMGCGREc"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "J5coiPksQ9Q",
+      "VideoPublishedAtRaw": "2026-04-06T13:42:56Z",
+      "VideoPublishedAtDateTimeOffset": "2026-04-06T13:42:56+00:00",
+      "VideoPublishedAt": "2026-04-06T19:12:56+05:30"
+    },
+    "ETag": "a8BsXTAWvarAw5_40HCxcIXvvYY",
+    "Id": "UEwxemdOQ29XdF83YUFsVEpRcUloWHU1X3FESUZ1Wm9VcS45NDlDQUFFOThDMTAxQjUw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mahler: Symphony No.2 \u0027Resurrection\u0027 \n1st movement   00:00\n2nd   22:30\n3rd    33:29\n4th    44:12\n5th    49:22\nEsa-Pekka Salonen / Swedish Radio symphony orchestra\nSo) Kerstin Avemo       Alt) Lilli Paasikivi\nCho) Swedish Radio chorus, Erik Erikson Chamber choir\n19/8/2004 Stockholm, Berwald Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C2\u756A\u300C\u5FA9\u6D3B\u300D\n\u30A8\u30B5\uFF1D\u30DA\u30C3\u30AB\u30FB\u30B5\u30ED\u30CD\u30F3\u6307\u63EE\u3000\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30B7\u30A7\u30B7\u30E5\u30C6\u30A3\u30F3\u30FB\u30A2\u30F4\u30A1\u30E2\u3000\u30A2\u30EB\u30C8\uFF09\u30EA\u30EA\u30FB\u30D1\u30FC\u30B7\u30AD\u30F4\u30A3\n\u5408\u5531\uFF09\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u653E\u9001\u5408\u5531\u56E3\u3001\u30A8\u30EA\u30AF\u30FB\u30A8\u30EA\u30AF\u30BD\u30F3\u5BA4\u5185\u5408\u5531\u56E3\n2004\u5E748\u670819\u65E5\u3000\u30B9\u30C8\u30C3\u30AF\u30DB\u30EB\u30E0\u3001\u30D9\u30EB\u30EF\u30EB\u30C9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6B63\u898F\u3067\u3042\u307E\u308A\u30DE\u30FC\u30E9\u30FC\u3092\u9332\u97F3\u3057\u3066\u3044\u306A\u3044\u30B5\u30ED\u30CD\u30F3\u3067\u3059\u304C\u3001\u30E9\u30A4\u30D6\u3067\u306F\u304B\u306A\u308A\u306E\u983B\u5EA6\u3067\u6F14\u594F\u3057\u3066\u3044\u307E\u3059\u3002\u4E2D\u3067\u3082\u300C\u5FA9\u6D3B\u300D\u306F\u6FC3\u5BC6\u3055\u3068\u81EA\u4FE1\u306B\u6E80\u3061\u3066\u3044\u3066\u5727\u5DFB\u3067\u3059\u3002\u305D\u308C\u306B\u3057\u3066\u3082\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u306E\u5408\u5531\u306F\u3044\u3064\u3082\u306A\u304C\u3089\u305F\u3081\u606F\u304C\u51FA\u308B\u307B\u3069\u7D20\u6674\u3089\u3057\u3044\u3002",
+      "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
+      "Position": 65,
+      "PublishedAtRaw": "2026-06-09T22:18:11Z",
+      "PublishedAtDateTimeOffset": "2026-06-09T22:18:11+00:00",
+      "PublishedAt": "2026-06-10T03:48:11+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "J5coiPksQ9Q"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/J5coiPksQ9Q/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/J5coiPksQ9Q/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/J5coiPksQ9Q/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/J5coiPksQ9Q/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler: Symphony No.2 \u0027Resurrection\u0027    E-P. Salonen / SRSO 2004 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  }
+]

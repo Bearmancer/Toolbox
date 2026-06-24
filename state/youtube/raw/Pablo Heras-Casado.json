@@ -1,0 +1,112 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "1bKJTvIA6u8",
+			"VideoPublishedAtRaw": "2025-06-07T14:00:07Z",
+			"VideoPublishedAtDateTimeOffset": "2025-06-07T14:00:07+00:00",
+			"VideoPublishedAt": "2025-06-07T19:30:07+05:30"
+		},
+		"ETag": "M7xgPgF2mqC84rxQHLktl0kW5ZE",
+		"Id": "UEwxemdOQ29XdF83YWloSWZsaVNxaUZEcm9sLVJSeE4teS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bruckners Te Deum, aufgef\u00FChrt vom SWR Symphonieorchester, dem SWR Vokalensemble und dem WDR Rundfunkchor unter der Leitung von Pablo Heras-Casado, mit Christina Landshamer (Sopran), Sophie Harmsen (Mezzosopran), Daniel Behle (Tenor) und Franz-Josef Selig (Bass). Live aufgenommen am 13. September 2024 in der Stuttgarter Liederhalle.\n\nAnton Bruckner - Te Deum\n\n00:02 Te Deum laudamus - Allegro\n05:29 Te ergo quaesumus - Moderato\n07:54 Aeterna fac - Allegro\n09:22 Salvum fac populum tuum - Moderato\n15:27 In te, Domine speravi - M\u00E4\u00DFig bewegt\n\nMitwirkende:\nChristina Landshamer, Sopran\nSophie Harmsen, Mezzosopran\nDaniel Behle, Tenor\nFranz-Josef Selig, Bass\nSWR Vokalensemble\nWDR Rundfunkchor\nSWR Symphonieorchester\nDirigent: Pablo Heras-Casado\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Web: http://swr.li/web-concerts\n\u25BA Facebook: https://facebook.com/ardklassik\n\nImpressum: https://www.swr.de/impressum\n\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.swr.de/home/netiquette-100.html\n\nDatenschutz: https://www.swr.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y",
+			"Position": 0,
+			"PublishedAtRaw": "2025-06-14T11:10:21Z",
+			"PublishedAtDateTimeOffset": "2025-06-14T11:10:21+00:00",
+			"PublishedAt": "2025-06-14T16:40:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1bKJTvIA6u8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1bKJTvIA6u8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1bKJTvIA6u8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1bKJTvIA6u8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1bKJTvIA6u8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1bKJTvIA6u8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner - Te Deum | Pablo Heras-Casado | SWR Symphonieorchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_OWkwoiimtc",
+			"VideoPublishedAtRaw": "2025-06-05T16:01:03Z",
+			"VideoPublishedAtDateTimeOffset": "2025-06-05T16:01:03+00:00",
+			"VideoPublishedAt": "2025-06-05T21:31:03+05:30"
+		},
+		"ETag": "vcXTwTt1GcsA4TU1r-wqzMYcd2Y",
+		"Id": "UEwxemdOQ29XdF83YWloSWZsaVNxaUZEcm9sLVJSeE4teS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bruckners Sinfonie Nr. 6 A-Dur, aufgef\u00FChrt vom SWR Symphonieorchester unter der Leitung von Pablo Heras-Casado. Live aufgenommen am 13. September 2024 in der Stuttgarter Liederhalle.\n\nAnton Bruckner - Sinfonie Nr. 6 A-Dur\n\n00:02 Majestoso\n14:39 Adagio. Sehr feierlich\n30:47 Scherzo. Nicht schnell \u2013 Trio. Langsam\n38:49 Finale. Bewegt, doch nicht zu schnell\n\nMitwirkende:\nSWR Symphonieorchester\nDirigent: Pablo Heras-Casado\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Web: http://swr.li/web-concerts\n\u25BA Facebook: https://facebook.com/klassikswrkultur\n\nImpressum: https://www.swr.de/impressum\n\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette:\nhttps://www.swr.de/home/netiquette-100\n\nDatenschutz: https://www.swr.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y",
+			"Position": 1,
+			"PublishedAtRaw": "2025-06-14T11:11:44Z",
+			"PublishedAtDateTimeOffset": "2025-06-14T11:11:44+00:00",
+			"PublishedAt": "2025-06-14T16:41:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_OWkwoiimtc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_OWkwoiimtc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_OWkwoiimtc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_OWkwoiimtc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_OWkwoiimtc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_OWkwoiimtc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner - Sinfonie Nr. 6 A-Dur | Pablo Heras-Casado | SWR Symphonieorchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	}
+]

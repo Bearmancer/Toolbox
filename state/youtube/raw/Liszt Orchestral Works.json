@@ -1,0 +1,1557 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "ZVI64OyIkLg",
+			"VideoPublishedAtRaw": "2023-05-20T22:07:17Z",
+			"VideoPublishedAtDateTimeOffset": "2023-05-20T22:07:17+00:00",
+			"VideoPublishedAt": "2023-05-21T03:37:17+05:30"
+		},
+		"ETag": "7DEQbFjzGwDcf4NadPQcjVLMpus",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt. Hunnenschlacht, S. 105\nRoyal Philharmonic Orchestra; Dean Dixon, conductor\nRecorded for Westminster in 1953",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 0,
+			"PublishedAtRaw": "2025-10-11T14:20:56Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:20:56+00:00",
+			"PublishedAt": "2025-10-11T19:50:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZVI64OyIkLg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZVI64OyIkLg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZVI64OyIkLg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ZVI64OyIkLg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZVI64OyIkLg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZVI64OyIkLg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dean Dixon conducts Liszt: Hunnenschlacht (Royal Philharmonic)",
+			"VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
+			"VideoOwnerChannelTitle": "Music Lover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_8k_w7cEHz0",
+			"VideoPublishedAtRaw": "2019-11-17T18:32:48Z",
+			"VideoPublishedAtDateTimeOffset": "2019-11-17T18:32:48+00:00",
+			"VideoPublishedAt": "2019-11-18T00:02:48+05:30"
+		},
+		"ETag": "WX5eugmPFuFbidi1clBul5HC_bo",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz LISZT\n\u0022Festkl\u00E4nge\u0022, symphonische Dichtung No. 7\nRundfunk-Sinfonieorchester Leipzig / Gerhard Pfl\u00FCger\n\nKopiert von Urania URLP 7140, 1954\nLeipzig, 8. April 1953",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 1,
+			"PublishedAtRaw": "2025-08-11T04:57:18Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:57:18+00:00",
+			"PublishedAt": "2025-08-11T10:27:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_8k_w7cEHz0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_8k_w7cEHz0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_8k_w7cEHz0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_8k_w7cEHz0/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Franz Liszt \u0022Festkl\u00E4nge\u0022",
+			"VideoOwnerChannelId": "UCFcPBGPW6kTmZof6ucFIbOQ",
+			"VideoOwnerChannelTitle": "Remus Platen"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "n4UTATJ3_eg",
+			"VideoPublishedAtRaw": "2019-10-29T18:23:05Z",
+			"VideoPublishedAtDateTimeOffset": "2019-10-29T18:23:05+00:00",
+			"VideoPublishedAt": "2019-10-29T23:53:05+05:30"
+		},
+		"ETag": "lEjlHOdckWvJa-05-W0RySTQNXU",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz LISZT\n\u0022Hunnenschlacht\u0022, symphonic poem No. 10\nM\u00FCnchner Phlharmoniker / Kurt Eichhorn\n\nMercury MG 10083, recorded ca. 1949/50",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 2,
+			"PublishedAtRaw": "2025-10-11T14:21:29Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:21:29+00:00",
+			"PublishedAt": "2025-10-11T19:51:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "n4UTATJ3_eg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/n4UTATJ3_eg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/n4UTATJ3_eg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/n4UTATJ3_eg/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Franz Liszt \u0022Hunnenschlacht\u0022",
+			"VideoOwnerChannelId": "UCFcPBGPW6kTmZof6ucFIbOQ",
+			"VideoOwnerChannelTitle": "Remus Platen"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "qF0jS87AF2s",
+			"VideoPublishedAtRaw": "2018-09-06T20:47:17Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-06T20:47:17+00:00",
+			"VideoPublishedAt": "2018-09-07T02:17:17+05:30"
+		},
+		"ETag": "yOfpugT8174VKU-eG6bVVYW1Ncw",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nFESTMARSCH ZUR S\u00C4CULARFEIER VON GOETHES GEBURTSTAG (orch. Kocsis)\nHungarian National Philharmonic Orchestra\nZOLT\u00C1N KOCSIS, conductor\nRecording: B\u00E9la Bart\u00F3k National Concert Hall, Budapest, April 10, 2015",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 3,
+			"PublishedAtRaw": "2025-08-11T04:59:43Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:59:43+00:00",
+			"PublishedAt": "2025-08-11T10:29:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qF0jS87AF2s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qF0jS87AF2s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qF0jS87AF2s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/qF0jS87AF2s/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qF0jS87AF2s/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/qF0jS87AF2s/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt (orch. Kocsis): Goethe-Festmarsch - Hungarian National Philharmonic Orchestra/Kocsis (2015)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7uyH3OZcLBc",
+			"VideoPublishedAtRaw": "2023-02-01T15:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2023-02-01T15:00:10+00:00",
+			"VideoPublishedAt": "2023-02-01T20:30:10+05:30"
+		},
+		"ETag": "Kkur2Ph5fOrmwjzmFTcI8tKb-i4",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszts \u00C9l\u00E9gie sur des motifs du Prince Louis Ferdinand de Prusse, f\u00FCr Orchester eingerichtet von Detlev Glanert, aufgef\u00FChrt vom WDR Sinfonieorchester unter der Leitung von Dima Slobodeniouk. Live aufgenommen am 19.11.2022 in der K\u00F6lner Philharmonie. \n\nFranz Liszt - \u00C9l\u00E9gie sur des motifs du Prince Louis Ferdinand de Prusse\nf\u00FCr Orchester eingerichtet von Detlev Glanert\n(Urauff\u00FChrung)\nAuftragswerk des WDR\n\nWDR Sinfonieorchester \nDima Slobodeniouk, Leitung \n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung:\nDie Urauff\u00FChrung zum Auftakt dieses Konzerts ist ein Geburtstagsgeschenk f\u00FCr Prinz Louis Ferdinand von Preu\u00DFen, der am 18. November 1772 geboren wurde \u2013 also vor exakt 250 Jahren. Schon sein Beiname \u0022Der preu\u00DFische Apoll\u0022 l\u00E4sst darauf schlie\u00DFen, dass der Neffe Friedrichs des Gro\u00DFen eine schillernde Pers\u00F6nlichkeit gewesen ist. Auch auf die Damenwelt hatte er eine magische Anziehungskraft: Mit mindestens drei Frauen hatte er mehrere uneheliche Kinder. Sein fr\u00FCher Tod im Alter von 33 Jahren machte ihn zum Helden. Am 10. Oktober 1806 wurde er beim Gefecht von Saalfeld von einem franz\u00F6sischen Unteroffizier get\u00F6tet.\n\nUngew\u00F6hnlich aber war vor allem Louis Ferdinands Hingabe an die Musik. Er spielte Klavier und er komponierte. Sein unangefochtenes Vorbild war Ludwig van Beethoven, mit dem er pers\u00F6nlich bekannt war. Beethoven selbst zollte dem hochadligen Pianisten Respekt, indem er 1796 \u00FCber dessen K\u00FCnste meinte, \u0022der Prinz spiele gar nicht k\u00F6niglich oder prinzlich, sondern wie ein t\u00FCchtiger Klavierspieler\u0022. Auch als Komponist wurde Louis Ferdinand gesch\u00E4tzt. Robert Schumann etwa titulierte ihn als \u0022Romantiker der klassischen Periode\u0022.\n\nPost mortem adelte Franz Liszt den komponierenden Prinzen nicht nur dadurch, dass er dessen Klavierquartett f-Moll h\u00E4ufiger spielte, sondern vor allem durch die Klavierkomposition \u0022\u00C9l\u00E9gie sur des motifs du Prince Louis Ferdinand de Prusse\u0022. Geschrieben im Jahr 1842, lag Liszt dieses St\u00FCck wohl so am Herzen, dass er es zehn Jahre sp\u00E4ter revidierte. Diese Version liegt auch Detlev Glanerts (*1960) hoch subtiler Orchesterversion zugrunde. Das WDR Sinfonieorchester hat bereits mehrere Werke von Glanert aufgef\u00FChrt, darunter sein \u0022Theatrum bestiarum\u0022 und die \u0022Vier Pr\u00E4ludien und Ernsten Ges\u00E4nge\u0022, bei denen er Brahms\u2019 \u0022Vier ernste Ges\u00E4nge\u0022 um Vorspiele und ein Nachspiel erg\u00E4nzt hat. Glanert ist einer der international angesehensten und zugleich produktivsten Komponisten unserer Zeit. Mittlerweile 24 Opern z\u00E4hlt sein Werkverzeichnis, au\u00DFerdem zahlreiche Orchesterwerke. Nach dem gro\u00DFen Orchesterwerk \u0022Flu\u00DF ohne Ufer\u0022 (2009) ist Glanerts Liszt-Bearbeitung die zweite Urauff\u00FChrung eines seiner Werke durch das WDR Sinfonieorchester.\n\nText: Otto Hagedorn",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 4,
+			"PublishedAtRaw": "2025-08-11T05:06:10Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:06:10+00:00",
+			"PublishedAt": "2025-08-11T10:36:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7uyH3OZcLBc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7uyH3OZcLBc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7uyH3OZcLBc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/7uyH3OZcLBc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7uyH3OZcLBc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7uyH3OZcLBc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt - \u00C9l\u00E9gie sur des motifs du Prince Louis Ferdinand de Prusse | WDR Sinfonieorchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Zf8m_215l00",
+			"VideoPublishedAtRaw": "2017-12-15T15:38:21Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-15T15:38:21+00:00",
+			"VideoPublishedAt": "2017-12-15T21:08:21+05:30"
+		},
+		"ETag": "rpU-a7AXU6yGnTMk-8eyAnmjo9w",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "L\u0027Orchestre national de France dirig\u00E9 par Daniele Gatti interpr\u00E8te \u0022Hamlet\u0022, po\u00E8me symphonique n\u00B010 de Franz Liszt. Enregistr\u00E9 le 16 avril 2015 au Th\u00E9\u00E2tre des Champs-Elys\u00E9es (Paris).",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 5,
+			"PublishedAtRaw": "2025-10-11T14:19:09Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:19:09+00:00",
+			"PublishedAt": "2025-10-11T19:49:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Zf8m_215l00"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Zf8m_215l00/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Zf8m_215l00/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Zf8m_215l00/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Zf8m_215l00/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Zf8m_215l00/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt : \u0022Hamlet\u0022 sous la direction de Daniele Gatti",
+			"VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+			"VideoOwnerChannelTitle": "France Musique concerts"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "YdftRIe3q4w",
+			"VideoPublishedAtRaw": "2018-01-23T09:17:40Z",
+			"VideoPublishedAtDateTimeOffset": "2018-01-23T09:17:40+00:00",
+			"VideoPublishedAt": "2018-01-23T14:47:40+05:30"
+		},
+		"ETag": "MexPnNJDBrBl4t-EMzCb8uwm__k",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orchestrated by Joachim Raff and the composer. The Overture to the original version was revised as the Symphonic Poem, Prometheus.\n\nI. Introduction 0:00\nII. Chorus of the Okeanidai 0:40\nIII. Chorus of the Tritons 3:20\nIV. Chorus of the Dryades 11:50\nV. Chorus of the Harvesters 15:10\nVI. Chorus of the Vintagers 21:10\nVII. Chorus of the Powers of the Nether World 27:10\nVIII. Chorus of the Invisibles 30:45\nIX. Final Chorus 36:55\nPerformed by \u00C9va Andor (soprano), Erzs\u00E9bet Koml\u00F3ssy (contralto), J\u00F3zsef R\u00E9ti (tenor), B\u00E9la Turpinszky (tenor), Lajos Miller (baritone), J\u00F3zsef Gregor (bass), Adolf Peter Hoffman (reciter) with the Budapest Chorus and Hungarian State Orchestra conducted by Mikl\u00F3s Forrai.",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 6,
+			"PublishedAtRaw": "2025-08-11T04:41:43Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:41:43+00:00",
+			"PublishedAt": "2025-08-11T10:11:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "YdftRIe3q4w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/YdftRIe3q4w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/YdftRIe3q4w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/YdftRIe3q4w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/YdftRIe3q4w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt : Ch\u00F6re zu Herders Entfesseltem Prometheus, for chorus and orchestra S. 69 (1850 rev. 1855)",
+			"VideoOwnerChannelId": "UC9g5M2trqPDiGn5fC_dl63g",
+			"VideoOwnerChannelTitle": "Rodders"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "9zRa49VxwyY",
+			"VideoPublishedAtRaw": "2018-01-14T09:53:08Z",
+			"VideoPublishedAtDateTimeOffset": "2018-01-14T09:53:08+00:00",
+			"VideoPublishedAt": "2018-01-14T15:23:08+05:30"
+		},
+		"ETag": "W5P5hGjahQ3WJ2XdCJVEfHqbCyo",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "I. Der n\u00E4chtliche Zug S. 110/1 0:00\nII. Der Tanz in der Dorfschenke S. 110/2 15:10\nPerformed by the Budapest Symphony Orchestra conducted by Arpad Jo\u00F3.",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 7,
+			"PublishedAtRaw": "2025-08-11T04:41:47Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:41:47+00:00",
+			"PublishedAt": "2025-08-11T10:11:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9zRa49VxwyY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/9zRa49VxwyY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/9zRa49VxwyY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/9zRa49VxwyY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/9zRa49VxwyY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt : Zwei Episoden aus Lenau\u0027s Faust for orchestra S. 110 (ca. 1856-61)",
+			"VideoOwnerChannelId": "UC9g5M2trqPDiGn5fC_dl63g",
+			"VideoOwnerChannelTitle": "Rodders"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1vwfstoMKdw",
+			"VideoPublishedAtRaw": "2021-11-01T10:09:22Z",
+			"VideoPublishedAtDateTimeOffset": "2021-11-01T10:09:22+00:00",
+			"VideoPublishedAt": "2021-11-01T15:39:22+05:30"
+		},
+		"ETag": "BQOl1wYlZjTBWsWq2a6U7hqCSVg",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nPiano Concerto No. 2 in A major\nHeinrich Neuhaus (1888-1964), piano\nThe USSR State Symphony Orchestra conducted by Vladimir Dagtyarenko\nStudio recording, 1946",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 8,
+			"PublishedAtRaw": "2025-08-11T05:00:43Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:00:43+00:00",
+			"PublishedAt": "2025-08-11T10:30:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1vwfstoMKdw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1vwfstoMKdw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1vwfstoMKdw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1vwfstoMKdw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1vwfstoMKdw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1vwfstoMKdw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt Concerto No. 2 - Heinrich Neuhaus/Degtyarenko/USSR SSO (1946)",
+			"VideoOwnerChannelId": "UC6DP6pqWODROdEU7c2y0efQ",
+			"VideoOwnerChannelTitle": "pianopera"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jwBeijPHzoM",
+			"VideoPublishedAtRaw": "2022-11-28T22:14:40Z",
+			"VideoPublishedAtDateTimeOffset": "2022-11-28T22:14:40+00:00",
+			"VideoPublishedAt": "2022-11-29T03:44:40+05:30"
+		},
+		"ETag": "QXVD4_voNPjetHG83goE6ppqtjU",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Liszt Ferenc Zenem\u0171v\u00E9szeti F\u0151iskola Debreceni tagozata Szimf\u00F3nikus zenekara - Francia est 1990 04 30\nC. Debussy \u00E9s M. Ravel m\u0171vek\nKarmester: Kov\u00E1ts Zolt\u00E1n\nVHS felv\u00E9tel\nDebreceni LFZF felv\u00E9tele",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 9,
+			"PublishedAtRaw": "2025-08-11T04:40:13Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:40:13+00:00",
+			"PublishedAt": "2025-08-11T10:10:13+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jwBeijPHzoM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jwBeijPHzoM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jwBeijPHzoM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jwBeijPHzoM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/jwBeijPHzoM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt Ferenc Zenem\u0171v\u00E9szeti F\u0151iskola Debreceni tagozata Szimf\u00F3nikus zenekara - Francia est   1990.",
+			"VideoOwnerChannelId": "UCwbGeJiI5oRlwD31kPWJliA",
+			"VideoOwnerChannelTitle": "IJMPS - Izsak Jozsef Music Promotion Services"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tWyccyWJ03w",
+			"VideoPublishedAtRaw": "2024-11-29T14:59:15Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-29T14:59:15+00:00",
+			"VideoPublishedAt": "2024-11-29T20:29:15+05:30"
+		},
+		"ETag": "5gpBtQj9q77JCj0FIwZQAvxYaqM",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt  (1811 - 1886)\n\nH\u00E9ro\u00EFde fun\u00E8bre S.102\nSymphonic Poem\n\nNikolai Golovanov, direttore\nMoscow Radio Symphony Orchestra\nMoscow, 1953",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 10,
+			"PublishedAtRaw": "2025-08-11T04:38:54Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:38:54+00:00",
+			"PublishedAt": "2025-08-11T10:08:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tWyccyWJ03w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tWyccyWJ03w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tWyccyWJ03w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tWyccyWJ03w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tWyccyWJ03w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tWyccyWJ03w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt:   H\u00E9ro\u00EFde fun\u00E8bre S.102, Symphonic Poem -  Nikolai Golovanov, Moscow Radio Symphony Orchestra",
+			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sHW2KnLydXo",
+			"VideoPublishedAtRaw": "2025-05-26T08:56:25Z",
+			"VideoPublishedAtDateTimeOffset": "2025-05-26T08:56:25+00:00",
+			"VideoPublishedAt": "2025-05-26T14:26:25+05:30"
+		},
+		"ETag": "B4BjSknRJteXIW3SmRCDyA10_pU",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt  (1811 - 1886)\n\nMazeppa, Symphonic Poem S.100\n\nGyula N\u00E9meth, direttore\nOrchestra Sinfonica di Stato Ungherese",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 11,
+			"PublishedAtRaw": "2025-08-11T04:43:51Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:43:51+00:00",
+			"PublishedAt": "2025-08-11T10:13:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sHW2KnLydXo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/sHW2KnLydXo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/sHW2KnLydXo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/sHW2KnLydXo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/sHW2KnLydXo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt:   Mazeppa, Symphonic Poem S.100  -  Gyula N\u00E9meth; Orchestra Sinfonica di Stato Ungherese",
+			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "d6egoNfYcWk",
+			"VideoPublishedAtRaw": "2024-03-31T04:00:31Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-31T04:00:31+00:00",
+			"VideoPublishedAt": "2024-03-31T09:30:31+05:30"
+		},
+		"ETag": "mQrXIO8kvR1LVnMOQY5PTR7mkS8",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Here is a performance of Franz Liszt\u0027s oratorio given at St. John\u0027s Church in Helsinki on March 25, 2011.  Andres Mustonen led the Finnish Radio Symphony Orchestra, with Dominante (mixed choir) and Murtosointu (chamber choir), and Soile Isokoski, soprano; Jenny Carlstedt, mezzo-soprano; Mati Turi, tenor; Jaakko Kortekangas, baritone; and Tuomas Pursio, bass-baritone.\n\nPart One: Christmas Oratorio\n- Motivum - Introduction    0:00\n- Pastorale and Annunciation    12:44\n- Stabat Mater speciosa (\u0027Stood the beautiful Mother\u0027)    19:59\n- Song of the Shepherds at the Manger    33:41\n- The Three Kings    45:13\n\nPart Two: After Epiphany\n- The Beatitudes    58:21\n- Pater noster (The Lord\u0027s Prayer)    1:10:46\n- The Foundation of the Church    1:18:14\n- The Miracle    1:23:43\n- The Entry into Jerusalem    1:32:10\n\nPart Three: Passion and Resurrection    \n- Tristis est anima mea (\u0027Sad is my soul\u0027)    1:45:42\n- Stabat Mater dolorosa (\u0027Stood the grievous Mother\u0027)    1:58:47\n- O filii et filiae (\u0027O sons and daughters\u0027)    2:34:25\n- Resurrexit! (\u0027He has risen!\u0027)    2:36:04",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 12,
+			"PublishedAtRaw": "2025-08-11T04:39:43Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:39:43+00:00",
+			"PublishedAt": "2025-08-11T10:09:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "d6egoNfYcWk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/d6egoNfYcWk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/d6egoNfYcWk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/d6egoNfYcWk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/d6egoNfYcWk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/d6egoNfYcWk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: \u0022Christus\u0022 (Helsinki, 2011)",
+			"VideoOwnerChannelId": "UCgQSnfbTS-AbWElba4zBxjw",
+			"VideoOwnerChannelTitle": "kadoguy"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "SzEBJXi9zwE",
+			"VideoPublishedAtRaw": "2018-09-07T14:50:30Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-07T14:50:30+00:00",
+			"VideoPublishedAt": "2018-09-07T20:20:30+05:30"
+		},
+		"ETag": "gc9arhsgA-W3-G_21FFYxiXHNKk",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nCE QU\u0027ON ENTEND SUR LA MONTAGNE (Bergsymphonie), S. 95\nHungarian National Philharmonic Orchestra\nZOLT\u00C1N KOCSIS, conductor\nRecording: B\u00E9la Bart\u00F3k National Concert Hall, Budapest, January 22, 2011",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 13,
+			"PublishedAtRaw": "2025-08-11T04:41:17Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:41:17+00:00",
+			"PublishedAt": "2025-08-11T10:11:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "SzEBJXi9zwE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/SzEBJXi9zwE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/SzEBJXi9zwE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/SzEBJXi9zwE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/SzEBJXi9zwE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/SzEBJXi9zwE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Ce qu\u0027on entend sur la montagne - Hungarian National Philharmonic Orchestra/Kocsis (2011)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XUPNgdWHg3k",
+			"VideoPublishedAtRaw": "2025-02-10T19:10:30Z",
+			"VideoPublishedAtDateTimeOffset": "2025-02-10T19:10:30+00:00",
+			"VideoPublishedAt": "2025-02-11T00:40:30+05:30"
+		},
+		"ETag": "wgzNQOIAieRnZj7BaxkjgxrdQ6I",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Grande Orchestre Philharmonique de Paris, 1935\nGeorges Jouatte, tenor\n\n00:00 - Faust\n22:34 - Marguerite\n39:41 - Mephistophele",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 14,
+			"PublishedAtRaw": "2025-08-11T04:38:49Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:38:49+00:00",
+			"PublishedAt": "2025-08-11T10:08:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XUPNgdWHg3k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/XUPNgdWHg3k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/XUPNgdWHg3k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/XUPNgdWHg3k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/XUPNgdWHg3k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/XUPNgdWHg3k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Faust Symphony, S.108 (cond. S. Meyrowitz)",
+			"VideoOwnerChannelId": "UCocoxz10PwPD7CmOy5O-BgQ",
+			"VideoOwnerChannelTitle": "124 421"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "wlFPeurvmP4",
+			"VideoPublishedAtRaw": "2018-09-30T21:51:00Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-30T21:51:00+00:00",
+			"VideoPublishedAt": "2018-10-01T03:21:00+05:30"
+		},
+		"ETag": "56pvUVSHVhTs84bTOsPWxHVEhdM",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nFESTKL\u00C4NGE, S. 101\nUSSR Ministry of Culture Symphony Orchestra\nMARK ERMLER, conductor\nRecording: 1988",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 15,
+			"PublishedAtRaw": "2025-08-11T05:01:11Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:01:11+00:00",
+			"PublishedAt": "2025-08-11T10:31:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "wlFPeurvmP4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/wlFPeurvmP4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/wlFPeurvmP4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/wlFPeurvmP4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/wlFPeurvmP4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/wlFPeurvmP4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Festkl\u00E4nge - USSR Ministry of Culture Symphony Orchestra/Ermler (1988)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WOt0RNQzFRM",
+			"VideoPublishedAtRaw": "2018-09-30T15:18:50Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-30T15:18:50+00:00",
+			"VideoPublishedAt": "2018-09-30T20:48:50+05:30"
+		},
+		"ETag": "kPlWhbLin-LmFkxnyc4dwNNFNXo",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nHAMLET, S. 104\nUSSR Ministry of Culture Symphony Orchestra\nMARK ERMLER, conductor\nRecording: 1988",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 16,
+			"PublishedAtRaw": "2025-08-11T04:59:31Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:59:31+00:00",
+			"PublishedAt": "2025-08-11T10:29:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WOt0RNQzFRM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WOt0RNQzFRM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WOt0RNQzFRM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WOt0RNQzFRM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WOt0RNQzFRM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WOt0RNQzFRM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Hamlet - USSR Ministry of Culture Symphony Orchestra/Ermler (1988)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fF0fmku-sq8",
+			"VideoPublishedAtRaw": "2018-09-30T16:44:03Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-30T16:44:03+00:00",
+			"VideoPublishedAt": "2018-09-30T22:14:03+05:30"
+		},
+		"ETag": "tlZD3HIgBguPjonG_b7ebk0EHwg",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nHUNGARIA, S. 103\nUSSR Ministry of Culture Symphony Orchestra\nMARK ERMLER, conductor\nRecording: 1989",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 17,
+			"PublishedAtRaw": "2025-08-11T05:03:42Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:03:42+00:00",
+			"PublishedAt": "2025-08-11T10:33:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fF0fmku-sq8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fF0fmku-sq8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fF0fmku-sq8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/fF0fmku-sq8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fF0fmku-sq8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/fF0fmku-sq8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Hungaria - USSR Ministry of Culture Symphony Orchestra/Ermler (1989)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8pALm8alj9w",
+			"VideoPublishedAtRaw": "2018-09-07T13:54:11Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-07T13:54:11+00:00",
+			"VideoPublishedAt": "2018-09-07T19:24:11+05:30"
+		},
+		"ETag": "79wJjfjMB3UpZyFluboDmngeVEg",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nHUNNENSCHLACHT, S. 105\nRoyal Concertgebouw Orchestra\nTHOMAS AD\u00C8S, conductor\nRecording: Concertgebouw, Amsterdam, April 15, 2016",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 18,
+			"PublishedAtRaw": "2025-10-11T14:20:45Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:20:45+00:00",
+			"PublishedAt": "2025-10-11T19:50:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8pALm8alj9w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8pALm8alj9w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8pALm8alj9w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/8pALm8alj9w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8pALm8alj9w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8pALm8alj9w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Hunnenschlacht - Royal Concertgebouw Orchestra/Ad\u00E9s (2016)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vMmNdK7ZCRQ",
+			"VideoPublishedAtRaw": "2024-06-02T23:42:22Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-02T23:42:22+00:00",
+			"VideoPublishedAt": "2024-06-03T05:12:22+05:30"
+		},
+		"ETag": "DpIB2BiduaMaM_9BBCebgn3rj2E",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "In my experience, Liszt compositions for orchestra are a hit or miss affair.  Among the Liszt tone poems, Les Preludes is definitely a hit. The others, such as the one I have included here - are nowhere as good in my opinion.  In his interesting interpretation of Les Preludes, conductor Dean Dixon rejects the usual plodding pace so often used in Les Preludes.  In some places, it even sounds like some of the horn players are rushing to catch up to the music!   For me, this makes it one of the more enjoyable interpretations of this quite familiar piece.\n\nThe second composition, Battle of the Huns is a perfectly fine bit of music.  But it lacks the brilliance of Les Preludes. I include it here as some folks might have a different view. If anyone feels strongly about it, I can post Side B - which has two tone poems that sound more like the Battle of the Huns than Les Preludes.\n\nAs was true at this time in the 1950s, Westminster had some of the best recorded albums.  So this album benefits from their \u0022Natural Balance\u0022 dynamics.\n\nTracks:\n00:00  Les Preludes\n13:39  The Battle of the Huns\n\nDetails:\nLiszt:  Four Tone Poems for Orchestra\nReleased by:  Westminster Records (WL 5269)\nYear released:  1954\nOrchestra:  The Philharmonic Symphony Orchestra of London\nConductor:  Dean Dixon",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 19,
+			"PublishedAtRaw": "2025-08-11T04:39:16Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:39:16+00:00",
+			"PublishedAt": "2025-08-11T10:09:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vMmNdK7ZCRQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vMmNdK7ZCRQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vMmNdK7ZCRQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vMmNdK7ZCRQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vMmNdK7ZCRQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vMmNdK7ZCRQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Les Preludes \u0026 Battle of the Huns. Dixon \u0026 The Philharmonic Symphony Orchestra of London 1954",
+			"VideoOwnerChannelId": "UCQhOAJdrHg4VvcPNZoeWqcQ",
+			"VideoOwnerChannelTitle": "ly776 Classic Vinyl"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "BrA66JrI_XM",
+			"VideoPublishedAtRaw": "2016-11-01T22:17:48Z",
+			"VideoPublishedAtDateTimeOffset": "2016-11-01T22:17:48+00:00",
+			"VideoPublishedAt": "2016-11-02T03:47:48+05:30"
+		},
+		"ETag": "BaF6TWgVs1YWuEVQPGr4pOXZc8I",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nLES PR\u00C9LUDES, S. 97\nUSSR State Symphony Orchestra\nEVGENY SVETLANOV, cond.\nRecording: Erkel Theatre, Budapest, 6 April 1970",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 20,
+			"PublishedAtRaw": "2025-08-11T05:01:21Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:01:21+00:00",
+			"PublishedAt": "2025-08-11T10:31:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "BrA66JrI_XM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/BrA66JrI_XM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/BrA66JrI_XM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/BrA66JrI_XM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/BrA66JrI_XM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/BrA66JrI_XM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Les Pr\u00E9ludes - USSR State Symphony Orchestra/Svetlanov (1970)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jbBkx45d-Js",
+			"VideoPublishedAtRaw": "2018-10-13T19:59:47Z",
+			"VideoPublishedAtDateTimeOffset": "2018-10-13T19:59:47+00:00",
+			"VideoPublishedAt": "2018-10-14T01:29:47+05:30"
+		},
+		"ETag": "BSy1G6jsCGR1gbJ6Q9ALQFBwC40",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nORPHEUS, S. 98\nUSSR Ministry of Culture Symphony Orchestra\nMARK ERMLER, conductor\nRecording: 1989",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 21,
+			"PublishedAtRaw": "2025-08-11T05:00:53Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:00:53+00:00",
+			"PublishedAt": "2025-08-11T10:30:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jbBkx45d-Js"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jbBkx45d-Js/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jbBkx45d-Js/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/jbBkx45d-Js/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jbBkx45d-Js/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/jbBkx45d-Js/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Orpheus - USSR Ministry of Culture Symphony Orchestra/Ermler (1989)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "k2uG4C_XNDc",
+			"VideoPublishedAtRaw": "2018-10-13T19:34:23Z",
+			"VideoPublishedAtDateTimeOffset": "2018-10-13T19:34:23+00:00",
+			"VideoPublishedAt": "2018-10-14T01:04:23+05:30"
+		},
+		"ETag": "p-iOMNWGTO8_O6CEsDxJ4qdoexE",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nPROMETHEUS, S. 99\nUSSR Ministry of Culture Symphony Orchestra\nMARK ERMLER, conductor\nRecording: 1989",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 22,
+			"PublishedAtRaw": "2025-08-11T04:59:10Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:59:10+00:00",
+			"PublishedAt": "2025-08-11T10:29:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "k2uG4C_XNDc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/k2uG4C_XNDc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/k2uG4C_XNDc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/k2uG4C_XNDc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/k2uG4C_XNDc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/k2uG4C_XNDc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Prometheus - USSR Ministry of Culture Symphony Orchestra/Ermler (1989)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "HjP7aDnWqdo",
+			"VideoPublishedAtRaw": "2018-09-30T22:26:59Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-30T22:26:59+00:00",
+			"VideoPublishedAt": "2018-10-01T03:56:59+05:30"
+		},
+		"ETag": "PI9BgewXxnb6D1YuWEa6X3eYV5M",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nTASSO, LAMENTO E TRIONFO, S. 96\nUSSR Ministry of Culture Symphony Orchestra\nMARK ERMLER, conductor\nRecording: 1988",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 23,
+			"PublishedAtRaw": "2025-08-11T05:03:16Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:03:16+00:00",
+			"PublishedAt": "2025-08-11T10:33:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "HjP7aDnWqdo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/HjP7aDnWqdo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/HjP7aDnWqdo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/HjP7aDnWqdo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/HjP7aDnWqdo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/HjP7aDnWqdo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Tasso - USSR Ministry of Culture Symphony Orchestra/Ermler (1988)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "cYxdmPxYQbg",
+			"VideoPublishedAtRaw": "2018-10-13T16:07:42Z",
+			"VideoPublishedAtDateTimeOffset": "2018-10-13T16:07:42+00:00",
+			"VideoPublishedAt": "2018-10-13T21:37:42+05:30"
+		},
+		"ETag": "B0w26iP3ImUKmKDG69n9MmCvShE",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nTROIS ODES FUN\u00C8BRES - LES MORTS, S. 112/1\nM\u00E4nnerchor des Rundfunkchores Berlin\nRundfunk-Sinfonieorchester Berlin\nKARL ANTON RICKENBACHER, conductor\nRecording: Saal 1, Funkhaus Nalepastra\u00DFe, Berlin, October 14-20, 1994",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 24,
+			"PublishedAtRaw": "2025-08-11T04:59:17Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:59:17+00:00",
+			"PublishedAt": "2025-08-11T10:29:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "cYxdmPxYQbg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/cYxdmPxYQbg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/cYxdmPxYQbg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/cYxdmPxYQbg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/cYxdmPxYQbg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/cYxdmPxYQbg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Trois Odes fun\u00E8bres - 1. Les morts - Berlin Radio Symphony Orchestra/Rickenbacher (1994)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "srwNZmJfCUY",
+			"VideoPublishedAtRaw": "2014-06-16T09:13:09Z",
+			"VideoPublishedAtDateTimeOffset": "2014-06-16T09:13:09+00:00",
+			"VideoPublishedAt": "2014-06-16T14:43:09+05:30"
+		},
+		"ETag": "IrWQNGMsgkn4tvCHCG5dSlcSZqA",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt: \nUngarische Fantasie \u2219 \n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nBertrand Chamayou, Klavier \u2219\nJ\u00E9r\u00E9mie Rhorer, Dirigent \u2219\n\nAlte Oper Frankfurt, 23. Mai 2014 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 25,
+			"PublishedAtRaw": "2025-08-11T05:07:11Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T05:07:11+00:00",
+			"PublishedAt": "2025-08-11T10:37:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "srwNZmJfCUY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/srwNZmJfCUY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Ungarische Fantasie \u2219 hr-Sinfonieorchester \u2219 Bertrand Chamayou \u2219 J\u00E9r\u00E9mie Rhorer",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DvtRmFSSmJg",
+			"VideoPublishedAtRaw": "2018-09-07T15:33:20Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-07T15:33:20+00:00",
+			"VideoPublishedAt": "2018-09-07T21:03:20+05:30"
+		},
+		"ETag": "f6MHZacM9E2X0TVe3Y1zIXv7X80",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nVON DER WIEGE BIS ZUM GRABE (From the Cradle to the Grave), S. 107\nBBC Scottish Symphony Orchestra\nILAN VOLKOV, conductor\nRecording: Royal Albert Hall, London, July 26, 2017\n\nI. Die Wiege (0:00)\nII. Der Kampf um\u0027s Dasein (5:18)\nIII. Zum Grabe: Die Wiege des zuk\u00FCnftigen Lebens (8:07)",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 26,
+			"PublishedAtRaw": "2025-10-11T14:23:29Z",
+			"PublishedAtDateTimeOffset": "2025-10-11T14:23:29+00:00",
+			"PublishedAt": "2025-10-11T19:53:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DvtRmFSSmJg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/DvtRmFSSmJg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/DvtRmFSSmJg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/DvtRmFSSmJg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/DvtRmFSSmJg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/DvtRmFSSmJg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Von der Wiege bis zum Grabe - BBC Scottish Symphony Orchestra/Volkov (2017)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "MSQYDsO1Bec",
+			"VideoPublishedAtRaw": "2024-04-22T20:22:52Z",
+			"VideoPublishedAtDateTimeOffset": "2024-04-22T20:22:52+00:00",
+			"VideoPublishedAt": "2024-04-23T01:52:52+05:30"
+		},
+		"ETag": "riQMAMNNbq9YKA-neAfIjMUvOh4",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franti\u0161ek Pergler, Absolventsk\u00FD koncert, Symfonick\u00FD orchester Konzervat\u00F3ria v \u017Diline, dir. Bohumil Urban, Dom odborov, 1988",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 27,
+			"PublishedAtRaw": "2025-08-11T04:39:30Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:39:30+00:00",
+			"PublishedAt": "2025-08-11T10:09:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "MSQYDsO1Bec"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/MSQYDsO1Bec/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/MSQYDsO1Bec/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/MSQYDsO1Bec/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/MSQYDsO1Bec/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/MSQYDsO1Bec/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schubert/Liszt: Wanderer Fantasie for Piano \u0026 Orchestra Op.15 (D760) - Franti\u0161ek Pergler, 1988",
+			"VideoOwnerChannelId": "UCE8Esp6tkrIXphNVzPPQyBw",
+			"VideoOwnerChannelTitle": "Franti\u0161ek"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "zhODYOG706s",
+			"VideoPublishedAtRaw": "2025-05-24T11:01:40Z",
+			"VideoPublishedAtDateTimeOffset": "2025-05-24T11:01:40+00:00",
+			"VideoPublishedAt": "2025-05-24T16:31:40+05:30"
+		},
+		"ETag": "QKKGYWSx6zwfWBRqmxnSOYcGNcQ",
+		"Id": "UEwxemdOQ29XdF83YXFDQUlrMDVNRGtNbzhhcVlReXU4VC40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u3010\u30BF\u30AF\u30C6\u30A3\u30AB\u30FC\u30C8\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9 \u7B2C\u4E8C\u56DE\u5B9A\u671F\u6F14\u594F\u4F1A\u3011\n2024\u5E7411\u670820\u65E5\uFF08\u6C34\uFF09\n\u30DF\u30E5\u30FC\u30B6\u5DDD\u5D0E\u30B7\u30F3\u30D5\u30A9\u30CB\u30FC\u30DB\u30FC\u30EB\n\n\u30EA\u30B9\u30C8\uFF1A\u30EC\u30FC\u30CA\u30A6\u306E\u300C\u30D5\u30A1\u30A6\u30B9\u30C8\u300D\u306B\u3088\u308B2\u3064\u306E\u30A8\u30D4\u30BD\u30FC\u30C9\u3088\u308A\u7B2C2\u756A\u300C\u6751\u306E\u5C45\u9152\u5C4B\u3067\u306E\u8E0A\u308A\u300D\uFF08\u30E1\u30D5\u30A3\u30B9\u30C8\u30FB\u30EF\u30EB\u30C4\u7B2C1\u756A\uFF09\nLiszt: Scenes from Lenau\u0027s \u0022Faust\u0022, S.110: The Dance in the Village Inn (1st Mephisto Waltz)\n\n\u51FA\u6F14\n\u6307\u63EE\uFF1A\u5742\u5165 \u5065\u53F8\u90CE\n\u7BA1\u5F26\u697D\uFF1A\u30BF\u30AF\u30C6\u30A3\u30AB\u30FC\u30C8\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\n\n\uFF5C\u30BF\u30AF\u30C6\u30A3\u30AB\u30FC\u30C8\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u3000\u6700\u65B0\u306E\u516C\u6F14\u306E\u304A\u77E5\u3089\u305B\uFF5C\n\n2020\u5E74\u3001\u82E5\u624B\u97F3\u697D\u5BB6\u306B\u3088\u3063\u3066\u7D50\u6210\u3055\u308C\u305F\u300C\u30BF\u30AF\u30C6\u30A3\u30AB\u30FC\u30C8\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u300D\u3002\n\u65D7\u63DA\u3052\u516C\u6F14\u306F\u3001\u30B3\u30ED\u30CA\u798D\u306E\u3055\u306A\u304B\u3001\u3059\u307F\u3060\u30C8\u30EA\u30D5\u30A9\u30CB\u30FC\u30DB\u30FC\u30EB\u5927\u30DB\u30FC\u30EB\u306B\u3066\u958B\u50AC\u3055\u308C\u307E\u3057\u305F\u3002\n\u305D\u306E\u5F8C\u3082\u6D3B\u52D5\u3092\u91CD\u306D\u30012023\u5E74\u306B\u884C\u308F\u308C\u305F\u300C\u5BB6\u65CF\u306E\u305F\u3081\u306E\u30B3\u30F3\u30B5\u30FC\u30C8\u300D\u3067\u306F\u6E80\u5E2D\u306E\u89B3\u5BA2\u306B\u6E29\u304B\u306A\u97F3\u697D\u3092\u5C4A\u3051\u3001\u5927\u76DB\u6CC1\u306E\u3046\u3061\u306B\u7D42\u6F14\u3002\n\n\u305D\u3057\u30662025\u5E74\u2015\u2015\n\u300C\u3059\u307F\u3060\u30D5\u30A1\u30DF\u30EA\u30FC\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB2025\u300D\u3068\u3057\u3066\u3001\u3055\u3089\u306B\u30B9\u30B1\u30FC\u30EB\u30A2\u30C3\u30D7\u3057\u3066\u7686\u69D8\u306E\u3082\u3068\u3078\uFF01\n\u3053\u3053\u3067\u3057\u304B\u4F53\u9A13\u3067\u304D\u306A\u3044\u7279\u5225\u306A\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u3092\u3001\u305C\u3072\u3054\u671F\u5F85\u304F\u3060\u3055\u3044\u3002\n\n\u3010 \u3059\u307F\u3060\u30D5\u30A1\u30DF\u30EA\u30FC\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB2025 \u3011\n\uD83D\uDDD3\uFE0F2025\u5E748\u670810\u65E5(\u65E5)\n\u23F014:30\u958B\u6F14  13:30\u958B\u5834\n\uD83D\uDCCD\u3059\u307F\u3060\u30C8\u30EA\u30D5\u30A9\u30CB\u30FC\u30DB\u30FC\u30EB \u5927\u30DB\u30FC\u30EB\n\n\uD83C\uDFBB\u51FA\u6F14\n\u3000\u30BF\u30AF\u30C6\u30A3\u30AB\u30FC\u30C8\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\n\u3000\u5CA1\u672C\u9678\uFF08\u6307\u63EE)\n\u3000\u9AD8\u677E\u4E9C\u8863\uFF08\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3)\n\u3000\u6839\u5C3E\u79CB\u4E43\uFF08MC\uFF09\n\n\uD83D\uDCD6\u30D7\u30ED\u30B0\u30E9\u30E0\n\u3000\u610F\u5916\u3068\u77E5\u3063\u3066\u308B? \u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u30E1\u30C9\u30EC\u30FC \n\u3000\u53EF\u611B\u3044\u5927\u7206\u767A\u30E1\u30C9\u30EC\u30FC\n\u3000\u30D6\u30E9\u30FC\u30E0\u30B9:\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u5354\u594F\u66F2 \u7B2C3\u697D\u7AE0 \n\u3000\u30E2\u30F3\u30C6\u30A3:\u30C1\u30E3\u30EB\u30C0\u30C3\u30B7\u30E5 \n\u3000\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3:\u4EA4\u97FF\u66F2\u7B2C7\u756A \u7B2C1\u697D\u7AE0\u30FB\u7B2C4\u697D\u7AE0\n\n\uD83C\uDFAB\u8A73\u7D30\u30FB\u30C1\u30B1\u30C3\u30C8\u306F\u3053\u3061\u3089\u304B\u3089\u25BD\n\u3000https://teket.jp/5288/52220\n\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\n\n\u25BD\u516C\u6F14\u30A2\u30FC\u30AB\u30A4\u30D6\u60C5\u5831\u306F\u3053\u3061\u3089\nhttps://www.tacticart-orchestra.com/concert\n\n\u26AA\uFE0E Web Site\nhttps://www.tacticart-orchestra.com\n\n\u26AA\uFE0E X\uFF08Twitter\uFF09\nhttps://twitter.com/tacticart_orch\n\n\u26AA\uFE0E Instagram\nhttps://www.instagram.com/tacticart_orch\n\n\u26AA\uFE0E \u516C\u5F0FLINE\nhttps://t.co/qbjTtz6V2b\n\n\u26AA\uFE0E\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u3078\u306E\u3054\u4F9D\u983C\u306F\u3053\u3061\u3089\nhttps://www.tacticart-orchestra.com/contact\n\n\u26AA\uFE0E\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u3078\u306E\u30B5\u30DD\u30FC\u30C8\u30FB\u3054\u652F\u63F4\nhttps://www.tacticart-orchestra.com/support\n\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\nContact: orchestra@tacticart.co.jp\n\n#\u30BF\u30AF\u30C6\u30A3\u30AB\u30FC\u30C8\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9 \uFF03\u30BF\u30AF\u30C6\u30A3\u30AA\u30B1",
+			"PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
+			"Position": 28,
+			"PublishedAtRaw": "2025-08-11T04:44:02Z",
+			"PublishedAtDateTimeOffset": "2025-08-11T04:44:02+00:00",
+			"PublishedAt": "2025-08-11T10:14:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zhODYOG706s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zhODYOG706s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zhODYOG706s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/zhODYOG706s/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zhODYOG706s/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/zhODYOG706s/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "\u30EA\u30B9\u30C8\uFF1A\u30E1\u30D5\u30A3\u30B9\u30C8\u30FB\u30EF\u30EB\u30C4 \u7B2C1\u756A\uFF5CLiszt: Scenes from Lenau\u0027s Faust, S.110: The Dance in the Village Inn",
+			"VideoOwnerChannelId": "UCcM1x31zkNEyCFLpnlvqRqA",
+			"VideoOwnerChannelTitle": "\u30BF\u30AF\u30C6\u30A3\u30AB\u30FC\u30C8\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9 / Japan Pops Orchestra"
+		}
+	}
+]

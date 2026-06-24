@@ -1,0 +1,3212 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "r8JtF1ia3vE",
+			"VideoPublishedAtRaw": "2022-06-30T22:39:24Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-30T22:39:24+00:00",
+			"VideoPublishedAt": "2022-07-01T04:09:24+05:30"
+		},
+		"ETag": "5Cpr2yrz898foERUypouT80x9UI",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 0,
+			"PublishedAtRaw": "2024-12-12T23:17:05Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:17:05+00:00",
+			"PublishedAt": "2024-12-13T04:47:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "r8JtF1ia3vE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/r8JtF1ia3vE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/r8JtF1ia3vE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/r8JtF1ia3vE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/r8JtF1ia3vE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven - Symphony no.9 op.125 - Sinopoli G.,RAI,Marc,Titus,Runkel,Lakes -March 24th,1996- Torino",
+			"VideoOwnerChannelId": "UC8tVpbdyYB21cw76Kv1_ZXg",
+			"VideoOwnerChannelTitle": "Luca Chierici"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "b6aax5Bdd4I",
+			"VideoPublishedAtRaw": "2024-02-05T15:26:36Z",
+			"VideoPublishedAtDateTimeOffset": "2024-02-05T15:26:36+00:00",
+			"VideoPublishedAt": "2024-02-05T20:56:36+05:30"
+		},
+		"ETag": "Y9x7WcPYTk-jIvf8QM1YuMGWF8c",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Beethoven : Missa Solemnis\n1. Kyrie   00:00\n2. Gloria   09:37\n3. Credo   27:27\n4. Sanctus~Benidictus   49:12\n5. Agnus Dei   1:05:22\nGiuseppe Sinopoli / Tokyo Philharmonic Symphony orchestra\nSop) Cheryl Studer     Alt) Trudeliese Schmidt\nTen) William Pell     Bas) Hans Sotin\nCho) Shin-yukai Chorus ( chorus master : Shin Sekiya )\n15/9/1989 Tokyo Orchard Hall  live recording\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u30DF\u30B5\u30FB\u30BD\u30EC\u30E0\u30CB\u30B9\n\u30B8\u30E5\u30BC\u30C3\u30DA\u30FB\u30B7\u30CE\u30FC\u30DD\u30EA\u6307\u63EE\u3000\u6771\u4EAC\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u4EA4\u97FF\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30B7\u30A7\u30EA\u30EB\u30FB\u30B9\u30C6\u30E5\u30FC\u30C0\u30FC\u3000\u30A2\u30EB\u30C8\uFF09\u30C8\u30EB\u30C7\u30EA\u30FC\u30BC\u30FB\u30B7\u30E5\u30DF\u30C3\u30C8\n\u30C6\u30CE\u30FC\u30EB\uFF09\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30DA\u30EB\u3000\u3000\u30D0\u30B9\uFF09\u30CF\u30F3\u30B9\u30FB\u30BE\u30FC\u30C6\u30A3\u30F3\n\u5408\u5531\uFF09\u664B\u53CB\u4F1A\u5408\u5531\u56E3\uFF08\u5408\u5531\u6307\u63EE\uFF1A\u95A2\u5C4B\u664B\uFF09\n1989\u5E749\u670815\u65E5\u3000\u6771\u4EAC\u30FB\u30AA\u30FC\u30C1\u30E3\u30FC\u30C9\u30FB\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6E0B\u8C37\u306E\u30AA\u30FC\u30C1\u30E3\u30FC\u30C9\u30DB\u30FC\u30EB\u958B\u9928\u8A18\u5FF5\u516C\u6F14\u3002\u3053\u306E\u30DB\u30FC\u30EB\u3068\u30D5\u30E9\u30F3\u30C1\u30E3\u30A4\u30BA\u5951\u7D04\u3092\u7D50\u3093\u3060\u6771\u4EAC\u30D5\u30A3\u30EB\u304C\u30B7\u30CE\u30FC\u30DD\u30EA\u3092\u62DB\u304D\u307E\u3057\u305F\u3002",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 1,
+			"PublishedAtRaw": "2024-12-12T23:10:08Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:10:08+00:00",
+			"PublishedAt": "2024-12-13T04:40:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "b6aax5Bdd4I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/b6aax5Bdd4I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/b6aax5Bdd4I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/b6aax5Bdd4I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/b6aax5Bdd4I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven : Missa Solemnis   G.Sinopoli live in Tokyo 1989",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xOwst-NWTn8",
+			"VideoPublishedAtRaw": "2023-08-09T08:54:11Z",
+			"VideoPublishedAtDateTimeOffset": "2023-08-09T08:54:11+00:00",
+			"VideoPublishedAt": "2023-08-09T14:24:11+05:30"
+		},
+		"ETag": "7blkE3d9nJ8N0jctd6YpQZGXvj4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ludwig van Beethoven \nSinfonie Nr 9 in d-Moll op. 125, An die Freude\nSymphony No 9 in D minor Op 125, Choral Symphony\nOde to Joy Ode an die Freude, Ode \u00E0 la joie Inno alla Gioia Oda a la alegr\u00EDa, \u980C\u6B4C\u559C\u3073\u3078\nGiuseppe Sinopoli conducts Dresdner Staatskapelle\n1.Allegro ma non troppo, un poco maestoso 0:00\n2.Scherzo 16:40\n3.Adagio molto e cantabile 29:30\n4.Presto -- Allegro ma non troppo -- Vivace -- Adagio cantabile -- Allegro assai 46:02\n5.O Freunde -- Ode to Joy 53:40",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 2,
+			"PublishedAtRaw": "2024-12-12T23:14:25Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:14:25+00:00",
+			"PublishedAt": "2024-12-13T04:44:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xOwst-NWTn8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xOwst-NWTn8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xOwst-NWTn8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/xOwst-NWTn8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xOwst-NWTn8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xOwst-NWTn8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Symphony No 9 in D minor \u201EAn die Freude\u201C \u201EOde to Joy\u201C Giuseppe Sinopoli Dresdner Staatskap",
+			"VideoOwnerChannelId": "UCQwyyt7opyeMiBnEFgxJXPA",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Beethoven"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xNtgjGqhPbg",
+			"VideoPublishedAtRaw": "2020-05-24T12:48:06Z",
+			"VideoPublishedAtDateTimeOffset": "2020-05-24T12:48:06+00:00",
+			"VideoPublishedAt": "2020-05-24T18:18:06+05:30"
+		},
+		"ETag": "RxB8Y1ykhHx12q9wJl2w8jy4OZs",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ludwig van Beethoven, Symphony No. 9 in D minor, Op. 125\n\nGiuseppe Sinopoli, conductor\n\nLuciana Serra, soprano\nGuillemette Laurens, mezzosoprano \nJon Villars, tenor\nEike Wilm Schulte, baritone\n\nRolf Beck, choirmaster\nChoir of Bamberger Symphoniker\nRAI National Symphony Orchestra\nRome, Italy (31/12/1999)",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 3,
+			"PublishedAtRaw": "2024-12-12T23:13:56Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:13:56+00:00",
+			"PublishedAt": "2024-12-13T04:43:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xNtgjGqhPbg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xNtgjGqhPbg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xNtgjGqhPbg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xNtgjGqhPbg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xNtgjGqhPbg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven \u2013 Symphony No. 9 \u2013 Giuseppe Sinopoli (31/12/1999)",
+			"VideoOwnerChannelId": "UCR6uh3tYZugnt-trhmu1RpA",
+			"VideoOwnerChannelTitle": "opera-2nd"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "56RRcUVCTBU",
+			"VideoPublishedAtRaw": "2023-05-07T12:48:20Z",
+			"VideoPublishedAtDateTimeOffset": "2023-05-07T12:48:20+00:00",
+			"VideoPublishedAt": "2023-05-07T18:18:20+05:30"
+		},
+		"ETag": "zB6Z_JzAPXI9b5vb-vpCQG-hI4E",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms \nSinfonie nr 4 in e-Moll \nSymphony no 4, in E minor\nGiuseppe Sinopoli, Orchestra Sinfonica Nazionale della RAI (remastered)\n00:00 Allegro non troppo (E minor)\n11:50 Andante moderato (E minor \u2013 E major)\n22:21 Allegro giocoso (C major)\n28:33 Allegro energico e passionato (E minor)",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 4,
+			"PublishedAtRaw": "2024-12-12T23:14:43Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:14:43+00:00",
+			"PublishedAt": "2024-12-13T04:44:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "56RRcUVCTBU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/56RRcUVCTBU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/56RRcUVCTBU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/56RRcUVCTBU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/56RRcUVCTBU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/56RRcUVCTBU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms Sinfonie nr 4 in e-Moll Giuseppe Sinopoli Orchestra Sinfonica Nazionale RAI (remastered)",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vXkZWBUKRKw",
+			"VideoPublishedAtRaw": "2022-01-17T23:26:37Z",
+			"VideoPublishedAtDateTimeOffset": "2022-01-17T23:26:37+00:00",
+			"VideoPublishedAt": "2022-01-18T04:56:37+05:30"
+		},
+		"ETag": "IFLOGFv0AFmDIqQucpk5hi2W8BE",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton Bruckner - Symphony No. 4 in E-flat major \u2018Romantic\u2019, WAB 104 (1886 (aka 1878/80) - Ed. Leopold Nowak [1953])\n0:28 Bewegt, nicht zu schnell (With motion, not too fast)\n21:07 Andante, quasi allegretto\n38:22 Scherzo: Bewegt (With motion) \u2013 Trio: Nicht zu schnell (Not too fast) \n49:19 Finale: Bewegt, doch nicht zu schnell (With motion, but not too fast)\n\nPhilharmonia Orchestra conducted by Giuseppe Sinopoli\nLive recording: 16 September 1988, Suntory Hall, Tokyo",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 5,
+			"PublishedAtRaw": "2024-12-12T23:19:11Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:19:11+00:00",
+			"PublishedAt": "2024-12-13T04:49:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vXkZWBUKRKw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vXkZWBUKRKw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vXkZWBUKRKw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vXkZWBUKRKw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vXkZWBUKRKw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vXkZWBUKRKw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner - Symphony No 4 \u2018Romantic\u2019 - Sinopoli, Philharmonia Orchestra (1988)",
+			"VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
+			"VideoOwnerChannelTitle": "1Furtwangler"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "n52aQDLVTkY",
+			"VideoPublishedAtRaw": "2021-08-12T09:53:18Z",
+			"VideoPublishedAtDateTimeOffset": "2021-08-12T09:53:18+00:00",
+			"VideoPublishedAt": "2021-08-12T15:23:18+05:30"
+		},
+		"ETag": "gveZ-gEYjXFvSiv-H1MB08waJR0",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 6,
+			"PublishedAtRaw": "2024-12-12T23:20:00Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:20:00+00:00",
+			"PublishedAt": "2024-12-13T04:50:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "n52aQDLVTkY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/n52aQDLVTkY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/n52aQDLVTkY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/n52aQDLVTkY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/n52aQDLVTkY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner - Symphony no.7 - Sinopoli G ,Staatskapelle Dresden - Apr.26th,1993-Scala (rec.L.Chierici)",
+			"VideoOwnerChannelId": "UC8tVpbdyYB21cw76Kv1_ZXg",
+			"VideoOwnerChannelTitle": "Luca Chierici"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7zYLKIt19N8",
+			"VideoPublishedAtRaw": "2015-12-25T17:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2015-12-25T17:00:01+00:00",
+			"VideoPublishedAt": "2015-12-25T22:30:01+05:30"
+		},
+		"ETag": "E9UFbVis9WhFrzUWRlSGpZN5Y80",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5ENjI1QUI0MDI5NEQzODFE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gala Concert commemorating the 450 Years of the S\u00E4chsische Staatskapelle Dresden at the Semperoper Dresden\n\nGiuseppe Sinopoli - conductor\nS\u00E4chsische Staatskapelle Dresden\n\nCarl Maria von Weber - Jubel Ouverture, Op. 59\n\nWatch the full concert: http://www.youtube.com/watch?v=afl6ukVpcIM\u0026list=PLBjoEdEVMABI91u_7tFaCnxrx_QzeUAQO\n\nThe Staatskapelle Dresden has been founded in 1548 by Kurf\u00FCrst Moritz of Saxony. It is one of the world\u0027s oldest orchestras. The precursor ensemble was Die Kurf\u00FCrstlich-S\u00E4chsische und K\u00F6niglich-Polnische Kapelle (The Saxony Elector and Royal Polish Band). The orchestra is the musical body of the S\u00E4chsische Staatsoper (Saxon State Opera). Venue of the orchestra is the Semperoper opera house.\nhttps://en.wikipedia.org/wiki/Staatskapelle_Dresden",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 7,
+			"PublishedAtRaw": "2025-02-04T17:46:36Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:46:36+00:00",
+			"PublishedAt": "2025-02-04T23:16:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7zYLKIt19N8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7zYLKIt19N8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7zYLKIt19N8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/7zYLKIt19N8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7zYLKIt19N8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7zYLKIt19N8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Carl Maria von Weber - Jubel Ouverture, Op. 59 (Giuseppe Sinopoli \u0026 S\u00E4chsische Staatskapelle)",
+			"VideoOwnerChannelId": "UCt7SG8q4GUDMLfbkViwkWLQ",
+			"VideoOwnerChannelTitle": "EuroArtsChannel"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "2n-R1woNOEc",
+			"VideoPublishedAtRaw": "2025-01-04T18:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2025-01-04T18:00:01+00:00",
+			"VideoPublishedAt": "2025-01-04T23:30:01+05:30"
+		},
+		"ETag": "ucEeRbLlvBrPbr8ut_qkPsF1pYA",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5CNTcxMDQ0NThBNzMxODYz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "From the Philharmony Berlin:\nThe Berlin Philharmonic Orchestra performs Cavalleria rusticana: Intermezzo.\n\nExcerpt from \u0022Gala from Berlin 2022\u0022.\n\n#Cavalleriarusticana #Gala #2022 #concert #Berlin\n\n------- \nSubscribe to wocomoMUSIC: https://goo.gl/ahZRzC\nFollow us on Facebook: http://www.facebook.com/wocomo\n\n----------\n\nPietro Mascagni - Cavalleria rusticana: Intermezzo\n\nAs the year draws to a close, the Berliner Philharmoniker and principal conductor Kirill Petrenko present a rousing Italian and Russian programme with tenor Jonas Kaufmann as star guest.\nSonorous foundation, radiant high notes, intelligent shaping: all this makes him a leading singer worldwide. Other works of the program include famous preludes from Italian opera, Piotr Tchaikovsky\u2018s rapturous Capriccio Italien and the most beautiful numbers from Sergei Prokofiev\u2018s ballet Romeo and Juliet with its blend of brilliance and striking expressiveness.\n\nBerlin Philharmonic Orchestra\nKirill Petrenko - Conductor\nJonas Kaufmann - Solist\n\n\n\u00A92022, EuroArts\n\n------- \n\nHigh-quality music concerts, performances and documentaries \u2013 in areas such as classical, jazz, ballet, modern dance, rock and pop. WocomoMUSIC \u2013 music for grown-ups!\n\nCheck out our other channels to watch high-quality documentaries:\n\u25B7 wocomoCULTURE: https://www.youtube.com/@wocomoCULTURE\n\u25B7 wocomoFRAN\u00C7AIS: https://www.youtube.com/@wocomoFRAN\u00C7AIS\n\u25B7 wocomoHUMANITY: https://www.youtube.com/@wocomoHUMANITY\n\u25B7 wocomoHISTORY: https://www.youtube.com/@wocomoHISTORY\n\nWocomoMUSIC is part of the Wocomo channel network by NIKITA VENTURES. Wocomo - wonderful content in motion.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 8,
+			"PublishedAtRaw": "2025-02-04T17:55:10Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:55:10+00:00",
+			"PublishedAt": "2025-02-04T23:25:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "2n-R1woNOEc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/2n-R1woNOEc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/2n-R1woNOEc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/2n-R1woNOEc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/2n-R1woNOEc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/2n-R1woNOEc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Cavalleria rusticana Intermezzo - Pietro Mascagni | Gala from Berlin 2022",
+			"VideoOwnerChannelId": "UCyBVuk3_ZHcEQn-rVBUYkzQ",
+			"VideoOwnerChannelTitle": "wocomoMUSIC"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7mMjbgv7EIc",
+			"VideoPublishedAtRaw": "2023-03-13T13:00:04Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-13T13:00:04+00:00",
+			"VideoPublishedAt": "2023-03-13T18:30:04+05:30"
+		},
+		"ETag": "cUlHNDyVS9hjdt7dSDL_JYXLT7E",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dieter Schnebel   Schubert Fantasy (Piano Sonata D894)\n\n( Live recording.  14.1.1983  Berlin )\n\n\n\n\n\n*. source : refine classic cd-r\n*. g. sinopoli              berlin philharmonic",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 9,
+			"PublishedAtRaw": "2024-12-12T23:15:26Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:15:26+00:00",
+			"PublishedAt": "2024-12-13T04:45:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7mMjbgv7EIc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7mMjbgv7EIc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7mMjbgv7EIc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7mMjbgv7EIc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7mMjbgv7EIc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "D. Schnebel  Schubert fantasy ( g. sinopoli )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KDkXee0CAtk",
+			"VideoPublishedAtRaw": "2017-12-11T15:29:19Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-11T15:29:19+00:00",
+			"VideoPublishedAt": "2017-12-11T20:59:19+05:30"
+		},
+		"ETag": "x06y4PA0ZZyCFu8Cp-JI2mJ8Dc4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS41NTZEOThBNThFOUVGQkVB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u0022Erfahrungen\u0022 per 13 strumenti soliste (1968)\n\n\u0022Erfahrungen (Experiences)\u0022 for 13 instrumental soloists (1968)\n\nOrchestra Roma Sinfonietta, conducted by Karl Martin\n\nrecorded in Rome, Universit\u00E0 degli Studi di Roma \u0022Tor Vergata\u0022 (January 21, 2004)",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 10,
+			"PublishedAtRaw": "2025-02-04T17:48:57Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:48:57+00:00",
+			"PublishedAt": "2025-02-04T23:18:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KDkXee0CAtk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KDkXee0CAtk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KDkXee0CAtk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KDkXee0CAtk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/KDkXee0CAtk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Giuseppe Sinopoli (1946-2001): Erfahrungen (1968)",
+			"VideoOwnerChannelId": "UCED_RHSNj8Hjhbk16T3V-Fw",
+			"VideoOwnerChannelTitle": "Thorsten Gubatz"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "NRvPqTffADA",
+			"VideoPublishedAtRaw": "2017-12-11T15:42:03Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-11T15:42:03+00:00",
+			"VideoPublishedAt": "2017-12-11T21:12:03+05:30"
+		},
+		"ETag": "S38Mn0zb1IzHEJHjHoo2B9I0ErA",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS42MTI4Njc2QjM1RjU1MjlG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u0022Kammerkonzert\u0022 per pianoforte solista, fiati, arpa, celesta/clavicembalo e quattro percussionisti (1977-1978)\n\n\u0022Kammerkonzert (Chamber concerto)\u0022 for solo piano, winds, harp, celesta/harpsichord and four percussionists (1977-1978)\n\nAlain Plan\u00E8s - Ensemble InterContemporain, conducted by the composer\n\nrecorded in Paris, Th\u00E9\u00E2tre de la Ville (March 2, 1981)\n\nthe photo (by Marcel Fug\u00E8re) shows Giuseppe Sinopoli (r.) with composer Sylvano Bussotti in Hamburg 1977/1978 - NOT being held at gunpoint by a \u0022Brigate Rosse\u0022 terrorist",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 11,
+			"PublishedAtRaw": "2024-12-13T00:22:00Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:22:00+00:00",
+			"PublishedAt": "2024-12-13T05:52:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "NRvPqTffADA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/NRvPqTffADA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/NRvPqTffADA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/NRvPqTffADA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/NRvPqTffADA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Giuseppe Sinopoli (1946-2001): Kammerkonzert (1977-1978)",
+			"VideoOwnerChannelId": "UCED_RHSNj8Hjhbk16T3V-Fw",
+			"VideoOwnerChannelTitle": "Thorsten Gubatz"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "n7EloQ-UAZA",
+			"VideoPublishedAtRaw": "2017-12-11T15:29:25Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-11T15:29:25+00:00",
+			"VideoPublishedAt": "2017-12-11T20:59:25+05:30"
+		},
+		"ETag": "wLxavjS12b-qI8VY-yeeIuBpZtQ",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS45RjNFMDhGQ0Q2RkFCQTc1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u0022Tombeau d\u0027Armor I\u0022 for large orchestra (1975)\n\nSWF-Sinfonieorchester (Southwest German Radio Symphony Orchestra) Baden-Baden, conducted by Ernest Bour\n\nrecording of the first performance (Donaueschingen, October 19, 1975)\n\nimage: Salvador Dal\u00ED, \u0022Les amours jaunes\u0022 de Tristan Corbi\u00E8re (1974)",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 12,
+			"PublishedAtRaw": "2024-12-13T00:22:04Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:22:04+00:00",
+			"PublishedAt": "2024-12-13T05:52:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "n7EloQ-UAZA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/n7EloQ-UAZA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/n7EloQ-UAZA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/n7EloQ-UAZA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/n7EloQ-UAZA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Giuseppe Sinopoli (1946-2001): Tombeau d\u0027Armor I (1975)",
+			"VideoOwnerChannelId": "UCED_RHSNj8Hjhbk16T3V-Fw",
+			"VideoOwnerChannelTitle": "Thorsten Gubatz"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "SNmGYRO1h-c",
+			"VideoPublishedAtRaw": "2017-12-27T23:10:56Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-27T23:10:56+00:00",
+			"VideoPublishedAt": "2017-12-28T04:40:56+05:30"
+		},
+		"ETag": "wT7RERmmLHmqZOyFILE1by84yb8",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS43NERCMDIzQzFBMERCMEE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u0022Tombeau d\u0027Armor II\u0022 for large orchestra (1977)\n\nOrkiestra Polskiego Radia i Telewizji w Krakowie (Polish Radio and Television Orchestra Krak\u00F3w), conducted by the composer\n\nrecording of the first performance (Grazer Congress, Stefaniensaal, October 15, 1977)",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 13,
+			"PublishedAtRaw": "2025-02-04T17:49:07Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:49:07+00:00",
+			"PublishedAt": "2025-02-04T23:19:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "SNmGYRO1h-c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/SNmGYRO1h-c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/SNmGYRO1h-c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/SNmGYRO1h-c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/SNmGYRO1h-c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Giuseppe Sinopoli (1946-2001): Tombeau d\u0027Armor II (1977)",
+			"VideoOwnerChannelId": "UCED_RHSNj8Hjhbk16T3V-Fw",
+			"VideoOwnerChannelTitle": "Thorsten Gubatz"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0r1HivoxEEw",
+			"VideoPublishedAtRaw": "2020-06-03T19:23:37Z",
+			"VideoPublishedAtDateTimeOffset": "2020-06-03T19:23:37+00:00",
+			"VideoPublishedAt": "2020-06-04T00:53:37+05:30"
+		},
+		"ETag": "4pOX0dU46s740Tkb2Yt-8YWS_9w",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Klavierkonzert (1974)\n\nK\u00E4te Wittlich - NDR-Sinfonieorchester (North German Radio Orchestra) Hamburg, conducted by the composer\n\nOrganico\n4 (II e IV anche Ott., III anche Fl. in Sol e Ott.). 4 (IV anche Cor. i.). 4 (IV anche Cl. b.). 4 (IV anche Cfg.) / 6.4.3.1. / 3 Tp. Perc. 2 Vibr. Mar. Xf. Cel. Cemb. A. / Archi\n\nPrima esecuzione\nMilano, 28 febbraio 1975 \u2013 Orchestra Sinfonica della Rai di Milano, K\u00E4te Wittlich pianoforte, Giampiero Taverna direttore\n\nDurata: 20\u2019\n\nEdito da Ricordi (partitura n. 132319)\n\nAltre esecuzioni\n\u2013 Amburgo (Germania), 8/4/1990, pianista Silvia Cappellini Giuseppe Sinopoli direttore.\n\u2013 Citt\u00E0 del Messico (Messico), Sala Nezahualcoyotl, 30/11/2002 Orquesta Filarmonica de la Unam, Silvia Cappellini pianoforte, Oleg Caetani direttore.\n\nNote dell\u2019autore\nNote su Klavierkonzert\nIl \u201CKLAVIERKONZERT\u201D ebbe il suo inizio nel agosto del 1974 a Neumarkt a.d. Raab ai confini con l\u2019Ungheria e fu condotto a termine l\u2019ultimo giorno dello stesso anno ad Eisenpass nella Stiria.\nDeve il suo titolo alla ragione che il pianoforte da una parte fornisce le matrici fondamentali di tutti i parametri in gioco per le strutture affidate all\u2019orchestra, dall\u2019altra alla natura prettamente \u201Cpianistica\u201D dell\u2019elaborazione che i materiali iniziali del pianoforte subiscono. Si trattava per me di fare la radiografia di un \u201Cpianismo\u201D ormai sedimentato, ci si riferisce a quello vertiginoso di inizio secolo, labilissimo, ossessivo e nevrotico, realizzandone quelle premesse di instabile equilibrio del \u201Cmusicale\u201D portandolo in consonanza con quelle allucinazioni del passato che oggi particolarmente mi determinano \u201C\u2026 un passato inconsumato, nell\u2019estrema lontananza di un forse d\u2019eccezione\u2026\u201D (N.Blanchot). Un ribaltamento del razionale, condotto alle sue soglie pi\u00F9 liminari, nell\u2019irrazionalismo pi\u00F9 privato e pericoloso. L\u2019ottimismo di questi ultimi vent\u2019anni, prodotto del pi\u00F9 acritico consumismo borghese, si era rifratto nelle avanguardie con la raffica da \u2018rimozione\u2019 di spersonificazioni alla moda: l\u2019eliminazione del soggetto nella gretta produzione di consumo coincideva con l\u2019altarizzazione, nelle arti, della sua morte. Non ci si riferisce naturalmente al soggetto canterino da baraccone di provincia culturale, n\u00E8 a quella bella dissolvenza dell\u2019operetta viennese forse davvero unico spengimento dell\u2019IO, in un vertiginoso marionettismo cristallizzato. Si sente il richiamo di un IO onirico, circolare, estremamente lontano, depositato in stratificazioni remote della storia personale, che tenta talora audaci e pericolosissimi dissepellimenti.\n\n../..\n\nIl lavoro \u00E8 diviso in due parti, di cui la seconda reca come motto all\u2019inizio la sola parola \u201Cadagio\u201D. Gli ossessivi sbalzi timbrici e dinamici della prima parte cedono qui il posto ad allagamenti altre volte a me impensabili.\nQuesto basti a trarre, con certe premesse, l\u2019ascoltatore di fronte ad un lavoro che, come sempre avendo origini altrove, deve all\u2019ascolto ragioni e conferme fondamentali.\n\nGiuseppe Sinopoli\n\nBDCI: http://www.cidim.it/cidim/content/314619?db=bdci\u0026id=242384\nVideo realizzato nell\u0027ambito del progetto CMAC Italy Composer \u0026 Musicians from Italy  -20th Century composers",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 14,
+			"PublishedAtRaw": "2024-12-12T23:21:17Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:21:17+00:00",
+			"PublishedAt": "2024-12-13T04:51:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0r1HivoxEEw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0r1HivoxEEw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0r1HivoxEEw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/0r1HivoxEEw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0r1HivoxEEw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0r1HivoxEEw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Giuseppe Sinopoli - Piano Concerto - CmacItaly",
+			"VideoOwnerChannelId": "UCBNFKHtfZv25teeW1yPxvEw",
+			"VideoOwnerChannelTitle": "Contemporary Music Area Channel Italy"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "bTupkUIBjls",
+			"VideoPublishedAtRaw": "2017-06-01T02:08:05Z",
+			"VideoPublishedAtDateTimeOffset": "2017-06-01T02:08:05+00:00",
+			"VideoPublishedAt": "2017-06-01T07:38:05+05:30"
+		},
+		"ETag": "8AlY_c5gbS42TnR-Jw7lML9Ldu0",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS40QTA3NTU2RkM1QzlCMzYx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "S\u00E4chsische Staatskapelle Dresden Giuseppe Sinopoli 1999 LIVE.\r\n\r\nGiuseppe Sinopoli Day of Death Memory (\u002B20.4.2001) Adagietto from SYMPHONY NO.5 by Gustav Mahler S\u00E4chsische Staatskapelle Dresden Giuseppe .\r\n\r\nFourth movement: Adagietto. Sehr langsam - Mahler Symphony no.5 : Giuseppe Sinopoli/ Philharmonia Orchestra.\r\n\r\n\r\n\r\nKlaus Tennstedt London Philharmonic Orchestra 1984 LIVE.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 15,
+			"PublishedAtRaw": "2024-12-13T00:22:18Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:22:18+00:00",
+			"PublishedAt": "2024-12-13T05:52:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "bTupkUIBjls"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/bTupkUIBjls/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/bTupkUIBjls/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/bTupkUIBjls/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/bTupkUIBjls/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Giuseppe Sinopoli Day of Death Memory (\u002B20.4.2001)",
+			"VideoOwnerChannelId": "UCtj0GxSt63YsSGrRcpEk0cA",
+			"VideoOwnerChannelTitle": "Robert Castro"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZJNw-hI76aM",
+			"VideoPublishedAtRaw": "2022-01-18T02:08:35Z",
+			"VideoPublishedAtDateTimeOffset": "2022-01-18T02:08:35+00:00",
+			"VideoPublishedAt": "2022-01-18T07:38:35+05:30"
+		},
+		"ETag": "stmkN6ja5ZhEqqFrIgY5hcWNz-M",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4wNEU1MTI4NkZEMzVBN0JF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00 Interview with Giuseppe Sinopoli - German, with Japanese overdub\n6:30 Richard Strauss - Tod und Verkl\u00E4rung (Death and Transfiguration), Op. 24, TrV 158 (ending)\nPhilharmonia Orchestra conducted by Giuseppe Sinopoli\nLive recording: c. 1988, Suntory Hall, Tokyo",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 16,
+			"PublishedAtRaw": "2025-02-04T17:53:31Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:53:31+00:00",
+			"PublishedAt": "2025-02-04T23:23:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZJNw-hI76aM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZJNw-hI76aM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZJNw-hI76aM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZJNw-hI76aM/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Giuseppe Sinopoli interview \u0026 R Strauss - Death and Transfiguration with Philharmonia Orchestra",
+			"VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
+			"VideoOwnerChannelTitle": "1Furtwangler"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Q5wbXKvNEg4",
+			"VideoPublishedAtRaw": "2019-08-15T16:53:41Z",
+			"VideoPublishedAtDateTimeOffset": "2019-08-15T16:53:41+00:00",
+			"VideoPublishedAt": "2019-08-15T22:23:41+05:30"
+		},
+		"ETag": "Xv4idDmWYY7adkg0if_vgYob66A",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Giuseppe SINOPOLI (1946-2001)\nPiano Concerto  (1974-76)\nK\u00E4te Wittlich, piano\nSinfonieorchester des NDR / Giuseppe Sinopoli\nLive performance",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 17,
+			"PublishedAtRaw": "2024-12-12T23:24:46Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:24:46+00:00",
+			"PublishedAt": "2024-12-13T04:54:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Q5wbXKvNEg4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Q5wbXKvNEg4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Q5wbXKvNEg4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Q5wbXKvNEg4/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Giuseppe Sinopoli Piano Concerto",
+			"VideoOwnerChannelId": "UCFcPBGPW6kTmZof6ucFIbOQ",
+			"VideoOwnerChannelTitle": "Remus Platen"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "yb52K2xRbzc",
+			"VideoPublishedAtRaw": "2020-10-27T10:35:19Z",
+			"VideoPublishedAtDateTimeOffset": "2020-10-27T10:35:19+00:00",
+			"VideoPublishedAt": "2020-10-27T16:05:19+05:30"
+		},
+		"ETag": "A0sF97P_vEY23t89ffjq4ghvMtA",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Festkonzert 450 Jahre Staatskapelle Dresden, September 1998.\nDirigent/ Conductor Guiseppe Sinopoli",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 18,
+			"PublishedAtRaw": "2024-12-12T23:20:37Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:20:37+00:00",
+			"PublishedAt": "2024-12-13T04:50:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "yb52K2xRbzc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/yb52K2xRbzc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/yb52K2xRbzc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/yb52K2xRbzc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Guiseppe Sinopoli-Wolfgang Rihm-Vers une Symphonie fleuve IV, DVD Lost Version",
+			"VideoOwnerChannelId": "UCrvpdAH2GUEP5cDq84jvysg",
+			"VideoOwnerChannelTitle": "Judith Christiana Panther"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3fAvwoBIidI",
+			"VideoPublishedAtRaw": "2019-07-14T14:27:00Z",
+			"VideoPublishedAtDateTimeOffset": "2019-07-14T14:27:00+00:00",
+			"VideoPublishedAt": "2019-07-14T19:57:00+05:30"
+		},
+		"ETag": "55-HV4eaLMKOvqR4NusFTGYKXTw",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Joseph Haydn \nSymphony No 102 B Flat Major \nGiuseppe Sinopoli Philharmonia Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 19,
+			"PublishedAtRaw": "2024-12-12T23:24:53Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:24:53+00:00",
+			"PublishedAt": "2024-12-13T04:54:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3fAvwoBIidI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3fAvwoBIidI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3fAvwoBIidI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3fAvwoBIidI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3fAvwoBIidI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3fAvwoBIidI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn Symphony No 102 B Flat Major Giuseppe Sinopoli Philharmonia Orchestra",
+			"VideoOwnerChannelId": "UCI7nogKUZ-uaslb37FDs1KQ",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Haydn \u0026 Schubert"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "gZB4RRuniU4",
+			"VideoPublishedAtRaw": "2021-04-21T23:55:37Z",
+			"VideoPublishedAtDateTimeOffset": "2021-04-21T23:55:37+00:00",
+			"VideoPublishedAt": "2021-04-22T05:25:37+05:30"
+		},
+		"ETag": "oxRg__oUdOyZb8HGH1SG3WXY1GU",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 20,
+			"PublishedAtRaw": "2024-12-12T23:20:11Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:20:11+00:00",
+			"PublishedAt": "2024-12-13T04:50:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "gZB4RRuniU4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/gZB4RRuniU4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/gZB4RRuniU4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/gZB4RRuniU4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/gZB4RRuniU4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler - Symphony no.1 d - Sinopoli G.,World PO - Dec.18th,1987 - Tokyo",
+			"VideoOwnerChannelId": "UC8tVpbdyYB21cw76Kv1_ZXg",
+			"VideoOwnerChannelTitle": "Luca Chierici"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "LvAMqm66DEI",
+			"VideoPublishedAtRaw": "2022-03-14T15:17:39Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-14T15:17:39+00:00",
+			"VideoPublishedAt": "2022-03-14T20:47:39+05:30"
+		},
+		"ETag": "HbINYXswLjzVNt7YdvWUyP4uSqE",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler \nSinfonie Nr 1 D-Dur \u201ETitan\u201C, Symphony No 1 in D major The Titan \nGiuseppe Sinopoli conducts Wiener Philharmoniker\n1. Langsam. Schleppend 0:00\n2. Kr\u00E4ftig Bewegt 16:12\n3. Feierlich Und Gemessen, Ohne Zu Schleppen 25:10\n4. St\u00FCrmisch Beweg 37:00",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 21,
+			"PublishedAtRaw": "2024-12-12T23:18:02Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:18:02+00:00",
+			"PublishedAt": "2024-12-13T04:48:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "LvAMqm66DEI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/LvAMqm66DEI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/LvAMqm66DEI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/LvAMqm66DEI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/LvAMqm66DEI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/LvAMqm66DEI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler Sinfonie Nr 1 D-Dur \u201ETitan\u201C Giuseppe Sinopoli Wiener Philharmoniker",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8_qcxNGKJxY",
+			"VideoPublishedAtRaw": "2022-03-13T07:35:26Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-13T07:35:26+00:00",
+			"VideoPublishedAt": "2022-03-13T13:05:26+05:30"
+		},
+		"ETag": "Q0gYX3_Ss6Z59oU-OMt4_jwvNYw",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4yQjZFRkExQjFGODk3RUFD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler \nSinfonie nr. 2 in c-Moll Auferstehungssinfonie\nSymphony No 2 in C minor Resurrection\nGiuseppe Sinopoli conducts Philharmonia Orchestra\n0:00:00 1. Satz: Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck\n0:22:30 2. Satz: Andante comodo. Sehr gem\u00E4chlich. Nie eilen\n0:32:40 3. Satz: In ruhig flie\u00DFender Bewegung\n0:45:06 4. Satz: Urlicht \u2013 Sehr feierlich aber schlicht. Nicht schleppen\n0:50:07 5. Satz: Im Tempo des Scherzos. Wild herausfahrend\u2013 Wieder zur\u00FCckhaltend \u2013 Langsam\n1:07:06 6. Langsam Misterioso \u0022Die Auferstehung\u0022",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 22,
+			"PublishedAtRaw": "2024-12-13T00:25:53Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:25:53+00:00",
+			"PublishedAt": "2024-12-13T05:55:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8_qcxNGKJxY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8_qcxNGKJxY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8_qcxNGKJxY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8_qcxNGKJxY/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Mahler Sinfonie nr 2 in c-Moll \u201EAuferstehungssinfonie\u201C Giuseppe Sinopoli Philharmonia Orchestra",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZsIundZ-Wds",
+			"VideoPublishedAtRaw": "2016-01-06T23:48:01Z",
+			"VideoPublishedAtDateTimeOffset": "2016-01-06T23:48:01+00:00",
+			"VideoPublishedAt": "2016-01-07T05:18:01+05:30"
+		},
+		"ETag": "2Wab62u8DXf5N12OjXeHJONl_uk",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "*GIUSEPPE SINOPOLI | 1983 RAI TELECAST - 2/2*\nGustav MAHLER: Symphony No.2 in C minor, \u0022Resurrection\u0022 (1888/94; rev.1903)\n01:35 | I. Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck\n23:00 | II. Andante moderato. Sehr gem\u00E4chlich. Nie eilen\n32:10 | III. In ruhig flie\u00DFender Bewegung\n42:10 | IV. \u0022Urlicht\u0022. Sehr feierlich, aber schlicht \u00A7\n46:50 | V. Im Tempo des Scherzos \u2014 \n1:03:45 |  \u2014  Sehr langsam und gedehnt, Langsam misterioso, Etwas bewegter \u0022O glaube, mein Herz, o glaube\u0022 - Mit Aufschwung, aber nicht eilen \u0022O Schmerz!\u0022 - Pi\u00F9 mosso \u0022Sterben werd\u0027 ich, um zu leben!\u0022 # \u00A7\n(1:21:10 applause)\nKarin Ott, soprano #\nBrigitte Fassbaender, mezzo-soprano \u00A7\nOrchestra Sinfonica e Coro di Torino della RAI\nOlinto Contardo, choirmaster\nGiuseppe Sinopoli, conductor\nrecorded: PAL 4:3 | live, Auditorium RAI, Torino | 7 October 1983\naudio remastering: Emilio Pessina, 2014\n---\n\u00A9 COPYRIGHT Disclaimer, Under Section 107 of the Copyright Act 1976. Allowance is made for \u0022fair use\u0022 for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 23,
+			"PublishedAtRaw": "2024-12-12T23:13:20Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:13:20+00:00",
+			"PublishedAt": "2024-12-13T04:43:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZsIundZ-Wds"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZsIundZ-Wds/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZsIundZ-Wds/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ZsIundZ-Wds/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZsIundZ-Wds/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZsIundZ-Wds/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "MAHLER Symphony No.2 | K.Ott, B.Fassbaender, RAI Torino, G.Sinopoli | video 1983 \u00AE",
+			"VideoOwnerChannelId": "UC8Z1_7T9JhB5lcgmMdEqEDQ",
+			"VideoOwnerChannelTitle": "EP"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "v_h0zXr7ebo",
+			"VideoPublishedAtRaw": "2023-09-12T17:51:29Z",
+			"VideoPublishedAtDateTimeOffset": "2023-09-12T17:51:29+00:00",
+			"VideoPublishedAt": "2023-09-12T23:21:29+05:30"
+		},
+		"ETag": "niGZmznbgIUyyTGaZxSyTrPTcyc",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "(1896) Gustav Mahler (1860-1911)  :  in re minore per contralto,coro femminile,coro di voci bianche e orchestra (Vigoroso,risoluto  -  Molto moderato  -   Comodo,scherzando     Molto lento  -  In tempo allegro e impertinente  -  Lento)    -  Waltraud Meier, contralto  -  Orchestra e coro femminile dell\u0027Accademia Nazionale S.Cecilia (M\u00B0 Coro Norbert Balatsch) Coro di Voci Bianche dell\u0027Arcum (M\u00B0 Coro Paolo Lucci)  diretti da Giuseppe Sinopoli  -  per l\u0027Accademia Nazionale di S.Cecilia  -  Auditorio Via della Conciliazione  -   Roma   -   esecuzione live",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 24,
+			"PublishedAtRaw": "2024-12-12T23:11:00Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:11:00+00:00",
+			"PublishedAt": "2024-12-13T04:41:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "v_h0zXr7ebo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/v_h0zXr7ebo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/v_h0zXr7ebo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/v_h0zXr7ebo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/v_h0zXr7ebo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler:            \u0022Sinfonia n. 3\u0022                                             dir.G.Sinopoli (1995)",
+			"VideoOwnerChannelId": "UCeal3t2vKxH3tkO656K1v5A",
+			"VideoOwnerChannelTitle": "Paolo Lucci"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "rXpCMSe7oHc",
+			"VideoPublishedAtRaw": "2021-11-24T03:03:04Z",
+			"VideoPublishedAtDateTimeOffset": "2021-11-24T03:03:04+00:00",
+			"VideoPublishedAt": "2021-11-24T08:33:04+05:30"
+		},
+		"ETag": "1G1m1ZI2G5Cslsd0UGWSwxOWnQ0",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler: Symphony No. 10 - Adagio\n\uB9D0\uB7EC: \uAD50\uD5A5\uACE1 10\uBC88 - \uC544\uB2E4\uC9C0\uC624\n\nRadio-Sinfonieorchester Stuttgart Des SWR\nSWR \uC288\uD22C\uD2B8\uAC00\uB974\uD2B8 \uBC29\uC1A1\uAD50\uD5A5\uC545\uB2E8\nConductor: Giuseppe Sinopoli\n\uC9C0\uD718: \uC96C\uC138\uD398 \uC2DC\uB178\uD3F4\uB9AC\n\nRecorded: 28 January 1981\n.....................................................................................................................................\n\uB808\uC624\uB098\uB974\uB3C4\uC758 \uB2E4\uB77D\uBC29 \uCC44\uB110\uC740 \uC21C\uC218\uD558\uAC8C \uC74C\uC545\uACFC \uC5F0\uC8FC\uB9CC \uC18C\uAC1C\uD558\uB2E4\uBCF4\uB2C8 \uC720\uD29C\uBE0C\uC758 \uC815\uCC45\uC5D0 \uB530\uB77C \uAD6C\uB3C5\uC790 \uC218 \uC99D\uAC00\uC5D0 \uB530\uB978 \uC218\uC775\uC774 \uBC1C\uC0DD\uD558\uC9C0 \uC54A\uC73C\uBA70 \uC800\uD76C \uCC44\uB110\uC744 \uBC29\uBB38\uD574\uC8FC\uC2DC\uB294 \uC5EC\uB7EC\uBD84\uB4E4\uC758 \uC790\uBC1C\uC801\uC778 \uD6C4\uC6D0\uC73C\uB85C \uC6B4\uC601\uB429\uB2C8\uB2E4.\n\uD6C4\uC6D0\uACC4\uC88C: IBK \uAE30\uC5C5\uC740\uD589 337-121237-01-010 \uAC15\uC11D\uD638 \uC785\uB2C8\uB2E4. \n\uAC10\uC0AC\uD569\uB2C8\uB2E4.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 25,
+			"PublishedAtRaw": "2024-12-12T23:19:22Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:19:22+00:00",
+			"PublishedAt": "2024-12-13T04:49:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rXpCMSe7oHc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rXpCMSe7oHc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rXpCMSe7oHc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rXpCMSe7oHc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Mahler: Symphony No. 10 Adagio - Sinopoli / \uB9D0\uB7EC: \uAD50\uD5A5\uACE1 10\uBC88 \uC544\uB2E4\uC9C0\uC624 - \uC2DC\uB178\uD3F4\uB9AC",
+			"VideoOwnerChannelId": "UCOyFg9V1I58cf2jPC8vzJQg",
+			"VideoOwnerChannelTitle": "\uB808\uC624\uB098\uB974\uB3C4\uC758 \uB2E4\uB77D\uBC29 Leonardo\u0027s Attic - Kang"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VU6Pmcg53lk",
+			"VideoPublishedAtRaw": "2022-07-06T14:42:12Z",
+			"VideoPublishedAtDateTimeOffset": "2022-07-06T14:42:12+00:00",
+			"VideoPublishedAt": "2022-07-06T20:12:12+05:30"
+		},
+		"ETag": "Cf6pide8yPvdVY7TG_McJeBFIP0",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler: Symphony No. 6 in A minor \u0022Tragic\u0022\n\uB9D0\uB7EC: \uAD50\uD5A5\uACE1 6\uBC88 A\uB2E8\uC870, \u0022\uBE44\uADF9\uC801\u0022\n\nI.   Allegro energico, ma non troppo (Start 00:00)\nII.  Scherzo: Wuchtig (Start 23:35)\nIII. Andante moderato (Start 36:51)\nIV. Finale: Allegro moderato (Start 55:00)\n\nRadio-Sinfonieorchester Stuttgart Des SWR\nSWR \uC288\uD22C\uD2B8\uAC00\uB974\uD2B8 \uBC29\uC1A1 \uAD50\uD5A5\uC545\uB2E8\nConductor: Giuseppe Sinopoli\n\uC9C0\uD718: \uC8FC\uC138\uD398 \uC2DC\uB178\uD3F4\uB9AC\n\nRecorded: 8 Mai 1985, Stuttgart, Liederhalle, Beethovensaal\n.....................................................................................................................................\n\uB808\uC624\uB098\uB974\uB3C4\uC758 \uB2E4\uB77D\uBC29 \uCC44\uB110\uC740 \uC21C\uC218\uD558\uAC8C \uC74C\uC545\uACFC \uC5F0\uC8FC\uB9CC \uC18C\uAC1C\uD558\uB2E4\uBCF4\uB2C8 \uC720\uD29C\uBE0C\uC758 \uC815\uCC45\uC5D0 \uB530\uB77C \uAD6C\uB3C5\uC790 \uC218 \uC99D\uAC00\uC5D0 \uB530\uB978 \uC218\uC775\uC774 \uBC1C\uC0DD\uD558\uC9C0 \uC54A\uC73C\uBA70 \uC800\uD76C \uCC44\uB110\uC744 \uBC29\uBB38\uD574\uC8FC\uC2DC\uB294 \uC5EC\uB7EC\uBD84\uB4E4\uC758 \uC790\uBC1C\uC801\uC778 \uD6C4\uC6D0\uC73C\uB85C \uC6B4\uC601\uB429\uB2C8\uB2E4.\n\uD6C4\uC6D0\uACC4\uC88C: IBK \uAE30\uC5C5\uC740\uD589 337-121237-01-010 \uAC15\uC11D\uD638 \uC785\uB2C8\uB2E4. \n\uAC10\uC0AC\uD569\uB2C8\uB2E4.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 26,
+			"PublishedAtRaw": "2024-12-12T23:16:48Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:16:48+00:00",
+			"PublishedAt": "2024-12-13T04:46:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VU6Pmcg53lk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VU6Pmcg53lk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VU6Pmcg53lk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VU6Pmcg53lk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/VU6Pmcg53lk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler: Symphony No. 6 - Sinopoli / \uB9D0\uB7EC: \uAD50\uD5A5\uACE1 6\uBC88 - \uC2DC\uB178\uD3F4\uB9AC",
+			"VideoOwnerChannelId": "UCOyFg9V1I58cf2jPC8vzJQg",
+			"VideoOwnerChannelTitle": "\uB808\uC624\uB098\uB974\uB3C4\uC758 \uB2E4\uB77D\uBC29 Leonardo\u0027s Attic - Kang"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sCVeCjeEFoc",
+			"VideoPublishedAtRaw": "2024-09-06T20:41:32Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-06T20:41:32+00:00",
+			"VideoPublishedAt": "2024-09-07T02:11:32+05:30"
+		},
+		"ETag": "qoG8I2917muzVtl3CJzuAEvaKoU",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "DVD",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 27,
+			"PublishedAtRaw": "2024-12-12T23:08:53Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:08:53+00:00",
+			"PublishedAt": "2024-12-13T04:38:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sCVeCjeEFoc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/sCVeCjeEFoc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/sCVeCjeEFoc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/sCVeCjeEFoc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/sCVeCjeEFoc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "NHK Giuseppe Sinopoli Staatskapelle Dresden 1992 Gustav Mahler Symphony NO.1",
+			"VideoOwnerChannelId": "UCmjdRMnBjHWcogC-T7e2N2A",
+			"VideoOwnerChannelTitle": "qiuqi wang"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "l538nnrC9Lo",
+			"VideoPublishedAtRaw": "2016-01-06T21:49:04Z",
+			"VideoPublishedAtDateTimeOffset": "2016-01-06T21:49:04+00:00",
+			"VideoPublishedAt": "2016-01-07T03:19:04+05:30"
+		},
+		"ETag": "ywpplx5HSOyTlKlwLXfAzJ-1ch0",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5BRjJDODk5REM0NjkzMUIy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "*GIUSEPPE SINOPOLI | 1981 RAI TELECAST*\nGoffredo PETRASSI: \u0022Poema\u0022, per archi e trombe (1981)\n(19:50 | Composer receives applause)\n_world premiere_\nOrchestra Sinfonica di Torino della RAI\nGiuseppe Sinopoli, conductor\nrecorded: PAL 4:3 | live, \u0027La Biennale di Venezia\u0027, Teatro Malibran, Venezia | 1 October 1981\naudio remastering: Emilio Pessina, 2016\n---\nPogramma:\nGiuseppe Sinopoli - Lou Salom\u00E9, suite per soli, coro e orchestra (prima esecuzione assoluta)\nGoffredo Petrassi - Poema, per archi e trombe (prima esecuzione assoluta, commissione Rai)\nLorenzo Ferrero - Arioso, per orchestra (prima esecuzione assoluta)\n---\n\u00A9 COPYRIGHT Disclaimer, Under Section 107 of the Copyright Act 1976. Allowance is made for \u0022fair use\u0022 for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 28,
+			"PublishedAtRaw": "2024-12-13T00:22:49Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:22:49+00:00",
+			"PublishedAt": "2024-12-13T05:52:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "l538nnrC9Lo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/l538nnrC9Lo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/l538nnrC9Lo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/l538nnrC9Lo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/l538nnrC9Lo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/l538nnrC9Lo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "PETRASSI Poema | RAI Torino, G.Sinopoli | video 1981 \u00AE",
+			"VideoOwnerChannelId": "UC8Z1_7T9JhB5lcgmMdEqEDQ",
+			"VideoOwnerChannelTitle": "EP"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "i_D1UCFK5eE",
+			"VideoPublishedAtRaw": "2023-03-23T07:33:33Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-23T07:33:33+00:00",
+			"VideoPublishedAt": "2023-03-23T13:03:33+05:30"
+		},
+		"ETag": "7GJpEQ9ay2NMbmnzVo8faS3t6gs",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Strauss - Also sprach Zarathustra, Op. 30 (Thus Spoke Zarathustra or Thus Spake Zarathustra) Tone Poem for Orchestra\n\nS\u00E4chsische Staatskapelle Dresden conducted by Giuseppe Sinopoli\nRecorded live: 24 January 1998, Suntory Hall, Tokyo",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 29,
+			"PublishedAtRaw": "2024-12-12T23:15:03Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:15:03+00:00",
+			"PublishedAt": "2024-12-13T04:45:03+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "i_D1UCFK5eE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/i_D1UCFK5eE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/i_D1UCFK5eE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/i_D1UCFK5eE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/i_D1UCFK5eE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/i_D1UCFK5eE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "R Strauss - Also sprach Zarathustra - Sinopoli, Staatskapelle Dresden (1998)",
+			"VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
+			"VideoOwnerChannelTitle": "1Furtwangler"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dybD92wfO08",
+			"VideoPublishedAtRaw": "2020-01-06T09:00:06Z",
+			"VideoPublishedAtDateTimeOffset": "2020-01-06T09:00:06+00:00",
+			"VideoPublishedAt": "2020-01-06T14:30:06+05:30"
+		},
+		"ETag": "PpudbtazZIjBfbmb6zuyMjEZsNw",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "R. Strauss  Death and Transfiguration, Op.24\n\n( Live recording.  June 1988 )\n\n*. source : en larme cd-r ( listed as \u0022 Don Juan \u0022 )\n*..g. sinopoli    philharmonia orchestra",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 30,
+			"PublishedAtRaw": "2024-12-12T23:23:44Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:23:44+00:00",
+			"PublishedAt": "2024-12-13T04:53:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dybD92wfO08"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/dybD92wfO08/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/dybD92wfO08/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/dybD92wfO08/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/dybD92wfO08/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/dybD92wfO08/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "R. Strauss  Death and Transfiguration, Op.24 ( g. sinopoli )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "I2YFGhhbrpM",
+			"VideoPublishedAtRaw": "2014-05-24T14:15:12Z",
+			"VideoPublishedAtDateTimeOffset": "2014-05-24T14:15:12+00:00",
+			"VideoPublishedAt": "2014-05-24T19:45:12+05:30"
+		},
+		"ETag": "-QZCmLHbuSd-cg1J9AoqpGIroZM",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5GNDg1Njc1QzZERjlFRjE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Strauss: Also sprach Zarathustra (Thus Spoke Zarathustra), Op.30\n\nI. Einleitung (00:00)\nII. Von den Hinterweltlern (01:47)\nIII. Von der gro\u00DFen Sehnsucht (05:30)\nIV. Von den Freuden und Leidenschaften (07:23)\nV. Das Grablied (09:29)\nVI. Von der Wissenschaft (11:51)\nVII. Der Genesende (16:12)\nVIII. Das Tanzlied (21:29)\nIX. Nachtwandlerlied (29:31)\n\nStaatskapelle Dresden\nGiuseppe Sinopoli, conductor\n\nJanuary 24, 1998\nSuntory Hall, Tokyo",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 31,
+			"PublishedAtRaw": "2024-12-13T00:23:16Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:23:16+00:00",
+			"PublishedAt": "2024-12-13T05:53:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "I2YFGhhbrpM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/I2YFGhhbrpM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/I2YFGhhbrpM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/I2YFGhhbrpM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/I2YFGhhbrpM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "R. Strauss: Also sprach Zarathustra - Sinopoli / Staatskapelle Dresden",
+			"VideoOwnerChannelId": "UCPmq1piwo3HjJPZKheGdwdQ",
+			"VideoOwnerChannelTitle": "fur bru"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "t9cY-lHhXuY",
+			"VideoPublishedAtRaw": "2012-05-13T05:54:40Z",
+			"VideoPublishedAtDateTimeOffset": "2012-05-13T05:54:40+00:00",
+			"VideoPublishedAt": "2012-05-13T11:24:40+05:30"
+		},
+		"ETag": "D__Y4PcF2DMZSeyXtcynjRvPXzg",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS45NkVENTkxRDdCQUFBMDY4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orchestra Filarmonica della Scala diretta da Giuseppe Sinopoli; violino solista Giulio Franzetti. Rassegna \u0022Domenica in concerto\u0022, stagione 1990/1991.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 32,
+			"PublishedAtRaw": "2024-12-13T00:23:48Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:23:48+00:00",
+			"PublishedAt": "2024-12-13T05:53:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "t9cY-lHhXuY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/t9cY-lHhXuY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/t9cY-lHhXuY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/t9cY-lHhXuY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/t9cY-lHhXuY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Richard Strauss - Ein Heldenleben - Vita D\u0027Eroe",
+			"VideoOwnerChannelId": "UCFTWaGUVjHP76h4glqR8F2g",
+			"VideoOwnerChannelTitle": "Mauro Gagliardi"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_oseHns2ZTE",
+			"VideoPublishedAtRaw": "2022-03-14T11:54:20Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-14T11:54:20+00:00",
+			"VideoPublishedAt": "2022-03-14T17:24:20+05:30"
+		},
+		"ETag": "mxmpjYZvT5_XUWguWXEs3wCtwPw",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4zMUEyMkQwOTk0NTg4MDgw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Strauss \nDon Juan Op. 20, tone poem in E major\nGiuseppe Sinopoli Wiener Philharmoniker",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 33,
+			"PublishedAtRaw": "2025-02-04T17:54:01Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:54:01+00:00",
+			"PublishedAt": "2025-02-04T23:24:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_oseHns2ZTE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_oseHns2ZTE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_oseHns2ZTE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_oseHns2ZTE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_oseHns2ZTE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_oseHns2ZTE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Richard Strauss Don Juan Giuseppe Sinopoli Wiener Philharmoniker",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "9rBgiB0PGF0",
+			"VideoPublishedAtRaw": "2011-02-10T12:11:21Z",
+			"VideoPublishedAtDateTimeOffset": "2011-02-10T12:11:21+00:00",
+			"VideoPublishedAt": "2011-02-10T17:41:21+05:30"
+		},
+		"ETag": "-selD8vYSyfr93TB_hz_eMgjvcQ",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5DNkMwRUI2MkI4QkI4NDFG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Paylist: http://www.youtube.com/view_play_list?p=D7ECA5066A127738\r\nGiuseppe Sinopoli conducts Richard Strauss\u0027 \u0022An alpine symphony\u0022\r\nPart 1: Night, Sunrise, The ascent, Entry into the wood, Wandering by the brook, At the waterfall, Apparition, On flowering meadows, On the alpine pasture, Wrong path through the thicket and undergrowth, On the glacier\r\nFilarmonica della Scala\r\nMilan, 1999\r\nVideo director: Hugo K\u00E4ch",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 34,
+			"PublishedAtRaw": "2024-12-13T00:25:06Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:25:06+00:00",
+			"PublishedAt": "2024-12-13T05:55:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9rBgiB0PGF0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/9rBgiB0PGF0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/9rBgiB0PGF0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/9rBgiB0PGF0/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Richard Strauss: \u0022Eine Alpensinfonie\u0022 (An Alpine Symphony) - Giuseppe Sinopoli - Part 1",
+			"VideoOwnerChannelId": "UCRYFqBRammKu0TRueEiNK4g",
+			"VideoOwnerChannelTitle": "Roberto Mastrosimone"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dabRYh31dys",
+			"VideoPublishedAtRaw": "2011-02-10T15:29:52Z",
+			"VideoPublishedAtDateTimeOffset": "2011-02-10T15:29:52+00:00",
+			"VideoPublishedAt": "2011-02-10T20:59:52+05:30"
+		},
+		"ETag": "1PauK3ci2WnJbY3AGL9ISWzvJN4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5DRUQwODMxQzUyRTlGRkY3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Playlist: http://www.youtube.com/view_play_list?p=D7ECA5066A127738\r\nGiuseppe Sinopoli conducts Richard Strauss\u0027 \u0022Eine Alpensinfonie\u0022 (An alpine symphony) \r\nPart 2: Dangerous moments, On the summit, Vision, Mists rise, The sun gradually becomes obscured, Elegy\r\nFilarmonica della Scala\r\nMilan, 1999\r\nVideo director: Hugo K\u00E4ch",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 35,
+			"PublishedAtRaw": "2024-12-13T00:25:09Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:25:09+00:00",
+			"PublishedAt": "2024-12-13T05:55:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dabRYh31dys"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/dabRYh31dys/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/dabRYh31dys/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/dabRYh31dys/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Richard Strauss: \u0022Eine Alpensinfonie\u0022 (An Alpine Symphony) - Giuseppe Sinopoli - Part 2",
+			"VideoOwnerChannelId": "UCRYFqBRammKu0TRueEiNK4g",
+			"VideoOwnerChannelTitle": "Roberto Mastrosimone"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fjQPlBgEAKo",
+			"VideoPublishedAtRaw": "2011-02-11T15:09:35Z",
+			"VideoPublishedAtDateTimeOffset": "2011-02-11T15:09:35+00:00",
+			"VideoPublishedAt": "2011-02-11T20:39:35+05:30"
+		},
+		"ETag": "EssO_kKlTaNBAYnIrkQG9b5X-9A",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS41MzY4MzcwOUFFRUU3QzEx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Playlist: http://www.youtube.com/view_play_list?p=D7ECA5066A127738\r\nGiuseppe Sinopoli conducts Richard Strauss\u0027 \u0022Eine Alpensinfonie\u0022 (An alpine Symphony)\r\nPart 3: Calm before the storm, Thunder and tempest, Descent, Sunset, Epilogue, Night\r\nFilarmonica della Scala\r\nMilan, 1999\r\nVideo director: Hugo K\u00E4ch",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 36,
+			"PublishedAtRaw": "2024-12-13T00:25:13Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:25:13+00:00",
+			"PublishedAt": "2024-12-13T05:55:13+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fjQPlBgEAKo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fjQPlBgEAKo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fjQPlBgEAKo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fjQPlBgEAKo/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Richard Strauss: \u0022Eine Alpensinfonie\u0022 (An Alpine Symphony) - Giuseppe Sinopoli - Part 3",
+			"VideoOwnerChannelId": "UCRYFqBRammKu0TRueEiNK4g",
+			"VideoOwnerChannelTitle": "Roberto Mastrosimone"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Q3RR0KJSlAE",
+			"VideoPublishedAtRaw": "2023-04-23T12:00:15Z",
+			"VideoPublishedAtDateTimeOffset": "2023-04-23T12:00:15+00:00",
+			"VideoPublishedAt": "2023-04-23T17:30:15+05:30"
+		},
+		"ETag": "OXGDjuev9bEeMKqV_YkBt463TTY",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Staatskapelle Dresden celebrated its 450th anniversary with a concert held on September 22, 1998 in Dresden\u0027s Semperoper. For the occasion, Giuseppe Sinopoli (1946-2001) conducted An Alpine Symphony by Richard Strauss (1864 - 1949). The choice of work for the anniversary celebration could not have been more appropriate: Strauss had dedicated his symphony to the time-honored Saxon orchestra, which had previously premiered several of his operas. For the work\u0027s 1915 premiere in Berlin, the Staatskapelle was conducted by the composer himself.\n\nAn Alpine Symphony, Op. 64 is a remarkable work in many regards. In it, Richard Strauss musically interprets an experience from his own youth. At the age of fifteen, he had been caught in a heavy thunderstorm whilst hiking in the mountains. He wrote to a friend that he had reimagined the event the next day on the piano. Many years later, his memory of the event gave rise to the first sketches for \u0027Eine Alpensinfonie\u0027. As the title suggests, Strauss initially intended to write a four-movement symphony, but then composed a symphonic poem in one movement. Across 22 musical tableaux, it traces in detail the ascent and descent through the natural setting \u2013 with the Alpine Symphony thereby becoming a typical example of program music. The simple and descriptive headings of the stages of the mountain journey, however, should not obscure the fact that the program is more than a mere reflection of nature. In literary history, the ascent of a mountain has always been considered a metaphor for an existential, or even transcendent experience. What\u0027s more, until shortly before its completion Strauss was writing An Alpine Symphony the secondary title \u0027The Antichrist\u0027. This could be seen as an allusion to the book of the same name by Friedrich Nietzsche (1844 - 1900), whose preface states that one \u201Cmust be accustomed to living on mountain tops.\u201D Strauss \u2013 a lifelong admirer of Nietzsche, and having renounced Christianity himself \u2013 may thus have understood the direct experience of nature to be an outright repudiation of Christianity. The intensity of the musical journey through the Alps comes not least from the immense orchestral apparatus that Strauss\u0027 composition calls for: Over 120 musicians are required to perform the monumental symphonic poem.\n\nFun fact: Reactions to the premiere of Eine Alpensinfonie were somewhat ambivalent. The great symphonic work was disparagingly referred to as \u0027cinema music\u0027 \u2013 all the more astonishing given the fact that cinema, in 1915, was a relatively new phenomenon.\n\n(00:00) Sinopoli is coming on stage\n(00:14) Nacht (Night)\n(03:59) Sonnenaufgang (Sunrise)\n(05:50) Der Anstieg (The Ascent)\n(08:10) Eintritt in den Wald (Entry into the Forest)\n(13:33) Wanderung neben dem Bache (Wandering by the Brook)\n(14:21) Am Wasserfall (At the Waterfall)\n(14:36) Erscheinung (Apparition)\n(15:20) Auf blumigen Wiesen (On Flowering Meadows)\n(16:20) Auf der Alm (On the Alpine Pasture)\n(18:35) Durch Dickicht und Gestr\u00FCpp auf Irrwegen (Through Thickets and Undergrowth on the Wrong Path)\n(20:10) Auf dem Gletscher (On the Glacier)\n(21:16) Gefahrvolle Augenblicke (Dangerous Moments)\n(22:41) Auf dem Gipfel (On the Summit)\n(28:04) Vision (Vision)\n(31:19) Nebel steigen auf (Mists Rise)\n(31:37) Die Sonne verd\u00FCstert sich allm\u00E4hlich (The Sun Gradually Becomes Obscured)\n(32:25) Elegie (Elegy)\n(34:33) Stille vor dem Sturm (Calm Before the Storm)\n(37:55) Gewitter und Sturm, Abstieg (Thunderstorm and Tempest)\n(41:37) Sonnenuntergang (Sunset)\n(44:37) Ausklang (Quiet Settles / Epilogue)\n(51:14) Nacht (Night)\n\nA co-production of MDR, NHK and EuroArts\n\n\u00A9 MDR \u0026 EuroArts 1998\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#richardstrauss #programmusic #staatskapelledresden",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 37,
+			"PublishedAtRaw": "2024-12-12T23:14:49Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:14:49+00:00",
+			"PublishedAt": "2024-12-13T04:44:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Q3RR0KJSlAE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Q3RR0KJSlAE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Q3RR0KJSlAE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Q3RR0KJSlAE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Q3RR0KJSlAE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Richard Strauss: An Alpine Symphony | Giuseppe Sinopoli and the Staatskapelle Dresden",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "qPdmb7TvHBk",
+			"VideoPublishedAtRaw": "2015-12-26T17:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2015-12-26T17:00:01+00:00",
+			"VideoPublishedAt": "2015-12-26T22:30:01+05:30"
+		},
+		"ETag": "VMUAtxuERthoA6YIS0Zgg2goO3Q",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS44QzVGQUU2QjE2NDgxM0M4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gala Concert commemorating the 450 Years of the S\u00E4chsische Staatskapelle Dresden at the Semperoper Dresden\n\nGiuseppe Sinopoli - conductor\nS\u00E4chsische Staatskapelle Dresden\n\nRichard Wagner - Ouverture to Rienzi\n\nWatch the full concert: http://www.youtube.com/watch?v=afl6ukVpcIM\u0026list=PLBjoEdEVMABI91u_7tFaCnxrx_QzeUAQO\n\nThe Staatskapelle Dresden has been founded in 1548 by Kurf\u00FCrst Moritz of Saxony. It is one of the world\u0027s oldest orchestras. The precursor ensemble was Die Kurf\u00FCrstlich-S\u00E4chsische und K\u00F6niglich-Polnische Kapelle (The Saxony Elector and Royal Polish Band). The orchestra is the musical body of the S\u00E4chsische Staatsoper (Saxon State Opera). Venue of the orchestra is the Semperoper opera house.\nhttps://en.wikipedia.org/wiki/Staatskapelle_Dresden",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 38,
+			"PublishedAtRaw": "2025-02-04T17:46:40Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:46:40+00:00",
+			"PublishedAt": "2025-02-04T23:16:40+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qPdmb7TvHBk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qPdmb7TvHBk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qPdmb7TvHBk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/qPdmb7TvHBk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qPdmb7TvHBk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/qPdmb7TvHBk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Richard Wagner - Ouverture to Rienzi (Giuseppe Sinopoli \u0026 S\u00E4chsische Staatskapelle Dresden)",
+			"VideoOwnerChannelId": "UCt7SG8q4GUDMLfbkViwkWLQ",
+			"VideoOwnerChannelTitle": "EuroArtsChannel"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "v2jN-XDsErk",
+			"VideoPublishedAtRaw": "2023-05-07T13:42:43Z",
+			"VideoPublishedAtDateTimeOffset": "2023-05-07T13:42:43+00:00",
+			"VideoPublishedAt": "2023-05-07T19:12:43+05:30"
+		},
+		"ETag": "4Vby-z_iuF_QRyjwpWNtvT2twxM",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann\nSinfonie Nr 3 in Es-Dur op 97, Rheinische \nSymphony No. 3 \u201CRhenish\u201D, in E flat major Op. 97\nGiuseppe Sinpoli conducts Staatskapelle Dresden (restored)\nLebhaft 0:00\nScherzo: Sehr m\u00E4\u00DFig (in C major) 9:40\nNicht schnell (in A-flat major) 16:40\nFeierlich (in E-flat minor) 22:40\nLebhaft 28:00",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 39,
+			"PublishedAtRaw": "2024-12-12T23:14:38Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:14:38+00:00",
+			"PublishedAt": "2024-12-13T04:44:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "v2jN-XDsErk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/v2jN-XDsErk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/v2jN-XDsErk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/v2jN-XDsErk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/v2jN-XDsErk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/v2jN-XDsErk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Sinfonie Nr 3 in Es-Dur op 97 Rheinische Giuseppe Sinopoli Staatskapelle Dresden (restored)",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Ehpui2VhxxQ",
+			"VideoPublishedAtRaw": "2023-05-07T14:21:28Z",
+			"VideoPublishedAtDateTimeOffset": "2023-05-07T14:21:28+00:00",
+			"VideoPublishedAt": "2023-05-07T19:51:28+05:30"
+		},
+		"ETag": "qo9kJLsuptdDRP5lnUBIxnVvYNs",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann\nSinfonie nr. 4 in d-Moll, op 120\nSymphony No 4 in D minor \nGiuseppe Sinopoli conducts RAI Orchestra  (restored)\nI. Ziemlich langsam - Lebhaft 0:00\nII. Romanze (Ziemlich langsam) 9:27\nIII. Scherzo (Lebhaft) \u0026 Trio 12:51\nIV. Langsam \u2013 Lebhaft 17:18",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 40,
+			"PublishedAtRaw": "2024-12-12T23:14:34Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:14:34+00:00",
+			"PublishedAt": "2024-12-13T04:44:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Ehpui2VhxxQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Ehpui2VhxxQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Ehpui2VhxxQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Ehpui2VhxxQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Ehpui2VhxxQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Ehpui2VhxxQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Sinfonie Nr 4 in d-Moll Giuseppe Sinopoli (restored)",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "CfnzCHS25N0",
+			"VideoPublishedAtRaw": "2010-05-05T04:11:43Z",
+			"VideoPublishedAtDateTimeOffset": "2010-05-05T04:11:43+00:00",
+			"VideoPublishedAt": "2010-05-05T09:41:43+05:30"
+		},
+		"ETag": "VkrDh2VAtfnl0nZWn_Zx5B0cEbU",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4yQUJFNUVCMzVDNjcxRTlF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "From the Sept. 22, 1998 festival concert celebrating the S\u00E4chsische Staatskapelle Dresden\u0027s 450th birthday.\r\n\r\nPart 2 of 2: http://www.youtube.com/watch?v=SrbIUDOEvp0",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 41,
+			"PublishedAtRaw": "2025-02-04T17:43:33Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:43:33+00:00",
+			"PublishedAt": "2025-02-04T23:13:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "CfnzCHS25N0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/CfnzCHS25N0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/CfnzCHS25N0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/CfnzCHS25N0/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Sinopoli conducts Wagner\u0027s Rienzi Overture with the Staatskapelle Dresden",
+			"VideoOwnerChannelId": "UC2vF421RdV0Zy9oHV1gvYjw",
+			"VideoOwnerChannelTitle": "Wandering Wotan"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Xy6A4Xl1ecY",
+			"VideoPublishedAtRaw": "2024-01-14T16:41:46Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-14T16:41:46+00:00",
+			"VideoPublishedAt": "2024-01-14T22:11:46+05:30"
+		},
+		"ETag": "SsvIR0p9yPEyD9wEf3K9rGSqQiE",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 42,
+			"PublishedAtRaw": "2024-12-12T23:10:21Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:10:21+00:00",
+			"PublishedAt": "2024-12-13T04:40:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Xy6A4Xl1ecY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Xy6A4Xl1ecY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Xy6A4Xl1ecY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Xy6A4Xl1ecY/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Sinopoli Mahler Sinfonia 3",
+			"VideoOwnerChannelId": "UChqYRTrlqAvAZ-GBE2Ncgwg",
+			"VideoOwnerChannelTitle": "Mentovar"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "D9loYbeBRd8",
+			"VideoPublishedAtRaw": "2020-03-28T00:07:56Z",
+			"VideoPublishedAtDateTimeOffset": "2020-03-28T00:07:56+00:00",
+			"VideoPublishedAt": "2020-03-28T05:37:56+05:30"
+		},
+		"ETag": "Q57IIH_n1Q1_1x655vcfgUjcZPc",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5GNjAwN0Y0QTFGOTVDMEMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pierre Boulez - BBC Orchestra\nRoyal Festival Hall, London 15th February 1978",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 43,
+			"PublishedAtRaw": "2025-02-04T17:51:21Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:51:21+00:00",
+			"PublishedAt": "2025-02-04T23:21:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "D9loYbeBRd8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/D9loYbeBRd8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/D9loYbeBRd8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/D9loYbeBRd8/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Sinopoli Tombeau d\u0027Armor ll - Boulez - BBC (1978)",
+			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+			"VideoOwnerChannelTitle": "goodmanmusica"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "PJuN6OHu1vc",
+			"VideoPublishedAtRaw": "2021-10-10T20:40:17Z",
+			"VideoPublishedAtDateTimeOffset": "2021-10-10T20:40:17+00:00",
+			"VideoPublishedAt": "2021-10-11T02:10:17+05:30"
+		},
+		"ETag": "4ipttIaZlZGoG4zE9xH2fX-Yt0Q",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 44,
+			"PublishedAtRaw": "2024-12-12T23:19:44Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:19:44+00:00",
+			"PublishedAt": "2024-12-13T04:49:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "PJuN6OHu1vc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/PJuN6OHu1vc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/PJuN6OHu1vc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/PJuN6OHu1vc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Strauss R.-Ein Heldenleben op.40-Sinopoli G.,S\u00E4chsische Staatskapelle Dresden-Jul.7th,1999-Wiesbaden",
+			"VideoOwnerChannelId": "UC8tVpbdyYB21cw76Kv1_ZXg",
+			"VideoOwnerChannelTitle": "Luca Chierici"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "amsFTY2AniI",
+			"VideoPublishedAtRaw": "2021-12-26T19:31:20Z",
+			"VideoPublishedAtDateTimeOffset": "2021-12-26T19:31:20+00:00",
+			"VideoPublishedAt": "2021-12-27T01:01:20+05:30"
+		},
+		"ETag": "_U96xd7ShBj03bWzizhtg5-Y6VM",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5CQkEwRDA0MDkwNUM2MDY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 45,
+			"PublishedAtRaw": "2025-02-04T17:53:17Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:53:17+00:00",
+			"PublishedAt": "2025-02-04T23:23:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "amsFTY2AniI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/amsFTY2AniI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/amsFTY2AniI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/amsFTY2AniI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/amsFTY2AniI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strauss R.-Salome (Schlusszene)-Sinopoli G.,Staatskapelle Dresden,Studer C.-Aug.8th,1991-Salzburg",
+			"VideoOwnerChannelId": "UC8tVpbdyYB21cw76Kv1_ZXg",
+			"VideoOwnerChannelTitle": "Luca Chierici"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "n9MET15A6i0",
+			"VideoPublishedAtRaw": "2024-10-15T07:13:41Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-15T07:13:41+00:00",
+			"VideoPublishedAt": "2024-10-15T12:43:41+05:30"
+		},
+		"ETag": "mzPDKT7EmGP4M2OMYDlMWnn2cTs",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "(1930) Igor Strawinskij  (1882 - 1971) : (Sinfonia di salmi) per coro,coro di voci bianche e orchestra  (Exaudi orationem meam  - Expectans expectavi Dominum -  Laudate Dominum)  -  Orchestra e Coro dell\u0027Accademia Nazionale di S.Cecilia (M\u00B0 Coro Norbert Balatsch) Coro di Voci Bianche dell\u0027Arcum (M\u00B0 Coro Paolo Lucci) diretti da Giuseppe Sinopoli   -   per l\u0027Accademia Nazionale di S.Cecilia  -  Auditorio di Via della Conciliazione  -  Roma",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 46,
+			"PublishedAtRaw": "2024-12-12T23:08:32Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:08:32+00:00",
+			"PublishedAt": "2024-12-13T04:38:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "n9MET15A6i0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/n9MET15A6i0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/n9MET15A6i0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/n9MET15A6i0/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Strawinskji: \u0022Symphonie des Psaumes\u0022 dir. G. Sinopoli (1996)",
+			"VideoOwnerChannelId": "UCeal3t2vKxH3tkO656K1v5A",
+			"VideoOwnerChannelTitle": "Paolo Lucci"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jOMtTVWTzfQ",
+			"VideoPublishedAtRaw": "2023-08-27T13:55:04Z",
+			"VideoPublishedAtDateTimeOffset": "2023-08-27T13:55:04+00:00",
+			"VideoPublishedAt": "2023-08-27T19:25:04+05:30"
+		},
+		"ETag": "Qa9HP8LnVTZ3ldq_pnk8Ovkyip0",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky\nRomeo and Juliet, Overture-Fantasy, TH 42, \u010CW 39\nGiuseppe Sinopoli \u0026 Philharmonia Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 47,
+			"PublishedAtRaw": "2024-12-12T23:12:57Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:12:57+00:00",
+			"PublishedAt": "2024-12-13T04:42:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jOMtTVWTzfQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jOMtTVWTzfQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jOMtTVWTzfQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/jOMtTVWTzfQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jOMtTVWTzfQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/jOMtTVWTzfQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Romeo and Juliet Giuseppe Sinopoli Philharmonia Orchestra",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "E4q7n92UvwE",
+			"VideoPublishedAtRaw": "2023-08-27T15:17:38Z",
+			"VideoPublishedAtDateTimeOffset": "2023-08-27T15:17:38+00:00",
+			"VideoPublishedAt": "2023-08-27T20:47:38+05:30"
+		},
+		"ETag": "WRZKCN0AMP3fVtrZqs_Ul_fGtIM",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky\nSymphony No 5 in E minor, Op 64\nGiuseppe Sinopoli \u0026 Philharmonia Orchestra\n0:00 Andante - Allegro con anima (E minor) - Molto pi\u00F9 tranquillo (D major - E major)\n15:10 Andante cantabile, con alcuna licenza (B minor - D major) - Non allegro (F-sharp minor) - Andante maestoso con piano (D major)\n29:10 Valse. Allegro moderato (A major) (Trio in F-sharp minor)\n35:25 Finale: Andante maestoso (E major) - Allegro vivace - Molto vivace (E minor) - Moderato assai e molto maestoso - Presto (E major)",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 48,
+			"PublishedAtRaw": "2024-12-12T23:13:45Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:13:45+00:00",
+			"PublishedAt": "2024-12-13T04:43:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "E4q7n92UvwE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/E4q7n92UvwE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/E4q7n92UvwE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/E4q7n92UvwE/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Tchaikovsky Symphony No 5 E minor Giuseppe Sinopoli Philharmonia Orchestra",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "5cJFGrJuVns",
+			"VideoPublishedAtRaw": "2022-11-19T18:00:02Z",
+			"VideoPublishedAtDateTimeOffset": "2022-11-19T18:00:02+00:00",
+			"VideoPublishedAt": "2022-11-19T23:30:02+05:30"
+		},
+		"ETag": "YllIiR8XFbGrt46OR99mWRWrBV4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS41OURENDc2NEM1MDI5Mjky",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "S\u00E4chsische Staatskapelle Dresden performing the overture from Giuseppe Verdi\u0060s \u0022Nabucco\u0022.\nWatch the full concert playlist: www.youtube.com/watch?v=tYI5eygQuRY\u0026list=PLWvhKE5HbZ38wDgHIKd2CNlQOM8p0t1f2\u0026index=1\n\n#verdi #opera #nabucco #giuseppesinopoli #dresden #classics\n\nPart 6 of the concert event \u0022Classics on a Summer\u0027s Evening\u0022 (COASE) in Dresden, 1999 \u2013 featuring singers Angela Gheorghi\u00F9 and Roberto Alagna, as well as conductor Giuseppe Sinopoli, performing music pieces from operas by Giuseppe Verdi, Georges Bizet and Giacomo Puccini.\n\nSubscribe to wocomoMUSIC: https://goo.gl/ahZRzC\nFollow us on Facebook: http://www.facebook.com/wocomo\n\nThe performers are:\n\nS\u00E4chsische Staatskapelle Dresden\nGiuseppe Sinopoli - conductor\nAngela Gheorghi\u00F9 - soloist\nRoberto Alagna - soloist\n\nRepertoire:\nGiuseppe Verdi - Nabucco, Overture\n\nWatch the full performance on STAGE\u002B, the new streaming service from Deutsche Grammophon: https://www.stage-plus.com\n\n\u00A9 1999, Licensed by Deutsche Grammophon\n\n------- \n\nHigh-quality music concerts, performances and documentaries \u2013 in areas such as classical, jazz, ballet, modern dance, rock and pop. WocomoMUSIC \u2013 music for grown-ups!\n\nCheck out our other channels to watch high-quality documentaries:\n\u25B7 wocomoCULTURE: https://www.youtube.com/@wocomoCULTURE\n\u25B7 wocomoFRAN\u00C7AIS: https://www.youtube.com/@wocomoFRANCAIS\n\u25B7 wocomoHUMANITY: https://www.youtube.com/@wocomoHUMANITY\n\u25B7 wocomoHISTORY: https://www.youtube.com/@wocomoHISTORY\n\nWocomoMUSIC is part of the Wocomo channel network by NIKITA VENTURES. Wocomo - wonderful content in motion.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 49,
+			"PublishedAtRaw": "2025-02-04T17:54:52Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:54:52+00:00",
+			"PublishedAt": "2025-02-04T23:24:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "5cJFGrJuVns"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/5cJFGrJuVns/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/5cJFGrJuVns/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/5cJFGrJuVns/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/5cJFGrJuVns/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/5cJFGrJuVns/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Verdi - Nabucco Overture (Staatskapelle Dresden, Giuseppe Sinopoli) | from COASE (6/14)",
+			"VideoOwnerChannelId": "UCyBVuk3_ZHcEQn-rVBUYkzQ",
+			"VideoOwnerChannelTitle": "wocomoMUSIC"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-tOvzjk6Z1A",
+			"VideoPublishedAtRaw": "2022-03-14T11:50:49Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-14T11:50:49+00:00",
+			"VideoPublishedAt": "2022-03-14T17:20:49+05:30"
+		},
+		"ETag": "8bQon4yK_05-gBYhEBxKxnCAgI4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4wMTYxQzVBRDI1NEVDQUZE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Giuseppe Verdi \nI Vespri Siciliani, Ouverture \nGiuseppe Sinopoli  World Philharmonic Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 50,
+			"PublishedAtRaw": "2025-02-04T17:53:57Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:53:57+00:00",
+			"PublishedAt": "2025-02-04T23:23:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-tOvzjk6Z1A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/-tOvzjk6Z1A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/-tOvzjk6Z1A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/-tOvzjk6Z1A/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/-tOvzjk6Z1A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/-tOvzjk6Z1A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Verdi I Vespri Siciliani Ouverture Giuseppe Sinopoli  World Philharmonic Orchestra",
+			"VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+			"VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DxwP-KnON4o",
+			"VideoPublishedAtRaw": "2023-06-04T13:09:19Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-04T13:09:19+00:00",
+			"VideoPublishedAt": "2023-06-04T18:39:19+05:30"
+		},
+		"ETag": "vK4ZFsi9oyap8gydfLy-FlPv6g4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4xM0YyM0RDNDE4REQ1NDA0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wagner - Parsifal Act 1 Transformation Music - Sinopoli",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 51,
+			"PublishedAtRaw": "2025-02-04T17:56:07Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:56:07+00:00",
+			"PublishedAt": "2025-02-04T23:26:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DxwP-KnON4o"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/DxwP-KnON4o/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/DxwP-KnON4o/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/DxwP-KnON4o/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/DxwP-KnON4o/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner - Parsifal Act 1 Transformation Music - Sinopoli",
+			"VideoOwnerChannelId": "UC63kFz06ps61rjOV_IsPBBw",
+			"VideoOwnerChannelTitle": "Legendary Musicians by History of Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ybbrvIYy8Pk",
+			"VideoPublishedAtRaw": "2023-03-23T07:34:15Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-23T07:34:15+00:00",
+			"VideoPublishedAt": "2023-03-23T13:04:15+05:30"
+		},
+		"ETag": "Qw_38g_TGMVHeZLUYbzJI0mvzvA",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5ERkUyQTM0MzEwQjZCMTY5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner - Prelude to Act 1 of Die Meistersinger\n\nS\u00E4chsische Staatskapelle Dresden conducted by Giuseppe Sinopoli\nRecorded live: 24 January 1998, Suntory Hall, Tokyo",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 52,
+			"PublishedAtRaw": "2025-02-04T17:55:29Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:55:29+00:00",
+			"PublishedAt": "2025-02-04T23:25:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ybbrvIYy8Pk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ybbrvIYy8Pk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ybbrvIYy8Pk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ybbrvIYy8Pk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ybbrvIYy8Pk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ybbrvIYy8Pk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner - Prelude to Act 1 of Die Meistersinger - Sinopoli, Staatskapelle Dresden (1998)",
+			"VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
+			"VideoOwnerChannelTitle": "1Furtwangler"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "h3yWWdNfQYg",
+			"VideoPublishedAtRaw": "2024-06-23T10:05:43Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-23T10:05:43+00:00",
+			"VideoPublishedAt": "2024-06-23T15:35:43+05:30"
+		},
+		"ETag": "pTYUO0Ej9awVVqyph1BVL8Uogm4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS42RTNCOEMxREI3Q0VDMjU2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner: Parsifal - Transformation music\n\nMusical direction: Giuseppe Sinopoli\nChorus: Norbert Balatsch\nGurnemanz - Hans Sotin\nParsifal - Poul Elming\n\nStaging and stage design: Wolfgang Wagner\nChoreography Flower girl: Iv\u00E1n Mark\u00F3\nCostumes: Reinhard Heinrich\n\nFrom the Festspielhaus Bayreuth\n1999\n\nGet the Wagner: Parsifal (Giuseppi Sinopoli, Beyreuth Festival Orchestra) here: https://amzn.to/2HXHhok",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 53,
+			"PublishedAtRaw": "2025-02-04T17:56:58Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:56:58+00:00",
+			"PublishedAt": "2025-02-04T23:26:58+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "h3yWWdNfQYg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/h3yWWdNfQYg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/h3yWWdNfQYg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/h3yWWdNfQYg/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Wagner - Transformation Music from Parsifal - Sinopoli",
+			"VideoOwnerChannelId": "UC63kFz06ps61rjOV_IsPBBw",
+			"VideoOwnerChannelTitle": "Legendary Musicians by History of Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vrd0qTjp2rY",
+			"VideoPublishedAtRaw": "2011-07-24T11:54:50Z",
+			"VideoPublishedAtDateTimeOffset": "2011-07-24T11:54:50+00:00",
+			"VideoPublishedAt": "2011-07-24T17:24:50+05:30"
+		},
+		"ETag": "thjIUPM_GyYE72o_yUUz52ZXQBc",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS40QzRDOEU0QUYwNUIxN0M1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner: Die Meistersinger von Nurnberg Overture\r\n\r\nStaatskapelle Dresden\r\nGiuseppe Sinopoli, Conductor\r\n\r\n24th January 1998\r\nLive at Suntory Hall, Tokyo",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 54,
+			"PublishedAtRaw": "2025-02-04T17:44:28Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:44:28+00:00",
+			"PublishedAt": "2025-02-04T23:14:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vrd0qTjp2rY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vrd0qTjp2rY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vrd0qTjp2rY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vrd0qTjp2rY/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Wagner Die Meistersinger von Nurnberg Overture by Sinopoli, SKD (1998)",
+			"VideoOwnerChannelId": "UClMz-12p4Fl1ptT9IhJUypA",
+			"VideoOwnerChannelTitle": "lyricpost"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "slCK4oIbxh4",
+			"VideoPublishedAtRaw": "2017-07-04T19:01:31Z",
+			"VideoPublishedAtDateTimeOffset": "2017-07-04T19:01:31+00:00",
+			"VideoPublishedAt": "2017-07-05T00:31:31+05:30"
+		},
+		"ETag": "KpH30y9qMS-WcP-x-e3XtEjRNZU",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4xMzgwMzBERjQ4NjEzNUE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner (1813-1883)\nG\u00D6TTERD\u00C4MMERUNG\nDawn and Rhine Journey\nVienna Philharmonic Orchestra\nGIUSEPPE SINOPOLI, cond.\nRecording: Kunsthaus, Lucerne, 10 September 1996",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 55,
+			"PublishedAtRaw": "2025-02-04T17:48:20Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:48:20+00:00",
+			"PublishedAt": "2025-02-04T23:18:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "slCK4oIbxh4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/slCK4oIbxh4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/slCK4oIbxh4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/slCK4oIbxh4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/slCK4oIbxh4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/slCK4oIbxh4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner: G\u00F6tterd\u00E4mmerung - Dawn and Rhine Journey - Vienna Philharmonic Orchestra/Sinopoli (1996)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lrgBemPG6EQ",
+			"VideoPublishedAtRaw": "2017-07-04T19:01:38Z",
+			"VideoPublishedAtDateTimeOffset": "2017-07-04T19:01:38+00:00",
+			"VideoPublishedAt": "2017-07-05T00:31:38+05:30"
+		},
+		"ETag": "L0LoJIUPXZ1Pbgve9EXCiXGF_WM",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4zMEQ1MEIyRTFGNzhDQzFB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner (1813-1883)\nG\u00D6TTERD\u00C4MMERUNG\nFinale\nVienna Philharmonic Orchestra\nGIUSEPPE SINOPOLI, cond.\nRecording: Kunsthaus, Lucerne, 10 September 1996",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 56,
+			"PublishedAtRaw": "2025-02-04T17:48:30Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:48:30+00:00",
+			"PublishedAt": "2025-02-04T23:18:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lrgBemPG6EQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lrgBemPG6EQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lrgBemPG6EQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lrgBemPG6EQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lrgBemPG6EQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lrgBemPG6EQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner: G\u00F6tterd\u00E4mmerung - Finale - Vienna Philharmonic Orchestra/Sinopoli (1996)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7nvncpzpCfE",
+			"VideoPublishedAtRaw": "2017-07-04T19:01:35Z",
+			"VideoPublishedAtDateTimeOffset": "2017-07-04T19:01:35+00:00",
+			"VideoPublishedAt": "2017-07-05T00:31:35+05:30"
+		},
+		"ETag": "wzBKtwxQGbmUkxI57OItpX0di-0",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS42Qzk5MkEzQjVFQjYwRDA4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner (1813-1883)\nG\u00D6TTERD\u00C4MMERUNG\nSiegfried\u0027s Funeral March\nVienna Philharmonic Orchestra\nGIUSEPPE SINOPOLI, cond.\nRecording: Kunsthaus, Lucerne, 10 September 1996",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 57,
+			"PublishedAtRaw": "2025-02-04T17:48:33Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:48:33+00:00",
+			"PublishedAt": "2025-02-04T23:18:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7nvncpzpCfE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7nvncpzpCfE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7nvncpzpCfE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/7nvncpzpCfE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7nvncpzpCfE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7nvncpzpCfE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner: G\u00F6tterd\u00E4mmerung - Siegfried\u0027s Funeral March - Vienna Philharmonic Orchestra/Sinopoli (1996)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xhGmo6qE1dc",
+			"VideoPublishedAtRaw": "2023-07-30T12:00:46Z",
+			"VideoPublishedAtDateTimeOffset": "2023-07-30T12:00:46+00:00",
+			"VideoPublishedAt": "2023-07-30T17:30:46+05:30"
+		},
+		"ETag": "RPVoUIYILwPQ1AbJnjbSbO_44t4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS40MDNEMzA0QTBFRThFMzBE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "It is probably Wagner\u0027s most brilliant opera introduction: the overture to \u201CRienzi.\u201D Here it is performed by the Staatskapelle Dresden conducted by Giuseppe Sinopoli. The performance was in honor of the 450th anniversary of the S\u00E4chsische Staatskapelle Dresden (the Saxonian Staatskapelle Dresden). It was celebrated by the renowned German orchestra with a gala concert at the Semperoper Dresden on September 22, 1998.\n\n\u201CRienzi, the Last of the Roman Tribunes\u201D (WWV 49) is a tragic opera which was composed by Richard Wagner (1813 - 1883) between 1838 and 1840. It is one of Wagner\u0027s early works and is mostly written in the style of the French grand opera but also has Italian influences. It already points ahead to Wagner\u0027s romantic operas and even to his later \u201Cmusic dramas.\u201D \u201CRienzi\u201D premiered in Dresden in 1842 and was Wagner\u0027s first great success.\n\nThe libretto is based on a novel with the same title by Edward Bulwer-Lytton (1803 \u2013 1873). The story is set in late medieval Rome. Rienzi rises above the corrupt elites of Rome, establishes a state with a liberal constitution according to the ancient Roman model, gets elected to the tribune of the plebs and becomes a celebrated victor and hero. However, soon his followers turn against him, and his ending is tragic as he dies with his sister in the flames that engulf the Capitol.\n\nThe overture is the most famous part from Wagner\u0027s \u201CRienzi,\u201D and anticipates all the motifs in the opera. It begins with a prolonged trumpet note, through which the fate of the title character is foreshadowed: The seemingly impinging fanfare is reduced to a rather mournful-sounding lonely note. The overture\u0027s extremely melodious main theme alternates from the violin\u2019s devotional prayer (02:14) to a heroic song of triumph in tutti (04:03) to a playful, light dance of the strings (06:53). All in all, the overture has motifs of military music, with fanfares, marches, and plenty of brass.\n\n\u201CRienzi\u201D was Adolf Hitler\u0027s favorite opera. For his 50th birthday, Hitler was even given the original score from the estate of King Ludwig II of Bavaria. Hitler had it played at party conventions. After World War II, opera houses shied away from the opera, but gradually it was re-established and today the Overture is considered a popular concert piece.\n\nGiuseppe Sinopoli (1946 - 2001) was an Italian conductor and composer, but he had also studied medicine, psychiatry, and anthropology. He was about to receive his Laurea in Archeology, but he died a few days beforehand. His career as an opera conductor began in 1978, when he interpreted Verdi\u0027s \u201CAida\u201D in his very own, unique way. After stints as music director in Rome and London, he became the principle conductor of the S\u00E4chsische Staatskapelle Dresden from 1992. On April 20, 2001, Sinopoli suffered a heart attack during a performance of Verdi\u0027s \u201CAida\u201D at the Deutsche Oper Berlin. He died shortly after.\n\nThe Staatskapelle Dresden was founded in 1548 by Elector Moritz of Saxony and is one of the oldest and most traditional orchestras in the world. Since its foundation, the Staatskapelle Dresden has been led by many important conductors, and many internationally acclaimed musicians have played with them. In addition, numerous famous composers have written works that have been premiered by the Staatskapelle. The Saxonian orchestra is based in the Semperoper Dresden.\n\nA co-production of MDR, NHK, \u0026 EuroArts\n\u00A9 1998 MDR \u0026 EuroArts\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#richardwagner #rienzioverture #giuseppesinopoli",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 58,
+			"PublishedAtRaw": "2025-02-04T17:56:23Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:56:23+00:00",
+			"PublishedAt": "2025-02-04T23:26:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xhGmo6qE1dc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xhGmo6qE1dc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xhGmo6qE1dc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xhGmo6qE1dc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xhGmo6qE1dc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner: Rienzi Overture | Giuseppe Sinopoli and the Staatskapelle Dresden",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "OBZl3JHBUk8"
+		},
+		"ETag": "TGeuB9PDjf34u_OB5u3ARjrph-c",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 59,
+			"PublishedAtRaw": "2024-12-12T23:09:54Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:09:54+00:00",
+			"PublishedAt": "2024-12-13T04:39:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "OBZl3JHBUk8"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ljVewbCWrcg"
+		},
+		"ETag": "99oKx4Bzm6-9V5rmKhUH85DEFdw",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 60,
+			"PublishedAtRaw": "2024-12-12T23:24:23Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:24:23+00:00",
+			"PublishedAt": "2024-12-13T04:54:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ljVewbCWrcg"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "mnjE6m03df0",
+			"VideoPublishedAtRaw": "2023-06-29T12:00:39Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-29T12:00:39+00:00",
+			"VideoPublishedAt": "2023-06-29T17:30:39+05:30"
+		},
+		"ETag": "7e5jxqz_PAVTjBbNDuy2-co2wRM",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS42MjYzMTMyQjA0QURCN0JF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Staatskapelle Dresden orchestra celebrated on September 22nd 1998 its 450th anniversary with a concert in the Semperoper opera house in Dresden. Guiseppe Sinopoli (1946 \u2013 2001) conducted Carl Maria von Weber\u2019s Jubilee Overture \u2013 a piece which could not have fitted better to the occasion. This is because the Jubilee Overture had already been played in Dresden in 1818, on the occasion of another special anniversary\u2026\n\nThe creation of the Jubilee Overture was initially accompanied with disappointment for its composer Carl Maria von Weber (1786-1826). Having been the royal kapellmeister at the Dresden court since 1817, Weber was meant to compose a \u2018celebratory cantata\u2019 to mark the 50th anniversary of Frederick August III becoming Elector of Saxony. On his return from his summer vacation with the finished cantata, Weber found that the music program for the anniversary celebration had already been completed without his composition. Feeling disappointed, he was minded to withdraw himself from the festivities, however a compromise was reached in which Weber could contribute a piece to the program. That piece was the Jubilee Overture (Jubel-Ouvert\u00FCre).\n\nFormally, the Jubilee Overture mostly corresponds to the overtures that Weber created for his operas, especially in terms of its structure. A solemnly processional introduction is followed by a lively Presto assai, which is triumphant in character. The overture\u2019s climax is a hymn composed in a rich, orchestral setting, whose melody is known around the world: \u2018God Save the King\u2019 (or \u2018God Save the Queen\u2019), which is the UK\u2019s national anthem. (06:55). This song was also used patriotically in other countries though: Using the words \u2018Heil dir im Siegerkranz\u2019 it was the royal anthem of Prussia from 1795 to 1918 and the royal anthem of the German Empire from 1871 to 1918.\n\nA co-production of MDR, NHK, \u0026 EuroArts\n\u00A9 MDR \u0026 EuroArts, 1998\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#carlmariavonweber #jubileeoverture #giuseppesinopoli",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 61,
+			"PublishedAtRaw": "2025-02-04T17:56:18Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:56:18+00:00",
+			"PublishedAt": "2025-02-04T23:26:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "mnjE6m03df0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/mnjE6m03df0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/mnjE6m03df0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/mnjE6m03df0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/mnjE6m03df0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Weber: Jubilee Overture | Giuseppe Sinopoli and the Staatskapelle Dresden",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "IH_4TInx_7c",
+			"VideoPublishedAtRaw": "2014-03-04T03:48:40Z",
+			"VideoPublishedAtDateTimeOffset": "2014-03-04T03:48:40+00:00",
+			"VideoPublishedAt": "2014-03-04T09:18:40+05:30"
+		},
+		"ETag": "xYocf3JS1cUZ4RuHIiBhbqruLuk",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4zQzFBN0RGNzNFREFCMjBE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sound quality is surprisingly poor",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 62,
+			"PublishedAtRaw": "2024-12-13T00:23:29Z",
+			"PublishedAtDateTimeOffset": "2024-12-13T00:23:29+00:00",
+			"PublishedAt": "2024-12-13T05:53:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "IH_4TInx_7c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/IH_4TInx_7c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/IH_4TInx_7c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/IH_4TInx_7c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/IH_4TInx_7c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/IH_4TInx_7c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "\u5E03\u62C9\u59C6\u65AF\uFF1A\u7B2C\u4E8C\u4EA4\u97FF\u66F2 Brahms Symphony No.2, Giuseppe Sinopoli conducts",
+			"VideoOwnerChannelId": "UCDKYBsdRAFzntwbfWDBXdAQ",
+			"VideoOwnerChannelTitle": "Don Goncau"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tYI5eygQuRY"
+		},
+		"ETag": "SnREWHXGjMMB_bLag4A5JbDxPGI",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS42QzdBMzlBQzQzRjQ0QkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 63,
+			"PublishedAtRaw": "2025-02-04T17:54:48Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:54:48+00:00",
+			"PublishedAt": "2025-02-04T23:24:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tYI5eygQuRY"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8RfhQM9EJZY"
+		},
+		"ETag": "2deAvVn5DDdwnThNpBsK_NHq64E",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS4wRjhFM0MxMTU1MEUzQ0VB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 64,
+			"PublishedAtRaw": "2025-02-04T17:54:58Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:54:58+00:00",
+			"PublishedAt": "2025-02-04T23:24:58+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8RfhQM9EJZY"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "yCBA7SR-JwE"
+		},
+		"ETag": "C3PJu06LbAVKSr2ejsnqvQYMKh4",
+		"Id": "UEwxemdOQ29XdF83WnFiUEtzQUE0QzhTZVhsQkFsUHFfNS5CNTZFOTNGQzZEODg1RUQx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
+			"Position": 65,
+			"PublishedAtRaw": "2025-02-04T17:55:02Z",
+			"PublishedAtDateTimeOffset": "2025-02-04T17:55:02+00:00",
+			"PublishedAt": "2025-02-04T23:25:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "yCBA7SR-JwE"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	}
+]

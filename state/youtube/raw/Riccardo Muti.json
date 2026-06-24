@@ -1,0 +1,4558 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "0fMsGdp0poI",
+			"VideoPublishedAtRaw": "2020-04-23T16:26:16Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-23T16:26:16+00:00",
+			"VideoPublishedAt": "2020-04-23T21:56:16+05:30"
+		},
+		"ETag": "1RvTMUAz3EXqZtXIVgYW-CRYnZI",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5ENjI1QUI0MDI5NEQzODFE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Registrazione live dal Teatro alla Scala di Milano (12/06/1994)\n\nAntonin Dvorak\nSINFONIA N. 8 in sol maggiore op. 88 \u0022Inglese\u0022\n\nDirettore d\u0027orchestra: Riccardo Muti\n\nFilarmonica della Scala",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 0,
+			"PublishedAtRaw": "2024-12-02T11:58:07Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:58:07+00:00",
+			"PublishedAt": "2024-12-02T17:28:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0fMsGdp0poI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0fMsGdp0poI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0fMsGdp0poI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0fMsGdp0poI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0fMsGdp0poI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Antonin Dvorak - Symphony n. 8 op. 88 - Riccardo Muti \u0026 Filarmonica della Scala",
+			"VideoOwnerChannelId": "UCxNJficVIYZwGuiYW8a7ZSw",
+			"VideoOwnerChannelTitle": "marco ruzza"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "5sRVkp8Zfmk",
+			"VideoPublishedAtRaw": "2020-01-08T17:27:06Z",
+			"VideoPublishedAtDateTimeOffset": "2020-01-08T17:27:06+00:00",
+			"VideoPublishedAt": "2020-01-08T22:57:06+05:30"
+		},
+		"ETag": "MVdKGLdZGygimsvJLCyAw8wcQnA",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41NTZEOThBNThFOUVGQkVB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 1,
+			"PublishedAtRaw": "2024-12-02T11:59:07Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:59:07+00:00",
+			"PublishedAt": "2024-12-02T17:29:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "5sRVkp8Zfmk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/5sRVkp8Zfmk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/5sRVkp8Zfmk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/5sRVkp8Zfmk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/5sRVkp8Zfmk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bart\u00F3k - Piano Concerto no.2 - Dino Ciani,RAI MIilano,Riccardo Muti - February 28th,1969 - Milano",
+			"VideoOwnerChannelId": "UC8tVpbdyYB21cw76Kv1_ZXg",
+			"VideoOwnerChannelTitle": "Luca Chierici"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "wnIHRFAFKQc",
+			"VideoPublishedAtRaw": "2024-06-16T12:46:51Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-16T12:46:51+00:00",
+			"VideoPublishedAt": "2024-06-16T18:16:51+05:30"
+		},
+		"ETag": "CsA7rTiil145WPmQqpd1VYRLgOk",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4wNEU1MTI4NkZEMzVBN0JF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Strauss\nFrom Italy, symphonic poem, op. 16\n\n[00:00] - 01. Movement: On the Roman Campagna\n[11:30] - 02. Movement: In the Ruins of Rome\n[26:14] - 03. Movement: At the Beach at Sorrento\n[39:16] - 04. Movement: Neapolitan Folk Life\n\nBavarian Radio Symphony Orchestra\nRiccardo Muti, conductor\n\nReccorded live on 31.05.2024\nat the Isarphilharmonie, Munich",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 2,
+			"PublishedAtRaw": "2025-06-06T11:31:44Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:31:44+00:00",
+			"PublishedAt": "2025-06-06T17:01:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "wnIHRFAFKQc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/wnIHRFAFKQc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/wnIHRFAFKQc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/wnIHRFAFKQc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/wnIHRFAFKQc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bavarian Radio Symphony Orchestra - Richard Strauss - From Italy, symphonic poem, op. 16",
+			"VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+			"VideoOwnerChannelTitle": "Grande Valse Viennoise"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sHOYrb7ozro",
+			"VideoPublishedAtRaw": "2025-07-20T16:00:06Z",
+			"VideoPublishedAtDateTimeOffset": "2025-07-20T16:00:06+00:00",
+			"VideoPublishedAt": "2025-07-20T21:30:06+05:30"
+		},
+		"ETag": "SN5ktgzhje8Bo4gi5sQ8PZkHdbM",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4wRjhFM0MxMTU1MEUzQ0VB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Riccardo Muti conducts the Philadelphia Orchestra in performance of Beethoven\u2019s Piano Concerto No. 5 - Emperor Concerto, Op 73 on April 25th, 1985. Alfred Brendel is the featured piano soloist. \n\nThrilled to have another fantastic Muti performance on the channel, and thrilled to have even more of Alfred Brendel (see the two previous Mozart piano concertos I uploaded recently). This was recorded live off the radio by Mr. Marchant\u2019s daughter. \n\n\nTechnical Info:\nScotch 226, quarter track stereo\n10.5\u201D reel\n3 3/4 IPS\nScotch 226 suffers from \u201CSticky Shed Syndrome\u201D and requires special preparation before it can be played. Unfortunately that means there can be occasional dropouts or fades - you can hear some of that in this recording. Luckily the majority of the piece is intact. More details about the preparation I took on the reel:\nhttps://www.youtube.com/post/Ugkxh8TfxsulklceOY2PnuGTzfKIjI7Wvxiv",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 3,
+			"PublishedAtRaw": "2025-07-23T12:17:27Z",
+			"PublishedAtDateTimeOffset": "2025-07-23T12:17:27+00:00",
+			"PublishedAt": "2025-07-23T17:47:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sHOYrb7ozro"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/sHOYrb7ozro/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/sHOYrb7ozro/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/sHOYrb7ozro/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/sHOYrb7ozro/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Emperor Concerto Philadelphia Orchestra Brendel, Muti 1985",
+			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "oyHVgbSIk1o",
+			"VideoPublishedAtRaw": "2020-04-28T10:00:28Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-28T10:00:28+00:00",
+			"VideoPublishedAt": "2020-04-28T15:30:28+05:30"
+		},
+		"ETag": "gS9shDU3hJWJjXW24cV3pophLI0",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4yQUJFNUVCMzVDNjcxRTlF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dino Ciani pianista, Riccardo Muti direttore, Orchestra e Coro del Teatro alla Scala di Milano (05.11.70) Roberto Benaglio, maestro del coro.Voci soliste: Franca Fabbri \u2013 Adriana Anelli \u2013 Nella Verri \u2013 Redento Comacchio \u2013 Doro Antonioli \u2013 Sergio Pezzetti.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 4,
+			"PublishedAtRaw": "2024-12-02T11:57:49Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:57:49+00:00",
+			"PublishedAt": "2024-12-02T17:27:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "oyHVgbSIk1o"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/oyHVgbSIk1o/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/oyHVgbSIk1o/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/oyHVgbSIk1o/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/oyHVgbSIk1o/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/oyHVgbSIk1o/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Fantasia Corale op.80 - Ciani / Muti / La Scala (1970)",
+			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+			"VideoOwnerChannelTitle": "goodmanmusica"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "MQ9uD5YnhXw",
+			"VideoPublishedAtRaw": "2023-10-17T20:17:48Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-17T20:17:48+00:00",
+			"VideoPublishedAt": "2023-10-18T01:47:48+05:30"
+		},
+		"ETag": "mbCt6YC7qVQ1_V-2d6InIbaC0oY",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4xM0YyM0RDNDE4REQ1NDA0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This performance of Beethoven Overture Leonora No. 3 was given in the Royal Albert Hall, London on 18 September 1977. I believe this all Beethoven concert marked the orchestra reverting to its original name from the New Philharmonia. I am afraid that is is only part of the concert which survives in my recordings, my apologies for that.\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_fourfm/1977-09-18#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 5,
+			"PublishedAtRaw": "2025-08-16T08:55:04Z",
+			"PublishedAtDateTimeOffset": "2025-08-16T08:55:04+00:00",
+			"PublishedAt": "2025-08-16T14:25:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "MQ9uD5YnhXw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/MQ9uD5YnhXw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/MQ9uD5YnhXw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/MQ9uD5YnhXw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/MQ9uD5YnhXw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/MQ9uD5YnhXw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Overture Leonora No. 3 - Philharmonia Orchestra - Riccardo Muti (Royal Albert Hall, 1977)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "X1TXPpEQcVI",
+			"VideoPublishedAtRaw": "2020-08-10T13:35:05Z",
+			"VideoPublishedAtDateTimeOffset": "2020-08-10T13:35:05+00:00",
+			"VideoPublishedAt": "2020-08-10T19:05:05+05:30"
+		},
+		"ETag": "4WO7vh5GmeyP7ldT40Jt7lm0u2w",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4yQjZFRkExQjFGODk3RUFD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ludwig van Beethoven\n\nPiano Concerto No. 1 in C major, Op. 15\n[0:06] 1. Allegro con brio ([12:48] Cadenza by Beethoven)\n[14:53] 2. Largo\n[26:33] 3. Rondo: Allegro scherzando\n\n\n\n\n\nRadu Lupu, piano\nRiccardo Muti, conductor\nWiener Philharmoniker\n\n\n\nAugust 12, 1979\nSalzburg, Gro\u00DFes Festspielhaus\n(This performance was given as part of \u0022Salzburger Festspiele 1979\u0022.)\n\n#Beethoven2020 #RaduLupu #RiccardoMuti #WienerPhilharmoniker #Live",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 6,
+			"PublishedAtRaw": "2024-12-02T11:57:37Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:57:37+00:00",
+			"PublishedAt": "2024-12-02T17:27:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "X1TXPpEQcVI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/X1TXPpEQcVI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/X1TXPpEQcVI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/X1TXPpEQcVI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/X1TXPpEQcVI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/X1TXPpEQcVI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven: Piano Concerto No. 1, Op. 15 / Radu Lupu; Riccardo Muti: VPO (1979.8.12 Salzburg)",
+			"VideoOwnerChannelId": "UC9au97pbEBBP3Y1CQcvTDJQ",
+			"VideoOwnerChannelTitle": "Jun Kumazawa"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "LjKjoebsuek",
+			"VideoPublishedAtRaw": "2020-04-24T16:23:41Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-24T16:23:41+00:00",
+			"VideoPublishedAt": "2020-04-24T21:53:41+05:30"
+		},
+		"ETag": "Akm2XsXv4z0EDOMQ5zhCylBmRSY",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41RTNBREYwMkI5QzU3RkY2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Registrazione radio del 28 febbraio 1969\n\nBela Bartok\nCONCERTO PER PIANOFORTE E ORCHESTRA n. 2 Sz. 95\n\nPianoforte: Dino Ciani\n\nDirettore d\u0027orchestra: Riccardo Muti\nOrchestra Sinfonica di Milano della RAI",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 7,
+			"PublishedAtRaw": "2024-12-02T11:58:02Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:58:02+00:00",
+			"PublishedAt": "2024-12-02T17:28:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "LjKjoebsuek"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/LjKjoebsuek/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/LjKjoebsuek/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/LjKjoebsuek/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/LjKjoebsuek/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bela Bartok - Piano Concerto n. 2 - Riccardo Muti \u0026 Dino Ciani (historical recording)",
+			"VideoOwnerChannelId": "UCxNJficVIYZwGuiYW8a7ZSw",
+			"VideoOwnerChannelTitle": "marco ruzza"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "CvWqewbuxb8",
+			"VideoPublishedAtRaw": "2017-04-08T12:17:41Z",
+			"VideoPublishedAtDateTimeOffset": "2017-04-08T12:17:41+00:00",
+			"VideoPublishedAt": "2017-04-08T17:47:41+05:30"
+		},
+		"ETag": "OUZw5SX4t9yGhNG0_pk_nX7CgOs",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5EQkE3RTJCQTJEQkFBQTcz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Emil Gilels, Riccardo Muti \u0026 Philharmonia Orchestra\nUsher Hall, Edinburgh, 22 Aug. 1980\n\nBrahms: Concerto for Piano and Orchestra No. 2 in B-flat major, Op. 83\n00:00 - 1. Allegro non troppo\n18:59 - 2. Allegro appassionato\n28:28 - 3. Andante\n41:54 - 4. Allegretto grazioso",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 8,
+			"PublishedAtRaw": "2025-08-20T06:10:37Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:10:37+00:00",
+			"PublishedAt": "2025-08-20T11:40:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "CvWqewbuxb8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/CvWqewbuxb8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/CvWqewbuxb8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/CvWqewbuxb8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/CvWqewbuxb8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/CvWqewbuxb8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms Piano Concerto No. 2 - Gilels, Muti, Philharmonia O (Live, 1980)",
+			"VideoOwnerChannelId": "UCd6DfN2xyvfrMo7vegTBa7A",
+			"VideoOwnerChannelTitle": "channel1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "uK0BvEiwZ9g",
+			"VideoPublishedAtRaw": "2024-08-21T10:56:21Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-21T10:56:21+00:00",
+			"VideoPublishedAt": "2024-08-21T16:26:21+05:30"
+		},
+		"ETag": "fU68CD4EZC2mP3DdZ2Bnvgc5qX4",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms: Klavierkonzert Nr. 2 op. 83 / Piano Concerto No. 2 op. 83\nLeif Ove Andsnes\nNew York Philharmonic\nRiccardo Muti\n17 January 2008, Geffen Hall, New York\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 9,
+			"PublishedAtRaw": "2024-12-02T11:49:37Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:49:37+00:00",
+			"PublishedAt": "2024-12-02T17:19:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "uK0BvEiwZ9g"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/uK0BvEiwZ9g/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/uK0BvEiwZ9g/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/uK0BvEiwZ9g/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/uK0BvEiwZ9g/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/uK0BvEiwZ9g/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms: Klavierkonzert Nr. 2 / Piano Concerto No. 2--Leif Ove Andsnes, Riccardo Muti (New York 2008)",
+			"VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
+			"VideoOwnerChannelTitle": "Quality Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "STvMJ7IhOGo",
+			"VideoPublishedAtRaw": "2021-07-23T20:00:07Z",
+			"VideoPublishedAtDateTimeOffset": "2021-07-23T20:00:07+00:00",
+			"VideoPublishedAt": "2021-07-24T01:30:07+05:30"
+		},
+		"ETag": "n33B5_JfQDcteDnpdokzeBQC9O8",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5DNkMwRUI2MkI4QkI4NDFG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "bruckner   sinfon\u00EDa n\u00BA 6 en La mayor\n\nI.   maestoso ( 0:00 - )\nII.  adagio. sehr langsam\nIII. scherzo: nicht schnell - trio langsam\nIV. finale : bewegt, doch nicht zu schnell\n\n\n\n\n( grabaci\u00F3n en vivo.   enero 9, 1988 )\n\n*. r. muti                 Orquesta Filarm\u00F3nica de Berl\u00EDn",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 10,
+			"PublishedAtRaw": "2024-12-02T11:56:31Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:56:31+00:00",
+			"PublishedAt": "2024-12-02T17:26:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "STvMJ7IhOGo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/STvMJ7IhOGo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/STvMJ7IhOGo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/STvMJ7IhOGo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/STvMJ7IhOGo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "bruckner   sinfon\u00EDa n\u00BA 6 en La mayor ( r. muti )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "BnLH0qsOYKo",
+			"VideoPublishedAtRaw": "2024-11-02T12:00:13Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-02T12:00:13+00:00",
+			"VideoPublishedAt": "2024-11-02T17:30:13+05:30"
+		},
+		"ETag": "z8JcIknEuamG5uOAZZJ0uNIzW_Q",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC43NERCMDIzQzFBMERCMEE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "bruckner  symphony no.6 in a major\n\ni.   majestoso ( 0:00 - )\nii.  adagio: sehr feierlich ( 16:48 - )\niii. scherzo: nicht schnell - trio: langsam ( 34:08 - )\niv. finale: bewegt, doch nicht zu schnell ( 42:07 - )\n\n( live recording.  7.27.1986  gro\u00DFes festspielhaus,  salburg )\n\n\n\n*. source : lucky ball cd-r (modified)\n*. r. muti              vienna philharmonic",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 11,
+			"PublishedAtRaw": "2024-12-11T21:11:54Z",
+			"PublishedAtDateTimeOffset": "2024-12-11T21:11:54+00:00",
+			"PublishedAt": "2024-12-12T02:41:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "BnLH0qsOYKo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/BnLH0qsOYKo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/BnLH0qsOYKo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/BnLH0qsOYKo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/BnLH0qsOYKo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/BnLH0qsOYKo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "bruckner  symphony no.6 in a major ( r. muti )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-S0HCsKQUv0",
+			"VideoPublishedAtRaw": "2024-09-23T14:55:03Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-23T14:55:03+00:00",
+			"VideoPublishedAt": "2024-09-23T20:25:03+05:30"
+		},
+		"ETag": "lFffFuOula5wNvFcQuISVwDimdc",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orchestra\uFF1AWiener Philharmoniker\nConductor\uFF1ARiccardo Muti\nAugust 15, 2024  Gro\u00DFes Festspielhaus , Salzburg",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 12,
+			"PublishedAtRaw": "2024-12-02T11:49:00Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:49:00+00:00",
+			"PublishedAt": "2024-12-02T17:19:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-S0HCsKQUv0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/-S0HCsKQUv0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/-S0HCsKQUv0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/-S0HCsKQUv0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/-S0HCsKQUv0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/-S0HCsKQUv0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner\uFF1ASymphony No. 8 in C minor  (Muti / WPO)",
+			"VideoOwnerChannelId": "UCse6psbZWbPdLI-mKbEBbPQ",
+			"VideoOwnerChannelTitle": "sagami_ 01"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "o5bvRsw90QM",
+			"VideoPublishedAtRaw": "2022-11-27T19:32:33Z",
+			"VideoPublishedAtDateTimeOffset": "2022-11-27T19:32:33+00:00",
+			"VideoPublishedAt": "2022-11-28T01:02:33+05:30"
+		},
+		"ETag": "lmX391JbojbMcLMxDBFf3xnk0x4",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5GNDg1Njc1QzZERjlFRjE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Riccardo Muti, conductor of the Chicago Symphony Orchestra, said about James M. Stephenson\u0027s bass trombone concerto: \n\u201CIt\u2019s a wonderful piece, which I enjoyed more and more throughout the week. It\u2019s truly a well-crafted piece.\u201C\nJames himself writes in the program notes:\n\u0022When Charlie Vernon first told me in November of 2015 that I would be writing a new bass trombone concerto for him, he highlighted two things: 1) that it be the \u201Cmost profound, beautiful and lasting musical event to be played on the bass trombone\u201D (thanks, Charlie, I\u2019ll do my best\u2026) and 2) that it would be \u201Ca great story, like a book you can\u2019t stop reading.\u201D As I thought about these requirements, I began to think about something I consider pretty profound: life itself. Perhaps this is because at the time of the world premiere I will be 50 years old, when one starts thinking about such heavy subjects; but suffice it to say that it seemed a good time to write something that heeded the significance of life. In thinking about life, I kept coming back to the rhythms of life, and its ups and downs. This idea spurred on my initial inspiration, and I begin to feel a pulse that would inspire the entire work. A pulse, of course, fits nicely into both worlds: life and music. I coupled this early on with a rising note-motif of A-B-C, which serendipitously couples nicely with Charlie\u2019s idea of this piece being like the reading of a book.\u0022\n\nCOMPOSER: James M. Stephenson\nCONDUCTOR: Riccardo Muti\nBASS TROMBONE: Charles Vernon\nORCHESTRA: Chicago Symphony Orchestra\n\nTRACKLIST:\n0:00 - I. Chapter 1\n10:39 - II. Chapter 2\n\nNOTE: This is a live performance!\n\nPlease be aware that all of the music (and images) featured in this video belong to their respective owners, and I or this channel does not claim any right over them. I upload these solely for archiving purposes, and for the sharing and enjoyment of great music. Monetization is not enabled. If you are the rightful owner of copyrighted material used and would like the video removed from YouTube, please, instead of reporting/striking my channel, leave a comment below with your statement and I will take the video down effective immediately.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 13,
+			"PublishedAtRaw": "2024-12-02T11:55:26Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:55:26+00:00",
+			"PublishedAt": "2024-12-02T17:25:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "o5bvRsw90QM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/o5bvRsw90QM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/o5bvRsw90QM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/o5bvRsw90QM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/o5bvRsw90QM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/o5bvRsw90QM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Concerto for Bass Trombone and Orchestra (2019) \u2014 James M. Stephenson",
+			"VideoOwnerChannelId": "UCEfZVKCBa7LDYg5VbaC49-Q",
+			"VideoOwnerChannelTitle": "EKmusic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZRw5fn3u_Y4",
+			"VideoPublishedAtRaw": "2025-05-01T21:35:15Z",
+			"VideoPublishedAtDateTimeOffset": "2025-05-01T21:35:15+00:00",
+			"VideoPublishedAt": "2025-05-02T03:05:15+05:30"
+		},
+		"ETag": "iSQ9NnkZxfqDthemPZdS8OYvvqU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4wMTYxQzVBRDI1NEVDQUZE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Claude Debussy (1862-1918): La Mer, Symphonic Poem\n\nSymphonieorchester des Bayerischen Rundfunks\nConductor: Riccardo Muti (*1941)\n\n15-17.12.1993, Herkulessaal der Residenz, M\u00FCnchen (live recording)",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 14,
+			"PublishedAtRaw": "2025-06-06T21:26:27Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T21:26:27+00:00",
+			"PublishedAt": "2025-06-07T02:56:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZRw5fn3u_Y4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZRw5fn3u_Y4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZRw5fn3u_Y4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ZRw5fn3u_Y4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZRw5fn3u_Y4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZRw5fn3u_Y4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Debussy: La Mer - Muti/Symphonieorchester des Bayerischen Rundfunks",
+			"VideoOwnerChannelId": "UCJmSdrHyH-Be34PzCxuIfQw",
+			"VideoOwnerChannelTitle": "Rayan Benharzallah"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Rkee6F6kc0o",
+			"VideoPublishedAtRaw": "2020-03-02T18:40:04Z",
+			"VideoPublishedAtDateTimeOffset": "2020-03-02T18:40:04+00:00",
+			"VideoPublishedAt": "2020-03-03T00:10:04+05:30"
+		},
+		"ETag": "eyj5QAX9Wh-zj2dcClNJc_8iciU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC42Qzk5MkEzQjVFQjYwRDA4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u2013\nPiano Concerto in A Minor op. 16 (1872):\nI. Allegro molto moderato (00:13)\nII. Adagio (13:28)\nIII. Allegro molto moderato e marcato \u2013 Quasi presto \u2013 Andante maestoso (19:57)\n\nSviatoslav Richter, pianoforte\n\nRiccardo Muti, direttore\n\nOrchestra Sinfonica di Roma della Rai\n\n(Inedito, Roma, Auditorium della RAI, 18 Novembre 1974)\n\nRECENSIONE DAL \u0022MESSAGGERO\u0022 DEL 16/11/1974\n\n(\u2026dopo un\u2019analisi prolungata del concerto di Grieg\u2026 )\n\nIn quelle parentesi drammatiche s\u2019\u00E8 gettato Richter con la zampata del suo pianismo leonino, dando loro un credito che forse non meritano. L\u2019importante, comunque, \u00E8 che il lirismo grieghiano, con il suo profumo tenue, come di fiori di serra, si sia espanso, per il tocco chiaro, quasi algido del pianista e per il fraseggio della parte orchestrale. (Teodoro Celli)\n\nhttp://sviatoslavrichter.blogspot.com/2009/04/i-concerti-di-sviatoslav-richter-in.html\n\n\u2013",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 15,
+			"PublishedAtRaw": "2024-12-02T11:58:57Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:58:57+00:00",
+			"PublishedAt": "2024-12-02T17:28:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Rkee6F6kc0o"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Rkee6F6kc0o/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Rkee6F6kc0o/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Rkee6F6kc0o/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Rkee6F6kc0o/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Rkee6F6kc0o/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "E. GRIEG \u2013 Piano Concerto in A Minor op. 16 S. Richter \u0026 R. Muti (Roma, 16.11.1974, unpublished)",
+			"VideoOwnerChannelId": "UCt6iN_4WYLp7JxKl3clzsVw",
+			"VideoOwnerChannelTitle": "MyPianoRarities"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "t-ZKmVHfgac",
+			"VideoPublishedAtRaw": "2011-12-09T19:59:33Z",
+			"VideoPublishedAtDateTimeOffset": "2011-12-09T19:59:33+00:00",
+			"VideoPublishedAt": "2011-12-10T01:29:33+05:30"
+		},
+		"ETag": "anGkCOQMQIHSPc02cCR3qS72ei8",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5FQUY2Qzk4RUFDN0ZFRkZF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Elgar\u0027s Concert Overture \u0022In the South\u0022 was inspired by a holiday in the Italian resort of Alassio in 1903. The bad weather he and his wife endured didn\u0027t prevent him from composing this brilliant symphonic tone-poem. It is superbly played here by the glorious Philadelphia Orchestra under its then Music Director, Riccardo Muti, in a 1986 radio broadcast.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 16,
+			"PublishedAtRaw": "2025-08-20T06:11:12Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:11:12+00:00",
+			"PublishedAt": "2025-08-20T11:41:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "t-ZKmVHfgac"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/t-ZKmVHfgac/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/t-ZKmVHfgac/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/t-ZKmVHfgac/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/t-ZKmVHfgac/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Elgar \u0027In the South\u0027 (Alassio) - Riccardo Muti / Philadelphia Orchestra",
+			"VideoOwnerChannelId": "UCJbfiRvOlcTfHrbi98L9IZA",
+			"VideoOwnerChannelTitle": "adam28xx"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tbb5T-mtnuM",
+			"VideoPublishedAtRaw": "2020-04-24T16:28:13Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-24T16:28:13+00:00",
+			"VideoPublishedAt": "2020-04-24T21:58:13+05:30"
+		},
+		"ETag": "bnueoWL94wtCEVxrbQGCkhC8JxU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC40QzRDOEU0QUYwNUIxN0M1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Registrazione effettuata al Teatro Alighieri di Ravenna nell\u0027ambito del Ravenna Festival 2004 (27 giugno 2004)\n\nFranz Liszt\nCONCERTO PER PIANOFORTE E ORCHESTRA n. 2 in la maggiore S. 125\n\nPianoforte: Paolo Restani\n\nDir: Riccardo Muti\nFilarmonica della Scala",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 17,
+			"PublishedAtRaw": "2024-12-02T11:57:58Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:57:58+00:00",
+			"PublishedAt": "2024-12-02T17:27:58+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tbb5T-mtnuM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tbb5T-mtnuM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tbb5T-mtnuM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tbb5T-mtnuM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tbb5T-mtnuM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Franz Liszt - Piano Concerto n. 2 - Riccardo Muti \u0026 Paolo Restani (live recording)",
+			"VideoOwnerChannelId": "UCxNJficVIYZwGuiYW8a7ZSw",
+			"VideoOwnerChannelTitle": "marco ruzza"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "c93mkQpG_5w",
+			"VideoPublishedAtRaw": "2025-09-21T01:37:42Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-21T01:37:42+00:00",
+			"VideoPublishedAt": "2025-09-21T07:07:42+05:30"
+		},
+		"ETag": "2qAF35d9TdxoW3SEMQQ8Duyo8wk",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5EMUJFNzRCNDRFQjE5RjM4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 18,
+			"PublishedAtRaw": "2025-09-21T02:24:09Z",
+			"PublishedAtDateTimeOffset": "2025-09-21T02:24:09+00:00",
+			"PublishedAt": "2025-09-21T07:54:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "c93mkQpG_5w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/c93mkQpG_5w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/c93mkQpG_5w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/c93mkQpG_5w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/c93mkQpG_5w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/c93mkQpG_5w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Ghedini Appunti Hindemith Strings Brass Philadelphia Muti Nov 1972 Live",
+			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+			"VideoOwnerChannelTitle": "Peter Kohn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "koSzeWYmA7E",
+			"VideoPublishedAtRaw": "2024-03-30T12:59:06Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-30T12:59:06+00:00",
+			"VideoPublishedAt": "2024-03-30T18:29:06+05:30"
+		},
+		"ETag": "JbBfjrbnO9Apvn-ijrBeJy2BHTo",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sinfonia Concertante in B flat for Violin, Cello, Oboe, Bassoon",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 19,
+			"PublishedAtRaw": "2024-12-02T11:51:18Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:51:18+00:00",
+			"PublishedAt": "2024-12-02T17:21:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "koSzeWYmA7E"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/koSzeWYmA7E/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/koSzeWYmA7E/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/koSzeWYmA7E/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Haydn Sinfonia Concertante Riccardo Muti, Jing Zhao",
+			"VideoOwnerChannelId": "UCQf-V54L8sG8I5oAeX64iSA",
+			"VideoOwnerChannelTitle": "Iris Yuan"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DOEr5Qbdgmo",
+			"VideoPublishedAtRaw": "2018-04-06T07:27:20Z",
+			"VideoPublishedAtDateTimeOffset": "2018-04-06T07:27:20+00:00",
+			"VideoPublishedAt": "2018-04-06T12:57:20+05:30"
+		},
+		"ETag": "TRySpeWCF0t_4AY_RtVQ9Ubh8HM",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC43QzNCNkZENzIyMDY2MjZB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gala di riapertura del Teatro La Fenice (14 dicembre 2003)\n\nIgor Stravinsky, Symphonie de Psaumes\nper coro e orchestra\n\nOrchestra e Coro del Teatro La Fenice\nDirettore \u23AE Riccardo Muti\nMestro del Coro \u23AE Piero Monti",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 20,
+			"PublishedAtRaw": "2025-08-20T06:10:19Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:10:19+00:00",
+			"PublishedAt": "2025-08-20T11:40:19+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DOEr5Qbdgmo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/DOEr5Qbdgmo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/DOEr5Qbdgmo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/DOEr5Qbdgmo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/DOEr5Qbdgmo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/DOEr5Qbdgmo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Igor Stravinsky, Symphonie de Psaumes (Riccardo Muti)",
+			"VideoOwnerChannelId": "UCkxgPmBI_lVDCy8oiMVheEw",
+			"VideoOwnerChannelTitle": "Teatro La Fenice"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "LVyZhPAGDsI",
+			"VideoPublishedAtRaw": "2024-03-08T04:50:37Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-08T04:50:37+00:00",
+			"VideoPublishedAt": "2024-03-08T10:20:37+05:30"
+		},
+		"ETag": "Fuj19GfPLCcwJCAHiEUCRmlpbAY",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Leon Spierer Mendelssohn Violin Concerto in E min Op. 64 Ricardo Muti Berlin Philharmonic - 11.03.1986 Live-Berlin",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 21,
+			"PublishedAtRaw": "2024-12-02T11:51:40Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:51:40+00:00",
+			"PublishedAt": "2024-12-02T17:21:40+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "LVyZhPAGDsI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/LVyZhPAGDsI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/LVyZhPAGDsI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/LVyZhPAGDsI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/LVyZhPAGDsI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/LVyZhPAGDsI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Leon Spierer - Mendelssohn Violin Concerto in E min Op.64 - Riccardo Muti, Berlin Philharmonic 1986",
+			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dCkOV0KjF78",
+			"VideoPublishedAtRaw": "2025-04-27T13:01:05Z",
+			"VideoPublishedAtDateTimeOffset": "2025-04-27T13:01:05+00:00",
+			"VideoPublishedAt": "2025-04-27T18:31:05+05:30"
+		},
+		"ETag": "9igHfXNFO6EoaOyp10kXlUS4qKA",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5GNzk2RTlDQTNCQzJCQzJG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Michele Campanella is the featured piano soloist in a Philadelphia Orchestra performance of Franz Liszt\u2019s Concerto for Piano and Orchestra No. 2 in A major, S.125 in September or October of 1984. Riccardo Muti conducts. This is a recording of a live performance broadcast on the radio and recorded to tape. No date was written on the tape box (other than 1984) so looking up Philadelphia Orchestra performances I see multiple possible dates in late September or early October of 1984. \n\nThis performance does not appear to be on record or on YouTube so I\u2019m happy to have apparently surfaced a lost recording. \n\nTechnical Info:\nRealistic 44-758A, quarter track stereo\n7\u201D reel\n3 3/4 IPS\nThere were some pretty loud scratchy radio crackling noises early in the performance that I managed to mostly remove, but some quiet ones are still there. There is tape degradation apparent in the first minute or so of the recording but it goes away pretty quickly and the rest sounds pretty great, especially for being recorded at the slower speed of 3 3/4 inches per second.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 22,
+			"PublishedAtRaw": "2025-11-29T08:42:24Z",
+			"PublishedAtDateTimeOffset": "2025-11-29T08:42:24+00:00",
+			"PublishedAt": "2025-11-29T14:12:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dCkOV0KjF78"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/dCkOV0KjF78/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/dCkOV0KjF78/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/dCkOV0KjF78/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/dCkOV0KjF78/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/dCkOV0KjF78/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt Piano Concerto No 2: Campanella, Muti Philadelphia Orchestra 1984",
+			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "e1X33b5Q8ec",
+			"VideoPublishedAtRaw": "2023-07-24T17:21:57Z",
+			"VideoPublishedAtDateTimeOffset": "2023-07-24T17:21:57+00:00",
+			"VideoPublishedAt": "2023-07-24T22:51:57+05:30"
+		},
+		"ETag": "_Zh--BI-VIPC5i9jjCkr-X3thDE",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4xNjIyNEE0MDEyRDlCMjBE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Off of my Adobe Audition workspace. I repaired the live recording to \u0022no audience\u0022 condition and did some adjustments to make it more studio-like.\nWikipedia has an extensive article of the structure and the background of the piece.\nhttps://en.wikipedia.org/wiki/Les_pr%C3%A9ludes\n\nRecorded August 15, 2012\nGro\u00DFes Festspielhaus, Salzburg",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 23,
+			"PublishedAtRaw": "2025-08-20T06:11:48Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:11:48+00:00",
+			"PublishedAt": "2025-08-20T11:41:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "e1X33b5Q8ec"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/e1X33b5Q8ec/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/e1X33b5Q8ec/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/e1X33b5Q8ec/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/e1X33b5Q8ec/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/e1X33b5Q8ec/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: \u0022Preludes\u0022, Riccardo Muti / Wiener Philharmoniker, 2012 live repaired",
+			"VideoOwnerChannelId": "UCMKJdaq2iYnRYvplVjCiNJg",
+			"VideoOwnerChannelTitle": "Itapirkanmaa2"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "BSdHrIf7Rsc",
+			"VideoPublishedAtRaw": "2025-05-04T13:00:19Z",
+			"VideoPublishedAtDateTimeOffset": "2025-05-04T13:00:19+00:00",
+			"VideoPublishedAt": "2025-05-04T18:30:19+05:30"
+		},
+		"ETag": "nTf05vO26VnNWvq3qo29uka7rlE",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5CNTZFOTNGQzZEODg1RUQx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Philadelphia Symphony under direction of Riccardo Muti performs Berlioz\u2019s Symphonie fantastique in September or October of 1984. This is a recording of a live performance broadcast on the radio and recorded to tape. No date was written on the tape box (other than 1984) so looking up Philadelphia Orchestra performances I see multiple possible dates in late September or early October of 1984. \n\nThis is the same live broadcast from the Liszt Concerto I posted last week:\nhttps://www.youtube.com/watch?v=dCkOV0KjF78\n\nA record was made of this same piece by the Philadelphia Symphony and Muti in 1984, but that record is not this recording - it does not have an audience like this live performance. Because of that, I believe this video is the only place this particular performance exists. \n\nTechnical Info:\nRealistic 44-758A, quarter track stereo\n7\u201D reel\n3 3/4 IPS",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 24,
+			"PublishedAtRaw": "2025-08-16T08:50:47Z",
+			"PublishedAtDateTimeOffset": "2025-08-16T08:50:47+00:00",
+			"PublishedAt": "2025-08-16T14:20:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "BSdHrIf7Rsc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/BSdHrIf7Rsc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/BSdHrIf7Rsc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/BSdHrIf7Rsc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/BSdHrIf7Rsc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "LIVE recording: Berlioz Symphonie fantastique Muti, Philadelphia Orchestra 1984",
+			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tlVgkzqd7tM",
+			"VideoPublishedAtRaw": "2024-01-06T20:17:37Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-06T20:17:37+00:00",
+			"VideoPublishedAt": "2024-01-07T01:47:37+05:30"
+		},
+		"ETag": "8I_y1hwvaaetKxMNkhDRL65ueJA",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This performance was taken from a concert given on 17 January 1979 in the Royal Festival Hall, London\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1979-01-17#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 25,
+			"PublishedAtRaw": "2024-12-02T11:52:20Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:20+00:00",
+			"PublishedAt": "2024-12-02T17:22:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tlVgkzqd7tM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tlVgkzqd7tM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tlVgkzqd7tM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tlVgkzqd7tM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tlVgkzqd7tM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tlVgkzqd7tM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn Symphony No. 5 - Philharmonia Orchestra - Riccardo Muti (RFH, 1979)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lTRW6qifpKY",
+			"VideoPublishedAtRaw": "2023-10-09T03:34:22Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-09T03:34:22+00:00",
+			"VideoPublishedAt": "2023-10-09T09:04:22+05:30"
+		},
+		"ETag": "3BfDgl8wUCEbLwwDJYI4aqN8mCw",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC45RjNFMDhGQ0Q2RkFCQTc1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Mendelssohn Symphony No. 4 \u0027Italian\u0027\n0:29:46 Mozart Sinfonia concertante in E flat major, K 364\n1:01:18 Dvo\u0159\u00E1k Symphony No. 9 in E minor, \u2018From the New World\u2019\n\nThis BBC Promenade Concert was given on 4 September 1976 in the Royal Albert Hall, London, and marked the debut of Riccardo Muti at the Proms.\n\nCarl Pini (violin) - Mozart\nCsaba Erd\u00E9lyi (viola) - Mozart\nNew Philharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://www.bbc.co.uk/events/eqfbp6\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 26,
+			"PublishedAtRaw": "2024-12-02T11:53:33Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:53:33+00:00",
+			"PublishedAt": "2024-12-02T17:23:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lTRW6qifpKY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lTRW6qifpKY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lTRW6qifpKY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lTRW6qifpKY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lTRW6qifpKY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lTRW6qifpKY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn, Mozart, Dvo\u0159\u00E1k - New Philharmonia - Riccardo Muti (Royal Albert Hall, 1976)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lOsXgBdFStg",
+			"VideoPublishedAtRaw": "2023-10-25T17:00:50Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-25T17:00:50+00:00",
+			"VideoPublishedAt": "2023-10-25T22:30:50+05:30"
+		},
+		"ETag": "zfNUq-YvZJfVtNNPlUTYjojqXxw",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Mendelssohn Symphony No. 3 \u0027Scottish\u0027\n0:39:09 Ravel Piano Concerto for the Left Hand (soloist Andrei Gavrilov)\n0:57:35 Mussorgsky \u0027Pictures at an Exhibition\u0027 (Orch. Ravel)\n\nThis BBC Promenade Concert was given on  2 September 1978 in the Royal Albert Hall, London\n\nAndrei Gavrilov (piano)\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://www.bbc.co.uk/events/egcd4f\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 27,
+			"PublishedAtRaw": "2024-12-02T11:53:11Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:53:11+00:00",
+			"PublishedAt": "2024-12-02T17:23:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lOsXgBdFStg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lOsXgBdFStg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lOsXgBdFStg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lOsXgBdFStg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lOsXgBdFStg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lOsXgBdFStg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn, Ravel, Mussorgsky - Philharmonia Orchestra - Riccardo Muti (Royal Albert Hall, 1978)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "c31UvGxQT-g",
+			"VideoPublishedAtRaw": "2023-02-04T16:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2023-02-04T16:00:10+00:00",
+			"VideoPublishedAt": "2023-02-04T21:30:10+05:30"
+		},
+		"ETag": "QRMH9mh2k2alG8_qSobLUJKGUfo",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4xOTEzQzhBQzU3MDNDNjcz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 - I. Allegro affettuoso\n15:54 - II. Intermezzo - Andantino grazioso\n21:25 - III. Allegro vivace\n\nPianist: Mitsuko Uchida\nConductor: Riccardo Muti\nOrchestra: Chicago Symphony Orchestra\n\n\uD83C\uDF1F Please consider joining the membership scheme on Patreon / Buy Me A Coffee! You may opt for a one-off donation through Buy Me A Coffee. \uD83C\uDF1F\n\u2022 Buy Me A Coffee: https://www.buymeacoffee.com/the_sokolover\n\u2022 Patreon: https://www.patreon.com/the_sokolover\n\n**No copyright infringement intended**\n\n#uchida #schumann",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 28,
+			"PublishedAtRaw": "2024-12-02T11:55:11Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:55:11+00:00",
+			"PublishedAt": "2024-12-02T17:25:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "c31UvGxQT-g"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/c31UvGxQT-g/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/c31UvGxQT-g/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/c31UvGxQT-g/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/c31UvGxQT-g/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/c31UvGxQT-g/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mitsuko Uchida - Schumann Piano Concerto in A minor, Op.54 (Muti, CSO) - Live 2014",
+			"VideoOwnerChannelId": "UCxaGLr9GbB0u_CdDU4vvGvA",
+			"VideoOwnerChannelTitle": "The Sokolover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "spgrQwBg9ek",
+			"VideoPublishedAtRaw": "2025-06-01T20:46:23Z",
+			"VideoPublishedAtDateTimeOffset": "2025-06-01T20:46:23+00:00",
+			"VideoPublishedAt": "2025-06-02T02:16:23+05:30"
+		},
+		"ETag": "SPeSR8BMOHLcepiXdfhQzulPaqA",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4wMDFGNzBEOTU4Q0Y1Q0RG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wolfgang Amadeus Mozart (1756 - 1791)\nSymphony No. 41 in C Major \u0022Jupiter\u0022 K 551\n\nI. Allegro vivace, in C Major 00:00\nII. Andante cantabile, in F Major 12:44\nIII. Minuetto: Allegretto, in C Major 25:16\nIV. Molto allegro, in C Major 30:14\n\nRiccardo Muti\nWiener Hofmusikkapelle (members of the Vienna Philharmonic)\n\n18. May 2025, live recording",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 29,
+			"PublishedAtRaw": "2025-08-20T06:19:45Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:19:45+00:00",
+			"PublishedAt": "2025-08-20T11:49:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "spgrQwBg9ek"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/spgrQwBg9ek/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/spgrQwBg9ek/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/spgrQwBg9ek/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/spgrQwBg9ek/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/spgrQwBg9ek/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart - Symphony No. 41 \u0022Jupiter\u0022 | Muti - Wiener Hofmusikkapelle (Wiener Philharmoniker)",
+			"VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+			"VideoOwnerChannelTitle": "Soffronitsky"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fHopfgiGBB4",
+			"VideoPublishedAtRaw": "2025-09-21T01:40:56Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-21T01:40:56+00:00",
+			"VideoPublishedAt": "2025-09-21T07:10:56+05:30"
+		},
+		"ETag": "2LxOqZmkUPpLVTIfGUD65LlxP08",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5CNEYyNTVBNDdGMDI1MDNC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 30,
+			"PublishedAtRaw": "2025-09-21T02:22:48Z",
+			"PublishedAtDateTimeOffset": "2025-09-21T02:22:48+00:00",
+			"PublishedAt": "2025-09-21T07:52:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fHopfgiGBB4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fHopfgiGBB4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fHopfgiGBB4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/fHopfgiGBB4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fHopfgiGBB4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/fHopfgiGBB4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart 34 Pf Cto 9 Entremont Philadelphia Muti Oct 1972 Live",
+			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+			"VideoOwnerChannelTitle": "Peter Kohn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WIjAGbyQO9M",
+			"VideoPublishedAtRaw": "2014-04-10T19:01:08Z",
+			"VideoPublishedAtDateTimeOffset": "2014-04-10T19:01:08+00:00",
+			"VideoPublishedAt": "2014-04-11T00:31:08+05:30"
+		},
+		"ETag": "iPab9_3wgIZ4CrCB40LokQhJXRA",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC44MkM2RjVEQkQ5N0I2MjVE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mitsuko Uchida is not only at home with her renditions of Beethoven but she actually started out recording and performing the full cycle of Mozart piano sonatas and concertos early on in her career. Most critics still believe that she is at her best with Mozart. One thing is certain: she keeps playing better and gets better looking with every passing year!\n\nWhile the C major concerto has been slightly downplayed by musicologists, it remains not only magisterial but moving -- broad and splendid, yet keenly detailed, in the first movement; touchingly and sweet in the slow movement, with its huge, expressively vocal leaps in the solo part; and filled with gleams and shadows in the animated  finale.  Riccardo Muti is conducting the Vienna Philharmonic Orchestra.\nWho are the greatest Living Pianists? See: https://www.rawassertions.com/the-13-greatest-living-classical-pianists-a-bakers-dozen/",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 31,
+			"PublishedAtRaw": "2025-08-22T02:48:04Z",
+			"PublishedAtDateTimeOffset": "2025-08-22T02:48:04+00:00",
+			"PublishedAt": "2025-08-22T08:18:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WIjAGbyQO9M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WIjAGbyQO9M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WIjAGbyQO9M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WIjAGbyQO9M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WIjAGbyQO9M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WIjAGbyQO9M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "MOZART PIANO CONCERTO No 25 C major K 503, Mitsuko Uchida, Riccardo Muti",
+			"VideoOwnerChannelId": "UCnueNY0E-QodiHAnQ2HHNJw",
+			"VideoOwnerChannelTitle": "GreatPerformers1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "4-SsCa8DavU",
+			"VideoPublishedAtRaw": "2023-11-28T18:36:43Z",
+			"VideoPublishedAtDateTimeOffset": "2023-11-28T18:36:43+00:00",
+			"VideoPublishedAt": "2023-11-29T00:06:43+05:30"
+		},
+		"ETag": "sXQp8YKp5gf6Nk1tb9pfobaJAMo",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Mozart Symphony No. 34\n0:21:47 Mozart Piano Concerto No. 22 (soloist Sviatoslav Richter)\nThese performances are taken from a concert given in the Royal Festival Hall, London on 3 April 1979.\n\nSviatoslav Richter (piano)\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1979-04-03#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 32,
+			"PublishedAtRaw": "2024-12-02T11:52:50Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:50+00:00",
+			"PublishedAt": "2024-12-02T17:22:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "4-SsCa8DavU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/4-SsCa8DavU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/4-SsCa8DavU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/4-SsCa8DavU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/4-SsCa8DavU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/4-SsCa8DavU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart Symphony No. 34, Piano Concerto No. 22 (Richter) - Philharmonia - Riccardo Muti (RFH, 1979)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "e5p6FnJfZJ8",
+			"VideoPublishedAtRaw": "2023-11-16T22:40:00Z",
+			"VideoPublishedAtDateTimeOffset": "2023-11-16T22:40:00+00:00",
+			"VideoPublishedAt": "2023-11-17T04:10:00+05:30"
+		},
+		"ETag": "0XB8BpqfIh-RNmw8EIeJGS28E4Y",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This BBC Promenade Concert was given on 1 September 1978 in the Royal Albert Hall, London\n\n0:00:00 Mozart Serenade in D major \u0027Serenata notturna\u0027, K 239\n0:12:50 Mozart Piano Concerto No. 23 (soloist Clifford Curzon)\n0:42:02 Berlioz Romeo and Juliet (excerpts)\n\nClifford Curzon (piano)\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://www.bbc.co.uk/events/evn5v2\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 33,
+			"PublishedAtRaw": "2024-12-02T11:52:58Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:58+00:00",
+			"PublishedAt": "2024-12-02T17:22:58+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "e5p6FnJfZJ8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/e5p6FnJfZJ8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/e5p6FnJfZJ8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/e5p6FnJfZJ8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/e5p6FnJfZJ8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/e5p6FnJfZJ8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart, Berlioz - Philharmonia Orchestra - Riccardo Muti (Royal Albert Hall, 1978)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "B78bIulU-1M",
+			"VideoPublishedAtRaw": "2023-10-15T21:04:56Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-15T21:04:56+00:00",
+			"VideoPublishedAt": "2023-10-16T02:34:56+05:30"
+		},
+		"ETag": "bAS9CLfIHCjRB1bKkg6ISVzA3FI",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC42MTI4Njc2QjM1RjU1MjlG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Mozart Symphony No. 31 \u0027Paris\u0027\n0:17:41 Mozart Clarinet Concerto\n0:48:05 Shostakovich Symphony No. 5\n\nThis is a recording of a BBC Promenade Concert given in the Royal Albert Hall, London on 29 July 1977.\n\nJack McCaw (clarinet) - Mozart\nNew Philharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor further details see: https://www.bbc.co.uk/events/eb5q9r\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 34,
+			"PublishedAtRaw": "2024-12-02T11:53:28Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:53:28+00:00",
+			"PublishedAt": "2024-12-02T17:23:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "B78bIulU-1M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/B78bIulU-1M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/B78bIulU-1M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/B78bIulU-1M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/B78bIulU-1M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/B78bIulU-1M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart, Shostakovich - New Philharmonia - Riccardo Muti (Royal Albert Hall, 1977)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "gHub_GpmRGs",
+			"VideoPublishedAtRaw": "2020-08-24T13:25:03Z",
+			"VideoPublishedAtDateTimeOffset": "2020-08-24T13:25:03+00:00",
+			"VideoPublishedAt": "2020-08-24T18:55:03+05:30"
+		},
+		"ETag": "_xpySvQ1r3Q4QMHWY3fmj0ZEfpo",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4xNTZBNUQxMDZBQzFGMjkw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wolfgang Amadeus Mozart\n\nPiano Concerto No. 20 in D minor, K. 466\n[0:05] 1. Allegro ([10:49] Cadenza by Brendel)\n[13:57] 2. Romance\n[22:46] 3. Allegro assai ([27:46] Cadenza by Brendel)\n\n\n\n\n\nAlfred Brendel, piano\nRiccardo Chailly, conductor\nWiener Philharmoniker\n\n\n\nJuly 29, 1985\nSalzburg, Gro\u00DFes Festspielhaus\n(This performance was given as part of \u0022Salzburger Festspiele 1985\u0022.)\n\n#AlfredBrendel #RiccardoChailly #WienerPhilharmoniker #Mozart #Live",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 35,
+			"PublishedAtRaw": "2025-08-20T06:18:35Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:18:35+00:00",
+			"PublishedAt": "2025-08-20T11:48:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "gHub_GpmRGs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/gHub_GpmRGs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/gHub_GpmRGs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/gHub_GpmRGs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/gHub_GpmRGs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart: Piano Concerto No. 20, K. 466 / Alfred Brendel; Riccardo Chailly: VPO (1985.7.29 Salzburg)",
+			"VideoOwnerChannelId": "UC9au97pbEBBP3Y1CQcvTDJQ",
+			"VideoOwnerChannelTitle": "Jun Kumazawa"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WNDIbmQDrlU",
+			"VideoPublishedAtRaw": "2021-01-27T12:35:03Z",
+			"VideoPublishedAtDateTimeOffset": "2021-01-27T12:35:03+00:00",
+			"VideoPublishedAt": "2021-01-27T18:05:03+05:30"
+		},
+		"ETag": "OJ8EUOU60_TeSLcJw1mUhRzYIhE",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41MzY4MzcwOUFFRUU3QzEx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wolfgang Amadeus Mozart\n\nPiano Concerto No. 20 in D minor, K. 466\n[0:00] 1. Allegro ([11:38] Cadenza by Ludwig van Beethoven (WoO 58/1))\n[15:22] 2. Romance\n[25:00] 3. Allegro assai ([30:53] Cadenza by Ludwig van Beethoven (WoO 58/2))\n\n\n\n\n\nMitsuko Uchida, piano\nRiccardo Muti, conductor\nChicago Symphony Orchestra\n\n\n\nMay 10, 2019\nChicago, Symphony Center\n\n#MitsukoUchida #RiccardoMuti #ChicagoSymphonyOrchestra #Mozart #Live",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 36,
+			"PublishedAtRaw": "2024-12-02T11:57:14Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:57:14+00:00",
+			"PublishedAt": "2024-12-02T17:27:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WNDIbmQDrlU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WNDIbmQDrlU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WNDIbmQDrlU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WNDIbmQDrlU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WNDIbmQDrlU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart: Piano Concerto No. 20, K. 466 / Mitsuko Uchida; Riccardo Muti: CSO (2019.5.10 Chicago)",
+			"VideoOwnerChannelId": "UC9au97pbEBBP3Y1CQcvTDJQ",
+			"VideoOwnerChannelTitle": "Jun Kumazawa"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Osv-pweHiBA",
+			"VideoPublishedAtRaw": "2024-05-14T14:56:50Z",
+			"VideoPublishedAtDateTimeOffset": "2024-05-14T14:56:50+00:00",
+			"VideoPublishedAt": "2024-05-14T20:26:50+05:30"
+		},
+		"ETag": "UP2JwhRbVBnSHW_6F2FItTEY7jY",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "27/01/2024",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 37,
+			"PublishedAtRaw": "2024-12-02T11:51:06Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:51:06+00:00",
+			"PublishedAt": "2024-12-02T17:21:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Osv-pweHiBA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Osv-pweHiBA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Osv-pweHiBA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Osv-pweHiBA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Osv-pweHiBA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Osv-pweHiBA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Muti -\u0022AUS ITALIEN\u0022 R. Strauss- CSO 2024  Teatro alla Scala",
+			"VideoOwnerChannelId": "UCpmNTTc3bV7PZPb3veAq-Hg",
+			"VideoOwnerChannelTitle": "D. Quervain"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "rOjHhS5MtvA",
+			"VideoPublishedAtRaw": "2015-05-08T07:20:21Z",
+			"VideoPublishedAtDateTimeOffset": "2015-05-08T07:20:21+00:00",
+			"VideoPublishedAt": "2015-05-08T12:50:21+05:30"
+		},
+		"ETag": "2DnAHj2Zv-I1JSLk0s2ugzEO39g",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4xN0Y2QjVBOEI2MzQ5OUM5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "On May 7, 1824, Beethoven shared his Ninth Symphony with the world even though he could never hear it. On May 7, 2015, celebrate the anniversary of Beethoven\u2019s most glorious and jubilant masterpiece with Riccardo Muti and the Chicago Symphony Orchestra and Chorus. An exhilarating testament to the human spirit, Beethoven\u2019s Ninth bursts with brooding power and kinetic energy and culminates in the exultant hymn, \u201COde to Joy.\u201D\n\nFor additional videos of Riccardo Muti, visit https://riccardomutimusic.com.\n\nSeptember 19, 2014\nOrchestra Hall at Symphony Center\nChicago Symphony Orchestra\nRiccardo Muti, conductor\nCamilla Nylund, soprano\nEkaterina Gubanova, mezzo-soprano\nMatthew Polenzani, tenor\nEric Owens, bass-baritone\nChicago Symphony Chorus\nDuain Wolfe, director\n\nTickets and more info: https://cso.org\nFacebook: https://www.facebook.com/chicagosymphony\nInstagram: https://instagram.com/chicagosymphony\nTwitter: https://twitter.com/chicagosymphony",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 38,
+			"PublishedAtRaw": "2025-08-20T06:10:52Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:10:52+00:00",
+			"PublishedAt": "2025-08-20T11:40:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rOjHhS5MtvA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rOjHhS5MtvA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rOjHhS5MtvA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/rOjHhS5MtvA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rOjHhS5MtvA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/rOjHhS5MtvA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Muti Conducts Beethoven 9",
+			"VideoOwnerChannelId": "UCl2Sa1BW9yF55yjqwSLro6Q",
+			"VideoOwnerChannelTitle": "Chicago Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "NzgtUfudxYE",
+			"VideoPublishedAtRaw": "2020-04-13T15:12:44Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-13T15:12:44+00:00",
+			"VideoPublishedAt": "2020-04-13T20:42:44+05:30"
+		},
+		"ETag": "4jYMukiKDj4ai6Md1uXyiGlBAkc",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4xMzgwMzBERjQ4NjEzNUE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orchestra \u0022L. Cherubini\u0022 - Dir. Riccardo Muti - La Valletta (Malta) 1",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 39,
+			"PublishedAtRaw": "2024-12-02T11:58:32Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:58:32+00:00",
+			"PublishedAt": "2024-12-02T17:28:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "NzgtUfudxYE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/NzgtUfudxYE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/NzgtUfudxYE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/NzgtUfudxYE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/NzgtUfudxYE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/NzgtUfudxYE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Orchestra \u0022L. Cherubini\u0022 - Dir. Riccardo Muti - La Valletta (Malta) 1",
+			"VideoOwnerChannelId": "UCTypQWWVqWuAMhrBhzh5J2A",
+			"VideoOwnerChannelTitle": "Fabrizio Iacoboni"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "EPi-AyjHZ28",
+			"VideoPublishedAtRaw": "2020-04-13T15:27:52Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-13T15:27:52+00:00",
+			"VideoPublishedAt": "2020-04-13T20:57:52+05:30"
+		},
+		"ETag": "I4NGJgqbHDP8iGy3G83-H1P2L_Y",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4zMEQ1MEIyRTFGNzhDQzFB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orchestra \u0022L. Cherubini\u0022 - Dir. Riccardo Muti - La Valletta (Malta) 2",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 40,
+			"PublishedAtRaw": "2024-12-02T11:58:35Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:58:35+00:00",
+			"PublishedAt": "2024-12-02T17:28:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "EPi-AyjHZ28"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/EPi-AyjHZ28/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/EPi-AyjHZ28/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/EPi-AyjHZ28/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/EPi-AyjHZ28/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/EPi-AyjHZ28/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Orchestra \u0022L. Cherubini\u0022 - Dir. Riccardo Muti - La Valletta (Malta) 2",
+			"VideoOwnerChannelId": "UCTypQWWVqWuAMhrBhzh5J2A",
+			"VideoOwnerChannelTitle": "Fabrizio Iacoboni"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ie-ayOndxcc",
+			"VideoPublishedAtRaw": "2024-08-25T11:31:36Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-25T11:31:36+00:00",
+			"VideoPublishedAt": "2024-08-25T17:01:36+05:30"
+		},
+		"ETag": "tRu1kg5gn7O_GBdfP1t-oOTCAa0",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ottorino Respighi: Feste Romane\nWiener Philharmoniker\nRiccardo Muti\n20 June 2004, Musikverein, Vienna\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 41,
+			"PublishedAtRaw": "2024-12-02T11:49:33Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:49:33+00:00",
+			"PublishedAt": "2024-12-02T17:19:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ie-ayOndxcc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ie-ayOndxcc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ie-ayOndxcc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ie-ayOndxcc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ie-ayOndxcc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ie-ayOndxcc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Ottorino Respighi: Feste Romane -- Riccardo Muti/Wiener Philharmoniker (Vienna 2004)",
+			"VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
+			"VideoOwnerChannelTitle": "Quality Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "JXtWCU_Ed6s",
+			"VideoPublishedAtRaw": "2024-08-27T15:43:25Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-27T15:43:25+00:00",
+			"VideoPublishedAt": "2024-08-27T21:13:25+05:30"
+		},
+		"ETag": "8fMhOfCeKhAzduXnA59PEEM_Dg8",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ottorino Respighi: Pini di Roma\nSymphonieorchester des Bayerischen Rundfunks\nRiccardo Muti\nMarch 2004, Herkulessaal, Munich\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 42,
+			"PublishedAtRaw": "2024-12-02T11:49:22Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:49:22+00:00",
+			"PublishedAt": "2024-12-02T17:19:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "JXtWCU_Ed6s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/JXtWCU_Ed6s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/JXtWCU_Ed6s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/JXtWCU_Ed6s/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/JXtWCU_Ed6s/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/JXtWCU_Ed6s/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Ottorino Respighi: Pini di Roma -- Riccardo Muti/Symphonieorchester des Bayerischen Rundfunks (2004)",
+			"VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
+			"VideoOwnerChannelTitle": "Quality Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vXaTHI7SfGI"
+		},
+		"ETag": "YmY5ECNTc9UF81ZoQze9UMYYGS4",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 43,
+			"PublishedAtRaw": "2024-12-02T11:50:06Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:50:06+00:00",
+			"PublishedAt": "2024-12-02T17:20:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vXaTHI7SfGI"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XoCCRA39Ihc",
+			"VideoPublishedAtRaw": "2025-09-21T01:42:47Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-21T01:42:47+00:00",
+			"VideoPublishedAt": "2025-09-21T07:12:47+05:30"
+		},
+		"ETag": "3Vkj_rh9HlpuUPewWlLCdvOTce4",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5FRjdGNDMzN0I2RTI3MDlG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This is the final work in Muti\u0027s very first guest conducting gig with Philadelphia (which was also his North American conducting debut).  The first half of this concert comprised the Mozart 34 and Entremont playing Mozart\u0027s Cto 9, separately uploaded in this channel.  There is a commercial recording of the Prokofiev 3 with Philadelphia under Muti from 1990 (nearly 20 years later) on Phillips, which supplies an interesting contrast, but I honestly don\u0027t know what to make of it due to the differing sound pictures.  I am inclined to say that the velvety sound of 1972 has had its plushness shaved down, but that could just be due to Phillips\u0027 early digital sound captured in Philadelphia\u0027s Memorial Hall (in West Fairmount Park), which is pretty harsh and congested in the tutti passages.  (Another shoutout to Messrs. Borkow and Sacks for their sound engineering in these live concerts.)  I would be interested in hearing how others perceive the changes in the Philly sound revealed by those two performances nearly two decades apart.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 44,
+			"PublishedAtRaw": "2025-09-21T02:21:55Z",
+			"PublishedAtDateTimeOffset": "2025-09-21T02:21:55+00:00",
+			"PublishedAt": "2025-09-21T07:51:55+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XoCCRA39Ihc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/XoCCRA39Ihc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/XoCCRA39Ihc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/XoCCRA39Ihc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/XoCCRA39Ihc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/XoCCRA39Ihc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Prokofiev 3 Philadelphia Muti Oct 1972 Live",
+			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+			"VideoOwnerChannelTitle": "Peter Kohn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VoxdccckZ6c",
+			"VideoPublishedAtRaw": "2024-02-23T10:04:29Z",
+			"VideoPublishedAtDateTimeOffset": "2024-02-23T10:04:29+00:00",
+			"VideoPublishedAt": "2024-02-23T15:34:29+05:30"
+		},
+		"ETag": "5E6D7zXoFEbvbmo6NwkPyFoqciY",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Prokofiev \u0027Romeo and Juliet\u0027 (excerpts)\n0:48:06 Encore: Verdi Overture \u0027Sicilian Vespers\u0027\n\nThese performances were given as part of a BBC Promenade Concert on 7 September 1982 in the Royal Albert Hall, London\n\nPhiladelphia Orchestra\nconducted by\nRiccardo Muti\n\n\nIf you have requests for a specific music/song please leave me a comment. Thanks!\n\nDo Like, Share, Comment \u0026 Subscribe to this channel.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 45,
+			"PublishedAtRaw": "2024-12-02T11:51:56Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:51:56+00:00",
+			"PublishedAt": "2024-12-02T17:21:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VoxdccckZ6c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VoxdccckZ6c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VoxdccckZ6c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/VoxdccckZ6c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VoxdccckZ6c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/VoxdccckZ6c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Prokofiev Romeo \u0026 Juliet, Verdi Ov  Sicilian Vespers   Philadelphia   Riccardo Muti RAH, 1982",
+			"VideoOwnerChannelId": "UC3rKU715w_gmzshbvsaU4RQ",
+			"VideoOwnerChannelTitle": "MusicLovers"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "5Qam5QN9IZU",
+			"VideoPublishedAtRaw": "2024-01-19T15:06:41Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-19T15:06:41+00:00",
+			"VideoPublishedAt": "2024-01-19T20:36:41+05:30"
+		},
+		"ETag": "rrFV2lTZTcCrb3gD-BZFTLKum2E",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Prokofiev \u0027Romeo and Juliet\u0027 (excerpts)\n0:48:06 Encore: Verdi Overture \u0027Sicilian Vespers\u0027\n\nThese performances were given as part of a BBC Promenade Concert on 7 September 1982 in the Royal Albert Hall, London\n\nPhiladelphia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://www.bbc.co.uk/events/ebd9rz\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 46,
+			"PublishedAtRaw": "2024-12-02T11:52:15Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:15+00:00",
+			"PublishedAt": "2024-12-02T17:22:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "5Qam5QN9IZU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/5Qam5QN9IZU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/5Qam5QN9IZU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/5Qam5QN9IZU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/5Qam5QN9IZU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/5Qam5QN9IZU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Prokofiev Romeo \u0026 Juliet, Verdi Ov. Sicilian Vespers - Philadelphia - Riccardo Muti (RAH, 1982)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "i5Y2wBGbiIA",
+			"VideoPublishedAtRaw": "2021-07-25T16:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2021-07-25T16:00:10+00:00",
+			"VideoPublishedAt": "2021-07-25T21:30:10+05:30"
+		},
+		"ETag": "zV5Spce9Md6Ijsp-IHXlNs62eQA",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC44QTY2MEEzNzBFQUJCMUQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Nel settembre del 1849 Schumann si era trasferito con la famiglia a D\u00FCsseldorf provenendo da Dresda, dopo anni tormenti e faticosi per la composizione di Genoveva, delle Scene dal Faust, del Manfred, per il turbamento causato dalla morte di Mendelssohn, per l\u0027inquietudine causata dalla rivoluzione del 1848-49. Il compositore aveva quasi quarant\u0027anni, veniva a D\u00FCsseldorf con la carica di Direttore dei concerti, accolto con calore dall\u0027\u00E9lite culturale della citt\u00E0. La Terza Sinfonia in mi bemolle, nota fin dai primi tempi con l\u0027appellativo di \u0022Renana\u0022. La prima esecuzione, con l\u0027opera ancora manoscritta, avvenne nel concerto del 6 febbraio 1851 e suscit\u00F2 accoglienze trionfali, ripetute poco dopo a Colonia; grande impressione la Sinfonia suscit\u00F2 anche a Rotterdam, il 1 dicembre 1853, durante la tourn\u00E9e olandese intrapresa da Schumann con la moglie Clara, e fino ad oggi la \u0022Renana\u0022 \u00E8 rimasta forse la pi\u00F9 amata delle quattro Sinfonie, la pi\u00F9 unitaria e compiuta nel pensiero creativo. La Terza Sinfonia fu abbozzata e strumentata in un mese di lavoro fra il 2 novembre e il 9 dicembre 1850; il quarto movimento recava in origine la didascalia \u0022Im Charakter der Begleitung einer feierlichen Ceremonie\u0022 (\u0022Nel carattere di accompagnamento a una cerimonia solenne\u0022), e con precisione ancora maggiore Schumann dichiar\u00F2 di essere stato influenzato dal rito con cui il vescovo di Colonia von Geissel fu innalzato alla porpora cardinalizia nel venerabile duomo, sacro alla storia tedesca e all\u0027arte gotica. In seguito il compositore lasci\u00F2 cadere ogni titolo, ogni indicazione extramusicale; ma un po\u0027 come nell\u0027Eroica di Beethoven nei confronti del generale Bonaparte, cos\u00EC nella Terza di Schumann il Reno, anzi la \u00ABreligione del Reno\u00BB come l\u0027ha chiamata Bortolotto, resta il f\u00F2mite incancellabile dell\u0027ispirazione, la regione spirituale in cui fermentano i sentimenti e le fantasie. Lo stesso Schumann confermava indirettamente questa polarit\u00E0 tutta ideale quando nel marzo 1851 scriveva all\u0027editore Simrock di Bonn che anzich\u00E9 affidare l\u0027opera a uno dei tanti editori sotto mano a Lipsia, aveva preferito \u00ABvedere apparire proprio qui ai bordi del Reno (cio\u00E8 a Bonn) una grande opera, e proprio questa Sinfonia che forse qua e l\u00E0 rispecchia un pezzo di vita reale\u00BB.\nLa \u00ABreligione del Reno\u00BB schumanniana ha il suo altar maggiore nella Terza Sinfonia; lo si potrebbe circondare con tempietti votivi, quali i Lieder \u0022Sonntags am Rhein\u0022 dell\u0027op. 36 o \u0022Im Rhein, im heiligen Streme\u0022 dalla Dichterliebe di Heine; ci si potrebbe aggiungere il secondo movimento della Fantasia op. 17 per pianoforte, nella stessa tonalit\u00E0 di mi bemolle e con patenti affinit\u00E0 tematiche; la comune cornice della tonalit\u00E0, il ritmo di tre quarti, la simpatia per temi basati sulla triade fondamentale individuano un percorso che muove dall\u0027Eroica di Beethoven, dove l\u0027eroismo \u00E8 tutto astratto, ideale, energia pura: in Schumann l\u0027eroe si \u00E8 concretizzato nella storia e geografia del padre Reno, del duomo di Colonia che vi si specchia, della nazione tedesca che avrebbe potuto esservi consacrata. \u00C8 soprattutto il primo movimento che non maschera il suo riferimento a Beethoven, ma pi\u00F9 nei temi che nel reale sviluppo: \u00E8 sintomatico infatti che il momento supremo di tutta la pagina, quando il tema d\u0027apertura sfolgora nell\u0027unisono dei quattro corni entro l\u0027armonia di mi bemolle tenuta in pianissimo dagli altri strumenti, avvenga nella preparazione della ripresa, in un raccordo strumentale, non deputato a ricevere simili epifanie; \u00E8 un po\u0027 la mentalit\u00E0 del poema sinfonico che perfino nel \u0022classico\u0022 Schumann viene a turbare i recinti della forma-sonata. Nel secondo movimento il Reno si spoglia dei suoi attributi mitici e indossa abiti borghesi, quelli di salubri passeggiate domenicali, allietate da robuste bevute. Il terzo movimento (Nicht schnell, Non veloce) precorre nel tenero clima espressivo il tipo dell\u0027\u0022Andantino\u0022 o \u0022Allegretto\u0022 brahmsiano; il ruolo dell\u0027Adagio, finora scoperto, \u00E8 assolto dal quarto movimento (Feierlich, Solenne) che sarebbe giusto considerare un\u0027ampia introduzione al Finale: le arcaiche sonorit\u00E0 dei tromboni, impiegati qui per la prima volta, i temi dall\u0027austero profilo bachiano, la densit\u00E0 dell\u0027intreccio polifonico, caricano di solennit\u00E0 storica questa pagina, legata nella fantasia di Schumann al fascino del rito cattolico nel duomo di Colonia. Dal suo ultimo accordo, in un opaco mi bemolle minore, si sprigiona il tema in maggiore del movimento finale: che \u00E8 di vivida vena popolaresca, con toni leggeri da Scherzo mendelssohniano irrobustiti verso la fine in sonori giubili di tutta l\u0027orchestra, in architettonica risposta all\u0027esordio del primo movimento. (Giorgio Pestelli)\n\nI. Lebhaft - 00:00:13\nII. Scherzo. Sehr massig - 00:10:32\nIII. Nicht schnell - 00:18:06\nIV. Feierlich. Dir Halben wie vorher die Viertel - 00:24:50\nV. Lebhaft. Schneller - 00:31:02\n\nOrchestra: Berliner Philharmoniker\nDirettore: Riccardo Muti\n1994",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 47,
+			"PublishedAtRaw": "2025-08-20T06:15:10Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:15:10+00:00",
+			"PublishedAt": "2025-08-20T11:45:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "i5Y2wBGbiIA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/i5Y2wBGbiIA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/i5Y2wBGbiIA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/i5Y2wBGbiIA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/i5Y2wBGbiIA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "R. Schumann - Sinfonia no. 3 op. 97 \u0022Renana\u0022 (Berliner Philharmoniker - Riccardo Muti)",
+			"VideoOwnerChannelId": "UCAt4xN0cGpLkv3lL7y6PMAw",
+			"VideoOwnerChannelTitle": "Musica Ficta"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "hRym5hMqQmI",
+			"VideoPublishedAtRaw": "2021-05-30T12:00:30Z",
+			"VideoPublishedAtDateTimeOffset": "2021-05-30T12:00:30+00:00",
+			"VideoPublishedAt": "2021-05-30T17:30:30+05:30"
+		},
+		"ETag": "B9umjYZVVPllCjsXwfECuDYPR0E",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5DRUQwODMxQzUyRTlGRkY3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "respighi  pinos de Roma\n\nI.   Los pinos de Villa Borghese ( 0:00 - )\nII.  Pini presso una catacomba\nIII. Los pinos del Gianicolo\nIV. Los pinos de la Via Appia\n\n\n\n( grabaci\u00F3n en vivo.  10.1984 )\n\n*. r. muti            orquesta de filadelfia",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 48,
+			"PublishedAtRaw": "2024-12-02T11:56:59Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:56:59+00:00",
+			"PublishedAt": "2024-12-02T17:26:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "hRym5hMqQmI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/hRym5hMqQmI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/hRym5hMqQmI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/hRym5hMqQmI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/hRym5hMqQmI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "respighi  pinos de Roma ( r. muti )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "AhVWLDQ3A-M",
+			"VideoPublishedAtRaw": "2024-09-02T18:37:08Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-02T18:37:08+00:00",
+			"VideoPublishedAt": "2024-09-03T00:07:08+05:30"
+		},
+		"ETag": "cC7r3vPZdBpCbdCoQjkUdJq3cTc",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC42RTNCOEMxREI3Q0VDMjU2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ottorino Respighi (1879-1936)\n\nFeste Romane (Roman Festivals)\n\nWiener Philharmoniker (Vienna Philharmonic)\nRiccardo Muti\nMusikverein, 20th June 2004\nLive recording\n\nPlease enjoy!",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 49,
+			"PublishedAtRaw": "2025-08-20T06:08:59Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:08:59+00:00",
+			"PublishedAt": "2025-08-20T11:38:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "AhVWLDQ3A-M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/AhVWLDQ3A-M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/AhVWLDQ3A-M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/AhVWLDQ3A-M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/AhVWLDQ3A-M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/AhVWLDQ3A-M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Respighi - Feste Romane | Wiener Philharmoniker - Riccardo Muti",
+			"VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+			"VideoOwnerChannelTitle": "Soffronitsky"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "qGw9zZgKfKg",
+			"VideoPublishedAtRaw": "2025-05-02T01:08:08Z",
+			"VideoPublishedAtDateTimeOffset": "2025-05-02T01:08:08+00:00",
+			"VideoPublishedAt": "2025-05-02T06:38:08+05:30"
+		},
+		"ETag": "kJxyI3YAAVe9CmRWZQwZCRZS_TU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC40MDNEMzA0QTBFRThFMzBE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ottorino Respighi - Pines of Rome\n\nRiccardo Muti, Conductor\nLive at Orchestra Hall, April 2019",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 50,
+			"PublishedAtRaw": "2025-08-20T06:08:52Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:08:52+00:00",
+			"PublishedAt": "2025-08-20T11:38:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qGw9zZgKfKg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qGw9zZgKfKg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qGw9zZgKfKg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/qGw9zZgKfKg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qGw9zZgKfKg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/qGw9zZgKfKg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Respighi - Pines of Rome (Chicago Symphony Orchestra)",
+			"VideoOwnerChannelId": "UC3O3w9RXsVx_W2avnwrVFHA",
+			"VideoOwnerChannelTitle": "Orchestra Recordings"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Gv9_1gYb8cc",
+			"VideoPublishedAtRaw": "2025-09-09T07:05:43Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-09T07:05:43+00:00",
+			"VideoPublishedAt": "2025-09-09T12:35:43+05:30"
+		},
+		"ETag": "2ulXMinSN_hWFrDG3RmT_m4bBr8",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5ERENFNTk4Q0Q2MTZDMTA5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Respighi: Feste Romane\n\u7B2C1\u90E8 \u30C1\u30EB\u30C1\u30A7\u30F3\u30BB\u30B9 I. Circenses   00:00\n\u7B2C2\u90E8 \u4E94\u5341\u5E74\u796D II. Il Giubileo  04:43\n\u7B2C3\u90E8 \u5341\u6708\u796D III. L\u0027Ottobrata   11:54\n\u7B2C4\u90E8 \u4E3B\u9855\u796D IV. La Befana    19:28\nRiccardo Muti / Vienna Philharmonic orchestra\n20/6/2004 Vienna, Musikverein Hall live recording\n\u30EC\u30B9\u30D4\u30FC\u30AE\uFF1A\u4EA4\u97FF\u8A69\u300C\u30ED\u30FC\u30DE\u306E\u796D\u308A\u300D\n\u30EA\u30C3\u30AB\u30EB\u30C9\u30FB\u30E0\u30FC\u30C6\u30A3\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n2004\u5E746\u670820\u65E5\u3000\u30A6\u30A3\u30FC\u30F3\u697D\u53CB\u5354\u4F1A\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u306B\u3088\u308B\u30EC\u30B9\u30D4\u30FC\u30AE\u306F\u8CB4\u91CD\u3002\u6628\u5E74\u3001\u30AD\u30EA\u30EB\u30FB\u30DA\u30C8\u30EC\u30F3\u30B3\u304C\u300C\u30ED\u30FC\u30DE\u4E09\u90E8\u4F5C\u300D\u3067\u5BA2\u6F14\u3059\u308B\u3068\u8A71\u984C\u306B\u306A\u308A\u307E\u3057\u305F\u304C\u3001\u76F4\u524D\u306B\u30AD\u30E3\u30F3\u30BB\u30EB\u3068\u306A\u308A\u5B9F\u73FE\u3057\u307E\u305B\u3093\u3067\u3057\u305F\u3002\u3053\u306E\u4F5C\u54C1\u3092\u5F97\u610F\u3068\u3059\u308B\u30E0\u30FC\u30C6\u30A3\u306E\u30C9\u30E9\u30A4\u30D3\u30F3\u30B0\u306F\u6D41\u77F3\u3067\u3001\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u306E\u97F3\u8272\u3092\u6700\u5927\u9650\u751F\u304B\u3057\u305F\u30B5\u30A6\u30F3\u30C9\u3067\u3059\u3002",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 51,
+			"PublishedAtRaw": "2025-09-18T23:18:53Z",
+			"PublishedAtDateTimeOffset": "2025-09-18T23:18:53+00:00",
+			"PublishedAt": "2025-09-19T04:48:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Gv9_1gYb8cc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Gv9_1gYb8cc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Gv9_1gYb8cc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Gv9_1gYb8cc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Respighi: Feste Romane    R. Muti / VPO 2004 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sLMYpuX74gM",
+			"VideoPublishedAtRaw": "2025-09-10T09:18:00Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-10T09:18:00+00:00",
+			"VideoPublishedAt": "2025-09-10T14:48:00+05:30"
+		},
+		"ETag": "U0PA4E6jZIC-1bJxQL1Y0MUujnc",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4yM0EyQ0U1M0I2RkIwNTQ0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "O.Respighi : \u0027Pines of Rome\u0027\n1. I pini di Villa Borghese\uFF08\u30DC\u30EB\u30B2\u30FC\u30BC\u8358\u306E\u677E\uFF0900:00\n2. Pini presso una catacomba\uFF08\u30AB\u30BF\u30B3\u30F3\u30D0\u306E\u677E\uFF0902:51\n3. I pini del Gianicolo\uFF08\u30B8\u30E3\u30CB\u30B3\u30ED\u306E\u677E\uFF0909:40\n4. I pini della Via Appia\uFF08\u30A2\u30C3\u30D4\u30A2\u8857\u9053\u306E\u677E\uFF09 17:01\nRiccardo Muti / Bavarian Radio Symphony Orchestra\n26/3/2004  Munchen, Herkulessaal live recording\n\u30EC\u30B9\u30D4\u30FC\u30AE\uFF1A\u4EA4\u97FF\u8A69\u300C\u30ED\u30FC\u30DE\u306E\u677E\u300D\n\u30EA\u30C3\u30AB\u30EB\u30C9\u30FB\u30E0\u30FC\u30C6\u30A3\u6307\u63EE\u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n2004\u5E743\u670826\u65E5\u3000\u30DF\u30E5\u30F3\u30D8\u30F3\u3001\u30D8\u30E9\u30AF\u30EC\u30B9\u30B6\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u3068\u306E\u300C\u30ED\u30FC\u30DE\u306E\u796D\u308A\u300D\u306B\u5148\u7ACB\u3061\u3001\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u97FF\u3068\u6F14\u594F\u3055\u308C\u305F\u300C\u30ED\u30FC\u30DE\u306E\u677E\u300D\u3002\u653E\u9001\u30AA\u30B1\u306E\u9AD8\u3044\u6A5F\u80FD\u6027\u3092\u751F\u304B\u3057\u305F\u30E0\u30FC\u30C6\u30A3\u306A\u3089\u3067\u306F\u5727\u5DFB\u306E\u540D\u6F14\u3002",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 52,
+			"PublishedAtRaw": "2025-09-18T23:18:29Z",
+			"PublishedAtDateTimeOffset": "2025-09-18T23:18:29+00:00",
+			"PublishedAt": "2025-09-19T04:48:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sLMYpuX74gM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/sLMYpuX74gM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/sLMYpuX74gM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/sLMYpuX74gM/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Respighi: Pini di Roma    R. Muti / BRSO 2004 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "P1zSP5pbOLw",
+			"VideoPublishedAtRaw": "2024-12-14T07:08:33Z",
+			"VideoPublishedAtDateTimeOffset": "2024-12-14T07:08:33+00:00",
+			"VideoPublishedAt": "2024-12-14T12:38:33+05:30"
+		},
+		"ETag": "bmit2hRtgDYA4jMDkJ-ENvM7rmM",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5CNTcxMDQ0NThBNzMxODYz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Vienna Philharmonic Orch. cond. by Riccard Muti \nrecorded 15 August 2001, in Salzburger Festspiele\nI. Majestoso  00:00\nII. Adagio. Sehr feierlich  17:40\nIII. Scherzo. Nicht schnell \u2013 Trio. Langsam  36:17\nIV. Finale. Bewegt, doch nicht zu schnell  44:24",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 53,
+			"PublishedAtRaw": "2025-08-16T08:51:20Z",
+			"PublishedAtDateTimeOffset": "2025-08-16T08:51:20+00:00",
+			"PublishedAt": "2025-08-16T14:21:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "P1zSP5pbOLw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/P1zSP5pbOLw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/P1zSP5pbOLw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/P1zSP5pbOLw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/P1zSP5pbOLw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/P1zSP5pbOLw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Riccard Muti / VPO - Bruckner : Symphony No.6 (2001- Salzburg Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "aY7G9JsahBY",
+			"VideoPublishedAtRaw": "2025-01-23T04:39:09Z",
+			"VideoPublishedAtDateTimeOffset": "2025-01-23T04:39:09+00:00",
+			"VideoPublishedAt": "2025-01-23T10:09:09+05:30"
+		},
+		"ETag": "qIHbR_Yys3fmexrGTzD7jgUoH1I",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5CMUM0NzY5NzdEQzlGRjAx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Vienna Philharmonic Orch. cond. by Riccard Muti\n1. Allegro con brio (0:00)\n2. Andante (7:40)\n3. Menuetto \u0026 Trio (11:32)\n4. Allegro (15:11)\nrec.8 October 2006, Wiener Vereinsaal",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 54,
+			"PublishedAtRaw": "2025-08-23T11:08:18Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T11:08:18+00:00",
+			"PublishedAt": "2025-08-23T16:38:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "aY7G9JsahBY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/aY7G9JsahBY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/aY7G9JsahBY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/aY7G9JsahBY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/aY7G9JsahBY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/aY7G9JsahBY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Riccard Muti / VPO - Mozart : Symphony No.25 K.183 (2006- Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "FmQY_5l3M6A",
+			"VideoPublishedAtRaw": "2024-11-09T04:39:04Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-09T04:39:04+00:00",
+			"VideoPublishedAt": "2024-11-09T10:09:04+05:30"
+		},
+		"ETag": "lm6NB1EqGqYVriCOrjPGf2avUSU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5ERkUyQTM0MzEwQjZCMTY5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Vienna Philharmonic Orch. cond. by Riccard Muti\n00:00 -  Pr\u00E9lude \u00E0 la nuit\n05:19 -  Malague\u00F1a\n07:27 -  Habanera\n10:24  Feria\nrec. 17 Feburuary 2002, Wiener Musikverein\nlive recording",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 55,
+			"PublishedAtRaw": "2025-08-16T08:54:44Z",
+			"PublishedAtDateTimeOffset": "2025-08-16T08:54:44+00:00",
+			"PublishedAt": "2025-08-16T14:24:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "FmQY_5l3M6A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/FmQY_5l3M6A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/FmQY_5l3M6A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/FmQY_5l3M6A/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/FmQY_5l3M6A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/FmQY_5l3M6A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Riccard Muti / VPO - Ravel : Rapsodie Espagnole (2002 -Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "c-0_YGap6yM",
+			"VideoPublishedAtRaw": "2024-03-13T11:42:54Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-13T11:42:54+00:00",
+			"VideoPublishedAt": "2024-03-13T17:12:54+05:30"
+		},
+		"ETag": "0b3WmaDPowLQM11qNdMAomUOyB4",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 56,
+			"PublishedAtRaw": "2024-12-02T11:51:22Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:51:22+00:00",
+			"PublishedAt": "2024-12-02T17:21:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "c-0_YGap6yM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/c-0_YGap6yM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/c-0_YGap6yM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/c-0_YGap6yM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/c-0_YGap6yM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/c-0_YGap6yM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Riccardo Muti - Bruckner Symphony # 6 -  Berlin Philharmonic 11 03 1986 Live, Berlin",
+			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "zxRRtmIbV_A",
+			"VideoPublishedAtRaw": "2024-05-16T17:08:05Z",
+			"VideoPublishedAtDateTimeOffset": "2024-05-16T17:08:05+00:00",
+			"VideoPublishedAt": "2024-05-16T22:38:05+05:30"
+		},
+		"ETag": "Attkj8GXDxJnmTN67jjSjU6EI3M",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Wolfgang Amadeus Mozart - Sinfonia n\u00B0 35 \u0026quot;Haffner\u0026quot;",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 57,
+			"PublishedAtRaw": "2024-12-02T11:50:42Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:50:42+00:00",
+			"PublishedAt": "2024-12-02T17:20:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zxRRtmIbV_A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zxRRtmIbV_A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zxRRtmIbV_A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/zxRRtmIbV_A/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zxRRtmIbV_A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/zxRRtmIbV_A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Riccardo Muti dirige i Wiener Philharmoniker",
+			"VideoOwnerChannelId": "UCeEzX1h0x9e--WlOOdxQA7g",
+			"VideoOwnerChannelTitle": "Daniele Morandi"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Wbkf-PlgHxI",
+			"VideoPublishedAtRaw": "2024-05-15T14:07:30Z",
+			"VideoPublishedAtDateTimeOffset": "2024-05-15T14:07:30+00:00",
+			"VideoPublishedAt": "2024-05-15T19:37:30+05:30"
+		},
+		"ETag": "jpmSnxF6tw2OXUFrhcgdXH91NsU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Schubert sinfonia n\u00B08 \u0026quot;La Grande\u0026quot;",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 58,
+			"PublishedAtRaw": "2024-12-02T11:51:01Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:51:01+00:00",
+			"PublishedAt": "2024-12-02T17:21:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Wbkf-PlgHxI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Wbkf-PlgHxI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Wbkf-PlgHxI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Wbkf-PlgHxI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Wbkf-PlgHxI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Wbkf-PlgHxI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Riccardo Muti dirige i Wiener Philharmoniker",
+			"VideoOwnerChannelId": "UCeEzX1h0x9e--WlOOdxQA7g",
+			"VideoOwnerChannelTitle": "Daniele Morandi"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "bA6pzRx6gBE",
+			"VideoPublishedAtRaw": "2013-10-10T05:21:46Z",
+			"VideoPublishedAtDateTimeOffset": "2013-10-10T05:21:46+00:00",
+			"VideoPublishedAt": "2013-10-10T10:51:46+05:30"
+		},
+		"ETag": "2e3C3CAtlww3EEs9vyfckY7XISc",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4zQTkzRjgxRTY0OEU0MkM3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nFranz Schubert\nSymphony No 9 in C major, D 944\n\n1 Andante - Allegro ma non troppo\n2 Andante con moto\n3 Scherzo. Allegro vivace - Trio\n4 Finale. Allegro vivace\n\nVienna Philharmonic Orchestra\nRiccardo Muti, conductor",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 59,
+			"PublishedAtRaw": "2025-08-20T06:17:28Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:17:28+00:00",
+			"PublishedAt": "2025-08-20T11:47:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "bA6pzRx6gBE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/bA6pzRx6gBE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/bA6pzRx6gBE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/bA6pzRx6gBE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/bA6pzRx6gBE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schubert - Symphony No 9 in C major, D 944 - Muti",
+			"VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+			"VideoOwnerChannelTitle": "Classical Vault 1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "znZiysHxFx0",
+			"VideoPublishedAtRaw": "2023-12-13T21:57:12Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-13T21:57:12+00:00",
+			"VideoPublishedAt": "2023-12-14T03:27:12+05:30"
+		},
+		"ETag": "p5QPJYtJABYcmzrTlZ3rNmRlU2c",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This is a recording of part of a BBC Promenade Concert given on 13 September 1979 in the Royal Albert Hall, London\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://www.bbc.co.uk/events/ecn5v2\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 60,
+			"PublishedAtRaw": "2024-12-02T11:52:26Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:26+00:00",
+			"PublishedAt": "2024-12-02T17:22:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "znZiysHxFx0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/znZiysHxFx0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/znZiysHxFx0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/znZiysHxFx0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/znZiysHxFx0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/znZiysHxFx0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schubert Symphony No. 9 - Philharmonia Orchestra - Riccardo Muti (Royal Albert Hall, 1979)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tSfruPYIKQw",
+			"VideoPublishedAtRaw": "2024-08-31T14:00:49Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-31T14:00:49+00:00",
+			"VideoPublishedAt": "2024-08-31T19:30:49+05:30"
+		},
+		"ETag": "Almt_I1SFf_IUgxKA5VLP9iiO10",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5CQkEwRDA0MDkwNUM2MDY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "schumann  symphony no.2 in c major\n\ni.   sostenuto assai ( 0:00 - )\nii.  scherzo (allegro vivace) ( 12:46 - )\niii. adagio espressivo ( 20:02 - )\niv. allegro molto vivace ( 31:37 - )\n\n( live recording.  oct 8, 1995  musikvereinssaal, vienna )\n\n\n\n\n*. source : refine classics cd-r (modified)\n*. r.muti    vienna philharmonic",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 61,
+			"PublishedAtRaw": "2024-12-12T01:02:02Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T01:02:02+00:00",
+			"PublishedAt": "2024-12-12T06:32:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tSfruPYIKQw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tSfruPYIKQw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "schumann  symphony no.2 in c major ( r. muti )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Cnnk6-m8x7c",
+			"VideoPublishedAtRaw": "2017-03-22T21:26:37Z",
+			"VideoPublishedAtDateTimeOffset": "2017-03-22T21:26:37+00:00",
+			"VideoPublishedAt": "2017-03-23T02:56:37+05:30"
+		},
+		"ETag": "mKj7CGcjCiZoDvIJ6jPMZ1szwME",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4yQzk4QTA5QjkzMTFFOEI1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Riccardo Muti / Philadelphia Orchestra\n\nLive on 23 Sept 1983, Academy of Music, Philadelphia\nI attended this concert.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 62,
+			"PublishedAtRaw": "2025-08-20T06:10:42Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:10:42+00:00",
+			"PublishedAt": "2025-08-20T11:40:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Cnnk6-m8x7c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Cnnk6-m8x7c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Cnnk6-m8x7c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Cnnk6-m8x7c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Cnnk6-m8x7c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Cnnk6-m8x7c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Symphony 1 - Riccardo Muti / Philadelphia Orchestra (Live)",
+			"VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
+			"VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "eqgag1QbNAg",
+			"VideoPublishedAtRaw": "2017-03-17T13:05:52Z",
+			"VideoPublishedAtDateTimeOffset": "2017-03-17T13:05:52+00:00",
+			"VideoPublishedAt": "2017-03-17T18:35:52+05:30"
+		},
+		"ETag": "uXHfXvR3WPLpdhdBT62BnG9hmm0",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC45NDlDQUFFOThDMTAxQjUw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u2160\u3000Ziemlich langsam\uFF0DLebhaft\n\u2161\u3000Ziemlich langsam \n\u2162\u3000Lebhaft\n\u2163\u3000Langsam \uFF0D Lebhaft\n\nRiccardo Muti / Philadelphia Orchestra\nLive on 15 Apr 1983,  Academy of Music\nI atteded this concert.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 63,
+			"PublishedAtRaw": "2025-08-20T06:10:46Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:10:46+00:00",
+			"PublishedAt": "2025-08-20T11:40:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "eqgag1QbNAg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/eqgag1QbNAg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/eqgag1QbNAg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/eqgag1QbNAg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/eqgag1QbNAg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/eqgag1QbNAg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Symphony No4 - Riccardo Muti / Philadelphia Orchestra (Live)",
+			"VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
+			"VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "O9J12We-DbM",
+			"VideoPublishedAtRaw": "2024-01-25T14:43:24Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-25T14:43:24+00:00",
+			"VideoPublishedAt": "2024-01-25T20:13:24+05:30"
+		},
+		"ETag": "Ys2Y3UwhoukvErepszshNK0Pmfk",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Schumann Symphony No. 4\n0:32:47 Mahler Lieder Eines Fahrenden Gesellen (soloist Agnes Baltsa)\n0:50:01 Ravel Daphnis and Chloe \u2013 Suite No 2\n\nThese performances were taken for a BBC Promenade Concert given on 8 September 1982 in the Royal Albert Hall, London. The soloist in the Mahler is Agnes Baltsa, her one and only performance at the Proms.\n\nAgnes Baltsa (contralto)\n\nPhiladelphia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://www.bbc.co.uk/events/enqfxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 64,
+			"PublishedAtRaw": "2024-12-02T11:52:10Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:10+00:00",
+			"PublishedAt": "2024-12-02T17:22:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "O9J12We-DbM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/O9J12We-DbM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/O9J12We-DbM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/O9J12We-DbM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/O9J12We-DbM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/O9J12We-DbM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann, Mahler (Baltsa), Ravel - Philadelphia Orchestra - Riccardo Muti (RAH, 1982)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xsikXYQiUFk",
+			"VideoPublishedAtRaw": "2022-06-17T15:30:11Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-17T15:30:11+00:00",
+			"VideoPublishedAt": "2022-06-17T21:00:11+05:30"
+		},
+		"ETag": "zTqwaa3_75Ma9nEwKN9tPi2F4KQ",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC45NkVENTkxRDdCQUFBMDY4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 - I. Lento\n07:04 - II. Allegro drammatico\n17:15 - III. Lento\n26:46 - IV. Vivace\n30:30 - V. Allegro\n39:11 - VI. Andante\n\nConductor: Riccardo Muti\nOrchestra: Chicago Symphony Orchestra\nMezzo-soprano: Alisa Kolosova\nTenor: Sergey Skorokhodov\nChoir: Chicago Symphony Chorus\n\n\uD83C\uDF1F Please consider joining the membership scheme on Patreon / Buy Me A Coffee! You may opt for a one-off donation through Buy Me A Coffee. \uD83C\uDF1F\n\u2022 Buy Me A Coffee: https://www.buymeacoffee.com/the_sokolover\n\u2022 Patreon: https://www.patreon.com/the_sokolover\n\n**No copyright infringement intended**",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 65,
+			"PublishedAtRaw": "2024-12-02T11:56:01Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:56:01+00:00",
+			"PublishedAt": "2024-12-02T17:26:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xsikXYQiUFk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xsikXYQiUFk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xsikXYQiUFk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/xsikXYQiUFk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xsikXYQiUFk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xsikXYQiUFk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Scriabin Symphony No.1 in E major, Op.26 / Riccardo Muti, CSO - Live 2015",
+			"VideoOwnerChannelId": "UCxaGLr9GbB0u_CdDU4vvGvA",
+			"VideoOwnerChannelTitle": "The Sokolover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "blcZUHDdnQ8",
+			"VideoPublishedAtRaw": "2024-06-08T16:00:26Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-08T16:00:26+00:00",
+			"VideoPublishedAt": "2024-06-08T21:30:26+05:30"
+		},
+		"ETag": "ywCqmNa4ydywpaQbR-xTQnsPZuM",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 - I. Lento\n01:12 - II. Luttes\n28:12 - III. Volupt\u00E9s\n41:30 - IV. Jeu divin\n\nConductor: Riccardo Muti\nOrchestra: Chicago Symphony Orchestra\n\nRecorded at Carnegie Hall on 30 Jan 2015 \n\n\uD83C\uDF1F Please consider joining the membership scheme on Patreon / Buy Me A Coffee! You may opt for a one-off donation through Buy Me A Coffee. \uD83C\uDF1F\n\u2022 Buy Me A Coffee: https://www.buymeacoffee.com/the_sokolover\n\u2022 Patreon: https://www.patreon.com/the_sokolover\n\n**No copyright infringement intended**\n\n#muti #scriabin",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 66,
+			"PublishedAtRaw": "2024-12-02T11:50:11Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:50:11+00:00",
+			"PublishedAt": "2024-12-02T17:20:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "blcZUHDdnQ8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Scriabin Symphony No.3, Op.43, \u0022The Divine Poem\u0022 / Riccardo Muti, CSO - Live 2015",
+			"VideoOwnerChannelId": "UCxaGLr9GbB0u_CdDU4vvGvA",
+			"VideoOwnerChannelTitle": "The Sokolover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "blcZUHDdnQ8",
+			"VideoPublishedAtRaw": "2024-06-08T16:00:26Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-08T16:00:26+00:00",
+			"VideoPublishedAt": "2024-06-08T21:30:26+05:30"
+		},
+		"ETag": "JkVNXkc3skGzFn_RrGsNLUFQmBQ",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 - I. Lento\n01:12 - II. Luttes\n28:12 - III. Volupt\u00E9s\n41:30 - IV. Jeu divin\n\nConductor: Riccardo Muti\nOrchestra: Chicago Symphony Orchestra\n\nRecorded at Carnegie Hall on 30 Jan 2015 \n\n\uD83C\uDF1F Please consider joining the membership scheme on Patreon / Buy Me A Coffee! You may opt for a one-off donation through Buy Me A Coffee. \uD83C\uDF1F\n\u2022 Buy Me A Coffee: https://www.buymeacoffee.com/the_sokolover\n\u2022 Patreon: https://www.patreon.com/the_sokolover\n\n**No copyright infringement intended**\n\n#muti #scriabin",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 67,
+			"PublishedAtRaw": "2024-12-02T11:50:15Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:50:15+00:00",
+			"PublishedAt": "2024-12-02T17:20:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "blcZUHDdnQ8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Scriabin Symphony No.3, Op.43, \u0022The Divine Poem\u0022 / Riccardo Muti, CSO - Live 2015",
+			"VideoOwnerChannelId": "UCxaGLr9GbB0u_CdDU4vvGvA",
+			"VideoOwnerChannelTitle": "The Sokolover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "blcZUHDdnQ8",
+			"VideoPublishedAtRaw": "2024-06-08T16:00:26Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-08T16:00:26+00:00",
+			"VideoPublishedAt": "2024-06-08T21:30:26+05:30"
+		},
+		"ETag": "lZMTVWxqznN4nyDdhwO5eIEsWBQ",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41OURENDc2NEM1MDI5Mjky",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 - I. Lento\n01:12 - II. Luttes\n28:12 - III. Volupt\u00E9s\n41:30 - IV. Jeu divin\n\nConductor: Riccardo Muti\nOrchestra: Chicago Symphony Orchestra\n\nRecorded at Carnegie Hall on 30 Jan 2015 \n\n\uD83C\uDF1F Please consider joining the membership scheme on Patreon / Buy Me A Coffee! You may opt for a one-off donation through Buy Me A Coffee. \uD83C\uDF1F\n\u2022 Buy Me A Coffee: https://www.buymeacoffee.com/the_sokolover\n\u2022 Patreon: https://www.patreon.com/the_sokolover\n\n**No copyright infringement intended**\n\n#muti #scriabin",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 68,
+			"PublishedAtRaw": "2025-07-07T17:11:52Z",
+			"PublishedAtDateTimeOffset": "2025-07-07T17:11:52+00:00",
+			"PublishedAt": "2025-07-07T22:41:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "blcZUHDdnQ8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/blcZUHDdnQ8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Scriabin Symphony No.3, Op.43, \u0022The Divine Poem\u0022 / Riccardo Muti, CSO - Live 2015",
+			"VideoOwnerChannelId": "UCxaGLr9GbB0u_CdDU4vvGvA",
+			"VideoOwnerChannelTitle": "The Sokolover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DDBKyM6oR8Y",
+			"VideoPublishedAtRaw": "2023-10-18T15:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-18T15:00:10+00:00",
+			"VideoPublishedAt": "2023-10-18T20:30:10+05:30"
+		},
+		"ETag": "FTTGMo7CQrTUUUb3wymXzMPRtBM",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Shostakovich : Symphony No.5  \n1st movement   00:00\n2nd   16:26\n3rd    22:35\n4th    38:03\nRiccard Muti / Wiener philharmoniker\n5/8/1995 Gro\u00DFe Festspielhaus in Salzburg Live.\n\u30B7\u30E7\u30B9\u30BF\u30B3\u30FC\u30F4\u30A3\u30C1\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\n\u30EA\u30C3\u30AB\u30EB\u30C9\u30FB\u30E0\u30FC\u30C6\u30A3\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\n1995\u5E748\u67085\u65E5\u3001\u30B6\u30EB\u30C4\u30D6\u30EB\u30AF\u795D\u796D\u5927\u5287\u5834\u30E9\u30A4\u30D6\u9332\u97F3\u3002\n\u30E0\u30FC\u30C6\u30A3\u306B\u3068\u3063\u3066\u306F\u6570\u5C11\u306A\u3044\u30B7\u30E7\u30B9\u30BF\u30B3\u30FC\u30F4\u30A3\u30C1\u306E\u30EC\u30D1\u30FC\u30C8\u30EA\u30FC\u3002\u3053\u3046\u3044\u3046\u4F5C\u54C1\u3067\u3082\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u306E\u5E95\u529B\u3092\u898B\u4E8B\u306B\u5F15\u304D\u51FA\u3057\u3066\u3044\u307E\u3059\u3002",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 69,
+			"PublishedAtRaw": "2024-12-02T11:53:16Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:53:16+00:00",
+			"PublishedAt": "2024-12-02T17:23:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DDBKyM6oR8Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/DDBKyM6oR8Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/DDBKyM6oR8Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/DDBKyM6oR8Y/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Shostakovich : Symphony No.5  R.Muti / VPO. 1995 Salzburg live.",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7f5vT4HJgQo",
+			"VideoPublishedAtRaw": "2025-09-17T09:24:21Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-17T09:24:21+00:00",
+			"VideoPublishedAt": "2025-09-17T14:54:21+05:30"
+		},
+		"ETag": "5ibgv95XacALd2gSQ1fHtWri2CU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5DQjg2RDQyMEVGQkZFOEVF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Shostakovich: Symphony No.5 \n1st movement    00:00\n2nd    15:43\n3rd     21:28\n4th     35:00\nRiccardo Muti / New Philharmonia orchestra\n29/7/1977 London, Royal Albert Hall live recording\n\u30B7\u30E7\u30B9\u30BF\u30B3\u30FC\u30F4\u30A3\u30C1\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\n\u30EA\u30C3\u30AB\u30EB\u30C9\u30FB\u30E0\u30FC\u30C6\u30A3\u6307\u63EE\u3000\u30CB\u30E5\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u5F26\u697D\u56E3\n1977\u5E747\u670829\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u30FB\u30D7\u30ED\u30E0\u30B9\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u300C\u30CB\u30E5\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u300D\u306E\u540D\u79F0\u3067\u306E\u6700\u5F8C\u306E\u516C\u6F14\u3067\u3057\u305F\u3002\u82E5\u304D\u30E0\u30FC\u30C6\u30A3\u304C\u71B1\u72C2\u306E\u6E26\u3092\u5DFB\u304D\u8D77\u3053\u3057\u305F\u30D7\u30ED\u30E0\u30B9\u306E\u7206\u767A\u7684\u540D\u6F14\u3002",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 70,
+			"PublishedAtRaw": "2025-09-18T23:09:56Z",
+			"PublishedAtDateTimeOffset": "2025-09-18T23:09:56+00:00",
+			"PublishedAt": "2025-09-19T04:39:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7f5vT4HJgQo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7f5vT4HJgQo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7f5vT4HJgQo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7f5vT4HJgQo/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Shostakovich: Symphony No.5     R. Muti / NPO 1977 live at Proms",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UpraYKbjupA",
+			"VideoPublishedAtRaw": "2020-04-21T16:45:53Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-21T16:45:53+00:00",
+			"VideoPublishedAt": "2020-04-21T22:15:53+05:30"
+		},
+		"ETag": "ZvixHAOOTExRnIjnBYYQeDSXzO0",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC44QzVGQUU2QjE2NDgxM0M4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Registrazione dalla tourn\u00E9e della Filarmonica della Scala diretta dal m\u00B0 Riccardo Muti in Giappone nel 1995\n\nSir Edward Elgar\nIN THE SOUTH (ALASSIO) op. 50\n\nDir: Riccardo Muti\nFilarmonica della Scala",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 71,
+			"PublishedAtRaw": "2024-12-02T11:58:14Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:58:14+00:00",
+			"PublishedAt": "2024-12-02T17:28:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UpraYKbjupA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/UpraYKbjupA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/UpraYKbjupA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/UpraYKbjupA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/UpraYKbjupA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sir Edward Elgar - In the south (Alassio) op. 50 - Riccardo Muti \u0026 Filarmonica della Scala",
+			"VideoOwnerChannelId": "UCxNJficVIYZwGuiYW8a7ZSw",
+			"VideoOwnerChannelTitle": "marco ruzza"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "oqjYXYp9kaM",
+			"VideoPublishedAtRaw": "2025-09-21T01:43:45Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-21T01:43:45+00:00",
+			"VideoPublishedAt": "2025-09-21T07:13:45+05:30"
+		},
+		"ETag": "6nJLv-GXEsVmyeXQJAPBbh05J10",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41RDUzRjJFQ0Y0MUI3NzU1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 72,
+			"PublishedAtRaw": "2025-09-21T02:21:42Z",
+			"PublishedAtDateTimeOffset": "2025-09-21T02:21:42+00:00",
+			"PublishedAt": "2025-09-21T07:51:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "oqjYXYp9kaM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/oqjYXYp9kaM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/oqjYXYp9kaM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/oqjYXYp9kaM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/oqjYXYp9kaM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/oqjYXYp9kaM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strauss Aus Italien Philadelphia Muti Nov 1972 Live",
+			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+			"VideoOwnerChannelTitle": "Peter Kohn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ASGDIr7UsQY",
+			"VideoPublishedAtRaw": "2023-03-26T20:24:02Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-26T20:24:02+00:00",
+			"VideoPublishedAt": "2023-03-27T01:54:02+05:30"
+		},
+		"ETag": "rg6y6iqfQR6FNaJ9yZxpX4CT3e4",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5CMEVBRUJERkUyNTBENTkz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 73,
+			"PublishedAtRaw": "2025-08-20T06:11:43Z",
+			"PublishedAtDateTimeOffset": "2025-08-20T06:11:43+00:00",
+			"PublishedAt": "2025-08-20T11:41:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ASGDIr7UsQY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ASGDIr7UsQY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ASGDIr7UsQY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ASGDIr7UsQY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ASGDIr7UsQY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ASGDIr7UsQY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Strauss Jr. - Kaizer Walzer op. 437 \uD83C\uDFBB Riccardo Muti",
+			"VideoOwnerChannelId": "UCalY-gQn02_x2LvJ6QZiIDA",
+			"VideoOwnerChannelTitle": "Numi Travels"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kY6944tOYw0",
+			"VideoPublishedAtRaw": "2024-06-07T13:57:58Z",
+			"VideoPublishedAtDateTimeOffset": "2024-06-07T13:57:58+00:00",
+			"VideoPublishedAt": "2024-06-07T19:27:58+05:30"
+		},
+		"ETag": "YQI9eRo1XaL9liwkWdg_b_95fOw",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Strauss   (1864 - 1949)\n\nAus Italien op. 16\n\nI       Auf der Campagna\nII      In Roms Ruinen\nIII     Am Strande von Sorrent\nIV     Neapolitanisches Volksleben\n\nRiccardo Muti, direttore\nOrchestra Sinfonica di Milano della RAI\nlive Milano, 1968",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 74,
+			"PublishedAtRaw": "2024-12-02T11:50:21Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:50:21+00:00",
+			"PublishedAt": "2024-12-02T17:20:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kY6944tOYw0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kY6944tOYw0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kY6944tOYw0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kY6944tOYw0/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Strauss R.:   Aus Italien op. 16  -  Riccardo Muti; Orchestra Sinfonica Rai (live Milano, 1968)",
+			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tTUpehj_THM"
+		},
+		"ETag": "-YW1c-QrnsdEdYb02M-dS-em-4s",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 75,
+			"PublishedAtRaw": "2024-12-02T11:50:27Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:50:27+00:00",
+			"PublishedAt": "2024-12-02T17:20:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tTUpehj_THM"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3VUorffocTI"
+		},
+		"ETag": "2vlz94WAsQYnoV9qWKiRvOFdjVU",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 76,
+			"PublishedAtRaw": "2024-12-02T11:51:35Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:51:35+00:00",
+			"PublishedAt": "2024-12-02T17:21:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3VUorffocTI"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8Q6O0Ku2050",
+			"VideoPublishedAtRaw": "2022-08-19T14:41:50Z",
+			"VideoPublishedAtDateTimeOffset": "2022-08-19T14:41:50+00:00",
+			"VideoPublishedAt": "2022-08-19T20:11:50+05:30"
+		},
+		"ETag": "kKlDSE3hpEIZ0k87WzqRgvyga1I",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4zQzFBN0RGNzNFREFCMjBE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 1. Adagio \u2013 Allegro non troppo \u2013 Andante \u2013 Moderato mosso \u2013 Andante \u2013 Moderato assai \u2013 Allegro vivo \u2013 Andante come prima \u2013 Andante mosso\n20:11 2. Allegro con grazia\n29:34 3. Allegro molto vivace\n40:00 4. Finale. Adagio lamentoso \u2013 Andante\n\nRiccardo Muti\nWiener Philharmoniker\n\nSalzburger Festspiele 2022\nGro\u00DFes Festspielhaus, 15. August 2022, live recording",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 77,
+			"PublishedAtRaw": "2024-12-02T11:55:54Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:55:54+00:00",
+			"PublishedAt": "2024-12-02T17:25:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8Q6O0Ku2050"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8Q6O0Ku2050/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8Q6O0Ku2050/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/8Q6O0Ku2050/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8Q6O0Ku2050/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8Q6O0Ku2050/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Symphony No.6 \u0022Pathetique\u0022 - Muti - Wiener Philharmoniker",
+			"VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+			"VideoOwnerChannelTitle": "Soffronitsky"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Nkz5clFrcFY",
+			"VideoPublishedAtRaw": "2024-01-29T20:08:10Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-29T20:08:10+00:00",
+			"VideoPublishedAt": "2024-01-30T01:38:10+05:30"
+		},
+		"ETag": "rzxfwyM2CtoSUYD_J7gD_2l2y7E",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This performance was given as part of a concert on 2 November 1982 in the Royal Festival Hall, London\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1982-11-02#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 78,
+			"PublishedAtRaw": "2024-12-02T11:52:05Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:05+00:00",
+			"PublishedAt": "2024-12-02T17:22:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Nkz5clFrcFY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Nkz5clFrcFY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Nkz5clFrcFY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Nkz5clFrcFY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Nkz5clFrcFY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Nkz5clFrcFY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Fantasy Overture \u0027Romeo and Juliet\u0027 - Philharmonia Orchestra - Riccardo Muti (RFH, 1982)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "pPQU9WBvwf8",
+			"VideoPublishedAtRaw": "2023-12-04T19:28:08Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-04T19:28:08+00:00",
+			"VideoPublishedAt": "2023-12-05T00:58:08+05:30"
+		},
+		"ETag": "6fYm1n_fOhTkg1PqfyX7GDR_rXc",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Tchaikovsky Fantasy Overture \u0027Hamlet\u0027\n0:19:36 Tchaikovsky Symphony No. 2\n\nThis is part of a concert given on 26 June 1979 in the Royal Festival Hall, London. The concert was part of a series where all of Tchaikovsky\u0027s numbered symphonies were performed. To be clear Muti and the Philharmonia made commercial recordings of the Tchaikovsky symphonies at about this time and these recordings do not come from these, but from live relays of the Festival Hall concerts.\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1979-06-26#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 79,
+			"PublishedAtRaw": "2024-12-02T11:52:42Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:42+00:00",
+			"PublishedAt": "2024-12-02T17:22:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "pPQU9WBvwf8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/pPQU9WBvwf8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/pPQU9WBvwf8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/pPQU9WBvwf8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/pPQU9WBvwf8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/pPQU9WBvwf8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Hamlet, Symphony No. 2 - Philharmonia - Riccardo Muti (Royal Festival Hall, 1979)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "gRa8WVoq9gE",
+			"VideoPublishedAtRaw": "2023-12-06T19:59:57Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-06T19:59:57+00:00",
+			"VideoPublishedAt": "2023-12-07T01:29:57+05:30"
+		},
+		"ETag": "94OxNCKWT9HeKfHmtZmBiP2PB2M",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Tchaikovsky Piano Concerto No. 1 (soloist Andrei Gavrilov)\n0:32:53 Tchaikovsky Symphony No. 6 \u0027Path\u00E9tique\u0027\n\nThis is a concert given on 3 July 1979 in the Royal Festival Hall, London. The concert was part of a series where all of Tchaikovsky\u0027s numbered symphonies were performed. To be clear Muti and the Philharmonia made commercial recordings of the Tchaikovsky symphonies at about this time and these recordings do not come from these, but from live relays of the Festival Hall concerts.\n\nAndrei Gavrilov (piano)\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1979-07-03#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 80,
+			"PublishedAtRaw": "2024-12-02T11:52:33Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:33+00:00",
+			"PublishedAt": "2024-12-02T17:22:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "gRa8WVoq9gE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/gRa8WVoq9gE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/gRa8WVoq9gE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/gRa8WVoq9gE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/gRa8WVoq9gE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/gRa8WVoq9gE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Pno Concerto No. 1 (Gavrilov), Symphony No. 6 - Philharmonia - Riccardo Muti (RFH,1979)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "k2KjTL-fx68",
+			"VideoPublishedAtRaw": "2023-12-03T20:44:16Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-03T20:44:16+00:00",
+			"VideoPublishedAt": "2023-12-04T02:14:16+05:30"
+		},
+		"ETag": "4Lsl7NuxTpAwh001_4vFiC6GRkI",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This is part of a concert given on 20 June 1979 in the Royal Festival Hall, London. The second half of the concert consisted of Tchaikovsky\u0027s 5th Symphony, but unfortunately I do not have recording of that since the tape ran out before the music finished. The concert was part of a series where all of Tchaikovsky\u0027s numbered symphonies were performed and I did record the rest successfully. To be clear Muti and the Philharmonia made commercial recordings of the Tchaikovsky symphonies at about this time and these recordings do not come from these, but from live relays of the Festival Hall concerts.\n\nPhilharmonia Orchestra\nconducted by\nRiccardo Muti\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1979-06-20#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 81,
+			"PublishedAtRaw": "2024-12-02T11:52:46Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:46+00:00",
+			"PublishedAt": "2024-12-02T17:22:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "k2KjTL-fx68"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/k2KjTL-fx68/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/k2KjTL-fx68/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/k2KjTL-fx68/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/k2KjTL-fx68/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/k2KjTL-fx68/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Symphony No. 1 - Philharmonia Orchestra - Riccardo Muti (Royal Festival Hall, 1979)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "qQ-qHvfsfIQ",
+			"VideoPublishedAtRaw": "2023-12-05T17:40:18Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-05T17:40:18+00:00",
+			"VideoPublishedAt": "2023-12-05T23:10:18+05:30"
+		},
+		"ETag": "LMwm25k1F3Dmx9I6rcI-on8KYA4",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Tchaikovsky Symphony No. 3\n0:43:55 Tchaikovsky Symphony No. 4\n\nThis is a concert given on 28 June 1979 in the Royal Festival Hall, London. The concert was part of a series where all of Tchaikovsky\u0027s numbered symphonies were performed. To be clear Muti and the Philharmonia made commercial recordings of the Tchaikovsky symphonies at about this time and these recordings do not come from these, but from live relays of the Festival Hall concerts.\n\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1979-06-28#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 82,
+			"PublishedAtRaw": "2024-12-02T11:52:37Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:52:37+00:00",
+			"PublishedAt": "2024-12-02T17:22:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qQ-qHvfsfIQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qQ-qHvfsfIQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qQ-qHvfsfIQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/qQ-qHvfsfIQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qQ-qHvfsfIQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/qQ-qHvfsfIQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Symphony No. 3 \u0026 No. 4 - Philharmonia - Riccardo Muti (Royal Festival Hall, 1979)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vf2LVIKy1JM",
+			"VideoPublishedAtRaw": "2023-11-06T17:54:02Z",
+			"VideoPublishedAtDateTimeOffset": "2023-11-06T17:54:02+00:00",
+			"VideoPublishedAt": "2023-11-06T23:24:02+05:30"
+		},
+		"ETag": "QFQrz0Ne6s9c2o4-YwBiBkXUagY",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "P\u00EBtr Il\u0027i\u010D \u010Cajkovskij: Sinfonia n 1 in sol minore op 13 \u0022 Sogni d\u0027inverno\u0022\n\nOrchestra Sinfonica di Roma della Rai diretta da Riccardo Muti\nRegistrazione del 2 marzo 1974",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 83,
+			"PublishedAtRaw": "2024-12-02T11:53:06Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:53:06+00:00",
+			"PublishedAt": "2024-12-02T17:23:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vf2LVIKy1JM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vf2LVIKy1JM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vf2LVIKy1JM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vf2LVIKy1JM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vf2LVIKy1JM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vf2LVIKy1JM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Sinfonia n 1 op 13 \u0022Sogni d\u0027inverno\u0022 | Riccardo Muti | Rai di Roma (2.3.1974)",
+			"VideoOwnerChannelId": "UCb4pTnoEtxG8tLRlv1Pg5nQ",
+			"VideoOwnerChannelTitle": "Angelo Procino"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XNFiRx4bq8Q",
+			"VideoPublishedAtRaw": "2025-08-29T13:01:09Z",
+			"VideoPublishedAtDateTimeOffset": "2025-08-29T13:01:09+00:00",
+			"VideoPublishedAt": "2025-08-29T18:31:09+05:30"
+		},
+		"ETag": "Mnq6VRl3qFAd8U3-X1y1dH1yXYg",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5GMDBDNkJGMzYzREUyMTYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Philadelphia Orchestra conducted by Riccardo Muti performs Edgard Var\u00E8se\u2019s symphonic poem Arcana on February 1st, 1985. This was recorded live off the radio onto tape by Mr. Marchant\u2019s daughter. \n\nThis tape required some processing to be playable, which means the quality is not as good as I would want it to be. See the technical notes below for more information. There was a taping error at the very end of the piece where another piece of music came in (radio station changed?) for half a second. I edited it out but couldn\u2019t make it completely transparent. \n\nThere is a big space between the end of the piece and the applause where I can picture Muti holding the baton as long as possible to evoke the dramatic end of a dramatic piece. It\u2019s a neat moment.\n\nI\u0027ve created a Muti playlist since I have a few of his performances on the channel now:\nhttps://www.youtube.com/playlist?list=PLhut5IVLHxGawzTegUoK6pEd-ADT8_70u\n\nTechnical Info:\nAmpex 1800, quarter track stereo\n7\u201D reel\n3 3/4 IPS\nThis tape suffers from sticky shed syndrome which means it has to be specially treated before being played. That process can result in some audio problems unfortunately. With this track there are some balance issues where the left channel is quieter than the right. I tried to adjust for this but there is only so much you can do. For more about the sticky shed treatment see my post here:\nhttps://www.youtube.com/post/Ugkxh8TfxsulklceOY2PnuGTzfKIjI7Wvxiv",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 84,
+			"PublishedAtRaw": "2025-08-29T13:19:23Z",
+			"PublishedAtDateTimeOffset": "2025-08-29T13:19:23+00:00",
+			"PublishedAt": "2025-08-29T18:49:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XNFiRx4bq8Q"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/XNFiRx4bq8Q/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/XNFiRx4bq8Q/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/XNFiRx4bq8Q/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/XNFiRx4bq8Q/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Var\u00E8se Arcana - Philadelphia Orchestra, Muti 1985",
+			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ohEcnNbL_OQ",
+			"VideoPublishedAtRaw": "2024-11-05T12:51:13Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-05T12:51:13+00:00",
+			"VideoPublishedAt": "2024-11-05T18:21:13+05:30"
+		},
+		"ETag": "SNsPssjw6qzr8b0rls_xTwfZjbE",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC42QzdBMzlBQzQzRjQ0QkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ludwig van Beethoven\nSymphony No. 9 in D minor, op. 125\n\n[00:00] - 01. Movement: Allegro ma non troppo, un poco maestoso\n[18:52] - 02. Movement: Molto vivace - Presto\n[32:10] - 03. Movement: Adagio molto e cantabile\n[50:39] - 03. Movement: Finale. Presto - Allegro assai\n                                           Allegro assai vivace - Alla Marcia - Andante maestoso\n                                           Allegro energico, sempre ben marcato - Allegro ma non tanto - Prestissimo\n\n\nJulia Kleiter, soprano\nMarianne Crebassa, mezzo-soprano\n\nMichael Spyres, tenor\nG\u00FCnther Groissb\u00F6ck, bass\n\nThe Vienna Singverein, choir\n\nVienna Philharmonc Orchestra\nRiccardo Muti, conductor\n\nRecorded live on 07.05.2024\nat the Musikverein, Vienna\n\n\nLudwig van Beethoven\u0027s 9th Symphony was premiered at the K\u00E4rntnertortheater in Vienna on May 7, 1824. \n200 years later, there will be an anniversary concert under the direction of Riccardo Muti.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 85,
+			"PublishedAtRaw": "2025-06-06T22:52:50Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T22:52:50+00:00",
+			"PublishedAt": "2025-06-07T04:22:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ohEcnNbL_OQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ohEcnNbL_OQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ohEcnNbL_OQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ohEcnNbL_OQ/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Vienna Philharmonic Orchestra - Beethoven\u0027s Ninth turns 200",
+			"VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+			"VideoOwnerChannelTitle": "Grande Valse Viennoise"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lJMR6oHlh7Y",
+			"VideoPublishedAtRaw": "2023-10-18T12:09:34Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-18T12:09:34+00:00",
+			"VideoPublishedAt": "2023-10-18T17:39:34+05:30"
+		},
+		"ETag": "if4D_7xRYLdT8QBJLyPskVUyPBY",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\uBE48 \uD544\uD558\uBAA8\uB2C9 \uB9AC\uCE74\uB974\uB3C4 \uBB34\uD2F0 80\uC138 \uC0DD\uC77C \uCD95\uD558\uC74C\uC545\uD68C",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 86,
+			"PublishedAtRaw": "2024-12-02T11:53:23Z",
+			"PublishedAtDateTimeOffset": "2024-12-02T11:53:23+00:00",
+			"PublishedAt": "2024-12-02T17:23:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lJMR6oHlh7Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lJMR6oHlh7Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lJMR6oHlh7Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lJMR6oHlh7Y/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "VPO \u0026 MUTI   Schumann Symphony No. 4 In D Minor, Op. 120",
+			"VideoOwnerChannelId": "UCJsO6sVNrsUw2cV4J1vcyHg",
+			"VideoOwnerChannelTitle": "KIM"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "M4tkx8K_MCg"
+		},
+		"ETag": "p8JS5oEpMM6sJYA7eR37dFkC9V0",
+		"Id": "UEwxemdOQ29XdF83WTNJMW1hVEg1Q0pmcFRUVkFkYVFZVC5GNjAwN0Y0QTFGOTVDMEMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
+			"Position": 87,
+			"PublishedAtRaw": "2024-12-11T21:15:38Z",
+			"PublishedAtDateTimeOffset": "2024-12-11T21:15:38+00:00",
+			"PublishedAt": "2024-12-12T02:45:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "M4tkx8K_MCg"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	}
+]

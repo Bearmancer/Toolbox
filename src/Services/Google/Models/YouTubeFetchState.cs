@@ -19,6 +19,8 @@ public sealed record YouTubeFetchState
     public required DateTimeOffset LastChecked { get; init; }
     public required DateTimeOffset? LastUpdated { get; init; }
     public required bool FetchComplete { get; init; }
+    public int AzureCharsUsed { get; init; }
+    public int AzureCharsMonth { get; init; }
 
     public static readonly JsonSerializerOptions JsonOptions = new()
     {

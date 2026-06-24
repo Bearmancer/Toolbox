@@ -1,0 +1,4002 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "m177_b1YRCw",
+      "VideoPublishedAtRaw": "2016-01-16T11:03:15Z",
+      "VideoPublishedAtDateTimeOffset": "2016-01-16T11:03:15+00:00",
+      "VideoPublishedAt": "2016-01-16T16:33:15+05:30"
+    },
+    "ETag": "rMVIOLdClLlunqGjUFZpYVsrUik",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5BRjJDODk5REM0NjkzMUIy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u266A\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C38\u756A\u4E8C\u9577\u8ABF\u300C\u30D7\u30E9\u30CF\u300D\u3000K.504 / \u30C0\u30CB\u30A8\u30EB\u30FB\u30CF\u30FC\u30C7\u30A3\u30F3\u30B0\u6307\u63EE\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3 2006\u5E747\u6708\nMozart: Symphony No. 38 in D Major, K. 504, \u0022Prague\u0022 / Daniel Harding \u0026 Vienna Philharmonic Orchestra 2006\n\n\n\n\u82B8\u8853\u5287\u5834\u3088\u308A\uFF5E\u30B6\u30EB\u30C4\u30D6\u30EB\u30B0\u97F3\u697D\u796D2006\u3000\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\u30FB\u30AC\u30E9\u30FB\u30B3\u30F3\u30B5\u30FC\u30C8\u3000\uFF082006.7.30\u3000\u30D5\u30A7\u30EB\u30BC\u30F3\u30E9\u30A4\u30C8\u30B7\u30E5\u30FC\u30EC\uFF09\n\u30C0\u30CB\u30A8\u30EB\u30FB\u30CF\u30FC\u30C7\u30A3\u30F3\u30B0\u6307\u63EE/\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 0,
+      "PublishedAtRaw": "2024-11-28T03:18:48Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:18:48+00:00",
+      "PublishedAt": "2024-11-28T08:48:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "m177_b1YRCw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/m177_b1YRCw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/m177_b1YRCw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/m177_b1YRCw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/m177_b1YRCw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "**\u266AMozart: Symphony No. 38, \u0022Prague\u0022 / Daniel Harding \u0026 Vienna Philharmonic Orchestra 2006",
+      "VideoOwnerChannelId": "UCtMXsE7FXPUT55SmB2SzuoQ",
+      "VideoOwnerChannelTitle": "fukax4 Adagio"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "bbfNXYxmFWU",
+      "VideoPublishedAtRaw": "2020-04-06T08:15:01Z",
+      "VideoPublishedAtDateTimeOffset": "2020-04-06T08:15:01+00:00",
+      "VideoPublishedAt": "2020-04-06T13:45:01+05:30"
+    },
+    "ETag": "aXLilWOzmHmG1hCY8dzVL3GD-68",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5DMkU4NTY1QUFGQTYwMDE3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Symphonie de Psaumes de Stravinski avec le Choeur de l\u0027Orchestre de Paris, dirig\u00E9 par Daniel Harding.\nExtrait du concert anniversaire des 50 ans de l\u0027Orchestre de Paris.\nCaptation diffus\u00E9e le jeudi 2 novembre 2017 sur Arte Concert, Mezzo et Mezzo Live HD.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 1,
+      "PublishedAtRaw": "2024-11-28T03:16:52Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:16:52+00:00",
+      "PublishedAt": "2024-11-28T08:46:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "bbfNXYxmFWU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/bbfNXYxmFWU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/bbfNXYxmFWU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/bbfNXYxmFWU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/bbfNXYxmFWU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/bbfNXYxmFWU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "50 ans de l\u0027Orchestre de Paris  - Stravinski - Symphonie de Psaumes - Daniel Harding",
+      "VideoOwnerChannelId": "UCL2-Xq5xGrxYYS-Zs8xjw8A",
+      "VideoOwnerChannelTitle": "Orchestre de Paris"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7WRgSKg4Hu0",
+      "VideoPublishedAtRaw": "2022-03-03T16:35:17Z",
+      "VideoPublishedAtDateTimeOffset": "2022-03-03T16:35:17+00:00",
+      "VideoPublishedAt": "2022-03-03T22:05:17+05:30"
+    },
+    "ETag": "wA9FCc1DCiCvHrEp0IDTFiEI890",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding conducted the four-movement version of this symphony with the LSO at the Barbican in December 2015; sadly this was not transmitted. However the three-movement torso was performed the previous year in London\u0027s St Paul\u0027s Cathedral as part of the 2014 City of London Festival.\n\n1. Feierlich, misterioso 0:00\n2. Scherzo: Bewegt, lebhaft; Trio. Schnell 27:03\n3. Adagio: Langsam, feierlich 38:33\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are off-air audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings or streamed transmissions. We have greatly enjoyed these performances over the years - all of which were at least four years old at the time of posting - and just wish to share them with other music lovers for the pleasure of listening to the LSO in live performances. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 2,
+      "PublishedAtRaw": "2024-11-28T03:12:36Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:12:36+00:00",
+      "PublishedAt": "2024-11-28T08:42:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7WRgSKg4Hu0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7WRgSKg4Hu0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7WRgSKg4Hu0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7WRgSKg4Hu0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7WRgSKg4Hu0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Anton Bruckner - Symphony no. 9: Daniel Harding conducting the LSO in 2014",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "885YwKgzK5M",
+      "VideoPublishedAtRaw": "2024-02-13T05:10:27Z",
+      "VideoPublishedAtDateTimeOffset": "2024-02-13T05:10:27+00:00",
+      "VideoPublishedAt": "2024-02-13T10:40:27+05:30"
+    },
+    "ETag": "q8605fw5IYq4jb21MCUSdRlSpTU",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4xMzgwMzBERjQ4NjEzNUE5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Aureate Skylines (@symphonyorchestraguangzhou9482 Commission) premiere conducted by Daniel Harding\n\n\u5929\u7A79\u4E4B\u5FD7\uFF1A\u5927\u7063\u83EF\u7AE0 | \u6881\u7693\u4E00",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 3,
+      "PublishedAtRaw": "2024-11-28T03:32:21Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:32:21+00:00",
+      "PublishedAt": "2024-11-28T09:02:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "885YwKgzK5M"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/885YwKgzK5M/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/885YwKgzK5M/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/885YwKgzK5M/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/885YwKgzK5M/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/885YwKgzK5M/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Aureate Skylines (Elliot Leung) | Daniel Harding | YMCG 2024",
+      "VideoOwnerChannelId": "UCY8FReEnG8IoNzK3LXHbMww",
+      "VideoOwnerChannelTitle": "Elliot Leung"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "AcbUfz1OLIk",
+      "VideoPublishedAtRaw": "2024-06-16T13:39:22Z",
+      "VideoPublishedAtDateTimeOffset": "2024-06-16T13:39:22+00:00",
+      "VideoPublishedAt": "2024-06-16T19:09:22+05:30"
+    },
+    "ETag": "JpKcPrZrpCtS_EsLY9mSoeWN52w",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5CMEVBRUJERkUyNTBENTkz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss\nDeath and Transfiguration, symphonic poem, op. 24\n\nBavarian Radio Symphony Orchestra\nDaniel Harding, conductor\n\nReccorded live on 14.06.2024\nat the Hercules Hall of the Munich Residence",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 4,
+      "PublishedAtRaw": "2025-06-06T11:31:24Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T11:31:24+00:00",
+      "PublishedAt": "2025-06-06T17:01:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "AcbUfz1OLIk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/AcbUfz1OLIk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/AcbUfz1OLIk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/AcbUfz1OLIk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/AcbUfz1OLIk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bavarian Radio Symphony Orchestra - R. Strauss - Death and Transfiguration, symphonic poem, op. 24",
+      "VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+      "VideoOwnerChannelTitle": "Grande Valse Viennoise"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OW3qBcd4Lks",
+      "VideoPublishedAtRaw": "2024-06-16T13:07:12Z",
+      "VideoPublishedAtDateTimeOffset": "2024-06-16T13:07:12+00:00",
+      "VideoPublishedAt": "2024-06-16T18:37:12+05:30"
+    },
+    "ETag": "kx-8Zt4jwb3mLbk9vB_7LnJNJLs",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS44QTY2MEEzNzBFQUJCMUQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss\nDon Juan, symphonic poem, op. 20\n\nBavarian Radio Symphony Orchestra\nDaniel Harding, conductor\n\nReccorded live on 14.06.2024\nat the Hercules Hall of the Munich Residence",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 5,
+      "PublishedAtRaw": "2025-06-06T21:46:20Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:46:20+00:00",
+      "PublishedAt": "2025-06-07T03:16:20+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OW3qBcd4Lks"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/OW3qBcd4Lks/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/OW3qBcd4Lks/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/OW3qBcd4Lks/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/OW3qBcd4Lks/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bavarian Radio Symphony Orchestra - Richard Strauss - Don Juan, symphonic poem, op. 20",
+      "VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+      "VideoOwnerChannelTitle": "Grande Valse Viennoise"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "-MkfJ8dKMT0",
+      "VideoPublishedAtRaw": "2019-07-07T13:48:04Z",
+      "VideoPublishedAtDateTimeOffset": "2019-07-07T13:48:04+00:00",
+      "VideoPublishedAt": "2019-07-07T19:18:04+05:30"
+    },
+    "ETag": "f1GkW9qQyfXLCT2A9aBgQkv79qA",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5FQUY2Qzk4RUFDN0ZFRkZF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Bavarian Radio Symphony Orchestra plays Compositions\nby Bartok, Ravel and Berlioz\n\n\nB\u00E9la Bart\u00F3k\nThe Miraculous Mandarin, Suite, op. 19 (Sz 73) (00:54)\n\nMaurice Ravel\nPiano Concerto in G major\n\n1. Movement: Allegramente (21:45)\n2. Movement: Adagio assai (29:55)\n3. Movement: Presto (38:37)\n\nMaurice Ravel\nPavane pour une infante d\u00E9funte (44:28)\n\nHector Berlioz\nSymphonic Movements from Rom\u00E9o et Juliette, op. 17\n\n1. Movement:\nRomeo alone - Sadness\nDistant sounds from the concert and the ball - Great banquet at the Capulets (51:12)\n\n2. Movement:\nLove scene (01:04:00)\n\n3. Movement:\nQueen Mab, the queen of dreams - Scherzo (01:21:05)\n\n4. Movement:\nRomeo at the tomb of the Capulets (01:28:57)\n\nJean-Yves Thibaudet, piano\n\nBavarian Radio Symphony Orchestra\nDaniel Harding, conductor\n\nRecorded live on 28.06.2019\nat the Gasteig Philharmonie Munich",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 6,
+      "PublishedAtRaw": "2025-06-06T11:25:58Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T11:25:58+00:00",
+      "PublishedAt": "2025-06-06T16:55:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-MkfJ8dKMT0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/-MkfJ8dKMT0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/-MkfJ8dKMT0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/-MkfJ8dKMT0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/-MkfJ8dKMT0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/-MkfJ8dKMT0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bavarian Radio Symphony Orchestra plays Compositions by Bartok, Ravel and Berlioz",
+      "VideoOwnerChannelId": "UC6KAw9GNDZxgt47RnCehpag",
+      "VideoOwnerChannelTitle": "CLIC - Classic live in Concert"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "rDPVWQ_zoow",
+      "VideoPublishedAtRaw": "2021-09-22T21:16:53Z",
+      "VideoPublishedAtDateTimeOffset": "2021-09-22T21:16:53+00:00",
+      "VideoPublishedAt": "2021-09-23T02:46:53+05:30"
+    },
+    "ETag": "U_oO8ev4dlnvz3hPaSkpdcvHInU",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig Van Beethoven\nEgmont ouverture op.  84\nSergej Prokof\u0027ev\nPiano concerto n. 3 op. 26\nLudwig Van Beethoven\nSymphony n. 5 op. 67\nLilya Zilberstein, piano\nMahler. Chamber Orchestra\nDaniel Harding\n(live, Teatro comunale di Ferrara, november 1999)",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 7,
+      "PublishedAtRaw": "2024-11-28T03:13:53Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:13:53+00:00",
+      "PublishedAt": "2024-11-28T08:43:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "rDPVWQ_zoow"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/rDPVWQ_zoow/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/rDPVWQ_zoow/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/rDPVWQ_zoow/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethoven \u0026 Prokof\u0027ev - Lilya Zylberstein, piano - Mahler Chamber Orchestra, Daniel Harding",
+      "VideoOwnerChannelId": "UC3S6U6siEW6pnsoNHFDuMcQ",
+      "VideoOwnerChannelTitle": "Achille Maccapani"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "VKDbI80bfdw",
+      "VideoPublishedAtRaw": "2019-02-08T09:59:02Z",
+      "VideoPublishedAtDateTimeOffset": "2019-02-08T09:59:02+00:00",
+      "VideoPublishedAt": "2019-02-08T15:29:02+05:30"
+    },
+    "ETag": "__uAc08sIKb86IzvFugnwhZM5PE",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS43NDhFRTgwOTRERTU4Rjg3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethovens Symphonie Nr. 9 in d-Moll op. 125, gespielt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Daniel Harding. Der Chor des Bayerischen Rundfunks singt den Schlusschor \u0022Ode an die Freude\u0022 nach einem Text von Friedrich Schiller. Live aufgenommen im Jahr 2016. Eine Produktion von BR-KLASSIK.\n\nLudwig van Beethoven\u0027s Symphony No. 9 in D minor Op. 125, performed by the Bavarian Radio Symphony Orchestra conducted by Daniel Harding. The Bavarian Radio Choir sings the final chorus \u0022Ode to Joy\u0022 with lyrics by Friedrich Schiller. Recorded live in 2016. A production by BR-KLASSIK.\n\nLudwig van Beethoven - Symphonie Nr. 9 in d-Moll op. 125\n\nI. Allegro ma non troppo, un poco maestoso\nII. Molto vivace\nIII. Adagio molto e cantabile\nIV. \u0022Ode an die Freude\u0022 \u2013 \u0022Ode to Joy\u0022\n\nChor des Bayerischen Rundfunks\nSymphonieorchester des Bayerischen Rundfunks\nAnnette Dasch, Sopran\nElisabeth Kulmann, Alt\nAndrew Staples, Tenor\nGerald Finley, Bass\nDirigent: Daniel Harding\n\n\u0022An die Freude\u0022! So nannte Friedrich Schiller sein ber\u00FChmtes Gedicht, das er 1785 in Gohlis bei Leipzig verfasste. Schon bei den Zeitgenossen erfreute sich diese Ode gro\u00DFer Beliebtheit: Freimaurerlogen, Studentenverbindungen und freiheitlich gesinnte b\u00FCrgerliche Vereine verbreiteten sie schnell.  Das in der Aufkl\u00E4rung formulierte Ideal von Freiheit, Gleichheit, Br\u00FCderlichkeit brannte vielen Menschen zur Zeit der schon schwelenden Franz\u00F6sischen Revolution in den Herzen.\nSchnell wurden Komponisten zu Vertonungen inspiriert, wie Robert Schumann, Carl Friedrich Zelter oder sp\u00E4ter auch Peter Tschaikowsky. Die ber\u00FChmteste ist zweifelsohne Ludwig van Beethovens 9. Sinfonie. Seit 1985 ist sie, in einem von Herbert von Karajan speziell angefertigten Arrangement, die offizielle Hymne der Europ\u00E4ischen Union. Ob am Jahresschluss, zu Gedenktagen oder zu Jubil\u00E4en: bis heute erklingt sie bei unz\u00E4hligen offiziellen und festlichen Anl\u00E4ssen. Die besungenen Werte der Freundschaft und der Freiheit sind gerade momentan hochaktuell!\nDaniel Harding dirigierte die 9. Symphonie von Beethoven im Juli 2016 bei Klassik am Odeonsplatz. Das Symphonieorchester und der Chor des Bayerischen Rundfunks wurden komplettiert durch das erlesene Solistenquartett: Annette Dasch, Elisabeth Kulmann, Andrew Staples und Gerald Finley.\n\n\u25BA Web: https://www.br-chor.de/\n\u25BA Facebook: https://www.facebook.com/brchor/\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 8,
+      "PublishedAtRaw": "2024-11-28T03:17:15Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:17:15+00:00",
+      "PublishedAt": "2024-11-28T08:47:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "VKDbI80bfdw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/VKDbI80bfdw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/VKDbI80bfdw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/VKDbI80bfdw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/VKDbI80bfdw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/VKDbI80bfdw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphonie Nr. 9 - \u0022Ode an die Freude\u0022 | Daniel Harding | BRSO | BR-Chor",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "js6k9C_lczY",
+      "VideoPublishedAtRaw": "2024-10-29T05:00:27Z",
+      "VideoPublishedAtDateTimeOffset": "2024-10-29T05:00:27+00:00",
+      "VideoPublishedAt": "2024-10-29T10:30:27+05:30"
+    },
+    "ETag": "li2T7HebvDaIplZOYiBuSrE53is",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven piano concerto 5\nH\u00E9l\u00E8ne Grimaud piano - Berliner Symphonie Orchester directed by Daniel Harding - 19 04 2004",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 9,
+      "PublishedAtRaw": "2024-11-28T03:07:31Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:07:31+00:00",
+      "PublishedAt": "2024-11-28T08:37:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "js6k9C_lczY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/js6k9C_lczY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/js6k9C_lczY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/js6k9C_lczY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/js6k9C_lczY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Concerto 5 - H\u00E9l\u00E8ne Grimaud - BSO - Daniel Harding 19 04 2004",
+      "VideoOwnerChannelId": "UCVbw-JNsFe8Zys6nFqiH99g",
+      "VideoOwnerChannelTitle": "tom petitrex"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "umOMiiBCy7o",
+      "VideoPublishedAtRaw": "2020-11-15T08:25:56Z",
+      "VideoPublishedAtDateTimeOffset": "2020-11-15T08:25:56+00:00",
+      "VideoPublishedAt": "2020-11-15T13:55:56+05:30"
+    },
+    "ETag": "V3qhDxlH65F70yh6QRmoNyaedbk",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS41NTZEOThBNThFOUVGQkVB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven \nDie Ruinen von Athen op 113 \nDaniel Harding, Mahler Chamber Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 10,
+      "PublishedAtRaw": "2024-11-28T03:34:36Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:34:36+00:00",
+      "PublishedAt": "2024-11-28T09:04:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "umOMiiBCy7o"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/umOMiiBCy7o/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/umOMiiBCy7o/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/umOMiiBCy7o/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/umOMiiBCy7o/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/umOMiiBCy7o/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Die Ruinen von Athen op 113 Daniel Harding, Mahler Chamber Orchestra",
+      "VideoOwnerChannelId": "UCQwyyt7opyeMiBnEFgxJXPA",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Beethoven"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "uO8eGAy4qhc",
+      "VideoPublishedAtRaw": "2021-12-04T07:45:56Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-04T07:45:56+00:00",
+      "VideoPublishedAt": "2021-12-04T13:15:56+05:30"
+    },
+    "ETag": "wA6Pw56Qxpf6FirstGcJAN9OMMc",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven \nSinfonie Nr. 6 F-Dur op. 68 \u201EPastorale\u201C, Symphony No 6 in F major\nDaniel Harding conducts Mahler Chamber Orchestra\n1.Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande (Awakening of cheerful feelings upon arrival in the country): Allegro ma non troppo\n2.Szene am Bach (Scene at the brook): Andante molto mosso 11:35\n3.Lustiges Zusammensein der Landleute (Happy gathering of country folk): Allegro 24:10\n4.Gewitter, Sturm (Thunderstorm; Storm): Allegro 29:13\n5.Hirtengesang. Frohe und dankbare Gef\u00FChle nach dem Sturm (Shepherds\u0027 song; cheerful and thankful feelings after the storm): Allegretto 33:00",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 11,
+      "PublishedAtRaw": "2024-11-28T03:13:14Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:13:14+00:00",
+      "PublishedAt": "2024-11-28T08:43:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "uO8eGAy4qhc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/uO8eGAy4qhc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/uO8eGAy4qhc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/uO8eGAy4qhc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/uO8eGAy4qhc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/uO8eGAy4qhc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony No 6 F major Pastoral Daniel Harding Mahler Chamber Orchestra",
+      "VideoOwnerChannelId": "UCQwyyt7opyeMiBnEFgxJXPA",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Beethoven"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iK3njhTZsrU",
+      "VideoPublishedAtRaw": "2021-12-01T16:31:16Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-01T16:31:16+00:00",
+      "VideoPublishedAt": "2021-12-01T22:01:16+05:30"
+    },
+    "ETag": "mOsfzkUu-W17W6ePnCBdn5nG7gs",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven \nSinfonie Nr. 7 in A-Dur op. 92, Symphony No 7 in A major \nDaniel Harding conducts Deutsche Kammerphilharmonie Bremen\nPoco sostenuto. Vivace 0:00\nAllegretto 12:48\nPresto. Assai meno presto 20:54\nAllegro con brio 29:57",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 12,
+      "PublishedAtRaw": "2024-11-28T03:13:10Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:13:10+00:00",
+      "PublishedAt": "2024-11-28T08:43:10+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iK3njhTZsrU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iK3njhTZsrU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iK3njhTZsrU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/iK3njhTZsrU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iK3njhTZsrU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/iK3njhTZsrU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony No 7 in A major Daniel Harding",
+      "VideoOwnerChannelId": "UCQwyyt7opyeMiBnEFgxJXPA",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Beethoven"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7kbhSdNcI1U",
+      "VideoPublishedAtRaw": "2021-12-16T13:51:41Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-16T13:51:41+00:00",
+      "VideoPublishedAt": "2021-12-16T19:21:41+05:30"
+    },
+    "ETag": "XEEuk82s8emhwDSlBE3TJY60LEo",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven Symphony No.1 in C, Op.21\n\nI. Adagio motto - Allegro con brio\nII. Andante cantabile con moto\nIII. Menuetto \nIV. Finale\n\nVerbier Festival Chamber Orchestra\nDaniel Harding \n\nVerbier Festival 2021",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 13,
+      "PublishedAtRaw": "2024-11-28T03:13:03Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:13:03+00:00",
+      "PublishedAt": "2024-11-28T08:43:03+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7kbhSdNcI1U"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7kbhSdNcI1U/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7kbhSdNcI1U/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7kbhSdNcI1U/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7kbhSdNcI1U/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7kbhSdNcI1U/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.1 Daniel Harding/Verbier Festival",
+      "VideoOwnerChannelId": "UCiAjmcTnsIcWm40O2B3cIYg",
+      "VideoOwnerChannelTitle": "Pretty Papillon"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mVw8gLkn8NQ",
+      "VideoPublishedAtRaw": "2016-11-29T12:55:18Z",
+      "VideoPublishedAtDateTimeOffset": "2016-11-29T12:55:18+00:00",
+      "VideoPublishedAt": "2016-11-29T18:25:18+05:30"
+    },
+    "ETag": "sXh8xYakUl3iwn5SqiBFwb5MmnA",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS40QTA3NTU2RkM1QzlCMzYx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding Mahler Chamber Orchestra 2003.9.9 Suntory Hall. Live.\r\n\r\n1. Beethoven: The Ruins of Athens Overture 2. Beethoven: Symphony No.6 Pastoral Daniel Harding Mahler Chamber Orchestra 2003.9.9 Suntory Hall. Live.\r\n\r\n\r\n\r\n\r\n\r\nLudwig van Beethoven 0:00 Symphony No 5 C minor Daniel Harding Mahler Chamber Orchestra 31:14 Symphony No 6 F major Pastoral Daniel Harding Mahler .",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 14,
+      "PublishedAtRaw": "2024-11-28T03:18:34Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:18:34+00:00",
+      "PublishedAt": "2024-11-28T08:48:34+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mVw8gLkn8NQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mVw8gLkn8NQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mVw8gLkn8NQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mVw8gLkn8NQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mVw8gLkn8NQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mVw8gLkn8NQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.6 Pastoral / Harding Mahler Chamber Orchestra (2003 Movie Live)",
+      "VideoOwnerChannelId": "UC68quBmya9yh2lOJoXGl5Bg",
+      "VideoOwnerChannelTitle": "Dosenklempner"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "D4gIYHuadLI",
+      "VideoPublishedAtRaw": "2026-02-14T12:00:31Z",
+      "VideoPublishedAtDateTimeOffset": "2026-02-14T12:00:31+00:00",
+      "VideoPublishedAt": "2026-02-14T17:30:31+05:30"
+    },
+    "ETag": "oC1oeQ8onksAc9xN6h7e4cqz2SE",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5EMzJDRTUwQjBEOUVFQzAw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "brahms  symphony no.2 in d major, op.73\n\ni.   allegro non troppo ( 0:00 - )\nii.  adagio non troppo ( 15:12 - )\niii. allegretto grazioso ( 24:40 - )\niv. allegro con spirito ( 29:47 - )\n\n( live recording.  june 21, 2008  konzerthaus,  vienna )\n\n\n*. d. harding                  vienna philharmonic",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 15,
+      "PublishedAtRaw": "2026-02-14T20:18:47Z",
+      "PublishedAtDateTimeOffset": "2026-02-14T20:18:47+00:00",
+      "PublishedAt": "2026-02-15T01:48:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "D4gIYHuadLI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/D4gIYHuadLI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/D4gIYHuadLI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/D4gIYHuadLI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/D4gIYHuadLI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/D4gIYHuadLI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "brahms  symphony no.2 in d major, op.73 ( d. harding )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ibrb_eFUGBg",
+      "VideoPublishedAtRaw": "2025-02-26T15:00:59Z",
+      "VideoPublishedAtDateTimeOffset": "2025-02-26T15:00:59+00:00",
+      "VideoPublishedAt": "2025-02-26T20:30:59+05:30"
+    },
+    "ETag": "4JyWjw55M1omhXfLSzLJPao0BwA",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4yQzk4QTA5QjkzMTFFOEI1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Brahms\u0027 Symphony No. 2 remains an enigma to this day: is it a cheerful or a rather melancholy work? The scintillating interpretability of Brahms\u0027 Second Symphony has earned it a deserved place in the canon of Romantic symphonies. This recording features the young and talented musicians of the Verbier Festival Orchestra under the baton of Daniel Harding at the Verbier Festival in 2010.\n\n(00:00) Applause at the beginning\n(00:26) I. Allegro non troppo\n(15:32) II. Adagio non troppo\n(25:06) III. Allegretto grazioso (quasi andantino)\n(30:24) IV. Allegro con spirito\n\nSymphony No. 2 in D major, Op. 73 is the most popular of Johannes Brahms\u0027 (1833 - 1897) four symphonies. Since its premiere in Vienna on December 30, 1877, it has enjoyed great popularity among musicians and audiences alike. Brahms composed Symphony No. 2 in the summer of 1877 during a stay at Lake W\u00F6rthersee in Carinthia, Austria. He then traveled to Baden Baden, where he met up with Clara Schumann (1819 - 1896). He played her the first movement of the new symphony - and she described it as \u201Celegiac\u201D.\n\nResearchers have frequently looked into whether there is a connection between Brahms\u0027 2nd Symphony and Clara Schumann. Brahms had met the Schumanns more than 20 years before the Second Symphony was composed. Robert Schumann (1810 - 1856) considered the young Brahms to be somebody with a \u201Ccalling\u201D and helped make the North German composer widely known. Brahms, for his part, fell in love with Robert\u0027s wife Clara. While Robert was in a sanatorium, Brahms lived at the Schumann house, ran the household for Clara and acted as a father to the seven children she had with Robert. After Robert Schumann\u0027s death, the unequal partnership between Brahms and Clara Schumann came to an end. However, the two remained friends throughout their lives. There has always been speculation about the nature of their relationship.\n\nThe second theme in the first movement of the Symphony in D major may indicate that Brahms had Clara Schumann in mind when he composed it. The theme is a variation on the lullaby that Brahms had written years earlier for one of Clara\u0027s children: the \u201CWiegenlied\u201D (02:42). It is therefore possible that Brahms transformed memories of Clara, his beloved pianist and composer, into orchestral music. This would offer some explanation for the peculiar mixture of cheerfulness and sweetness on the one hand and melancholy on the other that Brahms\u0027 second symphony radiates. Seen in this light, the symphony would contain biographical elements and be a living memorial to the woman he loved all his life but who remained unattainable.\n\nMore analysis of this very romantic symphony here:\nBrahms: Symphony No. 2 | Music Documentary with Alondra de la Parra \u0026 the M\u00FCnchner Symphoniker (https://youtu.be/P1dtyDB_KZ4)\n\nAnd for comparison, here is a recording of Brahms\u0027 2nd Symphony with the Leipzig Gewandhaus Orchestra conducted by Kurt Mazur https://www.youtube.com/watch?v=nrdXhhbUGDc\u0026t=972s\n\nText: Rita Kass\n\n\u00A9 ID\u00C9ALE AUDIENCE - Museec - ARTE France - 2010\n\nWatch more concerts in your personal concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nFind the best of Brahms here:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBU5_GAu2NLbH0fBf6CEX8kQ\n\nand check out more symphonies here:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic\n\n#symphony #brahms #romanticmusic",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 16,
+      "PublishedAtRaw": "2025-02-27T00:36:29Z",
+      "PublishedAtDateTimeOffset": "2025-02-27T00:36:29+00:00",
+      "PublishedAt": "2025-02-27T06:06:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ibrb_eFUGBg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ibrb_eFUGBg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ibrb_eFUGBg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ibrb_eFUGBg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ibrb_eFUGBg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ibrb_eFUGBg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms: Symphony No. 2 | Daniel Harding \u0026 the Verbier Festival Orchestra",
+      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+      "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nFfytmR8nxo",
+      "VideoPublishedAtRaw": "2025-07-27T12:01:15Z",
+      "VideoPublishedAtDateTimeOffset": "2025-07-27T12:01:15+00:00",
+      "VideoPublishedAt": "2025-07-27T17:31:15+05:30"
+    },
+    "ETag": "qLcTMRuVbFbinJt48B9a1LGS-1c",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4wMDFGNzBEOTU4Q0Y1Q0RG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "bruckner  symphony no.9 in d minor\n\ni.   feierlich, misterioso ( 0:00 - )\nii.  scherzo: bewegt, lebhaft; trio. schnell ( 24:18 - )\niii. adagio: langsam, feierlich ( 35:05 - )\niv. finale: misterioso, nicht schnell (SMPC) ( 58:32 - )\n\n( live recording.  nov 9, 2007  berwald hall, stokholm )\n\n\n*. source : refine classic cd-r (modified)\n*. d. harding                    swedish radio symphony orchestra",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 17,
+      "PublishedAtRaw": "2025-07-28T20:18:11Z",
+      "PublishedAtDateTimeOffset": "2025-07-28T20:18:11+00:00",
+      "PublishedAt": "2025-07-29T01:48:11+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nFfytmR8nxo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nFfytmR8nxo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nFfytmR8nxo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/nFfytmR8nxo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nFfytmR8nxo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nFfytmR8nxo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "bruckner  symphony no.9 in d minor ( d. harding )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "fYf8_agM-Ek",
+      "VideoPublishedAtRaw": "2024-03-25T07:07:22Z",
+      "VideoPublishedAtDateTimeOffset": "2024-03-25T07:07:22+00:00",
+      "VideoPublishedAt": "2024-03-25T12:37:22+05:30"
+    },
+    "ETag": "wYYQeX0VO1TSWiGGh5G2SdIAhWM",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "In order to view exclusive films with NO ADVERTS and HELP Altea Media restore in UHD resolution new productions, please join and subscribe :\nhttps://www.youtube.com/channel/UCOpL6JBxoUu3zImhj5xUTlA/join\n\nView our subscription program introduction film:\nhttps://youtu.be/pCLe_fGvMcM\n\nB\u00E9la Bart\u00F3k: Violin Concerto No. 2, Sz. 112\n1. Allegro non troppo\n2. Andante tranquillo\n3. Allegro molto\n\nAnton\u00EDn Dvo\u0159\u00E1k: Slavonic Dances op.72\nNo. 1 (9) in B major (Odzemek)\nNo. 2 (10) in E minor (Starod\u00E1vn\u00FD, or Dumka, traditional dance)\nNo. 3 (11) in F major (Sko\u010Dn\u00E1)\nNo. 4 (12) in D\u266D major (Dumka)\nNo. 5 (13) in B\u266D minor (\u0160pac\u00EDrka)\nNo. 6 (14) in B\u266D major (Starod\u00E1vn\u00FD, traditional dance)\nNo. 7 (15) in C major (Kolo)\nNo. 8 (16) in A\u266D major (Sousedsk\u00E1)\n\nIsabelle Faust, violin\nSwedish Radio Symphony Orchestra\nDaniel Harding, conductor",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 18,
+      "PublishedAtRaw": "2024-11-28T03:08:53Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:08:53+00:00",
+      "PublishedAt": "2024-11-28T08:38:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "fYf8_agM-Ek"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/fYf8_agM-Ek/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/fYf8_agM-Ek/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/fYf8_agM-Ek/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Daniel Harding \u0026 Isabelle Faust, Swedish Radio Symphony Orchestra perform Bart\u00F3k and Dvo\u0159\u00E1k",
+      "VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
+      "VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wG95pg-P7m4",
+      "VideoPublishedAtRaw": "2015-10-11T09:09:36Z",
+      "VideoPublishedAtDateTimeOffset": "2015-10-11T09:09:36+00:00",
+      "VideoPublishedAt": "2015-10-11T14:39:36+05:30"
+    },
+    "ETag": "Wum9RgEdZ9ofErl21epz3y_E3po",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4zMUEyMkQwOTk0NTg4MDgw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Conductor: Daniel Harding \nLa Scala Philharmonic Orchestra\n\nANTONIN DVORAK\nSymphony n\u00B0 8 (1889)\n1st movement, Allegro con brio\n\nPh. Lelli e Masotti\nMilan, 6 september 2015\nhttps://www.youtube.com/playlist?list=PLOuJ015hnIhQ2S1eyNFYE68wSVKJFZ28V",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 19,
+      "PublishedAtRaw": "2024-11-28T03:37:09Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:37:09+00:00",
+      "PublishedAt": "2024-11-28T09:07:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wG95pg-P7m4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wG95pg-P7m4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wG95pg-P7m4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wG95pg-P7m4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wG95pg-P7m4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding - Dvorak - Symphony n\u00B08 (1889) - 1st movement, Allegro con brio",
+      "VideoOwnerChannelId": "UC9iJXZfOyrGETaTcvz26VjA",
+      "VideoOwnerChannelTitle": "yukio84"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "GCtaNzkNo5w",
+      "VideoPublishedAtRaw": "2015-10-11T09:14:48Z",
+      "VideoPublishedAtDateTimeOffset": "2015-10-11T09:14:48+00:00",
+      "VideoPublishedAt": "2015-10-11T14:44:48+05:30"
+    },
+    "ETag": "6XrEwDZ6asca3BBs_3nm3IKjq-o",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS42QzdBMzlBQzQzRjQ0QkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Conductor: Daniel Harding \nLa Scala Philharmonic Orchestra\n\nANTONIN DVORAK\nSymphony n\u00B0 8 (1889)\n2nd movement, Adagio\n\nPh. Lelli e Masotti\nMilan, 6 september 2015\nhttps://www.youtube.com/playlist?list=PLOuJ015hnIhQ2S1eyNFYE68wSVKJFZ28V",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 20,
+      "PublishedAtRaw": "2024-11-28T03:37:12Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:37:12+00:00",
+      "PublishedAt": "2024-11-28T09:07:12+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "GCtaNzkNo5w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/GCtaNzkNo5w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/GCtaNzkNo5w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/GCtaNzkNo5w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/GCtaNzkNo5w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding - Dvorak - Symphony n\u00B08 - 2nd movement, Adagio",
+      "VideoOwnerChannelId": "UC9iJXZfOyrGETaTcvz26VjA",
+      "VideoOwnerChannelTitle": "yukio84"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "QOnopmTAUwU",
+      "VideoPublishedAtRaw": "2015-10-11T09:22:00Z",
+      "VideoPublishedAtDateTimeOffset": "2015-10-11T09:22:00+00:00",
+      "VideoPublishedAt": "2015-10-11T14:52:00+05:30"
+    },
+    "ETag": "BGeCJl2iQuOM6QqjHx26RmGp0q4",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS41OURENDc2NEM1MDI5Mjky",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Conductor: Daniel Harding \nLa Scala Philharmonic Orchestra\n\nANTONIN DVORAK\nSymphony n\u00B0 8 (1889)\n3rd movement, Allegretto grazoso - molto vivace\n\nPh. Lelli e Masotti\nMilan, 6 september 2015\nhttps://www.youtube.com/playlist?list=PLOuJ015hnIhQ2S1eyNFYE68wSVKJFZ28V",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 21,
+      "PublishedAtRaw": "2024-11-28T03:37:16Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:37:16+00:00",
+      "PublishedAt": "2024-11-28T09:07:16+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "QOnopmTAUwU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/QOnopmTAUwU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/QOnopmTAUwU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/QOnopmTAUwU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/QOnopmTAUwU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding - Dvorak - Symphony n\u00B08 - 3rd movement, Allegretto grazioso - molto vivace",
+      "VideoOwnerChannelId": "UC9iJXZfOyrGETaTcvz26VjA",
+      "VideoOwnerChannelTitle": "yukio84"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nKbJluooao0",
+      "VideoPublishedAtRaw": "2015-10-11T09:26:12Z",
+      "VideoPublishedAtDateTimeOffset": "2015-10-11T09:26:12+00:00",
+      "VideoPublishedAt": "2015-10-11T14:56:12+05:30"
+    },
+    "ETag": "uNYHJk6SaXXnvR22qoEBhrtgLog",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4wRjhFM0MxMTU1MEUzQ0VB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Conductor: Daniel Harding \nLa Scala Philharmonic Orchestra\n\nANTONIN DVORAK\nSymphony n\u00B0 8 (1889)\n4th movement, Allegro ma non troppo\n\nPh. Lelli e Masotti\nMilan, 6 september 2015\nhttps://www.youtube.com/playlist?list=PLOuJ015hnIhQ2S1eyNFYE68wSVKJFZ28V",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 22,
+      "PublishedAtRaw": "2024-11-28T03:37:21Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:37:21+00:00",
+      "PublishedAt": "2024-11-28T09:07:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nKbJluooao0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nKbJluooao0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nKbJluooao0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nKbJluooao0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nKbJluooao0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding - Dvorak - Symphony n\u00B08 - 4th movement, Allegro ma non troppo",
+      "VideoOwnerChannelId": "UC9iJXZfOyrGETaTcvz26VjA",
+      "VideoOwnerChannelTitle": "yukio84"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "H8rYtXzxj4g",
+      "VideoPublishedAtRaw": "2015-10-11T09:48:19Z",
+      "VideoPublishedAtDateTimeOffset": "2015-10-11T09:48:19+00:00",
+      "VideoPublishedAt": "2015-10-11T15:18:19+05:30"
+    },
+    "ETag": "Pqy_28bhSAATfbfLokjcE27k4rw",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4wMTYxQzVBRDI1NEVDQUZE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Conductor: Daniel Harding \nLa Scala Philharmonic Orchestra\n\nGIOACHINO ROSSINI\nGuillaume Tell, Ouverture\nperformend as encore after Dvorak\u0027s 8th symphony\n\nPh. Lelli e Masotti\nMilan, 6 september 2015\nhttps://www.youtube.com/playlist?list=PLOuJ015hnIhQ2S1eyNFYE68wSVKJFZ28V",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 23,
+      "PublishedAtRaw": "2024-11-28T03:37:01Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:37:01+00:00",
+      "PublishedAt": "2024-11-28T09:07:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "H8rYtXzxj4g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/H8rYtXzxj4g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/H8rYtXzxj4g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/H8rYtXzxj4g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/H8rYtXzxj4g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding - Rossini - Guillaume Tell - Ouverture",
+      "VideoOwnerChannelId": "UC9iJXZfOyrGETaTcvz26VjA",
+      "VideoOwnerChannelTitle": "yukio84"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mNSQTgZq87A",
+      "VideoPublishedAtRaw": "2017-12-06T00:40:45Z",
+      "VideoPublishedAtDateTimeOffset": "2017-12-06T00:40:45+00:00",
+      "VideoPublishedAt": "2017-12-06T06:10:45+05:30"
+    },
+    "ETag": "efIpnR7YQtAj0EF_7CBVDuwkOkk",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS42MTI4Njc2QjM1RjU1MjlG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding conducts Swedish Radio Symphony Orchestra performing the 7th symphony (1966-1967) of swedish composer Allan Pettersson. It was recorded live on December 1, 2017 in Berwald Hall. \n\nThis symphony was dedicated to conductor Antal Dorati, who premiered it in 1968 and recorded it with the Stockholm Philharmonic in 1970. It is Pettersson\u0027s most popular and frequently performed symphony, although it is not performed in the United States often.\n\n\nfor educational purposes.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 24,
+      "PublishedAtRaw": "2024-11-28T03:17:50Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:17:50+00:00",
+      "PublishedAt": "2024-11-28T08:47:50+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mNSQTgZq87A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mNSQTgZq87A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mNSQTgZq87A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mNSQTgZq87A/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mNSQTgZq87A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mNSQTgZq87A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding Conducts Allan Pettersson: Symphony No. 7 (2017)",
+      "VideoOwnerChannelId": "UCVrkoXT1An5SX3QmIkp790g",
+      "VideoOwnerChannelTitle": "Quinn Mason"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "pYdPMMezwus",
+      "VideoPublishedAtRaw": "2013-06-25T14:56:04Z",
+      "VideoPublishedAtDateTimeOffset": "2013-06-25T14:56:04+00:00",
+      "VideoPublishedAt": "2013-06-25T20:26:04+05:30"
+    },
+    "ETag": "Nz8Ayc6M9PtqMhhNPXVurPcsKkQ",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS41RTNBREYwMkI5QzU3RkY2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding dirige la Filarmonica della Scala nella Sinfonia delle\nAlpi di Richard Strauss (e analizza la partitura nel n. 164 di \u0022Classic\nVoice\u0022)",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 25,
+      "PublishedAtRaw": "2024-11-28T03:27:25Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:27:25+00:00",
+      "PublishedAt": "2024-11-28T08:57:25+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pYdPMMezwus"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pYdPMMezwus/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pYdPMMezwus/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pYdPMMezwus/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/pYdPMMezwus/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding dirige la Filarmonica della Scala",
+      "VideoOwnerChannelId": "UCxT0gJvTJne6jHsA3SEhn3g",
+      "VideoOwnerChannelTitle": "ClassicVoiceTV"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sC9B33nMvCY",
+      "VideoPublishedAtRaw": "2017-02-17T16:22:11Z",
+      "VideoPublishedAtDateTimeOffset": "2017-02-17T16:22:11+00:00",
+      "VideoPublishedAt": "2017-02-17T21:52:11+05:30"
+    },
+    "ETag": "90gUku1lkfCHUVbv7f0Uqu-J6DY",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4wNEU1MTI4NkZEMzVBN0JF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sveriges Radios Symfoniorkester under ledning av Daniel Harding.\nDvorak: Othello (Op. 93), ouverture\n\nFr\u00E5n konsert i Berwaldhallen, 12 januari 2017.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 26,
+      "PublishedAtRaw": "2024-11-28T03:36:26Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:36:26+00:00",
+      "PublishedAt": "2024-11-28T09:06:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sC9B33nMvCY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sC9B33nMvCY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sC9B33nMvCY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/sC9B33nMvCY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sC9B33nMvCY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sC9B33nMvCY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Daniel Harding dirigerar Dvorak: Othello, ouverture",
+      "VideoOwnerChannelId": "UC4v-Qf3SU6tcQVj7U-QfQAQ",
+      "VideoOwnerChannelTitle": "Berwaldhallen"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CxSi20Z5Wcw",
+      "VideoPublishedAtRaw": "2020-03-27T08:55:28Z",
+      "VideoPublishedAtDateTimeOffset": "2020-03-27T08:55:28+00:00",
+      "VideoPublishedAt": "2020-03-27T14:25:28+05:30"
+    },
+    "ETag": "qCJeT0QA7RxOYKiFjTzWRc-p1yI",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5GNjAwN0Y0QTFGOTVDMEMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Provided to YouTube by harmonia mundi\n\nDer fliegende Holl\u00E4nder, WWV 63: Ouverture \u00B7 Matthias Goerne \u00B7 The Swedish Radio Symphony Orchestra \u00B7 Daniel Harding \u00B7 Richard Wagner\n\nThe Wagner Project\n\n\u2117 2017 harmonia mundi\n\nReleased on: 2017-11-17\n\nConductor: Daniel Harding\nOrchestra: The Swedish Radio Symphony Orchestra\nSoloist: Matthias Goerne\nMusic  Publisher: Copyright Control\nComposer: Richard Wagner\n\nAuto-generated by YouTube.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 27,
+      "PublishedAtRaw": "2024-11-28T03:35:26Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:35:26+00:00",
+      "PublishedAt": "2024-11-28T09:05:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CxSi20Z5Wcw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CxSi20Z5Wcw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CxSi20Z5Wcw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/CxSi20Z5Wcw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CxSi20Z5Wcw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CxSi20Z5Wcw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Der fliegende Holl\u00E4nder, WWV 63: Ouverture",
+      "VideoOwnerChannelId": "UCf2FwxeQ6uF3mOvBsSI849w",
+      "VideoOwnerChannelTitle": "Matthias Goerne - Topic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "VAORrD5M4_Q",
+      "VideoPublishedAtRaw": "2015-06-21T03:29:00Z",
+      "VideoPublishedAtDateTimeOffset": "2015-06-21T03:29:00+00:00",
+      "VideoPublishedAt": "2015-06-21T08:59:00+05:30"
+    },
+    "ETag": "_jArWWzBtE6EnhhSLoMSV81OBX0",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5CNTZFOTNGQzZEODg1RUQx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Play List : https://www.youtube.com/playlist?list=PL-0Qm7yk-4UNR11bdLvhAGxK7XzecwSVH \n\u30C9\u30F3\u30FB\u30B8\u30E7\u30F4\u30A1\u30F3\u30CB\u3000\u5E8F\u66F2  \n\u30B6\u30EB\u30C4\u30D6\u30EB\u30B0\u97F3\u697D\u796D",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 28,
+      "PublishedAtRaw": "2024-11-28T03:37:32Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:37:32+00:00",
+      "PublishedAt": "2024-11-28T09:07:32+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "VAORrD5M4_Q"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/VAORrD5M4_Q/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/VAORrD5M4_Q/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/VAORrD5M4_Q/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Don Giovanni - Overture - Daniel Harding 2006",
+      "VideoOwnerChannelId": "UCYcD269ci_drB0fmZB92Lyg",
+      "VideoOwnerChannelTitle": "rosen88kavalier"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "r5NsAjPLtqo",
+      "VideoPublishedAtRaw": "2015-01-09T15:37:09Z",
+      "VideoPublishedAtDateTimeOffset": "2015-01-09T15:37:09+00:00",
+      "VideoPublishedAt": "2015-01-09T21:07:09+05:30"
+    },
+    "ETag": "53ynR0s-4UciTbahhvrNYV7XKlU",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5CNTcxMDQ0NThBNzMxODYz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded in October 2012 at the Teatro Comunale di Ferrara/ Italy",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 29,
+      "PublishedAtRaw": "2024-11-28T03:37:56Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:37:56+00:00",
+      "PublishedAt": "2024-11-28T09:07:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "r5NsAjPLtqo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/r5NsAjPLtqo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/r5NsAjPLtqo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/r5NsAjPLtqo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/r5NsAjPLtqo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k: Symphony No. 9 \u201CFrom the New World\u201D (2/4) -  Mahler Chamber Orchestra, Daniel Harding",
+      "VideoOwnerChannelId": "UC0CGxffe0HPkN5S_X4u_W9A",
+      "VideoOwnerChannelTitle": "Mahler Chamber Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CY7vaUhxhDY",
+      "VideoPublishedAtRaw": "2013-11-13T01:41:46Z",
+      "VideoPublishedAtDateTimeOffset": "2013-11-13T01:41:46+00:00",
+      "VideoPublishedAt": "2013-11-13T07:11:46+05:30"
+    },
+    "ETag": "pxlRknFBgLcLiaOFpacCnvPgXm4",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS41MzY4MzcwOUFFRUU3QzEx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nEdward Elgar\nSymphony No 2 in E flat major, Op 63\n\n1 Allegro vivace e nobilmente\n2 Larghetto\n3 Rondo\n4 Moderato e maestoso\n\nLondon Symphony Orchestra\nDaniel Harding, conductor\n\nLive recording. London, Proms 2013",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 30,
+      "PublishedAtRaw": "2024-11-28T03:20:24Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:20:24+00:00",
+      "PublishedAt": "2024-11-28T08:50:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CY7vaUhxhDY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CY7vaUhxhDY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CY7vaUhxhDY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/CY7vaUhxhDY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CY7vaUhxhDY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CY7vaUhxhDY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Elgar - Symphony No 2 in E flat major, Op 63 - Harding",
+      "VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+      "VideoOwnerChannelTitle": "Classical Vault 1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wCxRhK41wyw",
+      "VideoPublishedAtRaw": "2021-11-25T11:43:17Z",
+      "VideoPublishedAtDateTimeOffset": "2021-11-25T11:43:17+00:00",
+      "VideoPublishedAt": "2021-11-25T17:13:17+05:30"
+    },
+    "ETag": "BbTSjOKRj9SkN8uxtWzmAkrr6sw",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding\u0027s magnificent Mahler 1 at the Barbican with the London Symphony Orchestra in April 2009.\n\n1. Langsam, schleppend, immer sehr gem\u00E4chlich 0:00\n2. Kr\u00E4ftig bewegt, doch nicht zu schnell 16:45\n3. Feierlich und gemessen, ohne zu schleppen 24:32\n4. St\u00FCrmisch bewegt \u2013 Energisch 35:32\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are off-air audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings or streamed transmissions. We have greatly enjoyed these performances over the years - all of which were at least four years old at the time of posting - and just wish to share them with other music lovers for the pleasure of listening to the LSO in live performances. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 31,
+      "PublishedAtRaw": "2024-11-28T03:13:19Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:13:19+00:00",
+      "PublishedAt": "2024-11-28T08:43:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wCxRhK41wyw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wCxRhK41wyw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wCxRhK41wyw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wCxRhK41wyw/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Gustav Mahler - Symphony no. 1: Daniel Harding conducting the LSO in 2009",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "-rDUgcGhapE",
+      "VideoPublishedAtRaw": "2017-09-09T08:22:07Z",
+      "VideoPublishedAtDateTimeOffset": "2017-09-09T08:22:07+00:00",
+      "VideoPublishedAt": "2017-09-09T13:52:07+05:30"
+    },
+    "ETag": "At1ZaB1HRiHsnM_UswGNSozWuvk",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS45RjNFMDhGQ0Q2RkFCQTc1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Gustav Mahler (1860-1911)\nSymphony No. 6 in A minor \u0022Tragic\u0022\n\n00:00 I. Allegro energico, ma non troppo. Heftig, aber markig.\n24:42 II. Andante moderato\n40:20 III. Scherzo: Wuchtig\n53:27 IV. Finale: Sostenuto \u2013 Allegro moderato \u2013 Allegro energico\n\nDaniel Harding\nWiener Philharmoniker (Vienna Philharmonic)\n\nBBC Proms 2017\nRoyal Albert Hall 7/9/2017 live recording",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 32,
+      "PublishedAtRaw": "2024-11-28T03:17:59Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:17:59+00:00",
+      "PublishedAt": "2024-11-28T08:47:59+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-rDUgcGhapE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/-rDUgcGhapE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/-rDUgcGhapE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/-rDUgcGhapE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/-rDUgcGhapE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Gustav Mahler - Symphony No. 6 \u0022Tragic\u0022 - Daniel Harding - Wiener Philharmoniker (2017)",
+      "VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+      "VideoOwnerChannelTitle": "Soffronitsky"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Yo_VjiYvlHs",
+      "VideoPublishedAtRaw": "2026-02-19T15:28:13Z",
+      "VideoPublishedAtDateTimeOffset": "2026-02-19T15:28:13+00:00",
+      "VideoPublishedAt": "2026-02-19T20:58:13+05:30"
+    },
+    "ETag": "9YqZ9XgGAb4APAHi-Rgb0yj7gqc",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5CMUM0NzY5NzdEQzlGRjAx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Holst: The Planets\n1.\u3000\u706B\u661F\u3000Mars, the Bringer of War    00:00\n2.\u3000\u91D1\u661F\u3000Venus, the Bringer of Peace   08:45\n3.\u3000\u6C34\u661F\u3000Mercury, the Winged Messenger   17:30\n4.\u3000\u6728\u661F\u3000Jupiter, the Bringer of Jollity    22:10\n5.\u3000\u571F\u661F\u3000Saturn, the Bringer of Old Age    31:05\n6.\u3000\u5929\u738B\u661F\u3000Uranus, the Magician    42:18\n7.\u3000\u6D77\u738B\u661F\u3000Neptune, the Mystic     48:27\nDaniel Harding / Swedish Radio Symphony orchestra\nCho) Swedish Radio Chorus \n20/1/2023 Stockholm, Berwald Hallen live recording\n\u30DB\u30EB\u30B9\u30C8\uFF1A\u7D44\u66F2\u300C\u60D1\u661F\u300D\n\u30C0\u30CB\u30A8\u30EB\u30FB\u30CF\u30FC\u30C7\u30A3\u30F3\u30B0\u6307\u63EE\u3000\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u5408\u5531\uFF09\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u653E\u9001\u5408\u5531\u56E3\uFF08\u5973\u58F0\uFF09\n2023\u5E741\u670820\u65E5\u3000\u30B9\u30C8\u30C3\u30AF\u30DB\u30EB\u30E0\u3000\u30D9\u30EB\u30EF\u30EB\u30C9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30CF\u30FC\u30C7\u30A3\u30F3\u30B0\u306E18\u756A\u300C\u60D1\u661F\u300D\u3002\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u97FF\u3084\u30B7\u30AB\u30B4\u97FF\u3068\u306E\u6F14\u594F\u3082\u3042\u308A\u307E\u3059\u304C\u3001\u3084\u306F\u308A\u6C17\u5FC3\u306E\u77E5\u308C\u305F\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u653E\u9001\u97FF\u3068\u306E\u7D44\u307F\u5408\u308F\u305B\u306F\u683C\u5225\u3067\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 33,
+      "PublishedAtRaw": "2026-02-22T03:16:58Z",
+      "PublishedAtDateTimeOffset": "2026-02-22T03:16:58+00:00",
+      "PublishedAt": "2026-02-22T08:46:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Yo_VjiYvlHs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Yo_VjiYvlHs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Yo_VjiYvlHs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Yo_VjiYvlHs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Yo_VjiYvlHs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Yo_VjiYvlHs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Holst: The Planets   D. Harding / SRSO 2023 live in Stockholm",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sEPoEl2cUV0",
+      "VideoPublishedAtRaw": "2021-07-28T18:15:58Z",
+      "VideoPublishedAtDateTimeOffset": "2021-07-28T18:15:58+00:00",
+      "VideoPublishedAt": "2021-07-28T23:45:58+05:30"
+    },
+    "ETag": "haqHkQ0IT4arh3laIa4Hrzdjdyc",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS42Qzk5MkEzQjVFQjYwRDA4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Provided to YouTube by Sony Classical\n\nI vespri siciliani: Overture \u00B7 Daniel Harding \u00B7 Wiener Philharmoniker\n\nSommernachtskonzert 2021 / Summer Night Concert 2021\n\n\u2117 2021 Wiener Philharmoniker, under exclusive license to Sony Music Entertainment\n\nReleased on: 2021-07-09\n\nAssociated Performer: Daniel Harding \u0026 Wiener Philharmoniker\nAssociated Performer: Daniel Harding\nAssociated Performer: Wiener Philharmoniker\nComposer: Giuseppe Verdi\nProducer: Friedemann Engelbrecht\nRecording Engineer, Mixing Engineer: Thomas B\u00F6\u00DFl\nAssistant Engineer: Martin Vetters\nAssistant Engineer: Bernhard Schmid\nAssistant Engineer: Martin Pertak\nAssistant Engineer: Andreas Hagemann\nEditor: Wolfgang Schiefermair\nEditor: Thomas B\u00F6ssl\nEditor: Benedikt Schr\u00F6der\n\nAuto-generated by YouTube.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 34,
+      "PublishedAtRaw": "2024-11-28T03:33:47Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:33:47+00:00",
+      "PublishedAt": "2024-11-28T09:03:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sEPoEl2cUV0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sEPoEl2cUV0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sEPoEl2cUV0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/sEPoEl2cUV0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sEPoEl2cUV0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sEPoEl2cUV0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "I vespri siciliani: Overture",
+      "VideoOwnerChannelId": "UClKeDd9AlqY_1aXsULICUHA",
+      "VideoOwnerChannelTitle": "Daniel Harding - Topic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "l1zimVslbTo",
+      "VideoPublishedAtRaw": "2021-11-14T09:00:32Z",
+      "VideoPublishedAtDateTimeOffset": "2021-11-14T09:00:32+00:00",
+      "VideoPublishedAt": "2021-11-14T14:30:32+05:30"
+    },
+    "ETag": "LIYFoj9DuRV4vcHxL6xKfNKFQkw",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4zMEQ1MEIyRTFGNzhDQzFB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding conducts Dvo\u0159\u00E1k In der Natur (In Nature\u0027s Realm), recorded at the Barbican, London on 31 October 2021.\n\n0:00 Introduction by Clare Duckworth\n1:00 Introduction by Daniel Harding\n2:09 Dvo\u0159\u00E1k In der Natur\n\nDaniel Harding: conductor\nLondon Symphony Orchestra\n\nThis work was part of a full concert which also featured Dvo\u0159\u00E1k\u0027s The Golden Spinning Wheel and J\u00F6rg Widmann\u0027s Viola Concerto performed by Antoine Tamestit. The concert is available to subscribers to view from Thursday 18 November on Marquee TV: https://www.marquee.tv/videos/london-symphony-orchestra-widmann-dvorak\n------------------------------------------------------------------------------------------------\nYou can watch excerpts of our season on demand on this playlist: https://www.youtube.com/playlist?list=PLTjZ3o6K-BOmsqpAF8jVEDjd7dQOjfjPc\n#lso2021 #YouTubeSundays\n------------------------------------------------------------------------------------------------\nSUPPORT THE LSO\u0027S FUTURE \nThe importance of music and the arts has never been more apparent than in recent months, as we\u2019ve been inspired, comforted and entertained throughout this unprecedented period.  \n\nAs we emerge from the most challenging period of a generation, please consider supporting the LSO\u0027s Always Playing Appeal to sustain the Orchestra, allow us to perform together again on stage and to continue sharing our music with the broadest range of people possible.  \n\nEvery donation will help to support the LSO\u2019s future: https://lso.co.uk/support-us/always-playing-appeal.html\n\nDonate via YouTube: \nClick the button to the top right of the player.\n\nText to donate:\nText LSOAPPEAL 5 to 70085 to donate \u00A35\nText LSOAPPEAL 10 to 70085 to donate \u00A310\nText LSOAPPEAL 20 to 70085 to donate \u00A320\n\nTexts cost \u00A35, \u00A310 or \u00A320 plus one standard rate message and you\u2019ll be opting in to hear more about our work and fundraising via telephone and SMS. If you\u2019d like to give but do not wish to receive marketing communications, text LSOAPPEALNOINFO 5, 10 or 20 to 70085.\n------------------------------------------------------------------------------------------------\nThe LSO\u2019s return to work is supported by Art Mentor Foundation Lucerne and Dna Nudge.\n\nGenerously supported by the Weston Culture Fund.\n------------------------------------------------------------------------------------------------\nSubscribe to the LSO\u0027s channel: http://bit.ly/LSOsubscribe\n\nSubscribe to LSO newsletter: https://smarturl.it/lsonewsletter\n\nFollow the LSO on:\n\nInstagram: https://www.instagram.com/londonsymphonyorchestra\nFacebook: https://www.facebook.com/londonsymphonyorchestra\nTwitter: https://twitter.com/londonsymphony\nWebsite: https://lso.co.uk/\nApple Music: http://geni.us/yH0sXY\nSpotify: http://spoti.fi/291cCk0",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 35,
+      "PublishedAtRaw": "2024-11-28T03:33:34Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:33:34+00:00",
+      "PublishedAt": "2024-11-28T09:03:34+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "l1zimVslbTo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/l1zimVslbTo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/l1zimVslbTo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/l1zimVslbTo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/l1zimVslbTo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/l1zimVslbTo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k In der Natur // London Symphony Orchestra \u0026 Daniel Harding",
+      "VideoOwnerChannelId": "UCY1yTIi-DaxPbNtLCnwAM1g",
+      "VideoOwnerChannelTitle": "London Symphony Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sPgt2Su2efQ",
+      "VideoPublishedAtRaw": "2018-01-02T18:57:24Z",
+      "VideoPublishedAtDateTimeOffset": "2018-01-02T18:57:24+00:00",
+      "VideoPublishedAt": "2018-01-03T00:27:24+05:30"
+    },
+    "ETag": "mvL6URIykLkNUp64zJ5NBLFvYGQ",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5CMEQ2Mjk5NTc3NDZFRUNB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sibelius\u0027 last great masterpiece, with the London Symphony Orchestra conducted by Daniel Harding, in a concert from February 2013 that also included Beethoven\u0027s Eroica symphony.\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 36,
+      "PublishedAtRaw": "2024-11-28T03:17:37Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:17:37+00:00",
+      "PublishedAt": "2024-11-28T08:47:37+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sPgt2Su2efQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sPgt2Su2efQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sPgt2Su2efQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sPgt2Su2efQ/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Jean Sibelius - Tapiola: Daniel Harding conducting the LSO in 2013",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6V7aA41hpEk",
+      "VideoPublishedAtRaw": "2020-07-20T05:56:05Z",
+      "VideoPublishedAtDateTimeOffset": "2020-07-20T05:56:05+00:00",
+      "VideoPublishedAt": "2020-07-20T11:26:05+05:30"
+    },
+    "ETag": "mvj8IsY7BOuFcuHFDC4xoD5HjW8",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4yQUE2Q0JEMTk4NTM3RTZC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Felix Mendelssohn (1809-1847) - Violin Concerto in E minor, Op. 64 (1844)\n1. Allegro molto appassionato (00:20) [Cadenza by Joshua Bell]\n2. Andante (13:19)\n3. Allegretto non troppo \u2013 Allegro molto vivace (20:58)\nJoshua Bell, violin\nDaniel Harding, conductor\nOrchestre de Paris\nNHK Hall Tokyo\nDaniel Harding\u0027s inaugural tour as the Music Director of the Orchestre de Paris (2016)",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 37,
+      "PublishedAtRaw": "2024-11-28T03:15:48Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:15:48+00:00",
+      "PublishedAt": "2024-11-28T08:45:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6V7aA41hpEk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6V7aA41hpEk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6V7aA41hpEk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6V7aA41hpEk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6V7aA41hpEk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6V7aA41hpEk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Joshua Bell - Mendelssohn: Violin Concerto in E minor - Daniel Harding/Orchestre de Paris",
+      "VideoOwnerChannelId": "UCNYA6zBw0z_jTIbo8BpjRSw",
+      "VideoOwnerChannelTitle": "Passion For Violin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "pgQe9k5vtME",
+      "VideoPublishedAtRaw": "2021-07-27T14:18:49Z",
+      "VideoPublishedAtDateTimeOffset": "2021-07-27T14:18:49+00:00",
+      "VideoPublishedAt": "2021-07-27T19:48:49+05:30"
+    },
+    "ETag": "EgF9vYeyEF8l4GWikvgvQ5iUjcM",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4zQTkzRjgxRTY0OEU0MkM3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Klassik am Odeonsplatz 2021 - Second concert day\n\nClaude Debussy\nLa Mer, trois esquisses symphoniques pour orchestre\n\n[00:00:38] - 01. Movement: De l\u0027aube \u00E0 midi sur la mer - tr\u00E8s lent - animez peu \u00E0 peu\n[00:10:04] - 02. Movement: Jeux de vagues \u2013 Allegro (dans un rythme tr\u00E8s souple) - anim\u00E9u\n[00:17:25] - 03. Movement: Dialogue du vent et de la mer anim\u00E9 et tumultueux - c\u00E9dez tr\u00E8s l\u00E9g\u00E8rement\n\nRobert Schumann\nCello Concerto in A minor, op. 129\n\n[00:26:31] - 01. Movement: Nicht zu schnell - not to fast\n[00:37:46] - 02. Movement: Langsam \u2013 slowly\n[00:42:14] - 03. Movement: Sehr lebhaft - very lively\n\n                     Pyotr Ilyich Tchaikovsky\n[00:51:24] - Where have you disappeared to - Lensky\u0027s aria from Eugene Onegin\n                     (arranged for cello and orchestra)\n\nIgor Stravinsky\nL\u0027oiseau de feu - The Firebird, Concert Suite No. 2 (1919)\n\n[00:58:51] - 01. Movement: Introduction\n[01:01:56] - 02. Movement: L\u0027Oiseau de feu et sa danse (Variation of the Firebird)\n[01:03:29] - 03. Movement: Ronde des princesses (Round Dance of the Princesses)\n[01:08:30] - 04. Movement: Danse infernale du Roi Kastche\u00EF (Infernal Dance of King Kaschei)\n[01:13:07] - 05. Movement: Berceuse (Lullaby)\n[01:17:00] - 06. Movement: Finale\n\nEncore\n\n                    Johann Strauss, jr.\n[01:21:23] - K\u00FCnstlerleben, Walzer, op. 316 (Artist life, waltz, op. 316)\n\nSol Gabetta, cello\n\nBavarian Radio Symphony Orchestra\nDaniel Harding, conductor\n\nRecorded live on 10.07.2021\nat the Odeonsplatz, Munich",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 38,
+      "PublishedAtRaw": "2025-06-06T22:21:23Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T22:21:23+00:00",
+      "PublishedAt": "2025-06-07T03:51:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pgQe9k5vtME"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pgQe9k5vtME/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pgQe9k5vtME/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pgQe9k5vtME/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Klassik am Odeonsplatz 2021 - Second concert day -  Bavarian Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+      "VideoOwnerChannelTitle": "Grande Valse Viennoise"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zuTKMnPKzuk",
+      "VideoPublishedAtRaw": "2022-07-14T12:42:59Z",
+      "VideoPublishedAtDateTimeOffset": "2022-07-14T12:42:59+00:00",
+      "VideoPublishedAt": "2022-07-14T18:12:59+05:30"
+    },
+    "ETag": "3BBDeibkj8B_9Nz5-wysstKlU6M",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4xNjIyNEE0MDEyRDlCMjBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Klassik am Odeonsplatz 2022 - First concert day\n\nPart I\n\nPjotr Iljitsch Tschaikowsky\nViolin Concerto in D major, op. 35\n\n[00:00:00] - 01. Movement: Allegro moderato\n[00:18:47] - 02. Movement: Canzonetta. Andante\n[00:25:03] - 03. Movement: Finale. Allegro vivacissimo\n\n\nPart II\n\nAnton\u00EDn Dvor\u00E1k\nSymphony No. 9 in E minor, op. 95 ~ From the New World ~\n\n[00:37:27] - 01. Movement: Adagio - Allegro molto\n[00:49:31] - 02. Movement: Largo\n[01:02:36] - 03. Movement: Scherzo. Molto vivace - Poco sostenuto\n[01:10:17] - 04. Movement: Finale. Allegro con fuoco\n\nEncores\n\n[01:23:29] - Anton\u00EDn Dvor\u00E1k - Slavonic Dance, op. 72, No. 2\n[01:30:52] - Johann Strauss, jr. - Tritsch-Tratsch, Polka fast, op. 214\n\nLeonidas Kavakos, violin\n\nMunich Philharmonic Orchestra\nDaniel Harding, conductor\n\nRecorded live on 09.07.2022\nat the Odeonsplatz, Munich",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 39,
+      "PublishedAtRaw": "2025-06-06T11:34:18Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T11:34:18+00:00",
+      "PublishedAt": "2025-06-06T17:04:18+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zuTKMnPKzuk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zuTKMnPKzuk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zuTKMnPKzuk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zuTKMnPKzuk/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Klassik am Odeonsplatz 2022 - First concert day - Munich Philharmonic Orchestra",
+      "VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+      "VideoOwnerChannelTitle": "Grande Valse Viennoise"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "KzruTIH1lZ0",
+      "VideoPublishedAtRaw": "2020-04-18T13:27:49Z",
+      "VideoPublishedAtDateTimeOffset": "2020-04-18T13:27:49+00:00",
+      "VideoPublishedAt": "2020-04-18T18:57:49+05:30"
+    },
+    "ETag": "iAQYl0Z1e9PLf4_DZ9LZe1mMqPk",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS43NERCMDIzQzFBMERCMEE3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Penderecki\u0027s Threnody for the victims of Hiroshima performed by the London Symphony Orchestra under Daniel Harding in St Paul\u0027s Cathedral in London as part of the 2014 City of London Festival.\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 40,
+      "PublishedAtRaw": "2024-11-28T03:35:01Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:35:01+00:00",
+      "PublishedAt": "2024-11-28T09:05:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "KzruTIH1lZ0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/KzruTIH1lZ0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/KzruTIH1lZ0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/KzruTIH1lZ0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/KzruTIH1lZ0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Krzysztof Penderecki - Threnody: Daniel Harding conducting the LSO in 2014",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "WH8WSPPq6a4",
+      "VideoPublishedAtRaw": "2022-09-30T20:00:12Z",
+      "VideoPublishedAtDateTimeOffset": "2022-09-30T20:00:12+00:00",
+      "VideoPublishedAt": "2022-10-01T01:30:12+05:30"
+    },
+    "ETag": "ZyucU6vYdJ4Vcvv0_FbiON3-riM",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Andrew Staples et le chef Daniel Harding pr\u00E9sentent le chef d\u2019\u0153uvre d\u2019Igor Stravinsky dans une version film\u00E9e in\u00E9dite \u00E0 l\u0027a\u00E9roport Paris-Charles-de-Gaulle. \nTourn\u00E9 en juillet 2021, au c\u0153ur de la pand\u00E9mie qui privait alors le public des salles de concert et les musiciens de sa pr\u00E9sence, le film imagin\u00E9 par Andrew Staples sur la Suite orchestrale de l\u2019Oiseau de feu donne \u00E0 voir et \u00E0 entendre la musique de Stravinsky dans un d\u00E9cor inattendu, celui d\u2019un hangar de l\u2019a\u00E9roport Paris-Charles-de-Gaulle, au pied d\u2019un avion Air France que Daniel Harding fera litt\u00E9ralement d\u00E9coller sur l\u2019hymne final. Une all\u00E9gorie \u00E0 cet Oiseau de feu, ici interpr\u00E9t\u00E9 par la com\u00E9dienne Pauline Cheviller, qui retrouve sa libert\u00E9, mais aussi au d\u00E9sir de reconnecter la musique \u00E0 son public et l\u2019embarquer pour un voyage musical optimiste.\n\nAndrew Staples and the conductor Daniel Harding present Igor Stravinsky\u0027s masterpiece in an original version filmed at the Paris Charles-de-Gaulle airport. Filmed in July 2021, in the midst of the pandemic which then denied the public of its concert halls and in turn the musicians of their presence, the film imagined by Andrew Staples on the Orchestral Suite of the Firebird presents Stravinsky\u0027s music in an unexpected setting: a hangar at the Paris Charles-de-Gaulle airport, at the foot of an Air France plane that Daniel Harding will literally have take off for the final hymn. A fitting allegory to this Firebird, here performed by the actress Pauline Cheviller, who regains her freedom, but also an allegory to the desire of reconnecting music with its audience and taking them on an optimistic musical journey.\n\nUne coproduction Camera Lucida, Radio France et Air France en association avec ARTE France et France Musique.\n\n#stravinsky #DanielHarding #Orchestre\n\nPour plus de contenu France Musique rendez-vous sur https://www.radiofrance.fr/francemusique\n\nAbonnez-vous : https://www.youtube.com/channel/UCiPYZkZeNbYTQZKNMlB0Gsw?sub_confirmation=1\n\nSuivez-nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 41,
+      "PublishedAtRaw": "2024-11-28T03:11:04Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:11:04+00:00",
+      "PublishedAt": "2024-11-28T08:41:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "WH8WSPPq6a4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/WH8WSPPq6a4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/WH8WSPPq6a4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/WH8WSPPq6a4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/WH8WSPPq6a4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/WH8WSPPq6a4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "L\u0027Oiseau de Feu, de Andrew Staples et Daniel Harding avec l\u0027Orchestre Philharmonique de Radio France",
+      "VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+      "VideoOwnerChannelTitle": "France Musique concerts"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "aeMurPndIEo",
+      "VideoPublishedAtRaw": "2015-11-16T10:59:32Z",
+      "VideoPublishedAtDateTimeOffset": "2015-11-16T10:59:32+00:00",
+      "VideoPublishedAt": "2015-11-16T16:29:32+05:30"
+    },
+    "ETag": "H5DSUmSljYSrC_HqZLM4UhgeD6c",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4xOTEzQzhBQzU3MDNDNjcz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "In 2015 Armenia commemorates the centenary of the Armenian Genocide and about two dozen famous musicians are going to give memorial concerts in the world\u0060s most prestigious concerts halls. The concert series is called \u0022With you Armenia\u0022. The concerts are organized in corporation with \u0022Yerevan Perspectives\u0022 International Music Festival.\n\u0022With you, Armenia\u0022 concert at Accademia Nazionale di Santa Cecilia, Italy\nAnton\u00EDn Dvo\u0159\u00E1k- Symphony No. 8 in G Major, op. 88\nLa Scala Philharmonic Orchestra/Daniel Harding",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 42,
+      "PublishedAtRaw": "2024-11-28T03:19:04Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:19:04+00:00",
+      "PublishedAt": "2024-11-28T08:49:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "aeMurPndIEo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/aeMurPndIEo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/aeMurPndIEo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/aeMurPndIEo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/aeMurPndIEo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "La Scala Philharmonic Orchestra/Daniel Harding",
+      "VideoOwnerChannelId": "UCw6XQEcfN85VtYiUGzP0d9A",
+      "VideoOwnerChannelTitle": "Yerevan Perspectives International Music Festival"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "hZpdVp4SW4Q",
+      "VideoPublishedAtRaw": "2015-11-16T10:54:56Z",
+      "VideoPublishedAtDateTimeOffset": "2015-11-16T10:54:56+00:00",
+      "VideoPublishedAt": "2015-11-16T16:24:56+05:30"
+    },
+    "ETag": "ns15CHFNExgTz5kADt-LeDnYRVQ",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5GNDg1Njc1QzZERjlFRjE5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "In 2015 Armenia commemorates the centenary of the Armenian Genocide and about two dozen famous musicians are going to give memorial concerts in the world\u0060s most prestigious concerts halls. The concert series is called \u0022With you Armenia\u0022. The concerts are organized in corporation with \u0022Yerevan Perspectives\u0022 International Music Festival.\n\u0022With you, Armenia\u0022 concert at Accademia Nazionale di Santa Cecilia, Italy\nLudwig Van Beethoven- Piano Concerto No. 3 in C minor, op.37\nLa Scala Philharmonic Orchestra/Daniel Harding/Alessandro Taverna",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 43,
+      "PublishedAtRaw": "2024-11-28T03:19:20Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:19:20+00:00",
+      "PublishedAt": "2024-11-28T08:49:20+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "hZpdVp4SW4Q"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/hZpdVp4SW4Q/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/hZpdVp4SW4Q/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/hZpdVp4SW4Q/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/hZpdVp4SW4Q/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/hZpdVp4SW4Q/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "La Scala Philharmonic Orchestra/Daniel Harding/Alessandro Taverna",
+      "VideoOwnerChannelId": "UCw6XQEcfN85VtYiUGzP0d9A",
+      "VideoOwnerChannelTitle": "Yerevan Perspectives International Music Festival"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6apb5hYk2Q8",
+      "VideoPublishedAtRaw": "2020-10-02T11:24:34Z",
+      "VideoPublishedAtDateTimeOffset": "2020-10-02T11:24:34+00:00",
+      "VideoPublishedAt": "2020-10-02T16:54:34+05:30"
+    },
+    "ETag": "WzYrKVdii5fTnUOXv49ziO_dgRM",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Vogt and Harding with the London Symphony Orchestra at the Barbican in February 2013.\n\n1. Allegro con brio 0:00\n2. Largo 17:34\n3. Rondo - allegro 27:39\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 44,
+      "PublishedAtRaw": "2024-11-28T03:15:19Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:15:19+00:00",
+      "PublishedAt": "2024-11-28T08:45:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6apb5hYk2Q8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6apb5hYk2Q8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6apb5hYk2Q8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6apb5hYk2Q8/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Ludwig van Beethoven - Piano concerto no. 3: Lars Vogt and Daniel Harding with the LSO in 2013",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ZTcXlbyzIk0",
+      "VideoPublishedAtRaw": "2018-09-22T13:15:11Z",
+      "VideoPublishedAtDateTimeOffset": "2018-09-22T13:15:11+00:00",
+      "VideoPublishedAt": "2018-09-22T18:45:11+05:30"
+    },
+    "ETag": "wkm2w0mUhEuhCT1Ctel04gGkvQI",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4zRDBDOEZDOUM0MDY5NEEz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding\u0027s well-received \u0027Eroica\u0027 at the Barbican in February 2013, with the LSO strings atypically with very little vibrato, in period style.\n\n1. Allegro con brio 0:00\n2. Marcia funebre 18:00\n3. Scherzo: Allegro vivace 33:30\n4. Finale: Allegro molto 39:19\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 45,
+      "PublishedAtRaw": "2024-11-28T03:17:28Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:17:28+00:00",
+      "PublishedAt": "2024-11-28T08:47:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ZTcXlbyzIk0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ZTcXlbyzIk0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ZTcXlbyzIk0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ZTcXlbyzIk0/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Ludwig van Beethoven - Symphony no. 3 \u0027Eroica\u0027: Daniel Harding conducting the LSO in 2013",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "-PAJ0B0PCls",
+      "VideoPublishedAtRaw": "2025-05-31T14:00:33Z",
+      "VideoPublishedAtDateTimeOffset": "2025-05-31T14:00:33+00:00",
+      "VideoPublishedAt": "2025-05-31T19:30:33+05:30"
+    },
+    "ETag": "T9CYlviJw7pBXLVOCrIzOEy7N9s",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4xN0Y2QjVBOEI2MzQ5OUM5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "mahler  symphony no.10\n\ni.   andante - adagio ( 0:00 - )\nii.  scherzo ( 25:47 - )\niii. purgatorio ( 37:11 - )\niv. (scherzo) ( 41:05 - )                         \nv.  finale ( 53:41 - )\n\n( live recording.  dec. 1-3, 2011  avery fisher hall, lincoln center, nyc )\n\n\n*. source : the uphill road in cleveland cd-r (modified)\n*. d. harding                 new york philharmonic",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 46,
+      "PublishedAtRaw": "2025-05-31T17:51:47Z",
+      "PublishedAtDateTimeOffset": "2025-05-31T17:51:47+00:00",
+      "PublishedAt": "2025-05-31T23:21:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-PAJ0B0PCls"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/-PAJ0B0PCls/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/-PAJ0B0PCls/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/-PAJ0B0PCls/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/-PAJ0B0PCls/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/-PAJ0B0PCls/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "mahler  symphony no.10 ( d. harding )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "FIWi6zfFvXU",
+      "VideoPublishedAtRaw": "2025-11-19T15:04:58Z",
+      "VideoPublishedAtDateTimeOffset": "2025-11-19T15:04:58+00:00",
+      "VideoPublishedAt": "2025-11-19T20:34:58+05:30"
+    },
+    "ETag": "B-y4jKJms8Bkv-0v6V_mXSVdHek",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS44MkM2RjVEQkQ5N0I2MjVE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Gustav Mahlers 2. Symphonie, die sogenannte \u0022Auferstehungssymphonie\u0022, aufgef\u00FChrt von Chor und Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Daniel Harding. Live aufgenommen am 27. September 2018 in der Philharmonie im Gasteig, M\u00FCnchen.\n\nGustav Mahler - Symphonie Nr. 2 c-Moll (Auferstehungssymphonie)\n00:00:00 I. Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck\n00:23:02 II. Andante moderato. Sehr gem\u00E4chlich. Nie eilen\n00:32:56 III. In ruhig flie\u00DFender Bewegung. Sehr gem\u00E4chlich. Nicht eilen\n00:43:51 IV. \u0022Urlicht\u0022 \u2013 Sehr feierlich, aber schlicht (choralm\u00E4\u00DFig). Nicht schleppen\n00:48:52 V. Im Tempo des Scherzos \u2013 \u0022Aufersteh\u0027n, ja aufersteh\u0027n\u0022. Langsam. Misterioso\n\nKatharina Konradi, Sopran\nOkka von der Damerau, Mezzosopran\nChor des Bayerischen Rundfunks \nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Daniel Harding\n\n\u25BA Web: https://www.br-chor.de/\n\u25BA Facebook: https://www.facebook.com/brchor/\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 47,
+      "PublishedAtRaw": "2025-11-20T00:18:16Z",
+      "PublishedAtDateTimeOffset": "2025-11-20T00:18:16+00:00",
+      "PublishedAt": "2025-11-20T05:48:16+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "FIWi6zfFvXU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/FIWi6zfFvXU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/FIWi6zfFvXU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/FIWi6zfFvXU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/FIWi6zfFvXU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/FIWi6zfFvXU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler - 2. Symphonie | Daniel Harding | Chor des BR \u0026 BRSO",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "HZjFSUYZSlI",
+      "VideoPublishedAtRaw": "2018-11-24T20:50:06Z",
+      "VideoPublishedAtDateTimeOffset": "2018-11-24T20:50:06+00:00",
+      "VideoPublishedAt": "2018-11-25T02:20:06+05:30"
+    },
+    "ETag": "-nn1yv06Ml1I6Q8S0vvbyugOH8E",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS41QUZGQTY5OTE4QTREQUU4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Gustav Mahler (1860 - 1911)\n\nSymphony n.5 in C sharp minor\n\nDaniel Harding\nWiener Philharmoniker (Vienna Philharmonic)\ncorno obbligato: Ronald Janezic\nMusikverein gro\u00DFes Saal 6th May 2018 live recording\n\n00:00 1. Trauermarsch (Funeral march). In gemessenem Schritt. Streng. Wie ein Kondukt (At a measured pace. Strict. Like a funeral procession.) C\u266F minor\n13:29 2. St\u00FCrmisch bewegt, mit gr\u00F6\u00DFter Vehemenz (Moving stormily, with the greatest vehemence) A minor\n28:30 3. Scherzo. Kr\u00E4ftig, nicht zu schnell (Strong and not too fast) D major\n46:58 4. Adagietto. Sehr langsam (Very slow) F major\n56:55 5. Rondo-Finale. Allegro \u2013 Allegro giocoso. Frisch (Fresh) D major",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 48,
+      "PublishedAtRaw": "2024-11-28T03:17:23Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:17:23+00:00",
+      "PublishedAt": "2024-11-28T08:47:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "HZjFSUYZSlI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/HZjFSUYZSlI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/HZjFSUYZSlI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/HZjFSUYZSlI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/HZjFSUYZSlI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler - Symphony No. 5 - Daniel Harding - Wiener Philharmoniker",
+      "VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+      "VideoOwnerChannelTitle": "Soffronitsky"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ueIOa_R3UEE",
+      "VideoPublishedAtRaw": "2011-10-11T11:30:21Z",
+      "VideoPublishedAtDateTimeOffset": "2011-10-11T11:30:21+00:00",
+      "VideoPublishedAt": "2011-10-11T17:00:21+05:30"
+    },
+    "ETag": "mAsSWZ5V-CLzMLjGb9psuTI6pQI",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS40MDNEMzA0QTBFRThFMzBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mahler Chamber Orchestra conducted by Daniel Harding.\nChristopher Dicken-Trumpet. \nLive concert from Leipzig 2011.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 49,
+      "PublishedAtRaw": "2024-11-28T03:39:07Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:39:07+00:00",
+      "PublishedAt": "2024-11-28T09:09:07+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ueIOa_R3UEE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ueIOa_R3UEE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ueIOa_R3UEE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ueIOa_R3UEE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ueIOa_R3UEE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler Blumine, Mahler Chamber Orchestra/Daniel Harding",
+      "VideoOwnerChannelId": "UCo1uHSZO8yLrTL2F7jJYw5Q",
+      "VideoOwnerChannelTitle": "normanth100"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iSnMcofIL9k",
+      "VideoPublishedAtRaw": "2014-03-22T15:15:47Z",
+      "VideoPublishedAtDateTimeOffset": "2014-03-22T15:15:47+00:00",
+      "VideoPublishedAt": "2014-03-22T20:45:47+05:30"
+    },
+    "ETag": "2E8HdOQ229l86Q65BqiLYegVdMk",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5DNkMwRUI2MkI4QkI4NDFG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Gustav Mahler: Symphony No.3 in D minor\n\nI. Kr\u00E4ftig. Entschieden. (00:00)\nII. Tempo di Menuetto. Sehr m\u00E4\u00DFig. Ja nicht eilen! (35:58)\nIII. Comodo. Scherzando. Ohne Hast. (45:47)\nIV. Sehr langsam. Misterioso. Durchaus ppp. (1:03:47)\nV. Lustig im Tempo und keck im Ausdruck. (1:15:16)\nVI. Langsam. Ruhevoll. Empfunden. (1:19:54)\n\nKatarina Karn\u00E9us, mezzo-soprano\nSwedish Radio Choir, female choir\nAdolf Fredrik\u0027s Music School, boys choir\nSwedish Radio Symphony Orchestra\nDaniel Harding, conductor\n\nSeptember 12, 2008\nBerwaldhallen, Stockholm",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 50,
+      "PublishedAtRaw": "2024-11-28T03:20:08Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:20:08+00:00",
+      "PublishedAt": "2024-11-28T08:50:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iSnMcofIL9k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iSnMcofIL9k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iSnMcofIL9k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iSnMcofIL9k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/iSnMcofIL9k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler: Symphony No.3 in D minor - Harding / Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UCPmq1piwo3HjJPZKheGdwdQ",
+      "VideoOwnerChannelTitle": "fur bru"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "m00KLqouzwQ",
+      "VideoPublishedAtRaw": "2025-07-23T09:07:31Z",
+      "VideoPublishedAtDateTimeOffset": "2025-07-23T09:07:31+00:00",
+      "VideoPublishedAt": "2025-07-23T14:37:31+05:30"
+    },
+    "ETag": "b_y0D4Q4ZSK6lme8Wszj390T5a0",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4xNTZBNUQxMDZBQzFGMjkw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mahler: Symphony No.5\n1st movement    00:00\n2nd    12:51\n3rd     27:44\n4th     45:06\n5th     55:41\nDaniel Harding / Swedish Radio Symphony orchestra\n10/9/2010 Stockholm, Berwald Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\n\u30C0\u30CB\u30A8\u30EB\u30FB\u30CF\u30FC\u30C7\u30A3\u30F3\u30B0\u6307\u63EE\u3000\u30B9\u30A6\u30A7\u30FC\u30C7\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n2010\u5E749\u670810\u65E5\u3000\u30B9\u30C8\u30C3\u30AF\u30DB\u30EB\u30E0\u3001\u30D9\u30EB\u30EF\u30EB\u30C9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 51,
+      "PublishedAtRaw": "2025-07-23T12:16:00Z",
+      "PublishedAtDateTimeOffset": "2025-07-23T12:16:00+00:00",
+      "PublishedAt": "2025-07-23T17:46:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "m00KLqouzwQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/m00KLqouzwQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/m00KLqouzwQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/m00KLqouzwQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/m00KLqouzwQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler: Symphony No.5      D. Harding / SRSO  2010 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7fzYOtaJcxU",
+      "VideoPublishedAtRaw": "2021-12-21T10:24:55Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-21T10:24:55+00:00",
+      "VideoPublishedAt": "2021-12-21T15:54:55+05:30"
+    },
+    "ETag": "_AzAyFheZlAs5EmLoxTZrKKUOcU",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Rencontre titanesque entre Martha Argerich et Maria Jo\u00E3o Pires le 16 d\u00E9cembre 2021 au Victoria Hall, Gen\u00E8ve pour ce concert de l\u0027Orchestre de la Suisse Romande, dirig\u00E9 par notre chef en r\u00E9sidence Daniel Harding.\n\nUne soir\u00E9e inoubliable !\n____________________________________\n\n0:00 Concerto pour deux pianos et orchestre N\u00B0 10 en mi b\u00E9mol majeur KV 365 de Mozart jou\u00E9 par Martha Argerich et Maria Jo\u00E3o Pires, sous la direction de Daniel Harding avec l\u0027Orchestre de la Suisse Romande\n\n28:33 Sonate pour piano \u00E0 quatre mains en do majeur, KV 521, II. Andante\n\n35:00 Symphonie N\u00B0 1 en r\u00E9 majeur, dite \u0022Titan\u0022 de Mahler, dirig\u00E9 par Daniel Harding avec l\u0027Orchestre de la Suisse Romande\n____________________________________\n\nCHEF ET MUSICIENNES\n\nDaniel Harding\nDirection\n\nMartha Argerich\nMaria Jo\u00E3o Pires\nPianos\n____________________________________\n\nCR\u00C9DITS\n\nR\u00E9alis\u00E9 par Andy Sommer\nProduit par Chantal Bernheim et Patrick Siegenthaler\nCoproduction Actua, RTS et Arte Concert\n \nEnregistr\u00E9 le 16 d\u00E9cembre 2021 par Actua et la RTS\n\nAvec nos remerciements chaleureux \u00E0 nos deux m\u00E9c\u00E8nes :\nMadame Aline Foriel-Destezet et Soci\u00E9t\u00E9 Gustav Mahler de Gen\u00E8ve\n____________________________________\n\n SUIVEZ-NOUS \uD83C\uDFBB\uD83C\uDFBA\uD83E\uDD41\n\nSite web : https://www.osr.ch\nFacebook : https://www.facebook.com/orchestredelasuisseromande\nInstagram : https://www.instagram.com/osrorchestre\nTwitter : https://twitter.com/OSRorchestre",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 52,
+      "PublishedAtRaw": "2024-11-28T03:12:57Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:12:57+00:00",
+      "PublishedAt": "2024-11-28T08:42:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7fzYOtaJcxU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7fzYOtaJcxU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7fzYOtaJcxU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7fzYOtaJcxU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7fzYOtaJcxU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7fzYOtaJcxU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Martha Argerich et Maria Jo\u00E3o Pires - Concerto pour deux pianos de Mozart, dirig\u00E9 par Daniel Harding",
+      "VideoOwnerChannelId": "UCLRBUVOUrLVVf_pMj6-xljA",
+      "VideoOwnerChannelTitle": "Orchestre de la Suisse Romande"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zxdsFilOSQs",
+      "VideoPublishedAtRaw": "2013-01-28T13:59:58Z",
+      "VideoPublishedAtDateTimeOffset": "2013-01-28T13:59:58+00:00",
+      "VideoPublishedAt": "2013-01-28T19:29:58+05:30"
+    },
+    "ETag": "4jMxO89u92tar7pxEOlFC_D7q84",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS42MjYzMTMyQjA0QURCN0JF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 53,
+      "PublishedAtRaw": "2024-11-28T03:38:47Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:38:47+00:00",
+      "PublishedAt": "2024-11-28T09:08:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zxdsFilOSQs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zxdsFilOSQs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zxdsFilOSQs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zxdsFilOSQs/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Mozart Don Giovanni.Overture Daniel Harding \u0026 WPO",
+      "VideoOwnerChannelId": "UCERhychSHKHqQ8G5p-aGOQw",
+      "VideoOwnerChannelTitle": "classicmusic541"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OAXn_rs17m4",
+      "VideoPublishedAtRaw": "2013-02-01T12:56:37Z",
+      "VideoPublishedAtDateTimeOffset": "2013-02-01T12:56:37+00:00",
+      "VideoPublishedAt": "2013-02-01T18:26:37+05:30"
+    },
+    "ETag": "s91D8y57loGG1dZktqdWGAIzid4",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4xM0YyM0RDNDE4REQ1NDA0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 54,
+      "PublishedAtRaw": "2024-11-28T03:38:41Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:38:41+00:00",
+      "PublishedAt": "2024-11-28T09:08:41+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OAXn_rs17m4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/OAXn_rs17m4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/OAXn_rs17m4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/OAXn_rs17m4/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Mozart Idomeneo Overture Daniel Harding \u0026 WPO",
+      "VideoOwnerChannelId": "UCERhychSHKHqQ8G5p-aGOQw",
+      "VideoOwnerChannelTitle": "classicmusic541"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "O0Hys66rpMI",
+      "VideoPublishedAtRaw": "2022-05-08T07:48:50Z",
+      "VideoPublishedAtDateTimeOffset": "2022-05-08T07:48:50+00:00",
+      "VideoPublishedAt": "2022-05-08T13:18:50+05:30"
+    },
+    "ETag": "iAdLFCzS_faO3SpEnRSn7mKhWuI",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart \nPiano Concerto No 20 in D minor K 466 \nMaria Jo\u00E3o Pires, piano. \nDaniel Harding conducts Swedish Radio Symphony Orchestra\nAllegro  0:00\nRomanze 15:28\nAllegro assai 24:13",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 55,
+      "PublishedAtRaw": "2024-11-28T03:12:13Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:12:13+00:00",
+      "PublishedAt": "2024-11-28T08:42:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "O0Hys66rpMI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/O0Hys66rpMI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/O0Hys66rpMI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/O0Hys66rpMI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/O0Hys66rpMI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/O0Hys66rpMI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart Piano Concerto No 20 K 466 D minor Maria Jo\u00E3o Pires Daniel Harding Swedish Radio Symphony Orc",
+      "VideoOwnerChannelId": "UCufhbfUWt6Gj1BIk7MMNZFg",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Mozart \u0026 Classicism"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "yC2DcuoKhC4",
+      "VideoPublishedAtRaw": "2020-03-27T08:55:25Z",
+      "VideoPublishedAtDateTimeOffset": "2020-03-27T08:55:25+00:00",
+      "VideoPublishedAt": "2020-03-27T14:25:25+05:30"
+    },
+    "ETag": "VTSkIal99S_Je6N36fpFcxDkhG4",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5CQkEwRDA0MDkwNUM2MDY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Provided to YouTube by harmonia mundi\n\nParsifal, WWV 111, Act I: Vorspiel \u00B7 Matthias Goerne \u00B7 The Swedish Radio Symphony Orchestra \u00B7 Daniel Harding \u00B7 Richard Wagner\n\nThe Wagner Project\n\n\u2117 2017 harmonia mundi\n\nReleased on: 2017-11-17\n\nConductor: Daniel Harding\nOrchestra: The Swedish Radio Symphony Orchestra\nSoloist: Matthias Goerne\nMusic  Publisher: Copyright Control\nComposer: Richard Wagner\n\nAuto-generated by YouTube.",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 56,
+      "PublishedAtRaw": "2024-11-28T03:35:31Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:35:31+00:00",
+      "PublishedAt": "2024-11-28T09:05:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "yC2DcuoKhC4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/yC2DcuoKhC4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/yC2DcuoKhC4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/yC2DcuoKhC4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/yC2DcuoKhC4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/yC2DcuoKhC4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Parsifal, WWV 111, Act I: Vorspiel",
+      "VideoOwnerChannelId": "UCf2FwxeQ6uF3mOvBsSI849w",
+      "VideoOwnerChannelTitle": "Matthias Goerne - Topic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mJEWjxchyQg",
+      "VideoPublishedAtRaw": "2023-06-02T22:13:33Z",
+      "VideoPublishedAtDateTimeOffset": "2023-06-02T22:13:33+00:00",
+      "VideoPublishedAt": "2023-06-03T03:43:33+05:30"
+    },
+    "ETag": "vf0Qsc05HyoeYL5IK7eMzZSxKXE",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Edvard Grieg: Piano Concerto in A minor, op. 16 (1868 - rev. 1907)\n\nPaul Lewis (piano), Daniel Harding (conductor), Orchestra dell\u2019Accademia di Santa Cecilia. Live from Auditorium Parco della Musica, Rome (16-17-18/06/2022).\n\nPerformers\u2019 entrance 1:31\n1. Allegro molto moderato 1:59\n2. Adagio 14:32\n3. Allegro moderato molto e marcato 21:00\nFranz Schubert: Allegretto in C minor 33:06\nFranz Liszt: Klavierst\u00FCcke in F-sharp major 38:23",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 57,
+      "PublishedAtRaw": "2024-11-28T03:09:18Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:09:18+00:00",
+      "PublishedAt": "2024-11-28T08:39:18+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mJEWjxchyQg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mJEWjxchyQg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mJEWjxchyQg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mJEWjxchyQg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mJEWjxchyQg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mJEWjxchyQg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Paul Lewis - Grieg: Piano Concerto in A minor, op. 16 \u002B encores",
+      "VideoOwnerChannelId": "UCAQ3L7IQff8IGkS5wAmp15w",
+      "VideoOwnerChannelTitle": "Matteo Scalone"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cbkutEtXxrA",
+      "VideoPublishedAtRaw": "2013-10-25T12:48:00Z",
+      "VideoPublishedAtDateTimeOffset": "2013-10-25T12:48:00+00:00",
+      "VideoPublishedAt": "2013-10-25T18:18:00+05:30"
+    },
+    "ETag": "6sV6WecZuhgwAb1MBLaTk0xLSH8",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS40QzRDOEU0QUYwNUIxN0M1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mozart Piano concerto No 18 in B flat, K456 \n\nPierre-Laurent Aimard - Piano\nMahler Chamber Orchestra - Daniel Harding \nLucerne Piano Festival, 2006)",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 58,
+      "PublishedAtRaw": "2024-11-28T03:21:24Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:21:24+00:00",
+      "PublishedAt": "2024-11-28T08:51:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cbkutEtXxrA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/cbkutEtXxrA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/cbkutEtXxrA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/cbkutEtXxrA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/cbkutEtXxrA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/cbkutEtXxrA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Pierre-Laurent Aimard Mozart Piano concerto no 18 B flat Mahler Chamber Orch Daniel Harding",
+      "VideoOwnerChannelId": "UCwLcN8Qk5wq1m1_TxydVuzg",
+      "VideoOwnerChannelTitle": "theoflikken"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "RqtKhdinN6w",
+      "VideoPublishedAtRaw": "2014-10-06T15:32:44Z",
+      "VideoPublishedAtDateTimeOffset": "2014-10-06T15:32:44+00:00",
+      "VideoPublishedAt": "2014-10-06T21:02:44+05:30"
+    },
+    "ETag": "Z3oegZWR4Y7K5gVWxGdEWpfhCYc",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4zQzFBN0RGNzNFREFCMjBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Swedish Radio Symphony Orchestra, cond. Daniel Harding, kindly presented by Catalunya R\u00E0dio from Berwaldhallen/ Stockholm in 2014. *** Dear COPYRIGHT HOLDER, if you have any problems with this being on YouTube, please contact me, and I will remove it immediately. Thank you!\n\nSRSO: http://sverigesradio.se/sida/default.aspx?programid=2555\nRenaud Capu\u00E7on: http://www.warnerclassics.com/renaud-capucon",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 59,
+      "PublishedAtRaw": "2024-11-28T03:19:50Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:19:50+00:00",
+      "PublishedAt": "2024-11-28T08:49:50+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "RqtKhdinN6w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/RqtKhdinN6w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/RqtKhdinN6w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/RqtKhdinN6w/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/RqtKhdinN6w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/RqtKhdinN6w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "R. Capu\u00E7on - D. Harding - Brahms\u0027 Violin Concerto Op. 77",
+      "VideoOwnerChannelId": "UCZ6XZ2IsZ79LG0xwanZEKcA",
+      "VideoOwnerChannelTitle": "randgeschehen"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "l-qJ6YdAM_U",
+      "VideoPublishedAtRaw": "2014-05-24T14:10:17Z",
+      "VideoPublishedAtDateTimeOffset": "2014-05-24T14:10:17+00:00",
+      "VideoPublishedAt": "2014-05-24T19:40:17+05:30"
+    },
+    "ETag": "AeIiEScRjQTwQrgOQggM-Helvhk",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS45NkVENTkxRDdCQUFBMDY4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss: Tod und Verkl\u00E4rung (Death and Transfiguration), Op.24\n\nI. Largo (Gl\u00FCckliche erinnerungen an die Kindheit) (00:00)\nII. Allegro molto agitato (Todeskampf) (05:50)\nIII. Meno mosso, ma sempre alla breve (Tr\u00E4ume des sterbenden; Tod) (09:40)\nIV. Moderato (Verkl\u00E4rung) (18:03)\n\nSwedish Radio Symphony Orchestra\nDaniel Harding, conductor\n\nMay 25, 2007\nBerwaldhallen, Stockholm",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 60,
+      "PublishedAtRaw": "2024-11-28T03:20:04Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:20:04+00:00",
+      "PublishedAt": "2024-11-28T08:50:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "l-qJ6YdAM_U"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/l-qJ6YdAM_U/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/l-qJ6YdAM_U/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/l-qJ6YdAM_U/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/l-qJ6YdAM_U/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "R. Strauss: Tod und Verkl\u00E4rung - Harding / Swedish Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UCPmq1piwo3HjJPZKheGdwdQ",
+      "VideoOwnerChannelTitle": "fur bru"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "m7gzkEIdSvQ",
+      "VideoPublishedAtRaw": "2021-08-24T17:00:22Z",
+      "VideoPublishedAtDateTimeOffset": "2021-08-24T17:00:22+00:00",
+      "VideoPublishedAt": "2021-08-24T22:30:22+05:30"
+    },
+    "ETag": "XMrUGUpE_WlEFTD8ffCucNEJt7w",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4zRjM0MkVCRTg0MkYyQTM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Daniel Harding conducts the Orchestre de Paris, 2014\nWatch more with the Orchestre de Paris: https://bit.ly/ConcertsOrchestredeParis\n\nRoland Daugareil - solo violin\nOrchestre de Paris\nDaniel Harding - conductor\n\nSubscribe to wocomoMUSIC: https://goo.gl/ahZRzC\nFollow us on Facebook: http://www.facebook.com/wocomo\n\n0:00 Introduction to the programme Richard Strauss - Ein Heldenleben \u0022A Hero\u0027s Life\u0022, Op. 40\n1:05 I. Der Held (The Hero)\n5:19 II. Des Helden Widersacher (The Hero\u0027s Adversaries)\n8:42 III. Des Helden Gef\u00E4hrtin (The Hero\u0027s Companion)\n21:39 IV. Des Helden Walstatt (The Hero at Battle)\n31:12 V. Des Helden Friedenswerke (The Hero\u0027s Works of Peace)\n36:27 VI. Des Helden Weltflucht und Vollendung (The Hero\u0027s Retirement from this World and Completion)\n\n\u00A9 Licensed by Poorhouse International\n\n#wocomoROMANTIC",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 61,
+      "PublishedAtRaw": "2024-11-28T03:14:03Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:14:03+00:00",
+      "PublishedAt": "2024-11-28T08:44:03+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "m7gzkEIdSvQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/m7gzkEIdSvQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/m7gzkEIdSvQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/m7gzkEIdSvQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/m7gzkEIdSvQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/m7gzkEIdSvQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Richard Strauss - Ein Heldenleben \u0022A Hero\u0027s Life\u0022, Op. 40 (Daniel Harding, Orchestre de Paris)",
+      "VideoOwnerChannelId": "UCyBVuk3_ZHcEQn-rVBUYkzQ",
+      "VideoOwnerChannelTitle": "wocomoMUSIC"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "hJlotJkbzuU",
+      "VideoPublishedAtRaw": "2026-01-24T10:20:19Z",
+      "VideoPublishedAtDateTimeOffset": "2026-01-24T10:20:19+00:00",
+      "VideoPublishedAt": "2026-01-24T15:50:19+05:30"
+    },
+    "ETag": "Aq5mPbN5Asl9ilbk7hdPbRZY7vk",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS40NzE2MTY1QTM3RUI3QkU3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss (1864 - 1949)\nDon Juan, op. 20 (1888)\n\nDaniel Harding\nWiener Philharmoniker (Vienna Philharmonic)\n18th January 2026\nWiener Musikverein, live recording",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 62,
+      "PublishedAtRaw": "2026-01-25T15:25:28Z",
+      "PublishedAtDateTimeOffset": "2026-01-25T15:25:28+00:00",
+      "PublishedAt": "2026-01-25T20:55:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "hJlotJkbzuU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/hJlotJkbzuU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/hJlotJkbzuU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/hJlotJkbzuU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/hJlotJkbzuU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/hJlotJkbzuU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Richard Strauss | Don Juan, op. 20 - Daniel Harding, Wiener Philharmoniker (2026, live)",
+      "VideoOwnerChannelId": "UCMqZf5Qs-ySfHMZbja0tXwg",
+      "VideoOwnerChannelTitle": "Soffronitsky"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "UjDXNqG0Deg",
+      "VideoPublishedAtRaw": "2015-01-06T09:24:10Z",
+      "VideoPublishedAtDateTimeOffset": "2015-01-06T09:24:10+00:00",
+      "VideoPublishedAt": "2015-01-06T14:54:10+05:30"
+    },
+    "ETag": "ISXc8WO_SlphQ2kE17EhrabkznQ",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5ERkUyQTM0MzEwQjZCMTY5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Teatro La Fenice - Concerto di Capodanno 2015 \nSinfonia da La gazza ladra di Gioachino Rossini \n\nOrchestra del Teatro La Fenice\nDirettore Daniel Harding\n\nLa pubblicazione di questo video non intende violare nessun copyright e/o di essere usato a scopo di lucro. In caso contrario siamo a disposizione per l\u0027eventuale rimozione\n\nThe publication of this video does not intend to violate any copyrights, or to be exploited for profit. Otherwise the undersigned is available for the eventual removal",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 63,
+      "PublishedAtRaw": "2024-11-28T03:38:00Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:38:00+00:00",
+      "PublishedAt": "2024-11-28T09:08:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "UjDXNqG0Deg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/UjDXNqG0Deg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/UjDXNqG0Deg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/UjDXNqG0Deg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/UjDXNqG0Deg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/UjDXNqG0Deg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rossini, La gazza ladra (Ouverture)",
+      "VideoOwnerChannelId": "UCkxgPmBI_lVDCy8oiMVheEw",
+      "VideoOwnerChannelTitle": "Teatro La Fenice"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nk0uoI2oj6A",
+      "VideoPublishedAtRaw": "2024-08-21T13:00:53Z",
+      "VideoPublishedAtDateTimeOffset": "2024-08-21T13:00:53+00:00",
+      "VideoPublishedAt": "2024-08-21T18:30:53+05:30"
+    },
+    "ETag": "ulzk9mz9EEx7keytqakIvdMq4fE",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5ENjI1QUI0MDI5NEQzODFE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "From the Frauenkirche Dresden:\nStaatskapelle Dresden performs Scherzo in G Minor, under the baton of Daniel Harding.\n\nExcerpt of the concert \u0022Homage to Robert Schumann\u0022 from 2010.\n\nSubscribe to the Monarda Channel: https://www.youtube.com/@monardachannel\n\nRobert Schumann - Scherzo in G Minor, from the Symphony Fragment in C Minor\n\nTo mark the 200th anniversary of Robert Schumann\u0027s birth, this unique concert took place in the rebuilt Dresden Frauenkirche. In addition to great well-known works such as the Rhenish Symphony op. 97 and the Genoveva Overture op. 81, two world premieres of Schumann\u0027s never-before-heard orchestral fragments will be performed. Other rarely performed vocal works by Schumann are on the program, performed by the exceptional British conductor Daniel Harding, the soloists of the Dresdner Kreuzchor and the MDR Rundfunkchor Leipzig.\n\nDaniel Harding - Conductor\nMDR Rundfunkchor Leipzig \nStaatskapelle Dresden\n\n2010, MDR / Monarda Arts / Arte",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 64,
+      "PublishedAtRaw": "2024-11-28T03:32:01Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:32:01+00:00",
+      "PublishedAt": "2024-11-28T09:02:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nk0uoI2oj6A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nk0uoI2oj6A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nk0uoI2oj6A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/nk0uoI2oj6A/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nk0uoI2oj6A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nk0uoI2oj6A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann - Scherzo in G Minor | Staatskapelle Dresden, Daniel Harding",
+      "VideoOwnerChannelId": "UC61kxzTCfg7NncCLdFQxg8w",
+      "VideoOwnerChannelTitle": "MONARDA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "T1zwc59c7b4",
+      "VideoPublishedAtRaw": "2013-11-02T03:21:17Z",
+      "VideoPublishedAtDateTimeOffset": "2013-11-02T03:21:17+00:00",
+      "VideoPublishedAt": "2013-11-02T08:51:17+05:30"
+    },
+    "ETag": "qtmXxgNK-v7tyxAaupxTra13AC4",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4yQjZFRkExQjFGODk3RUFD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nRobert Schumann\nSymphony No 2 in C major, Op 61\n\n1 Sostenuto assai - Allegro, ma non troppo\n2 Scherzo. Allegro vivace\n3 Adagio espressivo\n4 Allegro molto vivace\n\nMahler Chamber Orchestra\nDaniel Harding conductor\n\nLive recording. London, Proms 2013",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 65,
+      "PublishedAtRaw": "2024-11-28T03:20:31Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:20:31+00:00",
+      "PublishedAt": "2024-11-28T08:50:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "T1zwc59c7b4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/T1zwc59c7b4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/T1zwc59c7b4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/T1zwc59c7b4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/T1zwc59c7b4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/T1zwc59c7b4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann - Symphony No 2 in C major, Op 61 - Harding",
+      "VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+      "VideoOwnerChannelTitle": "Classical Vault 1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wRSnP5XBnss",
+      "VideoPublishedAtRaw": "2019-02-27T18:58:20Z",
+      "VideoPublishedAtDateTimeOffset": "2019-02-27T18:58:20+00:00",
+      "VideoPublishedAt": "2019-02-28T00:28:20+05:30"
+    },
+    "ETag": "uw1iI0HVZyFPZ0Kft50Suf3VY1A",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS44Mjc5REFBRUE2MTdFRDU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann Cello Concerto A minor op. 129\n\nMaximilian Hornung, Cello\nSveriges Radios Symfoniorkester / Swedish Radio Symphony Orchestra\nDaniel Harding, conductor\n\nRecorded live at Berwaldhallen Stockholm, December 2017",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 66,
+      "PublishedAtRaw": "2024-11-28T03:17:08Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:17:08+00:00",
+      "PublishedAt": "2024-11-28T08:47:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wRSnP5XBnss"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wRSnP5XBnss/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wRSnP5XBnss/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/wRSnP5XBnss/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wRSnP5XBnss/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wRSnP5XBnss/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann Cello Concerto - Maximilian Hornung, Swedish Radio Symphony Orchestra, Daniel Harding",
+      "VideoOwnerChannelId": "UCG9mjMynXFXJlWOGmOQ4KRQ",
+      "VideoOwnerChannelTitle": "stahlsaite"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iblW-PJRYWY",
+      "VideoPublishedAtRaw": "2023-01-25T14:36:07Z",
+      "VideoPublishedAtDateTimeOffset": "2023-01-25T14:36:07+00:00",
+      "VideoPublishedAt": "2023-01-25T20:06:07+05:30"
+    },
+    "ETag": "zuZNtoBMOQC30vQGLtAQpW0ZXE8",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann\nSinfonie Nr 2 in C-Dur, op 61 \nSymphony No 2, in C major\nDaniel Harding\nSostenuto assai \u2014 Allegro, ma non troppo 0:00\nScherzo: Allegro vivace 12:30\nAdagio Espressivo 19:27\nAllegro molto vivace 29:30",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 67,
+      "PublishedAtRaw": "2024-11-28T03:09:40Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:09:40+00:00",
+      "PublishedAt": "2024-11-28T08:39:40+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iblW-PJRYWY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iblW-PJRYWY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iblW-PJRYWY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iblW-PJRYWY/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Schumann Sinfonie Nr 2 in C-Dur op 61 Daniel Harding",
+      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
+      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wgUSPCOoh4w",
+      "VideoPublishedAtRaw": "2013-11-02T03:21:17Z",
+      "VideoPublishedAtDateTimeOffset": "2013-11-02T03:21:17+00:00",
+      "VideoPublishedAt": "2013-11-02T08:51:17+05:30"
+    },
+    "ETag": "LBRTNxp4rs-ikUS8xmFg62K1P6k",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4yQUJFNUVCMzVDNjcxRTlF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nJean Sibelius\nSymphony No 7 in C major, Op 105\n\nMahler Chamber Orchestra\nDaniel Harding, conductor\n\nLive recording. London, Proms 2013",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 68,
+      "PublishedAtRaw": "2024-11-28T03:20:37Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:20:37+00:00",
+      "PublishedAt": "2024-11-28T08:50:37+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wgUSPCOoh4w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wgUSPCOoh4w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wgUSPCOoh4w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/wgUSPCOoh4w/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wgUSPCOoh4w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wgUSPCOoh4w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius - Symphony No 7 in C major, Op 105 - Harding",
+      "VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+      "VideoOwnerChannelTitle": "Classical Vault 1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ENOg_EvwdLw",
+      "VideoPublishedAtRaw": "2022-05-06T09:48:48Z",
+      "VideoPublishedAtDateTimeOffset": "2022-05-06T09:48:48+00:00",
+      "VideoPublishedAt": "2022-05-06T15:18:48+05:30"
+    },
+    "ETag": "sJPgxjfJ5p6A_mVgv6XkszZwOgU",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius\n\nSymphony n\u00B0 7, Op. 105\n\nMahler Chamber Orchestra\nDaniel Harding",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 69,
+      "PublishedAtRaw": "2024-11-28T03:12:29Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:12:29+00:00",
+      "PublishedAt": "2024-11-28T08:42:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ENOg_EvwdLw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ENOg_EvwdLw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ENOg_EvwdLw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ENOg_EvwdLw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ENOg_EvwdLw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ENOg_EvwdLw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius - Symphony n\u00B0 7 [Harding]",
+      "VideoOwnerChannelId": "UC51AqkbjzVsqd9jJFC9XV6Q",
+      "VideoOwnerChannelTitle": "\u82E5\u738B\u5B50\u5E1D\u90FD"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "dxus5YLAQPA",
+      "VideoPublishedAtRaw": "2024-08-09T13:00:42Z",
+      "VideoPublishedAtDateTimeOffset": "2024-08-09T13:00:42+00:00",
+      "VideoPublishedAt": "2024-08-09T18:30:42+05:30"
+    },
+    "ETag": "ClTjP6CzcOJf4UwKUpA_E18vakY",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS44QzVGQUU2QjE2NDgxM0M4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "#SymphonicGems. Pietro Mascagni\u0027s Intermezzo from Cavalleria Rusticana is a poignant oasis of tranquillity, so beautiful it brings tears to your eyes. It was masterfully led by Daniel Harding during our 2021 Opening Night on the Dam in Amsterdam.\n\n#Mascagni #pietromascagni #DanielHarding #Harding #symphonicgems #symphonicgem #cavalleriarusticana #cavalleria \n\nOur website: https://www.concertgebouworkest.nl/  \n\nFollow us on:  \nFacebook: https://www.facebook.com/Concertgebouworkest/  \nInstagram: https://www.instagram.com/concertgebouworkest/  \nTwitter: https://twitter.com/ConcertgbOrkest  \nLinkedIn: https://www.linkedin.com/company/concertgebouworkest/  \n\n#concertgebouworkest #concertgebouworchestra #classical #classicalmusic #klassiek #klassiekemuziek #symphony",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 70,
+      "PublishedAtRaw": "2024-11-28T03:32:10Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:32:10+00:00",
+      "PublishedAt": "2024-11-28T09:02:10+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "dxus5YLAQPA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/dxus5YLAQPA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/dxus5YLAQPA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/dxus5YLAQPA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/dxus5YLAQPA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/dxus5YLAQPA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Symphonic Gems: Mascagni\u0027s Cavalleria rusticana - Intermezzo - Daniel Harding | Concertgebouworkest",
+      "VideoOwnerChannelId": "UCG_xCloLaV2TvXtKOCH-lSA",
+      "VideoOwnerChannelTitle": "Concertgebouworkest"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "TNyqiwjMxIE",
+      "VideoPublishedAtRaw": "2020-10-21T13:10:09Z",
+      "VideoPublishedAtDateTimeOffset": "2020-10-21T13:10:09+00:00",
+      "VideoPublishedAt": "2020-10-21T18:40:09+05:30"
+    },
+    "ETag": "hMGFQ94jh2tDQzRZgho7Hn7i60E",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS43MTI1NDIwOTMwQjIxMzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "https://www.mahlerfoundation.org",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 71,
+      "PublishedAtRaw": "2024-11-28T03:15:09Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:15:09+00:00",
+      "PublishedAt": "2024-11-28T08:45:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "TNyqiwjMxIE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/TNyqiwjMxIE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/TNyqiwjMxIE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/TNyqiwjMxIE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Symphony No. 1 - Daniel Harding",
+      "VideoOwnerChannelId": "UCCsBTKAleW1FTi7GBpuqJnQ",
+      "VideoOwnerChannelTitle": "Mahler Foundation"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "_5ihd3NYK3E",
+      "VideoPublishedAtRaw": "2013-12-15T06:03:48Z",
+      "VideoPublishedAtDateTimeOffset": "2013-12-15T06:03:48+00:00",
+      "VideoPublishedAt": "2013-12-15T11:33:48+05:30"
+    },
+    "ETag": "l9dejCq1DLFPQJTVDY102MoxFtc",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5DRUQwODMxQzUyRTlGRkY3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nMichael Tippett\nConcerto for Double String Orchestra\n\nLondon Symphony Orchestra\nDaniel Harding conductor\n\nLive recording. London, Proms 2013",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 72,
+      "PublishedAtRaw": "2024-11-28T03:20:16Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:20:16+00:00",
+      "PublishedAt": "2024-11-28T08:50:16+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "_5ihd3NYK3E"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/_5ihd3NYK3E/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/_5ihd3NYK3E/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/_5ihd3NYK3E/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/_5ihd3NYK3E/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/_5ihd3NYK3E/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tippett - Concerto for Double String Orchestra - Harding",
+      "VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+      "VideoOwnerChannelTitle": "Classical Vault 1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "V8F2DoBwfK0",
+      "VideoPublishedAtRaw": "2026-02-21T12:00:48Z",
+      "VideoPublishedAtDateTimeOffset": "2026-02-21T12:00:48+00:00",
+      "VideoPublishedAt": "2026-02-21T17:30:48+05:30"
+    },
+    "ETag": "vsCslOFEdmpmMkh-UOfvwd7B1ik",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS5GMDBDNkJGMzYzREUyMTYw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Toru Takemitsu  Black rain\n\n( live recording.  june 21, 2009  konzerthaus, vienna )\n\n\n\n*. d. harding      vienna philharmonic",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 73,
+      "PublishedAtRaw": "2026-02-28T00:57:15Z",
+      "PublishedAtDateTimeOffset": "2026-02-28T00:57:15+00:00",
+      "PublishedAt": "2026-02-28T06:27:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "V8F2DoBwfK0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/V8F2DoBwfK0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/V8F2DoBwfK0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/V8F2DoBwfK0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/V8F2DoBwfK0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/V8F2DoBwfK0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Toru Takemitsu  Black rain ( d. harding )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2bChGBHyecc",
+      "VideoPublishedAtRaw": "2024-09-01T06:08:50Z",
+      "VideoPublishedAtDateTimeOffset": "2024-09-01T06:08:50+00:00",
+      "VideoPublishedAt": "2024-09-01T11:38:50+05:30"
+    },
+    "ETag": "b_2pynN0eKSz0bNvluL7_1HLTi0",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Viktoria Mullova, Daniel Harding, Deutsche Kammerphilharmonie, Bremen Sibelius Violin Concerto Live Aug 8 2003",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 74,
+      "PublishedAtRaw": "2024-11-28T03:08:13Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:08:13+00:00",
+      "PublishedAt": "2024-11-28T08:38:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2bChGBHyecc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/2bChGBHyecc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/2bChGBHyecc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/2bChGBHyecc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/2bChGBHyecc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/2bChGBHyecc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Viktoria Mullova, Sibelius Violin Concerto Daniel Harding, Deutsche Kammerphilharmonie, Bremen -2003",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "FX97jIORqbk",
+      "VideoPublishedAtRaw": "2011-07-29T22:09:51Z",
+      "VideoPublishedAtDateTimeOffset": "2011-07-29T22:09:51+00:00",
+      "VideoPublishedAt": "2011-07-30T03:39:51+05:30"
+    },
+    "ETag": "xjBKadE19aEYvu1ahAeaSioc9mw",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS42RTNCOEMxREI3Q0VDMjU2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wagner: Ob. de \u0022Das Liebesverbot\u0022 (La prohibici\u00F3n de amar)\r\nOrq. Sinf\u00F3nica de la Radio de Baviera\r\nDir: Daniel Harding\r\n16.07.2011",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 75,
+      "PublishedAtRaw": "2024-11-28T03:39:15Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:39:15+00:00",
+      "PublishedAt": "2024-11-28T09:09:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "FX97jIORqbk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/FX97jIORqbk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/FX97jIORqbk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/FX97jIORqbk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/FX97jIORqbk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Wagner Das Liebesverbot BRSO Harding",
+      "VideoOwnerChannelId": "UCMRGDpeHMOF58VRjAMJgsIg",
+      "VideoOwnerChannelTitle": "Robertino Bergamasco"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wNTb0Rwp_e4",
+      "VideoPublishedAtRaw": "2021-06-11T14:34:47Z",
+      "VideoPublishedAtDateTimeOffset": "2021-06-11T14:34:47+00:00",
+      "VideoPublishedAt": "2021-06-11T20:04:47+05:30"
+    },
+    "ETag": "bXW1Ud8AI4DeSApGihyliV3tExY",
+    "Id": "UEwxemdOQ29XdF83YjFzMkpOd0QyTXd0bVpob01PZ1FFUS45NzUwQkI1M0UxNThBMkU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "As the snow fell during the darkness of February 2021, Berwaldhallen commissioned Andrew Staples to make a film with the Swedish Radio Symphony of Wagner\u2019s Siegfried Idyll.  Together with SRSO Music Director Daniel Harding, Staples imagined the piece as a heartwarming love letter not from a composer to his wife but from the players of the SRSO to their city and their absent audience.  \n \nThis is the third film project Berwaldhallen has created with Andrew Staples as director and Daniel Harding as conductor.  The first was Mozart\u2019s Don Giovanni in June 2020 featuring Peter Mattei and Malin Bystr\u00F6m, the second was Bach\u2019s St John Passion in April 2021 with Christian Gerhaher and Ann Hallenberg. \n \nStaples says\u2026  \u201CThe film tries to capture the aching desire of an entire cultural organisation that is reaching out into its environment to connect with its audience across the temporary digital divide.  The sumptuous performance becomes its own \u201Cemotional soundtrack\u201D as the camera invites the viewer to share the stage with the musicians and to glimpse their life behind it.  Our aim is to bring the audience closer to the players, to their art, skill and passion while, for the time being at least, the auditorium remains empty.\u201D",
+      "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
+      "Position": 76,
+      "PublishedAtRaw": "2024-11-28T03:14:20Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T03:14:20+00:00",
+      "PublishedAt": "2024-11-28T08:44:20+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wNTb0Rwp_e4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wNTb0Rwp_e4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wNTb0Rwp_e4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/wNTb0Rwp_e4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wNTb0Rwp_e4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wNTb0Rwp_e4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Wagner: Siegfried Idyll - Daniel Harding \u0026 SRSO, film by Andrew Staples",
+      "VideoOwnerChannelId": "UCoYdJljGLEPGd5i749WsNkA",
+      "VideoOwnerChannelTitle": "Andy Staples"
+    }
+  }
+]

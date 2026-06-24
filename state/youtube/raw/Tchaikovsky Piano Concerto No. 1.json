@@ -1,0 +1,1728 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "YXL0dkG-Qro",
+			"VideoPublishedAtRaw": "2019-01-28T09:42:57Z",
+			"VideoPublishedAtDateTimeOffset": "2019-01-28T09:42:57+00:00",
+			"VideoPublishedAt": "2019-01-28T15:12:57+05:30"
+		},
+		"ETag": "VA7pkNSlonSFdmBdXg_XNmsysZ4",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "l\u0027Orchestre philharmonique de Radio France, Myung-Whun Chung. \n.2012\n@ Th\u00E9\u00E2tre du Ch\u00E2telet (Paris).",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 0,
+			"PublishedAtRaw": "2024-12-12T18:16:34Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:34+00:00",
+			"PublishedAt": "2024-12-12T23:46:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "YXL0dkG-Qro"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/YXL0dkG-Qro/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/YXL0dkG-Qro/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/YXL0dkG-Qro/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/YXL0dkG-Qro/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/YXL0dkG-Qro/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "(Full) Tchaikovsky - Piano Concerto No.1  / Seong-Jin Cho (2012)",
+			"VideoOwnerChannelId": "UCGLAmNmVIhPZ6NpEMowKeQw",
+			"VideoOwnerChannelTitle": "Cho Rabbit"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3IeZJ_0hmZU",
+			"VideoPublishedAtRaw": "2017-03-21T16:30:01Z",
+			"VideoPublishedAtDateTimeOffset": "2017-03-21T16:30:01+00:00",
+			"VideoPublishedAt": "2017-03-21T22:00:01+05:30"
+		},
+		"ETag": "HhQvTCiVp5mzJ6jPmu2_HFJEYaE",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "From the Gasteig Philharmonic Hall in Munich, Germany\nAlexei Sultanov was 20 years old when he played this concert. Unfortunately, he died 15 years later at the age of 35, after having suffered several strokes. He was a russian pianist of Uzbek origin.\n\nAlexei Sultanov - piano\nPavel Kogan - conductor\nMoscow State Symphony Orchestra\n\nPyotr Il\u0027yich Tchaikovsky - Piano Concerto No. 1 in B flat minor\n\n0:30 Allegro non troppo e molto maestoso\n19:37 Andantino semplice\n25:45 Allegro con fuoco\n\nWatch the whole programme: https://www.youtube.com/watch?v=T61VRKL9KOA\u0026list=PLDOx7nx0z2hgOQi5-4fxYeTZ8WLOcvH_-\n\nSubscribe to LOFTmusic: https://goo.gl/wwlZl8",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 1,
+			"PublishedAtRaw": "2024-12-12T18:16:02Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:02+00:00",
+			"PublishedAt": "2024-12-12T23:46:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3IeZJ_0hmZU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3IeZJ_0hmZU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3IeZJ_0hmZU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3IeZJ_0hmZU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3IeZJ_0hmZU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3IeZJ_0hmZU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Alexei Sultanov: Tchaikovsky - Piano Concerto No. 1 in B flat minor (1990)",
+			"VideoOwnerChannelId": "UCO4wOdK0e6JVuz-_C6Ho48A",
+			"VideoOwnerChannelTitle": "LOFTmusic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "H1Nnuom3zJI"
+		},
+		"ETag": "Ma3eekjYDY98PDwmC0XtlM_KYwM",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 2,
+			"PublishedAtRaw": "2024-12-10T14:43:17Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:43:17+00:00",
+			"PublishedAt": "2024-12-10T20:13:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "H1Nnuom3zJI"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dYfhoawXzs8"
+		},
+		"ETag": "xld7AQfcHzCI33LydOAGxicJxzg",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 3,
+			"PublishedAtRaw": "2024-12-12T00:27:51Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T00:27:51+00:00",
+			"PublishedAt": "2024-12-12T05:57:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dYfhoawXzs8"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "YRYB2xW42h4",
+			"VideoPublishedAtRaw": "2020-05-01T06:19:31Z",
+			"VideoPublishedAtDateTimeOffset": "2020-05-01T06:19:31+00:00",
+			"VideoPublishedAt": "2020-05-01T11:49:31+05:30"
+		},
+		"ETag": "UWa4o7osFwgRlRNOyBA39ckXnb0",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "February 27 , 2020    Paris\n  Tchaikovsky-  Piano Concerto No.1\n      (Encore)\n      Tchaikovsky -  The Nutcracker Suite -  \u0027Trepak\u0027 \n      Grieg - Morgen\n           Dmitry Masleev (p)\n           Emmanuel Krivine (cond)\n           0rchestre National de France",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 4,
+			"PublishedAtRaw": "2024-12-12T18:23:30Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:23:30+00:00",
+			"PublishedAt": "2024-12-12T23:53:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "YRYB2xW42h4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/YRYB2xW42h4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/YRYB2xW42h4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/YRYB2xW42h4/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Dmitry Masleev-  Tchaikovsky Piano Concerto No.1 (Feb.27,2020 Paris)",
+			"VideoOwnerChannelId": "UC4KDQEaaDcIdp90Hic8wYOQ",
+			"VideoOwnerChannelTitle": "marie2020"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "qf3Ze4gfzso",
+			"VideoPublishedAtRaw": "2018-12-10T21:06:41Z",
+			"VideoPublishedAtDateTimeOffset": "2018-12-10T21:06:41+00:00",
+			"VideoPublishedAt": "2018-12-11T02:36:41+05:30"
+		},
+		"ETag": "Q4gjJHwV2AXEX2XEKzYqdFxROTo",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky (1840\u20131893)\n\nPiano Concerto No. 1 in B-flat minor, Op. 23\n[00:22] I. Allegro non troppo e molto maestoso \u2013 Allegro con spirito\n[21:46] II. Andantino semplice \u2013 Prestissimo \u2013 Tempo I\n[28:33] III. Allegro con fuoco \u2013 Molto meno mosso \u2013 Allegro vivo\n\nElisabeth Leonskaja, piano\nTchaikovsky Symphony Orchestra\nVladimir Fedoseyev, conductor\n\nMusikverein, 27.IX.2011\n\n\u25FC\uFE0F\u25FC\uFE0F\u25FC\uFE0F\n\u25FE Subscribe to my channel in case if you are interested in classical music and, in particular, in classical piano music. \n\u25FE You can find there a variety of historical video- and audio-recordings of piano music of different genres interpreted by well-known pianists as well, as diverse materials from nowadays concerts.\n\u25FE The channel can also be interesting for chamber music lovers.\n\n\u27A1\uFE0F [https://www.youtube.com/AramHarutyunyan] \u2B05\uFE0F\n\n\uD83D\uDD34 Don\u0027t forget to click the bell button (\uD83D\uDD14) in order to get all the notifications about new uploads!",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 5,
+			"PublishedAtRaw": "2024-12-12T18:23:14Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:23:14+00:00",
+			"PublishedAt": "2024-12-12T23:53:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qf3Ze4gfzso"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qf3Ze4gfzso/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qf3Ze4gfzso/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qf3Ze4gfzso/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Elisabeth Leonskaja plays Tchaikovsky: Piano Concerto No. 1 in B-flat minor, Op. 23",
+			"VideoOwnerChannelId": "UC6Y8Up8wYGC3UztmoU33PsA",
+			"VideoOwnerChannelTitle": "Aram Harutyunyan"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Nj5CGuzjSlU",
+			"VideoPublishedAtRaw": "2017-12-29T15:01:36Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-29T15:01:36+00:00",
+			"VideoPublishedAt": "2017-12-29T20:31:36+05:30"
+		},
+		"ETag": "1y6gqydOEXxqPgz_KAOacNx5izk",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "PYOTR ILYICH TCHAIKOVSKY\nPiano Concerto No. 1 in B flat minor, Op. 23\n00:17 I. Allegro non troppo e molto maestoso - Allegro con spirito\n20:51 II. Andantino semplice - Prestissimo - Tempo I\n27:37 III. Allegro  con fuoco - Molto meno mosso - Allegro vivo\n\nEMIL GILELS, piano\nOrchestre National de la RTF\nANDR\u00C9 CLUYTENS, conductor\n\nFilmed at the Th\u00E9\u00E2tre des Champs \u00C9lys\u00E9es, Paris, France, 19 June 1959",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 6,
+			"PublishedAtRaw": "2024-12-12T18:16:19Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:19+00:00",
+			"PublishedAt": "2024-12-12T23:46:19+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Nj5CGuzjSlU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Nj5CGuzjSlU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Nj5CGuzjSlU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Nj5CGuzjSlU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Nj5CGuzjSlU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Nj5CGuzjSlU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Emil Gilels - Tchaikovsky: Piano Concerto No.1 - Orchestre Nation. de la RTF - Andr\u00E9 Cluytens (1959)",
+			"VideoOwnerChannelId": "UCyMeA4gsWcT76u89HTl5EnA",
+			"VideoOwnerChannelTitle": "Vladivostok 1969"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vB6T_JKvB4Y",
+			"VideoPublishedAtRaw": "2017-06-11T00:46:54Z",
+			"VideoPublishedAtDateTimeOffset": "2017-06-11T00:46:54+00:00",
+			"VideoPublishedAt": "2017-06-11T06:16:54+05:30"
+		},
+		"ETag": "pRhK_rDXcoT2fQP184V93KAokrQ",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC45RjNFMDhGQ0Q2RkFCQTc1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Young Grigory Sokolov - LIVE (\u0413\u0440\u0438\u0433\u043E\u0301\u0440\u0438\u0439 \u0421\u043E\u043A\u043E\u043B\u043E\u0301\u0432)\n\nTchaikovsky: Piano Concerto No.1 in B flat minor, op.23\n\nI. Allegro non troppo e molto maestoso \u2013 Allegro con spirito\nII. Andantino semplice \u2013 Prestissimo\nIII. Allegro con fuoco\n\nGrigory Sokolov, piano\nSilva Pereira, conductor\nPortuguese Radio Symphony Orchestra\n(Orquestra Sinf\u00F3nica da Emissora Nacional)\n\nTivoli Theater - Lisbon, April 1967\n\nNo copyright infringement is intended. Posted solely for artistic exposure.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 7,
+			"PublishedAtRaw": "2024-12-12T23:05:09Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T23:05:09+00:00",
+			"PublishedAt": "2024-12-13T04:35:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vB6T_JKvB4Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vB6T_JKvB4Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vB6T_JKvB4Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vB6T_JKvB4Y/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vB6T_JKvB4Y/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Grigory Sokolov | Live in Lisbon 16 years old | Tchaikovsky Piano Concerto no.1",
+			"VideoOwnerChannelId": "UCDn7FPwG_huEFeTrxxcCVVA",
+			"VideoOwnerChannelTitle": "Archive. Collector"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "cZiCN1n9IIQ"
+		},
+		"ETag": "eHS96JEDeqYbc4nA4ipyhbawpfc",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 8,
+			"PublishedAtRaw": "2024-12-12T18:19:23Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:19:23+00:00",
+			"PublishedAt": "2024-12-12T23:49:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "cZiCN1n9IIQ"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tarROqI_5eo",
+			"VideoPublishedAtRaw": "2017-02-25T19:12:19Z",
+			"VideoPublishedAtDateTimeOffset": "2017-02-25T19:12:19+00:00",
+			"VideoPublishedAt": "2017-02-26T00:42:19+05:30"
+		},
+		"ETag": "qUkiZ6vxnB11oKUe5FUtvfdQLq0",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Martha Argerich, piano\nThe Special Orchestra of Tokyo University of the Arts for Beppu Argerich Music Festival\nAntonio Pappano, conductor\n\n00:33 - I. Allegro non troppo e molto maestoso - Allegro con spirito\n19:32 - II. Andantino semplice - Prestissimo - Tempo I\n26:20 - III. Allegro con fuoco\n35:52 - Post-concert interview with Argerich\n\n\u0027Live\u0027 at B-Con Plaza (Philharmonia Hall), Beppu, Japan, on 22 April 2001",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 9,
+			"PublishedAtRaw": "2024-12-12T18:15:56Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:15:56+00:00",
+			"PublishedAt": "2024-12-12T23:45:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tarROqI_5eo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tarROqI_5eo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tarROqI_5eo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tarROqI_5eo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tarROqI_5eo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tarROqI_5eo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Martha Argerich plays Tchaikovsky\u0027s Piano Concerto No.1 in B-flat minor, Op.23 (cond. Pappano)(2001)",
+			"VideoOwnerChannelId": "UCeo0GxeYtaZSzx1oIc3-vEA",
+			"VideoOwnerChannelTitle": "Altenburg Arts"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "j2oia5P5N2U",
+			"VideoPublishedAtRaw": "2023-12-25T08:00:09Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-25T08:00:09+00:00",
+			"VideoPublishedAt": "2023-12-25T13:30:09+05:30"
+		},
+		"ETag": "Jnf3nvfFyZcV5I6FfS0hlsdpDqs",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Merry Christmas Everyone Here is the full concert earliest surviving video recording of Martha playing this concerto never before published until now \nRTF Orchestra Conductor Charles Dutoit \n\n\u0022Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \u0022fair use\u0022 for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use\u0022",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 10,
+			"PublishedAtRaw": "2024-12-10T14:49:15Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:49:15+00:00",
+			"PublishedAt": "2024-12-10T20:19:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "j2oia5P5N2U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/j2oia5P5N2U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/j2oia5P5N2U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/j2oia5P5N2U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/j2oia5P5N2U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Martha Argerich Tchaikovsky Piano Concerto 1 (1971 Paris)",
+			"VideoOwnerChannelId": "UCVbEkU6m-OZexALQzmSSQYA",
+			"VideoOwnerChannelTitle": "Martha Argerich Archive"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "62-gaOw7ciU",
+			"VideoPublishedAtRaw": "2019-02-25T09:36:53Z",
+			"VideoPublishedAtDateTimeOffset": "2019-02-25T09:36:53+00:00",
+			"VideoPublishedAt": "2019-02-25T15:06:53+05:30"
+		},
+		"ETag": "BfbsGiQJV09H8jCIn1Ko4Jf28rE",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mikhail Pletnev playing the ORIGINAL VERSION of Tchaikovsky\u0027s 1st Piano Concerto, live in Beijing.\nSubscribe for more Russian music! http://www.youtube.com/channel/UCqvpGMR-NgBFe0I9etclJdA?sub_confirmation=1\n-----------------------------------------------------------------\nPeter Tchaikovsky - Piano Concerto No. 1 in B-flat minor op. 23\n\u25BA 00:21. I. Allegro non troppo e molto maestoso \u2013 Allegro con spirito\n\u25BA 23:37. II. Andantino semplice \u2013 Prestissimo \u2013 Tempo I\n\u25BA 31:03. III. Allegro con fuoco \u2013 Molto meno mosso \u2013 Allegro vivo\nMikhail Pletnev, piano\nRussian National Orchestra, Alexander Sladkovsky\nBeijing, 15 March 2018\n-----------------------------------------------------------------\n\u041F\u0435\u0442\u0440 \u0427\u0430\u0439\u043A\u043E\u0432\u0441\u043A\u0438\u0439 - \u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u0434\u043B\u044F \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E \u0441 \u043E\u0440\u043A\u0435\u0441\u0442\u0440\u043E\u043C \u21161 \u0441\u0438-\u0431\u0435\u043C\u043E\u043B\u044C \u043C\u0438\u043D\u043E\u0440 op. 23\n\u041C\u0438\u0445\u0430\u0438\u043B \u041F\u043B\u0435\u0442\u043D\u0435\u0432, \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E\n\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u0439 \u041D\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u041E\u0440\u043A\u0435\u0441\u0442\u0440, \u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440 \u0421\u043B\u0430\u0434\u043A\u043E\u0432\u0441\u043A\u0438\u0439\n\u041F\u0435\u043A\u0438\u043D, 15 \u043C\u0430\u0440\u0442\u0430 2018",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 11,
+			"PublishedAtRaw": "2024-12-12T18:23:22Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:23:22+00:00",
+			"PublishedAt": "2024-12-12T23:53:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "62-gaOw7ciU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/62-gaOw7ciU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/62-gaOw7ciU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/62-gaOw7ciU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/62-gaOw7ciU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/62-gaOw7ciU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mikhail Pletnev plays Tchaikovsky - Piano Concerto No. 1 (Beijing, 2018)",
+			"VideoOwnerChannelId": "UCqvpGMR-NgBFe0I9etclJdA",
+			"VideoOwnerChannelTitle": "Classical Rarities"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Bj_DgWSI5ZM",
+			"VideoPublishedAtRaw": "2018-05-15T16:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2018-05-15T16:00:01+00:00",
+			"VideoPublishedAt": "2018-05-15T21:30:01+05:30"
+		},
+		"ETag": "jwwuuRhGH0s2LnIYGtVuGvos-CM",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "From the Mariinsky Theatre Concert Hall, St. Petersburg, 8 July 2012\nFor the first time, the blind pianist Nobuyuki Tsujii plays together with Maestro Valery Gergiev.\n\nNobuyuki Tsujii - piano\nMariinksy Theatre Orchestra\nValery Gergiev - conductor\n\n0:00 Pyotr Iljitsch Tchaikovsky - Piano Concerto No. 1 in B Flat Minor, Op. 23\n1:26 I. Allegro non troppo e molto maestoso\n22:01 II. Andantino semplice - Prestissimo\n29:02 III. Allegro con fuoco\n\nWatch the complete Nobuyuki Tsujii\u0027s concert at White Nights: https://goo.gl/6J6LGv\n\nWatch the Nobuyuki Tsujii\u0027s debut at the Carnegie Hall: https://youtu.be/kNujPrlPJBw\nSubscribe to EuroArts: https://goo.gl/jrui3M\n\nBlind since birth, pianist Nobuyuki Tsujii believes that \u201Cthere are no barriers in the field of music.\u201D At the age of twelve, he made noted recital debuts at Tokyo\u2019s Suntory Hall. In 2009 Nobu won the Van Cliburn International Piano Competition Gold Medal, his Carnegie Hall debut took place in November 2011.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 12,
+			"PublishedAtRaw": "2024-12-12T18:19:10Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:19:10+00:00",
+			"PublishedAt": "2024-12-12T23:49:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Bj_DgWSI5ZM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Bj_DgWSI5ZM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Bj_DgWSI5ZM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Bj_DgWSI5ZM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Bj_DgWSI5ZM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Bj_DgWSI5ZM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nobuyuki Tsujii: Tchaikovsky - Piano Concerto No. 1 in B Flat Minor, Op. 23 (St. Petersburg)",
+			"VideoOwnerChannelId": "UCt7SG8q4GUDMLfbkViwkWLQ",
+			"VideoOwnerChannelTitle": "EuroArtsChannel"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Uwl9p3sCTVU",
+			"VideoPublishedAtRaw": "2018-11-08T02:03:18Z",
+			"VideoPublishedAtDateTimeOffset": "2018-11-08T02:03:18+00:00",
+			"VideoPublishedAt": "2018-11-08T07:33:18+05:30"
+		},
+		"ETag": "3YTywWQSnEd8OZzWRjSLbnmV5IY",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky: Piano Concerto No.1 in B-flat minor op.23 \nPianist: Tatiana Nikolayeva\nGewandhausorchester-Leipzig \nConductor: Kurt Masur\n\n1. Allegro non troppo e molto maestoso \u2015 Allegro con spirito 0:46\n2. Andantino semplice \u2015 Prestissimo 23:34\n3. Allegro con fuoco 30:55\n\n\u041F\u0451\u0442\u0440 \u0418\u043B\u044C\u0438\u0447 \u0427\u0430\u0439\u043A\u043E\u0432\u0441\u043A\u0438\u0439 - \u041A\u043E\u043D\u0446\u0435\u0440\u0442 \u2116 1 \u0434\u043B\u044F \u0444\u043E\u0440\u0442\u0435\u043F\u0438\u0430\u043D\u043E \u0441 \u043E\u0440\u043A\u0435\u0441\u0442\u0440\u043E\u043C \u0441\u0438-\u0431\u0435\u043C\u043E\u043B\u044C \u043C\u0438\u043D\u043E\u0440, \u0441\u043E\u0447. 23\n\u0417\u0430 \u0440\u043E\u044F\u043B\u0435\u043C - \u0422\u0430\u0442\u044C\u044F\u043D\u0430 \u041D\u0438\u043A\u043E\u043B\u0430\u0435\u0432\u0430\n\u041B\u0435\u0439\u043F\u0446\u0438\u0433\u0441\u043A\u0438\u0439 \u043E\u0440\u043A\u0435\u0441\u0442\u0440 \u0413\u0435\u0432\u0430\u043D\u0434\u0445\u0430\u0443\u0437\u0430\n\u0414\u0438\u0440\u0438\u0436\u0451\u0440 - \u041A\u0443\u0440\u0442 \u041C\u0430\u0437\u0443\u0440",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 13,
+			"PublishedAtRaw": "2024-12-12T18:16:27Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:27+00:00",
+			"PublishedAt": "2024-12-12T23:46:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Uwl9p3sCTVU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Uwl9p3sCTVU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Uwl9p3sCTVU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Uwl9p3sCTVU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Uwl9p3sCTVU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Pyotr Tchaikovsky - Piano Concerto No.1 in B-flat minor op.23 [Tatiana Nikolayeva] (full!)",
+			"VideoOwnerChannelId": "UCaTPVL10QmlQmkD9ISjZf-Q",
+			"VideoOwnerChannelTitle": "Keira Brandt"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "g0tKS2LZ5Rs",
+			"VideoPublishedAtRaw": "2017-04-05T07:12:47Z",
+			"VideoPublishedAtDateTimeOffset": "2017-04-05T07:12:47+00:00",
+			"VideoPublishedAt": "2017-04-05T12:42:47+05:30"
+		},
+		"ETag": "igCeD1Y_Z5JXS1GgUj1GsF1avAo",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 14,
+			"PublishedAtRaw": "2024-12-12T18:16:08Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:08+00:00",
+			"PublishedAt": "2024-12-12T23:46:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "g0tKS2LZ5Rs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/g0tKS2LZ5Rs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/g0tKS2LZ5Rs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/g0tKS2LZ5Rs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/g0tKS2LZ5Rs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky  Piano Concerto No.1 in b\u266Dminor,Op.23 Denis Matsuev",
+			"VideoOwnerChannelId": "UCxWKrDKwk5IKVAVdrdvaayg",
+			"VideoOwnerChannelTitle": "Ludwig van Beethoven"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "N5loDIdA5LE",
+			"VideoPublishedAtRaw": "2024-07-27T10:24:24Z",
+			"VideoPublishedAtDateTimeOffset": "2024-07-27T10:24:24+00:00",
+			"VideoPublishedAt": "2024-07-27T15:54:24+05:30"
+		},
+		"ETag": "UsduzdLNWn4Cs_wZoKTpKQUcaB8",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Verbier Festival, 22/07/2024.\nPianist: Nikolai Lugansky\nConductor: Vassili Petrenko\nVERBIER FESTIVAL ORCHESTRA",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 15,
+			"PublishedAtRaw": "2024-12-10T14:44:20Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:44:20+00:00",
+			"PublishedAt": "2024-12-10T20:14:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "N5loDIdA5LE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/N5loDIdA5LE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/N5loDIdA5LE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/N5loDIdA5LE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/N5loDIdA5LE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/N5loDIdA5LE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Piano Concerto No. 1 - Nikolai Lugansky",
+			"VideoOwnerChannelId": "UC_FqAL7Gq6MV1H8QSYeaUkw",
+			"VideoOwnerChannelTitle": "Crypenter"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0Ov7ZlYhCIw",
+			"VideoPublishedAtRaw": "2023-12-29T14:54:15Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-29T14:54:15+00:00",
+			"VideoPublishedAt": "2023-12-29T20:24:15+05:30"
+		},
+		"ETag": "q8mgqI3n5L28LPosbVWKFKgmDi0",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky (Russian: \u041F\u0451\u0442\u0440 \u0418\u043B\u044C\u0438\u0301\u0447 \u0427\u0430\u0439\u043A\u043E\u0301\u0432\u0441\u043A\u0438\u0439; tr. P\u00EBtr Il\u0027i\u010D \u010Cajkovskij; 25 April/7 May 1840 \u2013 25 October/6 November 1893),  often anglicized as Peter Ilyich Tchaikovsky, was a Russian composer of the late-Romantic period, some of whose works are among the most popular music in the classical repertoire. He was the first Russian composer whose music made a lasting impression internationally, bolstered by his appearances as a guest conductor in Europe and the United States. Tchaikovsky was honored in 1884, by Emperor Alexander III, and awarded a lifetime pension.\n\nPlease support my channel:\nhttps://ko-fi.com/bartjebartmans\n\nPiano Concerto No. 1 in B-flat minor, Op. 23 (1874-75)\nDedication: Hans von B\u00FClow\n\n1. Allegro non troppo e molto maestoso\u2014Allegro con spirito (0:00)\n2. Andantino semplice\u2014Allegro vivace assai (18:42)\n3. Allegro con fuoco (25:07)\n\nLeonard Pennario, piano and the Los Angeles Philharmonic Orchestra conducted by Erich Leinsdorf\nrec. 1965\n\nLeonard Pennario (July 9, 1924 \u2013 June 27, 2008) was also a composer. Here you can listen to Midnight From the Cliffs from the movie Julie (1956) starring Doris Day.\nhttps://youtu.be/bsfVL0nJe5E?si=8-CCbCWwHJ5L0OHA\n\nDescription by Joseph Stevenson  [-]\nAlthough Tchaikovsky was already an accomplished composer (having already produced his first two symphonies, a string quartet, and two notable tone poems, all of these successful and enduring works), he still sought the approval of mentors such as Balakirev and Nicolas Rubinstein. On Christmas Eve 1874 he played the concerto for Rubinstein (its intended soloist) in an empty classroom. Rubinstein responded with a torrent of castigation, made famous by Tchaikovsky\u0027s own recollection. Tchaikovsky slunk off in despair. Later Rubinstein called him back and detailed a list of changes that must be made by a certain date if Rubinstein were to perform it. Tchaikovsky wrote that he responded, \u0022I shall not change a single note, and I shall publish the concerto as it is now.\u0022 He continued in his reminiscence, \u0022And this, indeed, I did.\u0022 Well, not entirely. Although there are no really substantial changes, he did subject the concerto to some minor revision before it was printed, as happens with most compositions. The premiere fell to Hans von B\u00FClow, who played it first in Boston, October 15, 1875. The audience was enraptured and demanded a repeat of the entire final movement. Von B\u00FClow took the concerto back to Europe, where it was quickly added to the repertoire of other leading pianists; even Rubinstein started playing it in 1878. It has been a giant success, virtually the epitome of the romantic piano concerto, ever since.\n\nThe form of the concerto is lopsided: possessing a notably large scale introduction, the broad melodies of the first movement run its length out to nearly 25 minutes, more than the length of the two remaining movements combined. Its arresting opening horn call, with bold orchestral chords interrupting, leads immediately to one of the most recognizable and beloved of classical melodies, played by strings with rich harmonic support from the piano solo. Tchaikovsky initiates a great formal surprise by going straightway into a full-fledged cadenza for the piano solo, a powerful treatment of the theme. The strings then reassert the melody in its original form -- and all this is only the introduction to the first movement proper. A lengthy introduction to be sure (106 measures), but once it ends, that\u0027s the last time in the concerto this music is used in any way. The movement proper is a full-scale sonata-allegro treatment of two themes, one reputedly a Ukrainian folk theme, the other a gentle romantic theme. There is great drama and passion in its working out; when it is all over one realizes that there is also a minimum (for Tchaikovsky) of angst and pathos.\n\nThe second movement is tender, beginning with pizzicato chords so quiet as to be almost whispers. A flute melody of young adolescent tenderness is the main theme of the movement. There is a central section with a delicate waltz.\n\nThe finale opens with a rushing string figure and a powerful drum stroke. The main theme is an arresting, galloping dance made up of many short phrases. Yet another romantic theme provides contrast.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 16,
+			"PublishedAtRaw": "2024-12-10T14:46:58Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:46:58+00:00",
+			"PublishedAt": "2024-12-10T20:16:58+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0Ov7ZlYhCIw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0Ov7ZlYhCIw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0Ov7ZlYhCIw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0Ov7ZlYhCIw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0Ov7ZlYhCIw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Piano Concerto No. 1, Op. 23 (1875) {Leonard Pennario}",
+			"VideoOwnerChannelId": "UCwbbr8FKVrWLF8T81RI7Lxg",
+			"VideoOwnerChannelTitle": "Bartje Bartmans"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "FHuCh0R1X7s",
+			"VideoPublishedAtRaw": "2017-07-24T12:12:03Z",
+			"VideoPublishedAtDateTimeOffset": "2017-07-24T12:12:03+00:00",
+			"VideoPublishedAt": "2017-07-24T17:42:03+05:30"
+		},
+		"ETag": "Gj5hIkDtL_giKqQbju_ujtl9SNs",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Buchmann-Mehta School of Music Symphony Orchestra\nConductor - Zubin Mehta\nPiano - Motti Fang Bentov\n\nTchaikovsky - Piano Concerto No.1, Op.23 \n\nVideo - Yoel Culiner\nSound - Rafi Eshel\n\nLive At Heichal Hatarbut TLV - May 2017\n\n#bmsm #zubinmehta #symphonyorchestra #tchaikovsky #pianoconcerto1",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 17,
+			"PublishedAtRaw": "2024-12-12T18:15:49Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:15:49+00:00",
+			"PublishedAt": "2024-12-12T23:45:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "FHuCh0R1X7s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/FHuCh0R1X7s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/FHuCh0R1X7s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/FHuCh0R1X7s/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/FHuCh0R1X7s/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/FHuCh0R1X7s/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky - Piano Concerto No.1, Op.23 - Zubin Mehta \u0026 The BMSM Symphony Orchestra",
+			"VideoOwnerChannelId": "UC3lGofoIYbM6z14EAJNH6Ag",
+			"VideoOwnerChannelTitle": "The Buchmann-Mehta School of Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "OIVYo0mxO90",
+			"VideoPublishedAtRaw": "2017-12-27T08:33:29Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-27T08:33:29+00:00",
+			"VideoPublishedAt": "2017-12-27T14:03:29+05:30"
+		},
+		"ETag": "-MaGx5qQ1T3L4woR0BJMGolH3nM",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky (1840-1893) - Piano Concerto #1 In B Flat Minor, Op. 23 1. Allegro Non Troppo E Molto Maestoso, Allegro Con Spirito (00:00) 2. Andantino Semplice (20:32) 3. Allegro. \n\nDigitized from the LP shown above, released in the early 1960s on the Melodiya label, catalogue number 02013-14. Sviatoslav Richter (March 20 [O.S. March 7] 1915 \u2013 August 1, 1997) was a. \n\nSviatoslav Richter plays Tchaikovsky Piano Concerto No. 1 in B-flat minor, op. 23 with Leningrad Academic Philharmonic Symphony Orchestra, directed by Yevgeny Mravinsky, 1959. \n\nThe music and the images were extracted from my lp.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 18,
+			"PublishedAtRaw": "2024-12-12T18:22:56Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:22:56+00:00",
+			"PublishedAt": "2024-12-12T23:52:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "OIVYo0mxO90"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/OIVYo0mxO90/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/OIVYo0mxO90/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/OIVYo0mxO90/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Tchaikovsky / S Richter, 1960: Piano Concerto No. 1 - Yevgeny Mravinsky, LPO",
+			"VideoOwnerChannelId": "UCqUPj9p_lkZ7OctkpD9_8gg",
+			"VideoOwnerChannelTitle": "Neil Richard"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "gOGyQt0kiYA",
+			"VideoPublishedAtRaw": "2021-04-13T07:52:29Z",
+			"VideoPublishedAtDateTimeOffset": "2021-04-13T07:52:29+00:00",
+			"VideoPublishedAt": "2021-04-13T13:22:29+05:30"
+		},
+		"ETag": "wMLT_z5J8joLcwN8hGoDi_DyWUQ",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u00A9 VRT, RTBF, Queen Elisabeth Competition\n\nPyotr Tchaikovsky: Piano Concerto n. 1 in B flat minor op. 23 \nAllegro non troppo e molto maestoso \u2013 Allegro con spirito 00:00\nAndantino semplice \u2013 Prestissimo \u2013 Tempo I 21:50\nAllegro con fuoco 28:27\n\nDmitry Shishkin, piano \nBelgian National Orchestra \nMarin Alsop, conductor\n\n27/05/2016 Queen Elisabeth Competition | Piano 2016, Final \nBrussels Centre for Fine Arts/Henry Le Boeuf Hall\n\nMore videos:\n\u2022 https://queenelisabethcompetition.be/en/competitions-details-watch-listen/activities/piano-2016/\n\u2022 https://www.vrt.be/vrtnu/a-z/koningin-elisabethwedstrijd/\n\u2022 https://www.rtbf.be/culture/musique/concours-reine-elisabeth",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 19,
+			"PublishedAtRaw": "2024-12-12T18:17:06Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:17:06+00:00",
+			"PublishedAt": "2024-12-12T23:47:06+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "gOGyQt0kiYA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/gOGyQt0kiYA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/gOGyQt0kiYA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/gOGyQt0kiYA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/gOGyQt0kiYA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/gOGyQt0kiYA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Piano Concerto n 1 B flat minor op 23 | Dmitry Shishkin Queen Elisabeth Competition 2016",
+			"VideoOwnerChannelId": "UCqoGJ7yj_4WTXQPILDzCGGw",
+			"VideoOwnerChannelTitle": "Queen Elisabeth Competition"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Q4Krl3h-cvg",
+			"VideoPublishedAtRaw": "2024-02-06T20:13:51Z",
+			"VideoPublishedAtDateTimeOffset": "2024-02-06T20:13:51+00:00",
+			"VideoPublishedAt": "2024-02-07T01:43:51+05:30"
+		},
+		"ETag": "oFBMFf2Ev9-wIpGI6vKxltiyByA",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tchaikovsky Piano Concerto No. 1 in B Flat Minor Op. 23 - Vladimir Horowitz; Arturo Toscanini 1943 \nNBC Symphony Orchestra - April 25 1943 - LIVE - In concert at Carnegie Hall NYC\n\nRecording used: https://youtu.be/4ksVduF2rr4?si=maUaSjIUv0293xR4\nSs sabu Apr 30 2012 - I DO NOT Own the audio. \n\n\nIn my opinion, undebatebly the finest rendition, especially live performance, of Tchaikovsky\u2019s First Piano Concerto, my favourite piece of him and my favourite pianist.  Best Horowitz recording out of many for this piece due to the cleanliness, sound quality, unison with orchestra, and the tempo. I was thinking of also scoring his 1953 recording because that is also amazing but I found it not his best playing due to the mistakes and especially the end where the tempo got too messy and quick unlike this recording. This one is just so unbelievably powerful, and in all aspects beats all modern recordings including Martha Argerich and is more exciting than Van Cliburns. I am really fond of the fast tempo compared to others where it gets as long as 38 minutes, 31 minutes is perfect to fit all the musicality inside, and it allows for better climaxes. \n\n\nNotes:\nThe Opening theme is one of the most universal melodies in classical music and is one of the grandest piano openings in any piano concerto. It really sounds like Mr. Beast\u2019s theme song! Anyway, it is played amazingly with a power in the bass. \n4:20 sounds great especially with the octaves played so close together with more staccato and lightness compared to Argerich. \n5:35 is one of my favourite parts and is such a satisfying part to listen to, and his rendition just is perfect for me. I feel like he plays with lots of directness and no dynamics which allows it to flow better. If it is played with too much dynamics like Argerich it distracts it. \n5:48 I was originally very confused and disappointed that he didn\u2019t play the bass A and B Flat but I can now see why he didn\u2019t. It sounds more subtle and right to play it higher and it emphasizes the b flats after each phrase. I did remove the signs to play octave lower it from the score to match his playing. \n6:14 is so beautiful and makes me cry when I listen, and Horowitz voicing is impeccable. He manages to make the bass, treble and melody sound so sad and it is stunning. Likewise for 7:07. \n7:30 - AMAZING and so emotional in just a few seconds, and only Horowitz can create that type of sound. 7:35 I do appreciate and agree with the subtlty in the bass and you can only hear it a little bit. \n8:00 - due to the buildup and loudness the climax sounds like the ending of the movement but the first movement is not even half way done yet! The octaves are extremely impressive due to the stability and stamina and here its just so perfect. Love the staccato and ferocity and how he manages to not make mistakes with the leaps. Almost the same tempo as the octaves in Alkan\u2019s La preux. \n8:47 - Such lightness and beauty in these arpegious. Makes the piano sound like birds singing combined with the orchestra.\n12:33 - Love ferocity in bass. \n16:10 - Octaves are so intense and the spiky dynamics go so well. \n22:29 - love the way the mini tremolos are played. \n27:00 - Great staccato\nFinally, the long awaited climax at 30:30, and definitely the loudest moment in the piece. Immediately you notice that despite Tchaikovsky\u2019s instruction, he doesn\u2019t an octave higher, which honestly I wish he did but I can see why he didn\u2019t for basically the same reason as 5:48 and the lower notes allow the piano and its melody to be more centered and stand out. But its weird because the climax in the high treble is the same in the end of Rachmoninoff 3rd. But also the lower notes allow for more excitement when he plays a high b flat in the very end which I truly enjoy the addon. The overall climax is played absolutely wonderfully. It is clear, in time, and perfect despite the extreme technical difficulties. \nThe NBC Orchestra and Arthur Toscanini did an outstanding job with this piece and especially playing with Horowitz fast tempo. Everything is so in sync. The sound is suplime both in the orchestra and the piano. \nAnyway, thanks for reading if you did, thanks so much for watching and viewing my channel. Means a lot. This is a great quality score video and was fun to make. Better quality than most score videos on this and as you know I always use the whole score with piano concertos to highlight to composers genuineness and all the instruments.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 20,
+			"PublishedAtRaw": "2024-12-10T14:46:16Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:46:16+00:00",
+			"PublishedAt": "2024-12-10T20:16:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Q4Krl3h-cvg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Q4Krl3h-cvg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Q4Krl3h-cvg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Q4Krl3h-cvg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Q4Krl3h-cvg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Q4Krl3h-cvg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Piano Concerto No. 1 in B Flat Minor Op. 23 - Horowitz; Arturo Toscanini 1943 - (Score)",
+			"VideoOwnerChannelId": "UC91CZWaDQVaO_p0jQB9NIjA",
+			"VideoOwnerChannelTitle": "Jane Ahmon"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "MHsSFRtdquY",
+			"VideoPublishedAtRaw": "2024-10-20T06:04:37Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-20T06:04:37+00:00",
+			"VideoPublishedAt": "2024-10-20T11:34:37+05:30"
+		},
+		"ETag": "Ign8XJSRtG8ZQ-H4jD8cAzhGtNk",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "VERBIER FESTIVAL JUNIOR ORCHESTRA\nVASILY PETRENKO conductor\nNIKOLAI LUGANSKY piano\n\nTchaikovsky Piano Concerto No. 1 in B\u266D minor, Op. 23\nbis: Tchaikovsky/Rachmaninov Lullaby Op. 16, No. 1\n\n22.07.2024, Verbier",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 21,
+			"PublishedAtRaw": "2024-12-10T14:42:47Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:42:47+00:00",
+			"PublishedAt": "2024-12-10T20:12:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "MHsSFRtdquY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/MHsSFRtdquY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/MHsSFRtdquY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/MHsSFRtdquY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/MHsSFRtdquY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/MHsSFRtdquY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Piano Concerto No. 1 | NIKOLAI LUGANSKY | VASILY PETRENKO | VFJO | Verbier 2024",
+			"VideoOwnerChannelId": "UCWq0FCGDwJRqenUrpzE4now",
+			"VideoOwnerChannelTitle": "Sihaya\u0027s World"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "QrPGCWjRe6U",
+			"VideoPublishedAtRaw": "2020-02-02T09:10:04Z",
+			"VideoPublishedAtDateTimeOffset": "2020-02-02T09:10:04+00:00",
+			"VideoPublishedAt": "2020-02-02T14:40:04+05:30"
+		},
+		"ETag": "qL0ent7e7RVW7OUQM9U1aJBLBaM",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This is the cassette on which I tape\u2010recorded the radio broadcasting in Japan. In my opinion, this tape which is not edited give us more realistic feeling than CD Edition of DG.\n\nTchaikovsky: Piano Concerto No. 1 in B-Flat Minor, Op. 23\n1. Allegro non troppo e molto maestoso - Allegro con spirito (0:02)\n2. Andantino semplice - Prestissimo - Quasi Andante (19:18)\n3. Allegro con fuoco (25:51)\n\nMartha Argerich \nBerliner Philharmoniker \nClaudio Abbado\nDate 8 Dec,1994",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 22,
+			"PublishedAtRaw": "2024-12-12T18:16:44Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:44+00:00",
+			"PublishedAt": "2024-12-12T23:46:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "QrPGCWjRe6U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/QrPGCWjRe6U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/QrPGCWjRe6U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/QrPGCWjRe6U/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/QrPGCWjRe6U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/QrPGCWjRe6U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Piano Concerto No.1 Argerich, Abbado BPO (1994 LIVE) Radio broadcasting version.",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "l1BYe53Yn5g",
+			"VideoPublishedAtRaw": "2022-12-09T00:38:47Z",
+			"VideoPublishedAtDateTimeOffset": "2022-12-09T00:38:47+00:00",
+			"VideoPublishedAt": "2022-12-09T06:08:47+05:30"
+		},
+		"ETag": "6lhxw_mtWBzSAlgJZXTU5wFzJfI",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 23,
+			"PublishedAtRaw": "2024-12-12T18:17:21Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:17:21+00:00",
+			"PublishedAt": "2024-12-12T23:47:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "l1BYe53Yn5g"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/l1BYe53Yn5g/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/l1BYe53Yn5g/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/l1BYe53Yn5g/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Tchaikovsky Piano Concerto No.1 in B-flat Major, Op. 23, Jue Wang piano / Rafael Fruhbeck conductor",
+			"VideoOwnerChannelId": "UCldqAodKPNwD_ZiDc03AA1Q",
+			"VideoOwnerChannelTitle": "Jue Wang"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lF24Om6Mfeo",
+			"VideoPublishedAtRaw": "2021-03-03T23:40:39Z",
+			"VideoPublishedAtDateTimeOffset": "2021-03-03T23:40:39+00:00",
+			"VideoPublishedAt": "2021-03-04T05:10:39+05:30"
+		},
+		"ETag": "7n902D23Chg_hL5qm4EadW5JBXM",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Few pieces of classical music are more familiar than this piano concerto by Tchaikovsky.   It is unusual for its extremely long first movement followed by two shorter movements.   German pianist Conrad Hansen (1906-2002) gives an excellent performance along with the RIAS Orchestra directed by Wolfgang Sawallisch.\n\nThis recording was made in the Fall of 1953.  It was first released first Remington Records, and then four years later on Masterseal - both companies owned by Don Gabor.   As with some other Remington re-releases, the improvements in engineering and vinyl during the 1950s made for a better sounding record the second time around.  All things considered,   this 64 year old recording has held up quite well.\n\nTrack list:\n00:00  Allegro non troppe e molto maestoso, Allegro con spirito\n19:00  Andante semplice, Prestissimo\n25:33  Allegro con fuoco\n\nDetails:\nAlbum title:Tchaikovsky: Piano Concerto No.1.\nReleased by:  Masterseal Records\nYear Recorded:  1953\nYear Released:  1957\nPianist:  Conrad Hansen\nOrchestra:  RIAS Symphony Orchestra\nConductor:  Wolfgang Sawallisch\nThis is a mono recording.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 24,
+			"PublishedAtRaw": "2024-12-12T18:16:59Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:59+00:00",
+			"PublishedAt": "2024-12-12T23:46:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lF24Om6Mfeo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lF24Om6Mfeo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lF24Om6Mfeo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lF24Om6Mfeo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lF24Om6Mfeo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lF24Om6Mfeo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Piano Concerto No.1.  Conrad Hansen and the RIAS Orchestra.  (Recorded in 1953.)",
+			"VideoOwnerChannelId": "UCQhOAJdrHg4VvcPNZoeWqcQ",
+			"VideoOwnerChannelTitle": "ly776 Classic Vinyl"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "FJvMweV2Znk",
+			"VideoPublishedAtRaw": "2020-05-30T17:12:41Z",
+			"VideoPublishedAtDateTimeOffset": "2020-05-30T17:12:41+00:00",
+			"VideoPublishedAt": "2020-05-30T22:42:41+05:30"
+		},
+		"ETag": "MYX6QE99A0novanUIItgLSOrwiA",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Peter Ilich Tchaikovsky. Piano concerto no. 1 in Bb minor, op. 23\nVladimir Horowitz, piano; New York Philharmonic; George Szell, conductor\nRecorded live in Carnegie Hall, New York, 12 January 1953\n\nI. Allegro non troppo e molto maestoso - Allegro con spirito (0:00)\nII. Andantino semplice - Prestissimo - Tempo I (18:22)\nIII. Allegro con fuoco - Molto meno mosso - Allegro vivo (24:40)",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 25,
+			"PublishedAtRaw": "2024-12-12T18:16:52Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:16:52+00:00",
+			"PublishedAt": "2024-12-12T23:46:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "FJvMweV2Znk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/FJvMweV2Znk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/FJvMweV2Znk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/FJvMweV2Znk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/FJvMweV2Znk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/FJvMweV2Znk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky, Piano concerto no. 1 in Bb minor, op. 23: Horowitz/Szell/NYP/1953",
+			"VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
+			"VideoOwnerChannelTitle": "Music Lover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Z8QR7FVIoEA",
+			"VideoPublishedAtRaw": "2023-05-04T00:12:07Z",
+			"VideoPublishedAtDateTimeOffset": "2023-05-04T00:12:07+00:00",
+			"VideoPublishedAt": "2023-05-04T05:42:07+05:30"
+		},
+		"ETag": "74qzOkpfIbu7iJ3JVsRvI1HiycY",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Constantin Silvestri: ORTF\nAldo Ciccolini, piano\nDate: 29 November 1957\nLocation: Salle Wagram, Paris\n\nPiotr Tchaikovsky (1840-1893)\nPiano Concerto No. 1 (1888)\n1. Allegro non troppo (00:00)\n2. Andante semplice - Prestissimo - Tempo 1 (19:48)\n3. Allegro con fuoco (26:26)\n\nRestored from EMI CD 0946 385265 2 0 \u201CAldo Ciccolini Rarities\u201D\n\nPlease visit my channel of other recordings I have restored. \u00A0\n@GlensAudioRestoration \n\nPlease visit my channel featuring popular songs and dance music of the 1910s and 1920s. \u00A0\n@glenscentennialoldies \n\nMetamorphosis: The Transformation of the Bournemouth Symphony \nhttps://youtu.be/LgrLATb75No\n\nThis documentary tells the story of the Bournemouth Symphony Orchestra\u2019s rise to international acclaim while under the baton of Maestro Constantin Silvestri. Ray Carpenter (1922-2017), the symphony\u0027s principal clarinet, shares his memories along with historic materials\u2014photographs, excerpts of musical recordings, newspaper clippings, and programs. Ray provides insight into his own musical coming-of-age as well as musical life during the Silvestri (1961-1969) years. Despite his short tenure with the symphony, Maestro Silvestri managed to transform a provincial band to an orchestra whose performances were praised in and beyond London.\n\n\nAnd as always, please Like, Comment, and Subscribe.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 26,
+			"PublishedAtRaw": "2024-12-12T18:17:42Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:17:42+00:00",
+			"PublishedAt": "2024-12-12T23:47:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Z8QR7FVIoEA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Z8QR7FVIoEA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Z8QR7FVIoEA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Z8QR7FVIoEA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Z8QR7FVIoEA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Z8QR7FVIoEA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Piano Concerto No  1 (Ciccolini)",
+			"VideoOwnerChannelId": "UCiExn07UDOob13n1oDCCjzg",
+			"VideoOwnerChannelTitle": "Constantin Silvestri"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "oY4ql6BpkKI",
+			"VideoPublishedAtRaw": "2021-07-12T07:13:39Z",
+			"VideoPublishedAtDateTimeOffset": "2021-07-12T07:13:39+00:00",
+			"VideoPublishedAt": "2021-07-12T12:43:39+05:30"
+		},
+		"ETag": "L0jjZz1d_TT0b85r9u3gyZqFWnE",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky (1840-1893)\nPiano Concerto No. 1 in B-flat minor, Op. 23\n00:00 - I. Allegro non troppo e molto maestoso - Allegro con spirito\n21:08 - II. Andante semplice - Prestissimo - Tempo primo\n28:01 - III. Allegro con fuoco\n\nEmil Grigoryevich Gilels (1916-1985), Piano\nZubin Mehta (1936 - present), Conductor\nNew York Philharmonic Orchestra\nLive recording the 14th of November 1979, at the Avery Fisher Hall, Lincoln Center, Manhattan, New York, United States of America.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 27,
+			"PublishedAtRaw": "2024-12-12T18:17:14Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:17:14+00:00",
+			"PublishedAt": "2024-12-12T23:47:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "oY4ql6BpkKI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/oY4ql6BpkKI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/oY4ql6BpkKI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/oY4ql6BpkKI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/oY4ql6BpkKI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Piano Concerto No. 1 in B-flat minor, Op. 23 - Emil Gilels, Zubin Mehta, New York P.O.",
+			"VideoOwnerChannelId": "UC5pHhA6xMa7h1BYFkO3uaQg",
+			"VideoOwnerChannelTitle": "Sebasti\u00E1n Rodr\u00EDguez Gonz\u00E1lez"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "2DmfJu3oNDM",
+			"VideoPublishedAtRaw": "2023-03-12T13:00:03Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-12T13:00:03+00:00",
+			"VideoPublishedAt": "2023-03-12T18:30:03+05:30"
+		},
+		"ETag": "ikhxfJx9G0snoC_Pk2woUFaIZOs",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The very first bars of this piano concerto are so distinctive that they will remain in the listener\u0027s memory forever. Tchaikovsky\u0027s Piano Concerto No. 1 is recognizable and catchy. Charismatic piano virtuoso Martha Argerich lends an elegant lightness to this impressive piece. Conducted by Charles Dutoit, Argerich performed with the Verbier Festival Orchestra at the Verbier Festival in 2014.\n\n(00:00) Coming on stage\n(00:18) I. Allegro non troppo e molto maestoso \n(20:36) II. Andantino semplice \n(27:38) III. Allegro con fuoco \n\n(35:53) Encore: Robert Schumann: \u201CScenes from Childhood,\u201D Op. 15, No. 1\n\nPyotr Ilyich Tchaikovsky is considered the most important Russian composer of the 19th century. He was born in 1840 in Votkinsk and studied at the St. Petersburg Conservatory with Anton Rubinstein from 1862. His compositions combined Russian folk music with western music influences. Tchaikovsky wrote several symphonies and operas, as well as \u0022The Nutcracker\u0022 and \u0022Swan Lake,\u0022 the most famous ballets in music history.\n\nPiano Concerto No. 1 in B-flat minor, Op, 23 is considered one of the most popular piano works to this day. Tchaikovsky completed it in 1875, the same year it premiered in Boston. With its concise, rhythmic runs and its focused energy, it thrilled audiences then as it does today.\n\nArgentine-Swiss pianist Martha Argerich is considered a \u0022lioness of piano.\u0022 Born in Buenos Aires in 1941, she moved to Europe with her family in 1955. Argerich gave her first concert at the age of seven. In 1965, as a young woman, she won the legendary International Chopin Piano Competition in Warsaw, which was considered a sensation at the time and helped her rise to stardom. Since then, she has played with leading orchestras in the most renowned concert halls in the world. In 2005, she received the acclaimed and prestigious \u0022Praemium Imperiale.\u0022 Marta Argerich is considered a living musical legend.\n\nBorn in Lausanne, Switzerland, in 1936, conductor Charles Dutoit has had a stellar musical career. He has conducted more than 150 orchestras over the span of his long career. In 1977, he became the artistic director of the Montreal Symphony Orchestra and recorded more than 80 CDs. Dutoit and Argerich were married for several years. In 2017/18 Charles Dutoit faced #MeToo allegations and was the center of sexual harassment scandal which led to several orchestras cutting ties with the star conductor.\n\nThe Verbier Festival Orchestra is made up of highly talented young musicians and was founded in 2000. It offers young artists the opportunity to gain concert experience under the direction of leading conductors.\n\nThe Verbier Festival is considered the summit meeting of classical music stars. It has been held once a year in the Swiss Alps since 1994. In addition to the extensive concert program, the festival offers up-and-coming artists an opportunity to work with the very great artists of the classical music scene. Martha Argerich is a regular guest at the festival.\n\n\u00A9 Id\u00E9ale Audience \u0026 MUSEEC / medici.tv\n\nWatch more concerts in our concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nin our playlist with piano concertos: https://www.youtube.com/playlist?list=PL_SdnzPd3eBU7k2TJgrgNCc9aygnNkaGZ \n\nand in our Tchaikovsky playlist: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXeqiLcYJCB2Ct1lqIDtivN\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#tchaikovsky #marthaargerich #pianoconcerto",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 28,
+			"PublishedAtRaw": "2024-12-12T18:19:20Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:19:20+00:00",
+			"PublishedAt": "2024-12-12T23:49:20+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "2DmfJu3oNDM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/2DmfJu3oNDM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/2DmfJu3oNDM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/2DmfJu3oNDM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/2DmfJu3oNDM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Piano Concerto No. 1 | Martha Argerich, Charles Dutoit \u0026 the Verbier Festival Orchestra",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "D-u4gUTubZQ",
+			"VideoPublishedAtRaw": "2018-12-02T19:54:41Z",
+			"VideoPublishedAtDateTimeOffset": "2018-12-02T19:54:41+00:00",
+			"VideoPublishedAt": "2018-12-03T01:24:41+05:30"
+		},
+		"ETag": "1Q7KXZzkeyBQMhwDWKsInRssCEc",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tedd Joselson, piano\nEugene Ormandy, conductor\nPhiladelphia Orchestra\n1974, Academy of Music, Philadelphia",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 29,
+			"PublishedAtRaw": "2024-12-12T18:19:14Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T18:19:14+00:00",
+			"PublishedAt": "2024-12-12T23:49:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "D-u4gUTubZQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/D-u4gUTubZQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/D-u4gUTubZQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/D-u4gUTubZQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/D-u4gUTubZQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/D-u4gUTubZQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tedd Joselson: Tchaikovsky Piano Concerto no. 1 in B-flat minor",
+			"VideoOwnerChannelId": "UCUsIhfSDZiP3JsZyW-k85iA",
+			"VideoOwnerChannelTitle": "Nicholas Ho"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8VZrotIektI",
+			"VideoPublishedAtRaw": "2024-10-21T02:19:46Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-21T02:19:46+00:00",
+			"VideoPublishedAt": "2024-10-21T07:49:46+05:30"
+		},
+		"ETag": "0-E3m7FgwBvN6Yf1yfm9ehplTNY",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "P. Tchaikovsky\nPiano Concerto No. 1 in B flat minor, Op. 23\n\uCC28\uC774\uCF65\uC2A4\uD0A4 \uD53C\uC544\uB178 \uD611\uC8FC\uACE1 1\uBC88, \uC791\uD488\uBC88\uD638 23\n\nFragment Recording\n...................\n00:00 I. Allegro non troppo e molto maestoso\n13:44 Cadenza\n17:54 II. Andantino simplice\n23:13 III. Allegro con fuoco\n...................\npiano: Vladimir Horowitz\nconductor: Maurice Abravnel\norchestra: Utah Symphony Orchestra\n...................\nRecording Information:\nRadio Broadcast\n[fragmented recording made on a home acetate disc-cutter]\n\nDecember 9, 1950\nMormon Tabernacle, Salt Lake City, Utah (Live)\n...................\nUnreleased Recording\n...................\nComplete Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdUmk5NGZXnVUnAaO7D9Qap\n\nOther Vladimir Horowitz Tchaikovsky Concerto No. 1 Performances:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXc0DaNA9HPUHDth-JKMX1u_\n\nComplete 1950 Recordings:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXetyXRUDtTcQKM-d6pM_a3G\n...................\n(Only for Korean viewers)\n\uD55C\uAD6D\uC778 \uC2DC\uCCAD\uC790\uBD84\uB4E4, \uD638\uB85C\uBE44\uCE20 \uBC0F 20\uC138\uAE30 \uD53C\uC544\uB2C8\uC2A4\uD2B8 \uC774\uC57C\uAE30 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uBD84\uB4E4\uC740 \uC544\uB798 \uC624\uD508\uCC44\uD305\uBC29\uC73C\uB85C \uC624\uC2DC\uBA74 \uAC10\uC0AC\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4!\nhttps://open.kakao.com/o/g5suCaug\n\n\uB2E4\uB4E4 \uC601\uC0C1 \uC2DC\uCCAD\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694!",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 30,
+			"PublishedAtRaw": "2024-12-10T14:42:42Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:42:42+00:00",
+			"PublishedAt": "2024-12-10T20:12:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8VZrotIektI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8VZrotIektI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8VZrotIektI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/8VZrotIektI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8VZrotIektI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8VZrotIektI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Vladimir Horowitz-Abravnel: Tchaikovsky Piano Concerto No. 1, Op. 23 (1950/Utah Symphony Orchestra)",
+			"VideoOwnerChannelId": "UC9l9oD3bVIc0i73niINJ3Xg",
+			"VideoOwnerChannelTitle": "Vladimir Horowitz Archive: VHA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "MHJwEVZoUe0",
+			"VideoPublishedAtRaw": "2024-04-09T14:28:07Z",
+			"VideoPublishedAtDateTimeOffset": "2024-04-09T14:28:07+00:00",
+			"VideoPublishedAt": "2024-04-09T19:58:07+05:30"
+		},
+		"ETag": "mxqg13A8qKDAG1vjyVoEthuCeIk",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "P. Tchaikovsky\nPiano Concerto No. 1 in B flat minor, Op. 23\n\uCC28\uC774\uCF65\uC2A4\uD0A4 \uD53C\uC544\uB178 \uD611\uC8FC\uACE1 1\uBC88, \uC791\uD488\uBC88\uD638 23\uBC88\n...................\n00:00 I. Allegro non troppo e molto maestoso\n14:26 Cadenza\n19:01 II. Andantino simplice\n25:20 III. Allegro con fuoco\n...................\npiano: Vladimir Horowitz\nconductor: John Barbirolli\norchestra: New York Philharmonic\n...................\nRecording Information:\nRadio Broadcast\n\nMarch 31, 1940\nCarnegie Hall, New York City, New York (Live)\n...................\nComplete 1940 Recordings:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXeVLEpPK4tYM_E7y-_eWv65\n\nLegend Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXco_U-2dx6r8HyfU28Vt_sp\n\nComplete Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdUmk5NGZXnVUnAaO7D9Qap\n\nOther Vladimir Horowitz Tchaikovsky Concerto No. 1 Performances:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXc0DaNA9HPUHDth-JKMX1u_\n...................\n(Only for Korean viewers)\n\uD55C\uAD6D\uC778 \uC2DC\uCCAD\uC790\uBD84\uB4E4, \uD638\uB85C\uBE44\uCE20 \uBC0F 20\uC138\uAE30 \uD53C\uC544\uB2C8\uC2A4\uD2B8 \uC774\uC57C\uAE30 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uBD84\uB4E4\uC740 \uC544\uB798 \uC624\uD508\uCC44\uD305\uBC29\uC73C\uB85C \uC624\uC2DC\uBA74 \uAC10\uC0AC\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4!\nhttps://open.kakao.com/o/g5suCaug\n\n\uB2E4\uB4E4 \uC601\uC0C1 \uC2DC\uCCAD\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694!",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 31,
+			"PublishedAtRaw": "2024-12-10T14:45:40Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:45:40+00:00",
+			"PublishedAt": "2024-12-10T20:15:40+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "MHJwEVZoUe0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/MHJwEVZoUe0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/MHJwEVZoUe0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/MHJwEVZoUe0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/MHJwEVZoUe0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/MHJwEVZoUe0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Vladimir Horowitz-Barbirolli: Tchaikovsky Piano Concerto No. 1, Op. 23 (1940/New York Philharmonic)",
+			"VideoOwnerChannelId": "UC9l9oD3bVIc0i73niINJ3Xg",
+			"VideoOwnerChannelTitle": "Vladimir Horowitz Archive: VHA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "mP32c2PCj8I",
+			"VideoPublishedAtRaw": "2024-05-30T08:38:02Z",
+			"VideoPublishedAtDateTimeOffset": "2024-05-30T08:38:02+00:00",
+			"VideoPublishedAt": "2024-05-30T14:08:02+05:30"
+		},
+		"ETag": "3pI4VjWKb9HAOxUkmHyvHZhbgZs",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "P. Tchaikovsky\nPiano Concerto No. 1 in B flat minor, Op. 23\n\uCC28\uC774\uCF65\uC2A4\uD0A4 \uD53C\uC544\uB178 \uD611\uC8FC\uACE1 1\uBC88, \uC791\uD488\uBC88\uD638 23\uBC88\n...................\n00:00 I. Allegro non troppo e molto maestoso\n15:38 Cadenza\n20:08 II. Andantino simplice\n26:41 III. Allegro con fuoco\n...................\npiano: Vladimir Horowitz\nconductor: Wiliam Steinberg\norchestra: Hollywood Bowl Orchestra \n...................\nRecording Information:\nRadio Broadcast\n\nAugust 2, 1949\nThe Hollywood Bowl, Los Angeles, California (Live)\n...................\nComplete 1949 August 2 Concert:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXelUe2hMfBobWLLHkw1_DzD\n\nComplete 1949 Recordings:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXe7Ossz_FqeASHGbuJEHyLT\n\nLegend Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXco_U-2dx6r8HyfU28Vt_sp\n\nComplete Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdUmk5NGZXnVUnAaO7D9Qap\n\nOther Vladimir Horowitz Tchaikovsky Concerto No. 1 Performances:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXc0DaNA9HPUHDth-JKMX1u_\n...................\nConcert Program:\n\u00B7 Tchaikovsky: Piano Concerto No. 1 in B flat minor, Op. 23\n- William Steinberg/Hollywood Bowl Orchestra\n\nEncores:\n\u00B7 Scarlatti: Keyboard Sonata in E major, K. 380 L. 23\n\u00B7 Moszkowski: 15 \u00C9tudes de virtuosit\u00E9, Op. 72 No. 11 in A flat major\n\u00B7 Schumann: Kinderszenen Op. 15 No. 7, Tr\u00E4umerei\n\u00B7 Sousa-Horowitz: The Stars and Stripes Forever (arr. V. Horowitz)\n...................\n(Just for Koreans)\n\uD55C\uAD6D\uC778 \uC2DC\uCCAD\uC790\uBD84\uB4E4 \uD638\uB85C\uBE44\uCE20 \uBC0F 20\uC138\uAE30 \uD53C\uC544\uB2C8\uC2A4\uD2B8 \uC774\uC57C\uAE30 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uBD84\uB4E4\uC740 \uC544\uB798 \uC624\uD508\uCC44\uD305\uBC29\uC73C\uB85C \uC624\uC2DC\uBA74 \uAC10\uC0AC\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4!\nhttps://open.kakao.com/o/g5suCaug\n\n\uB2E4\uB4E4 \uC601\uC0C1 \uC2DC\uCCAD\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694!",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 32,
+			"PublishedAtRaw": "2024-12-10T14:48:35Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:48:35+00:00",
+			"PublishedAt": "2024-12-10T20:18:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "mP32c2PCj8I"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Vladimir Horowitz-Steinberg: Tchaikovsky Piano Concerto No. 1 Op. 23 (1949/Hollywood Bowl Orchestra)",
+			"VideoOwnerChannelId": "UC9l9oD3bVIc0i73niINJ3Xg",
+			"VideoOwnerChannelTitle": "Vladimir Horowitz Archive: VHA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "q0NS2jn-KgU",
+			"VideoPublishedAtRaw": "2024-05-27T07:06:05Z",
+			"VideoPublishedAtDateTimeOffset": "2024-05-27T07:06:05+00:00",
+			"VideoPublishedAt": "2024-05-27T12:36:05+05:30"
+		},
+		"ETag": "RZqjbLLxaOEZ_yAhfnSGMYLiCOs",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "P. Tchaikovsky\nPiano Concerto No. 1 in B flat minor, Op. 23\n\uCC28\uC774\uCF65\uC2A4\uD0A4 \uD53C\uC544\uB178 \uD611\uC8FC\uACE1 1\uBC88, \uC791\uD488\uBC88\uD638 23\uBC88\n...................\n00:00 I. Allegro non troppo e molto maestoso\n14:20 Cadenza\n18:30 II. Andantino simplice\n24:46 III. Allegro con fuoco\n\nsmall part missing in the First Movement, 9:18\n...................\npiano: Vladimir Horowitz\nconductor: Bruno Walter\norchestra: New York Philharmonic\n...................\nRecording Information:\nRadio Broadcast (And Yale Collection)\n\nApril 11, 1948\nCarnegie Hall, New York City, New York (Live)\n...................\nIn my opinion, this is the best Tchaikovsky Concerto Recording of all time.\n...................\nComplete Vladimir Horowitz 1948 recordings:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdE46NOZAR4sFULFAJpQWnH\n\nLegend Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXco_U-2dx6r8HyfU28Vt_sp\n\nComplete Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdUmk5NGZXnVUnAaO7D9Qap\n\nOther Vladimir Horowitz Tchaikovsky Concerto No. 1 Performances:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXc0DaNA9HPUHDth-JKMX1u_\n...................\n(Only for Korean viewers)\n\uD55C\uAD6D\uC778 \uC2DC\uCCAD\uC790\uBD84\uB4E4, \uD638\uB85C\uBE44\uCE20 \uBC0F 20\uC138\uAE30 \uD53C\uC544\uB2C8\uC2A4\uD2B8 \uC774\uC57C\uAE30 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uBD84\uB4E4\uC740 \uC544\uB798 \uC624\uD508\uCC44\uD305\uBC29\uC73C\uB85C \uC624\uC2DC\uBA74 \uAC10\uC0AC\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4!\nhttps://open.kakao.com/o/g5suCaug\n\n\uB2E4\uB4E4 \uC601\uC0C1 \uC2DC\uCCAD\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694!",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 33,
+			"PublishedAtRaw": "2024-12-10T14:45:07Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:45:07+00:00",
+			"PublishedAt": "2024-12-10T20:15:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "q0NS2jn-KgU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Vladimir Horowitz-Walter: Tchaikovsky Piano Concerto No. 1, Op. 23 (1948/New York Philharmonic)",
+			"VideoOwnerChannelId": "UC9l9oD3bVIc0i73niINJ3Xg",
+			"VideoOwnerChannelTitle": "Vladimir Horowitz Archive: VHA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "2OXNQG1Vixg"
+		},
+		"ETag": "hiQ7SKp0awPugHeWD4ROY9sbtqc",
+		"Id": "UEwxemdOQ29XdF83Yk1yZ0lDYmdvVGp3U2NzZEVCWkpEVC40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
+			"Position": 34,
+			"PublishedAtRaw": "2024-12-10T14:50:33Z",
+			"PublishedAtDateTimeOffset": "2024-12-10T14:50:33+00:00",
+			"PublishedAt": "2024-12-10T20:20:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "2OXNQG1Vixg"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	}
+]

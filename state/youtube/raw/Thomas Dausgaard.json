@@ -1,0 +1,521 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "gowW2kjGjFI",
+			"VideoPublishedAtRaw": "2024-09-29T17:20:31Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-29T17:20:31+00:00",
+			"VideoPublishedAt": "2024-09-29T22:50:31+05:30"
+		},
+		"ETag": "hGpaDjQ00c2U6f4uCw-AJgZDLeA",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 0,
+			"PublishedAtRaw": "2025-06-06T11:18:34Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:18:34+00:00",
+			"PublishedAt": "2025-06-06T16:48:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "gowW2kjGjFI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/gowW2kjGjFI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/gowW2kjGjFI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/gowW2kjGjFI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/gowW2kjGjFI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/gowW2kjGjFI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "4K Thomas Dausgaard conducts the Danish National Symphony Orchestra in Dvorak\u0027s Symphony No. 9",
+			"VideoOwnerChannelId": "UCUZc6RwOe3JKUbc5tmsvZtw",
+			"VideoOwnerChannelTitle": "\u6708\u4E0B\u542C\u98CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "eT_Fv7mC7ow"
+		},
+		"ETag": "vtizmNcwQlXG2YICqlpQ1I2quiM",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 1,
+			"PublishedAtRaw": "2025-06-06T11:18:29Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:18:29+00:00",
+			"PublishedAt": "2025-06-06T16:48:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "eT_Fv7mC7ow"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "mboLohFzUg4",
+			"VideoPublishedAtRaw": "2024-10-01T10:32:26Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-01T10:32:26+00:00",
+			"VideoPublishedAt": "2024-10-01T16:02:26+05:30"
+		},
+		"ETag": "dUTr-V4-jOMMlGor5KxFWsAi3KQ",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Copenhagen Phil\n\u00C6res-g\u00E6stedirigent Thomas Dausgaard \nKonservatoriets Koncertsal\n12. april 2024\nAmy Beach / Symfoni nr. 2, Gaelic",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 2,
+			"PublishedAtRaw": "2025-06-06T11:18:38Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:18:38+00:00",
+			"PublishedAt": "2025-06-06T16:48:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "mboLohFzUg4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/mboLohFzUg4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/mboLohFzUg4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/mboLohFzUg4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/mboLohFzUg4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/mboLohFzUg4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Copenhagen Phil / Thomas Dausgaard / Amy Beach: Gaelic Symphony",
+			"VideoOwnerChannelId": "UC1HCnpV7sB5nFyJk63FX81A",
+			"VideoOwnerChannelTitle": "Copenhagen Phil"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "JzUx9Ik9PuU",
+			"VideoPublishedAtRaw": "2018-10-05T17:26:58Z",
+			"VideoPublishedAtDateTimeOffset": "2018-10-05T17:26:58+00:00",
+			"VideoPublishedAt": "2018-10-05T22:56:58+05:30"
+		},
+		"ETag": "ogum0S2sO21L5WYvcoMPl4qZfi8",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "C\u00E9sar Franck (1822-1890)\nR\u00C9DEMPTION. Morceau symphonique\nDR SymfoniOrkestret\nTHOMAS DAUSGAARD, conductor\nRecording: Frauenkirche, Dresden, August 20, 2009",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 3,
+			"PublishedAtRaw": "2025-06-06T11:19:23Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:19:23+00:00",
+			"PublishedAt": "2025-06-06T16:49:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "JzUx9Ik9PuU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/JzUx9Ik9PuU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/JzUx9Ik9PuU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/JzUx9Ik9PuU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/JzUx9Ik9PuU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/JzUx9Ik9PuU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Franck: R\u00E9demption. Morceau symphonique - Danish National Symphony Orchestra/Dausgaard (2009)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kSwJGFSVOVY",
+			"VideoPublishedAtRaw": "2024-02-20T10:06:23Z",
+			"VideoPublishedAtDateTimeOffset": "2024-02-20T10:06:23+00:00",
+			"VideoPublishedAt": "2024-02-20T15:36:23+05:30"
+		},
+		"ETag": "5c6-mvEayVkAdEw99j_jVf5HEPs",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Concert from 23.11.2023 at Musiikkitalo Helsinki.",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 4,
+			"PublishedAtRaw": "2025-06-06T11:20:31Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:20:31+00:00",
+			"PublishedAt": "2025-06-06T16:50:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kSwJGFSVOVY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kSwJGFSVOVY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kSwJGFSVOVY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kSwJGFSVOVY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kSwJGFSVOVY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kSwJGFSVOVY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Grieg: Two Nordic melodies op. 63 - Thomas Dausgaard \u0026 Helsinki Philharmonic",
+			"VideoOwnerChannelId": "UCVTwXz1JqSgG0g69pEfS19Q",
+			"VideoOwnerChannelTitle": "Thomas Dausgaard Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Tt3tuxlpkUI",
+			"VideoPublishedAtRaw": "2018-09-15T01:37:54Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-15T01:37:54+00:00",
+			"VideoPublishedAt": "2018-09-15T07:07:54+05:30"
+		},
+		"ETag": "jWoZ7A4JQKxlPZAs-jSlxE9LsiI",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Liszt (1811-1886)\nTROIS ODES FUN\u00C8BRES - LA NOTTE, S. 112/2\nBBC Symphony Orchestra\nTHOMAS DAUSGAARD, conductor\nRecording: Royal Albert Hall, London, August 22, 2011",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 5,
+			"PublishedAtRaw": "2025-06-06T11:19:18Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:19:18+00:00",
+			"PublishedAt": "2025-06-06T16:49:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Tt3tuxlpkUI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Tt3tuxlpkUI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Tt3tuxlpkUI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Tt3tuxlpkUI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Tt3tuxlpkUI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Tt3tuxlpkUI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Liszt: Trois Odes fun\u00E8bres - 2. La notte - BBC Symphony Orchestra/Dausgaard (2011)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vuuvK-oAUH0",
+			"VideoPublishedAtRaw": "2018-08-30T18:29:18Z",
+			"VideoPublishedAtDateTimeOffset": "2018-08-30T18:29:18+00:00",
+			"VideoPublishedAt": "2018-08-30T23:59:18+05:30"
+		},
+		"ETag": "p7Z1DgE7-7n7EUBwMm4dfPC_rGA",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Carl Nielsen (1865-1931)\nSYMPHONY NO. 4, Op. 29, \u0027The Inextinguishable\u0027\nHouston Symphony\nTHOMAS DAUSGAARD, conductor\nRecording: Jones Hall, Houston, TX, November 16, 2012\n\nI. Allegro (0:00)\nII. Poco allegretto (10:48)\nIII. Poco adagio quasi andante (16:30)\nIV. Allegro (26:34)",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 6,
+			"PublishedAtRaw": "2025-06-06T11:17:55Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:17:55+00:00",
+			"PublishedAt": "2025-06-06T16:47:55+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vuuvK-oAUH0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vuuvK-oAUH0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vuuvK-oAUH0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vuuvK-oAUH0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vuuvK-oAUH0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vuuvK-oAUH0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nielsen: Symphony No. 4 - Houston Symphony/Dausgaard (2012)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "bDyBXk3qLsE",
+			"VideoPublishedAtRaw": "2024-03-29T20:07:51Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-29T20:07:51+00:00",
+			"VideoPublishedAt": "2024-03-30T01:37:51+05:30"
+		},
+		"ETag": "OeeKcUa7wUUzD1OH5aJc6fHfl1k",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "With \u0022Roots\u0022 Prelude by Thomas Dausgaard and Timo Alakotila.\nThomas Dausgaard, conductor\nHelsinki Philharmonic\nTimo Alakotila, harmonium\nIlona Korhonen, vocals\nMinna-Liisa Tammela, vocals\nAnna-Karin Korhonen, kantele\nTero Pajunen, vocals\n\nConcert from 23.11.2023 in Musiikkitalo, Helsinki.",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 7,
+			"PublishedAtRaw": "2025-06-06T11:18:25Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:18:25+00:00",
+			"PublishedAt": "2025-06-06T16:48:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "bDyBXk3qLsE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/bDyBXk3qLsE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/bDyBXk3qLsE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/bDyBXk3qLsE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/bDyBXk3qLsE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/bDyBXk3qLsE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sibelius Symphony No 5 first version \u0026 \u0022Roots\u0022 Prelude. Thomas Dausgaard \u0026 Helsinki Philharmonic",
+			"VideoOwnerChannelId": "UCVTwXz1JqSgG0g69pEfS19Q",
+			"VideoOwnerChannelTitle": "Thomas Dausgaard Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "PF3TS7yZb6s",
+			"VideoPublishedAtRaw": "2020-02-12T14:31:52Z",
+			"VideoPublishedAtDateTimeOffset": "2020-02-12T14:31:52+00:00",
+			"VideoPublishedAt": "2020-02-12T20:01:52+05:30"
+		},
+		"ETag": "JFAXJp2_aF0LGUsXMT9S4vUhHOU",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Jean Sibelius (1865-1957)\nSYMPHONY NO. 5 in E-flat major, Op. 82 (Original 1915 version)\nBBC Scottish Symphony Orchestra\nTHOMAS DAUSGAARD, conductor\nRecording: Royal Albert Hall, London, August 3, 2019\n\nI. Tempo tranquillo assai (0:00)\nII. Allegro commodo (7:30)\nIII. Andante mosso (12:39)\nIV. Allegro commodo - Largamente molto (19:55)",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 8,
+			"PublishedAtRaw": "2025-06-06T11:18:04Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:18:04+00:00",
+			"PublishedAt": "2025-06-06T16:48:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "PF3TS7yZb6s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/PF3TS7yZb6s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/PF3TS7yZb6s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/PF3TS7yZb6s/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/PF3TS7yZb6s/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/PF3TS7yZb6s/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sibelius: Symphony No. 5 (Original 1915 version) - BBC Scottish SO/Dausgaard (2019)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "J3djAX1gmuA",
+			"VideoPublishedAtRaw": "2018-09-13T12:23:13Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-13T12:23:13+00:00",
+			"VideoPublishedAt": "2018-09-13T17:53:13+05:30"
+		},
+		"ETag": "Wxdf0eAs6jdBQGsBtUD2Q0E48oU",
+		"Id": "UEwxemdOQ29XdF83WkYtRnREd1JfcjRUSXJXM3pNOTZlRy41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Thomas Dausgaard conducts the BBC Scottish Symphony Orchestra in Wagner\u0027s Prelude and Liebestod from Tristan and Isolde. Recorded in Glasgow City Halls on 23 March 2017 (excerpt).",
+			"PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
+			"Position": 9,
+			"PublishedAtRaw": "2025-06-06T11:19:14Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:19:14+00:00",
+			"PublishedAt": "2025-06-06T16:49:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "J3djAX1gmuA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/J3djAX1gmuA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/J3djAX1gmuA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/J3djAX1gmuA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/J3djAX1gmuA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/J3djAX1gmuA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wagner Prelude and Liebestod / BBC Scottish Symphony Orchestra and Thomas Dausgaard",
+			"VideoOwnerChannelId": "UCPqjEEOqG0tgenCGUEF3O8w",
+			"VideoOwnerChannelTitle": "BBC Scottish Symphony Orchestra"
+		}
+	}
+]

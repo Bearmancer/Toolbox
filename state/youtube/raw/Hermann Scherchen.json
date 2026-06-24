@@ -1,0 +1,627 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "rIZgkzvmf1U",
+			"VideoPublishedAtRaw": "2021-10-25T08:15:03Z",
+			"VideoPublishedAtDateTimeOffset": "2021-10-25T08:15:03+00:00",
+			"VideoPublishedAt": "2021-10-25T13:45:03+05:30"
+		},
+		"ETag": "0ilZZzWUGQpXdU0sP-mzKMiB03Q",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dedicated to my dearest best friend \u0026 greatest among artists Laetitia Hahn\n https://www.youtube.com/channel/UCF3hDpsC6iQDBRpl_8dhtYQ\n\n\u2022 Mozart: Piano Concerto No. 15 in B flat major, K450\nOrchestra della Radio della Svizzera italiana, Hermann Scherchen\nRecorded Lugano, Switzerland, 21 June 1956\n\n\u2022 Mozart: Piano Concerto No. 13 in C major, K415\nOrchestra Sinfonica di Roma della RAI, Carlo Maria Giulini\nRecorded, Roma, Italy, 15 December 1951\n\n\u2022 Haydn: Keyboard Concerto No. 11 in D major, HobXVIII:11\nOrchestra Sinfonica Nazionale della RAI di Torino, Mario Rossi\nRecorded, Torino, Italy, 18 December 1959\n\nFor other great productions have a look at: https://www.marstonrecords.com/\n\u0026 https://vimeo.com/user18903862/vod_pages",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 0,
+			"PublishedAtRaw": "2025-08-21T12:43:40Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:43:40+00:00",
+			"PublishedAt": "2025-08-21T18:13:40+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rIZgkzvmf1U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rIZgkzvmf1U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rIZgkzvmf1U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rIZgkzvmf1U/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Arturo Benedetti Michelangeli Live: Mozart \u0026 Haydn  (R.1951-\u201959) with Scherchen, Giulini \u0026 Rossi",
+			"VideoOwnerChannelId": "UC2EMOWDoxzqfhzFtC52gjvg",
+			"VideoOwnerChannelTitle": "logaemsythgim"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "GBsWFXMAudk",
+			"VideoPublishedAtRaw": "2020-01-15T23:55:11Z",
+			"VideoPublishedAtDateTimeOffset": "2020-01-15T23:55:11+00:00",
+			"VideoPublishedAt": "2020-01-16T05:25:11+05:30"
+		},
+		"ETag": "Yk0TWG7EuUPzfa8nD30IPlyjhWM",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Hermann Scherchen - Orchestra della Radio Svizzera Italiana (26.02.65)",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 1,
+			"PublishedAtRaw": "2025-08-21T12:44:00Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:44:00+00:00",
+			"PublishedAt": "2025-08-21T18:14:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "GBsWFXMAudk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/GBsWFXMAudk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/GBsWFXMAudk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/GBsWFXMAudk/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Beethoven Symphony No.4 op.60 - Scherchen / RSI (1965)",
+			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+			"VideoOwnerChannelTitle": "goodmanmusica"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1UMUXbij5x0",
+			"VideoPublishedAtRaw": "2022-11-14T09:54:30Z",
+			"VideoPublishedAtDateTimeOffset": "2022-11-14T09:54:30+00:00",
+			"VideoPublishedAt": "2022-11-14T15:24:30+05:30"
+		},
+		"ETag": "jzEfqIP2-qjeUAxdr4SfW8_k3CA",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms - Symphony No.3\n\nI. Allegro con brio [00:00]\nII. Andante [09:15]\nIII. Scherzo (Poco allegretto) [19:41]\nIV. Allegro [25:33]\n\nRTSI Symphony Orchestra - Hermann Scherchen\n\n25.4.1962",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 2,
+			"PublishedAtRaw": "2025-08-21T12:43:34Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:43:34+00:00",
+			"PublishedAt": "2025-08-21T18:13:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1UMUXbij5x0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1UMUXbij5x0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1UMUXbij5x0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1UMUXbij5x0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1UMUXbij5x0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1UMUXbij5x0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms - Symphony No.3 (RTSI - Scherchen)",
+			"VideoOwnerChannelId": "UCXmLtLgp_-83OCUXGjTBBfQ",
+			"VideoOwnerChannelTitle": "cis moll"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sE34RHaIN1o",
+			"VideoPublishedAtRaw": "2013-09-20T11:12:02Z",
+			"VideoPublishedAtDateTimeOffset": "2013-09-20T11:12:02+00:00",
+			"VideoPublishedAt": "2013-09-20T16:42:02+05:30"
+		},
+		"ETag": "vZ4K4IRHZIUeU-HI1toxTq_HnGs",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Symphony No 6 \u0022Tragic\u0022 by Gustav Mahler\n1. Allegro energico, ma non troppo.\n   Heftig aber markig\n2.Andante moderato\n3. Scherzo.Wuchtig\n4. Finale. Allegro moderato-Allegro energico\nRadio-Symphony Orchestra Leipzig\nLeipzig 1961",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 3,
+			"PublishedAtRaw": "2025-08-21T12:44:43Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:44:43+00:00",
+			"PublishedAt": "2025-08-21T18:14:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sE34RHaIN1o"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/sE34RHaIN1o/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/sE34RHaIN1o/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/sE34RHaIN1o/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/sE34RHaIN1o/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/sE34RHaIN1o/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Hermann Scherchen \u0022Symphony No 6\u0022 Mahler",
+			"VideoOwnerChannelId": "UCowleoT1p2eZtz8J1EUuvHw",
+			"VideoOwnerChannelTitle": "Addiobelpassato"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "AgwSRvlZNkg",
+			"VideoPublishedAtRaw": "2019-01-11T10:16:54Z",
+			"VideoPublishedAtDateTimeOffset": "2019-01-11T10:16:54+00:00",
+			"VideoPublishedAt": "2019-01-11T15:46:54+05:30"
+		},
+		"ETag": "YpzA53PD6YYuej_wbk3N6F5vaBs",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Symphony No 3 in D minor by Gustav Mahler\n1. Kr\u00E4ftig, entschieden\n2. Tempo di minuetto. Sehr m\u00E4ssig\n3. Comodo. Scherzando. Ohne Hast\n4. Sehr langsam. Misterioso\n5. Lustig im Tempo und keck im Ausdruck\n6. Langsam. Ruhevoll. Empfunden\nSona Cervena, Contralto\nRadio Symphony Orchestra \u0026 Chorus\nHermann Scherchen, Conductor\nX.1960",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 4,
+			"PublishedAtRaw": "2025-08-21T12:44:12Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:44:12+00:00",
+			"PublishedAt": "2025-08-21T18:14:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "AgwSRvlZNkg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/AgwSRvlZNkg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/AgwSRvlZNkg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/AgwSRvlZNkg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/AgwSRvlZNkg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/AgwSRvlZNkg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler \u0022Symphony No 3\u0022 Hermann Scherchen 1960",
+			"VideoOwnerChannelId": "UCowleoT1p2eZtz8J1EUuvHw",
+			"VideoOwnerChannelTitle": "Addiobelpassato"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jbUDZN5zHo8",
+			"VideoPublishedAtRaw": "2015-11-08T15:05:32Z",
+			"VideoPublishedAtDateTimeOffset": "2015-11-08T15:05:32+00:00",
+			"VideoPublishedAt": "2015-11-08T20:35:32+05:30"
+		},
+		"ETag": "qiVfAzBHifAT29aU-zoZlxUa6jQ",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "SYMPHONY NO. 5 in C sharp minor by Gustav Mahler\nI. Trauermarsch. In gemessenem Schritt. Streng. Wie ein Kondukt \nII. Sch\u00FCrmisch bewegt, mit gr\u00F6\u00DFter Vehemenz \nIII. Scherzo. Kr\u00E4ftig, nicht zu schnell \nIV. Adagietto. Sehr langsam \nV. Rondo-Finale. Allegro - Allegro giocoso. Frisch \nPhiladelphia Orchestra\nHermann Scherchen, Conductor\nAcademy of Music, Philadelphia, 30 October 1964",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 5,
+			"PublishedAtRaw": "2025-08-21T12:44:37Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:44:37+00:00",
+			"PublishedAt": "2025-08-21T18:14:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jbUDZN5zHo8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jbUDZN5zHo8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jbUDZN5zHo8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/jbUDZN5zHo8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jbUDZN5zHo8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/jbUDZN5zHo8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler \u0022Symphony No 5\u0022 Hermann Scherchen 1964",
+			"VideoOwnerChannelId": "UCowleoT1p2eZtz8J1EUuvHw",
+			"VideoOwnerChannelTitle": "Addiobelpassato"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xCepooX9Oc0",
+			"VideoPublishedAtRaw": "2020-01-27T15:54:23Z",
+			"VideoPublishedAtDateTimeOffset": "2020-01-27T15:54:23+00:00",
+			"VideoPublishedAt": "2020-01-27T21:24:23+05:30"
+		},
+		"ETag": "2gqkf433lKgFdOXXM1sMlMcYdrs",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler - Symphony No.5\n\n00:00 - I. Marcia funebre\n13:26 - II. Tempestoso\n24:47 - III. Scherzo\n30:17 - IV. Adagietto\n43:34 - V. Rondo-finale\n\nOrchestra Sinfonica di Milano della RAI - Hermann Scherchen\n\n8.4.1962",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 6,
+			"PublishedAtRaw": "2025-08-21T12:43:56Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:43:56+00:00",
+			"PublishedAt": "2025-08-21T18:13:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xCepooX9Oc0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xCepooX9Oc0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xCepooX9Oc0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xCepooX9Oc0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xCepooX9Oc0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler - Symphony No.5 (RAI Milano - Scherchen)",
+			"VideoOwnerChannelId": "UCXmLtLgp_-83OCUXGjTBBfQ",
+			"VideoOwnerChannelTitle": "cis moll"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "d5im04T6AqA",
+			"VideoPublishedAtRaw": "2025-08-15T01:50:37Z",
+			"VideoPublishedAtDateTimeOffset": "2025-08-15T01:50:37+00:00",
+			"VideoPublishedAt": "2025-08-15T07:20:37+05:30"
+		},
+		"ETag": "PB4chB7ZWxdxouktAssl_ZfMctc",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Well, this is Scherchen, so I won\u2019t bother expressing astonishment. But let\u2019s point out some really good things about this performance, Scherchen\u2019s first American appearance. We get to hear Gil Johnson, who had retired and been replaced by Frank Kaderabek by the time RCA commercially recorded Philadelphia in the Mahler 5 in 1977.  (Many consider Kaderabek\u2019s characteristic timbre a demerit in that performance.) We get to hear Philly rising to the insane tempo demands \u2014 careening from largo to prestissimo and back again, none provided for in the score \u2014 of a conductor with an idiosyncratic view of how the M5 should sound.  We get to hear the tam tams in the first movement, loud and proud. Philadelphia has commercially recorded in house the M5 under Eschenbach and Yannick, both downloadable. Of the three available commercial issues, I personally think Yannick\u2019s edges out the others. He pushes the PO in the scherzo in particular, thank goodness not to the cartoon proportions here, and boy do the players deliver.",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 7,
+			"PublishedAtRaw": "2025-08-21T04:10:12Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T04:10:12+00:00",
+			"PublishedAt": "2025-08-21T09:40:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "d5im04T6AqA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/d5im04T6AqA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/d5im04T6AqA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/d5im04T6AqA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/d5im04T6AqA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/d5im04T6AqA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler 5 Philadelphia Scherchen Oct 1964 Live",
+			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+			"VideoOwnerChannelTitle": "Peter Kohn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZIQMuf8Z3MI",
+			"VideoPublishedAtRaw": "2015-01-29T22:04:23Z",
+			"VideoPublishedAtDateTimeOffset": "2015-01-29T22:04:23+00:00",
+			"VideoPublishedAt": "2015-01-30T03:34:23+05:30"
+		},
+		"ETag": "laBpof0wApN3P1d1OLTfRaMCPBo",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "As someone who loves both Toronto and Mahler, this is a treasured performance.",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 8,
+			"PublishedAtRaw": "2025-08-21T12:44:32Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:44:32+00:00",
+			"PublishedAt": "2025-08-21T18:14:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZIQMuf8Z3MI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZIQMuf8Z3MI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZIQMuf8Z3MI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ZIQMuf8Z3MI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZIQMuf8Z3MI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZIQMuf8Z3MI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler Symphony #7 (Song of the Night) - Scherchen, Toronto Symphony (live,1965)",
+			"VideoOwnerChannelId": "UCJfA71XobkBsUPSsz8BKnQA",
+			"VideoOwnerChannelTitle": "Digital Classics"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "iVj8PBhBND0",
+			"VideoPublishedAtRaw": "2021-06-10T23:25:44Z",
+			"VideoPublishedAtDateTimeOffset": "2021-06-10T23:25:44+00:00",
+			"VideoPublishedAt": "2021-06-11T04:55:44+05:30"
+		},
+		"ETag": "A7j9j8L-wqcwwYIGmAylwIedrBM",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler \nSymphony No 6 \u0022Tragic\u0022\n\n1. Allegro energico, ma non troppo.\n   Heftig aber markig\n2. Andante moderato\n3. Scherzo.Wuchtig\n4. Finale. Allegro moderato-Allegro energico\n\nHermann Scherchen, conductor\nLeipzig Radio Symphony Orchestra\n\nRecorded Live in 1960\n\nScherchen, alas, did not leave a recording of the 6th symphony with the complete score. The present recording is from a live performance. His interpretation of the score is one of the fastest, but it is not without some extraordinary moments in musical terms. In  the 1950s and 60s a conductor was blazing New Trails with Mahler\u0027s lesser-known symphonies, and consensus was very different than it is today.\n\nThe symphony itself puzzled earlier audiences, and the origin of the \u0022Tragic\u0022 title is unclear. Mahler composed the symphony during one of the happiest times in his life. There has also been a controversy about the order of the inner movements. The present edition is in the more accepted order of \u0022Andante-Scherzo\u0022.\n\nAlthough critics and audiences were unconvinced at first, some, like Webern and Berg saw the 6th as a masterpiece. The symphony has become very popular over the last 40 years or so.",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 9,
+			"PublishedAtRaw": "2025-08-21T12:43:49Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:43:49+00:00",
+			"PublishedAt": "2025-08-21T18:13:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iVj8PBhBND0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iVj8PBhBND0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iVj8PBhBND0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iVj8PBhBND0/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Mahler: Symphony No 6 \u0022Tragic\u0022 (1960) Scherchen",
+			"VideoOwnerChannelId": "UC2inKhUL9KMBUsLoUtLB2Gg",
+			"VideoOwnerChannelTitle": "Private Reserve"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "iYIQ-hvlfIU",
+			"VideoPublishedAtRaw": "2017-12-20T16:00:08Z",
+			"VideoPublishedAtDateTimeOffset": "2017-12-20T16:00:08+00:00",
+			"VideoPublishedAt": "2017-12-20T21:30:08+05:30"
+		},
+		"ETag": "nbsOZcslKqhDyH06LG4PkkEnFr0",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler: Symphony No. 6   ///   MDR Leipzig Radio Symphony Orchestra conducted by Hermann Scherchen   ///   Recorded in 1960",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 10,
+			"PublishedAtRaw": "2025-08-21T12:44:24Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:44:24+00:00",
+			"PublishedAt": "2025-08-21T18:14:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iYIQ-hvlfIU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iYIQ-hvlfIU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iYIQ-hvlfIU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/iYIQ-hvlfIU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iYIQ-hvlfIU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/iYIQ-hvlfIU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler: Symphony No. 6 [Scherchen]",
+			"VideoOwnerChannelId": "UC0lLzt8XzBZROlV7QueMyZQ",
+			"VideoOwnerChannelTitle": "Classical Music ? With Pleasure !"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0kxPj2sBqpM",
+			"VideoPublishedAtRaw": "2013-03-27T15:43:16Z",
+			"VideoPublishedAtDateTimeOffset": "2013-03-27T15:43:16+00:00",
+			"VideoPublishedAt": "2013-03-27T21:13:16+05:30"
+		},
+		"ETag": "gkErvsZzklfJw_IwnINbZFyRAvg",
+		"Id": "UEwxemdOQ29XdF83Yk9lR3VEYVZDYnd0UWlLcjF2ZGRFOS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Robert Schumann\n\nPiano concerto op.54\n\nI. Allegro affetuoso 0:00\nII. Intermezzo. Andantino grazioso 13:53\nIII. Allegro vivace 18:26\n\nArturo Benedetti Michelangeli\nOrchestra della RSI\nHermann Scherchen\nLive recording, Lugano, 21.VI.1956",
+			"PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
+			"Position": 11,
+			"PublishedAtRaw": "2025-08-21T12:44:48Z",
+			"PublishedAtDateTimeOffset": "2025-08-21T12:44:48+00:00",
+			"PublishedAt": "2025-08-21T18:14:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0kxPj2sBqpM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0kxPj2sBqpM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0kxPj2sBqpM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/0kxPj2sBqpM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0kxPj2sBqpM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0kxPj2sBqpM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann - Piano concerto - Michelangeli / Scherchen",
+			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+			"VideoOwnerChannelTitle": "incontrario motu"
+		}
+	}
+]

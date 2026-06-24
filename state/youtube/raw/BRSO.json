@@ -1,0 +1,967 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "tnvfBPrJ5go",
+      "VideoPublishedAtRaw": "2025-04-13T20:32:26Z",
+      "VideoPublishedAtDateTimeOffset": "2025-04-13T20:32:26+00:00",
+      "VideoPublishedAt": "2025-04-14T02:02:26+05:30"
+    },
+    "ETag": "JTEGrCQ1GFXLGuWgLmC_AC0XCBM",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 0,
+      "PublishedAtRaw": "2025-06-06T21:32:17Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:32:17+00:00",
+      "PublishedAt": "2025-06-07T03:02:17+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "tnvfBPrJ5go"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/tnvfBPrJ5go/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/tnvfBPrJ5go/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/tnvfBPrJ5go/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/tnvfBPrJ5go/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/tnvfBPrJ5go/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Arthur Grumiaux - Mozart Violin Concerto #4 - E. Jochum, Bavarian Radio Symphony Orch. 6- 23 1961",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zb4I5y-T9Uo",
+      "VideoPublishedAtRaw": "2024-06-14T14:39:39Z",
+      "VideoPublishedAtDateTimeOffset": "2024-06-14T14:39:39+00:00",
+      "VideoPublishedAt": "2024-06-14T20:09:39+05:30"
+    },
+    "ETag": "-c4P7hzkD0rVuv_qp7t2TiHDcvk",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss\nDer Rosenkavalier, suite, op. 59 \n(The Rose-Bearer, suite, op. 59) ~ first version ~\n\nBavarian Radio Symphony Orchestra\nYannick N\u00E9zet-S\u00E9guin, conductor\n\nRecorded live on 31.07.2019\nat the Royal Albert Hall, London",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 1,
+      "PublishedAtRaw": "2025-06-06T21:32:10Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:32:10+00:00",
+      "PublishedAt": "2025-06-07T03:02:10+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zb4I5y-T9Uo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/zb4I5y-T9Uo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bavarian Radio Symphony Orchestra - R. Strauss - Der Rosenkavalier, suite, op. 59 ~ first version ~",
+      "VideoOwnerChannelId": "UCAj0jnQrm28oyEc_gep7UwQ",
+      "VideoOwnerChannelTitle": "Grande Valse Viennoise"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "EjiEAuWBtp4",
+      "VideoPublishedAtRaw": "2016-12-07T15:04:04Z",
+      "VideoPublishedAtDateTimeOffset": "2016-12-07T15:04:04+00:00",
+      "VideoPublishedAt": "2016-12-07T20:34:04+05:30"
+    },
+    "ETag": "RMFT-l2k96bL2szPYX6UK0JRl-s",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Boris Blacher: Tristan, ballet suite [Witold Rowicki-Bavarian Radio Symphony Orchestra].",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 2,
+      "PublishedAtRaw": "2025-06-06T21:40:45Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:40:45+00:00",
+      "PublishedAt": "2025-06-07T03:10:45+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "EjiEAuWBtp4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/EjiEAuWBtp4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/EjiEAuWBtp4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/EjiEAuWBtp4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/EjiEAuWBtp4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/EjiEAuWBtp4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Boris Blacher: Tristan, ballet suite [Rowicki-Bavarian RSO]",
+      "VideoOwnerChannelId": "UCfFPCgr45pH_pzslan4EriQ",
+      "VideoOwnerChannelTitle": "James Stuart"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YKpf_DwvLG4",
+      "VideoPublishedAtRaw": "2025-06-01T05:30:06Z",
+      "VideoPublishedAtDateTimeOffset": "2025-06-01T05:30:06+00:00",
+      "VideoPublishedAt": "2025-06-01T11:00:06+05:30"
+    },
+    "ETag": "9vaO6Syi3sal2Ub5LKCU-4oHZhs",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Klemperer war ein gro\u00DFer Bruckner-Dirigent. Hier dirigiert er das Symphonieorchester des Bayerischen Rundfunks.\nCD. Arcadia",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 3,
+      "PublishedAtRaw": "2025-06-06T21:28:45Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:28:45+00:00",
+      "PublishedAt": "2025-06-07T02:58:45+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YKpf_DwvLG4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YKpf_DwvLG4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YKpf_DwvLG4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/YKpf_DwvLG4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YKpf_DwvLG4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YKpf_DwvLG4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "BRUCKNER. Klemperer. Symphonie n.\u00B0 4 \u0022Romantische\u0022. Sinfonieorchester des Bayerischen Rudfunks. 1966",
+      "VideoOwnerChannelId": "UCqIjdqBJ2vJdC7IdZ3voyrQ",
+      "VideoOwnerChannelTitle": "Wilmer Jara Vel\u00E1squez "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "WOQcbb-0LYA",
+      "VideoPublishedAtRaw": "2017-11-10T19:38:03Z",
+      "VideoPublishedAtDateTimeOffset": "2017-11-10T19:38:03+00:00",
+      "VideoPublishedAt": "2017-11-11T01:08:03+05:30"
+    },
+    "ETag": "9b5h7GMq8HzJUbA__VlmCscPyxk",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton Bruckner (1824-1896)\nSYMPHONY NO. 5 in B-flat major, WAB 105, \u0027Church of Faith\u0027 (1878 version, ed. Nowak)\nBavarian Radio Symphony Orchestra\nWILLIAM STEINBERG, cond.\nRecording: Munich, January 12, 1978\n\nI. Introduktion. Adagio - Allegro (0:00)\nII. Adagio. Sehr langsam (18:52)\nIII. Scherzo. Molto vivace (35:48)\nIV. Finale. Adagio - Allegro moderato (47:52)",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 4,
+      "PublishedAtRaw": "2025-06-06T21:28:52Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:28:52+00:00",
+      "PublishedAt": "2025-06-07T02:58:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "WOQcbb-0LYA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/WOQcbb-0LYA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/WOQcbb-0LYA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/WOQcbb-0LYA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/WOQcbb-0LYA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/WOQcbb-0LYA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner: Symphony No. 5 - Bavarian Radio Symphony Orchestra/Steinberg (1978)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1h-ftvBNSZY",
+      "VideoPublishedAtRaw": "2025-06-07T05:46:43Z",
+      "VideoPublishedAtDateTimeOffset": "2025-06-07T05:46:43+00:00",
+      "VideoPublishedAt": "2025-06-07T11:16:43+05:30"
+    },
+    "ETag": "cPvq9PMVUIMb85ECt1WwhlWxvXo",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Bruckner: Symphony No.5\n1st movement    00:00\n2nd   21:13\n3rd   38:50\n4th   53:15\nKurt Eichhorn / Bavarian Radio Symphony Orchestra\n4-5/10/1990 St. Florian, Stiftskirche, Linz live recording\n\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\n\u30AF\u30EB\u30C8\u30FB\u30A2\u30A4\u30D2\u30DB\u30EB\u30F3\u6307\u63EE\u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n1990\u5E7410\u67084-5\u65E5\u3000\u30EA\u30F3\u30C4\u3001\u8056\u30D5\u30ED\u30FC\u30EA\u30A2\u30F3\u6559\u4F1A\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6669\u5E74\u30EA\u30F3\u30C4\u30FB\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\u7BA1\u3067\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\u6307\u63EE\u8005\u3068\u3057\u3066\u306E\u8A55\u4FA1\u3092\u9AD8\u3081\u305F\u30A2\u30A4\u30D2\u30DB\u30EB\u30F3\u304C\u305D\u306E\u524D\u306B\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u97FF\u3068\u6B8B\u3057\u305F\u6B74\u53F2\u7684\u30E9\u30A4\u30D6\u3002\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\u6240\u7E01\u306E\u8056\u30D5\u30ED\u30FC\u30EA\u30A2\u30F3\u6559\u4F1A\u306E\u7A7A\u9593\u3092\u751F\u304B\u3057\u305F\u58EE\u9E97\u306A\u97FF\u304D\u3092\u8074\u304B\u305B\u308B\u540D\u6F14\u3002",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 5,
+      "PublishedAtRaw": "2025-06-07T06:21:36Z",
+      "PublishedAtDateTimeOffset": "2025-06-07T06:21:36+00:00",
+      "PublishedAt": "2025-06-07T11:51:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1h-ftvBNSZY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1h-ftvBNSZY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1h-ftvBNSZY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1h-ftvBNSZY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1h-ftvBNSZY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner: Symphony No.5    K. Eichhorn / BRSO 1990 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ZPo8qhBkdS8",
+      "VideoPublishedAtRaw": "2018-02-21T01:58:58Z",
+      "VideoPublishedAtDateTimeOffset": "2018-02-21T01:58:58+00:00",
+      "VideoPublishedAt": "2018-02-21T07:28:58+05:30"
+    },
+    "ETag": "xNhWY06B8yNjPAzZjvvzsRLEdC8",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Emmanuel Chabrier (1841-1894)\nOVERTURE TO GWENDOLINE\nSymphonieorchester des Bayerischen Rundfunks\nSIR JOHN ELIOT GARDINER, CBE, conductor\nRecording: Philharmonie im Gasteig, Munich, February 24, 2017",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 6,
+      "PublishedAtRaw": "2025-06-06T21:44:29Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:44:29+00:00",
+      "PublishedAt": "2025-06-07T03:14:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ZPo8qhBkdS8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ZPo8qhBkdS8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ZPo8qhBkdS8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ZPo8qhBkdS8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ZPo8qhBkdS8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ZPo8qhBkdS8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Chabrier: Gwendoline - Overture - Bavarian Radio Symphony Orchestra/Sir John Eliot Gardiner (2017)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YDf4-TRM2Us",
+      "VideoPublishedAtRaw": "2020-10-08T17:58:35Z",
+      "VideoPublishedAtDateTimeOffset": "2020-10-08T17:58:35+00:00",
+      "VideoPublishedAt": "2020-10-08T23:28:35+05:30"
+    },
+    "ETag": "lVhiPWjip7YRWE7cas5BGofM_yc",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Trombonist Michael Buchanan and the Symphonieorchester des Bayerischen Rundfunk together with Jun M\u00FCrkl perform Ferdinand David\u0027s Concertino. Recorded live on 19.09.2015 at the Herkulessaal, Munich.\n\nI. Allegro maestoso\nII. Marcia funebre (Andante)\nIII. Allegro maestoso\n\nMichael Buchanan, trombone\nSinfonieorchester des Bayerischen Rundfunks\nJun M\u00E4rkl, conductor\n\n\u25BA Take a lesson with Michael! Details available at https://www.playwithapro.com/live/Michael-Buchanan/\n\n\u25BA More about Michael, including biographies and concert calendar, can be found at https://www.michaelbuchanan.co.uk\n\n\u25BA Michael\u0027s Echo Klassik and International Classical Music Award (ICMA) nominated album \u0022The Many Faces of God\u0022 is now available on Amazon as well as all major streaming platforms. To stream on Spotify: https://open.spotify.com/album/1xho7IBErQRWObospG6UN7?si=KJgjAuRGQIWPUGWOAlHyMw",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 7,
+      "PublishedAtRaw": "2025-06-06T21:45:36Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:45:36+00:00",
+      "PublishedAt": "2025-06-07T03:15:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YDf4-TRM2Us"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YDf4-TRM2Us/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YDf4-TRM2Us/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/YDf4-TRM2Us/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YDf4-TRM2Us/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YDf4-TRM2Us/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "David - Trombone Concertino | Michael Buchanan | Bavarian Radio Symphony Orchestra | Jun M\u00E4rkl",
+      "VideoOwnerChannelId": "UC-0H_eRNaNz_-YXboSIgfEA",
+      "VideoOwnerChannelTitle": "Michael Buchanan"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "-3PQ5AhrNv8",
+      "VideoPublishedAtRaw": "2018-12-14T18:43:04Z",
+      "VideoPublishedAtDateTimeOffset": "2018-12-14T18:43:04+00:00",
+      "VideoPublishedAt": "2018-12-15T00:13:04+05:30"
+    },
+    "ETag": "K5HSC5algyl369xtzBxeFUM0-HM",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Friedrich von Flotow (1812-1883)\nALESSANDRO STRADELLA\nOVERTURE\nSymphonieorchester des Bayerischen Rundfunks\nHEINZ WALLBERG, conductor\nRecording: Munich, July 2, 1977",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 8,
+      "PublishedAtRaw": "2025-06-06T21:45:05Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:45:05+00:00",
+      "PublishedAt": "2025-06-07T03:15:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-3PQ5AhrNv8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/-3PQ5AhrNv8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/-3PQ5AhrNv8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/-3PQ5AhrNv8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/-3PQ5AhrNv8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/-3PQ5AhrNv8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Flotow: Alessandro Stradella - Overture - Bavarian Radio Symphony Orchestra/Wallberg (1977)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1RzrCKyXZ60",
+      "VideoPublishedAtRaw": "2015-03-15T10:06:21Z",
+      "VideoPublishedAtDateTimeOffset": "2015-03-15T10:06:21+00:00",
+      "VideoPublishedAt": "2015-03-15T15:36:21+05:30"
+    },
+    "ETag": "peBSvKHPkfsAgpMS5_XN3RG2Cm8",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wilhelm Furtw\u00E4ngler - Symphony No.2 (1944-1946, rev.1951)\n\n00:00. I. Assai moderato - Allegro\n26:13. II. Andante semplice (Tranquillo)\n39:29. III. Un poco moderato - Allegro\n55:57. IV. Langsam - Allegro\n\nEugen Jochum, Symphonieorchester des Bayerischen Rundfunks\nDecember 9-10, 1954, live at M\u00FCnchen Herkulessaal der Residenz",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 9,
+      "PublishedAtRaw": "2025-06-06T21:29:21Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:29:21+00:00",
+      "PublishedAt": "2025-06-07T02:59:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1RzrCKyXZ60"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Furtw\u00E4ngler - Symphony No. 2 - Eugen Jochum, Bavarian Radio Symphony Orchestra (1954)",
+      "VideoOwnerChannelId": "UCqvpGMR-NgBFe0I9etclJdA",
+      "VideoOwnerChannelTitle": "Classical Rarities"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1RzrCKyXZ60",
+      "VideoPublishedAtRaw": "2015-03-15T10:06:21Z",
+      "VideoPublishedAtDateTimeOffset": "2015-03-15T10:06:21+00:00",
+      "VideoPublishedAt": "2015-03-15T15:36:21+05:30"
+    },
+    "ETag": "62skQ5W5pXCYYYSshYW6PDzZEBA",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wilhelm Furtw\u00E4ngler - Symphony No.2 (1944-1946, rev.1951)\n\n00:00. I. Assai moderato - Allegro\n26:13. II. Andante semplice (Tranquillo)\n39:29. III. Un poco moderato - Allegro\n55:57. IV. Langsam - Allegro\n\nEugen Jochum, Symphonieorchester des Bayerischen Rundfunks\nDecember 9-10, 1954, live at M\u00FCnchen Herkulessaal der Residenz",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 10,
+      "PublishedAtRaw": "2025-06-06T21:30:08Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:30:08+00:00",
+      "PublishedAt": "2025-06-07T03:00:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1RzrCKyXZ60"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1RzrCKyXZ60/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Furtw\u00E4ngler - Symphony No. 2 - Eugen Jochum, Bavarian Radio Symphony Orchestra (1954)",
+      "VideoOwnerChannelId": "UCqvpGMR-NgBFe0I9etclJdA",
+      "VideoOwnerChannelTitle": "Classical Rarities"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "J7YOFAxOInQ",
+      "VideoPublishedAtRaw": "2018-01-12T20:35:30Z",
+      "VideoPublishedAtDateTimeOffset": "2018-01-12T20:35:30+00:00",
+      "VideoPublishedAt": "2018-01-13T02:05:30+05:30"
+    },
+    "ETag": "Jh8XB-RV6Ro8D_BGfld8qGAcVRY",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Felix Mendelssohn Bartholdy (1809-1847)\nTHE HEBRIDES OVERTURE (Fingal\u0027s Cave), Op. 26\nSymphonieorchester des Bayerischen Rundfunks\nOTTO KLEMPERER, cond.\nRecording: Hekulessaal, Munich, May 23, 1969",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 11,
+      "PublishedAtRaw": "2025-06-06T22:15:42Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T22:15:42+00:00",
+      "PublishedAt": "2025-06-07T03:45:42+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "J7YOFAxOInQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/J7YOFAxOInQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/J7YOFAxOInQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/J7YOFAxOInQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/J7YOFAxOInQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/J7YOFAxOInQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mendelssohn: The Hebrides Overture - Bavarian Radio Symphony Orchestra/Klemperer (1969)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "dxmLX8wu4WI",
+      "VideoPublishedAtRaw": "2019-10-20T22:34:15Z",
+      "VideoPublishedAtDateTimeOffset": "2019-10-20T22:34:15+00:00",
+      "VideoPublishedAt": "2019-10-21T04:04:15+05:30"
+    },
+    "ETag": "blo7JwbqHmbkzyiEc-o-_jwx7YU",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\uAE40\uB300\uC131 \uC791\uACE1.\ncomposed  by  Kim, Dae-seong\n\n\uAD50\uD5A5\uC2DC \u0022\uBBFC\uC8FC\u0022\nSymphonic poem  \u0022Democracy\u0022\n\n\uB3C5\uC77C \uBC14\uC774\uC5D0\uB978 \uBC29\uC1A1\uAD50\uD5A5\uC545\uB2E8 \uC5F0\uC8FC.\n\nBavarian Radio Symphony Orchestra , Symphonieorchester des Bayerischen Rundfunks\n\n\uC694\uC149 \uBC14\uC2A4\uD2F0\uC548 \uC9C0\uD718.\n\nConduct:  Joseph  Bastian\n\n2019\uB144 9\uC6D4 25\uC77C.\n\n\uAD11\uC8FC\uBB38\uD654\uC7AC\uB2E8\uC73C\uB85C\uBD80\uD130 \uAE40\uC885\uB960 \uC791\uACE1 \u0022\uB2D8\uC744 \uC704\uD55C \uD589\uC9C4\uACE1\u0022 \uC8FC\uC81C\uB85C \uC791\uACE1 \uC758\uB8B0\uB97C \uBC1B\uC74C\n\n\uBB8C\uD5E8 \uAC00\uC2A4\uD0C0\uC775 \uC13C\uD130 \uCE7C\uC624\uB974\uD504\uD640.",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 12,
+      "PublishedAtRaw": "2025-06-06T21:45:29Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:45:29+00:00",
+      "PublishedAt": "2025-06-07T03:15:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "dxmLX8wu4WI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/dxmLX8wu4WI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/dxmLX8wu4WI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/dxmLX8wu4WI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/dxmLX8wu4WI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Symphonic Poem   \u0022Democracy\u0022   Kim, Dae-seong // Bavarian Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC41afAQtpt-Tw8_Uo9o6Cvw",
+      "VideoOwnerChannelTitle": "Dae seong Kim"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "f6WSTzRBGpA",
+      "VideoPublishedAtRaw": "2017-01-21T02:25:42Z",
+      "VideoPublishedAtDateTimeOffset": "2017-01-21T02:25:42+00:00",
+      "VideoPublishedAt": "2017-01-21T07:55:42+05:30"
+    },
+    "ETag": "J4_hsnR0H7-YU4hQyoGTgu95ehc",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pyotr Ilyich Tchaikovsky (1840-1893)\nSYMPHONY NO. 5 in E minor, Op. 64\nSymphonieorchester des Bayerischen Rundfunks\nMSTISLAV ROSTROPOVICH, cond.\nRecording: Philharmonie im Gasteig, Munich, June 27, 2003\n\nI. Andante - Scherzo. Allegro con anima - Molto pi\u00F9 tranquillo (0:00)\nII. Andante cantabile, con alcuna licenza - Non allegro - Andante maestoso con piano (16:11)\nIII. Valse. Allegro moderato (28:37)\nIV. Finale. Andante maestoso (con fiamma) - Non allegro - Presto molto furioso - Molto assai e molto maestoso - Allegro vivace (34:42)",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 13,
+      "PublishedAtRaw": "2025-06-06T21:29:17Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:29:17+00:00",
+      "PublishedAt": "2025-06-07T02:59:17+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "f6WSTzRBGpA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky: Symphony No. 5 - Bavarian Radio Symphony Orchestra/Rostropovich (2003)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "f6WSTzRBGpA",
+      "VideoPublishedAtRaw": "2017-01-21T02:25:42Z",
+      "VideoPublishedAtDateTimeOffset": "2017-01-21T02:25:42+00:00",
+      "VideoPublishedAt": "2017-01-21T07:55:42+05:30"
+    },
+    "ETag": "i227R2O8JP5uvZBr2EMb9XDH6gc",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pyotr Ilyich Tchaikovsky (1840-1893)\nSYMPHONY NO. 5 in E minor, Op. 64\nSymphonieorchester des Bayerischen Rundfunks\nMSTISLAV ROSTROPOVICH, cond.\nRecording: Philharmonie im Gasteig, Munich, June 27, 2003\n\nI. Andante - Scherzo. Allegro con anima - Molto pi\u00F9 tranquillo (0:00)\nII. Andante cantabile, con alcuna licenza - Non allegro - Andante maestoso con piano (16:11)\nIII. Valse. Allegro moderato (28:37)\nIV. Finale. Andante maestoso (con fiamma) - Non allegro - Presto molto furioso - Molto assai e molto maestoso - Allegro vivace (34:42)",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 14,
+      "PublishedAtRaw": "2025-06-06T21:29:53Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:29:53+00:00",
+      "PublishedAt": "2025-06-07T02:59:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "f6WSTzRBGpA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky: Symphony No. 5 - Bavarian Radio Symphony Orchestra/Rostropovich (2003)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "f6WSTzRBGpA",
+      "VideoPublishedAtRaw": "2017-01-21T02:25:42Z",
+      "VideoPublishedAtDateTimeOffset": "2017-01-21T02:25:42+00:00",
+      "VideoPublishedAt": "2017-01-21T07:55:42+05:30"
+    },
+    "ETag": "1UIz3moQm6FXgmtdeAfkwRmZOjM",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pyotr Ilyich Tchaikovsky (1840-1893)\nSYMPHONY NO. 5 in E minor, Op. 64\nSymphonieorchester des Bayerischen Rundfunks\nMSTISLAV ROSTROPOVICH, cond.\nRecording: Philharmonie im Gasteig, Munich, June 27, 2003\n\nI. Andante - Scherzo. Allegro con anima - Molto pi\u00F9 tranquillo (0:00)\nII. Andante cantabile, con alcuna licenza - Non allegro - Andante maestoso con piano (16:11)\nIII. Valse. Allegro moderato (28:37)\nIV. Finale. Andante maestoso (con fiamma) - Non allegro - Presto molto furioso - Molto assai e molto maestoso - Allegro vivace (34:42)",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 15,
+      "PublishedAtRaw": "2025-06-06T21:30:04Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:30:04+00:00",
+      "PublishedAt": "2025-06-07T03:00:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "f6WSTzRBGpA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/f6WSTzRBGpA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky: Symphony No. 5 - Bavarian Radio Symphony Orchestra/Rostropovich (2003)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "N2Ugx6o7PQA",
+      "VideoPublishedAtRaw": "2018-10-13T18:31:15Z",
+      "VideoPublishedAtDateTimeOffset": "2018-10-13T18:31:15+00:00",
+      "VideoPublishedAt": "2018-10-14T00:01:15+05:30"
+    },
+    "ETag": "s6yY1xucb_IHbvXO6sMLuSg3_6c",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Wagner (1813-1883)\nRIENZI - OVERTURE\nSymphonieorchester des Bayerischen Rundfunks\nYURI AHRONOVITCH, conductor\nRecording: Philharmonie im Gasteig, M\u00FCnchen, April 4, 1997",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 16,
+      "PublishedAtRaw": "2025-06-06T21:44:58Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:44:58+00:00",
+      "PublishedAt": "2025-06-07T03:14:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "N2Ugx6o7PQA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/N2Ugx6o7PQA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/N2Ugx6o7PQA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/N2Ugx6o7PQA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/N2Ugx6o7PQA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/N2Ugx6o7PQA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Wagner: Rienzi - Overture - Bavarian Radio Symphony Orchestra/Ahronovitch (1997)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "pROQot4ff4U",
+      "VideoPublishedAtRaw": "2022-07-26T02:37:47Z",
+      "VideoPublishedAtDateTimeOffset": "2022-07-26T02:37:47+00:00",
+      "VideoPublishedAt": "2022-07-26T08:07:47+05:30"
+    },
+    "ETag": "TjQUkvTRay_z6nB72Bj5NK8Qk38",
+    "Id": "UEwxemdOQ29XdF83WjBPSk1UNnVFVC01THdJdHBPcll0US5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u203B\u3054\u8996\u8074\u306E\u969B\u306F\u3001\u30B9\u30D4\u30FC\u30AB\u30FC\u3067\u8074\u304F\u3088\u3046\u306B\u304A\u9858\u3044\u3044\u305F\u3057\u307E\u3059\u3002\u3053\u3061\u3089\u306E\u30C1\u30E3\u30F3\u30CD\u30EB\u306E\u30EA\u30DE\u30B9\u30BF\u30EA\u30F3\u30B0\u51E6\u7406\u306F\u30D8\u30C3\u30C9\u30DB\u30F3\u3001\u30A4\u30E4\u30DB\u30F3\u7B49\u306E\u6A5F\u5668\u306B\u306F\u57FA\u672C\u5BFE\u5FDC\u3057\u3066\u304A\u308A\u307E\u305B\u3093\u3002\u4F55\u5352\u3054\u4E86\u627F\u304F\u3060\u3055\u3044\u307E\u305B\u3002\n\n\u30D5\u30A7\u30FC\u30EA\u30C3\u30AF\u30B9\u30FB\u30E1\u30F3\u30C7\u30EB\u30B9\u30BE\u30FC\u30F3\u30FB\u30D0\u30EB\u30C8\u30EB\u30C7\u30A3\u4F5C\u66F2\n\u4EA4\u97FF\u66F2\u7B2C3\u756A \u30A4\u77ED\u8ABF\u300E\u30B9\u30B3\u30C3\u30C8\u30E9\u30F3\u30C9\u300F\n\n\u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u3000\u6307\u63EE: \u30AA\u30C3\u30C8\u30FC\u30FB\u30AF\u30EC\u30F3\u30DA\u30E9\u30FC\n\n\u30001969\u5E74\u30015\u670823\u65E5\u3001\u30DF\u30E5\u30F3\u30D8\u30F3\u3001\u30D8\u30E9\u30AF\u30EC\u30B9\u30B6\u30FC\u30EB\u3067\u306E\u30E9\u30A4\u30F4\u9332\u97F3\n\n\u3000\u203B\u30E1\u30F3\u30C7\u30EB\u30B9\u30BE\u30FC\u30F3\u81EA\u8EAB\u306E\u624B\u8A18\u306B\u3053\u306E\u7D42\u697D\u7AE0\u306E\u30B3\u30FC\u30C0\u306B\u3064\u3044\u3066\u81EA\u8EAB\u4E0D\u6E80\u3092\u611F\u3058\u3066\u3044\u305F\u3068\u3044\u3046\u3053\u3068\u304C\u66F8\u304B\u308C\u3066\u3044\u305F\u306E\u3067\u3001\u30AF\u30EC\u30F3\u30DA\u30E9\u30FC\u306F\u5927\u80C6\u306B\u3082\u30B3\u30FC\u30C0\u3092\u81EA\u5206\u3067\u6539\u4F5C\u3057\u307E\u3057\u305F\u3002\u524D\u4EE3\u672A\u805E\u306E\u66B4\u6319\u3068\u3082\u8A00\u308F\u308C\u305D\u3046\u3067\u3059\u304C\u3001\u4E8C\u5EA6\u306E\u4E16\u754C\u5927\u6226\u3068\u30CA\u30C1\u30BA\u30E0\u306B\u3088\u308B\u30E6\u30C0\u30E4\u4EBA\u8FEB\u5BB3\u3068\u3044\u3046\u8F9B\u82E6\u3092\u7D4C\u9A13\u3057\u3066\u304D\u305F\u30AF\u30EC\u30F3\u30DA\u30E9\u30FC\u306B\u3068\u3063\u3066\u3001\u8B83\u7F8E\u6B4C\u98A8\u306E\u30B3\u30FC\u30C0\u306B\u5B9F\u5B58\u7684\u306A\u30A2\u30A4\u30ED\u30CB\u30FC\u3092\u8986\u3044\u304B\u3076\u305B\u308B\u3053\u3068\u306F\u62B5\u6297\u611F\u304C\u306A\u304B\u3063\u305F\u306E\u3067\u3057\u3087\u3046\u3002\u30DE\u30FC\u30E9\u30FC\u306E\u7B2C6\u4EA4\u97FF\u66F2\u306E\u7D42\u697D\u7AE0\u3092\u610F\u8B58\u3057\u3066\u3044\u308B\u3053\u3068\u306F\u5BB9\u6613\u306B\u60F3\u50CF\u304C\u3064\u304D\u307E\u3059\u3002\u3057\u304B\u3057\u3001\u3053\u306E\u4EA4\u97FF\u66F2\u306E\u4E2D\u5FC3\u306F\u9593\u9055\u3044\u306A\u304F\u7B2C\uFF13\u697D\u7AE0(22:48)\u3067\u3001\u30EF\u30A4\u30F3\u30AC\u30EB\u30C8\u30CA\u30FC\u304C\u300C\u5DE8\u5927\u306A\u7121\u8A00\u6B4C\u306E\u3088\u3046\u3060\u300D\u3068\u79F0\u8CDB\u3057\u305F\u3053\u306E\u7F8E\u3057\u3044\u697D\u7AE0\u306F\u3001\u30D6\u30E9\u30FC\u30E0\u30B9\u306E\u4EA4\u97FF\u66F2\u7B2C4\u756A\u306E\u7B2C\uFF12\u697D\u7AE0\u306B\u3082\u5F71\u97FF\u3092\u53CA\u307C\u3057\u307E\u3057\u305F\u3002\u30AF\u30EC\u30F3\u30DA\u30E9\u30FC\u306F\u606F\u306E\u9577\u3044\u30D5\u30EC\u30FC\u30B8\u30F3\u30B0\u3067\u5404\u58F0\u90E8\u3092\u96C4\u5F01\u306B\u8A9E\u3089\u305B\u3066\u3001\u4F5C\u66F2\u8005\u304C\u3053\u306E\u697D\u7AE0\u306B\u8FBC\u3081\u305F\u9014\u65B9\u3082\u306A\u3044\u7948\u308A\u3068\u5922\u3092\u7F8E\u3057\u304F\u89E3\u304D\u653E\u3061\u307E\u3059\u3002\u4F55\u5EA6\u8074\u3044\u3066\u3082\u76EE\u982D\u304C\u71B1\u304F\u306A\u308B\u3001\u7A00\u6709\u306E\u540D\u6F14\u3067\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
+      "Position": 17,
+      "PublishedAtRaw": "2025-06-06T21:35:23Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:35:23+00:00",
+      "PublishedAt": "2025-06-07T03:05:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pROQot4ff4U"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pROQot4ff4U/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pROQot4ff4U/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/pROQot4ff4U/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pROQot4ff4U/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/pROQot4ff4U/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "\u30E1\u30F3\u30C7\u30EB\u30B9\u30BE\u30FC\u30F3: \u30B9\u30B3\u30C3\u30C8\u30E9\u30F3\u30C9\u4EA4\u97FF\u66F2/ \u30AF\u30EC\u30F3\u30DA\u30E9\u30FC\uFF06\u30D0\u30A4\u30A8\u30EB\u30F3\u97FF\u30E9\u30A4\u30F469\u5E74Mendelssohn: Scottish Symphony/ Klemperer \u0026 BRSO live in 69",
+      "VideoOwnerChannelId": "UCs_sUZx3Uu2l1uJJyejIsdw",
+      "VideoOwnerChannelTitle": "\u82B1\u7530\u30DF\u30B5\u30C8"
+    }
+  }
+]

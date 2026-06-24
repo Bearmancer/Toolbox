@@ -1,0 +1,387 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "mx8tdnDckzU",
+			"VideoPublishedAtRaw": "2018-04-20T17:47:15Z",
+			"VideoPublishedAtDateTimeOffset": "2018-04-20T17:47:15+00:00",
+			"VideoPublishedAt": "2018-04-20T23:17:15+05:30"
+		},
+		"ETag": "-LBtLqjF_izTzWOth0KWVqNp0HE",
+		"Id": "UEwxemdOQ29XdF83YlN5clZtRGQyZEM5Z2JZRjJCWDRYNy4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Andre Jolivet - Concerto for Percussion and Orchestra (1958) \n\nI. Robuste\nII. Dolent\nIII. Rapidamente\nIV. All\u00E8grement\n\nMasako Iguchi, percussion\nSan Francisco Conservatory of Music Orchestra\nAlisdair Neale, conductor\n\n-----------------------------------------------------\n\nSupport this YouTube Channel: https://www.patreon.com/georgengianopoulos",
+			"PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
+			"Position": 0,
+			"PublishedAtRaw": "2024-06-26T22:58:29Z",
+			"PublishedAtDateTimeOffset": "2024-06-26T22:58:29+00:00",
+			"PublishedAt": "2024-06-27T04:28:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "mx8tdnDckzU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/mx8tdnDckzU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/mx8tdnDckzU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/mx8tdnDckzU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/mx8tdnDckzU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/mx8tdnDckzU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Andre Jolivet - Concerto for Percussion and Orchestra (1958) [Score-Video]",
+			"VideoOwnerChannelId": "UCVmxzvy0qErh8ckRJB88qjA",
+			"VideoOwnerChannelTitle": "George N. Gianopoulos, composer"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "R0G2I3-IH0k",
+			"VideoPublishedAtRaw": "2024-09-04T14:19:22Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-04T14:19:22+00:00",
+			"VideoPublishedAt": "2024-09-04T19:49:22+05:30"
+		},
+		"ETag": "i6TtScY-3xYBf7ltAbhH7oratCg",
+		"Id": "UEwxemdOQ29XdF83YlN5clZtRGQyZEM5Z2JZRjJCWDRYNy45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Born in Colombia and now a longtime resident of Venezuela, the composer and pianist Claudia Calder\u00F3n has specialized in exploring the folk traditions of those two neighboring countries, from the Caribbean coast up to some of the highest mountains in the Americas. One of her mentors during her time studying in Europe was Gy\u00F6rgy S\u00E1ndor, the Hungarian pianist who trained under B\u00E9la Bart\u00F3k and Zolt\u00E1n Kod\u00E1ly, and her approach to ethnomusicology and original composition reflects the efforts those pioneers made to honor and internalize local art forms. \n\nIn her percussion quartet Albores (Dawns) from 1999, Calder\u00F3n combines some of the most ancient indigenous instruments, like conch shells and wooden sticks (palitos), with the arsenal of modern concert percussion. As slaveholding countries, Venezuela and Colombia were meeting grounds for African and Caribbean sounds, like how the mar\u00EDmbula (a box with metal tines that fills a bass role) descended from the African mbira or thumb piano\u2014sounds that intertwine in this score. For all the history behind the sounds and rhythmic patterns, Calder\u00F3n combines and juxtaposes them in ways that are personal and original, sometimes creating composite textures that are almost jazzy in their rich harmonic blends, and other times evoking the trancelike repetitions of American minimalism, a style itself rooted in African percussion.\n\nOriginally performed January 25, 2021.\n\n#colombia #percussion #calder\u00F3n #venezuela \n\nSubscribe for weekly instructional videos, performances and incredible orchestral content: https://www.youtube.com/@newworldsymphony\n\nFollow New World Symphony:\nInstagram: @nwsymphony\nTikTok: New-World-Symphony\nFacebook: NewWorldSymphony\nX: @nwsymphony\nWebsite: https://nws.edu\n\nPowered by Knight Foundation",
+			"PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
+			"Position": 1,
+			"PublishedAtRaw": "2024-12-12T00:30:47Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T00:30:47+00:00",
+			"PublishedAt": "2024-12-12T06:00:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "R0G2I3-IH0k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/R0G2I3-IH0k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/R0G2I3-IH0k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/R0G2I3-IH0k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/R0G2I3-IH0k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/R0G2I3-IH0k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Calder\u00F3n - Albores for Four Percussion | New World Symphony (2021)",
+			"VideoOwnerChannelId": "UCN0U8vgodeDz9pL16A_eBTA",
+			"VideoOwnerChannelTitle": "New World Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7QvdIR3-szc",
+			"VideoPublishedAtRaw": "2014-05-25T08:20:46Z",
+			"VideoPublishedAtDateTimeOffset": "2014-05-25T08:20:46+00:00",
+			"VideoPublishedAt": "2014-05-25T13:50:46+05:30"
+		},
+		"ETag": "yolpvnYCaXDbrnnicuHKMS9PAVM",
+		"Id": "UEwxemdOQ29XdF83YlN5clZtRGQyZEM5Z2JZRjJCWDRYNy4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1) Allegro brioso\n2) Adagio molto e espressivo\n3) Allegro molto vivace\n\nSolisten:\nMarimbaphon: Matthias Unterhofer\nVibraphon: Fabian Huber\nSet-Up: Tobias Gasser\n\nB\u00FCrgerkapelle Brixen - Fr\u00FChjahrskonzert 2014\nDirigent: Hans Pircher\nhttp://www.facebook.com/pages/Buergerkapelle-Brixen/696097610442055?fref=ts\nwww.bk-brixen.it",
+			"PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
+			"Position": 2,
+			"PublishedAtRaw": "2024-07-01T23:59:27Z",
+			"PublishedAtDateTimeOffset": "2024-07-01T23:59:27+00:00",
+			"PublishedAt": "2024-07-02T05:29:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7QvdIR3-szc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7QvdIR3-szc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7QvdIR3-szc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/7QvdIR3-szc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7QvdIR3-szc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7QvdIR3-szc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Concerto for Percussion (1/3) - Derek Bourgeois - B\u00FCrgerkapelle Brixen",
+			"VideoOwnerChannelId": "UCegjMe5F2x6fYUl220RMLyA",
+			"VideoOwnerChannelTitle": "B\u00FCrgerkapelle Brixen"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ODwKZ1r-wd4",
+			"VideoPublishedAtRaw": "2014-05-25T08:20:50Z",
+			"VideoPublishedAtDateTimeOffset": "2014-05-25T08:20:50+00:00",
+			"VideoPublishedAt": "2014-05-25T13:50:50+05:30"
+		},
+		"ETag": "IEA9vGEjwUtNSqoRVCsxJjeCHRw",
+		"Id": "UEwxemdOQ29XdF83YlN5clZtRGQyZEM5Z2JZRjJCWDRYNy41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1) Allegro brioso\n2) Adagio molto e espressivo\n3) Allegro molto vivace\n\nSolisten:\nMarimbaphon: Matthias Unterhofer\nVibraphon: Fabian Huber\nSet-Up: Tobias Gasser\n\nB\u00FCrgerkapelle Brixen - Fr\u00FChjahrskonzert 2014\nDirigent: Hans Pircher\nhttp://www.facebook.com/pages/Buergerkapelle-Brixen/696097610442055?fref=ts\nwww.bk-brixen.it",
+			"PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
+			"Position": 3,
+			"PublishedAtRaw": "2024-07-01T23:59:32Z",
+			"PublishedAtDateTimeOffset": "2024-07-01T23:59:32+00:00",
+			"PublishedAt": "2024-07-02T05:29:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ODwKZ1r-wd4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ODwKZ1r-wd4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ODwKZ1r-wd4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ODwKZ1r-wd4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ODwKZ1r-wd4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ODwKZ1r-wd4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Concerto for Percussion (2/3) - Derek Bourgeois - B\u00FCrgerkapelle Brixen",
+			"VideoOwnerChannelId": "UCegjMe5F2x6fYUl220RMLyA",
+			"VideoOwnerChannelTitle": "B\u00FCrgerkapelle Brixen"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_7jN7p7t7HU",
+			"VideoPublishedAtRaw": "2014-05-25T08:20:52Z",
+			"VideoPublishedAtDateTimeOffset": "2014-05-25T08:20:52+00:00",
+			"VideoPublishedAt": "2014-05-25T13:50:52+05:30"
+		},
+		"ETag": "cqRxHQRlJBqhmd-Uu2E4XtgOgso",
+		"Id": "UEwxemdOQ29XdF83YlN5clZtRGQyZEM5Z2JZRjJCWDRYNy4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1) Allegro brioso\n2) Adagio molto e espressivo\n3) Allegro molto vivace\n\nSolisten:\nMarimbaphon: Matthias Unterhofer\nVibraphon: Fabian Huber\nSet-Up: Tobias Gasser\n\nB\u00FCrgerkapelle Brixen - Fr\u00FChjahrskonzert 2014\nDirigent: Hans Pircher\nhttp://www.facebook.com/pages/Buergerkapelle-Brixen/696097610442055?fref=ts\nwww.bk-brixen.it",
+			"PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
+			"Position": 4,
+			"PublishedAtRaw": "2024-07-01T23:59:37Z",
+			"PublishedAtDateTimeOffset": "2024-07-01T23:59:37+00:00",
+			"PublishedAt": "2024-07-02T05:29:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_7jN7p7t7HU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_7jN7p7t7HU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_7jN7p7t7HU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_7jN7p7t7HU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_7jN7p7t7HU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_7jN7p7t7HU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Concerto for Percussion (3/3) - Derek Bourgeois - B\u00FCrgerkapelle Brixen",
+			"VideoOwnerChannelId": "UCegjMe5F2x6fYUl220RMLyA",
+			"VideoOwnerChannelTitle": "B\u00FCrgerkapelle Brixen"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_72b4Qm1lbQ",
+			"VideoPublishedAtRaw": "2018-09-13T15:40:19Z",
+			"VideoPublishedAtDateTimeOffset": "2018-09-13T15:40:19+00:00",
+			"VideoPublishedAt": "2018-09-13T21:10:19+05:30"
+		},
+		"ETag": "jg56uqoDA-Q9aXkr5TEw7UCVASM",
+		"Id": "UEwxemdOQ29XdF83YlN5clZtRGQyZEM5Z2JZRjJCWDRYNy4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "2003 Concert in Sigyn-Hall 13.08.2003 17.00 p.m.\nTurku Finland\n\nConducter        Risto T.T. Pulkkinen\n\u201CKroustikon\u201D     Percussion Ensemble\n\nPercussion       Antti Suoranta\n                          Juha Kangassalo\n                          Tomi Salo  \n                          Olli Lehti  \n\nConcerto for Percussion Op.74 (1991) Leonard Salzedo    \n\nRisto T.T. Pulkkinen\nRetired Turku Philharmonic Orchestra\nComposer - Percussion / Associate principal\n \nHomepage\nhttp://www.ristopulkkinen.com/",
+			"PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
+			"Position": 5,
+			"PublishedAtRaw": "2024-07-02T00:02:56Z",
+			"PublishedAtDateTimeOffset": "2024-07-02T00:02:56+00:00",
+			"PublishedAt": "2024-07-02T05:32:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_72b4Qm1lbQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_72b4Qm1lbQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_72b4Qm1lbQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_72b4Qm1lbQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_72b4Qm1lbQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_72b4Qm1lbQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Concerto for Percussion Op.74 (1991) Leonard Salzedo",
+			"VideoOwnerChannelId": "UCKhTPbfFN4qmLmZXhpxLq6w",
+			"VideoOwnerChannelTitle": "Riku P"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "OiKArjrG4AE",
+			"VideoPublishedAtRaw": "2020-10-27T23:32:09Z",
+			"VideoPublishedAtDateTimeOffset": "2020-10-27T23:32:09+00:00",
+			"VideoPublishedAt": "2020-10-28T05:02:09+05:30"
+		},
+		"ETag": "oXYLNWzeWIZ9Is3thrBfiFRFp2Q",
+		"Id": "UEwxemdOQ29XdF83YlN5clZtRGQyZEM5Z2JZRjJCWDRYNy41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sergey Zhukov ~ Concerto for orchestra and solo percussion (1990)\nTchaikovski Grand Symphony Orchestra, Vladimir Fedoseev (cond.) \nArtwork by Nathan Colantonio",
+			"PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
+			"Position": 6,
+			"PublishedAtRaw": "2024-06-26T22:58:22Z",
+			"PublishedAtDateTimeOffset": "2024-06-26T22:58:22+00:00",
+			"PublishedAt": "2024-06-27T04:28:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "OiKArjrG4AE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/OiKArjrG4AE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/OiKArjrG4AE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/OiKArjrG4AE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/OiKArjrG4AE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/OiKArjrG4AE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sergey Zhukov : Concerto for orchestra \u0026 solo percussion",
+			"VideoOwnerChannelId": "UCi_tYNSLWuqQ--rqLhPFNJA",
+			"VideoOwnerChannelTitle": "Symphonious Rex"
+		}
+	}
+]

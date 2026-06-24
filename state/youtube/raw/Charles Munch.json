@@ -1,0 +1,422 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "y6Pmw5FG7TI",
+      "VideoPublishedAtRaw": "2025-11-09T13:41:09Z",
+      "VideoPublishedAtDateTimeOffset": "2025-11-09T13:41:09+00:00",
+      "VideoPublishedAt": "2025-11-09T19:11:09+05:30"
+    },
+    "ETag": "Sy_9KUoLNb8hEsxMiDQXDAGPvKQ",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven: Symphony No.7\n1st movement   00:00\n2nd   12:10\n3rd    20:15\n4th    27:29\nCharles Munch / Orchestre national de France\n20/12/1963 Maison de la Radio et de la Musique opening concert live recording (monaural)\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C7\u756A\n\u30B7\u30E3\u30EB\u30EB\u30FB\u30DF\u30E5\u30F3\u30B7\u30E5\u6307\u63EE\u3000\u30D5\u30E9\u30F3\u30B9\u56FD\u7ACB\u7BA1\u5F26\u697D\u56E3\n1963\u5E7412\u670820\u65E5\u3000\u30E1\u30BE\u30F3\u30FB\u30C9\u30FB\u30E9\u30B8\u30AA\u30FB\u30D5\u30E9\u30F3\u30B9\u3001\u676E\u843D\u3068\u3057\u516C\u6F14\u3000\u30E9\u30A4\u30D6\u9332\u97F3\uFF08\u30E2\u30CE\u30E9\u30EB\uFF09",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 0,
+      "PublishedAtRaw": "2025-11-12T11:16:02Z",
+      "PublishedAtDateTimeOffset": "2025-11-12T11:16:02+00:00",
+      "PublishedAt": "2025-11-12T16:46:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "y6Pmw5FG7TI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/y6Pmw5FG7TI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/y6Pmw5FG7TI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/y6Pmw5FG7TI/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethoven: Symphony No.7     C. Munch / ONF 1963 live (Maison de la Radio et de la Musique opening)",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "K_va6rURTE4",
+      "VideoPublishedAtRaw": "2025-09-25T02:18:41Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-25T02:18:41+00:00",
+      "VideoPublishedAt": "2025-09-25T07:48:41+05:30"
+    },
+    "ETag": "7f2tynDib_aXaIHKyga2J3EekqE",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 1,
+      "PublishedAtRaw": "2025-09-25T02:36:39Z",
+      "PublishedAtDateTimeOffset": "2025-09-25T02:36:39+00:00",
+      "PublishedAt": "2025-09-25T08:06:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "K_va6rURTE4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/K_va6rURTE4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/K_va6rURTE4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/K_va6rURTE4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/K_va6rURTE4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/K_va6rURTE4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz Sym Fantastique Philadelphia Munch Aug 1967 Live",
+      "VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+      "VideoOwnerChannelTitle": "Peter Kohn"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "uapqsOTsZXQ",
+      "VideoPublishedAtRaw": "2025-09-24T14:37:15Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-24T14:37:15+00:00",
+      "VideoPublishedAt": "2025-09-24T20:07:15+05:30"
+    },
+    "ETag": "KQcyQETmHWoQ6NYpHkxJWmKuap0",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 2,
+      "PublishedAtRaw": "2025-11-14T07:00:30Z",
+      "PublishedAtDateTimeOffset": "2025-11-14T07:00:30+00:00",
+      "PublishedAt": "2025-11-14T12:30:30+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "uapqsOTsZXQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/uapqsOTsZXQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/uapqsOTsZXQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/uapqsOTsZXQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/uapqsOTsZXQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/uapqsOTsZXQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz Sym Fantastique Philadelphia Munch Jan 1965 Live",
+      "VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+      "VideoOwnerChannelTitle": "Peter Kohn"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ji96HJfI9Ns",
+      "VideoPublishedAtRaw": "2016-04-02T06:45:22Z",
+      "VideoPublishedAtDateTimeOffset": "2016-04-02T06:45:22+00:00",
+      "VideoPublishedAt": "2016-04-02T12:15:22+05:30"
+    },
+    "ETag": "V-iKV2ZAvYyFLnabuPeXWw88r4U",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms\n\nSymphony n\u00B02 op.73\n\nI. Allegro non troppo 0:00\nII. Adagio non troppo 15:40\nIII. Allegretto grazioso 24:42\nIV. Allegro con spirito 30:09\n\nOrchestre National de France\nCharles Munch\nLive recording, Paris, 16.XI.1965",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 3,
+      "PublishedAtRaw": "2025-08-25T06:52:46Z",
+      "PublishedAtDateTimeOffset": "2025-08-25T06:52:46+00:00",
+      "PublishedAt": "2025-08-25T12:22:46+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ji96HJfI9Ns"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ji96HJfI9Ns/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ji96HJfI9Ns/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ji96HJfI9Ns/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ji96HJfI9Ns/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ji96HJfI9Ns/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms - Symphony n\u00B02 - ONF / Munch",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CKJdeIKjhkY",
+      "VideoPublishedAtRaw": "2025-08-13T15:10:55Z",
+      "VideoPublishedAtDateTimeOffset": "2025-08-13T15:10:55+00:00",
+      "VideoPublishedAt": "2025-08-13T20:40:55+05:30"
+    },
+    "ETag": "h_J9-hlSx6UNbn2JkHjhj1amBiA",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Charles Munch\u0027s two-week guest conducting stint with Philadelphia in March of 1963 yielded commercial recordings on Columbia of Faure\u0027s Pelleas et Melisande, Ravel\u0027s Valses Nobles et Sentimentales, and Berlioz\u0027s Damnation of Faust (MS6523), all recorded in a single day at the now-demolished Philadelphia Athletic Club on N. Broad St.  (The Ravel and Berlioz can be found buried on a couple of Sony Essential Classics issues, but I\u0027ve never been able to find the Faure or a digital version of MS6523.)  The real treat here to my mind is the Honegger, which was dedicated to Munch (a tireless champion of his compositions), which Philadelphia never commercially recorded under any conductor.",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 4,
+      "PublishedAtRaw": "2025-08-21T04:05:49Z",
+      "PublishedAtDateTimeOffset": "2025-08-21T04:05:49+00:00",
+      "PublishedAt": "2025-08-21T09:35:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CKJdeIKjhkY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CKJdeIKjhkY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CKJdeIKjhkY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/CKJdeIKjhkY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CKJdeIKjhkY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CKJdeIKjhkY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Faure Pelleas Honegger 2 Philadelphia Munch Mar 1963 Live",
+      "VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+      "VideoOwnerChannelTitle": "Peter Kohn"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "HJeEd961p3E",
+      "VideoPublishedAtRaw": "2018-11-12T09:48:22Z",
+      "VideoPublishedAtDateTimeOffset": "2018-11-12T09:48:22+00:00",
+      "VideoPublishedAt": "2018-11-12T15:18:22+05:30"
+    },
+    "ETag": "CF5B0BXQ-BByT1UZ4jOm9A4FbVU",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Felix Mendelssohn-Bartholdy\n\nSymphony n\u00B04 op.90 \u0022Italian\u0022\n\nI. Allegro vivace 0:00\nII. Andante con moto 7:42\nIII. Con moto moderato 13:43\nIV. Saltarello. Presto 20:00\n\nBoston Symphony Orchestra\nCharles Munch\nLive recording, Boston, 1.XI.1952",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 5,
+      "PublishedAtRaw": "2025-08-25T06:39:50Z",
+      "PublishedAtDateTimeOffset": "2025-08-25T06:39:50+00:00",
+      "PublishedAt": "2025-08-25T12:09:50+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "HJeEd961p3E"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/HJeEd961p3E/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/HJeEd961p3E/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/HJeEd961p3E/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/HJeEd961p3E/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/HJeEd961p3E/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mendelssohn - Symphony n\u00B04 - Boston / Munch live",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "GApm8YR4jp4",
+      "VideoPublishedAtRaw": "2026-04-25T15:10:17Z",
+      "VideoPublishedAtDateTimeOffset": "2026-04-25T15:10:17+00:00",
+      "VideoPublishedAt": "2026-04-25T20:40:17+05:30"
+    },
+    "ETag": "SU2EfGYCzFx-Q-CCnjYsDP_XtKc",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ravel: Daphnis and Chloe Suite No. 2\nI. Lever du jour   00:00\nII. Pantomime    05:20\nIII. Danse generale    11:55\nBerlioz: Symphony Fantastic\n1st movement   16:03\n2nd   29:20\n3rd    35:28\n4th    47:55\n5th    52:00\nC. Munch / Philadelphia Orchestra\n8/1967 Saratoga Performing center live recording\n\u30E9\u30F4\u30A7\u30EB\uFF1A\u30C0\u30D5\u30CB\u30B9\u3068\u30AF\u30ED\u30A8\u7B2C2\u7D44\u66F2\n\u30D9\u30EB\u30EA\u30AA\u30FC\u30BA\uFF1A\u5E7B\u60F3\u4EA4\u97FF\u66F2\n\u30B7\u30E3\u30EB\u30EB\u30FB\u30DF\u30E5\u30F3\u30B7\u30E5\u6307\u63EE\u3000\u30D5\u30A3\u30E9\u30C7\u30EB\u30D5\u30A3\u30A2\u7BA1\u5F26\u697D\u56E3\n1967\u5E748\u6708\u3000\u30B5\u30E9\u30C8\u30AC\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DF\u30E5\u30F3\u30B7\u30E5\u901D\u53BB\u306E\u524D\u5E74\u3001\u304A\u305D\u3089\u304F\u306F\u30A2\u30E1\u30EA\u30AB\u306E\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u3068\u306E\u6700\u5F8C\u306E\u300C\u5E7B\u60F3\u300D\u3002\u3053\u306E3\u304B\u6708\u5F8C\u306B\u30D1\u30EA\u7BA1\u304C\u767A\u8DB3\u3057\u3066\u6709\u540D\u306A\u9332\u97F3\u3092\u6B8B\u3057\u307E\u3057\u305F\u304C\u3001\u3055\u3059\u304C\u306B\u30D5\u30A3\u30E9\u30C7\u30EB\u30D5\u30A3\u30A2\u7BA1\u3068\u306E\u6F14\u594F\u3082\u51C4\u3044\u3082\u306E\u3067\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 6,
+      "PublishedAtRaw": "2026-04-28T12:27:42Z",
+      "PublishedAtDateTimeOffset": "2026-04-28T12:27:42+00:00",
+      "PublishedAt": "2026-04-28T17:57:42+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "GApm8YR4jp4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/GApm8YR4jp4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/GApm8YR4jp4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/GApm8YR4jp4/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Ravel \u0026 Berlioz    C. Munch / PHO live at Saratoga music festival 1967",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "5UNTSMnS9wc",
+      "VideoPublishedAtRaw": "2025-09-25T02:17:43Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-25T02:17:43+00:00",
+      "VideoPublishedAt": "2025-09-25T07:47:43+05:30"
+    },
+    "ETag": "e5Vha64Nl9QxpTzV8B_e7HteIQU",
+    "Id": "UEwxemdOQ29XdF83YTZ4LWNkMWEybUVIXzRCd0c4b0dCci4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
+      "Position": 7,
+      "PublishedAtRaw": "2025-09-25T02:36:48Z",
+      "PublishedAtDateTimeOffset": "2025-09-25T02:36:48+00:00",
+      "PublishedAt": "2025-09-25T08:06:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "5UNTSMnS9wc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/5UNTSMnS9wc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/5UNTSMnS9wc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/5UNTSMnS9wc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/5UNTSMnS9wc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/5UNTSMnS9wc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Ravel Pf Cto G Henriot Schweitzer Daphnis Philadelphia Munch Aug 1967 Live",
+      "VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+      "VideoOwnerChannelTitle": "Peter Kohn"
+    }
+  }
+]

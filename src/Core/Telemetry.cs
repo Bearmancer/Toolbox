@@ -80,7 +80,8 @@ public static class Telemetry
                     "logs/azureai-openai-.jsonl",
                     rollingInterval: RollingInterval.Day,
                     retainedFileCountLimit: 7))
-            .WriteTo.Spectre();
+            .WriteTo.Spectre(
+                outputTemplate: "{Timestamp:HH:mm:ss} {Level:u4} {Message:lj}{NewLine}{Exception}");
 
         if (IsSeqReachable())
             config.WriteTo.Seq("http://localhost:5341");

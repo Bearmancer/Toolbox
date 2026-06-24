@@ -1,0 +1,1777 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "iK5YbyUIlhA",
+			"VideoPublishedAtRaw": "2025-01-17T15:30:51Z",
+			"VideoPublishedAtDateTimeOffset": "2025-01-17T15:30:51+00:00",
+			"VideoPublishedAt": "2025-01-17T21:00:51+05:30"
+		},
+		"ETag": "GVFG442ya6p1f63bvSt4S_hZwXo",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This is the only performance that exists of Leonard Rose performing Samuel Barber\u0027s 1945 cello concerto. The work, gaining some popularity today, was neglected for decades by the leading cellists of the era. It is a difficult work\nthat is nevertheless rewarding for both cellist and audience. Rose and Bernstein feed it energy, excitement and love.",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 0,
+			"PublishedAtRaw": "2026-01-14T06:39:31Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:39:31+00:00",
+			"PublishedAt": "2026-01-14T12:09:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iK5YbyUIlhA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iK5YbyUIlhA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iK5YbyUIlhA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/iK5YbyUIlhA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iK5YbyUIlhA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/iK5YbyUIlhA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Barber Cello Concerto; Leonard Rose \u0022live\u0022 NY Philharmonic, Leonard Bernstein, conductor Jan 1959",
+			"VideoOwnerChannelId": "UC3mUBO_ItqEOtwZA_e3PFHw",
+			"VideoOwnerChannelTitle": "Steven Honigberg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "5C_dIH6LSqc",
+			"VideoPublishedAtRaw": "2011-07-24T18:55:18Z",
+			"VideoPublishedAtDateTimeOffset": "2011-07-24T18:55:18+00:00",
+			"VideoPublishedAt": "2011-07-25T00:25:18+05:30"
+		},
+		"ETag": "R8zRcH1csB6VEt4FBM4A3fLWePs",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Beethoven Leonore Ouverture n3 - Bernstein NYP Live 1976\n(from the concerto for the 85th Anniversary of Carnegie Hall)",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 1,
+			"PublishedAtRaw": "2025-08-24T17:41:37Z",
+			"PublishedAtDateTimeOffset": "2025-08-24T17:41:37+00:00",
+			"PublishedAt": "2025-08-24T23:11:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "5C_dIH6LSqc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/5C_dIH6LSqc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/5C_dIH6LSqc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/5C_dIH6LSqc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Beethoven Leonore Ouverture n3 - Bernstein NYP Live 1976",
+			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+			"VideoOwnerChannelTitle": "goodmanmusica"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "OTKOZv82Oag",
+			"VideoPublishedAtRaw": "2025-04-11T05:47:30Z",
+			"VideoPublishedAtDateTimeOffset": "2025-04-11T05:47:30+00:00",
+			"VideoPublishedAt": "2025-04-11T11:17:30+05:30"
+		},
+		"ETag": "E0IB4FSas-zc9B4NSIiDpa9N9l4",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Beethoven: Symphony No.2\n1st movement    00:00\n2nd    13:05\n3rd     24:57\n4th     28:19\nLeonard Bernstein / Royal Concertgebouw orchestra\n8/3/1978 Amsterdam Concertgebouw live recording\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C2\u756A\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n1978\u5E743\u67088\u65E5\u3000\u30A2\u30E0\u30B9\u30C6\u30EB\u30C0\u30E0\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u540D\u76E4\u300C\u30DF\u30B5\u30FB\u30BD\u30EC\u30E0\u30CB\u30B9\u300D\u3068\u540C\u6642\u671F\u306B\u8A18\u9332\u3055\u308C\u305F\u3082\u3046\u4E00\u3064\u306E\u30D7\u30ED\u30B0\u30E9\u30E0\u304B\u3089\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 2,
+			"PublishedAtRaw": "2026-01-14T06:38:31Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:38:31+00:00",
+			"PublishedAt": "2026-01-14T12:08:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "OTKOZv82Oag"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/OTKOZv82Oag/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/OTKOZv82Oag/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/OTKOZv82Oag/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Beethoven: Symphony No.2      L. Bernstein / RCO  1978 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "wrKgKnwgxSk",
+			"VideoPublishedAtRaw": "2025-04-13T05:21:13Z",
+			"VideoPublishedAtDateTimeOffset": "2025-04-13T05:21:13+00:00",
+			"VideoPublishedAt": "2025-04-13T10:51:13+05:30"
+		},
+		"ETag": "umRgPg4zrB4QCtn6uSGEa0Qf4Jw",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "New York Philharmonic, cond. by Leonard Bernstein\n1. Allegro (0:00)\n2. Larghetto  (4:13)\n3. Gavotta: Non troppo allegro  (8:12)\n4. Finale: Molto vivace  (9:51)\nrec. in 1968, from U.S.Columbia Lp / MS-7159",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 3,
+			"PublishedAtRaw": "2025-11-29T09:00:47Z",
+			"PublishedAtDateTimeOffset": "2025-11-29T09:00:47+00:00",
+			"PublishedAt": "2025-11-29T14:30:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "wrKgKnwgxSk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/wrKgKnwgxSk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/wrKgKnwgxSk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/wrKgKnwgxSk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/wrKgKnwgxSk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bernstein / NYP - Prokofiev : Classical Symphony op.25 (1968)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "NLtSZNldR2Q",
+			"VideoPublishedAtRaw": "2025-07-21T13:55:30Z",
+			"VideoPublishedAtDateTimeOffset": "2025-07-21T13:55:30+00:00",
+			"VideoPublishedAt": "2025-07-21T19:25:30+05:30"
+		},
+		"ETag": "XhsDGGIad7rKlKsw8p3lDB57jpY",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Schumann: Symphony No.1 \n1st movement   00:00\n2nd    12:40\n3rd     19:56\n4th     25:44\nShostakovich: Symphony No.5\n1st movement     35:40\n2nd    53:30\n3rd     58:57\n4th    1:15:21\nLeonard Bernstein / Newyork Philharmonic orchestra\n2/7/1979 Tokyo Bunka-Kaikan Hall live recording\n\u30B7\u30E5\u30FC\u30DE\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C1\u756A\u300C\u6625\u300D\u3001\u30B7\u30E7\u30B9\u30BF\u30B3\u30FC\u30F4\u30A3\u30C1\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF\n1979\u5E747\u67082\u65E5\u3000\u6771\u4EAC\u6587\u5316\u4F1A\u9928\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F360\u6B73\u3001\u6700\u3082\u6CB9\u306E\u4E57\u308A\u5207\u3063\u305F\u6642\u671F\u306E\u4F1D\u8AAC\u7684\u6765\u65E5\u516C\u6F14\u306E\u5B9F\u6CC1\u9332\u97F3\u3067\u3059\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 4,
+			"PublishedAtRaw": "2026-01-14T06:38:21Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:38:21+00:00",
+			"PublishedAt": "2026-01-14T12:08:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "NLtSZNldR2Q"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/NLtSZNldR2Q/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/NLtSZNldR2Q/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/NLtSZNldR2Q/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/NLtSZNldR2Q/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bernstein / NYPO 1979 Tokyo live Schumann \u0026 Shostakovich",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "yL5eakZNwVc",
+			"VideoPublishedAtRaw": "2024-10-01T15:20:31Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-01T15:20:31+00:00",
+			"VideoPublishedAt": "2024-10-01T20:50:31+05:30"
+		},
+		"ETag": "gdlAnS_tfg0Xnr1TJFqV6hXnF3g",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bernstein live at Lucerne Music Festival 1988\n1. Beethoven :  Leonore Overture No.3   00:00\n2. Bernstein : Prelude, Fugue and Riffs   15:56\n3. Brahms : Symphony No.4\n   1st movement   24:15\n   2nd   37:48\n   3rd    51:33\n   4th    58:01\nLeonard Bernstein / Vienna Philharmonic orchestra\nClarinet) Peter Schmidl\uFF08\uFF12\uFF09\n8/9/1988 Lucerne Music Festival live recording\n\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u3000\u30EB\u30C4\u30A7\u30EB\u30F3\u97F3\u697D\u796D\u30E9\u30A4\u30D6\n\uFF11\u3001\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u30EC\u30AA\u30CE\u30FC\u30EC\u5E8F\u66F2\u7B2C3\u756A\n\uFF12\u3001\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\uFF1A\u30D7\u30EC\u30EA\u30E5\u30FC\u30C9\u3001\u30D5\u30FC\u30AC\u3068\u30EA\u30D5\n\uFF13\u3001\u30D6\u30E9\u30FC\u30E0\u30B9\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30AF\u30E9\u30EA\u30CD\u30C3\u30C8\uFF09\u30DA\u30FC\u30BF\u30FC\u30FB\u30B7\u30E5\u30DF\u30FC\u30C9\u30EB\uFF08\uFF12\uFF09\n1988\u5E749\u67088\u65E5\u3000\u30EB\u30C4\u30A7\u30EB\u30F3\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6669\u5E74\u306E\u30EC\u30CB\u30FC\u3001\u4F1D\u8AAC\u7684\u306A\u30D6\u30E9\u30FC\u30E0\u30B9\u306E\u540D\u6F14\u3092\u542B\u3080\u30E9\u30A4\u30D6\u8A18\u9332\u3067\u3059\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 5,
+			"PublishedAtRaw": "2026-01-14T06:39:51Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:39:51+00:00",
+			"PublishedAt": "2026-01-14T12:09:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "yL5eakZNwVc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/yL5eakZNwVc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/yL5eakZNwVc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/yL5eakZNwVc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Bernstein / VPO  Live at Lucerne Music Festival 1988",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lBDcVzecAz4",
+			"VideoPublishedAtRaw": "2016-08-11T17:06:52Z",
+			"VideoPublishedAtDateTimeOffset": "2016-08-11T17:06:52+00:00",
+			"VideoPublishedAt": "2016-08-11T22:36:52+05:30"
+		},
+		"ETag": "9WoVi0pQEiMLSeX0W7IZSRdJhSI",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "From a 1963 performance at Philharmonic Hall in New York, here is Leonard Bernstein conducting the \u0022Spring Symphony\u0022 by Benjamin Britten.  The soloists for this performance were Jennifer Vyvyan, Regina Sarfaty, and Richard Lewis; with the Boys\u0027 Choirs from The Little Church Around the Corner and St. Paul\u0027s Church of Westfield, NJ (unfortunately not credited in the video itself); the Collegiate Chorale; along with the New York Philharmonic Orchestra.\n\nPart 1\n1. Introduction: Shine Out (George Chapman)\n2. The Merry Cuckoo (Edmund Spenser)\n3. Spring, the Sweet Spring (Thomas Nashe)\n4. The Driving Boy (George Peele, John Clare)\n5. The Morning Star (John Milton)\n\nPart 2   17:30 \n6. Welcome, Maids of Honour (Robert Herrick)\n7. Waters Above! (Henry Vaughan)\n8. Out on the lawn I Lie in bed (W. H. Auden)\n\nPart 3   29:16 \n9. When will my May Come? (Richard Barnfield)\n10. Fair and Fair (George Peele)\n11. Sound the Flute! (William Blake)\n\nPart 4   35:15 \n12. Finale: London, to Thee I do Present (John Fletcher; closing words from \u0027\u0027The Knight of the Burning Pestle\u0027\u0027 by Francis Beaumont)\n\nHere\u0027s a link to my Jennifer Vyvyan playlist: \nhttps://www.youtube.com/playlist?list=PLBECDBF992D11DF99\n\nAnd a link to my Regina Sarfaty playlist: https://www.youtube.com/playlist?list=PLVaesGflLES9PrznTNqVpT3yeRmkchP60\n\nAnd a link to my Richard Lewis playlist: \nhttps://www.youtube.com/playlist?list=PL05A18CDF52238531",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 6,
+			"PublishedAtRaw": "2025-08-23T10:52:00Z",
+			"PublishedAtDateTimeOffset": "2025-08-23T10:52:00+00:00",
+			"PublishedAt": "2025-08-23T16:22:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lBDcVzecAz4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lBDcVzecAz4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lBDcVzecAz4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lBDcVzecAz4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lBDcVzecAz4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lBDcVzecAz4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bernstein conducts Britten \u0022Spring Symphony\u0022 - LIVE!",
+			"VideoOwnerChannelId": "UCgQSnfbTS-AbWElba4zBxjw",
+			"VideoOwnerChannelTitle": "kadoguy"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7tAEl9_MjKo",
+			"VideoPublishedAtRaw": "2025-01-16T23:46:05Z",
+			"VideoPublishedAtDateTimeOffset": "2025-01-16T23:46:05+00:00",
+			"VideoPublishedAt": "2025-01-17T05:16:05+05:30"
+		},
+		"ETag": "xqcnriTgP_p0UiPhGPLHt-2_Jw8",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bernstein in Budapest\n\nLeonard Bernstein\nBavarian Radio Symphony Orchestra (Symphonieorchester der Bayerischen Rundfunks)\n\nNovember 15-16, 1983\n\nErkel Theatre, Budapest\n\nB\u00E9la Bart\u00F3k\n\nMusic for Strings, Percussion, and Celesta, Sz. 106, BB 114 \n\nI. Andante tranquillo (01:30)\nII. Allegro (10:46)\nIII. Adagio (18:41)\nIV. Allegro molto (25:46)\n\nInterview with Leonard Bernstein (35:25)\n\nLeonard Bernstein\n\nDivertimento for Orchestra \n\nI. Sennets and Tuckets - Allegro non troppo, ma con brio (46:02)\nII. Waltz - Allegretto, con grazia (47:26)\nIII. Mazurka - Mesto, molto moderato (49:46)\nIV. Samba - Allegro giusto. (51:30)\nV. Turkey Trot - Allegro, ben misurato (52:29)\nVI. Sphinxes - Adagio lugubre (54:32)\nVII. Blues - Slow blues tempo (55:26)\nVIII. In memoriam; March: \u201CThe BSO Forever\u201D -  Andante \u2014 Doppio movimento. Alla marcia \u2014 Tutti quanti tutta forza (57:03)\n\nEncore - Turkey Trot and Waltz from Divertimento, with eyes only (01:03:43)\n\nRobert Schumann\n\nSymphony No. 2 in C Major, Op. 61\n\nI. Sostenuto assai - Allegro ma non troppo (01:12:24)\nII. Scherzo: Allegro vivace (01:25:40)\nIII. Adagio espressivo (01:32:59)\nIV. Allegro molto vivace (01:46:54)\n\nEncore - Johannes Brahms (orch. Parlow) - Hungarian Dance No. 6 in D Major, WoO 1 (01:58:48)\n\n____________________________________\n\n\nFair Use Act Disclaimer\n\n\u00A9 COPYRIGHT Disclaimer, Under Section 107 of the Copyright Act 1976. Allowance is made for \u0022fair use\u0022 for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.\n\nAll copyrights go to Hungaroton Records Publisher Ltd., Hungarian State Media, Unitel, Amberson Productions, and Bavarian Broadcasting (Bayerische Rundfunk)",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 7,
+			"PublishedAtRaw": "2025-06-06T11:24:30Z",
+			"PublishedAtDateTimeOffset": "2025-06-06T11:24:30+00:00",
+			"PublishedAt": "2025-06-06T16:54:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7tAEl9_MjKo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7tAEl9_MjKo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7tAEl9_MjKo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7tAEl9_MjKo/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Bernstein in Budapest - Bart\u00F3k, Bernstein, Schumann - Bavarian Radio Symphony Orchestra",
+			"VideoOwnerChannelId": "UCDuCPUsmkOnhK9-vUuA7ZMw",
+			"VideoOwnerChannelTitle": "bassist "
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "luQAn6Bpi6M",
+			"VideoPublishedAtRaw": "2020-03-07T06:47:17Z",
+			"VideoPublishedAtDateTimeOffset": "2020-03-07T06:47:17+00:00",
+			"VideoPublishedAt": "2020-03-07T12:17:17+05:30"
+		},
+		"ETag": "_w4oEPZ8MVqsSD7wtF47ghh5zMM",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u25A0R.Schumann\u3000\n\u3000Symphony N.2 \n\u30001st(0:02) 2nd (13:50) 3rd(21:54) 4st (35:46) applause(44:39)   Kyoichi Kuroda\u0027s comment about \u3000   \u3000Lenny (45:09)\n\n\u25C6The Pacific Music Festival Orchestra\n\u3000Leonard Bernstein (Conducting)\n\n\u26603 July, 1990 at Sappro,Japan",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 8,
+			"PublishedAtRaw": "2026-01-14T06:43:51Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:43:51+00:00",
+			"PublishedAt": "2026-01-14T12:13:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "luQAn6Bpi6M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/luQAn6Bpi6M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/luQAn6Bpi6M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/luQAn6Bpi6M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/luQAn6Bpi6M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/luQAn6Bpi6M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bernstein\u0027s last years Schumann Symphony N.2 (PMF Live) Radio broadcasting tape Edition",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ziMVLLWlWMo",
+			"VideoPublishedAtRaw": "2024-04-03T03:13:19Z",
+			"VideoPublishedAtDateTimeOffset": "2024-04-03T03:13:19+00:00",
+			"VideoPublishedAt": "2024-04-03T08:43:19+05:30"
+		},
+		"ETag": "APlLDLqe3XxQSJfB66AQZwYLhXs",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Brahms : Symphony No.3\n1st movement   00:00\n2nd  14:09\n3rd   23:06\n4th   29:27\nL.Bernstein / Bavarian Radio Symphony Orchestra\n24/11/1978 Munchen live recording\n\u30D6\u30E9\u30FC\u30E0\u30B9\uFF1A\u4EA4\u97FF\u66F2\u7B2C3\u756A\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n1978\u5E7411\u670824\u65E5\u3000\u30DF\u30E5\u30F3\u30D8\u30F3\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 9,
+			"PublishedAtRaw": "2025-08-12T03:54:49Z",
+			"PublishedAtDateTimeOffset": "2025-08-12T03:54:49+00:00",
+			"PublishedAt": "2025-08-12T09:24:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ziMVLLWlWMo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ziMVLLWlWMo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ziMVLLWlWMo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ziMVLLWlWMo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ziMVLLWlWMo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ziMVLLWlWMo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms : Symphony No.3       L.Bernstein / BRSO 1978 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "diDVZGBxIC0",
+			"VideoPublishedAtRaw": "2020-02-07T11:53:34Z",
+			"VideoPublishedAtDateTimeOffset": "2020-02-07T11:53:34+00:00",
+			"VideoPublishedAt": "2020-02-07T17:23:34+05:30"
+		},
+		"ETag": "vaKfwb5HuwwtlBFs1efwczh6Jao",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "After First movement, there was a few clapping, which is shows the performance was too much passionate.\n\nJohannes Brahms\nSymphony No 4 in E minor, Op 98\n\n1 Allegro non troppo(0:08)\n2 Andante moderato(14:24) \n3 Allegro giocoso(28:09)\n4 Allegro energico e passionato(34:52)\n\nVienna Philharmonic orchestra\nLeonard Bernstein\n1988,Sep.8 Live Kunsthaus,Luzern\n\u2193\n\nthe former half of the program \nBernstein Halil\nhttps://youtu.be/gbjK5cBNDW4",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 10,
+			"PublishedAtRaw": "2026-01-14T06:44:11Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:44:11+00:00",
+			"PublishedAt": "2026-01-14T12:14:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "diDVZGBxIC0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/diDVZGBxIC0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/diDVZGBxIC0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/diDVZGBxIC0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/diDVZGBxIC0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/diDVZGBxIC0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms Symphony N.4 Bernstein VPO 1988 Live\u3010HD\u3011 No edit version, Radio broadcasting tape",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "w2ysTPRMOvQ",
+			"VideoPublishedAtRaw": "2024-05-28T14:06:51Z",
+			"VideoPublishedAtDateTimeOffset": "2024-05-28T14:06:51+00:00",
+			"VideoPublishedAt": "2024-05-28T19:36:51+05:30"
+		},
+		"ETag": "2Rs1UAWpKVdFoxgOEYkzwWIeHDg",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms  (1833 - 1897)\n\nSymphony no. 1 in C minor op. 68\n\nI       Un poco sostenuto - Allegro\nII      Andante sostenuto\nIII     Un poco Allegretto e grazioso\nIV     Adagio - Allegro non troppo ma con brio\n\nLeonard Bernstein, direttore\nOrchestra del Maggio Musicale Fiorentino\nlive Firenze, 1967",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 11,
+			"PublishedAtRaw": "2026-01-14T06:40:40Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:40:40+00:00",
+			"PublishedAt": "2026-01-14T12:10:40+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "w2ysTPRMOvQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/w2ysTPRMOvQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/w2ysTPRMOvQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/w2ysTPRMOvQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/w2ysTPRMOvQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/w2ysTPRMOvQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms:   Symphony no. 1 in C minor op. 68  -  Leonard Bernstein (live Firenze, 1967)",
+			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WdOCOYP_5hI",
+			"VideoPublishedAtRaw": "2022-03-04T22:53:14Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-04T22:53:14+00:00",
+			"VideoPublishedAt": "2022-03-05T04:23:14+05:30"
+		},
+		"ETag": "YQrH-GgzlkrQdTj8HMXVJSfYiDM",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "FREDERIC CHOPIN - PIANO CONCERTO N\u00BA 1 IN E MINOR, OP. 11\n\n\n\n1. Allegro maestoso\n\n2. Romance. Larghetto 20:31\n\n3. Rondo. Vivace 31:21\n\n\n\nJanuary  17, 1963\n\nNew York Philharmonic\n\nRosina Lhevinne, piano\n\nLEONARD BERNSTEIN\n\nLive Recording in Philharmonic Hall\n\nThis recording was originally uploaded by user \u0027Lennyclassics\u0027 but at the wrong speed. This copy has had the speed corrected and some minor audio restoration carried out.",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 12,
+			"PublishedAtRaw": "2026-01-14T06:41:43Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:41:43+00:00",
+			"PublishedAt": "2026-01-14T12:11:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WdOCOYP_5hI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WdOCOYP_5hI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WdOCOYP_5hI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WdOCOYP_5hI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WdOCOYP_5hI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WdOCOYP_5hI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Chopin - Piano Concerto n\u00BA 1: Rosina Lhevinne, NYPO, Bernstein (Live Recording)",
+			"VideoOwnerChannelId": "UCRrxwNmYV-RvEKUJsGURGaw",
+			"VideoOwnerChannelTitle": "Richard Black"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8U-nbGWt1Kw",
+			"VideoPublishedAtRaw": "2023-10-04T03:00:04Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-04T03:00:04+00:00",
+			"VideoPublishedAt": "2023-10-04T08:30:04+05:30"
+		},
+		"ETag": "uo4vtw2iensogcnVkUruzNotIXc",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "G.Mahler : Symphonie No.9 \n1st movement    00:00\n2nd    27:50\n3rd     43:43\n4th     56:00\nL.Bernstein conducts Berlin philharmonie  4/10/1979\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\n1979\u5E7410\u67084\u65E5\u3001\u30D9\u30EB\u30EA\u30F3\u82B8\u8853\u796D\u306E\u5B9F\u6CC1\u653E\u9001\u30E9\u30A4\u30D6\u9332\u97F3\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 13,
+			"PublishedAtRaw": "2025-07-01T19:08:33Z",
+			"PublishedAtDateTimeOffset": "2025-07-01T19:08:33+00:00",
+			"PublishedAt": "2025-07-02T00:38:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8U-nbGWt1Kw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8U-nbGWt1Kw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8U-nbGWt1Kw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8U-nbGWt1Kw/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "G.Mahler : Symphonie No.9  L.Bernstein/Berlin phil. 1979  live (on radio)",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UELZc_KlZ5Y",
+			"VideoPublishedAtRaw": "2025-08-25T15:46:45Z",
+			"VideoPublishedAtDateTimeOffset": "2025-08-25T15:46:45+00:00",
+			"VideoPublishedAt": "2025-08-25T21:16:45+05:30"
+		},
+		"ETag": "GLZhcEv2zKlsAuCAUIN1yzCwdfk",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Joseph Haydn: Sinfonia in si bemolle maggiore n 102\n1. Largo - Vivace 0:00\n2. Adagio 9:52\n3. Minuetto (Allegro) e Trio 17:25\n4. Finale (Presto) 23:45\n\nWiener Philharmoniker diretta da Leonard Bernstein\nRegistrato a Roma presso l\u0027Auditorium di Via della Conciliazione il 2 marzo 1971",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 14,
+			"PublishedAtRaw": "2025-08-26T03:13:04Z",
+			"PublishedAtDateTimeOffset": "2025-08-26T03:13:04+00:00",
+			"PublishedAt": "2025-08-26T08:43:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UELZc_KlZ5Y"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/UELZc_KlZ5Y/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/UELZc_KlZ5Y/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/UELZc_KlZ5Y/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/UELZc_KlZ5Y/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/UELZc_KlZ5Y/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn: Sinfonia n 102 | Leonard Bernstein | Wiener Philharmoniker (2.3.1971)",
+			"VideoOwnerChannelId": "UCb4pTnoEtxG8tLRlv1Pg5nQ",
+			"VideoOwnerChannelTitle": "Angelo Procino"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dvVGD2Olno4",
+			"VideoPublishedAtRaw": "2020-08-07T09:21:00Z",
+			"VideoPublishedAtDateTimeOffset": "2020-08-07T09:21:00+00:00",
+			"VideoPublishedAt": "2020-08-07T14:51:00+05:30"
+		},
+		"ETag": "cATr5JfgbfllbyqaLvKCxYSPNmE",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "In late 1966, Leonard Bernstein conducted the London Symphony Orchestra, led by John Georgiadis at Croydon\u0027s Fairfield Halls, in Sibelius\u0027 fifth symphony. This upload is not of that performance, which is available separately on YouTube. \n\nNine years later on 10 September 1975, Bernstein again conducted Sibelius 5 with the LSO, this time led by John Brown, at the Edinburgh Festival. Simultaneously broadcast on television in the UK four days later, this is the radio transmission of that 1975 performance.\n\n1. Tempo molto moderato \u2013 Allegro moderato 0:00\n2. Andante mosso, quasi allegretto 14:18\n3. Allegro molto \u2013 Misterioso 23:43\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 15,
+			"PublishedAtRaw": "2026-01-14T06:43:00Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:43:00+00:00",
+			"PublishedAt": "2026-01-14T12:13:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dvVGD2Olno4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/dvVGD2Olno4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/dvVGD2Olno4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/dvVGD2Olno4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/dvVGD2Olno4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Jean Sibelius - Symphony no. 5: Leonard Bernstein conducting the LSO in 1975",
+			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+			"VideoOwnerChannelTitle": "LSO live recordings"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "37LLjBt8kwE",
+			"VideoPublishedAtRaw": "2026-01-23T17:00:05Z",
+			"VideoPublishedAtDateTimeOffset": "2026-01-23T17:00:05+00:00",
+			"VideoPublishedAt": "2026-01-23T22:30:05+05:30"
+		},
+		"ETag": "51WK0hZpxqze9V4OD6hctFqqVnM",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4xOTEzQzhBQzU3MDNDNjcz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "John Becker: Symphony No.3 - \u201CSymphony Brevis\u201D Leonard Bernstein - New York Philharmonic Orchestra (october 19, 1958) https://en.wikipedia.org/wiki/John_J._Becker",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 16,
+			"PublishedAtRaw": "2026-02-08T07:37:07Z",
+			"PublishedAtDateTimeOffset": "2026-02-08T07:37:07+00:00",
+			"PublishedAt": "2026-02-08T13:07:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "37LLjBt8kwE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/37LLjBt8kwE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/37LLjBt8kwE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/37LLjBt8kwE/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "John Becker: Symphony No.3 - Bernstein - NYP (1958)",
+			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+			"VideoOwnerChannelTitle": "goodmanmusica"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "o99pejj48cc",
+			"VideoPublishedAtRaw": "2025-02-19T12:56:13Z",
+			"VideoPublishedAtDateTimeOffset": "2025-02-19T12:56:13+00:00",
+			"VideoPublishedAt": "2025-02-19T18:26:13+05:30"
+		},
+		"ETag": "nqoeGDRD8r_Gt96NRmvJ5OKZzQw",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1. Gershwin : Rhapsody in Blue   00:00\n2. Copland : Symphony No.3\n   1st movement   17:30\n   2nd    27:54\n   3rd     36:46\n   4th     47:10\nLeonard Bernstein(conduct \u0026 piano) / New York Philharmonic\n1/6/1976 Holland Festival, Den Haag live recording\n\u30AC\u30FC\u30B7\u30E5\u30A4\u30F3\uFF1A\u30E9\u30D7\u30BD\u30C7\u30A3\u30FB\u30A4\u30F3\u30FB\u30D6\u30EB\u30FC\n\u30B3\u30FC\u30D7\u30E9\u30F3\u30C9\uFF1A\u4EA4\u97FF\u66F2\u7B2C3\u756A\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\uFF08\u6307\u63EE\u3068\u30D4\u30A2\u30CE\uFF09\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF\n1976\u5E746\u67081\u65E5\u3000\u30AA\u30E9\u30F3\u30C0\u30FB\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u3001\u30C7\u30F3\u30FB\u30CF\u30FC\u30B0\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B1976\u5E74\u306E\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u6B27\u5DDE\u30C4\u30A2\u30FC\u304B\u3089\u3002\u6842\u51A0\u6307\u63EE\u8005\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u3068\u30A2\u30E1\u30EA\u30AB\u97F3\u697D\u306E\u307F\u3067\u69CB\u6210\u3057\u305F\u30D7\u30ED\u30B0\u30E9\u30E0\u306E\u5F8C\u534A\u3067\u3057\u305F\u3002\u307E\u3055\u306B\u5341\u516B\u756A\u3068\u8A00\u3046\u3079\u304D\u5727\u5DFB\u306E\u30E9\u30A4\u30D6\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 17,
+			"PublishedAtRaw": "2026-01-14T06:39:22Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:39:22+00:00",
+			"PublishedAt": "2026-01-14T12:09:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "o99pejj48cc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/o99pejj48cc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/o99pejj48cc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/o99pejj48cc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "L. Bernstein / NYP live at Den Haag 1976 Gershwin \u0026 Copland",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-bCTn5y1SFQ",
+			"VideoPublishedAtRaw": "2018-05-13T16:46:13Z",
+			"VideoPublishedAtDateTimeOffset": "2018-05-13T16:46:13+00:00",
+			"VideoPublishedAt": "2018-05-13T22:16:13+05:30"
+		},
+		"ETag": "-EuC9Kop88lL-Ny0f6a1BOF6R9s",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gidon Kremer performing what is effectively Bernstein\u0027s violin concerto with the London Symphony Orchestra at the Barbican in May 1986 under the composer himself. Kremer was supported by LSO leader Michael Davis and principal cello Douglas Cummings.\n\n1. Phaedrus; Pausanius 0:00\n2. Aristophanes 07:08\n3. Eryximachus 11:41\n4. Agathon 20:20\n5. Socrates: Alcibiades 24:37\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 18,
+			"PublishedAtRaw": "2025-08-25T06:51:36Z",
+			"PublishedAtDateTimeOffset": "2025-08-25T06:51:36+00:00",
+			"PublishedAt": "2025-08-25T12:21:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-bCTn5y1SFQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/-bCTn5y1SFQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/-bCTn5y1SFQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/-bCTn5y1SFQ/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Leonard Bernstein - Serenade: Gidon Kremer and Leonard Bernstein with the LSO in 1986",
+			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+			"VideoOwnerChannelTitle": "LSO live recordings"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZJ1LmSX4CHo",
+			"VideoPublishedAtRaw": "2018-08-25T20:01:21Z",
+			"VideoPublishedAtDateTimeOffset": "2018-08-25T20:01:21+00:00",
+			"VideoPublishedAt": "2018-08-26T01:31:21+05:30"
+		},
+		"ETag": "ckqtzTy7za3bgrGGb3w9shi8SFU",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC42MTI4Njc2QjM1RjU1MjlG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Today is the hundredth anniversary of Leonard Bernstein\u0027s birth, and as I upload this, the LSO is performing Bernstein\u0027s \u0027On The Town\u0027 at the BBC Proms on 25 August 2018. This 1986 performance of Bernstein\u0027s second symphony under the composer\u0027s direction and featuring Krystian Zimerman as piano soloist at the Barbican was re-mastered today from the original Dolby C cassette recording, and presented in tribute to one of the true geniuses of the twentieth century.\n\n1. Part 1: Prologue 0:00\n2. Part 1: The Seven Ages 02:47\n3. Part 1: The Seven Stages 11:49\n4. Part 2: The Dirge 18:47\n5. Part 2: The Masque 25:18\n6. Part 2: The Epilogue 30:17\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 19,
+			"PublishedAtRaw": "2026-01-14T06:44:34Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:44:34+00:00",
+			"PublishedAt": "2026-01-14T12:14:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZJ1LmSX4CHo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZJ1LmSX4CHo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZJ1LmSX4CHo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZJ1LmSX4CHo/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Leonard Bernstein - Symphony no. 2: Leonard Bernstein conducting the LSO in 1986",
+			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+			"VideoOwnerChannelTitle": "LSO live recordings"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "EnOObn3Eo0g",
+			"VideoPublishedAtRaw": "2015-05-31T02:31:04Z",
+			"VideoPublishedAtDateTimeOffset": "2015-05-31T02:31:04+00:00",
+			"VideoPublishedAt": "2015-05-31T08:01:04+05:30"
+		},
+		"ETag": "92TKuJXpR_9WxpL6EZZyIGpafm8",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC40QTA3NTU2RkM1QzlCMzYx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Recorded live at Yubin Chokin Hall, Hiroshima, 6 August 1985\nEC Youth Orchestra\nBarbara Hendricks, soprano\nMichael Wager, speaker\nWiener Jeunesse Chor\nKyoto Echo Choir\nLeonard Bernstein, conductor\n\nPart.\u2160\u3000Invocation 0:00\n        Kaddish\u2160 3:57\nPart.\u2161\u3000Din-Torah 9:11\n        Kaddish\u2161 16:09\nPart.\u2162\u3000Scherzo 24:09\n        Kaddish\u2162 28:54\n        Finale 31:38",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 20,
+			"PublishedAtRaw": "2026-01-14T06:46:17Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:46:17+00:00",
+			"PublishedAt": "2026-01-14T12:16:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "EnOObn3Eo0g"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/EnOObn3Eo0g/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/EnOObn3Eo0g/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/EnOObn3Eo0g/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/EnOObn3Eo0g/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/EnOObn3Eo0g/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Leonard Bernstein - Symphony No.3 \u201CKaddish\u201D",
+			"VideoOwnerChannelId": "UCC2ziPKk2RuBmRilkyHJlCg",
+			"VideoOwnerChannelTitle": "takatantan 2910"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Ccsy42Wt93g",
+			"VideoPublishedAtRaw": "2024-11-06T14:30:12Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-06T14:30:12+00:00",
+			"VideoPublishedAt": "2024-11-06T20:00:12+05:30"
+		},
+		"ETag": "yJbOAhFBHWcp-69KHxzBhn_g_eA",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler : Symphony No.9\n1st movement    00:00\n2nd   29:00\n3rd    45:47\n4th    58:23\nLeonard Bernstein / Boston Symphony orchestra\n29/7/1979 Tanglewood Festival live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u3000\u30DC\u30B9\u30C8\u30F3\u4EA4\u97FF\u697D\u56E3\n1979\u5E747\u670829\u65E5\u3000\u30BF\u30F3\u30B0\u30EB\u30A6\u30C3\u30C9\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u5B9F\u6CC1\u9332\u97F3\n\u203B\u6709\u540D\u306A\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u516C\u6F14\u306E2\u304B\u6708\u524D\u306E\u30E9\u30A4\u30D6\u3067\u3059\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 21,
+			"PublishedAtRaw": "2026-01-14T06:39:42Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:39:42+00:00",
+			"PublishedAt": "2026-01-14T12:09:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Ccsy42Wt93g"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Ccsy42Wt93g/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Ccsy42Wt93g/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Ccsy42Wt93g/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Ccsy42Wt93g/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Ccsy42Wt93g/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler : Symphony No.9     L.Bernstein / BSO 1979 Tanglewood live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XnXHwdmxD0A",
+			"VideoPublishedAtRaw": "2020-04-30T06:16:21Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-30T06:16:21+00:00",
+			"VideoPublishedAt": "2020-04-30T11:46:21+05:30"
+		},
+		"ETag": "pEYB1urjGY7hx8VDI3BsjXyRzhY",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1st 2nd, 3rd movements\u27A1https://youtu.be/AGSqQEmGdsw\n4th- Adagietto(0:02) 5th-Rondo-Finale (11:36)\n\n30 August 1987 at Gro\u00DFes Festspielhaus in Salzburg\nLeonard Bernstein\nWiener Philharmoniker\n\nBernstein VPO Mahler\u0027s 5th\n10 Sep,1987 in London\n\u2193\nhttps://youtu.be/LwOrg9doT6Q",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 22,
+			"PublishedAtRaw": "2026-01-14T06:43:24Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:43:24+00:00",
+			"PublishedAt": "2026-01-14T12:13:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XnXHwdmxD0A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/XnXHwdmxD0A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/XnXHwdmxD0A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/XnXHwdmxD0A/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/XnXHwdmxD0A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/XnXHwdmxD0A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "MAHLER Symhony N.5  Bernstein VPO (1987 Live in Salzburg) \u25C64th- Adagietto \u25C65th-Rondo-Finale",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "AGSqQEmGdsw",
+			"VideoPublishedAtRaw": "2020-04-30T04:42:45Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-30T04:42:45+00:00",
+			"VideoPublishedAt": "2020-04-30T10:12:45+05:30"
+		},
+		"ETag": "02Ordmwv_ptm1TsWCmW-j1WZAfg",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u203B4th 5th movements\u27A1https://youtu.be/XnXHwdmxD0A\n\n1st(0:00) 2nd(14:10) 3rd(29:15)\n30 August 1987 at Gro\u00DFes Festspielhaus in Salzburg\nLeonard Bernstein\nWiener Philharmoniker\n\nBernstein VPO Mahler\u0027s 5th\n10 Sep,1987 in London\n\u2193\nhttps://youtu.be/LwOrg9doT6Q",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 23,
+			"PublishedAtRaw": "2026-01-14T06:43:17Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:43:17+00:00",
+			"PublishedAt": "2026-01-14T12:13:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "AGSqQEmGdsw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/AGSqQEmGdsw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/AGSqQEmGdsw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/AGSqQEmGdsw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/AGSqQEmGdsw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/AGSqQEmGdsw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "MAHLER Symhony N.5  Bernstein VPO (1987 Live in Salzburg)1st 2nd, 3rd movements",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "rlw2NYXg2EQ",
+			"VideoPublishedAtRaw": "2020-02-25T11:57:28Z",
+			"VideoPublishedAtDateTimeOffset": "2020-02-25T11:57:28+00:00",
+			"VideoPublishedAt": "2020-02-25T17:27:28+05:30"
+		},
+		"ETag": "QQ8EXD1wqRdXFIT3e7QIf_BTEMs",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "GUSTAV MAHLER \nSymphony N.4 in G \n1st (0:05) 2nd (17:31) 3rd (27:32) 4st(50:31)\nA.Bergius/Sop\nWiener Philharmoniker\nLeonard Bernstein(Conducting)\n12 Feb, 1984 at Gro\u00DFer Musikvereinssaal,Vienna\n\n\u2193\n\u25A0Bernstein\u0027s Mahler 2nd Symphony (1970 Live)\nhttps://youtu.be/j0kz74ade3w",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 24,
+			"PublishedAtRaw": "2026-01-14T06:43:59Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:43:59+00:00",
+			"PublishedAt": "2026-01-14T12:13:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "rlw2NYXg2EQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/rlw2NYXg2EQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/rlw2NYXg2EQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/rlw2NYXg2EQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/rlw2NYXg2EQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/rlw2NYXg2EQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler Symphony N.4 Bernstein VPO(1984 Live)",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "nETyJYONtfE",
+			"VideoPublishedAtRaw": "2022-06-08T09:07:24Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-08T09:07:24+00:00",
+			"VideoPublishedAt": "2022-06-08T14:37:24+05:30"
+		},
+		"ETag": "tZTqQrsMeo_-LLiIO2duRTC_vpc",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler \nSymphony No2\nBernstein with Cleveland Orchestra \n\nLorna Haywood s\nChrista Ludwig mezzo \n\nCleveland Orchestra Chorus\nBlossom Festival Chorus\n\nLive Performance, 9 July, 1970, Blossom Music Festival",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 25,
+			"PublishedAtRaw": "2026-01-14T06:41:30Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:41:30+00:00",
+			"PublishedAt": "2026-01-14T12:11:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "nETyJYONtfE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/nETyJYONtfE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/nETyJYONtfE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/nETyJYONtfE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/nETyJYONtfE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler\u0027s Second Symphony  Bernstein with Cleveland Orchestra 1970 LIVE!",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "9a8gA2wKpQY",
+			"VideoPublishedAtRaw": "2022-03-12T19:10:48Z",
+			"VideoPublishedAtDateTimeOffset": "2022-03-12T19:10:48+00:00",
+			"VideoPublishedAt": "2022-03-13T00:40:48+05:30"
+		},
+		"ETag": "AGQfLRXCFO5b3untRPsX2k3JABc",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahler. Symphony no. 2 in C minor \u201CResurrection.\u201D\nLorna Haywood, soprano; Christa Ludwig, mezzo-soprano; Blossom Festival Chorus; Margaret Hillis, director; Cleveland Orchestra; Leonard Bernstein, conductor.\nRecorded live at Blossom Music Center, Cuyahoga Falls, OH, 9 July 1970.\n\nThis was Leonard Bernstein\u2019s only appearance with the Cleveland Orchestra. The music critic Robert Finn called it \u201Cquite simply, one of the greatest occasions in Blossom\u2019s history and perhaps in that of the orchestra itself.\u201D\n\nI. Allegro maestoso (0:00) - Im Tempo nachgeben (2:50) - Wie zu Anfang (3:52) - Sehr m\u00E4ssig und zur\u00FCckhaltend (6:35) - Schnell (11:57) - Tempo I (15:38) - Zur\u00FCckhalten (17:22) - Tempo sostenuto (19:53) [several beats are clipped off a few measures from the end]\n\nII. Andante moderato (23:13) - Nicht eilen. Sehr gem\u00E4chlich (25:04) - In Tempo I. zur\u00FCckkehren (26:51) - Tempo I. Energisch bewegt (29:01) - Wieder ins Tempo zur\u00FCckgehen. Tempo I (31:20)\n\nIII. In ruhig flie\u00DFender Bewegung (35:31) - Vorw\u00E4rts (39:25) - Sehr getragen und gesangvoll (40:20) - Zum Tempo I. zur\u00FCckkehren (41:39) - Tempo I (42:01) - [Lead-up to the \u201CCry of Despair\u201D] (43:40)\n\nIV. Urlicht. Sehr feierlich, aber schlicht (46:19)\n\nV. Im Tempo des Scherzo. Wild herausfahrend (52:03) - Langsam (53:50) - Im Angang sehr zur\u00FCckgehalten (57:32) - Wieder sehr breit (58:42) - Rit.-Molto riten.-Maestoso. Sehr zur\u00FCckhaltend (1:02:08) - Kr\u00E4ftig (1:03:07) - Wieder zur\u00FCckhaltend (1:06:06) - Langsam (1:08:12) - Der gro\u00DFe Appell. Sehr langsam und gedehnt (1:09:47) - Langsam. Misterioso: \u201CAufersteh\u2019n\u201D (1:12:20) - Etwas bewegter (aber nicht eilen): \u201CO glaube\u201D (1:19:49) - Mit Augschwung, aber nicht eilen: \u201CO Schmerz! Du Alldurchdringer!\u201D (1:22:58)",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 26,
+			"PublishedAtRaw": "2026-01-14T06:41:36Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:41:36+00:00",
+			"PublishedAt": "2026-01-14T12:11:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9a8gA2wKpQY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/9a8gA2wKpQY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/9a8gA2wKpQY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/9a8gA2wKpQY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/9a8gA2wKpQY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/9a8gA2wKpQY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler\u0027s Second: Bernstein, Cleveland Orchestra, live in 1970",
+			"VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
+			"VideoOwnerChannelTitle": "Music Lover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "YyRabBr98-k",
+			"VideoPublishedAtRaw": "2026-05-15T14:38:18Z",
+			"VideoPublishedAtDateTimeOffset": "2026-05-15T14:38:18+00:00",
+			"VideoPublishedAt": "2026-05-15T20:08:18+05:30"
+		},
+		"ETag": "g5qR0wBo4QWEf7a49r1L-gdqwZI",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5GNDg1Njc1QzZERjlFRjE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler: Symphony No.7 \u0022Nachtmusik\u0022\n1st movement   00:00\n2nd    22:08\n3rd     39:32\n4th     49:43\n5th    1:05:02\nLeonard Bernstein / Orchestre de Paris\n13/5/1981 Paris, Salle Pleyel live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C7\u756A\u300C\u591C\u306E\u6B4C\u300D\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u3000\u30D1\u30EA\u7BA1\u5F26\u697D\u56E3\n1981\u5E745\u670813\u65E5\u3000\u30D1\u30EA\u3001\u30B5\u30EB\u30FB\u30D7\u30EC\u30A4\u30A8\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u306E\u8A18\u9332\u306B\u6B8B\u3055\u308C\u305F\u30D1\u30EA\u7BA1\u3068\u306E\u552F\u4E00\u306E\u5171\u6F14\u76E4\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 27,
+			"PublishedAtRaw": "2026-05-17T10:07:17Z",
+			"PublishedAtDateTimeOffset": "2026-05-17T10:07:17+00:00",
+			"PublishedAt": "2026-05-17T15:37:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "YyRabBr98-k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/YyRabBr98-k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/YyRabBr98-k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/YyRabBr98-k/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Mahler: Symphony No.7 \u0022Nachtmusik\u0022\u3000L. Bernstein /ODP 1981 live in Paris",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8dwkp8EINsc",
+			"VideoPublishedAtRaw": "2020-04-26T10:22:18Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-26T10:22:18+00:00",
+			"VideoPublishedAt": "2020-04-26T15:52:18+05:30"
+		},
+		"ETag": "yTFpoCOuckQZUsh0c4wG_X_IfPs",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler,G. Symphony No.6 1st(0:00) 2nd(23:49) 3rd(38:36) 4th(56:09)\n\nWiener Philharmoniker\nLeonard Bernstein(Conducting)\n25 Sep 1988  at Gro\u00DFer Musikvereinssaal,Vienna\n1st Subscription Concert 1988/89",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 28,
+			"PublishedAtRaw": "2026-01-14T06:43:31Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:43:31+00:00",
+			"PublishedAt": "2026-01-14T12:13:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8dwkp8EINsc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8dwkp8EINsc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8dwkp8EINsc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/8dwkp8EINsc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8dwkp8EINsc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8dwkp8EINsc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler; Symphony N.6 Bernstein VPO(1988 Live) Radiobroadcasting Edition",
+			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+			"VideoOwnerChannelTitle": "Plow Fat"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "S3h9_lSPFN0",
+			"VideoPublishedAtRaw": "2017-10-26T22:36:04Z",
+			"VideoPublishedAtDateTimeOffset": "2017-10-26T22:36:04+00:00",
+			"VideoPublishedAt": "2017-10-27T04:06:04+05:30"
+		},
+		"ETag": "2K1tWsQz6L0ZfzOvXOq1F7s03lE",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC45RjNFMDhGQ0Q2RkFCQTc1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Lazar Berman - Leonard Bernstein - New York Philharmonic Orchestra - Live rec. March 02, 1977.",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 29,
+			"PublishedAtRaw": "2026-01-14T06:45:03Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:45:03+00:00",
+			"PublishedAt": "2026-01-14T12:15:03+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "S3h9_lSPFN0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/S3h9_lSPFN0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/S3h9_lSPFN0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/S3h9_lSPFN0/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Prokofiev Piano Concerto No.1 op.10 - Berman - Bernstein - NYP - 1977",
+			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+			"VideoOwnerChannelTitle": "goodmanmusica"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "HbChmJMiOc4",
+			"VideoPublishedAtRaw": "2025-03-26T00:26:55Z",
+			"VideoPublishedAtDateTimeOffset": "2025-03-26T00:26:55+00:00",
+			"VideoPublishedAt": "2025-03-26T05:56:55+05:30"
+		},
+		"ETag": "3NbpUZAbcOgTFjKjU0ZbVzSubwQ",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ravel orchestra concert \n1. Piano concerto in G\u3000Piano) L. Bernstein\n   1st movement   00:00    2nd   08:17      3rd  18:43\n2. Bolero   22:40\n3. La Valse   37:38\nPiano \u0026 Conduct) Leonard Bernstein / Orchestre national de France\n20/9/1975 Paris, Th\u00E9\u00E2tre des Champs-\u00C9lys\u00E9es live recording\n\u30E9\u30F4\u30A7\u30EB\u30FB\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u30B3\u30F3\u30B5\u30FC\u30C8\n\u30D4\u30A2\u30CE\u3068\u6307\u63EE\uFF09\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u3000\u30D5\u30E9\u30F3\u30B9\u56FD\u7ACB\u7BA1\u5F26\u697D\u56E3\n1975\u5E749\u670820\u65E5\u3000\u30D1\u30EA\u3001\u30B7\u30E3\u30F3\u30BC\u30EA\u30BC\u5287\u5834\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 30,
+			"PublishedAtRaw": "2026-01-14T06:38:49Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:38:49+00:00",
+			"PublishedAt": "2026-01-14T12:08:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "HbChmJMiOc4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/HbChmJMiOc4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/HbChmJMiOc4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/HbChmJMiOc4/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Ravel orchestra concert : L. Bernstein live in Paris 1975",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "mbLE2EUmo_k",
+			"VideoPublishedAtRaw": "2023-10-07T12:00:47Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-07T12:00:47+00:00",
+			"VideoPublishedAt": "2023-10-07T17:30:47+05:30"
+		},
+		"ETag": "ZcKjPVrIA3xl-bd2k7KECLjKJQY",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "schubert  symphony no.9 in c major, D.944\n\ni.   andante - allegro ma non troppo ( 0:00 - )\nii.  andante con moto ( 14:09 - )\niii. scherzo ( 29:34 - )\niv. finale ( 40:41 - )\n\n( live recording.  apr. 1987  avery fisher hall, lincoln center, nyc )\n\n\n\n\n*. l. bernstein                new york philharmonic",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 31,
+			"PublishedAtRaw": "2025-01-09T18:53:41Z",
+			"PublishedAtDateTimeOffset": "2025-01-09T18:53:41+00:00",
+			"PublishedAt": "2025-01-10T00:23:41+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "mbLE2EUmo_k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/mbLE2EUmo_k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/mbLE2EUmo_k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/mbLE2EUmo_k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/mbLE2EUmo_k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "schubert  symphony no.9 in c major, D.944",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZWq5hyuxgW0",
+			"VideoPublishedAtRaw": "2023-02-17T12:05:00Z",
+			"VideoPublishedAtDateTimeOffset": "2023-02-17T12:05:00+00:00",
+			"VideoPublishedAt": "2023-02-17T17:35:00+05:30"
+		},
+		"ETag": "zzQOB4jJBu3vna7JnUO4un-6WPc",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "schumann  symphonie no 1 en si b\u00E9mol majeur, op. 38  \u0022le printemps\u0022\n\ni.   andante un poco maestoso - allegro molto vivace ( 0:00 - )\nii.  larghetto ( 12:26 - )\niii. scherzo -: molto vivace ( 20:59 - )\niv. allegro animato e grazioso ( 27:29 - )\n\n( enregistrement en direct.  3.1984 Avery Fischer Hall, Lincoln center, NYC )\n\n\n\n\n*. source : rare moth cd-r (modifi\u00E9)\n*. l. bernstein                nypo",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 32,
+			"PublishedAtRaw": "2024-12-12T00:23:10Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T00:23:10+00:00",
+			"PublishedAt": "2024-12-12T05:53:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZWq5hyuxgW0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ZWq5hyuxgW0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ZWq5hyuxgW0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ZWq5hyuxgW0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ZWq5hyuxgW0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "schumann  symphonie no 1 en si b\u00E9mol majeur, op. 38  \u0022le printemps\u0022",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3j5QoREjFcw",
+			"VideoPublishedAtRaw": "2024-07-17T23:33:54Z",
+			"VideoPublishedAtDateTimeOffset": "2024-07-17T23:33:54+00:00",
+			"VideoPublishedAt": "2024-07-18T05:03:54+05:30"
+		},
+		"ETag": "cYi6w0SoxsMLPrLb3ydU7JEt8Zg",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Pyotr Ilyich Tchaikovsky\nViolin Concerto in D major, Op.35\nBoris Belkin\nLeonard Bernstein\nNew York Philharmonic\n(live recording)",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 33,
+			"PublishedAtRaw": "2026-01-14T06:40:24Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:40:24+00:00",
+			"PublishedAt": "2026-01-14T12:10:24+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3j5QoREjFcw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3j5QoREjFcw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3j5QoREjFcw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3j5QoREjFcw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3j5QoREjFcw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3j5QoREjFcw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "TCHAIKOVSKY : Violin Concerto Op.35 ~ Boris Belkin, New York Philharmonic, Leonard Bernstein (live)",
+			"VideoOwnerChannelId": "UCe_ti5TWfoF9Z_YrkkJHVsg",
+			"VideoOwnerChannelTitle": "STAGE d\u0027ORO"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "JtZXEEBnD8M",
+			"VideoPublishedAtRaw": "2025-02-25T02:14:27Z",
+			"VideoPublishedAtDateTimeOffset": "2025-02-25T02:14:27+00:00",
+			"VideoPublishedAt": "2025-02-25T07:44:27+05:30"
+		},
+		"ETag": "ntDhfkOJJhK70vRmCLNVJFhgxkk",
+		"Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30AB\u30DA\u30EB / \u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\n\nI. Moderato 0:00\nII. Adagio sostenuto 9:54\nIII. Allegro scherzando 20:37\n\nWilliam Kapell, piano\nLeonard Bernstein, conductor\nNew York Philharmonic \nRecorded February 18, 1951\n\n*This is a non-commercial video. I do not monetize off of my videos and share them in the context of educational purposes under Fair Use of the Copyright Law of the United States of America and the Copyright Act of Taiwan*. All ads if any are from copyright claimers.*\n\n[*Taiwan is officially known as the \u0022Republic of China (Taiwan)\u0022]",
+			"PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+			"Position": 34,
+			"PublishedAtRaw": "2026-01-14T06:39:02Z",
+			"PublishedAtDateTimeOffset": "2026-01-14T06:39:02+00:00",
+			"PublishedAt": "2026-01-14T12:09:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "JtZXEEBnD8M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/JtZXEEBnD8M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/JtZXEEBnD8M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/JtZXEEBnD8M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/JtZXEEBnD8M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/JtZXEEBnD8M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "William Kapell \u0026 Leonard Bernstein - Rachmaninoff\u0027s Piano Concerto No. 2\u300CLive 1951, Stereo Remaster\u300D",
+			"VideoOwnerChannelId": "UCHqvquPEKO3kJNo4wy6xoNw",
+			"VideoOwnerChannelTitle": "wayneongaku"
+		}
+	}
+]

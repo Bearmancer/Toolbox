@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="src\App\App.csproj" />
-  <Project Path="src\Services\Azure\Azure.csproj" />
-  <Project Path="src\Services\Google\Google.csproj" />
-  <Project Path="src\CLI\CLI.csproj" />
-  <Project Path="src\Core\Core.csproj" />
-</Solution>

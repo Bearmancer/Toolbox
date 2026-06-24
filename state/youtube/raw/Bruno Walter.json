@@ -1,0 +1,1047 @@
+[
+  {
+    "ContentDetails": {
+      "VideoId": "9_f90CKyEP4",
+      "VideoPublishedAtRaw": "2024-06-21T04:25:47Z",
+      "VideoPublishedAtDateTimeOffset": "2024-06-21T04:25:47+00:00",
+      "VideoPublishedAt": "2024-06-21T09:55:47+05:30"
+    },
+    "ETag": "PdZU8Iy4NcBmzLGPVHQUwupdzYc",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Another recording off the radio from the weekly broadcast of the NY Philharmonic. This broadcast from 1954 is introduced by Jim Fassett as Mozart\u0027s Piano Concerto No 14 in Eb Major, K. 449. English pianist Dame Myra Hess plays this impressive piece conducted by German conductor Bruno Walter. \n\nTechnical information: \n7\u0022 Cine Reel \nScotch - unknown type of tape\n7 1/2 IPS\nAs typical with these recordings in the archive it gets distorted in the loudest parts but sounds great otherwise. \n\n\n00:00 - Intro by Jim Fassett\n02:43 - Allegro vivace\n10:05 - Andantino\n18:49 - Allegro ma non troppo",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 0,
+      "PublishedAtRaw": "2025-01-01T10:53:20Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T10:53:20+00:00",
+      "PublishedAt": "2025-01-01T16:23:20+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "9_f90CKyEP4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/9_f90CKyEP4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/9_f90CKyEP4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/9_f90CKyEP4/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "1954 Mozart Piano Concerto No. 14 - Myra Hess, Bruno Walter NY Philharmonic",
+      "VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+      "VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Zp6AQwNnp5k",
+      "VideoPublishedAtRaw": "2023-01-13T14:27:55Z",
+      "VideoPublishedAtDateTimeOffset": "2023-01-13T14:27:55+00:00",
+      "VideoPublishedAt": "2023-01-13T19:57:55+05:30"
+    },
+    "ETag": "9JA8TP4miptfFXdCqW47VXTcFoA",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms  (1833 - 1897)\n\nSymphony no. 2  in D major op. 73\n\nI        Allegro non troppo\nII       Adagio non troppo - L\u0027istesso Tempo, ma grazioso\nIII      Allegretto grazioso (Quasi andantino) -  Presto ma non assai - Tempo I\nIV     Allegro con spirito\n\nBruno Walter, direttore\nNew York Philharmonic\nNew York, 1953",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 1,
+      "PublishedAtRaw": "2025-01-01T11:10:21Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:10:21+00:00",
+      "PublishedAt": "2025-01-01T16:40:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Zp6AQwNnp5k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Zp6AQwNnp5k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Zp6AQwNnp5k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Zp6AQwNnp5k/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Zp6AQwNnp5k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Zp6AQwNnp5k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms:   Symphony no. 2  in D major op. 73   -   Bruno Walter, direttore; New York Philharmonic",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sRrQazUl5Yo",
+      "VideoPublishedAtRaw": "2023-03-03T20:04:47Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-03T20:04:47+00:00",
+      "VideoPublishedAt": "2023-03-04T01:34:47+05:30"
+    },
+    "ETag": "oGd9r4t07JvDPOSC8ItxRR2V38E",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms  (1833 - 1897)\n\nSymphony no. 4  in E minor op. 98\n\nI       Allegro non troppo\nII      Andante moderato\nIII     Allegro giocoso\nIV     Allegro energico e passionato\n\nBruno Walter, direttore\nNew York Philharmonic\nNew York, 1951",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 2,
+      "PublishedAtRaw": "2025-01-01T11:10:28Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:10:28+00:00",
+      "PublishedAt": "2025-01-01T16:40:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sRrQazUl5Yo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sRrQazUl5Yo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sRrQazUl5Yo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/sRrQazUl5Yo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sRrQazUl5Yo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sRrQazUl5Yo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms:   Symphony no. 4  in E minor op. 98  -  Bruno Walter, direttore; New York Philharmonic",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cZBHJ6r_uN8",
+      "VideoPublishedAtRaw": "2023-09-04T12:59:06Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-04T12:59:06+00:00",
+      "VideoPublishedAt": "2023-09-04T18:29:06+05:30"
+    },
+    "ETag": "pBhfRnvoQ2SBe9MQkNgrXdVgW-Q",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms  (1833 - 1897)\n\nViolin Concerto op. 77\n\nI       Allegro non troppo\nII      Adagio\nIII     Allegro giocoso, ma non troppo vivace\n\nErica Morini, violino\nBruno Walter, direttore\nNew York Philharmonic Orchestra\nNew York, 1952",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 3,
+      "PublishedAtRaw": "2025-01-01T11:07:55Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:07:55+00:00",
+      "PublishedAt": "2025-01-01T16:37:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cZBHJ6r_uN8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/cZBHJ6r_uN8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/cZBHJ6r_uN8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/cZBHJ6r_uN8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/cZBHJ6r_uN8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/cZBHJ6r_uN8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms:   Violin Concerto op. 77  -  Erica Morini; Bruno Walter; New York Philharmonic Orchestra",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7GZQVhAzKOw",
+      "VideoPublishedAtRaw": "2023-10-28T14:24:29Z",
+      "VideoPublishedAtDateTimeOffset": "2023-10-28T14:24:29+00:00",
+      "VideoPublishedAt": "2023-10-28T19:54:29+05:30"
+    },
+    "ETag": "bpQijPP4NPng7XNfn0S1E8nAXWE",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton Bruckner   (1824 - 1896)\n\nSymphony n. 9 in D moll\n\nI     Feierlich, misterioso\n\nII     Scherzo: Bewegt, lebhaft\n       Trio: Schnell - Da capo: Scherzo\n\nIII    Adagio: Langsam, feierlich\n\nBruno Walter, direttore\nNew York Philharmonic Orchestra\nNew York, 1953",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 4,
+      "PublishedAtRaw": "2025-01-01T11:06:24Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:06:24+00:00",
+      "PublishedAt": "2025-01-01T16:36:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7GZQVhAzKOw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7GZQVhAzKOw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7GZQVhAzKOw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7GZQVhAzKOw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7GZQVhAzKOw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7GZQVhAzKOw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner:   Symphony n.  9 in D moll   -  Bruno Walter; New York Philharmonic Orchestra",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cachFKS52-A",
+      "VideoPublishedAtRaw": "2024-07-11T08:58:20Z",
+      "VideoPublishedAtDateTimeOffset": "2024-07-11T08:58:20+00:00",
+      "VideoPublishedAt": "2024-07-11T14:28:20+05:30"
+    },
+    "ETag": "9sjFky5cz5oYN24voaxPf4MuWSs",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton Bruckner   (1824 - 1896)\n\nTe Deum in do maggiore\n\nI     Te Deum laudamus - Allegro, Feierlich, mit Kraft\nII     Te ergo quaesumus - Moderato\nIII     Aeterna fac - Allegro, Feierlich, mit Kraft\nIV     Salvum fac populum tuum - Moderato\nV     In Te, Domine speravi - M\u00E4\u00DFig bewegt\n\nHilde Guden, Hilde Zadek, Erich Majkut, Gottlob Frick\nBruno Walter, direttore\nWiener Philharmoniker\nlive Wien, 1955",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 5,
+      "PublishedAtRaw": "2025-01-01T10:52:39Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T10:52:39+00:00",
+      "PublishedAt": "2025-01-01T16:22:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cachFKS52-A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/cachFKS52-A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/cachFKS52-A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/cachFKS52-A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/cachFKS52-A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner:   Te Deum  -  Hilde Guden, Hilde Zadek, Erich Majkut, Gottlob Frick, Bruno Walter",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "00KX8qyvGF8",
+      "VideoPublishedAtRaw": "2024-05-08T09:17:11Z",
+      "VideoPublishedAtDateTimeOffset": "2024-05-08T09:17:11+00:00",
+      "VideoPublishedAt": "2024-05-08T14:47:11+05:30"
+    },
+    "ETag": "DpB2jP1ATFYnONMU16a7rC5lyBk",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mozart Mottet, \u201CExsultate, Jubilate\u201D for Soprano, Orchestra and Organ, K. 165 \nIrmgard Seefried soprano\nBruckner: Symphony No. 9, D minor\nNew York Philharmonic \nBruno Walter\nCarnegie Hall, 27 dicembre 1953",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 6,
+      "PublishedAtRaw": "2025-01-01T10:54:05Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T10:54:05+00:00",
+      "PublishedAt": "2025-01-01T16:24:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "00KX8qyvGF8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/00KX8qyvGF8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/00KX8qyvGF8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/00KX8qyvGF8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/00KX8qyvGF8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruno Walter dirige Mozart Exsultate Jubilate \u0026 Bruckner Sinfonia No.9",
+      "VideoOwnerChannelId": "UCgUyT8pXbSa7UXpiTBzCTug",
+      "VideoOwnerChannelTitle": "Luciano Crivello"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "U0F4sRTQEwo",
+      "VideoPublishedAtRaw": "2022-11-10T09:00:16Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-10T09:00:16+00:00",
+      "VideoPublishedAt": "2022-11-10T14:30:16+05:30"
+    },
+    "ETag": "ZXkNW-ZreLwChy5Wz-lb5HN932E",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Bruno Walter - New York Philharmonic (22.02.48)\n\nhttps://en.wikipedia.org/wiki/Douglas_Moore",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 7,
+      "PublishedAtRaw": "2025-01-01T11:11:24Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:11:24+00:00",
+      "PublishedAt": "2025-01-01T16:41:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "U0F4sRTQEwo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/U0F4sRTQEwo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/U0F4sRTQEwo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/U0F4sRTQEwo/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Douglas Moore Symphony No.2 - Bruno Walter / NYP (1948)",
+      "VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+      "VideoOwnerChannelTitle": "goodmanmusica"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zr-3RNw_njU",
+      "VideoPublishedAtRaw": "2023-10-31T10:34:01Z",
+      "VideoPublishedAtDateTimeOffset": "2023-10-31T10:34:01+00:00",
+      "VideoPublishedAt": "2023-10-31T16:04:01+05:30"
+    },
+    "ETag": "G1kzoQBXRuDBV9pKG-duJ-o-Oz8",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart   (1756 - 1791)\n\nSymphony no. 40 in G minor K550\n\nI       Molto allegro\nII      Andante\nIII     Menuetto: Allegretto\nIV     Finale: Allegro assai\n\nBruno Walter, direttore\nBerliner Philharmoniker\nBerlin, 1950",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 8,
+      "PublishedAtRaw": "2025-01-01T11:06:12Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:06:12+00:00",
+      "PublishedAt": "2025-01-01T16:36:12+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zr-3RNw_njU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zr-3RNw_njU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zr-3RNw_njU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zr-3RNw_njU/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Mozart Symphony no  40 K550 Bruno Walter  685v 3 1 4",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "u6ynPHIFUvI",
+      "VideoPublishedAtRaw": "2024-07-08T14:01:33Z",
+      "VideoPublishedAtDateTimeOffset": "2024-07-08T14:01:33+00:00",
+      "VideoPublishedAt": "2024-07-08T19:31:33+05:30"
+    },
+    "ETag": "txXtzaNlntg-F1Egr8frexKLljw",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart   (1756 - 1791)\n\nPiano Concerto no. 20 in D minor K466\n\nI       Allegro\nII      Romance\nIII     Rondo. Allegro assai\n\nMyra Hess, piano\nBruno Walter,  direttore\nNew York Philharmonic Orchestra\nlive New York, 1956",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 9,
+      "PublishedAtRaw": "2025-01-01T10:53:02Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T10:53:02+00:00",
+      "PublishedAt": "2025-01-01T16:23:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "u6ynPHIFUvI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/u6ynPHIFUvI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/u6ynPHIFUvI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/u6ynPHIFUvI/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Mozart:   Piano Concerto no. 20 in D minor K466  -   Myra Hess, Bruno Walter (live 1956)",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "NxaEuZIRbVU",
+      "VideoPublishedAtRaw": "2024-07-08T17:09:44Z",
+      "VideoPublishedAtDateTimeOffset": "2024-07-08T17:09:44+00:00",
+      "VideoPublishedAt": "2024-07-08T22:39:44+05:30"
+    },
+    "ETag": "sbkj_YiIC9Rl79YSWaXFYUQo3pU",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart  (1756 - 1791)\n\nSymphony no. 36 in C major K425\n\u0022Linz\u0022\n\nI       Adagio - Allegro spiritoso\nII      Poco Adagio\nIII     Menuetto\nIV     Presto\n\nBruno Walter,  direttore\nOrchestre National de France\nlive Paris, 1956",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 10,
+      "PublishedAtRaw": "2025-01-01T10:52:58Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T10:52:58+00:00",
+      "PublishedAt": "2025-01-01T16:22:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "NxaEuZIRbVU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/NxaEuZIRbVU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/NxaEuZIRbVU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/NxaEuZIRbVU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/NxaEuZIRbVU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/NxaEuZIRbVU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart:  Symphony no. 36 in C K425 \u0022Linz\u0022  -  Bruno Walter; Orchestre National de France (live 1956)",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "AZT9MFHuCyg",
+      "VideoPublishedAtRaw": "2024-07-09T09:00:39Z",
+      "VideoPublishedAtDateTimeOffset": "2024-07-09T09:00:39+00:00",
+      "VideoPublishedAt": "2024-07-09T14:30:39+05:30"
+    },
+    "ETag": "9MR9RzXzOIIWjlQAM_lMIwZSM5g",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart   (1756 - 1791)\n\nSymphony no. 38 in D major K504\n\u0022Prager\u0022\n\nI       Adagio - Allegro\nII      Andante\nIII     Finale. Presto\n\nBruno Walter,  direttore\nOrchestre National de France\nlive Paris, 1955",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 11,
+      "PublishedAtRaw": "2025-01-01T10:52:53Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T10:52:53+00:00",
+      "PublishedAt": "2025-01-01T16:22:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "AZT9MFHuCyg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/AZT9MFHuCyg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/AZT9MFHuCyg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/AZT9MFHuCyg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/AZT9MFHuCyg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart:  Symphony no. 38 in D K504 \u0022Prager\u0022 - Bruno Walter; Orchestre National de France (live 1955)",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mjdSzRtuxIY",
+      "VideoPublishedAtRaw": "2022-11-04T22:05:26Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-04T22:05:26+00:00",
+      "VideoPublishedAt": "2022-11-05T03:35:26+05:30"
+    },
+    "ETag": "mNbhPxx7h8VSQICH8u_k8Uq4ZXI",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann. Symphony no. 1 in Bb major, op. 38.\nNew York Philharmonic; Bruno Walter, conductor.\nRecorded live in Carnegie Hall, 16 December 1945.\n\nI. Andante un poco maestoso - Allegro molto vivace (0:00)\nIIl. Larghetto (9:48)\nIII. Scherzo. Molto vivace (16:30)\nIV. Lebhaft (22:07)",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 12,
+      "PublishedAtRaw": "2025-01-01T11:11:52Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:11:52+00:00",
+      "PublishedAt": "2025-01-01T16:41:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mjdSzRtuxIY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mjdSzRtuxIY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mjdSzRtuxIY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mjdSzRtuxIY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mjdSzRtuxIY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mjdSzRtuxIY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann\u0027s First: Bruno Walter and the New York Philharmonic, live in 1945.",
+      "VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
+      "VideoOwnerChannelTitle": "Music Lover"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "LKzdbzzt_Mc",
+      "VideoPublishedAtRaw": "2022-11-04T21:34:49Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-04T21:34:49+00:00",
+      "VideoPublishedAt": "2022-11-05T03:04:49+05:30"
+    },
+    "ETag": "YH6RsL5nfdyIH1PWAiP6LscYHao",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann. Symphony no. 4 in D minor, op. 120.\nNBC Symphony Orchestra; Bruno Walter, condutor.\nRecorded live 2 March 1940.\n\nI. Ziemlich langsam - Lebhaft (0:00)\nII. Romanza. Ziemlich langsam (8:36)\nIII. Scherzo. Lebhaft (12:45)\nIV. Lebhaft (18:14)",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 13,
+      "PublishedAtRaw": "2025-01-01T11:11:57Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:11:57+00:00",
+      "PublishedAt": "2025-01-01T16:41:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "LKzdbzzt_Mc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/LKzdbzzt_Mc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/LKzdbzzt_Mc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/LKzdbzzt_Mc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/LKzdbzzt_Mc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/LKzdbzzt_Mc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann\u0027s Fourth: Bruno Walter and NBC, 1940 (live)",
+      "VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
+      "VideoOwnerChannelTitle": "Music Lover"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "tQ3wuBmIBVM",
+      "VideoPublishedAtRaw": "2022-05-17T09:44:54Z",
+      "VideoPublishedAtDateTimeOffset": "2022-05-17T09:44:54+00:00",
+      "VideoPublishedAt": "2022-05-17T15:14:54+05:30"
+    },
+    "ETag": "Siu-oJMw6wPjvWcsr6KW3uml1aw",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann  (1810 - 1856)\n\nSymphony no. 4 in D minor op. 120\n\nI         Ziemlich langsam - Lebhaft\nII       Romanze. Ziemlich langsam\nIII      Scherzo. Lebhaft - Trio\nIV     Langsam - Lebhaft\n\nBruno Walter, direttore\nN.B.C. SYmphony\nNew York, 1940",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 14,
+      "PublishedAtRaw": "2025-01-01T11:14:13Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:14:13+00:00",
+      "PublishedAt": "2025-01-01T16:44:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "tQ3wuBmIBVM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/tQ3wuBmIBVM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/tQ3wuBmIBVM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/tQ3wuBmIBVM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/tQ3wuBmIBVM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/tQ3wuBmIBVM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann:   Symphony no. 4 in D minor op. 120   -   Bruno Walter, direttore; N.B.C. SYmphony",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "XncK1yQ1DsE",
+      "VideoPublishedAtRaw": "2022-05-18T06:49:48Z",
+      "VideoPublishedAtDateTimeOffset": "2022-05-18T06:49:48+00:00",
+      "VideoPublishedAt": "2022-05-18T12:19:48+05:30"
+    },
+    "ETag": "QQGg8oUdNXLqN3n8ymUn3i0kKv8",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann (1810 - 1856)\n\nSymphony no. 3 in E flat major op. 97 \u0022Rhenish\u0022\n\nI       Lebhaft\nII      Scherzo (Sehr m\u00E4\u00DFig)\nIII     Nicht schnell\nIV     Feierlicht\nV      Lebhaft\n\nBruno Walter, direttore\nNew York Philharmonic Orchestra\nNew York, 1941",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 15,
+      "PublishedAtRaw": "2025-01-01T11:14:08Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:14:08+00:00",
+      "PublishedAt": "2025-01-01T16:44:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "XncK1yQ1DsE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/XncK1yQ1DsE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/XncK1yQ1DsE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/XncK1yQ1DsE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/XncK1yQ1DsE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/XncK1yQ1DsE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann: Symphony no. 3 in E flat major op. 97 \u0022Rhenish\u0022 - Bruno Walter, direttore; NY Philharmonic",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6v7WNATyOp0",
+      "VideoPublishedAtRaw": "2023-03-05T07:56:52Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-05T07:56:52+00:00",
+      "VideoPublishedAt": "2023-03-05T13:26:52+05:30"
+    },
+    "ETag": "aFQJAmQkonN_eRHNn1H70yWhRDs",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss  (1864 - 1949)\n\nTod und Verkl\u00E4rung op. 24\n\nBruno Walter, direttore\nBerliner Philharmoniker\nBerlin, 1950",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 16,
+      "PublishedAtRaw": "2025-01-01T11:09:55Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:09:55+00:00",
+      "PublishedAt": "2025-01-01T16:39:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6v7WNATyOp0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6v7WNATyOp0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6v7WNATyOp0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6v7WNATyOp0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6v7WNATyOp0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6v7WNATyOp0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Strauss R.:   Tod und Verkl\u00E4rung op. 24   -   Bruno Walter, direttore; Berliner Philharmoniker",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "c3D8rxitx9g",
+      "VideoPublishedAtRaw": "2023-06-19T09:18:23Z",
+      "VideoPublishedAtDateTimeOffset": "2023-06-19T09:18:23+00:00",
+      "VideoPublishedAt": "2023-06-19T14:48:23+05:30"
+    },
+    "ETag": "wv0A4DZaCiYdIHg9sdN5S2-qoVI",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss   (1864 - 1949)\n\nTod und Verkl\u00E4rung op. 24\n(Death and Transiguration)\n\nBruno Walter, direttore\nNew York Philharmonic\nNew York, 1952",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 17,
+      "PublishedAtRaw": "2025-01-01T11:08:48Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:08:48+00:00",
+      "PublishedAt": "2025-01-01T16:38:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "c3D8rxitx9g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/c3D8rxitx9g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/c3D8rxitx9g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/c3D8rxitx9g/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/c3D8rxitx9g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/c3D8rxitx9g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Strauss R.:   Tod und Verkl\u00E4rung op. 24 (Death and Transiguration)  -  Bruno Walter; NY Philharmonic",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "9dTnhO73Xc8",
+      "VideoPublishedAtRaw": "2022-05-17T15:06:39Z",
+      "VideoPublishedAtDateTimeOffset": "2022-05-17T15:06:39+00:00",
+      "VideoPublishedAt": "2022-05-17T20:36:39+05:30"
+    },
+    "ETag": "kKScMhZVewIjYBkz_XlNffoR5eU",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pyotr Ilyich Tchaikovsky  (1840 - 1893)\n\nSymphony no. 5 in E minor op. 64\n\nI       Andante - Allegro con anima\nII     Andante cantabile, con alcune licenze\n       Moderato con anima - Andante mosso\n       Allegro non troppo - Tempo I\nIII     Valse- Allegro moderato\nIV     Finale- Andante maestoso\n        Allegro vivace - Molto vivace\n        Moderato assai e molto maestoso - Presto\n\nBruno Walter, direttore\nN.B.C. SYmphony\nNew York, 1940",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 18,
+      "PublishedAtRaw": "2025-01-01T11:14:05Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T11:14:05+00:00",
+      "PublishedAt": "2025-01-01T16:44:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "9dTnhO73Xc8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/9dTnhO73Xc8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/9dTnhO73Xc8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/9dTnhO73Xc8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/9dTnhO73Xc8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/9dTnhO73Xc8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky:   Symphony no. 5 in E minor op. 64   -   Bruno Walter, direttore; N.B.C. SYmphony",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "q0NS2jn-KgU",
+      "VideoPublishedAtRaw": "2024-05-27T07:06:05Z",
+      "VideoPublishedAtDateTimeOffset": "2024-05-27T07:06:05+00:00",
+      "VideoPublishedAt": "2024-05-27T12:36:05+05:30"
+    },
+    "ETag": "EYhmYHHmr9S3V2GN_4aM36L7lJ4",
+    "Id": "UEwxemdOQ29XdF83WjV2aG9TekpMbEhmdTZNTjNqN293Vy4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "P. Tchaikovsky\nPiano Concerto No. 1 in B flat minor, Op. 23\n\uCC28\uC774\uCF65\uC2A4\uD0A4 \uD53C\uC544\uB178 \uD611\uC8FC\uACE1 1\uBC88, \uC791\uD488\uBC88\uD638 23\uBC88\n...................\n00:00 I. Allegro non troppo e molto maestoso\n14:20 Cadenza\n18:30 II. Andantino simplice\n24:46 III. Allegro con fuoco\n\nsmall part missing in the First Movement, 9:18\n...................\npiano: Vladimir Horowitz\nconductor: Bruno Walter\norchestra: New York Philharmonic\n...................\nRecording Information:\nRadio Broadcast (And Yale Collection)\n\nApril 11, 1948\nCarnegie Hall, New York City, New York (Live)\n...................\nIn my opinion, this is the best Tchaikovsky Concerto Recording of all time.\n...................\nComplete Vladimir Horowitz 1948 recordings:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdE46NOZAR4sFULFAJpQWnH\n\nLegend Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXco_U-2dx6r8HyfU28Vt_sp\n\nComplete Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdUmk5NGZXnVUnAaO7D9Qap\n\nOther Vladimir Horowitz Tchaikovsky Concerto No. 1 Performances:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXc0DaNA9HPUHDth-JKMX1u_\n...................\n(Only for Korean viewers)\n\uD55C\uAD6D\uC778 \uC2DC\uCCAD\uC790\uBD84\uB4E4, \uD638\uB85C\uBE44\uCE20 \uBC0F 20\uC138\uAE30 \uD53C\uC544\uB2C8\uC2A4\uD2B8 \uC774\uC57C\uAE30 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uBD84\uB4E4\uC740 \uC544\uB798 \uC624\uD508\uCC44\uD305\uBC29\uC73C\uB85C \uC624\uC2DC\uBA74 \uAC10\uC0AC\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4!\nhttps://open.kakao.com/o/g5suCaug\n\n\uB2E4\uB4E4 \uC601\uC0C1 \uC2DC\uCCAD\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694!",
+      "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
+      "Position": 19,
+      "PublishedAtRaw": "2025-01-01T10:53:27Z",
+      "PublishedAtDateTimeOffset": "2025-01-01T10:53:27+00:00",
+      "PublishedAt": "2025-01-01T16:23:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "q0NS2jn-KgU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/q0NS2jn-KgU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Vladimir Horowitz-Walter: Tchaikovsky Piano Concerto No. 1, Op. 23 (1948/New York Philharmonic)",
+      "VideoOwnerChannelId": "UC9l9oD3bVIc0i73niINJ3Xg",
+      "VideoOwnerChannelTitle": "Vladimir Horowitz Archive: VHA"
+    }
+  }
+]

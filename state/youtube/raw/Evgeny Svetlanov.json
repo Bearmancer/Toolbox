@@ -1,0 +1,382 @@
+[
+	{
+		"ContentDetails": {
+			"VideoId": "iU0KpgBgXLU"
+		},
+		"ETag": "aivFjZ7VAyNx5WbY3KObUTxQKqE",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 0,
+			"PublishedAtRaw": "2025-04-13T13:38:35Z",
+			"PublishedAtDateTimeOffset": "2025-04-13T13:38:35+00:00",
+			"PublishedAt": "2025-04-13T19:08:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iU0KpgBgXLU"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "DmN5a7YRBR0"
+		},
+		"ETag": "pJ1gzO5SMNRky2O7keR9Y4qkxYw",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 1,
+			"PublishedAtRaw": "2024-12-11T21:13:22Z",
+			"PublishedAtDateTimeOffset": "2024-12-11T21:13:22+00:00",
+			"PublishedAt": "2024-12-12T02:43:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "DmN5a7YRBR0"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kaAIJmwre1E"
+		},
+		"ETag": "gSYkhdzXaCaUigCK0i_qkOrJZkc",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 2,
+			"PublishedAtRaw": "2026-03-29T04:53:01Z",
+			"PublishedAtDateTimeOffset": "2026-03-29T04:53:01+00:00",
+			"PublishedAt": "2026-03-29T10:23:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kaAIJmwre1E"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "e0iUtBJ77WA"
+		},
+		"ETag": "Xh1SuYhFEu--rSlDMIthgH1jTeY",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 3,
+			"PublishedAtRaw": "2026-02-08T07:57:22Z",
+			"PublishedAtDateTimeOffset": "2026-02-08T07:57:22+00:00",
+			"PublishedAt": "2026-02-08T13:27:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "e0iUtBJ77WA"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "9wYCsGATfXg"
+		},
+		"ETag": "qcmPN0KA0o1bdvfM32_LTgj7fco",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 4,
+			"PublishedAtRaw": "2026-03-29T04:52:02Z",
+			"PublishedAtDateTimeOffset": "2026-03-29T04:52:02+00:00",
+			"PublishedAt": "2026-03-29T10:22:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9wYCsGATfXg"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kjANBvMBkrw",
+			"VideoPublishedAtRaw": "2016-12-19T19:01:45Z",
+			"VideoPublishedAtDateTimeOffset": "2016-12-19T19:01:45+00:00",
+			"VideoPublishedAt": "2016-12-20T00:31:45+05:30"
+		},
+		"ETag": "AOWBi6kniiQJ5Y4h2CS8tJcU-rI",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Hugo Alfv\u00E9n (1872-1960)\nSYMPHONY NO. 2 in D major, Op. 11\nSwedish Radio Symphony Orchestra\nEVGENY SVETLANOV, cond.\nRecording: Berwaldhallen, Stockholm, 12 \u0026 13 September 1988\n\nI. Moderato (0:00)\nII. Andante (15:36)\nIII. Allegro (34:24)\nIV. Preludio. Adagio (44:37) - Fuga. Allegro energico (51:50)",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 5,
+			"PublishedAtRaw": "2025-08-31T04:28:29Z",
+			"PublishedAtDateTimeOffset": "2025-08-31T04:28:29+00:00",
+			"PublishedAt": "2025-08-31T09:58:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kjANBvMBkrw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kjANBvMBkrw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kjANBvMBkrw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kjANBvMBkrw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kjANBvMBkrw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kjANBvMBkrw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Alfv\u00E9n: Symphony No. 2 - Swedish Radio Symphony Orchestra/Svetlanov (1988)",
+			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+			"VideoOwnerChannelTitle": "Wahnfried"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "efWlFc-Yqg8",
+			"VideoPublishedAtRaw": "2025-12-06T12:01:30Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-06T12:01:30+00:00",
+			"VideoPublishedAt": "2025-12-06T17:31:30+05:30"
+		},
+		"ETag": "G6x6YdwccYayX5sNlkLfcQ4eBrk",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "mahler  symphony no.7\n\ni.   langsam \u2013 allegro risoluto, ma non troppo ( 0:00 - )\nii.  nachtmusik i ( 24:44 - )\niii. scherzo ( 44:17 - )\niv. nachtmusik ii ( 55:12 - )\nv.  rondo finale ( 1:09:44 - )\n\n( live recording.  aug 9, 1995  sweden )\n\n\n\n\n*. source : wme cd-r (modified)\n*. e. svetlanov            swedish radio symphony orchestra",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 6,
+			"PublishedAtRaw": "2025-12-08T08:12:17Z",
+			"PublishedAtDateTimeOffset": "2025-12-08T08:12:17+00:00",
+			"PublishedAt": "2025-12-08T13:42:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "efWlFc-Yqg8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/efWlFc-Yqg8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/efWlFc-Yqg8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/efWlFc-Yqg8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/efWlFc-Yqg8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/efWlFc-Yqg8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "mahler  symphony no.7 ( e. svetlanov )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "L1Z2jsH77ng",
+			"VideoPublishedAtRaw": "2023-06-16T13:15:02Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-16T13:15:02+00:00",
+			"VideoPublishedAt": "2023-06-16T18:45:02+05:30"
+		},
+		"ETag": "PKQ9QDhizoW-pNnHhvuJaYs1pVM",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "r. strauss  sinfon\u00EDa alpina, op.60\n\n\n\n( grabaci\u00F3n en vivo.  17.9.1993  estocolmo )\n\n\n\n*. source : vibrato cd-r\n*. e. svetlanov       orquesta sinf\u00F3nica de la radio sueca",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 7,
+			"PublishedAtRaw": "2024-12-11T21:14:26Z",
+			"PublishedAtDateTimeOffset": "2024-12-11T21:14:26+00:00",
+			"PublishedAt": "2024-12-12T02:44:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "L1Z2jsH77ng"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/L1Z2jsH77ng/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/L1Z2jsH77ng/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/L1Z2jsH77ng/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/L1Z2jsH77ng/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "r. strauss  sinfon\u00EDa alpina, op.60 ( e. svetlanov )",
+			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "cVV6yAxQSZo",
+			"VideoPublishedAtRaw": "2026-04-29T14:41:34Z",
+			"VideoPublishedAtDateTimeOffset": "2026-04-29T14:41:34+00:00",
+			"VideoPublishedAt": "2026-04-29T20:11:34+05:30"
+		},
+		"ETag": "V3pyuXmo3fhAkfd8ZOpBEtmdzno",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "WARNING: The version performed here is the so called \u0022Soviet ending\u0022 which is an unofficial, louder alternative to the original quiet finale. Here the hushed closing pages (which traditionally feature an organ and signify Manfred\u0027s redemption and death) are omitted, and instead substituted by a fortissimo reprise of the main \u0022Manfred\u0022 theme from the end of the first movement.\n\nI did not have the full details of the concert in my notes, but with many thanks to http://www.youtube.com/@Gralsritter who has done some excellent detective work, I can now say that the performance was given  on 9th November 1995 in the  Th\u00E9\u00E2tre des Champs-\u00C9lys\u00E9es, Paris. The programme also included Miaskovsky Symphony no 25 which I am afraid I do not have. It was was not broadcast until 31 July 1996 in the UK.\n\nOrchestre National de France\nconducted by\nEvgeny Svetlanov\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/ef687766dde7470f817ec49fad6da723\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 8,
+			"PublishedAtRaw": "2026-05-08T18:42:59Z",
+			"PublishedAtDateTimeOffset": "2026-05-08T18:42:59+00:00",
+			"PublishedAt": "2026-05-09T00:12:59+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "cVV6yAxQSZo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/cVV6yAxQSZo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/cVV6yAxQSZo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/cVV6yAxQSZo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/cVV6yAxQSZo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/cVV6yAxQSZo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky Manfred Symphony - Orchestre National de France - Evgeny Svetlanov (1995)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VtRgMhXQD5M",
+			"VideoPublishedAtRaw": "2026-01-15T11:38:19Z",
+			"VideoPublishedAtDateTimeOffset": "2026-01-15T11:38:19+00:00",
+			"VideoPublishedAt": "2026-01-15T17:08:19+05:30"
+		},
+		"ETag": "6rozq0ffGkp3yLi8WS1oGHCMf5U",
+		"Id": "UEwxemdOQ29XdF83YmRRZjVSYmxkSEVaSEZ5RGttT3ZKNC5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tchaikovsky: Symphony No.4\n1st movement   00:00\n2nd   17:41\n3rd    26:58\n4th    32:14\nYevgeny Svetlanov / USSR State Symphony orchestra\n24/5/1990 Tokyo, Suntory Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30A8\u30D5\u30B2\u30CB\u30FC\u30FB\u30B9\u30F4\u30A7\u30C8\u30E9\u30FC\u30CE\u30D5\u6307\u63EE\u3000\u30BD\u30D3\u30A8\u30C8\u56FD\u7ACB\u4EA4\u97FF\u697D\u56E3\n1990\u5E745\u670824\u65E5\u3000\u6771\u4EAC\u30FB\u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\u751F\u8A95150\u5468\u5E74\u8A18\u5FF5\u30C1\u30AF\u30EB\u30B9\u3088\u308A\u3002\u4ECA\u3084\u4F1D\u8AAC\u3068\u5316\u3057\u305F\u3053\u306E\u30B3\u30F3\u30D3\u306E\u7206\u767A\u529B\u3092\u582A\u80FD\u3057\u307E\u3057\u3087\u3046\u3002",
+			"PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
+			"Position": 9,
+			"PublishedAtRaw": "2026-02-08T07:44:21Z",
+			"PublishedAtDateTimeOffset": "2026-02-08T07:44:21+00:00",
+			"PublishedAt": "2026-02-08T13:14:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VtRgMhXQD5M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VtRgMhXQD5M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VtRgMhXQD5M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VtRgMhXQD5M/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Tchaikovsky: Symphony No.4     Y. Svetlanov / USSR State SO 1990 live in Japan",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	}
+]
