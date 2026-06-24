@@ -12,10 +12,10 @@ public static class GoogleSetup
         var credentials = GoogleCredentials.Read();
         services.AddSingleton(credentials);
 
-        // Credential is user-interactive on first run; cached to %AppData% after.
-        // Subsequent runs are silent (refresh token reused).
         services.AddSingleton(_ => BuildYouTubeService(credentials));
         services.AddSingleton<YoutubeService>();
+        services.AddSingleton<YouTubeTranslationService>();
+        services.AddSingleton<YouTubePlaylistOrchestrator>();
 
         return services;
     }
@@ -39,6 +39,4 @@ public static class GoogleSetup
             ApplicationName = "AzureAI",
         });
     }
-
-
 }

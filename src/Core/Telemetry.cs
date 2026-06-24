@@ -21,23 +21,63 @@ public static class Telemetry
             .MinimumLevel.ControlledBy(LevelSwitch)
             .WriteTo.File(
                 new CompactJsonFormatter(),
-                "logs/app.jsonl",
+                "logs/azureai-all-.jsonl",
                 rollingInterval: RollingInterval.Day,
                 retainedFileCountLimit: 7)
             .WriteTo.Logger(lc => lc
                 .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("Azure"))
+                    && e.Properties["Service"].ToString().Contains("Translate"))
                 .WriteTo.File(
                     new CompactJsonFormatter(),
-                    "logs/azure.jsonl",
+                    "logs/azureai-translate-.jsonl",
                     rollingInterval: RollingInterval.Day,
                     retainedFileCountLimit: 7))
             .WriteTo.Logger(lc => lc
                 .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("Google"))
+                    && e.Properties["Service"].ToString().Contains("YouTube"))
                 .WriteTo.File(
                     new CompactJsonFormatter(),
-                    "logs/google.jsonl",
+                    "logs/azureai-youtube-.jsonl",
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7))
+            .WriteTo.Logger(lc => lc
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
+                    && e.Properties["Service"].ToString().Contains("Vision"))
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    "logs/azureai-vision-.jsonl",
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7))
+            .WriteTo.Logger(lc => lc
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
+                    && e.Properties["Service"].ToString().Contains("Speech"))
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    "logs/azureai-speech-.jsonl",
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7))
+            .WriteTo.Logger(lc => lc
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
+                    && e.Properties["Service"].ToString().Contains("TextAnalytics"))
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    "logs/azureai-textanalytics-.jsonl",
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7))
+            .WriteTo.Logger(lc => lc
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
+                    && e.Properties["Service"].ToString().Contains("DocIntel"))
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    "logs/azureai-docintel-.jsonl",
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7))
+            .WriteTo.Logger(lc => lc
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
+                    && e.Properties["Service"].ToString().Contains("OpenAI"))
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    "logs/azureai-openai-.jsonl",
                     rollingInterval: RollingInterval.Day,
                     retainedFileCountLimit: 7))
             .WriteTo.Spectre();
@@ -50,6 +90,9 @@ public static class Telemetry
 
     public static IDisposable ForService(string service)
         => LogContext.PushProperty("Service", service);
+
+    public static IDisposable ForService<T>()
+        => LogContext.PushProperty("Service", typeof(T).Name.Replace("Service", ""));
 
     public static void Info(string template, params object[] args)
         => Log.Information(template, args);

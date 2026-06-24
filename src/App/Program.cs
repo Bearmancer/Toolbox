@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using CLI;
 using CLI.Azure;
 using Core;
@@ -25,7 +26,12 @@ public static class Program
         }
 
         Env.TraversePath().Load();
-        Telemetry.Configure(args.Contains("--debug"));
+
+        using var eventListener = new LoggingExplorerEventListener();
+        DiagnosticListener.AllListeners.Subscribe(new DiagnosticObserver());
+        Trace.Listeners.Add(new SerilogTraceListener());
+
+        Telemetry.Configure(args.Contains("--verbose"));
 
         var services = new ServiceCollection();
 
@@ -38,14 +44,6 @@ public static class Program
         {
             AnsiConsole.MarkupLineInterpolated($"[red]Configuration error:[/] {ex.Message}");
             return 2;
-        }
-
-        if (args.Contains("--test"))
-        {
-            using var cts = new CancellationTokenSource();
-            var provider = services.BuildServiceProvider();
-            await ManualIntegrationTest.RunAsync(provider, cts.Token);
-            return 0;
         }
 
         var registrar = new TypeRegistrar(services);

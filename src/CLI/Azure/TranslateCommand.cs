@@ -10,8 +10,8 @@ public class TranslateCommand(TranslateService service) : AsyncCommand<Translate
 {
     protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
     {
-        var result = await service.TranslateAsync(s.Text, s.To, s.From, ct);
-        AnsiConsole.MarkupLine(result);
+        var results = await service.TranslateBatchAsync([s.Text], s.To, ct);
+        AnsiConsole.MarkupLine(results[0].TranslatedText);
         return 0;
     }
 

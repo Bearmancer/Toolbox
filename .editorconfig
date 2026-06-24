@@ -23,7 +23,7 @@ csharp_style_prefer_primary_constructors = true:warning
 dotnet_diagnostic.IDE0290.severity = warning
 
 # ══════════════════════════════════════════════════════════════════════
-# 3. Collection expressions (IDE0300-IDE0306)
+# 5. Collection expressions (IDE0300-IDE0306)
 # ══════════════════════════════════════════════════════════════════════
 dotnet_style_prefer_collection_expression = when_types_loosely_match:warning
 dotnet_diagnostic.IDE0300.severity = warning
@@ -81,6 +81,13 @@ dotnet_diagnostic.CS0219.severity = none
 # ══════════════════════════════════════════════════════════════════════
 # Style rules that should not block build (suggestion only)
 # ══════════════════════════════════════════════════════════════════════
+
+# IDE0046: Use ternary expression instead of if-else
+# Suppressed because: Ternary expressions for multi-line throw patterns reduce
+# readability. An if-statement with a clear throw body is easier to scan than a
+# ternary that buries the exception in the middle of a return expression.
+# Example: if (x > max) throw new ...(); return y;  vs  x > max ? throw ... : y;
+dotnet_diagnostic.IDE0046.severity = suggestion
 
 # IDE0011: Add braces
 # Suggestion because: Single-line if/else statements are acceptable for simple cases.

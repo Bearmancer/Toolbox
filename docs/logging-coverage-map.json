@@ -1,0 +1,70 @@
+{
+  "YouTubePlaylistSync": {
+    "description": "Sync local state with YouTube playlists",
+    "steps": [
+      {
+        "id": "auth",
+        "name": "OAuth token acquisition",
+        "expectedLogs": ["Token acquired", "Token refresh"],
+        "source": "Google.Apis",
+        "mechanism": "TraceSource"
+      },
+      {
+        "id": "fetch-playlists",
+        "name": "Fetch playlist list from API",
+        "expectedLogs": ["Request sent", "Response received", "Pagination"],
+        "source": "Google.Apis",
+        "mechanism": "TraceSource"
+      },
+      {
+        "id": "fetch-videos",
+        "name": "Fetch video details (duration, status)",
+        "expectedLogs": ["Request sent", "Duration extracted", "Quota remaining"],
+        "source": "Google.Apis",
+        "mechanism": "TraceSource"
+      },
+      {
+        "id": "compare",
+        "name": "Compare fetched vs local state",
+        "expectedLogs": ["New videos found", "Changed videos", "Deleted videos"],
+        "source": "Your code",
+        "mechanism": "Telemetry.*"
+      },
+      {
+        "id": "persist",
+        "name": "Save state to disk",
+        "expectedLogs": ["State written", "Manifest updated"],
+        "source": "Your code",
+        "mechanism": "Telemetry.*"
+      },
+      {
+        "id": "quota",
+        "name": "Quota tracking",
+        "expectedLogs": ["Quota remaining", "Quota warning threshold"],
+        "source": "Your code",
+        "mechanism": "Telemetry.*"
+      },
+      {
+        "id": "translate",
+        "name": "Translate non-English videos",
+        "expectedLogs": ["Batch sent", "Results received", "English skipped"],
+        "source": "Azure + Your code",
+        "mechanism": "EventSource + Telemetry.*"
+      },
+      {
+        "id": "raw-dump",
+        "name": "Write raw API response to disk",
+        "expectedLogs": ["Raw file written", "Item count"],
+        "source": "Your code",
+        "mechanism": "Telemetry.*"
+      },
+      {
+        "id": "processed-dump",
+        "name": "Write processed videos to disk",
+        "expectedLogs": ["Processed file written", "Video count"],
+        "source": "Your code",
+        "mechanism": "Telemetry.*"
+      }
+    ]
+  }
+}
