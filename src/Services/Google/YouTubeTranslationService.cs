@@ -32,7 +32,7 @@ public class YouTubeTranslationService(TranslateService translateService)
         var chunkIndex = 0;
         foreach (var batch in chunks)
         {
-            if (ct.IsCancellationRequested) break;
+            ct.ThrowIfCancellationRequested();
             chunkIndex++;
 
             Telemetry.Info("  translating batch {Batch}/{TotalBatches} ({Items} items)...", chunkIndex, chunks.Length, batch.Length);
