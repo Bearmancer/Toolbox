@@ -180,11 +180,29 @@ public class YouTubePlaylistOrchestrator(
             });
         }
 
+        var playlistPath = Path.Combine(ProcessedDir, $"{sanitizedTitle}.json");
+        var existingIds = await LoadExistingVideoIdsAsync(playlistPath, ct);
+        var incomingIds = videos.Select(v => v.VideoId).ToHashSet();
+
+        if (existingIds.Count == 0)
+        {
+            Telemetry.Info("  fresh sync: {Count} videos", videos.Count);
+        }
+        else
+        {
+            var added = incomingIds.Except(existingIds).Count();
+            var removed = existingIds.Except(incomingIds).Count();
+            var net = added - removed;
+            var netStr = net switch { > 0 => $"+{net}", 0 => "net 0", _ => $"{net}" };
+            Telemetry.Info(
+                "  update sync: {Added} added, {Removed} removed ({Net}), {Total} total",
+                added, removed, netStr, videos.Count);
+        }
+
         Telemetry.Debug("Translating {Count} videos for {Title}", videos.Count, snapshot.Title);
 
         videos = await translationService.TranslateVideosAsync(videos, ct);
 
-        var playlistPath = Path.Combine(ProcessedDir, $"{sanitizedTitle}.json");
         Telemetry.Debug("Writing processed file: {Path} ({Count} videos)", playlistPath, videos.Count);
 
         var playlistJson = JsonSerializer.Serialize(videos, YouTubeFetchState.JsonOptions);
@@ -223,5 +241,23 @@ public class YouTubePlaylistOrchestrator(
         Directory.CreateDirectory(RawDir);
         Directory.CreateDirectory(ProcessedDir);
         Directory.CreateDirectory(DeletedDir);
+    }
+
+    private static async Task<HashSet<string>> LoadExistingVideoIdsAsync(string processedPath, CancellationToken ct)
+    {
+        if (!File.Exists(processedPath))
+            return [];
+
+        try
+        {
+            await using var stream = File.OpenRead(processedPath);
+            var existing = await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(
+                stream, YouTubeFetchState.JsonOptions, ct);
+            return existing?.Select(v => v.VideoId).ToHashSet() ?? [];
+        }
+        catch (JsonException)
+        {
+            return [];
+        }
     }
 }
