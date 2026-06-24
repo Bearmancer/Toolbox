@@ -203,6 +203,16 @@ public class YouTubePlaylistOrchestrator(
 
         videos = await translationService.TranslateVideosAsync(videos, ct);
 
+        var untranslatedCount = videos.Count(v => v.TranslatedTitle is null);
+        if (untranslatedCount > 0)
+        {
+            Telemetry.Warn("  translation incomplete: {Count} videos missing English titles", untranslatedCount);
+        }
+        else
+        {
+            Telemetry.Info("  translations complete (100% coverage)");
+        }
+
         Telemetry.Debug("Writing processed file: {Path} ({Count} videos)", playlistPath, videos.Count);
 
         var playlistJson = JsonSerializer.Serialize(videos, YouTubeFetchState.JsonOptions);

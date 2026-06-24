@@ -1,3 +1,4 @@
+using Core;
 using Services.Azure;
 using Services.Google.Models;
 
@@ -26,9 +27,16 @@ public class YouTubeTranslationService(TranslateService translateService)
             texts.Add(video.Description.Length > 0 ? video.Description : " ");
         }
 
+        var chunks = texts.Chunk(MaxTextsPerCall).ToArray();
         var allResults = new List<TranslationResult>(texts.Count);
-        foreach (var batch in texts.Chunk(MaxTextsPerCall))
+        var chunkIndex = 0;
+        foreach (var batch in chunks)
         {
+            if (ct.IsCancellationRequested) break;
+            chunkIndex++;
+
+            Telemetry.Info("  translating batch {Batch}/{TotalBatches} ({Items} items)...", chunkIndex, chunks.Length, batch.Length);
+
             var batchResults = await translateService.TranslateBatchAsync(batch, "en", ct);
             allResults.AddRange(batchResults);
         }
