@@ -35,19 +35,17 @@ public class YouTubePlaylistOrchestrator(
         foreach (var snapshot in deletedPlaylists)
             ArchivePlaylist(snapshot);
 
-        var playlistsToProcess = new List<PlaylistSnapshot>();
-        playlistsToProcess.AddRange(newPlaylists);
-        playlistsToProcess.AddRange(changedPlaylists);
+        List<PlaylistSnapshot> playlistsToProcess = [.. newPlaylists, .. changedPlaylists];
 
         var totalVideos = 0;
         var skippedVideos = 0;
         var playlistStopwatch = Stopwatch.StartNew();
 
+        List<PlaylistSnapshot> processedSnapshots = [];
         var playlistIndex = 0;
         foreach (var snapshot in playlistsToProcess)
         {
-            if (ct.IsCancellationRequested)
-                break;
+            ct.ThrowIfCancellationRequested();
 
             playlistIndex++;
             Telemetry.Info(
@@ -61,6 +59,7 @@ public class YouTubePlaylistOrchestrator(
                 var (videos, skipped) = await ProcessPlaylistAsync(snapshot, ct);
                 totalVideos += videos;
                 skippedVideos += skipped;
+                processedSnapshots.Add(snapshot);
             }
             catch (GoogleApiException ex)
             {
@@ -98,12 +97,18 @@ public class YouTubePlaylistOrchestrator(
 
         syncStopwatch.Stop();
 
+        Dictionary<string, PlaylistSnapshot> updatedSnapshots = new(stored.PlaylistSnapshots);
+        foreach (var snapshot in processedSnapshots)
+            updatedSnapshots[snapshot.PlaylistId] = snapshot;
+        foreach (var snapshot in deletedPlaylists)
+            updatedSnapshots.Remove(snapshot.PlaylistId);
+
         var newState = new YouTubeFetchState
         {
-            PlaylistSnapshots = current.ToDictionary(p => p.PlaylistId),
+            PlaylistSnapshots = updatedSnapshots,
             LastChecked = DateTimeOffset.UtcNow,
             LastUpdated = DateTimeOffset.UtcNow,
-            FetchComplete = !ct.IsCancellationRequested,
+            FetchComplete = processedSnapshots.Count == playlistsToProcess.Count,
         };
 
         await YouTubeFetchState.SaveAsync(ManifestFile, newState, ct);
@@ -236,6 +241,9 @@ public class YouTubePlaylistOrchestrator(
                 "  update sync: {Added} added, {Removed} removed ({Net}), {Total} total",
                 added, removed, netStr, videos.Count);
         }
+
+        var fetchedJson = JsonSerializer.Serialize(videos, YouTubeFetchState.JsonOptions);
+        await File.WriteAllTextAsync(playlistPath, fetchedJson, ct);
 
         Telemetry.Debug("Translating {Count} videos for {Title}", videos.Count, snapshot.Title);
 
