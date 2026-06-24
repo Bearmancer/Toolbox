@@ -1,7 +1,10 @@
 using System.Diagnostics;
+using System.Net;
 using System.Text.Json;
+using Azure;
 using Core;
 using Services.Google.Models;
+using GoogleApiException = Google.GoogleApiException;
 
 namespace Services.Google;
 
@@ -53,9 +56,44 @@ public class YouTubePlaylistOrchestrator(
                 playlistsToProcess.Count,
                 snapshot.Title);
 
-            var (videos, skipped) = await ProcessPlaylistAsync(snapshot, ct);
-            totalVideos += videos;
-            skippedVideos += skipped;
+            try
+            {
+                var (videos, skipped) = await ProcessPlaylistAsync(snapshot, ct);
+                totalVideos += videos;
+                skippedVideos += skipped;
+            }
+            catch (GoogleApiException ex)
+            {
+                if (ex.HttpStatusCode == HttpStatusCode.TooManyRequests)
+                {
+                    Telemetry.Warn("  google api rate limit reached (429). skipping remaining playlists.");
+                    break;
+                }
+
+                if (ex.HttpStatusCode is HttpStatusCode.Unauthorized or HttpStatusCode.Forbidden)
+                {
+                    Telemetry.Error("  google api key invalid or forbidden ({Code}).", (int)ex.HttpStatusCode);
+                    break;
+                }
+
+                throw;
+            }
+            catch (RequestFailedException ex)
+            {
+                if (ex.Status == 429)
+                {
+                    Telemetry.Warn("  azure translation rate limit reached (429). skipping remaining playlists.");
+                    break;
+                }
+
+                if (ex.Status is 401 or 403)
+                {
+                    Telemetry.Error("  azure translation key invalid or forbidden ({Code}).", ex.Status);
+                    break;
+                }
+
+                throw;
+            }
         }
 
         syncStopwatch.Stop();
