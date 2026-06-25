@@ -1,27 +1,43 @@
 using System.ComponentModel;
+using Core;
 using Services.Azure;
-using Spectre.Console;
 using Spectre.Console.Cli;
 
 namespace CLI.Azure;
 
-[Description("Analyze documents using Azure Document Intelligence")]
+[Description(
+    "Extract text and structured data from documents using Azure Document Intelligence. "
+    + "Supports PDF, JPEG, PNG, TIFF, and BMP inputs."
+)]
 public class DocIntelCommand(DocIntelService service) : AsyncCommand<DocIntelCommand.Settings>
 {
-    protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
+    protected override async Task<int> ExecuteAsync(
+        CommandContext ctx,
+        Settings s,
+        CancellationToken ct
+    )
     {
         var result = await service.AnalyzeAsync(s.File, s.Model, ct);
-        AnsiConsole.MarkupLine(result);
+        Telemetry.Info("{Result}", result);
         return 0;
     }
 
     public sealed class Settings : CommandSettings
     {
-        [Description("The path to the document file (e.g., PDF, image).")]
+        [Description(
+            "Path to the document file to analyze. "
+            + "Supports PDF, JPEG, PNG, TIFF, and BMP formats."
+        )]
         [CommandArgument(0, "<file>")]
         public required string File { get; init; }
 
-        [Description("The model to use (default: prebuilt-read).")]
+        [Description(
+            "Document Intelligence model to use. "
+            + "'prebuilt-read' extracts printed and handwritten text. "
+            + "'prebuilt-layout' extracts text, tables, selection marks, and structure. "
+            + "'prebuilt-invoice' extracts invoice fields (vendor, total, line items). "
+            + "(default: prebuilt-read)"
+        )]
         [CommandOption("--model <MODEL>")]
         [DefaultValue("prebuilt-read")]
         public string Model { get; init; } = "prebuilt-read";

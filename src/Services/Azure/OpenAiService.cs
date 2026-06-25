@@ -1,7 +1,5 @@
-
 using Azure.AI.OpenAI;
 using Core;
-
 using OpenAI.Chat;
 
 namespace Services.Azure;
@@ -19,9 +17,6 @@ public class OpenAiService(AzureOpenAIClient client, AzureCredentials opts)
         int? maxTokens = null
     )
     {
-        using var _ = Telemetry.ForService("Azure");
-        using var activity = Telemetry.StartActivity("OpenAI.Chat {Deployment}", deployment ?? "default");
-
         if (prompt.Length > MaxChars)
             throw new ArgumentOutOfRangeException(
                 nameof(prompt),
@@ -36,7 +31,10 @@ public class OpenAiService(AzureOpenAIClient client, AzureCredentials opts)
 
         var modelDeployment = deployment ?? opts.OpenAiDeployment;
         if (string.IsNullOrWhiteSpace(modelDeployment))
-            throw new InvalidOperationException("OpenAI deployment not configured. Set OPENAI_DEPLOYMENT in .env");
+            throw new InvalidOperationException(
+                "OpenAI deployment not configured. Set OPENAI_DEPLOYMENT in .env"
+            );
+
         var chat = client.GetChatClient(modelDeployment);
 
         var messageList = new List<ChatMessage>();
@@ -50,8 +48,9 @@ public class OpenAiService(AzureOpenAIClient client, AzureCredentials opts)
         if (maxTokens is { } mt)
             options.MaxOutputTokenCount = mt;
 
-        var completion = await chat.CompleteChatAsync(messageList, options, ct);
-        activity.Complete();
+        var completion = await chat.CompleteChatAsync(messageList, options, ct)
+            .WithTelemetry("OpenAI", "OpenAI.Chat {Deployment}", deployment ?? "default");
+
         return $"Model: {modelDeployment}\n---\n{completion.Value.Content[0].Text}";
     }
 }

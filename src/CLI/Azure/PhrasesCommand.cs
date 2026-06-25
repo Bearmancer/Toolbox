@@ -1,17 +1,24 @@
 using System.ComponentModel;
+using Core;
 using Services.Azure;
-using Spectre.Console;
 using Spectre.Console.Cli;
 
 namespace CLI.Azure;
 
-[Description("Extract key phrases from text")]
+[Description(
+    "Extract key phrases from text using Azure AI Language. "
+    + "Returns the most relevant phrases that summarize the main topics of the input."
+)]
 public class PhrasesCommand(TextAnalyticsService service) : AsyncCommand<PhrasesCommand.Settings>
 {
-    protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
+    protected override async Task<int> ExecuteAsync(
+        CommandContext ctx,
+        Settings s,
+        CancellationToken ct
+    )
     {
-        var result = await service.KeyPhrasesAsync(s.Text, language: s.Lang ?? "en", ct);
-        AnsiConsole.MarkupLine(result);
+        var result = await service.KeyPhrasesAsync(s.Text, s.Lang ?? "en", ct);
+        Telemetry.Info("{Result}", result);
         return 0;
     }
 
@@ -21,7 +28,10 @@ public class PhrasesCommand(TextAnalyticsService service) : AsyncCommand<Phrases
         [CommandArgument(0, "<text>")]
         public required string Text { get; init; }
 
-        [Description("The language of the text (e.g., 'en').")]
+        [Description(
+            "Language of the input text (BCP-47 format, e.g. 'en', 'es', 'fr', 'de'). "
+            + "Key phrase extraction is language-aware; specifying improves results. (default: en)"
+        )]
         [CommandOption("--lang <LANG>")]
         public string? Lang { get; init; }
     }

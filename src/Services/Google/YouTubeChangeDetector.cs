@@ -5,9 +5,12 @@ namespace Services.Google;
 
 public static class YouTubeChangeDetector
 {
-    public static (IReadOnlyList<PlaylistSnapshot> NewPlaylists, IReadOnlyList<PlaylistSnapshot> ChangedPlaylists, IReadOnlyList<PlaylistSnapshot> DeletedPlaylists, IReadOnlyList<PlaylistSnapshot> UnchangedPlaylists) DetectChanges(
-        IReadOnlyList<PlaylistSnapshot> current,
-        YouTubeFetchState stored)
+    public static (
+        IReadOnlyList<PlaylistSnapshot> NewPlaylists,
+        IReadOnlyList<PlaylistSnapshot> ChangedPlaylists,
+        IReadOnlyList<PlaylistSnapshot> DeletedPlaylists,
+        IReadOnlyList<PlaylistSnapshot> UnchangedPlaylists
+        ) DetectChanges(IReadOnlyList<PlaylistSnapshot> current, YouTubeFetchState stored)
     {
         var currentDict = current.ToDictionary(p => p.PlaylistId);
         var storedDict = stored.PlaylistSnapshots;
@@ -25,7 +28,8 @@ public static class YouTubeChangeDetector
                 continue;
             }
 
-            var etagChanged = !string.IsNullOrEmpty(storedSnapshot.ETag)
+            var etagChanged =
+                !string.IsNullOrEmpty(storedSnapshot.ETag)
                 && !string.IsNullOrEmpty(snapshot.ETag)
                 && storedSnapshot.ETag != snapshot.ETag;
 
@@ -38,17 +42,16 @@ public static class YouTubeChangeDetector
         }
 
         foreach (var kvp in storedDict)
-        {
             if (!currentDict.ContainsKey(kvp.Key))
                 deletedPlaylists.Add(kvp.Value);
-        }
 
         Telemetry.Info(
             "Change detection: {New} new, {Changed} changed, {Deleted} deleted, {Unchanged} unchanged",
             newPlaylists.Count,
             changedPlaylists.Count,
             deletedPlaylists.Count,
-            unchangedPlaylists.Count);
+            unchangedPlaylists.Count
+        );
 
         return (newPlaylists, changedPlaylists, deletedPlaylists, unchangedPlaylists);
     }

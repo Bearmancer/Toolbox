@@ -1,17 +1,25 @@
 using System.ComponentModel;
+using Core;
 using Services.Azure;
-using Spectre.Console;
 using Spectre.Console.Cli;
 
 namespace CLI.Azure;
 
-[Description("Translate text to a different language")]
+[Description(
+    "Translate text from one language to another using Azure Translator. "
+    + "When --from is omitted the source language is auto-detected. "
+    + "When --to is omitted the output defaults to English."
+)]
 public class TranslateCommand(TranslateService service) : AsyncCommand<TranslateCommand.Settings>
 {
-    protected override async Task<int> ExecuteAsync(CommandContext ctx, Settings s, CancellationToken ct)
+    protected override async Task<int> ExecuteAsync(
+        CommandContext ctx,
+        Settings s,
+        CancellationToken ct
+    )
     {
         var results = await service.TranslateBatchAsync([s.Text], s.To, ct);
-        AnsiConsole.MarkupLine(results[0].TranslatedText);
+        Telemetry.Info("{Result}", results[0].TranslatedText);
         return 0;
     }
 
@@ -21,14 +29,19 @@ public class TranslateCommand(TranslateService service) : AsyncCommand<Translate
         [CommandArgument(0, "<text>")]
         public required string Text { get; init; }
 
-        [Description("The language code to translate into (e.g., 'es').")]
+        [Description(
+            "Target language code (BCP-47 format, e.g. 'es', 'fr', 'de', 'ja'). "
+            + "Default is 'ja'."
+        )]
         [CommandOption("--to <LANG>")]
         [DefaultValue("ja")]
         public string To { get; init; } = "ja";
 
-        [Description("The language code to translate from (default: 'en').")]
+        [Description(
+            "Source language code (BCP-47 format, e.g. 'en', 'es'). "
+            + "When omitted the language is auto-detected from the input text."
+        )]
         [CommandOption("--from <LANG>")]
-        [DefaultValue("en")]
-        public string From { get; init; } = "en";
+        public string? From { get; init; }
     }
 }

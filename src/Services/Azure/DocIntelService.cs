@@ -9,35 +9,18 @@ public class DocIntelService(DocumentIntelligenceClient client)
 {
     private const int MaxBytes = 500_000_000;
 
-    public async Task<string> AnalyzeAsync(
-        string filePath,
-        string modelId,
-        CancellationToken ct
-    )
+    public async Task<string> AnalyzeAsync(string filePath, string modelId, CancellationToken ct)
     {
-        using var _ = Telemetry.ForService("Azure");
-        using var activity = Telemetry.StartActivity("DocumentIntelligence.Analyze");
-
         var path = InputFile.ResolvePath(filePath);
-        var bytes = InputFile.ReadChecked(
-            path,
-            MaxBytes,
-            "DocumentIntelligence"
-        );
+        var bytes = InputFile.ReadChecked(path, MaxBytes, "DocumentIntelligence");
 
-        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "DocumentIntelligence", "AnalyzeDocument", modelId);
-        var startTime = DateTime.UtcNow;
-        var operation = await client.AnalyzeDocumentAsync(
-            WaitUntil.Completed,
-            new AnalyzeDocumentOptions(modelId, BinaryData.FromBytes(bytes)),
-            ct
-        );
-        Telemetry.Debug(
-            "API response: {Service} {StatusCode} {ElapsedMs:F0}ms",
-            "DocumentIntelligence",
-            200,
-            (DateTime.UtcNow - startTime).TotalMilliseconds
-        );
+        var operation = await client
+            .AnalyzeDocumentAsync(
+                WaitUntil.Completed,
+                new AnalyzeDocumentOptions(modelId, BinaryData.FromBytes(bytes)),
+                ct
+            )
+            .WithTelemetry("DocIntel", "DocumentIntelligence.Analyze");
 
         var result = operation.Value;
         if (result.Pages.Count is 0)
@@ -52,7 +35,6 @@ public class DocIntelService(DocumentIntelligenceClient client)
         sb.AppendLine("---");
         sb.AppendLine(result.Content);
 
-        activity.Complete();
         return sb.ToString();
     }
 }

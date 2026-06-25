@@ -11,7 +11,7 @@
     "PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5": {
       "PlaylistId": "PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5",
       "Title": "Neeme Jarvi",
-      "ETag": "TOw-AIgVxecXRlJ9QVUfZXHOjao",
+      "ETag": "wQJMJVxjIvPB95yVziGBU-LvfF4",
       "ReportedVideoCount": 2,
       "LastChecked": "2026-06-24T13:23:57.7469716+00:00",
       "LastUpdated": "2026-05-20T21:10:58.519543+00:00"
@@ -1135,11 +1135,19 @@
       "ReportedVideoCount": 9,
       "LastChecked": "2026-06-24T13:54:24.799577+00:00",
       "LastUpdated": "2023-04-13T20:20:02.143261+00:00"
+    },
+    "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4": {
+      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+      "Title": "Barbara Hannigan",
+      "ETag": "_bPqOg-DYDL2CKWWGY1FtfhWmX0",
+      "ReportedVideoCount": 6,
+      "LastChecked": "2026-06-25T05:30:08.6088201+00:00",
+      "LastUpdated": "2026-06-24T18:00:43.186609+00:00"
     }
   },
-  "LastChecked": "2026-06-24T14:02:43.4149434+00:00",
-  "LastUpdated": "2026-06-24T14:02:43.4149435+00:00",
+  "LastChecked": "2026-06-25T16:26:47.1420308+00:00",
+  "LastUpdated": "2026-06-25T16:26:47.1420309+00:00",
   "FetchComplete": true,
-  "AzureCharsUsed": 5342499,
+  "AzureCharsUsed": 5350708,
   "AzureCharsMonth": 6
 }

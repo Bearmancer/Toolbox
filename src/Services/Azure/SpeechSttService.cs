@@ -1,9 +1,7 @@
 using System.Diagnostics;
-
 using Core;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
-
 
 namespace Services.Azure;
 
@@ -18,9 +16,6 @@ public class SpeechSttService(AzureCredentials opts)
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService("Azure");
-        using var activity = Telemetry.StartActivity("Speech.Transcribe");
-
         var path = InputFile.ResolvePath(filePath);
         InputFile.ReadChecked(path, MaxBytes, "Speech");
 
@@ -39,7 +34,10 @@ public class SpeechSttService(AzureCredentials opts)
             var config = BuildSpeechConfig();
             config.SpeechRecognitionLanguage = language;
 
-            using var recognizer = new SpeechRecognizer(config, AudioConfig.FromWavFileInput(wavPath));
+            using var recognizer = new SpeechRecognizer(
+                config,
+                AudioConfig.FromWavFileInput(wavPath)
+            );
             var segments = new List<string>();
             var stopped = new TaskCompletionSource<bool>();
 
@@ -51,8 +49,6 @@ public class SpeechSttService(AzureCredentials opts)
             recognizer.SessionStopped += (_, _) => stopped.TrySetResult(true);
             recognizer.Canceled += (_, _) => stopped.TrySetResult(true);
 
-            Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "Speech", "StartContinuousRecognition", language);
-            var startTime = DateTime.UtcNow;
             await recognizer.StartContinuousRecognitionAsync();
             using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
             cts.CancelAfter(TimeSpan.FromSeconds(MaxDurationSeconds));
@@ -60,9 +56,7 @@ public class SpeechSttService(AzureCredentials opts)
             await stopped.Task;
 
             await recognizer.StopContinuousRecognitionAsync();
-            Telemetry.Debug("API response: {Service} {StatusCode} {ElapsedMs:F0}ms", "Speech", 200, (DateTime.UtcNow - startTime).TotalMilliseconds);
 
-            activity.Complete();
             return $"Language: {language}\nSegments: {segments.Count}\n---\n{string.Join(' ', segments)}";
         }
         finally

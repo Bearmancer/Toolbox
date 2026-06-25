@@ -7,36 +7,45 @@ namespace Services.Google;
 
 public static class GoogleSetup
 {
-    public static IServiceCollection AddGoogleServices(this IServiceCollection services)
-    {
-        var credentials = GoogleCredentials.Read();
-        services.AddSingleton(credentials);
-
-        services.AddSingleton(_ => BuildYouTubeService(credentials));
-        services.AddSingleton<YoutubeService>();
-        services.AddSingleton<YouTubeTranslationService>();
-        services.AddSingleton<YouTubePlaylistOrchestrator>();
-
-        return services;
-    }
-
     private static YouTubeService BuildYouTubeService(GoogleCredentials credentials)
     {
-        var credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
-            new ClientSecrets
-            {
-                ClientId = credentials.ClientId,
-                ClientSecret = credentials.ClientSecret,
-            },
-            [YouTubeService.Scope.Youtube],
-            "user",
-            CancellationToken.None
-        ).GetAwaiter().GetResult();
+        var credential = GoogleWebAuthorizationBroker
+            .AuthorizeAsync(
+                new ClientSecrets
+                {
+                    ClientId = credentials.ClientId,
+                    ClientSecret = credentials.ClientSecret,
+                },
+                [YouTubeService.Scope.Youtube],
+                "user",
+                CancellationToken.None
+            )
+            .GetAwaiter()
+            .GetResult();
 
-        return new YouTubeService(new BaseClientService.Initializer
+        return new YouTubeService(
+            new BaseClientService.Initializer
+            {
+                HttpClientInitializer = credential,
+                ApplicationName = "AzureAI",
+            }
+        );
+    }
+
+    extension(IServiceCollection services)
+    {
+        public IServiceCollection AddGoogleServices()
         {
-            HttpClientInitializer = credential,
-            ApplicationName = "AzureAI",
-        });
+            var credentials = GoogleCredentials.Read();
+            services.AddSingleton(credentials);
+
+            services.AddSingleton(_ => BuildYouTubeService(credentials));
+            services.AddSingleton<YoutubeService>();
+            services.AddSingleton<YouTubeTranslationService>();
+            services.AddSingleton<YouTubePlaylistProcessor>();
+            services.AddSingleton<YouTubePlaylistOrchestrator>();
+
+            return services;
+        }
     }
 }

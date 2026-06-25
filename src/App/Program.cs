@@ -1,14 +1,15 @@
 using System.Diagnostics;
 using CLI;
 using CLI.Azure;
+using CLI.Sync;
 using Core;
 using DotNetEnv;
 using Microsoft.Extensions.DependencyInjection;
+using Serilog.Events;
 using Services.Azure;
 using Services.Google;
-using Spectre.Console;
+using Services.LastFm;
 using Spectre.Console.Cli;
-using CLI.Google;
 
 namespace App;
 
@@ -18,10 +19,11 @@ public static class Program
     {
         var envPath = Path.Combine(Directory.GetCurrentDirectory(), ".env");
 
-        if (!File.Exists(envPath))
+        if (!File.Exists(path: envPath))
         {
             await Console.Error.WriteLineAsync(
-                $".env not found at {envPath}. Create one at the repo root with all required keys.");
+                $".env not found at {envPath}. Create one at the repo root with all required keys."
+            );
             return 2;
         }
 
@@ -31,7 +33,9 @@ public static class Program
         DiagnosticListener.AllListeners.Subscribe(new DiagnosticObserver());
         Trace.Listeners.Add(new SerilogTraceListener());
 
-        Telemetry.Configure(args.Contains("--verbose"));
+        Telemetry.Configure(
+            args.Contains(value: "--verbose") ? LogEventLevel.Debug : LogEventLevel.Information
+        );
 
         var services = new ServiceCollection();
 
@@ -39,22 +43,23 @@ public static class Program
         {
             services.AddAzureServices();
             services.AddGoogleServices();
+            services.AddLastFmServices();
         }
         catch (InvalidOperationException ex)
         {
-            AnsiConsole.MarkupLineInterpolated($"[red]Configuration error:[/] {ex.Message}");
+            Telemetry.Error("Configuration error: {Error}", ex.Message);
             return 2;
         }
 
-        var registrar = new TypeRegistrar(services);
-        var app = new CommandApp(registrar);
+        var registrar = new TypeRegistrar(services: services);
+        var app = new CommandApp(registrar: registrar);
 
         app.Configure(cfg =>
         {
-            cfg.SetApplicationName("app");
-            cfg.SetApplicationVersion("1.0.0");
-            AzureCommandModule.ConfigureCommands(cfg);
-            GoogleCommandModule.ConfigureCommands(cfg);
+            cfg.SetApplicationName(name: "app");
+            cfg.SetApplicationVersion(version: "1.0.0");
+            AzureCommandModule.ConfigureCommands(cfg: cfg);
+            SyncCommandModule.ConfigureCommands(cfg: cfg);
         });
 
         using var appCts = new CancellationTokenSource();

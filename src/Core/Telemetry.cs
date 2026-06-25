@@ -11,77 +11,36 @@ namespace Core;
 
 public static class Telemetry
 {
-    private static LoggingLevelSwitch LevelSwitch { get; set; } = new(LogEventLevel.Information);
+    private static readonly string[] Services =
+    [
+        "Translate",
+        "Google",
+        "Vision",
+        "Speech",
+        "TextAnalytics",
+        "DocIntel",
+        "OpenAI",
+        "Whisper",
+    ];
 
-    public static void Configure(bool debug = false)
+    private static LoggingLevelSwitch LevelSwitch { get; set; } = new();
+
+    public static void Configure(LogEventLevel level = LogEventLevel.Information)
     {
-        LevelSwitch = new LoggingLevelSwitch(debug ? LogEventLevel.Debug : LogEventLevel.Information);
+        LevelSwitch = new LoggingLevelSwitch(level);
 
         var config = new LoggerConfiguration()
             .MinimumLevel.ControlledBy(LevelSwitch)
             .WriteTo.File(
                 new CompactJsonFormatter(),
-                "logs/azureai-all-.jsonl",
+                "logs/all-.jsonl",
                 rollingInterval: RollingInterval.Day,
-                retainedFileCountLimit: 7)
-            .WriteTo.Logger(lc => lc
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("Translate"))
-                .WriteTo.File(
-                    new CompactJsonFormatter(),
-                    "logs/azureai-translate-.jsonl",
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7))
-            .WriteTo.Logger(lc => lc
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("YouTube"))
-                .WriteTo.File(
-                    new CompactJsonFormatter(),
-                    "logs/azureai-youtube-.jsonl",
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7))
-            .WriteTo.Logger(lc => lc
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("Vision"))
-                .WriteTo.File(
-                    new CompactJsonFormatter(),
-                    "logs/azureai-vision-.jsonl",
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7))
-            .WriteTo.Logger(lc => lc
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("Speech"))
-                .WriteTo.File(
-                    new CompactJsonFormatter(),
-                    "logs/azureai-speech-.jsonl",
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7))
-            .WriteTo.Logger(lc => lc
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("TextAnalytics"))
-                .WriteTo.File(
-                    new CompactJsonFormatter(),
-                    "logs/azureai-textanalytics-.jsonl",
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7))
-            .WriteTo.Logger(lc => lc
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("DocIntel"))
-                .WriteTo.File(
-                    new CompactJsonFormatter(),
-                    "logs/azureai-docintel-.jsonl",
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7))
-            .WriteTo.Logger(lc => lc
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Service")
-                    && e.Properties["Service"].ToString().Contains("OpenAI"))
-                .WriteTo.File(
-                    new CompactJsonFormatter(),
-                    "logs/azureai-openai-.jsonl",
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7))
-            .WriteTo.Spectre(
-                outputTemplate: "{Timestamp:HH:mm:ss} {Level:u4} {Message:lj}{NewLine}{Exception}");
+                retainedFileCountLimit: 7
+            )
+            .WriteTo.Spectre("{Timestamp:HH:mm:ss} {Level:u4} {Message:lj}{NewLine}{Exception}");
+
+        foreach (var service in Services)
+            AddServiceLogger(config, service, $"logs/{service.ToLowerInvariant()}-.jsonl");
 
         if (IsSeqReachable())
             config.WriteTo.Seq("http://localhost:5341");
@@ -89,26 +48,35 @@ public static class Telemetry
         Log.Logger = config.CreateLogger();
     }
 
-    public static IDisposable ForService(string service)
-        => LogContext.PushProperty("Service", service);
+    private static void AddServiceLogger(LoggerConfiguration config, string service, string path)
+    {
+        config.WriteTo.Logger(lc =>
+            lc.Filter.ByIncludingOnly(e =>
+                    e.Properties["Service"].ToString().Equals(service, StringComparison.Ordinal)
+                )
+                .WriteTo.File(
+                    new CompactJsonFormatter(),
+                    path,
+                    rollingInterval: RollingInterval.Day,
+                    retainedFileCountLimit: 7
+                )
+        );
+    }
 
-    public static IDisposable ForService<T>()
-        => LogContext.PushProperty("Service", typeof(T).Name.Replace("Service", ""));
+    public static IDisposable ForService(string service) =>
+        LogContext.PushProperty("Service", service);
 
-    public static void Info(string template, params object[] args)
-        => Log.Information(template, args);
+    public static void Info(string template, params object[] args) =>
+        Log.Information(template, args);
 
-    public static void Warn(string template, params object[] args)
-        => Log.Warning(template, args);
+    public static void Warn(string template, params object[] args) => Log.Warning(template, args);
 
-    public static void Debug(string template, params object[] args)
-        => Log.Debug(template, args);
+    public static void Debug(string template, params object[] args) => Log.Debug(template, args);
 
-    public static void Error(string template, params object[] args)
-        => Log.Error(template, args);
+    public static void Error(string template, params object[] args) => Log.Error(template, args);
 
-    public static dynamic StartActivity(string messageTemplate, params object[] args)
-        => Log.Logger.StartActivity(messageTemplate, args);
+    public static dynamic StartActivity(string messageTemplate, params object[] args) =>
+        Log.Logger.StartActivity(messageTemplate, args);
 
     private static bool IsSeqReachable()
     {
@@ -118,11 +86,7 @@ public static class Telemetry
             var task = client.ConnectAsync("localhost", 5341);
             return task.Wait(500);
         }
-        catch (SocketException)
-        {
-            return false;
-        }
-        catch (IOException)
+        catch (Exception ex) when (ex is SocketException or IOException)
         {
             return false;
         }

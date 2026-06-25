@@ -2,8 +2,10 @@ namespace Core;
 
 public static class InputFile
 {
-    private static readonly string ResourcesDir =
-        Path.GetFullPath("resources", Directory.GetCurrentDirectory());
+    private static readonly string ResourcesDir = Path.GetFullPath(
+        "resources",
+        Directory.GetCurrentDirectory()
+    );
 
     public static string ResolvePath(string input)
     {
@@ -27,16 +29,5 @@ public static class InputFile
                 $"Payload too large: {info.Length} bytes exceeds {maxBytes} byte limit for {serviceName}"
             )
             : File.ReadAllBytes(path);
-    }
-
-    public static async Task<byte[]> ReadCheckedAsync(string path, long maxBytes, string serviceName, CancellationToken ct)
-    {
-        var info = new FileInfo(path);
-        if (info.Length > maxBytes)
-            throw new ArgumentOutOfRangeException(
-                nameof(path),
-                $"Payload too large: {info.Length} bytes exceeds {maxBytes} byte limit for {serviceName}"
-            );
-        return await File.ReadAllBytesAsync(path, ct);
     }
 }

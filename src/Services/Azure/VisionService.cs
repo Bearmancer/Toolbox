@@ -15,9 +15,6 @@ public class VisionService(ImageAnalysisClient client)
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService("Azure");
-        using var activity = Telemetry.StartActivity("Vision.Analyze");
-
         var path = InputFile.ResolvePath(filePath);
         var bytes = InputFile.ReadChecked(path, MaxBytes, "ComputerVision");
 
@@ -30,15 +27,14 @@ public class VisionService(ImageAnalysisClient client)
             _ => VisualFeatures.Tags,
         };
 
-        Telemetry.Debug("API request: {Service}.{Operation} {Detail}", "Vision", "Analyze", feature);
-        var startTime = DateTime.UtcNow;
-        var result = await client.AnalyzeAsync(
-            BinaryData.FromBytes(bytes),
-            features,
-            new ImageAnalysisOptions { Language = language },
-            ct
-        );
-        Telemetry.Debug("API response: {Service} {StatusCode} {ElapsedMs:F0}ms", "Vision", 200, (DateTime.UtcNow - startTime).TotalMilliseconds);
+        var result = await client
+            .AnalyzeAsync(
+                BinaryData.FromBytes(bytes),
+                features,
+                new ImageAnalysisOptions { Language = language },
+                ct
+            )
+            .WithTelemetry("Vision", "Vision.Analyze");
 
         var sb = new StringBuilder();
         if (feature is "tags" or "all" && result.Value.Tags is { } tags)
@@ -54,11 +50,10 @@ public class VisionService(ImageAnalysisClient client)
         {
             sb.AppendLine("Text (OCR):");
             foreach (var block in read.Blocks)
-                foreach (var line in block.Lines)
-                    sb.AppendLine($"  {line.Text}");
+            foreach (var line in block.Lines)
+                sb.AppendLine($"  {line.Text}");
         }
 
-        activity.Complete();
         return sb.ToString();
     }
 }

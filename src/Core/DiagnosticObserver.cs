@@ -12,16 +12,22 @@ public sealed class DiagnosticObserver : IObserver<DiagnosticListener>
     }
 
     public void OnCompleted() { }
+
     public void OnError(Exception error) { }
 }
 
-public sealed class DiagnosticEventObserver(string sourceName) : IObserver<KeyValuePair<string, object?>>
+public sealed class DiagnosticEventObserver(string sourceName)
+    : IObserver<KeyValuePair<string, object?>>
 {
-    public void OnNext(KeyValuePair<string, object?> value)
-    {
-        Telemetry.Debug("[Diagnostic:{Source}] {Key}: {Value}", sourceName, value.Key, value.Value ?? "null");
-    }
+    public void OnNext(KeyValuePair<string, object?> value) =>
+        Telemetry.Debug(
+            "[Diagnostic:{Source}] {Key}: {Value}",
+            sourceName,
+            value.Key,
+            value.Value ?? "null"
+        );
 
     public void OnCompleted() { }
+
     public void OnError(Exception error) { }
 }

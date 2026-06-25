@@ -18,26 +18,27 @@ public sealed class AzureCredentials
     public required string SpeechKey { get; init; }
     public required string SpeechRegion { get; init; }
 
-    public static AzureCredentials Read() => new()
-    {
-        TextAnalyticsEndpoint = Env("TEXT_ANALYTICS_ENDPOINT"),
-        TextAnalyticsKey = Env("TEXT_ANALYTICS_KEY"),
-        TranslatorEndpoint = Env("TRANSLATOR_ENDPOINT"),
-        TranslatorKey = Env("TRANSLATOR_KEY"),
-        TranslatorRegion = Env("TRANSLATOR_REGION"),
-        DocIntelEndpoint = Env("DOCINTEL_ENDPOINT"),
-        DocIntelKey = Env("DOCINTEL_KEY"),
-        VisionEndpoint = Env("VISION_ENDPOINT"),
-        VisionKey = Env("VISION_KEY"),
-        OpenAiEndpoint = Env("OPENAI_ENDPOINT"),
-        OpenAiKey = Env("OPENAI_KEY"),
-        OpenAiDeployment = Env("OPENAI_DEPLOYMENT"),
-        SpeechEndpoint = Env("SPEECH_ENDPOINT"),
-        SpeechKey = Env("SPEECH_KEY"),
-        SpeechRegion = Env("SPEECH_REGION"),
-    };
+    public static AzureCredentials Read() =>
+        new()
+        {
+            TextAnalyticsEndpoint = Env("TEXT_ANALYTICS_ENDPOINT"),
+            TextAnalyticsKey = Env("TEXT_ANALYTICS_KEY"),
+            TranslatorEndpoint = Env("TRANSLATOR_ENDPOINT"),
+            TranslatorKey = Env("TRANSLATOR_KEY"),
+            TranslatorRegion = Env("TRANSLATOR_REGION"),
+            DocIntelEndpoint = Env("DOCINTEL_ENDPOINT"),
+            DocIntelKey = Env("DOCINTEL_KEY"),
+            VisionEndpoint = Env("VISION_ENDPOINT"),
+            VisionKey = Env("VISION_KEY"),
+            OpenAiEndpoint = Env("OPENAI_ENDPOINT"),
+            OpenAiKey = Env("OPENAI_KEY"),
+            OpenAiDeployment = Env("OPENAI_DEPLOYMENT"),
+            SpeechEndpoint = Env("SPEECH_ENDPOINT"),
+            SpeechKey = Env("SPEECH_KEY"),
+            SpeechRegion = Env("SPEECH_REGION"),
+        };
 
     private static string Env(string key) =>
         Environment.GetEnvironmentVariable(key)
-            ?? throw new InvalidOperationException($"Missing: {key}");
+        ?? throw new InvalidOperationException($"Missing: {key}");
 }
