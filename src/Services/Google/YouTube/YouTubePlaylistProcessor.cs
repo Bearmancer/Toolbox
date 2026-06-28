@@ -11,7 +11,84 @@ public class YouTubePlaylistProcessor(
     YouTubeTranslationService translationService
 )
 {
-    public async Task<(int Videos, int Skipped, int AzureChars)> ProcessPlaylistAsync(
+    public readonly record struct ProcessResult(int Videos, int Skipped, int AzureChars);
+
+    public async Task RefreshLocalStateAsync(
+        PlaylistSnapshot snapshot,
+        CancellationToken ct
+    )
+    {
+        var sanitizedTitle = Text.SanitizeFileName(snapshot.Title);
+        var rawPath = Path.Combine(YouTubePaths.RawDir, $"{sanitizedTitle}.json");
+        var processedPath = Path.Combine(YouTubePaths.ProcessedDir, $"{sanitizedTitle}.json");
+
+        Telemetry.Info("Refreshing local state for {Title} to reflect sorted order...", snapshot.Title);
+
+        var rawPages = await playlistService.GetPlaylistItemPagesRawAsync(
+            snapshot.PlaylistId,
+            "snippet,contentDetails",
+            ct
+        );
+
+        List<PlaylistItem> allItems = [.. rawPages.SelectMany(p => p.Items ?? [])];
+        await WriteJsonAsync(rawPath, allItems, ct);
+
+        var videoIds = allItems
+            .Select(i => i.ContentDetails!.VideoId ?? i.Snippet!.ResourceId!.VideoId!)
+            .Where(id => !string.IsNullOrEmpty(id))
+            .ToList();
+
+        var durations = await videoService.GetVideoDurationsAsync(videoIds, ct);
+
+        var existingVideos = await LoadExistingVideosAsync(processedPath, ct);
+        var existingDict = new Dictionary<string, YouTubeVideo>();
+        foreach (var video in existingVideos)
+            existingDict.TryAdd(video.VideoId, video);
+
+        var refreshedVideos = new List<YouTubeVideo>();
+        var skipped = 0;
+
+        foreach (var item in allItems)
+        {
+            var videoId = item.ContentDetails!.VideoId ?? item.Snippet!.ResourceId!.VideoId!;
+            if (!durations.TryGetValue(videoId, out var duration))
+            {
+                skipped++;
+                continue;
+            }
+
+            var video = new YouTubeVideo
+            {
+                Title = item.Snippet.Title!,
+                Description = item.Snippet.Description ?? "",
+                Duration = duration,
+                VideoId = videoId,
+                ChannelName = item.Snippet.VideoOwnerChannelTitle ?? item.Snippet.ChannelTitle!,
+                ChannelId = item.Snippet.VideoOwnerChannelId ?? item.Snippet.ChannelId!,
+            };
+
+            if (existingDict.TryGetValue(videoId, out var existing))
+            {
+                video = video with
+                {
+                    TranslatedTitle = existing.TranslatedTitle,
+                    TranslatedDescription = existing.TranslatedDescription,
+                    DetectedLanguage = existing.DetectedLanguage,
+                };
+            }
+            refreshedVideos.Add(video);
+        }
+
+        await WriteJsonAsync(processedPath, refreshedVideos, ct);
+        Telemetry.Info(
+            "Local state refreshed for {Title}: {Videos} videos, {Skipped} skipped",
+            snapshot.Title,
+            refreshedVideos.Count,
+            skipped
+        );
+    }
+
+    public async Task<ProcessResult> ProcessPlaylistAsync(
         PlaylistSnapshot snapshot,
         CancellationToken ct
     )
@@ -161,7 +238,7 @@ public class YouTubePlaylistProcessor(
             playlistStopwatch.Elapsed.TotalSeconds
         );
 
-        return (translatedVideos.Count, skipped, azureChars);
+        return new ProcessResult(translatedVideos.Count, skipped, azureChars);
     }
 
     private static async Task<List<YouTubeVideo>> LoadExistingVideosAsync(
