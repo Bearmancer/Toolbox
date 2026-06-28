@@ -26,7 +26,6 @@ public sealed record YouTubeFetchState
     public Dictionary<string, PlaylistSnapshot> PlaylistSnapshots { get; init; } = [];
     public required DateTimeOffset LastChecked { get; init; }
     public required DateTimeOffset? LastUpdated { get; init; }
-    public required bool FetchComplete { get; init; }
     public int AzureCharsUsed { get; init; }
     public int AzureCharsMonth { get; init; }
 
@@ -37,7 +36,6 @@ public sealed record YouTubeFetchState
             {
                 LastChecked = DateTimeOffset.MinValue,
                 LastUpdated = null,
-                FetchComplete = false,
             };
 
         try
@@ -48,7 +46,6 @@ public sealed record YouTubeFetchState
                 {
                     LastChecked = DateTimeOffset.MinValue,
                     LastUpdated = null,
-                    FetchComplete = false,
                 };
         }
         catch (JsonException ex)
@@ -62,7 +59,6 @@ public sealed record YouTubeFetchState
             {
                 LastChecked = DateTimeOffset.MinValue,
                 LastUpdated = null,
-                FetchComplete = false,
             };
         }
     }
