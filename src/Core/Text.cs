@@ -21,16 +21,8 @@ public static class Text
     extension(string? a)
     {
         public bool IsEqualTo(string? b) => string.Equals(a, b, StringComparison.Ordinal);
-
-        public bool IsEqualToIgnore(string? b) =>
-            string.Equals(a, b, StringComparison.OrdinalIgnoreCase);
-    }
-
-    extension(string? source)
-    {
-        public bool Has(string value) => source?.Contains(value, StringComparison.Ordinal) ?? false;
-
-        public bool StartsWith(string value) =>
-            source?.StartsWith(value, StringComparison.Ordinal) ?? false;
+        public bool IsEqualToIgnore(string? b) => string.Equals(a, b, StringComparison.OrdinalIgnoreCase);
+        public bool Has(string value) => a?.Contains(value, StringComparison.Ordinal) ?? false;
+        public bool StartsWith(string value) => a?.StartsWith(value, StringComparison.Ordinal) ?? false;
     }
 }
