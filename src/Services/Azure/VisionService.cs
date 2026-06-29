@@ -15,8 +15,8 @@ public class VisionService(ImageAnalysisClient client)
         CancellationToken ct
     )
     {
-        var path = InputFile.ResolvePath(filePath);
-        var bytes = InputFile.ReadChecked(path, MaxBytes, "ComputerVision");
+        var path = PathResolver.ResolveInput(filePath);
+        var bytes = PathResolver.ReadChecked(path, MaxBytes, "ComputerVision");
 
         var features = feature switch
         {
@@ -27,14 +27,16 @@ public class VisionService(ImageAnalysisClient client)
             _ => VisualFeatures.Tags,
         };
 
+        using var _ = Telemetry.ForService(ServiceName.Vision);
+        using var activity = Telemetry.StartActivity("Vision.Analyze");
         var result = await client
             .AnalyzeAsync(
                 BinaryData.FromBytes(bytes),
                 features,
                 new ImageAnalysisOptions { Language = language },
                 ct
-            )
-            .WithTelemetry("Vision", "Vision.Analyze");
+            );
+        activity.Complete();
 
         var sb = new StringBuilder();
         if (feature is "tags" or "all" && result.Value.Tags is { } tags)

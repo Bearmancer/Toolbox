@@ -1,12 +1,27 @@
+using System.Globalization;
 using System.Net;
 using System.Text.Json;
 using Core;
-using Services.LastFm.Models;
+using ErrorOr;
 
 namespace Services.LastFm;
 
+public sealed record LastFmScrobble
+{
+    private static readonly TimeSpan IstOffset = TimeSpan.FromHours(5) + TimeSpan.FromMinutes(30);
+    public required string TrackTitle { get; init; }
+    public required string Artist { get; init; }
+    public required string Album { get; init; }
+    public required DateTimeOffset PlayedAt { get; init; }
+
+    public string Date =>
+        PlayedAt.ToOffset(IstOffset).ToString("yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture);
+}
+
 public class LastFmService(HttpClient httpClient, string apiKey, string username)
 {
+    private readonly record struct FetchPageResult(List<LastFmScrobble> Scrobbles, int TotalPages);
+
     private const string ApiBase = "https://ws.audioscrobbler.com/2.0/";
 
     private static readonly JsonSerializerOptions JsonOptions = new() { WriteIndented = true };
@@ -22,7 +37,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService(service: "LastFm");
+        using var _ = Telemetry.ForService(ServiceName.LastFm);
         using var activity = Telemetry.StartActivity(messageTemplate: "LastFm.FetchRecentTracks");
 
         var scrobbles = new List<LastFmScrobble>();
@@ -34,12 +49,19 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
         {
             ct.ThrowIfCancellationRequested();
 
-            var (tracks, totalPages) = await FetchPageAsync(
-                since,
-                page,
-                limit,
-                ct
-            );
+            var pageResult = await FetchPageAsync(since, page, limit, ct);
+
+            if (pageResult.IsError)
+            {
+                Telemetry.Error(
+                    "Failed to fetch page {Page}: {Errors}",
+                    page,
+                    string.Join(", ", pageResult.Errors.Select(e => e.Description))
+                );
+                break;
+            }
+
+            var (tracks, totalPages) = pageResult.Value;
 
             if (tracks.Count == 0)
                 break;
@@ -67,14 +89,11 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
         }
 
         activity.Complete();
-        Telemetry.Debug(
-            "LastFm.FetchRecentTracks returned {Count} scrobbles",
-            scrobbles.Count
-        );
+        Telemetry.Debug("LastFm.FetchRecentTracks returned {Count} scrobbles", scrobbles.Count);
         return scrobbles;
     }
 
-    private async Task<(List<LastFmScrobble> Scrobbles, int TotalPages)> FetchPageAsync(
+    private async Task<ErrorOr<FetchPageResult>> FetchPageAsync(
         DateTimeOffset? fetchAfter,
         int page,
         int limit,
@@ -87,12 +106,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
         for (var attempt = 1; attempt <= maxRetries; attempt++)
             try
             {
-                return await FetchPageCoreAsync(
-                    fetchAfter,
-                    page,
-                    limit,
-                    ct
-                );
+                return await FetchPageCoreAsync(fetchAfter, page, limit, ct);
             }
             catch (LastFmApiException ex)
                 when (ex.ErrorType == LastFmErrorType.Retryable && attempt < maxRetries)
@@ -122,38 +136,44 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
         return await FetchPageCoreAsync(fetchAfter, page, limit, ct);
     }
 
-    private async Task<(List<LastFmScrobble> Scrobbles, int TotalPages)> FetchPageCoreAsync(
+    private async Task<ErrorOr<FetchPageResult>> FetchPageCoreAsync(
         DateTimeOffset? fetchAfter,
         int page,
         int limit,
         CancellationToken ct
     )
     {
-        await WaitForRateLimit(ct: ct);
+        await WaitForRateLimit(ct);
 
+        return await BuildFetchUrl(fetchAfter, page, limit)
+            .ThenAsync(url => ExecuteHttpRequestAsync(url, ct))
+            .ThenAsync(json => Task.FromResult(ParseJsonResponse(json)))
+            .ThenAsync(root => Task.FromResult(ExtractTracks(root)));
+    }
+
+    private ErrorOr<string> BuildFetchUrl(DateTimeOffset? fetchAfter, int page, int limit)
+    {
         var queryParams = new Dictionary<string, string>
         {
-            [key: "method"] = "user.getrecenttracks",
-            [key: "user"] = UserName,
-            [key: "api_key"] = ApiKey,
-            [key: "format"] = "json",
-            [key: "limit"] = limit.ToString(),
-            [key: "page"] = page.ToString(),
+            ["method"] = "user.getrecenttracks",
+            ["user"] = UserName,
+            ["api_key"] = ApiKey,
+            ["format"] = "json",
+            ["limit"] = limit.ToString(),
+            ["page"] = page.ToString(),
         };
 
         if (fetchAfter.HasValue)
-            queryParams[key: "from"] = fetchAfter.Value.ToUnixTimeSeconds().ToString();
+            queryParams["from"] = fetchAfter.Value.ToUnixTimeSeconds().ToString();
 
-        var url =
-            ApiBase
-            + "?"
-            + string.Join(
-                "&",
-                queryParams.Select(kvp =>
-                    $"{kvp.Key}={Uri.EscapeDataString(stringToEscape: kvp.Value)}"
-                )
-            );
+        return ApiBase + "?" + string.Join(
+            "&",
+            queryParams.Select(kvp => $"{kvp.Key}={Uri.EscapeDataString(kvp.Value)}")
+        );
+    }
 
+    private async Task<ErrorOr<string>> ExecuteHttpRequestAsync(string url, CancellationToken ct)
+    {
         using var response = await Client.GetAsync(url, ct);
 
         if (response.StatusCode == HttpStatusCode.TooManyRequests)
@@ -168,9 +188,12 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
         }
 
         response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync(cancellationToken: ct);
+    }
 
-        var json = await response.Content.ReadAsStringAsync(cancellationToken: ct);
-        using var doc = JsonDocument.Parse(json: json);
+    private static ErrorOr<JsonElement> ParseJsonResponse(string json)
+    {
+        using var doc = JsonDocument.Parse(json);
         var root = doc.RootElement;
 
         if (root.TryGetProperty("error", out var errorElement))
@@ -179,16 +202,24 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
             var errorMessage = root.TryGetProperty("message", out var msgEl)
                 ? msgEl.GetString() ?? "Unknown"
                 : "Unknown";
-            var errorType = ClassifyError(errorCode: errorCode);
-            throw new LastFmApiException(
-                errorCode,
-                errorMessage,
-                errorType
-            );
+            var errorType = ClassifyError(errorCode);
+
+            if (errorType is not LastFmErrorType.Permanent)
+                throw new LastFmApiException(errorCode, errorMessage, errorType);
+
+            return Errors.LastFm.ApiError(errorMessage);
         }
 
-        var recenttracks = root.GetProperty(propertyName: "recenttracks");
-        var tracksElement = recenttracks.GetProperty(propertyName: "track");
+        return root.Clone();
+    }
+
+    private static ErrorOr<FetchPageResult> ExtractTracks(JsonElement root)
+    {
+        if (!root.TryGetProperty("recenttracks", out var recenttracks))
+            return Errors.LastFm.MalformedResponse;
+
+        if (!recenttracks.TryGetProperty("track", out var tracksElement))
+            return Errors.LastFm.MalformedResponse;
 
         JsonElement[] tracks = tracksElement.ValueKind switch
         {
@@ -197,46 +228,11 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
             _ => [],
         };
 
-        var scrobbles = new List<LastFmScrobble>();
-        foreach (var track in tracks)
-        {
-            if (!track.TryGetProperty("date", out var dateElement))
-                continue;
-
-            var uts = dateElement.GetProperty(propertyName: "uts").GetString();
-            if (uts is "0" or null)
-                continue;
-
-            var playedAt = DateTimeOffset.FromUnixTimeSeconds(long.Parse(s: uts));
-
-            var trackName = track.TryGetProperty("name", out var nameEl)
-                ? nameEl.GetString()
-                : null;
-            if (string.IsNullOrEmpty(value: trackName))
-                continue;
-
-            var artistName =
-                track.TryGetProperty("artist", out var artistEl)
-                && artistEl.TryGetProperty("#text", out var artistText)
-                    ? artistText.GetString() ?? ""
-                    : "";
-
-            var albumName =
-                track.TryGetProperty("album", out var albumEl)
-                && albumEl.TryGetProperty("#text", out var albumText)
-                    ? albumText.GetString() ?? ""
-                    : "";
-
-            scrobbles.Add(
-                new LastFmScrobble
-                {
-                    TrackTitle = trackName,
-                    Artist = artistName,
-                    Album = albumName,
-                    PlayedAt = playedAt,
-                }
-            );
-        }
+        var scrobbles = tracks
+            .Select(TryExtractTrack)
+            .Where(o => !o.IsError)
+            .Select(o => o.Value)
+            .ToList();
 
         var totalPages = 1;
         if (
@@ -245,17 +241,52 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
         )
             totalPages = int.Parse(totalPagesEl.GetString() ?? "1");
 
-        return (scrobbles, totalPages);
+        return new FetchPageResult(scrobbles, totalPages);
+    }
+
+    private static ErrorOr<LastFmScrobble> TryExtractTrack(JsonElement track)
+    {
+        if (!track.TryGetProperty("date", out var dateElement))
+            return Errors.LastFm.MalformedResponse;
+
+        var uts = dateElement.GetProperty(propertyName: "uts").GetString();
+        if (uts is "0" or null)
+            return Errors.LastFm.MalformedResponse;
+
+        var playedAt = DateTimeOffset.FromUnixTimeSeconds(long.Parse(s: uts));
+
+        var trackName = track.TryGetProperty("name", out var nameEl)
+            ? nameEl.GetString()
+            : null;
+        if (string.IsNullOrEmpty(value: trackName))
+            return Errors.LastFm.MalformedResponse;
+
+        var artistName =
+            track.TryGetProperty("artist", out var artistEl)
+            && artistEl.TryGetProperty("#text", out var artistText)
+                ? artistText.GetString() ?? ""
+                : "";
+
+        var albumName =
+            track.TryGetProperty("album", out var albumEl)
+            && albumEl.TryGetProperty("#text", out var albumText)
+                ? albumText.GetString() ?? ""
+                : "";
+
+        return new LastFmScrobble
+        {
+            TrackTitle = trackName,
+            Artist = artistName,
+            Album = albumName,
+            PlayedAt = playedAt,
+        };
     }
 
     private async Task WaitForRateLimit(CancellationToken ct)
     {
         var elapsed = DateTimeOffset.UtcNow - LastRequestTime;
         if (elapsed < TimeSpan.FromMilliseconds(milliseconds: 200))
-            await Task.Delay(
-                TimeSpan.FromMilliseconds(milliseconds: 200) - elapsed,
-                ct
-            );
+            await Task.Delay(TimeSpan.FromMilliseconds(milliseconds: 200) - elapsed, ct);
         LastRequestTime = DateTimeOffset.UtcNow;
     }
 
@@ -267,83 +298,6 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
             4 or 9 or 10 or 13 or 14 or 17 or 26 => LastFmErrorType.Fatal,
             _ => LastFmErrorType.Permanent,
         };
-
-    public static List<LastFmScrobble> MergeScrobbles(
-        List<LastFmScrobble> existing,
-        List<LastFmScrobble> newScrobbles
-    )
-    {
-        var merged = existing
-            .Concat(second: newScrobbles)
-            .GroupBy(s => s.PlayedAt)
-            .Select(g => g.First())
-            .OrderByDescending(s => s.PlayedAt)
-            .ToList();
-
-        return merged;
-    }
-
-    public static async Task<List<LastFmScrobble>> LoadScrobblesAsync(string stateDir)
-    {
-        var path = Path.Combine(stateDir, "scrobbles.json");
-
-        if (!File.Exists(path: path))
-            return [];
-
-        try
-        {
-            await using var stream = File.OpenRead(path: path);
-            return await JsonSerializer.DeserializeAsync<List<LastFmScrobble>>(
-                stream,
-                JsonOptions
-            ) ?? [];
-        }
-        catch (JsonException ex)
-        {
-            Telemetry.Warn(
-                "Corrupt scrobbles at {Path}, resetting: {Error}",
-                path,
-                ex.Message
-            );
-            return [];
-        }
-    }
-
-    public static async Task SaveScrobblesAsync(string stateDir, List<LastFmScrobble> scrobbles)
-    {
-        if (!Directory.Exists(path: stateDir))
-            Directory.CreateDirectory(path: stateDir);
-
-        var path = Path.Combine(stateDir, "scrobbles.json");
-
-        try
-        {
-            await using var stream = File.Create(path: path);
-            await JsonSerializer.SerializeAsync(
-                stream,
-                scrobbles,
-                JsonOptions
-            );
-        }
-        catch (IOException ex)
-        {
-            Telemetry.Error(
-                "Failed to save scrobbles to {Path}: {Error}",
-                path,
-                ex.Message
-            );
-            throw;
-        }
-        catch (UnauthorizedAccessException ex)
-        {
-            Telemetry.Error(
-                "Permission denied saving scrobbles to {Path}: {Error}",
-                path,
-                ex.Message
-            );
-            throw;
-        }
-    }
 }
 
 public enum LastFmErrorType

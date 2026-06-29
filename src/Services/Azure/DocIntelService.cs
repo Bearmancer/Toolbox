@@ -11,16 +11,18 @@ public class DocIntelService(DocumentIntelligenceClient client)
 
     public async Task<string> AnalyzeAsync(string filePath, string modelId, CancellationToken ct)
     {
-        var path = InputFile.ResolvePath(filePath);
-        var bytes = InputFile.ReadChecked(path, MaxBytes, "DocumentIntelligence");
+        var path = PathResolver.ResolveInput(filePath);
+        var bytes = PathResolver.ReadChecked(path, MaxBytes, "DocumentIntelligence");
 
+        using var _ = Telemetry.ForService(ServiceName.DocIntel);
+        using var activity = Telemetry.StartActivity("DocumentIntelligence.Analyze");
         var operation = await client
             .AnalyzeDocumentAsync(
                 WaitUntil.Completed,
                 new AnalyzeDocumentOptions(modelId, BinaryData.FromBytes(bytes)),
                 ct
-            )
-            .WithTelemetry("DocIntel", "DocumentIntelligence.Analyze");
+            );
+        activity.Complete();
 
         var result = operation.Value;
         if (result.Pages.Count is 0)

@@ -1,4 +1,3 @@
-using Core;
 using Microsoft.CognitiveServices.Speech;
 
 namespace Services.Azure;
@@ -26,9 +25,7 @@ public class SpeechTtsService(AzureCredentials opts)
 
         await using var reg = ct.Register(() => _ = synth.StopSpeakingAsync());
 
-        var result = await synth
-            .SpeakTextAsync(text: text)
-            .WithTelemetry("Speech", "Speech.Synthesize");
+        var result = await synth.SpeakTextAsync(text: text);
 
         await File.WriteAllBytesAsync(
             outputPath,

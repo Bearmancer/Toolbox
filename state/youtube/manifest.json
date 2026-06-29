@@ -939,9 +939,9 @@
     "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f": {
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
       "Title": "Simon Rattle",
-      "ETag": "_vmsXLgv0Yyl-i_k7wfXeKrj-3k",
-      "ReportedVideoCount": 130,
-      "LastChecked": "2026-06-24T13:54:24.7995529+00:00",
+      "ETag": "XCrDKEeHm1DWZLeuqNS3DLgRWfw",
+      "ReportedVideoCount": 132,
+      "LastChecked": "2026-06-26T18:00:00.9195485+00:00",
       "LastUpdated": "2024-10-30T22:30:21.10427+00:00"
     },
     "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv": {
@@ -1035,9 +1035,9 @@
     "PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf": {
       "PlaylistId": "PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf",
       "Title": "Herbert Blomstedt",
-      "ETag": "x_m2vayUhSnwcWVdsc6bOWSmBxQ",
-      "ReportedVideoCount": 90,
-      "LastChecked": "2026-06-24T13:54:24.7995692+00:00",
+      "ETag": "cSAz4DqjCDpY_eQutMMri6glFgc",
+      "ReportedVideoCount": 91,
+      "LastChecked": "2026-06-26T18:00:00.9195549+00:00",
       "LastUpdated": "2023-11-27T22:53:02.900428+00:00"
     },
     "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-": {
@@ -1115,9 +1115,9 @@
     "PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9": {
       "PlaylistId": "PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9",
       "Title": "Andr\u00E9s Orozco-Estrada",
-      "ETag": "wjPkwrbZn_ha8YsbmPwRh4KqG3E",
-      "ReportedVideoCount": 165,
-      "LastChecked": "2026-06-24T13:54:24.7995758+00:00",
+      "ETag": "kU0gholV4UJQzVHnrLKZUEGdorg",
+      "ReportedVideoCount": 166,
+      "LastChecked": "2026-06-26T18:00:00.9195598+00:00",
       "LastUpdated": "2023-11-16T19:30:38.001297+00:00"
     },
     "PL1zgNCoWt_7bpwlJYymdY79IvMF7YQ2Nx": {
@@ -1139,15 +1139,14 @@
     "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4": {
       "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
       "Title": "Barbara Hannigan",
-      "ETag": "_bPqOg-DYDL2CKWWGY1FtfhWmX0",
-      "ReportedVideoCount": 6,
-      "LastChecked": "2026-06-25T05:30:08.6088201+00:00",
+      "ETag": "5rj5wtt_Uhhw8kKHoyZqVzu9mPU",
+      "ReportedVideoCount": 7,
+      "LastChecked": "2026-06-28T16:55:22.0654591+00:00",
       "LastUpdated": "2026-06-24T18:00:43.186609+00:00"
     }
   },
-  "LastChecked": "2026-06-25T16:26:47.1420308+00:00",
-  "LastUpdated": "2026-06-25T16:26:47.1420309+00:00",
-  "FetchComplete": true,
-  "AzureCharsUsed": 5350708,
+  "LastChecked": "2026-06-28T16:55:24.167711+00:00",
+  "LastUpdated": "2026-06-28T16:55:24.1677112+00:00",
+  "AzureCharsUsed": 5353089,
   "AzureCharsMonth": 6
 }

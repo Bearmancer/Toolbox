@@ -1,4 +1,5 @@
 using Core;
+using ErrorOr;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
 
@@ -6,11 +7,13 @@ namespace Services.Google.YouTube;
 
 public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playlistService)
 {
-    private readonly record struct PlaylistUpdate(PlaylistItem Item, int NewPosition);
-    private readonly record struct BatchFailure(int Position, string ItemId, string ErrorMessage, int HttpStatusCode, string? FullError);
-    public readonly record struct SortResult(int Repositioned, string NewETag);
+    public readonly record struct PlaylistUpdate(PlaylistItem Item, int NewPosition);
 
-    public async Task<SortResult> SortPlaylistAsync(
+    public readonly record struct SortResult(int Repositioned, string NewETag);
+    public readonly record struct SortPlan(int TotalItems, int LisSize, IReadOnlyList<PlaylistUpdate> Updates);
+    public readonly record struct SortPassResult(int Successes, int Failures);
+
+    public async Task<ErrorOr<SortResult>> SortPlaylistAsync(
         string playlistId,
         CancellationToken ct
     )
@@ -23,121 +26,45 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 
         for (var pass = 0; pass < MaxPasses; pass++)
         {
-            var items = await playlistService.GetPlaylistItemsAsync(playlistId, ct);
+            var passResult = await FetchPlaylistItemsAsync(playlistId, ct)
+                .Then(ComputeSortPlan)
+                .ThenAsync(plan => ExecuteSortPlanAsync(plan, ct));
 
-            var sorted = items.OrderBy(i => i.Snippet.Title, StringComparer.OrdinalIgnoreCase).ToList();
-
-            var targetRank = sorted
-                .Select((item, idx) => (item.Id, idx))
-                .ToDictionary(x => x.Id, x => x.idx);
-
-            var currentOrder = items.OrderBy(i => i.Snippet.Position ?? 0).ToList();
-            var permutation = currentOrder
-                .Select(item => targetRank[item.Id])
-                .ToArray();
-
-            var lisCurrentIndices = LongestIncreasingSubsequence(permutation);
-            var keptIds = lisCurrentIndices.Select(i => currentOrder[i].Id).ToHashSet();
-
-            var toUpdate = new List<PlaylistUpdate>();
-            for (var i = 0; i < sorted.Count; i++)
-                if (!keptIds.Contains(sorted[i].Id))
-                    toUpdate.Add(new PlaylistUpdate(sorted[i], i));
-
-            Telemetry.Info(
-                "YouTube.SortPlaylist pass {Pass}: {Total} items, LIS={LisSize}, {Delta} need repositioning",
-                pass + 1,
-                items.Count,
-                keptIds.Count,
-                toUpdate.Count
-            );
-
-            if (toUpdate.Count == 0)
-            {
-                var summary = await playlistService.GetPlaylistSummaryAsync(playlistId, ct);
-                activity.Complete();
-                Telemetry.Info(
-                    "YouTube.SortPlaylist complete — {Repositioned} repositioned, new ETag: {ETag}",
-                    totalRepositioned,
-                    summary?.ETag ?? "unknown"
-                );
-                return new SortResult(totalRepositioned, summary?.ETag ?? "");
-            }
-
-            Telemetry.Info(
-                "YouTube.SortPlaylist: updating {Count} items sequentially",
-                toUpdate.Count
-            );
-
-            var failures = new List<BatchFailure>();
-            var passSuccessCount = 0;
-
-            for (var i = 0; i < toUpdate.Count; i++)
-            {
-                ct.ThrowIfCancellationRequested();
-
-                var update = toUpdate[i];
-                var item = update.Item;
-                var newPosition = update.NewPosition;
-                var itemId = item.Id ?? "unknown";
-
-                item.Snippet.Position = newPosition;
-
-                Telemetry.Debug(
-                    "Updating item {Index}/{Total}: ItemId={ItemId}, NewPos={NewPos}",
-                    i + 1,
-                    toUpdate.Count,
-                    itemId,
-                    newPosition
-                );
-
-                try
-                {
-                    await yt.PlaylistItems.Update(item, "snippet").ExecuteAsync(ct);
-                    passSuccessCount++;
-                    Telemetry.Debug(
-                        "Successfully updated ItemId={ItemId} to position {Position}",
-                        itemId,
-                        newPosition
-                    );
-                }
-                catch (Exception ex)
-                {
-                    Telemetry.Error(
-                        "Failed to update ItemId={ItemId} to position {Position}: {Error}",
-                        itemId,
-                        newPosition,
-                        ex.Message
-                    );
-                    failures.Add(new BatchFailure(newPosition, itemId, ex.Message, 0, ex.ToString()));
-                }
-
-                if (i < toUpdate.Count - 1)
-                    await Task.Delay(TimeSpan.FromMilliseconds(100), ct);
-            }
-
-            totalRepositioned += passSuccessCount;
-
-            if (failures.Count > 0)
+            if (passResult.IsError)
             {
                 Telemetry.Error(
-                    "YouTube.SortPlaylist: {Failed}/{Total} updates FAILED — aborting",
-                    failures.Count,
-                    toUpdate.Count
+                    "YouTube.SortPlaylist pass {Pass} aborted: {Error}",
+                    pass + 1,
+                    passResult.FirstError.Description
                 );
-                foreach (var f in failures)
-                    Telemetry.Error(
-                        "Update failure at position {Position} (ItemId={ItemId}): {Error}",
-                        f.Position,
-                        f.ItemId,
-                        f.ErrorMessage
-                    );
                 break;
             }
 
+            var (successes, failures) = passResult.Value;
+            totalRepositioned += successes;
+
+            Telemetry.Info(
+                "YouTube.SortPlaylist pass {Pass}: {Successes} updated, {Failures} failed",
+                pass + 1,
+                successes,
+                failures
+            );
+
+            if (failures > 0)
+            {
+                Telemetry.Error(
+                    "YouTube.SortPlaylist: {Failures} updates failed — aborting",
+                    failures
+                );
+                break;
+            }
+
+            if (successes == 0)
+                break;
+
             Telemetry.Info(
                 "YouTube.SortPlaylist: all {Count} updates succeeded",
-                passSuccessCount
+                successes
             );
         }
 
@@ -149,6 +76,119 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
             finalSummary?.ETag ?? "unknown"
         );
         return new SortResult(totalRepositioned, finalSummary?.ETag ?? "");
+    }
+
+    private async Task<ErrorOr<List<PlaylistItem>>> FetchPlaylistItemsAsync(
+        string playlistId,
+        CancellationToken ct
+    )
+    {
+        try
+        {
+            var items = await playlistService.GetPlaylistItemsAsync(playlistId, ct);
+            return items.ToList();
+        }
+        catch (Exception ex)
+        {
+            return Errors.YouTube.ApiError(ex.Message);
+        }
+    }
+
+    public static SortPlan ComputeSortPlan(IList<PlaylistItem> items)
+    {
+        var sorted = items.OrderBy(i => i.Snippet.Title, StringComparer.OrdinalIgnoreCase).ToList();
+
+        var targetRank = sorted
+            .Select((item, idx) => (item.Id, idx))
+            .ToDictionary(x => x.Id, x => x.idx);
+
+        var currentOrder = items.OrderBy(i => i.Snippet.Position ?? 0).ToList();
+        var permutation = currentOrder
+            .Select(item => targetRank[item.Id])
+            .ToArray();
+
+        var lisCurrentIndices = LongestIncreasingSubsequence(permutation);
+        var keptIds = lisCurrentIndices.Select(i => currentOrder[i].Id).ToHashSet();
+
+        var updates = new List<PlaylistUpdate>();
+        for (var i = 0; i < sorted.Count; i++)
+            if (!keptIds.Contains(sorted[i].Id))
+                updates.Add(new PlaylistUpdate(sorted[i], i));
+
+        Telemetry.Info(
+            "ComputeSortPlan: {Total} items, LIS={LisSize}, {Delta} need repositioning",
+            items.Count,
+            keptIds.Count,
+            updates.Count
+        );
+
+        return new SortPlan(items.Count, keptIds.Count, updates);
+    }
+
+    private async Task<ErrorOr<SortPassResult>> ExecuteSortPlanAsync(
+        SortPlan plan,
+        CancellationToken ct
+    )
+    {
+        if (plan.Updates.Count == 0)
+            return new SortPassResult(0, 0);
+
+        Telemetry.Info(
+            "ExecuteSortPlan: updating {Count} items sequentially",
+            plan.Updates.Count
+        );
+
+        var successes = 0;
+        var failures = 0;
+
+        for (var i = 0; i < plan.Updates.Count; i++)
+        {
+            ct.ThrowIfCancellationRequested();
+
+            var update = plan.Updates[i];
+            var item = update.Item;
+            var newPosition = update.NewPosition;
+            var itemId = item.Id ?? "unknown";
+
+            item.Snippet.Position = newPosition;
+
+            Telemetry.Debug(
+                "Updating item {Index}/{Total}: ItemId={ItemId}, NewPos={NewPos}",
+                i + 1,
+                plan.Updates.Count,
+                itemId,
+                newPosition
+            );
+
+            try
+            {
+                await yt.PlaylistItems.Update(item, "snippet").ExecuteAsync(ct);
+                successes++;
+                Telemetry.Debug(
+                    "Successfully updated ItemId={ItemId} to position {Position}",
+                    itemId,
+                    newPosition
+                );
+            }
+            catch (Exception ex)
+            {
+                failures++;
+                Telemetry.Error(
+                    "Failed to update ItemId={ItemId} to position {Position}: {Error}",
+                    itemId,
+                    newPosition,
+                    ex.Message
+                );
+            }
+
+            if (i < plan.Updates.Count - 1)
+                await Task.Delay(TimeSpan.FromMilliseconds(100), ct);
+        }
+
+        if (failures > 0)
+            return Errors.YouTube.ApiError($"{failures}/{plan.Updates.Count} updates failed");
+
+        return new SortPassResult(successes, failures);
     }
 
     private static List<int> LongestIncreasingSubsequence(int[] arr)

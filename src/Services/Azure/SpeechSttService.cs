@@ -16,8 +16,8 @@ public class SpeechSttService(AzureCredentials opts)
         CancellationToken ct
     )
     {
-        var path = InputFile.ResolvePath(filePath);
-        InputFile.ReadChecked(path, MaxBytes, "Speech");
+        var path = PathResolver.ResolveInput(filePath);
+        PathResolver.ReadChecked(path, MaxBytes, "Speech");
 
         var wavPath = path;
         var ext = Path.GetExtension(path).ToLowerInvariant();

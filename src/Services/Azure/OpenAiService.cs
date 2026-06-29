@@ -48,8 +48,10 @@ public class OpenAiService(AzureOpenAIClient client, AzureCredentials opts)
         if (maxTokens is { } mt)
             options.MaxOutputTokenCount = mt;
 
-        var completion = await chat.CompleteChatAsync(messageList, options, ct)
-            .WithTelemetry("OpenAI", "OpenAI.Chat {Deployment}", deployment ?? "default");
+        using var _ = Telemetry.ForService(ServiceName.OpenAI);
+        using var activity = Telemetry.StartActivity("OpenAI.Chat {Deployment}", deployment ?? "default");
+        var completion = await chat.CompleteChatAsync(messageList, options, ct);
+        activity.Complete();
 
         return $"Model: {modelDeployment}\n---\n{completion.Value.Content[0].Text}";
     }

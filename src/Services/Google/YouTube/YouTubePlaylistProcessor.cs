@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using System.Text.Json;
 using Core;
+using ErrorOr;
 using Google.Apis.YouTube.v3.Data;
 
 namespace Services.Google.YouTube;
@@ -12,104 +13,103 @@ public class YouTubePlaylistProcessor(
 )
 {
     public readonly record struct ProcessResult(int Videos, int Skipped, int AzureChars);
+    private readonly record struct MergeResult(List<YouTubeVideo> Videos, int Skipped);
+    private record PlaylistProcessContext(PlaylistSnapshot Snapshot, string SanitizedTitle, string RawPath, string ProcessedPath);
 
-    public async Task RefreshLocalStateAsync(
+    public async Task<ErrorOr<ProcessResult>> ProcessPlaylistAsync(
         PlaylistSnapshot snapshot,
         CancellationToken ct
     )
     {
-        var sanitizedTitle = Text.SanitizeFileName(snapshot.Title);
-        var rawPath = Path.Combine(YouTubePaths.RawDir, $"{sanitizedTitle}.json");
-        var processedPath = Path.Combine(YouTubePaths.ProcessedDir, $"{sanitizedTitle}.json");
-
-        Telemetry.Info("Refreshing local state for {Title} to reflect sorted order...", snapshot.Title);
-
-        var rawPages = await playlistService.GetPlaylistItemPagesRawAsync(
-            snapshot.PlaylistId,
-            "snippet,contentDetails",
-            ct
+        var stopwatch = Stopwatch.StartNew();
+        var ctx = new PlaylistProcessContext(
+            snapshot,
+            Text.SanitizeFileName(snapshot.Title),
+            Path.Combine(YouTubePaths.RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
+            Path.Combine(YouTubePaths.ProcessedDir, $"{Text.SanitizeFileName(snapshot.Title)}.json")
         );
-
-        List<PlaylistItem> allItems = [.. rawPages.SelectMany(p => p.Items ?? [])];
-        await WriteJsonAsync(rawPath, allItems, ct);
-
-        var videoIds = allItems
-            .Select(i => i.ContentDetails!.VideoId ?? i.Snippet!.ResourceId!.VideoId!)
-            .Where(id => !string.IsNullOrEmpty(id))
-            .ToList();
-
-        var durations = await videoService.GetVideoDurationsAsync(videoIds, ct);
-
-        var existingVideos = await LoadExistingVideosAsync(processedPath, ct);
-        var existingDict = new Dictionary<string, YouTubeVideo>();
-        foreach (var video in existingVideos)
-            existingDict.TryAdd(video.VideoId, video);
-
-        var refreshedVideos = new List<YouTubeVideo>();
-        var skipped = 0;
-
-        foreach (var item in allItems)
-        {
-            var videoId = item.ContentDetails!.VideoId ?? item.Snippet!.ResourceId!.VideoId!;
-            if (!durations.TryGetValue(videoId, out var duration))
-            {
-                skipped++;
-                continue;
-            }
-
-            var video = new YouTubeVideo
-            {
-                Title = item.Snippet.Title!,
-                Description = item.Snippet.Description ?? "",
-                Duration = duration,
-                VideoId = videoId,
-                ChannelName = item.Snippet.VideoOwnerChannelTitle ?? item.Snippet.ChannelTitle!,
-                ChannelId = item.Snippet.VideoOwnerChannelId ?? item.Snippet.ChannelId!,
-            };
-
-            if (existingDict.TryGetValue(videoId, out var existing))
-            {
-                video = video with
-                {
-                    TranslatedTitle = existing.TranslatedTitle,
-                    TranslatedDescription = existing.TranslatedDescription,
-                    DetectedLanguage = existing.DetectedLanguage,
-                };
-            }
-            refreshedVideos.Add(video);
-        }
-
-        await WriteJsonAsync(processedPath, refreshedVideos, ct);
-        Telemetry.Info(
-            "Local state refreshed for {Title}: {Videos} videos, {Skipped} skipped",
-            snapshot.Title,
-            refreshedVideos.Count,
-            skipped
-        );
-    }
-
-    public async Task<ProcessResult> ProcessPlaylistAsync(
-        PlaylistSnapshot snapshot,
-        CancellationToken ct
-    )
-    {
-        var playlistStopwatch = Stopwatch.StartNew();
-        var sanitizedTitle = Text.SanitizeFileName(snapshot.Title);
 
         Telemetry.Debug("Processing playlist: {Title} ({Id})", snapshot.Title, snapshot.PlaylistId);
 
-        var rawPages = await playlistService.GetPlaylistItemPagesRawAsync(
-            snapshot.PlaylistId,
-            "snippet,contentDetails",
-            ct
+        var result = await FetchItemsAsync(ctx, ct)
+            .ThenAsync(items => BuildVideoListAsync(items, ctx, ct))
+            .ThenAsync(async videoCtx =>
+            {
+                var videos = (await MergeCacheAsync(videoCtx.videos, ctx, ct)).Value;
+                return new MergeResult(videos, videoCtx.skipped);
+            })
+            .ThenAsync(async state =>
+            {
+                return await translationService.TranslateVideosAsync(
+                    state.Videos,
+                    ct,
+                    async (currentVideos, checkpointCt) =>
+                    {
+                        Telemetry.Debug("Checkpointing processed file: {Path} ({Count} videos)", ctx.ProcessedPath, currentVideos.Count);
+                        await WriteJsonAsync(ctx.ProcessedPath, currentVideos, checkpointCt);
+                    }
+                ).Then(r => new ProcessResult(r.Videos.Count, state.Skipped, r.AzureChars));
+            });
+
+        if (result.IsSuccess)
+        {
+            Telemetry.Info("Done — {Count} videos, {Skipped} skipped in {Elapsed}s",
+                result.Value.Videos, result.Value.Skipped, stopwatch.Elapsed.TotalSeconds);
+        }
+
+        return result;
+    }
+
+    public async Task<ErrorOr<int>> RefreshLocalStateAsync(
+        PlaylistSnapshot snapshot,
+        CancellationToken ct
+    )
+    {
+        var ctx = new PlaylistProcessContext(
+            snapshot,
+            Text.SanitizeFileName(snapshot.Title),
+            Path.Combine(YouTubePaths.RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
+            Path.Combine(YouTubePaths.ProcessedDir, $"{Text.SanitizeFileName(snapshot.Title)}.json")
         );
 
-        List<PlaylistItem> allItems = [.. rawPages.SelectMany(p => p.Items ?? [])];
-        var rawPath = Path.Combine(YouTubePaths.RawDir, $"{sanitizedTitle}.json");
-        await WriteJsonAsync(rawPath, allItems, ct);
-        Telemetry.Debug("Saved {Count} items to raw/{Title}.json", allItems.Count, sanitizedTitle);
+        Telemetry.Info("Refreshing local state for {Title} to reflect sorted order...", snapshot.Title);
 
-        var videoIds = allItems
+        var result = await FetchItemsAsync(ctx, ct)
+            .ThenAsync(items => BuildVideoListAsync(items, ctx, ct))
+            .ThenAsync(async videoCtx =>
+            {
+                var videos = (await MergeCacheAsync(videoCtx.videos, ctx, ct)).Value;
+                await WriteJsonAsync(ctx.ProcessedPath, videos, ct);
+                return videos.Count;
+            });
+
+        if (result.IsSuccess)
+        {
+            Telemetry.Info("Local state refreshed for {Title}: {Videos} videos", snapshot.Title, result.Value);
+        }
+
+        return result;
+    }
+
+    private async Task<ErrorOr<List<PlaylistItem>>> FetchItemsAsync(PlaylistProcessContext ctx, CancellationToken ct)
+    {
+        try
+        {
+            var rawPages = await playlistService.GetPlaylistItemPagesRawAsync(ctx.Snapshot.PlaylistId, "snippet,contentDetails", ct);
+            List<PlaylistItem> items = [.. rawPages.SelectMany(p => p.Items ?? [])];
+            await WriteJsonAsync(ctx.RawPath, items, ct);
+            Telemetry.Debug("Saved {Count} items to raw/{Title}.json", items.Count, ctx.SanitizedTitle);
+            return items;
+        }
+        catch (Exception ex)
+        {
+            return Errors.YouTube.ApiError(ex.Message);
+        }
+    }
+
+    private async Task<ErrorOr<(List<YouTubeVideo> videos, int skipped)>> BuildVideoListAsync(List<PlaylistItem> items, PlaylistProcessContext ctx, CancellationToken ct)
+    {
+        var videoIds = items
             .Select(i => i.ContentDetails!.VideoId ?? i.Snippet!.ResourceId!.VideoId!)
             .Where(id => !string.IsNullOrEmpty(id))
             .ToList();
@@ -118,162 +118,98 @@ public class YouTubePlaylistProcessor(
         var videos = new List<YouTubeVideo>();
         var skipped = 0;
 
-        foreach (var item in allItems)
+        foreach (var item in items)
         {
             var videoId = item.ContentDetails!.VideoId ?? item.Snippet!.ResourceId!.VideoId!;
-
             if (!durations.TryGetValue(videoId, out var duration))
             {
-                Telemetry.Debug(
-                    "Skipping video {VideoId} — no duration available (deleted or private)",
-                    videoId
-                );
+                Telemetry.Debug("Skipping video {VideoId} — no duration available", videoId);
                 skipped++;
                 continue;
             }
 
-            videos.Add(
-                new YouTubeVideo
-                {
-                    Title = item.Snippet.Title!,
-                    Description = item.Snippet.Description ?? "",
-                    Duration = duration,
-                    ChannelName = item.Snippet.VideoOwnerChannelTitle ?? item.Snippet.ChannelTitle!,
-                    VideoId = item.ContentDetails?.VideoId ?? item.Snippet.ResourceId?.VideoId!,
-                    ChannelId = item.Snippet.VideoOwnerChannelId ?? item.Snippet.ChannelId!,
-                }
-            );
+            videos.Add(new YouTubeVideo
+            {
+                Title = item.Snippet.Title!,
+                Description = item.Snippet.Description ?? "",
+                Duration = duration,
+                VideoId = videoId,
+                ChannelName = item.Snippet.VideoOwnerChannelTitle ?? item.Snippet.ChannelTitle!,
+                ChannelId = item.Snippet.VideoOwnerChannelId ?? item.Snippet.ChannelId!,
+            });
         }
 
-        var playlistPath = Path.Combine(YouTubePaths.ProcessedDir, $"{sanitizedTitle}.json");
-        var existingVideos = await LoadExistingVideosAsync(playlistPath, ct);
+        return (videos, skipped);
+    }
+
+    private async Task<ErrorOr<List<YouTubeVideo>>> MergeCacheAsync(List<YouTubeVideo> videos, PlaylistProcessContext ctx, CancellationToken ct)
+    {
+        var existingVideos = await LoadExistingVideosAsync(ctx.ProcessedPath, ct);
         var existingDict = new Dictionary<string, YouTubeVideo>();
         foreach (var video in existingVideos)
             existingDict.TryAdd(video.VideoId, video);
 
         var incomingIds = videos.Select(v => v.VideoId).ToHashSet();
-        if (existingVideos.Count == 0)
-            Telemetry.Info("Fresh sync: {Count} videos", videos.Count);
-        else
+        
+        if (existingVideos.Count > 0)
         {
             var added = incomingIds.Except(existingDict.Keys).Count();
             var removed = existingDict.Keys.Except(incomingIds).Count();
             var net = added - removed;
-            var netStr = net switch
-            {
-                > 0 => $"+{net}",
-                0 => "net 0",
-                _ => $"{net}",
-            };
-            Telemetry.Info(
-                "Update sync: {Added} added, {Removed} removed ({Net}), {Total} total",
-                added,
-                removed,
-                netStr,
-                videos.Count
-            );
-
-            for (var i = 0; i < videos.Count; i++)
-            {
-                var video = videos[i];
-                if (
-                    existingDict.TryGetValue(video.VideoId, out var existing)
-                    && existing.TranslatedTitle is { }
-                    && existing.TranslatedDescription is { }
-                    && existing.Title.IsEqualTo(video.Title)
-                    && existing.Description.IsEqualTo(video.Description)
-                )
-                    videos[i] = video with
-                    {
-                        TranslatedTitle = existing.TranslatedTitle,
-                        TranslatedDescription = existing.TranslatedDescription,
-                        DetectedLanguage = existing.DetectedLanguage,
-                    };
-            }
+            Telemetry.Info("Update sync: {Added} added, {Removed} removed ({Net}), {Total} total", 
+                added, removed, net switch { > 0 => $"+{net}", 0 => "net 0", _ => $"{net}" }, videos.Count);
         }
-
-        var cachedVideos = videos
-            .Where(v => v.TranslatedTitle is { } && v.TranslatedDescription is { })
-            .ToList();
-
-        if (cachedVideos.Count > 0)
+        else
         {
-            var langGroups = cachedVideos
-                .GroupBy(v => v.DetectedLanguage ?? "unknown")
-                .OrderByDescending(g => g.Count())
-                .Select(g => $"{g.Count()} {g.Key}");
-            Telemetry.Info(
-                "Cache: {Count}/{Total} videos from previous run ({LangSummary})",
-                cachedVideos.Count,
-                videos.Count,
-                string.Join(", ", langGroups)
-            );
+            Telemetry.Info("Fresh sync: {Count} videos", videos.Count);
         }
 
-        var (translatedVideos, azureChars) = await translationService.TranslateVideosAsync(
-            videos,
-            ct,
-            async (currentVideos, checkpointCt) =>
+        for (var i = 0; i < videos.Count; i++)
+        {
+            var video = videos[i];
+            if (existingDict.TryGetValue(video.VideoId, out var existing)
+                && existing.TranslatedTitle is { }
+                && existing.TranslatedDescription is { }
+                && existing.Title.IsEqualTo(video.Title)
+                && existing.Description.IsEqualTo(video.Description))
             {
-                Telemetry.Debug(
-                    "Checkpointing processed file: {Path} ({Count} videos)",
-                    playlistPath,
-                    currentVideos.Count
-                );
-                await WriteJsonAsync(playlistPath, currentVideos, checkpointCt);
+                videos[i] = video with
+                {
+                    TranslatedTitle = existing.TranslatedTitle,
+                    TranslatedDescription = existing.TranslatedDescription,
+                    DetectedLanguage = existing.DetectedLanguage,
+                };
             }
-        );
+        }
 
-        Telemetry.Debug(
-            "Wrote processed file: {Path} ({Count} videos)",
-            playlistPath,
-            translatedVideos.Count
-        );
+        var cachedCount = videos.Count(v => v.TranslatedTitle is { } && v.TranslatedDescription is { });
+        if (cachedCount > 0)
+        {
+            var langGroups = cachedVideosSummary(videos);
+            Telemetry.Info("Cache: {Count}/{Total} videos from previous run ({LangSummary})", 
+                cachedCount, videos.Count, string.Join(", ", langGroups));
+        }
 
-        playlistStopwatch.Stop();
-        Telemetry.Info(
-            "Done — {Count} videos, {Skipped} skipped in {Elapsed}s",
-            translatedVideos.Count,
-            skipped,
-            playlistStopwatch.Elapsed.TotalSeconds
-        );
-
-        return new ProcessResult(translatedVideos.Count, skipped, azureChars);
+        return videos;
     }
 
-    private static async Task<List<YouTubeVideo>> LoadExistingVideosAsync(
-        string processedPath,
-        CancellationToken ct
-    )
-    {
-        if (!File.Exists(processedPath))
-            return [];
+    private static IEnumerable<string> cachedVideosSummary(List<YouTubeVideo> videos) =>
+        videos.Where(v => v.TranslatedTitle is { } && v.TranslatedDescription is { })
+              .GroupBy(v => v.DetectedLanguage ?? "unknown")
+              .OrderByDescending(g => g.Count())
+              .Select(g => $"{g.Count()} {g.Key}");
 
+    private static async Task<List<YouTubeVideo>> LoadExistingVideosAsync(string processedPath, CancellationToken ct)
+    {
+        if (!File.Exists(processedPath)) return [];
         try
         {
             await using var stream = File.OpenRead(processedPath);
-            return await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(
-                    stream,
-                    YouTubeFetchState.JsonOptions,
-                    ct
-                ) ?? [];
+            return await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(stream, YouTubeFetchState.JsonOptions, ct) ?? [];
         }
-        catch (JsonException ex)
+        catch (Exception ex) when (ex is JsonException or FormatException)
         {
-            Telemetry.Error(
-                "Invalid JSON in processed file {Path}: {Error}",
-                processedPath,
-                ex.Message
-            );
-            return [];
-        }
-        catch (FormatException ex)
-        {
-            Telemetry.Error(
-                "Invalid data in processed file {Path}: {Error}",
-                processedPath,
-                ex.Message
-            );
+            Telemetry.Error("Invalid JSON in processed file {Path}: {Error}", processedPath, ex.Message);
             return [];
         }
     }

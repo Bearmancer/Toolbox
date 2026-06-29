@@ -7,7 +7,7 @@ namespace CLI.Azure;
 
 [Description(
     "Extract key phrases from text using Azure AI Language. "
-    + "Returns the most relevant phrases that summarize the main topics of the input."
+        + "Returns the most relevant phrases that summarize the main topics of the input."
 )]
 public class PhrasesCommand(TextAnalyticsService service) : AsyncCommand<PhrasesCommand.Settings>
 {
@@ -30,7 +30,7 @@ public class PhrasesCommand(TextAnalyticsService service) : AsyncCommand<Phrases
 
         [Description(
             "Language of the input text (BCP-47 format, e.g. 'en', 'es', 'fr', 'de'). "
-            + "Key phrase extraction is language-aware; specifying improves results. (default: en)"
+                + "Key phrase extraction is language-aware; specifying improves results. (default: en)"
         )]
         [CommandOption("--lang <LANG>")]
         public string? Lang { get; init; }

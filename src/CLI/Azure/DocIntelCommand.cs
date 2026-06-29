@@ -7,7 +7,7 @@ namespace CLI.Azure;
 
 [Description(
     "Extract text and structured data from documents using Azure Document Intelligence. "
-    + "Supports PDF, JPEG, PNG, TIFF, and BMP inputs."
+        + "Supports PDF, JPEG, PNG, TIFF, and BMP inputs."
 )]
 public class DocIntelCommand(DocIntelService service) : AsyncCommand<DocIntelCommand.Settings>
 {
@@ -26,17 +26,17 @@ public class DocIntelCommand(DocIntelService service) : AsyncCommand<DocIntelCom
     {
         [Description(
             "Path to the document file to analyze. "
-            + "Supports PDF, JPEG, PNG, TIFF, and BMP formats."
+                + "Supports PDF, JPEG, PNG, TIFF, and BMP formats."
         )]
         [CommandArgument(0, "<file>")]
         public required string File { get; init; }
 
         [Description(
             "Document Intelligence model to use. "
-            + "'prebuilt-read' extracts printed and handwritten text. "
-            + "'prebuilt-layout' extracts text, tables, selection marks, and structure. "
-            + "'prebuilt-invoice' extracts invoice fields (vendor, total, line items). "
-            + "(default: prebuilt-read)"
+                + "'prebuilt-read' extracts printed and handwritten text. "
+                + "'prebuilt-layout' extracts text, tables, selection marks, and structure. "
+                + "'prebuilt-invoice' extracts invoice fields (vendor, total, line items). "
+                + "(default: prebuilt-read)"
         )]
         [CommandOption("--model <MODEL>")]
         [DefaultValue("prebuilt-read")]

@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "active_work_id": "railway-transformation-5c94d4db",
+  "works": {
+    "railway-transformation-5c94d4db": {
+      "work_id": "railway-transformation-5c94d4db",
+      "active_plan": "C:\\Users\\Lance\\Desktop\\Azure\\New\\.omo\\plans\\railway-transformation.md",
+      "plan_name": "railway-transformation",
+      "status": "active",
+      "started_at": "2026-06-29T13:34:25.491Z",
+      "updated_at": "2026-06-29T13:34:25.491Z",
+      "session_ids": [
+        "opencode:ses_0ec95f0adffe6GBYt8m4eRX4fo"
+      ],
+      "session_origins": {
+        "opencode:ses_0ec95f0adffe6GBYt8m4eRX4fo": "direct"
+      },
+      "agent": "atlas",
+      "task_sessions": {}
+    }
+  },
+  "active_plan": "C:\\Users\\Lance\\Desktop\\Azure\\New\\.omo\\plans\\railway-transformation.md",
+  "started_at": "2026-06-29T13:34:25.491Z",
+  "status": "active",
+  "updated_at": "2026-06-29T13:34:25.491Z",
+  "session_ids": [
+    "opencode:ses_0ec95f0adffe6GBYt8m4eRX4fo"
+  ],
+  "session_origins": {
+    "opencode:ses_0ec95f0adffe6GBYt8m4eRX4fo": "direct"
+  },
+  "plan_name": "railway-transformation",
+  "task_sessions": {},
+  "agent": "atlas"
+}

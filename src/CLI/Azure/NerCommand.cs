@@ -7,7 +7,7 @@ namespace CLI.Azure;
 
 [Description(
     "Extract named entities from text using Azure AI Language. "
-    + "Identifies people, organizations, locations, dates, quantities, and more."
+        + "Identifies people, organizations, locations, dates, quantities, and more."
 )]
 public class NerCommand(TextAnalyticsService service) : AsyncCommand<NerCommand.Settings>
 {
@@ -30,7 +30,7 @@ public class NerCommand(TextAnalyticsService service) : AsyncCommand<NerCommand.
 
         [Description(
             "Language of the input text (BCP-47 format, e.g. 'en', 'es', 'fr', 'de'). "
-            + "Specifying the language improves entity detection accuracy. (default: en)"
+                + "Specifying the language improves entity detection accuracy. (default: en)"
         )]
         [CommandOption("--lang <LANG>")]
         public string? Lang { get; init; }

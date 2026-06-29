@@ -21,14 +21,16 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
+        using var _ = Telemetry.ForService(ServiceName.TextAnalytics);
+        using var activity = Telemetry.StartActivity("TextAnalytics.Sentiment");
         var result = await client
             .AnalyzeSentimentAsync(
                 text,
                 language,
                 new AnalyzeSentimentOptions { IncludeOpinionMining = opinionMining },
                 ct
-            )
-            .WithTelemetry("TextAnalytics", "TextAnalytics.Sentiment");
+            );
+        activity.Complete();
 
         var sb = new StringBuilder();
         sb.AppendLine($"Sentiment: {result.Value.Sentiment}");
@@ -64,9 +66,11 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
+        using var _ = Telemetry.ForService(ServiceName.TextAnalytics);
+        using var activity = Telemetry.StartActivity("TextAnalytics.Entities");
         var result = await client
-            .RecognizeEntitiesAsync(text, language, ct)
-            .WithTelemetry("TextAnalytics", "TextAnalytics.Entities");
+            .RecognizeEntitiesAsync(text, language, ct);
+        activity.Complete();
 
         var sb = new StringBuilder();
         foreach (var e in result.Value)
@@ -83,9 +87,11 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
+        using var _ = Telemetry.ForService(ServiceName.TextAnalytics);
+        using var activity = Telemetry.StartActivity("TextAnalytics.KeyPhrases");
         var result = await client
-            .ExtractKeyPhrasesAsync(text, language, ct)
-            .WithTelemetry("TextAnalytics", "TextAnalytics.KeyPhrases");
+            .ExtractKeyPhrasesAsync(text, language, ct);
+        activity.Complete();
 
         return string.Join(", ", result.Value);
     }
@@ -102,9 +108,11 @@ public class TextAnalyticsService(TextAnalyticsClient client)
                 $"Text length {text.Length} exceeds 5K"
             );
 
+        using var _ = Telemetry.ForService(ServiceName.TextAnalytics);
+        using var activity = Telemetry.StartActivity("TextAnalytics.DetectLanguage");
         var result = await client
-            .DetectLanguageAsync(text, countryHint, ct)
-            .WithTelemetry("TextAnalytics", "TextAnalytics.DetectLanguage");
+            .DetectLanguageAsync(text, countryHint, ct);
+        activity.Complete();
 
         return $"{result.Value.Name} ({result.Value.Iso6391Name}, confidence={result.Value.ConfidenceScore:F2})";
     }
@@ -137,9 +145,11 @@ public class TextAnalyticsService(TextAnalyticsClient client)
             };
         }
 
+        using var _ = Telemetry.ForService(ServiceName.TextAnalytics);
+        using var activity = Telemetry.StartActivity("TextAnalytics.Pii");
         var result = await client
-            .RecognizePiiEntitiesAsync(text, language, options, ct)
-            .WithTelemetry("TextAnalytics", "TextAnalytics.Pii");
+            .RecognizePiiEntitiesAsync(text, language, options, ct);
+        activity.Complete();
 
         var sb = new StringBuilder();
         if (domain is { })

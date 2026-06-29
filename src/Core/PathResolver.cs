@@ -25,4 +25,36 @@ public static class PathResolver
     });
 
     public static string RepoRoot => LazyRepoRoot.Value;
+
+    public static string ResourcesRoot => Path.Combine(RepoRoot, "resources");
+
+    /// <summary>
+    /// Resolves a user-supplied file path. Absolute paths are validated directly;
+    /// relative paths are resolved against the canonical <see cref="ResourcesRoot"/>.
+    /// </summary>
+    public static string ResolveInput(string input)
+    {
+        var path = Path.IsPathRooted(input)
+            ? input
+            : Path.GetFullPath(input, ResourcesRoot);
+
+        return File.Exists(path)
+            ? path
+            : throw new FileNotFoundException($"File not found: {input}");
+    }
+
+    /// <summary>
+    /// Reads all bytes from <paramref name="path"/>, enforcing a maximum size limit
+    /// to prevent oversized payloads from being sent to external services.
+    /// </summary>
+    public static byte[] ReadChecked(string path, long maxBytes, string serviceName)
+    {
+        var info = new FileInfo(path);
+        return info.Length > maxBytes
+            ? throw new ArgumentOutOfRangeException(
+                nameof(path),
+                $"Payload too large: {info.Length} bytes exceeds {maxBytes} byte limit for {serviceName}"
+            )
+            : File.ReadAllBytes(path);
+    }
 }

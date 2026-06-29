@@ -13,6 +13,17 @@ using Spectre.Console.Cli;
 
 namespace App;
 
+public sealed class SerilogTraceListener : TraceListener
+{
+    public override void Write(string? message)
+    {
+        if (!string.IsNullOrWhiteSpace(message))
+            Telemetry.Debug("[TraceSource] {Message}", message.Trim());
+    }
+
+    public override void WriteLine(string? message) => Write(message);
+}
+
 public static class Program
 {
     public static async Task<int> Main(string[] args)
@@ -29,12 +40,10 @@ public static class Program
 
         Env.TraversePath().Load();
 
-        using var eventListener = new LoggingExplorerEventListener();
-        DiagnosticListener.AllListeners.Subscribe(new DiagnosticObserver());
         Trace.Listeners.Add(new SerilogTraceListener());
 
-        Telemetry.Configure(
-            args.Contains(value: "--verbose") ? LogEventLevel.Debug : LogEventLevel.Information
+        await Telemetry.Configure(
+            args.Contains("--verbose") ? LogEventLevel.Debug : LogEventLevel.Information
         );
 
         var services = new ServiceCollection();
@@ -42,7 +51,7 @@ public static class Program
         try
         {
             services.AddAzureServices();
-            services.AddGoogleServices();
+            await services.AddGoogleServicesAsync();
             services.AddLastFmServices();
         }
         catch (InvalidOperationException ex)
@@ -52,11 +61,11 @@ public static class Program
         }
 
         var registrar = new TypeRegistrar(services: services);
-        var app = new CommandApp(registrar: registrar);
+        var toolbox = new CommandApp(registrar: registrar);
 
-        app.Configure(cfg =>
+        toolbox.Configure(cfg =>
         {
-            cfg.SetApplicationName(name: "app");
+            cfg.SetApplicationName(name: "Toolbox");
             cfg.SetApplicationVersion(version: "1.0.0");
             AzureCommandModule.ConfigureCommands(cfg: cfg);
             SyncCommandModule.ConfigureCommands(cfg: cfg);
@@ -69,6 +78,6 @@ public static class Program
             appCts.Cancel();
         };
 
-        return await app.RunAsync(args, appCts.Token);
+        return await toolbox.RunAsync(args, appCts.Token);
     }
 }

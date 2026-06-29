@@ -7,9 +7,9 @@ namespace CLI.Sync.LastFm;
 
 [Description(
     "Sync Last.fm scrobble history to local JSON files. "
-    + "Fetches recent tracks from Last.fm API and stores them "
-    + "as structured JSON under state/lastfm/. Supports incremental sync "
-    + "and forced resync from a specific date."
+        + "Fetches recent tracks from Last.fm API and stores them "
+        + "as structured JSON under state/lastfm/. Supports incremental sync "
+        + "and forced resync from a specific date."
 )]
 public class SyncLastFmCommand(LastFmService service) : AsyncCommand<SyncLastFmCommand.Settings>
 {
@@ -27,7 +27,7 @@ public class SyncLastFmCommand(LastFmService service) : AsyncCommand<SyncLastFmC
     {
         Directory.CreateDirectory(StateDir);
 
-        var existing = await LastFmService.LoadScrobblesAsync(StateDir);
+        var existing = await LastFmState.LoadScrobblesAsync(StateDir);
 
         DateTimeOffset? fetchAfter = null;
         if (s.Since is { } sinceStr)
@@ -68,9 +68,9 @@ public class SyncLastFmCommand(LastFmService service) : AsyncCommand<SyncLastFmC
             return 0;
         }
 
-        var merged = LastFmService.MergeScrobbles(existing, newScrobbles);
+        var merged = LastFmState.MergeScrobbles(existing, newScrobbles);
 
-        await LastFmService.SaveScrobblesAsync(StateDir, merged);
+        await LastFmState.SaveScrobblesAsync(StateDir, merged);
 
         Telemetry.Info(
             "Sync complete. {Total} total scrobbles ({New} new)",

@@ -1,18 +1,57 @@
 using Core;
+using ErrorOr;
 using Services.Azure;
 
 namespace Services.Google.YouTube;
 
 public class YouTubeTranslationService(TranslateService translateService)
 {
+    public readonly record struct TranslateResult(List<YouTubeVideo> Videos, int AzureChars);
+
     private const int MaxTextsPerCall = 70;
     private const int MaxCharsPerCall = 30000;
 
-    public async Task<(List<YouTubeVideo> Videos, int AzureChars)> TranslateVideosAsync(
+    public async Task<ErrorOr<TranslateResult>> TranslateVideosAsync(
         List<YouTubeVideo> videos,
         CancellationToken ct,
         Func<IReadOnlyList<YouTubeVideo>, CancellationToken, Task>? checkpointAsync = null
     )
+    {
+        var targets = CollectTranslationTargets(videos);
+        if (targets.Count == 0)
+            return new TranslateResult(videos, 0);
+
+        var totalChars = targets.Sum(t => t.Text.Length);
+
+        return await ErrorOrFactory.From(targets)
+            .Then(BuildTranslationBatches)
+            .Then(batches =>
+            {
+                var unchangedCount =
+                    videos.Count
+                    - videos.Count(v => v.TranslatedTitle is null || v.TranslatedDescription is null);
+                Telemetry.Info(
+                    "Translate: {Need}/{Total} videos need text completion, {Unchanged} already complete | {Chars:N0} chars ({Batches} {BatchWord})",
+                    videos.Count - unchangedCount,
+                    videos.Count,
+                    unchangedCount,
+                    totalChars,
+                    batches.Count,
+                    batches.Count == 1 ? "batch" : "batches"
+                );
+                return batches;
+            })
+            .ThenAsync(batchPlan => ExecuteTranslationBatchesAsync(batchPlan, translateService, ct))
+            .Then(execResult => ApplyTranslationResults(videos, execResult, totalChars))
+            .ThenAsync(async result =>
+            {
+                if (checkpointAsync is { })
+                    await checkpointAsync(result.Videos, ct);
+                return result;
+            });
+    }
+
+    private static List<TranslationTarget> CollectTranslationTargets(List<YouTubeVideo> videos)
     {
         var targets = new List<TranslationTarget>();
         foreach (
@@ -36,10 +75,13 @@ public class YouTubeTranslationService(TranslateService translateService)
                     videos[videoIndex] = video with { TranslatedDescription = "" };
             }
         }
+        return targets;
+    }
 
-        if (targets.Count == 0)
-            return (videos, 0);
-
+    private static List<List<TranslationTarget>> BuildTranslationBatches(
+        List<TranslationTarget> targets
+    )
+    {
         var batches = new List<List<TranslationTarget>>();
         var currentBatch = new List<TranslationTarget>();
         var currentCharCount = 0;
@@ -66,23 +108,23 @@ public class YouTubeTranslationService(TranslateService translateService)
         if (currentBatch.Count > 0)
             batches.Add([.. currentBatch]);
 
-        var totalChars = targets.Sum(t => t.Text.Length);
-        var unchangedCount =
-            videos.Count
-            - videos.Count(v => v.TranslatedTitle is null || v.TranslatedDescription is null);
-        Telemetry.Info(
-            "Translate: {Need}/{Total} videos need text completion, {Unchanged} already complete | {Chars:N0} chars ({Batches} {BatchWord})",
-            videos.Count - unchangedCount,
-            videos.Count,
-            unchangedCount,
-            totalChars,
-            batches.Count,
-            batches.Count == 1 ? "batch" : "batches"
-        );
+        return batches;
+    }
 
-        var translatedCount = 0;
-        var languages = new Dictionary<string, int>();
+    private readonly record struct BatchApiResult(
+        TranslationTarget Target,
+        TranslationResult Result
+    );
+
+    private static async Task<List<List<BatchApiResult>>> ExecuteTranslationBatchesAsync(
+        List<List<TranslationTarget>> batches,
+        TranslateService translateService,
+        CancellationToken ct
+    )
+    {
+        var allResults = new List<List<BatchApiResult>>(batches.Count);
         var batchIndex = 0;
+
         foreach (var batch in batches)
         {
             ct.ThrowIfCancellationRequested();
@@ -103,7 +145,24 @@ public class YouTubeTranslationService(TranslateService translateService)
                 ct
             );
 
-            foreach (var (target, result) in batch.Zip(batchResults))
+            allResults.Add([.. batch.Zip(batchResults, (t, r) => new BatchApiResult(t, r))]);
+        }
+
+        return allResults;
+    }
+
+    private static TranslateResult ApplyTranslationResults(
+        List<YouTubeVideo> videos,
+        List<List<BatchApiResult>> batchResults,
+        int totalChars
+    )
+    {
+        var translatedCount = 0;
+        var languages = new Dictionary<string, int>();
+
+        foreach (var batch in batchResults)
+        {
+            foreach (var (target, result) in batch)
             {
                 var video = videos[target.VideoIndex];
                 var detectedLang = result.DetectedLanguage;
@@ -133,9 +192,6 @@ public class YouTubeTranslationService(TranslateService translateService)
                     ),
                 };
             }
-
-            if (checkpointAsync is { })
-                await checkpointAsync(videos, ct);
         }
 
         var langSummary = string.Join(
@@ -149,7 +205,7 @@ public class YouTubeTranslationService(TranslateService translateService)
             totalChars
         );
 
-        return (videos, totalChars);
+        return new TranslateResult(videos, totalChars);
     }
 
     private enum TranslationField
@@ -158,5 +214,9 @@ public class YouTubeTranslationService(TranslateService translateService)
         Description,
     }
 
-    private sealed record TranslationTarget(int VideoIndex, TranslationField Field, string Text);
+    private readonly record struct TranslationTarget(
+        int VideoIndex,
+        TranslationField Field,
+        string Text
+    );
 }

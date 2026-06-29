@@ -2,14 +2,17 @@ using Core;
 
 namespace Services.Google.YouTube;
 
+public readonly record struct ChangeDetectionResult(
+    IReadOnlyList<PlaylistSnapshot> NewPlaylists,
+    IReadOnlyList<PlaylistSnapshot> ChangedPlaylists,
+    IReadOnlyList<PlaylistSnapshot> DeletedPlaylists,
+    IReadOnlyList<PlaylistSnapshot> UnchangedPlaylists
+);
+
 public static class YouTubeChangeDetector
 {
-    public static (
-        IReadOnlyList<PlaylistSnapshot> NewPlaylists,
-        IReadOnlyList<PlaylistSnapshot> ChangedPlaylists,
-        IReadOnlyList<PlaylistSnapshot> DeletedPlaylists,
-        IReadOnlyList<PlaylistSnapshot> UnchangedPlaylists
-    ) DetectChanges(IReadOnlyList<PlaylistSnapshot> current, YouTubeFetchState stored)
+
+    public static ChangeDetectionResult DetectChanges(IReadOnlyList<PlaylistSnapshot> current, YouTubeFetchState stored)
     {
         var currentDict = current.ToDictionary(p => p.PlaylistId);
         var storedDict = stored.PlaylistSnapshots;
@@ -37,7 +40,7 @@ public static class YouTubeChangeDetector
             if (etagChanged || countChanged)
                 changedPlaylists.Add(snapshot);
             else
-                unchangedPlaylists.Add(snapshot with { Title = snapshot.Title });
+                unchangedPlaylists.Add(snapshot);
         }
 
         foreach (var kvp in storedDict)
@@ -52,6 +55,6 @@ public static class YouTubeChangeDetector
             unchangedPlaylists.Count
         );
 
-        return (newPlaylists, changedPlaylists, deletedPlaylists, unchangedPlaylists);
+        return new ChangeDetectionResult(newPlaylists, changedPlaylists, deletedPlaylists, unchangedPlaylists);
     }
 }

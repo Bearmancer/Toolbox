@@ -7,8 +7,8 @@ namespace CLI.Azure;
 
 [Description(
     "Translate text from one language to another using Azure Translator. "
-    + "When --from is omitted the source language is auto-detected. "
-    + "When --to is omitted the output defaults to English."
+        + "When --from is omitted the source language is auto-detected. "
+        + "When --to is omitted the output defaults to English."
 )]
 public class TranslateCommand(TranslateService service) : AsyncCommand<TranslateCommand.Settings>
 {
@@ -31,7 +31,7 @@ public class TranslateCommand(TranslateService service) : AsyncCommand<Translate
 
         [Description(
             "Target language code (BCP-47 format, e.g. 'es', 'fr', 'de', 'ja'). "
-            + "Default is 'ja'."
+                + "Default is 'ja'."
         )]
         [CommandOption("--to <LANG>")]
         [DefaultValue("ja")]
@@ -39,7 +39,7 @@ public class TranslateCommand(TranslateService service) : AsyncCommand<Translate
 
         [Description(
             "Source language code (BCP-47 format, e.g. 'en', 'es'). "
-            + "When omitted the language is auto-detected from the input text."
+                + "When omitted the language is auto-detected from the input text."
         )]
         [CommandOption("--from <LANG>")]
         public string? From { get; init; }

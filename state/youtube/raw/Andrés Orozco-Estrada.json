@@ -6,13 +6,13 @@
       "VideoPublishedAtDateTimeOffset": "2026-05-04T10:23:28+00:00",
       "VideoPublishedAt": "2026-05-04T15:53:28+05:30"
     },
-    "ETag": "eTE9paprhU8doWsmO3FmSozZsqs",
+    "ETag": "SPRO2GTzM8Lo0Ys-vicErBuFmms",
     "Id": "UEwxemdOQ29XdF83WWNvUHF2TGRCY3BaMGd5RXBPV0p1OS4yM0YxNkQ4MTExRjg4RUI2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "Das G\u00FCrzenich-Orchester K\u00F6ln spielt die Sinfonische Dichtung \u00BBAlso sprach Zarathustra\u00AB op. 30 von Richard Strauss unter der Leitung von G\u00FCrzenich-Kapellmeister Andr\u00E9s Orozco-Estrada. Eine Aufnahme vom 27.01.2026 aus der Philharmonie K\u00F6ln.",
+      "Description": "Das G\u00FCrzenich-Orchester K\u00F6ln spielt die Sinfonische Dichtung \u00BBAlso sprach Zarathustra\u00AB op. 30 von Richard Strauss unter der Leitung von G\u00FCrzenich-Kapellmeister Andr\u00E9s Orozco-Estrada. Eine Aufnahme vom 27.01.2026 aus der Philharmonie K\u00F6ln.\n\n00:00 Einleitung\n02:16 Von den Hinterweltlern\n06:06 Von der gro\u00DFen Sehnsucht\n07:59 Von den Freuden und Leidenschaften\n10:01 Das Grablied\n12:40 Von der Wissenschaft\n17:05 Der Genesende\n22:14 Das Tanzlied\n30:32 Nachtwandlerlied",
       "PlaylistId": "PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9",
       "Position": 0,
       "PublishedAtRaw": "2026-05-05T14:06:42Z",
@@ -2835,7 +2835,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-05-20T13:05:50+00:00",
       "VideoPublishedAt": "2026-05-20T18:35:50+05:30"
     },
-    "ETag": "S2VV_fj8zsqdV3OpF53vLaNemCY",
+    "ETag": "aMISp4M77ZeE8ePw-IT7OnHDnT8",
     "Id": "UEwxemdOQ29XdF83WWNvUHF2TGRCY3BaMGd5RXBPV0p1OS43Q0UyODJENjc3NDRCODU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2878,7 +2878,7 @@
           "Width": 640
         }
       },
-      "Title": "Gustav Mahler: Sinfonie Nr. 1 \u00BBTitan\u00AB, Andr\u00E9s Orozco-Estrada, G\u00FCrzenich-Orchester K\u00F6ln",
+      "Title": "Sinfonie Nr. 1 | Gustav Mahler | Andr\u00E9s Orozco-Estrada | G\u00FCrzenich-Orchester K\u00F6ln",
       "VideoOwnerChannelId": "UC9ZTxQYqbsGfBOGvNsaIz8w",
       "VideoOwnerChannelTitle": "G\u00FCrzenich-Orchester K\u00F6ln"
     }
@@ -3189,7 +3189,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-11-28T09:41:25+00:00",
       "VideoPublishedAt": "2025-11-28T15:11:25+05:30"
     },
-    "ETag": "Mw3j5yI_3zaLoIocqt_RTKTuCI0",
+    "ETag": "A-GXKI6Af0eQkgSQQcYVJlLIj_E",
     "Id": "UEwxemdOQ29XdF83WWNvUHF2TGRCY3BaMGd5RXBPV0p1OS5DNzNDRDE1NzhGODQzODI2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3232,7 +3232,7 @@
           "Width": 640
         }
       },
-      "Title": "Johannes Brahms | Sinfonie Nr. 2 | G\u00FCrzenich-Orchester K\u00F6ln | Andr\u00E9s Orozco-Estrada",
+      "Title": "Sinfonie Nr. 2 | Johannes Brahms | Andr\u00E9s Orozco-Estrada | G\u00FCrzenich-Orchester K\u00F6ln",
       "VideoOwnerChannelId": "UC9ZTxQYqbsGfBOGvNsaIz8w",
       "VideoOwnerChannelTitle": "G\u00FCrzenich-Orchester K\u00F6ln"
     }
@@ -5429,7 +5429,7 @@
       "VideoPublishedAtDateTimeOffset": "2014-09-17T16:28:31+00:00",
       "VideoPublishedAt": "2014-09-17T21:58:31+05:30"
     },
-    "ETag": "4d29FeXSiTcONyfg0Katvan1fIY",
+    "ETag": "y-l9pvZ6hJ2OPTOU6QHxwuUEYQ4",
     "Id": "UEwxemdOQ29XdF83WWNvUHF2TGRCY3BaMGd5RXBPV0p1OS4wNjIzRDA1OTQ2M0UyODEw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -8841,18 +8841,15 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "w6QjMdBwDP4",
-      "VideoPublishedAtRaw": "2026-06-24T11:46:49Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-24T11:46:49+00:00",
-      "VideoPublishedAt": "2026-06-24T17:16:49+05:30"
+      "VideoId": "w6QjMdBwDP4"
     },
-    "ETag": "1f60dmoUCjEV-3c7wYOrYkavx_M",
+    "ETag": "6HTMMep-WZld7Cxj7PImuzUU070",
     "Id": "UEwxemdOQ29XdF83WWNvUHF2TGRCY3BaMGd5RXBPV0p1OS5DQzY2RDZFRUQyRDlDQkMw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "Das G\u00FCrzenich-Orchester K\u00F6ln spielt Gustav Mahlers Sinfonie Nr. 1 D-Dur \u00BBTitan\u00AB (1884\u201388) unter der Leitung von Andr\u00E9s Orozco-Estrada. Eine Aufnahme vom 12.05.2026 aus der K\u00F6lner Philharmonie.\n\n00:00 Auftritt Andr\u00E9s Orozco-Estrada \n00:17 I. Langsam. Schleppend. Immer sehr gem\u00E4chlich.\n17:36 II. Kr\u00E4ftig bewegt, doch nicht zu schnell.\n26:09 III. Feierlich und gemessen, ohne zu schleppen.\n37:58 IV. St\u00FCrmisch bewegt \u2013 Energisch",
+      "Description": "This video is private.",
       "PlaylistId": "PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9",
       "Position": 164,
       "PublishedAtRaw": "2026-06-24T13:59:56Z",
@@ -8862,36 +8859,8 @@
         "Kind": "youtube#video",
         "VideoId": "w6QjMdBwDP4"
       },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/w6QjMdBwDP4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/w6QjMdBwDP4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/w6QjMdBwDP4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/w6QjMdBwDP4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/w6QjMdBwDP4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Sinfonie Nr. 1 | Gustav Mahler | Andr\u00E9s Orozco-Estrada | G\u00FCrzenich-Orchester K\u00F6ln",
-      "VideoOwnerChannelId": "UC9ZTxQYqbsGfBOGvNsaIz8w",
-      "VideoOwnerChannelTitle": "G\u00FCrzenich-Orchester K\u00F6ln"
+      "Thumbnails": {},
+      "Title": "Private video"
     }
   },
   {
@@ -8901,7 +8870,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-06-24T10:33:07+00:00",
       "VideoPublishedAt": "2026-06-24T16:03:07+05:30"
     },
-    "ETag": "fpbNouG6nJqleSA2kxayRF6z3cU",
+    "ETag": "z-VhisOJTKr98lUFIMsyIhTdvNc",
     "Id": "UEwxemdOQ29XdF83WWNvUHF2TGRCY3BaMGd5RXBPV0p1OS4wOTkzRUNGQkU5QzI1QTA3",
     "Kind": "youtube#playlistItem",
     "Snippet": {

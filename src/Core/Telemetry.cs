@@ -11,48 +11,50 @@ namespace Core;
 
 public static class Telemetry
 {
-    private static readonly string[] Services =
-    [
-        "Translate",
-        "Google",
-        "Vision",
-        "Speech",
-        "TextAnalytics",
-        "DocIntel",
-        "OpenAI",
-        "Whisper",
-    ];
-
     private static LoggingLevelSwitch LevelSwitch { get; set; } = new();
 
-    public static void Configure(LogEventLevel level = LogEventLevel.Information)
+    private static readonly ServiceName[] RegisteredServices =
+    [
+        ServiceName.LastFm,
+        ServiceName.Google,
+        ServiceName.OpenAI,
+        ServiceName.Vision,
+        ServiceName.Translate,
+        ServiceName.TextAnalytics,
+        ServiceName.Speech,
+        ServiceName.DocIntel
+    ];
+
+    public static async Task Configure(LogEventLevel level = LogEventLevel.Information)
     {
         LevelSwitch = new LoggingLevelSwitch(level);
 
         var config = new LoggerConfiguration()
             .MinimumLevel.ControlledBy(LevelSwitch)
-            .WriteTo.File(
-                new CompactJsonFormatter(),
-                "logs/all-.jsonl",
-                rollingInterval: RollingInterval.Day,
-                retainedFileCountLimit: 7
-            )
             .WriteTo.Spectre("{Timestamp:HH:mm:ss} {Level:u4} {Message:lj}{NewLine}{Exception}");
 
-        foreach (var service in Services)
-            AddServiceLogger(config, service, $"logs/{service.ToLowerInvariant()}-.jsonl");
+        foreach (var service in RegisteredServices)
+            AddServiceLogger(
+                config,
+                service,
+                $"logs/{service.ToString().ToLowerInvariant()}-.jsonl"
+            );
 
-        if (IsSeqReachable())
+        if (await IsSeqReachableAsync())
             config.WriteTo.Seq("http://localhost:5341");
 
         Log.Logger = config.CreateLogger();
     }
 
-    private static void AddServiceLogger(LoggerConfiguration config, string service, string path)
+    private static void AddServiceLogger(
+        LoggerConfiguration config,
+        ServiceName service,
+        string path
+    )
     {
         config.WriteTo.Logger(lc =>
             lc.Filter.ByIncludingOnly(e =>
-                    e.Properties["Service"].ToString().Equals(service, StringComparison.Ordinal)
+                    e.Properties["Service"].ToString().IsEqualTo(service.ToString())
                 )
                 .WriteTo.File(
                     new CompactJsonFormatter(),
@@ -63,8 +65,8 @@ public static class Telemetry
         );
     }
 
-    public static IDisposable ForService(string service) =>
-        LogContext.PushProperty("Service", service);
+    public static IDisposable ForService(ServiceName service) =>
+        LogContext.PushProperty("Service", service.ToString());
 
     public static void Info(string template, params object[] args) =>
         Log.Information(template, args);
@@ -78,15 +80,16 @@ public static class Telemetry
     public static dynamic StartActivity(string messageTemplate, params object[] args) =>
         Log.Logger.StartActivity(messageTemplate, args);
 
-    private static bool IsSeqReachable()
+    private static async Task<bool> IsSeqReachableAsync()
     {
         try
         {
             using var client = new TcpClient();
-            var task = client.ConnectAsync("localhost", 5341);
-            return task.Wait(500);
+            using var cts = new CancellationTokenSource(TimeSpan.FromMilliseconds(500));
+            await client.ConnectAsync("localhost", 5341, cts.Token);
+            return true;
         }
-        catch (Exception ex) when (ex is SocketException or IOException)
+        catch (Exception ex) when (ex is SocketException or IOException or OperationCanceledException)
         {
             return false;
         }

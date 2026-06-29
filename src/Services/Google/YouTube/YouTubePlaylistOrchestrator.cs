@@ -1,8 +1,6 @@
 using System.Diagnostics;
-using System.Net;
-using Azure;
 using Core;
-using GoogleApiException = Google.GoogleApiException;
+using ErrorOr;
 
 namespace Services.Google.YouTube;
 
@@ -19,56 +17,31 @@ public class YouTubePlaylistOrchestrator(
 
     public async Task<IReadOnlyList<string>> ExecuteAsync(CancellationToken ct)
     {
-        var (ids, _) = await ExecuteCoreAsync(ct);
-        return ids;
+        var outcome = await ExecuteCoreAsync(ct);
+        return outcome.IsError ? [] : outcome.Value.Ids;
     }
 
-    private async Task<(IReadOnlyList<string> Ids, YouTubeFetchState State)> ExecuteCoreAsync(CancellationToken ct)
+    private async Task<ErrorOr<SyncOutcome>> ExecuteCoreAsync(CancellationToken ct)
     {
         using var _ = Telemetry.ForService(ServiceName.Google);
         var syncStopwatch = Stopwatch.StartNew();
 
-        EnsureDirectories();
-
-        var stored = await YouTubeFetchState.LoadAsync(ManifestFile, ct);
-        var current = await playlistService.GetPlaylistSummariesAsync(ct);
-
-        Telemetry.Debug("Fetched {Count} playlist summaries from API", current.Count);
-
-        var changes = YouTubeChangeDetector.DetectChanges(current, stored);
-        ArchiveDeletedPlaylists(changes.DeletedPlaylists);
-
-        var playlistsToProcess = CombineNewAndChanged(changes);
-        if (playlistsToProcess.Count == 0)
-        {
-            LogNoChangesNeeded(changes);
-            return ([], stored);
-        }
-
-        var result = await ProcessPlaylistsAsync(playlistsToProcess, stored, ct);
-
-        var finalState = new YouTubeFetchState
-        {
-            PlaylistSnapshots = new Dictionary<string, PlaylistSnapshot>(result.UpdatedSnapshots),
-            LastChecked = DateTimeOffset.UtcNow,
-            LastUpdated = DateTimeOffset.UtcNow,
-            AzureCharsUsed = result.AzureCharsUsed,
-            AzureCharsMonth = result.CurrentMonth,
-        };
-        await YouTubeFetchState.SaveAsync(ManifestFile, finalState, ct);
-
-        syncStopwatch.Stop();
-        LogSyncSummary(syncStopwatch.Elapsed, changes, result);
-
-        return (result.ProcessedIds, finalState);
+        return await PrepareSyncStateAsync(ct)
+            .ThenAsync(state => AnalyzeChanges(state))
+            .ThenAsync(state => ExecuteProcessingAsync(state, ct))
+            .ThenAsync(outcome => PersistAndSummarizeAsync(outcome, syncStopwatch, ct));
     }
 
     public async Task<IReadOnlyList<string>> ExecuteWithSortAsync(CancellationToken ct)
     {
-        var (syncedIds, state) = await ExecuteCoreAsync(ct);
-        if (syncedIds.Count > 0)
-            await SortPlaylistsAsync(syncedIds, state, ct);
-        return syncedIds;
+        var outcomeResult = await ExecuteCoreAsync(ct);
+        if (outcomeResult.IsError)
+            return [];
+
+        var outcome = outcomeResult.Value;
+        if (outcome.Ids.Count > 0)
+            await SortPlaylistsAsync(outcome.Ids, outcome.State, ct);
+        return outcome.Ids;
     }
 
     public async Task<string?> ExecuteForPlaylistTitleAsync(
@@ -76,31 +49,69 @@ public class YouTubePlaylistOrchestrator(
         CancellationToken ct
     )
     {
-        var (id, _) = await ExecuteForPlaylistTitleCoreAsync(title, ct);
-        return id;
+        var outcome = await ExecuteForPlaylistTitleCoreAsync(title, ct);
+        return outcome.IsError ? null : outcome.Value.Id;
     }
 
-    private async Task<(string? Id, YouTubeFetchState State)> ExecuteForPlaylistTitleCoreAsync(
+    private async Task<ErrorOr<SinglePlaylistOutcome>> ExecuteForPlaylistTitleCoreAsync(
         string title,
         CancellationToken ct
     )
     {
         using var _ = Telemetry.ForService(ServiceName.Google);
 
-        EnsureDirectories();
+        return await LoadStoredStateAsync(ManifestFile, ct)
+            .ThenAsync<YouTubeFetchState, SinglePlaylistOutcome>(
+                stored => ProcessTitlePipelineAsync(title, stored, ct)
+            );
+    }
 
-        var stored = await YouTubeFetchState.LoadAsync(ManifestFile, ct);
-        var match = await FindPlaylistByTitleAsync(title, stored, ct);
-        if (match is null)
-            return (null, stored);
+    private async Task<ErrorOr<SinglePlaylistOutcome>> ProcessTitlePipelineAsync(
+        string title,
+        YouTubeFetchState stored,
+        CancellationToken ct
+    )
+    {
+        var matchResult = await FindPlaylistByTitleAsync(title, stored, ct);
+        if (matchResult.IsError)
+            return matchResult.FirstError;
 
-        var (videos, skipped, _) = await playlistProcessor.ProcessPlaylistAsync(match, ct);
+        var match = matchResult.Value;
+
+        var currentSummary = await playlistService.GetPlaylistSummaryAsync(match.PlaylistId, ct);
+        if (currentSummary is null)
+            return Errors.YouTube.ApiError($"Failed to fetch summary for {match.Title}");
+
+        var storedSnapshot = stored.PlaylistSnapshots.GetValueOrDefault(match.PlaylistId);
+        if (
+            storedSnapshot is not null
+            && !string.IsNullOrEmpty(storedSnapshot.ETag)
+            && !string.IsNullOrEmpty(currentSummary.ETag)
+            && storedSnapshot.ETag == currentSummary.ETag
+        )
+        {
+            Telemetry.Info(
+                "Playlist {Title} unchanged (ETag match) — skipping sync",
+                match.Title
+            );
+            return new SinglePlaylistOutcome(match.PlaylistId, stored);
+        }
+
+        var processorResult = await playlistProcessor.ProcessPlaylistAsync(currentSummary, ct);
+        if (processorResult.IsError)
+        {
+            Telemetry.Error("Failed to process playlist {Title}: {Error}",
+                currentSummary.Title, processorResult.Errors[0].Description);
+            return processorResult.FirstError;
+        }
+
+        var result = processorResult.Value;
 
         var updated = stored with
         {
             PlaylistSnapshots = new Dictionary<string, PlaylistSnapshot>(stored.PlaylistSnapshots)
             {
-                [match.PlaylistId] = match,
+                [currentSummary.PlaylistId] = currentSummary,
             },
             LastChecked = DateTimeOffset.UtcNow,
             LastUpdated = DateTimeOffset.UtcNow,
@@ -109,12 +120,12 @@ public class YouTubePlaylistOrchestrator(
 
         Telemetry.Info(
             "Synced playlist {Title}: {Videos} videos ({Skipped} skipped)",
-            match.Title,
-            videos,
-            skipped
+            currentSummary.Title,
+            result.Videos,
+            result.Skipped
         );
 
-        return (match.PlaylistId, updated);
+        return new SinglePlaylistOutcome(currentSummary.PlaylistId, updated);
     }
 
     public async Task<string?> ExecuteForPlaylistTitleWithSortAsync(
@@ -122,13 +133,17 @@ public class YouTubePlaylistOrchestrator(
         CancellationToken ct
     )
     {
-        var (playlistId, state) = await ExecuteForPlaylistTitleCoreAsync(title, ct);
-        if (playlistId is not null)
-            await SortPlaylistsAsync([playlistId], state, ct);
-        return playlistId;
+        var outcomeResult = await ExecuteForPlaylistTitleCoreAsync(title, ct);
+        if (outcomeResult.IsError)
+            return null;
+
+        var outcome = outcomeResult.Value;
+        if (outcome.Id is not null)
+            await SortPlaylistsAsync([outcome.Id], outcome.State, ct);
+        return outcome.Id;
     }
 
-    private async Task<PlaylistSnapshot?> FindPlaylistByTitleAsync(
+    private async Task<ErrorOr<PlaylistSnapshot>> FindPlaylistByTitleAsync(
         string title,
         YouTubeFetchState stored,
         CancellationToken ct
@@ -148,29 +163,19 @@ public class YouTubePlaylistOrchestrator(
         match = summaries.FirstOrDefault(s => s.Title.IsEqualToIgnore(title));
 
         if (match is null)
-            Telemetry.Error("Playlist not found: {Title}", title);
+            return Errors.YouTube.ApiError($"Playlist '{title}' not found.");
 
         return match;
     }
 
-    private static List<PlaylistSnapshot> CombineNewAndChanged(
-        (
-            IReadOnlyList<PlaylistSnapshot> NewPlaylists,
-            IReadOnlyList<PlaylistSnapshot> ChangedPlaylists,
-            IReadOnlyList<PlaylistSnapshot> DeletedPlaylists,
-            IReadOnlyList<PlaylistSnapshot> UnchangedPlaylists
-        ) changes
-    ) =>
+    private readonly record struct SyncOutcome(IReadOnlyList<string> Ids, YouTubeFetchState State);
+
+    private readonly record struct SinglePlaylistOutcome(string? Id, YouTubeFetchState State);
+
+    private static List<PlaylistSnapshot> CombineNewAndChanged(ChangeDetectionResult changes) =>
         [.. changes.NewPlaylists, .. changes.ChangedPlaylists];
 
-    private static void LogNoChangesNeeded(
-        (
-            IReadOnlyList<PlaylistSnapshot> NewPlaylists,
-            IReadOnlyList<PlaylistSnapshot> ChangedPlaylists,
-            IReadOnlyList<PlaylistSnapshot> DeletedPlaylists,
-            IReadOnlyList<PlaylistSnapshot> UnchangedPlaylists
-        ) changes
-    ) =>
+    private static void LogNoChangesNeeded(ChangeDetectionResult changes) =>
         Telemetry.Info(
             "No playlists need updating — everything is current ({Unchanged} playlists unchanged, {Deleted} deleted)",
             changes.UnchangedPlaylists.Count,
@@ -189,7 +194,7 @@ public class YouTubePlaylistOrchestrator(
         CancellationToken ct
     )
     {
-        var counters = new SyncCounters(stored);
+        var counters = SyncCounters.FromStoredState(stored);
 
         Telemetry.Info(
             "Azure Translator: {Used} chars used this month (2,000,000 free tier)",
@@ -227,59 +232,57 @@ public class YouTubePlaylistOrchestrator(
         CancellationToken ct
     )
     {
-        try
-        {
-            var (videos, skipped, azureChars) = await playlistProcessor.ProcessPlaylistAsync(
-                snapshot,
-                ct
-            );
+        var processorResult = await playlistProcessor.ProcessPlaylistAsync(snapshot, ct);
 
-            await SaveIncrementalStateAsync(
-                counters.UpdatedSnapshots,
-                snapshot,
-                counters.AzureCharsUsed + azureChars,
-                counters.CurrentMonth,
-                ct
-            );
+        if (processorResult.IsError)
+        {
+            var error = processorResult.Errors[0];
 
-            return new ProcessResult(videos, skipped, azureChars, false);
-        }
-        catch (GoogleApiException ex) when (ex.HttpStatusCode == HttpStatusCode.TooManyRequests)
-        {
-            Telemetry.Warn("Google API rate limit reached (429). Skipping remaining playlists.");
+            if (error.Code is "YT.RateLimit" or "Azure.RateLimit")
+            {
+                Telemetry.Warn("Rate limit reached ({Code}). Skipping remaining playlists.", error.Code);
+                return ProcessResult.Break;
+            }
+
+            if (error.Code is "Azure.AuthFailed")
+            {
+                Telemetry.Error("Azure translation key invalid or forbidden ({Code}).", error.Code);
+                return ProcessResult.Break;
+            }
+
+            Telemetry.Error("Unexpected error processing playlist {Title}: {Error}",
+                snapshot.Title, error.Description);
             return ProcessResult.Break;
         }
-        catch (GoogleApiException ex)
-            when (ex.HttpStatusCode is HttpStatusCode.Unauthorized or HttpStatusCode.Forbidden)
-        {
-            Telemetry.Error("Google API key invalid or forbidden ({Code}).", (int)ex.HttpStatusCode);
-            return ProcessResult.Break;
-        }
-        catch (RequestFailedException ex) when (ex.Status == 429)
-        {
-            Telemetry.Warn("Azure translation rate limit reached (429). Skipping remaining playlists.");
-            return ProcessResult.Break;
-        }
-        catch (RequestFailedException ex) when (ex.Status is 401 or 403)
-        {
-            Telemetry.Error("Azure translation key invalid or forbidden ({Code}).", ex.Status);
-            return ProcessResult.Break;
-        }
+
+        var result = processorResult.Value;
+        await SaveIncrementalStateAsync(
+            counters.UpdatedSnapshots,
+            snapshot,
+            counters.AzureCharsUsed + result.AzureChars,
+            counters.CurrentMonth,
+            ct
+        );
+
+        return new ProcessResult(result.Videos, result.Skipped, result.AzureChars, false);
     }
 
     private async Task SaveIncrementalStateAsync(
-        Dictionary<string, PlaylistSnapshot> updatedSnapshots,
+        IReadOnlyDictionary<string, PlaylistSnapshot> updatedSnapshots,
         PlaylistSnapshot snapshot,
         int azureCharsUsed,
         int currentMonth,
         CancellationToken ct
     )
     {
-        updatedSnapshots[snapshot.PlaylistId] = snapshot;
+        var snapshots = new Dictionary<string, PlaylistSnapshot>(updatedSnapshots)
+        {
+            [snapshot.PlaylistId] = snapshot,
+        };
 
         var state = new YouTubeFetchState
         {
-            PlaylistSnapshots = new Dictionary<string, PlaylistSnapshot>(updatedSnapshots),
+            PlaylistSnapshots = snapshots,
             LastChecked = DateTimeOffset.UtcNow,
             LastUpdated = DateTimeOffset.UtcNow,
             AzureCharsUsed = azureCharsUsed,
@@ -290,12 +293,7 @@ public class YouTubePlaylistOrchestrator(
 
     private static void LogSyncSummary(
         TimeSpan elapsed,
-        (
-            IReadOnlyList<PlaylistSnapshot> NewPlaylists,
-            IReadOnlyList<PlaylistSnapshot> ChangedPlaylists,
-            IReadOnlyList<PlaylistSnapshot> DeletedPlaylists,
-            IReadOnlyList<PlaylistSnapshot> UnchangedPlaylists
-        ) changes,
+        ChangeDetectionResult changes,
         SyncResult result
     ) =>
         Telemetry.Info(
@@ -346,21 +344,24 @@ public class YouTubePlaylistOrchestrator(
         CancellationToken ct
     )
     {
-        try
-        {
-            var (repositioned, newETag) = await sortService.SortPlaylistAsync(playlistId, ct);
+        var sortResult = await sortService.SortPlaylistAsync(playlistId, ct);
 
-            if (!string.IsNullOrEmpty(newETag))
-                stored.PlaylistSnapshots[playlistId] = snapshot with { ETag = newETag };
-
-            Telemetry.Info("{Title}: {Repositioned} items repositioned", snapshot.Title, repositioned);
-            return true;
-        }
-        catch (Exception ex) when (ex is HttpRequestException or TimeoutException)
+        if (sortResult.IsError)
         {
-            Telemetry.Error("Sorting blocked for {Title}: {Error}", snapshot.Title, ex.Message);
+            Telemetry.Error("Sorting failed for {Title}: {Error}", snapshot.Title, sortResult.FirstError.Description);
             return false;
         }
+
+        var result = sortResult.Value;
+
+        if (result.Repositioned > 0)
+            await playlistProcessor.RefreshLocalStateAsync(snapshot, ct);
+
+        if (!string.IsNullOrEmpty(result.NewETag))
+            stored.PlaylistSnapshots[playlistId] = snapshot with { ETag = result.NewETag };
+
+        Telemetry.Info("{Title}: {Repositioned} items repositioned", snapshot.Title, result.Repositioned);
+        return true;
     }
 
     private static void ArchivePlaylist(PlaylistSnapshot snapshot)
@@ -376,14 +377,19 @@ public class YouTubePlaylistOrchestrator(
         Telemetry.Info("Archived deleted playlist: {Title}", snapshot.Title);
     }
 
-    private static void EnsureDirectories()
+    private async Task<ErrorOr<YouTubeFetchState>> LoadStoredStateAsync(string path, CancellationToken ct)
     {
-        Directory.CreateDirectory(YouTubePaths.RawDir);
-        Directory.CreateDirectory(YouTubePaths.ProcessedDir);
-        Directory.CreateDirectory(YouTubePaths.DeletedDir);
+        try
+        {
+            return await YouTubeFetchState.LoadAsync(path, ct);
+        }
+        catch (Exception ex)
+        {
+            return Errors.YouTube.ApiError($"State load failed: {ex.Message}");
+        }
     }
 
-    private sealed record SyncResult(
+    private readonly record struct SyncResult(
         IReadOnlyList<string> ProcessedIds,
         Dictionary<string, PlaylistSnapshot> UpdatedSnapshots,
         int TotalVideos,
@@ -392,7 +398,7 @@ public class YouTubePlaylistOrchestrator(
         int CurrentMonth
     );
 
-    private sealed record ProcessResult(
+    private readonly record struct ProcessResult(
         int Videos,
         int Skipped,
         int AzureChars,
@@ -406,15 +412,25 @@ public class YouTubePlaylistOrchestrator(
     {
         public Dictionary<string, PlaylistSnapshot> UpdatedSnapshots { get; }
         public int CurrentMonth { get; }
-        public int AzureCharsUsed { get; private set; }
-        public int TotalVideos { get; private set; }
-        public int SkippedVideos { get; private set; }
+        public int AzureCharsUsed { get; set; }
+        public int TotalVideos { get; set; }
+        public int SkippedVideos { get; set; }
 
-        public SyncCounters(YouTubeFetchState stored)
+        private SyncCounters(Dictionary<string, PlaylistSnapshot> updatedSnapshots, int currentMonth, int azureCharsUsed)
         {
-            UpdatedSnapshots = new Dictionary<string, PlaylistSnapshot>(stored.PlaylistSnapshots);
-            CurrentMonth = DateTimeOffset.UtcNow.Month;
-            AzureCharsUsed = stored.AzureCharsMonth == CurrentMonth ? stored.AzureCharsUsed : 0;
+            UpdatedSnapshots = updatedSnapshots;
+            CurrentMonth = currentMonth;
+            AzureCharsUsed = azureCharsUsed;
+        }
+
+        public static SyncCounters FromStoredState(YouTubeFetchState stored)
+        {
+            var currentMonth = DateTimeOffset.UtcNow.Month;
+            return new SyncCounters(
+                new Dictionary<string, PlaylistSnapshot>(stored.PlaylistSnapshots),
+                currentMonth,
+                stored.AzureCharsMonth == currentMonth ? stored.AzureCharsUsed : 0
+            );
         }
 
         public void UpdateFrom(ProcessResult result)
@@ -424,14 +440,20 @@ public class YouTubePlaylistOrchestrator(
             AzureCharsUsed += result.AzureChars;
         }
 
-        public SyncResult ToResult(List<PlaylistSnapshot> processedSnapshots) =>
-            new(
+        public SyncResult ToResult(List<PlaylistSnapshot> processedSnapshots)
+        {
+            var updated = new Dictionary<string, PlaylistSnapshot>(processedSnapshots.Count);
+            foreach (var s in processedSnapshots)
+                updated[s.PlaylistId] = s;
+
+            return new SyncResult(
                 [.. processedSnapshots.Select(s => s.PlaylistId)],
-                UpdatedSnapshots,
+                updated,
                 TotalVideos,
                 SkippedVideos,
                 AzureCharsUsed,
                 CurrentMonth
             );
+        }
     }
 }
