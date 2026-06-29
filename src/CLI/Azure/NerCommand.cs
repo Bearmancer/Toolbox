@@ -18,8 +18,10 @@ public class NerCommand(TextAnalyticsService service) : AsyncCommand<NerCommand.
     )
     {
         var result = await service.EntitiesAsync(s.Text, s.Lang ?? "en", ct);
-        Telemetry.Info("{Result}", result);
-        return 0;
+        return result.Match(
+            success => { Console.WriteLine(success); return 0; },
+            errors => { Console.Error.WriteLine(errors[0].Description); return 1; }
+        );
     }
 
     public sealed class Settings : CommandSettings

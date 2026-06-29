@@ -94,4 +94,10 @@ public static class Errors
         public static Error ApiError(string message) =>
             Error.Failure(code: "Translate.ApiError", description: message);
     }
+
+    public static class TextAnalytics
+    {
+        public static Error ApiError(string message) =>
+            Error.Failure(code: "TextAnalytics.ApiError", description: message);
+    }
 }

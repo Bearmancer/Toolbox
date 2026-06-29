@@ -17,35 +17,35 @@ Refactor exception-based service methods into Railway pipelines using `ErrorOr`.
 5. [x] Define error factories in `Errors.cs` for `DocIntel`, `Speech`, `Vision`, `OpenAI`, and `Translate`
 
 ### Batch 2: Azure Service Transformation
-6. [ ] Railwayize `VisionService.AnalyzeAsync`
-7. [ ] Railwayize `TextAnalyticsService.SentimentAsync`
-8. [ ] Railwayize `TextAnalyticsService.PiiAsync`
-9. [ ] Railwayize `TextAnalyticsService.EntitiesAsync`
-10. [ ] Railwayize `TextAnalyticsService.KeyPhrasesAsync`
-11. [ ] Railwayize `TextAnalyticsService.DetectLanguageAsync`
-12. [ ] Railwayize `OpenAiService.ChatAsync`
-13. [ ] Railwayize `SpeechSttService.TranscribeAsync`
-14. [ ] Railwayize `DocIntelService.AnalyzeAsync`
-15. [ ] Railwayize `SpeechTtsService.SynthesizeAsync`
+6. [x] Railwayize `VisionService.AnalyzeAsync`
+7. [x] Railwayize `TextAnalyticsService.SentimentAsync`
+8. [x] Railwayize `TextAnalyticsService.PiiAsync`
+9. [x] Railwayize `TextAnalyticsService.EntitiesAsync`
+10. [x] Railwayize `TextAnalyticsService.KeyPhrasesAsync`
+11. [x] Railwayize `TextAnalyticsService.DetectLanguageAsync`
+12. [x] Railwayize `OpenAiService.ChatAsync`
+13. [x] Railwayize `SpeechSttService.TranscribeAsync`
+14. [x] Railwayize `DocIntelService.AnalyzeAsync`
+15. [x] Railwayize `SpeechTtsService.SynthesizeAsync`
 
 ### Batch 2.5: Thin CLI `.Match()` Unwrapping
-16. [ ] Update `VisionCommand` — add `.Match()` terminal
-17. [ ] Update `TranslateCommand` — add `.Match()` terminal
-18. [ ] Update `SpeechSttCommand` — add `.Match()` terminal
-19. [ ] Update `NerCommand` — add `.Match()` terminal
-20. [ ] Update `PhrasesCommand` — add `.Match()` terminal
-21. [ ] Update `DocIntelCommand` — add `.Match()` terminal
+16. [x] Update `VisionCommand` — add `.Match()` terminal
+17. [x] Update `TranslateCommand` — add `.Match()` terminal
+18. [x] Update `SpeechSttCommand` — add `.Match()` terminal
+19. [x] Update `NerCommand` — add `.Match()` terminal
+20. [x] Update `PhrasesCommand` — add `.Match()` terminal
+21. [x] Update `DocIntelCommand` — add `.Match()` terminal
 
 ### Batch 3: YouTube/LastFm Internals
-22. [ ] Railwayize `YouTubePlaylistProcessor.BuildVideoListAsync`
+22. [x] Railwayize `YouTubePlaylistProcessor.BuildVideoListAsync`
 23. [ ] Railwayize `YouTubePlaylistProcessor.MergeCacheAsync` — **fix unsafe `.Value` access in callers**
-24. [ ] Railwayize `YouTubeTranslationService.ExecuteTranslationBatchesAsync` (error accumulation strategy)
+24. [x] Railwayize `YouTubeTranslationService.ExecuteTranslationBatchesAsync` (error accumulation strategy)
 25. [ ] Railwayize `LastFmService.TryExtractTrack`
 
 ### Batch 4: Orchestration Layer
 26. [ ] Refine `YouTubeSortService.SortPlaylistAsync` inner pass
 27. [ ] Railwayize `YouTubePlaylistOrchestrator.ProcessSinglePlaylistAsync`
-28. [ ] Granularize `YouTubePlaylistOrchestrator.ExecuteCoreAsync`
+28. [x] Granularize `YouTubePlaylistOrchestrator.ExecuteCoreAsync`
 
 ## Task Details
 

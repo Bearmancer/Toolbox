@@ -116,13 +116,13 @@ public class YouTubeTranslationService(TranslateService translateService)
         TranslationResult Result
     );
 
-    private static async Task<List<List<BatchApiResult>>> ExecuteTranslationBatchesAsync(
+    private static async Task<ErrorOr<List<BatchApiResult>>> ExecuteTranslationBatchesAsync(
         List<List<TranslationTarget>> batches,
         TranslateService translateService,
         CancellationToken ct
     )
     {
-        var allResults = new List<List<BatchApiResult>>(batches.Count);
+        var allResults = new List<BatchApiResult>();
         var batchIndex = 0;
 
         foreach (var batch in batches)
@@ -139,13 +139,16 @@ public class YouTubeTranslationService(TranslateService translateService)
                 batchChars
             );
 
-            var batchResults = await translateService.TranslateBatchAsync(
+            var batchResult = await translateService.TranslateBatchAsync(
                 [.. batch.Select(t => t.Text)],
                 "en",
                 ct
             );
 
-            allResults.Add([.. batch.Zip(batchResults, (t, r) => new BatchApiResult(t, r))]);
+            if (batchResult.IsError)
+                return batchResult.FirstError;
+
+            allResults.AddRange(batch.Zip(batchResult.Value, (t, r) => new BatchApiResult(t, r)));
         }
 
         return allResults;
@@ -153,45 +156,42 @@ public class YouTubeTranslationService(TranslateService translateService)
 
     private static TranslateResult ApplyTranslationResults(
         List<YouTubeVideo> videos,
-        List<List<BatchApiResult>> batchResults,
+        List<BatchApiResult> results,
         int totalChars
     )
     {
         var translatedCount = 0;
         var languages = new Dictionary<string, int>();
 
-        foreach (var batch in batchResults)
+        foreach (var (target, result) in results)
         {
-            foreach (var (target, result) in batch)
+            var video = videos[target.VideoIndex];
+            var detectedLang = result.DetectedLanguage;
+
+            languages[detectedLang] = languages.GetValueOrDefault(detectedLang) + 1;
+
+            var translated = detectedLang is not "en" and not "unknown";
+            if (translated)
+                translatedCount++;
+
+            videos[target.VideoIndex] = target.Field switch
             {
-                var video = videos[target.VideoIndex];
-                var detectedLang = result.DetectedLanguage;
-
-                languages[detectedLang] = languages.GetValueOrDefault(detectedLang) + 1;
-
-                var translated = detectedLang is not "en" and not "unknown";
-                if (translated)
-                    translatedCount++;
-
-                videos[target.VideoIndex] = target.Field switch
+                TranslationField.Title => video with
                 {
-                    TranslationField.Title => video with
-                    {
-                        TranslatedTitle = translated ? result.TranslatedText : video.Title,
-                        DetectedLanguage = video.DetectedLanguage ?? detectedLang,
-                    },
-                    TranslationField.Description => video with
-                    {
-                        TranslatedDescription = translated
-                            ? result.TranslatedText
-                            : video.Description,
-                        DetectedLanguage = video.DetectedLanguage ?? detectedLang,
-                    },
-                    _ => throw new InvalidOperationException(
-                        $"Unknown translation field {target.Field}"
-                    ),
-                };
-            }
+                    TranslatedTitle = translated ? result.TranslatedText : video.Title,
+                    DetectedLanguage = video.DetectedLanguage ?? detectedLang,
+                },
+                TranslationField.Description => video with
+                {
+                    TranslatedDescription = translated
+                        ? result.TranslatedText
+                        : video.Description,
+                    DetectedLanguage = video.DetectedLanguage ?? detectedLang,
+                },
+                _ => throw new InvalidOperationException(
+                    $"Unknown translation field {target.Field}"
+                ),
+            };
         }
 
         var langSummary = string.Join(

@@ -18,7 +18,9 @@ public class YouTubePlaylistOrchestrator(
     public async Task<IReadOnlyList<string>> ExecuteAsync(CancellationToken ct)
     {
         var outcome = await ExecuteCoreAsync(ct);
-        return outcome.IsError ? [] : outcome.Value.Ids;
+        if (outcome.IsError)
+            return [];
+        return outcome.Value.Ids;
     }
 
     private async Task<ErrorOr<SyncOutcome>> ExecuteCoreAsync(CancellationToken ct)
@@ -26,10 +28,40 @@ public class YouTubePlaylistOrchestrator(
         using var _ = Telemetry.ForService(ServiceName.Google);
         var syncStopwatch = Stopwatch.StartNew();
 
-        return await PrepareSyncStateAsync(ct)
-            .ThenAsync(state => AnalyzeChanges(state))
-            .ThenAsync(state => ExecuteProcessingAsync(state, ct))
-            .ThenAsync(outcome => PersistAndSummarizeAsync(outcome, syncStopwatch, ct));
+        return await LoadStoredStateAsync(ManifestFile, ct)
+            .ThenAsync(stored => FetchSummariesAndDetectAsync(stored, ct))
+            .ThenAsync(ctx => ProcessIfNeededAsync(ctx, ct))
+            .Then(outcome => Finalize(outcome, syncStopwatch));
+    }
+
+    private async Task<ErrorOr<SyncContext>> FetchSummariesAndDetectAsync(YouTubeFetchState stored, CancellationToken ct)
+    {
+        var current = await playlistService.GetPlaylistSummariesAsync(ct);
+        var changes = YouTubeChangeDetector.DetectChanges(current, stored);
+        ArchiveDeletedPlaylists(changes.DeletedPlaylists);
+        var toProcess = CombineNewAndChanged(changes);
+        return new SyncContext(stored, changes, toProcess);
+    }
+
+    private async Task<ErrorOr<ProcessOutcome>> ProcessIfNeededAsync(SyncContext ctx, CancellationToken ct)
+    {
+        if (ctx.ToProcess.Count == 0)
+        {
+            LogNoChangesNeeded(ctx.Changes);
+            return new ProcessOutcome(ctx.Stored, ctx.Changes, null);
+        }
+
+        var result = await ProcessPlaylistsAsync(ctx.ToProcess, ctx.Stored, ct);
+        return new ProcessOutcome(ctx.Stored, ctx.Changes, result);
+    }
+
+    private static ErrorOr<SyncOutcome> Finalize(ProcessOutcome outcome, Stopwatch syncStopwatch)
+    {
+        if (outcome.Result is { } result)
+            LogSyncSummary(syncStopwatch.Elapsed, outcome.Changes, result);
+
+        IReadOnlyList<string> ids = outcome.Result?.ProcessedIds ?? [];
+        return new SyncOutcome(ids, outcome.Stored);
     }
 
     public async Task<IReadOnlyList<string>> ExecuteWithSortAsync(CancellationToken ct)
@@ -50,7 +82,9 @@ public class YouTubePlaylistOrchestrator(
     )
     {
         var outcome = await ExecuteForPlaylistTitleCoreAsync(title, ct);
-        return outcome.IsError ? null : outcome.Value.Id;
+        if (outcome.IsError)
+            return null;
+        return outcome.Value.Id;
     }
 
     private async Task<ErrorOr<SinglePlaylistOutcome>> ExecuteForPlaylistTitleCoreAsync(
@@ -171,6 +205,18 @@ public class YouTubePlaylistOrchestrator(
     private readonly record struct SyncOutcome(IReadOnlyList<string> Ids, YouTubeFetchState State);
 
     private readonly record struct SinglePlaylistOutcome(string? Id, YouTubeFetchState State);
+
+    private readonly record struct SyncContext(
+        YouTubeFetchState Stored,
+        ChangeDetectionResult Changes,
+        List<PlaylistSnapshot> ToProcess
+    );
+
+    private readonly record struct ProcessOutcome(
+        YouTubeFetchState Stored,
+        ChangeDetectionResult Changes,
+        SyncResult? Result
+    );
 
     private static List<PlaylistSnapshot> CombineNewAndChanged(ChangeDetectionResult changes) =>
         [.. changes.NewPlaylists, .. changes.ChangedPlaylists];

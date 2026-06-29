@@ -114,7 +114,11 @@ public class YouTubePlaylistProcessor(
             .Where(id => !string.IsNullOrEmpty(id))
             .ToList();
 
-        var durations = await videoService.GetVideoDurationsAsync(videoIds, ct);
+        var durationsResult = await videoService.GetVideoDurationsAsync(videoIds, ct);
+        if (durationsResult.IsError)
+            return durationsResult.FirstError;
+
+        var durations = durationsResult.Value;
         var videos = new List<YouTubeVideo>();
         var skipped = 0;
 

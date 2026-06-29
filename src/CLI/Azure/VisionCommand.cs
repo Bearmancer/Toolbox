@@ -19,8 +19,10 @@ public class VisionCommand(VisionService service) : AsyncCommand<VisionCommand.S
     )
     {
         var result = await service.AnalyzeAsync(s.File, s.Feature ?? "tags", s.Lang ?? "en", ct);
-        Telemetry.Info("{Result}", result);
-        return 0;
+        return result.Match(
+            success => { Console.WriteLine(success); return 0; },
+            errors => { Console.Error.WriteLine(errors[0].Description); return 1; }
+        );
     }
 
     public sealed class Settings : CommandSettings

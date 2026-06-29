@@ -18,9 +18,11 @@ public class TranslateCommand(TranslateService service) : AsyncCommand<Translate
         CancellationToken ct
     )
     {
-        var results = await service.TranslateBatchAsync([s.Text], s.To, ct);
-        Telemetry.Info("{Result}", results[0].TranslatedText);
-        return 0;
+        var result = await service.TranslateBatchAsync([s.Text], s.To, ct);
+        return result.Match(
+            results => { Console.WriteLine(results[0].TranslatedText); return 0; },
+            errors => { Console.Error.WriteLine(errors[0].Description); return 1; }
+        );
     }
 
     public sealed class Settings : CommandSettings

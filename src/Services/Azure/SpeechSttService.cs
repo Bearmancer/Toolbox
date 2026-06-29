@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Core;
+using ErrorOr;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 
@@ -10,7 +11,7 @@ public class SpeechSttService(AzureCredentials opts)
     private const int MaxBytes = 100_000_000;
     private const int MaxDurationSeconds = 120;
 
-    public async Task<string> TranscribeAsync(
+    public async Task<ErrorOr<string>> TranscribeAsync(
         string filePath,
         string language,
         CancellationToken ct
@@ -26,7 +27,14 @@ public class SpeechSttService(AzureCredentials opts)
         {
             wavPath = Path.Combine(Path.GetTempPath(), $"azureai-{Guid.NewGuid():N}.wav");
             isTempFile = true;
-            await ConvertToWavAsync(path, wavPath, ct);
+            try
+            {
+                await ConvertToWavAsync(path, wavPath, ct);
+            }
+            catch (Exception ex)
+            {
+                return Errors.Speech.ApiError(ex.Message);
+            }
         }
 
         try
@@ -58,6 +66,10 @@ public class SpeechSttService(AzureCredentials opts)
             await recognizer.StopContinuousRecognitionAsync();
 
             return $"Language: {language}\nSegments: {segments.Count}\n---\n{string.Join(' ', segments)}";
+        }
+        catch (Exception ex)
+        {
+            return Errors.Speech.ApiError(ex.Message);
         }
         finally
         {

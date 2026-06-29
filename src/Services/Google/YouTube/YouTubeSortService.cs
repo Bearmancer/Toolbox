@@ -75,7 +75,8 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
             totalRepositioned,
             finalSummary?.ETag ?? "unknown"
         );
-        return new SortResult(totalRepositioned, finalSummary?.ETag ?? "");
+        var etag = finalSummary?.ETag ?? "";
+        return new SortResult(totalRepositioned, etag);
     }
 
     private async Task<ErrorOr<List<PlaylistItem>>> FetchPlaylistItemsAsync(
