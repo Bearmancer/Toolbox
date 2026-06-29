@@ -33,11 +33,7 @@ public class YouTubePlaylistProcessor(
 
         var result = await FetchItemsAsync(ctx, ct)
             .ThenAsync(items => BuildVideoListAsync(items, ctx, ct))
-            .ThenAsync(async videoCtx =>
-            {
-                var videos = (await MergeCacheAsync(videoCtx.videos, ctx, ct)).Value;
-                return new MergeResult(videos, videoCtx.skipped);
-            })
+            .ThenAsync(videoCtx => MergeWithSkippedCountAsync(videoCtx.videos, videoCtx.skipped, ctx, ct))
             .ThenAsync(async state =>
             {
                 return await translationService.TranslateVideosAsync(
@@ -76,12 +72,7 @@ public class YouTubePlaylistProcessor(
 
         var result = await FetchItemsAsync(ctx, ct)
             .ThenAsync(items => BuildVideoListAsync(items, ctx, ct))
-            .ThenAsync(async videoCtx =>
-            {
-                var videos = (await MergeCacheAsync(videoCtx.videos, ctx, ct)).Value;
-                await WriteJsonAsync(ctx.ProcessedPath, videos, ct);
-                return videos.Count;
-            });
+            .ThenAsync(videoCtx => MergeAndWriteAsync(videoCtx.videos, ctx, ct));
 
         if (result.IsSuccess)
         {
@@ -144,6 +135,32 @@ public class YouTubePlaylistProcessor(
         }
 
         return (videos, skipped);
+    }
+
+    private async Task<ErrorOr<MergeResult>> MergeWithSkippedCountAsync(
+        List<YouTubeVideo> videos,
+        int skipped,
+        PlaylistProcessContext ctx,
+        CancellationToken ct
+    )
+    {
+        var mergeResult = await MergeCacheAsync(videos, ctx, ct);
+        if (mergeResult.IsError)
+            return mergeResult.FirstError;
+        return new MergeResult(mergeResult.Value, skipped);
+    }
+
+    private async Task<ErrorOr<int>> MergeAndWriteAsync(
+        List<YouTubeVideo> videos,
+        PlaylistProcessContext ctx,
+        CancellationToken ct
+    )
+    {
+        var mergeResult = await MergeCacheAsync(videos, ctx, ct);
+        if (mergeResult.IsError)
+            return mergeResult.FirstError;
+        await WriteJsonAsync(ctx.ProcessedPath, mergeResult.Value, ct);
+        return mergeResult.Value.Count;
     }
 
     private async Task<ErrorOr<List<YouTubeVideo>>> MergeCacheAsync(List<YouTubeVideo> videos, PlaylistProcessContext ctx, CancellationToken ct)

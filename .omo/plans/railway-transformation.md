@@ -38,13 +38,13 @@ Refactor exception-based service methods into Railway pipelines using `ErrorOr`.
 
 ### Batch 3: YouTube/LastFm Internals
 22. [x] Railwayize `YouTubePlaylistProcessor.BuildVideoListAsync`
-23. [ ] Railwayize `YouTubePlaylistProcessor.MergeCacheAsync` — **fix unsafe `.Value` access in callers**
+23. [x] Railwayize `YouTubePlaylistProcessor.MergeCacheAsync` — **fix unsafe `.Value` access in callers**
 24. [x] Railwayize `YouTubeTranslationService.ExecuteTranslationBatchesAsync` (error accumulation strategy)
-25. [ ] Railwayize `LastFmService.TryExtractTrack`
+25. [x] Railwayize `LastFmService.TryExtractTrack`
 
 ### Batch 4: Orchestration Layer
-26. [ ] Refine `YouTubeSortService.SortPlaylistAsync` inner pass
-27. [ ] Railwayize `YouTubePlaylistOrchestrator.ProcessSinglePlaylistAsync`
+26. [x] Refine `YouTubeSortService.SortPlaylistAsync` inner pass
+27. [x] Railwayize `YouTubePlaylistOrchestrator.ProcessSinglePlaylistAsync`
 28. [x] Granularize `YouTubePlaylistOrchestrator.ExecuteCoreAsync`
 
 ## Task Details
