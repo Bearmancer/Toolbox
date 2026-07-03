@@ -13,18 +13,6 @@ public static class Telemetry
 {
     private static LoggingLevelSwitch LevelSwitch { get; set; } = new();
 
-    private static readonly ServiceName[] RegisteredServices =
-    [
-        ServiceName.LastFm,
-        ServiceName.Google,
-        ServiceName.OpenAI,
-        ServiceName.Vision,
-        ServiceName.Translate,
-        ServiceName.TextAnalytics,
-        ServiceName.Speech,
-        ServiceName.DocIntel
-    ];
-
     public static async Task Configure(LogEventLevel level = LogEventLevel.Information)
     {
         LevelSwitch = new LoggingLevelSwitch(level);
@@ -33,11 +21,11 @@ public static class Telemetry
             .MinimumLevel.ControlledBy(LevelSwitch)
             .WriteTo.Spectre("{Timestamp:HH:mm:ss} {Level:u4} {Message:lj}{NewLine}{Exception}");
 
-        foreach (var service in RegisteredServices)
+        foreach (var service in Enum.GetValues<ServiceName>())
             AddServiceLogger(
                 config,
                 service,
-                $"logs/{service.ToString().ToLowerInvariant()}-.jsonl"
+                $"logs/{service.ToFileSlug()}.jsonl"
             );
 
         if (await IsSeqReachableAsync())
@@ -59,8 +47,7 @@ public static class Telemetry
                 .WriteTo.File(
                     new CompactJsonFormatter(),
                     path,
-                    rollingInterval: RollingInterval.Day,
-                    retainedFileCountLimit: 7
+                    rollingInterval: RollingInterval.Infinite
                 )
         );
     }
