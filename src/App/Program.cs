@@ -2,6 +2,7 @@ using System.Diagnostics;
 using CLI;
 using CLI.Azure;
 using CLI.Sync;
+using CLI.Dashboard;
 using Core;
 using DotNetEnv;
 using Microsoft.Extensions.DependencyInjection;
@@ -69,6 +70,7 @@ public static class Program
             cfg.SetApplicationVersion(version: "1.0.0");
             AzureCommandModule.ConfigureCommands(cfg: cfg);
             SyncCommandModule.ConfigureCommands(cfg: cfg);
+            DashboardCommandModule.ConfigureCommands(cfg: cfg);
         });
 
         using var appCts = new CancellationTokenSource();
