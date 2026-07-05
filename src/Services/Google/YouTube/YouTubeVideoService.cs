@@ -27,7 +27,7 @@ public class YouTubeVideoService(YouTubeService yt)
     {
         try
         {
-            using var _ = Telemetry.ForService(ServiceName.Google);
+            using var _ = Telemetry.ForService(ServiceName.YouTube);
             using var activity = Telemetry.StartActivity(messageTemplate: "YouTube.GetVideoDurations");
 
             if (videoIds.Count == 0)

@@ -27,6 +27,8 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
     {
         try
         {
+            using var _ = Telemetry.ForService(ServiceName.YouTube);
+
             if (!string.IsNullOrEmpty(s.Playlist))
             {
                 var id = s.NoSort

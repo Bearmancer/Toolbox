@@ -301,12 +301,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "b2GmlYYWvD8",
+      "VideoPublishedAtRaw": "2026-06-12T15:52:13Z",
+      "VideoPublishedAtDateTimeOffset": "2026-06-12T15:52:13+00:00",
+      "VideoPublishedAt": "2026-06-12T21:22:13+05:30"
+    },
+    "ETag": "ioB5swzGJ-r1RZqKHy4Hn_SRUk0",
+    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC42MjYzMTMyQjA0QURCN0JF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Beethoven Piano Concerto No. 4\n0:37:07 Radio Commentary\n0:40:13 Bruckner Symphony No. 7\n\nThese performances weres given during the 1997 BBC Proms Season on  9 September 1997 in the Royal Albert Hall, London.\n\nEmanuel Ax (piano)\n\nEuropean Union Youth Orchestra\nconducted by\nBernard Haitink\n\nFor more details see:\nhttps://www.bbc.co.uk/events/e22zc8\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
+      "Position": 6,
+      "PublishedAtRaw": "2026-06-14T06:17:27Z",
+      "PublishedAtDateTimeOffset": "2026-06-14T06:17:27+00:00",
+      "PublishedAt": "2026-06-14T11:47:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "b2GmlYYWvD8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven, Bruckner - Emanuel Ax, European Union Youth Orchestra - Bernard Haitink (RAH, 1997)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "l6yTQfZXjg8",
       "VideoPublishedAtRaw": "2013-04-21T18:47:27Z",
       "VideoPublishedAtDateTimeOffset": "2013-04-21T18:47:27+00:00",
       "VideoPublishedAt": "2013-04-22T00:17:27+05:30"
     },
-    "ETag": "vfBuPRTBUarlFBlu0HphkRzdJU4",
+    "ETag": "t7JpSsX4_1Gt9uv1bcv223w_4Pk",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC45RjNFMDhGQ0Q2RkFCQTc1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -314,7 +369,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Read my blog: http://classical-lp.blogspot.nl/ or follow me on Twitter at http://twitter.com/otterhouse\n\nLive recording 8/2/1970 from the Concertgebouw Amsterdam\n\nGeza Anda, Piano\nConcertgebouworchestra\nBernard Haitink, conductor\n\nBela Bartok Pianoconcerto no 2 Sz.95 (1930-1931)",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 6,
+      "Position": 7,
       "PublishedAtRaw": "2025-07-01T00:49:56Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:49:56+00:00",
       "PublishedAt": "2025-07-01T06:19:56+05:30",
@@ -361,7 +416,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-12-22T05:49:30+00:00",
       "VideoPublishedAt": "2025-12-22T11:19:30+05:30"
     },
-    "ETag": "0HQyr0krVRSe6YTsJQd8lyx1Mn8",
+    "ETag": "PxE5lzgTEh1pl-_NivrMg0mdacs",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4wNEU1MTI4NkZEMzVBN0JF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -369,7 +424,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Royal Concertgebouw Orchestra, Amsterdam\ncond. by Bernard Haitink (1929 - 2021)\nrecorded 19 November 2000, broadcast live recording\n00:00  (1st mvt.) Poco Sostenuto - Vivace\n13:43  (2nd mvt.) Allegretto\n21:37  (3rd mvt.) Presto\n30:14  (4th mvt.) Allegro Con Brio",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 7,
+      "Position": 8,
       "PublishedAtRaw": "2025-12-23T00:28:26Z",
       "PublishedAtDateTimeOffset": "2025-12-23T00:28:26+00:00",
       "PublishedAt": "2025-12-23T05:58:26+05:30",
@@ -411,12 +466,107 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "xvmHa5B1wf0",
+      "VideoPublishedAtRaw": "2026-06-03T07:19:17Z",
+      "VideoPublishedAtDateTimeOffset": "2026-06-03T07:19:17+00:00",
+      "VideoPublishedAt": "2026-06-03T12:49:17+05:30"
+    },
+    "ETag": "XpfjeCSj0jkeM1mjatjfzMyynHc",
+    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5CNTcxMDQ0NThBNzMxODYz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Royal Concertgebouw Orchestra\ncond. by Bernard Haitink (1929 - 2021)\nrecorded 16 December 2001, Live in Concertgebouw \nI - Allegro non troppo - 0:00\nII - Andante moderato - 12:45\nIII - Allegro giocoso - 24:13\nIV - Allegro energico e passionato - 30:08",
+      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
+      "Position": 9,
+      "PublishedAtRaw": "2026-06-03T22:58:53Z",
+      "PublishedAtDateTimeOffset": "2026-06-03T22:58:53+00:00",
+      "PublishedAt": "2026-06-04T04:28:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xvmHa5B1wf0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bernard Haitink / RCO - Brahms : Symphony No.4 Op.98 (2001 - Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1N7ghL6kzXc",
+      "VideoPublishedAtRaw": "2026-07-04T05:24:33Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-04T05:24:33+00:00",
+      "VideoPublishedAt": "2026-07-04T10:54:33+05:30"
+    },
+    "ETag": "QoCQ0ZU_G6LW0LVnz2tLdEukV8k",
+    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC40MDNEMzA0QTBFRThFMzBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Royal Concertgebouw Orch.\ncond. by Bernard Haitink\nrecorded 24 Feburuary 1993, Concertgebouw Amsterdam\nI. Langsam. Schleppend. Wie ein Naturlaut  00:00\nII. Kr\u00E4ftig bewegt, doch nicht zu schnell  16:30 \u2219\nIII. Feierlich und gemessen, ohne zu schleppen  25:18\u2219\nIV. St\u00FCrmisch bewegt \u2013 Energisch  36:41",
+      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
+      "Position": 10,
+      "PublishedAtRaw": "2026-07-04T06:01:04Z",
+      "PublishedAtDateTimeOffset": "2026-07-04T06:01:04+00:00",
+      "PublishedAt": "2026-07-04T11:31:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1N7ghL6kzXc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1N7ghL6kzXc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1N7ghL6kzXc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1N7ghL6kzXc/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Bernard Haitink / RCO - Mahler : Symphony No.1 in D (1993 - Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "6w3VlUwO4lk",
       "VideoPublishedAtRaw": "2012-07-31T15:14:36Z",
       "VideoPublishedAtDateTimeOffset": "2012-07-31T15:14:36+00:00",
       "VideoPublishedAt": "2012-07-31T20:44:36+05:30"
     },
-    "ETag": "C8-UC1vs2ANz3iQysKI9KWXOvXM",
+    "ETag": "G-dq9zQ0PELrij42ujU4SrWZXYk",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4xMzgwMzBERjQ4NjEzNUE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -424,7 +574,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Royal Opera House, Convent Garden, 1990",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 8,
+      "Position": 11,
       "PublishedAtRaw": "2025-08-08T16:02:43Z",
       "PublishedAtDateTimeOffset": "2025-08-08T16:02:43+00:00",
       "PublishedAt": "2025-08-08T21:32:43+05:30",
@@ -466,7 +616,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-09-01T08:50:28+00:00",
       "VideoPublishedAt": "2020-09-01T14:20:28+05:30"
     },
-    "ETag": "iXUA2iqhmV1vwU16KhxS2wGj58Q",
+    "ETag": "Vj1Um2l-H8fb_NrX1X1f_asMysA",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41RTNBREYwMkI5QzU3RkY2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -474,7 +624,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Johannes Brahms\nSymphony No.4 in E minor, Op.98\n\n1 Allegro non troppo\n2 Andante moderato\n3 Allegro giocoso\n4 Allegro energico e passionato\n\nChamber Orchestra of Europe\nBernard Haitink, conductor\n\nLive recording. London, Proms 2011\n\n-------------------------------------------------------------------\n[\uAD6C\uB3C5], [\uC88B\uC544\uC694], [\uACF5\uC720] \uBD80\uD0C1\uB4DC\uB824\uC694^^ \n\uD070 \uD798\uC774 \uB429\uB2C8\uB2E4.\n\n* \uAC15\uC5F0 \uBC0F \uACF5\uC5F0 \uBB38\uC758: e-mail) starguardian@nate.com / \uCE74\uCE74\uC624\uD1A1) starguardian",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 9,
+      "Position": 12,
       "PublishedAtRaw": "2025-08-08T15:59:56Z",
       "PublishedAtDateTimeOffset": "2025-08-08T15:59:56+00:00",
       "PublishedAt": "2025-08-08T21:29:56+05:30",
@@ -516,12 +666,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "JTtg1cWymWY",
+      "VideoPublishedAtRaw": "2026-06-05T11:47:19Z",
+      "VideoPublishedAtDateTimeOffset": "2026-06-05T11:47:19+00:00",
+      "VideoPublishedAt": "2026-06-05T17:17:19+05:30"
+    },
+    "ETag": "XZTCSRXkf2nSMAGCcH3C-6Zjr98",
+    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5ERkUyQTM0MzEwQjZCMTY5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Britten Les Illuminations\n0:25:51 Shostakovich Symphony No. 4\n\nThese performances were given on  26 November 1996 in the Concertgebouw, Amsterdam.\n\nSusan Chilcott (soprano)\n\nRotterdam Philharmonic Orchestra\nconducted by\nBernard Haitink\n\nFor more details see:\nhttps://www.npoklassiek.nl/concerten/4f813cb6-389d-4382-a970-9d6e02673748/rotterdams-philharmonisch-orkest-o-l-v-bernard-\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
+      "Position": 13,
+      "PublishedAtRaw": "2026-06-09T21:56:31Z",
+      "PublishedAtDateTimeOffset": "2026-06-09T21:56:31+00:00",
+      "PublishedAt": "2026-06-10T03:26:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "JTtg1cWymWY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Britten, Shostakovich - Susan Chilcott - Rotterdam Philharmonic - Bernard Haitink (Amsterdam, 1996)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "iMH8AgprRcY",
       "VideoPublishedAtRaw": "2019-06-15T21:57:57Z",
       "VideoPublishedAtDateTimeOffset": "2019-06-15T21:57:57+00:00",
       "VideoPublishedAt": "2019-06-16T03:27:57+05:30"
     },
-    "ETag": "FWv_OryupOanP1VibE6TQ733rVQ",
+    "ETag": "-9yLh4npMHLce_0dTkBOmzgHvHI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5DNzE1RjZEMUZCMjA0RDBB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -529,7 +734,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Geniet van de meesterlijke dirigent Bernard Haitink die Bruckner\u0027s Zevende Symfonie leidt, samen met het Radio Filharmonisch Orkest en sopraan Camilla Tilling. Deze indrukwekkende uitvoering bevat ook werken van Richard Strauss, waaronder Das Rosenband en Morgen. \n\nStrauss - uit Vier Lieder op.36: Das Rosenband\nStrauss - uit Sechs Lieder op.68: Ich wollt ein Str\u00E4usslein binden\nStrauss - uit Sechs Lieder op.68: S\u00E4usle, liebe Myrte\nStrauss - uit: Sechs Lieder op.56: Die heiligen drei K\u00F6nige aus Morgenland\nStrauss - uit Vier Lieder op.27: Morgen\n\n00:26:05 Bruckner - Zevende symfonie\n00:26:05 Allegro moderato (in E)\n00:48:13 Adagio: sehr feierlich und sehr langsam (in cis)\n01:10:10 Scherzo: sehr schnell - Trio: etwas langsamer (in a)\n01:21:14 Finale: bewegt, doch nicht schnell (in E)\n\nAbonneer op dit kanaal: https://bit.ly/3FGTYP6 \n\nBekijk hier alle ZaterdagMatinee video\u2019s: https://www.youtube.com/playlist?list=PL9D021908A68EB2D1 \n\n----------\nWelkom op het kanaal van NPO Klassiek, h\u00E9t publieke platform voor klassieke muziek in de volle breedte: radio, podcasts, (live-)concerten, video\u0027s, muzieknieuws en speellijsten. NPO Klassiek is een gids voor iedereen die van klassieke muziek houdt of het wil leren kennen. Onder de nieuwe vlag blijven de bestaande programma\u2019s te horen die aansluiten op de dynamiek van de dag.\n\n----------\n\uD83C\uDFBC Ontdek meer van NPO Klassiek op onze website, socials en app!\n\u25BA Website: https://www.npoklassiek.nl\n\u25BA Instagram: https://www.instagram.com/npoklassiek\n\u25BA Facebook: https://www.facebook.com/npoklassiek\n\u25BA App iOS: https://apps.apple.com/nl/app/npo-klassiek/id356569274\n\u25BA App Android: https://play.google.com/store/apps/details?id=nl.omroep.npo.radio4\u0026hl=nl\n\n#npoklassiek #bruckner #brucknersymfonie7 #classicalmusic #klassiekemuziek",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 10,
+      "Position": 14,
       "PublishedAtRaw": "2025-07-01T00:47:40Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:47:40+00:00",
       "PublishedAt": "2025-07-01T06:17:40+05:30",
@@ -576,7 +781,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-12-24T18:01:39+00:00",
       "VideoPublishedAt": "2017-12-24T23:31:39+05:30"
     },
-    "ETag": "R6BKQA0OAIfMu2qqNJb9BjB7e00",
+    "ETag": "O7rp3tCW_zAa-Nm2gm4pUrcaH20",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC44Mjc5REFBRUE2MTdFRDU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -584,7 +789,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "L\u0027Orchestre national de France dirig\u00E9 par Bernard Haitink interpr\u00E8te la Symphonie n\u00B09 en r\u00E9 mineur d\u0027Anton Bruckner. Enregistr\u00E9 le 23 f\u00E9vrier 2015 \u00E0 l\u0027Auditorium de la Maison de la Radio (Paris).\n\n#Bruckner #BernardHaitink #OrchestrenationaldeFrance #SymphonieNo9\n\nPour en savoir plus sur Bernard Haitink : https://www.francemusique.fr/emissions/au-coeur-de-l-orchestre/les-adieux-de-bernard-haitink-75301\n\n0:00 D\u00E9but du concert\n1:14 I. Feierlich, misterioso\n27:14 II. Scherzo. Bewegt, lebhaft - Trio. Schell\n38:22 III. Adagio. Langsam, feierlich",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 11,
+      "Position": 15,
       "PublishedAtRaw": "2025-07-01T00:48:39Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:48:39+00:00",
       "PublishedAt": "2025-07-01T06:18:39+05:30",
@@ -631,7 +836,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-11-14T16:05:41+00:00",
       "VideoPublishedAt": "2021-11-14T21:35:41+05:30"
     },
-    "ETag": "OQseVpO3rVtB6NXThTD_m_wYs78",
+    "ETag": "0OjosCWZ_mEjT_CUWCtrs0xsEXA",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5EMEEwRUY5M0RDRTU3NDJC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -639,7 +844,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anton Bruckner. Symphony no. 2 in C minor.\n1872/77 mixed version, edited by Robert Haas (1938).\nRoyal Concertgebouw Orchestra; Bernard Haitink, conductor.\nRecorded live in the Concertgebouw, Amsterdam, 9 July 1959 (Holland Festival).\n\nI. Moderato (0:00)\nII. Andante. Feierlich, etwas bewegt (17:48)\nIII. Scherzo. M\u00E4\u00DFig schnell (34:27)\nIV. Mehr schnell (44:57)",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 12,
+      "Position": 16,
       "PublishedAtRaw": "2025-07-01T00:45:24Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:45:24+00:00",
       "PublishedAt": "2025-07-01T06:15:24+05:30",
@@ -686,7 +891,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-03-07T13:00:51+00:00",
       "VideoPublishedAt": "2026-03-07T18:30:51+05:30"
     },
-    "ETag": "RdWdqLUTgy149RFohxXnsFdz1h8",
+    "ETag": "3YLAAzzrKifRMCFW_8CI9iWkAOg",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4zMUEyMkQwOTk0NTg4MDgw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -694,7 +899,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "It was an extraordinary concert that conductor Bernard Haitink (1929\u20132021), who had just turned 90, gave himself as a birthday present, so to speak: Anton Bruckner\u0027s Symphony No. 4 in E-flat Major (WAB 104), \u0022Romantic Symphony,\u0022 performed by the London Symphony Orchestra at the Barbican Centre in London. Haitink\u0027s strikingly slow conducting allows the structure of the romantic symphony to shine through with crystal clarity, and despite the large orchestra, even the quietest passages captivate with their extreme precision. The recording features the second version of the Fourth Symphony from 1877-78, with the finale revised by Bruckner in 1880 (complete arrangement by Nowak, 1953).\n\n(00:00) I. Bewegt, nicht zu schnell\n(22:07) II. Andante quasi Allegretto\n(38:39) III. Scherzo. Bewegt \u2013 Trio. Nicht zu schnell, keinesfalls schleppend\n(50:48) IV. Finale. Bewegt, doch nicht zu schnell\n\nAnton Bruckner\u0027s (1824\u20131896) symphonic oeuvre comprises no fewer than 11 symphonies, which are characterized by their long performance times, and larger-than-average orchestra, as well as a structure that can be difficult to understand on first hearing. Added to this is a sonic landscape in which chorale-like or hymn-like passages intertwine with evocations of nature. Bruckner\u2019s symphonic work emerged against a backdrop of debate over the symphony\u2019s relevance after Ludwig van Beethoven. Some, like Richard Wagner, considered the traditional symphony increasingly obsolete and focused instead on his music dramas, for which he developed the idea of the \u0022Gesamtkunstwerk,\u0022 or \u0022total work of art.\u0022 Meanwhile, other Romantic composers explored alternative forms, such as the symphonic poem, as a way to expand expressive possibilities beyond the classical symphony.\n\nIn much of Romantic music, symphonic works were often based on texts or extra-musical ideas, turning the symphony into program music. Anton Bruckner, however, rejected this approach: his symphonies were intended as absolute music, speaking entirely for themselves. The Austrian Romantic composer generally adhered to the traditional four-movement structure and the motivic-thematic sonata form, but in his own distinctive way. He softened the classical tension between the two main themes that typically drives dramatic development in a symphonic movement. Instead, Bruckner\u2019s themes unfold organically, in a manner reminiscent of his concept of \u0022infinite melody.\u0022 His symphonic movements often alternate between sonata form and variation form. Both formally and harmonically, Bruckner expanded on elements of Richard Wagner\u2019s style and served as a major influence on the symphonic approach of Gustav Mahler.\n\nSymphony No. 4 was composed in 1874, but was revised significantly between 1878 and 1880. The premiere took place on February 20, 1881, in Vienna and was a major success \u2014 the first significant triumph for a Bruckner symphony, which he reportedly described laconically as \u0022astonishing.\u0022 Part of the appeal may have come from the non-musical inspirations behind the Fourth Symphony. Bruckner shared vivid images of the work with friends: a medieval town where morning wake-up calls echo from the towers (evoked by the horns at the opening), the rustling of the forest and birdsong (in the first movement), a hunting scene (the scherzo), and a dance during the hunt\u2019s meal (the trio at 43:37). Bruckner himself coined the epithet \u0022Romantic\u0022 for this symphony. Yet, despite these evocative associations, the Fourth\u2019s grand scale means it cannot be classified as a program symphony or a symphonic poem.\n\nInterestingly, Anton Bruckner never married. He reportedly made numerous proposals to young women, but none were successful. While working on his 4th Symphony, he is said to have remarked that he couldn\u0027t get married because he needed to finish composing it.\n\nText: Rita Kass\n\n\u00A9 2019 C Major Entertainment\n\nWatch more masterpieces in our concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nin our SYMPHONIES playlist: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nand in our playlist with famous works from the ROMANTIC period: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#bruckner #symphony #symphonyorchestra",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 13,
+      "Position": 17,
       "PublishedAtRaw": "2026-03-09T03:42:06Z",
       "PublishedAtDateTimeOffset": "2026-03-09T03:42:06+00:00",
       "PublishedAt": "2026-03-09T09:12:06+05:30",
@@ -741,7 +946,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-26T01:19:58+00:00",
       "VideoPublishedAt": "2025-04-26T06:49:58+05:30"
     },
-    "ETag": "pvve0CCb5F8Kopg4MGJULLAYl4w",
+    "ETag": "BY32ec7UPvYYSFEvcHgSeuEAjmU",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41MjE1MkI0OTQ2QzJGNzNG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -749,7 +954,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bruckner: Symphony no.7\n1st movement   00:00\n2nd   19:45\n3rd    40:35\n4th    49:57\nBernard Haitink / Royal Concertgebouw Orchestra\n14/10/1972   Amsterdam Concertgebouw live recording\n\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C7\u756A\n\u30D9\u30EB\u30CA\u30EB\u30C9\u30FB\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n1972\u5E7410\u670814\u65E5\u3000\u30A2\u30E0\u30B9\u30C6\u30EB\u30C0\u30E0\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u306F\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u30681966\u5E74\u30011978\u5E74\u306B\u540C\u66F2\u3092\u9332\u97F3\u306B\u6B8B\u3057\u3066\u3044\u307E\u3059\u304C\u3001\u3053\u308C\u306F\u305D\u306E\u4E2D\u9593\u6642\u671F\u306E\u30E9\u30A4\u30D6\u3067\u3001\u5F7C\u306E\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\u8868\u73FE\u304C\u78BA\u7ACB\u3055\u308C\u59CB\u3081\u305F\u9803\u306E\u8A18\u9332\u3068\u8A00\u3048\u308B\u3067\u3057\u3087\u3046\u3002",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 14,
+      "Position": 18,
       "PublishedAtRaw": "2025-07-01T00:42:59Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:42:59+00:00",
       "PublishedAt": "2025-07-01T06:12:59+05:30",
@@ -786,7 +991,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-08-23T14:00:17+00:00",
       "VideoPublishedAt": "2020-08-23T19:30:17+05:30"
     },
-    "ETag": "b_cezg4Xmgpk_H2nIVauBFtsTnc",
+    "ETag": "E_urFt8ngg22sUK8KJAE9YF8BFg",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5GM0Q3M0MzMzY5NTJFNTdE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -794,7 +999,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Multi-award-winning conductor Bernard Haitink leads the Royal Concertgebouw Orchestra in the Concertgebouw Amsterdam. They perform Claude Debussy\u0027s \u0027La mer, trois esquisses symphoniques pour orchestre,\u0027 known simply as \u0027La mer.\u0027\n\nClaude Debussy (1862 - 1918) wrote this composition of \u0027three symphonic sketches\u0027 between 1903 and 1905. Upon its premiere in Paris in October 1905, it was not well-received, provoking confusion and dismay among both audience and critics. But after performances in the United States and Britain, it was performed again in Paris in 1908, and then quickly became one of Debussy\u0027s most famous and admired orchestral works.\n\nAlong with Debussy\u0027s \u0027Nocturnes,\u0027 \u0027La mer\u0027 exemplifies musical Impressionism and serves as a transition between the Romantic and modern eras. \n\nBernard Haitink began his conducting career with Netherlands Radio: he became chief conductor of the Netherlands Radio Philharmonic in 1957. Later he was principal conductor of the Royal Concertgebouw Orchestra and held this position for 27 years. Today he is patron of the Radio Philharmonic Orchestra and Honorary Conductor of the Concertgebouw Orchestra.\n\nBernard Haitink has also been Music Director of the Glyndebourne Festival and the Royal Opera House, Covent Garden, and Chief Conductor of the London Philharmonic Orchestra, the Staatskapelle Dresden and the Chicago Symphony Orchestra. He is an honorary member of the Berlin Philharmonic, the Chamber Orchestra of Europe and since 2019, the Vienna Philharmonic. He has received numerous prizes and awards, including the Gramophone Lifetime Achievement Award.\n\n(00:49) 1. De l\u2019aube \u00E0 midi sur la mer (From dawn to noon on the sea)\n(09:55) 2. Jeux de vagues (Play of the waves)\n(16:39) 3. Dialogue du vent et de la mer (Dialogue between wind and waves)\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic\n\n#Debussy #LaMer #ConcertgebouwOrchestra #BernardHaitink",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 15,
+      "Position": 19,
       "PublishedAtRaw": "2025-07-01T00:47:09Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:47:09+00:00",
       "PublishedAt": "2025-07-01T06:17:09+05:30",
@@ -836,7 +1041,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-03-08T13:28:08+00:00",
       "VideoPublishedAt": "2021-03-08T18:58:08+05:30"
     },
-    "ETag": "dAGB3cNzCyRzpm95InGshmuenHw",
+    "ETag": "GlkBAzg_eRVXfXZJiXpkqSNGd98",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5EQUE1NTFDRjcwMDg0NEMz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -844,7 +1049,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Haitink and the LSO at the Proms in 2005 with Shostakovich\u0027s immense eighth symphony.\n\n\n1. Adaio - allegro non troppo 0:00\n2. Allegretto 29:10\n3. Allegro non troppo - 36:04\n4. - Largo - 43:13\n5. - Allegretto 53:57\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 16,
+      "Position": 20,
       "PublishedAtRaw": "2025-07-01T00:46:17Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:46:17+00:00",
       "PublishedAt": "2025-07-01T06:16:17+05:30",
@@ -881,7 +1086,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-01-26T00:03:16+00:00",
       "VideoPublishedAt": "2022-01-26T05:33:16+05:30"
     },
-    "ETag": "BS1q8EzuYs1oj6cniiCHF4ikUmQ",
+    "ETag": "rCD9SlCta5ZiQGlPW5_m7Lyf4wA",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC40NzZCMERDMjVEN0RFRThB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -889,7 +1094,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anton\u00CCn Dvo?\u00B7k: Symphony No. 7 in D minor, Op. 70 (1885)\n I  Allegro maestoso. [00:00]\nII  Poco adagio  [11:19]\nIII  Scherzo: Vivace. [20:56]\nIV  Finale: Allegro  [28:33]\n Carl Maria von Weber: Oberon Overture (encore) [39:07]\nDresden Staatskapelle Bernard Haitink conductor\nRedorded September 4 2004 at Royal Albert Hall London  UK",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 17,
+      "Position": 21,
       "PublishedAtRaw": "2025-07-01T00:45:09Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:45:09+00:00",
       "PublishedAt": "2025-07-01T06:15:09+05:30",
@@ -936,7 +1141,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-10-04T13:28:50+00:00",
       "VideoPublishedAt": "2025-10-04T18:58:50+05:30"
     },
-    "ETag": "8sdajU3iXcdleFlMu2HS_kk9sts",
+    "ETag": "dZTCKwmtZPCf-oFuy6zbMTzdwD4",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC43NERCMDIzQzFBMERCMEE3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -944,7 +1149,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "DVORAK: Symphony No.7 \n1st movement    00:00\n2nd    10:10\n3rd     20:55\n4th     28:35\nBernard Haitink / Dresden Staatskapelle \n4/9/2004 London, Royal Albert Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C7\u756A\n\u30D9\u30EB\u30CA\u30EB\u30C8\u30FB\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u6307\u63EE\u3000\u30C9\u30EC\u30B9\u30C7\u30F3\u30FB\u30B7\u30E5\u30BF\u30FC\u30C4\u30AB\u30DA\u30EC\n2004\u5E749\u67084\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 18,
+      "Position": 22,
       "PublishedAtRaw": "2025-11-14T05:54:23Z",
       "PublishedAtDateTimeOffset": "2025-11-14T05:54:23+00:00",
       "PublishedAt": "2025-11-14T11:24:23+05:30",
@@ -981,7 +1186,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-09-22T12:00:36+00:00",
       "VideoPublishedAt": "2023-09-22T17:30:36+05:30"
     },
-    "ETag": "XIO3I38CB0XuuYo2Hupmn7mt5KE",
+    "ETag": "NMNdkmG5AkBwf5GH68PYEpNAgyU",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5DRUQwODMxQzUyRTlGRkY3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -989,7 +1194,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "dvo\u0159\u00E1k  symphony no.7 in d minor, op.70\n\ni.   allegro maestoso ( 0:00 - )\nii.  poco adagio ( 11:01- )\niii. scherzo: vivace - poco meno mosso ( 21:27 - )\niv. finale : allegro ( 28:27 - )\n\n( live recording.  3.26.1981 )\n\n\n*. source : fkm cd-r (modified)\n*. b. haitink                     bavrian radio symphony orchestra",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 19,
+      "Position": 23,
       "PublishedAtRaw": "2025-08-08T15:57:58Z",
       "PublishedAtDateTimeOffset": "2025-08-08T15:57:58+00:00",
       "PublishedAt": "2025-08-08T21:27:58+05:30",
@@ -1031,7 +1236,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-09-07T21:06:12+00:00",
       "VideoPublishedAt": "2020-09-08T02:36:12+05:30"
     },
-    "ETag": "nyympcHgD6tEDLPcNlShnb11QWk",
+    "ETag": "G5jsCMBix8qH8OR0vMQKuCqdUl8",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4yMDhBMkNBNjRDMjQxQTg1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1039,7 +1244,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bernard Haitink conducting Schubert\u0027s Unfinished symphony with the LSO at the Barbican in 2009.\n\n1. Allegro moderato 0:00\n2. Andante con moto 15:25\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 20,
+      "Position": 24,
       "PublishedAtRaw": "2025-07-01T00:47:01Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:47:01+00:00",
       "PublishedAt": "2025-07-01T06:17:01+05:30",
@@ -1076,7 +1281,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-02-03T12:45:53+00:00",
       "VideoPublishedAt": "2021-02-03T18:15:53+05:30"
     },
-    "ETag": "2o07rfmbaFnNqVIrBB0HF8aPQfE",
+    "ETag": "5f7Lly-mUjE4t3-uBoQMaKvc9iA",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4yMUQyQTQzMjRDNzMyQTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1084,7 +1289,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Soprano Camilla Tilling with Bernard Haitink and the London Symphony Orchestra at the Proms in August 2014 in Mahler\u0027s fourth symphony.\n\n\n1. Bed\u00E4chtig, nicht eilen (Moderately, not rushed) 0:00\n2. In gem\u00E4chlicher Bewegung, ohne Hast (Leisurely moving, without haste) 19:00\n3. Ruhevoll, poco adagio (Peacefully, somewhat slowly) 29:27\n4. \u0022Das himmlische Leben\u0022 - Sehr behaglich (Very comfortably) 50:33\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 21,
+      "Position": 25,
       "PublishedAtRaw": "2025-07-01T00:46:29Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:46:29+00:00",
       "PublishedAt": "2025-07-01T06:16:29+05:30",
@@ -1121,7 +1326,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-08-05T20:35:21+00:00",
       "VideoPublishedAt": "2018-08-06T02:05:21+05:30"
     },
-    "ETag": "G52UZLjVawfxbE4kAe7MYtoeQW4",
+    "ETag": "Ydh-m_G32U9NkVr3dYXrFx2NUdg",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5DQ0MyQ0Y4Mzg0M0VGOEYw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1129,7 +1334,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "A superb Mahler 9 under the baton of the great Bernard Haitink at the Proms in July 2009.\n\n1. Andante comodo 0:00\n2. Im Tempo eines gemachlichen Landlers 29:42\n3. Rondo-Burleske, allegro assai 47:24\n4. Adagio, sehr langsam und noch zuruckhaltend 01:02:22\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 22,
+      "Position": 26,
       "PublishedAtRaw": "2025-07-01T00:48:07Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:48:07+00:00",
       "PublishedAt": "2025-07-01T06:18:07+05:30",
@@ -1166,7 +1371,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-08-16T12:13:20+00:00",
       "VideoPublishedAt": "2022-08-16T17:43:20+05:30"
     },
-    "ETag": "WqIydnYLsbBl0XFStQ3dwhQ4HIY",
+    "ETag": "UslF8nk6EE--IPW4wDcC3hCZSOQ",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5GNjNDRDREMDQxOThCMDQ2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1174,7 +1379,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bernard Haitink conducting the London Symphony Orchestra in Mahler\u0027s ninth symphony at the Barbican in May 2017.\n\nIntro 0:00\n1. Andante comodo 0:04\n2. Im Tempo eines gem\u00E4chlichen L\u00E4ndlers 30:54\n3. Rondo-Burleske 48:46\n4. Adagio 01:05:10\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are off-air audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings or streamed transmissions. We have greatly enjoyed these performances over the years - all of which were at least four years old at the time of posting - and just wish to share them with other music lovers for the pleasure of listening to the LSO in live performances. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 23,
+      "Position": 27,
       "PublishedAtRaw": "2025-07-01T00:44:54Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:44:54+00:00",
       "PublishedAt": "2025-07-01T06:14:54+05:30",
@@ -1211,7 +1416,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-10-27T04:55:05+00:00",
       "VideoPublishedAt": "2024-10-27T10:25:05+05:30"
     },
-    "ETag": "gHllUiTJmOFG2K0yMhAQG7h7tWE",
+    "ETag": "MkQXPtVLbtr3_e3F9Z0e0ZsFtTs",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5ENjI1QUI0MDI5NEQzODFE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1219,7 +1424,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "\u795E\u8056\u306A\u821E\u66F2\u3068\u4E16\u4FD7\u7684\u306A\u821E\u66F2\nSarah O\u0027Brien, Harp\nConcertgebouw Orchestra, Amsterdam\ncond. by Bernard Haitink\nrec. 19 November 2000\nlive recording, Concertgebouw",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 24,
+      "Position": 28,
       "PublishedAtRaw": "2025-08-08T16:02:07Z",
       "PublishedAtDateTimeOffset": "2025-08-08T16:02:07+00:00",
       "PublishedAt": "2025-08-08T21:32:07+05:30",
@@ -1261,12 +1466,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "YPsg2DTTAN8",
+      "VideoPublishedAtRaw": "2026-05-18T05:19:40Z",
+      "VideoPublishedAtDateTimeOffset": "2026-05-18T05:19:40+00:00",
+      "VideoPublishedAt": "2026-05-18T10:49:40+05:30"
+    },
+    "ETag": "1olpxG2qkkyTCu3Pic0VWRM_BqM",
+    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4xM0YyM0RDNDE4REQ1NDA0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Berlin Philharmonic Orch.\ncond. by Bernard Haitink (1929 - 2021)\nrecorded 25 January 2007, live recording in Berlin\nI. Allegro non troppo  00:00 \u2219\nII. Adagio non troppo  15:45 \u2219\nIII. Allegretto grazioso (Quasi Andantino) \u2013 Presto ma non assai \u2013 \n     Tempo primo \u2013 Presto ma non assai \u2013 Tempo primo  25:09 \u2219\nIV. Allegro con spirito  30:18",
+      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
+      "Position": 29,
+      "PublishedAtRaw": "2026-06-09T22:07:13Z",
+      "PublishedAtDateTimeOffset": "2026-06-09T22:07:13+00:00",
+      "PublishedAt": "2026-06-10T03:37:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YPsg2DTTAN8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Haitink / BPO - Brahms : Symphony No.2 in D Op.73 (2007 - Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "1OcST-zj2c0",
       "VideoPublishedAtRaw": "2025-02-26T05:30:50Z",
       "VideoPublishedAtDateTimeOffset": "2025-02-26T05:30:50+00:00",
       "VideoPublishedAt": "2025-02-26T11:00:50+05:30"
     },
-    "ETag": "8uwuOFkEeXTCIAjb3XuBiF-CrJc",
+    "ETag": "aTiRJ6O9ibScH5YfyZDfT2aGqqQ",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4xMkVGQjNCMUM1N0RFNEUx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1274,7 +1534,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "\u226A\u30D1\u30EB\u30B8\u30D5\u30A1\u30EB\u226B\u524D\u594F\u66F2\u3068\u8056\u91D1\u66DC\u65E5\u306E\u97F3\u697D \u3000\nRoyal Concertgebouw Orch. cond. by Bernard Haitink\nrec. 1 September 2007, Musikfest Berlin\nlive recording",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 25,
+      "Position": 30,
       "PublishedAtRaw": "2025-07-01T00:43:24Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:43:24+00:00",
       "PublishedAt": "2025-07-01T06:13:24+05:30",
@@ -1321,7 +1581,7 @@
       "VideoPublishedAtDateTimeOffset": "2016-08-12T19:27:23+00:00",
       "VideoPublishedAt": "2016-08-13T00:57:23+05:30"
     },
-    "ETag": "zDgQWFXfZmLAOpO3WxCKHWl-rgE",
+    "ETag": "9kSQVwjmDWRRHbUuKC5FvqL1kjU",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC43NDhFRTgwOTRERTU4Rjg3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1329,7 +1589,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bernard Haitink 80 jaar, Anton Bruckner - Symfonie nr. 8\nKoninklijk Concertgebouworkest o.l.v.Bernard Haitink\nAmsterdam, Concertgebouw, 22 augustus 2007\nopname AVRO",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 26,
+      "Position": 31,
       "PublishedAtRaw": "2025-07-01T00:49:09Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:49:09+00:00",
       "PublishedAt": "2025-07-01T06:19:09+05:30",
@@ -1376,7 +1636,7 @@
       "VideoPublishedAtDateTimeOffset": "2016-08-13T04:46:35+00:00",
       "VideoPublishedAt": "2016-08-13T10:16:35+05:30"
     },
-    "ETag": "T_HhPX7J2nrwBS9-Nmukudyw1WE",
+    "ETag": "LToti0900lNZFTjJfGZcLa1xgNI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41QUZGQTY5OTE4QTREQUU4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1384,7 +1644,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Haitink 80 jaar - Mozart Symfonie nr. 35 Haffner, Debussy La Mer\nKoninklijk Concertgebouworkest o.l.v. Bernard Haitink\nAmsterdam, Concertgebouw, 12 maart 2009\nopname AVRO",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 27,
+      "Position": 32,
       "PublishedAtRaw": "2025-07-01T00:49:14Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:49:14+00:00",
       "PublishedAt": "2025-07-01T06:19:14+05:30",
@@ -1431,7 +1691,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-09-29T16:31:59+00:00",
       "VideoPublishedAt": "2017-09-29T22:01:59+05:30"
     },
-    "ETag": "drwMK2QVZd2OI5_HLt2DeHFtP-A",
+    "ETag": "xqKJ4O-qvxyPowbHoG3PXyN03c0",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41NkI0NEY2RDEwNTU3Q0M2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1439,7 +1699,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Joseph Haydn (1732-1809)\nSYMPHONY NO. 86 in D major, Hob. I/86\nSymphonieorchester des Bayerischen Rundfunks\nBERNARD HAITINK, cond.\nRecording: Philharmonie im Gasteig, M\u00FCnchen, 23 September 2006\n\nI. Adagio - Allegro spiritoso (0:00)\nII. Capriccio. Largo (7:59)\nIII. Menuetto. Allegretto (13:41)\nIV. Allegro con spirito (18:49)",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 28,
+      "Position": 33,
       "PublishedAtRaw": "2025-06-06T21:29:03Z",
       "PublishedAtDateTimeOffset": "2025-06-06T21:29:03+00:00",
       "PublishedAt": "2025-06-07T02:59:03+05:30",
@@ -1486,7 +1746,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-09-29T16:31:59+00:00",
       "VideoPublishedAt": "2017-09-29T22:01:59+05:30"
     },
-    "ETag": "Gj7FAFGj3XN8O_2lI_7aaZ59Z8c",
+    "ETag": "JFWO_P0yroxrPnIdTiZVF3TUlTQ",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4yODlGNEE0NkRGMEEzMEQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1494,7 +1754,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Joseph Haydn (1732-1809)\nSYMPHONY NO. 86 in D major, Hob. I/86\nSymphonieorchester des Bayerischen Rundfunks\nBERNARD HAITINK, cond.\nRecording: Philharmonie im Gasteig, M\u00FCnchen, 23 September 2006\n\nI. Adagio - Allegro spiritoso (0:00)\nII. Capriccio. Largo (7:59)\nIII. Menuetto. Allegretto (13:41)\nIV. Allegro con spirito (18:49)",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 29,
+      "Position": 34,
       "PublishedAtRaw": "2025-06-06T21:29:11Z",
       "PublishedAtDateTimeOffset": "2025-06-06T21:29:11+00:00",
       "PublishedAt": "2025-06-07T02:59:11+05:30",
@@ -1541,7 +1801,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-10-24T10:01:11+00:00",
       "VideoPublishedAt": "2024-10-24T15:31:11+05:30"
     },
-    "ETag": "Iha_KL6DCateqdqRmkarn22vkT0",
+    "ETag": "85oWj_k7XkpD69AlD8UnD3LeqNg",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC42QzdBMzlBQzQzRjQ0QkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1549,7 +1809,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Provided to YouTube by Universal Music Group\n\nHaydn: Symphony No. 95 in C Minor, Hob. I:95: III. Menuetto \u2013 Trio \u00B7 Royal Concertgebouw Orchestra \u00B7 Sir Colin Davis\n\nHaydn: Symphony No. 95; Symphony No. 97\n\n\u2117 1981 Universal International Music B.V.\n\nReleased on: 2024-10-25\n\nComposer: Joseph Haydn\n\nAuto-generated by YouTube.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 30,
+      "Position": 35,
       "PublishedAtRaw": "2026-03-19T11:26:57Z",
       "PublishedAtDateTimeOffset": "2026-03-19T11:26:57+00:00",
       "PublishedAt": "2026-03-19T16:56:57+05:30",
@@ -1596,7 +1856,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-11-12T19:05:09+00:00",
       "VideoPublishedAt": "2018-11-13T00:35:09+05:30"
     },
-    "ETag": "hPPib3uinZUeAXC_lTLiG6d1h9A",
+    "ETag": "amz6dZjN1x9z5dD9ZABqDTSJcY0",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC43MTI1NDIwOTMwQjIxMzNG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1604,7 +1864,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n\n---\n\nJohannes Brahms\nViolin Concerto in D major, Op 77\n\n1 Allegro non troppo\n2 Adagio\n3 Allegro giocoso, ma non troppo vivace - Poco pi\u00F9 presto\n\nJanine Jansen, violin\n\nChamber Orchestra of Europe\nBernard Haitink, conductor",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 31,
+      "Position": 36,
       "PublishedAtRaw": "2025-07-01T00:48:01Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:48:01+00:00",
       "PublishedAt": "2025-07-01T06:18:01+05:30",
@@ -1651,7 +1911,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-06-05T01:36:23+00:00",
       "VideoPublishedAt": "2024-06-05T07:06:23+05:30"
     },
-    "ETag": "tEIkjBVf-_3Pne8z5TBHsh4l1XU",
+    "ETag": "qL6WMCapuM2fP22qDf6HO169n14",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5DNkMwRUI2MkI4QkI4NDFG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1659,7 +1919,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 32,
+      "Position": 37,
       "PublishedAtRaw": "2025-08-08T15:57:36Z",
       "PublishedAtDateTimeOffset": "2025-08-08T15:57:36+00:00",
       "PublishedAt": "2025-08-08T21:27:36+05:30",
@@ -1706,7 +1966,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-02-22T13:49:49+00:00",
       "VideoPublishedAt": "2021-02-22T19:19:49+05:30"
     },
-    "ETag": "FJ0rOAArSvy7s49mzVlEg2A4-BI",
+    "ETag": "MZp2OVUOBuM2r0_emx2gPIaghwo",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41QTY1Q0UxMTVCODczNThE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1714,7 +1974,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bernard Haitink conducting the London Symphony Orchestra at the Proms in September 2002, in Haydn\u0027s \u0027Miracle\u0027 symphony.\n\n\n1. Adagio - allegro 0:00\n2. Andante 07:13\n3. Menuetto - allegretto 13:23\n4. Vivace 18:31\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 33,
+      "Position": 38,
       "PublishedAtRaw": "2025-07-01T00:46:24Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:46:24+00:00",
       "PublishedAt": "2025-07-01T06:16:24+05:30",
@@ -1751,7 +2011,7 @@
       "VideoPublishedAtDateTimeOffset": "2013-04-27T11:31:44+00:00",
       "VideoPublishedAt": "2013-04-27T17:01:44+05:30"
     },
-    "ETag": "I_jHAuHZjJcMrrdg_RM5XA-SPTA",
+    "ETag": "cDMfheS2RpvpOrO6CpRefGZttSo",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4xOTEzQzhBQzU3MDNDNjcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1759,7 +2019,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Of the 3 performances I have of this well worked out serial work, this is, by far, the best.\nSpectacular sonics!\n\nKees van Baaren ( 1906-1970 )\nPiano concerto 1964\nTheo Bruins, piano\nConcertgebouw orchestra\nBernard Haitink\nLive 1/11/1970\n\nRead my blog: http://classical-lp.blogspot.nl/ or follow me on Twitter at http://twitter.com/otterhouse",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 34,
+      "Position": 39,
       "PublishedAtRaw": "2025-07-01T03:57:05Z",
       "PublishedAtDateTimeOffset": "2025-07-01T03:57:05+00:00",
       "PublishedAt": "2025-07-01T09:27:05+05:30",
@@ -1806,7 +2066,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-04-25T17:16:41+00:00",
       "VideoPublishedAt": "2021-04-25T22:46:41+05:30"
     },
-    "ETag": "d5vKqrDdtiUYAZDgPDdt9KFJQUc",
+    "ETag": "uo98u-NCvb2-CghhTNibM1vh-AY",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41Mzk2QTAxMTkzNDk4MDhF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1814,7 +2074,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bernard Haitink with the London Symphony Orchestra during their 2006 residency at New York\u0027s Avery Fisher Hall, performing Beethoven\u0027s first symphony.\n\n\n1. Adagio molto - allegro con brio 0:00\n2. Andante cantabile con moto 09:49\n3. Menuetto: Allegro molto e vivace 16:49\n4. Adagio - allegro molto e vivace 20:11\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 35,
+      "Position": 40,
       "PublishedAtRaw": "2025-07-01T00:46:09Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:46:09+00:00",
       "PublishedAt": "2025-07-01T06:16:09+05:30",
@@ -1856,7 +2116,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-10-18T17:20:03+00:00",
       "VideoPublishedAt": "2020-10-18T22:50:03+05:30"
     },
-    "ETag": "G7xy3LmonjkjzAaEjJxIqKy_ee8",
+    "ETag": "v5VzM74bSJAI5PTFmtBSlTviUvY",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4yQjZFRkExQjFGODk3RUFD",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1864,7 +2124,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Part of an all-Beethoven programme at Avery Fisher Hall in New York as part of the LSO\u0027s 2006 residency.\n\n\n1. Poco sostenuto - vivace 0:00\n2. Allegretto 14:01\n3. Presto - assai meno presto 21:58\n4. Allegro con brio 31:14\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 36,
+      "Position": 41,
       "PublishedAtRaw": "2025-08-08T15:59:27Z",
       "PublishedAtDateTimeOffset": "2025-08-08T15:59:27+00:00",
       "PublishedAt": "2025-08-08T21:29:27+05:30",
@@ -1906,7 +2166,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-25T13:26:19+00:00",
       "VideoPublishedAt": "2021-10-25T18:56:19+05:30"
     },
-    "ETag": "tS87YrT03wFGcC6lIj5mEjf8fDA",
+    "ETag": "clKzM6H2DRsp9PfiBxnpiLwE-vw",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4zMDg5MkQ5MEVDMEM1NTg2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1914,7 +2174,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Imogen Cooper and the late Bernard Haitink with the London Symphony Orchestra at the Barbican in May 2015.\n\n\n\n1. Allegro con brio 0:00\n2. Largo 19:08\n3. Rondo, allegro scherzando 30:37\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 37,
+      "Position": 42,
       "PublishedAtRaw": "2025-07-01T00:45:53Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:45:53+00:00",
       "PublishedAt": "2025-07-01T06:15:53+05:30",
@@ -1951,7 +2211,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-10-19T12:00:45+00:00",
       "VideoPublishedAt": "2025-10-19T17:30:45+05:30"
     },
-    "ETag": "IxIvQp7D9z9lQM6BOpFCMvwLDG4",
+    "ETag": "XrKatlzrQVSmhkB4ZT6s4DHp0jQ",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41NTZEOThBNThFOUVGQkVB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1959,7 +2219,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "mahler  symphony no.9 \n\ni.   andante comodo ( 0:00 - )\nii.  im tempo eines gem\u00E4chlichen l\u00E4ndlers ( 29:40 - )\niii. rondo-burleske ( 47:20 - )\niv. adagio ( 1:02:16 - )\n\n( live recording.  july 20, 2009  royal albert hall, london )\n\n\n\n\n\n*. source : the uphill road in cleveland cd-r (modified)\n*. b. haitink                london symphony orchestra",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 38,
+      "Position": 43,
       "PublishedAtRaw": "2025-11-14T03:32:47Z",
       "PublishedAtDateTimeOffset": "2025-11-14T03:32:47+00:00",
       "PublishedAt": "2025-11-14T09:02:47+05:30",
@@ -2006,7 +2266,7 @@
       "VideoPublishedAtDateTimeOffset": "2015-03-15T23:37:12+00:00",
       "VideoPublishedAt": "2015-03-16T05:07:12+05:30"
     },
-    "ETag": "74jIjdGO8zXOEQ1YPiVXrIqWkd8",
+    "ETag": "HZc2bMnT0gV35HzHYxQTISRDp68",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5CMEQ2Mjk5NTc3NDZFRUNB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2014,7 +2274,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nGustav Mahler\nSymphony No 9 in D major\n\nConcertgebouw Orchestra\nBernard Haitink\n\nAmsterdam, 1987",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 39,
+      "Position": 44,
       "PublishedAtRaw": "2025-07-01T00:49:39Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:49:39+00:00",
       "PublishedAt": "2025-07-01T06:19:39+05:30",
@@ -2061,7 +2321,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-06-24T22:47:18+00:00",
       "VideoPublishedAt": "2020-06-25T04:17:18+05:30"
     },
-    "ETag": "jU4BXPZ1MluP3LDZtbMxtglcZnE",
+    "ETag": "51MzySUFtgK1U_zkaCVvsfOaL3o",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4yQUJFNUVCMzVDNjcxRTlF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2069,7 +2329,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Gustav Mahler. Symphony no. 6 in A minor\nConcertgebouw Orchestra, Amsterdam; Bernard Haitink, conductor\nRecorded live in the Concertgebouw, Amsterdam, 7 November 1968\n\nI. Allegro energico, ma non troppo (0:00)\nII. Scherzo. Wuchtig (18:06)\nIII. Andante moderato (30:48)\nIV. Finale. Allegro moderato (47:45)",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 40,
+      "Position": 45,
       "PublishedAtRaw": "2025-08-08T15:59:43Z",
       "PublishedAtDateTimeOffset": "2025-08-08T15:59:43+00:00",
       "PublishedAt": "2025-08-08T21:29:43+05:30",
@@ -2116,7 +2376,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-03-08T07:10:22+00:00",
       "VideoPublishedAt": "2026-03-08T12:40:22+05:30"
     },
-    "ETag": "dgNptmqKUINGf9HV0_t2xwYg-Vg",
+    "ETag": "wV148dEmMyMyHR_0sjtlShbp0RU",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41OURENDc2NEM1MDI5Mjky",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2124,7 +2384,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mahler: Symphony no.2 \u0027resurrection\u0027   \n1st movement   00:00\n2nd    21:46\n3rd    32:13\n4th    43:27\n5th    48:33\nBernard Haitink / Royal Concertgebouw orchestra\nSop) Charlotte Margiono\u3000Alt) Jard van Nes\nCho) Netherlands Radio chorus\n5/5/1995 Amsterdam Concertgebouw live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C2\u756A\u300C\u5FA9\u6D3B\u300D\n\u30D9\u30EB\u30CA\u30EB\u30C8\u30FB\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30B7\u30E3\u30EB\u30ED\u30C3\u30C6\u30FB\u30DE\u30EB\u30B8\u30AA\u30FC\u30CE\u3000\u30A2\u30EB\u30C8\uFF09\u30E4\u30EB\u30C9\u30FB\u30D5\u30A1\u30F3\u30FB\u30CD\u30B9\n\u5408\u5531\uFF09\u30AA\u30E9\u30F3\u30C0\u653E\u9001\u5408\u5531\u56E3\n1995\u5E745\u67085\u65E5\u3000\u30A2\u30E0\u30B9\u30C6\u30EB\u30C0\u30E0\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B1995\u5E74\u306E\u4F1D\u8AAC\u7684\u306A\u30AA\u30E9\u30F3\u30C0\u30FB\u30DE\u30FC\u30E9\u30FC\u30FB\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u304B\u3089\u3002",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 41,
+      "Position": 46,
       "PublishedAtRaw": "2026-03-26T04:23:26Z",
       "PublishedAtDateTimeOffset": "2026-03-26T04:23:26+00:00",
       "PublishedAt": "2026-03-26T09:53:26+05:30",
@@ -2161,7 +2421,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-27T14:06:53+00:00",
       "VideoPublishedAt": "2021-10-27T19:36:53+05:30"
     },
-    "ETag": "3BQjnSnippME1SMAI7apuZNi2Fs",
+    "ETag": "3PB_XKQmiV3a00eXyy3erg2wR2g",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC45ODRDNTg0QjA4NkFBNkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2169,7 +2429,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "GUSTAV MAHLER (1860-1911)\nSymphony No. 3 in D minor\nHelen Watts, contralto\nWomen\u0027s Chorus of the Netherlands Radio\nBoys\u0027 Chorus of the St. Willibrord Church, Amsterdam\nRadio Filharmonisch Orkest (Netherlands Radio Philharmonic)\nBERNARD HAITINK, conductor\nLive, 7 November 1970, Concertgebouw, Grote Zaal, Amsterdam\n[00:00] I. Kr\u00E4ftig. Entschieden\n[31:38] II. Tempo di Menuetto. Sehr m\u00E4\u00DFig. Ja nicht eilen!\n[40:54] III. Comodo. Scherzando. Ohne Hast\n[56:34]  IV. Sehr langsam. Misterioso. Durchaus ppp\n[01:05:12] V. Lustig im Tempo und keck im Ausdruck\n[01:09:05] VI. Langsam. Ruhevoll. Empfunden",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 42,
+      "Position": 47,
       "PublishedAtRaw": "2025-07-01T00:45:44Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:45:44+00:00",
       "PublishedAt": "2025-07-01T06:15:44+05:30",
@@ -2216,7 +2476,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-26T01:05:50+00:00",
       "VideoPublishedAt": "2025-04-26T06:35:50+05:30"
     },
-    "ETag": "0-wAaQLsGTn5RYBYzFIO7ZSLM-o",
+    "ETag": "_u4weVOFSxfSixnaLYf4Km8a5YI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4wOTA3OTZBNzVEMTUzOTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2224,7 +2484,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mahler: Symphony No.6\n1st movement   00:00\n2nd    18:05\n3rd     30:47\n4th     47:46\nBernard Haitink / Royal Concertgebouw Orchestra\n7/11/1968 Amsterdam Concertgebouw live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u300C\u60B2\u5287\u7684\u300D\n\u30D9\u30EB\u30CA\u30EB\u30C9\u30FB\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n1968\u5E7411\u67087\u65E5\u3000\u30A2\u30E0\u30B9\u30C6\u30EB\u30C0\u30E0\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u63A8\u9032\u529B\u6EA2\u308C\u308B\u82E5\u304D\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u306E\u5FEB\u6F14\u3002\u6700\u521D\u306E\u30B9\u30BF\u30B8\u30AA\u9332\u97F3\u76E4\u306F\u3053\u306E\u30E9\u30A4\u30D6\u306E2\u304B\u6708\u5F8C\u306B\u53CE\u9332\u3055\u308C\u307E\u3057\u305F\u3002",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 43,
+      "Position": 48,
       "PublishedAtRaw": "2025-07-01T00:43:08Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:43:08+00:00",
       "PublishedAt": "2025-07-01T06:13:08+05:30",
@@ -2261,7 +2521,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-01-18T11:56:45+00:00",
       "VideoPublishedAt": "2021-01-18T17:26:45+05:30"
     },
-    "ETag": "mkKsM8pe8EXNAild-yE5LcD7zxw",
+    "ETag": "Ww-cbKjhW2ZkXvd07f6yeeqOzLg",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5ENDU4Q0M4RDExNzM1Mjcy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2269,7 +2529,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The marvellous H\u00E9l\u00E8ne Grimaud with Bernard Haitink and the London Symphony Orchestra at the 2005 Proms at the Royal Albert Hall.\n\n\n1. Allegramente 0:00\n2. Adagio assai 09:11\n3. Presto 18:50\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 44,
+      "Position": 49,
       "PublishedAtRaw": "2025-07-01T00:46:50Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:46:50+00:00",
       "PublishedAt": "2025-07-01T06:16:50+05:30",
@@ -2306,7 +2566,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-05-15T12:26:33+00:00",
       "VideoPublishedAt": "2020-05-15T17:56:33+05:30"
     },
-    "ETag": "WaTS2cmixm9NKRuQ6CCE-bURy3k",
+    "ETag": "nIT7dASpCEoXBXq24PkIbqr3vTs",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC45NzUwQkI1M0UxNThBMkU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2314,7 +2574,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "To commemorate the bombing of Rotterdam exactly 80 years ago and its resurrection, you can watch a historical recording of Mahler\u0027s Second Symphony conducted by Bernhard Haitink. This performance of the \u0027Resurrection Symphony\u0027 took place on 14 May 1990 in the presence of Queen Beatrix and Prince Claus, among others, and representatives of other cities affected by the war, including Coventry, Dresden, Hiroshima, Leningrad and Warsaw. \n\nMahler Symphony No. 2 \u2018Resurrection\u2019\nMovement I: 0:35\nMovement II: 25:50\nMovement III: 38:05\nMovement IV: 48:58\nMovement V: 54:53\n\nOrchestra: Rotterdams Philharmonisch Orkest\nConductor: Bernhard Haitink\nSoprano: Charlotte Margiono\nAlto: Jard van Nes\nChoir: Groot Omroepkoor",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 45,
+      "Position": 50,
       "PublishedAtRaw": "2025-07-01T00:47:30Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:47:30+00:00",
       "PublishedAt": "2025-07-01T06:17:30+05:30",
@@ -2361,7 +2621,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-04-22T19:01:47+00:00",
       "VideoPublishedAt": "2026-04-23T00:31:47+05:30"
     },
-    "ETag": "uXf4iIarqGHJO_GJXssG0iFhEFE",
+    "ETag": "Y-MaGCxX4QXVLKECMfmqpYcF0eU",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5CNTZFOTNGQzZEODg1RUQx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2369,7 +2629,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "0:00:00 Mozart Piano Concerto No. 27\n0:34:18 Shostakovich Symphony No. 4\n\nThese performances were given on  11 December 1996 in the Royal Festival Hall, London. The concert was however not broadcast until 8 January 1997.\n\nAndras Schiff (piano)\n\nLondon Philharmonic Orchestra\nconducted by\nBernard Haitink\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1997-01-08#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 46,
+      "Position": 51,
       "PublishedAtRaw": "2026-04-23T00:56:47Z",
       "PublishedAtDateTimeOffset": "2026-04-23T00:56:47+00:00",
       "PublishedAt": "2026-04-23T06:26:47+05:30",
@@ -2416,7 +2676,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-08-13T16:15:00+00:00",
       "VideoPublishedAt": "2020-08-13T21:45:00+05:30"
     },
-    "ETag": "G2ea-cAT6MjgcxDjesMOTVNof5g",
+    "ETag": "zDjnkbt02tUZYmsefu7AcKN4EsE",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4zRjM0MkVCRTg0MkYyQTM0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2424,7 +2684,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Multi-award-winning conductor Bernard Haitink leads the Royal Concertgebouw Orchestra in the Concertgebouw Amsterdam. They perform Wolfgang Amadeus Mozart\u2019s Haffner Symphony.\n\nWolfgang Amadeus Mozart composed the Symphony No. 35 in D major, K. 385, known as the Haffner Symphony, in 1782. As early as 1776 he had been commissioned to compose a serenade for the wedding of the Salzburg bridal couple Franz Xaver Sp\u00E4th and Maria Elisabeth Haffner, the daughter of Salzburg\u0027s mayor Sigmund Haffner. The Haffner Serenade is Mozart\u0027s most extensive serenade (KV 250) and has eight movements.\n\nSix years later, he was to compose another serenade on the occasion of the award of the title of nobility \u0022Edler von Innbachhausen\u0022 to Sigmund Haffner Junior. Mozart arranged it as a symphony by omitting the movements 2 to 4 or 5 of the serenade composed for Haffner\u0027s wedding, thus creating an independent work.\n\nBernard Haitink began his conducting career with Netherlands Radio: he became chief conductor of the Netherlands Radio Philharmonic in 1957. Later he was principal conductor of the Royal Concertgebouw Orchestra and held this position for 27 years. Today he is patron of the Radio Philharmonic Orchestra and Honorary Conductor of the Concertgebouw Orchestra.\n\nBernard Haitink has also been Music Director of the Glyndebourne Festival and the Royal Opera House, Covent Garden, and Chief Conductor of the London Philharmonic Orchestra, the Staatskapelle Dresden and the Chicago Symphony Orchestra. He is an honorary member of the Berlin Philharmonic, the Chamber Orchestra of Europe and since 2019, the Vienna Philharmonic. He has received numerous prizes and awards, including the Gramophone Lifetime Achievement Award.\n\n00:00 Introduction\n00:49 Allegro con spirito \n09:25 Andante\n15:33 Menuetto\n18:33 Presto\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic\n\n#Mozart #HaffnerSymphony #ConcertgebouwOrchestra #BernardHaitink",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 47,
+      "Position": 52,
       "PublishedAtRaw": "2025-07-01T00:47:15Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:47:15+00:00",
       "PublishedAt": "2025-07-01T06:17:15+05:30",
@@ -2466,7 +2726,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-01-18T02:21:55+00:00",
       "VideoPublishedAt": "2018-01-18T07:51:55+05:30"
     },
-    "ETag": "Im2mFYS7ObhuW0MWXAbnOmz19e8",
+    "ETag": "zwmBKgbygCrNhKEkRdG6eruCbQk",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5DMkU4NTY1QUFGQTYwMDE3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2474,7 +2734,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "M. MUSSORGSKY (1839-1881) / Orch. M. Ravel\nBilder einer Ausstellung\n\nSeite 1: Promenade Der Gnom Promenade\u00B7 Das alte Schloss\nPromenade . Die Tuillerien (Spielende Kinder im Streit) Bydlo\nPromenade . Ballett der K\u00FCchlein in ihren Eierschalen\n\nSeite 2; Samuel Goldenberg und Schmuyle Der Marktplatz von\nLimoges Die Katakomben (Sepulchrum romanum) Cum mortuis in\nlingua mortua Die H\u00FCtte der Baba Yaga Das Tor der alten Festung Kiew\n\nDas Concertgebouw-Orchester, Amsterdam Ltg. BERNARD HAITINK",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 48,
+      "Position": 53,
       "PublishedAtRaw": "2025-07-01T00:48:29Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:48:29+00:00",
       "PublishedAt": "2025-07-01T06:18:29+05:30",
@@ -2511,7 +2771,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-10-26T07:17:08+00:00",
       "VideoPublishedAt": "2023-10-26T12:47:08+05:30"
     },
-    "ETag": "y2AZZcmLxWHal_QEbLENQjH64EY",
+    "ETag": "BWT3t2ccxG6LjtVbnN1I_XUfnVw",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5DQUNERDQ2NkIzRUQxNTY1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2519,7 +2779,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "R.Strauss : Thus Spoke Zarathustra\n\nB.Haitink / Royal Concertgebouw Orchestra\nViolin solo) Herman Krebbers\n18/5/1980 Prague Spring festival live.\n\u30EA\u30D2\u30E3\u30EB\u30C8\u30FB\u30B7\u30E5\u30C8\u30E9\u30A6\u30B9\uFF1A\u300C\u30C4\u30A1\u30E9\u30C8\u30A5\u30B9\u30C8\u30E9\u306F\u304B\u304F\u8A9E\u308A\u304D\u300D\n\u30D9\u30EB\u30CA\u30EB\u30C9\u30FB\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u30FB\u30BD\u30ED\uFF09\u30D8\u30EB\u30DE\u30F3\u30FB\u30AF\u30EC\u30C3\u30D0\u30FC\u30B9\n1980\u5E745\u670818\u65E5\u3000\u30D7\u30E9\u30CF\u306E\u6625\u97F3\u697D\u796D\u3001\u30B9\u30E1\u30BF\u30CA\u30DB\u30FC\u30EB\u30E9\u30A4\u30D6",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 49,
+      "Position": 54,
       "PublishedAtRaw": "2025-07-01T00:44:04Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:44:04+00:00",
       "PublishedAt": "2025-07-01T06:14:04+05:30",
@@ -2556,7 +2816,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-23T13:53:59+00:00",
       "VideoPublishedAt": "2021-10-23T19:23:59+05:30"
     },
-    "ETag": "w2SP9WEJNSy3ODQBlwXcm1jw93o",
+    "ETag": "EnlTcChc3H9dPvjBmNKNiCWNpeU",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC41MzY4MzcwOUFFRUU3QzEx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2564,7 +2824,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "\u0022Musique pour l\u0027esprit en deuil\u0022 by Rudolf Escher\nRoyal Concertgebouw Orchestra\nBernard Haitink, Conductor\n25.II.2005",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 50,
+      "Position": 55,
       "PublishedAtRaw": "2025-08-08T15:58:48Z",
       "PublishedAtDateTimeOffset": "2025-08-08T15:58:48+00:00",
       "PublishedAt": "2025-08-08T21:28:48+05:30",
@@ -2611,7 +2871,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-12-12T12:01:09+00:00",
       "VideoPublishedAt": "2025-12-12T17:31:09+05:30"
     },
-    "ETag": "4XVFtSJyezG_YN3yarll1qwF5A4",
+    "ETag": "wgjczq_JbR8cOkT5Dnwv17HOauI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5CQkEwRDA0MDkwNUM2MDY1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2619,7 +2879,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "schumann  manfred overture, op.115\n\n( live recording.  may 2, 2015  symphony hall, boston(?) )\n\n\n\n*. source : uphill road in cleveland cd-r (modified)\n*. b. haitink              boston symphony orchestra(?)",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 51,
+      "Position": 56,
       "PublishedAtRaw": "2025-12-12T19:04:55Z",
       "PublishedAtDateTimeOffset": "2025-12-12T19:04:55+00:00",
       "PublishedAt": "2025-12-13T00:34:55+05:30",
@@ -2666,7 +2926,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-07-24T20:00:06+00:00",
       "VideoPublishedAt": "2020-07-25T01:30:06+05:30"
     },
-    "ETag": "IX9UZba6ujIddQnzL65YMm_s2kA",
+    "ETag": "RMRnuxW5S_K4iAL8aXOsyuTHhtI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC40QzRDOEU0QUYwNUIxN0M1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2674,7 +2934,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Shostakovich   Symphony No.8 in c minor, Op.65\n\nI.   Adagio - Allegro non troppo\nII.  Allegretto\nIII. Allegro non troppo\nIV. Largo\nV.  Allegretto\n\n( Live recording.  Jan 13, 2000 berlin )\n\n*. b. haitink      berlin philharmonic",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 52,
+      "Position": 57,
       "PublishedAtRaw": "2025-08-08T15:59:48Z",
       "PublishedAtDateTimeOffset": "2025-08-08T15:59:48+00:00",
       "PublishedAt": "2025-08-08T21:29:48+05:30",
@@ -2716,7 +2976,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-01-18T14:48:51+00:00",
       "VideoPublishedAt": "2021-01-18T20:18:51+05:30"
     },
-    "ETag": "2alE6CL3xYF6ksaZ2SZBSHNfLWY",
+    "ETag": "vzbKeEeTu7u_Se-R8nmCiSQXcWI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC45RTgxNDRBMzUwRjQ0MDhC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2724,7 +2984,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitri Shostakovich. Symphony no. 10 in E minor, op. 93.\nRoyal Concertgebouw Orchestra; Bernard Haitink, conductor.\nRecorded live in the Concertgebouw, Amsterdam, 8 December 1985.\n\nI. Moderato (0:00)\nII. Allegro (25:13)\nIII. Allegretto (29:50)\nIV. Andante - Allegro (41:56)",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 53,
+      "Position": 58,
       "PublishedAtRaw": "2025-07-01T00:46:44Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:46:44+00:00",
       "PublishedAt": "2025-07-01T06:16:44+05:30",
@@ -2771,7 +3031,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-26T01:44:34+00:00",
       "VideoPublishedAt": "2025-04-26T07:14:34+05:30"
     },
-    "ETag": "fZUaynPrfV6eZ6Cbwl715V1PZ20",
+    "ETag": "x3gl5ztnPujSszEEuKW0nBnT7HU",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4wMTcyMDhGQUE4NTIzM0Y5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2779,7 +3039,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Shostakovich: Symphony No.10\n1st movement   00:00\n2nd   25:13\n3rd   29:50\n4th   41:56\nBernard Haitink / Royal Concertgebouw Orchestra\n8/12/1985 Amsterdam Concertgebouw live recording\n\u30B7\u30E7\u30B9\u30BF\u30B3\u30FC\u30F4\u30A3\u30C1\uFF1A\u4EA4\u97FF\u66F2\u7B2C10\u756A\n\u30D9\u30EB\u30CA\u30EB\u30C9\u30FB\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n1985\u5E7412\u67088\u65E5\u3000\u30A2\u30E0\u30B9\u30C6\u30EB\u30C0\u30E0\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u5F97\u610F\u306E\u4F5C\u54C1\u3067\u3059\u304C\u3001\u6B63\u898F\u76E4\u306F\u30ED\u30F3\u30C9\u30F3\u30FB\u30D5\u30A3\u30EB\u3068\u306E2\u7A2E\u985E\u306E\u305F\u3081\u3001RCO\u3068\u306E\u30E9\u30A4\u30D6\u306F\u8CB4\u91CD\u3067\u3059\u3002",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 54,
+      "Position": 59,
       "PublishedAtRaw": "2025-07-01T00:42:54Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:42:54+00:00",
       "PublishedAt": "2025-07-01T06:12:54+05:30",
@@ -2816,7 +3076,7 @@
       "VideoPublishedAtDateTimeOffset": "2013-08-31T14:57:08+00:00",
       "VideoPublishedAt": "2013-08-31T20:27:08+05:30"
     },
-    "ETag": "PO4747I7gBh24dkjAGXdl4jUbyg",
+    "ETag": "L5V0t2Nz55Tm9klIePL6ZIg3pMk",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC42MTI4Njc2QjM1RjU1MjlG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2824,7 +3084,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitri Shostakovich: Symphony No.8 in C minor, Op.65\n\nI. Adagio - Allegro non troppo (00:00)\nII. Allegretto (26:15)\nIII. Allegro non troppo - (33:02)\nIV. Largo - (40:01)\nV. Allegretto (49:09)\n\nSymphonieorchester des Bayerischen Rundfunks\nBernard Haitink, conductor\n\nSeptember 23, 2006\nPhilharmonie im Gasteig, M\u00FCnchen",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 55,
+      "Position": 60,
       "PublishedAtRaw": "2025-07-01T00:49:49Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:49:49+00:00",
       "PublishedAt": "2025-07-01T06:19:49+05:30",
@@ -2866,7 +3126,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-11-13T11:24:45+00:00",
       "VideoPublishedAt": "2025-11-13T16:54:45+05:30"
     },
-    "ETag": "ljbPfbMXgKxEOf9IRE4RTuDIGS8",
+    "ETag": "KF70xWE21ikAbN42BPIQUX5SRO8",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4zMEQ1MEIyRTFGNzhDQzFB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2874,7 +3134,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "0:00:00 Strauss Death and Transfiguration\n0:23:59 Strauss Four Last Songs\n0:45:07 Stravinsky The Rite of Spring\n\nThese performances were given as part of the 1995 season of BBC Promenade Concerts at the Royal Albert Hall, London on 5 August 1995. I\u0027m afraid the audience is a little noisy at the very start of Death and Transfiguration but quickly quieten down.\n\nCharlotte Margiono (soprano)\n\nEuropean Union Youth Orchestra\nconducted by\nBernard Haitink\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ejgxj5\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 56,
+      "Position": 61,
       "PublishedAtRaw": "2025-11-14T02:58:17Z",
       "PublishedAtDateTimeOffset": "2025-11-14T02:58:17+00:00",
       "PublishedAt": "2025-11-14T08:28:17+05:30",
@@ -2921,7 +3181,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-02-22T05:00:46+00:00",
       "VideoPublishedAt": "2026-02-22T10:30:46+05:30"
     },
-    "ETag": "f3lLaoSKhQFKPYnWjjqVRrtN-rk",
+    "ETag": "s8AEeJzOxIUFuBqFnDk5BizcqXg",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4wMTYxQzVBRDI1NEVDQUZE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2929,7 +3189,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "stravinsky  le sacre du printemps\n\n( enregistrement en direct.  01/05/1993  royal albert hall, london )\n\n\n\n\n*. b. haitink                orchestre philharmonique de berlin",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 57,
+      "Position": 62,
       "PublishedAtRaw": "2026-02-28T00:56:19Z",
       "PublishedAtDateTimeOffset": "2026-02-28T00:56:19+00:00",
       "PublishedAt": "2026-02-28T06:26:19+05:30",
@@ -2976,7 +3236,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-10-13T00:15:02+00:00",
       "VideoPublishedAt": "2023-10-13T05:45:02+05:30"
     },
-    "ETag": "lucxbfHu8fZCp7WkhszYaFOYP4s",
+    "ETag": "IQnpyQrTS573Tr-rHwd17ausMBg",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC45NDk1REZENzhEMzU5MDQz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2984,7 +3244,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Stravinsky : The Rite of Spring \nPart 1\nPart 2\nBernard Haitink / Berlin Philharmoniker\n21/2/1995 live ( not CD recording )\n\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF1A\u30D0\u30EC\u30A8\u97F3\u697D\u300C\u6625\u306E\u796D\u5178\u300D\n\u30D9\u30EB\u30CA\u30EB\u30C9\u30FB\u30CF\u30A4\u30C6\u30A3\u30F3\u30AF\u6307\u63EE\u3000\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\n1995\u5E742\u670821\u65E5\u3000\u30E9\u30A4\u30D6\u9332\u97F3\uFF08\u6B63\u898F\u30BB\u30C3\u30B7\u30E7\u30F3\u9332\u97F3\u3068\u540C\u6642\u671F\u306E\u516C\u6F14\u30E9\u30A4\u30D6\u3067\u3059\uFF09",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 58,
+      "Position": 63,
       "PublishedAtRaw": "2025-07-01T00:44:10Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:44:10+00:00",
       "PublishedAt": "2025-07-01T06:14:10+05:30",
@@ -3021,7 +3281,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-05-24T12:01:29+00:00",
       "VideoPublishedAt": "2025-05-24T17:31:29+05:30"
     },
-    "ETag": "1Au_7axtDS1p14o8F7YTZrvBL0g",
+    "ETag": "B-xAYuXBvEi5_t-Kv_NRMA0LXpw",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5GNjAwN0Y0QTFGOTVDMEMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3029,7 +3289,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "tchaikovsky  fantasy overture \u0022romeo \u0026 juliet\u0022\n\n( live recording.  5/1/1993  )\n\n\n\n*. source : fkm cd-r (modified)\n*. b. haitink      berlin philharmonic",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 59,
+      "Position": 64,
       "PublishedAtRaw": "2025-11-29T08:39:17Z",
       "PublishedAtDateTimeOffset": "2025-11-29T08:39:17+00:00",
       "PublishedAt": "2025-11-29T14:09:17+05:30",
@@ -3076,7 +3336,7 @@
       "VideoPublishedAtDateTimeOffset": "2013-08-08T16:15:32+00:00",
       "VideoPublishedAt": "2013-08-08T21:45:32+05:30"
     },
-    "ETag": "AW0iMM1k4zJ_eHZwjZ4yXwk51gA",
+    "ETag": "rtTKnJmuFBaV5gW1GaNQpRl5tbI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC44QzVGQUU2QjE2NDgxM0M4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3084,7 +3344,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Carl Maria von Weber: \u0022Oberon\u0022 Overture\n\nStaatskapelle Dresden\nBernard Haitink, conductor\n\nOctober 28, 2004\nSemperoper, Dresden",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 60,
+      "Position": 65,
       "PublishedAtRaw": "2025-08-08T16:02:27Z",
       "PublishedAtDateTimeOffset": "2025-08-08T16:02:27+00:00",
       "PublishedAt": "2025-08-08T21:32:27+05:30",
@@ -3126,7 +3386,7 @@
       "VideoPublishedAtDateTimeOffset": "2014-11-29T14:14:21+00:00",
       "VideoPublishedAt": "2014-11-29T19:44:21+05:30"
     },
-    "ETag": "PUInIWscbT0lZNHCq09Cpc_dQrY",
+    "ETag": "Bt95ou6oTcShHOd6BGdrzrwkzjI",
     "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4zRDBDOEZDOUM0MDY5NEEz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3134,7 +3394,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Egon Wellesz\n\nProsperos Beschw\u00F6rungen op.53\n\nI. Prosperos Beschw\u00F6rung 0:00\nII. Ariel und der Sturm 5:13\nIII. Ariels Gesang 10:30\nIV. Caliban 16:15\nV. Ferdinand und Miranda 21:44\n\nWiener Philharmoniker\nBernard Haitink\nLive recording, Vienna, 24.II.1985",
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 61,
+      "Position": 66,
       "PublishedAtRaw": "2025-07-01T00:49:29Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:49:29+00:00",
       "PublishedAt": "2025-07-01T06:19:29+05:30",
@@ -3172,221 +3432,6 @@
       "Title": "Wellesz - Prosperos Beschw\u00F6rungen - Vienna / Haitink",
       "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
       "VideoOwnerChannelTitle": "incontrario motu"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "xvmHa5B1wf0",
-      "VideoPublishedAtRaw": "2026-06-03T07:19:17Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-03T07:19:17+00:00",
-      "VideoPublishedAt": "2026-06-03T12:49:17+05:30"
-    },
-    "ETag": "hLU3LNHSe0-XCWdjdHKFm_tbaqU",
-    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5CNTcxMDQ0NThBNzMxODYz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Royal Concertgebouw Orchestra\ncond. by Bernard Haitink (1929 - 2021)\nrecorded 16 December 2001, Live in Concertgebouw \nI - Allegro non troppo - 0:00\nII - Andante moderato - 12:45\nIII - Allegro giocoso - 24:13\nIV - Allegro energico e passionato - 30:08",
-      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 62,
-      "PublishedAtRaw": "2026-06-03T22:58:53Z",
-      "PublishedAtDateTimeOffset": "2026-06-03T22:58:53+00:00",
-      "PublishedAt": "2026-06-04T04:28:53+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "xvmHa5B1wf0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/xvmHa5B1wf0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Bernard Haitink / RCO - Brahms : Symphony No.4 Op.98 (2001 - Live)",
-      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-      "VideoOwnerChannelTitle": "uchukyoku1"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "JTtg1cWymWY",
-      "VideoPublishedAtRaw": "2026-06-05T11:47:19Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-05T11:47:19+00:00",
-      "VideoPublishedAt": "2026-06-05T17:17:19+05:30"
-    },
-    "ETag": "Fl880D61efe4xZjrX_1r5zgpzJA",
-    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC5ERkUyQTM0MzEwQjZCMTY5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "0:00:00 Britten Les Illuminations\n0:25:51 Shostakovich Symphony No. 4\n\nThese performances were given on  26 November 1996 in the Concertgebouw, Amsterdam.\n\nSusan Chilcott (soprano)\n\nRotterdam Philharmonic Orchestra\nconducted by\nBernard Haitink\n\nFor more details see:\nhttps://www.npoklassiek.nl/concerten/4f813cb6-389d-4382-a970-9d6e02673748/rotterdams-philharmonisch-orkest-o-l-v-bernard-\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 63,
-      "PublishedAtRaw": "2026-06-09T21:56:31Z",
-      "PublishedAtDateTimeOffset": "2026-06-09T21:56:31+00:00",
-      "PublishedAt": "2026-06-10T03:26:31+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "JTtg1cWymWY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/JTtg1cWymWY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Britten, Shostakovich - Susan Chilcott - Rotterdam Philharmonic - Bernard Haitink (Amsterdam, 1996)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "YPsg2DTTAN8",
-      "VideoPublishedAtRaw": "2026-05-18T05:19:40Z",
-      "VideoPublishedAtDateTimeOffset": "2026-05-18T05:19:40+00:00",
-      "VideoPublishedAt": "2026-05-18T10:49:40+05:30"
-    },
-    "ETag": "2fD23hdA7AK4gbqE2yxDhqgbeyQ",
-    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC4xM0YyM0RDNDE4REQ1NDA0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Berlin Philharmonic Orch.\ncond. by Bernard Haitink (1929 - 2021)\nrecorded 25 January 2007, live recording in Berlin\nI. Allegro non troppo  00:00 \u2219\nII. Adagio non troppo  15:45 \u2219\nIII. Allegretto grazioso (Quasi Andantino) \u2013 Presto ma non assai \u2013 \n     Tempo primo \u2013 Presto ma non assai \u2013 Tempo primo  25:09 \u2219\nIV. Allegro con spirito  30:18",
-      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 64,
-      "PublishedAtRaw": "2026-06-09T22:07:13Z",
-      "PublishedAtDateTimeOffset": "2026-06-09T22:07:13+00:00",
-      "PublishedAt": "2026-06-10T03:37:13+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "YPsg2DTTAN8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/YPsg2DTTAN8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Haitink / BPO - Brahms : Symphony No.2 in D Op.73 (2007 - Live)",
-      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-      "VideoOwnerChannelTitle": "uchukyoku1"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "b2GmlYYWvD8",
-      "VideoPublishedAtRaw": "2026-06-12T15:52:13Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-12T15:52:13+00:00",
-      "VideoPublishedAt": "2026-06-12T21:22:13+05:30"
-    },
-    "ETag": "RAYzScP8Y7cuxv42y-yk3n_7fR4",
-    "Id": "UEwxemdOQ29XdF83WXMtNzVlQU9pWmRrMkhuR3dEWmFvdC42MjYzMTMyQjA0QURCN0JF",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "0:00:00 Beethoven Piano Concerto No. 4\n0:37:07 Radio Commentary\n0:40:13 Bruckner Symphony No. 7\n\nThese performances weres given during the 1997 BBC Proms Season on  9 September 1997 in the Royal Albert Hall, London.\n\nEmanuel Ax (piano)\n\nEuropean Union Youth Orchestra\nconducted by\nBernard Haitink\n\nFor more details see:\nhttps://www.bbc.co.uk/events/e22zc8\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
-      "Position": 65,
-      "PublishedAtRaw": "2026-06-14T06:17:27Z",
-      "PublishedAtDateTimeOffset": "2026-06-14T06:17:27+00:00",
-      "PublishedAt": "2026-06-14T11:47:27+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "b2GmlYYWvD8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/b2GmlYYWvD8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Beethoven, Bruckner - Emanuel Ax, European Union Youth Orchestra - Bernard Haitink (RAH, 1997)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
     }
   }
 ]

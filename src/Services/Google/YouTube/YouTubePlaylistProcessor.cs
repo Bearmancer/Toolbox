@@ -12,6 +12,14 @@ public class YouTubePlaylistProcessor(
     YouTubeTranslationService translationService
 )
 {
+    private static readonly string StateRoot = Path.Combine(
+        PathResolver.RepoRoot,
+        "state",
+        "youtube"
+    );
+    private static readonly string RawDir = Path.Combine(StateRoot, "raw");
+    private static readonly string ProcessedDir = Path.Combine(StateRoot, "processed");
+
     public readonly record struct ProcessResult(int Videos, int Skipped, int AzureChars);
     private readonly record struct MergeResult(List<YouTubeVideo> Videos, int Skipped);
     private record PlaylistProcessContext(PlaylistSnapshot Snapshot, string SanitizedTitle, string RawPath, string ProcessedPath);
@@ -25,8 +33,8 @@ public class YouTubePlaylistProcessor(
         var ctx = new PlaylistProcessContext(
             snapshot,
             Text.SanitizeFileName(snapshot.Title),
-            Path.Combine(YouTubePaths.RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
-            Path.Combine(YouTubePaths.ProcessedDir, $"{Text.SanitizeFileName(snapshot.Title)}.json")
+            Path.Combine(RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
+            Path.Combine(ProcessedDir, $"{Text.SanitizeFileName(snapshot.Title)}.json")
         );
 
         Telemetry.Debug("Processing playlist: {Title} ({Id})", snapshot.Title, snapshot.PlaylistId);
@@ -64,8 +72,8 @@ public class YouTubePlaylistProcessor(
         var ctx = new PlaylistProcessContext(
             snapshot,
             Text.SanitizeFileName(snapshot.Title),
-            Path.Combine(YouTubePaths.RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
-            Path.Combine(YouTubePaths.ProcessedDir, $"{Text.SanitizeFileName(snapshot.Title)}.json")
+            Path.Combine(RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
+            Path.Combine(ProcessedDir, $"{Text.SanitizeFileName(snapshot.Title)}.json")
         );
 
         Telemetry.Info("Refreshing local state for {Title} to reflect sorted order...", snapshot.Title);

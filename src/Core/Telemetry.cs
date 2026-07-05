@@ -19,6 +19,7 @@ public static class Telemetry
 
         var config = new LoggerConfiguration()
             .MinimumLevel.ControlledBy(LevelSwitch)
+            .Enrich.FromLogContext()
             .WriteTo.Spectre("{Timestamp:HH:mm:ss} {Level:u4} {Message:lj}{NewLine}{Exception}");
 
         foreach (var service in Enum.GetValues<ServiceName>())
@@ -42,7 +43,9 @@ public static class Telemetry
     {
         config.WriteTo.Logger(lc =>
             lc.Filter.ByIncludingOnly(e =>
-                    e.Properties["Service"].ToString().IsEqualTo(service.ToString())
+                    e.Properties.ContainsKey("Service") &&
+                    e.Properties["Service"] is Serilog.Events.ScalarValue sv2 &&
+                    string.Equals(sv2.Value?.ToString(), service.ToString(), StringComparison.Ordinal)
                 )
                 .WriteTo.File(
                     new CompactJsonFormatter(),

@@ -16,7 +16,7 @@ Google/
     ├── YouTubeTranslationService.cs   # Translates titles via Azure TranslateService
     ├── YouTubeChangeDetector.cs       # Diff stored vs. current state
     ├── YouTubeFetchState.cs           # Manifest persistence (JSON)
-    └── YouTubePaths.cs                # StateRoot, RawDir, ProcessedDir, DeletedDir
+    ── YouTubeSyncProcessor.cs        # Batch processing, sorting, archiving
 ```
 
 ## WHERE TO LOOK

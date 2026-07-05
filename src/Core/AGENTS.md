@@ -9,7 +9,7 @@ Core/
 ├── Telemetry.cs     # Serilog config, per-service JSONL, Seq sink, ForService() scope
 ├── Errors.cs        # ErrorOr taxonomy: General, Validation, YouTube, Azure, LastFm, etc.
 ├── PathResolver.cs  # RepoRoot detection, input path resolution, file size checks
-├── ServiceName.cs   # Enum: LastFm, Google, OpenAI, Vision, Translate, TextAnalytics, Speech, DocIntel
+├── ServiceName.cs   # Enum: LastFm, YouTube, OpenAI, Vision, Translate, TextAnalytics, Speech, DocIntel
 └── Text.cs          # String sanitization for file names
 ```
 

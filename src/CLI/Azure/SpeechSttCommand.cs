@@ -10,7 +10,7 @@ namespace CLI.Azure;
         + "Supports WAV (PCM 16-bit mono 16kHz recommended) and other common formats. "
         + "Returns plain transcript text."
 )]
-public class SpeechSttCommand(SpeechSttService service) : AsyncCommand<SpeechSttCommand.Settings>
+public class SpeechSttCommand(SpeechService service) : AsyncCommand<SpeechSttCommand.Settings>
 {
     protected override async Task<int> ExecuteAsync(
         CommandContext ctx,

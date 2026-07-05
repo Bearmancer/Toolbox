@@ -11,7 +11,7 @@ public class YouTubePlaylistService(YouTubeService yt)
         string parts = "snippet"
     )
     {
-        using var _ = Telemetry.ForService(ServiceName.Google);
+        using var _ = Telemetry.ForService(ServiceName.YouTube);
         using var activity = Telemetry.StartActivity(messageTemplate: "YouTube.GetPlaylists");
 
         var request = yt.Playlists.List(part: parts);
@@ -42,7 +42,7 @@ public class YouTubePlaylistService(YouTubeService yt)
         string parts = "snippet"
     )
     {
-        using var _ = Telemetry.ForService(ServiceName.Google);
+        using var _ = Telemetry.ForService(ServiceName.YouTube);
         using var activity = Telemetry.StartActivity(messageTemplate: "YouTube.GetPlaylistItems");
 
         var request = yt.PlaylistItems.List(part: parts);
@@ -84,7 +84,7 @@ public class YouTubePlaylistService(YouTubeService yt)
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService(ServiceName.Google);
+        using var _ = Telemetry.ForService(ServiceName.YouTube);
         using var activity = Telemetry.StartActivity(
             messageTemplate: "YouTube.GetPlaylistItemPagesRaw"
         );
@@ -119,7 +119,7 @@ public class YouTubePlaylistService(YouTubeService yt)
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService(ServiceName.Google);
+        using var _ = Telemetry.ForService(ServiceName.YouTube);
         using var activity = Telemetry.StartActivity(
             messageTemplate: "YouTube.GetPlaylistSummaries"
         );
@@ -164,7 +164,7 @@ public class YouTubePlaylistService(YouTubeService yt)
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService(ServiceName.Google);
+        using var _ = Telemetry.ForService(ServiceName.YouTube);
         using var activity = Telemetry.StartActivity(messageTemplate: "YouTube.GetPlaylistSummary");
 
         var request = yt.Playlists.List(part: "snippet,contentDetails");

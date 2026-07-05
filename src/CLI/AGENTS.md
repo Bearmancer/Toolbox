@@ -14,7 +14,16 @@ CLI/
 │   ├── VisionCommand.cs
 │   ├── SpeechSttCommand.cs
 │   ├── NerCommand.cs
-│   └── PhrasesCommand.cs
+│   ── PhrasesCommand.cs
+├── Dashboard/
+│   ├── DashboardCommandModule.cs  # "dashboard" branch: generate
+│   ├── DashboardGenerateCommand.cs
+│   ├── DashboardHtmlGenerator.cs
+│   └── DashboardDataBuilder.cs
+└── Sync/
+    ├── SyncCommandModule.cs  # "sync" branch: youtube, lastfm
+    └── YouTube/
+        └── SyncYoutubeCommand.cs
 └── Sync/
     ├── SyncCommandModule.cs  # "sync" branch: youtube, lastfm
     └── YouTube/

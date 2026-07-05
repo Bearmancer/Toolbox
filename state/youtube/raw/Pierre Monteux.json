@@ -1,2062 +1,2112 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "aAgYOH67PFE",
-			"VideoPublishedAtRaw": "2012-12-10T16:08:30Z",
-			"VideoPublishedAtDateTimeOffset": "2012-12-10T16:08:30+00:00",
-			"VideoPublishedAt": "2012-12-10T21:38:30+05:30"
-		},
-		"ETag": "3jNq7x-NBuq_CCfILhIAC7iDctk",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41QTY1Q0UxMTVCODczNThE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Pierre Monteux \u0026 his San Franciscans playing Liszt\u0027s Hungarian Rhapsody #2 in 1949 make a most delightful Goulash as the musical connoisseur\u0027s food of life.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 0,
-			"PublishedAtRaw": "2025-05-26T03:18:49Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:18:49+00:00",
-			"PublishedAt": "2025-05-26T08:48:49+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "aAgYOH67PFE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/aAgYOH67PFE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/aAgYOH67PFE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/aAgYOH67PFE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/aAgYOH67PFE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "1) LISZTOMANIA - PIERRE MONTEUX \u0026 HUNGARIAN RHAPSODY #2 (Live)",
-			"VideoOwnerChannelId": "UCpwNcYYFoKtKYr8yJxNz3eg",
-			"VideoOwnerChannelTitle": "bigbenjamin37"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Z7t8HxXYp34",
-			"VideoPublishedAtRaw": "2012-12-11T13:55:11Z",
-			"VideoPublishedAtDateTimeOffset": "2012-12-11T13:55:11+00:00",
-			"VideoPublishedAt": "2012-12-11T19:25:11+05:30"
-		},
-		"ETag": "hCQIymVPCbIaLQN6DG42DU1_4Cc",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Some listeners prefer this live version of \u0027Les Preludes\u0027 to Monteux\u0027s Boston Symphony studio recording including this one \u0026 mainly for it\u0027s more expressive playing \u0026 freshness of purpose.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 1,
-			"PublishedAtRaw": "2025-05-26T03:19:09Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:19:09+00:00",
-			"PublishedAt": "2025-05-26T08:49:09+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Z7t8HxXYp34"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "2) LISZTOMANIA - PIERRE MONTEUX \u0026 \u0027LES PRELUDES\u0027 (Live)",
-			"VideoOwnerChannelId": "UCpwNcYYFoKtKYr8yJxNz3eg",
-			"VideoOwnerChannelTitle": "bigbenjamin37"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "PXdhcW-c6_Y",
-			"VideoPublishedAtRaw": "2020-01-17T19:17:48Z",
-			"VideoPublishedAtDateTimeOffset": "2020-01-17T19:17:48+00:00",
-			"VideoPublishedAt": "2020-01-18T00:47:48+05:30"
-		},
-		"ETag": "yNCCB8CCySgZVysYe0am3O28fw4",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4xOTEzQzhBQzU3MDNDNjcz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Ludwig van Beethoven\n\nSymphony n\u00B02 op.36\n\nI. Adagio molto - Allegro con brio 0:00\nII. Larghetto 9:46\nIII. Scherzo. Allegro 20:18\nIV. Allegro molto 24:00\n\nOrchestre National de la Radiodiffusion Fran\u00E7aise\nPierre Monteux\nLive recording, Paris, 3.V.1956",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 2,
-			"PublishedAtRaw": "2025-10-13T01:59:39Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:59:39+00:00",
-			"PublishedAt": "2025-10-13T07:29:39+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "PXdhcW-c6_Y"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven - Symphony n\u00B02 - ONRF / Monteux",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "jMj-EVi5T-k",
-			"VideoPublishedAtRaw": "2021-08-01T08:23:29Z",
-			"VideoPublishedAtDateTimeOffset": "2021-08-01T08:23:29+00:00",
-			"VideoPublishedAt": "2021-08-01T13:53:29+05:30"
-		},
-		"ETag": "HReVntmsBvKtsCyfbgfDm6y_skY",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4zRDBDOEZDOUM0MDY5NEEz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Pierre Monteux (Conductor) The Chicago Symphony  (Ensemble)1961",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 3,
-			"PublishedAtRaw": "2025-10-13T01:56:02Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:56:02+00:00",
-			"PublishedAt": "2025-10-13T07:26:02+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "jMj-EVi5T-k"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven Symphony No.8 in F Major Op 93 - Pierre Monteux (B/W)1961",
-			"VideoOwnerChannelId": "UCSIa1LhYJAlZiF9uOo3_RdQ",
-			"VideoOwnerChannelTitle": "KiatMac Pattaya"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "S8DvoLtSQ9o",
-			"VideoPublishedAtRaw": "2021-02-02T12:37:12Z",
-			"VideoPublishedAtDateTimeOffset": "2021-02-02T12:37:12+00:00",
-			"VideoPublishedAt": "2021-02-02T18:07:12+05:30"
-		},
-		"ETag": "nIHqzs_YYgbxx0GKqQcKuABXUm0",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC40QTA3NTU2RkM1QzlCMzYx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "SPECIAL - Monteux conucts his favourite symphony, Beethoven\u0027 \u0022Dance Symphony\u0022.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 4,
-			"PublishedAtRaw": "2025-10-13T01:56:58Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:56:58+00:00",
-			"PublishedAt": "2025-10-13T07:26:58+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "S8DvoLtSQ9o"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/S8DvoLtSQ9o/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/S8DvoLtSQ9o/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/S8DvoLtSQ9o/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Beethovens 7th Symphony by Monteux \u0026 NBC SO New York mlp",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "DMPUUqnKblg",
-			"VideoPublishedAtRaw": "2021-02-16T14:43:21Z",
-			"VideoPublishedAtDateTimeOffset": "2021-02-16T14:43:21+00:00",
-			"VideoPublishedAt": "2021-02-16T20:13:21+05:30"
-		},
-		"ETag": "lDTlUEHqP3XhhKGNVrWdIF5yQsA",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC42MTI4Njc2QjM1RjU1MjlG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Orchestre Symphonique N.D.R., Hambourg\nSymphonie Fantastique, Op. 14 \n0:00 : R\u00EAveries, Passions \n14:01 : Un Bal \n19:55 : Sc\u00E8ne Aux Champs \n35:19 : Marche Au Supplice \n40:22 : Songe D\u0027une Nuit De Sabbat",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 5,
-			"PublishedAtRaw": "2025-10-13T01:56:44Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:56:44+00:00",
-			"PublishedAt": "2025-10-13T07:26:44+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "DMPUUqnKblg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/DMPUUqnKblg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/DMPUUqnKblg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/DMPUUqnKblg/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/DMPUUqnKblg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/DMPUUqnKblg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Berlioz - Pierre Monteux (1964) Symphonie fantastique",
-			"VideoOwnerChannelId": "UC2zlRzqMd3I9xd3g4nOVx6Q",
-			"VideoOwnerChannelTitle": "On The Top of Damavand for ever"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "hy2SVV3O64M",
-			"VideoPublishedAtRaw": "2021-02-06T11:19:01Z",
-			"VideoPublishedAtDateTimeOffset": "2021-02-06T11:19:01+00:00",
-			"VideoPublishedAt": "2021-02-06T16:49:01+05:30"
-		},
-		"ETag": "jBWPX7QZll0TOiLA7X181pjGm-U",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "SPECIAL - Here, Monteux\u0027 Concertgebouw players are away from home in Vienna entertaining a most enthusiastic audience of Austrian Berlozians.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 6,
-			"PublishedAtRaw": "2025-05-26T03:15:48Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:15:48+00:00",
-			"PublishedAt": "2025-05-26T08:45:48+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "hy2SVV3O64M"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/hy2SVV3O64M/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/hy2SVV3O64M/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/hy2SVV3O64M/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Berlioz Symphonie Fantastique Monteux Concertgebouw Orch mcd",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "gci8RDfK6YA",
-			"VideoPublishedAtRaw": "2025-12-27T13:33:05Z",
-			"VideoPublishedAtDateTimeOffset": "2025-12-27T13:33:05+00:00",
-			"VideoPublishedAt": "2025-12-27T19:03:05+05:30"
-		},
-		"ETag": "4Bee4zKlY9m1fl-SV9Va6U1NFVE",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5GNDg1Njc1QzZERjlFRjE5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Berlioz: Symphony fantastic\n1st movement   00:00\n2nd   13:40\n3rd    19:38\n4th    35:37\n5th    40:25\nPierre Monteux / Vienna Philharmonic orchestra\n10/1958 Vienna, Sofiens\u00E4le Decca recording (HQ audio)\n\u30D9\u30EB\u30EA\u30AA\u30FC\u30BA\uFF1A\u5E7B\u60F3\u4EA4\u97FF\u66F2\n\u30D4\u30A8\u30FC\u30EB\u30FB\u30E2\u30F3\u30C8\u30A5\u30FC\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1958\u5E7410\u6708\u3000\u30A6\u30A3\u30FC\u30F3\u3001\u30BE\u30D5\u30A3\u30A8\u30F3\u30B6\u30FC\u30EB\u3000\u30C7\u30C3\u30AB\u9332\u97F3\uFF08\u9AD8\u97F3\u8CEA\u76E4\uFF09\n\u203B\u30E2\u30F3\u30C8\u30A5\u30FC83\u6B73\u6642\u3001\u30B9\u30C6\u30EC\u30AA\u521D\u671F\u306E\u30C7\u30C3\u30AB\u540D\u76E4\u3002\u30D5\u30E9\u30F3\u30B9\u7CFB\u6307\u63EE\u8005\u3068\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u306B\u3088\u308B\u300C\u5E7B\u60F3\u300D\u306F\u5B9F\u306F\u5927\u5909\u5E0C\u5C11\u3067\u3059\u3002\u500B\u4EBA\u7684\u306B\u306F\u4EBA\u751F\u6700\u521D\u306B\u8074\u3044\u305F\u300C\u5E7B\u60F3\u300D\u3067\u4ECA\u3067\u3082\u30EA\u30D5\u30A1\u30EC\u30F3\u30B9\u76E4\u3068\u3057\u3066\u611B\u8074\u3057\u3066\u304A\u308A\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 7,
-			"PublishedAtRaw": "2026-02-12T06:19:48Z",
-			"PublishedAtDateTimeOffset": "2026-02-12T06:19:48+00:00",
-			"PublishedAt": "2026-02-12T11:49:48+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "gci8RDfK6YA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/gci8RDfK6YA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/gci8RDfK6YA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/gci8RDfK6YA/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/gci8RDfK6YA/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Berlioz: Symphony Fantastic     P. Monteux / VPO 1958 (HQ audio)",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Owz2JeKKGxE",
-			"VideoPublishedAtRaw": "2014-08-30T16:30:25Z",
-			"VideoPublishedAtDateTimeOffset": "2014-08-30T16:30:25+00:00",
-			"VideoPublishedAt": "2014-08-30T22:00:25+05:30"
-		},
-		"ETag": "DIoOkrKfzZo48unK7vJWn-TPr6w",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Johannes Brahms\n\nSymphony n\u00B01 op.68\n\nI. Un poco sostenuto - Allegro 0:00\nII. Andante sostenuto 12:33\nIII. Un poco allegretto e grazioso 20:49\nIV. Adagio - Pi\u00F9 andante - Allegro non troppo 25:56\n\nKoninklijk Concertgebouworkest\nPierre Monteux\nLive recording, Amsterdam, 20.XI.1963",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 8,
-			"PublishedAtRaw": "2025-05-26T03:18:13Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:18:13+00:00",
-			"PublishedAt": "2025-05-26T08:48:13+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Owz2JeKKGxE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Brahms - Symphony n\u00B01 - Amsterdam / Monteux 20.XI.1963",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "lWvmG4mMxw0",
-			"VideoPublishedAtRaw": "2018-05-27T14:04:36Z",
-			"VideoPublishedAtDateTimeOffset": "2018-05-27T14:04:36+00:00",
-			"VideoPublishedAt": "2018-05-27T19:34:36+05:30"
-		},
-		"ETag": "MDg-FY44_CT-HKzxPiiW5uXOXHs",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Johannes Brahms\n\nSymphony n\u00B01 op.68\n\nI. Un poco sostenuto - Allegro 0:00\nII. Andante sostenuto 12:38\nIII. Un poco allegretto e grazioso 21:21\nIV. Adagio - Pi\u00F9 andante - Allegro non troppo ma con brio 26:31\n\nKoninklijk Concertgebouworkest\nPierre Monteux\nLive recording, Amsterdam, 24.XI.1963",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 9,
-			"PublishedAtRaw": "2025-05-26T03:17:07Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:17:07+00:00",
-			"PublishedAt": "2025-05-26T08:47:07+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "lWvmG4mMxw0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Brahms - Symphony n\u00B01 - Amsterdam / Monteux 24.XI.1963",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "EOlng72Ypgk",
-			"VideoPublishedAtRaw": "2021-02-04T11:33:54Z",
-			"VideoPublishedAtDateTimeOffset": "2021-02-04T11:33:54+00:00",
-			"VideoPublishedAt": "2021-02-04T17:03:54+05:30"
-		},
-		"ETag": "uADCqzrlE7EC-hQ5fq3RRoErV1E",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45RjNFMDhGQ0Q2RkFCQTc1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "SPECIAL - Backhaus in full flight \u0026 well supported  by Monteux\u0027 Dutch Concertgebouw\u0027s well drilled team.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 10,
-			"PublishedAtRaw": "2025-10-13T01:56:53Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:56:53+00:00",
-			"PublishedAt": "2025-10-13T07:26:53+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "EOlng72Ypgk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/EOlng72Ypgk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/EOlng72Ypgk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/EOlng72Ypgk/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Brahms Backhaus Piano Concerto #1 Monteux Concertgebouw Orch",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "eZQo-EqTp-M",
-			"VideoPublishedAtRaw": "2021-02-21T10:40:14Z",
-			"VideoPublishedAtDateTimeOffset": "2021-02-21T10:40:14+00:00",
-			"VideoPublishedAt": "2021-02-21T16:10:14+05:30"
-		},
-		"ETag": "CFsPBgXXvGVt96E4UN0iceBP79w",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5CMEQ2Mjk5NTc3NDZFRUNB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "More recently than \u002760, this  last Brahms symphony has been considered by many, including myself, to be one of the best, if not the best to be found on record in later years \u0026 here on YouTube etc is a virtually complete example.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 11,
-			"PublishedAtRaw": "2025-10-13T01:56:26Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:56:26+00:00",
-			"PublishedAt": "2025-10-13T07:26:26+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "eZQo-EqTp-M"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/eZQo-EqTp-M/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/eZQo-EqTp-M/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/eZQo-EqTp-M/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Brahms Symphony #4 Monteux Boston SO scd",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "unjsnV6npM4",
-			"VideoPublishedAtRaw": "2020-02-28T19:26:53Z",
-			"VideoPublishedAtDateTimeOffset": "2020-02-28T19:26:53+00:00",
-			"VideoPublishedAt": "2020-02-29T00:56:53+05:30"
-		},
-		"ETag": "ujmq7HwmN8Y69kDMYttIqLUWMT8",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5BRjJDODk5REM0NjkzMUIy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Chausson: Symphony in B-Flat Major, Op. 20\nI. Lent - Allegro vivo (0:00)\nII. Tr\u00E8s Lent (13:08)\nIII. Anim\u00E9 (21:57)\n\nConductor: Pierre Monteux\nBBC Symphony Orchestra\nLive Recording, 1956",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 12,
-			"PublishedAtRaw": "2025-10-13T01:59:04Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:59:04+00:00",
-			"PublishedAt": "2025-10-13T07:29:04+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "unjsnV6npM4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/unjsnV6npM4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/unjsnV6npM4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/unjsnV6npM4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/unjsnV6npM4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Chausson: Symphony in B-Flat Major, Op. 20 - BBC Symphony Orchestra, Pierre Monteux (Live, 1956)",
-			"VideoOwnerChannelId": "UClWV23PpclK7uPFJvAj2XMg",
-			"VideoOwnerChannelTitle": "PucciniMD"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ysJsa2jMwV0",
-			"VideoPublishedAtRaw": "2023-03-03T19:32:32Z",
-			"VideoPublishedAtDateTimeOffset": "2023-03-03T19:32:32+00:00",
-			"VideoPublishedAt": "2023-03-04T01:02:32+05:30"
-		},
-		"ETag": "DvfhcnPFODAySvva9tgi21-tSHY",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC43NDhFRTgwOTRERTU4Rjg3",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "C\u00C9SAR FRANCK - SYMPHONIE EN R\u00C9 MINEUR, \n\n, SYMPHONIE EN R\u00C9 MINEUR, FWV\nVariazioni sul Tema Originale \u00AB Enigma \u00BB op. 36 \nOrchestre National de la Radiodiffusion Fran\u00E7aise\nDirettore d\u2019Orchestra : Pierre Monteux\nMONTREUX (CH) 21.09.1958\n\nCOLLEZIONE PASSIONEOPERA \noperalyrique@hotmail.com",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 13,
-			"PublishedAtRaw": "2025-10-13T01:54:32Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:54:32+00:00",
-			"PublishedAt": "2025-10-13T07:24:32+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ysJsa2jMwV0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "C\u00C9SAR FRANCK - SINFONIA IN REE MINORE. Pierre Monteux. Live: Montreux  21.09.1958",
-			"VideoOwnerChannelId": "UCPx7MZSNu3rd6nNkfIrb9vA",
-			"VideoOwnerChannelTitle": "Orph\u00E9e Dormant"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "cb8Pr1j1M5A",
-			"VideoPublishedAtRaw": "2024-08-14T13:12:47Z",
-			"VideoPublishedAtDateTimeOffset": "2024-08-14T13:12:47+00:00",
-			"VideoPublishedAt": "2024-08-14T18:42:47+05:30"
-		},
-		"ETag": "4m6NJuWz2xQJrdk8wdmkNC9F1UQ",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC44Mjc5REFBRUE2MTdFRDU0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Pierre (Benjamin) Monteux studied violin at the Paris Conservatory from the age of nine. He heard his teacher Jules (Solomon) Garcin conduct the premiere of this symphony and shared a first prize in violin playing with Jacques Thibaud in 1896.\nHe conducted from the age of 12, accompaning Alfred Cortot (two years younger!) in concerti. \nHe worked for a long time as first violist and conducting assistant with Edouard (Juda) Colonne. \n\nHe was also an avid chamber music player, here we see him as violist with Johannes, Wolff, Gustave Lijon and Andr\u00E9 Dulaurons. Sitting before them is noone less than Edvard Grieg.\n\nMonteux remained attached to Francks music for his whole life, and made multiple (glorious) studio versions of this piece. He disliked the lack of spontanteity he often heard on records. Here is a live version (radio recording with the orchestra of the French Radio).\n\nHe believed in adherence to the score, but without ever souding stiff or dull. His credo was: \u201COur principal work is to keep the orchestra together and carry out the composer\u2019s instructions, not to be sartorial models, cause dowagers to swoon, or distract audiences by our \u2018interpretation.\u2019\u201D And it works...",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 14,
-			"PublishedAtRaw": "2025-10-13T01:52:46Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:52:46+00:00",
-			"PublishedAt": "2025-10-13T07:22:46+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "cb8Pr1j1M5A"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "C\u00E9sar Franck, Symphony conducted by Pierre Monteux (live, 1958).",
-			"VideoOwnerChannelId": "UCtLU1Embqijv125bWOAhZew",
-			"VideoOwnerChannelTitle": "J L"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "J72wBOCnITI",
-			"VideoPublishedAtRaw": "2023-03-14T01:32:32Z",
-			"VideoPublishedAtDateTimeOffset": "2023-03-14T01:32:32+00:00",
-			"VideoPublishedAt": "2023-03-14T07:02:32+05:30"
-		},
-		"ETag": "hPie5yU2nbDgahBxaz32xfgC-rY",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4zRjM0MkVCRTg0MkYyQTM0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 15,
-			"PublishedAtRaw": "2025-08-31T18:39:44Z",
-			"PublishedAtDateTimeOffset": "2025-08-31T18:39:44+00:00",
-			"PublishedAt": "2025-09-01T00:09:44+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "J72wBOCnITI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/J72wBOCnITI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/J72wBOCnITI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/J72wBOCnITI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/J72wBOCnITI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/J72wBOCnITI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "David Abel - Brahms Violin Concerto in D -  Pierre Monteux BSO February 7, 1956 Live",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "tKJbZFofdO8",
-			"VideoPublishedAtRaw": "2020-04-16T13:02:46Z",
-			"VideoPublishedAtDateTimeOffset": "2020-04-16T13:02:46+00:00",
-			"VideoPublishedAt": "2020-04-16T18:32:46+05:30"
-		},
-		"ETag": "9J7Q7C9U59qgoNkHsy3RkjgLqHk",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45NDk1REZENzhEMzU5MDQz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "On 29th May 1913, Stravinsky\u0027s Le Sacre du Printemps was premiered in Paris under Pierre Monteux. Fifty years later to the day, Monteux gave this spellbinding performance at the Royal Albert Hall with the London Symphony Orchestra, with Stravinsky present.\n\n\nPart I: The Adoration of the Earth\nPart II: The Sacrifice 16:55\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 16,
-			"PublishedAtRaw": "2025-05-26T03:16:28Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:16:28+00:00",
-			"PublishedAt": "2025-05-26T08:46:28+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "tKJbZFofdO8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/tKJbZFofdO8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/tKJbZFofdO8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/tKJbZFofdO8/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Igor Stravinsky - The Rite Of Spring: Pierre Monteux conducting the LSO in 1963",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "MZoyQQVlK_s",
-			"VideoPublishedAtRaw": "2020-06-09T19:59:48Z",
-			"VideoPublishedAtDateTimeOffset": "2020-06-09T19:59:48+00:00",
-			"VideoPublishedAt": "2020-06-10T01:29:48+05:30"
-		},
-		"ETag": "9fSyU85Rc8sz5NKr5UKxJAQZ6z0",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "1. Allegro non troppo 0:00\n2. Allegro appassionato 17:56\n3. Andante 27:14\n4. Allegretto grazioso 39:30\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 17,
-			"PublishedAtRaw": "2025-05-26T03:16:17Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:16:17+00:00",
-			"PublishedAt": "2025-05-26T08:46:17+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "MZoyQQVlK_s"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/MZoyQQVlK_s/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/MZoyQQVlK_s/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/MZoyQQVlK_s/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Johannes Brahms - Piano Concerto no. 2: Van Cliburn and Pierre Monteux with the LSO in 1963",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ppnylc98ZPw",
-			"VideoPublishedAtRaw": "2020-07-12T21:55:44Z",
-			"VideoPublishedAtDateTimeOffset": "2020-07-12T21:55:44+00:00",
-			"VideoPublishedAt": "2020-07-13T03:25:44+05:30"
-		},
-		"ETag": "HF7t7pdO_7WodHgFgvkyPJuWQNs",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "The great Pierre Monteux with the London Symphony Orchestra in Brahms\u0027 second symphony from the Royal Festival Hall in April 1963.\n\n1. Allegro non troppo 0:00\n2. Adagio non troppo 14:27\n3. Allegretto grazioso (quasi andantino) 22:51\n4. Allegro con spirito 27:59\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 18,
-			"PublishedAtRaw": "2025-05-26T03:16:05Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:16:05+00:00",
-			"PublishedAt": "2025-05-26T08:46:05+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ppnylc98ZPw"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ppnylc98ZPw/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ppnylc98ZPw/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ppnylc98ZPw/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Johannes Brahms - Symphony no. 2: Pierre Monteux conducting the LSO in 1963",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "HzF15qDH33o",
-			"VideoPublishedAtRaw": "2020-04-30T13:19:19Z",
-			"VideoPublishedAtDateTimeOffset": "2020-04-30T13:19:19+00:00",
-			"VideoPublishedAt": "2020-04-30T18:49:19+05:30"
-		},
-		"ETag": "R2Un2WE-hVLwPfqOZi0KWaEgzsM",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Pierre Monteux conducting Beethoven 8 with the LSO at London\u0027s Royal Festival Hall in April 1963.\n\n1. Allegro vivace e con brio 0:00\n2. Allegretto scherzando 09:39\n3. Tempo di menuetto 13:12\n4. Allegro vivace 18:00\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 19,
-			"PublishedAtRaw": "2025-05-26T03:16:21Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:16:21+00:00",
-			"PublishedAt": "2025-05-26T08:46:21+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "HzF15qDH33o"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/HzF15qDH33o/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/HzF15qDH33o/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/HzF15qDH33o/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Ludwig van Beethoven - Symphony no. 8: Pierre Monteux conducting the LSO in 1963",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "SZEgBOK5dHo",
-			"VideoPublishedAtRaw": "2025-05-03T22:44:07Z",
-			"VideoPublishedAtDateTimeOffset": "2025-05-03T22:44:07+00:00",
-			"VideoPublishedAt": "2025-05-04T04:14:07+05:30"
-		},
-		"ETag": "_k5fveT63lhnbPRo7R79kK_KqY8",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45NzUwQkI1M0UxNThBMkU0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00 intro \n1 - Allegro Moderator 1:59\n2 -Adagio di Milton 16:55\n3 - Allegro, ma non tanto 23:52\n\nCarnegie Hall NY 1944",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 20,
-			"PublishedAtRaw": "2025-08-31T18:39:54Z",
-			"PublishedAtDateTimeOffset": "2025-08-31T18:39:54+00:00",
-			"PublishedAt": "2025-09-01T00:09:54+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "SZEgBOK5dHo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Michael Rosenker - Sibelius Violin Concerto - N.Y. Philharmonic Symphony Orchestra, Pierre Monteux",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Rmupf2J7O0Q",
-			"VideoPublishedAtRaw": "2025-05-07T05:39:01Z",
-			"VideoPublishedAtDateTimeOffset": "2025-05-07T05:39:01+00:00",
-			"VideoPublishedAt": "2025-05-07T11:09:01+05:30"
-		},
-		"ETag": "LsIxwoINi0yZJW5zScKiajkvOxI",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "London Symphony Orch. cond. by Pierre Monteux\nrec. 31 May 1963, Wiener Festwochen - Konzerthaus\nlive recording",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 21,
-			"PublishedAtRaw": "2025-05-26T03:14:00Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:14:00+00:00",
-			"PublishedAt": "2025-05-26T08:44:00+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Rmupf2J7O0Q"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Monteux - Tchaikovsky :  \u0027Romeo \u0026 Juliet\u0022 Fantasy Overture (1963-Live)",
-			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-			"VideoOwnerChannelTitle": "uchukyoku1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "X1B8aA32hpk",
-			"VideoPublishedAtRaw": "2020-08-29T09:31:42Z",
-			"VideoPublishedAtDateTimeOffset": "2020-08-29T09:31:42+00:00",
-			"VideoPublishedAt": "2020-08-29T15:01:42+05:30"
-		},
-		"ETag": "vxTkULxu5iDn0-2-3kFydRWtcaY",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This symphony is the perfrect expression of Brahms\u0027 maturity in every aspect including spiritual greatness \u0026 is realized by the leading Brahmsian of his time, Pierre Monteux",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 22,
-			"PublishedAtRaw": "2025-05-26T03:16:09Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:16:09+00:00",
-			"PublishedAt": "2025-05-26T08:46:09+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "X1B8aA32hpk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/X1B8aA32hpk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/X1B8aA32hpk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/X1B8aA32hpk/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Monteux Amsterdam Concergebouw\u002BBrahms Symphony #3 live mcd",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "LPPRLZEghiM",
-			"VideoPublishedAtRaw": "2019-03-10T08:17:46Z",
-			"VideoPublishedAtDateTimeOffset": "2019-03-10T08:17:46+00:00",
-			"VideoPublishedAt": "2019-03-10T13:47:46+05:30"
-		},
-		"ETag": "UC_WOx1FlLiG-ustG2hMMyiFLP4",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yMDhBMkNBNjRDMjQxQTg1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Here, Hector Berlioz\u0027 famous overture is given an animated account by  this most  French of USA orchestra\u0027",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 23,
-			"PublishedAtRaw": "2025-05-26T03:20:19Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:20:19+00:00",
-			"PublishedAt": "2025-05-26T08:50:19+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "LPPRLZEghiM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/LPPRLZEghiM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/LPPRLZEghiM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/LPPRLZEghiM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/LPPRLZEghiM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Monteux in San Francisco=Berlioz Benvenuto Cellini Ov=Live mono",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "BimOdemSAgk",
-			"VideoPublishedAtRaw": "2019-03-14T08:08:21Z",
-			"VideoPublishedAtDateTimeOffset": "2019-03-14T08:08:21+00:00",
-			"VideoPublishedAt": "2019-03-14T13:38:21+05:30"
-		},
-		"ETag": "NxLQJ3nT4dus0nZc_KG9SWPxNbk",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5GM0Q3M0MzMzY5NTJFNTdE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "A splendid overture by a splendid Brahms conductor during a \u002752 \u0022Standard Hour\u0022 concert",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 24,
-			"PublishedAtRaw": "2025-05-26T03:20:43Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:20:43+00:00",
-			"PublishedAt": "2025-05-26T08:50:43+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "BimOdemSAgk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/BimOdemSAgk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/BimOdemSAgk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/BimOdemSAgk/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Monteux in San francisco=Brahms Academic Festival Ov=Live mono",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "QNwJjfuZN8Y",
-			"VideoPublishedAtRaw": "2016-10-07T09:47:39Z",
-			"VideoPublishedAtDateTimeOffset": "2016-10-07T09:47:39+00:00",
-			"VideoPublishedAt": "2016-10-07T15:17:39+05:30"
-		},
-		"ETag": "EcCcwo8ggWpkhOFP-wOpcBWpb9o",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5ENDU4Q0M4RDExNzM1Mjcy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "An exuberant \u0027Standard Hour\u0027 overture by the San Francisco SO",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 25,
-			"PublishedAtRaw": "2025-05-26T03:19:45Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:19:45+00:00",
-			"PublishedAt": "2025-05-26T08:49:45+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "QNwJjfuZN8Y"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mostly Monteux=\u0027Carnival\u0027 Overture=\u002746 live in Estereo",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "WKxG3TH7g5o",
-			"VideoPublishedAtRaw": "2016-10-21T11:35:00Z",
-			"VideoPublishedAtDateTimeOffset": "2016-10-21T11:35:00+00:00",
-			"VideoPublishedAt": "2016-10-21T17:05:00+05:30"
-		},
-		"ETag": "NMFLzJR1uyHntjIlx2lX6CIcNWM",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "A well rounded symphony from his last recording session with the North German Radio SO",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 26,
-			"PublishedAtRaw": "2025-05-26T03:17:27Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:17:27+00:00",
-			"PublishedAt": "2025-05-26T08:47:27+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "WKxG3TH7g5o"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mostly Monteux=Mozart \u0027Haffner\u0027 Symphony=\u002764 in Stereo",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "axeGW7g7Lx8",
-			"VideoPublishedAtRaw": "2019-09-05T14:05:03Z",
-			"VideoPublishedAtDateTimeOffset": "2019-09-05T14:05:03+00:00",
-			"VideoPublishedAt": "2019-09-05T19:35:03+05:30"
-		},
-		"ETag": "_1sfSLTvb_DEeYfjr5TjRmj1AFw",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yQUE2Q0JEMTk4NTM3RTZC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 27,
-			"PublishedAtRaw": "2025-10-13T01:50:46Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:50:46+00:00",
-			"PublishedAt": "2025-10-13T07:20:46+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "axeGW7g7Lx8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mozart \u201CSymphony No  39\u201D Pierre Monteux \u30FB NDR Symphony, 1964",
-			"VideoOwnerChannelId": "UCgNndBxIdoT2XTGHlNPAb8Q",
-			"VideoOwnerChannelTitle": "Sadanori Kobinata"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "prwEZ_MWJGI",
-			"VideoPublishedAtRaw": "2023-08-01T19:21:50Z",
-			"VideoPublishedAtDateTimeOffset": "2023-08-01T19:21:50+00:00",
-			"VideoPublishedAt": "2023-08-02T00:51:50+05:30"
-		},
-		"ETag": "t_WGf_xFzqy6jsMGtUVAHdj4YCo",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DQ0MyQ0Y4Mzg0M0VGOEYw",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "2-3-1951",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 28,
-			"PublishedAtRaw": "2025-08-31T18:40:48Z",
-			"PublishedAtDateTimeOffset": "2025-08-31T18:40:48+00:00",
-			"PublishedAt": "2025-09-01T00:10:48+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "prwEZ_MWJGI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Pierre Monteaux, Boston Symphony Orch Wagner Flying Dutchman Overture \u0026 Brahms Symph #3  Rehearsal",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "xAlXld0dvq4",
-			"VideoPublishedAtRaw": "2022-11-03T18:24:34Z",
-			"VideoPublishedAtDateTimeOffset": "2022-11-03T18:24:34+00:00",
-			"VideoPublishedAt": "2022-11-03T23:54:34+05:30"
-		},
-		"ETag": "PKV1ZItKiV3Dl95JlgNUpo941kM",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41QUZGQTY5OTE4QTREQUU4",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Richard Strauss (1864 - 1949)\nDon Juan, Op. 20 [00:00]\n(Tanglewood, Lenox, MA, July 24, 1958) \nTil Eulenspiegel\u0027s Merry Pranks, Op. 28 [16:09]\n(Symphony Hall, Boston. April 9, 1960)\nEin Heldenleben, (A Hero\u0027s Life) Op. 40 [30:18]\n(Tanglewood, Lenox, MA, July 29, 1962)\nBosotn Symphony Orchestra, Pierre Monteux, conductor",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 29,
-			"PublishedAtRaw": "2025-10-13T01:55:21Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:55:21+00:00",
-			"PublishedAt": "2025-10-13T07:25:21+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "xAlXld0dvq4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/xAlXld0dvq4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/xAlXld0dvq4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/xAlXld0dvq4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/xAlXld0dvq4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/xAlXld0dvq4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "R. STRAUSS | MONTEUX | BOSTON SO LIVE",
-			"VideoOwnerChannelId": "UCmu2d94vW8Qdee6XvqxpHDQ",
-			"VideoOwnerChannelTitle": "Sound Dynamics Associates"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "SoQOFswy_wg",
-			"VideoPublishedAtRaw": "2022-12-21T17:06:40Z",
-			"VideoPublishedAtDateTimeOffset": "2022-12-21T17:06:40+00:00",
-			"VideoPublishedAt": "2022-12-21T22:36:40+05:30"
-		},
-		"ETag": "88C7BOkRE3LkW3rsB8v1kJmhQg8",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Richard Strauss(1864-1949)\nEin Heldenleben Op.40\n    (00:00)  - 1. \u0022Der Held\u0022 (The Hero)\n    (04:02)  - 2. \u0022Des Helden Widersacher\u0022 (The Hero\u0027s Adversaries)\n    (06:59)  - 3. \u0022Des Helden Gef\u00E4hrtin\u0022 (The Hero\u0027s Companion)\n    (17:45)  - 4. \u0022Des Helden Walstatt\u0022 (The Hero at Battle)\n    (24:32)  - 5.  \u0022Des Helden Friedenswerke\u0022 (The Hero\u0027s Works of Peace)\n    (30:59)  - 6. \u0022Des Helden Weltflucht und Vollendung\u0022 (The Hero\u0027s Retirement from this World and Completion)\n\nConductor  -  Pierre Monteux \nOrchestra  - Boston Symphony Orchestra\n\nRecorded, 29 July 1962,LIVE",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 30,
-			"PublishedAtRaw": "2025-05-26T03:15:08Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:15:08+00:00",
-			"PublishedAt": "2025-05-26T08:45:08+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "SoQOFswy_wg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/SoQOFswy_wg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/SoQOFswy_wg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/SoQOFswy_wg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/SoQOFswy_wg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "R.Strauss: Ein Heldenleben / Pierre Monteux \u0026 Boston Symphony Orchestra  [Stereo Live 1962]",
-			"VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
-			"VideoOwnerChannelTitle": "Tsubame Classics"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "DEko-r4WRQs",
-			"VideoPublishedAtRaw": "2020-03-29T12:23:40Z",
-			"VideoPublishedAtDateTimeOffset": "2020-03-29T12:23:40+00:00",
-			"VideoPublishedAt": "2020-03-29T17:53:40+05:30"
-		},
-		"ETag": "r-3C2AtNceejLjuDmQDDv4y4OUU",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "A swift and exciting performance of Vaughan Williams\u0027 London Symphony by the LSO in September 1963 under their great Principal Conductor and orchestral trainer Pierre Monteux. The performance amply shows the world-class condition the LSO was in by 1963.\n\n1. Lento, allegro risoluto 0:00\n2. Lento 13:02\n3. Scherzo, allegro vivace 23:23\n4. Andante con moto, maestoso alla marcia (quasi lento) 29:42\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 31,
-			"PublishedAtRaw": "2025-05-26T03:16:33Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:16:33+00:00",
-			"PublishedAt": "2025-05-26T08:46:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "DEko-r4WRQs"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/DEko-r4WRQs/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/DEko-r4WRQs/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/DEko-r4WRQs/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Ralph Vaughan Williams - A London Symphony: Pierre Monteux conducting the LSO in 1963",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "OLY-OWLaGBs",
-			"VideoPublishedAtRaw": "2021-07-18T20:20:52Z",
-			"VideoPublishedAtDateTimeOffset": "2021-07-18T20:20:52+00:00",
-			"VideoPublishedAt": "2021-07-19T01:50:52+05:30"
-		},
-		"ETag": "IGibMR1WsTlsRy9ZEvHHRk5pOgc",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DNzE1RjZEMUZCMjA0RDBB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Nikolai Rimsky-Korsakov\nScheherazade\nSymphonic Poem, Op. 35\n\n1. The Sea and Sinbad\u0027s Ship (0:08)\n2. The Kalandar Prince (8:30)\n3. The Young Prince and The Young Princess (19:03)\n4. Festival at Baghdad. (27:18)\n    The Sea.\n    The Ship Breaks against a Cliff Surmounted by a Bronze Horseman\n\n\nNaoum Blinder, solo violin\nPierre Monteux, conductor \nSan Francisco Symphony Orchestra\n\nRecorded March 3/4, 1942\nat the War Memorial Opera House, San Francisco\n\nWhen Rimsky-Korsakov completed \u0022Scheherazade\u0022 in 1888, he became increasingly concerned about the music being hamstrung with an Arabian Nights program.\n\nHe changed titles of the four movements to be non-specific to any particular tale. His original inspiration was based upon the form of Orientalism that was so popular in Russia at the time.\n\nOf course, the work was an immediate favorite with audiences and brought him world renown, but later in life he indicated that he preferred that people think of it as a symphonic suite instead of music based on \u00221001 Arabian Nights\u0022. \n\nThe present recording from 1942 is just as interesting for its sound as the performance which, being by Monteux, is excellent.\n\nWhy the decision was made to make a recording in a hall with a very noticeable acoustic slap is anybody\u0027s guess. Perhaps it was thought that the slap would make the horn solos even more dramatic, which it does.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 32,
-			"PublishedAtRaw": "2025-08-31T18:40:29Z",
-			"PublishedAtDateTimeOffset": "2025-08-31T18:40:29+00:00",
-			"PublishedAt": "2025-09-01T00:10:29+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "OLY-OWLaGBs"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Rimsky-Korsakov: Scheherazade (1942) Monteux/San Francisco",
-			"VideoOwnerChannelId": "UC2inKhUL9KMBUsLoUtLB2Gg",
-			"VideoOwnerChannelTitle": "Private Reserve"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "4oXNUBscv4Y",
-			"VideoPublishedAtRaw": "2015-08-01T15:29:56Z",
-			"VideoPublishedAtDateTimeOffset": "2015-08-01T15:29:56+00:00",
-			"VideoPublishedAt": "2015-08-01T20:59:56+05:30"
-		},
-		"ETag": "HdkY6tM3QngVAK8U8T7vjtu2x-M",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45RTgxNDRBMzUwRjQ0MDhC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Felix Mendelssohn-Bartholdy\n\nRuy Blas op.95\n\nSan Francisco Symphony Orchestra\nPierre Monteux\nLive recording, San Francisco, 27.III.1949",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 33,
-			"PublishedAtRaw": "2025-05-26T03:19:36Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:19:36+00:00",
-			"PublishedAt": "2025-05-26T08:49:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "4oXNUBscv4Y"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mendelssohn - Ruy Blas - San Francisco / Monteux live",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "mvS9fagigXg",
-			"VideoPublishedAtRaw": "2017-11-22T08:56:51Z",
-			"VideoPublishedAtDateTimeOffset": "2017-11-22T08:56:51+00:00",
-			"VideoPublishedAt": "2017-11-22T14:26:51+05:30"
-		},
-		"ETag": "uamShN5b2qf6fP0LC25sHI-gwAg",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Franz Schubert - Symphony No. 9 \u0022Great\u0022 in C Major, D.944\nBoston Symphony Orchestra conducted by Pierre Monteux\nRecorded live at the Moscow Conservatoire, 9 September 1956",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 34,
-			"PublishedAtRaw": "2025-05-26T03:17:15Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:17:15+00:00",
-			"PublishedAt": "2025-05-26T08:47:15+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "mvS9fagigXg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/mvS9fagigXg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/mvS9fagigXg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/mvS9fagigXg/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/mvS9fagigXg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/mvS9fagigXg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Schubert - Symphony No  9 - Monteux, BSO (1956)",
-			"VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
-			"VideoOwnerChannelTitle": "1Furtwangler"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "OysStkW6A6M",
-			"VideoPublishedAtRaw": "2013-09-02T18:41:34Z",
-			"VideoPublishedAtDateTimeOffset": "2013-09-02T18:41:34+00:00",
-			"VideoPublishedAt": "2013-09-03T00:11:34+05:30"
-		},
-		"ETag": "zCTNXKXpAblkaoT8-uAGuSe2JaQ",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Robert Schumann\n\nSymphony n\u00B04 op.120\n\nI. Ziemlich langsam - Lebhaft 0:00\nII. Romanze. Ziemlich langsam 10:24\nIII. Scherzo. Lebhaft - Trio 14:48\nIV. Langsam - Lebhaft - Schneller - Presto 19:24\n\nBBC Symphony Orchestra\nPierre Monteux\nLive recording, London, 18.X.1961",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 35,
-			"PublishedAtRaw": "2025-05-26T03:18:19Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:18:19+00:00",
-			"PublishedAt": "2025-05-26T08:48:19+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "OysStkW6A6M"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/OysStkW6A6M/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/OysStkW6A6M/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/OysStkW6A6M/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/OysStkW6A6M/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/OysStkW6A6M/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Schumann - Symphony n\u00B04 - BBC SO / Monteux",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ygOwM6YUAuA",
-			"VideoPublishedAtRaw": "2025-03-13T20:57:17Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-13T20:57:17+00:00",
-			"VideoPublishedAt": "2025-03-14T02:27:17+05:30"
-		},
-		"ETag": "HCGOgVyuo7z1EMAgAVEe_7gvHaE",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DMkU4NTY1QUFGQTYwMDE3",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Igor Stravinsky\n\nP\u00E9trouchka\n\nBernard Zighera\nBoston Symphony Orchestra\nPierre Monteux\nLive recording, Boston, 3.I.1958",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 36,
-			"PublishedAtRaw": "2025-10-13T01:51:57Z",
-			"PublishedAtDateTimeOffset": "2025-10-13T01:51:57+00:00",
-			"PublishedAt": "2025-10-13T07:21:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ygOwM6YUAuA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Stravinsky - P\u00E9trouchka - Boston / Monteux live 1958",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "0xiEybbFz04",
-			"VideoPublishedAtRaw": "2021-01-26T11:30:38Z",
-			"VideoPublishedAtDateTimeOffset": "2021-01-26T11:30:38+00:00",
-			"VideoPublishedAt": "2021-01-26T17:00:38+05:30"
-		},
-		"ETag": "0NTAqxXxpNu3fw8rmzLbaqcW0Ig",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "SPECIAL -  Monteux\u0027 most  conducted Tchaikovsky symphony of the 3 \u0026 well received by the \u002759 concertgoers.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 37,
-			"PublishedAtRaw": "2025-05-26T03:15:55Z",
-			"PublishedAtDateTimeOffset": "2025-05-26T03:15:55+00:00",
-			"PublishedAt": "2025-05-26T08:45:55+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "0xiEybbFz04"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/0xiEybbFz04/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/0xiEybbFz04/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/0xiEybbFz04/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Tchaikovsky Symphony #5 by Monteux Boston Symphony Orch scdSP",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "INy3CBenGOE",
-			"VideoPublishedAtRaw": "2026-04-17T11:28:02Z",
-			"VideoPublishedAtDateTimeOffset": "2026-04-17T11:28:02+00:00",
-			"VideoPublishedAt": "2026-04-17T16:58:02+05:30"
-		},
-		"ETag": "-JH3CC9w__fxrc4VU-fWZUvnLeA",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4zQzFBN0RGNzNFREFCMjBE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Haydn Symphony No. 100\n0:25:19 Prokofiev Symphony No. 7\n1:01:21 Encore: Khachaturian Waltz - Masquerade\n1:07:05 Encore: Khachaturian Gayane Suite No. 1 - Lezginka\n\nThis video replaces the version I uploaded on 16 April 2026, which had an error in the processing from the original tape. This caused the Prokofiev and Khachaturian parts of the original recording to be copied at the wrong sample rate which very much affected the music and sound. I am very grateful that this issue was pointed out to me.\n\nFor those of you who have listened to the previous version of the recording, I must apologise if your enjoyment was in any way spoiled, and do hope you enjoy this version!\n\nThese performances were given during the 1996 BBC Proms Season as part of the Promenade Concert given on  9 August 1996 in the Royal Albert Hall, London. I am afraid I do not have the Schnittke Viola Concerto which was also performed during this concert.\n\nRussian National Orchestra\nconducted by\nMikhail Pletnev\n\nFor more details see:\nhttps://www.bbc.co.uk/events/e28fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 38,
-			"PublishedAtRaw": "2026-04-28T12:36:57Z",
-			"PublishedAtDateTimeOffset": "2026-04-28T12:36:57+00:00",
-			"PublishedAt": "2026-04-28T18:06:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "INy3CBenGOE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/INy3CBenGOE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/INy3CBenGOE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/INy3CBenGOE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/INy3CBenGOE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/INy3CBenGOE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "UPDATED: Haydn, Prokofiev, Khachaturian - Russian National Orchestra - Mikhail Pletnev (RAH, 1996)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "f6vTpJqeEPw",
-			"VideoPublishedAtRaw": "2021-01-31T12:20:55Z",
-			"VideoPublishedAtDateTimeOffset": "2021-01-31T12:20:55+00:00",
-			"VideoPublishedAt": "2021-01-31T17:50:55+05:30"
-		},
-		"ETag": "KRu2SFFBLzUZXjr7ZCl7g7peRNo",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC43MTI1NDIwOTMwQjIxMzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "SPECIAL - An unusual London Symphony by Vaughan Williams performed by Monteux\u0027 London SO in \u002763 \u0026 very well played his Londoner\u0027.",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 39,
-			"PublishedAtRaw": "2025-08-31T18:40:39Z",
-			"PublishedAtDateTimeOffset": "2025-08-31T18:40:39+00:00",
-			"PublishedAt": "2025-09-01T00:10:39+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "f6vTpJqeEPw"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/f6vTpJqeEPw/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/f6vTpJqeEPw/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/f6vTpJqeEPw/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Vaughan Williams\u0027 London Symphony by Monteux  London SO live mcd",
-			"VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
-			"VideoOwnerChannelTitle": "robert dickson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "sWuMkySDqdY",
-			"VideoPublishedAtRaw": "2026-04-05T14:50:36Z",
-			"VideoPublishedAtDateTimeOffset": "2026-04-05T14:50:36+00:00",
-			"VideoPublishedAt": "2026-04-05T20:20:36+05:30"
-		},
-		"ETag": "O0ok7Kg06IlAaRSsNcz9XOzz5kc",
-		"Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45NkVENTkxRDdCQUFBMDY4",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Beethoven: Symphony No.9 \u0027Choral\u0027\n1st movement   00:00\n2nd    16:33\n3rd     28:33\n4th     42:56\nPierre Monteux / Boston Symphony orchestra\nSop) Eleanor Steber      Alt) Freda Grey-Masse\nTen) John McCullum    Bar) David Laurent\nCho) Berkshire festival chorus\n31/7/1960 Berkshire Music festival live recording (HQ audio)\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u5408\u5531\u300D\n\u30D4\u30A8\u30FC\u30EB\u30FB\u30E2\u30F3\u30C8\u30A5\u30FC\u6307\u63EE\u3000\u30DC\u30B9\u30C8\u30F3\u4EA4\u97FF\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30A8\u30EC\u30CE\u30A2\u30FB\u30B9\u30C6\u30A3\u30FC\u30D0\u30FC\u3000\u30A2\u30EB\u30C8\uFF09\u30D5\u30EC\u30C0\u30FB\u30B0\u30EC\u30A4\uFF1D\u30DE\u30C3\u30BB\n\u30C6\u30CE\u30FC\u30EB\uFF09\u30B8\u30E7\u30F3\u30FB\u30DE\u30C3\u30AB\u30E9\u30E0\u3000\u30D0\u30EA\u30C8\u30F3\uFF09\u30C7\u30A3\u30F4\u30A3\u30C3\u30C9\u30FB\u30ED\u30FC\u30E9\u30F3\n\u5408\u5531\uFF09\u30D0\u30FC\u30AF\u30B7\u30E3\u30FC\u795D\u796D\u5408\u5531\u56E3\n1960\u5E747\u670831\u65E5\u3000\u30D0\u30FC\u30AF\u30B7\u30E3\u30FC\uFF08\u30BF\u30F3\u30B0\u30EB\u30A6\u30C3\u30C9\uFF09\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u9332\u97F3\uFF08\u9AD8\u97F3\u8CEA\uFF09\n\u203B\u30E2\u30F3\u30C8\u30A5\u30FC\u6669\u5E74\u306E\u30BF\u30F3\u30B0\u30EB\u30A6\u30C3\u30C9\u516C\u6F14\u3002\u91CE\u5916\u5287\u5834\u306B\u96C6\u3063\u305F1\u4E073\u5343\u4EBA\u3092\u71B1\u72C2\u3055\u305B\u305F\u4F1D\u8AAC\u7684\u540D\u6F14\u3067\u3059\u3002\u5F53\u6642\u30DF\u30E5\u30F3\u30B7\u30E5\u306E\u4E0B\u3067\u7814\u947D\u4E2D\u3060\u3063\u305F\u5C0F\u6FA4\u5F81\u723E\u3082\u5408\u5531\u306B\u53C2\u52A0\u3057\u3066\u3044\u307E\u3057\u305F\u3002",
-			"PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
-			"Position": 40,
-			"PublishedAtRaw": "2026-06-09T22:19:10Z",
-			"PublishedAtDateTimeOffset": "2026-06-09T22:19:10+00:00",
-			"PublishedAt": "2026-06-10T03:49:10+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "sWuMkySDqdY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/sWuMkySDqdY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/sWuMkySDqdY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/sWuMkySDqdY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/sWuMkySDqdY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven: Symphony No.9 \u0027Choral\u0027     P. Monteux / BSO  1960 Tanglewood live (HQ audio)",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "aAgYOH67PFE",
+      "VideoPublishedAtRaw": "2012-12-10T16:08:30Z",
+      "VideoPublishedAtDateTimeOffset": "2012-12-10T16:08:30+00:00",
+      "VideoPublishedAt": "2012-12-10T21:38:30+05:30"
+    },
+    "ETag": "3jNq7x-NBuq_CCfILhIAC7iDctk",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pierre Monteux \u0026 his San Franciscans playing Liszt\u0027s Hungarian Rhapsody #2 in 1949 make a most delightful Goulash as the musical connoisseur\u0027s food of life.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 0,
+      "PublishedAtRaw": "2025-05-26T03:18:49Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:18:49+00:00",
+      "PublishedAt": "2025-05-26T08:48:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "aAgYOH67PFE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/aAgYOH67PFE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/aAgYOH67PFE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/aAgYOH67PFE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/aAgYOH67PFE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "1) LISZTOMANIA - PIERRE MONTEUX \u0026 HUNGARIAN RHAPSODY #2 (Live)",
+      "VideoOwnerChannelId": "UCpwNcYYFoKtKYr8yJxNz3eg",
+      "VideoOwnerChannelTitle": "bigbenjamin37"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Z7t8HxXYp34",
+      "VideoPublishedAtRaw": "2012-12-11T13:55:11Z",
+      "VideoPublishedAtDateTimeOffset": "2012-12-11T13:55:11+00:00",
+      "VideoPublishedAt": "2012-12-11T19:25:11+05:30"
+    },
+    "ETag": "hCQIymVPCbIaLQN6DG42DU1_4Cc",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Some listeners prefer this live version of \u0027Les Preludes\u0027 to Monteux\u0027s Boston Symphony studio recording including this one \u0026 mainly for it\u0027s more expressive playing \u0026 freshness of purpose.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 1,
+      "PublishedAtRaw": "2025-05-26T03:19:09Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:19:09+00:00",
+      "PublishedAt": "2025-05-26T08:49:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Z7t8HxXYp34"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Z7t8HxXYp34/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "2) LISZTOMANIA - PIERRE MONTEUX \u0026 \u0027LES PRELUDES\u0027 (Live)",
+      "VideoOwnerChannelId": "UCpwNcYYFoKtKYr8yJxNz3eg",
+      "VideoOwnerChannelTitle": "bigbenjamin37"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "PXdhcW-c6_Y",
+      "VideoPublishedAtRaw": "2020-01-17T19:17:48Z",
+      "VideoPublishedAtDateTimeOffset": "2020-01-17T19:17:48+00:00",
+      "VideoPublishedAt": "2020-01-18T00:47:48+05:30"
+    },
+    "ETag": "yNCCB8CCySgZVysYe0am3O28fw4",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4xOTEzQzhBQzU3MDNDNjcz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven\n\nSymphony n\u00B02 op.36\n\nI. Adagio molto - Allegro con brio 0:00\nII. Larghetto 9:46\nIII. Scherzo. Allegro 20:18\nIV. Allegro molto 24:00\n\nOrchestre National de la Radiodiffusion Fran\u00E7aise\nPierre Monteux\nLive recording, Paris, 3.V.1956",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 2,
+      "PublishedAtRaw": "2025-10-13T01:59:39Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:59:39+00:00",
+      "PublishedAt": "2025-10-13T07:29:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "PXdhcW-c6_Y"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/PXdhcW-c6_Y/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony n\u00B02 - ONRF / Monteux",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "jMj-EVi5T-k",
+      "VideoPublishedAtRaw": "2021-08-01T08:23:29Z",
+      "VideoPublishedAtDateTimeOffset": "2021-08-01T08:23:29+00:00",
+      "VideoPublishedAt": "2021-08-01T13:53:29+05:30"
+    },
+    "ETag": "HReVntmsBvKtsCyfbgfDm6y_skY",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4zRDBDOEZDOUM0MDY5NEEz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pierre Monteux (Conductor) The Chicago Symphony  (Ensemble)1961",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 3,
+      "PublishedAtRaw": "2025-10-13T01:56:02Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:56:02+00:00",
+      "PublishedAt": "2025-10-13T07:26:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jMj-EVi5T-k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/jMj-EVi5T-k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony No.8 in F Major Op 93 - Pierre Monteux (B/W)1961",
+      "VideoOwnerChannelId": "UCSIa1LhYJAlZiF9uOo3_RdQ",
+      "VideoOwnerChannelTitle": "KiatMac Pattaya"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sWuMkySDqdY",
+      "VideoPublishedAtRaw": "2026-04-05T14:50:36Z",
+      "VideoPublishedAtDateTimeOffset": "2026-04-05T14:50:36+00:00",
+      "VideoPublishedAt": "2026-04-05T20:20:36+05:30"
+    },
+    "ETag": "KQvTf7wncMhDLFVus2ZZmU0Lft0",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45NkVENTkxRDdCQUFBMDY4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven: Symphony No.9 \u0027Choral\u0027\n1st movement   00:00\n2nd    16:33\n3rd     28:33\n4th     42:56\nPierre Monteux / Boston Symphony orchestra\nSop) Eleanor Steber      Alt) Freda Grey-Masse\nTen) John McCullum    Bar) David Laurent\nCho) Berkshire festival chorus\n31/7/1960 Berkshire Music festival live recording (HQ audio)\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u5408\u5531\u300D\n\u30D4\u30A8\u30FC\u30EB\u30FB\u30E2\u30F3\u30C8\u30A5\u30FC\u6307\u63EE\u3000\u30DC\u30B9\u30C8\u30F3\u4EA4\u97FF\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30A8\u30EC\u30CE\u30A2\u30FB\u30B9\u30C6\u30A3\u30FC\u30D0\u30FC\u3000\u30A2\u30EB\u30C8\uFF09\u30D5\u30EC\u30C0\u30FB\u30B0\u30EC\u30A4\uFF1D\u30DE\u30C3\u30BB\n\u30C6\u30CE\u30FC\u30EB\uFF09\u30B8\u30E7\u30F3\u30FB\u30DE\u30C3\u30AB\u30E9\u30E0\u3000\u30D0\u30EA\u30C8\u30F3\uFF09\u30C7\u30A3\u30F4\u30A3\u30C3\u30C9\u30FB\u30ED\u30FC\u30E9\u30F3\n\u5408\u5531\uFF09\u30D0\u30FC\u30AF\u30B7\u30E3\u30FC\u795D\u796D\u5408\u5531\u56E3\n1960\u5E747\u670831\u65E5\u3000\u30D0\u30FC\u30AF\u30B7\u30E3\u30FC\uFF08\u30BF\u30F3\u30B0\u30EB\u30A6\u30C3\u30C9\uFF09\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u9332\u97F3\uFF08\u9AD8\u97F3\u8CEA\uFF09\n\u203B\u30E2\u30F3\u30C8\u30A5\u30FC\u6669\u5E74\u306E\u30BF\u30F3\u30B0\u30EB\u30A6\u30C3\u30C9\u516C\u6F14\u3002\u91CE\u5916\u5287\u5834\u306B\u96C6\u3063\u305F1\u4E073\u5343\u4EBA\u3092\u71B1\u72C2\u3055\u305B\u305F\u4F1D\u8AAC\u7684\u540D\u6F14\u3067\u3059\u3002\u5F53\u6642\u30DF\u30E5\u30F3\u30B7\u30E5\u306E\u4E0B\u3067\u7814\u947D\u4E2D\u3060\u3063\u305F\u5C0F\u6FA4\u5F81\u723E\u3082\u5408\u5531\u306B\u53C2\u52A0\u3057\u3066\u3044\u307E\u3057\u305F\u3002",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 4,
+      "PublishedAtRaw": "2026-06-09T22:19:10Z",
+      "PublishedAtDateTimeOffset": "2026-06-09T22:19:10+00:00",
+      "PublishedAt": "2026-06-10T03:49:10+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sWuMkySDqdY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sWuMkySDqdY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sWuMkySDqdY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sWuMkySDqdY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sWuMkySDqdY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.9 \u0027Choral\u0027     P. Monteux / BSO  1960 Tanglewood live (HQ audio)",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "S8DvoLtSQ9o",
+      "VideoPublishedAtRaw": "2021-02-02T12:37:12Z",
+      "VideoPublishedAtDateTimeOffset": "2021-02-02T12:37:12+00:00",
+      "VideoPublishedAt": "2021-02-02T18:07:12+05:30"
+    },
+    "ETag": "Zl2Dq8V6YPtIbVXVlKJEu7CBGyM",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC40QTA3NTU2RkM1QzlCMzYx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "SPECIAL - Monteux conucts his favourite symphony, Beethoven\u0027 \u0022Dance Symphony\u0022.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 5,
+      "PublishedAtRaw": "2025-10-13T01:56:58Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:56:58+00:00",
+      "PublishedAt": "2025-10-13T07:26:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "S8DvoLtSQ9o"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/S8DvoLtSQ9o/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/S8DvoLtSQ9o/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/S8DvoLtSQ9o/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethovens 7th Symphony by Monteux \u0026 NBC SO New York mlp",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DMPUUqnKblg",
+      "VideoPublishedAtRaw": "2021-02-16T14:43:21Z",
+      "VideoPublishedAtDateTimeOffset": "2021-02-16T14:43:21+00:00",
+      "VideoPublishedAt": "2021-02-16T20:13:21+05:30"
+    },
+    "ETag": "uCoTgAXrNX01KKpSQ4fJydvthnw",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC42MTI4Njc2QjM1RjU1MjlG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Orchestre Symphonique N.D.R., Hambourg\nSymphonie Fantastique, Op. 14 \n0:00 : R\u00EAveries, Passions \n14:01 : Un Bal \n19:55 : Sc\u00E8ne Aux Champs \n35:19 : Marche Au Supplice \n40:22 : Songe D\u0027une Nuit De Sabbat",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 6,
+      "PublishedAtRaw": "2025-10-13T01:56:44Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:56:44+00:00",
+      "PublishedAt": "2025-10-13T07:26:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DMPUUqnKblg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DMPUUqnKblg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DMPUUqnKblg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/DMPUUqnKblg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DMPUUqnKblg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DMPUUqnKblg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz - Pierre Monteux (1964) Symphonie fantastique",
+      "VideoOwnerChannelId": "UC2zlRzqMd3I9xd3g4nOVx6Q",
+      "VideoOwnerChannelTitle": "On The Top of Damavand for ever"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "hy2SVV3O64M",
+      "VideoPublishedAtRaw": "2021-02-06T11:19:01Z",
+      "VideoPublishedAtDateTimeOffset": "2021-02-06T11:19:01+00:00",
+      "VideoPublishedAt": "2021-02-06T16:49:01+05:30"
+    },
+    "ETag": "LIJ_VtL6OqViBKA6uGz0FrfeXcY",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "SPECIAL - Here, Monteux\u0027 Concertgebouw players are away from home in Vienna entertaining a most enthusiastic audience of Austrian Berlozians.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 7,
+      "PublishedAtRaw": "2025-05-26T03:15:48Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:15:48+00:00",
+      "PublishedAt": "2025-05-26T08:45:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "hy2SVV3O64M"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/hy2SVV3O64M/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/hy2SVV3O64M/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/hy2SVV3O64M/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Berlioz Symphonie Fantastique Monteux Concertgebouw Orch mcd",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "gci8RDfK6YA",
+      "VideoPublishedAtRaw": "2025-12-27T13:33:05Z",
+      "VideoPublishedAtDateTimeOffset": "2025-12-27T13:33:05+00:00",
+      "VideoPublishedAt": "2025-12-27T19:03:05+05:30"
+    },
+    "ETag": "PuYtsp3zWENWRvz2fXgNSLT8RWo",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5GNDg1Njc1QzZERjlFRjE5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Berlioz: Symphony fantastic\n1st movement   00:00\n2nd   13:40\n3rd    19:38\n4th    35:37\n5th    40:25\nPierre Monteux / Vienna Philharmonic orchestra\n10/1958 Vienna, Sofiens\u00E4le Decca recording (HQ audio)\n\u30D9\u30EB\u30EA\u30AA\u30FC\u30BA\uFF1A\u5E7B\u60F3\u4EA4\u97FF\u66F2\n\u30D4\u30A8\u30FC\u30EB\u30FB\u30E2\u30F3\u30C8\u30A5\u30FC\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1958\u5E7410\u6708\u3000\u30A6\u30A3\u30FC\u30F3\u3001\u30BE\u30D5\u30A3\u30A8\u30F3\u30B6\u30FC\u30EB\u3000\u30C7\u30C3\u30AB\u9332\u97F3\uFF08\u9AD8\u97F3\u8CEA\u76E4\uFF09\n\u203B\u30E2\u30F3\u30C8\u30A5\u30FC83\u6B73\u6642\u3001\u30B9\u30C6\u30EC\u30AA\u521D\u671F\u306E\u30C7\u30C3\u30AB\u540D\u76E4\u3002\u30D5\u30E9\u30F3\u30B9\u7CFB\u6307\u63EE\u8005\u3068\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u306B\u3088\u308B\u300C\u5E7B\u60F3\u300D\u306F\u5B9F\u306F\u5927\u5909\u5E0C\u5C11\u3067\u3059\u3002\u500B\u4EBA\u7684\u306B\u306F\u4EBA\u751F\u6700\u521D\u306B\u8074\u3044\u305F\u300C\u5E7B\u60F3\u300D\u3067\u4ECA\u3067\u3082\u30EA\u30D5\u30A1\u30EC\u30F3\u30B9\u76E4\u3068\u3057\u3066\u611B\u8074\u3057\u3066\u304A\u308A\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 8,
+      "PublishedAtRaw": "2026-02-12T06:19:48Z",
+      "PublishedAtDateTimeOffset": "2026-02-12T06:19:48+00:00",
+      "PublishedAt": "2026-02-12T11:49:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "gci8RDfK6YA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/gci8RDfK6YA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/gci8RDfK6YA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/gci8RDfK6YA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/gci8RDfK6YA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz: Symphony Fantastic     P. Monteux / VPO 1958 (HQ audio)",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Owz2JeKKGxE",
+      "VideoPublishedAtRaw": "2014-08-30T16:30:25Z",
+      "VideoPublishedAtDateTimeOffset": "2014-08-30T16:30:25+00:00",
+      "VideoPublishedAt": "2014-08-30T22:00:25+05:30"
+    },
+    "ETag": "rrk8gQ_FA1QuW2hwlFSUIDgKBwE",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms\n\nSymphony n\u00B01 op.68\n\nI. Un poco sostenuto - Allegro 0:00\nII. Andante sostenuto 12:33\nIII. Un poco allegretto e grazioso 20:49\nIV. Adagio - Pi\u00F9 andante - Allegro non troppo 25:56\n\nKoninklijk Concertgebouworkest\nPierre Monteux\nLive recording, Amsterdam, 20.XI.1963",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 9,
+      "PublishedAtRaw": "2025-05-26T03:18:13Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:18:13+00:00",
+      "PublishedAt": "2025-05-26T08:48:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Owz2JeKKGxE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Owz2JeKKGxE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms - Symphony n\u00B01 - Amsterdam / Monteux 20.XI.1963",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "lWvmG4mMxw0",
+      "VideoPublishedAtRaw": "2018-05-27T14:04:36Z",
+      "VideoPublishedAtDateTimeOffset": "2018-05-27T14:04:36+00:00",
+      "VideoPublishedAt": "2018-05-27T19:34:36+05:30"
+    },
+    "ETag": "MatziNQK-oMyF5sxTcksH_tdDH0",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms\n\nSymphony n\u00B01 op.68\n\nI. Un poco sostenuto - Allegro 0:00\nII. Andante sostenuto 12:38\nIII. Un poco allegretto e grazioso 21:21\nIV. Adagio - Pi\u00F9 andante - Allegro non troppo ma con brio 26:31\n\nKoninklijk Concertgebouworkest\nPierre Monteux\nLive recording, Amsterdam, 24.XI.1963",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 10,
+      "PublishedAtRaw": "2025-05-26T03:17:07Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:17:07+00:00",
+      "PublishedAt": "2025-05-26T08:47:07+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "lWvmG4mMxw0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/lWvmG4mMxw0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms - Symphony n\u00B01 - Amsterdam / Monteux 24.XI.1963",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "EOlng72Ypgk",
+      "VideoPublishedAtRaw": "2021-02-04T11:33:54Z",
+      "VideoPublishedAtDateTimeOffset": "2021-02-04T11:33:54+00:00",
+      "VideoPublishedAt": "2021-02-04T17:03:54+05:30"
+    },
+    "ETag": "v3272ZI-G8dDnjzz7aQX1TiOyRg",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45RjNFMDhGQ0Q2RkFCQTc1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "SPECIAL - Backhaus in full flight \u0026 well supported  by Monteux\u0027 Dutch Concertgebouw\u0027s well drilled team.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 11,
+      "PublishedAtRaw": "2025-10-13T01:56:53Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:56:53+00:00",
+      "PublishedAt": "2025-10-13T07:26:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "EOlng72Ypgk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/EOlng72Ypgk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/EOlng72Ypgk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/EOlng72Ypgk/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Brahms Backhaus Piano Concerto #1 Monteux Concertgebouw Orch",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "eZQo-EqTp-M",
+      "VideoPublishedAtRaw": "2021-02-21T10:40:14Z",
+      "VideoPublishedAtDateTimeOffset": "2021-02-21T10:40:14+00:00",
+      "VideoPublishedAt": "2021-02-21T16:10:14+05:30"
+    },
+    "ETag": "Fg52uMqV2V6wLUB4ZWB2uR0mmDI",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5CMEQ2Mjk5NTc3NDZFRUNB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "More recently than \u002760, this  last Brahms symphony has been considered by many, including myself, to be one of the best, if not the best to be found on record in later years \u0026 here on YouTube etc is a virtually complete example.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 12,
+      "PublishedAtRaw": "2025-10-13T01:56:26Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:56:26+00:00",
+      "PublishedAt": "2025-10-13T07:26:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "eZQo-EqTp-M"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/eZQo-EqTp-M/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/eZQo-EqTp-M/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/eZQo-EqTp-M/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Brahms Symphony #4 Monteux Boston SO scd",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "unjsnV6npM4",
+      "VideoPublishedAtRaw": "2020-02-28T19:26:53Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-28T19:26:53+00:00",
+      "VideoPublishedAt": "2020-02-29T00:56:53+05:30"
+    },
+    "ETag": "RimDMTAPLLIN-7AxaAJeCaqQo2g",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5BRjJDODk5REM0NjkzMUIy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Chausson: Symphony in B-Flat Major, Op. 20\nI. Lent - Allegro vivo (0:00)\nII. Tr\u00E8s Lent (13:08)\nIII. Anim\u00E9 (21:57)\n\nConductor: Pierre Monteux\nBBC Symphony Orchestra\nLive Recording, 1956",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 13,
+      "PublishedAtRaw": "2025-10-13T01:59:04Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:59:04+00:00",
+      "PublishedAt": "2025-10-13T07:29:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "unjsnV6npM4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/unjsnV6npM4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/unjsnV6npM4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/unjsnV6npM4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/unjsnV6npM4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Chausson: Symphony in B-Flat Major, Op. 20 - BBC Symphony Orchestra, Pierre Monteux (Live, 1956)",
+      "VideoOwnerChannelId": "UClWV23PpclK7uPFJvAj2XMg",
+      "VideoOwnerChannelTitle": "PucciniMD"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ysJsa2jMwV0",
+      "VideoPublishedAtRaw": "2023-03-03T19:32:32Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-03T19:32:32+00:00",
+      "VideoPublishedAt": "2023-03-04T01:02:32+05:30"
+    },
+    "ETag": "xSiXteF_PK4XSlFUbcGQhShyw0c",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC43NDhFRTgwOTRERTU4Rjg3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "C\u00C9SAR FRANCK - SYMPHONIE EN R\u00C9 MINEUR, \n\n, SYMPHONIE EN R\u00C9 MINEUR, FWV\nVariazioni sul Tema Originale \u00AB Enigma \u00BB op. 36 \nOrchestre National de la Radiodiffusion Fran\u00E7aise\nDirettore d\u2019Orchestra : Pierre Monteux\nMONTREUX (CH) 21.09.1958\n\nCOLLEZIONE PASSIONEOPERA \noperalyrique@hotmail.com",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 14,
+      "PublishedAtRaw": "2025-10-13T01:54:32Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:54:32+00:00",
+      "PublishedAt": "2025-10-13T07:24:32+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ysJsa2jMwV0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ysJsa2jMwV0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "C\u00C9SAR FRANCK - SINFONIA IN REE MINORE. Pierre Monteux. Live: Montreux  21.09.1958",
+      "VideoOwnerChannelId": "UCPx7MZSNu3rd6nNkfIrb9vA",
+      "VideoOwnerChannelTitle": "Orph\u00E9e Dormant"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cb8Pr1j1M5A",
+      "VideoPublishedAtRaw": "2024-08-14T13:12:47Z",
+      "VideoPublishedAtDateTimeOffset": "2024-08-14T13:12:47+00:00",
+      "VideoPublishedAt": "2024-08-14T18:42:47+05:30"
+    },
+    "ETag": "q-yIdEu4pDGYYyFy9WrgXNZ5C3w",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC44Mjc5REFBRUE2MTdFRDU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pierre (Benjamin) Monteux studied violin at the Paris Conservatory from the age of nine. He heard his teacher Jules (Solomon) Garcin conduct the premiere of this symphony and shared a first prize in violin playing with Jacques Thibaud in 1896.\nHe conducted from the age of 12, accompaning Alfred Cortot (two years younger!) in concerti. \nHe worked for a long time as first violist and conducting assistant with Edouard (Juda) Colonne. \n\nHe was also an avid chamber music player, here we see him as violist with Johannes, Wolff, Gustave Lijon and Andr\u00E9 Dulaurons. Sitting before them is noone less than Edvard Grieg.\n\nMonteux remained attached to Francks music for his whole life, and made multiple (glorious) studio versions of this piece. He disliked the lack of spontanteity he often heard on records. Here is a live version (radio recording with the orchestra of the French Radio).\n\nHe believed in adherence to the score, but without ever souding stiff or dull. His credo was: \u201COur principal work is to keep the orchestra together and carry out the composer\u2019s instructions, not to be sartorial models, cause dowagers to swoon, or distract audiences by our \u2018interpretation.\u2019\u201D And it works...",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 15,
+      "PublishedAtRaw": "2025-10-13T01:52:46Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:52:46+00:00",
+      "PublishedAt": "2025-10-13T07:22:46+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cb8Pr1j1M5A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/cb8Pr1j1M5A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "C\u00E9sar Franck, Symphony conducted by Pierre Monteux (live, 1958).",
+      "VideoOwnerChannelId": "UCtLU1Embqijv125bWOAhZew",
+      "VideoOwnerChannelTitle": "J L"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "J72wBOCnITI",
+      "VideoPublishedAtRaw": "2023-03-14T01:32:32Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-14T01:32:32+00:00",
+      "VideoPublishedAt": "2023-03-14T07:02:32+05:30"
+    },
+    "ETag": "IOA9ubmxVtL5meU3KtmJIOW1zSg",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4zRjM0MkVCRTg0MkYyQTM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 16,
+      "PublishedAtRaw": "2025-08-31T18:39:44Z",
+      "PublishedAtDateTimeOffset": "2025-08-31T18:39:44+00:00",
+      "PublishedAt": "2025-09-01T00:09:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "J72wBOCnITI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/J72wBOCnITI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/J72wBOCnITI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/J72wBOCnITI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/J72wBOCnITI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/J72wBOCnITI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "David Abel - Brahms Violin Concerto in D -  Pierre Monteux BSO February 7, 1956 Live",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "tKJbZFofdO8",
+      "VideoPublishedAtRaw": "2020-04-16T13:02:46Z",
+      "VideoPublishedAtDateTimeOffset": "2020-04-16T13:02:46+00:00",
+      "VideoPublishedAt": "2020-04-16T18:32:46+05:30"
+    },
+    "ETag": "3rEKY7OcOHJBacETN2NfyKxu8uw",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "On 29th May 1913, Stravinsky\u0027s Le Sacre du Printemps was premiered in Paris under Pierre Monteux. Fifty years later to the day, Monteux gave this spellbinding performance at the Royal Albert Hall with the London Symphony Orchestra, with Stravinsky present.\n\n\nPart I: The Adoration of the Earth\nPart II: The Sacrifice 16:55\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 17,
+      "PublishedAtRaw": "2025-05-26T03:16:28Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:16:28+00:00",
+      "PublishedAt": "2025-05-26T08:46:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "tKJbZFofdO8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/tKJbZFofdO8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/tKJbZFofdO8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/tKJbZFofdO8/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Igor Stravinsky - The Rite Of Spring: Pierre Monteux conducting the LSO in 1963",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MZoyQQVlK_s",
+      "VideoPublishedAtRaw": "2020-06-09T19:59:48Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-09T19:59:48+00:00",
+      "VideoPublishedAt": "2020-06-10T01:29:48+05:30"
+    },
+    "ETag": "JUYwBaz9U1Ix0qemOm4lPa0cdiY",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "1. Allegro non troppo 0:00\n2. Allegro appassionato 17:56\n3. Andante 27:14\n4. Allegretto grazioso 39:30\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 18,
+      "PublishedAtRaw": "2025-05-26T03:16:17Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:16:17+00:00",
+      "PublishedAt": "2025-05-26T08:46:17+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MZoyQQVlK_s"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MZoyQQVlK_s/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MZoyQQVlK_s/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MZoyQQVlK_s/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Johannes Brahms - Piano Concerto no. 2: Van Cliburn and Pierre Monteux with the LSO in 1963",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ppnylc98ZPw",
+      "VideoPublishedAtRaw": "2020-07-12T21:55:44Z",
+      "VideoPublishedAtDateTimeOffset": "2020-07-12T21:55:44+00:00",
+      "VideoPublishedAt": "2020-07-13T03:25:44+05:30"
+    },
+    "ETag": "hLbUG7FQYzGaSvk8SH_e2_76dFM",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The great Pierre Monteux with the London Symphony Orchestra in Brahms\u0027 second symphony from the Royal Festival Hall in April 1963.\n\n1. Allegro non troppo 0:00\n2. Adagio non troppo 14:27\n3. Allegretto grazioso (quasi andantino) 22:51\n4. Allegro con spirito 27:59\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 19,
+      "PublishedAtRaw": "2025-05-26T03:16:05Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:16:05+00:00",
+      "PublishedAt": "2025-05-26T08:46:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ppnylc98ZPw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ppnylc98ZPw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ppnylc98ZPw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ppnylc98ZPw/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Johannes Brahms - Symphony no. 2: Pierre Monteux conducting the LSO in 1963",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "HzF15qDH33o",
+      "VideoPublishedAtRaw": "2020-04-30T13:19:19Z",
+      "VideoPublishedAtDateTimeOffset": "2020-04-30T13:19:19+00:00",
+      "VideoPublishedAt": "2020-04-30T18:49:19+05:30"
+    },
+    "ETag": "mCU-oAJuFTeuvGslIkEVvnzbqEE",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pierre Monteux conducting Beethoven 8 with the LSO at London\u0027s Royal Festival Hall in April 1963.\n\n1. Allegro vivace e con brio 0:00\n2. Allegretto scherzando 09:39\n3. Tempo di menuetto 13:12\n4. Allegro vivace 18:00\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 20,
+      "PublishedAtRaw": "2025-05-26T03:16:21Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:16:21+00:00",
+      "PublishedAt": "2025-05-26T08:46:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "HzF15qDH33o"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/HzF15qDH33o/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/HzF15qDH33o/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/HzF15qDH33o/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Ludwig van Beethoven - Symphony no. 8: Pierre Monteux conducting the LSO in 1963",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "4oXNUBscv4Y",
+      "VideoPublishedAtRaw": "2015-08-01T15:29:56Z",
+      "VideoPublishedAtDateTimeOffset": "2015-08-01T15:29:56+00:00",
+      "VideoPublishedAt": "2015-08-01T20:59:56+05:30"
+    },
+    "ETag": "ITTVxQZ5448RMTnnK46xdTLZRPs",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Felix Mendelssohn-Bartholdy\n\nRuy Blas op.95\n\nSan Francisco Symphony Orchestra\nPierre Monteux\nLive recording, San Francisco, 27.III.1949",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 21,
+      "PublishedAtRaw": "2025-05-26T03:19:36Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:19:36+00:00",
+      "PublishedAt": "2025-05-26T08:49:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "4oXNUBscv4Y"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/4oXNUBscv4Y/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mendelssohn - Ruy Blas - San Francisco / Monteux live",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "SZEgBOK5dHo",
+      "VideoPublishedAtRaw": "2025-05-03T22:44:07Z",
+      "VideoPublishedAtDateTimeOffset": "2025-05-03T22:44:07+00:00",
+      "VideoPublishedAt": "2025-05-04T04:14:07+05:30"
+    },
+    "ETag": "HVVXQ39jZutLe7jHOVzcqM5j0I4",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45NzUwQkI1M0UxNThBMkU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00 intro \n1 - Allegro Moderator 1:59\n2 -Adagio di Milton 16:55\n3 - Allegro, ma non tanto 23:52\n\nCarnegie Hall NY 1944",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 22,
+      "PublishedAtRaw": "2025-08-31T18:39:54Z",
+      "PublishedAtDateTimeOffset": "2025-08-31T18:39:54+00:00",
+      "PublishedAt": "2025-09-01T00:09:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "SZEgBOK5dHo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/SZEgBOK5dHo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Michael Rosenker - Sibelius Violin Concerto - N.Y. Philharmonic Symphony Orchestra, Pierre Monteux",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Rmupf2J7O0Q",
+      "VideoPublishedAtRaw": "2025-05-07T05:39:01Z",
+      "VideoPublishedAtDateTimeOffset": "2025-05-07T05:39:01+00:00",
+      "VideoPublishedAt": "2025-05-07T11:09:01+05:30"
+    },
+    "ETag": "_4c2-ZoLGB2FagN6HCegEmtq9hA",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "London Symphony Orch. cond. by Pierre Monteux\nrec. 31 May 1963, Wiener Festwochen - Konzerthaus\nlive recording",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 23,
+      "PublishedAtRaw": "2025-05-26T03:14:00Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:14:00+00:00",
+      "PublishedAt": "2025-05-26T08:44:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Rmupf2J7O0Q"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Rmupf2J7O0Q/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Monteux - Tchaikovsky :  \u0027Romeo \u0026 Juliet\u0022 Fantasy Overture (1963-Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "X1B8aA32hpk",
+      "VideoPublishedAtRaw": "2020-08-29T09:31:42Z",
+      "VideoPublishedAtDateTimeOffset": "2020-08-29T09:31:42+00:00",
+      "VideoPublishedAt": "2020-08-29T15:01:42+05:30"
+    },
+    "ETag": "ygrMBethA0bTMlpUZrDatbMHYgA",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This symphony is the perfrect expression of Brahms\u0027 maturity in every aspect including spiritual greatness \u0026 is realized by the leading Brahmsian of his time, Pierre Monteux",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 24,
+      "PublishedAtRaw": "2025-05-26T03:16:09Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:16:09+00:00",
+      "PublishedAt": "2025-05-26T08:46:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "X1B8aA32hpk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/X1B8aA32hpk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/X1B8aA32hpk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/X1B8aA32hpk/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Monteux Amsterdam Concergebouw\u002BBrahms Symphony #3 live mcd",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "LPPRLZEghiM",
+      "VideoPublishedAtRaw": "2019-03-10T08:17:46Z",
+      "VideoPublishedAtDateTimeOffset": "2019-03-10T08:17:46+00:00",
+      "VideoPublishedAt": "2019-03-10T13:47:46+05:30"
+    },
+    "ETag": "e7ObJF-XBxW0Ygd41PvnrO9b_ms",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Here, Hector Berlioz\u0027 famous overture is given an animated account by  this most  French of USA orchestra\u0027",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 25,
+      "PublishedAtRaw": "2025-05-26T03:20:19Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:20:19+00:00",
+      "PublishedAt": "2025-05-26T08:50:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "LPPRLZEghiM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/LPPRLZEghiM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/LPPRLZEghiM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/LPPRLZEghiM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/LPPRLZEghiM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Monteux in San Francisco=Berlioz Benvenuto Cellini Ov=Live mono",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "BimOdemSAgk",
+      "VideoPublishedAtRaw": "2019-03-14T08:08:21Z",
+      "VideoPublishedAtDateTimeOffset": "2019-03-14T08:08:21+00:00",
+      "VideoPublishedAt": "2019-03-14T13:38:21+05:30"
+    },
+    "ETag": "ijwO1AUxaP4wA4ft44kJI5aRY54",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "A splendid overture by a splendid Brahms conductor during a \u002752 \u0022Standard Hour\u0022 concert",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 26,
+      "PublishedAtRaw": "2025-05-26T03:20:43Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:20:43+00:00",
+      "PublishedAt": "2025-05-26T08:50:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "BimOdemSAgk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/BimOdemSAgk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/BimOdemSAgk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/BimOdemSAgk/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Monteux in San francisco=Brahms Academic Festival Ov=Live mono",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "QNwJjfuZN8Y",
+      "VideoPublishedAtRaw": "2016-10-07T09:47:39Z",
+      "VideoPublishedAtDateTimeOffset": "2016-10-07T09:47:39+00:00",
+      "VideoPublishedAt": "2016-10-07T15:17:39+05:30"
+    },
+    "ETag": "CaKUdu37wo51NABXncN4bgCJlsM",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "An exuberant \u0027Standard Hour\u0027 overture by the San Francisco SO",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 27,
+      "PublishedAtRaw": "2025-05-26T03:19:45Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:19:45+00:00",
+      "PublishedAt": "2025-05-26T08:49:45+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "QNwJjfuZN8Y"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/QNwJjfuZN8Y/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mostly Monteux=\u0027Carnival\u0027 Overture=\u002746 live in Estereo",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "WKxG3TH7g5o",
+      "VideoPublishedAtRaw": "2016-10-21T11:35:00Z",
+      "VideoPublishedAtDateTimeOffset": "2016-10-21T11:35:00+00:00",
+      "VideoPublishedAt": "2016-10-21T17:05:00+05:30"
+    },
+    "ETag": "UXUdnQeHZMYl4aDgnmGVBc7yGK4",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "A well rounded symphony from his last recording session with the North German Radio SO",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 28,
+      "PublishedAtRaw": "2025-05-26T03:17:27Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:17:27+00:00",
+      "PublishedAt": "2025-05-26T08:47:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "WKxG3TH7g5o"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/WKxG3TH7g5o/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mostly Monteux=Mozart \u0027Haffner\u0027 Symphony=\u002764 in Stereo",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "axeGW7g7Lx8",
+      "VideoPublishedAtRaw": "2019-09-05T14:05:03Z",
+      "VideoPublishedAtDateTimeOffset": "2019-09-05T14:05:03+00:00",
+      "VideoPublishedAt": "2019-09-05T19:35:03+05:30"
+    },
+    "ETag": "6AtZLejTobvcnO-_5R02WezyD0Y",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yQUE2Q0JEMTk4NTM3RTZC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 29,
+      "PublishedAtRaw": "2025-10-13T01:50:46Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:50:46+00:00",
+      "PublishedAt": "2025-10-13T07:20:46+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "axeGW7g7Lx8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/axeGW7g7Lx8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart \u201CSymphony No  39\u201D Pierre Monteux \u30FB NDR Symphony, 1964",
+      "VideoOwnerChannelId": "UCgNndBxIdoT2XTGHlNPAb8Q",
+      "VideoOwnerChannelTitle": "Sadanori Kobinata"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "prwEZ_MWJGI",
+      "VideoPublishedAtRaw": "2023-08-01T19:21:50Z",
+      "VideoPublishedAtDateTimeOffset": "2023-08-01T19:21:50+00:00",
+      "VideoPublishedAt": "2023-08-02T00:51:50+05:30"
+    },
+    "ETag": "IWBmHKvXu6eDmQFo6rJnqWuUrdU",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DQ0MyQ0Y4Mzg0M0VGOEYw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "2-3-1951",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 30,
+      "PublishedAtRaw": "2025-08-31T18:40:48Z",
+      "PublishedAtDateTimeOffset": "2025-08-31T18:40:48+00:00",
+      "PublishedAt": "2025-09-01T00:10:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "prwEZ_MWJGI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/prwEZ_MWJGI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Pierre Monteaux, Boston Symphony Orch Wagner Flying Dutchman Overture \u0026 Brahms Symph #3  Rehearsal",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xAlXld0dvq4",
+      "VideoPublishedAtRaw": "2022-11-03T18:24:34Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-03T18:24:34+00:00",
+      "VideoPublishedAt": "2022-11-03T23:54:34+05:30"
+    },
+    "ETag": "A8K8pq0QYsjeFgeaJ1Cg8hJ1aCk",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41QUZGQTY5OTE4QTREQUU4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss (1864 - 1949)\nDon Juan, Op. 20 [00:00]\n(Tanglewood, Lenox, MA, July 24, 1958) \nTil Eulenspiegel\u0027s Merry Pranks, Op. 28 [16:09]\n(Symphony Hall, Boston. April 9, 1960)\nEin Heldenleben, (A Hero\u0027s Life) Op. 40 [30:18]\n(Tanglewood, Lenox, MA, July 29, 1962)\nBosotn Symphony Orchestra, Pierre Monteux, conductor",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 31,
+      "PublishedAtRaw": "2025-10-13T01:55:21Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:55:21+00:00",
+      "PublishedAt": "2025-10-13T07:25:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xAlXld0dvq4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xAlXld0dvq4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xAlXld0dvq4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/xAlXld0dvq4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xAlXld0dvq4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/xAlXld0dvq4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "R. STRAUSS | MONTEUX | BOSTON SO LIVE",
+      "VideoOwnerChannelId": "UCmu2d94vW8Qdee6XvqxpHDQ",
+      "VideoOwnerChannelTitle": "Sound Dynamics Associates"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "SoQOFswy_wg",
+      "VideoPublishedAtRaw": "2022-12-21T17:06:40Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-21T17:06:40+00:00",
+      "VideoPublishedAt": "2022-12-21T22:36:40+05:30"
+    },
+    "ETag": "sh23NifY3RvtFMh2zn0U6vPnJHo",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss(1864-1949)\nEin Heldenleben Op.40\n    (00:00)  - 1. \u0022Der Held\u0022 (The Hero)\n    (04:02)  - 2. \u0022Des Helden Widersacher\u0022 (The Hero\u0027s Adversaries)\n    (06:59)  - 3. \u0022Des Helden Gef\u00E4hrtin\u0022 (The Hero\u0027s Companion)\n    (17:45)  - 4. \u0022Des Helden Walstatt\u0022 (The Hero at Battle)\n    (24:32)  - 5.  \u0022Des Helden Friedenswerke\u0022 (The Hero\u0027s Works of Peace)\n    (30:59)  - 6. \u0022Des Helden Weltflucht und Vollendung\u0022 (The Hero\u0027s Retirement from this World and Completion)\n\nConductor  -  Pierre Monteux \nOrchestra  - Boston Symphony Orchestra\n\nRecorded, 29 July 1962,LIVE",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 32,
+      "PublishedAtRaw": "2025-05-26T03:15:08Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:15:08+00:00",
+      "PublishedAt": "2025-05-26T08:45:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "SoQOFswy_wg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/SoQOFswy_wg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/SoQOFswy_wg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/SoQOFswy_wg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/SoQOFswy_wg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "R.Strauss: Ein Heldenleben / Pierre Monteux \u0026 Boston Symphony Orchestra  [Stereo Live 1962]",
+      "VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
+      "VideoOwnerChannelTitle": "Tsubame Classics"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DEko-r4WRQs",
+      "VideoPublishedAtRaw": "2020-03-29T12:23:40Z",
+      "VideoPublishedAtDateTimeOffset": "2020-03-29T12:23:40+00:00",
+      "VideoPublishedAt": "2020-03-29T17:53:40+05:30"
+    },
+    "ETag": "OdV8LP4roVHtlpZ5S1xTWoSpERM",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "A swift and exciting performance of Vaughan Williams\u0027 London Symphony by the LSO in September 1963 under their great Principal Conductor and orchestral trainer Pierre Monteux. The performance amply shows the world-class condition the LSO was in by 1963.\n\n1. Lento, allegro risoluto 0:00\n2. Lento 13:02\n3. Scherzo, allegro vivace 23:23\n4. Andante con moto, maestoso alla marcia (quasi lento) 29:42\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 33,
+      "PublishedAtRaw": "2025-05-26T03:16:33Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:16:33+00:00",
+      "PublishedAt": "2025-05-26T08:46:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DEko-r4WRQs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DEko-r4WRQs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DEko-r4WRQs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DEko-r4WRQs/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Ralph Vaughan Williams - A London Symphony: Pierre Monteux conducting the LSO in 1963",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OLY-OWLaGBs",
+      "VideoPublishedAtRaw": "2021-07-18T20:20:52Z",
+      "VideoPublishedAtDateTimeOffset": "2021-07-18T20:20:52+00:00",
+      "VideoPublishedAt": "2021-07-19T01:50:52+05:30"
+    },
+    "ETag": "ZHm_2VSJOh7274_qau4r0-I2i2Q",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DNzE1RjZEMUZCMjA0RDBB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Nikolai Rimsky-Korsakov\nScheherazade\nSymphonic Poem, Op. 35\n\n1. The Sea and Sinbad\u0027s Ship (0:08)\n2. The Kalandar Prince (8:30)\n3. The Young Prince and The Young Princess (19:03)\n4. Festival at Baghdad. (27:18)\n    The Sea.\n    The Ship Breaks against a Cliff Surmounted by a Bronze Horseman\n\n\nNaoum Blinder, solo violin\nPierre Monteux, conductor \nSan Francisco Symphony Orchestra\n\nRecorded March 3/4, 1942\nat the War Memorial Opera House, San Francisco\n\nWhen Rimsky-Korsakov completed \u0022Scheherazade\u0022 in 1888, he became increasingly concerned about the music being hamstrung with an Arabian Nights program.\n\nHe changed titles of the four movements to be non-specific to any particular tale. His original inspiration was based upon the form of Orientalism that was so popular in Russia at the time.\n\nOf course, the work was an immediate favorite with audiences and brought him world renown, but later in life he indicated that he preferred that people think of it as a symphonic suite instead of music based on \u00221001 Arabian Nights\u0022. \n\nThe present recording from 1942 is just as interesting for its sound as the performance which, being by Monteux, is excellent.\n\nWhy the decision was made to make a recording in a hall with a very noticeable acoustic slap is anybody\u0027s guess. Perhaps it was thought that the slap would make the horn solos even more dramatic, which it does.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 34,
+      "PublishedAtRaw": "2025-08-31T18:40:29Z",
+      "PublishedAtDateTimeOffset": "2025-08-31T18:40:29+00:00",
+      "PublishedAt": "2025-09-01T00:10:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OLY-OWLaGBs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/OLY-OWLaGBs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rimsky-Korsakov: Scheherazade (1942) Monteux/San Francisco",
+      "VideoOwnerChannelId": "UC2inKhUL9KMBUsLoUtLB2Gg",
+      "VideoOwnerChannelTitle": "Private Reserve"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mvS9fagigXg",
+      "VideoPublishedAtRaw": "2017-11-22T08:56:51Z",
+      "VideoPublishedAtDateTimeOffset": "2017-11-22T08:56:51+00:00",
+      "VideoPublishedAt": "2017-11-22T14:26:51+05:30"
+    },
+    "ETag": "ukLVVo6HwajymDZabNSrFJFM2Zg",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Franz Schubert - Symphony No. 9 \u0022Great\u0022 in C Major, D.944\nBoston Symphony Orchestra conducted by Pierre Monteux\nRecorded live at the Moscow Conservatoire, 9 September 1956",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 35,
+      "PublishedAtRaw": "2025-05-26T03:17:15Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:17:15+00:00",
+      "PublishedAt": "2025-05-26T08:47:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mvS9fagigXg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mvS9fagigXg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mvS9fagigXg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mvS9fagigXg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mvS9fagigXg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mvS9fagigXg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schubert - Symphony No  9 - Monteux, BSO (1956)",
+      "VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
+      "VideoOwnerChannelTitle": "1Furtwangler"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OysStkW6A6M",
+      "VideoPublishedAtRaw": "2013-09-02T18:41:34Z",
+      "VideoPublishedAtDateTimeOffset": "2013-09-02T18:41:34+00:00",
+      "VideoPublishedAt": "2013-09-03T00:11:34+05:30"
+    },
+    "ETag": "VmOANtorwegyVldXaB05w3etTI0",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumann\n\nSymphony n\u00B04 op.120\n\nI. Ziemlich langsam - Lebhaft 0:00\nII. Romanze. Ziemlich langsam 10:24\nIII. Scherzo. Lebhaft - Trio 14:48\nIV. Langsam - Lebhaft - Schneller - Presto 19:24\n\nBBC Symphony Orchestra\nPierre Monteux\nLive recording, London, 18.X.1961",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 36,
+      "PublishedAtRaw": "2025-05-26T03:18:19Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:18:19+00:00",
+      "PublishedAt": "2025-05-26T08:48:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OysStkW6A6M"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/OysStkW6A6M/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/OysStkW6A6M/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/OysStkW6A6M/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/OysStkW6A6M/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/OysStkW6A6M/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann - Symphony n\u00B04 - BBC SO / Monteux",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ygOwM6YUAuA",
+      "VideoPublishedAtRaw": "2025-03-13T20:57:17Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-13T20:57:17+00:00",
+      "VideoPublishedAt": "2025-03-14T02:27:17+05:30"
+    },
+    "ETag": "5foUNAglcfqgs6g7Qa1HEEtk0ds",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DMkU4NTY1QUFGQTYwMDE3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Igor Stravinsky\n\nP\u00E9trouchka\n\nBernard Zighera\nBoston Symphony Orchestra\nPierre Monteux\nLive recording, Boston, 3.I.1958",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 37,
+      "PublishedAtRaw": "2025-10-13T01:51:57Z",
+      "PublishedAtDateTimeOffset": "2025-10-13T01:51:57+00:00",
+      "PublishedAt": "2025-10-13T07:21:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ygOwM6YUAuA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ygOwM6YUAuA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Stravinsky - P\u00E9trouchka - Boston / Monteux live 1958",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "4IrBWR3paNo",
+      "VideoPublishedAtRaw": "2026-07-03T14:50:19Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-03T14:50:19+00:00",
+      "VideoPublishedAt": "2026-07-03T20:20:19+05:30"
+    },
+    "ETag": "r7AET5tq7b6ogCWq7NjorQ8NLpQ",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC5DNkMwRUI2MkI4QkI4NDFG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Stravinsky: Le Sacre du printemps \nPart 1   00:00\nPart 2   15:00  \nPierre Monteux / Boston Symphony orchestra\n28/1/1951 Boston Symphony Hall RCA recording (HQ audio monaural)\n\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF1A\u30D0\u30EC\u30A8\u97F3\u697D\u300C\u6625\u306E\u796D\u5178\u300D\n\u30D4\u30A8\u30FC\u30EB\u30FB\u30E2\u30F3\u30C8\u30A5\u30FC\u6307\u63EE\u3000\u30DC\u30B9\u30C8\u30F3\u4EA4\u97FF\u697D\u56E3\n1951\u5E741\u670828\u65E5\u3000\u30DC\u30B9\u30C8\u30F3\u30FB\u30B7\u30F3\u30D5\u30A9\u30CB\u30FC\u30DB\u30FC\u30EB\u3000RCA\u9332\u97F3\uFF08\u9AD8\u97F3\u8CEA\u76E4\uFF09\n\u203B\u540C\u66F2\u306E\u521D\u6F14\u8005\u3067\u3042\u308A\u3001\u4E14\u3064\u7B2C\u4E00\u4EBA\u8005\u3067\u3042\u3063\u305F\u3053\u3068\u304C\u7D0D\u5F97\u3055\u305B\u3089\u308C\u308B\u540D\u76E4\u3002\u4F4E\u97F3\u306E\u5229\u3044\u305F\u512A\u79C0\u9332\u97F3\u306F\u6642\u4EE3\u304C\u30E2\u30CE\u30E9\u30EB\u3067\u3042\u3063\u305F\u3053\u3068\u3092\u5FD8\u308C\u3055\u305B\u3066\u304F\u308C\u307E\u3059\u3002\u5F53\u6642\u306E\u30DC\u30B9\u30C8\u30F3\u97FF\u306E\u6280\u8853\u306E\u9AD8\u3055\u3082\u7D20\u6674\u3089\u3057\u3044\u3002",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 38,
+      "PublishedAtRaw": "2026-07-04T06:01:27Z",
+      "PublishedAtDateTimeOffset": "2026-07-04T06:01:27+00:00",
+      "PublishedAt": "2026-07-04T11:31:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "4IrBWR3paNo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/4IrBWR3paNo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/4IrBWR3paNo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/4IrBWR3paNo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/4IrBWR3paNo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Stravinsky: Le Sacre du printemps   P. Monteux / BSO 1951 (HQ audio monaural)",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0xiEybbFz04",
+      "VideoPublishedAtRaw": "2021-01-26T11:30:38Z",
+      "VideoPublishedAtDateTimeOffset": "2021-01-26T11:30:38+00:00",
+      "VideoPublishedAt": "2021-01-26T17:00:38+05:30"
+    },
+    "ETag": "Er4Zajw7GyPY0SZqlZGcXsUlGNg",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "SPECIAL -  Monteux\u0027 most  conducted Tchaikovsky symphony of the 3 \u0026 well received by the \u002759 concertgoers.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 39,
+      "PublishedAtRaw": "2025-05-26T03:15:55Z",
+      "PublishedAtDateTimeOffset": "2025-05-26T03:15:55+00:00",
+      "PublishedAt": "2025-05-26T08:45:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0xiEybbFz04"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0xiEybbFz04/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0xiEybbFz04/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0xiEybbFz04/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Tchaikovsky Symphony #5 by Monteux Boston Symphony Orch scdSP",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "INy3CBenGOE",
+      "VideoPublishedAtRaw": "2026-04-17T11:28:02Z",
+      "VideoPublishedAtDateTimeOffset": "2026-04-17T11:28:02+00:00",
+      "VideoPublishedAt": "2026-04-17T16:58:02+05:30"
+    },
+    "ETag": "P42_dP-u38wCI5FQ3E3c2o-_bpc",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC4zQzFBN0RGNzNFREFCMjBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Haydn Symphony No. 100\n0:25:19 Prokofiev Symphony No. 7\n1:01:21 Encore: Khachaturian Waltz - Masquerade\n1:07:05 Encore: Khachaturian Gayane Suite No. 1 - Lezginka\n\nThis video replaces the version I uploaded on 16 April 2026, which had an error in the processing from the original tape. This caused the Prokofiev and Khachaturian parts of the original recording to be copied at the wrong sample rate which very much affected the music and sound. I am very grateful that this issue was pointed out to me.\n\nFor those of you who have listened to the previous version of the recording, I must apologise if your enjoyment was in any way spoiled, and do hope you enjoy this version!\n\nThese performances were given during the 1996 BBC Proms Season as part of the Promenade Concert given on  9 August 1996 in the Royal Albert Hall, London. I am afraid I do not have the Schnittke Viola Concerto which was also performed during this concert.\n\nRussian National Orchestra\nconducted by\nMikhail Pletnev\n\nFor more details see:\nhttps://www.bbc.co.uk/events/e28fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 40,
+      "PublishedAtRaw": "2026-04-28T12:36:57Z",
+      "PublishedAtDateTimeOffset": "2026-04-28T12:36:57+00:00",
+      "PublishedAt": "2026-04-28T18:06:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "INy3CBenGOE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/INy3CBenGOE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/INy3CBenGOE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/INy3CBenGOE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/INy3CBenGOE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/INy3CBenGOE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "UPDATED: Haydn, Prokofiev, Khachaturian - Russian National Orchestra - Mikhail Pletnev (RAH, 1996)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "f6vTpJqeEPw",
+      "VideoPublishedAtRaw": "2021-01-31T12:20:55Z",
+      "VideoPublishedAtDateTimeOffset": "2021-01-31T12:20:55+00:00",
+      "VideoPublishedAt": "2021-01-31T17:50:55+05:30"
+    },
+    "ETag": "ODGBVQ7wy3tT2nQaBC_MGwqPY1w",
+    "Id": "UEwxemdOQ29XdF83YnEtQzFFUTBxTTA5RjRoeG81UFVQaC43MTI1NDIwOTMwQjIxMzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "SPECIAL - An unusual London Symphony by Vaughan Williams performed by Monteux\u0027 London SO in \u002763 \u0026 very well played his Londoner\u0027.",
+      "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
+      "Position": 41,
+      "PublishedAtRaw": "2025-08-31T18:40:39Z",
+      "PublishedAtDateTimeOffset": "2025-08-31T18:40:39+00:00",
+      "PublishedAt": "2025-09-01T00:10:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "f6vTpJqeEPw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/f6vTpJqeEPw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/f6vTpJqeEPw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/f6vTpJqeEPw/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Vaughan Williams\u0027 London Symphony by Monteux  London SO live mcd",
+      "VideoOwnerChannelId": "UCzoh8YJAJ2sR3Xo9hWSdKKw",
+      "VideoOwnerChannelTitle": "robert dickson"
+    }
+  }
 ]

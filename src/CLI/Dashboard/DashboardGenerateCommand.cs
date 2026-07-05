@@ -29,20 +29,19 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService(ServiceName.Google);
+        using var _ = Telemetry.ForService(ServiceName.YouTube);
 
         var playlists = await LoadPlaylistsAsync(ct);
         Telemetry.Info("Loaded {Count} playlists from manifest", playlists.Count);
 
-        var videos = await LoadVideosAsync(ct);
-        Telemetry.Info("Loaded {Count} videos from processed files", videos.Count);
+        var videosByPlaylist = await LoadVideosByPlaylistAsync(ct);
+        var totalVideos = videosByPlaylist.Values.Sum(v => v.Count);
+        Telemetry.Info("Loaded {Count} videos across {PlaylistCount} playlists", totalVideos, videosByPlaylist.Count);
 
-        var html = DashboardHtmlGenerator.Generate(playlists, videos);
+        var html = DashboardHtmlGenerator.Generate(playlists, videosByPlaylist);
 
-        var outputPath = Path.Combine(
-            Directory.GetCurrentDirectory(),
-            "dashboard.html"
-        );
+        var outputPath = s.Output
+            ?? Path.Combine(Directory.GetCurrentDirectory(), "dashboard.html");
         await File.WriteAllTextAsync(outputPath, html, ct);
 
         var size = new FileInfo(outputPath).Length;
@@ -71,14 +70,15 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
         }
     }
 
-    private static async Task<IReadOnlyList<YouTubeVideo>> LoadVideosAsync(
+    private static async Task<Dictionary<string, IReadOnlyList<YouTubeVideo>>> LoadVideosByPlaylistAsync(
         CancellationToken ct
     )
     {
-        if (!Directory.Exists(ProcessedDir))
-            return [];
+        var result = new Dictionary<string, IReadOnlyList<YouTubeVideo>>();
 
-        var allVideos = new List<YouTubeVideo>();
+        if (!Directory.Exists(ProcessedDir))
+            return result;
+
         var files = Directory.GetFiles(ProcessedDir, "*.json");
 
         foreach (var file in files)
@@ -94,7 +94,10 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
                     ct
                 );
                 if (videos is { Count: > 0 })
-                    allVideos.AddRange(videos);
+                {
+                    var playlistName = Path.GetFileNameWithoutExtension(file);
+                    result[playlistName] = videos;
+                }
             }
             catch (Exception ex) when (ex is JsonException or IOException)
             {
@@ -103,7 +106,7 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
             }
         }
 
-        return allVideos;
+        return result;
     }
 
     public sealed class Settings : CommandSettings

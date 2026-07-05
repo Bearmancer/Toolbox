@@ -58,8 +58,7 @@ public static class AzureSetup
             );
             services.AddSingleton<OpenAiService>();
 
-            services.AddSingleton<SpeechSttService>();
-            services.AddSingleton<SpeechTtsService>();
+            services.AddSingleton<SpeechService>();
 
             return services;
         }

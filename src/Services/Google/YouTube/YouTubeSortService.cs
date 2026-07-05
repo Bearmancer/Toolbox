@@ -18,7 +18,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
         CancellationToken ct
     )
     {
-        using var _ = Telemetry.ForService(ServiceName.Google);
+        using var _ = Telemetry.ForService(ServiceName.YouTube);
         using var activity = Telemetry.StartActivity(messageTemplate: "YouTube.SortPlaylist");
 
         const int MaxPasses = 3;
