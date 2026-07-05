@@ -38,16 +38,23 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
         var totalVideos = videosByPlaylist.Values.Sum(v => v.Count);
         Telemetry.Info("Loaded {Count} videos across {PlaylistCount} playlists", totalVideos, videosByPlaylist.Count);
 
-        var html = DashboardHtmlGenerator.Generate(playlists, videosByPlaylist);
+        var data = DashboardDataBuilder.Build(playlists, videosByPlaylist);
+        var html = DashboardHtmlGenerator.Generate(data);
 
-        var outputPath = s.Output
+        var htmlPath = s.Output
             ?? Path.Combine(Directory.GetCurrentDirectory(), "dashboard.html");
-        await File.WriteAllTextAsync(outputPath, html, ct);
-
-        var size = new FileInfo(outputPath).Length;
-        AnsiConsole.MarkupLine(
-            $"[green]Dashboard generated:[/] {outputPath} ({size / 1024.0:F1} KB)"
+        var dataPath = Path.Combine(
+            Path.GetDirectoryName(Path.GetFullPath(htmlPath))!,
+            "dashboard-data.js"
         );
+
+        await File.WriteAllTextAsync(htmlPath, html, ct);
+        await File.WriteAllTextAsync(dataPath, data.DataJs, ct);
+
+        var htmlSize = new FileInfo(htmlPath).Length;
+        var dataSize = new FileInfo(dataPath).Length;
+        AnsiConsole.MarkupLine($"[green]Dashboard generated:[/] {htmlPath} ({htmlSize / 1024.0:F1} KB)");
+        AnsiConsole.MarkupLine($"[green]Data file:[/]        {dataPath} ({dataSize / 1024.0:F1} KB)");
         return 0;
     }
 
