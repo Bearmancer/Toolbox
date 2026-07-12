@@ -59,7 +59,7 @@ public class DashboardGenerateCommand(DashboardService dashboardService)
 	{
 		[Description(
 			"Output file path for the generated HTML dashboard. "
-				+ "(default: dashboard/dashboard.html)"
+				+ "(default: state/dashboard/dashboard.html)"
 		)]
 		[CommandOption("--output <PATH>")]
 		public string? Output { get; init; }
