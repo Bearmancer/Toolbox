@@ -65,10 +65,11 @@ public static class DashboardHtmlGenerator
 			    { name: 'title', weight: 0.85 },
 			    { name: 'description', weight: 0.15 }
 			  ],
-			  threshold: 0.35,
+			  threshold: 0.3,
 			  ignoreLocation: true,
 			  includeScore: true,
-			  minMatchCharLength: 2
+			  minMatchCharLength: 2,
+			  useExtendedSearch: true
 			};
 
 			var globalFuse = null;
@@ -145,6 +146,11 @@ public static class DashboardHtmlGenerator
 			  debounceTimer = setTimeout(function() { doGlobalSearch(query.trim()); }, 200);
 			}
 
+			function toAndQuery(q) {
+			  return q.trim().split(/\s+/).filter(function(t) { return t.length >= 2; })
+			          .map(function(t) { return "'" + t; }).join(' ');
+			}
+
 			function doGlobalSearch(q) {
 			  if (!q) {
 			    showView('view-all');
@@ -152,7 +158,7 @@ public static class DashboardHtmlGenerator
 			    return;
 			  }
 			  showView('view-results');
-			  var results = globalFuse.search(q).map(function(r) { return r.item; });
+			  var results = globalFuse.search(toAndQuery(q)).map(function(r) { return r.item; });
 			  document.getElementById('results-count').textContent =
 			    results.length + ' result' + (results.length !== 1 ? 's' : '') + ' for "' + q + '"';
 			  resultsTable.setData(results);
@@ -174,7 +180,7 @@ public static class DashboardHtmlGenerator
 			    var videos = window.allVideos.filter(function(v) { return v.playlistId === playlistId; });
 			    playlistFuse[playlistId] = new Fuse(videos, FUSE_OPTS);
 			  }
-			  table.setData(playlistFuse[playlistId].search(q).map(function(r) { return r.item; }));
+			  table.setData(playlistFuse[playlistId].search(toAndQuery(q)).map(function(r) { return r.item; }));
 			}
 
 			function onAllVideosSearch(query) {
@@ -186,7 +192,7 @@ public static class DashboardHtmlGenerator
 			  if (!allVideoTable) return;
 			  if (!q) { allVideoTable.setData(window.allVideos); return; }
 			  if (!allVideosFuse) allVideosFuse = new Fuse(window.allVideos, FUSE_OPTS);
-			  allVideoTable.setData(allVideosFuse.search(q).map(function(r) { return r.item; }));
+			  allVideoTable.setData(allVideosFuse.search(toAndQuery(q)).map(function(r) { return r.item; }));
 			}
 
 			function toggleDropdown(id) {

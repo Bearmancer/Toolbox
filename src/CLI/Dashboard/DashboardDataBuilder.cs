@@ -71,8 +71,8 @@ public static class DashboardDataBuilder
 	{
 		var sb = new StringBuilder();
 		sb.AppendLine("<select id=\"playlist-dropdown\" onchange=\"switchView(this.value)\">");
-		sb.AppendLine("<option value=\"all\">All Playlists</option>");
-		sb.AppendLine("<option value=\"all-videos\">All Videos (flat)</option>");
+		sb.AppendLine("<option value=\"all\">Playlist Overview</option>");
+		sb.AppendLine("<option value=\"all-videos\">All Videos</option>");
 		foreach (PlaylistSnapshot p in sorted)
 			sb.AppendLine($"<option value=\"{p.PlaylistId}\">{Escape(p.Title)}</option>");
 		sb.AppendLine("</select>");
