@@ -1,5 +1,7 @@
 using System.ComponentModel;
+using CLI.Dashboard;
 using Core;
+using ErrorOr;
 using Services.Google.YouTube;
 using Spectre.Console;
 using Spectre.Console.Cli;
@@ -16,7 +18,7 @@ namespace CLI.Sync.YouTube;
 		+ "The stored ETag is updated after each sync so subsequent runs skip "
 		+ "playlists that haven't changed on YouTube."
 )]
-public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
+public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator, DashboardService dashboardService)
 	: AsyncCommand<SyncYoutubeCommand.Settings>
 {
 	protected override async Task<int> ExecuteAsync(
@@ -50,6 +52,8 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 				if (syncedIds.Count == 0)
 					Telemetry.Info("No playlists needed syncing");
 			}
+
+			await RegenerateDashboardAsync(cancellationToken);
 		}
 		catch (Exception ex) when (ex is HttpRequestException or TimeoutException)
 		{
@@ -59,6 +63,32 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 
 		AnsiConsole.MarkupLine("[green]Sync complete.[/]");
 		return 0;
+	}
+
+	private async Task RegenerateDashboardAsync(CancellationToken ct)
+	{
+		ErrorOr<DashboardService.DashboardResult> result =
+			await dashboardService.GenerateDashboardDataAsync(ct);
+		if (result.IsError)
+		{
+			AnsiConsole.MarkupLine(
+				$"[yellow]Dashboard skipped:[/] {result.FirstError.Description}"
+			);
+			return;
+		}
+
+		DashboardData data = DashboardDataBuilder.Build(
+			result.Value.Playlists,
+			result.Value.VideosByPlaylist
+		);
+		var html = DashboardHtmlGenerator.Generate(data);
+		var dashboardDir = PathResolver.GetStatePath("dashboard");
+		Directory.CreateDirectory(dashboardDir);
+		var htmlPath = Path.Combine(dashboardDir, "dashboard.html");
+		var dataPath = Path.Combine(dashboardDir, "dashboard-data.js");
+		await File.WriteAllTextAsync(htmlPath, html, ct);
+		await File.WriteAllTextAsync(dataPath, data.DataJs, ct);
+		AnsiConsole.MarkupLine("[green]Dashboard regenerated.[/]");
 	}
 
 	public sealed class Settings : CommandSettings
