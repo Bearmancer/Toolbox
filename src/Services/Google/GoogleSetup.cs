@@ -8,61 +8,61 @@ namespace Services.Google;
 
 public sealed class GoogleCredentials
 {
-    public required string ClientId { get; init; }
-    public required string ClientSecret { get; init; }
+	public required string ClientId { get; init; }
+	public required string ClientSecret { get; init; }
 
-    public static GoogleCredentials Read() =>
-        new() { ClientId = Env("GOOGLE_CLIENT_ID"), ClientSecret = Env("GOOGLE_CLIENT_SECRET") };
+	public static GoogleCredentials Read() =>
+		new() { ClientId = Env("GOOGLE_CLIENT_ID"), ClientSecret = Env("GOOGLE_CLIENT_SECRET") };
 
-    private static string Env(string key) =>
-        Environment.GetEnvironmentVariable(key)
-        ?? throw new InvalidOperationException($"Missing: {key}");
+	private static string Env(string key) =>
+		Environment.GetEnvironmentVariable(key)
+		?? throw new InvalidOperationException($"Missing: {key}");
 }
 
 public static class GoogleSetup
 {
-    private static async Task<YouTubeService> BuildYouTubeServiceAsync(
-        GoogleCredentials credentials
-    )
-    {
-        var credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
-            new ClientSecrets
-            {
-                ClientId = credentials.ClientId,
-                ClientSecret = credentials.ClientSecret,
-            },
-            [YouTubeService.Scope.Youtube],
-            "user",
-            CancellationToken.None
-        );
+	private static async Task<YouTubeService> BuildYouTubeServiceAsync(
+		GoogleCredentials credentials
+	)
+	{
+		UserCredential? credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+			new ClientSecrets
+			{
+				ClientId = credentials.ClientId,
+				ClientSecret = credentials.ClientSecret,
+			},
+			[YouTubeService.Scope.Youtube],
+			"user",
+			CancellationToken.None
+		);
 
-        return new YouTubeService(
-            new BaseClientService.Initializer
-            {
-                HttpClientInitializer = credential,
-                ApplicationName = "AzureAI",
-            }
-        );
-    }
+		return new YouTubeService(
+			new BaseClientService.Initializer
+			{
+				HttpClientInitializer = credential,
+				ApplicationName = "AzureAI",
+			}
+		);
+	}
 
-    extension(IServiceCollection services)
-    {
-        public async Task<IServiceCollection> AddGoogleServicesAsync()
-        {
-            var credentials = GoogleCredentials.Read();
-            services.AddSingleton(credentials);
+	extension(IServiceCollection services)
+	{
+		public async Task<IServiceCollection> AddGoogleServicesAsync()
+		{
+			var credentials = GoogleCredentials.Read();
+			services.AddSingleton(credentials);
 
-            var youtubeService = await BuildYouTubeServiceAsync(credentials);
-            services.AddSingleton(youtubeService);
-            services.AddSingleton<YouTubePlaylistService>();
-            services.AddSingleton<YouTubeVideoService>();
-            services.AddSingleton<YouTubeSortService>();
-            services.AddSingleton<YouTubeTranslationService>();
-            services.AddSingleton<YouTubePlaylistProcessor>();
-            services.AddSingleton<YouTubeSyncProcessor>();
-            services.AddSingleton<YouTubePlaylistOrchestrator>();
+			YouTubeService youtubeService = await BuildYouTubeServiceAsync(credentials);
+			services.AddSingleton(youtubeService);
+			services.AddSingleton<YouTubePlaylistService>();
+			services.AddSingleton<YouTubeVideoService>();
+			services.AddSingleton<YouTubeSortService>();
+			services.AddSingleton<YouTubeTranslationService>();
+			services.AddSingleton<YouTubePlaylistProcessor>();
+			services.AddSingleton<YouTubeSyncProcessor>();
+			services.AddSingleton<YouTubePlaylistOrchestrator>();
 
-            return services;
-        }
-    }
+			return services;
+		}
+	}
 }

@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <RootNamespace>CLI</RootNamespace>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="Spectre.Console.Cli"/>
-    </ItemGroup>
-    <ItemGroup>
-        <ProjectReference Include="..\Core\Core.csproj"/>
-        <ProjectReference Include="..\Services\Azure\Azure.csproj"/>
-        <ProjectReference Include="..\Services\Google\Google.csproj"/>
-        <ProjectReference Include="..\Services\LastFm\LastFm.csproj"/>
-    </ItemGroup>
+	<PropertyGroup>
+		<RootNamespace>CLI</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Spectre.Console.Cli" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Core\Core.csproj" />
+		<ProjectReference Include="..\Services\Azure\Azure.csproj" />
+		<ProjectReference Include="..\Services\Google\Google.csproj" />
+		<ProjectReference Include="..\Services\LastFm\LastFm.csproj" />
+	</ItemGroup>
 </Project>

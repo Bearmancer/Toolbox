@@ -21,14 +21,14 @@ Google/
 
 ## WHERE TO LOOK
 
-| Task | File | Notes |
-|------|------|-------|
-| Change sync flow | `YouTubePlaylistOrchestrator.cs` | `ExecuteAsync()` → `ExecuteCoreAsync()` pipeline |
-| Change per-playlist logic | `YouTubePlaylistProcessor.cs` | `ProcessPlaylistAsync()` |
-| Add YouTube API call | `YouTubePlaylistService.cs` or `YouTubeVideoService.cs` | Wrap API response in domain types |
-| Change translation | `YouTubeTranslationService.cs` | Calls `TranslateService.TranslateBatchAsync()` |
-| Change state schema | `YouTubeFetchState.cs` | `PlaylistSnapshot`, `YouTubeFetchState` records |
-| Change state paths | `YouTubePaths.cs` | All paths relative to `state/youtube/` |
+| Task                      | File                                                    | Notes                                            |
+|---------------------------|---------------------------------------------------------|--------------------------------------------------|
+| Change sync flow          | `YouTubePlaylistOrchestrator.cs`                        | `ExecuteAsync()` → `ExecuteCoreAsync()` pipeline |
+| Change per-playlist logic | `YouTubePlaylistProcessor.cs`                           | `ProcessPlaylistAsync()`                         |
+| Add YouTube API call      | `YouTubePlaylistService.cs` or `YouTubeVideoService.cs` | Wrap API response in domain types                |
+| Change translation        | `YouTubeTranslationService.cs`                          | Calls `TranslateService.TranslateBatchAsync()`   |
+| Change state schema       | `YouTubeFetchState.cs`                                  | `PlaylistSnapshot`, `YouTubeFetchState` records  |
+| Change state paths        | `YouTubePaths.cs`                                       | All paths relative to `state/youtube/`           |
 
 ## CONVENTIONS
 

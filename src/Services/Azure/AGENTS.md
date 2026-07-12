@@ -18,11 +18,11 @@ Azure/
 
 ## WHERE TO LOOK
 
-| Task | File | Notes |
-|------|------|-------|
-| Add Azure service | Create `XxxService.cs`, add credential to `AzureCredentials.cs`, register in `AzureSetup.cs` |
-| Add env var | `AzureCredentials.cs` | Add property + `Env("KEY_NAME")` call |
-| Change DI registration | `AzureSetup.cs` | `extension(IServiceCollection services)` block |
+| Task                   | File                                                                                         | Notes                                          |
+|------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------|
+| Add Azure service      | Create `XxxService.cs`, add credential to `AzureCredentials.cs`, register in `AzureSetup.cs` |
+| Add env var            | `AzureCredentials.cs`                                                                        | Add property + `Env("KEY_NAME")` call          |
+| Change DI registration | `AzureSetup.cs`                                                                              | `extension(IServiceCollection services)` block |
 
 ## CONVENTIONS
 

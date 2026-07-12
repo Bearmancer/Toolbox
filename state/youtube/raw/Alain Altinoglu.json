@@ -1,12 +1,67 @@
 [
   {
     "ContentDetails": {
+      "VideoId": "RU6vV10L77w",
+      "VideoPublishedAtRaw": "2026-07-07T10:00:13Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-07T10:00:13+00:00",
+      "VideoPublishedAt": "2026-07-07T15:30:13+05:30"
+    },
+    "ETag": "RGkRMycl0_mBDSXH0mYHTJ4VGUI",
+    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5DQjg2RDQyMEVGQkZFOEVF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "L\u0027\u00E9dition 2024 du Festival International de Colmar s\u0027ouvre avec l\u0027Orchestre symphonique du Th\u00E9\u00E2tre royal de la Monnaie de Bruxelles, dirig\u00E9 par Alain Altinoglu. Apr\u00E8s lePr\u00E9lude de Lohengrinde Wagner, le baryton St\u00E9phane Degout entonne les Chants d\u0027un compagnon errantde Mahler. La soir\u00E9e \u00E0 l\u0027\u00E9glise Saint-Matthieu se cl\u00F4t avec la Symphonie en r\u00E9 mineurde C\u00E9sar Franck, joyau du r\u00E9pertoire de la fin du XIXe si\u00E8cle.\r\n\r\nAu programme du Festival de Colmar 2024 le baryton St\u00E9phane Degout pr\u00EAte sa voix au compagnon du c\u00E9l\u00E8bre cycle de lieder de Gustav Mahler. L\u0027orchestre du th\u00E9\u00E2tre de la Monnaie de Bruxelles est plac\u00E9 sous la direction d\u2019Alain Altinoglu.\n\nLa soir\u00E9e s\u0027ouvre avec le pr\u00E9lude de Lohengrin, le dernier op\u00E9ra romantique de Richard Wagner dont la premi\u00E8re repr\u00E9sentation eut lieu en 1850 \u00E0 Weimar.\n\nPlace ensuite aux quatre Lieder eines fahrenden Gesellen(chants d\u0027un compagnon errant), qui d\u00E9crivent les pens\u00E9es et les exp\u00E9riences d\u0027un jeune homme en voyage s\u2019inspirant de la nature qui l\u2019entoure. Le contraste entre la beaut\u00E9 de la nature et le d\u00E9sespoir d\u2019un c\u0153ur humain repr\u00E9sente un autre th\u00E8me d\u2019\u00E9lection des po\u00E8tes romantiques. Mahler a \u00E9crit lui-m\u00EAme les textes en prenant pour mod\u00E8le le style des po\u00E8mes du Wunderhorn. Le compagnon itin\u00E9rant est un personnage standard de son \u00E9poque, dont l\u0027histoire d\u0027amour non r\u00E9ciproque est d\u00E9peinte dans des images simples qui rappellent \u00E9galement les cycles de M\u00FCller de Schubert (comme par exemple l\u0027allusion aux yeux bleus de son tr\u00E9sor, ou le tilleul sous les branches duquel il trouve finalement la paix).\n\nAu programme de la deuxi\u00E8me partie du concert: laSymphonie en r\u00E9 mineur de C\u00E9sar Franck. Le compositeur \u00E9tait une figure importantes de la vie musicale \u00E0 Paris durant la deuxi\u00E8me moiti\u00E9 du XIXe si\u00E8cle. L\u0027ambiance apr\u00E8s la guerre franco-prussienne de 1871 \u00E9tait en partie tr\u00E8s anti-allemande. Franck tenta d\u0027unifier musicalement les fronts, notamment avec cette symphonie qui r\u00E9unit deux formes nationales: la forme cyclique fran\u00E7aise et la forme symphonique romantique allemande. Mais le chef d\u2019orchestre Charles Lamoureux refusa de jouer l\u0027\u0153uvre et Franck dut en r\u00E9\u00E9crire une partie.Alain Altinoglu dirige la version originale avec le mouvement qualifi\u00E9 a posteriori par Franck d\u0027\u00ABancien morceau symphonique\u00BB, qui a longtemps \u00E9t\u00E9 consid\u00E9r\u00E9 comme perdu et dont la premi\u00E8re mondiale date de mai 2022 \u00E0 Londres.\n\n\nFilm\u00E9 le 5 juillet 2024 \u00E0 l\u0027\u00E9glise Saint-Matthieu de Colmar.\n\r\n00:00 Richard Wagner - Lohengrin, Pr\u00E9lude\n10:32 Gustav Mahler - Lieder eines fahrenden Gesellen\n33:09 C\u00E9sar Franck - Symphonie en r\u00E9 mineur\n\r\n[AVAILABLE UNTIL 04/07/2027]\n\r\nMore concerts on our website: https://www.arte.tv/concert\nYou can also find us on:\nFacebook: https://www.facebook.com/ARTEConcert\nX (FR): https://x.com/ARTEconcertFR\nInstagram FR: https://www.instagram.com/arteconcertfr\nInstagram DE: https://www.instagram.com/arteconcertde",
+      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
+      "Position": 0,
+      "PublishedAtRaw": "2026-07-09T20:29:02Z",
+      "PublishedAtDateTimeOffset": "2026-07-09T20:29:02+00:00",
+      "PublishedAt": "2026-07-10T01:59:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "RU6vV10L77w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/RU6vV10L77w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/RU6vV10L77w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/RU6vV10L77w/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/RU6vV10L77w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/RU6vV10L77w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Alain Altinoglu et St\u00E9phane Degout - Festival international de Colmar 2024 - ARTE Concert",
+      "VideoOwnerChannelId": "UC-smeLB9AnOTeypr1YyjJ3A",
+      "VideoOwnerChannelTitle": "ARTE Concert"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "oYLyfaRxh9o",
       "VideoPublishedAtRaw": "2025-02-01T13:01:05Z",
       "VideoPublishedAtDateTimeOffset": "2025-02-01T13:01:05+00:00",
       "VideoPublishedAt": "2025-02-01T18:31:05+05:30"
     },
-    "ETag": "kmdolQikZ9YiHbb6a4k2xeazeNk",
+    "ETag": "rOy8Z4myOWsvdJfkbf41NFu7-Sk",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4yQzk4QTA5QjkzMTFFOEI1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -14,7 +69,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ludwig van Beethoven: \n5. Klavierkonzert Es-Dur op. 73 \u2219\n\nI. Allegro  00:00 \u2219\nII. Adagio ma non troppo  19:47 \u2219\nIII. Rondo. Allegro, ma non troppo  27:12 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nFrancesco Piemontesi, Klavier \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 11. Oktober 2024 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 0,
+      "Position": 1,
       "PublishedAtRaw": "2025-02-09T04:08:08Z",
       "PublishedAtDateTimeOffset": "2025-02-09T04:08:08+00:00",
       "PublishedAt": "2025-02-09T09:38:08+05:30",
@@ -61,7 +116,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-10-18T12:01:30+00:00",
       "VideoPublishedAt": "2025-10-18T17:31:30+05:30"
     },
-    "ETag": "zaJMw-ZQUigZz_XMwkc83Q7X7vY",
+    "ETag": "y_RDAZ3AdvxF0g5LlNNWw4q7I1Y",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4zQTkzRjgxRTY0OEU0MkM3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -69,7 +124,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ludwig van Beethoven: \nViolinkonzert D-Dur op. 61 \u2219 \n\nI. Allegro ma non troppo  00:00 \u2219\nII. Larghetto  24:32 \u2219\nIII. Rondo  33:39 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nHilary Hahn, Violine \u2219 \nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 9. Mai 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 1,
+      "Position": 2,
       "PublishedAtRaw": "2025-10-24T14:25:14Z",
       "PublishedAtDateTimeOffset": "2025-10-24T14:25:14+00:00",
       "PublishedAt": "2025-10-24T19:55:14+05:30",
@@ -116,7 +171,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-19T13:30:11+00:00",
       "VideoPublishedAt": "2022-03-19T19:00:11+05:30"
     },
-    "ETag": "dVHRNI57aaWvFKxdG4qzlaZv8kw",
+    "ETag": "tXhGRqw8mSMnEtsOgpYzKvimn9E",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4wOTA3OTZBNzVEMTUzOTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -124,7 +179,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Hector Berlioz: \nLe carnaval romain \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 10. Februar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 2,
+      "Position": 3,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -171,7 +226,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-19T13:15:36+00:00",
       "VideoPublishedAt": "2022-03-19T18:45:36+05:30"
     },
-    "ETag": "HZqi0Mv37_oAGZAymVwLxayFH1I",
+    "ETag": "K0JPcOSzFSTwzRsMipfS0061zYw",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby42MTI4Njc2QjM1RjU1MjlG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -179,7 +234,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Hector Berlioz: \nChasse royale et orage\naus der Oper \u00BBLes Troyens\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 10. Februar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 3,
+      "Position": 4,
       "PublishedAtRaw": "2023-11-17T17:12:41Z",
       "PublishedAtDateTimeOffset": "2023-11-17T17:12:41+00:00",
       "PublishedAt": "2023-11-17T22:42:41+05:30",
@@ -226,7 +281,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-19T13:00:32+00:00",
       "VideoPublishedAt": "2022-03-19T18:30:32+05:30"
     },
-    "ETag": "V6QQY7hlh8Zad_uuL2qygqvJuMc",
+    "ETag": "D8iZpcGozFsRWehgBjZRQGw4H0A",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby45RjNFMDhGQ0Q2RkFCQTc1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -234,7 +289,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Hector Berlioz: \nDrei Ballette aus der Oper \u00BBLes Troyens\u00AB (IV. Akt) \u2219\n\nI. Ballet (Pas des alm\u00E9es)  00:00 \u2219\nII. Ballet (Dance des esclaves)  03:59 \u2219\nIII. Ballet (Pas d\u0027esclaves nubiennes)  09:35 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 10. Februar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 4,
+      "Position": 5,
       "PublishedAtRaw": "2023-11-17T17:13:49Z",
       "PublishedAtDateTimeOffset": "2023-11-17T17:13:49+00:00",
       "PublishedAt": "2023-11-17T22:43:49+05:30",
@@ -281,7 +336,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-05T13:00:32+00:00",
       "VideoPublishedAt": "2021-10-05T18:30:32+05:30"
     },
-    "ETag": "wXikLzod7sm1AR17prLyhOoE3ic",
+    "ETag": "njFhYN65vfw0sdJTBHnje6TLkqQ",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5GM0Q3M0MzMzY5NTJFNTdE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -289,7 +344,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Hector Berlioz: \nSymphonie fantastique op. 14\n\u00C9pisode de la vie d\u2019un artiste\n\nI. R\u00EAveries \u2013 Passions (Tr\u00E4ume \u2013 Leidenschaften)  00:00 \u2219\nII. Un bal (Ein Ball)  15:30 \u2219\nIII. Sc\u00E8ne aux champs (Szene auf dem Lande)  21:27 \u2219\nIV. Marche au supplice (Gang zum Richtplatz)  37:30 \u2219 \nV. Songe d\u0027une nuit du sabbat (Traum einer Sabbatnacht)  43:35 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. September 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 5,
+      "Position": 6,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -336,7 +391,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-03-03T11:00:45+00:00",
       "VideoPublishedAt": "2024-03-03T16:30:45+05:30"
     },
-    "ETag": "gLS1DX43hchjZ9ESWkdgK3FSuWY",
+    "ETag": "f0wT5VVkOmh3mIvtDvqy1NDISXc",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5GNDg1Njc1QzZERjlFRjE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -344,7 +399,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Johannes Brahms: \n2. Sinfonie D-Dur op. 73 \u2219\n\nI. Allegro non troppo  00:00 \u2219\nII. Adagio non troppo  19:11 \u2219\nIII. Allegretto grazioso (Quasi Andantino)  28:37 \u2219\nIV. Allegro con spirito  33:50 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 24. November 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 6,
+      "Position": 7,
       "PublishedAtRaw": "2024-03-07T20:05:13Z",
       "PublishedAtDateTimeOffset": "2024-03-07T20:05:13+00:00",
       "PublishedAt": "2024-03-08T01:35:13+05:30",
@@ -391,7 +446,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-12-20T13:00:42+00:00",
       "VideoPublishedAt": "2025-12-20T18:30:42+05:30"
     },
-    "ETag": "BsaPw6okgnlWWbKz2SNSvOxx2Iw",
+    "ETag": "PJ2mT3-gxPOOenODfASvY_sHOEQ",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby44MkM2RjVEQkQ5N0I2MjVE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -399,7 +454,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Johannes Brahms: \n3. Sinfonie F-Dur op. 90 \u2219\n\nI. Allegro con brio  00:00 \nII. Andante  13:06 \u2219\nIII. Poco Allegretto  20:48 \u2219\nIV. Allegro  27:23 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 22. Mai 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 7,
+      "Position": 8,
       "PublishedAtRaw": "2025-12-20T21:29:17Z",
       "PublishedAtDateTimeOffset": "2025-12-20T21:29:17+00:00",
       "PublishedAt": "2025-12-21T02:59:17+05:30",
@@ -446,7 +501,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-20T13:15:42+00:00",
       "VideoPublishedAt": "2022-03-20T18:45:42+05:30"
     },
-    "ETag": "QG9yLjIlFyaN3sB-L4UAngAxiuU",
+    "ETag": "Hbd2CjGIG9FJGZvQX4C2aZ9lPrU",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby43NDhFRTgwOTRERTU4Rjg3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -454,7 +509,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Frank Bridge: \nThe Sea \u2219\n\nI. Seascape. Allegro ben moderato  00:00 \u2219 \nII. Sea Foam. Allegro vivo  06:48 \u2219 \nIII. Moonlight. Adagio non troppo  09:26 \u2219 \nIV. Storm. Allegro energico \u2013 Allegro moderato e largamente  15:04 \u2219 \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 10. Februar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 8,
+      "Position": 9,
       "PublishedAtRaw": "2023-11-17T16:14:13Z",
       "PublishedAtDateTimeOffset": "2023-11-17T16:14:13+00:00",
       "PublishedAt": "2023-11-17T21:44:13+05:30",
@@ -501,7 +556,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-07-15T12:00:11+00:00",
       "VideoPublishedAt": "2022-07-15T17:30:11+05:30"
     },
-    "ETag": "XKWxtStkBk1WMZv2-th-bvg7t3E",
+    "ETag": "xDAHpyZHxad7aPNyt621NoJcN2k",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4wRjhFM0MxMTU1MEUzQ0VB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -509,7 +564,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Emmanuel Chabrier: \nEspa\u00F1a \u2219\nRhapsodie f\u00FCr Orchester \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. Juni 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 9,
+      "Position": 10,
       "PublishedAtRaw": "2024-12-11T20:55:39Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:55:39+00:00",
       "PublishedAt": "2024-12-12T02:25:39+05:30",
@@ -556,7 +611,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-06-19T11:43:04+00:00",
       "VideoPublishedAt": "2019-06-19T17:13:04+05:30"
     },
-    "ETag": "usSwy0YKhMPPEf-_y1_1nPWZr8U",
+    "ETag": "0SUbYuPWdIXt7QYM8HdOfXQ4ZAg",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5CMEVBRUJERkUyNTBENTkz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -564,7 +619,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Eine Konzertsuite aus dem lyrischen Drama \u0022Pell\u00E9as et M\u00E9lisande\u0022 von Claude Debussy - arrangiert von Alain Altinoglu, der das WDR Sinfonieorchester auch dirigiert. Eine Aufzeichnung vom 2. Februar 2019 aus der K\u00F6lner Philharmonie.  \n\nClaude Debussy / Alain Altinoglu (arr.) - Konzertsuite aus dem lyrischen Drama \u0022Pell\u00E9as et M\u00E9lisande\u0022 \n\nTr\u00E8s mod\u00E9r\u00E9 \u2013 Plus lent \u2013 Mod\u00E9r\u00E9 \u2013 Pas vite \u2013 Tr\u00E8s mod\u00E9r\u00E9 et tr\u00E8s expressif \u2013 Lourd et sombre \u2013 Toujours mod\u00E9r\u00E9 et avec la plus grande expression \u2013 Tr\u00E8s lent\n\nWDR Sinfonieorchester\nAlain Altinoglu, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://www.wdr-sinfonieorchester.de\n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung:\nIn Maurice Maeterlincks B\u00FChnenst\u00FCck \u00BBPell\u00E9as et M\u00E9lisande\u00AB findet Prinz Golaud im d\u00FCsteren Wald die r\u00E4tselhafte, sch\u00F6ne M\u00E9lisande. Sie folgt ihm auf sein Schloss und wird seine Frau. Doch sie verliebt sich in Golauds Bruder Pell\u00E9as \u2013 und das Schicksal nimmt seinen Lauf ... Von der m\u00E4rchenhaften Atmosph\u00E4re und geheimnisvoll-beschw\u00F6renden Sprache des St\u00FCcks war Claude Debussy sofort fasziniert. \nZehn lange Jahre besch\u00E4ftigte sich Debussy mit der Vertonung von \u00BBPell\u00E9as et M\u00E9lisande\u00AB. Uraufgef\u00FChrt wurde seine einzige vollendete Oper am 30. April 1902 an der Pariser Op\u00E9ra-Comique. Der Erfolg war zun\u00E4chst m\u00E4\u00DFig, doch in den Folgejahren schaffte das Werk den Sprung auf die europ\u00E4ischen Opernb\u00FChnen und bis in die USA. Heute gilt es als Meilenstein der franz\u00F6sischen Oper am Beginn des 20. Jahrhunderts.\n\u25BA Hier die vollst\u00E4ndige Werkeinf\u00FChrung weiterlesen: https://www1.wdr.de/orchester-und-chor/sinfonieorchester/werkeinfuehrungen/debussy-pelleas-und-melisande-100.html\n(Text: Tilla Cl\u00FCsserath)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 10,
+      "Position": 11,
       "PublishedAtRaw": "2025-08-25T06:45:12Z",
       "PublishedAtDateTimeOffset": "2025-08-25T06:45:12+00:00",
       "PublishedAt": "2025-08-25T12:15:12+05:30",
@@ -611,7 +666,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-02T12:15:01+00:00",
       "VideoPublishedAt": "2022-06-02T17:45:01+05:30"
     },
-    "ETag": "59ffGpuSwZx8nszRiiC0U8Wz18o",
+    "ETag": "Jd9nEVRZRbBcjBmohrKZx9AGU8E",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4zRDBDOEZDOUM0MDY5NEEz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -619,7 +674,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Claude Debussy: \nFantaisie pour piano et orchestre \u2219\n\nI. Andante ma non troppo  00:00 \u2219\nII. Lent (tr\u00E8s espressif)  08:39 \u2219\nIII. Allegro molto  17:34 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nPierre-Laurent Aimard, Klavier \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 29. April 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 11,
+      "Position": 12,
       "PublishedAtRaw": "2023-11-17T16:17:05Z",
       "PublishedAtDateTimeOffset": "2023-11-17T16:17:05+00:00",
       "PublishedAt": "2023-11-17T21:47:05+05:30",
@@ -666,7 +721,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-11-13T12:00:50+00:00",
       "VideoPublishedAt": "2023-11-13T17:30:50+05:30"
     },
-    "ETag": "WyKbxhQjPfbCXdkkonbI9ouOItw",
+    "ETag": "woiFn3I5SjI0IoptPz0EJEzE5K4",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41NkI0NEY2RDEwNTU3Q0M2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -674,7 +729,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Claude Debussy: \nLa Mer \u2219 \nTrois esquisses symphoniques pour orchestre \u2219\n\nI. De l\u2019aube \u00E0 midi sur la mer. Tr\u00E8s lent  00:00 \u2219\nII. Jeux de vagues. Allegro  09:06 \u2219\nIII. Dialogue du vent et de la mer. Anim\u00E9 et tumultueux  16:35 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 22. September 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 12,
+      "Position": 13,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -721,7 +776,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-06-17T10:30:12+00:00",
       "VideoPublishedAt": "2023-06-17T16:00:12+05:30"
     },
-    "ETag": "kq0HUIhKZ95sask6K6H9s71mdkI",
+    "ETag": "Ys50hs0NrDNkg3OHYqHFkQN2pZM",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5DQ0MyQ0Y4Mzg0M0VGOEYw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -729,7 +784,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Henri Dutilleux:\n2. Sinfonie \u00BBLe Double\u00AB \u2219\n\nI. Animato, ma misterioso  00:00 \u2219 \nII. Andantino sostenuto  08:33\u2219 \nIII. Allegro fuocoso \u2013 Calmato  17:37 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nForum N \u2219\nhr-Sendesaal Frankfurt, 18. M\u00E4rz 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 13,
+      "Position": 14,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -771,12 +826,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "bprw42vBUMg",
+      "VideoPublishedAtRaw": "2026-07-11T12:00:39Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-11T12:00:39+00:00",
+      "VideoPublishedAt": "2026-07-11T17:30:39+05:30"
+    },
+    "ETag": "qS76omDLNDNHQ0dE-PlEDT9LsrM",
+    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4yM0EyQ0U1M0I2RkIwNTQ0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton\u00EDn Dvo\u0159\u00E1k: \n9. Sinfonie e-Moll op. 95 (\u00BBAus der Neuen Welt\u00AB) \u2219\n\nI. Adagio \u2013 Allegro molto 00:00 \u2219\nII. Largo 09:47 \u2219\nIII. Scherzo. Molto vivace 21:54 \u2219\nIV. Allegro con fuoco 29:57 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 6. Juni 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
+      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
+      "Position": 15,
+      "PublishedAtRaw": "2026-07-11T15:18:47Z",
+      "PublishedAtDateTimeOffset": "2026-07-11T15:18:47+00:00",
+      "PublishedAt": "2026-07-11T20:48:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "bprw42vBUMg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/bprw42vBUMg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/bprw42vBUMg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/bprw42vBUMg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/bprw42vBUMg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/bprw42vBUMg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k: 9. Sinfonie (\u00BBAus der Neuen Welt\u00AB) \u2219 hr-Sinfonieorchester \u2219 Alain Altinoglu",
+      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "kvNYTDtYBfM",
       "VideoPublishedAtRaw": "2022-07-23T12:00:21Z",
       "VideoPublishedAtDateTimeOffset": "2022-07-23T12:00:21+00:00",
       "VideoPublishedAt": "2022-07-23T17:30:21+05:30"
     },
-    "ETag": "NiqVc0Ags-HOwM2lsqNEysiFVgA",
+    "ETag": "NTGg1SFbRleNqo-H_XrCDkr53Ho",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5EQUE1NTFDRjcwMDg0NEMz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -784,7 +894,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anton\u00EDn Dvo\u0159\u00E1k: \nDas goldene Spinnrad op. 109 \u2219\nSinfonische Dichtung \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nRheingau Musik Festival 2022 \u2219 \nEr\u00F6ffnungskonzert \u2219\nKloster Eberbach, 25. Juni 2022 \u2219 \n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 14,
+      "Position": 16,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -831,7 +941,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-03-02T11:00:27+00:00",
       "VideoPublishedAt": "2024-03-02T16:30:27+05:30"
     },
-    "ETag": "_cLRCNjQMREf0FWn99JO8b1J71Y",
+    "ETag": "EEq7vgRvkFELyEEmBfMV_O2O7nM",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5BRjJDODk5REM0NjkzMUIy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -839,7 +949,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anton\u00EDn Dvo\u0159\u00E1k: \nIn der Natur op. 91 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 24. November 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 15,
+      "Position": 17,
       "PublishedAtRaw": "2024-03-07T20:04:41Z",
       "PublishedAtDateTimeOffset": "2024-03-07T20:04:41+00:00",
       "PublishedAt": "2024-03-08T01:34:41+05:30",
@@ -886,7 +996,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-09-21T12:00:44+00:00",
       "VideoPublishedAt": "2024-09-21T17:30:44+05:30"
     },
-    "ETag": "TUeF_N_RIOVT6hVP8S6szdLzCYs",
+    "ETag": "zkSCUloeMMQqwZOVJUobr1XUZnI",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5GNjAwN0Y0QTFGOTVDMEMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -894,7 +1004,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anton\u00EDn Dvo\u0159\u00E1k:\nViolinkonzert a-Moll op. 53 \u2219\n\nI. Allegro ma non troppo  00:00 \u2219\nII. Adagio ma non troppo  10:07 \u2219\nIII. Finale: Allegro giocoso, ma non troppo  19:26 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nChristian Tetzlaff, Violine \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nRheingau Musik Festival 2024 \u2219 \nEr\u00F6ffnungskonzert \u2219\nKloster Eberbach, 22. Juni 2024 \u2219 \n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 16,
+      "Position": 18,
       "PublishedAtRaw": "2024-12-11T20:52:34Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:52:34+00:00",
       "PublishedAt": "2024-12-12T02:22:34+05:30",
@@ -941,7 +1051,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-06-28T12:01:34+00:00",
       "VideoPublishedAt": "2025-06-28T17:31:34+05:30"
     },
-    "ETag": "HIq-gSnpI_-ZywKAP_4XL6JlGUQ",
+    "ETag": "gJPkINyp-WUMu8IjIQ9oW0RpvAQ",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4wMDFGNzBEOTU4Q0Y1Q0RG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -949,7 +1059,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Thierry Escaich: \nBallade \nf\u00FCr Bigband und Orchester \u2219\n\nAuftragswerk des Hessischen Rundfunks \u2219\nUrauff\u00FChrung \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nhr-Bigband \u2013 Frankfurt Radio Big Band \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 14. M\u00E4rz 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 17,
+      "Position": 19,
       "PublishedAtRaw": "2025-11-15T08:41:25Z",
       "PublishedAtDateTimeOffset": "2025-11-15T08:41:25+00:00",
       "PublishedAt": "2025-11-15T14:11:25+05:30",
@@ -996,7 +1106,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-08-25T20:35:12+00:00",
       "VideoPublishedAt": "2022-08-26T02:05:12+05:30"
     },
-    "ETag": "CBf-TwVHvc4LCjx-oW2tn9cRckw",
+    "ETag": "sv4NCmNp5U67FR7SEAsbbk4d2YE",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5ENjI1QUI0MDI5NEQzODFE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1004,7 +1114,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Europa Open Air des hr-Sinfonieorchesters und der Europ\u00E4ischen Zentralbank 2022\n\n(Start) 0:00:00 \u2219\n\nGru\u00DFworte: Christine Lagarde (Pr\u00E4sidentin Europ\u00E4ische Zentralbank) / Florian Hager (Intendant Hessischer Rundfunk)  0:01:16 \u2219 \n\nGiuseppe Verdi: Die Macht des Schicksals \u2013 Ouvert\u00FCre  0:07:21 \u2219\n\nFr\u00E9d\u00E9ric Chopin: 2. Klavierkonzert  0:19:21 \u2219\n\nZugabe: Franz Liszt: La Campanella \u2013 aus: Grandes \u00E9tudes de Paganini  0:55:41 \u2219\n\nClaude Debussy: Trois Nocturnes  1:05:14 \u2219\n\nMieczys\u0142aw Weinberg: Suite f\u00FCr Orchester  1:32:07 \u2219\n\nZugabe: Johannes Brahms: Ungarischer Tanz Nr. 6 (Arrangeur: Albert Parlow)  1:54:05 \u2219\n\nZugabe: Kurt Westphal: Im Herzen von Europa (Arrangeur: Ingo Laufs)  1:58:10 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \nYoav Levanon, Klavier\nEnsemble aus Frankfurter Kantorei, C\u00E4cilienchor Frankfurt, \nFiguralchor Frankfurt und Frankfurter Singakademie\nPhilipp Ahmann, Einstudierung \nAlain Altinoglu, Dirigent\n \nWeseler Werft Frankfurt, 25. August 2022 \n \n\nNach zweij\u00E4hriger Pause l\u00E4dt das hr-Sinfonieorchester mit der Europ\u00E4ischen Zentralbank endlich wieder zum Open Air an das Frankfurter Mainufer. Diesmal wird es eine Sommernacht werden, in der die Nacht selbst musikalisch im Mittelpunkt steht \u2013 nicht zuletzt auch in Form des \u00BBNocturne\u00AB, des \u00BBNachtst\u00FCcks\u00AB. Fr\u00E9d\u00E9ric Chopin war ein Meister dieser verschatteten T\u00F6ne, auch der franz\u00F6sische Impressionist Claude Debussy. Und auch die Musik des Polen Mieczys\u0142aw Weinberg f\u00FCgt sich in diese Stimmung ein. Er\u00F6ffnet wird der Abend opernhaft dramatisch mit der Ouvert\u00FCre zu \u00BBDie Macht des Schicksals\u00AB des Italieners Giuseppe Verdi. \n____________________________  \n \nAfter a two-year break, the Frankfurt Radio Symphony and the European Central Bank finally invite you back to the Open Air at Frankfurt\u0027s Main embankment. This time it will be a summer night in which the night itself is the musical focus \u2013 not least in the form of the \u00BBNocturne\u00AB, the \u00BBNight Piece\u00AB. Fr\u00E9d\u00E9ric Chopin was a master of these shadowy tones, as was the French impressionist Claude Debussy. And the music of the Pole Mieczys\u0142aw Weinberg also fits into this mood. The evening opens operatically dramatic with the overture to \u00BBThe Power of Destiny\u00AB by the Italian Giuseppe Verdi.",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 18,
+      "Position": 20,
       "PublishedAtRaw": "2024-11-26T11:29:39Z",
       "PublishedAtDateTimeOffset": "2024-11-26T11:29:39+00:00",
       "PublishedAt": "2024-11-26T16:59:39+05:30",
@@ -1051,7 +1161,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-08-31T20:00:20+00:00",
       "VideoPublishedAt": "2023-09-01T01:30:20+05:30"
     },
-    "ETag": "uvztPBSH4OlHS6iqaoT7MwgCNxE",
+    "ETag": "3cg8L3sdq-RjUGYpDs2Vek_fpWc",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby40QzRDOEU0QUYwNUIxN0M1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1059,7 +1169,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Europa Open Air  \ndes hr-Sinfonieorchesters und der Europ\u00E4ischen Zentralbank \u2022 \n\n(Start \u0026 Gru\u00DFwort)  00:00 \u2219 \n\nErich Wolfgang Korngold: Der Herr der sieben Meere \u2013 Suite  0:05:50 \u2022\n \nPaul Dukas: L\u2019Apprenti sorcier (Der Zauberlehrling)  0:19:54 \u2022\n \nJoaqu\u00EDn Rodrigo:  Concierto de Aranjuez 0:37:12 \u2022 \n \nRichard Strauss: Till Eulenspiegels lustige Streiche  1:08:10 \u2022\n \nMaurice Ravel: Bol\u00E9ro  1:25:40 \u2022\n\nZugaben:\nManuel de Falla: Danza ritual del Fuego  1:42:22 \u2022 \n\nClaude Debussy: Clair de lune  1:47:46 \u2022 \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony\u202F\u2022 \nMILO\u0160, Gitarre \u2022 \nAlain Altinoglu, Dirigent \u2022 \n \nWeseler Werft Frankfurt, 31. August 2023 \u2022\u202F \n \n \nZu Saison-Beginn l\u00E4dt das hr-Sinfonieorchester mit der Europ\u00E4ischen Zentralbank wieder zum Open Air. In der au\u00DFergew\u00F6hnlichen Atmosph\u00E4re am Frankfurter Mainufer werden diesmal mit Chefdirigent Alain Altinoglu musikalische Geschichten pr\u00E4sentiert, die gro\u00DFe Erfolge auch im Kino feierten: wie etwa \u00BBDer Zauberlehrling\u00AB, \u00BBTill Eulenspiegels lustige Streiche\u00AB und der \u00BBHerr der sieben Meere\u00AB. Aber auch mediterrane Farben und Rhythmen werden am Frankfurter Mainufer ihre Wirkung entfalten im ber\u00FChmten \u00BBConcierto de Aranjuez\u00AB, dem \u00BBPr\u00E9lude \u00E0 l\u0027apr\u00E8s-midi d\u0027un faune\u00AB und dem \u00BBBol\u00E9ro\u00AB.  \n____________________________   \n \nAt the beginning of the season, the Frankfurt Radio Symphony and the European Central Bank once again invite you to an Open Air Concert. In the extraordinary atmosphere on the banks of the Main River in Frankfurt this time musical stories will be presented with Music Director Alain Altinoglu that have also enjoyed great success in the cinema: such as \u00BBThe Sorcerer\u0027s Apprentice\u00AB, \u00BBTill Eulenspiegel\u0027s Merry Pranks\u00AB and the \u00BBLord of the Seven Seas\u00AB. But Mediterranean colors and rhythms will also have their effect on Frankfurt\u0027s banks of the Main in the famous \u00BBConcierto de Aranjuez\u00AB, the \u00BBPr\u00E9lude \u00E0 l\u0027apr\u00E8s-midi d\u0027un faune\u00AB and the \u00BBBol\u00E9ro\u00AB.",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 19,
+      "Position": 21,
       "PublishedAtRaw": "2024-11-26T11:27:39Z",
       "PublishedAtDateTimeOffset": "2024-11-26T11:27:39+00:00",
       "PublishedAt": "2024-11-26T16:57:39+05:30",
@@ -1106,7 +1216,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-08-22T20:04:06+00:00",
       "VideoPublishedAt": "2024-08-23T01:34:06+05:30"
     },
-    "ETag": "kxzx3SPFZTphmn20y93Z0pnvVAw",
+    "ETag": "MwpfnLQUsMOsAG8GcNj7DDKqhRs",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5DRUQwODMxQzUyRTlGRkY3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1114,7 +1224,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Europa Open Air \ndes hr-Sinfonieorchesters und der Europ\u00E4ischen Zentralbank\n\n(Start \u002B Intro)  00:00\n\nRichard Wagner: Die Meistersinger von N\u00FCrnberg \u2013 Vorspiel  05:36\n\nWolfgang Amadeus Mozart: \u00BBAh, lo previdi\u00AB \u2013 Rezitativ und Arie  21:05\n\nWolfgang Amadeus Mozart: Idomeneo \u2013 Rezitativ und Arie \u00BBOh Smania!\u00AB  35:38\n\nZugabe: Johann Strauss: Die Fledermaus \u2013 Cs\u00E1rd\u00E1s  45:49\n\nBed\u0159ich Smetana: Die Moldau  54:05\n\nModest Mussorgskij/Maurice Ravel: Bilder einer Ausstellung  01:10:58\n\nZugabe: Mussorgskij/Ravel: Bilder einer Ausstellung \u2013 Das gro\u00DFe Tor von Kiew  01:45:55\n\nZugabe  Claude Debussy: Clair de lune  01:50:00\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \nHanna-Elisabeth M\u00FCller, Sopran\nAlain Altinoglu, Dirigent\n\nWeseler Werft Frankfurt, 22. August 2024 \n\n\nZum Saison-Auftakt l\u00E4dt das hr-Sinfonieorchester mit der Europ\u00E4ischen Zentralbank wieder zum Open Air. In der au\u00DFergew\u00F6hnlichen Atmosph\u00E4re am Frankfurter Mainufer stehen mit Chefdirigent Alain Altinoglu diesmal zwei popul\u00E4re Orchesterwerke im Zentrum: Bed\u0159ich Smetanas \u00BBDie Moldau\u00AB und Modest Mussorgskijs \u00BBBilder einer Ausstellung\u00AB in der Orchesterfassung von Maurice Ravel. Bereichert wird der Open-Air-Abend zudem von zwei bekannten Mozart-Arien und Richard Wagners \u00BBMeistersinger-Vorspiel\u00AB. \n____________________________  \n\nTo kick off the season, the Frankfurt Radio Symphony and the European Central Bank once again invite you to an open-air concert. In the extraordinary atmosphere on the banks of the Main in Frankfurt, two popular orchestral works take center stage this time with Music Director Alain Altinoglu: Bed\u0159ich Smetana\u0027s \u00BBThe Moldau\u00AB and Modest Mussorgsky\u0027s \u00BBPictures at an Exhibition\u00AB in the orchestral version by Maurice Ravel. The open-air evening on the banks of the Main in Frankfurt will also be enriched by two well-known Mozart arias and Richard Wagner\u0027s \u00BBMeistersinger Prelude\u00AB. \n\n\nHomepage:\nhttps://www.hr-sinfonieorchester.de\n\nFacebook:\nhttps://www.facebook.com/hrsinfonieorchester\n\nARD Mediathek:\nhttps://www.ardmediathek.de/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ\n\nSpenden / Donations:\nhttps://www.hr-sinfonieorchester.de/spende-102.html\n\n\nhr-Sinfonieorchester: \n\nhr-Musikchef: Michael Traub \nProjektleitung: Armin Wunsch \nDramaturgie: Andreas Maul   \nProjektbeauftragte: Elena Trifonova \n \nProduktion Hessischer Rundfunk: \n\nK\u00FCnstlerische Produktion: Astrid Gubin \nTonmeister: Christoph Cla\u00DFen  \nToningenieur: Robin B\u00F6s  \nTechnische Leitung Ton: Till Helfrich \nToningenieur FoH: Dirk Cu\u00DFnick, Dirk Platen \nToningenieur Monitor SO:  Francisco Hitzel \nTontechnik: Artur B\u00FCschel, David Gumper, Jonas Karle, Alex Kolb, Rupert Loose, Achim Weisfeld,\nFrank Wagner \n \nProjektleitung \u0026 Produktion: Tim Wirth \nProduktion: Svenja Schuto \nVeranstaltungsmeister: Stefan R\u00F6der \nVeranstaltungsleitung: G\u00FCnther Sp\u00F6rl \n \nKamera: Sven Bader, Gisela Dienersberger, Uta Gro\u00DFkopf, Sebastian Krausse, Sandra K\u00F6mpf, Jakob Parb, Remo Rink, Joelle Schichtel, Frank Scheufler , Gian Luca Schneider, Martin Saliger, Peter Treutel \nLicht: Walter Hopf  \nAufnahmeleitung: Alexander Militz \nSet-AL: Oscar Hass \nLive Streaming: Ralph Lewerenz \n \nTechnische Leitung Bild: Andy F\u00F6rster \nProduktionstechnik: Martin Fabriz, Andreas Koert, Eric Kirchheim, Vincenzo Linardi, Sven R\u00FCck, Florian Selzer \nBildmischung: Britta Moritz \nRegieassistenz: Frederike Webel \nRegie: Nele M\u00FCnchmeyer  \nProducer: Nikolas Pieper, Alexander Militz \n \nModeration: H\u00FClya Deyneli, Tim Fr\u00FChling \n \nRedaktion: Alexander C. Stenzel \nMusikredaktion Peter Ernst\u2003 \nRedaktionsassistenz: Dorothea Duhme, Saskia Roland \nRedaktionsleitung: Frank Lauber \nProduktionsleitung: Carl Schmitt\n\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 20,
+      "Position": 22,
       "PublishedAtRaw": "2024-11-26T11:26:30Z",
       "PublishedAtDateTimeOffset": "2024-11-26T11:26:30+00:00",
       "PublishedAt": "2024-11-26T16:56:30+05:30",
@@ -1161,7 +1271,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-14T13:00:26+00:00",
       "VideoPublishedAt": "2022-03-14T18:30:26+05:30"
     },
-    "ETag": "ozqiGqj-YjVML1chqIrZR3j60Jg",
+    "ETag": "7A9rlzf1FxDxK399FAjIEYeBsaU",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5ERkUyQTM0MzEwQjZCMTY5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1169,7 +1279,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "C\u00E9sar Franck: \nLe chasseur maudit \u2219 \nPo\u00E8me symphonique \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 21. Januar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 21,
+      "Position": 23,
       "PublishedAtRaw": "2024-12-11T20:56:24Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:56:24+00:00",
       "PublishedAt": "2024-12-12T02:26:24+05:30",
@@ -1216,7 +1326,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-14T13:30:21+00:00",
       "VideoPublishedAt": "2022-03-14T19:00:21+05:30"
     },
-    "ETag": "gVYRvb81hmV5mwndQfjl3S9wcMk",
+    "ETag": "U9jXYrUUt5_Hgfygjtfb9mhxW4Q",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4yMUQyQTQzMjRDNzMyQTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1224,7 +1334,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "C\u00E9sar Franck: \nSinfonie d-Moll \u2219\n\nI. Lento \u2013 Allegro non troppo  00:00 \u2219\nII. Allegretto  16:39 \u2219\nIII. Allegro non troppo  25:44 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 21. Januar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 22,
+      "Position": 24,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -1271,7 +1381,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-03-20T20:48:52+00:00",
       "VideoPublishedAt": "2026-03-21T02:18:52+05:30"
     },
-    "ETag": "c7Yn6ofxQQH0lOGkgZ0vwl450TI",
+    "ETag": "fXph5OJrkaKSxUk1TKRAZJFPvTA",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5EMzJDRTUwQjBEOUVFQzAw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1279,7 +1389,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Gustav Mahler\nSymphony No. 9\n\nAlain Altinoglu | conductor\n\nAlte Oper Frankfurt, March 20, 2026 \u2219\n_______________________\n\n\u00BBMahler\u0027s soul sings its farewell!\u00AB \u2013 There are many famous words like this about the 9th Symphony. And they often refer to farewell, the end, the abyss. This deeply moving work is an end point in sound \u2013 and at the same time a high point of the entire genre, of the era. \n__________\n\u00BBMahlers Seele singt ihren Abschied!\u00AB \u2013 ber\u00FChmte Worte wie dieses gibt es zahlreich \u00FCber die 9. Sinfonie. Und oft ist dabei von Abschied die Rede, vom Ende, vom Abgrund. Dieses tief bewegende Werk ist ein Klang gewordener Endpunkt \u2013 und zugleich ein H\u00F6hepunkt der ganzen Gattung, der Epoche.  \n______________________________________\nHomepage:\nwww.hr-sinfonieorchester.de\n\nFacebook:\nwww.facebook.com/hrsinfonieorchester\n\nARD Mediathek:\nwww.ardmediathek.de/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ\n\nSpenden / Donations:\nwww.hr-sinfonieorchester.de/spende-102.html",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 23,
+      "Position": 25,
       "PublishedAtRaw": "2026-03-24T18:59:39Z",
       "PublishedAtDateTimeOffset": "2026-03-24T18:59:39+00:00",
       "PublishedAt": "2026-03-25T00:29:39+05:30",
@@ -1326,7 +1436,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-08-21T20:17:39+00:00",
       "VideoPublishedAt": "2025-08-22T01:47:39+05:30"
     },
-    "ETag": "DAlpBz_jo8cFnOJdI_sUdhkQ7vg",
+    "ETag": "1MR1DaCHzH41Dt3ouvJ_dkF-j-M",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4xNjIyNEE0MDEyRDlCMjBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1334,7 +1444,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Frankfurt Radio Symphony Live: Europa Open Air 2025 \u2013 Alain Altinoglu and Lucas \u0026 Arthur Jussen\n\n\nEuropa Open Air \ndes hr-Sinfonieorchesters und der Europ\u00E4ischen Zentralbank\n\n(Intro)  00:00\nRichard Strauss: Also sprach Zarathustra (Auszug)  02:28\n \nFelix Mendelssohn Bartholdy: Ein Sommernachtstraum \u2013 Ouvert\u00FCre  07:10\n\nFrancis Poulenc: Konzert f\u00FCr zwei Klaviere d-Moll I. Allegro ma non troppo  24:31\nII. Larghetto  32:55\nIII. Finale. Allegro molto 38:15\n\nZugabe: \nIgor Roma: Strausseinander \u2013 Bearbeitung von Melodien aus der Operette \u00BBDie Fledermaus\u00AB von Johann Strauss  45:32\n\nAram Chatschaturjan : Adagio von Spartacus und Phrygia  55:17\n\nFranz Liszt: 2. Ungarische Rhapsodie  01:06:45\n\nGustav Holst: Die Planeten (Ausz\u00FCge) I. Mars  01:19:46\nII. Venus  01:27:37\nIII. Merkur  01:34:57\nIV. Jupiter  01:39:23\n\nZugaben: \nJohn Williams: Star Wars (Hauptthema)  01:49:33\nErik Satie: 1. Gymnop\u00E9die   01:57:12\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \nLucas \u0026 Arthur Jussen, Klavier\nAlain Altinoglu, Dirigent\n\nWeseler Werft Frankfurt, 21. August 2025 \n\n\nZum Saison-Auftakt l\u00E4dt das hr-Sinfonieorchester mit der Europ\u00E4ischen Zentralbank wieder zum Open Air. In der au\u00DFergew\u00F6hnlichen Atmosph\u00E4re am Frankfurter Mainufer stehen mit Chefdirigent Alain Altinoglu diesmal popul\u00E4re Orchesterwerke von Mendelssohn, Chatschaturjan und Holst auf dem Programm. Zudem ist ein das Konzert f\u00FCr zwei Klaviere von Francis Poulenc zu erleben sowie die bekannte \u00BB2. Ungarische Rhapsodie\u00AB von Liszt.\n____________________________  \n\nTo kick off the season, the Frankfurt Radio Symphony and the European Central Bank once again invite you to an open-air concert. In the extraordinary atmosphere on the banks of the Main in Frankfurt, popular orchestral works by Mendelssohn, Khachaturian and Holst are on the program with Music Director Alain Altinoglu. The concert features Francis Poulenc\u0027s Concerto for Two Pianos and Liszt\u0027s famous \u00BBHungarian Rhapsody No. 2\u00AB as well.\n\n\nHomepage:\nhttps://www.hr-sinfonieorchester.de\n\nFacebook:\nhttps://www.facebook.com/hrsinfonieorchester\n\nARD Mediathek:\nhttps://www.ardmediathek.de/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ\n\nSpenden / Donations:\nhttps://www.hr-sinfonieorchester.de/spende-102.html",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 24,
+      "Position": 26,
       "PublishedAtRaw": "2025-09-18T23:31:38Z",
       "PublishedAtDateTimeOffset": "2025-09-18T23:31:38+00:00",
       "PublishedAt": "2025-09-19T05:01:38+05:30",
@@ -1381,7 +1491,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-06-14T12:01:24+00:00",
       "VideoPublishedAt": "2025-06-14T17:31:24+05:30"
     },
-    "ETag": "iwM2XMfZfv-fzF0prAL7wFuiSnw",
+    "ETag": "8LFs9KxofGNQsugJ2bJvbTZoVDk",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4xN0Y2QjVBOEI2MzQ5OUM5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1389,7 +1499,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "George Gershwin: \nAn American in Paris \u2219\nTondichtung f\u00FCr Orchester\n(Originalfassung) \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 14. M\u00E4rz 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 25,
+      "Position": 27,
       "PublishedAtRaw": "2025-06-14T12:10:22Z",
       "PublishedAtDateTimeOffset": "2025-06-14T12:10:22+00:00",
       "PublishedAt": "2025-06-14T17:40:22+05:30",
@@ -1436,7 +1546,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-06-21T12:01:02+00:00",
       "VideoPublishedAt": "2025-06-21T17:31:02+05:30"
     },
-    "ETag": "C2eD4t7ixyovTeiBXIvk_e0kRIs",
+    "ETag": "XPELLbsvisuNDVJUs_zPu51OZEE",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5FQUY2Qzk4RUFDN0ZFRkZF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1444,7 +1554,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "George Gershwin: \nRhapsody in Blue \u2219\nf\u00FCr Klavier und Orchester\norchestriert von Ferde Grof\u00E9 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent/Klavier \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 14. M\u00E4rz 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 26,
+      "Position": 28,
       "PublishedAtRaw": "2025-06-23T03:50:07Z",
       "PublishedAtDateTimeOffset": "2025-06-23T03:50:07+00:00",
       "PublishedAt": "2025-06-23T09:20:07+05:30",
@@ -1491,7 +1601,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-03-02T11:15:03+00:00",
       "VideoPublishedAt": "2024-03-02T16:45:03+05:30"
     },
-    "ETag": "-ymBkkOJE0R_Bhq6-cXf6cK3A6A",
+    "ETag": "19IEs0KUkPkbH19ICn-I2mX38yo",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby40QTA3NTU2RkM1QzlCMzYx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1499,7 +1609,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Edvard Grieg: \nKlavierkonzert a-Moll op. 16 \u2219\n\nI. Allegro molto moderato  00:00 \u2219\nII. Adagio  13:26 \u2219\nIII. Allegro moderato molto e marcato  19:35 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nJan Lisiecki, Klavier \u00B7 \nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 24. November 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 27,
+      "Position": 29,
       "PublishedAtRaw": "2024-03-07T20:04:35Z",
       "PublishedAtDateTimeOffset": "2024-03-07T20:04:35+00:00",
       "PublishedAt": "2024-03-08T01:34:35+05:30",
@@ -1546,7 +1656,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-09-15T11:30:11+00:00",
       "VideoPublishedAt": "2021-09-15T17:00:11+05:30"
     },
-    "ETag": "SKYfavs-H-FRrqbKGEkmHXaGD3E",
+    "ETag": "r1F7xdhTxCFQfH8Yu0CF0DXcDB8",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby45NzUwQkI1M0UxNThBMkU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1554,7 +1664,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Paul Hindemith: \nSinfonische Metamorphosen nach Themen von Carl Maria von Weber \u2219  \n\nI. Allegro  00:00 \u2219\nII. Scherzo (Turandot)  04:13 \u2219\nIII. Andantino  12:10 \u2219\nIV. Marsch  16:16 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nFestkonzert 40 Jahre Alte Oper Frankfurt \u2219\nAlte Oper Frankfurt, 28. August 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 28,
+      "Position": 30,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -1601,7 +1711,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-05-13T12:00:22+00:00",
       "VideoPublishedAt": "2026-05-13T17:30:22+05:30"
     },
-    "ETag": "lMo9QydMe7TNFyFCcY2z4mv2Wxc",
+    "ETag": "HkT_CJZlG6seGPWXJsAeaGCmENo",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5GMDBDNkJGMzYzREUyMTYw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1609,7 +1719,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das Symphonieorchester des Bayerischen Rundfunks unter Leitung von Alain Altinoglu spielt \u0022Pacific 231\u0022 von Arthur Honegger. Die Aufnahme entstand am 6. M\u00E4rz 2026 im Herkulessaal der M\u00FCnchner Residenz.\n\nArthur Honegger - \u0022Pacific 231\u0022\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Alain Altinoglu\n\n\u25BA Web: https://www.brso.de/ \n\u25BA Facebook: https://www.facebook.com/brso/ \n\u25BA Instagram: https://www.instagram.com/brsorchestra/ \n\n\u25BA Web:  https://www.br-klassik.de/ \n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum  \nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette \nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 29,
+      "Position": 31,
       "PublishedAtRaw": "2026-05-17T18:08:07Z",
       "PublishedAtDateTimeOffset": "2026-05-17T18:08:07+00:00",
       "PublishedAt": "2026-05-17T23:38:07+05:30",
@@ -1656,7 +1766,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-07-16T12:00:22+00:00",
       "VideoPublishedAt": "2022-07-16T17:30:22+05:30"
     },
-    "ETag": "fYg7_ByMWRKCITpqr08R7Y0RznU",
+    "ETag": "nT-ohgCE3hV60ZzzDvyk3LC5oGs",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41QTY1Q0UxMTVCODczNThE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1664,7 +1774,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Jacques Ibert: \nEscales \u2219\n\nI. Rome \u2013 Palerme: Calme \u2013 Assez anim\u00E9 \u2013 1er mouvement  00:00 \u2219\nII. Tunis \u2013 Nefta: Mod\u00E9r\u00E9, tr\u00E8s rythm\u00E9  06:45 \u2219 \nIII. Valencia: Anim\u00E9 \u2013 Mod\u00E9r\u00E9 \u2013 Mouvement du d\u00E9but  09:11 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. Juni 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 30,
+      "Position": 32,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -1711,7 +1821,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-12-15T17:49:55+00:00",
       "VideoPublishedAt": "2024-12-15T23:19:55+05:30"
     },
-    "ETag": "QyfqXqBFvQuxUrqgI1bSWVm8R0A",
+    "ETag": "f33wjFd-r8K_gihG8lNqwguZeSo",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby43QzNCNkZENzIyMDY2MjZB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1719,7 +1829,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Andr\u00E9 Jolivet\nConcerto For Bassoon, String Orchestra And Piano (1954)\n1A. Recitativo\n1B. Allegro gioviale\n2A. Largo cantabile\n2B. Fugato\n\nSophie Dervaux-Dartigalongue - bassoon\nAlain Altinoglu - conductor\nWiener Philharmoniker - orchestra\n24th November 2024\nWiener Musikverein, live recording",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 31,
+      "Position": 33,
       "PublishedAtRaw": "2024-12-15T20:22:07Z",
       "PublishedAtDateTimeOffset": "2024-12-15T20:22:07+00:00",
       "PublishedAt": "2024-12-16T01:52:07+05:30",
@@ -1766,7 +1876,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-06-08T11:00:44+00:00",
       "VideoPublishedAt": "2023-06-08T16:30:44+05:30"
     },
-    "ETag": "EHHfqJyoXuxUCU0o1M8HvcFsLeU",
+    "ETag": "YE_1U2iHqESFX5uhGAD-j89qEXI",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41RTNBREYwMkI5QzU3RkY2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1774,7 +1884,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ligeti 100 \u2219  \nEin Klang-Raum-Konzert in drei Teilen zum 100. Geburtstag von Gy\u00F6rgy Ligeti \u2219  \n\nTeil 1: \nPo\u00E8me symphonique (f\u00FCr 100 Metronome)  0:00:00 \u2219 \nAtmosph\u00E8res (f\u00FCr Orchester)  0:05:45 \u2219 \nContinuum (f\u00FCr Cembalo)  0:13:23 \u2219 \nVolumina (f\u00FCr Orgel) \u2013 Ausschnitt  0:18:52 \u2219 \nGiovanni Pierluigi da Palestrina: Missa Papae Marcelli \u2013 Kyrie  0:23:45 \u2219 \nHamburgisches Konzert (f\u00FCr Horn und Kammerorchester)  0:27:46 \u2219 \n\nTeil 2: \nClocks and Clouds (f\u00FCr Chor und Orchester)  0:44:49 \u2219 \nArtikulation (f\u00FCr Tonband)  0:57:55 \u2219 \nGiovanni Pierluigi da Palestrina: Missa Papae Marcelli \u2013 Gloria  1:01:47 \u2219 \nHungarian Rock (Chaconne) (f\u00FCr Cembalo)  1:06:56 \u2219 \nConcert Rom\u00E2nesc (f\u00FCr Orchester)  1:11:46 \u2219 \n\nTeil 3: \n\u00C9jszaka (Chor)  1:27:46 \u2219 \nReggel (Chor)  1:29:46 \u2219 \nAventures (f\u00FCr drei Singstimmen und sieben Instrumentalisten)  1:31:57 \u2219 \nPassacaglia ungherese (f\u00FCr Cembalo)  1:44:10 \u2219 \nLux aeterna (Chor)  1:50:40 \u2219 \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nVocalconsort Berlin \u2219  \nMarion Leb\u00E8gue, Alt \u2219  \nKamil Ben Hsa\u00EFn Lachiri, Bariton \u2219  \nSophia K\u00F6rber, Sopran \u2219  \nMahan Esfahani, Cembalo \u2219  \nMarc Gruber, Horn \u2219  \nAlain Altinoglu, Dirigent \u2219  \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 31. M\u00E4rz 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 32,
+      "Position": 34,
       "PublishedAtRaw": "2024-11-26T11:27:49Z",
       "PublishedAtDateTimeOffset": "2024-11-26T11:27:49+00:00",
       "PublishedAt": "2024-11-26T16:57:49+05:30",
@@ -1821,7 +1931,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-12-22T14:00:22+00:00",
       "VideoPublishedAt": "2021-12-22T19:30:22+05:30"
     },
-    "ETag": "Yph5aaqMrcfVtlt2WSHzNdYhPj4",
+    "ETag": "NndMDJpAnJ3tGFOOZBUzYbFX_8g",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4xMzgwMzBERjQ4NjEzNUE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1829,7 +1939,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Gustav Mahler: \n1. Sinfonie D-Dur \u2219\n\nI. Langsam. Schleppend. Wie ein Naturlaut  00:00 \u2219\nII. Kr\u00E4ftig bewegt, doch nicht zu schnell  15:18 \u2219\nIII. Feierlich und gemessen, ohne zu schleppen  22:50 \u2219\nIV. St\u00FCrmisch bewegt \u2013 Energisch  32:53 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. Dezember 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 33,
+      "Position": 35,
       "PublishedAtRaw": "2024-11-26T11:30:18Z",
       "PublishedAtDateTimeOffset": "2024-11-26T11:30:18+00:00",
       "PublishedAt": "2024-11-26T17:00:18+05:30",
@@ -1876,7 +1986,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-02-15T13:00:21+00:00",
       "VideoPublishedAt": "2025-02-15T18:30:21+05:30"
     },
-    "ETag": "EZuDQBPY9u1btnVv1NB2_qQC6LI",
+    "ETag": "BiHLRqmBiZKLPxz4zjhwjYJoUrA",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby45NDlDQUFFOThDMTAxQjUw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1884,7 +1994,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Gustav Mahler: \n5. Sinfonie \u2219\n\nI. Abteilung:\nTrauermarsch. In gemessenem Schritt, streng, wie ein Kondukt  00:00 \u2219\nSt\u00FCrmisch bewegt, mit gr\u00F6\u00DFter Vehemenz  12:17 \u2219\nII. Abteilung:\nScherzo. Kr\u00E4ftig, nicht zu schnell  26:40 \u2219\nIII. Abteilung:\nAdagietto. Sehr langsam  44:00 \u2219\nRondo-Finale. Allegro  53:16 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 11. Oktober 2024 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 34,
+      "Position": 36,
       "PublishedAtRaw": "2025-02-15T13:26:13Z",
       "PublishedAtDateTimeOffset": "2025-02-15T13:26:13+00:00",
       "PublishedAt": "2025-02-15T18:56:13+05:30",
@@ -1926,12 +2036,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "lxMkqAF8ABE",
+      "VideoPublishedAtRaw": "2026-05-22T12:01:05Z",
+      "VideoPublishedAtDateTimeOffset": "2026-05-22T12:01:05+00:00",
+      "VideoPublishedAt": "2026-05-22T17:31:05+05:30"
+    },
+    "ETag": "Ka8WBBrYnYsxlSfTGDZUEzW24Hs",
+    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4wQUE0QzM4MkJGQ0YwQjUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Frank Peter Zimmermann und das Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Alain Altinoglu spielen das Konzert f\u00FCr Violine und Orchester von Frank Martin. Die Aufnahme entstand am 6.  M\u00E4rz 2026 im Herkulessaal der M\u00FCnchner Residenz.\n\nFrank Martin - Violinkonzert\n00:00 I. Satz: Allegro tranquillo   \n13:05 II. Satz: Andante molto moderato    \n22:35 III. Satz: Presto   \n\nFrank Peter Zimmermann, Violine\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Alain Altinoglu\n\n\u25BA Web: https://www.brso.de/ \n\u25BA Facebook: https://www.facebook.com/brso/ \n\u25BA Instagram: https://www.instagram.com/brsorchestra/ \n\n\u25BA Web:  https://www.br-klassik.de/ \n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum  \nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette \nDatenschutz: https://www.br.de/datenschutz",
+      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
+      "Position": 37,
+      "PublishedAtRaw": "2026-06-09T22:05:00Z",
+      "PublishedAtDateTimeOffset": "2026-06-09T22:05:00+00:00",
+      "PublishedAt": "2026-06-10T03:35:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "lxMkqAF8ABE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Martin - Violinkonzert | Frank Peter Zimmermann | Alain Altinoglu | BRSO",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "gexw3NUTVxk",
       "VideoPublishedAtRaw": "2023-01-08T13:00:18Z",
       "VideoPublishedAtDateTimeOffset": "2023-01-08T13:00:18+00:00",
       "VideoPublishedAt": "2023-01-08T18:30:18+05:30"
     },
-    "ETag": "OzIJvAcoXSZ3AjC6k4qxGE7UaoE",
+    "ETag": "5S1ypEY4jCZaCNKPlaeg_EcDMc8",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41MjE1MkI0OTQ2QzJGNzNG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1939,7 +2104,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Modest Mussorgskij/Maurice Ravel: \nBilder einer Ausstellung \u2219\n\nI. Promenade  00:00 \u2013 \nDer Gnom  01:36 \u2219\nII. Promenade  04:05 \u2013 \nDas alte Schloss  05:02 \u2219\nIII. Promenade  09:27 \u2013 \nDie Tuilerien  09:56 \u2219\nIV. Der Ochsenkarren  11:01 \u2219\nV. Promenade  13:56 \u2013 \nBallett der K\u00FCken in ihren Eierschalen  14:37 \u2219\nVI. Samuel Goldenberg und Schmuyle  15:56 \u2219\nVII. Der Marktplatz von Limoges  18:26 \u2013 \nDie Katakomben (r\u00F6mische Gruft)  19:45 \u2013 \nCum mortuis in lingua mortua  21:42 \u2219\nVIII. Die H\u00FCtte der Baba-Jaga  23:39 \u2013 \nDas gro\u00DFe Tor von Kiew 27:04 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 25. November 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 35,
+      "Position": 38,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -1986,7 +2151,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-01-07T12:00:18+00:00",
       "VideoPublishedAt": "2023-01-07T17:30:18+05:30"
     },
-    "ETag": "99_uRlCi5FXc6NbGfGWqUNi2lV4",
+    "ETag": "86WMw6o8yfeQDJNVIu9ruiis3Dw",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby42QzdBMzlBQzQzRjQ0QkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1994,7 +2159,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Modest Mussorgskij:\nOuvert\u00FCre zur Oper \u00BBChowanschtschina\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 25. November 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 36,
+      "Position": 39,
       "PublishedAtRaw": "2024-12-11T20:54:53Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:54:53+00:00",
       "PublishedAt": "2024-12-12T02:24:53+05:30",
@@ -2041,7 +2206,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-04-08T11:45:03+00:00",
       "VideoPublishedAt": "2023-04-08T17:15:03+05:30"
     },
-    "ETag": "2ABipgCWIhOCDSQO89I9GlOP6Zw",
+    "ETag": "7iZpqZTV8PKIX65wfe9GGWrp_Yc",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby45NDk1REZENzhEMzU5MDQz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2049,7 +2214,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Francis Poulenc: \nKonzert f\u00FCr zwei Klaviere d-Moll \u2219\n\nI. Allegro ma non troppo  00:00 \u2219\nII. Larghetto  08:22 \u2219\nIII. Finale. Allegro molto  13:44 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nLucas \u0026 Arthur Jussen, Klavier \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. M\u00E4rz 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 37,
+      "Position": 40,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -2096,7 +2261,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-02-05T13:30:09+00:00",
       "VideoPublishedAt": "2022-02-05T19:00:09+05:30"
     },
-    "ETag": "dBUJWlHap3Hl3LBzXXGNxNnBYv8",
+    "ETag": "Vc3pM7xV8pZAjS762ujj6Y5bdTc",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4yMDhBMkNBNjRDMjQxQTg1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2104,7 +2269,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Francis Poulenc: \nSinfonietta \u2219\n\nI. Allegro con fuoco  00:00 \u2219\nII. Molto vivace  08:00 \u2219\nIII. Andante cantabile  13:38 \u2219\nIV. Finale. Prestissimo et tr\u00E8s gai  19:49 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 13. Januar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 38,
+      "Position": 41,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -2146,12 +2311,60 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "Qf5Eot4N8Ls"
+    },
+    "ETag": "vCJ94UpKznvmNod5kE8aYsdTGzc",
+    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41MzY4MzcwOUFFRUU3QzEx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
+      "Position": 42,
+      "PublishedAtRaw": "2024-11-26T11:26:36Z",
+      "PublishedAtDateTimeOffset": "2024-11-26T11:26:36+00:00",
+      "PublishedAt": "2024-11-26T16:56:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Qf5Eot4N8Ls"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "WyjhfaeYgoM"
+    },
+    "ETag": "Z_uIcPip2cIkE9Nh1jt_WKB3MF0",
+    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4zMEQ1MEIyRTFGNzhDQzFB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
+      "Position": 43,
+      "PublishedAtRaw": "2024-11-26T11:30:57Z",
+      "PublishedAtDateTimeOffset": "2024-11-26T11:30:57+00:00",
+      "PublishedAt": "2024-11-26T17:00:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "WyjhfaeYgoM"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "Ptvy85rCFzg",
       "VideoPublishedAtRaw": "2023-01-14T13:00:09Z",
       "VideoPublishedAtDateTimeOffset": "2023-01-14T13:00:09+00:00",
       "VideoPublishedAt": "2023-01-14T18:30:09+05:30"
     },
-    "ETag": "YF7IUqGp01vmJ8KR4AJWcLhrNkw",
+    "ETag": "CqmNiiJzyXqqL8yPxzya_BqSn8k",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby40NzZCMERDMjVEN0RFRThB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2159,7 +2372,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sergej Prokofjew:\n2. Klavierkonzert g-Moll op. 16 \u2219\n\nI. Andantino \u2013 Allegretto  00:00 \u2219 \nII. Scherzo. Vivace  13:04 \u2219 \nIII. Intermezzo. Allegro moderato  15:47 \u2219\nIV. Finale. Allegro tempestoso  22:17 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAnna Tsybuleva, Klavier \u2219 \nAlain Altinoglu, Dirigent \u2219 \n\nSonderkonzert \u2219\nhr-Sendesaal Frankfurt, 17. Oktober 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 39,
+      "Position": 44,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -2206,7 +2419,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-04-15T11:00:14+00:00",
       "VideoPublishedAt": "2023-04-15T16:30:14+05:30"
     },
-    "ETag": "B0ThIYcJPXO2Ju3qyMe9lOCwjJE",
+    "ETag": "91fd-8StFMiXwQjNQRyGSkpluJY",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5CMEQ2Mjk5NTc3NDZFRUNB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2214,7 +2427,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Camille P\u00E9pin: \nLes Eaux c\u00E9lestes \u2219\n\nI. Tisser les nuages (Das Weben der Wolken) \u2013\nII. La s\u00E9paration (Die Trennung) \u2013\nIII. Les Larmes perl\u00E9es (Die Perlentr\u00E4nen) \u2013\nIV. Le Pont des ailes (Die Br\u00FCcke aus Fl\u00FCgeln) \u2219\n\nKompositionsauftrag des hr-Sinfonieorchesters \u2219\nUrauff\u00FChrung \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. M\u00E4rz 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 40,
+      "Position": 45,
       "PublishedAtRaw": "2023-11-17T17:11:55Z",
       "PublishedAtDateTimeOffset": "2023-11-17T17:11:55+00:00",
       "PublishedAt": "2023-11-17T22:41:55+05:30",
@@ -2256,60 +2469,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "Qf5Eot4N8Ls"
-    },
-    "ETag": "BMmF1G-jzy66IqMDjCRlV7D0XZs",
-    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41MzY4MzcwOUFFRUU3QzEx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 41,
-      "PublishedAtRaw": "2024-11-26T11:26:36Z",
-      "PublishedAtDateTimeOffset": "2024-11-26T11:26:36+00:00",
-      "PublishedAt": "2024-11-26T16:56:36+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Qf5Eot4N8Ls"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "WyjhfaeYgoM"
-    },
-    "ETag": "bCdipmxBqKmo1gTPbApWwRw0beM",
-    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4zMEQ1MEIyRTFGNzhDQzFB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 42,
-      "PublishedAtRaw": "2024-11-26T11:30:57Z",
-      "PublishedAtDateTimeOffset": "2024-11-26T11:30:57+00:00",
-      "PublishedAt": "2024-11-26T17:00:57+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "WyjhfaeYgoM"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "PQyErbTpSN0",
       "VideoPublishedAtRaw": "2022-10-31T13:00:16Z",
       "VideoPublishedAtDateTimeOffset": "2022-10-31T13:00:16+00:00",
       "VideoPublishedAt": "2022-10-31T18:30:16+05:30"
     },
-    "ETag": "vHP8oawSnZnOaCEPGYcNlPIvW-Y",
+    "ETag": "50r9O5f1SOpn4m_pnr-fcCq2jXs",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41Mzk2QTAxMTkzNDk4MDhF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2317,7 +2482,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sergej Rachmaninow: \n3. Klavierkonzert d-Moll op. 30 \u2219\n\nI. Allegro ma non tanto  00:00 \u2219\nII. Intermezzo. Adagio  17:41 \u2219\nIII. Finale. Alla breve  27:20 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlexander Malofeev, Klavier \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 15. September 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 43,
+      "Position": 46,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -2364,7 +2529,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-06-27T10:00:16+00:00",
       "VideoPublishedAt": "2024-06-27T15:30:16+05:30"
     },
-    "ETag": "XNCg2Gvng2rXhAJN2JM3Z6h3VUM",
+    "ETag": "ZrQXkGFYN7qGHxofIXT9R2ZPLgw",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4wNEU1MTI4NkZEMzVBN0JF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2372,7 +2537,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sergej Rachmaninow: \nRhapsodie \u00FCber ein Thema von Paganini op. 43 \u2219\n\nIntroduktion \u2013 Variation I \u2013 Thema \u2013 Variationen II\u2013XXIV \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlexander Malofeev, Klavier \u2219 \nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 1. M\u00E4rz 2024 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 44,
+      "Position": 47,
       "PublishedAtRaw": "2024-12-11T20:53:47Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:53:47+00:00",
       "PublishedAt": "2024-12-12T02:23:47+05:30",
@@ -2419,7 +2584,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-07-19T12:45:03+00:00",
       "VideoPublishedAt": "2022-07-19T18:15:03+05:30"
     },
-    "ETag": "i2gHLr51Gp0sl4CIOJhrWzYrlpE",
+    "ETag": "1fwlzZA7XZX6FVOVgkB_tHgv1Ak",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby44QzVGQUU2QjE2NDgxM0M4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2427,7 +2592,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Maurice Ravel: \nBol\u00E9ro  00:00 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\n(Danksagung Alain Altinoglu: \u0022Publikumpreis 2021\u0022 18:15) \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. Juni 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)\n\n- Neuer Upload -",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 45,
+      "Position": 48,
       "PublishedAtRaw": "2024-11-26T11:29:51Z",
       "PublishedAtDateTimeOffset": "2024-11-26T11:29:51+00:00",
       "PublishedAt": "2024-11-26T16:59:51+05:30",
@@ -2474,7 +2639,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-09-15T12:30:08+00:00",
       "VideoPublishedAt": "2021-09-15T18:00:08+05:30"
     },
-    "ETag": "jZsM5jo1S6A-HhxdG-bDBlA09fw",
+    "ETag": "UWkhz9bsk8Y5CxDJa7R5fybpVJc",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby42MjYzMTMyQjA0QURCN0JF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2482,7 +2647,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Maurice Ravel: \nLa valse \u2219  \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nFestkonzert 40 Jahre Alte Oper Frankfurt \u2219\nAlte Oper Frankfurt, 28. August 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 46,
+      "Position": 49,
       "PublishedAtRaw": "2024-12-11T20:57:01Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:57:01+00:00",
       "PublishedAt": "2024-12-12T02:27:01+05:30",
@@ -2529,7 +2694,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-03-14T13:01:31+00:00",
       "VideoPublishedAt": "2026-03-14T18:31:31+05:30"
     },
-    "ETag": "ldXk1HKvwsTUMTWZXsTx-JqOhKY",
+    "ETag": "GjE5K--qADm0ymXNBuFoCvd-wS0",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5CMUM0NzY5NzdEQzlGRjAx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2537,7 +2702,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt unter der Leitung von Alain Altinoglu \u0022Scheherazade\u0022 von Nikolai Rimskij-Korsakow. Das Konzert wurde am 6. M\u00E4rz 2026 live im M\u00FCnchner Herkulessaal aufgezeichnet.\n\nNikolaj Rimskij-Korsakow - \u0022Scheherazade\u0022, Symphonische Suite nach Tausendundeiner Nacht, op. 35\n00:00 I. Das Meer und Sindbads Schiff. \n10:25 II. Die Geschichte vom Prinzen Kalender.\n22:49 III. Der junge Prinz und die junge Prinzessin.\n33:29 IV. Das Fest in Bagdad - Das Meer - Sindbads Schiff zerschellt an einer Klippe.\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Alain Altinoglu\n\n\u25BA Web: https://www.brso.de/ \n\u25BA Facebook: https://www.facebook.com/brso/ \n\u25BA Instagram: https://www.instagram.com/brsorchestra/ \n\n\u25BA Web:  https://www.br-klassik.de/ \n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum  \nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette \nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 47,
+      "Position": 50,
       "PublishedAtRaw": "2026-03-26T04:16:50Z",
       "PublishedAtDateTimeOffset": "2026-03-26T04:16:50+00:00",
       "PublishedAt": "2026-03-26T09:46:50+05:30",
@@ -2584,7 +2749,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-02-21T17:29:38+00:00",
       "VideoPublishedAt": "2020-02-21T22:59:38+05:30"
     },
-    "ETag": "rY4feuBCUWFUIplsm_Sqx27GZ58",
+    "ETag": "vbboIrR488hEx0EhtqimM8NqSP8",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5DNzE1RjZEMUZCMjA0RDBB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2592,7 +2757,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Nikolaj Rimskij-Korsakow:\nVier musikalische Bilder aus der Oper \u00BBDer goldene Hahn\u00AB \u2219\nzusammengestellt von Alexander Glasunow und Maximilian Steinberg \u2219\n\n(Auftritt)  00:00 \u2219\nI. Zar Dodon in seinem Palast  00:31\u2219 \nII. Zar Dodon auf dem Schlachtfeld  06:46 \u2219 \nIII. Zar Dodon bei der Zarin von Schemacha  10:53 \u2219\nIV. Die Hochzeit und das beklagenswerte Ende Dodons 16:11 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 14. Februar 2020 \u2219\n\nWebsite: https://www.hr-sinfonieorchester.de \u2219\nFacebook: https://www.facebook.com/hrsinfonieorchester",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 48,
+      "Position": 51,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -2639,7 +2804,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-10-31T14:00:09+00:00",
       "VideoPublishedAt": "2022-10-31T19:30:09+05:30"
     },
-    "ETag": "aJKMeUM87nde_wbBmnNi5ByP-qo",
+    "ETag": "JxXaB4Ln8eeUe5tPOYPISBxVf1M",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41NTZEOThBNThFOUVGQkVB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2647,7 +2812,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Nikolaj Rimskij-Korsakow:\nScheherazade op. 35 \u2219\nSinfonische Suite f\u00FCr Orchester \u2219\n\nI. Largo e maestoso \u2013 Allegro non troppo  00:00 \u2219\nII. Lento \u2013 Andantino \u2013 Allegro molto \u2013 Vivace scherzando  10:13 \u2219\nIII. Andantino quasi allegretto  22:28 \u2219\nIV. Allegro molto \u2013 Vivo \u2013 Allegro non troppo e maestoso  32:50 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nUlrich Edelmann, Solo-Violine \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 15. September 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 49,
+      "Position": 52,
       "PublishedAtRaw": "2024-12-02T12:53:10Z",
       "PublishedAtDateTimeOffset": "2024-12-02T12:53:10+00:00",
       "PublishedAt": "2024-12-02T18:23:10+05:30",
@@ -2694,7 +2859,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-02-21T17:29:01+00:00",
       "VideoPublishedAt": "2020-02-21T22:59:01+05:30"
     },
-    "ETag": "HDXDfN_wyMb8JEvQGFuBsPw3weE",
+    "ETag": "XGQNGGjR8cdjyegc2pH_dhReEbM",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby43MTI1NDIwOTMwQjIxMzNG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2702,7 +2867,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Camille Saint-Sa\u00EBns:\n1. Cellokonzert a-Moll op. 33 \u2219\n\nAllegro non troppo \u2013 Allegro molto \u2013 Tempo I \u2013 \nAllegretto con moto \u2013 Tempo I \u2013 Un peu moins vite \u2013 \nPi\u00F9 allegro comme le premier mouvement \u2013 Molto allegro\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nGautier Capu\u00E7on, Violoncello \u2219\nAlain Altinoglu, Dirigent \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 14. Februar 2020 \u2219\n\nWebsite: https://www.hr-sinfonieorchester.de \u2219\nFacebook: https://www.facebook.com/hrsinfonieorchester",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 50,
+      "Position": 53,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -2749,7 +2914,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-02-07T08:30:12+00:00",
       "VideoPublishedAt": "2021-02-07T14:00:12+05:30"
     },
-    "ETag": "ze-8q4Pfu_RNEgRmCuyKy7cUfO8",
+    "ETag": "4qVSKftljWRk5-QA4dVgH6DSgOg",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby42RTNCOEMxREI3Q0VDMjU2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2757,7 +2922,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Erik Satie: \nGymnop\u00E9dies 1 \u0026 3\n(Orchesterfassung von Claude Debussy) \u2219\n\nNr. 1  00:00 \u2219\nNr. 3  03:12 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 21. Januar 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 51,
+      "Position": 54,
       "PublishedAtRaw": "2024-12-11T20:57:19Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:57:19+00:00",
       "PublishedAt": "2024-12-12T02:27:19+05:30",
@@ -2804,7 +2969,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-08-17T12:00:29+00:00",
       "VideoPublishedAt": "2024-08-17T17:30:29+05:30"
     },
-    "ETag": "9y3UG7J8rJ0PFCg48gy_-Ke4TU4",
+    "ETag": "flEnWRbof0RX1HGJwi1HdnhBVK8",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4yQjZFRkExQjFGODk3RUFD",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2812,7 +2977,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Faz\u0131l Say: \nKonzert f\u00FCr zwei Trompeten op. 104 \u2219\n\nI. Introduction \u2219\nII. Andante moderato, misterioso \u2013 Vivo \u2013 Andante moderato \u2219\nIII. Allegro drammatico, molto energico \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nSergei Nakariakov, Trompete \u2219\nG\u00E1bor Boldoczki, Trompete \u2219 \nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 8. Dezember 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 52,
+      "Position": 55,
       "PublishedAtRaw": "2024-11-26T11:26:47Z",
       "PublishedAtDateTimeOffset": "2024-11-26T11:26:47+00:00",
       "PublishedAt": "2024-11-26T16:56:47+05:30",
@@ -2859,7 +3024,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-09-15T11:15:08+00:00",
       "VideoPublishedAt": "2021-09-15T16:45:08+05:30"
     },
-    "ETag": "2UylyjXqmwriEUljHhjeOYDa9WY",
+    "ETag": "bPclKUe8RSJJYCmgdNJTqqtage4",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby40MDNEMzA0QTBFRThFMzBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2867,7 +3032,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Albert Schnelzer: \nThrough the Eye of the Pegasus \u2219  \nAuftragswerk der Alten Oper Frankfurt \u2219   \nUrauff\u00FChrung \u2219  \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nFestkonzert 40 Jahre Alte Oper Frankfurt \u2219\nAlte Oper Frankfurt, 28. August 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 53,
+      "Position": 56,
       "PublishedAtRaw": "2024-12-11T20:57:12Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:57:12+00:00",
       "PublishedAt": "2024-12-12T02:27:12+05:30",
@@ -2914,7 +3079,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-09-30T11:15:01+00:00",
       "VideoPublishedAt": "2023-09-30T16:45:01+05:30"
     },
-    "ETag": "xGDIKh0uJ_hfDJkTdjZu5Wyr7Wo",
+    "ETag": "WtU0la9i3uyb5OfIjOvA54OfmvM",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41MzJCQjBCNDIyRkJDN0VD",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2922,7 +3087,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitrij Schostakowitsch: \n1. Sinfonie f-Moll op. 10 \u2219\n\nI. Allegretto \u2013 Allegro non troppo  00:00 \u2219\nII. Allegro  08:50 \u2219\nIII. Lento \u2013 Largo  14:14 \u2219\nIV. Allegro molto \u2013 Lento \u2013 Allegro molto \u2013 Largo \u2013 Presto  23:24 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 24. Februar 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 54,
+      "Position": 57,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -2969,7 +3134,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-06-29T10:00:24+00:00",
       "VideoPublishedAt": "2024-06-29T15:30:24+05:30"
     },
-    "ETag": "wrcgZdcx1KL1C-W7ZolFVm6xfHY",
+    "ETag": "ah7xBM75ANkXke-BAzg8BupqnDs",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby45NkVENTkxRDdCQUFBMDY4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2977,7 +3142,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitrij Schostakowitsch: \n4. Sinfonie c-Moll op. 43 \u2219\n\nI. Allegretto poco moderato  00:00 \u2219\nII. Moderato con moto  27:40 \u2219\nIII. Largo \u2013 Allegro  36:37 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 1. M\u00E4rz 2024 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 55,
+      "Position": 58,
       "PublishedAtRaw": "2024-07-16T05:04:40Z",
       "PublishedAtDateTimeOffset": "2024-07-16T05:04:40+00:00",
       "PublishedAt": "2024-07-16T10:34:40+05:30",
@@ -3024,7 +3189,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-10-25T12:00:59+00:00",
       "VideoPublishedAt": "2025-10-25T17:30:59+05:30"
     },
-    "ETag": "hAioBKOMviqAANWyexCs9rR0rSE",
+    "ETag": "ziz1ysE2wsCeQckIhieE_s4B_rQ",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4xNTZBNUQxMDZBQzFGMjkw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3032,7 +3197,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitrij Schostakowitsch: \n8. Sinfonie c-Moll op. 65 \u2219 \n\nI. Adagio \u2013 Allegro non troppo  00:00 \u2219\nII. Allegretto  27:02 \u2219\nIII. Allegro non troppo  33:40 \u2219\nIV. Largo  39:46 \u2219\nV. Allegretto  49:46 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nGro\u00DFe Reihe \u2219\nAlte Oper Frankfurt, 9. Mai 2025 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2025\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 56,
+      "Position": 59,
       "PublishedAtRaw": "2025-10-25T14:53:35Z",
       "PublishedAtDateTimeOffset": "2025-10-25T14:53:35+00:00",
       "PublishedAt": "2025-10-25T20:23:35+05:30",
@@ -3079,7 +3244,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-09-30T11:15:00+00:00",
       "VideoPublishedAt": "2023-09-30T16:45:00+05:30"
     },
-    "ETag": "1feqFdMrWMQ5C2D1Nn7LYehLvOU",
+    "ETag": "UD5-01Smcf70OP-2T2XS2ZQj2k8",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4zMUEyMkQwOTk0NTg4MDgw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3087,7 +3252,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitrij Schostakowitsch: \nScherzo op. 1 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 24. Februar 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 57,
+      "Position": 60,
       "PublishedAtRaw": "2024-12-11T20:54:17Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:54:17+00:00",
       "PublishedAt": "2024-12-12T02:24:17+05:30",
@@ -3134,7 +3299,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-09-15T12:00:30+00:00",
       "VideoPublishedAt": "2021-09-15T17:30:30+05:30"
     },
-    "ETag": "C7EGnaaqpWwjNeyS4kQQdxH0Gso",
+    "ETag": "fZZqMYGZqwyYnJrA8_v-52lK1Ss",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4xM0YyM0RDNDE4REQ1NDA0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3142,7 +3307,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Robert Schumann: \nKonzertst\u00FCck f\u00FCr 4 H\u00F6rner und Orchester F-Dur op. 86 \u2219  \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nMarc Gruber, Horn \u2219\nKristian Katzenberger, Horn \u2219\nMaciej Baranowski, Horn \u2219\nCharles Petit, Horn \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nFestkonzert 40 Jahre Alte Oper Frankfurt \u2219\nAlte Oper Frankfurt, 28. August 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 58,
+      "Position": 61,
       "PublishedAtRaw": "2024-12-11T20:56:57Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:56:57+00:00",
       "PublishedAt": "2024-12-12T02:26:57+05:30",
@@ -3189,7 +3354,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-01-14T13:30:06+00:00",
       "VideoPublishedAt": "2023-01-14T19:00:06+05:30"
     },
-    "ETag": "JxJU_vkFAXMJ2e-tUDwGz0hIpsY",
+    "ETag": "l_Kqp2qMPUPHTqXdQ62KBfKYLE8",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5GNjNDRDREMDQxOThCMDQ2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3197,7 +3362,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Alexander Skrjabin:\nLe po\u00E8me de l\u2019extase op. 54 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nSonderkonzert \u2219\nhr-Sendesaal Frankfurt, 17. Oktober 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 59,
+      "Position": 62,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -3244,7 +3409,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-01-01T12:00:25+00:00",
       "VideoPublishedAt": "2025-01-01T17:30:25+05:30"
     },
-    "ETag": "WotmZ-swnz9Y_fQbx6BSo31nhwo",
+    "ETag": "l1gnfXQbimOMtqLEhX8u9zweNWs",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5EQkE3RTJCQTJEQkFBQTcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3252,7 +3417,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bed\u0159ich Smetana:\nDie Moldau \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nRheingau Musik Festival 2024 \u2219 \nEr\u00F6ffnungskonzert \u2219\nKloster Eberbach, 22. Juni 2024 \u2219 \n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 60,
+      "Position": 63,
       "PublishedAtRaw": "2025-01-01T12:08:47Z",
       "PublishedAtDateTimeOffset": "2025-01-01T12:08:47+00:00",
       "PublishedAt": "2025-01-01T17:38:47+05:30",
@@ -3299,7 +3464,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-08-10T12:00:00+00:00",
       "VideoPublishedAt": "2024-08-10T17:30:00+05:30"
     },
-    "ETag": "aPyaP3O8AQtOhy3zGVItEP5CJ3E",
+    "ETag": "ZeMVrznUyFcfcf3ektIsrJgBar0",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4wMTYxQzVBRDI1NEVDQUZE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3307,7 +3472,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anna Thorvaldsd\u00F3ttir: \nMetacosmos \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 14. Juni 2024 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2024\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 61,
+      "Position": 64,
       "PublishedAtRaw": "2024-12-11T20:53:55Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:53:55+00:00",
       "PublishedAt": "2024-12-12T02:23:55+05:30",
@@ -3354,7 +3519,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-02-05T14:00:09+00:00",
       "VideoPublishedAt": "2022-02-05T19:30:09+05:30"
     },
-    "ETag": "4eaPbjNsJlttSOysW34uR8_mLA0",
+    "ETag": "XiDLtrY58J5q-xor12u_HfFDYgc",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5ENDU4Q0M4RDExNzM1Mjcy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3362,7 +3527,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Peter Tschaikowsky: \nStreicherserenade C-Dur op. 48 \u2219\n\nI. Pezzo in forma di sonatina. Andante non troppo \u2013 Allegro moderato  00:00 \u2219\nII. Valse. Moderato \u2013 Tempo di valse  09:51 \u2219\nIII. \u00C9l\u00E9gie. Larghetto elegiaco  13:56 \u2219\nIV. Finale (Tema russo). Andante \u2013 Allegro con spirito  23:49 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 13. Januar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 62,
+      "Position": 65,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -3409,7 +3574,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-04-15T11:20:00+00:00",
       "VideoPublishedAt": "2023-04-15T16:50:00+05:30"
     },
-    "ETag": "NRqV3-v0oS420n2vZ75DkjBozZU",
+    "ETag": "MrTLbAvsuQ25I628ijcG48t-bbg",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5DQUNERDQ2NkIzRUQxNTY1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3417,7 +3582,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Edgard Var\u00E8se: \nAm\u00E9riques \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. M\u00E4rz 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 63,
+      "Position": 66,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -3464,7 +3629,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-11-07T13:00:16+00:00",
       "VideoPublishedAt": "2022-11-07T18:30:16+05:30"
     },
-    "ETag": "sjy-ZgHIGEhTYXbqg3sLPCQ5FQU",
+    "ETag": "DZB4aX_CfvaPlin4pv_QN0lfqEw",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby45ODRDNTg0QjA4NkFBNkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3472,7 +3637,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Giuseppe Verdi: \nOuvert\u00FCre zur Oper \u00BBDie Macht des Schicksals\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nEuropa Open Air des hr-Sinfonieorchesters \nund der Europ\u00E4ischen Zentralbank \u2219\nWeseler Werft Frankfurt, 25. August 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 64,
+      "Position": 67,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -3514,67 +3679,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "Cb_An_z_dlM",
-      "VideoPublishedAtRaw": "2021-12-22T13:00:07Z",
-      "VideoPublishedAtDateTimeOffset": "2021-12-22T13:00:07+00:00",
-      "VideoPublishedAt": "2021-12-22T18:30:07+05:30"
-    },
-    "ETag": "aUQARhXE01ElGOyiqjNByhNPHkg",
-    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby44Mjc5REFBRUE2MTdFRDU0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Richard Wagner: \nVorspiel zur Oper \u00BBLohengrin\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. Dezember 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
-      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 65,
-      "PublishedAtRaw": "2023-11-17T16:13:54Z",
-      "PublishedAtDateTimeOffset": "2023-11-17T16:13:54+00:00",
-      "PublishedAt": "2023-11-17T21:43:54+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Cb_An_z_dlM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Wagner: Lohengrin \u2013 Vorspiel \u2219 hr-Sinfonieorchester \u2219 Alain Altinoglu",
-      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "gBkv26_Php8",
       "VideoPublishedAtRaw": "2017-12-18T15:27:21Z",
       "VideoPublishedAtDateTimeOffset": "2017-12-18T15:27:21+00:00",
       "VideoPublishedAt": "2017-12-18T20:57:21+05:30"
     },
-    "ETag": "PT5j8Mu6-koVjSSsr0z2mdYDuNA",
+    "ETag": "Z6kjf1Zri9JDfRjttCPn5UloC3I",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41QUZGQTY5OTE4QTREQUU4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3582,7 +3692,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "L\u0027Orchestre national de France dirig\u00E9 par Alain Altinoglu interpr\u00E8te le pr\u00E9lude de \u0022Parsifal\u0022 de Richard Wagner. Enregistr\u00E9 le 16 juillet 2014 au Corum de Montpellier.",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 66,
+      "Position": 68,
       "PublishedAtRaw": "2023-11-17T16:14:37Z",
       "PublishedAtDateTimeOffset": "2023-11-17T16:14:37+00:00",
       "PublishedAt": "2023-11-17T21:44:37+05:30",
@@ -3629,7 +3739,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-20T13:00:37+00:00",
       "VideoPublishedAt": "2022-03-20T18:30:37+05:30"
     },
-    "ETag": "pW5FBXtfVFZDXpvkrBrBXJb28WI",
+    "ETag": "9gssVKatDb4B5AVafLkBkfJ76ig",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5CNTcxMDQ0NThBNzMxODYz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3637,7 +3747,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Wagner: \nVorspiel zur Oper \u00BBDie Meistersinger von N\u00FCrnberg\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 10. Februar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 67,
+      "Position": 69,
       "PublishedAtRaw": "2024-12-11T20:56:05Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:56:05+00:00",
       "PublishedAt": "2024-12-12T02:26:05+05:30",
@@ -3684,7 +3794,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-03T12:00:00+00:00",
       "VideoPublishedAt": "2022-06-03T17:30:00+05:30"
     },
-    "ETag": "HDQvZwg3LEt5iebs3MJ1fNAO_Ps",
+    "ETag": "2k_Xdij4rGlsxNX8M2IzBFhnllA",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5DMkU4NTY1QUFGQTYwMDE3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3692,7 +3802,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Wagner: \n\u00BBEinzug der G\u00F6tter in Walhall\u00AB \naus der Oper \u00BBDas Rheingold\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 29. April 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 68,
+      "Position": 70,
       "PublishedAtRaw": "2023-11-17T16:13:44Z",
       "PublishedAtDateTimeOffset": "2023-11-17T16:13:44+00:00",
       "PublishedAt": "2023-11-17T21:43:44+05:30",
@@ -3734,12 +3844,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "Cb_An_z_dlM",
+      "VideoPublishedAtRaw": "2021-12-22T13:00:07Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-22T13:00:07+00:00",
+      "VideoPublishedAt": "2021-12-22T18:30:07+05:30"
+    },
+    "ETag": "f-Plq2G1dcoghQVWKdU1TypMa0M",
+    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby44Mjc5REFBRUE2MTdFRDU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Wagner: \nVorspiel zur Oper \u00BBLohengrin\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 10. Dezember 2021 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2021\nHessischer Rundfunk (hr)",
+      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
+      "Position": 71,
+      "PublishedAtRaw": "2023-11-17T16:13:54Z",
+      "PublishedAtDateTimeOffset": "2023-11-17T16:13:54+00:00",
+      "PublishedAt": "2023-11-17T21:43:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Cb_An_z_dlM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Cb_An_z_dlM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Wagner: Lohengrin \u2013 Vorspiel \u2219 hr-Sinfonieorchester \u2219 Alain Altinoglu",
+      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "wolO4fJr70Y",
       "VideoPublishedAtRaw": "2022-02-05T13:00:34Z",
       "VideoPublishedAtDateTimeOffset": "2022-02-05T13:00:34+00:00",
       "VideoPublishedAt": "2022-02-05T18:30:34+05:30"
     },
-    "ETag": "HNpv5NVw-piMtgINXIEylMDb0M8",
+    "ETag": "IwN6vLIKBc0qLnOTrJKvsFtPfBU",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4yQUE2Q0JEMTk4NTM3RTZC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3747,7 +3912,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Wagner: \nSiegfried-Idyll \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nKonzert ohne Publikum \u2219\nhr-Sendesaal Frankfurt, 13. Januar 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 69,
+      "Position": 72,
       "PublishedAtRaw": "2023-11-17T16:12:40Z",
       "PublishedAtDateTimeOffset": "2023-11-17T16:12:40+00:00",
       "PublishedAt": "2023-11-17T21:42:40+05:30",
@@ -3794,7 +3959,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-03T12:30:01+00:00",
       "VideoPublishedAt": "2022-06-03T18:00:01+05:30"
     },
-    "ETag": "k3MO0UZor6jDomwRlYRLlO1LW14",
+    "ETag": "Mt2CfBMY7zawOgZuEfPwVmy6Jus",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby41OURENDc2NEM1MDI5Mjky",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3802,7 +3967,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Wagner: \n\u00BBSiegfrieds Rheinfahrt\u00AB \naus der Oper \u00BBG\u00F6tterd\u00E4mmerung\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 29. April 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 70,
+      "Position": 73,
       "PublishedAtRaw": "2024-12-11T20:55:35Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:55:35+00:00",
       "PublishedAt": "2024-12-12T02:25:35+05:30",
@@ -3849,7 +4014,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-02T12:00:14+00:00",
       "VideoPublishedAt": "2022-06-02T17:30:14+05:30"
     },
-    "ETag": "VhmnHXcQ2vld3X-SrEzSaMgqhOg",
+    "ETag": "o_tVLQjsBzOOoSOHDHaw6GmHE_k",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4xMkVGQjNCMUM1N0RFNEUx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3857,7 +4022,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Wagner: \nOuvert\u00FCre zur Oper \u00BBTannh\u00E4user\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 29. April 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 71,
+      "Position": 74,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -3904,7 +4069,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-03T12:15:00+00:00",
       "VideoPublishedAt": "2022-06-03T17:45:00+05:30"
     },
-    "ETag": "DTueY0iAYwaPITUEmmvnWkItVHI",
+    "ETag": "2TnDztHZ7v-24gt58SXwlXoX6Bg",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5CNTZFOTNGQzZEODg1RUQx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3912,7 +4077,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Wagner: \n\u00BBWaldweben\u00AB \naus der Oper \u00BBSiegfried\u00AB \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 29. April 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 72,
+      "Position": 75,
       "PublishedAtRaw": "2024-12-11T20:55:47Z",
       "PublishedAtDateTimeOffset": "2024-12-11T20:55:47+00:00",
       "PublishedAt": "2024-12-12T02:25:47+05:30",
@@ -3959,7 +4124,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-11-07T14:15:03+00:00",
       "VideoPublishedAt": "2022-11-07T19:45:03+05:30"
     },
-    "ETag": "hTVYfAI3hYWuSOWaQhqK2RwmRyk",
+    "ETag": "mnijA4zLaTU-GqVIO5R_IlylvII",
     "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby5EMEEwRUY5M0RDRTU3NDJC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3967,7 +4132,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mieczys\u0142aw Weinberg: \nSuite f\u00FCr Orchester \u2219\n\nI. Romance  00:00 \u2219\nII. Humoresque  03:21 \u2219\nIII. Waltz  07:22 \u2219\nIV. Polka  12:30 \u2219\nV. Galop  15:41 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nEuropa Open Air des hr-Sinfonieorchesters \nund der Europ\u00E4ischen Zentralbank \u2219\nWeseler Werft Frankfurt, 25. August 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 73,
+      "Position": 76,
       "PublishedAtRaw": "2023-11-16T19:31:01Z",
       "PublishedAtDateTimeOffset": "2023-11-16T19:31:01+00:00",
       "PublishedAt": "2023-11-17T01:01:01+05:30",
@@ -4005,61 +4170,6 @@
       "Title": "Weinberg: Suite f\u00FCr Orchester \u2219 hr-Sinfonieorchester \u2219 Alain Altinoglu",
       "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
       "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "lxMkqAF8ABE",
-      "VideoPublishedAtRaw": "2026-05-22T12:01:05Z",
-      "VideoPublishedAtDateTimeOffset": "2026-05-22T12:01:05+00:00",
-      "VideoPublishedAt": "2026-05-22T17:31:05+05:30"
-    },
-    "ETag": "oPXLfYnykRfN0trj1ym6xlcqgII",
-    "Id": "UEwxemdOQ29XdF83YkdIejFJVGc3b0RLUEppVzNsWGhHby4wQUE0QzM4MkJGQ0YwQjUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Frank Peter Zimmermann und das Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Alain Altinoglu spielen das Konzert f\u00FCr Violine und Orchester von Frank Martin. Die Aufnahme entstand am 6.  M\u00E4rz 2026 im Herkulessaal der M\u00FCnchner Residenz.\n\nFrank Martin - Violinkonzert\n00:00 I. Satz: Allegro tranquillo   \n13:05 II. Satz: Andante molto moderato    \n22:35 III. Satz: Presto   \n\nFrank Peter Zimmermann, Violine\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Alain Altinoglu\n\n\u25BA Web: https://www.brso.de/ \n\u25BA Facebook: https://www.facebook.com/brso/ \n\u25BA Instagram: https://www.instagram.com/brsorchestra/ \n\n\u25BA Web:  https://www.br-klassik.de/ \n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum  \nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette \nDatenschutz: https://www.br.de/datenschutz",
-      "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
-      "Position": 74,
-      "PublishedAtRaw": "2026-06-09T22:05:00Z",
-      "PublishedAtDateTimeOffset": "2026-06-09T22:05:00+00:00",
-      "PublishedAt": "2026-06-10T03:35:00+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "lxMkqAF8ABE"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/lxMkqAF8ABE/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Martin - Violinkonzert | Frank Peter Zimmermann | Alain Altinoglu | BRSO",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
     }
   }
 ]

@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <RootNamespace>Services.Google</RootNamespace>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="ErrorOr" />
-    <PackageReference Include="Google.Apis.YouTube.v3" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Core\Core.csproj" />
-    <ProjectReference Include="..\Azure\Azure.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<RootNamespace>Services.Google</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="ErrorOr" />
+		<PackageReference Include="Google.Apis.YouTube.v3" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Core\Core.csproj" />
+		<ProjectReference Include="..\Azure\Azure.csproj" />
+	</ItemGroup>
 </Project>

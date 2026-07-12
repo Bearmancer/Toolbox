@@ -40,15 +40,15 @@ Services.LastFm → Core
 
 ## WHERE TO LOOK
 
-| Task | Location | Notes |
-|------|----------|-------|
-| Add CLI command | `src/CLI/{Domain}/` | Follow Spectre pattern: thin command → service call → Result.Match |
-| Add Azure service | `src/Services/Azure/` | Add credential to AzureCredentials.cs, register in AzureSetup.cs |
-| Add Google/YouTube feature | `src/Services/Google/YouTube/` | Orchestrator handles state; processor handles per-playlist logic |
-| Add Last.fm feature | `src/Services/LastFm/` | Simple HTTP client pattern |
-| Modify telemetry | `src/Core/Telemetry.cs` | Per-service JSONL + optional Seq sink |
-| Add error codes | `src/Core/Errors.cs` | Central taxonomy; add factory method per domain |
-| Change build config | `Directory.Build.props` | Single source for TargetFramework, analyzers, warnings |
+| Task                       | Location                       | Notes                                                              |
+| -------------------------- | ------------------------------ | ------------------------------------------------------------------ |
+| Add CLI command            | `src/CLI/{Domain}/`            | Follow Spectre pattern: thin command → service call → Result.Match |
+| Add Azure service          | `src/Services/Azure/`          | Add credential to AzureCredentials.cs, register in AzureSetup.cs   |
+| Add Google/YouTube feature | `src/Services/Google/YouTube/` | Orchestrator handles state; processor handles per-playlist logic   |
+| Add Last.fm feature        | `src/Services/LastFm/`         | Simple HTTP client pattern                                         |
+| Modify telemetry           | `src/Core/Telemetry.cs`        | Per-service JSONL + optional Seq sink                              |
+| Add error codes            | `src/Core/Errors.cs`           | Central taxonomy; add factory method per domain                    |
+| Change build config        | `Directory.Build.props`        | Single source for TargetFramework, analyzers, warnings             |
 
 ## CONVENTIONS
 

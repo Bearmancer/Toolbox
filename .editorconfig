@@ -1,0 +1,173 @@
+﻿root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+
+[*.{json,yml,yaml}]
+indent_size = 2
+
+[*.cs]
+indent_size = 4
+
+#### Accessibility
+dotnet_diagnostic.CA1515.severity = error
+dotnet_naming_symbols.all_fields.applicable_accessibilities = *
+
+#### Naming
+# ALL fields are PascalCase (private, public, internal, static, const)
+dotnet_naming_symbols.all_fields.applicable_kinds = field
+dotnet_naming_style.pascal_case_style.capitalization = pascal_case
+dotnet_naming_rule.all_fields_pascal_case.symbols = all_fields
+dotnet_naming_rule.all_fields_pascal_case.style = pascal_case_style
+dotnet_naming_rule.all_fields_pascal_case.severity = error
+
+# Local variables and local functions are camelCase
+dotnet_naming_symbols.locals.applicable_kinds = local, local_function
+dotnet_naming_symbols.locals.applicable_accessibilities = *
+dotnet_naming_style.camel_case_style.capitalization = camel_case
+dotnet_naming_rule.locals_camel_case.symbols = locals
+dotnet_naming_rule.locals_camel_case.style = camel_case_style
+dotnet_naming_rule.locals_camel_case.severity = error
+
+# Parameters are camelCase
+dotnet_naming_symbols.parameters.applicable_kinds = parameter
+dotnet_naming_symbols.parameters.applicable_accessibilities = *
+dotnet_naming_rule.parameters_camel_case.symbols = parameters
+dotnet_naming_rule.parameters_camel_case.style = camel_case_style
+dotnet_naming_rule.parameters_camel_case.severity = error
+
+#### var usage
+# var a = "a"; for built-in types
+csharp_style_var_for_built_in_types = true:error
+# var x = new Foo(); when type obvious
+csharp_style_var_when_type_is_apparent = true:error
+# Explicit type otherwise
+csharp_style_var_elsewhere = false
+
+#### Modern construction syntax
+# new() instead of new Foo()
+csharp_style_implicit_object_creation_when_type_is_apparent = error
+# [1, 2, 3] instead of new[] { }
+dotnet_style_prefer_collection_expression = error
+# Primary constructors for classes/structs
+csharp_style_prefer_primary_constructors = true:error
+# default instead of default(T)
+csharp_style_prefer_simple_default_expression = true:error
+
+#### Null checking and pattern matching
+# x is null instead of ReferenceEquals
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:error
+# ?? and ??= operators
+dotnet_style_coalesce_expression = true:error
+# x?.y instead of null checks
+dotnet_style_null_propagation = true:error
+# x is Type t instead of is + cast
+csharp_style_pattern_matching_over_is_with_cast_check = true:error
+# x is Type t instead of as + null check
+csharp_style_pattern_matching_over_as_with_null_check = true:error
+# x is not null instead of !(x is null)
+csharp_style_prefer_not_pattern = true:error
+# Pattern matching over casts
+csharp_style_prefer_pattern_matching = true:error
+# x is null instead of x is object
+csharp_style_prefer_null_check_over_type_check = true:error
+
+#### Control flow
+# Switch expressions over switch statements
+csharp_style_prefer_switch_expression = true:error
+# No braces for one-liners
+csharp_prefer_braces = false:error
+
+#### Expression-bodied members
+# All one-liners as expression bodies
+csharp_style_expression_bodied_methods = when_on_single_line:error
+csharp_style_expression_bodied_constructors = when_on_single_line:error
+csharp_style_expression_bodied_operators = when_on_single_line:error
+csharp_style_expression_bodied_properties = when_on_single_line:error
+csharp_style_expression_bodied_indexers = when_on_single_line:error
+csharp_style_expression_bodied_accessors = when_on_single_line:error
+csharp_style_expression_bodied_lambdas = when_on_single_line:error
+csharp_style_expression_bodied_local_functions = when_on_single_line:error
+
+#### Resource disposal
+# using var x = ... instead of using block
+csharp_prefer_simple_using_statement = true:error
+
+#### Namespaces / usings
+# File-scoped namespaces
+csharp_style_namespace_declarations = file_scoped:error
+# System usings first
+dotnet_sort_system_directives_first = true
+# No blank lines between using groups
+dotnet_separate_import_directive_groups = false
+
+#### Async / cancellation
+# Forward CancellationToken to callees
+dotnet_diagnostic.CA2016.severity = error
+# No sync-over-async (no .Result/.Wait() in async methods)
+dotnet_diagnostic.CA1849.severity = error
+# CancellationToken must be last parameter
+dotnet_diagnostic.CA1068.severity = error
+
+#### Exceptions
+# throw ex; destroys stack trace — hard error
+dotnet_diagnostic.CA2200.severity = error
+# CA1707: Identifiers should not contain underscores (enforces no _ prefix on build)
+dotnet_diagnostic.CA1707.severity = error
+# Use ConcurrentDictionary.GetOrAdd
+dotnet_diagnostic.CA1864.severity = error
+
+#### Modern C# preferences
+# Make field readonly when possible
+dotnet_diagnostic.IDE0044.severity = error
+# Remove unused private member
+dotnet_diagnostic.IDE0051.severity = error
+# Unnecessary assignment
+dotnet_diagnostic.IDE0059.severity = error
+# Remove unused parameter
+dotnet_diagnostic.IDE0060.severity = error
+# Use System.HashCode
+dotnet_diagnostic.IDE0070.severity = error
+# Namespace does not match folder structure
+dotnet_diagnostic.IDE0130.severity = error
+# Use nameof
+dotnet_diagnostic.IDE0210.severity = error
+# Use UTF-8 string literal
+dotnet_diagnostic.IDE0230.severity = error
+# Use primary constructor
+dotnet_diagnostic.IDE0290.severity = error
+# Use collection expression
+dotnet_diagnostic.IDE0300.severity = error
+# Collection expression variants
+dotnet_diagnostic.IDE0301.severity = error
+dotnet_diagnostic.IDE0302.severity = error
+dotnet_diagnostic.IDE0303.severity = error
+dotnet_diagnostic.IDE0304.severity = error
+dotnet_diagnostic.IDE0305.severity = error
+dotnet_diagnostic.IDE0306.severity = error
+# Use throw expression
+csharp_style_throw_expression = true:error
+# x?.Invoke() instead of null check + invoke
+csharp_style_conditional_delegate_call = true:error
+# ^1 instead of [Length - 1]
+csharp_style_prefer_index_operator = true:error
+# .. instead of Substring
+csharp_style_prefer_range_operator = true:error
+# _ = unused value
+csharp_style_unused_value_assignment_preference = discard_variable:error
+# _ = expression statement
+csharp_style_unused_value_expression_statement_preference = discard_variable:error
+
+#### Suppressions
+# Suppress IDE0130 — Namespace does not match folder structure (project uses Services.X convention)
+dotnet_diagnostic.IDE0130.severity = none
+
+# Suppress IDE0058 — Expression value is never used
+# DI extension methods call services.AddSingleton() as statements; return value intentionally discarded (fluent API pattern)
+dotnet_diagnostic.IDE0058.severity = none
+# Suppress IDE0130 — Namespace does not match folder structure (project uses Services.X convention)
+dotnet_diagnostic.IDE0130.severity = none

@@ -1,15 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <RootNamespace>Core</RootNamespace>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="ErrorOr" />
-        <PackageReference Include="Serilog" />
-        <PackageReference Include="Serilog.Formatting.Compact" />
-        <PackageReference Include="Serilog.Sinks.File" />
-        <PackageReference Include="Serilog.Sinks.Seq" />
-        <PackageReference Include="Serilog.Sinks.Spectre" />
-        <PackageReference Include="SerilogTracing" />
-        <PackageReference Include="Spectre.Console" />
-    </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="ErrorOr" />
+		<PackageReference Include="Serilog" />
+		<PackageReference Include="Serilog.Formatting.Compact" />
+		<PackageReference Include="Serilog.Sinks.File" />
+		<PackageReference Include="Serilog.Sinks.Seq" />
+		<PackageReference Include="Serilog.Sinks.Spectre" />
+		<PackageReference Include="SerilogTracing" />
+		<PackageReference Include="Spectre.Console" />
+	</ItemGroup>
 </Project>
