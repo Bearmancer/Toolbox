@@ -13,7 +13,7 @@ public static class LastFmState
 	) =>
 		[
 			.. existing
-				.Concat(second: newScrobbles)
+				.Concat(newScrobbles)
 				.GroupBy(s => s.PlayedAt)
 				.Select(g => g.First())
 				.OrderByDescending(s => s.PlayedAt),
@@ -23,12 +23,12 @@ public static class LastFmState
 	{
 		var path = Path.Combine(stateDir, "scrobbles.json");
 
-		if (!File.Exists(path: path))
+		if (!File.Exists(path))
 			return [];
 
 		try
 		{
-			await using FileStream stream = File.OpenRead(path: path);
+			await using FileStream stream = File.OpenRead(path);
 			return await JsonSerializer.DeserializeAsync<List<LastFmScrobble>>(stream, JsonOptions)
 				?? [];
 		}
@@ -41,14 +41,15 @@ public static class LastFmState
 
 	public static async Task SaveScrobblesAsync(string stateDir, List<LastFmScrobble> scrobbles)
 	{
-		if (!Directory.Exists(path: stateDir))
+		if (!Directory.Exists(stateDir))
+			Directory.CreateDirectory(stateDir);
 			Directory.CreateDirectory(path: stateDir);
 
 		var path = Path.Combine(stateDir, "scrobbles.json");
 
 		try
 		{
-			await using FileStream stream = File.Create(path: path);
+			await using FileStream stream = File.Create(path);
 			await JsonSerializer.SerializeAsync(stream, scrobbles, JsonOptions);
 		}
 		catch (IOException ex)

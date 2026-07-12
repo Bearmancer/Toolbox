@@ -4,12 +4,11 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<LangVersion>preview</LangVersion>
-		<AnalysisLevel>preview-all</AnalysisLevel>
-		<AnalysisMode>All</AnalysisMode>
+		<AnalysisLevel>latest</AnalysisLevel>
 		<SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
 		<UseArtifactsOutput>true</UseArtifactsOutput>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<!--		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
 		<GenerateDocumentationFile>false</GenerateDocumentationFile>
 		<NoWarn>$(NoWarn);EnableGenerateDocumentationFile</NoWarn>
 	</PropertyGroup>

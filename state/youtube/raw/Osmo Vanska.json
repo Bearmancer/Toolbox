@@ -53,5 +53,60 @@
       "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
       "VideoOwnerChannelTitle": "Classical Radio Archive UK"
     }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "w0Gf7MqN8sM",
+      "VideoPublishedAtRaw": "2026-07-11T09:10:02Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-11T09:10:02+00:00",
+      "VideoPublishedAt": "2026-07-11T14:40:02+05:30"
+    },
+    "ETag": "3170Q-8dWUZo_2dlEAiRbvqpf8s",
+    "Id": "UExJRDVnNG5XdlNjYy4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Tchaikovsky Piano Concerto No. 1\n0:39:14 Shostakovich Symphony No. 1\n\nThis performance was given during the 1997 BBC Proms Season on 18 August 1997 in the Royal Albert Hall, London. I do not seem to have the other 2 works in the concert by Glinka and McGuire for which my apologies\n\nGrigory Sokolov (piano)\n\nBBC Scottish Symphony Orchestra\nconducted by\nOsmo V\u00E4nsk\u00E4\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ec39rz\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PLID5g4nWvScc",
+      "Position": 1,
+      "PublishedAtRaw": "2026-07-12T11:40:21Z",
+      "PublishedAtDateTimeOffset": "2026-07-12T11:40:21+00:00",
+      "PublishedAt": "2026-07-12T17:10:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "w0Gf7MqN8sM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/w0Gf7MqN8sM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/w0Gf7MqN8sM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/w0Gf7MqN8sM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/w0Gf7MqN8sM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/w0Gf7MqN8sM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky, Shostakovich - Grigory Sokolov - BBC Scottish Symphony Orch. - Osmo V\u00E4nsk\u00E4 (RAH, 1997)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
   }
 ]

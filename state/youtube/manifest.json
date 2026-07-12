@@ -1100,8 +1100,8 @@
       "PlaylistId": "PL1zgNCoWt_7YIuUHxscYo21YxqOu83kJB",
       "Title": "Paavo J\u00E4rvi",
       "ETag": "tjqHQ92M366xOXudJ9soVIBCTZY",
-      "ReportedVideoCount": 94,
-      "LastChecked": "2026-06-24T13:54:24.7995745+00:00",
+      "ReportedVideoCount": 95,
+      "LastChecked": "2026-07-12T16:27:01.4650191+00:00",
       "LastUpdated": "2023-11-17T19:50:24.789273+00:00"
     },
     "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo": {
@@ -1145,8 +1145,8 @@
       "LastUpdated": "2026-06-24T18:00:43.186609+00:00"
     }
   },
-  "LastChecked": "2026-07-04T21:04:14.8480002+00:00",
-  "LastUpdated": "2026-07-04T21:04:14.8480007+00:00",
-  "AzureCharsUsed": 0,
+  "LastChecked": "2026-07-12T16:27:21.5845024+00:00",
+  "LastUpdated": "2026-07-12T16:27:21.5845026+00:00",
+  "AzureCharsUsed": 15064,
   "AzureCharsMonth": 7
 }

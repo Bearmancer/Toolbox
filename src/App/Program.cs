@@ -31,7 +31,7 @@ internal static class Program
 	{
 		var envPath = Path.Combine(PathResolver.RepoRoot, ".env");
 
-		if (!File.Exists(path: envPath))
+		if (!File.Exists(envPath))
 		{
 			await Console.Error.WriteLineAsync(
 				$".env not found at {envPath}. Create one at the repo root with all required keys."
@@ -61,16 +61,16 @@ internal static class Program
 			return 2;
 		}
 
-		var registrar = new TypeRegistrar(services: services);
-		var toolbox = new CommandApp(registrar: registrar);
+		var registrar = new TypeRegistrar(services);
+		var toolbox = new CommandApp(registrar);
 
 		toolbox.Configure(cfg =>
 		{
-			cfg.SetApplicationName(name: "Toolbox");
-			cfg.SetApplicationVersion(version: "1.0.0");
-			AzureCommandModule.ConfigureCommands(cfg: cfg);
-			SyncCommandModule.ConfigureCommands(cfg: cfg);
-			DashboardCommandModule.ConfigureCommands(cfg: cfg);
+			cfg.SetApplicationName("Toolbox");
+			cfg.SetApplicationVersion("1.0.0");
+			AzureCommandModule.ConfigureCommands(cfg);
+			SyncCommandModule.ConfigureCommands(cfg);
+			DashboardCommandModule.ConfigureCommands(cfg);
 		});
 
 		using var appCts = new CancellationTokenSource();

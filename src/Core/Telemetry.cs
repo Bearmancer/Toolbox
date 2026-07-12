@@ -39,18 +39,16 @@ public static class Telemetry
 	{
 		_ = config.WriteTo.Logger(lc =>
 			lc.Filter.ByIncludingOnly(e =>
-					e.Properties.ContainsKey("Service")
-					&& e.Properties["Service"] is ScalarValue sv2
-					&& string.Equals(
-						sv2.Value?.ToString(),
-						service.ToString(),
-						StringComparison.Ordinal
-					)
+					e.Properties.TryGetValue("Service", out LogEventPropertyValue? propValue)
+					&& propValue is ScalarValue sv
+					&& sv.Value is string serviceName
+					&& serviceName == service.ToString()
 				)
 				.WriteTo.File(
 					new CompactJsonFormatter(),
 					path,
-					rollingInterval: RollingInterval.Infinite
+					rollingInterval: RollingInterval.Day,
+					retainedFileCountLimit: 7
 				)
 		);
 	}
