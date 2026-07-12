@@ -89,6 +89,23 @@ public sealed record YouTubeFetchState
 			throw;
 		}
 	}
+
+	public static void ArchiveDeleted(IReadOnlyList<PlaylistSnapshot> deletedPlaylists)
+	{
+		var stateRoot = Path.Combine(PathResolver.RepoRoot, "state", "youtube");
+		var processedDir = Path.Combine(stateRoot, "processed");
+		var deletedDir = Path.Combine(stateRoot, "deleted");
+		foreach (var snapshot in deletedPlaylists)
+		{
+			var sanitizedTitle = Text.SanitizeFileName(snapshot.Title);
+			var sourcePath = Path.Combine(processedDir, $"{sanitizedTitle}.json");
+			var destPath = Path.Combine(deletedDir, $"{sanitizedTitle}.json");
+			if (!File.Exists(sourcePath)) continue;
+			Directory.CreateDirectory(deletedDir);
+			File.Move(sourcePath, destPath, overwrite: true);
+			Telemetry.Info("Archived deleted playlist: {Title}", snapshot.Title);
+		}
+	}
 }
 
 public class HmsTimeSpanConverter : JsonConverter<TimeSpan>

@@ -112,18 +112,15 @@ public class YouTubePlaylistService(YouTubeService yt)
 		request.PlaylistId = playlistId;
 		request.MaxResults = 50;
 
-		var pages = new List<PlaylistItemListResponse>();
-		string? pageToken = null;
-
-		do
-		{
-			ct.ThrowIfCancellationRequested();
-
-			request.PageToken = pageToken;
-			PlaylistItemListResponse? response = await request.ExecuteAsync(cancellationToken: ct);
-			pages.Add(item: response);
-			pageToken = response.NextPageToken;
-		} while (pageToken is { });
+		List<PlaylistItemListResponse> pages = await PaginateAsync<PlaylistItemListResponse>(
+			async pageToken =>
+			{
+				request.PageToken = pageToken;
+				PlaylistItemListResponse response = await request.ExecuteAsync(cancellationToken: ct);
+				return ((IList<PlaylistItemListResponse>)[response], response.NextPageToken);
+			},
+			ct
+		);
 
 		activity.Complete();
 		Telemetry.Debug(
