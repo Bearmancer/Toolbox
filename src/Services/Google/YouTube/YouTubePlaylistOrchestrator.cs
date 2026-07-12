@@ -31,6 +31,7 @@ public class YouTubePlaylistOrchestrator(
 
 		return await LoadStoredStateAsync(ManifestFile, ct)
 			.ThenAsync(stored => FetchSummariesAndDetectAsync(stored, ct))
+			.ThenAsync(ctx => MergePlaylistsAsync(ctx, ct))
 			.ThenAsync(ctx => ProcessIfNeededAsync(ctx, ct))
 			.Then(outcome => Finalize(outcome, syncStopwatch));
 	}
@@ -47,6 +48,24 @@ public class YouTubePlaylistOrchestrator(
 		syncProcessor.ArchiveDeletedPlaylists(changes.DeletedPlaylists);
 		List<PlaylistSnapshot> toProcess = CombineNewAndChanged(changes);
 		return new SyncContext(stored, changes, toProcess);
+	}
+
+	private async Task<ErrorOr<SyncContext>> MergePlaylistsAsync(SyncContext ctx, CancellationToken ct)
+	{
+		List<PlaylistSnapshot> deduplicated = await syncProcessor.MergeDuplicatePlaylistsAsync(
+			ctx.ToProcess,
+			ct
+		);
+
+		if (deduplicated.Count < ctx.ToProcess.Count)
+			Telemetry.Info(
+				"Merged {Count} duplicate playlist(s): {Before} -> {After}",
+				ctx.ToProcess.Count - deduplicated.Count,
+				ctx.ToProcess.Count,
+				deduplicated.Count
+			);
+
+		return new SyncContext(ctx.Stored, ctx.Changes, deduplicated);
 	}
 
 	private async Task<ErrorOr<ProcessOutcome>> ProcessIfNeededAsync(

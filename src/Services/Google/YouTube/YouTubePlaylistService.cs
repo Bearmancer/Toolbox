@@ -1,4 +1,5 @@
 using Core;
+using ErrorOr;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
 using SerilogTracing;
@@ -220,5 +221,26 @@ public class YouTubePlaylistService(YouTubeService yt)
 			raw ?? "null"
 		);
 		return DateTimeOffset.UtcNow;
+	}
+
+	public async Task<ErrorOr<string>> DeletePlaylistAsync(string playlistId, CancellationToken ct)
+	{
+		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
+		using LoggerActivity activity = Telemetry.StartActivity(
+			messageTemplate: "YouTube.DeletePlaylist"
+		);
+
+		try
+		{
+			await yt.Playlists.Delete(playlistId).ExecuteAsync(ct);
+			activity.Complete();
+			Telemetry.Info("Deleted playlist {Id}", playlistId);
+			return playlistId;
+		}
+		catch (Exception ex)
+		{
+			activity.Complete();
+			return Errors.YouTube.ApiError($"Failed to delete playlist {playlistId}: {ex.Message}");
+		}
 	}
 }
