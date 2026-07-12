@@ -25,8 +25,9 @@ public static class Telemetry
 		foreach (ServiceName service in Enum.GetValues<ServiceName>())
 			AddServiceLogger(config, service, $"logs/{service.ToFileSlug()}.jsonl");
 
-		if (await IsSeqReachableAsync())
-			_ = config.WriteTo.Seq("http://localhost:5341");
+		var seqUrl = Environment.GetEnvironmentVariable("SEQ_URL") ?? "http://localhost:5341";
+		if (await IsSeqReachableAsync(seqUrl))
+			_ = config.WriteTo.Seq(seqUrl);
 
 		Log.Logger = config.CreateLogger();
 	}
@@ -47,8 +48,9 @@ public static class Telemetry
 				.WriteTo.File(
 					new CompactJsonFormatter(),
 					path,
-					rollingInterval: RollingInterval.Day,
-					retainedFileCountLimit: 7
+					rollingInterval: RollingInterval.Infinite,
+					retainedFileCountLimit: null,
+					fileSizeLimitBytes: 50 * 1024 * 1024
 				)
 		);
 	}
@@ -71,17 +73,18 @@ public static class Telemetry
 	public static LoggerActivity StartActivity(string messageTemplate, params object[] args) =>
 		Log.Logger.StartActivity(messageTemplate, args);
 
-	private static async Task<bool> IsSeqReachableAsync()
+	private static async Task<bool> IsSeqReachableAsync(string seqUrl)
 	{
 		try
 		{
+			var uri = new Uri(seqUrl);
 			using var client = new TcpClient();
 			using var cts = new CancellationTokenSource(TimeSpan.FromMilliseconds(500));
-			await client.ConnectAsync("localhost", 5341, cts.Token);
+			await client.ConnectAsync(uri.Host, uri.Port, cts.Token);
 			return true;
 		}
 		catch (Exception ex)
-			when (ex is SocketException or IOException or OperationCanceledException)
+			when (ex is SocketException or IOException or OperationCanceledException or UriFormatException)
 		{
 			return false;
 		}
