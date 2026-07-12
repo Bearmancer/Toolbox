@@ -61,6 +61,7 @@ public static class GoogleSetup
 			services.AddSingleton<YouTubePlaylistProcessor>();
 			services.AddSingleton<YouTubeSyncProcessor>();
 			services.AddSingleton<YouTubePlaylistOrchestrator>();
+			services.AddSingleton<DashboardService>();
 
 			return services;
 		}
