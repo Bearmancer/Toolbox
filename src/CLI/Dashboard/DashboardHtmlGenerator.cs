@@ -27,6 +27,14 @@ public static class DashboardHtmlGenerator
 			a { color: #007bff; text-decoration: none; }
 			a:hover { text-decoration: underline; }
 			#results-count { color: #555; margin-bottom: 10px; font-size: 13px; }
+			.toggle-bar { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+			.toggle-bar .per-search { margin-bottom: 0; }
+			.col-toggle { position: relative; }
+			.toggle-btn { padding: 8px 12px; font-size: 13px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; background: #f8f8f8; }
+			.toggle-btn:hover { background: #eee; }
+			.col-dropdown { display: none; position: absolute; top: calc(100% + 4px); left: 0; background: #fff; border: 1px solid #ddd; border-radius: 4px; padding: 8px 12px; z-index: 99; min-width: 140px; box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+			.col-dropdown.open { display: block; }
+			.col-dropdown label { display: flex; align-items: center; gap: 6px; padding: 4px 0; font-size: 13px; cursor: pointer; white-space: nowrap; }
 			</style>
 			</head>
 			<body>
@@ -64,9 +72,11 @@ public static class DashboardHtmlGenerator
 			};
 
 			var globalFuse = null;
+			var allVideosFuse = null;
 			var playlistFuse = {};
 			var videoTables = {};
 			var playlistTable = null;
+			var allVideoTable = null;
 			var resultsTable = null;
 			var debounceTimer = null;
 
@@ -101,6 +111,9 @@ public static class DashboardHtmlGenerator
 			  if (playlistId === 'all') {
 			    showView('view-all');
 			    if (playlistTable) playlistTable.redraw(true);
+			  } else if (playlistId === 'all-videos') {
+			    showView('view-all-videos');
+			    if (allVideoTable) allVideoTable.redraw(true);
 			  } else {
 			    showView('view-' + playlistId);
 			    if (!videoTables[playlistId]) {
@@ -164,6 +177,28 @@ public static class DashboardHtmlGenerator
 			  table.setData(playlistFuse[playlistId].search(q).map(function(r) { return r.item; }));
 			}
 
+			function onAllVideosSearch(query) {
+			  clearTimeout(debounceTimer);
+			  debounceTimer = setTimeout(function() { doAllVideosSearch(query.trim()); }, 200);
+			}
+
+			function doAllVideosSearch(q) {
+			  if (!allVideoTable) return;
+			  if (!q) { allVideoTable.setData(window.allVideos); return; }
+			  if (!allVideosFuse) allVideosFuse = new Fuse(window.allVideos, FUSE_OPTS);
+			  allVideoTable.setData(allVideosFuse.search(q).map(function(r) { return r.item; }));
+			}
+
+			function toggleDropdown(id) {
+			  var el = document.getElementById(id);
+			  el.classList.toggle('open');
+			}
+
+			function toggleCol(table, field, visible) {
+			  if (!table) return;
+			  if (visible) table.showColumn(field); else table.hideColumn(field);
+			}
+
 			globalFuse = new Fuse(window.allVideos, FUSE_OPTS);
 
 			playlistTable = new Tabulator('#playlist-table', {
@@ -192,6 +227,27 @@ public static class DashboardHtmlGenerator
 			    { title: 'Channel', field: 'channelName', formatter: channelFmt, minWidth: 150 },
 			    { title: 'Playlist', field: 'playlistName', minWidth: 150 }
 			  ]
+			});
+
+			allVideoTable = new Tabulator('#all-videos-table', {
+			  data: window.allVideos,
+			  layout: 'fitColumns',
+			  initialSort: [{ column: 'title', dir: 'asc' }],
+			  pagination: 'local',
+			  paginationSize: 100,
+			  columns: [
+			    { title: 'Title', field: 'title', formatter: titleFmt, minWidth: 250 },
+			    { title: 'Channel', field: 'channelName', formatter: channelFmt, minWidth: 150 },
+			    { title: 'Duration', field: 'duration', width: 100 },
+			    { title: 'Playlist', field: 'playlistName', minWidth: 150 },
+			    { title: 'Description', field: 'description', formatter: 'textarea', minWidth: 300, visible: false }
+			  ]
+			});
+
+			document.addEventListener('click', function(e) {
+			  if (!e.target.closest('.col-toggle')) {
+			    document.querySelectorAll('.col-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+			  }
 			});
 			</script>
 			</body>

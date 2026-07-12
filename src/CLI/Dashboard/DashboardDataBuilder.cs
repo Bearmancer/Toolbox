@@ -72,6 +72,7 @@ public static class DashboardDataBuilder
 		var sb = new StringBuilder();
 		sb.AppendLine("<select id=\"playlist-dropdown\" onchange=\"switchView(this.value)\">");
 		sb.AppendLine("<option value=\"all\">All Playlists</option>");
+		sb.AppendLine("<option value=\"all-videos\">All Videos (flat)</option>");
 		foreach (PlaylistSnapshot p in sorted)
 			sb.AppendLine($"<option value=\"{p.PlaylistId}\">{Escape(p.Title)}</option>");
 		sb.AppendLine("</select>");
@@ -81,6 +82,21 @@ public static class DashboardDataBuilder
 	private static string BuildVideoViewsHtml(List<PlaylistSnapshot> sorted)
 	{
 		var sb = new StringBuilder();
+		sb.AppendLine("<div id=\"view-all-videos\" class=\"view\">");
+		sb.AppendLine("<h2>All Videos</h2>");
+		sb.AppendLine("<div class=\"toggle-bar\">");
+		sb.AppendLine("<input type=\"text\" class=\"per-search\" id=\"all-videos-search\" placeholder=\"Search all videos...\" oninput=\"onAllVideosSearch(this.value)\">");
+		sb.AppendLine("<div class=\"col-toggle\" id=\"all-videos-toggle\">");
+		sb.AppendLine("<button class=\"toggle-btn\" onclick=\"toggleDropdown('all-videos-cols')\">Columns &#9660;</button>");
+		sb.AppendLine("<div class=\"col-dropdown\" id=\"all-videos-cols\">");
+		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'title',this.checked)\"> Title</label>");
+		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'channelName',this.checked)\"> Channel</label>");
+		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'duration',this.checked)\"> Duration</label>");
+		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'playlistName',this.checked)\"> Playlist</label>");
+		sb.AppendLine("<label><input type=\"checkbox\" onchange=\"toggleCol(allVideoTable,'description',this.checked)\"> Description</label>");
+		sb.AppendLine("</div></div></div>");
+		sb.AppendLine("<div id=\"all-videos-table\"></div>");
+		sb.AppendLine("</div>");
 		foreach (PlaylistSnapshot p in sorted)
 		{
 			sb.AppendLine($"<div id=\"view-{p.PlaylistId}\" class=\"view\">");

@@ -71,10 +71,9 @@ public class DashboardService
 		if (!Directory.Exists(ProcessedDir))
 			return result;
 
-		var reverseLookup = playlists.ToDictionary(
-			p => Text.SanitizeFileName(p.Title),
-			p => p.Title
-		);
+		var reverseLookup = new Dictionary<string, string>();
+		foreach (var p in playlists)
+			reverseLookup.TryAdd(Text.SanitizeFileName(p.Title), p.Title);
 
 		foreach (var file in Directory.GetFiles(ProcessedDir, "*.json"))
 		{
