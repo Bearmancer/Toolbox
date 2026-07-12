@@ -7,6 +7,25 @@ namespace Services.Google.YouTube;
 
 public class YouTubePlaylistService(YouTubeService yt)
 {
+
+	private static async Task<List<T>> PaginateAsync<T>(
+		Func<string?, Task<(IList<T> Items, string? NextPageToken)>> fetch,
+		CancellationToken ct
+	)
+	{
+		var results = new List<T>();
+		string? pageToken = null;
+
+		do
+		{
+			ct.ThrowIfCancellationRequested();
+			var (items, nextPageToken) = await fetch(pageToken);
+			results.AddRange(items);
+			pageToken = nextPageToken;
+		} while (pageToken is { });
+
+		return results;
+	}
 	public async Task<IList<Playlist>> GetPlaylistsAsync(
 		CancellationToken ct,
 		string parts = "snippet"
@@ -17,22 +36,19 @@ public class YouTubePlaylistService(YouTubeService yt)
 			messageTemplate: "YouTube.GetPlaylists"
 		);
 
-		PlaylistsResource.ListRequest? request = yt.Playlists.List(part: parts);
+		PlaylistsResource.ListRequest request = yt.Playlists.List(part: parts);
 		request.Mine = true;
 		request.MaxResults = 50;
 
-		var playlists = new List<Playlist>();
-		string? pageToken = null;
-
-		do
-		{
-			ct.ThrowIfCancellationRequested();
-
-			request.PageToken = pageToken;
-			PlaylistListResponse? response = await request.ExecuteAsync(cancellationToken: ct);
-			playlists.AddRange(response.Items ?? []);
-			pageToken = response.NextPageToken;
-		} while (pageToken is { });
+		List<Playlist> playlists = await PaginateAsync(
+			async pageToken =>
+			{
+				request.PageToken = pageToken;
+				PlaylistListResponse response = await request.ExecuteAsync(ct);
+				return (response.Items ?? [], response.NextPageToken);
+			},
+			ct
+		);
 
 		activity.Complete();
 		Telemetry.Debug("YouTube.GetPlaylists returned {Count} playlists", playlists.Count);
@@ -50,22 +66,19 @@ public class YouTubePlaylistService(YouTubeService yt)
 			messageTemplate: "YouTube.GetPlaylistItems"
 		);
 
-		PlaylistItemsResource.ListRequest? request = yt.PlaylistItems.List(part: parts);
+		PlaylistItemsResource.ListRequest request = yt.PlaylistItems.List(part: parts);
 		request.PlaylistId = playlistId;
 		request.MaxResults = 50;
 
-		var items = new List<PlaylistItem>();
-		string? pageToken = null;
-
-		do
-		{
-			ct.ThrowIfCancellationRequested();
-
-			request.PageToken = pageToken;
-			PlaylistItemListResponse? response = await request.ExecuteAsync(cancellationToken: ct);
-			items.AddRange(response.Items ?? []);
-			pageToken = response.NextPageToken;
-		} while (pageToken is { });
+		List<PlaylistItem> items = await PaginateAsync(
+			async pageToken =>
+			{
+				request.PageToken = pageToken;
+				PlaylistItemListResponse response = await request.ExecuteAsync(ct);
+				return (response.Items ?? [], response.NextPageToken);
+			},
+			ct
+		);
 
 		activity.Complete();
 		Telemetry.Debug(
@@ -129,36 +142,33 @@ public class YouTubePlaylistService(YouTubeService yt)
 			messageTemplate: "YouTube.GetPlaylistSummaries"
 		);
 
-		PlaylistsResource.ListRequest? request = yt.Playlists.List(part: "snippet,contentDetails");
+		PlaylistsResource.ListRequest request = yt.Playlists.List(part: "snippet,contentDetails");
 		request.Mine = true;
 		request.MaxResults = 50;
 
-		var snapshots = new List<PlaylistSnapshot>();
-		string? pageToken = null;
-
-		do
-		{
-			ct.ThrowIfCancellationRequested();
-
-			request.PageToken = pageToken;
-			PlaylistListResponse? response = await request.ExecuteAsync(cancellationToken: ct);
-
-			snapshots.AddRange(
-				from playlist in response.Items ?? []
-				let publishedAt = ParsePublishedAt(playlist.Id, playlist.Snippet?.PublishedAtRaw)
-				select new PlaylistSnapshot
-				{
-					PlaylistId = playlist.Id,
-					Title = playlist.Snippet.Title,
-					LastUpdated = publishedAt,
-					LastChecked = DateTimeOffset.UtcNow,
-					ETag = playlist.ETag,
-					ReportedVideoCount = playlist.ContentDetails?.ItemCount ?? 0,
-				}
-			);
-
-			pageToken = response.NextPageToken;
-		} while (pageToken is { });
+		List<PlaylistSnapshot> snapshots = await PaginateAsync(
+			async pageToken =>
+			{
+				request.PageToken = pageToken;
+				PlaylistListResponse response = await request.ExecuteAsync(ct);
+				var mapped =
+					(response.Items ?? []).Select(playlist =>
+					{
+						DateTimeOffset publishedAt = ParsePublishedAt(playlist.Id, playlist.Snippet?.PublishedAtRaw);
+						return new PlaylistSnapshot
+						{
+							PlaylistId = playlist.Id,
+							Title = playlist.Snippet!.Title!,
+							LastUpdated = publishedAt,
+							LastChecked = DateTimeOffset.UtcNow,
+							ETag = playlist.ETag,
+							ReportedVideoCount = playlist.ContentDetails?.ItemCount ?? 0,
+						};
+					}).ToList();
+				return ((IList<PlaylistSnapshot>)mapped, response.NextPageToken);
+			},
+			ct
+		);
 
 		activity.Complete();
 		return snapshots;
