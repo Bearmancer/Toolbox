@@ -28,7 +28,8 @@ public static class LastFmSetup
 				IHttpClientFactory factory = sp.GetRequiredService<IHttpClientFactory>();
 				HttpClient client = factory.CreateClient("LastFm");
 				return new LastFmService(client, apiKey, username);
-			});
+		});
+		services.AddSingleton<LastFmSyncOrchestrator>();
 		}
 	}
 }

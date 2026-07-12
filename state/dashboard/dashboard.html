@@ -1,5 +1,1131 @@
 <!DOCTYPE html>
-<html>
-<head><title>Dashboard</title></head>
-<body><h1>Dashboard placeholder</h1></body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
+<style>
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; padding: 20px; }
+h1 { margin: 0 0 4px; }
+.subtitle { color: #555; margin: 0 0 16px; font-size: 14px; }
+.toolbar { display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; }
+#global-search { flex: 1; min-width: 220px; max-width: 520px; padding: 10px 14px; font-size: 15px; border: 2px solid #007bff; border-radius: 6px; outline: none; }
+#global-search:focus { border-color: #0056b3; box-shadow: 0 0 0 3px rgba(0,123,255,.2); }
+select { padding: 8px 14px; font-size: 14px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; background: #fff; }
+.per-search { padding: 9px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; margin-bottom: 12px; width: 380px; outline: none; }
+.per-search:focus { border-color: #007bff; }
+.view { display: none; }
+.view.active { display: block; }
+a { color: #007bff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+#results-count { color: #555; margin-bottom: 10px; font-size: 13px; }
+.toggle-bar { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+.toggle-bar .per-search { margin-bottom: 0; }
+.col-toggle { position: relative; }
+.toggle-btn { padding: 8px 12px; font-size: 13px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; background: #f8f8f8; }
+.toggle-btn:hover { background: #eee; }
+.col-dropdown { display: none; position: absolute; top: calc(100% + 4px); left: 0; background: #fff; border: 1px solid #ddd; border-radius: 4px; padding: 8px 12px; z-index: 99; min-width: 140px; box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+.col-dropdown.open { display: block; }
+.col-dropdown label { display: flex; align-items: center; gap: 6px; padding: 4px 0; font-size: 13px; cursor: pointer; white-space: nowrap; }
+</style>
+</head>
+<body>
+<h1>YouTube Dashboard</h1>
+<p class="subtitle">143 playlists &middot; 8761 videos</p>
+<div class="toolbar">
+  <input type="text" id="global-search" placeholder="Fuzzy search 8761 videos across all playlists..." oninput="onGlobalSearch(this.value)">
+  <select id="playlist-dropdown" onchange="switchView(this.value)">
+<option value="all">Playlist Overview</option>
+<option value="all-videos">All Videos</option>
+<option value="PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo">Alain Altinoglu</option>
+<option value="PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv">Alan Gilbert</option>
+<option value="PL1zgNCoWt_7aoFmSy2j0-3E1RKZSR3WKj">Alexander Sladkovsky</option>
+<option value="PL1zgNCoWt_7YL7GTIvyJbc5bMj-qgwW2N">American Piano Concertos</option>
+<option value="PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9">Andrés Orozco-Estrada</option>
+<option value="PL1zgNCoWt_7atf86nll2v6WdPi1qvuqdB">Andris Nelsons</option>
+<option value="PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0">Antal Dorati</option>
+<option value="PL1zgNCoWt_7bwMjcr0zFyKdmjX5bN5ybS">Antonio Pappano</option>
+<option value="PL1zgNCoWt_7ZFpUZhv014SWeYUnRMypbw">Bad</option>
+<option value="PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4">Barbara Hannigan</option>
+<option value="PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY">Beethoven Symphonies Live</option>
+<option value="PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl">Beethoven Symphony No. 5</option>
+<option value="PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot">Bernard Haitink</option>
+<option value="PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt">Bowie</option>
+<option value="PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ">BRSO</option>
+<option value="PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW">Bruno Walter</option>
+<option value="PL1zgNCoWt_7ZvZ7I8Dj7dIJEgK24SF-NF">Carlo Maria Giulini</option>
+<option value="PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA">Charles Mackerras</option>
+<option value="PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr">Charles Munch</option>
+<option value="PL1zgNCoWt_7YtyIXzbQQyn7M2fCaUn9Ae">Christian Thielemann</option>
+<option value="PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc">Christoph von Dohnanyi</option>
+<option value="PL1zgNCoWt_7a8WCbPh3i6xNS-to4ZyqBs">Classical for Newbies</option>
+<option value="PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1">Claudio Abbado</option>
+<option value="PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG">Colin Davis</option>
+<option value="PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT">Concertos for Two Pianos</option>
+<option value="PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl">Cristian Măcelaru</option>
+<option value="PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf">Daniel Barenboim</option>
+<option value="PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ">Daniel Harding</option>
+<option value="PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY">Dima Slobodeniouk</option>
+<option value="PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9">Dvořák Symphony No. 9</option>
+<option value="PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv">Edward Gardner</option>
+<option value="PL1zgNCoWt_7ZvpnAMjQG9hxt1UJgV3vRi">Eliahu Inbal</option>
+<option value="PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh">Elim Chan</option>
+<option value="PL1zgNCoWt_7YiPReL0yJa3jt22ev4MrHl">Erich Leinsdorf</option>
+<option value="PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq">Esa-Pekka Salonen</option>
+<option value="PL1zgNCoWt_7ZCamY8HXK-o7QaKiXV22vC">Eugen Jochum</option>
+<option value="PL1zgNCoWt_7ZG0EkaRQ7BSlvhKudbuHak">Eugene Ormandy</option>
+<option value="PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4">Evgeny Svetlanov</option>
+<option value="PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU">Fabio Luisi</option>
+<option value="PL1zgNCoWt_7Z7CS7UZwMSgY0gotGGBPuK">Fortepiano</option>
+<option value="PL1zgNCoWt_7ZOmyC7Z_xSBuGYYGeOaL6f">François-Xavier Roth</option>
+<option value="PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-">Frankfurt Radio Symphony Orchestra</option>
+<option value="PL1zgNCoWt_7YBiyLkVfl0XN6ww1Xjj417">Franz Welser-Möst</option>
+<option value="PL1zgNCoWt_7ZysJdo__7aWUppzDp0JIbz">Gennady Rozhdestvensky</option>
+<option value="PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7">Georg Solti</option>
+<option value="PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r">George Szell</option>
+<option value="PL1zgNCoWt_7ZjIQUaGoXYX9xaeksRzPxL">Gianandrea Noseda</option>
+<option value="PL1zgNCoWt_7bYuE1IqzIRY4wOI8LiYPH-">Giovanni Antonini</option>
+<option value="PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5">Giuseppe Sinopoli</option>
+<option value="PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q">Good</option>
+<option value="PL1zgNCoWt_7bD3Qm-jArfPV9Sk20zQK6-">Great</option>
+<option value="PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt">Günter Wand</option>
+<option value="PL1zgNCoWt_7bwQQmNskHXvIH_0WQ6tLKs">Gustavo Dudamel</option>
+<option value="PL1zgNCoWt_7bmwt8vyU873HoAEJ3P8WbP">Hannu Lintu</option>
+<option value="PL1zgNCoWt_7bQ1qmLI9HIWGCsTjzwK0K3">Hans Schmidt-Isserstedt</option>
+<option value="PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf">Herbert Blomstedt</option>
+<option value="PL1zgNCoWt_7ZjZP3HjtwDIqqBHUJqTEgX">Herbert von Karajan</option>
+<option value="PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9">Hermann Scherchen</option>
+<option value="PL1zgNCoWt_7Y5CQv9pTBS9ZS1oDPTCRq5">Hindi</option>
+<option value="PL1zgNCoWt_7aOSnkY281DMdWNHiEgQem-">HIP</option>
+<option value="PL1zgNCoWt_7YFLUg8W7sSzxvC9cQY5WpL">Horrid</option>
+<option value="PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr">Jakub Hrůša</option>
+<option value="PL1zgNCoWt_7aUyO33dPwr8fJXLGpBkLpl">James Levine</option>
+<option value="PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc">JoAnn Falletta</option>
+<option value="PL1zgNCoWt_7bXQEjsgRLgOIeI5uz9gxTN">Joanna Mallwitz</option>
+<option value="PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i">John Eliot Gardiner</option>
+<option value="PL1zgNCoWt_7YvRKUw_4Z4eg327eE72o5S">Jukka-Pekka Saraste</option>
+<option value="PL1zgNCoWt_7aLNB0xmClNCMnY7RK6IcXb">K-Man&#39;s Greatest Hindi Hits</option>
+<option value="PL1zgNCoWt_7aJBbckp-ubQKR22nWw9-xs">Kalevi Aho</option>
+<option value="PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed">Karina Canellakis</option>
+<option value="PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X">Kent Nagano</option>
+<option value="PL1zgNCoWt_7a6A7Nt9ZGWUR98mPooHSL7">Kirill Petrenko</option>
+<option value="PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ">Klaus Makela</option>
+<option value="PL1zgNCoWt_7Z_wVa6fdkZS3PzLVzYIknu">Klaus Tennstedt</option>
+<option value="PL1zgNCoWt_7YG5RkKdKpeNthksZcFSvtM">Krzysztof Penderecki</option>
+<option value="PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT">Leonard Bernstein</option>
+<option value="PL1zgNCoWt_7Z8j7OFV3gv3pkoxyxw-Mgp">Leopold Stokowski</option>
+<option value="PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T">Liszt Orchestral Works</option>
+<option value="PL1zgNCoWt_7aBCJlIQp_KJcdaBz5zGhx7">Liszt Two Pianoa</option>
+<option value="PL1zgNCoWt_7a88sq_nQhH6Af0sIiTom_k">Lorin Maazel</option>
+<option value="PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq">Manfred Honeck</option>
+<option value="PL1zgNCoWt_7bYUCepGsS18F8HOk04pOHT">Marin Alsop</option>
+<option value="PL1zgNCoWt_7Ydhxd8JsOc1_Um6tVV1HK8">Mariss Jansons</option>
+<option value="PL1zgNCoWt_7bCtx9cPkQiXl9bB0Ytozfa">Michael Tilson Thomas</option>
+<option value="PL1zgNCoWt_7Zou6XcsnKbEu0KnGchCjPF">Mikhail Pletnev</option>
+<option value="PL1zgNCoWt_7bpcSoY0h6FONwg0iaplXCa">Miscellaneous</option>
+<option value="PL1zgNCoWt_7YSMmyCKDPuPwSJd5Sb7eZm">Modern</option>
+<option value="PL1zgNCoWt_7bu9IKcLh-FMd5wzkIOolL4">Mozart Symphony No. 39</option>
+<option value="PL1zgNCoWt_7ZYPdiIi1WHpQL8YtiLlp-z">Myung-whun Chung</option>
+<option value="PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK">Nathalie Stutzmann</option>
+<option value="PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB">NDR Klassik</option>
+<option value="PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5">Neeme Jarvi</option>
+<option value="PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz">Neeme Jarvi</option>
+<option value="PL1zgNCoWt_7atkU5_AJBk0ud7-TlL7D3q">Nonets</option>
+<option value="PL1zgNCoWt_7YmUaUYq3-uzgArf2R7FMn-">Octets</option>
+<option value="PL1zgNCoWt_7Y8qEPyNpugd5CPdIYHgpm5">OK</option>
+<option value="PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ">Okko Kamu</option>
+<option value="PL1zgNCoWt_7ZSiF--ol6_fIl7R_YRe_hI">Otto Klemperer</option>
+<option value="PL1zgNCoWt_7YIuUHxscYo21YxqOu83kJB">Paavo Järvi</option>
+<option value="PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y">Pablo Heras-Casado</option>
+<option value="PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7">Percussion and Orchestra</option>
+<option value="PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3">Petr Popelka</option>
+<option value="PL1zgNCoWt_7as7ce0EPgDmwj6KWRhm9Aa">Piano Quintets</option>
+<option value="PL1zgNCoWt_7ZgyygT4aXqYlXXJaozGGOC">Piano Trios</option>
+<option value="PL1zgNCoWt_7bHTMdnOQoJUPo8raEyJUuT">Pierre Boulez</option>
+<option value="PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh">Pierre Monteux</option>
+<option value="PL1zgNCoWt_7YBmznJUQ_cnm_ja9qolWKP">Rafael Kubelik</option>
+<option value="PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-">Rafael Payare</option>
+<option value="PL1zgNCoWt_7bpwlJYymdY79IvMF7YQ2Nx">Random</option>
+<option value="PL1zgNCoWt_7bFrRPT_Gc9prHT0_Svy9YX">Ricardo Chailly</option>
+<option value="PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT">Riccardo Muti</option>
+<option value="PL1zgNCoWt_7byF1eVPNLGIEYel5-Hgf-U">Roger Norrington</option>
+<option value="PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh">Sakari Oramo</option>
+<option value="PL1zgNCoWt_7ZyGxH9Cp33K0sV053yGQ5F">Schubert Symphony No. 3</option>
+<option value="PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm">Schumann Symphony No. 2</option>
+<option value="PL1zgNCoWt_7YpD64XlMAIwRKnAXPQ2hsK">Seiji Ozawa</option>
+<option value="PL1zgNCoWt_7Yt04UW0c1G0ZKYVZc4YeUV">Semyon Bychkov</option>
+<option value="PL1zgNCoWt_7Z9NKQg_IRjzZDiK07uisaO">Septets</option>
+<option value="PL1zgNCoWt_7Z7qMz11vb8nwxWE24Uls64">Sextets</option>
+<option value="PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f">Simon Rattle</option>
+<option value="PL1zgNCoWt_7Z8hLZzo6t98-xZ1zptUY6t">Simone Young</option>
+<option value="PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3">Soviet Symphonists</option>
+<option value="PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv">Stanislaw Skrowaczewski</option>
+<option value="PL1zgNCoWt_7Yj5i9eXV_KdcYMhtmB6NhM">String Sextets</option>
+<option value="PL1zgNCoWt_7bjFDHLMcEtKH2QmSiAZmkm">Susanna Mälkki</option>
+<option value="PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT">Tchaikovsky Piano Concerto No. 1</option>
+<option value="PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M">Tchaikovsky Piano Concerto No. 2</option>
+<option value="PL1zgNCoWt_7bUFC0MJUIZMA4gWTAZLJ9N">Tchaikovsky Symphony No. 6</option>
+<option value="PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ">Thomas Beecham</option>
+<option value="PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG">Thomas Dausgaard</option>
+<option value="PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0">Thomas Sondergaard</option>
+<option value="PL1zgNCoWt_7ZQoYC3f_cTnOwplJF5Qj2t">Thomas Sondergard</option>
+<option value="PL1zgNCoWt_7a6aiofxogeYYzdhbblYpMG">Valery Gergiev</option>
+<option value="PL1zgNCoWt_7bFgYDZyF4hj2sIfJ89zoAQ">Vasily Petrenko</option>
+<option value="PL1zgNCoWt_7b4uFWFGP3igY4tZRrZgp5J">Vladimir Jurowski</option>
+<option value="PL1zgNCoWt_7bktvhP55qQtvklU7_YGdSx">Wagner Rienzi Overture</option>
+<option value="PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr">William Steinberg</option>
+<option value="PL1zgNCoWt_7ZwQEq4pnE526Z8EvGvcvgZ">Wolfgang Sawallisch</option>
+<option value="PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-">Yannick Nézet-Séguin</option>
+<option value="PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW">Yefim Bronfman</option>
+<option value="PL1zgNCoWt_7Yd0bp8KIFnkAejvQEsgdeL">Yevgeny Svetlanov</option>
+<option value="PL1zgNCoWt_7bYi5pgWEqOsS6n-Z6lKONL">Yuri Temirkanov</option>
+<option value="PL1zgNCoWt_7arQOe8rlPTX21Hg8CSbSxh">Zubin Mehta</option>
+</select>
+
+</div>
+
+<div id="view-results" class="view">
+  <div id="results-count"></div>
+  <div id="results-table"></div>
+</div>
+
+<div id="view-all" class="view active">
+  <div id="playlist-table"></div>
+</div>
+
+<div id="view-all-videos" class="view">
+<h2>All Videos</h2>
+<div class="toggle-bar">
+<input type="text" class="per-search" id="all-videos-search" placeholder="Search all videos..." oninput="onAllVideosSearch(this.value)">
+<div class="col-toggle" id="all-videos-toggle">
+<button class="toggle-btn" onclick="toggleDropdown('all-videos-cols')">Columns &#9660;</button>
+<div class="col-dropdown" id="all-videos-cols">
+<label><input type="checkbox" checked onchange="toggleCol(allVideoTable,'title',this.checked)"> Title</label>
+<label><input type="checkbox" checked onchange="toggleCol(allVideoTable,'channelName',this.checked)"> Channel</label>
+<label><input type="checkbox" checked onchange="toggleCol(allVideoTable,'duration',this.checked)"> Duration</label>
+<label><input type="checkbox" checked onchange="toggleCol(allVideoTable,'playlistName',this.checked)"> Playlist</label>
+<label><input type="checkbox" onchange="toggleCol(allVideoTable,'description',this.checked)"> Description</label>
+</div></div></div>
+<div id="all-videos-table"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo" class="view">
+<h2>Alain Altinoglu</h2>
+<input type="text" class="per-search" placeholder="Search in Alain Altinoglu..." oninput="onPlaylistSearch('PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo', this.value)">
+<div id="video-table-PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv" class="view">
+<h2>Alan Gilbert</h2>
+<input type="text" class="per-search" placeholder="Search in Alan Gilbert..." oninput="onPlaylistSearch('PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv', this.value)">
+<div id="video-table-PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aoFmSy2j0-3E1RKZSR3WKj" class="view">
+<h2>Alexander Sladkovsky</h2>
+<input type="text" class="per-search" placeholder="Search in Alexander Sladkovsky..." oninput="onPlaylistSearch('PL1zgNCoWt_7aoFmSy2j0-3E1RKZSR3WKj', this.value)">
+<div id="video-table-PL1zgNCoWt_7aoFmSy2j0-3E1RKZSR3WKj"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YL7GTIvyJbc5bMj-qgwW2N" class="view">
+<h2>American Piano Concertos</h2>
+<input type="text" class="per-search" placeholder="Search in American Piano Concertos..." oninput="onPlaylistSearch('PL1zgNCoWt_7YL7GTIvyJbc5bMj-qgwW2N', this.value)">
+<div id="video-table-PL1zgNCoWt_7YL7GTIvyJbc5bMj-qgwW2N"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9" class="view">
+<h2>Andrés Orozco-Estrada</h2>
+<input type="text" class="per-search" placeholder="Search in Andrés Orozco-Estrada..." oninput="onPlaylistSearch('PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9', this.value)">
+<div id="video-table-PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9"></div>
+</div>
+<div id="view-PL1zgNCoWt_7atf86nll2v6WdPi1qvuqdB" class="view">
+<h2>Andris Nelsons</h2>
+<input type="text" class="per-search" placeholder="Search in Andris Nelsons..." oninput="onPlaylistSearch('PL1zgNCoWt_7atf86nll2v6WdPi1qvuqdB', this.value)">
+<div id="video-table-PL1zgNCoWt_7atf86nll2v6WdPi1qvuqdB"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0" class="view">
+<h2>Antal Dorati</h2>
+<input type="text" class="per-search" placeholder="Search in Antal Dorati..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bwMjcr0zFyKdmjX5bN5ybS" class="view">
+<h2>Antonio Pappano</h2>
+<input type="text" class="per-search" placeholder="Search in Antonio Pappano..." oninput="onPlaylistSearch('PL1zgNCoWt_7bwMjcr0zFyKdmjX5bN5ybS', this.value)">
+<div id="video-table-PL1zgNCoWt_7bwMjcr0zFyKdmjX5bN5ybS"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZFpUZhv014SWeYUnRMypbw" class="view">
+<h2>Bad</h2>
+<input type="text" class="per-search" placeholder="Search in Bad..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZFpUZhv014SWeYUnRMypbw', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZFpUZhv014SWeYUnRMypbw"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4" class="view">
+<h2>Barbara Hannigan</h2>
+<input type="text" class="per-search" placeholder="Search in Barbara Hannigan..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4"></div>
+</div>
+<div id="view-PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY" class="view">
+<h2>Beethoven Symphonies Live</h2>
+<input type="text" class="per-search" placeholder="Search in Beethoven Symphonies Live..." oninput="onPlaylistSearch('PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY', this.value)">
+<div id="video-table-PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl" class="view">
+<h2>Beethoven Symphony No. 5</h2>
+<input type="text" class="per-search" placeholder="Search in Beethoven Symphony No. 5..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot" class="view">
+<h2>Bernard Haitink</h2>
+<input type="text" class="per-search" placeholder="Search in Bernard Haitink..." oninput="onPlaylistSearch('PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot', this.value)">
+<div id="video-table-PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt" class="view">
+<h2>Bowie</h2>
+<input type="text" class="per-search" placeholder="Search in Bowie..." oninput="onPlaylistSearch('PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt', this.value)">
+<div id="video-table-PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ" class="view">
+<h2>BRSO</h2>
+<input type="text" class="per-search" placeholder="Search in BRSO..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW" class="view">
+<h2>Bruno Walter</h2>
+<input type="text" class="per-search" placeholder="Search in Bruno Walter..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZvZ7I8Dj7dIJEgK24SF-NF" class="view">
+<h2>Carlo Maria Giulini</h2>
+<input type="text" class="per-search" placeholder="Search in Carlo Maria Giulini..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZvZ7I8Dj7dIJEgK24SF-NF', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZvZ7I8Dj7dIJEgK24SF-NF"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA" class="view">
+<h2>Charles Mackerras</h2>
+<input type="text" class="per-search" placeholder="Search in Charles Mackerras..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA"></div>
+</div>
+<div id="view-PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr" class="view">
+<h2>Charles Munch</h2>
+<input type="text" class="per-search" placeholder="Search in Charles Munch..." oninput="onPlaylistSearch('PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr', this.value)">
+<div id="video-table-PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YtyIXzbQQyn7M2fCaUn9Ae" class="view">
+<h2>Christian Thielemann</h2>
+<input type="text" class="per-search" placeholder="Search in Christian Thielemann..." oninput="onPlaylistSearch('PL1zgNCoWt_7YtyIXzbQQyn7M2fCaUn9Ae', this.value)">
+<div id="video-table-PL1zgNCoWt_7YtyIXzbQQyn7M2fCaUn9Ae"></div>
+</div>
+<div id="view-PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc" class="view">
+<h2>Christoph von Dohnanyi</h2>
+<input type="text" class="per-search" placeholder="Search in Christoph von Dohnanyi..." oninput="onPlaylistSearch('PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc', this.value)">
+<div id="video-table-PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc"></div>
+</div>
+<div id="view-PL1zgNCoWt_7a8WCbPh3i6xNS-to4ZyqBs" class="view">
+<h2>Classical for Newbies</h2>
+<input type="text" class="per-search" placeholder="Search in Classical for Newbies..." oninput="onPlaylistSearch('PL1zgNCoWt_7a8WCbPh3i6xNS-to4ZyqBs', this.value)">
+<div id="video-table-PL1zgNCoWt_7a8WCbPh3i6xNS-to4ZyqBs"></div>
+</div>
+<div id="view-PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1" class="view">
+<h2>Claudio Abbado</h2>
+<input type="text" class="per-search" placeholder="Search in Claudio Abbado..." oninput="onPlaylistSearch('PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1', this.value)">
+<div id="video-table-PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG" class="view">
+<h2>Colin Davis</h2>
+<input type="text" class="per-search" placeholder="Search in Colin Davis..." oninput="onPlaylistSearch('PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG', this.value)">
+<div id="video-table-PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT" class="view">
+<h2>Concertos for Two Pianos</h2>
+<input type="text" class="per-search" placeholder="Search in Concertos for Two Pianos..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT"></div>
+</div>
+<div id="view-PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl" class="view">
+<h2>Cristian Măcelaru</h2>
+<input type="text" class="per-search" placeholder="Search in Cristian Măcelaru..." oninput="onPlaylistSearch('PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl', this.value)">
+<div id="video-table-PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf" class="view">
+<h2>Daniel Barenboim</h2>
+<input type="text" class="per-search" placeholder="Search in Daniel Barenboim..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf"></div>
+</div>
+<div id="view-PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ" class="view">
+<h2>Daniel Harding</h2>
+<input type="text" class="per-search" placeholder="Search in Daniel Harding..." oninput="onPlaylistSearch('PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ', this.value)">
+<div id="video-table-PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY" class="view">
+<h2>Dima Slobodeniouk</h2>
+<input type="text" class="per-search" placeholder="Search in Dima Slobodeniouk..." oninput="onPlaylistSearch('PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY', this.value)">
+<div id="video-table-PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9" class="view">
+<h2>Dvořák Symphony No. 9</h2>
+<input type="text" class="per-search" placeholder="Search in Dvořák Symphony No. 9..." oninput="onPlaylistSearch('PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9', this.value)">
+<div id="video-table-PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv" class="view">
+<h2>Edward Gardner</h2>
+<input type="text" class="per-search" placeholder="Search in Edward Gardner..." oninput="onPlaylistSearch('PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv', this.value)">
+<div id="video-table-PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZvpnAMjQG9hxt1UJgV3vRi" class="view">
+<h2>Eliahu Inbal</h2>
+<input type="text" class="per-search" placeholder="Search in Eliahu Inbal..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZvpnAMjQG9hxt1UJgV3vRi', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZvpnAMjQG9hxt1UJgV3vRi"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh" class="view">
+<h2>Elim Chan</h2>
+<input type="text" class="per-search" placeholder="Search in Elim Chan..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YiPReL0yJa3jt22ev4MrHl" class="view">
+<h2>Erich Leinsdorf</h2>
+<input type="text" class="per-search" placeholder="Search in Erich Leinsdorf..." oninput="onPlaylistSearch('PL1zgNCoWt_7YiPReL0yJa3jt22ev4MrHl', this.value)">
+<div id="video-table-PL1zgNCoWt_7YiPReL0yJa3jt22ev4MrHl"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq" class="view">
+<h2>Esa-Pekka Salonen</h2>
+<input type="text" class="per-search" placeholder="Search in Esa-Pekka Salonen..." oninput="onPlaylistSearch('PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq', this.value)">
+<div id="video-table-PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZCamY8HXK-o7QaKiXV22vC" class="view">
+<h2>Eugen Jochum</h2>
+<input type="text" class="per-search" placeholder="Search in Eugen Jochum..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZCamY8HXK-o7QaKiXV22vC', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZCamY8HXK-o7QaKiXV22vC"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZG0EkaRQ7BSlvhKudbuHak" class="view">
+<h2>Eugene Ormandy</h2>
+<input type="text" class="per-search" placeholder="Search in Eugene Ormandy..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZG0EkaRQ7BSlvhKudbuHak', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZG0EkaRQ7BSlvhKudbuHak"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4" class="view">
+<h2>Evgeny Svetlanov</h2>
+<input type="text" class="per-search" placeholder="Search in Evgeny Svetlanov..." oninput="onPlaylistSearch('PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4', this.value)">
+<div id="video-table-PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU" class="view">
+<h2>Fabio Luisi</h2>
+<input type="text" class="per-search" placeholder="Search in Fabio Luisi..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z7CS7UZwMSgY0gotGGBPuK" class="view">
+<h2>Fortepiano</h2>
+<input type="text" class="per-search" placeholder="Search in Fortepiano..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z7CS7UZwMSgY0gotGGBPuK', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z7CS7UZwMSgY0gotGGBPuK"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZOmyC7Z_xSBuGYYGeOaL6f" class="view">
+<h2>François-Xavier Roth</h2>
+<input type="text" class="per-search" placeholder="Search in François-Xavier Roth..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZOmyC7Z_xSBuGYYGeOaL6f', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZOmyC7Z_xSBuGYYGeOaL6f"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-" class="view">
+<h2>Frankfurt Radio Symphony Orchestra</h2>
+<input type="text" class="per-search" placeholder="Search in Frankfurt Radio Symphony Orchestra..." oninput="onPlaylistSearch('PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-', this.value)">
+<div id="video-table-PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YBiyLkVfl0XN6ww1Xjj417" class="view">
+<h2>Franz Welser-Möst</h2>
+<input type="text" class="per-search" placeholder="Search in Franz Welser-Möst..." oninput="onPlaylistSearch('PL1zgNCoWt_7YBiyLkVfl0XN6ww1Xjj417', this.value)">
+<div id="video-table-PL1zgNCoWt_7YBiyLkVfl0XN6ww1Xjj417"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZysJdo__7aWUppzDp0JIbz" class="view">
+<h2>Gennady Rozhdestvensky</h2>
+<input type="text" class="per-search" placeholder="Search in Gennady Rozhdestvensky..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZysJdo__7aWUppzDp0JIbz', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZysJdo__7aWUppzDp0JIbz"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7" class="view">
+<h2>Georg Solti</h2>
+<input type="text" class="per-search" placeholder="Search in Georg Solti..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r" class="view">
+<h2>George Szell</h2>
+<input type="text" class="per-search" placeholder="Search in George Szell..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZjIQUaGoXYX9xaeksRzPxL" class="view">
+<h2>Gianandrea Noseda</h2>
+<input type="text" class="per-search" placeholder="Search in Gianandrea Noseda..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZjIQUaGoXYX9xaeksRzPxL', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZjIQUaGoXYX9xaeksRzPxL"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bYuE1IqzIRY4wOI8LiYPH-" class="view">
+<h2>Giovanni Antonini</h2>
+<input type="text" class="per-search" placeholder="Search in Giovanni Antonini..." oninput="onPlaylistSearch('PL1zgNCoWt_7bYuE1IqzIRY4wOI8LiYPH-', this.value)">
+<div id="video-table-PL1zgNCoWt_7bYuE1IqzIRY4wOI8LiYPH-"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5" class="view">
+<h2>Giuseppe Sinopoli</h2>
+<input type="text" class="per-search" placeholder="Search in Giuseppe Sinopoli..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q" class="view">
+<h2>Good</h2>
+<input type="text" class="per-search" placeholder="Search in Good..." oninput="onPlaylistSearch('PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q', this.value)">
+<div id="video-table-PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bD3Qm-jArfPV9Sk20zQK6-" class="view">
+<h2>Great</h2>
+<input type="text" class="per-search" placeholder="Search in Great..." oninput="onPlaylistSearch('PL1zgNCoWt_7bD3Qm-jArfPV9Sk20zQK6-', this.value)">
+<div id="video-table-PL1zgNCoWt_7bD3Qm-jArfPV9Sk20zQK6-"></div>
+</div>
+<div id="view-PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt" class="view">
+<h2>Günter Wand</h2>
+<input type="text" class="per-search" placeholder="Search in Günter Wand..." oninput="onPlaylistSearch('PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt', this.value)">
+<div id="video-table-PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bwQQmNskHXvIH_0WQ6tLKs" class="view">
+<h2>Gustavo Dudamel</h2>
+<input type="text" class="per-search" placeholder="Search in Gustavo Dudamel..." oninput="onPlaylistSearch('PL1zgNCoWt_7bwQQmNskHXvIH_0WQ6tLKs', this.value)">
+<div id="video-table-PL1zgNCoWt_7bwQQmNskHXvIH_0WQ6tLKs"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bmwt8vyU873HoAEJ3P8WbP" class="view">
+<h2>Hannu Lintu</h2>
+<input type="text" class="per-search" placeholder="Search in Hannu Lintu..." oninput="onPlaylistSearch('PL1zgNCoWt_7bmwt8vyU873HoAEJ3P8WbP', this.value)">
+<div id="video-table-PL1zgNCoWt_7bmwt8vyU873HoAEJ3P8WbP"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bQ1qmLI9HIWGCsTjzwK0K3" class="view">
+<h2>Hans Schmidt-Isserstedt</h2>
+<input type="text" class="per-search" placeholder="Search in Hans Schmidt-Isserstedt..." oninput="onPlaylistSearch('PL1zgNCoWt_7bQ1qmLI9HIWGCsTjzwK0K3', this.value)">
+<div id="video-table-PL1zgNCoWt_7bQ1qmLI9HIWGCsTjzwK0K3"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf" class="view">
+<h2>Herbert Blomstedt</h2>
+<input type="text" class="per-search" placeholder="Search in Herbert Blomstedt..." oninput="onPlaylistSearch('PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf', this.value)">
+<div id="video-table-PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZjZP3HjtwDIqqBHUJqTEgX" class="view">
+<h2>Herbert von Karajan</h2>
+<input type="text" class="per-search" placeholder="Search in Herbert von Karajan..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZjZP3HjtwDIqqBHUJqTEgX', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZjZP3HjtwDIqqBHUJqTEgX"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9" class="view">
+<h2>Hermann Scherchen</h2>
+<input type="text" class="per-search" placeholder="Search in Hermann Scherchen..." oninput="onPlaylistSearch('PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9', this.value)">
+<div id="video-table-PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Y5CQv9pTBS9ZS1oDPTCRq5" class="view">
+<h2>Hindi</h2>
+<input type="text" class="per-search" placeholder="Search in Hindi..." oninput="onPlaylistSearch('PL1zgNCoWt_7Y5CQv9pTBS9ZS1oDPTCRq5', this.value)">
+<div id="video-table-PL1zgNCoWt_7Y5CQv9pTBS9ZS1oDPTCRq5"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aOSnkY281DMdWNHiEgQem-" class="view">
+<h2>HIP</h2>
+<input type="text" class="per-search" placeholder="Search in HIP..." oninput="onPlaylistSearch('PL1zgNCoWt_7aOSnkY281DMdWNHiEgQem-', this.value)">
+<div id="video-table-PL1zgNCoWt_7aOSnkY281DMdWNHiEgQem-"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YFLUg8W7sSzxvC9cQY5WpL" class="view">
+<h2>Horrid</h2>
+<input type="text" class="per-search" placeholder="Search in Horrid..." oninput="onPlaylistSearch('PL1zgNCoWt_7YFLUg8W7sSzxvC9cQY5WpL', this.value)">
+<div id="video-table-PL1zgNCoWt_7YFLUg8W7sSzxvC9cQY5WpL"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr" class="view">
+<h2>Jakub Hrůša</h2>
+<input type="text" class="per-search" placeholder="Search in Jakub Hrůša..." oninput="onPlaylistSearch('PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr', this.value)">
+<div id="video-table-PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aUyO33dPwr8fJXLGpBkLpl" class="view">
+<h2>James Levine</h2>
+<input type="text" class="per-search" placeholder="Search in James Levine..." oninput="onPlaylistSearch('PL1zgNCoWt_7aUyO33dPwr8fJXLGpBkLpl', this.value)">
+<div id="video-table-PL1zgNCoWt_7aUyO33dPwr8fJXLGpBkLpl"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc" class="view">
+<h2>JoAnn Falletta</h2>
+<input type="text" class="per-search" placeholder="Search in JoAnn Falletta..." oninput="onPlaylistSearch('PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc', this.value)">
+<div id="video-table-PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bXQEjsgRLgOIeI5uz9gxTN" class="view">
+<h2>Joanna Mallwitz</h2>
+<input type="text" class="per-search" placeholder="Search in Joanna Mallwitz..." oninput="onPlaylistSearch('PL1zgNCoWt_7bXQEjsgRLgOIeI5uz9gxTN', this.value)">
+<div id="video-table-PL1zgNCoWt_7bXQEjsgRLgOIeI5uz9gxTN"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i" class="view">
+<h2>John Eliot Gardiner</h2>
+<input type="text" class="per-search" placeholder="Search in John Eliot Gardiner..." oninput="onPlaylistSearch('PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i', this.value)">
+<div id="video-table-PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YvRKUw_4Z4eg327eE72o5S" class="view">
+<h2>Jukka-Pekka Saraste</h2>
+<input type="text" class="per-search" placeholder="Search in Jukka-Pekka Saraste..." oninput="onPlaylistSearch('PL1zgNCoWt_7YvRKUw_4Z4eg327eE72o5S', this.value)">
+<div id="video-table-PL1zgNCoWt_7YvRKUw_4Z4eg327eE72o5S"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aLNB0xmClNCMnY7RK6IcXb" class="view">
+<h2>K-Man&#39;s Greatest Hindi Hits</h2>
+<input type="text" class="per-search" placeholder="Search in K-Man&#39;s Greatest Hindi Hits..." oninput="onPlaylistSearch('PL1zgNCoWt_7aLNB0xmClNCMnY7RK6IcXb', this.value)">
+<div id="video-table-PL1zgNCoWt_7aLNB0xmClNCMnY7RK6IcXb"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aJBbckp-ubQKR22nWw9-xs" class="view">
+<h2>Kalevi Aho</h2>
+<input type="text" class="per-search" placeholder="Search in Kalevi Aho..." oninput="onPlaylistSearch('PL1zgNCoWt_7aJBbckp-ubQKR22nWw9-xs', this.value)">
+<div id="video-table-PL1zgNCoWt_7aJBbckp-ubQKR22nWw9-xs"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed" class="view">
+<h2>Karina Canellakis</h2>
+<input type="text" class="per-search" placeholder="Search in Karina Canellakis..." oninput="onPlaylistSearch('PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed', this.value)">
+<div id="video-table-PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed"></div>
+</div>
+<div id="view-PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X" class="view">
+<h2>Kent Nagano</h2>
+<input type="text" class="per-search" placeholder="Search in Kent Nagano..." oninput="onPlaylistSearch('PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X', this.value)">
+<div id="video-table-PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X"></div>
+</div>
+<div id="view-PL1zgNCoWt_7a6A7Nt9ZGWUR98mPooHSL7" class="view">
+<h2>Kirill Petrenko</h2>
+<input type="text" class="per-search" placeholder="Search in Kirill Petrenko..." oninput="onPlaylistSearch('PL1zgNCoWt_7a6A7Nt9ZGWUR98mPooHSL7', this.value)">
+<div id="video-table-PL1zgNCoWt_7a6A7Nt9ZGWUR98mPooHSL7"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ" class="view">
+<h2>Klaus Makela</h2>
+<input type="text" class="per-search" placeholder="Search in Klaus Makela..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z_wVa6fdkZS3PzLVzYIknu" class="view">
+<h2>Klaus Tennstedt</h2>
+<input type="text" class="per-search" placeholder="Search in Klaus Tennstedt..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z_wVa6fdkZS3PzLVzYIknu', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z_wVa6fdkZS3PzLVzYIknu"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YG5RkKdKpeNthksZcFSvtM" class="view">
+<h2>Krzysztof Penderecki</h2>
+<input type="text" class="per-search" placeholder="Search in Krzysztof Penderecki..." oninput="onPlaylistSearch('PL1zgNCoWt_7YG5RkKdKpeNthksZcFSvtM', this.value)">
+<div id="video-table-PL1zgNCoWt_7YG5RkKdKpeNthksZcFSvtM"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT" class="view">
+<h2>Leonard Bernstein</h2>
+<input type="text" class="per-search" placeholder="Search in Leonard Bernstein..." oninput="onPlaylistSearch('PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT', this.value)">
+<div id="video-table-PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z8j7OFV3gv3pkoxyxw-Mgp" class="view">
+<h2>Leopold Stokowski</h2>
+<input type="text" class="per-search" placeholder="Search in Leopold Stokowski..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z8j7OFV3gv3pkoxyxw-Mgp', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z8j7OFV3gv3pkoxyxw-Mgp"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T" class="view">
+<h2>Liszt Orchestral Works</h2>
+<input type="text" class="per-search" placeholder="Search in Liszt Orchestral Works..." oninput="onPlaylistSearch('PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T', this.value)">
+<div id="video-table-PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aBCJlIQp_KJcdaBz5zGhx7" class="view">
+<h2>Liszt Two Pianoa</h2>
+<input type="text" class="per-search" placeholder="Search in Liszt Two Pianoa..." oninput="onPlaylistSearch('PL1zgNCoWt_7aBCJlIQp_KJcdaBz5zGhx7', this.value)">
+<div id="video-table-PL1zgNCoWt_7aBCJlIQp_KJcdaBz5zGhx7"></div>
+</div>
+<div id="view-PL1zgNCoWt_7a88sq_nQhH6Af0sIiTom_k" class="view">
+<h2>Lorin Maazel</h2>
+<input type="text" class="per-search" placeholder="Search in Lorin Maazel..." oninput="onPlaylistSearch('PL1zgNCoWt_7a88sq_nQhH6Af0sIiTom_k', this.value)">
+<div id="video-table-PL1zgNCoWt_7a88sq_nQhH6Af0sIiTom_k"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq" class="view">
+<h2>Manfred Honeck</h2>
+<input type="text" class="per-search" placeholder="Search in Manfred Honeck..." oninput="onPlaylistSearch('PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq', this.value)">
+<div id="video-table-PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bYUCepGsS18F8HOk04pOHT" class="view">
+<h2>Marin Alsop</h2>
+<input type="text" class="per-search" placeholder="Search in Marin Alsop..." oninput="onPlaylistSearch('PL1zgNCoWt_7bYUCepGsS18F8HOk04pOHT', this.value)">
+<div id="video-table-PL1zgNCoWt_7bYUCepGsS18F8HOk04pOHT"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Ydhxd8JsOc1_Um6tVV1HK8" class="view">
+<h2>Mariss Jansons</h2>
+<input type="text" class="per-search" placeholder="Search in Mariss Jansons..." oninput="onPlaylistSearch('PL1zgNCoWt_7Ydhxd8JsOc1_Um6tVV1HK8', this.value)">
+<div id="video-table-PL1zgNCoWt_7Ydhxd8JsOc1_Um6tVV1HK8"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bCtx9cPkQiXl9bB0Ytozfa" class="view">
+<h2>Michael Tilson Thomas</h2>
+<input type="text" class="per-search" placeholder="Search in Michael Tilson Thomas..." oninput="onPlaylistSearch('PL1zgNCoWt_7bCtx9cPkQiXl9bB0Ytozfa', this.value)">
+<div id="video-table-PL1zgNCoWt_7bCtx9cPkQiXl9bB0Ytozfa"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Zou6XcsnKbEu0KnGchCjPF" class="view">
+<h2>Mikhail Pletnev</h2>
+<input type="text" class="per-search" placeholder="Search in Mikhail Pletnev..." oninput="onPlaylistSearch('PL1zgNCoWt_7Zou6XcsnKbEu0KnGchCjPF', this.value)">
+<div id="video-table-PL1zgNCoWt_7Zou6XcsnKbEu0KnGchCjPF"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bpcSoY0h6FONwg0iaplXCa" class="view">
+<h2>Miscellaneous</h2>
+<input type="text" class="per-search" placeholder="Search in Miscellaneous..." oninput="onPlaylistSearch('PL1zgNCoWt_7bpcSoY0h6FONwg0iaplXCa', this.value)">
+<div id="video-table-PL1zgNCoWt_7bpcSoY0h6FONwg0iaplXCa"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YSMmyCKDPuPwSJd5Sb7eZm" class="view">
+<h2>Modern</h2>
+<input type="text" class="per-search" placeholder="Search in Modern..." oninput="onPlaylistSearch('PL1zgNCoWt_7YSMmyCKDPuPwSJd5Sb7eZm', this.value)">
+<div id="video-table-PL1zgNCoWt_7YSMmyCKDPuPwSJd5Sb7eZm"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bu9IKcLh-FMd5wzkIOolL4" class="view">
+<h2>Mozart Symphony No. 39</h2>
+<input type="text" class="per-search" placeholder="Search in Mozart Symphony No. 39..." oninput="onPlaylistSearch('PL1zgNCoWt_7bu9IKcLh-FMd5wzkIOolL4', this.value)">
+<div id="video-table-PL1zgNCoWt_7bu9IKcLh-FMd5wzkIOolL4"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZYPdiIi1WHpQL8YtiLlp-z" class="view">
+<h2>Myung-whun Chung</h2>
+<input type="text" class="per-search" placeholder="Search in Myung-whun Chung..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZYPdiIi1WHpQL8YtiLlp-z', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZYPdiIi1WHpQL8YtiLlp-z"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK" class="view">
+<h2>Nathalie Stutzmann</h2>
+<input type="text" class="per-search" placeholder="Search in Nathalie Stutzmann..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB" class="view">
+<h2>NDR Klassik</h2>
+<input type="text" class="per-search" placeholder="Search in NDR Klassik..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5" class="view">
+<h2>Neeme Jarvi</h2>
+<input type="text" class="per-search" placeholder="Search in Neeme Jarvi..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz" class="view">
+<h2>Neeme Jarvi</h2>
+<input type="text" class="per-search" placeholder="Search in Neeme Jarvi..." oninput="onPlaylistSearch('PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz', this.value)">
+<div id="video-table-PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz"></div>
+</div>
+<div id="view-PL1zgNCoWt_7atkU5_AJBk0ud7-TlL7D3q" class="view">
+<h2>Nonets</h2>
+<input type="text" class="per-search" placeholder="Search in Nonets..." oninput="onPlaylistSearch('PL1zgNCoWt_7atkU5_AJBk0ud7-TlL7D3q', this.value)">
+<div id="video-table-PL1zgNCoWt_7atkU5_AJBk0ud7-TlL7D3q"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YmUaUYq3-uzgArf2R7FMn-" class="view">
+<h2>Octets</h2>
+<input type="text" class="per-search" placeholder="Search in Octets..." oninput="onPlaylistSearch('PL1zgNCoWt_7YmUaUYq3-uzgArf2R7FMn-', this.value)">
+<div id="video-table-PL1zgNCoWt_7YmUaUYq3-uzgArf2R7FMn-"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Y8qEPyNpugd5CPdIYHgpm5" class="view">
+<h2>OK</h2>
+<input type="text" class="per-search" placeholder="Search in OK..." oninput="onPlaylistSearch('PL1zgNCoWt_7Y8qEPyNpugd5CPdIYHgpm5', this.value)">
+<div id="video-table-PL1zgNCoWt_7Y8qEPyNpugd5CPdIYHgpm5"></div>
+</div>
+<div id="view-PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ" class="view">
+<h2>Okko Kamu</h2>
+<input type="text" class="per-search" placeholder="Search in Okko Kamu..." oninput="onPlaylistSearch('PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ', this.value)">
+<div id="video-table-PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZSiF--ol6_fIl7R_YRe_hI" class="view">
+<h2>Otto Klemperer</h2>
+<input type="text" class="per-search" placeholder="Search in Otto Klemperer..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZSiF--ol6_fIl7R_YRe_hI', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZSiF--ol6_fIl7R_YRe_hI"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YIuUHxscYo21YxqOu83kJB" class="view">
+<h2>Paavo Järvi</h2>
+<input type="text" class="per-search" placeholder="Search in Paavo Järvi..." oninput="onPlaylistSearch('PL1zgNCoWt_7YIuUHxscYo21YxqOu83kJB', this.value)">
+<div id="video-table-PL1zgNCoWt_7YIuUHxscYo21YxqOu83kJB"></div>
+</div>
+<div id="view-PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y" class="view">
+<h2>Pablo Heras-Casado</h2>
+<input type="text" class="per-search" placeholder="Search in Pablo Heras-Casado..." oninput="onPlaylistSearch('PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y', this.value)">
+<div id="video-table-PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7" class="view">
+<h2>Percussion and Orchestra</h2>
+<input type="text" class="per-search" placeholder="Search in Percussion and Orchestra..." oninput="onPlaylistSearch('PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7', this.value)">
+<div id="video-table-PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3" class="view">
+<h2>Petr Popelka</h2>
+<input type="text" class="per-search" placeholder="Search in Petr Popelka..." oninput="onPlaylistSearch('PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3', this.value)">
+<div id="video-table-PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3"></div>
+</div>
+<div id="view-PL1zgNCoWt_7as7ce0EPgDmwj6KWRhm9Aa" class="view">
+<h2>Piano Quintets</h2>
+<input type="text" class="per-search" placeholder="Search in Piano Quintets..." oninput="onPlaylistSearch('PL1zgNCoWt_7as7ce0EPgDmwj6KWRhm9Aa', this.value)">
+<div id="video-table-PL1zgNCoWt_7as7ce0EPgDmwj6KWRhm9Aa"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZgyygT4aXqYlXXJaozGGOC" class="view">
+<h2>Piano Trios</h2>
+<input type="text" class="per-search" placeholder="Search in Piano Trios..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZgyygT4aXqYlXXJaozGGOC', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZgyygT4aXqYlXXJaozGGOC"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bHTMdnOQoJUPo8raEyJUuT" class="view">
+<h2>Pierre Boulez</h2>
+<input type="text" class="per-search" placeholder="Search in Pierre Boulez..." oninput="onPlaylistSearch('PL1zgNCoWt_7bHTMdnOQoJUPo8raEyJUuT', this.value)">
+<div id="video-table-PL1zgNCoWt_7bHTMdnOQoJUPo8raEyJUuT"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh" class="view">
+<h2>Pierre Monteux</h2>
+<input type="text" class="per-search" placeholder="Search in Pierre Monteux..." oninput="onPlaylistSearch('PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh', this.value)">
+<div id="video-table-PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YBmznJUQ_cnm_ja9qolWKP" class="view">
+<h2>Rafael Kubelik</h2>
+<input type="text" class="per-search" placeholder="Search in Rafael Kubelik..." oninput="onPlaylistSearch('PL1zgNCoWt_7YBmznJUQ_cnm_ja9qolWKP', this.value)">
+<div id="video-table-PL1zgNCoWt_7YBmznJUQ_cnm_ja9qolWKP"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-" class="view">
+<h2>Rafael Payare</h2>
+<input type="text" class="per-search" placeholder="Search in Rafael Payare..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bpwlJYymdY79IvMF7YQ2Nx" class="view">
+<h2>Random</h2>
+<input type="text" class="per-search" placeholder="Search in Random..." oninput="onPlaylistSearch('PL1zgNCoWt_7bpwlJYymdY79IvMF7YQ2Nx', this.value)">
+<div id="video-table-PL1zgNCoWt_7bpwlJYymdY79IvMF7YQ2Nx"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bFrRPT_Gc9prHT0_Svy9YX" class="view">
+<h2>Ricardo Chailly</h2>
+<input type="text" class="per-search" placeholder="Search in Ricardo Chailly..." oninput="onPlaylistSearch('PL1zgNCoWt_7bFrRPT_Gc9prHT0_Svy9YX', this.value)">
+<div id="video-table-PL1zgNCoWt_7bFrRPT_Gc9prHT0_Svy9YX"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT" class="view">
+<h2>Riccardo Muti</h2>
+<input type="text" class="per-search" placeholder="Search in Riccardo Muti..." oninput="onPlaylistSearch('PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT', this.value)">
+<div id="video-table-PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT"></div>
+</div>
+<div id="view-PL1zgNCoWt_7byF1eVPNLGIEYel5-Hgf-U" class="view">
+<h2>Roger Norrington</h2>
+<input type="text" class="per-search" placeholder="Search in Roger Norrington..." oninput="onPlaylistSearch('PL1zgNCoWt_7byF1eVPNLGIEYel5-Hgf-U', this.value)">
+<div id="video-table-PL1zgNCoWt_7byF1eVPNLGIEYel5-Hgf-U"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh" class="view">
+<h2>Sakari Oramo</h2>
+<input type="text" class="per-search" placeholder="Search in Sakari Oramo..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZyGxH9Cp33K0sV053yGQ5F" class="view">
+<h2>Schubert Symphony No. 3</h2>
+<input type="text" class="per-search" placeholder="Search in Schubert Symphony No. 3..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZyGxH9Cp33K0sV053yGQ5F', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZyGxH9Cp33K0sV053yGQ5F"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm" class="view">
+<h2>Schumann Symphony No. 2</h2>
+<input type="text" class="per-search" placeholder="Search in Schumann Symphony No. 2..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YpD64XlMAIwRKnAXPQ2hsK" class="view">
+<h2>Seiji Ozawa</h2>
+<input type="text" class="per-search" placeholder="Search in Seiji Ozawa..." oninput="onPlaylistSearch('PL1zgNCoWt_7YpD64XlMAIwRKnAXPQ2hsK', this.value)">
+<div id="video-table-PL1zgNCoWt_7YpD64XlMAIwRKnAXPQ2hsK"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Yt04UW0c1G0ZKYVZc4YeUV" class="view">
+<h2>Semyon Bychkov</h2>
+<input type="text" class="per-search" placeholder="Search in Semyon Bychkov..." oninput="onPlaylistSearch('PL1zgNCoWt_7Yt04UW0c1G0ZKYVZc4YeUV', this.value)">
+<div id="video-table-PL1zgNCoWt_7Yt04UW0c1G0ZKYVZc4YeUV"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z9NKQg_IRjzZDiK07uisaO" class="view">
+<h2>Septets</h2>
+<input type="text" class="per-search" placeholder="Search in Septets..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z9NKQg_IRjzZDiK07uisaO', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z9NKQg_IRjzZDiK07uisaO"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z7qMz11vb8nwxWE24Uls64" class="view">
+<h2>Sextets</h2>
+<input type="text" class="per-search" placeholder="Search in Sextets..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z7qMz11vb8nwxWE24Uls64', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z7qMz11vb8nwxWE24Uls64"></div>
+</div>
+<div id="view-PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f" class="view">
+<h2>Simon Rattle</h2>
+<input type="text" class="per-search" placeholder="Search in Simon Rattle..." oninput="onPlaylistSearch('PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f', this.value)">
+<div id="video-table-PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Z8hLZzo6t98-xZ1zptUY6t" class="view">
+<h2>Simone Young</h2>
+<input type="text" class="per-search" placeholder="Search in Simone Young..." oninput="onPlaylistSearch('PL1zgNCoWt_7Z8hLZzo6t98-xZ1zptUY6t', this.value)">
+<div id="video-table-PL1zgNCoWt_7Z8hLZzo6t98-xZ1zptUY6t"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3" class="view">
+<h2>Soviet Symphonists</h2>
+<input type="text" class="per-search" placeholder="Search in Soviet Symphonists..." oninput="onPlaylistSearch('PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3', this.value)">
+<div id="video-table-PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv" class="view">
+<h2>Stanislaw Skrowaczewski</h2>
+<input type="text" class="per-search" placeholder="Search in Stanislaw Skrowaczewski..." oninput="onPlaylistSearch('PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv', this.value)">
+<div id="video-table-PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Yj5i9eXV_KdcYMhtmB6NhM" class="view">
+<h2>String Sextets</h2>
+<input type="text" class="per-search" placeholder="Search in String Sextets..." oninput="onPlaylistSearch('PL1zgNCoWt_7Yj5i9eXV_KdcYMhtmB6NhM', this.value)">
+<div id="video-table-PL1zgNCoWt_7Yj5i9eXV_KdcYMhtmB6NhM"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bjFDHLMcEtKH2QmSiAZmkm" class="view">
+<h2>Susanna Mälkki</h2>
+<input type="text" class="per-search" placeholder="Search in Susanna Mälkki..." oninput="onPlaylistSearch('PL1zgNCoWt_7bjFDHLMcEtKH2QmSiAZmkm', this.value)">
+<div id="video-table-PL1zgNCoWt_7bjFDHLMcEtKH2QmSiAZmkm"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT" class="view">
+<h2>Tchaikovsky Piano Concerto No. 1</h2>
+<input type="text" class="per-search" placeholder="Search in Tchaikovsky Piano Concerto No. 1..." oninput="onPlaylistSearch('PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT', this.value)">
+<div id="video-table-PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT"></div>
+</div>
+<div id="view-PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M" class="view">
+<h2>Tchaikovsky Piano Concerto No. 2</h2>
+<input type="text" class="per-search" placeholder="Search in Tchaikovsky Piano Concerto No. 2..." oninput="onPlaylistSearch('PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M', this.value)">
+<div id="video-table-PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bUFC0MJUIZMA4gWTAZLJ9N" class="view">
+<h2>Tchaikovsky Symphony No. 6</h2>
+<input type="text" class="per-search" placeholder="Search in Tchaikovsky Symphony No. 6..." oninput="onPlaylistSearch('PL1zgNCoWt_7bUFC0MJUIZMA4gWTAZLJ9N', this.value)">
+<div id="video-table-PL1zgNCoWt_7bUFC0MJUIZMA4gWTAZLJ9N"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ" class="view">
+<h2>Thomas Beecham</h2>
+<input type="text" class="per-search" placeholder="Search in Thomas Beecham..." oninput="onPlaylistSearch('PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ', this.value)">
+<div id="video-table-PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG" class="view">
+<h2>Thomas Dausgaard</h2>
+<input type="text" class="per-search" placeholder="Search in Thomas Dausgaard..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG"></div>
+</div>
+<div id="view-PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0" class="view">
+<h2>Thomas Sondergaard</h2>
+<input type="text" class="per-search" placeholder="Search in Thomas Sondergaard..." oninput="onPlaylistSearch('PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0', this.value)">
+<div id="video-table-PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZQoYC3f_cTnOwplJF5Qj2t" class="view">
+<h2>Thomas Sondergard</h2>
+<input type="text" class="per-search" placeholder="Search in Thomas Sondergard..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZQoYC3f_cTnOwplJF5Qj2t', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZQoYC3f_cTnOwplJF5Qj2t"></div>
+</div>
+<div id="view-PL1zgNCoWt_7a6aiofxogeYYzdhbblYpMG" class="view">
+<h2>Valery Gergiev</h2>
+<input type="text" class="per-search" placeholder="Search in Valery Gergiev..." oninput="onPlaylistSearch('PL1zgNCoWt_7a6aiofxogeYYzdhbblYpMG', this.value)">
+<div id="video-table-PL1zgNCoWt_7a6aiofxogeYYzdhbblYpMG"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bFgYDZyF4hj2sIfJ89zoAQ" class="view">
+<h2>Vasily Petrenko</h2>
+<input type="text" class="per-search" placeholder="Search in Vasily Petrenko..." oninput="onPlaylistSearch('PL1zgNCoWt_7bFgYDZyF4hj2sIfJ89zoAQ', this.value)">
+<div id="video-table-PL1zgNCoWt_7bFgYDZyF4hj2sIfJ89zoAQ"></div>
+</div>
+<div id="view-PL1zgNCoWt_7b4uFWFGP3igY4tZRrZgp5J" class="view">
+<h2>Vladimir Jurowski</h2>
+<input type="text" class="per-search" placeholder="Search in Vladimir Jurowski..." oninput="onPlaylistSearch('PL1zgNCoWt_7b4uFWFGP3igY4tZRrZgp5J', this.value)">
+<div id="video-table-PL1zgNCoWt_7b4uFWFGP3igY4tZRrZgp5J"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bktvhP55qQtvklU7_YGdSx" class="view">
+<h2>Wagner Rienzi Overture</h2>
+<input type="text" class="per-search" placeholder="Search in Wagner Rienzi Overture..." oninput="onPlaylistSearch('PL1zgNCoWt_7bktvhP55qQtvklU7_YGdSx', this.value)">
+<div id="video-table-PL1zgNCoWt_7bktvhP55qQtvklU7_YGdSx"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr" class="view">
+<h2>William Steinberg</h2>
+<input type="text" class="per-search" placeholder="Search in William Steinberg..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr"></div>
+</div>
+<div id="view-PL1zgNCoWt_7ZwQEq4pnE526Z8EvGvcvgZ" class="view">
+<h2>Wolfgang Sawallisch</h2>
+<input type="text" class="per-search" placeholder="Search in Wolfgang Sawallisch..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZwQEq4pnE526Z8EvGvcvgZ', this.value)">
+<div id="video-table-PL1zgNCoWt_7ZwQEq4pnE526Z8EvGvcvgZ"></div>
+</div>
+<div id="view-PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-" class="view">
+<h2>Yannick Nézet-Séguin</h2>
+<input type="text" class="per-search" placeholder="Search in Yannick Nézet-Séguin..." oninput="onPlaylistSearch('PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-', this.value)">
+<div id="video-table-PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-"></div>
+</div>
+<div id="view-PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW" class="view">
+<h2>Yefim Bronfman</h2>
+<input type="text" class="per-search" placeholder="Search in Yefim Bronfman..." oninput="onPlaylistSearch('PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW', this.value)">
+<div id="video-table-PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW"></div>
+</div>
+<div id="view-PL1zgNCoWt_7Yd0bp8KIFnkAejvQEsgdeL" class="view">
+<h2>Yevgeny Svetlanov</h2>
+<input type="text" class="per-search" placeholder="Search in Yevgeny Svetlanov..." oninput="onPlaylistSearch('PL1zgNCoWt_7Yd0bp8KIFnkAejvQEsgdeL', this.value)">
+<div id="video-table-PL1zgNCoWt_7Yd0bp8KIFnkAejvQEsgdeL"></div>
+</div>
+<div id="view-PL1zgNCoWt_7bYi5pgWEqOsS6n-Z6lKONL" class="view">
+<h2>Yuri Temirkanov</h2>
+<input type="text" class="per-search" placeholder="Search in Yuri Temirkanov..." oninput="onPlaylistSearch('PL1zgNCoWt_7bYi5pgWEqOsS6n-Z6lKONL', this.value)">
+<div id="video-table-PL1zgNCoWt_7bYi5pgWEqOsS6n-Z6lKONL"></div>
+</div>
+<div id="view-PL1zgNCoWt_7arQOe8rlPTX21Hg8CSbSxh" class="view">
+<h2>Zubin Mehta</h2>
+<input type="text" class="per-search" placeholder="Search in Zubin Mehta..." oninput="onPlaylistSearch('PL1zgNCoWt_7arQOe8rlPTX21Hg8CSbSxh', this.value)">
+<div id="video-table-PL1zgNCoWt_7arQOe8rlPTX21Hg8CSbSxh"></div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
+<script src="dashboard-data.js"></script>
+<script>
+var FUSE_OPTS = {
+  keys: [
+    { name: 'title', weight: 0.85 },
+    { name: 'description', weight: 0.15 }
+  ],
+  threshold: 0.3,
+  ignoreLocation: true,
+  includeScore: true,
+  minMatchCharLength: 2,
+  useExtendedSearch: true
+};
+
+var globalFuse = null;
+var allVideosFuse = null;
+var playlistFuse = {};
+var videoTables = {};
+var playlistTable = null;
+var allVideoTable = null;
+var resultsTable = null;
+var debounceTimer = null;
+
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function titleFmt(cell) {
+  var d = cell.getData();
+  return '<a href="https://www.youtube.com/watch?v=' + d.videoId + '" target="_blank">' + esc(d.title) + '</a>';
+}
+
+function channelFmt(cell) {
+  var d = cell.getData();
+  return '<a href="https://www.youtube.com/channel/' + d.channelId + '" target="_blank">' + esc(d.channelName) + '</a>';
+}
+
+function playlistTitleFmt(cell) {
+  var d = cell.getData();
+  return '<a href="https://www.youtube.com/playlist?list=' + d.playlistId + '" target="_blank">' + esc(d.title) + '</a>';
+}
+
+function showView(id) {
+  document.querySelectorAll('.view').forEach(function(v) { v.classList.remove('active'); });
+  document.getElementById(id).classList.add('active');
+}
+
+function switchView(playlistId) {
+  document.getElementById('global-search').value = '';
+  document.querySelectorAll('.per-search').forEach(function(s) { s.value = ''; });
+  if (playlistId === 'all') {
+    showView('view-all');
+    if (playlistTable) playlistTable.redraw(true);
+  } else if (playlistId === 'all-videos') {
+    showView('view-all-videos');
+    if (allVideoTable) allVideoTable.redraw(true);
+  } else {
+    showView('view-' + playlistId);
+    if (!videoTables[playlistId]) {
+      initPlaylistTable(playlistId);
+    } else {
+      videoTables[playlistId].redraw(true);
+    }
+  }
+}
+
+function initPlaylistTable(playlistId) {
+  var videos = window.allVideos.filter(function(v) { return v.playlistId === playlistId; });
+  videoTables[playlistId] = new Tabulator('#video-table-' + playlistId, {
+    data: videos,
+    layout: 'fitColumns',
+    initialSort: [{ column: 'title', dir: 'asc' }],
+    columns: [
+      { title: 'Title', field: 'title', formatter: titleFmt, minWidth: 250 },
+      { title: 'Description', field: 'description', formatter: 'textarea', minWidth: 300 },
+      { title: 'Duration', field: 'duration', width: 100 },
+      { title: 'Channel', field: 'channelName', formatter: channelFmt, minWidth: 150 }
+    ]
+  });
+  playlistFuse[playlistId] = new Fuse(videos, FUSE_OPTS);
+}
+
+function onGlobalSearch(query) {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(function() { doGlobalSearch(query.trim()); }, 200);
+}
+
+function toAndQuery(q) {
+  return q.trim().split(/\s+/).filter(function(t) { return t.length >= 2; })
+          .map(function(t) { return "'" + t; }).join(' ');
+}
+
+function doGlobalSearch(q) {
+  if (!q) {
+    showView('view-all');
+    document.getElementById('playlist-dropdown').value = 'all';
+    return;
+  }
+  showView('view-results');
+  var results = globalFuse.search(toAndQuery(q)).map(function(r) { return r.item; });
+  document.getElementById('results-count').textContent =
+    results.length + ' result' + (results.length !== 1 ? 's' : '') + ' for "' + q + '"';
+  resultsTable.setData(results);
+}
+
+function onPlaylistSearch(playlistId, query) {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(function() { doPlaylistSearch(playlistId, query.trim()); }, 200);
+}
+
+function doPlaylistSearch(playlistId, q) {
+  var table = videoTables[playlistId];
+  if (!table) return;
+  if (!q) {
+    table.setData(window.allVideos.filter(function(v) { return v.playlistId === playlistId; }));
+    return;
+  }
+  if (!playlistFuse[playlistId]) {
+    var videos = window.allVideos.filter(function(v) { return v.playlistId === playlistId; });
+    playlistFuse[playlistId] = new Fuse(videos, FUSE_OPTS);
+  }
+  table.setData(playlistFuse[playlistId].search(toAndQuery(q)).map(function(r) { return r.item; }));
+}
+
+function onAllVideosSearch(query) {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(function() { doAllVideosSearch(query.trim()); }, 200);
+}
+
+function doAllVideosSearch(q) {
+  if (!allVideoTable) return;
+  if (!q) { allVideoTable.setData(window.allVideos); return; }
+  if (!allVideosFuse) allVideosFuse = new Fuse(window.allVideos, FUSE_OPTS);
+  allVideoTable.setData(allVideosFuse.search(toAndQuery(q)).map(function(r) { return r.item; }));
+}
+
+function toggleDropdown(id) {
+  var el = document.getElementById(id);
+  el.classList.toggle('open');
+}
+
+function toggleCol(table, field, visible) {
+  if (!table) return;
+  if (visible) table.showColumn(field); else table.hideColumn(field);
+}
+
+globalFuse = new Fuse(window.allVideos, FUSE_OPTS);
+
+playlistTable = new Tabulator('#playlist-table', {
+  data: window.allPlaylists,
+  layout: 'fitColumns',
+  initialSort: [{ column: 'title', dir: 'asc' }],
+  columns: [
+    { title: 'Playlist', field: 'title', formatter: playlistTitleFmt, minWidth: 250 },
+    { title: 'Videos', field: 'videoCount', width: 80 },
+    { title: 'Last Updated', field: 'lastUpdated', width: 130 }
+  ]
+});
+playlistTable.on('rowClick', function(e, row) {
+  var pid = row.getData().playlistId;
+  document.getElementById('playlist-dropdown').value = pid;
+  switchView(pid);
+});
+
+resultsTable = new Tabulator('#results-table', {
+  data: [],
+  layout: 'fitColumns',
+  columns: [
+    { title: 'Title', field: 'title', formatter: titleFmt, minWidth: 250 },
+    { title: 'Description', field: 'description', formatter: 'textarea', minWidth: 300 },
+    { title: 'Duration', field: 'duration', width: 100 },
+    { title: 'Channel', field: 'channelName', formatter: channelFmt, minWidth: 150 },
+    { title: 'Playlist', field: 'playlistName', minWidth: 150 }
+  ]
+});
+
+allVideoTable = new Tabulator('#all-videos-table', {
+  data: window.allVideos,
+  layout: 'fitColumns',
+  initialSort: [{ column: 'title', dir: 'asc' }],
+  pagination: 'local',
+  paginationSize: 100,
+  columns: [
+    { title: 'Title', field: 'title', formatter: titleFmt, minWidth: 250 },
+    { title: 'Channel', field: 'channelName', formatter: channelFmt, minWidth: 150 },
+    { title: 'Duration', field: 'duration', width: 100 },
+    { title: 'Playlist', field: 'playlistName', minWidth: 150 },
+    { title: 'Description', field: 'description', formatter: 'textarea', minWidth: 300, visible: false }
+  ]
+});
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.col-toggle')) {
+    document.querySelectorAll('.col-dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+  }
+});
+</script>
+</body>
 </html>
