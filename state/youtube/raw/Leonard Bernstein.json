@@ -1666,12 +1666,57 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "aTq6_IVAbfE",
+      "VideoPublishedAtRaw": "2026-07-12T13:16:27Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-12T13:16:27+00:00",
+      "VideoPublishedAt": "2026-07-12T18:46:27+05:30"
+    },
+    "ETag": "IV1zEBqkj8wuOpJSdv9W8-fxZls",
+    "Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC45NkVENTkxRDdCQUFBMDY4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Stravinsky: The Rite of Spring\nPart1   00:00\nPart2   15:47\nLeonerd Bernstein / New York Philharmonic\n20/1/1958 N.Y. Saint Giorge Hotel, Columbia recording (HQ audio)\n\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF1A\u30D0\u30EC\u30A8\u97F3\u697D\u300C\u6625\u306E\u796D\u5178\u300D\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\u6307\u63EE\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF\n1958\u5E741\u670820\u65E5\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u3001\u30BB\u30F3\u30C8\u30FB\u30B8\u30E7\u30FC\u30B8\u30DB\u30C6\u30EB\u3000\u30B3\u30ED\u30F3\u30D3\u30A2\u9332\u97F3\uFF08\u9AD8\u97F3\u8CEA\u76E4\uFF09\n\u203B\u6B74\u53F2\u7684\u540D\u76E4\u3002\u6642\u4EE3\u3092\u8003\u3048\u308B\u3068\u3053\u308C\u307B\u3069\u5148\u92ED\u7684\u3067\u91CD\u539A\u306A\u9332\u97F3\u304C\u6B8B\u3055\u308C\u305F\u306E\u306F\u5947\u8DE1\u7684\u3060\u3068\u601D\u3044\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
+      "Position": 33,
+      "PublishedAtRaw": "2026-07-12T17:47:09Z",
+      "PublishedAtDateTimeOffset": "2026-07-12T17:47:09+00:00",
+      "PublishedAt": "2026-07-12T23:17:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "aTq6_IVAbfE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/aTq6_IVAbfE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/aTq6_IVAbfE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/aTq6_IVAbfE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Stravinsky: The Rite of Spring     L. Bernstein / NYPO 1958 (HQ audio)",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "3j5QoREjFcw",
       "VideoPublishedAtRaw": "2024-07-17T23:33:54Z",
       "VideoPublishedAtDateTimeOffset": "2024-07-17T23:33:54+00:00",
       "VideoPublishedAt": "2024-07-18T05:03:54+05:30"
     },
-    "ETag": "cYi6w0SoxsMLPrLb3ydU7JEt8Zg",
+    "ETag": "MgOLtvW2Uo9_7TReqmtU3HEF-9Y",
     "Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4zRjM0MkVCRTg0MkYyQTM0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1679,7 +1724,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Pyotr Ilyich Tchaikovsky\nViolin Concerto in D major, Op.35\nBoris Belkin\nLeonard Bernstein\nNew York Philharmonic\n(live recording)",
       "PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
-      "Position": 33,
+      "Position": 34,
       "PublishedAtRaw": "2026-01-14T06:40:24Z",
       "PublishedAtDateTimeOffset": "2026-01-14T06:40:24+00:00",
       "PublishedAt": "2026-01-14T12:10:24+05:30",
@@ -1726,7 +1771,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-02-25T02:14:27+00:00",
       "VideoPublishedAt": "2025-02-25T07:44:27+05:30"
     },
-    "ETag": "ntDhfkOJJhK70vRmCLNVJFhgxkk",
+    "ETag": "3Mr0idsq1XqwtVVE_hce1DAxYu8",
     "Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC4yMUQyQTQzMjRDNzMyQTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1734,7 +1779,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30AB\u30DA\u30EB / \u30EC\u30CA\u30FC\u30C9\u30FB\u30D0\u30FC\u30F3\u30B9\u30BF\u30A4\u30F3\n\nI. Moderato 0:00\nII. Adagio sostenuto 9:54\nIII. Allegro scherzando 20:37\n\nWilliam Kapell, piano\nLeonard Bernstein, conductor\nNew York Philharmonic \nRecorded February 18, 1951\n\n*This is a non-commercial video. I do not monetize off of my videos and share them in the context of educational purposes under Fair Use of the Copyright Law of the United States of America and the Copyright Act of Taiwan*. All ads if any are from copyright claimers.*\n\n[*Taiwan is officially known as the \u0022Republic of China (Taiwan)\u0022]",
       "PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
-      "Position": 34,
+      "Position": 35,
       "PublishedAtRaw": "2026-01-14T06:39:02Z",
       "PublishedAtDateTimeOffset": "2026-01-14T06:39:02+00:00",
       "PublishedAt": "2026-01-14T12:09:02+05:30",
@@ -1781,7 +1826,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-08T09:07:24+00:00",
       "VideoPublishedAt": "2022-06-08T14:37:24+05:30"
     },
-    "ETag": "rIjrUVShaOg0fkPhIxZCNZcurFo",
+    "ETag": "np4HnLa9fBcHbOi9mGYhJmZxhiI",
     "Id": "UEwxemdOQ29XdF83YmdtQ2pQZEZOMnhBMElITmtfSkxuVC5DNzE1RjZEMUZCMjA0RDBB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1789,7 +1834,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mahler \nSymphony No2\nBernstein with Cleveland Orchestra \n\nLorna Haywood s\nChrista Ludwig mezzo \n\nCleveland Orchestra Chorus\nBlossom Festival Chorus\n\nLive Performance, 9 July, 1970, Blossom Music Festival",
       "PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
-      "Position": 35,
+      "Position": 36,
       "PublishedAtRaw": "2026-01-14T06:41:30Z",
       "PublishedAtDateTimeOffset": "2026-01-14T06:41:30+00:00",
       "PublishedAt": "2026-01-14T12:11:30+05:30",

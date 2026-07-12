@@ -1,57 +1,457 @@
 [
   {
     "ContentDetails": {
-      "VideoId": "BD8v_iPBQHs",
-      "VideoPublishedAtRaw": "2026-06-16T14:50:30Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-16T14:50:30+00:00",
-      "VideoPublishedAt": "2026-06-16T20:20:30+05:30"
+      "VideoId": "g5_5n5jTqW0",
+      "VideoPublishedAtRaw": "2017-10-18T18:09:21Z",
+      "VideoPublishedAtDateTimeOffset": "2017-10-18T18:09:21+00:00",
+      "VideoPublishedAt": "2017-10-18T23:39:21+05:30"
     },
-    "ETag": "TSn840JftpykmzChAfF0cWrtRc0",
-    "Id": "UEwxemdOQ29XdF83WnFxUWpRWTdQYzlfcHhIUFduZFlJNS4yODlGNEE0NkRGMEEzMEQy",
+    "ETag": "hcQeQ5E-7ap06VjabvOnNd9lttg",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei45ODRDNTg0QjA4NkFBNkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "This performance was given during the 1997 BBC Proms Season on 6 September 1997 in the Royal Albert Hall, London. I\u0027m afraid this is the only part of this concert I now seem to have.\n\nGothenburg Symphony Orchestra\nconducted by\nNeeme J\u00E4rvi\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ev4zc8\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5",
+      "Description": "Age Juurikas, piano (artist of ERP)\nAnton Rubinstein. Piano Concerto No 4 in D minor Op 70\nEstonian National Symphony Orchestra, Maestro Neeme J\u00E4rvi\nLive from Estonia Concert Hall, Tallinn",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
       "Position": 0,
-      "PublishedAtRaw": "2026-06-17T02:50:34Z",
-      "PublishedAtDateTimeOffset": "2026-06-17T02:50:34+00:00",
-      "PublishedAt": "2026-06-17T08:20:34+05:30",
+      "PublishedAtRaw": "2025-09-01T22:49:18Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:49:18+00:00",
+      "PublishedAt": "2025-09-02T04:19:18+05:30",
       "ResourceId": {
         "Kind": "youtube#video",
-        "VideoId": "BD8v_iPBQHs"
+        "VideoId": "g5_5n5jTqW0"
       },
       "Thumbnails": {
         "Default__": {
           "Height": 90,
-          "Url": "https://i.ytimg.com/vi/BD8v_iPBQHs/default.jpg",
+          "Url": "https://i.ytimg.com/vi/g5_5n5jTqW0/default.jpg",
           "Width": 120
         },
         "High": {
           "Height": 360,
-          "Url": "https://i.ytimg.com/vi/BD8v_iPBQHs/hqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/g5_5n5jTqW0/hqdefault.jpg",
           "Width": 480
         },
         "Maxres": {
           "Height": 720,
-          "Url": "https://i.ytimg.com/vi/BD8v_iPBQHs/maxresdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/g5_5n5jTqW0/maxresdefault.jpg",
           "Width": 1280
         },
         "Medium": {
           "Height": 180,
-          "Url": "https://i.ytimg.com/vi/BD8v_iPBQHs/mqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/g5_5n5jTqW0/mqdefault.jpg",
           "Width": 320
         },
         "Standard": {
           "Height": 480,
-          "Url": "https://i.ytimg.com/vi/BD8v_iPBQHs/sddefault.jpg",
+          "Url": "https://i.ytimg.com/vi/g5_5n5jTqW0/sddefault.jpg",
           "Width": 640
         }
       },
-      "Title": "Bart\u00F3k Concerto for Orchestra - Gothenburg Symphony Orchestra - Neeme J\u00E4rvi (RAH, 1997)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+      "Title": "Age Juurikas. Rubinstein\u0027s Piano Concerto",
+      "VideoOwnerChannelId": "UCX1i5gI1VrUp_EQ3k5CjDpA",
+      "VideoOwnerChannelTitle": "erpmusic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "LybjQ8Yh2zc",
+      "VideoPublishedAtRaw": "2020-07-25T22:17:49Z",
+      "VideoPublishedAtDateTimeOffset": "2020-07-25T22:17:49+00:00",
+      "VideoPublishedAt": "2020-07-26T03:47:49+05:30"
+    },
+    "ETag": "JYcxh5msAcOzyCce_CukSRJelFk",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "A 1981 performance of the Beethoven 4th piano concerto, Op. 58, performed by Robert Silverman, with one of Canada\u0027s largest orchestras, Neeme J\u00E4rvi conducting.",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 1,
+      "PublishedAtRaw": "2025-09-01T22:59:55Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:59:55+00:00",
+      "PublishedAt": "2025-09-02T04:29:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "LybjQ8Yh2zc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/LybjQ8Yh2zc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/LybjQ8Yh2zc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/LybjQ8Yh2zc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/LybjQ8Yh2zc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven 4 TSO J\u00E4rvi 1981",
+      "VideoOwnerChannelId": "UCokPqZWQ7O8USeuR1jL5Aiw",
+      "VideoOwnerChannelTitle": "Rouvain Veretnikov"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6i8dHD3ZTjM",
+      "VideoPublishedAtRaw": "2017-03-25T15:34:00Z",
+      "VideoPublishedAtDateTimeOffset": "2017-03-25T15:34:00+00:00",
+      "VideoPublishedAt": "2017-03-25T21:04:00+05:30"
+    },
+    "ETag": "e1LEPDIln7Yh38JBYYim-cqoB-o",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven Piano concerto No 1 C major op. 15\nBeethoven Klavierkonzert No 1\nI Allegro con brio\nII Largo\nIII Rondo. Allegro scherzando\n\nKalle Randalu http://www.asartists.com/artist/kalle...\nEstonian National Symphony Orchestra\nconductor Neeme J\u00E4rvi\nLive recording 13 March 2015 Tallinn\n\nAndres Siitan Artists Management http://www.asartists.com",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 2,
+      "PublishedAtRaw": "2025-09-01T22:51:35Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:51:35+00:00",
+      "PublishedAt": "2025-09-02T04:21:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6i8dHD3ZTjM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6i8dHD3ZTjM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6i8dHD3ZTjM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6i8dHD3ZTjM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6i8dHD3ZTjM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Piano concerto No 1",
+      "VideoOwnerChannelId": "UCYUM_-MUmI-SwXzAdmJnJVA",
+      "VideoOwnerChannelTitle": "Andres Siitan"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Bz_F02WdI38",
+      "VideoPublishedAtRaw": "2017-03-25T14:17:35Z",
+      "VideoPublishedAtDateTimeOffset": "2017-03-25T14:17:35+00:00",
+      "VideoPublishedAt": "2017-03-25T19:47:35+05:30"
+    },
+    "ETag": "hYb1rJB20N-iJ01lDfITy1A5wao",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven Piano concerto No 3 C minor op. 37\nBeethoven Klavierkonzert No 3\nI Allegro con brio\nII Largo\nIII Rondo - allegro\n\nKalle Randalu http://www.asartists.com/artist/kalle...\nEstonian National Symphony Orchestra\nconductor Neeme J\u00E4rvi\nLive recording 13 November 2015 Tallinn\n\nAndres Siitan Artists Management http://www.asartists.com",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 3,
+      "PublishedAtRaw": "2025-09-01T22:56:03Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:56:03+00:00",
+      "PublishedAt": "2025-09-02T04:26:03+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Bz_F02WdI38"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Bz_F02WdI38/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Bz_F02WdI38/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Bz_F02WdI38/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethoven Piano concerto No 3",
+      "VideoOwnerChannelId": "UCYUM_-MUmI-SwXzAdmJnJVA",
+      "VideoOwnerChannelTitle": "Andres Siitan"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "lAk5xkRno4c",
+      "VideoPublishedAtRaw": "2013-04-16T17:28:55Z",
+      "VideoPublishedAtDateTimeOffset": "2013-04-16T17:28:55+00:00",
+      "VideoPublishedAt": "2013-04-16T22:58:55+05:30"
+    },
+    "ETag": "G4tQbnRqDJ9KwKfCeUEVc9faJWs",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven Piano concerto No. 5 E-flat major op. 73\nBeethoven Klavierkonzert No. 5\nI Allegro\nII Adagio un poco mosso\nIII Rondo: Allegro ma non troppo\n\nKalle Randalu http://www.asartists.com/artist/kalle-randalu/\nEstonian National Symphony Orchestra\nconductor Neeme J\u00E4rvi\nLive recording 4 May 2012 Tallinn\n\nAndres Siitan Artists Management http://www.asartists.com",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 4,
+      "PublishedAtRaw": "2025-09-01T22:51:17Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:51:17+00:00",
+      "PublishedAt": "2025-09-02T04:21:17+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "lAk5xkRno4c"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/lAk5xkRno4c/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/lAk5xkRno4c/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/lAk5xkRno4c/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/lAk5xkRno4c/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/lAk5xkRno4c/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Piano concerto No. 5 Kalle Randalu",
+      "VideoOwnerChannelId": "UCYUM_-MUmI-SwXzAdmJnJVA",
+      "VideoOwnerChannelTitle": "Andres Siitan"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "EBd-Y2SAr7c",
+      "VideoPublishedAtRaw": "2017-04-14T10:44:43Z",
+      "VideoPublishedAtDateTimeOffset": "2017-04-14T10:44:43+00:00",
+      "VideoPublishedAt": "2017-04-14T16:14:43+05:30"
+    },
+    "ETag": "JrZ96ebaLSnBRn2iH8iC9Ng2U_U",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Brahms Piano Concerto No 2 B\u266D major Op. 83\nBrahms  Zweite Klavierkonzert in B-Dur op. 83\nI   Allegro non troppo\nII  Allegro appassionato\nIII Andante\nIV Allegretto grazioso\n\nKalle Randalu http://www.asartists.com/artist/kalle-randalu\nEstonian National Symphony Orchestra\nconductor Neeme J\u00E4rvi\nLive recording 4 November 2016 Tallinn\n\nAndres Siitan Artists Management http://www.asartists.com",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 5,
+      "PublishedAtRaw": "2025-09-01T22:49:39Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:49:39+00:00",
+      "PublishedAt": "2025-09-02T04:19:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "EBd-Y2SAr7c"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/EBd-Y2SAr7c/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/EBd-Y2SAr7c/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/EBd-Y2SAr7c/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/EBd-Y2SAr7c/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/EBd-Y2SAr7c/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms Piano Concerto No 2 Op. 83",
+      "VideoOwnerChannelId": "UCYUM_-MUmI-SwXzAdmJnJVA",
+      "VideoOwnerChannelTitle": "Andres Siitan"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "37q8vvZqB0k",
+      "VideoPublishedAtRaw": "2018-09-13T02:04:46Z",
+      "VideoPublishedAtDateTimeOffset": "2018-09-13T02:04:46+00:00",
+      "VideoPublishedAt": "2018-09-13T07:34:46+05:30"
+    },
+    "ETag": "JXtcr_vD07tmM_M7-k-dyne9RKI",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Busoni Violin Concerto\nSoloist: Eric Wyrick \nConductor: Neeme Jarvi\nNew Jersey Symphony Orchestra\nDate: 2009",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 6,
+      "PublishedAtRaw": "2025-09-01T22:47:13Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:47:13+00:00",
+      "PublishedAt": "2025-09-02T04:17:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "37q8vvZqB0k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/37q8vvZqB0k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/37q8vvZqB0k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/37q8vvZqB0k/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/37q8vvZqB0k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/37q8vvZqB0k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Busoni: Violin Concerto,  Neeme J\u00E4rvi- conducts, Eric Wyrick- violin (Live radio broadcast, 2009)",
+      "VideoOwnerChannelId": "UCIVnZAWOoRZP27sRBSLzWng",
+      "VideoOwnerChannelTitle": "Eric Wyrick"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "c3sq0qZFUFg",
+      "VideoPublishedAtRaw": "2025-11-30T12:16:25Z",
+      "VideoPublishedAtDateTimeOffset": "2025-11-30T12:16:25+00:00",
+      "VideoPublishedAt": "2025-11-30T17:46:25+05:30"
+    },
+    "ETag": "eSQ1ziRMFX9Lp2_nnPkWslrOF2A",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Dvorak: Symphony No.5\n1st movement   00:00\n2nd   12:56\n3rd    20:11\n4th    28:02\nNeeme J\u00E4rvi / Chicago Symphony orchestra\n12/2017 Chicago, Orchestra Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\n\u30CD\u30FC\u30E1\u30FB\u30E4\u30EB\u30F4\u30A3\u6307\u63EE\u3000\u30B7\u30AB\u30B4\u4EA4\u97FF\u697D\u56E3\n2017\u5E7412\u6708\u3000\u30B7\u30AB\u30B4\u3001\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 7,
+      "PublishedAtRaw": "2025-11-30T15:51:05Z",
+      "PublishedAtDateTimeOffset": "2025-11-30T15:51:05+00:00",
+      "PublishedAt": "2025-11-30T21:21:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "c3sq0qZFUFg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/c3sq0qZFUFg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/c3sq0qZFUFg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/c3sq0qZFUFg/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Dvorak: Symphony No.5    Neeme J\u00E4rvi / CSO  2017 live in Chicago",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cDSH5HdkYCA",
+      "VideoPublishedAtRaw": "2025-08-09T23:40:05Z",
+      "VideoPublishedAtDateTimeOffset": "2025-08-09T23:40:05+00:00",
+      "VideoPublishedAt": "2025-08-10T05:10:05+05:30"
+    },
+    "ETag": "Ao13bIuB8Wy4Etqn4kwap7MLH3w",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton\u00EDn Dvo\u0159\u00E1k - Symphony No. 5 in F Major, Op. 76\n\nNeeme J\u00E4rvi, Conductor\nLive at Orchestra Hall, December 2017",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 8,
+      "PublishedAtRaw": "2025-09-01T22:45:55Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:45:55+00:00",
+      "PublishedAt": "2025-09-02T04:15:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cDSH5HdkYCA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/cDSH5HdkYCA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/cDSH5HdkYCA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/cDSH5HdkYCA/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Dvor\u030Ca\u0301k - Symphony No. 5 in F Major, Op. 76 (Chicago Symphony Orchestra)",
+      "VideoOwnerChannelId": "UC3O3w9RXsVx_W2avnwrVFHA",
+      "VideoOwnerChannelTitle": "Orchestra Recordings"
     }
   },
   {
@@ -61,18 +461,18 @@
       "VideoPublishedAtDateTimeOffset": "2026-05-20T12:01:34+00:00",
       "VideoPublishedAt": "2026-05-20T17:31:34+05:30"
     },
-    "ETag": "GLhmyLtKFS8BBgVGI1BkQ3f8Dzw",
-    "Id": "UEwxemdOQ29XdF83WnFxUWpRWTdQYzlfcHhIUFduZFlJNS41NkI0NEY2RDEwNTU3Q0M2",
+    "ETag": "XNgQZWTc7kfkiA3jg_xcY2xQPUk",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5DQ0MyQ0Y4Mzg0M0VGOEYw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Scherzo capriccioso may be the most uncharacteristic work ever written by Anton\u00EDn Dvo\u0159\u00E1k (1841\u20131904). When it premiered in May 1883 at the National Theatre in Prague, audiences were taken aback, wondering what had come over him. Critics speculated that he might be going through a personal crisis\u2014never before had his music displayed such raw, dramatic intensity. This video presents a 2011 performance by the Lucerne Symphony Orchestra, conducted by Neeme J\u00E4rvi at the Lucerne Culture and Congress Center.\n\nDespite the title \u0022Scherzo,\u0022 which generally suggests a cheery and playful work, Dvo\u0159\u00E1k\u2019s Scherzo capriccioso in D-flat major, Op. 66, B. 131 embodies emotional lows \u2014 and is full of compositional mastery. Many presumed that depression, perhaps following the death of his mother in December 1882, or a midlife crisis may have triggered it. This otherwise highly productive phase also led to the creation of other major works such as the dramatic Symphony No. 7 and the Piano Trio in F minor.\n\nThe Scherzo capriccioso is marked by a sense of constant inner restlessness and agitation, even in its sonorous, idyllic passages. The score challenging for both orchestra musicians and conductor \u2014 it\u0027s a virtuosic tightly woven fabric of seemingly carefree, almost waltz-like tempos and dark, nearly grotesque accents (with echoes of Gustav Mahler). Added to this is a richly varied orchestration. Dvo\u0159\u00E1k makes use of the tonal colors of instruments such as harp, bass clarinet, triangle, cymbals and tuba.\n\nNeeme J\u00E4rvi, born in 1937 in Tallinn, is the patriarch of a conducting family that includes his sons Paavo and Kristjan. After World War II, Estonia was absorbed into the Soviet Union, but a strong sense of national and cultural identity endured throughout the occupation. J\u00E4rvi studied in Saint Petersburg, then known as Leningrad, before returning to Tallinn, where he played a key role in raising the country\u2019s musical life to an international level as director of the opera house and the Estonian Radio Symphony Orchestra. From the 1980s onward, he has been an important advocate for Estonian culture abroad, helping bring the music of Arvo P\u00E4rt to major symphony orchestras in the West.\n\nText: Anastassia Boutsko\n\n\u00A9 2011 Accentus Music\n\nWatch more concerts: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\ngreat works by Dvo\u0159\u00E1k: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXbRp-GTVAk75FgNGTHM_C9\n\nand more famous pieces from the Romantic era: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic \n\n#dvo\u0159\u00E1k #Romanticera #Scherzo",
-      "PlaylistId": "PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5",
-      "Position": 1,
-      "PublishedAtRaw": "2026-05-20T21:10:58Z",
-      "PublishedAtDateTimeOffset": "2026-05-20T21:10:58+00:00",
-      "PublishedAt": "2026-05-21T02:40:58+05:30",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 9,
+      "PublishedAtRaw": "2026-07-12T18:01:08Z",
+      "PublishedAtDateTimeOffset": "2026-07-12T18:01:08+00:00",
+      "PublishedAt": "2026-07-12T23:31:08+05:30",
       "ResourceId": {
         "Kind": "youtube#video",
         "VideoId": "wx5SRW2aibM"
@@ -107,6 +507,856 @@
       "Title": "Dvo\u0159\u00E1k: Scherzo capriccioso | Neeme J\u00E4rvi and the Lucerne Symphony Orchestra",
       "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
       "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xhiHazJLToc",
+      "VideoPublishedAtRaw": "2020-10-12T20:39:46Z",
+      "VideoPublishedAtDateTimeOffset": "2020-10-12T20:39:46+00:00",
+      "VideoPublishedAt": "2020-10-13T02:09:46+05:30"
+    },
+    "ETag": "AqzQNdzTE9XsOaOE2k67r4hPDKI",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Chopin - Piano Concerto No. 2:\n05:26 Maestoso\n20:25 Larghetto\n30:55 Allegro vivace\n\nBizet - Symphony in C:\n42:38 Allegro vivo\n50:34 Andante. Adagio\n1:01:57 Allegro vivace\n1:07:56 Finale. Allegro vivace\n\nNetherlands Chamber Orchestra\nGordan Nikoli\u0107, violin / musical director\nAlexandre Kantorow, piano\n\nConcertgebouw, Amsterdam\n12 October 2020\n\nChopin - Piano Concerto No. 2: https://youtu.be/MlqUo9OQM2E\nBizet - Symphony in C: https://youtu.be/STvVanu1fQU\n\nMore info: https://orkest.nl/",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 10,
+      "PublishedAtRaw": "2025-09-01T22:48:43Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:48:43+00:00",
+      "PublishedAt": "2025-09-02T04:18:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xhiHazJLToc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xhiHazJLToc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xhiHazJLToc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/xhiHazJLToc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xhiHazJLToc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/xhiHazJLToc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "FULL CONCERT: Chopin - Piano Concerto No. 2 (Alexandre Kantorow, piano) | Bizet - Symphony in C",
+      "VideoOwnerChannelId": "UC1u7l5hALHqCZugPh5K86FA",
+      "VideoOwnerChannelTitle": "Nederlands Philharmonisch \u0026 Nederlands Kamerorkest"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "woW17frMd2I",
+      "VideoPublishedAtRaw": "2023-03-03T12:50:48Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-03T12:50:48+00:00",
+      "VideoPublishedAt": "2023-03-03T18:20:48+05:30"
+    },
+    "ETag": "MEDp6zJ4_YjEV7rjH_FW05Plw6E",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "March 24, 1966 in Moscow\n- Neeme Jarvi conducting Moscow Philharmonic Orchestra\n\nI. Allegro moderato 0:00\nII. Andante con moto 19:01\nIII. Rondo. Vivace 25:07",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 11,
+      "PublishedAtRaw": "2025-09-01T23:06:38Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T23:06:38+00:00",
+      "PublishedAt": "2025-09-02T04:36:38+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "woW17frMd2I"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/woW17frMd2I/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/woW17frMd2I/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/woW17frMd2I/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/woW17frMd2I/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/woW17frMd2I/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Gilels plays Beethoven Concerto \u2116 4 {Moscow 66}",
+      "VideoOwnerChannelId": "UCpWf-wUq2qIDhU60q5x7V2A",
+      "VideoOwnerChannelTitle": "Carlos Divergent"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "tQeZFusZ7ic",
+      "VideoPublishedAtRaw": "2020-10-06T01:13:08Z",
+      "VideoPublishedAtDateTimeOffset": "2020-10-06T01:13:08+00:00",
+      "VideoPublishedAt": "2020-10-06T06:43:08+05:30"
+    },
+    "ETag": "FIUdKpe_KV3eoNjgskEAZGU8fFY",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sleigh Ride . . . 0:01\nThe Prince of Denmark\u0027s March (Trumpet Voluntary) . . . 2:51\nChorale, \u0022Du bist bei mir\u0022 from Anna Magdalena\u0027s Notebeook . . . 5:16\nWhite Christmas . . . 8:15\nEntrance of the Queen of Sheba, from Solomon . . . 12:01\nAir on the G-String, from Suite No. 3 in D major, BWV . . . 14:43\nMarch of the Toys, from Babes in Toyland . . . 19:37\nFantasia on \u0022Greensleeves\u0022 . . . 23:14\nAve Maria . . . 27:59\nChristmas Medley . . . 32:29\nJesu, Joy of Man\u0027s Desiring from Cantata No. 147 . . . 42:13\nThe Nutcracker - March . . . 48:06\nThe Nutcracker - Trepak . . . 50:24\nThe Nutcracker - Waltz of the Flowers . . . 51:30",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 12,
+      "PublishedAtRaw": "2025-09-01T22:46:08Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:46:08+00:00",
+      "PublishedAt": "2025-09-02T04:16:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "tQeZFusZ7ic"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/tQeZFusZ7ic/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/tQeZFusZ7ic/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/tQeZFusZ7ic/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/tQeZFusZ7ic/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/tQeZFusZ7ic/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Neeme J\u00E4rvi \u0026 The Detroit Symphony Orchestra - Joy! A Celebration of Holiday Music",
+      "VideoOwnerChannelId": "UCLxwCnLnVAmFbm2qeNKOU2g",
+      "VideoOwnerChannelTitle": "Kyle Sandtveit"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7sYqMtaegYw",
+      "VideoPublishedAtRaw": "2024-11-19T14:28:32Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-19T14:28:32+00:00",
+      "VideoPublishedAt": "2024-11-19T19:58:32+05:30"
+    },
+    "ETag": "r20COaISbQYc0X_aRANpRIU3efs",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "2024 must have been the first time in [way too many] years that Furtw\u00E4ngler\u0027s Symphony No. 2 got a performance in Europe. It is fantastic that more people finally got to experience this epic work live. In the words of Dave Hurwitz, Furtw\u00E4ngler\u0027s 2nd is a \u0022post-Brucknerian symphony that is a really fun work to listen to\u0022. Depends on your definition of \u0022fun\u0022 of course (a typical performance lasts around 80 minutes), but it is indeed fascinating to hear how Furtw\u00E4ngler - a true symphonist - creates a whole sound universe out of nothing. For much of the first and last movement, Furtw\u00E4ngler takes a descending scale, takes an ascending scale, clashes them together, and turns this contraposition into music of incredible emotional depth. What\u0027s not to love about it?..\n-----------------------------------------------------------------\nWilhelm Furtw\u00E4ngler - Symphony No.2 (1944-1946, rev.1951)\n\u25BA 00:00. I. Assai moderato - Allegro\n\u25BA 24:57. II. Andante semplice (Tranquillo)\n\u25BA 36:10. III. Un poco moderato - Allegro\n\u25BA 52:27. IV. Langsam - Allegro\nNeeme J\u00E4rvi, Estonian National Symphony Orchestra\nTallin, Estonia Concert Hall, 10 May 2024\n-----------------------------------------------------------------\n@DavesClassicalGuide on Furtw\u00E4ngler\u0027s Symphony No. 2:\nhttps://www.youtube.com/watch?v=WJMvKhiGm9I\nhttps://www.youtube.com/watch?v=JZJtL1dnFVY",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 13,
+      "PublishedAtRaw": "2025-09-01T22:45:50Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:45:50+00:00",
+      "PublishedAt": "2025-09-02T04:15:50+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7sYqMtaegYw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7sYqMtaegYw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7sYqMtaegYw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7sYqMtaegYw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7sYqMtaegYw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7sYqMtaegYw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Neeme J\u00E4rvi conducts Furtw\u00E4ngler - Symphony No. 2 (Tallin, 2024)",
+      "VideoOwnerChannelId": "UCqvpGMR-NgBFe0I9etclJdA",
+      "VideoOwnerChannelTitle": "Classical Rarities"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "BGZUi2F2vvw",
+      "VideoPublishedAtRaw": "2016-03-04T10:38:26Z",
+      "VideoPublishedAtDateTimeOffset": "2016-03-04T10:38:26+00:00",
+      "VideoPublishedAt": "2016-03-04T16:08:26+05:30"
+    },
+    "ETag": "ElomQFTLzNmbcjjry5Zh8ZeaWHE",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Oleg Boshniakovich playing Schumann\u0027s Piano Concerto, op. 54, with the Moscow Radio SO under Neeme Jarvi, recorded in 1970. Boshniakovich studied with Konstantin Igumnov and Heinrich Neuhaus.\n\n\u041E\u043B\u0435\u0433 \u0411\u043E\u0448\u043D\u044F\u043A\u043E\u0432\u0438\u0447 - \u0428\u0443\u043C\u0430\u043D - Oleg Boshnyakovich",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 14,
+      "PublishedAtRaw": "2025-09-01T23:04:45Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T23:04:45+00:00",
+      "PublishedAt": "2025-09-02T04:34:45+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "BGZUi2F2vvw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/BGZUi2F2vvw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/BGZUi2F2vvw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/BGZUi2F2vvw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/BGZUi2F2vvw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Oleg Boshniakovich plays Schumann Piano Concerto, op. 54",
+      "VideoOwnerChannelId": "UCekpmiQK3UE-SsNAhVdZf_w",
+      "VideoOwnerChannelTitle": "ADGO"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "hlA2-dMEgmM",
+      "VideoPublishedAtRaw": "2013-06-05T00:03:02Z",
+      "VideoPublishedAtDateTimeOffset": "2013-06-05T00:03:02+00:00",
+      "VideoPublishedAt": "2013-06-05T05:33:02+05:30"
+    },
+    "ETag": "c7tz2O97fbI8JqEVtJI-aFt-KZk",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sergei Rachmaninoff\nIsle of the Dead, op. 29\n\nNeeme J\u00E4rvi\nOrchestre de la Suisse Romande\nGeneva, 29/05/2013",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 15,
+      "PublishedAtRaw": "2025-09-01T22:45:43Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:45:43+00:00",
+      "PublishedAt": "2025-09-02T04:15:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "hlA2-dMEgmM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/hlA2-dMEgmM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/hlA2-dMEgmM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/hlA2-dMEgmM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/hlA2-dMEgmM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rachmaninoff - The Isle of the Dead - Neeme J\u00E4rvi, OSR",
+      "VideoOwnerChannelId": "UCOJs9_B7e2qkK3HdhBNTsRA",
+      "VideoOwnerChannelTitle": "Nick Bottom"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "TLpufG9s0QY",
+      "VideoPublishedAtRaw": "2021-04-10T14:00:07Z",
+      "VideoPublishedAtDateTimeOffset": "2021-04-10T14:00:07+00:00",
+      "VideoPublishedAt": "2021-04-10T19:30:07+05:30"
+    },
+    "ETag": "Hu80tDqvoYbKLKrBfZgmfyNXsic",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Khatia Buniatishvili, Neeme J\u00E4rvi and the Verbier Festival Orchestra perform Sergei Rachmaninoff\u2019s Piano Concerto No. 3 in D minor, Op. 30 at the Verbier Festival in 2011.\n\nRussian composer Sergei Rachmaninoff (1873 \u2013 1943) wrote his third Piano Concerto in 1909 at the Ivanovka country estate 550 kilometers south east of Moscow. Rachmaninoff spent the summer months here from 1890 until his emigration to the US in 1917. The three movements of the piece recall the structure of typical solo concerts of the Romantic era. Piano Concerto No. 3 in D minor, Op. 30 was premiered by the New York Symphony Orchestra on November 28, 1909 in New York, conducted by Walter Damrosch. Rachmaninoff, who had been practicing the concert on a silent piano during his Atlantic voyage, played the solo part himself.\n\nAs a child, pianist Khatia Buniatishvili, born in 1987 in Tblisi, Georgia, was considered a wunderkind. She began to play the piano at the age of three and gave her first concert with the Tblisi concert orchestra at the age of six. International performances followed when she was ten. In 2008, she gave her US debut at New York\u2019s Carnegie Hall. Since then, Buniatishvili has been regularly invited to many high-profile festivals and has given concerts in the world\u2019s most renowned concert halls, for instance  at Vienna\u2019s Musikverein, at the Concertgebouw Amsterdam and at the Berlin Philharmonic. She has won the highly respected Echo Classic Award twice.\n\nThe Verbier Festival is one of the most prestigious classical music events in the world. The quality of the participating artists as well as the originality of the programs have established the festival as a highlight of the music season. It takes place for two weeks in late July and early August in the mountain resort of Verbier, in Switzerland.\n\n(00:00) Sergei Rachmaninoff: Piano Concerto No. 3 in D minor, Op. 30\n(00:20) I. Allegro ma non tanto\n(16:52) II. Intermezzo: Adagio\n(26:20) III. Finale: Alla breve\n\n\u00A9 EuroArts Music International / Id\u00E9ale Audience\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#Rachmaninoff #KhatiaBuniatishvili #neemejaervi #VerbierFestivalOrchestra",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 16,
+      "PublishedAtRaw": "2025-09-01T22:48:57Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:48:57+00:00",
+      "PublishedAt": "2025-09-02T04:18:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "TLpufG9s0QY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/TLpufG9s0QY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/TLpufG9s0QY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/TLpufG9s0QY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/TLpufG9s0QY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rachmaninoff: Piano Concerto No. 3 | Khatia Buniatishvili, Neeme J\u00E4rvi, Verbier Festival",
+      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+      "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "a4grMFvAqXk",
+      "VideoPublishedAtRaw": "2013-09-28T16:13:57Z",
+      "VideoPublishedAtDateTimeOffset": "2013-09-28T16:13:57+00:00",
+      "VideoPublishedAt": "2013-09-28T21:43:57+05:30"
+    },
+    "ETag": "AUHn1JVr4zkWRPxE4h7sbQJy6q4",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sergei Rachmaninoff: Symphony No.3 in A minor, Op.44\n\nI. Lento - Allegro moderato - Allegro (00:00)\nII. Adagio ma non troppo - Allegro vivace (13:33)\nIII. Allegro - Allegro vivace - Allegro (Tempo primo) - Allegretto - Allegro vivace (26:49)\n\nSaint Petersburg Academic Symphony Orchestra\nNeeme J\u00E4rvi, conductor\n\nJuly 13, 2005\nP\u00E4rnu Concert Hall",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 17,
+      "PublishedAtRaw": "2025-09-01T22:45:04Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:45:04+00:00",
+      "PublishedAt": "2025-09-02T04:15:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "a4grMFvAqXk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/a4grMFvAqXk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/a4grMFvAqXk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/a4grMFvAqXk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/a4grMFvAqXk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rachmaninoff: Symphony No.3 in A minor - N. J\u00E4rvi / Saint Petersburg Academic Symphony Orchestra",
+      "VideoOwnerChannelId": "UCPmq1piwo3HjJPZKheGdwdQ",
+      "VideoOwnerChannelTitle": "fur bru"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "_zRHVSJkCjw",
+      "VideoPublishedAtRaw": "2023-06-07T15:26:57Z",
+      "VideoPublishedAtDateTimeOffset": "2023-06-07T15:26:57+00:00",
+      "VideoPublishedAt": "2023-06-07T20:56:57+05:30"
+    },
+    "ETag": "n5iC05KM4MbgKLxToVJVKd37bs8",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Saint-Sa\u00EBns Symphony No3 Organ with conductor Neeme J\u00E4rvi. \n\n00:36 Movement I: Adagio - Allegro moderato - Poco adagio\n20:41 Movement II: Allegro moderato - Presto - Maestoso - Allegro\n39:57 Encore: Waltz (Act 1 No2) from Copp\u00E9lia by L\u00E9o Delibes\n\nIf you are able and would like to support the RSNO, please consider donating at https://www.rsno.org.uk/support-us/playyourpart/.\nText RSNO 5 to 70085 to donate \u00A35\nText RSNO 10 to 70085 to donate \u00A310\nText RSNO 20 to 70085 to donate \u00A320\n\nThis performance was recorded on Saturday 2 November 2019 at The Glasgow Royal Concert Hall. The concert was supported by the Jennie S. Gordon Memorial Foundation.",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 18,
+      "PublishedAtRaw": "2025-09-01T22:48:35Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:48:35+00:00",
+      "PublishedAt": "2025-09-02T04:18:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "_zRHVSJkCjw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/_zRHVSJkCjw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/_zRHVSJkCjw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/_zRHVSJkCjw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/_zRHVSJkCjw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/_zRHVSJkCjw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Saint-Sa\u00EBns Symphony No3 Organ \u2013 Neeme J\u00E4rvi \u2013 Royal Scottish National Orchestra",
+      "VideoOwnerChannelId": "UCYfVi1Q2DP-NkY2loIquRwA",
+      "VideoOwnerChannelTitle": "Royal Scottish National Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "g1_z1nNYFQw",
+      "VideoPublishedAtRaw": "2026-01-29T17:23:41Z",
+      "VideoPublishedAtDateTimeOffset": "2026-01-29T17:23:41+00:00",
+      "VideoPublishedAt": "2026-01-29T22:53:41+05:30"
+    },
+    "ETag": "lThgVoLiSMwNmFUJy6c-d-UgVGg",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei45NzUwQkI1M0UxNThBMkU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Sibelius The Oceanides\n0:10:00 Sibelius Symphony No. 4\n0:44:10 Sibelius Symphony No. 1\n1:23:49 Encore: Sibelius Karelia  - Alla Marcia\n\nThese performances were given at the Barbican Centre, London as part of a complete Sibelius Symphony Cycle. This concert was broadcast on 18 April 1996 but performed the previous Saturday 13 April.\n\nGothenburg Symphony Orchestra\nconducted by\nNeeme J\u00E4rvi\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1996-04-18#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 19,
+      "PublishedAtRaw": "2026-01-30T21:46:00Z",
+      "PublishedAtDateTimeOffset": "2026-01-30T21:46:00+00:00",
+      "PublishedAt": "2026-01-31T03:16:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "g1_z1nNYFQw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/g1_z1nNYFQw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/g1_z1nNYFQw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/g1_z1nNYFQw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/g1_z1nNYFQw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/g1_z1nNYFQw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Oceanides, Symphonies No. 4 \u0026  No. 1 - Gothenburg Symphony  - Neeme J\u00E4rvi (Barbican, 1996)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "aYgK1MUHLUE",
+      "VideoPublishedAtRaw": "2026-01-30T17:17:46Z",
+      "VideoPublishedAtDateTimeOffset": "2026-01-30T17:17:46+00:00",
+      "VideoPublishedAt": "2026-01-30T22:47:46+05:30"
+    },
+    "ETag": "CDAidSIPOwFEITUQyQYk8S1qGN8",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5DNzE1RjZEMUZCMjA0RDBB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Sibelius Pohjola\u0027s Daughter\n0:13:52 Sibelius Symphony No. 6\n0:43:12 Sibelius Symphony No. 5\n1:17:06 Encore: Sibelius Andante Festivo\n\nThese performances were given at the Barbican Centre, London as part of a complete Sibelius Symphony Cycle. This concert was broadcast on 22 April 1996 but performed the previous Sunday 14 April. This was the final concert in this Sibelius cycle.\n\nGothenburg Symphony Orchestra\nconducted by\nNeeme J\u00E4rvi\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1996-04-22#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 20,
+      "PublishedAtRaw": "2026-01-31T09:03:52Z",
+      "PublishedAtDateTimeOffset": "2026-01-31T09:03:52+00:00",
+      "PublishedAt": "2026-01-31T14:33:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "aYgK1MUHLUE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/aYgK1MUHLUE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/aYgK1MUHLUE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/aYgK1MUHLUE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/aYgK1MUHLUE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/aYgK1MUHLUE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Pohjola\u0027s Daughter, Symphonies 6 \u0026 5 - Gothenburg Symphony  - Neeme J\u00E4rvi (Barbican, 1996)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ziwmmWzleCs",
+      "VideoPublishedAtRaw": "2026-01-29T13:41:52Z",
+      "VideoPublishedAtDateTimeOffset": "2026-01-29T13:41:52+00:00",
+      "VideoPublishedAt": "2026-01-29T19:11:52+05:30"
+    },
+    "ETag": "PnqSmn71zVrxPCWB-pN-05U2MYM",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei4zRjM0MkVCRTg0MkYyQTM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Sibelius Symphony No. 7\n0:19:41 Sibelius Violin Concerto\n0:54:31 Sibelius Symphony No. 3\n\nThese performances were given at the Barbican Centre, London as part of a complete Sibelius Symphony Cycle. This concert was broadcast on 14 April 1996 but performed the previous Friday 12 April.\n\nCho-Liang Lin (violin)\n\nGothenburg Symphony Orchestra\nconducted by\nNeeme J\u00E4rvi\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1996-04-14#at-13.25\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 21,
+      "PublishedAtRaw": "2026-01-30T21:45:50Z",
+      "PublishedAtDateTimeOffset": "2026-01-30T21:45:50+00:00",
+      "PublishedAt": "2026-01-31T03:15:50+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ziwmmWzleCs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ziwmmWzleCs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ziwmmWzleCs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ziwmmWzleCs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ziwmmWzleCs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ziwmmWzleCs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphonies 3 \u0026 7, Violin Concerto - Gothenburg Symphony - Neeme J\u00E4rvi (Barbican, 1996)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ZoyTOlC0O0M",
+      "VideoPublishedAtRaw": "2026-01-30T14:17:07Z",
+      "VideoPublishedAtDateTimeOffset": "2026-01-30T14:17:07+00:00",
+      "VideoPublishedAt": "2026-01-30T19:47:07+05:30"
+    },
+    "ETag": "OTheFgNSLLMp54YYKbFPQjdWXhg",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei43MTI1NDIwOTMwQjIxMzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Sibelius Tapiola\n0:19:47 Sibelius Symphony No. 2\n1:06:13 Encore: Sibelius Valse Triste\n\nThese performances were given at the Barbican Centre, London as part of a complete Sibelius Symphony Cycle. This concert was broadcast on 21 April 1996 but performed the previous Sunday 14 April. This concert might seem rather short, but it was performed on the same day as the final concert in the cycle which I will be uploading next.\n\nGothenburg Symphony Orchestra\nconducted by\nNeeme J\u00E4rvi\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1996-04-21#at-13.25\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 22,
+      "PublishedAtRaw": "2026-01-31T09:03:56Z",
+      "PublishedAtDateTimeOffset": "2026-01-31T09:03:56+00:00",
+      "PublishedAt": "2026-01-31T14:33:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ZoyTOlC0O0M"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ZoyTOlC0O0M/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ZoyTOlC0O0M/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ZoyTOlC0O0M/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ZoyTOlC0O0M/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ZoyTOlC0O0M/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Tapiola,  Symphony No.2, Valse Triste - Gothenburg Symphony  - Neeme J\u00E4rvi (Barbican, 1996)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0zHQAkkkUkw",
+      "VideoPublishedAtRaw": "2023-03-25T15:15:00Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-25T15:15:00+00:00",
+      "VideoPublishedAt": "2023-03-25T20:45:00+05:30"
+    },
+    "ETag": "GezJPJauLQUGooD8oSiIAG6nTwA",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Stenhammar\nStenhammar Symphony No. 1 in F major\n\norch G\u00F6teborgs symfoniker\ncond Neeme J\u00E4rvi",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 23,
+      "PublishedAtRaw": "2025-09-01T22:48:31Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:48:31+00:00",
+      "PublishedAt": "2025-09-02T04:18:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0zHQAkkkUkw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0zHQAkkkUkw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0zHQAkkkUkw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/0zHQAkkkUkw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0zHQAkkkUkw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/0zHQAkkkUkw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Stenhammar Symphony No. 1 (Live)",
+      "VideoOwnerChannelId": "UCL1lbOTIQ_adJBQZXuBsNjQ",
+      "VideoOwnerChannelTitle": "kakinotane"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "KHIecIYgADI",
+      "VideoPublishedAtRaw": "2023-04-05T21:38:22Z",
+      "VideoPublishedAtDateTimeOffset": "2023-04-05T21:38:22+00:00",
+      "VideoPublishedAt": "2023-04-06T03:08:22+05:30"
+    },
+    "ETag": "VqbBHlnI9uTeN5fAX82H38zvh1w",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Tchaikovksy\u0027s monumental 1st Piano Concerto with Arcadi Volodos as soloist and the Berlin Philharmonic under Neeme Jarvi.\nI. Allegro non troppo e molto maestoso \u2013 Allegro con spirito: 00:35\nII. Andantino semplice \u2013 Prestissimo \u2013 Tempo I: 22:15\nIII. Allegro con fuoco \u2013 Molto meno mosso \u2013 Allegro vivo: 30:00\nEncore: Bach/Vivaldi: Siciliano from Concerto In D Minor, BWV 596: 39:37\nPLEASE NOTE: If this content is owned by anyone, please let me know and I will remove it. Please do not just automatically get my channel removed.\n\n#tchaikovsky #classicalmusic #piano #berlinphilharmonic",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 24,
+      "PublishedAtRaw": "2025-09-01T22:47:56Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:47:56+00:00",
+      "PublishedAt": "2025-09-02T04:17:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "KHIecIYgADI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/KHIecIYgADI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/KHIecIYgADI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/KHIecIYgADI/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Tchaikovsky-Piano Concerto No. 1, Volodos/Jarvi",
+      "VideoOwnerChannelId": "UC2fq-b2KpZG0okyoLQhaqMg",
+      "VideoOwnerChannelTitle": "WorldofClassicalMusic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "oCRHpKsfKEA",
+      "VideoPublishedAtRaw": "2025-04-29T00:19:30Z",
+      "VideoPublishedAtDateTimeOffset": "2025-04-29T00:19:30+00:00",
+      "VideoPublishedAt": "2025-04-29T05:49:30+05:30"
+    },
+    "ETag": "yj6JjJ3xzzyR143aKpmeOEN5e8Q",
+    "Id": "UEwxemdOQ29XdF83YVMwVUg2cmw1XzgzT09UUzZtQjloei4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wilhelm Stenhammar - Symphony No.1 In F (Live)\n\n01.- Tempo Molto Tranquillo - Allegro [0:00]\n02.- Andante Con Moto [17:22]\n03.- Allegro Amabile [28:03]\n04.- Allegro Non Tanto Ma Con Fuoco - Tranquillo [37:55]\n\nTHE GOTHENBURG SYMPHONY ORCHESTRA\nConductor: Neeme J\u00E4rvi",
+      "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
+      "Position": 25,
+      "PublishedAtRaw": "2025-09-01T22:46:00Z",
+      "PublishedAtDateTimeOffset": "2025-09-01T22:46:00+00:00",
+      "PublishedAt": "2025-09-02T04:16:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "oCRHpKsfKEA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/oCRHpKsfKEA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/oCRHpKsfKEA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/oCRHpKsfKEA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/oCRHpKsfKEA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/oCRHpKsfKEA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Wilhelm Stenhammar - Symphony No.1 (Live)",
+      "VideoOwnerChannelId": "UC96aWof5PHoA1OOH1keA0xQ",
+      "VideoOwnerChannelTitle": "Immortal Classical Music"
     }
   }
 ]

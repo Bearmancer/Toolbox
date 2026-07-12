@@ -1281,12 +1281,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "BYjbGNuLxW0",
+      "VideoPublishedAtRaw": "2026-07-11T12:00:14Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-11T12:00:14+00:00",
+      "VideoPublishedAt": "2026-07-11T17:30:14+05:30"
+    },
+    "ETag": "UvMV7T8Av2-y9b7mmc3IUFb-ymo",
+    "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5DNTU3ODQ4ODAzMjFERTI1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "For many listeners, Symphony No. 7 in E major, WAB 107 represents Anton Bruckner\u0027s finest, but many of his contemporaries dismissed it as the work of a drunkard. In 2022, the London Symphony Orchestra, conducted by Simon Rattle, performed this monumental Romantic masterpiece at London\u2019s Barbican Centre.\n\n(00:00) I. Allegro moderato\n(20:09) II. Adagio. Very solemn and very slow\n(42:09) III. Scherzo. Very fast\n(52:09) IV. Finale. Animated, but not fast\n\nBruckner\u0027s Symphony No. 7 in E major, WAB 107 marked Anton Bruckner\u0027s (1824\u20131896) breakthrough as a symphonist. Until then, the Austrian composer was known primarily as a virtuoso organist. His symphonies, particularly in Vienna, were met with harsh criticism and earned him a reputation as a \u0022Wagnerian\u0022 \u2014 a label widely used as a pejorative at the time. Bruckner deeply admired the music of Richard Wagner (1813\u20131883), whose influence can be heard in his compositions. Bruckner\u0027s profound impact on the history of music, and especially on the development of the symphony, was not fully recognized until later generations. His distinctive Romantic style continued to resonate well into the twentieth century.\n\nBruckner composed his Seventh Symphony over the course of exactly two years, from September 1881 to September 1883. He dedicated the work to King Ludwig II of Bavaria. The premiere took place in Leipzig on December 30, 1884 and, contrary to the composer\u0027s expectations, was a resounding success. Performances soon followed in other major music centers before eventually reaching America. Even in Vienna, home to Bruckner\u0027s fiercest critics, the Symphony\u2019s premiere in 1886 was greeted enthusiastically and the criticism gradually subsided.\n\nIt was actually Buckner\u0027s close association with Wagner, and the famous composer\u0027s influence, that loomed large over the Seventh Symphony. When Wagner passed away on February 13, 1883, Bruckner was in the middle of composing the symphony\u0027s second movement. Wagner\u0027s death inspired Bruckner to transform it into a musical tribute to the composer from Bayreuth he so deeply revered. Toward the end of the movement, a chorale-like elegy emerges, dominated by horns and no fewer than four Wagner tubas. Bruckner himself described it as his elegy to the \u0022Master of all Masters.\u0022 To this day, the Adagio of the Seventh Symphony is regarded as one of the most moving funeral movements in the symphonic repertoire.\n\nTaken as a whole, however, Bruckner\u0027s Seventh Symphony ultimately radiates warmth. Like all his symphonies, it is cast in four movements and filled with memorable melodies. Bruckner recounted that the opening theme came to him in a dream, played by an angel. Even without knowing that story, the beginning of the symphony is unmistakably Bruckner. Over the shimmering tremolo of the violins, a long ascending melody unfolds with remarkable beauty and emotional depth. The themes introduced in the opening movement return in the concise finale, where the symphony reaches its culmination and brings the work to a powerful conclusion. The third movement, a Scherzo, is driven by a string ostinato that lends it its unmistakable energy.\n\nUltimately, it is the combination of deeply Romantic melodies, powerful orchestral sounds, formal variety and structural coherence that has earned the Seventh Symphony its reputation as Anton Bruckner\u0027s most popular symphonic work.\n\nInteresting fact:\nDuring the Nazi era, a veritable cult grew around Bruckner. In fact, it became so pervasive that after the announcement of Adolf Hitler\u0027s death on April 30, 1945, the Adagio from Bruckner\u0027s Seventh Symphony was broadcast on German radio.\n\nText: Rita Kass\n\n\u00A9 2022 C Major Entertainment\n\nWatch more masterpieces in our concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nin our SYMPHONIES playlist: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nand in our playlist with famous works from the ROMANTIC period: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#bruckner #symphony #romanticeramusic",
+      "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
+      "Position": 24,
+      "PublishedAtRaw": "2026-07-12T03:39:43Z",
+      "PublishedAtDateTimeOffset": "2026-07-12T03:39:43+00:00",
+      "PublishedAt": "2026-07-12T09:09:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "BYjbGNuLxW0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner: Symphony No. 7 | Sir Simon Rattle \u0026 the London Symphony Orchestra",
+      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+      "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "G6wVtu5Hj6Q",
       "VideoPublishedAtRaw": "2019-03-20T06:01:27Z",
       "VideoPublishedAtDateTimeOffset": "2019-03-20T06:01:27+00:00",
       "VideoPublishedAt": "2019-03-20T11:31:27+05:30"
     },
-    "ETag": "3vQhHWcCKqa1iFKHRgNays75QzY",
+    "ETag": "S-kOce_w3FMWHFbA1yK85wipIpU",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40QTA3NTU2RkM1QzlCMzYx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1294,7 +1349,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "#PR https://px.a8.net/svt/ejp?a8mat=3T0598\u002BG53376\u002B3JTE\u002B61Z83\n#PR  https://px.a8.net/svt/ejp?a8mat=3T0BIT\u002B5YCTU\u002B3JTE\u002B61Z83\n@Shochannel @SHO1112 @sonymusicjapan @deutschegrammophon @naxosvideos \n\n1865\u5E74 \u30D5\u30E5\u30F3\u5CF6\u306E\u30CE\u30FC\u30EC\u30FB\u30EA\u30E5\u30F3\u30C7\u30EB\u30BB\u306B\u751F\u307E\u308C\u305F\u3002\u30A2\u30F3\u30C7\u30EB\u30BB\u30F3\u306E\u51FA\u8EAB\u5730\u30AA\u30FC\u30C7\u30F3\u30BB\u304B\u308912km\u307B\u3069\u306F\u306A\u308C\u305F\u8FB2\u6751\u5730\u5E2F\u3067\u3042\u308B\u3002\u7236\u30CB\u30EB\u30B9\u30FB\u30E8\u30A2\u30F3\u30BB\u30F3\u306F\u30DA\u30F3\u30AD\u8077\u4EBA\u3067\u3001\u5144\u5F1F\u306F12\u4EBA\u306E\u5927\u4E16\u5E2F\u3067\u8CA7\u3057\u3044\u751F\u6D3B\u3060\u3063\u305F\u304C\u3001\u97F3\u697D\u306E\u8DA3\u5473\u304C\u3042\u3063\u305F\u3002\n1871\u5E74\uFF086\u6B73\uFF09 \u3053\u306E\u9803\u304B\u3089\u3001\u7236\u306E\u697D\u56E3\u306B\u5165\u308A\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u3092\u5F3E\u304F\u3088\u3046\u306B\u306A\u3063\u305F\u3002\n1879\u5E74\uFF0814\u6B73\uFF09 \u30AA\u30FC\u30C7\u30F3\u30BB\u306E\u8ECD\u697D\u968A\u306B\u6B20\u54E1\u304C\u51FA\u305F\u305F\u3081\u5FDC\u52DF\u3057\u3001\u308F\u305A\u304B1\u30F6\u6708\u306E\u7DF4\u7FD2\u3067\u5408\u683C\u3057\u305F\u3002\u3053\u306E\u6642\u306F\u30DB\u30EB\u30F3\u3068\u30C8\u30E9\u30F3\u30DA\u30C3\u30C8\u3092\u6271\u3063\u305F\u3002\n1884\u5E74 \u30B3\u30DA\u30F3\u30CF\u30FC\u30B2\u30F3\u306E\u97F3\u697D\u9662\u3092\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u3067\u53D7\u9A13\u3057\u305F\u304C\u4E0D\u5408\u683C\u3002\u4F5C\u66F2\u5BB6\u306E\u30CB\u30EB\u30B9\u30FB\u30B2\u30FC\u30BC\u306B\u4F5C\u54C1\u3092\u898B\u305B\u308B\u3053\u3068\u306B\u3088\u3063\u3066\u4F5C\u66F2\u79D1\u306B\u5408\u683C\u304C\u8A31\u3055\u308C\u305F\u3002\u97F3\u697D\u9662\u6642\u4EE3\u306B\u306F\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u30FB\u30BD\u30CA\u30BF\u3001\u5F26\u697D\u56DB\u91CD\u594F\u66F2\u306A\u3069\u306E\u7FD2\u4F5C\u3092\u624B\u304C\u3051\u305F\u3002\n1888\u5E74 \u5352\u696D\u5F8C\u306B\u300C\u5F26\u697D\u56DB\u91CD\u594F\u66F2\u7B2C1\u756A\u300D\u3001\u300C\u5F26\u697D\u4E94\u91CD\u594F\u66F2\u300D\u3001\u300C\u5F26\u697D\u306E\u305F\u3081\u306E\u300A\u5C0F\u7D44\u66F2\u300B\u300D\u306A\u3069\u306E\u4F5C\u54C1\u3092\u767A\u8868\u3059\u308B\u3002\u7FCC\u5E74\u306B\u304B\u3051\u3066\u4EA4\u97FF\u66F2\u306B\u8A66\u307F\u308B\u304C\u632B\u6298\u3002\u305D\u306E\u7B2C1\u697D\u7AE0\u304C\u300C\u4EA4\u97FF\u7684\u30E9\u30D7\u30BD\u30C7\u30A3\u300D\u3068\u306A\u3063\u305F\u3002\n1889\u5E74 \u738B\u7ACB\u5287\u5834\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u306E\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u594F\u8005\u3068\u306A\u308A\u3001\u30E8\u30CF\u30F3\u30FB\u30B9\u30F4\u30A7\u30F3\u30BB\u30F3\uFF08Johan Svendsen, 1840\u5E74 - 1911\u5E74\uFF09\u306E\u3082\u3068\u3067\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u306E\u6D3B\u52D5\u304C\u59CB\u307E\u3063\u305F\u3002\n1891\u5E74 \u30D1\u30EA\u3067\u30A2\u30F3\u30CD\u30FB\u30DE\u30EA\u30FC\u30FB\u30D6\u30ED\u30FC\u30C7\u30EB\u30BB\u30F3\uFF08\u5F6B\u523B\u5BB6\uFF09\u3068\u51FA\u4F1A\u3044\u3001\u7D50\u5A5A\u3002\n1892\u5E74 \u4EA4\u97FF\u66F2\u7B2C1\u756A\u3092\u5B8C\u6210\u3002\u4F5C\u66F2\u5BB6\u3068\u3057\u3066\u9806\u8ABF\u306A\u6D3B\u52D5\u3092\u958B\u59CB\u3057\u305F\u3002\n1901\u5E74 4\u5E55\u304B\u3089\u306A\u308B\u6B4C\u5287\u300E\u30B5\u30A6\u30EB\u3068\u30C0\u30F4\u30A3\u30C7\u300F\u3092\u5B8C\u6210\u3002\n1902\u5E74 \u4EA4\u97FF\u66F2\u7B2C2\u756A\u300E\u56DB\u3064\u306E\u6C17\u8CEA\u300F\u3092\u767A\u8868\u3002\n1903\u5E74 \u30AE\u30EA\u30B7\u30E3\u3092\u65C5\u3057\u3001\u30A8\u30FC\u30B2\u6D77\u306E\u65E5\u306E\u51FA\u306B\u611F\u6FC0\u3057\u3066\u5E8F\u66F2\u300E\u30D8\u30EA\u30AA\u30B9\u300F\u3092\u4F5C\u66F2\u3057\u305F\u3002\n1906\u5E74 2\u4F5C\u76EE\u306E\u6B4C\u5287\u300E\u4EEE\u9762\u821E\u8E0F\u4F1A\u300F\u3001\u300C\u5F26\u697D\u56DB\u91CD\u594F\u66F2\u7B2C4\u756A\u300D\u3092\u767A\u8868\u3002\n1908\u5E74 \u30B9\u30F4\u30A7\u30F3\u30BB\u30F3\u304C\u738B\u7ACB\u5287\u5834\u697D\u9577\u3092\u5F15\u9000\u3057\u3001\u305D\u306E\u5F8C\u3092\u5F15\u304D\u7D99\u3044\u3060\u3002\n1911\u5E74 \u4EA4\u97FF\u66F2\u7B2C3\u756A\u300E\u3072\u308D\u304C\u308A\u306E\u4EA4\u97FF\u66F2\u300F \u3001\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u5354\u594F\u66F2\u3092\u5B8C\u6210\u3002\n1914\u5E74 \u7B2C\u4E00\u6B21\u4E16\u754C\u5927\u6226\u306E\u305F\u3081\u738B\u7ACB\u5287\u5834\u697D\u9577\u3092\u8F9E\u4EFB\u3002\n1915\u5E74 \u738B\u7ACB\u30B3\u30DA\u30F3\u30CF\u30FC\u30B2\u30F3\u97F3\u697D\u9662\u306E\u7406\u4E8B\u306B\u5C31\u4EFB\u3002\u97F3\u697D\u5354\u4F1A\u3067\u6307\u63EE\u8005\u3068\u3057\u3066\u6D3B\u52D5\u3057\u305F\u3002\n1916\u5E74 \u4EA4\u97FF\u66F2\u7B2C4\u756A\u300E\u4E0D\u6EC5\uFF08\u6EC5\u307C\u3057\u5F97\u3056\u308B\u3082\u306E\uFF09\u300F\u3092\u5B8C\u6210\u3002\u30D4\u30A2\u30CE\u66F2\u300C\u30B7\u30E3\u30B3\u30F3\u30CC\u300D\u3001\u300C\u4E3B\u984C\u3068\u5909\u594F\u300D\u3092\u767A\u8868\u3002\n1922\u5E74 \u4EA4\u97FF\u66F2\u7B2C5\u756A\u3001\u7BA1\u697D\u4E94\u91CD\u594F\u66F2\u3092\u5B8C\u6210\u3002\u3053\u306E\u3053\u308D\u3088\u308A\u4F5C\u98A8\u304C\u5909\u5316\u3057\u3001\u3088\u308A\u96E3\u89E3\u3067\u5185\u5411\u7684\u306A\u3082\u306E\u306B\u306A\u3063\u3066\u3044\u304F\u3002\n\u7BA1\u697D\u4E94\u91CD\u594F\u66F2\u306F\u30B3\u30DA\u30F3\u30CF\u30FC\u30B2\u30F3\u7BA1\u697D\u4E94\u91CD\u594F\u56E3\u306E\u305F\u3081\u306B\u66F8\u304B\u308C\u3001\u30E1\u30F3\u30D0\u30FC\u5168\u54E1\u306E\u305F\u3081\u306B5\u3064\u306E\u5354\u594F\u66F2\u3092\u66F8\u304F\u3053\u3068\u3082\u8A08\u753B\u3057\u3066\u3044\u305F\u304C\u3001\u4F5C\u66F2\u8005\u306E\u6B7B\u306B\u3088\u308A\u30D5\u30EB\u30FC\u30C8\u5354\u594F\u66F2\uFF081926\u5E74\uFF09\u3068\u30AF\u30E9\u30EA\u30CD\u30C3\u30C8\u5354\u594F\u66F2\uFF081928\u5E74\uFF09\u306E2\u66F2\u3067\u7D42\u308F\u3063\u305F\u3002\n1925\u5E74 \u4EA4\u97FF\u66F2\u7B2C6\u756A\u300E\u7D20\u6734\u306A\u4EA4\u97FF\u66F2\u300F\u3092\u5B8C\u6210\u3002\n1931\u5E74 \u30AA\u30EB\u30AC\u30F3\u66F2\u300C\u30B3\u30F3\u30E2\u30C4\u30A3\u30AA\u300D\u5B8C\u6210\u3002\u738B\u7ACB\u30B3\u30DA\u30F3\u30CF\u30FC\u30B2\u30F3\u97F3\u697D\u9662\u306E\u9662\u9577\u306B\u5C31\u4EFB\u3002\u901D\u53BB\u3002\n\u4EE3\u8868\u7684\u306A\u4F5C\u54C1\n\u8A73\u7D30\u306F\u300C\u30AB\u30FC\u30EB\u30FB\u30CB\u30FC\u30EB\u30BB\u30F3\u306E\u697D\u66F2\u4E00\u89A7\u300D\u3092\u53C2\u7167\n\u4EA4\u97FF\u66F2\n\u4EA4\u97FF\u66F2\u7B2C1\u756A \u30C8\u77ED\u8ABF\u3000\uFF081891\u5E74-1892\u5E74, op.7, FS.16\uFF09\n\u723D\u3084\u304B\u3067\u7267\u6B4C\u7684\u306A\u82E5\u304D\u65E5\u306E\u529B\u4F5C\u30024\u697D\u7AE0\u5236\u3067\u3042\u308A\u3001\u7B2C1\u697D\u7AE0\u63D0\u793A\u90E8\u306B\u306F\u7E70\u308A\u8FD4\u3057\u3092\u8A18\u3057\u3066\u3044\u308B\u306A\u3069\u5F62\u5F0F\u7684\u306B\u306F\u53E4\u5178\u7684\u306A\u30B9\u30BF\u30A4\u30EB\u306B\u62E0\u3063\u3066\u3044\u308B\u304C\u3001\u30C8\u77ED\u8ABF\u306E\u4F5C\u54C1\u306B\u3082\u95A2\u308F\u3089\u305A\u7B2C1\u697D\u7AE0\u306E\u7B2C1\u4E3B\u984C\u5192\u982D\u3068\u7B2C4\u697D\u7AE0\u6700\u5F8C\u306E\u548C\u97F3\u306F\u30CF\u9577\u8ABF\u3067\u3042\u308B\u3002\u5168\u4F53\u306E\u69CB\u6210\u3084\u697D\u5668\u7528\u6CD5\u306B\u306F\u30D6\u30E9\u30FC\u30E0\u30B9\u3001\u4E2D\u9593\u697D\u7AE0\u306E\u7267\u6B4C\u7684\u306A\u90E8\u5206\u306A\u3069\u306B\u306F\u30B9\u30F4\u30A7\u30F3\u30BB\u30F3\u3084\u30B2\u30FC\u30BC\u306E\u5F71\u97FF\u304C\u898B\u3089\u308C\u308B\u3002\u4E00\u65B9\u3067\u306F\u3001\u6700\u521D\u306E\u4EA4\u97FF\u66F2\u3078\u306E\u8A66\u307F\u3067\u3042\u3063\u305F\u304C\u672A\u5B8C\u6210\u306B\u7D42\u308F\u3063\u305F1889\u5E74\u306E\u300E\u4EA4\u97FF\u7684\u30E9\u30D7\u30BD\u30C7\u30A3\u300F\uFF08FS 7\uFF09\u304C\u7D14\u30D6\u30E9\u30FC\u30E0\u30B9\u98A8\u3067\u3042\u3063\u305F\u306E\u306B\u5BFE\u3057\u3001\u5510\u7A81\u304B\u3064\u983B\u7E41\u306A\u8EE2\u8ABF\u3092\u4F34\u3046\u72EC\u7279\u306A\u548C\u58F0\u9032\u884C (en:Progressive tonality) \u3084\u534A\u97F3\u968E\u7684\u306A\u65CB\u5F8B\u306B\u4F5C\u66F2\u8005\u72EC\u81EA\u306E\u97F3\u697D\u8A9E\u6CD5\u304C\u3059\u3067\u306B\u660E\u78BA\u306B\u8868\u308C\u3066\u3044\u308B\u3002\n\u4EA4\u97FF\u66F2\u7B2C2\u756A \u30ED\u77ED\u8ABF \u300E\u56DB\u3064\u306E\u6C17\u8CEA\u300F\u3000\uFF081901\u5E74-1902\u5E74, op.16, FS.29\uFF09\n\u30CB\u30FC\u30EB\u30BB\u30F3\u304C\u592B\u4EBA\u3084\u53CB\u4EBA\u3068\u5171\u306B\u6751\u306E\u5C45\u9152\u5C4B\u3067\u30D3\u30FC\u30EB\u3092\u98F2\u3093\u3067\u3044\u305F\u6642\u306B\u76EE\u6483\u3057\u305F\u3001\u4EBA\u9593\u306E\u56DB\u6C17\u8CEA\u3092\u30C6\u30FC\u30DE\u306B\u3057\u305F\u30B3\u30DF\u30AB\u30EB\u306A\u7D75\u306B\u30A4\u30F3\u30B9\u30D4\u30EC\u30FC\u30B7\u30E7\u30F3\u3092\u5F97\u3066\u4F5C\u66F2\u3055\u308C\u305F\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u30024\u3064\u306E\u697D\u7AE0\u306B\u306F\u305D\u308C\u305E\u308C\u56DB\u6C17\u8CEA\u306B\u57FA\u3065\u304F\u767A\u60F3\u8A18\u53F7\u304C\u8A18\u3055\u308C\u3001\u3053\u306E\u66F2\u304C\u6A19\u984C\u97F3\u697D\u3067\u3042\u308B\u304B\u5426\u304B\u304C\u8B70\u8AD6\u306B\u306A\u308B\u3002\u540C\u6642\u671F\u306B\u4F5C\u66F2\u3055\u308C\u305F\u30AA\u30DA\u30E9\u300E\u30B5\u30A6\u30EB\u3068\u30C0\u30F4\u30A3\u30C7\u300F\u3068\u4F5C\u66F2\u624B\u6CD5\u3084\u8868\u73FE\u306E\u70B9\u3067\u5171\u901A\u70B9\u304C\u898B\u3089\u308C\u308B\u3002\n\u4EA4\u97FF\u66F2\u7B2C3\u756A \u30CB\u77ED\u8ABF \u300E\u5E83\u304C\u308A\u306E\u4EA4\u97FF\u66F2\u300F\u3000\uFF081910\u5E74-1911\u5E74, op.27, FS.60\uFF09\n\u58EE\u5927\u3067\u7267\u6B4C\u7684\u306A\u3001\u3044\u308F\u3070\u30CB\u30FC\u30EB\u30BB\u30F3\u306E\u7530\u5712\u4EA4\u97FF\u66F2\u3002\u7B2C1\u697D\u7AE0\u306F\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\u306E\u300E\u82F1\u96C4\u4EA4\u97FF\u66F2\u300F\u3092\u601D\u308F\u305B\u308B\u3088\u3046\u306A\u6FC0\u3057\u3044\u30C8\u30A5\u30C3\u30C6\u30A3\u304B\u3089\u59CB\u307E\u308B\u3001\u30A2\u30EC\u30B0\u30ED\u30FB\u30A8\u30B9\u30D1\u30F3\u30B7\u30F4\u30A9\u3002\u30CB\u30FC\u30EB\u30BB\u30F3\u7814\u7A76\u5BB6\u306ER\u30FB\u30B7\u30F3\u30D7\u30BD\u30F3\u304C\u300C\u7AF6\u6280\u7684\u306A3\u62CD\u5B50\u300D\u3068\u8A55\u3057\u305F\u5F37\u976D\u3067\u751F\u547D\u529B\u3042\u3075\u308C\u308B\u97F3\u697D\u3067\u3042\u308B\u3002\u7B2C2\u697D\u7AE0\u30A2\u30F3\u30C0\u30F3\u30C6\u30FB\u30D1\u30B9\u30C8\u30E9\u30FC\u30EC\u3067\u3001\u30D0\u30EA\u30C8\u30F3\u3068\u30BD\u30D7\u30E9\u30CE\u306E\u30F4\u30A9\u30AB\u30EA\u30FC\u30BA\u304C\u52A0\u308F\u308B\u3002\u7B2C3\u697D\u7AE0\u306F\u30A6\u30A3\u30C3\u30C8\u306E\u52B9\u3044\u305F\u30B9\u30B1\u30EB\u30C4\u30A9\u3001\u7B2C4\u697D\u7AE0\u3067\u306F\u3001\u30D6\u30E9\u30FC\u30E0\u30B9\u306E\u4EA4\u97FF\u66F2\u7B2C1\u756A\u306E\u7D42\u697D\u7AE0\u306E\u4E3B\u984C\u3068\u4F3C\u305F\u4E3B\u984C\u304C\u529B\u5F37\u304F\u652F\u914D\u3059\u308B\u3002\n\u4EA4\u97FF\u66F2\u7B2C4\u756A \u300E\u6EC5\u307C\u3057\u5F97\u3056\u308B\u3082\u306E\uFF08\u4E0D\u6EC5\uFF09\u300F\u3000\uFF081914\u5E74-1916\u5E74, op.29, FS.76\uFF09\n6\u66F2\u4E2D\u6700\u3082\u6709\u540D\u3067\u3001\u30B7\u30D9\u30EA\u30A6\u30B9\u306E\u4EA4\u97FF\u66F2\u7B2C7\u756A\u306E\u3088\u3046\u306A\u5358\u4E00\u697D\u7AE0\u306E\u4EA4\u97FF\u66F2\u3067\u3042\u308B\u304C\u3001\u53E4\u5178\u7684\u306A4\u3064\u306E\u697D\u7AE0\u306B\u76F8\u5F53\u3059\u308B\u90E8\u5206\u304C\u9023\u7D9A\u3057\u306A\u304C\u3089\u3001\u6700\u5F8C\u306B\u7B2C1\u697D\u7AE0\u306B\u76F8\u5F53\u3059\u308B\u90E8\u5206\u306E\u7B2C2\u4E3B\u984C\u304C\u8607\u308B\u3068\u3044\u3046\u69CB\u6210\u3092\u6301\u3064\u3002\u7B2C\u4E00\u6B21\u4E16\u754C\u5927\u6226\u4E2D\u306E\u6697\u3044\u6642\u4EE3\u306B\u66F8\u304B\u308C\u305F\u4F5C\u54C1\u3067\u3001\u97F3\u697D\u3068\u751F\u547D\u306E\u4E0D\u6EC5\u3092\u9AD8\u3089\u304B\u306B\u6B4C\u3044\u4E0A\u3052\u305F\u4EA4\u97FF\u66F2\u3067\u3042\u308B\u3002\n\u4EA4\u97FF\u66F2\u7B2C5\u756A\u3000\uFF081921\u5E74-1922\u5E74, op.50, FS.97\uFF09\n\u6700\u3082\u5B8C\u6210\u5EA6\u306E\u9AD8\u3044\u4EA4\u97FF\u66F2\u3067\u3042\u308B\u3002\u7B2C4\u4EA4\u97FF\u66F2\u3088\u308A\u3082\u6226\u4E89\u3092\u5185\u9762\u7684\u306B\u6DF1\u304F\u6271\u3063\u305F\u4F5C\u54C1\u3067\u3042\u308A\u3001\u72EC\u7279\u306A\u5F62\u5F0F\u306B\u3088\u308B2\u697D\u7AE0\u69CB\u6210\u3092\u6301\u3063\u3066\u3044\u308B\u3002\u30CB\u30FC\u30EB\u30BB\u30F3\u306E\u305D\u308C\u307E\u3067\u306E\u4EA4\u97FF\u66F2\u306E\u7DE8\u6210\u306F\u3001\u6253\u697D\u5668\u306F\u30C6\u30A3\u30F3\u30D1\u30CB\u306E\u307F\u3068\u3044\u3046\u3001\u3044\u308F\u3070\u30D6\u30E9\u30FC\u30E0\u30B9\u8DEF\u7DDA\u3067\u3042\u3063\u305F\u3002\u3057\u304B\u3057\u3053\u306E\u7B2C5\u4EA4\u97FF\u66F2\u3067\u306F\u6253\u697D\u5668\u9663\u306E\u6D3B\u8E8D\u304C\u76EE\u7ACB\u3061\u3001\u7279\u306B\u5C0F\u592A\u9F13\u306F\u30A2\u30C9\u30EA\u30D6\u306E\u30BD\u30ED\u304C\u3042\u308B\u306A\u3069\u91CD\u8981\u306A\u5F79\u5272\u3092\u62C5\u3063\u3066\u3044\u308B\u3002\u7B2C1\u697D\u7AE0\u306F2\u3064\u306E\u90E8\u5206\u306B\u5206\u3051\u3089\u308C\u3001\u7B2C2\u697D\u7AE0\u306F\u53E4\u5178\u7684\u306A\u4EA4\u97FF\u66F2\u306E4\u697D\u7AE0\u306B\u76F8\u5F53\u3059\u308B4\u3064\u306E\u90E8\u5206\u306B\u5206\u3051\u3089\u308C\u308B\u3002\n\u4EA4\u97FF\u66F2\u7B2C6\u756A \u300E\u7D20\u6734\u306A\u4EA4\u97FF\u66F2\uFF08\u30B7\u30F3\u30D5\u30A9\u30CB\u30A2\u30FB\u30BB\u30F3\u30D7\u30EA\u30FC\u30C1\u30A7\uFF09\u300F\u3000\uFF081924\u5E74-1925\u5E74, FS.116\uFF09\n\u53E4\u5178\u7684\u306A4\u697D\u7AE0\u306B\u3088\u308B\u4EA4\u97FF\u66F2\u3067\u3042\u308B\u3002\u526F\u984C\u306E\u901A\u308A\u7C21\u6F54\u3067\u65B0\u53E4\u5178\u4E3B\u7FA9\u7684\u306A\u96F0\u56F2\u6C17\u3092\u6301\u3064\u304C\u3001\u5185\u5BB9\u306F\u98A8\u523A\u3084\u30E6\u30FC\u30E2\u30A2\u3001\u30A6\u30A3\u30C3\u30C8\u306B\u5BCC\u307F\u3001\u8907\u96D1\u306A\u30D5\u30FC\u30AC\u3084\u5BA4\u5185\u697D\u7684\u306A\u697D\u5668\u7528\u6CD5\u304C\u968F\u6240\u306B\u898B\u3089\u308C\u308B\u30A8\u30AD\u30BB\u30F3\u30C8\u30EA\u30C3\u30AF\u306A\u66F2\u3002\u8584\u3044\u7DE8\u6210\u304B\u3089\u59CB\u307E\u308A\u91CD\u539A\u306B\u5C55\u958B\u3057\u3066\u3044\u304F\u51B7\u6DBC\u3068\u3057\u305F\u7B2C1\u697D\u7AE0\u3001\u9D8F\u3084\u725B\u306E\u9CF4\u304D\u58F0\u3092\u5F77\u5F7F\u3068\u3055\u305B\u308B\u97F3\u578B\u304C\u767B\u5834\u3059\u308B2\u3064\u306E\u8EFD\u3044\u4E2D\u9593\u697D\u7AE0\u3001\u88F8\u306E\u30D5\u30A1\u30B4\u30C3\u30C8\u4E00\u672C\u3067\u6DE1\u3005\u3068\u594F\u3067\u3089\u308C\u308B\u4E3B\u984C\u3092\u5404\u30D1\u30FC\u30C8\u3092\u6D6E\u304D\u5F6B\u308A\u306B\u3057\u305F\u5947\u629C\u306A\u7BA1\u5F26\u697D\u6CD5\u306E\u3082\u3068\u5909\u594F\u3057\u3066\u3044\u304D\u3001\u6700\u5F8C\u306B\u518D\u3073\u30D5\u30A1\u30B4\u30C3\u30C8\u3060\u3051\u3067\u5909\u30ED\u97F3\u3092\u6B8B\u3057\u3066\u7D42\u7D50\u3059\u308B\u7B2C4\u697D\u7AE0\u304B\u3089\u6210\u308B\u3002\n\u5354\u594F\u66F2\n\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u5354\u594F\u66F2\u306F\u30ED\u30DE\u30F3\u6D3E\u7684\u306A\u6D3E\u624B\u306A\u66F2\u3067\u3042\u308A\u30016\u3064\u306E\u4EA4\u97FF\u66F2\u3092\u5B8C\u6210\u3055\u305B\u305F\u5F8C\u306E\u6669\u5E74\u306E\u4F5C\u3067\u3042\u308B\u30D5\u30EB\u30FC\u30C8\u3068\u30AF\u30E9\u30EA\u30CD\u30C3\u30C8\u306E\u5354\u594F\u66F2\u306F\u3001\u5F26\u697D\u5408\u594F\u3092\u4E3B\u4F53\u3068\u3057\u305F\u5C0F\u898F\u6A21\u7DE8\u6210\u306E\u7BA1\u5F26\u697D\u3092\u7528\u3044\u305F\u5185\u5411\u7684\u304B\u3064\u6FC3\u5BC6\u306A\u66F2\u3067\u3042\u308B\u3002\n\n\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u5354\u594F\u66F2\u3000\uFF081911\u5E74, op.33, FS.61\uFF09\n\u30B7\u30D9\u30EA\u30A6\u30B9\u306E\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u5354\u594F\u66F2\u3068\u306F\u5927\u5206\u8DA3\u304C\u7570\u306A\u308A\u3001\u6642\u6298\u30ED\u30DE\u30F3\u7684\u60C5\u7DD2\u306E\u305F\u3060\u3088\u3046\u65CB\u5F8B\u304C\u542B\u307E\u308C\u308B\u3002\u305D\u308C\u305E\u308C\u304C\u5E8F\u594F\u4ED8\u304D\u30A2\u30EC\u30B0\u30ED\u3068\u898B\u306A\u305B\u308B2\u697D\u7AE0\u69CB\u6210\u3002\u7B2C1\u697D\u7AE0\u306F\u30AB\u30C7\u30F3\u30C4\u30A1\u3092\u4F34\u3046\u524D\u594F\u66F2\u3068\u83EF\u3084\u304B\u3067\u8EFD\u5FEB\u306A\u30BD\u30CA\u30BF\u5F62\u5F0F\u306B\u3088\u308B\u4E3B\u90E8\u3001\u7B2C2\u697D\u7AE0\u306FBACH\u4E3B\u984C\u304C\u7528\u3044\u3089\u308C\u308B\u7DE9\u5F90\u697D\u7AE0\u7684\u306A\u6027\u683C\u3092\u6301\u3063\u305F\u30A2\u30C0\u30FC\u30B8\u30E7\u3068\u7530\u5712\u7684\u306A\u30ED\u30F3\u30C9\u304B\u3089\u6210\u308B\u3002\n\u30D5\u30EB\u30FC\u30C8\u5354\u594F\u66F2\u3000\uFF081926\u5E74/1927\u5E74\u6539\u8A02, FS.119\uFF09\n1926\u5E74\u306B\u5B8C\u6210\u3002\u3053\u308C\u30822\u697D\u7AE0\u69CB\u6210\u3067\u3042\u308B\u3002\u30D0\u30B9\u30C8\u30ED\u30F3\u30DC\u30FC\u30F3\u3092\u542B\u3080\u4E8C\u7BA1\u7DE8\u6210\u306E\u7BA1\u5F26\u697D\u3092\u7528\u3044\u308B\u304C\u3001\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u306B\u30D5\u30EB\u30FC\u30C8\u3068\u30C8\u30E9\u30F3\u30DA\u30C3\u30C8\u306F\u7528\u3044\u3089\u308C\u3066\u3044\u306A\u3044\u3002\u30A6\u30A3\u30C3\u30C8\u306B\u5BCC\u3093\u3060\u3001\u5BA4\u5185\u697D\u98A8\u306E\u8EFD\u5999\u306A\u97FF\u304D\u3092\u6301\u3064\u83EF\u3084\u304B\u306A\u4F5C\u54C1\u3002\u30D0\u30B9\u30C8\u30ED\u30F3\u30DC\u30FC\u30F3\u3001\u30AF\u30E9\u30EA\u30CD\u30C3\u30C8\u3001\u30C6\u30A3\u30F3\u30D1\u30CB\u3001\u30D5\u30A1\u30B4\u30C3\u30C8\u306A\u3069\u306B\u3082\u30BD\u30ED\u304C\u51FA\u73FE\u3057\u3001\u72EC\u594F\u30D5\u30EB\u30FC\u30C8\u3068\u5BFE\u4F4D\u7684\u306A\u639B\u3051\u5408\u3044\u3092\u7E70\u308A\u5E83\u3052\u308B\u3002\n\u30AF\u30E9\u30EA\u30CD\u30C3\u30C8\u5354\u594F\u66F2\u3000\uFF081928\u5E74, op.57, FS.129\uFF09\n\u6700\u6669\u5E74\u306E\u4F5C\u54C1\u3067\u3001\u5358\u4E00\u697D\u7AE0\u5F62\u5F0F\u304B\u3089\u6210\u308B\u5185\u5411\u7684\u306A\u66F2\u3002\u5F26\u697D\u4EE5\u5916\u306B\u306F\u30D5\u30A1\u30B4\u30C3\u30C8\u3068\u30DB\u30EB\u30F3\u54042\u3001\u5C0F\u592A\u9F13\u306E\u307F\u3092\u7528\u3044\u308B\u3002\u72EC\u594F\u30AF\u30E9\u30EA\u30CD\u30C3\u30C8\u306E\u7528\u3044\u65B9\u306F\u30EA\u30BA\u30DF\u30AB\u30EB\u3067\u6642\u306B\u591A\u8ABF\u7684\u3067\u3042\u308A\u3001\u30B8\u30E3\u30BA\u3092\u601D\u308F\u305B\u308B\u90E8\u5206\u3059\u3089\u3042\u308B\u3002\u5C0F\u592A\u9F13\u306F\u526F\u72EC\u594F\u8005\u7684\u306A\u4F4D\u7F6E\u306B\u3042\u308B\u3002\n\u30AA\u30DA\u30E9\n\u30B5\u30A6\u30EB\u3068\u30C0\u30F4\u30A3\u30C7 \uFF081898\u5E74-1901\u5E74, FS.25\uFF09 \u51684\u5E55\n\u4EEE\u9762\u821E\u8E0F\u4F1A \uFF081904\u5E74-1906\u5E74, FS.39\uFF09 \u51683\u5E55\n\u7BA1\u5F26\u697D\u66F2\n\u5C0F\u7D44\u66F2 \u30A4\u77ED\u8ABF\uFF081888\u5E74, op.1, FS.6\uFF09\n\u5317\u6B27\u7684\u306A\u53D9\u60C5\u306B\u3042\u3075\u308C\u308B\u5F26\u697D\u5408\u594F\u66F2\u3002\u97F3\u697D\u9662\u3092\u5352\u696D\u3057\u3066\u3059\u3050\u306E\u4F5C\u54C1\u3067\u3042\u308A\u306A\u304C\u3089\u3001\u4ECA\u65E5\u3067\u3082\u3057\u3070\u3057\u3070\u6F14\u594F\u3055\u308C\u308B\u3002\n\u30D8\u30EA\u30AA\u30B9\uFF081903\u5E74, op.17, FS.32\uFF09\n\u30A8\u30FC\u30B2\u6D77\u306E\u65E5\u306E\u51FA\u306E\u5370\u8C61\u3092\u8868\u73FE\u3057\u305F\u6F14\u594F\u4F1A\u7528\u5E8F\u66F2\u3002\n\u30B5\u30AC\u306E\u5922\uFF081908\u5E74, op.39, FS.46\uFF09\n\u30A2\u30A4\u30B9\u30E9\u30F3\u30C9\u306E5\u5927\u30B5\u30AC\u306E\u4E00\u3064\u300E\u30CB\u30E3\u30FC\u30EB\u306E\u30B5\u30AC\u300F\u306E\u4E00\u5834\u9762\u306B\u57FA\u3065\u3044\u305F\u4EA4\u97FF\u8A69\u3002\n\u30D1\u30F3\u3068\u30B7\u30EA\u30F3\u30AF\u30B9\uFF081917\u5E74-1918\u5E74, op.49, FS.87\uFF09\n\u30AE\u30EA\u30B7\u30E3\u795E\u8A71\u306B\u57FA\u3065\u3044\u305F\u4EA4\u97FF\u8A69\u3002\n\u30A2\u30E9\u30C7\u30A3\u30F3 \uFF081918\u5E74-1919\u5E74, op.34, FS.89\uFF09\n\u5408\u5531\u3001\u72EC\u5531\u3092\u4F34\u3046\u5287\u4ED8\u968F\u97F3\u697D\u3002\u7D44\u66F2\u3082\u7DE8\u307E\u308C\u305F\u3002\n\u5BA4\u5185\u697D\u30FB\u5668\u697D\u66F2\n\u5F26\u697D\u56DB\u91CD\u594F\u66F2\u7B2C1\u756A \u30C8\u77ED\u8ABF\u3000\uFF081887\u5E74-1888\u5E74, op.13, FS.4\uFF09\n\u30B9\u30F4\u30A7\u30F3\u30BC\u30F3\u3084\u30B2\u30FC\u30BC\u306E\u5F71\u97FF\u306E\u6FC3\u3044\u4F5C\u54C1\n\u5F26\u697D\u56DB\u91CD\u594F\u66F2\u7B2C4\u756A \u30D8\u9577\u8ABF\u3000\uFF081919\u5E74, op.44, FS.36\uFF09\n\u53E4\u5178\u7684\u306A\u69D8\u5F0F\u306B\u306E\u3063\u3068\u3063\u3066\u3044\u308B\u304C\u3001\u534A\u97F3\u968E\u7684\u79FB\u884C\u3092\u591A\u7528\u3059\u308B\u65CB\u5F8B\u3084\u30EA\u30BA\u30E0\u306A\u3069\u306B\u306F\u30CB\u30FC\u30EB\u30BB\u30F3\u306E\u500B\u6027\u304C\u8868\u308C\u3066\u3044\u308B\u3002\u6539\u8A02\u306B\u4F34\u3044\u4F5C\u54C1\u756A\u53F7\u3082\u5909\u308F\u3063\u3066\u3044\u308B\u3002\n\u9727\u304C\u6674\u308C\u3066\u3044\u304F\n\u5287\u97F3\u697D\u300E\u6BCD\u300F\uFF081920\u5E74, op.41, FS.94\uFF09\u306B\u4F7F\u7528\u3055\u308C\u305F\u30D5\u30EB\u30FC\u30C8\u3068\u30CF\u30FC\u30D7\u306E\u305F\u3081\u306E\u5C0F\u54C1\u3067\u3001\u5358\u72EC\u3067\u6F14\u594F\u3055\u308C\u308B\u3002\n\u6728\u7BA1\u4E94\u91CD\u594F\u66F2 \uFF08\u7BA1\u697D\u4E94\u91CD\u594F\u66F2\uFF09\u3000\uFF081920\u5E74-1922\u5E74, op.43, FS.100\uFF09\n\u30B3\u30DA\u30F3\u30CF\u30FC\u30B2\u30F3\u7BA1\u697D\u4E94\u91CD\u594F\u56E3\u306E\u305F\u3081\u306B\u4F5C\u66F2\u3055\u308C\u305F\u3002\u4F5C\u66F2\u306E\u671F\u9593\u306F\u4EA4\u97FF\u66F2\u7B2C5\u756A\u3068\u91CD\u306A\u308A\u3001\u6700\u3082\u5275\u4F5C\u610F\u6B32\u306E\u5145\u5B9F\u3057\u3066\u3044\u305F\u6642\u671F\u306E\u4F5C\u54C1\u3067\u3042\u308B\u3002\u7D44\u66F2\u98A8\u306E\u8EFD\u5999\u3067\u6109\u5FEB\u306A\u4F5C\u54C1\u3002\n\u30B7\u30E3\u30B3\u30F3\u30CC\u3000\uFF081916\u5E74, op.32, FS.79\uFF09\n\u30B7\u30E3\u30B3\u30F3\u30CC\u306E\u5F62\u5F0F\u3092\u63A1\u7528\u3057\u305F\u30D4\u30A2\u30CE\u66F2\u3002\n\u7D4C\u6E08\u7684\u306B\u8CA7\u3057\u3044\u5BB6\u5EAD\u306B\u751F\u307E\u308C\u80B2\u3063\u305F\u6545\u3001\u5C11\u5E74\u6642\u4EE3\u306B\u89E6\u308C\u308B\u6A5F\u4F1A\u304C\u7121\u304B\u3063\u305F\u30D4\u30A2\u30CE\u306F\u30CB\u30FC\u30EB\u30BB\u30F3\u306B\u3068\u3063\u3066\u5F53\u521D\u306F\u5F97\u610F\u306A\u697D\u5668\u3067\u306F\u7121\u304B\u3063\u305F\u3002\u30D4\u30A2\u30CE\u304C\u5F97\u610F\u3067\u3042\u3063\u305F\u30B0\u30EA\u30FC\u30B0\u3084\u30B7\u30D9\u30EA\u30A6\u30B9\u304C\u30D4\u30A2\u30CB\u30B9\u30C6\u30A3\u30C3\u30AF\u306A\u5C0F\u54C1\u3092\u5927\u91CF\u306B\u6B8B\u3057\u305F\u306E\u306B\u6BD4\u3079\u30CB\u30FC\u30EB\u30BB\u30F3\u306E\u30D4\u30A2\u30CE\u66F2\u306F\u6570\u304C\u5C11\u306A\u3044\u304C\u3001\u5927\u898F\u6A21\u3067\u30B7\u30F3\u30D5\u30A9\u30CB\u30C3\u30AF\u306A4\u66F2\uFF08\u4EA4\u97FF\u7684\u7D44\u66F2 op.8\u3001\u30B7\u30E3\u30B3\u30F3\u30CC op. 32\u3001\u4E3B\u984C\u3068\u5909\u594F op. 40\u3001\u7D44\u66F2\u300C\u660E\u3051\u306E\u660E\u661F\u300Dop. 45\uFF09\u3092\u4E2D\u5FC3\u3068\u3057\u305F\u5145\u5B9F\u3057\u305F\u4F5C\u54C1\u7FA4\u3092\u6B8B\u3057\u3066\u3044\u308B\u3002\u305D\u306E\u4ED6\u306B\u7279\u7B46\u3055\u308C\u308B\u4F5C\u54C1\u3068\u3057\u3066\u306F\u6669\u5E74\u306B\u4F5C\u66F2\u3055\u308C\u305F3\u3064\u306E\u5C0F\u54C1 op. 59\u304C\u6319\u3052\u3089\u308C\u308B\u3002\u30AF\u30E9\u30EA\u30CD\u30C3\u30C8\u5354\u594F\u66F2\u3084\u300C\u7121\u4F34\u594F\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u306E\u305F\u3081\u306E\u524D\u594F\u66F2\u3068\u30D7\u30EC\u30B9\u30C8\u300D\u3068\u540C\u6642\u671F\u306B\u66F8\u304B\u308C\u3066\u304A\u308A\u30013\u66F2\u76EE\u3067\u306F\u30C8\u30FC\u30F3\u30FB\u30AF\u30E9\u30B9\u30BF\u30FC\u3092\u7528\u3044\u308B\u306A\u3069\u30CB\u30FC\u30EB\u30BB\u30F3\u306E\u4F5C\u54C1\u4E2D\u6700\u3082\u5B9F\u9A13\u7684\u306A\u66F2\u306E\u4E00\u3064\u3067\u3042\u308B\u3002",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 24,
+      "Position": 25,
       "PublishedAtRaw": "2024-10-30T22:49:16Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:49:16+00:00",
       "PublishedAt": "2024-10-31T04:19:16+05:30",
@@ -1331,7 +1386,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-07-21T12:24:40+00:00",
       "VideoPublishedAt": "2024-07-21T17:54:40+05:30"
     },
-    "ETag": "Vk4HocEMUwUSr3e5ZLuRElxuuVo",
+    "ETag": "-ugYn3l7MjbrFE9bfNDA4MHT058",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5CMEVBRUJERkUyNTBENTkz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1339,7 +1394,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Classics at Odeonsplatz 2024 - First concert day\n\nPart I\n\n               Richard Wagner\n[00:00] - Ride of the Valkyries from the opera The Valkyrie\n\n               Richard Wagner\n[05:46] - Br\u00FCnnhilde\u0027s final song (Was it so ignominious what I spent)\n               from the opera The Valkyrie\n\n               Richard Wagner\n[28:46] - Wotan\u0027s farewell and fire magic (Farewell, you bold, glorious child)\n               from the opera The Valkyrie\n\nAnja Kampe, soprano\nMichael Volle, baritone\n\nBavarian Radio Symphony Orchestra\nSir. Simon Rattle, conductor\n\nRecorded live on 12.07.2024\nat the Odeonsplatz, Munich\n\nDue to an approaching storm, \nthe concert had to be canceled after the first part.\n\nThis meant that the performance of Brahms\u0027 Symphony No. 2 in D major, op. 73, \nplanned for the second part was canceled.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 25,
+      "Position": 26,
       "PublishedAtRaw": "2025-06-06T11:31:01Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:31:01+00:00",
       "PublishedAt": "2025-06-06T17:01:01+05:30",
@@ -1376,7 +1431,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-31T09:00:17+00:00",
       "VideoPublishedAt": "2021-10-31T14:30:17+05:30"
     },
-    "ETag": "fJxdwU3U53y5Y8sPWI0rvmvM3ME",
+    "ETag": "hbT5vRT5go2DGfFrC9Ejw0jhFaA",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi43MTI1NDIwOTMwQjIxMzNG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1384,7 +1439,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle conducts Copland\u0027s Appalachian Spring and De Falla\u0027s El amor brujo, recorded at LSO St Luke\u0027s on 13 May 2021.\n\n0:00 Introduction by Maxine Kwok\n1:49 Copland Appalachian Spring\n27:32 De Falla El amor brujo\n\nSir Simon Rattle: conductor\nLondon Symphony Orchestra\n------------------------------------------------------------------------------------------------\nYou can watch excerpts of our season on demand on this playlist: https://www.youtube.com/playlist?list=PLTjZ3o6K-BOmsqpAF8jVEDjd7dQOjfjPc\n#lso2021 #YouTubeSundays\n------------------------------------------------------------------------------------------------\nSUPPORT THE LSO\u0027S FUTURE \nThe importance of music and the arts has never been more apparent than in recent months, as we\u2019ve been inspired, comforted and entertained throughout this unprecedented period.  \n\nAs we emerge from the most challenging period of a generation, please consider supporting the LSO\u0027s Always Playing Appeal to sustain the Orchestra, allow us to perform together again on stage and to continue sharing our music with the broadest range of people possible.  \n\nEvery donation will help to support the LSO\u2019s future: https://lso.co.uk/support-us/always-playing-appeal.html\n\nDonate via YouTube: \nClick the button to the top right of the player.\n\nText to donate:\nText LSOAPPEAL 5 to 70085 to donate \u00A35\nText LSOAPPEAL 10 to 70085 to donate \u00A310\nText LSOAPPEAL 20 to 70085 to donate \u00A320\n\nTexts cost \u00A35, \u00A310 or \u00A320 plus one standard rate message and you\u2019ll be opting in to hear more about our work and fundraising via telephone and SMS. If you\u2019d like to give but do not wish to receive marketing communications, text LSOAPPEALNOINFO 5, 10 or 20 to 70085.\n------------------------------------------------------------------------------------------------\nThe LSO\u2019s return to work is supported by Art Mentor Foundation Lucerne and Dna Nudge.\n\nGenerously supported by the Weston Culture Fund.\n------------------------------------------------------------------------------------------------\nSubscribe to the LSO\u0027s channel: http://bit.ly/LSOsubscribe\n\nSubscribe to LSO newsletter: https://smarturl.it/lsonewsletter\n\nFollow the LSO on:\n\nInstagram: https://www.instagram.com/londonsymphonyorchestra\nFacebook: https://www.facebook.com/londonsymphonyorchestra\nTwitter: https://twitter.com/londonsymphony\nWebsite: https://lso.co.uk/\nApple Music: http://geni.us/yH0sXY\nSpotify: http://spoti.fi/291cCk0",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 26,
+      "Position": 27,
       "PublishedAtRaw": "2024-10-30T22:45:59Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:45:59+00:00",
       "PublishedAt": "2024-10-31T04:15:59+05:30",
@@ -1431,7 +1486,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-06T18:11:10+00:00",
       "VideoPublishedAt": "2025-04-06T23:41:10+05:30"
     },
-    "ETag": "3v1HoAx5y5zi_Pw4dKPRg3jR_WY",
+    "ETag": "C1nynlT87kBs9osx5dLAqs0Jnn0",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi41OURENDc2NEM1MDI5Mjky",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1439,7 +1494,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "David Raksins Filmmusik \u0022Laura\u0022, gespielt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Simon Rattle. Live aufgenommen im Jahr 2022 im Rahmen von Klassik am Odeonsplatz. Eine Produktion von BR-KLASSIK.\n\nDavid Raksin - \u0022Laura\u0022\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Sir Simon Rattle\n\nDavid Raksin\u0027s film score Laura, performed by the Bavarian Radio Symphony Orchestra conducted by Simon Rattle. Live recorded in 2022 during Klassik am Odeonsplatz. A production by BR-KLASSIK.\n\nDavid Raksin - \u0022Laura\u0022\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 27,
+      "Position": 28,
       "PublishedAtRaw": "2025-04-20T23:43:08Z",
       "PublishedAtDateTimeOffset": "2025-04-20T23:43:08+00:00",
       "PublishedAt": "2025-04-21T05:13:08+05:30",
@@ -1483,7 +1538,7 @@
     "ContentDetails": {
       "VideoId": "AmW1VaOd6wo"
     },
-    "ETag": "rTqXUX69YySY6sdNU8Wkerrq6MM",
+    "ETag": "ZHw3BRyHfDk3GcxckyUtPTK36kU",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4xRDJGOTc4RkUxMzUwMUFG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1491,7 +1546,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "This video is unavailable.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 28,
+      "Position": 29,
       "PublishedAtRaw": "2025-11-27T17:08:55Z",
       "PublishedAtDateTimeOffset": "2025-11-27T17:08:55+00:00",
       "PublishedAt": "2025-11-27T22:38:55+05:30",
@@ -1510,7 +1565,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-04-30T16:00:54+00:00",
       "VideoPublishedAt": "2026-04-30T21:30:54+05:30"
     },
-    "ETag": "Tkvth3Zzls26lpPPrN5GSirhE2M",
+    "ETag": "mdJIX2d4QSmH6WzVkN3qH2t8Ve4",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wQjA4QkVEQ0RFREIzMjFC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1518,7 +1573,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das Symphonieorchester des Bayerischen Rundfunks unter Leitung von Sir Simon Rattle spielt die Slawischen T\u00E4nze op. 72 von Anton\u00EDn Dvo\u0159\u00E1k. Live aufgenommen am 7. Juni 2025 im Herkulessaal der Residenz in M\u00FCnchen.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Slawische T\u00E4nze, op. 72\n00:00 Nr. 1 in H-Dur, Allegro vivace (Odzemek)\n04:17 Nr. 2 in e-Moll, Allegretto grazioso (Dumka)\n09:49 Nr. 3 in F-Dur, Allegro (Sko\u010Dn\u00E1)\n13:28 Nr. 4 in Des-Dur, Allegretto grazioso (Dumka)\n19:05 Nr. 5 in b-Moll, Poco adagio. Vivace (\u0160pac\u00EDrka)\n21:49 Nr. 6 in B-Dur, Moderato, quasi Minuetto (Polonaise)\n25:40 Nr. 7 in C-Dur, Presto (Kolo)\n28:57 Nr. 8 in As-Dur, Grazioso e lento, ma non troppo, quasi tempo di valse (Sousedsk\u00E1)\n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: Sir Simon Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 29,
+      "Position": 30,
       "PublishedAtRaw": "2026-05-01T00:51:19Z",
       "PublishedAtDateTimeOffset": "2026-05-01T00:51:19+00:00",
       "PublishedAt": "2026-05-01T06:21:19+05:30",
@@ -1565,7 +1620,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-09-25T08:00:06+00:00",
       "VideoPublishedAt": "2022-09-25T13:30:06+05:30"
     },
-    "ETag": "9YDjHwA-34IZD2uJDIiCIMp9xT8",
+    "ETag": "bu7dCBDYAAn_vNMoXwERVyX8EUc",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wMTIyMTBBMTA3RDUxNjlD",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1573,7 +1628,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle conducts the fourth movement Moderato e maestoso of Elgar\u0027s Symphony No 2, recorded live in concert at the Barbican in London on 11 September 2022.\n\nSir Simon Rattle: conductor\nLondon Symphony Orchestra\n\nThe full concert, the opening of the LSO\u0027s 2022/23 season at the Barbican, also included Frank Bridge\u0027s Enter Spring and Daniel Kidane\u0027s Sun Poem and is available to subscribers to Marquee TV from Thursday 29 September 2022: https://www.marquee.tv/series/lso\n------------------------------------------------------------------------------------------------\nYou can watch excerpts of our season on demand on this playlist: https://www.youtube.com/playlist?list=PLTjZ3o6K-BOmsqpAF8jVEDjd7dQOjfjPc\n#lso2022 #YouTubeSundays\n------------------------------------------------------------------------------------------------\nSubscribe to the LSO\u0027s channel: http://bit.ly/LSOsubscribe\n\nSubscribe to LSO newsletter: https://smarturl.it/lsonewsletter\n\nFollow the LSO on:\n\nInstagram: https://www.instagram.com/londonsymphonyorchestra\nFacebook: https://www.facebook.com/londonsymphonyorchestra\nTwitter: https://twitter.com/londonsymphony\nWebsite: https://lso.co.uk/\nApple Music: http://geni.us/yH0sXY\nSpotify: http://spoti.fi/291cCk0",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 30,
+      "Position": 31,
       "PublishedAtRaw": "2026-06-25T12:07:19Z",
       "PublishedAtDateTimeOffset": "2026-06-25T12:07:19+00:00",
       "PublishedAt": "2026-06-25T17:37:19+05:30",
@@ -1620,7 +1675,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-05-28T12:00:32+00:00",
       "VideoPublishedAt": "2026-05-28T17:30:32+05:30"
     },
-    "ETag": "0iR-e26slIUntwZ9z4NvMuW8jFI",
+    "ETag": "71XilAwiH7jtkgLiLTQYipkG6bc",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5FMjFERkYxMjI2NjkyMjg5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1628,7 +1683,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Die Geburtsstunde der neueren britischen Musik schlug kurz vor Beginn des 20. Jahrhunderts,  in der Londoner St. James\u0027s Hall. Bis dahin war der Komponist Edward Elgar wohl mit verschiedenen Orchester- und vor allem Chorwerken in Erscheinung getreten, ohne jedoch eine \u00FCberdurchschnittliche Aufmerksamkeit der \u00D6ffentlichkeit zu erregen.\nDas Symphonieorchester des Bayerischen Rundfunks unter Leitung von Sir Simon Rattle spielt die Enigma-Variationen, op. 36\u0022, von Edward Elgar. Die Aufnahme entstand am 26. Januar 2024 im M\u00FCnchner Herkulessaal der Residenz.\n\nEdward Elgar - \u0022Enigma-Variationen\u0022, op. 36\n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: Sir Simon Denis Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 31,
+      "Position": 32,
       "PublishedAtRaw": "2026-05-28T12:51:33Z",
       "PublishedAtDateTimeOffset": "2026-05-28T12:51:33+00:00",
       "PublishedAt": "2026-05-28T18:21:33+05:30",
@@ -1675,7 +1730,7 @@
       "VideoPublishedAtDateTimeOffset": "2014-06-06T14:24:17+00:00",
       "VideoPublishedAt": "2014-06-06T19:54:17+05:30"
     },
-    "ETag": "iQicnAD6Df30o94jOjwTvFhe2TA",
+    "ETag": "kaxmatUHXcI9PpsN2rBTzuZgXOc",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4zNDIxRUJGQThFRTg1QzAy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1683,7 +1738,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 32,
+      "Position": 33,
       "PublishedAtRaw": "2025-10-14T01:32:39Z",
       "PublishedAtDateTimeOffset": "2025-10-14T01:32:39+00:00",
       "PublishedAt": "2025-10-14T07:02:39+05:30",
@@ -1720,7 +1775,7 @@
       "VideoPublishedAtDateTimeOffset": "2015-05-14T14:48:42+00:00",
       "VideoPublishedAt": "2015-05-14T20:18:42+05:30"
     },
-    "ETag": "GuK-Y4xn_KwFzpsnEXIOrR_Tm8s",
+    "ETag": "47tSmrUIg8RNIFSzPXsDADdFyKk",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi41ODIyMTgwQzA4NjJCQkZC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1728,7 +1783,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ho creato questo video con l\u0027Editor video di YouTube (http://www.youtube.com/editor)",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 33,
+      "Position": 34,
       "PublishedAtRaw": "2025-10-13T01:47:34Z",
       "PublishedAtDateTimeOffset": "2025-10-13T01:47:34+00:00",
       "PublishedAt": "2025-10-13T07:17:34+05:30",
@@ -1765,7 +1820,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-03-27T08:00:20+00:00",
       "VideoPublishedAt": "2022-03-27T13:30:20+05:30"
     },
-    "ETag": "HUtJPjp4UELCMjAp8YKlX89cWrw",
+    "ETag": "VcL5AQCrHiBvZYEPMgdGJODicHI",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi45ODRDNTg0QjA4NkFBNkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1773,7 +1828,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Nicole Cabell sings Lilacs for  voice \u0026 orchestra by George Walker conducted by Sir Simon Rattle, recorded live in concert at the Barbican in London on 10 March 2022.\n\n0:00 Introduction by Alix Lagasse\n1:02 Introduction by Nicole Cabell\n2:11 George Walker Lilacs for voice \u0026 orchestra\n\nSir Simon Rattle: conductor\nNicole Cabell: soprano\nLondon Symphony Orchestra\n\nThe full concert, which included \u2019, is available to subscribers to Marquee TV from Thursday 31 March 2022: https://www.marquee.tv/series/lso\n\nThe LSO\u0027s performance of George Walker\u0027s Lilacs is generously supported by The Aaron Copland Fund for Music.\n------------------------------------------------------------------------------------------------\nYou can watch excerpts of our season on demand on this playlist: https://www.youtube.com/playlist?list=PLTjZ3o6K-BOmsqpAF8jVEDjd7dQOjfjPc\n#lso2022 #YouTubeSundays\n------------------------------------------------------------------------------------------------\nSUPPORT THE LSO\u0027S FUTURE \nThe importance of music and the arts has never been more apparent than in recent months, as we\u2019ve been inspired, comforted and entertained throughout this unprecedented period.  \n\nAs we emerge from the most challenging period of a generation, please consider supporting the LSO\u0027s Always Playing Appeal to sustain the Orchestra, allow us to perform together again on stage and to continue sharing our music with the broadest range of people possible.  \n\nEvery donation will help to support the LSO\u2019s future: https://lso.co.uk/support-us/always-playing-appeal.html\n\nDonate via YouTube: \nClick the button to the top right of the player.\n\nText to donate:\nText LSOAPPEAL 5 to 70085 to donate \u00A35\nText LSOAPPEAL 10 to 70085 to donate \u00A310\nText LSOAPPEAL 20 to 70085 to donate \u00A320\n\nTexts cost \u00A35, \u00A310 or \u00A320 plus one standard rate message and you\u2019ll be opting in to hear more about our work and fundraising via telephone and SMS. If you\u2019d like to give but do not wish to receive marketing communications, text LSOAPPEALNOINFO 5, 10 or 20 to 70085.\n------------------------------------------------------------------------------------------------\nThe LSO\u2019s return to work is supported by Art Mentor Foundation Lucerne and Dna Nudge.\n\nGenerously supported by the Weston Culture Fund.\n------------------------------------------------------------------------------------------------\nSubscribe to the LSO\u0027s channel: http://bit.ly/LSOsubscribe\n\nSubscribe to LSO newsletter: https://smarturl.it/lsonewsletter\n\nFollow the LSO on:\n\nInstagram: https://www.instagram.com/londonsymphonyorchestra\nFacebook: https://www.facebook.com/londonsymphonyorchestra\nTwitter: https://twitter.com/londonsymphony\nWebsite: https://lso.co.uk/\nApple Music: http://geni.us/yH0sXY\nSpotify: http://spoti.fi/291cCk0",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 34,
+      "Position": 35,
       "PublishedAtRaw": "2024-10-30T22:36:23Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:36:23+00:00",
       "PublishedAt": "2024-10-31T04:06:23+05:30",
@@ -1820,7 +1875,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-02-09T17:33:55+00:00",
       "VideoPublishedAt": "2024-02-09T23:03:55+05:30"
     },
-    "ETag": "QmLzzJaTMBefosLPfoZCoDWgfzU",
+    "ETag": "nRMSZh1jE8mzgZKca3Xohju2ZnE",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4xMkVGQjNCMUM1N0RFNEUx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1828,7 +1883,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "This performance was taken from a concert given on 1 February 1983 in the Royal Festival Hall, London\n\nPhilharmonia Orchestra\nconducted by\nSimon Rattle\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1983-02-01#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 35,
+      "Position": 36,
       "PublishedAtRaw": "2024-10-30T22:33:42Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:33:42+00:00",
       "PublishedAt": "2024-10-31T04:03:42+05:30",
@@ -1875,7 +1930,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-12-06T12:03:59+00:00",
       "VideoPublishedAt": "2022-12-06T17:33:59+05:30"
     },
-    "ETag": "eKvgVPD6CdA_YVGOAMU9FpNnxYU",
+    "ETag": "hnLnilFmnaWjCaF1igf-Yb8OUe8",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi41RTNBREYwMkI5QzU3RkY2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1883,7 +1938,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "1. Egdon Heath 0:00\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are off-air audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings or streamed transmissions. We have greatly enjoyed these performances over the years - all of which were at least four years old at the time of posting - and just wish to share them with other music lovers for the pleasure of listening to the LSO in live performances. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 36,
+      "Position": 37,
       "PublishedAtRaw": "2024-11-04T19:15:57Z",
       "PublishedAtDateTimeOffset": "2024-11-04T19:15:57+00:00",
       "PublishedAt": "2024-11-05T00:45:57+05:30",
@@ -1920,7 +1975,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-04-12T02:03:29+00:00",
       "VideoPublishedAt": "2017-04-12T07:33:29+05:30"
     },
-    "ETag": "x_eCLgkv15kiWg6HzgSM7LWEisI",
+    "ETag": "JDB5YeY2vYhX4IFkYn2cuMqDtYM",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5ENDU4Q0M4RDExNzM1Mjcy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1928,7 +1983,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Conductor, Sir Simon Rattle\nOrquesta Filarm\u00F3nica de Berl\u00EDn",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 37,
+      "Position": 38,
       "PublishedAtRaw": "2024-10-30T22:41:22Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:41:22+00:00",
       "PublishedAt": "2024-10-31T04:11:22+05:30",
@@ -1975,7 +2030,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-05-08T10:47:06+00:00",
       "VideoPublishedAt": "2026-05-08T16:17:06+05:30"
     },
-    "ETag": "Du7ulofX4ge7br1J3-yXGd3Zas4",
+    "ETag": "RVBqG8GIFbjawp9OEpczNKGa-DQ",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4xRjE1NzQ4MjRCMUNFRDdB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1983,7 +2038,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "0:00:00 Haydn Symphony No. 70\n0:17:57 Strauss Metamorphosen\n0:49:42 Berlioz Symphonie Fantastique\n\nThese performances were given on  21 May 1997 in Symphony Hall, Birmingham.\n\nVienna Philharmonic Orchestra\nconducted by\nSimon Rattle\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1997-05-21#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 38,
+      "Position": 39,
       "PublishedAtRaw": "2026-05-08T18:37:52Z",
       "PublishedAtDateTimeOffset": "2026-05-08T18:37:52+00:00",
       "PublishedAt": "2026-05-09T00:07:52+05:30",
@@ -2030,7 +2085,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-11-25T10:00:52+00:00",
       "VideoPublishedAt": "2025-11-25T15:30:52+05:30"
     },
-    "ETag": "pQ3otD_nxqUr7NisM9WfvB04Jic",
+    "ETag": "Cp4UCBmJYmpwZI5FSqrrqQ8jJdI",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5BRDg1NUY1OTY2QzgzOEM0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2038,7 +2093,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Lucerne Festival 2015\nSimon Rattle plays the role of chief cook in this concert, serving up a \u0022Haydn Pastiche\u0022, a musical \u0022pastry\u0022 that he created from various ingredients and has finely seasoned. Rattle gathered together ten of the most original and avant-garde-like instrumental movements by that musical humorist to fashion a \u0022samphonie imaginaire\u0022, a new Haydn symphony that never existed before. \n\nRattle takes us back to the birth hour of creation, lets the earthquake, whisks us off to a desert island, unleashes the stormy sea as well as its lovely waves, and, above all, shows the allegedly conservative \u0022Papa Haydn\u0022 as an odd bird who astounds his audience in the final movements of his symphony with whimsical ideas, from having the players seem to retune their instruments to their departure from the stage. \n\nSubscribe to Accentus Music: https://www.youtube.com/channel/UCX3hX9q6mEAMrzzew5d3utA/\n\n\u25B7 00:00 I. Introduction. Representation of Chaos. Largo (From The Creation, Hob.XXI:2)\n\u25B7 05:58 II. The Earthquake. Presto con tutta la forza (Last Words of Saviour on Cross, Hob.XX:1)\n\u25B7 07:34 IIIa. Sinfonia. Largo-Vivace assai (L\u0027isola disabitata, Hob.Ia:13)\n\u25B7 11:28 IIIb. Sinfonia. Allegretto-Vivace (L\u0027isola disabitata, Hob.Ia:13)\n\u25B7 13:48 IV. Largo (Symphony No. 6 in A Major, Hob.I:64)\n\u25B7 19:58 V. Minuet \u0026 Trio (Symphony No. 5 in D Major, Hob.I:6)\n\u25B7 24:17 VI. Finale. Presto (Symphony No. 46 in B Major, Hob.I:46)\n\u25B7 28:19 VII. Finale. Prestissimo (Symphony No. 60 in C Major, Hob.I:60)\n\u25B7 30:04 VIII. Introduction to Winter (Original version from The Seasons, Hob.XXI:3)\n\u25B7 34:16 IXa. Finale. Presto (Symphony No. 45 in F-Sharp Minor, Hob.I:45)\n\u25B7 37:13 IXb. Finale. Adagio (Symphony No. 45 in F-Sharp Minor, Hob.I:45)\n\u25B7 41:15 X. Music for Musical Clocks (Fl\u00F6tenuhrst\u00FCcke, Hob.XIX:1-32)\n\u25B7 43:26 XI. Finale. Allegro Assai (Symphony No. 90 in C Major, Hob.I:90)\n\nMusic composed by Joseph Haydn\nSir Simon Rattle - Musical Arrangement \u0026 Conductor \nBerliner Philharmoniker\n\n\u00A9 2015, Accentus Music",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 39,
+      "Position": 40,
       "PublishedAtRaw": "2025-11-27T17:08:06Z",
       "PublishedAtDateTimeOffset": "2025-11-27T17:08:06+00:00",
       "PublishedAt": "2025-11-27T22:38:06+05:30",
@@ -2085,7 +2140,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-06-04T16:56:35+00:00",
       "VideoPublishedAt": "2019-06-04T22:26:35+05:30"
     },
-    "ETag": "tctPMhCq4eKOsgW7jtCXJjQCFHc",
+    "ETag": "EOeFAkVeJAeRL4_-mOOQWI5dU88",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4yMUQyQTQzMjRDNzMyQTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2093,7 +2148,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Joseph Haydn (1732-1809)\nSYMPHONY NO. 88 in G major, Hob. I/88\nWiener Philharmoniker\nSIR SIMON RATTLE, conductor\nRecording: Symphony Hall, Birmingham, December 8, 2000\n\nI. Adagio - Allegro (0:00)\nII. Largo (6:34)\nIII. Menuetto. Allegro (11:54)\nIV. Allegro con spirito (15:48)",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 40,
+      "Position": 41,
       "PublishedAtRaw": "2024-10-30T22:39:51Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:39:51+00:00",
       "PublishedAt": "2024-10-31T04:09:51+05:30",
@@ -2140,7 +2195,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-10-04T16:12:28+00:00",
       "VideoPublishedAt": "2017-10-04T21:42:28+05:30"
     },
-    "ETag": "IBi1vz4lLy46euRwbEeuFi8guaw",
+    "ETag": "y1PkZl8StqxgiH2G_wUX_TEIX44",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4xOTEzQzhBQzU3MDNDNjcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2148,7 +2203,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Joseph Haydn (1732-1809)\nSYMPHONY NO. 91 in E-flat major, Hob. I/91\nSymphonieorchester des Bayerischen Rundfunks\nSIR SIMON RATTLE, OM, CBE, cond.\nRecording: Herkulessaal der Residenz, M\u00FCnchen, 2 November 2012\n\nI. Largo - Allegro assai (0:00)\nII. Andante (7:21)\nIII. Menuetto. Un poco allegretto (14:05)\nIV. Vivace (17:39)",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 41,
+      "Position": 42,
       "PublishedAtRaw": "2024-10-30T22:50:31Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:50:31+00:00",
       "PublishedAt": "2024-10-31T04:20:31+05:30",
@@ -2195,7 +2250,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-05-10T12:00:02+00:00",
       "VideoPublishedAt": "2025-05-10T17:30:02+05:30"
     },
-    "ETag": "v8m5VNVAGOL6G5DaKXl4n2yuAS4",
+    "ETag": "SCtqSV3X2MKh5U86qNQl9VkMhYs",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi45NDlDQUFFOThDMTAxQjUw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2203,7 +2258,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Henze  Symphony No.10\n\ni.   1st mov. ( 0:00 - )\nii.  2nd mov. ( 9:39 - )\niii. 3rd mov. ( 19:11 - )\niv. 4th mov. ( 26:59 - ) \n\n( live recording.  jan. 27, 2003 philharmonie, berlin )\n\n\n\n\n*. source : gnp cd-r (modified)\n*. s. rattle                     berlin philharmonic",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 42,
+      "Position": 43,
       "PublishedAtRaw": "2025-05-10T12:28:10Z",
       "PublishedAtDateTimeOffset": "2025-05-10T12:28:10+00:00",
       "PublishedAt": "2025-05-10T17:58:10+05:30",
@@ -2250,7 +2305,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-01-11T14:29:09+00:00",
       "VideoPublishedAt": "2025-01-11T19:59:09+05:30"
     },
-    "ETag": "wAhOgEi7xGpMgnWnzZpc3cuUXn0",
+    "ETag": "yF1bhCR5wuHTeZxh_tS3iCC6Qxo",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi42Qzk5MkEzQjVFQjYwRDA4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2258,7 +2313,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Holst : The Planets \n\u7B2C1\u66F2 \u706B\u661F - \u6226\u4E89\u306E\u795E\nI. Mars, the Bringer of War   00:00\n\u7B2C2\u66F2 \u91D1\u661F - \u5E73\u548C\u306E\u795E\nII. Venus, the Bringer of Peace    07:21\n\u7B2C3\u66F2 \u6C34\u661F - \u7FFC\u306E\u795E\nIII. Mercury, the Winged Messenger   16:20\n\u7B2C4\u66F2 \u6728\u661F - \u5FEB\u697D\u306E\u795E\nIV. Jupiter, the Bringer of Jollity    20:24\n\u7B2C5\u66F2 \u571F\u661F - \u8001\u5E74\u306E\u795E\nV. Saturn, the Bringer of Old Age    28:35\n\u7B2C6\u66F2 \u5929\u738B\u661F - \u9B54\u8853\u306E\u795E\nVI. Uranus, the Magician     38:18\n\u7B2C7\u66F2 \u6D77\u738B\u661F - \u795E\u79D8\u306E\u795E\nVII. Neptune, the Mystic    44:29\nSimon Rattle /  Philharmonia Orchestra\nCho)  Ambrosian Singers\n12/1980 London, Kingsway Hall EMI recording\n\u30DB\u30EB\u30B9\u30C8\uFF1A\u7D44\u66F2\u300C\u60D1\u661F\u300D\n\u30B5\u30A4\u30E2\u30F3\u30FB\u30E9\u30C8\u30EB\u6307\u63EE\u3000\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u5F26\u697D\u56E3\n\u5973\u58F0\u5408\u5531\uFF09\u30A2\u30F3\u30D6\u30ED\u30B8\u30A2\u30F3\u30FB\u30B7\u30F3\u30AC\u30FC\u30BA\n1980\u5E7412\u6708\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30AD\u30F3\u30B0\u30BA\u30A6\u30A7\u30A4\u30DB\u30FC\u30EB\u3000EMI\u9332\u97F3\u76E4\n\u203B\u300C\u5929\u624D\u300D\u30B5\u30A4\u30E2\u30F3\u30FB\u30E9\u30C8\u30EB\u306E\u540D\u3092\u65E5\u672C\u306B\u77E5\u3089\u3057\u3081\u305F\u56FD\u5185\u30C7\u30D3\u30E5\u30FC\u76E4\u3002\u5F53\u664225\u6B73\u3001\u305D\u306E\u5353\u8D8A\u3057\u305F\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u30FB\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB\u306F\u885D\u6483\u7684\u3067\u3057\u305F\u3002",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 43,
+      "Position": 44,
       "PublishedAtRaw": "2025-01-11T14:47:19Z",
       "PublishedAtDateTimeOffset": "2025-01-11T14:47:19+00:00",
       "PublishedAt": "2025-01-11T20:17:19+05:30",
@@ -2305,7 +2360,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-02-11T16:37:14+00:00",
       "VideoPublishedAt": "2020-02-11T22:07:14+05:30"
     },
-    "ETag": "Knbh3QfbYagCvX-QaqfyXDB3AVA",
+    "ETag": "-qgMLoxfNpRlqIg2IOLF4eyQm4s",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40OTQ5QjlEMDgzN0FBNUIw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2313,7 +2368,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "An unforgettable evening with an all-star orchestra comprised of members of Mistral, the Boston Symphony, Philadelphia Orchestra, the Metropolitan Opera Orchestra, and others, coming together under the baton of renowned conductor Sir Simon Rattle,  to raise funds for underserved women with breast cancer in Greater Boston.  Mistral artistic director (and survivor) Julie Scolnik, shared a few words about how music as much as medicine saved her when she was going through treatments. \n          MOZART: Overture to the Marriage of Figaro\n          BEETHOVEN: Adagio molto e cantabile from Symphony No. 9    4:50\n          BRAHMS: Symphony No. 1.  22:31\n\nVideo engineer: Kathy Wittman\nAudio engineer: Antonio Oliart\n\nTo see the video with Scolnik\u0027s speech about the cause and purpose of the benefit, go to: https://www.youtube.com/watch?v=RUcc0Qm6bC0\u0026t=997s",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 44,
+      "Position": 45,
       "PublishedAtRaw": "2025-10-14T01:30:26Z",
       "PublishedAtDateTimeOffset": "2025-10-14T01:30:26+00:00",
       "PublishedAt": "2025-10-14T07:00:26+05:30",
@@ -2360,7 +2415,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-02-11T16:34:21+00:00",
       "VideoPublishedAt": "2020-02-11T22:04:21+05:30"
     },
-    "ETag": "HSBDKUMDXZ6GoYz7AMrNpa6Vzn4",
+    "ETag": "-LXlmDBjZE2EzOW0yKm95e_6QoA",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5GNzk2RTlDQTNCQzJCQzJG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2368,7 +2423,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "An unforgettable evening with an all-star orchestra comprised of members of Mistral, the Boston Symphony, Philadelphia Orchestra, the Metropolitan Opera Orchestra, and others, coming together under the baton of renowned conductor Sir Simon Rattle,  to raise funds for underserved women with breast cancer in Greater Boston.  Mistral artistic director (and survivor) Julie Scolnik, will say a few words about how music as much as medicine saved her when she was going through treatments. \n          MOZART: Overture to the Marriage of Figaro\n          BEETHOVEN: Adagio molto e cantabile from Symphony No. 9   13:26\n          BRAHMS: Symphony No. 1",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 45,
+      "Position": 46,
       "PublishedAtRaw": "2025-10-14T01:28:25Z",
       "PublishedAtDateTimeOffset": "2025-10-14T01:28:25+00:00",
       "PublishedAt": "2025-10-14T06:58:25+05:30",
@@ -2415,7 +2470,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-06T18:09:22+00:00",
       "VideoPublishedAt": "2025-04-06T23:39:22+05:30"
     },
-    "ETag": "gaEsGjMVTto9BOwQkEbWtFyxqTc",
+    "ETag": "Pfvy0N0BVSZU7YE4fOGJa4ljgiU",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5CNTZFOTNGQzZEODg1RUQx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2423,7 +2478,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Die Akademie des Symphonieorchester des Bayerischen Rundfunks spielt das Divertissement f\u00FCr Kammerorchester von Jacques Ibert unter Leitung von Sir Simon Rattle. Die Aufnahme des Sonderkonzerts vom 2. November 2024 ist eine Produktion von BR-KLASSIK. Das bei der Aufnahme verwendete Notenmaterial ist Leihmaterial von (c) Ed. Durand - Salabert - Eschig, Frankreich.\n\nJacques Ibert - Divertissement f\u00FCr Kammerorchester\n\nAkademie des Symphonieorchesters des Bayerischen Rundfunks\nDirigent: Sir Simon Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 46,
+      "Position": 47,
       "PublishedAtRaw": "2025-04-20T23:43:17Z",
       "PublishedAtDateTimeOffset": "2025-04-20T23:43:17+00:00",
       "PublishedAt": "2025-04-21T05:13:17+05:30",
@@ -2470,7 +2525,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-06-17T12:00:36+00:00",
       "VideoPublishedAt": "2026-06-17T17:30:36+05:30"
     },
-    "ETag": "dkCgq6whYX0jgvZvo50ukzjxR8w",
+    "ETag": "t5qPkrd3yDLzliwEsYwTOk0lv5M",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi42NjBGMkRFNDcwMjM2NzYx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2478,7 +2533,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Leo\u0161 Jan\u00E1\u010Deks \u0022Sinfonietta\u0022, gespielt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Sir Simon Rattle, live aufgenommen am 7. Juni 2024 im Herkulessaal der M\u00FCnchner Residenz in M\u00FCnchen.\n\nDie f\u00FCnfs\u00E4tzige Sinfonietta verbindet festliche Fanfaren mit musikalischen Bildern aus Jan\u00E1\u010Deks Br\u00FCnn - ein wirkungsvolles Orchesterwerk zwischen patriotischem Aufbruch, rhythmischer Energie und leuchtender Bl\u00E4serpracht.\n\nLeo\u0161 Jan\u00E1\u010Dek - \u0022Sinfonietta\u0022, op. 60\n00:00:00 I. Allegretto\n00:02:13 II. Andante - Allegretto\n00:08:05 III. Moderato\n00:13:36 IV. Allegretto\n00:16:31 V. Allegro\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Sir Simon Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 47,
+      "Position": 48,
       "PublishedAtRaw": "2026-06-17T13:13:08Z",
       "PublishedAtDateTimeOffset": "2026-06-17T13:13:08+00:00",
       "PublishedAt": "2026-06-17T18:43:08+05:30",
@@ -2525,7 +2580,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-05-13T01:26:26+00:00",
       "VideoPublishedAt": "2021-05-13T06:56:26+05:30"
     },
-    "ETag": "i6urwZgfNQbBeu1rd7OBhvaeqLY",
+    "ETag": "CF8Q_giaR3kaZpMX1SmZHG2DK4g",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4xMzgwMzBERjQ4NjEzNUE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2533,7 +2588,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "John Coolidge Adams (*1947)\nFoxtrot for Orchestra\n\nThe Chairman Dances \nSir Simon Rattle\nCity of Birmingham Symphony Orchestra \n\n\n-",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 48,
+      "Position": 49,
       "PublishedAtRaw": "2024-11-04T19:17:37Z",
       "PublishedAtDateTimeOffset": "2024-11-04T19:17:37+00:00",
       "PublishedAt": "2024-11-05T00:47:37+05:30",
@@ -2570,7 +2625,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-05-13T01:22:11+00:00",
       "VideoPublishedAt": "2021-05-13T06:52:11+05:30"
     },
-    "ETag": "EAksTZVJQzsmWHZBzUU7_sSl4kI",
+    "ETag": "VHwyRVwa39Z_Mg3rx1aC67g_Uxw",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi44QzVGQUU2QjE2NDgxM0M4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2578,7 +2633,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "John Coolidge Adams (*1947)\nTwo Fanfares for Orchestra \n\nI. Tromba Lontana\nSir Simon Rattle \nCity of Birmingham Symphony Orchestra \n\n\n-",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 49,
+      "Position": 50,
       "PublishedAtRaw": "2024-11-04T19:17:32Z",
       "PublishedAtDateTimeOffset": "2024-11-04T19:17:32+00:00",
       "PublishedAt": "2024-11-05T00:47:32+05:30",
@@ -2615,7 +2670,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-07-31T02:21:29+00:00",
       "VideoPublishedAt": "2023-07-31T07:51:29+05:30"
     },
-    "ETag": "lER4NO_3spT817b5yUwkWpGpiM4",
+    "ETag": "tqwSCWIByBi9oIW0DLP7qz-YB9M",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40QzRDOEU0QUYwNUIxN0M1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2623,7 +2678,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "With So many Rev. of Raiders March, this one is my favourite",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 50,
+      "Position": 51,
       "PublishedAtRaw": "2024-11-04T19:15:02Z",
       "PublishedAtDateTimeOffset": "2024-11-04T19:15:02+00:00",
       "PublishedAt": "2024-11-05T00:45:02+05:30",
@@ -2660,7 +2715,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-12-30T12:01:32+00:00",
       "VideoPublishedAt": "2025-12-30T17:31:32+05:30"
     },
-    "ETag": "34JUWpCqI8_fBsei7aoAWWgv0xI",
+    "ETag": "QSho7vbhRoWswqNxKO8ssHuFTks",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5DODY2Qzc5Mzc1QkZEQ0NF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2668,7 +2723,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Lucerne Festival, 2015\nViolinist Daishin Kashimoto and violist Amihai Grosz opened the evening with a radiant performance of Mozart\u0027s Sinfonia Concertante. Under the elegant and finely balanced direction of Sir Simon Rattle, the Berliner Philharmoniker provided a luminous framework for the two soloists, whose refined dialogue and expressive warmth captured the work\u0027s unique blend of symphonic breadth and chamber-like intimacy.\n\nSubscribe to Accentus Music: https://www.youtube.com/channel/UCX3hX9q6mEAMrzzew5d3utA/\nMore videos from this concert here: https://www.youtube.com/watch?v=RH9JSy8rysw\n\n\u25B7 00:00 I. Allegro maestoso\n\u25B7 13:35 II. Andante\n\u25B7 25:07 III. Presto\n\nSinfonia Concertante for Violin, Viola and Orchestra in E-flat major, K. 364\nMusic composed by Wolfgang Amadeus Mozart\nBerliner Philharmoniker\nSir Simon Rattle - Conductor \nDaishin Kashimoto - Violin\nAmihai Grosz - Viola\n\n\u00A9 2015, Accentus Music",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 51,
+      "Position": 52,
       "PublishedAtRaw": "2026-02-17T18:46:15Z",
       "PublishedAtDateTimeOffset": "2026-02-17T18:46:15+00:00",
       "PublishedAt": "2026-02-18T00:16:15+05:30",
@@ -2715,7 +2770,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-07-17T14:36:27+00:00",
       "VideoPublishedAt": "2022-07-17T20:06:27+05:30"
     },
-    "ETag": "-Xpt4bLI87rIYU9tLGPeUeDC5d0",
+    "ETag": "xRDGVnbeGPkSc7o7MES6zRCADbw",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi44QTY2MEEzNzBFQUJCMUQ2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2723,7 +2778,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Klassik am Odeonsplatz 2022 - Second concert day\n\nPart I\n\nMikl\u00F3s R\u00F3zsa\nSelections from Ben Hur\n\n[00:00:00] - 01. Movement: Prelude\n[00:04:24] - 02. Movement:  Parade Of The Charioteers\n\nMikl\u00F3s R\u00F3zsa\nViolin Concerto, op. 24\n\n[00:08:14] - 01. Movement: Allegro non troppo ma passionato\n[00:21:43] - 02. Movement: Lento cantabile\n[00:31:47] - 03. Movement: Allegro vivace\n\n\nPart II\n\n                    John Williams\n[00:41:39] - Main Title from Star Wars\n\n                    John Williams\n[00:47:50] - Hedwig\u0027s Theme\n                   from Harry Potter and the Sorcerers\u0027s Stone\n\n                    David Raksin\n[00:53:10] - Lauras Theme from the same named film\n\n                    Scott Bradley\n[00:59:16] - Tom and Jerry Medley\n\nErich Wolfgang Korngold\nSelections from The Adventures of Robin Hood\n\n[01:06:12] - 01. Movement: Fanfare\n[01:06:25] - 02. Movement: Robin Hood and his merry Men\n[01:10:20] - 03. Movement: Love Scene\n[01:18:16] - 04. Movement: The Fight, Victory and Epilogue\n\n                    John Williams\n[01:24:24] - Flying Theme from E.T.\n\n\nEncore\n\n                    John Williams\n[01:28:31] - Raiders March from Indiana Jones and the Raiders of the Lost Ark\n\nVeronika Eberle, violn\n\nBavarian Radio Symphony Orchestra\nSir Simon Rattle, conductor\n\nRecorded live on 10.07.2022\nat the Odeonsplatz, Munich",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 52,
+      "Position": 53,
       "PublishedAtRaw": "2025-06-06T22:34:03Z",
       "PublishedAtDateTimeOffset": "2025-06-06T22:34:03+00:00",
       "PublishedAt": "2025-06-07T04:04:03+05:30",
@@ -2760,7 +2815,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-06T18:15:37+00:00",
       "VideoPublishedAt": "2025-04-06T23:45:37+05:30"
     },
-    "ETag": "BR1uV1dJPhdrk8kbnGr1zI0ia9Q",
+    "ETag": "_NdbsKR-AsKxbQ4d1-Ghgm1ZTTE",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi42QzdBMzlBQzQzRjQ0QkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2768,7 +2823,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Erich Wolfgang Korngolds \u0022Die Abenteuer des Robin Hood\u0022, gespielt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Simon Rattle. Live aufgenommen im Jahr 2022 im Rahmen von Klassik am Odeonsplatz. Eine Produktion von BR-KLASSIK.\n\nErich Wolfgang Korngold - Die Abenteuer des Robin Hood\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Sir Simon Rattle\n\nErich Wolfgang Korngold\u0027s \u0022Adventures of Robin Hood\u0022, performed by the Bavarian Radio Symphony Orchestra conducted by Simon Rattle. Recorded live in 2022 as part of Klassik am Odeonsplatz. A production by BR-KLASSIK.\n\nErich Wolfgang Korngold - Adventures of Robin Hood\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 53,
+      "Position": 54,
       "PublishedAtRaw": "2025-04-20T23:42:51Z",
       "PublishedAtDateTimeOffset": "2025-04-20T23:42:51+00:00",
       "PublishedAt": "2025-04-21T05:12:51+05:30",
@@ -2815,7 +2870,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-02-25T04:43:58+00:00",
       "VideoPublishedAt": "2025-02-25T10:13:58+05:30"
     },
-    "ETag": "IavmHu2omUSxkT7ycz6ekNT-U1I",
+    "ETag": "DQ277fzGcKaTF5vX917BBm7bMFA",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wNEU1MTI4NkZEMzVBN0JF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2823,7 +2878,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Piano: Krystian Zimerman\nConductor: Simon Rattle\nLondon Symphony Orchestra \nYear: 14/01/2025\nLive At Paris \n\nBeethoven Concerto No 4\n1) 0:00 Allegretto\n\n2)18:41 Andante con moto\n\n3)23:35 5Rondo (Vivace)\n\nEncore:\n33:35 Debussy - Estampes, L.100 - I. Pagodes \n\n38:53 Chopin Sonata No 3 - Mov-4(Encore)",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 54,
+      "Position": 55,
       "PublishedAtRaw": "2025-03-18T19:50:24Z",
       "PublishedAtDateTimeOffset": "2025-03-18T19:50:24+00:00",
       "PublishedAt": "2025-03-19T01:20:24+05:30",
@@ -2870,7 +2925,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-01-15T20:30:07+00:00",
       "VideoPublishedAt": "2020-01-16T02:00:07+05:30"
     },
-    "ETag": "PRHngn4EMeVUmjnwMCENVEgfdZk",
+    "ETag": "AblQfJ9GBXT9D49DLTejWiTJEto",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi43NDhFRTgwOTRERTU4Rjg3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2878,7 +2933,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 55,
+      "Position": 56,
       "PublishedAtRaw": "2024-10-30T22:48:19Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:48:19+00:00",
       "PublishedAt": "2024-10-31T04:18:19+05:30",
@@ -2925,7 +2980,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-11-06T17:43:32+00:00",
       "VideoPublishedAt": "2022-11-06T23:13:32+05:30"
     },
-    "ETag": "JE54HZGYQ5j_MA-y7Md2wGL5Rn4",
+    "ETag": "EPh2PePDhhW2x27Og-0FmyyGcZg",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wN0FBRUVFNEVBMTZBQ0Mx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2933,7 +2988,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Piano: Lang Lang\n\nConductor: Simon Rattle\n\nOrchestra: Berlin Philharmoniker\n\nLang Lang plays Tchaikovsky\u0027s most famous piano composition in concert for the Summer Concert series opener (2004) edition. At the Waldb\u00FChne outdoors event venue in Berlin, Germany.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 56,
+      "Position": 57,
       "PublishedAtRaw": "2025-10-14T01:35:01Z",
       "PublishedAtDateTimeOffset": "2025-10-14T01:35:01+00:00",
       "PublishedAt": "2025-10-14T07:05:01+05:30",
@@ -2980,7 +3035,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-11-06T17:43:32+00:00",
       "VideoPublishedAt": "2022-11-06T23:13:32+05:30"
     },
-    "ETag": "WD8kyTmNqPLfRlDP0Ml8NHkb_6M",
+    "ETag": "pGr_TBMU1h-RK083X82OfBTNJic",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5BNzdEQzY0REQzQTEyN0U3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2988,7 +3043,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Piano: Lang Lang\n\nConductor: Simon Rattle\n\nOrchestra: Berlin Philharmoniker\n\nLang Lang plays Tchaikovsky\u0027s most famous piano composition in concert for the Summer Concert series opener (2004) edition. At the Waldb\u00FChne outdoors event venue in Berlin, Germany.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 57,
+      "Position": 58,
       "PublishedAtRaw": "2025-10-20T04:32:58Z",
       "PublishedAtDateTimeOffset": "2025-10-20T04:32:58+00:00",
       "PublishedAt": "2025-10-20T10:02:58+05:30",
@@ -3035,7 +3090,7 @@
       "VideoPublishedAtDateTimeOffset": "2015-03-11T00:56:46+00:00",
       "VideoPublishedAt": "2015-03-11T06:26:46+05:30"
     },
-    "ETag": "XMe6_sELLjSl2yTAcEgzU-0rjO4",
+    "ETag": "jT2xl9301LLx1AsCN1aHJkPtFrY",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5GNDg1Njc1QzZERjlFRjE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3043,7 +3098,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Leeds International Piano Competition 1990, Schumann Concerto, Lars Vogt, CBSO, Simon Rattle",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 58,
+      "Position": 59,
       "PublishedAtRaw": "2024-10-30T22:51:18Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:51:18+00:00",
       "PublishedAt": "2024-10-31T04:21:18+05:30",
@@ -3071,61 +3126,6 @@
       "Title": "Leeds International Piano Competition 1990, Schumann Concerto, Lars Vogt, CBSO, Simon Rattle",
       "VideoOwnerChannelId": "UCPYO0B_mnFVQmsrvEF3bgJw",
       "VideoOwnerChannelTitle": "Lars Vogt"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "YP1gxikop7M",
-      "VideoPublishedAtRaw": "2026-07-11T21:00:40Z",
-      "VideoPublishedAtDateTimeOffset": "2026-07-11T21:00:40+00:00",
-      "VideoPublishedAt": "2026-07-12T02:30:40+05:30"
-    },
-    "ETag": "qXzfTvP0C5MBvf5nuxUmBYI7VJY",
-    "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40NTBGRDE5MDg2Q0NEODI4",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt unter der Leitung von Sir Simon Rattle Werke von George Gershwin. Das \u0022Concerto in F\u0022 des amerikanischen Komponisten interpretiert Kirill Gerstein. Das Konzert wird am 11. Juli 2026 ab 20:05 Uhr vom M\u00FCnchener \u0022Klassik am Odeonsplatz\u0022 live \u00FCbertragen.\n\n00:00:00 Vorspann\n00:09:13 George Gershwin - \u0022Let \u0027Em Eat Cake\u0022, Ouvert\u00FCre\n00:19:05 George Gershwin - \u0022Concerto in F\u0022 f\u00FCr Klavier und Orchester \n00:54:25 Zugabe: Gershwin - \u0022I got rhythm\u0022\n01:37:44 George Gershwin - \u0022Porgy and Bess\u0022, A Symphonic Picture\n02:06:17 George Gershwin - \u0022An American in Paris\u0022\n02:29:20 Zugabe: Gershwin - \u0022Strike Up The Band\u0022, Ouvert\u00FCre\n\nKirill Gerstein, Klavier\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Simon Rattle Dirigent\n\nAngesichts dieses einmaligen Programms k\u00F6nnten wir diesen Abend auch umtaufen in: \u0022Gershwin am Odeonsplatz\u0022. Sir Simon Rattle beschlie\u00DFt die Saison mit urbaner Energie und amerikanischem Esprit \u2013 mit Gershwin only. F\u00FCr Rattle ein Schl\u00FCsselkomponist des 20. Jahrhunderts, einer, der Jazz, Broadway und symphonisches Denken mit spielerischer Selbstverst\u00E4ndlichkeit zusammenf\u00FChrt. Die Ouvert\u00FCre zu \u0022Let \u0027Em Eat Cake\u0022 spr\u00FCht vor satirischem Drive, \u0022An American in Paris\u0022 zeichnet ein flirrendes Stadtportr\u00E4t zwischen Hupen, Sehnsucht und Rhythmus. \u0022Porgy and Bess\u0022 verflechtet Gesang, Tanz und Drama. Und im Concerto in F trifft orchestrales Funkeln auf die pianistische Brillanz von Kirill Gerstein. Ideale Musik f\u00FCr einen Sommerabend, ideale Musik f\u00FCr den Odeonsplatz.\n\n\nThe Bavarian Radio Symphony Orchestra, conducted by Sir Simon Rattle, will perform works by George Gershwin. Kirill Gerstein will perform the American composer\u0027s \u0022Concerto in F.\u0022 The concert will be broadcast live on July 11, 2026, starting at 8:05 p.m. from Munich\u2019s \u201CKlassik am Odeonsplatz.\u201D\n\n00:00:00 Vorspann\n00:09:13 George Gershwin - \u0022Let \u0027Em Eat Cake,\u0022 Overture\nGeorge Gershwin - \u0022Concerto in F\u0022 for Piano and Orchestra\nIntermission\nGeorge Gershwin - \u0022Porgy and Bess,\u0022 A Symphonic Picture\nGeorge Gershwin - \u0022An American in Paris\u0022\n\nKirill Gerstein, piano\nBavarian Radio Symphony Orchestra\nConductor: Simon Rattle\n\nGiven this unique program, we might as well rename this evening \u201CGershwin at Odeonsplatz.\u201D Sir Simon Rattle brings the season to a close with urban energy and American wit\u2014featuring Gershwin exclusively. For Rattle, Gershwin is a key composer of the 20th century, one who brings together jazz, Broadway, and symphonic thinking with playful ease. The overture to \u0022Let \u0027Em Eat Cake\u0022 sparkles with satirical drive, while \u0022An American in Paris\u0022 paints a shimmering portrait of the city amid car horns, longing, and rhythm. \u0022Porgy and Bess\u0022 weaves together song, dance, and drama. And in the Concerto in F, orchestral sparkle meets the pianistic brilliance of Kirill Gerstein. Perfect music for a summer evening, perfect music for Odeonsplatz.\n\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
-      "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 59,
-      "PublishedAtRaw": "2026-06-17T13:13:15Z",
-      "PublishedAtDateTimeOffset": "2026-06-17T13:13:15+00:00",
-      "PublishedAt": "2026-06-17T18:43:15+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "YP1gxikop7M"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "RE-LIVE: Klassik am Odeonsplatz | Kirill Gerstein | Simon Rattle | BRSO",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
     }
   },
   {
@@ -4963,12 +4963,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "YP1gxikop7M",
+      "VideoPublishedAtRaw": "2026-07-11T21:00:40Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-11T21:00:40+00:00",
+      "VideoPublishedAt": "2026-07-12T02:30:40+05:30"
+    },
+    "ETag": "NsLVuLdVx2_yAgFZW73uJdWqLyQ",
+    "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40NTBGRDE5MDg2Q0NEODI4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt unter der Leitung von Sir Simon Rattle Werke von George Gershwin. Das \u0022Concerto in F\u0022 des amerikanischen Komponisten interpretiert Kirill Gerstein. Das Konzert wird am 11. Juli 2026 ab 20:05 Uhr vom M\u00FCnchener \u0022Klassik am Odeonsplatz\u0022 live \u00FCbertragen.\n\n00:00:00 Vorspann\n00:09:13 George Gershwin - \u0022Let \u0027Em Eat Cake\u0022, Ouvert\u00FCre\n00:19:05 George Gershwin - \u0022Concerto in F\u0022 f\u00FCr Klavier und Orchester \n00:54:25 Zugabe: Gershwin - \u0022I got rhythm\u0022\n01:37:44 George Gershwin - \u0022Porgy and Bess\u0022, A Symphonic Picture\n02:06:17 George Gershwin - \u0022An American in Paris\u0022\n02:29:20 Zugabe: Gershwin - \u0022Strike Up The Band\u0022, Ouvert\u00FCre\n\nKirill Gerstein, Klavier\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Simon Rattle Dirigent\n\nAngesichts dieses einmaligen Programms k\u00F6nnten wir diesen Abend auch umtaufen in: \u0022Gershwin am Odeonsplatz\u0022. Sir Simon Rattle beschlie\u00DFt die Saison mit urbaner Energie und amerikanischem Esprit \u2013 mit Gershwin only. F\u00FCr Rattle ein Schl\u00FCsselkomponist des 20. Jahrhunderts, einer, der Jazz, Broadway und symphonisches Denken mit spielerischer Selbstverst\u00E4ndlichkeit zusammenf\u00FChrt. Die Ouvert\u00FCre zu \u0022Let \u0027Em Eat Cake\u0022 spr\u00FCht vor satirischem Drive, \u0022An American in Paris\u0022 zeichnet ein flirrendes Stadtportr\u00E4t zwischen Hupen, Sehnsucht und Rhythmus. \u0022Porgy and Bess\u0022 verflechtet Gesang, Tanz und Drama. Und im Concerto in F trifft orchestrales Funkeln auf die pianistische Brillanz von Kirill Gerstein. Ideale Musik f\u00FCr einen Sommerabend, ideale Musik f\u00FCr den Odeonsplatz.\n\n\nThe Bavarian Radio Symphony Orchestra, conducted by Sir Simon Rattle, will perform works by George Gershwin. Kirill Gerstein will perform the American composer\u0027s \u0022Concerto in F.\u0022 The concert will be broadcast live on July 11, 2026, starting at 8:05 p.m. from Munich\u2019s \u201CKlassik am Odeonsplatz.\u201D\n\n00:00:00 Vorspann\n00:09:13 George Gershwin - \u0022Let \u0027Em Eat Cake,\u0022 Overture\nGeorge Gershwin - \u0022Concerto in F\u0022 for Piano and Orchestra\nIntermission\nGeorge Gershwin - \u0022Porgy and Bess,\u0022 A Symphonic Picture\nGeorge Gershwin - \u0022An American in Paris\u0022\n\nKirill Gerstein, piano\nBavarian Radio Symphony Orchestra\nConductor: Simon Rattle\n\nGiven this unique program, we might as well rename this evening \u201CGershwin at Odeonsplatz.\u201D Sir Simon Rattle brings the season to a close with urban energy and American wit\u2014featuring Gershwin exclusively. For Rattle, Gershwin is a key composer of the 20th century, one who brings together jazz, Broadway, and symphonic thinking with playful ease. The overture to \u0022Let \u0027Em Eat Cake\u0022 sparkles with satirical drive, while \u0022An American in Paris\u0022 paints a shimmering portrait of the city amid car horns, longing, and rhythm. \u0022Porgy and Bess\u0022 weaves together song, dance, and drama. And in the Concerto in F, orchestral sparkle meets the pianistic brilliance of Kirill Gerstein. Perfect music for a summer evening, perfect music for Odeonsplatz.\n\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+      "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
+      "Position": 96,
+      "PublishedAtRaw": "2026-06-17T13:13:15Z",
+      "PublishedAtDateTimeOffset": "2026-06-17T13:13:15+00:00",
+      "PublishedAt": "2026-06-17T18:43:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "YP1gxikop7M"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/YP1gxikop7M/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "RE-LIVE: Klassik am Odeonsplatz | Kirill Gerstein | Simon Rattle | BRSO",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "5iM_rTVtj6k",
       "VideoPublishedAtRaw": "2013-04-25T14:35:51Z",
       "VideoPublishedAtDateTimeOffset": "2013-04-25T14:35:51+00:00",
       "VideoPublishedAt": "2013-04-25T20:05:51+05:30"
     },
-    "ETag": "DgxDI43CjrWElRDExGUjoPtSOkc",
+    "ETag": "prnmV5nBi9HmRokfix2OFG6ij00",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5DRUQwODMxQzUyRTlGRkY3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4976,7 +5031,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Final at Leeds International Piano Competition - 1993\nBeethoven piano concerto n. 5\nBirmingham Symphony Orchestra\nConductor: Simon Rattle\nSoloist: Ricardo Castro - 1st prize\n\nI. 00:51\nII. 21:30\nIII. 28:38",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 96,
+      "Position": 97,
       "PublishedAtRaw": "2024-10-30T22:52:01Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:52:01+00:00",
       "PublishedAt": "2024-10-31T04:22:01+05:30",
@@ -5018,7 +5073,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-08-03T13:31:54+00:00",
       "VideoPublishedAt": "2022-08-03T19:01:54+05:30"
     },
-    "ETag": "yLSf6BmM2hlTqBJFtUtVYh_AE6Q",
+    "ETag": "FlqrKporhBosr7TMWyrBJKYOuek",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5EMEEwRUY5M0RDRTU3NDJC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5026,7 +5081,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle conducting the Prelude and Liebestod from Wagner\u0027s \u0027Tristan und Isolde\u0027 with the London Symphony Orchestra at the Barbican in July 2017\n\nIntro 0:00\nPrelude \u0026 Liebestod 0:04\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are off-air audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings or streamed transmissions. We have greatly enjoyed these performances over the years - all of which were at least four years old at the time of posting - and just wish to share them with other music lovers for the pleasure of listening to the LSO in live performances. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 97,
+      "Position": 98,
       "PublishedAtRaw": "2024-10-30T22:36:03Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:36:03+00:00",
       "PublishedAt": "2024-10-31T04:06:03+05:30",
@@ -5063,7 +5118,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-12-29T10:53:46+00:00",
       "VideoPublishedAt": "2018-12-29T16:23:46+05:30"
     },
-    "ETag": "BHpv0pPelW0v1sNmiiNGjR_xvZ4",
+    "ETag": "fj5Z5wQcrFEjwwcJqQgnNbq-r0Y",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wQUE0QzM4MkJGQ0YwQjUx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5071,7 +5126,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 98,
+      "Position": 99,
       "PublishedAtRaw": "2025-08-16T08:29:59Z",
       "PublishedAtDateTimeOffset": "2025-08-16T08:29:59+00:00",
       "PublishedAt": "2025-08-16T13:59:59+05:30",
@@ -5118,7 +5173,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-05-24T15:32:51+00:00",
       "VideoPublishedAt": "2020-05-24T21:02:51+05:30"
     },
-    "ETag": "bs3I2bHtywCIvezGVTZFM6Rrg1Q",
+    "ETag": "emnTE-Yi_pxb9_X3UibnmYgnR7E",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5DMkU4NTY1QUFGQTYwMDE3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5126,7 +5181,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Schumann\u0027s second symphony, in this performance by Sir Simon Rattle and the LSO at the Barbican from June 2014.\n\n1. Sostenuto assai, allegro ma non troppo 0:00\n2. Scherzo: allegro vivace 12:07\n3. Adagio espressivo 19:33\n4. Allegro molto vivace 29:47\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 99,
+      "Position": 100,
       "PublishedAtRaw": "2024-10-30T22:47:34Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:47:34+00:00",
       "PublishedAt": "2024-10-31T04:17:34+05:30",
@@ -5163,7 +5218,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-05-02T05:58:34+00:00",
       "VideoPublishedAt": "2019-05-02T11:28:34+05:30"
     },
-    "ETag": "MSzkXcpUrsAwYbPRYh8TDNDX2fk",
+    "ETag": "ecAM1VNfjl-KWUWdg94X85-Jpl4",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi45RjNFMDhGQ0Q2RkFCQTc1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5171,7 +5226,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Robin Holloway: Seascape \u0026 Harvest [Simon Rattle-City of Birmingham Symphony Orchestra] First Performance. recorded specially for radio broadcast.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 100,
+      "Position": 101,
       "PublishedAtRaw": "2024-10-30T22:49:11Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:49:11+00:00",
       "PublishedAt": "2024-10-31T04:19:11+05:30",
@@ -5218,7 +5273,7 @@
       "VideoPublishedAtDateTimeOffset": "2015-05-02T14:43:47+00:00",
       "VideoPublishedAt": "2015-05-02T20:13:47+05:30"
     },
-    "ETag": "8r94IU8Kq9iNVFTIaVRlp_p0-eE",
+    "ETag": "cnrNMzj6AIi7qKszJTWpZYrkrfo",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4yMDhBMkNBNjRDMjQxQTg1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5226,7 +5281,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Kaija Saariaho on her work \u0022Asteroid 4179: Toutatis\u0022 (2005):\n\n\u0022I first became interested in Toutatis when reading that it is the asteroid whose orbit passes closest to Earth. \n\nWhen reading more and then seeing pictures of it, I started to find its unusual shape and complex rotation interesting - different areas of it rotate at different speeds. One consequence of this is that Toutatis does not have a fixed north pole like the Earth; instead, its north pole wanders along a curved path on the surface roughly every 5.4 days. The stars viewed from Toutatis wouldn\u0027t repeatedly follow circular paths, but would crisscross the sky, never following the same path twice. \n\nSo Toutatis doesn\u0027t have anything you could call a \u0027day\u0027. Its rotation is the result of two different types of motion with periods of 5.4 and 7.3 Earth days that combine in such a way that Toutatis\u0027 orientation with respect to the solar system never repeats. \n\nAll these peculiarities, and the fact that Toutatis already has had many collisions with other heavenly objects, inspired me to write this small work to complete the project that Simon Rattle and the Berlin Philharmonic Orchestra created around The Planets of Holst.\u0022 \n\n******\n\nIf you like this video subscribe to my channel. There are many more videos like this one lovingly prepared and edited by myself for your enjoyment! Check out my extensive playlist collections as well.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 101,
+      "Position": 102,
       "PublishedAtRaw": "2024-10-30T22:42:16Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:42:16+00:00",
       "PublishedAt": "2024-10-31T04:12:16+05:30",
@@ -5263,7 +5318,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-12T09:00:30+00:00",
       "VideoPublishedAt": "2021-10-12T14:30:30+05:30"
     },
-    "ETag": "tKyNF5-Js5CkWoJXhAsJCuuN2Ps",
+    "ETag": "BiPa8FBuigcctiPlfH0spGmZUWc",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5ENjI1QUI0MDI5NEQzODFE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5271,7 +5326,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "2021 BMW Classics - Sir Simon Rattle and the London Symphony Orchestra take to the giant open-air stage at London Trafalgar Square, joined by teenage violin prodigy Leia Zhu, guest soloist for Saint-Sa\u00EBns\u2019 great showpiece, Introduction and Rondo capriccioso on Sunday 15 August 2021\n\nSir Simon Rattle: conductor\nLeia Zhu: violin \nLondon Symphony Orchestra\n\nRead more info about the concert https://lso.co.uk/whats-on/alwaysplaying/read/1682-bmw-classics-leia-zhu-on-saint-saens-and-performing-with-the-lso-for-the-first-time.html \n\nConcert review: \n\u0027Aged 14, with a poise and musical intelligence beyond her years, she is making that difficult transition from prodigy to star with apparent ease.\u0027  - The Observer\nhttps://www.theguardian.com/music/2021/aug/21/london-symphony-orchestra-lso-simon-rattle-trafalgar-square-vikingur-olafsson-prom-philharmonia-paavo-jarvi-waterperry-opera-festival \n\n\uD83D\uDCDA Check out my book! https://linktr.ee/leiazhu \u2728\n\n-- Let\u0027s Stay Connected! --\nInstagram: https://www.instagram.com/leiazhu/\nFacebook: https://www.facebook.com/zhuleia/\nTikTok: https://www.tiktok.com/@leiazhu\nTwitter: https://twitter.com/leia_zhu\nWebsite:http://www.leiazhu.info\nSnapchat: https://www.snapchat.com/add/leia.zhu\nLinkedin: https://www.linkedin.com/in/leia-zhu-1b459517a\nTickets and more info: https://linktr.ee/leiazhu",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 102,
+      "Position": 103,
       "PublishedAtRaw": "2024-11-04T19:17:12Z",
       "PublishedAtDateTimeOffset": "2024-11-04T19:17:12+00:00",
       "PublishedAt": "2024-11-05T00:47:12+05:30",
@@ -5318,7 +5373,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-06T22:22:26+00:00",
       "VideoPublishedAt": "2025-04-07T03:52:26+05:30"
     },
-    "ETag": "ifnWtHyCX59jtFaI5JjHDtiKU4s",
+    "ETag": "HluPcU4na5EhbUArEyDjdlRJGlI",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4zMUEyMkQwOTk0NTg4MDgw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5326,7 +5381,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Die Akademie des Symphonieorchester des Bayerischen Rundfunks unter Leitung von Sir Simon Rattle spielt die Kammersymphonie in einem Satz f\u00FCr sieben Bl\u00E4ser, elf Streicher, Harfe, Celesta, Harmonium, Klavier, Pauke und Schlagwerk von Franz Schreker. Die Aufnahme des Sonderkonzerts vom 2. November 2024 ist eine Produktion von BR-KLASSIK. Das bei der Aufnahme verwendete Notenmaterial ist Leihmaterial von (c) Universal Edition, Wien.\n\nFranz Schreker - \u0022Kammersymphonie\u0022 f\u00FCr 23 Soloinstrumente\n\nAkademie des Symphonieorchesters des Bayerischen Rundfunks\nDirigent: Sir Simon Rattle\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\u202F \n\u25BA Web:  \nhttps://www.br-klassik.de\nhttps://www.brso.de/orchesterakademie\n\u25BA Social Media: / ARD Klassik \n\nImpressum: https://www.br.de/impressum  \nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette \nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 103,
+      "Position": 104,
       "PublishedAtRaw": "2025-04-20T23:42:36Z",
       "PublishedAtDateTimeOffset": "2025-04-20T23:42:36+00:00",
       "PublishedAt": "2025-04-21T05:12:36+05:30",
@@ -5373,7 +5428,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-09-01T16:06:08+00:00",
       "VideoPublishedAt": "2024-09-01T21:36:08+05:30"
     },
-    "ETag": "htGyizp_Ogi7AqKPby4eCwZzNZg",
+    "ETag": "UQSVU-28yd_5xH-r4wm1Nk2YD50",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi41NkI0NEY2RDEwNTU3Q0M2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5381,7 +5436,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Franz Schubert \nSinfonie C-Dur D 944 \u201EGro\u00DFe Sinfonie C-Dur\u201C Symphony No 9 C major The Great \nSir Simon Rattle COE\nAndante - Allegro ma non troppo \u2014 Piu Moto 0:00\nAndante con moto in A minor 13:28\nScherzo. Allegro vivace  Trio in C major/A major 29:30\nFinale. Allegro vivace 40:00",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 104,
+      "Position": 105,
       "PublishedAtRaw": "2024-10-30T22:30:21Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:30:21+00:00",
       "PublishedAt": "2024-10-31T04:00:21+05:30",
@@ -5428,7 +5483,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-12-03T15:01:05+00:00",
       "VideoPublishedAt": "2025-12-03T20:31:05+05:30"
     },
-    "ETag": "9T-XcdblEZWiF-APxyutsbYaT7U",
+    "ETag": "pmO2fb6uScV1IVW6l4wsEa1loaE",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi41NUMwNTVERDNBRDc4REM0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5436,7 +5491,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt unter der Leitung von Sir Simon Rattle Robert Schumanns 2. Symphonie, aufgenommen am 7. November 2025 in der M\u00FCnchner Isarphilharmonie im Gasteig HP8.\n\nRobert Schumann - Symphonie Nr. 2 C-Dur, op. 61\n00:00 I. Sostenuto assai - Allegro ma non troppo   \n12:07 II. Scherzo. Allegro vivace   \n19:34 III. Adagio espressivo   \n29:33 IV. Allegro molto vivace \n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Sir Simon Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web:  https://www.br-klassik.de/ \n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum  \nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette \nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 105,
+      "Position": 106,
       "PublishedAtRaw": "2025-12-03T20:56:50Z",
       "PublishedAtDateTimeOffset": "2025-12-03T20:56:50+00:00",
       "PublishedAt": "2025-12-04T02:26:50+05:30",
@@ -5483,7 +5538,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-12-13T22:13:03+00:00",
       "VideoPublishedAt": "2023-12-14T03:43:03+05:30"
     },
-    "ETag": "gVICzYaS5G88Fqzznw50YU3Sgdw",
+    "ETag": "eIMpnzD4tjRzM8seuDskVWAyE0Y",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4zRjM0MkVCRTg0MkYyQTM0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5491,7 +5546,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "This is part of a concert given in the Town Hall, Birmingham on 2 April 1981 by the CBSO conducted by a young Simon Rattle\n\nCity of Birmingham Symphony Orchestra \nconducted by\nSimon Rattle\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_fourfm/1981-04-02#at-20.45\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 106,
+      "Position": 107,
       "PublishedAtRaw": "2024-10-30T22:44:08Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:44:08+00:00",
       "PublishedAt": "2024-10-31T04:14:08+05:30",
@@ -5538,7 +5593,7 @@
       "VideoPublishedAtDateTimeOffset": "2013-08-09T14:40:05+00:00",
       "VideoPublishedAt": "2013-08-09T20:10:05+05:30"
     },
-    "ETag": "hi8X4yYDIoclk_IQmB0VLXP5dok",
+    "ETag": "NXk5FaM5drNYEfTB6ZHXkhBQAvI",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5DNkMwRUI2MkI4QkI4NDFG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5546,7 +5601,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Robert Schumann: Symphony No.4 in D minor, Op.120 (1841 version)\n\nI. Andante con moto - Allegro di molto (00:00)\nII. Romanza: Andante (08:13) \nIII. Scherzo: Presto (12:26) \nIV. Largo - Finale: Allegro vivace (18:16)\n\nOrchestra of the Age of Enlightenment\nSimon Rattle, conductor\n\nDecember 7, 2003\nGrote Zaal, Concertgebouw, Amsterdam",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 107,
+      "Position": 108,
       "PublishedAtRaw": "2024-10-30T22:51:54Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:51:54+00:00",
       "PublishedAt": "2024-10-31T04:21:54+05:30",
@@ -5588,7 +5643,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-11-20T19:37:43+00:00",
       "VideoPublishedAt": "2024-11-21T01:07:43+05:30"
     },
-    "ETag": "5_gb7BDBSyWej8Bzdv0zdm7MsY8",
+    "ETag": "ldAQJShSoDJfevLJu1OFiJdf-30",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wMDFGNzBEOTU4Q0Y1Q0RG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5596,7 +5651,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "20241116 BRSO with Simon Rattle \u0026 Seong-Jin Cho\nBenefit concert in favor of SZ Gute Werke e. V.\nIsarphilharmonie, Munich\n\nPianist: Seong-Jin Cho\nBavarian Radio Symphony Orchestra (BRSO)\nConductor : Sir Simon Rattle \n\n* PROGRAM \nBrahms Piano Concerto No. 2 in B-flat Major, Op. 83\n00:01   I. Allegro non troppo\n17:52  II. Allegro appassionato\n26:56 III. Andante \n38:36 IV. Allegretto grazioso\n\n48:13 Schumann Waldszenen, Op. 82 : Einsame Blumen (Encore)\n\n\uD83D\uDCF7: Stephan Rumpf, Instagram of brsorchestra\n\n* Broadcasted live online streaming from br-klassik.de on 16 Nov 2024\n* You can access it at the following link from approx. timestamp 06:43 for 7 days.\nhttps://www.br-klassik.de/programm/radio/ausstrahlung-3609510.html",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 108,
+      "Position": 109,
       "PublishedAtRaw": "2025-07-07T22:46:10Z",
       "PublishedAtDateTimeOffset": "2025-07-07T22:46:10+00:00",
       "PublishedAt": "2025-07-08T04:16:10+05:30",
@@ -5643,7 +5698,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-12-04T11:50:48+00:00",
       "VideoPublishedAt": "2024-12-04T17:20:48+05:30"
     },
-    "ETag": "z18uJIQh-t6U8GeVS-BnUOUEvCc",
+    "ETag": "LgWYuCv5SLPKWirFpB-uaJydl0I",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5CQkEwRDA0MDkwNUM2MDY1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5651,7 +5706,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Piano - Seong-Jin Cho\nConductor - Sir Simon Rattle\nSymphonieorchester des Bayerischen Rundfunks (BRSO)\n\nBrahms : Piano Concerto No.2 in B flat major, Op.83\n00:00 i. Allegro non troppo \n18:05 ii. Allegro appasionata \n27:21 iii. Andante\n39:01 iv. Allegretto grazioso\n\n48:22 Encore : Schumann Waldszenen Op.82 No.3 \u0027Einsame Blumen\u0027 (Lonely Flowers)\n\n\nBrahms composed this concerto two decades after the disastrous premier of his Piano Concerto No.1, his first orchestral work to be performed in public.\n\nHe casts the Piano Concerto No.2 in four movements rather than the traditional three, adding a dramatic 2nd movt scherzo. Brahms delights in devising imaginative interactions between the soloist and orchestra. The main theme was introduced by the solo horn and traded back and forth with the pianist. Almost immediately, the pianist launches into a solo cadenza at the beginning. In the 3rd movt, there was a beautiful cello solo with the piano playing an accompaniment role before it ends with a brilliant rondo finale.\n\n\n\n\u2022 Recorded live at Isarphilharmonie from BR Klassiks on Nov16, 2024.\n\u2022 A benefit concert for the underprivileged children, in favor of SZ Gute Werke eV, M\u00FCnchen.\n\n\nhttps://www.koreaherald.com/article/10011219\n\n\nPhotos : \nseongjinchoofficial, brsorchestra \nLotte Concert Hall - Brahms 2\n\n\n\n#\uC870\uC131\uC9C4 #seongjincho #brahmsconcerto2 #brsorchestra #simonrattle",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 109,
+      "Position": 110,
       "PublishedAtRaw": "2025-02-12T02:20:30Z",
       "PublishedAtDateTimeOffset": "2025-02-12T02:20:30+00:00",
       "PublishedAt": "2025-02-12T07:50:30+05:30",
@@ -5688,12 +5743,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "DiVgSwJd3Oo",
+      "VideoPublishedAtRaw": "2026-07-11T09:10:07Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-11T09:10:07+00:00",
+      "VideoPublishedAt": "2026-07-11T14:40:07+05:30"
+    },
+    "ETag": "jdThpR2YJBtvexv4zo-rtCt-mWI",
+    "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40QTY5NjQzQkQzMjgwNjhD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This performance was given during the 1997 BBC Proms Season on 11 September 1997 in the Royal Albert Hall, London. I\u0027m afraid this is the only part of this concert I have, I do not have the the encore which Maxim Vengerov played, nor Mahler 5 from the 2nd half of the concert (which was an annoying case of either the tape was too short or the performance too long!). Apologies for that.\n\nMaxim Vengerov (violin)\n\nCity of Birmingham Symphony Orchestra\nconducted by\nSimon Rattle\n\nFor more details see:\nhttps://www.bbc.co.uk/events/embd4f\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
+      "Position": 111,
+      "PublishedAtRaw": "2026-07-12T03:56:43Z",
+      "PublishedAtDateTimeOffset": "2026-07-12T03:56:43+00:00",
+      "PublishedAt": "2026-07-12T09:26:43+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DiVgSwJd3Oo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Shostakovich Violin Concerto No. 1 - Maxim Vengerov - CBSO - Simon Rattle (RAH, 1997)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "BPIjVgC7-ps",
       "VideoPublishedAtRaw": "2025-11-28T13:00:26Z",
       "VideoPublishedAtDateTimeOffset": "2025-11-28T13:00:26+00:00",
       "VideoPublishedAt": "2025-11-28T18:30:26+05:30"
     },
-    "ETag": "pY3HzhxIH-VGsWzRplR15CkL6CQ",
+    "ETag": "WTklQh9Fr1hEK0V6LKjMuOPPYFk",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5EQTdFNDU3M0Y3MTM1QjlG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5701,7 +5811,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Fourth Symphony by Russian composer Dmitri Shostakovich is both a memorial to the brutal Stalin era and a self-portrait. In this video, Maestro Sir Simon Rattle and the musicians of the London Symphony Orchestra perform the work with the utmost attention to detail. The concert took place on February 29, 2024 at the Barbican Centre in London.\n\n(00:00) I. Allegretto, poco moderato \u2013 Presto \u2013 Tempo uno\n(28:14) II. Moderato, con moto\n(37:28) III. Largo \u2013 Allegro\n\nDmitri Shostakovich\u0027s Fourth Symphony holds a special place in his oeuvre. It followed the huge success of his First Symphony, which he wrote in 1925 when he was only 19, and which brought him global recognition, and the more conformist, decorative Second and Third Symphonies (titled respectively \u0022To October\u0022 and \u0022First of May\u0022). For his Fourth Symphony, the 28-year-old composer set about creating a mature work, aiming for it to be in the spirit of his great predecessors Beethoven and, above all, Mahler. \u0022This will be a monumental work of great ideas and great passions,\u0022 the composer confidently stated in a 1935 interview in \u0022Pravda,\u0022 the official newspaper of the Communist Party of the Soviet Union.\n\nHe completed the symphony in 1936, at the age of 29. Its premiere, scheduled for December 30, was eagerly anticipated both within the Soviet Union and abroad, as Shostakovich was by then an internationally acclaimed composer. Fritz Stiedry was set to conduct the Leningrad Philharmonic, and Otto Klemperer had already secured the rights for the German premiere, planned for January 1, 1937.\n\nHowever, the premiere never took place. Only weeks before the scheduled performance, Shostakovich abruptly withdrew the symphony. Officially, he offered vague doubts about the work\u2019s artistic quality, but the real reason was far more perilous: in the tense political climate of 1936, the symphony\u2019s fiercely modernist style and uncompromising tone exposed him to serious danger. Earlier that year, he had already been targeted in a vicious public campaign after Stalin attended \u2014 and disliked \u2014 a performance of his opera \u0022Lady Macbeth of Mtsensk.\u0022 He reportedly called it \u0022silly stuff, not music.\u0022 Soon afterward, \u0022Pravda\u0022 denounced the work and Shostakovich suddenly found himself out of favor.\n\nMeanwhile, the broader atmosphere in the Soviet Union had grown increasingly dark and threatening. The country stood on the brink of the Great Terror. Between 1937 and 1938, the NKVD arrested an estimated 1.7 million people, and more than 700,000 were executed, among them many leading artists and intellectuals. It was a time when Shostakovich himself lived in constant fear, expecting arrest at any moment. He was said to carry a small suitcase with him containing everything he would need for his first few days in prison.  \n\nIt was not until 1961 that the Fourth Symphony finally premiered in Moscow, where it was immediately recognized as a powerful documentation of the repression of the Stalinist regime. The funeral march that begins the third and final movement was perceived as a requiem for the victims \u2014 who included numerous friends and some of his family members, including his brother-in-law and his mother-in-law, astronomer Sofya Varsar. \n \n\u0022Art is the cry of distress uttered by those who experience at first hand the fate of mankind.\u0022 \u2013 this statement by Arnold Schoenberg applies to Shostakovich and his Fourth Symphony.\n\n\u00A9 2024 C Major Entertainment\n\nWatch more concerts in your personal concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nAnd check out more symphonies here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#symphony #shostakovich #russianmusic",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 110,
+      "Position": 112,
       "PublishedAtRaw": "2026-05-07T16:44:49Z",
       "PublishedAtDateTimeOffset": "2026-05-07T16:44:49+00:00",
       "PublishedAt": "2026-05-07T22:14:49+05:30",
@@ -5748,7 +5858,7 @@
       "VideoPublishedAtDateTimeOffset": "2013-08-11T03:57:18+00:00",
       "VideoPublishedAt": "2013-08-11T09:27:18+05:30"
     },
-    "ETag": "yppBeqTv3nRBIrVW-TCU3elRnqc",
+    "ETag": "n5WYvKJZ11bISXpGZn1R8qwDbdU",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi45NkVENTkxRDdCQUFBMDY4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5756,7 +5866,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitri Shostakovich: Violin Concerto No.1 in A minor, Op.77\n\nI. Nocturne (00:00)\nII. Scherzo (12:23)\nIII. Passacaglia (19:16)\nIV. Burlesque (33:25)\n\nMaxim Vengerov, violin\n\nCity of Birmingham Symphony Orchestra\nSimon Rattle, conductor\n\nSeptember 11, 1997\nRoyal Albert Hall, London",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 111,
+      "Position": 113,
       "PublishedAtRaw": "2024-10-30T22:51:49Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:51:49+00:00",
       "PublishedAt": "2024-10-31T04:21:49+05:30",
@@ -5798,7 +5908,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-11-08T07:15:08+00:00",
       "VideoPublishedAt": "2019-11-08T12:45:08+05:30"
     },
-    "ETag": "hRJZgqrxk4Y3-9xy-QxvWsOOfuE",
+    "ETag": "4c2cqgolpZnOu1GXf36N-TX7TQc",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4yM0EyQ0U1M0I2RkIwNTQ0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5806,7 +5916,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "J. Sibelius   Symphony No.5 in E-flat major, Op.82\n\nI.   Molto moderato - Allegro moderato ( 0:00 - )\nII.  Andanto mosso, quasi allegretto ( 13:14 - )\nIII. Allegro molto ( 21:44 - )\n\n ( Live recording,  Sep 3, 1983 )\n\n\n*. source : pandora\u0027s box cd-r ( modified )\n*.  s. rattle       the city of Birmingham symphony orchestra\n\n\n\n\n\n\n Hello!  Thank you for visiting my channel.  : )\n\n  With few exceptions,  the original sound recordings of the album as you can see in the video have been modified in a way that is, I think, easier on ears.  Certainly rarity was not the only factor in selecting and posting these inspiring performances.  I hope you too enjoy them! : )",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 112,
+      "Position": 114,
       "PublishedAtRaw": "2025-08-23T10:53:40Z",
       "PublishedAtDateTimeOffset": "2025-08-23T10:53:40+00:00",
       "PublishedAt": "2025-08-23T16:23:40+05:30",
@@ -5853,7 +5963,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-10-16T08:00:15+00:00",
       "VideoPublishedAt": "2022-10-16T13:30:15+05:30"
     },
-    "ETag": "24KqZReDt1atbjom0pYgfizPtsM",
+    "ETag": "5rp1l3ANgby0XxOnuO-ZFjGaQUI",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40NzZCMERDMjVEN0RFRThB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5861,7 +5971,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle conducts Sibelius\u0027s Tapiola, recorded live in concert at the Barbican in London on 18 September 2022.\n\nSir Simon Rattle: conductor\nLondon Symphony Orchestra\n\nThe full concert also included Sibelius\u0027 Oceanides and Bruckner\u0027s Seventh Symphony, and is available to subscribers to Symphony.live from Saturday 22 October 2022: https://landing.symphony.live/en/orchestras/london-symphony-orchestra\n------------------------------------------------------------------------------------------------\nYou can watch excerpts of our season on demand on this playlist: https://www.youtube.com/playlist?list=PLTjZ3o6K-BOmsqpAF8jVEDjd7dQOjfjPc\n#lso2022 #YouTubeSundays\n------------------------------------------------------------------------------------------------\nSubscribe to the LSO\u0027s channel: http://bit.ly/LSOsubscribe\n\nSubscribe to LSO newsletter: https://smarturl.it/lsonewsletter\n\nFollow the LSO on:\n\nInstagram: https://www.instagram.com/londonsymphonyorchestra\nFacebook: https://www.facebook.com/londonsymphonyorchestra\nTwitter: https://twitter.com/londonsymphony\nWebsite: https://lso.co.uk/\nApple Music: http://geni.us/yH0sXY\nSpotify: http://spoti.fi/291cCk0",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 113,
+      "Position": 115,
       "PublishedAtRaw": "2024-10-30T22:35:43Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:35:43+00:00",
       "PublishedAt": "2024-10-31T04:05:43+05:30",
@@ -5908,7 +6018,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-08-17T07:20:36+00:00",
       "VideoPublishedAt": "2022-08-17T12:50:36+05:30"
     },
-    "ETag": "Xjn879iLySsRR6cphpU0RWOzhEM",
+    "ETag": "qjI7gCq2XOM7bLb0zNmj6g8p4ZQ",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi45NzUwQkI1M0UxNThBMkU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5916,7 +6026,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Beethoven\u3000Symphony No. 6 in F major, \u0022Pastral\u0022 Op.68\nJohann Strauss II\u3000Eljen a Magyar, Op.332 - Polka schnell -\n\nWiener Philharmoniker\nSimon Rattle\nSeptember 6, 1999\u3000Royal Albert Hall (London)",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 114,
+      "Position": 116,
       "PublishedAtRaw": "2024-10-30T22:45:20Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:45:20+00:00",
       "PublishedAt": "2024-10-31T04:15:20+05:30",
@@ -5963,7 +6073,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-12-18T10:04:15+00:00",
       "VideoPublishedAt": "2024-12-18T15:34:15+05:30"
     },
-    "ETag": "cW97bScJkGSgFias6fv5nbd4PIA",
+    "ETag": "n6cAeaI7SzmkKiKX89IwMysNzQk",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5CMUM0NzY5NzdEQzlGRjAx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -5971,7 +6081,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Berlin Philharmonic Orch. cond. by Simon Rattle\n1 - Allegro Moderato - 0:00\n2 - Adagio - 22:58\n3 - Scherzo - 47:09\n4 - Finale - 57:35\nrec. 2 September 2006, Royal Albert Hall, London",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 115,
+      "Position": 117,
       "PublishedAtRaw": "2025-08-16T08:27:25Z",
       "PublishedAtDateTimeOffset": "2025-08-16T08:27:25+00:00",
       "PublishedAt": "2025-08-16T13:57:25+05:30",
@@ -6013,7 +6123,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-02-23T06:19:28+00:00",
       "VideoPublishedAt": "2025-02-23T11:49:28+05:30"
     },
-    "ETag": "BSiRlcJfQm-5QMFRzwzuGI-8jGA",
+    "ETag": "AObAIYqh9Ulxnd_jfAQ2E5GECdM",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi42RTNCOEMxREI3Q0VDMjU2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6021,7 +6131,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Vienna Philharmonic Orch. cond by Simon Rattle\nrec, 16 December 2007, Musikferein Saal, Wien\nlive recording",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 116,
+      "Position": 118,
       "PublishedAtRaw": "2025-04-20T23:49:18Z",
       "PublishedAtDateTimeOffset": "2025-04-20T23:49:18+00:00",
       "PublishedAt": "2025-04-21T05:19:18+05:30",
@@ -6063,7 +6173,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-06-12T16:46:20+00:00",
       "VideoPublishedAt": "2017-06-12T22:16:20+05:30"
     },
-    "ETag": "05D4Xoph-YUy7mzWshdfsdiXIgs",
+    "ETag": "VPeEiTE0zvt1B798Mm-STsV3M6U",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5CQzUwREI3MzkxQjdBM0E0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6071,7 +6181,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Final round of the 1987 Leeds International Piano Competition. Vladimir Ovchinnikov, First Prize\nCity of Birmingham Symphony Orchestra\nSimon Rattle (Conductor)",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 117,
+      "Position": 119,
       "PublishedAtRaw": "2025-10-14T01:30:35Z",
       "PublishedAtDateTimeOffset": "2025-10-14T01:30:35+00:00",
       "PublishedAt": "2025-10-14T07:00:35+05:30",
@@ -6108,7 +6218,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-07-31T21:24:10+00:00",
       "VideoPublishedAt": "2023-08-01T02:54:10+05:30"
     },
-    "ETag": "Io-LjJ5w_SXkXVf-Sh-Jtnm7Dek",
+    "ETag": "SWPsCrEAzhT0QwRNvOglVGzB6jU",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi41MzJCQjBCNDIyRkJDN0VD",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6116,7 +6226,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle - Bavarian Radio Symphony Orchestra - Korngold - The Adventures of Robin Hood\nMunic Odeonsplatz 2022",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 118,
+      "Position": 120,
       "PublishedAtRaw": "2024-10-30T22:34:25Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:34:25+00:00",
       "PublishedAt": "2024-10-31T04:04:25+05:30",
@@ -6163,7 +6273,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-10-29T01:56:37+00:00",
       "VideoPublishedAt": "2018-10-29T07:26:37+05:30"
     },
-    "ETag": "bwcr0Qo-hGW-R0XU9GE-UzDkPTo",
+    "ETag": "4citsKTst0Ukvy2U5sdgR4jQa6k",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi43ODA2MDVCQzY5QzZDMjUw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6171,7 +6281,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle conducts the Australian World Orchestra, Bruckner Symphony No.8 at the Sydney Opera House, 2015.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 119,
+      "Position": 121,
       "PublishedAtRaw": "2025-10-14T01:30:18Z",
       "PublishedAtDateTimeOffset": "2025-10-14T01:30:18+00:00",
       "PublishedAt": "2025-10-14T07:00:18+05:30",
@@ -6213,7 +6323,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-08-15T20:59:02+00:00",
       "VideoPublishedAt": "2019-08-16T02:29:02+05:30"
     },
-    "ETag": "oUDHkOxWG5RRCrfZrFN8IJIWE2s",
+    "ETag": "xHn9_hHOZPO2-hAO0tg6rGzqTh0",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi41QUZGQTY5OTE4QTREQUU4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6221,7 +6331,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Hans Abrahamsen: Double Concerto for violin, piano and string orchestra (2010-2011)\nConductor: Sir Simon Rattle\nViolin: Carolin Widmann\nPiano: Tanja Zapolski\nThe Royal Danish Orchstra\nRecorded live in Danish Radio House\n\nhttps://www.tanjazapolski.com\n\n#classicalmusic #simonrattle #orchestra",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 120,
+      "Position": 122,
       "PublishedAtRaw": "2024-10-30T22:48:36Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:48:36+00:00",
       "PublishedAt": "2024-10-31T04:18:36+05:30",
@@ -6268,7 +6378,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-12-15T06:10:10+00:00",
       "VideoPublishedAt": "2024-12-15T11:40:10+05:30"
     },
-    "ETag": "3u2ggH16aYG0SVJG8C9b0QP8Jas",
+    "ETag": "t83URUqRyIjHo32GOZ7LOTjBRbg",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5EQkE3RTJCQTJEQkFBQTcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6276,7 +6386,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "On Sunday, August 27th 2023, Sir Simon Rattle conducted his final UK performance as Music Director of the London Symphony Orchestra.\n\nProgramme\nFigure Humaine - Francis Poulenc 07.35\n\nInterval\n\nSymphony No 9 - Gustav Mahler 36.19\n\nBBC Singers\nLondon Symphony Orchestra\nSir Simon Rattle conductor",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 121,
+      "Position": 123,
       "PublishedAtRaw": "2025-04-20T23:51:31Z",
       "PublishedAtDateTimeOffset": "2025-04-20T23:51:31+00:00",
       "PublishedAt": "2025-04-21T05:21:31+05:30",
@@ -6313,7 +6423,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-02-13T12:00:05+00:00",
       "VideoPublishedAt": "2026-02-13T17:30:05+05:30"
     },
-    "ETag": "UL4NBfW11wwoXQ7ghjMQNf0dLeg",
+    "ETag": "f84su_9QllhTIHIW9kVlKwd6wmk",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40MzEwNkU4RUE0MjhBRjg4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6321,7 +6431,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Lucerne Festival, 2011\nAnton Bruckner\u2019s Symphony No. 9, his final and unfinished work, is often described as his \u201Cswan song.\u201D Dedicated to \u201Cdear God,\u201D the symphony stands as a deeply personal farewell, which Bruckner himself called his \u201Cfarewell to life.\u201D Written in his last years, it reflects a profoundly felt confession of faith, combining moments of solemn grandeur with passages of quiet vulnerability. \n\n\u25B7 00:00 I. Feierlich, Misterioso\n\u25B7 25:20 II. Scherzo. Bewegt, lebhaft-Trio. Schnell\n\u25B7 36:48 III. Adagio. Langsam, feierlich\n\nSubscribe to Accentus Music: https://www.youtube.com/channel/UCX3hX9q6mEAMrzzew5d3utA/\n\nSymphony No. 9 in D minor, WAB 109\nMusic composed by Anton Bruckner \nBerliner Philharmoniker\nSir Simon Rattle - Conductor \nIan Bostridge - Tenor \n\n\u00A9 2011, Accentus Music",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 122,
+      "Position": 124,
       "PublishedAtRaw": "2026-02-17T18:45:51Z",
       "PublishedAtDateTimeOffset": "2026-02-17T18:45:51+00:00",
       "PublishedAt": "2026-02-18T00:15:51+05:30",
@@ -6368,7 +6478,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-10-15T12:48:11+00:00",
       "VideoPublishedAt": "2023-10-15T18:18:11+05:30"
     },
-    "ETag": "9hvoX6bPldgrf8g7WJYB_ScNPt0",
+    "ETag": "H4oN5gG7GmgQQcfk1iEvn8W100A",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4xNjIyNEE0MDEyRDlCMjBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6376,7 +6486,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle dirigiert Brahms, Strawinsky und Haydn\n\nSir Simon Rattle kommt als designierter Chefdirigent zum Symphonieorchester des Bayerischen Rundfunks und stellt Werke vor, die im \u0022normalen\u0022 Konzertbetrieb wegen ihrer kleinen Besetzungen nur sehr selten gespielt werden: Brahms\u0027 Serenade in A-Dur, Haydns Symphonie Nr. 90 und Strawinskys Symphonien f\u00FCr Blasinstrumente.\n\nGleich dreimal war Simon Rattle im vergangenen Jahr beim Symphonieorchester des Bayerischen Rundfunks zu Gast, vor allem in der Corona-Krise hat er das Symphonieorchester nach Kr\u00E4ften unterst\u00FCtzt. Nun kehrt Sir Simon als designierter Chefdirigent nach M\u00FCnchen zur\u00FCck - und die Spannung steigt! Anstelle von Mahlers Neunter Symphonie pr\u00E4sentiert Rattle ein entschlacktes Programm von deutlich hellerem Charakter.\n\nMit seinen beiden Serenaden wollte sich der junge Brahms auf symphonisches Terrain vortasten, das nicht nur f\u00FCr ihn durch den \u0022Riesen\u0022 Beethoven vorbelastet war. Nachdem Robin Ticciati Anfang Februar die erste Serenade von Brahms beim Symphonieorchester dirigiert hatte, zieht Rattle jetzt mit der zweiten nach, die mit ihrem Verzicht auf Geigen, Trompeten und Pauken den idyllischen Klang der Holzbl\u00E4ser ins Zentrum r\u00FCckt. Von seiner humorvollsten Seite zeigt sich Haydn in seiner strahlenden C-Dur-Symphonie Nummer 90, die im Finale einen echten musikalischen Gag f\u00FCrs Publikum bereith\u00E4lt, eine Art Trugschluss - f\u00FCr Haydns Witz hat der Brite Rattle bekanntlich ein besonderes Gesp\u00FCr. Als Kontrapunkt zu den heiteren Werken von Brahms und Haydn setzt Rattle ein Gedenkst\u00FCck f\u00FCr Debussy aus der Feder von Strawinsky dazwischen: Seine kurzen \u0022Bl\u00E4sersinfonien\u0022 von 1920 h\u00E4tten \u0022die Form einer strengen Zeremonie\u0022 und best\u00FCnden aus \u0022litaneiartigen Zwieges\u00E4ngen\u0022, so der Komponist. Ein Choral von gl\u00E4serner Erhabenheit beschlie\u00DFt das lakonische Werk.\n\nMITWIRKENDE\nDie Stimmen und deren Besetzung\nSymphonieorchester des Bayerischen Rundfunks \nDirigent Sir Simon Rattle\n\nPROGRAMM\nDie Werke und deren Komponisten\nJohannes Brahms Serenade Nr. 2 A-Dur op. 16\nIgor Strawinsky Symphonien f\u00FCr Blasinstrumente\nJoseph Haydn Symphonie Nr. 90 C-Dur, Hob. I:90\n\nCopyright: BR",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 123,
+      "Position": 125,
       "PublishedAtRaw": "2025-06-06T21:17:12Z",
       "PublishedAtDateTimeOffset": "2025-06-06T21:17:12+00:00",
       "PublishedAt": "2025-06-07T02:47:12+05:30",
@@ -6423,7 +6533,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-05-16T20:22:27+00:00",
       "VideoPublishedAt": "2024-05-17T01:52:27+05:30"
     },
-    "ETag": "e5Kg2LRbo9z-eTZhHUio7brMrqo",
+    "ETag": "h0-iurauzz3vUG3k_pNPUxQOyQw",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5FOTE3RTBFMjNFMDNEM0Yz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6431,7 +6541,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das Mahler Chamber Orchestra und Pultlegende Sir Simon Rattle pr\u00E4sentieren die letzten drei Sinfonien von Mozart im Gro\u00DFen Saal.\n\nMehr erfahren\u27A1\uFE0F https://www.elbphilharmonie.de/de/mediathek/sir-simon-rattle-dirigiert-mozart/974\n\n// *PROGRAMM*\n\n00:00 Intro\n\n02:10 Wolfgang Amadeus Mozart \u2013 Sinfonie Es-Dur KV 543\n\n35:45 Wolfgang Amadeus Mozart \u2013 Sinfonie g-Moll KV 550\n\n1:07:09 Wolfgang Amadeus Mozart \u2013 Sinfonie C-Dur KV 551 \u00BBJupiter\u00AB\n\n// *BESETZUNG*\n\nMahler Chamber Orchestra\nSir Simon Rattle | Dirigent\n\n// *ZUM KONZERT*\n\nRepertoireklassiker in Top-Besetzung: Mit den letzten drei Sinfonien von Mozart kommen das Mahler Chamber Orchestra und der Sir Simon Rattle zur\u00FCck in den Gro\u00DFen Saal. \u00BBEs ist erstaunlich, wenn man diese drei St\u00FCcke in die Klammer eines Abends stellt\u00AB, so Sir Simon Rattle, \u00BBda dr\u00E4ngen sich extreme menschliche Emotionen auf engstem Raum. Diese Musik ist zutiefst emotional und leidenschaftlich und dunkel und gef\u00E4hrlich und fr\u00F6hlich wie keine andere, die je geschrieben wurde.\u00AB Innerhalb nur eines Jahres komponiert, sind die drei Sinfonien ein unersch\u00F6pfliches musikalisches Mysterium. \u00BBKein Auftrag, keine unmittelbare Absicht\u00AB habe Mozart zu ihrer Komposition veranlasst, sie seien vielmehr \u00BBein Appell an die Ewigkeit\u00AB, so der erste Mozart-Biograf Alfred Einstein.\n\nH\u00E4ufig als eine Trias verstanden, sind die Sinfonien Nr. 39, 40 und 41 wahre Gipfelwerke der klassischen Sinfonik, in denen der Komponist noch einmal die ganze Bandbreite seiner k\u00FCnstlerischen Mittel zeigte: Von der heiteren Es-Dur-Sinfonie \u00FCber die st\u00FCrmisch dr\u00E4ngende g-Moll-Sinfonie bis hin zum strahlenden C-Dur-Glanz der letzten Sinfonie, besser bekannt unter ihrem Beinamen \u00BBJupiter\u00AB.\n\nMit Sir Simon Rattle steht in Hamburg damit einer der gr\u00F6\u00DFten Klassik-Stars am Pult des spielfreudigen Mahler Chamber Orchestra. Bekannt f\u00FCr seine gleicherma\u00DFen konzentrierten wie leidenschaftlichen Interpretationen, sorgte der Brite auch mit seinen Mozart-Einspielungen international f\u00FCr Begeisterung.\n\n\n#ElbphilharmonieStreams #Hamburg #mozart #rattle #mco\n\n\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\nELBPHILHARMONIE HAMBURG\nIn der Elbphilharmonie verbinden sich Architektur und Musik zu einem unvergleichlichen Gesamterlebnis. 2017 er\u00F6ffnet, ist sie eines der international gefragtesten Konzerth\u00E4user und begeistert mit ihrem vielseitigen Programm, ihrer ausgezeichneten Akustik und zahlreichen Mitmach-Angeboten ein breites Publikum. Das Geb\u00E4ude, das mitten im Strom der Elbe aus einem alten Lagerhaus entstanden ist, wurde vom Schweizer Architekturb\u00FCro Herzog \u0026 de Meuron entworfen. Als Wahrzeichen der Stadt Hamburg zieht es j\u00E4hrlich Millionen Besucher aus aller Welt an. \n__\nIN KONTAKT BLEIBEN\n\uD83D\uDCF1Facebook: https://fb.me/elbphilharmoniehamburg\n\uD83D\uDCF1Twitter: https://twitter.com/elbphilharmonie\n\uD83D\uDCF1Instagram: https://www.instagram.com/elbphilharmonie\n\uD83D\uDCF1TikTok: https://www.tiktok.com/@elbphilharmoniehamburg\n\uD83D\uDD0EGoogle Arts \u0026 Culture: http://g.co/elbphilharmonie\n\uD83D\uDCDDElbphilharmonie Mediathek: https://www.elbphilharmonie.de/de/mediathek\n___\nhttps://www.elbphilharmonie.de",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 124,
+      "Position": 126,
       "PublishedAtRaw": "2026-05-31T05:17:18Z",
       "PublishedAtDateTimeOffset": "2026-05-31T05:17:18+00:00",
       "PublishedAt": "2026-05-31T10:47:18+05:30",
@@ -6478,7 +6588,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-12-17T16:18:35+00:00",
       "VideoPublishedAt": "2018-12-17T21:48:35+05:30"
     },
-    "ETag": "TcyxISp1jcbNZ4jqW45E_TGa-1g",
+    "ETag": "Y6nFz-mrXcGteeJ2H8JslvrYxPk",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi45RTgxNDRBMzUwRjQ0MDhC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6486,7 +6596,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle conducts the London Symphony Orchestra in Stravinsky\u0027s Ebony Concerto, featuring clarinetist Chris Richards, live from the Barbican Hall on Thursday 13 December 2018.\n\nThis performance was originally streamed live on YouTube. Watch the whole concert on this playlist: https://www.youtube.com/playlist?list=PLTjZ3o6K-BOl_YOGYUTZGZQ5W2LvaIiqz\n\nProgramme notes: https://lso.co.uk/images/pdf/13-12-Web.pdf\n\nProduced, directed and filmed by London Symphony Orchestra. Edited by Wash Media.",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 125,
+      "Position": 127,
       "PublishedAtRaw": "2024-10-30T22:40:43Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:40:43+00:00",
       "PublishedAt": "2024-10-31T04:10:43+05:30",
@@ -6533,7 +6643,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-10-02T15:06:52+00:00",
       "VideoPublishedAt": "2017-10-02T20:36:52+05:30"
     },
-    "ETag": "ZCELlG3h1rJ0wPWWC2n0_gSO9ZU",
+    "ETag": "BymyFGiS2kRImjWsth4i-Xhct4Y",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wNjIzRDA1OTQ2M0UyODEw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6541,7 +6651,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sir Simon Rattle conducts the London Symphony Orchestra in Stravinsky\u0027s The Rite of Spring, recorded live at the Barbican Centre on Sunday 24 September 2017.\n\nProgramme notes: https://lso.co.uk/images/pdf/21-Sep-17-Stravinsky-pages-from-This-is-Rattle-programme.pdf\n\nConcert generously supported by Reignwood\nRecommended by Classic FM\n\n----------------------------------------------------------------------------------------------------------------\nSubscribe to the LSO\u0027s channel: http://bit.ly/LSOsubscribe\n\nSubscribe to LSO newsletter: https://smarturl.it/lsonewsletter\n\nFollow the LSO on\nInstagram: https://www.instagram.com/londonsymphony\nFacebook: https://www.facebook.com/londonsymphony\nTwitter: https://twitter.com/londonsymphony\nWebsite: http://lso.co.uk \nApple Music: http://geni.us/yH0sXY\nSpotify: http://spoti.fi/291cCk0",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 126,
+      "Position": 128,
       "PublishedAtRaw": "2026-05-07T16:44:28Z",
       "PublishedAtDateTimeOffset": "2026-05-07T16:44:28+00:00",
       "PublishedAt": "2026-05-07T22:14:28+05:30",
@@ -6588,7 +6698,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-12-02T15:01:53+00:00",
       "VideoPublishedAt": "2025-12-02T20:31:53+05:30"
     },
-    "ETag": "cXd7XVaYXlBxlCaBHAkArxEJzX4",
+    "ETag": "TC1HeixNizjucmjRpmTJN4QiSrg",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wQTI4OEZFRUE0Q0Q3ODQw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6596,7 +6706,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt unter der Leitung von Sir Simon Rattle Igor Strawinskys \u0022Der Feuervogel\u0022, aufgenommen am 7. November 2025 in der M\u00FCnchner Isarphilharmonie im Gasteig HP8.\n\nIgor Strawinsky - Ballettmusik \u0022L\u0027Oiseau de feu\u0022\n00:00 Introduktion   \n02:35 Erstes Bild: Der Zaubergarten des Kaschtschej   \n04:04 Der Feuervogel erscheint, verfolgt von Iwan Zarewitsch   \n06:16 Tanz des Feuervogels   \n07:46 Iwan Zarewitsch f\u00E4ngt den Feuervogel   \n08:46 Bitten des Feuervogels   \n14:45 Die 13 verzauberten Prinzessinnen erscheinen   \n17:12 Spiel der Prinzessinnen mit den goldenen \u00C4pfeln   \n19:48 Pl\u00F6tzlich erscheint Iwan Zarewitsch   \n21:01 Reigen der Prinzessinnen   \n25:39 Tagesanbruch   \n27:07 Iwan Zarewitsch dringt in den Palast des Kaschtschej ein   \n27:11 Die schrecklichen W\u00E4chter des Kaschtschej erscheinen und nehmen Iwan Karewitsch gefangen   \n28:37 Ankunft des unsterblichen Kaschtschej   \n29:50 Dialog zwischen Kaschtschej und Iwan Zarewitsch   \n30:59 F\u00FCrsprache der Prinzessinnen   \n32:09 Der Feuervogel erscheint   \n32:43 Tanz von Kaschtschejs Gefolge, verzaubert vom Feuervogel   \n33:32 H\u00F6llentanz aller Gesch\u00F6pfe des Kaschtschej   \n38:08 Wiegenlied (Der Feuervogel)   \n41:15 Kaschtschej erwacht   \n42:18 Tod des Kaschtschej - tiefe Dunkelheit   \n43:47 Zweites Bild: Kaschtschejs Palast und seine Zauberwelt versinken - Die versteinerten Ritter kehren ins Leben zur\u00FCck    \n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Sir Simon Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web:  https://www.br-klassik.de/ \n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum  \nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette \nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 127,
+      "Position": 129,
       "PublishedAtRaw": "2025-12-03T13:48:23Z",
       "PublishedAtDateTimeOffset": "2025-12-03T13:48:23+00:00",
       "PublishedAt": "2025-12-03T19:18:23+05:30",
@@ -6643,7 +6753,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-02-28T14:15:01+00:00",
       "VideoPublishedAt": "2023-02-28T19:45:01+05:30"
     },
-    "ETag": "AUygwApbRi1aawqfcstrhrLJK1k",
+    "ETag": "0FOCUfsvA_GxGFKIPG2BBW4ZWY0",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5EODgyNjY4MzA3QzY5RTkx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6651,7 +6761,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "City of Birmingham Symphony Orchestra conducted by Simon Rattle\nhttp://5against4.com/2008/05/14/thomas-ades-these-premises-are-alarmed-concerto-conciso-asyla-world-premieres/",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 128,
+      "Position": 130,
       "PublishedAtRaw": "2025-10-14T01:40:49Z",
       "PublishedAtDateTimeOffset": "2025-10-14T01:40:49+00:00",
       "PublishedAt": "2025-10-14T07:10:49+05:30",
@@ -6698,7 +6808,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-04-18T21:00:28+00:00",
       "VideoPublishedAt": "2023-04-19T02:30:28+05:30"
     },
-    "ETag": "9Sfk-NjH89vrFQSmzaEI1gIEUUA",
+    "ETag": "9KKIkYpq_Mcu8v5GTklyZQ9geRw",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4xN0Y2QjVBOEI2MzQ5OUM5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6706,7 +6816,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mitsuko Uchida (piano), London Symphony Orchestra conducted by Simon Rattle\nhttp://5against4.com/2020/09/13/proms-2020/",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 129,
+      "Position": 131,
       "PublishedAtRaw": "2025-06-06T11:20:04Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:20:04+00:00",
       "PublishedAt": "2025-06-06T16:50:04+05:30",
@@ -6753,7 +6863,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-04-06T18:10:37+00:00",
       "VideoPublishedAt": "2025-04-06T23:40:37+05:30"
     },
-    "ETag": "uxc0-XuSa8wwzEd6JdbQbbDm-Ik",
+    "ETag": "4OQshP0_dAod1EUzwMuPfjNQ_j4",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4wRjhFM0MxMTU1MEUzQ0VB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6761,7 +6871,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Star Wars \u0022Main Title\u0022 von John Williams, gespielt vom Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Simon Rattle. Live aufgenommen im Jahr 2022 im Rahmen von Klassik am Odeonsplatz. Eine Produktion von BR-KLASSIK.\n\nJohn Williams - \u0022Star Wars\u0022 Main Title\n\nSymphonieorchester des Bayerischen Rundfunks\nDirigent: Simon Rattle\n\nStar Wars \u0022Main Title\u0022 by John Williams, performed by the Bavarian Radio Symphony Orchestra under the direction of Simon Rattle. Recorded live in 2022 as part of Klassik am Odeonsplatz. A production by BR-KLASSIK.\n\nJohn Williams - \u0022Star Wars\u0022 Main Title\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 130,
+      "Position": 132,
       "PublishedAtRaw": "2025-04-20T23:43:12Z",
       "PublishedAtDateTimeOffset": "2025-04-20T23:43:12+00:00",
       "PublishedAt": "2025-04-21T05:13:12+05:30",
@@ -6808,7 +6918,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-03-29T07:30:25+00:00",
       "VideoPublishedAt": "2021-03-29T13:00:25+05:30"
     },
-    "ETag": "7btvoOgDmcSzfLzdxEvPmwkdXCA",
+    "ETag": "I0-50NocyMKgaQ1LL6rvRJNAPYs",
     "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi4yQUE2Q0JEMTk4NTM3RTZC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -6816,7 +6926,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Date : Nov 13, 2017\nPianist : Yuja WANG\nOrchestra : Berlin Philarmonic\nDirector : Simon Rattle\nPlace : Wuhan, China\n\nEncore : https://www.youtube.com/watch?v=-uHrNMkvxvM",
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 131,
+      "Position": 133,
       "PublishedAtRaw": "2024-10-30T22:47:01Z",
       "PublishedAtDateTimeOffset": "2024-10-30T22:47:01+00:00",
       "PublishedAt": "2024-10-31T04:17:01+05:30",
@@ -6854,116 +6964,6 @@
       "Title": "Yuja WANG plays BARTOK : Piano Concerto No  2",
       "VideoOwnerChannelId": "UCfdofAoLxOl0tIof8SEbYiw",
       "VideoOwnerChannelTitle": "zest of piano"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "BYjbGNuLxW0",
-      "VideoPublishedAtRaw": "2026-07-11T12:00:14Z",
-      "VideoPublishedAtDateTimeOffset": "2026-07-11T12:00:14+00:00",
-      "VideoPublishedAt": "2026-07-11T17:30:14+05:30"
-    },
-    "ETag": "fRA4YwajxZ6lKDUiH2rgk9Ut2fM",
-    "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi5DNTU3ODQ4ODAzMjFERTI1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "For many listeners, Symphony No. 7 in E major, WAB 107 represents Anton Bruckner\u0027s finest, but many of his contemporaries dismissed it as the work of a drunkard. In 2022, the London Symphony Orchestra, conducted by Simon Rattle, performed this monumental Romantic masterpiece at London\u2019s Barbican Centre.\n\n(00:00) I. Allegro moderato\n(20:09) II. Adagio. Very solemn and very slow\n(42:09) III. Scherzo. Very fast\n(52:09) IV. Finale. Animated, but not fast\n\nBruckner\u0027s Symphony No. 7 in E major, WAB 107 marked Anton Bruckner\u0027s (1824\u20131896) breakthrough as a symphonist. Until then, the Austrian composer was known primarily as a virtuoso organist. His symphonies, particularly in Vienna, were met with harsh criticism and earned him a reputation as a \u0022Wagnerian\u0022 \u2014 a label widely used as a pejorative at the time. Bruckner deeply admired the music of Richard Wagner (1813\u20131883), whose influence can be heard in his compositions. Bruckner\u0027s profound impact on the history of music, and especially on the development of the symphony, was not fully recognized until later generations. His distinctive Romantic style continued to resonate well into the twentieth century.\n\nBruckner composed his Seventh Symphony over the course of exactly two years, from September 1881 to September 1883. He dedicated the work to King Ludwig II of Bavaria. The premiere took place in Leipzig on December 30, 1884 and, contrary to the composer\u0027s expectations, was a resounding success. Performances soon followed in other major music centers before eventually reaching America. Even in Vienna, home to Bruckner\u0027s fiercest critics, the Symphony\u2019s premiere in 1886 was greeted enthusiastically and the criticism gradually subsided.\n\nIt was actually Buckner\u0027s close association with Wagner, and the famous composer\u0027s influence, that loomed large over the Seventh Symphony. When Wagner passed away on February 13, 1883, Bruckner was in the middle of composing the symphony\u0027s second movement. Wagner\u0027s death inspired Bruckner to transform it into a musical tribute to the composer from Bayreuth he so deeply revered. Toward the end of the movement, a chorale-like elegy emerges, dominated by horns and no fewer than four Wagner tubas. Bruckner himself described it as his elegy to the \u0022Master of all Masters.\u0022 To this day, the Adagio of the Seventh Symphony is regarded as one of the most moving funeral movements in the symphonic repertoire.\n\nTaken as a whole, however, Bruckner\u0027s Seventh Symphony ultimately radiates warmth. Like all his symphonies, it is cast in four movements and filled with memorable melodies. Bruckner recounted that the opening theme came to him in a dream, played by an angel. Even without knowing that story, the beginning of the symphony is unmistakably Bruckner. Over the shimmering tremolo of the violins, a long ascending melody unfolds with remarkable beauty and emotional depth. The themes introduced in the opening movement return in the concise finale, where the symphony reaches its culmination and brings the work to a powerful conclusion. The third movement, a Scherzo, is driven by a string ostinato that lends it its unmistakable energy.\n\nUltimately, it is the combination of deeply Romantic melodies, powerful orchestral sounds, formal variety and structural coherence that has earned the Seventh Symphony its reputation as Anton Bruckner\u0027s most popular symphonic work.\n\nInteresting fact:\nDuring the Nazi era, a veritable cult grew around Bruckner. In fact, it became so pervasive that after the announcement of Adolf Hitler\u0027s death on April 30, 1945, the Adagio from Bruckner\u0027s Seventh Symphony was broadcast on German radio.\n\nText: Rita Kass\n\n\u00A9 2022 C Major Entertainment\n\nWatch more masterpieces in our concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nin our SYMPHONIES playlist: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nand in our playlist with famous works from the ROMANTIC period: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#bruckner #symphony #romanticeramusic",
-      "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 132,
-      "PublishedAtRaw": "2026-07-12T03:39:43Z",
-      "PublishedAtDateTimeOffset": "2026-07-12T03:39:43+00:00",
-      "PublishedAt": "2026-07-12T09:09:43+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "BYjbGNuLxW0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/BYjbGNuLxW0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Bruckner: Symphony No. 7 | Sir Simon Rattle \u0026 the London Symphony Orchestra",
-      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-      "VideoOwnerChannelTitle": "DW Classical Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "DiVgSwJd3Oo",
-      "VideoPublishedAtRaw": "2026-07-11T09:10:07Z",
-      "VideoPublishedAtDateTimeOffset": "2026-07-11T09:10:07+00:00",
-      "VideoPublishedAt": "2026-07-11T14:40:07+05:30"
-    },
-    "ETag": "GJE-jRXXxDZq9_Ykc4BmllsLve0",
-    "Id": "UEwxemdOQ29XdF83YXZLUTVMTDJXc3JpMG5nT251WlcyZi40QTY5NjQzQkQzMjgwNjhD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This performance was given during the 1997 BBC Proms Season on 11 September 1997 in the Royal Albert Hall, London. I\u0027m afraid this is the only part of this concert I have, I do not have the the encore which Maxim Vengerov played, nor Mahler 5 from the 2nd half of the concert (which was an annoying case of either the tape was too short or the performance too long!). Apologies for that.\n\nMaxim Vengerov (violin)\n\nCity of Birmingham Symphony Orchestra\nconducted by\nSimon Rattle\n\nFor more details see:\nhttps://www.bbc.co.uk/events/embd4f\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
-      "Position": 133,
-      "PublishedAtRaw": "2026-07-12T03:56:43Z",
-      "PublishedAtDateTimeOffset": "2026-07-12T03:56:43+00:00",
-      "PublishedAt": "2026-07-12T09:26:43+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "DiVgSwJd3Oo"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/DiVgSwJd3Oo/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Shostakovich Violin Concerto No. 1 - Maxim Vengerov - CBSO - Simon Rattle (RAH, 1997)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
     }
   }
 ]
