@@ -100,8 +100,8 @@
       "PlaylistId": "PL1zgNCoWt_7Z8hLZzo6t98-xZ1zptUY6t",
       "Title": "Simone Young",
       "ETag": "fTAxY2VKsIQV-roONHr9V5HuYZI",
-      "ReportedVideoCount": 11,
-      "LastChecked": "2026-06-24T13:23:57.7469854+00:00",
+      "ReportedVideoCount": 14,
+      "LastChecked": "2026-07-13T17:23:27.7459185+00:00",
       "LastUpdated": "2026-03-25T07:32:05.960756+00:00"
     },
     "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc": {
@@ -228,8 +228,8 @@
       "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
       "Title": "Neeme Jarvi",
       "ETag": "f6bzqyJayKMHf2mxJDyqxqopSJw",
-      "ReportedVideoCount": 25,
-      "LastChecked": "2026-06-24T13:27:34.8906741+00:00",
+      "ReportedVideoCount": 26,
+      "LastChecked": "2026-07-13T17:16:30.4551696+00:00",
       "LastUpdated": "2025-09-01T22:45:04.661476+00:00"
     },
     "PL1zgNCoWt_7ZSiF--ol6_fIl7R_YRe_hI": {
@@ -1145,8 +1145,8 @@
       "LastUpdated": "2026-06-24T18:00:43.186609+00:00"
     }
   },
-  "LastChecked": "2026-07-13T14:28:01.6731697+00:00",
-  "LastUpdated": "2026-07-13T14:28:01.6731699+00:00",
-  "AzureCharsUsed": 33271,
+  "LastChecked": "2026-07-13T17:23:29.874709+00:00",
+  "LastUpdated": "2026-07-13T17:23:29.8747094+00:00",
+  "AzureCharsUsed": 51478,
   "AzureCharsMonth": 7
 }

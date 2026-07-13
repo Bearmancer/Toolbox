@@ -18,6 +18,11 @@ public class LastFmSyncOrchestrator(LastFmService service)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.LastFm);
 
+		if (fetchAfter.HasValue)
+			Telemetry.Info("Last.fm sync starting (from {Date})", fetchAfter.Value.ToString("yyyy-MM-dd HH:mm"));
+		else
+			Telemetry.Info("Last.fm sync starting");
+
 		Directory.CreateDirectory(StateDir);
 
 		List<LastFmScrobble> existing =
@@ -36,10 +41,7 @@ public class LastFmSyncOrchestrator(LastFmService service)
 
 		if (newScrobbles.Count == 0)
 		{
-			Telemetry.Info(
-				"No new scrobbles since {Date}",
-				fetchAfter?.ToString("yyyy-MM-dd HH:mm") ?? "beginning"
-			);
+			Telemetry.Info("Last.fm sync: 0 new scrobbles, {Total} total", existing.Count);
 			return new SyncResult(0, existing.Count, null);
 		}
 
@@ -49,7 +51,7 @@ public class LastFmSyncOrchestrator(LastFmService service)
 		DateTimeOffset? lastScrobbleDate = merged.Count > 0 ? merged[0].PlayedAt : null;
 
 		Telemetry.Info(
-			"Sync complete: {New} new scrobbles, {Total} total",
+			"Last.fm sync: {New} new scrobbles, {Total} total",
 			newScrobbles.Count,
 			merged.Count
 		);

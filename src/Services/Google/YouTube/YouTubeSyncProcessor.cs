@@ -41,20 +41,19 @@ public class YouTubeSyncProcessor(
 			if (result.ShouldBreak)
 				break;
 
-			var translationSuffix =
-				result.AzureChars > 0
-					? $" \u2192 translated {result.AzureChars:N0} chars"
-					: string.Empty;
-			Telemetry.Info(
-				"Playlist \"{Title}\": {Videos} videos{TranslationSuffix}",
+			Telemetry.Debug(
+				"Playlist {Title}: {Videos} videos, {New} new",
 				snapshot.Title,
 				result.Videos,
-				translationSuffix
+				result.NewVideoCount
 			);
+			if (result.AzureChars > 0)
+				Telemetry.Debug("\u2192 translated {Chars:N0} chars", result.AzureChars);
 
 			processedSnapshots.Add(snapshot);
 			if (result.NewVideoCount > 0)
 				playlistsWithNewVideos.Add(snapshot.PlaylistId);
+			counters.UpdatedSnapshots[snapshot.PlaylistId] = snapshot;
 			counters.UpdateFrom(result);
 		}
 

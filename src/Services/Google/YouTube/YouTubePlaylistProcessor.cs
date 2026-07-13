@@ -57,7 +57,7 @@ public class YouTubePlaylistProcessor(
 						}
 					)
 					.Then(r =>
-						new(r.Videos.Count, state.Skipped, r.AzureChars, state.NewVideoCount)
+						new ProcessResult(r.Videos.Count, state.Skipped, r.AzureChars, state.NewVideoCount)
 					);
 			});
 
@@ -173,7 +173,7 @@ public class YouTubePlaylistProcessor(
 			);
 		}
 
-		return new(videos, skipped);
+		return new BuildVideoResult(videos, skipped);
 	}
 
 	private async Task<ErrorOr<MergeResult>> MergeWithSkippedCountAsync(
@@ -186,7 +186,7 @@ public class YouTubePlaylistProcessor(
 		ErrorOr<MergeCacheResult> mergeResult = await MergeCacheAsync(videos, ctx, ct);
 		return mergeResult.IsError
 			? mergeResult.FirstError
-			: new(mergeResult.Value.Videos, skipped, mergeResult.Value.NewVideoCount);
+			: new MergeResult(mergeResult.Value.Videos, skipped, mergeResult.Value.NewVideoCount);
 	}
 
 	private async Task<ErrorOr<int>> MergeAndWriteAsync(
@@ -269,7 +269,7 @@ public class YouTubePlaylistProcessor(
 			);
 		}
 
-		return new(videos, added);
+		return new MergeCacheResult(videos, added);
 	}
 
 	private static IEnumerable<string> CachedVideosSummary(List<YouTubeVideo> videos) =>
