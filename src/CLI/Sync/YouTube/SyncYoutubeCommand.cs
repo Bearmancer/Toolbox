@@ -85,6 +85,8 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 		await File.WriteAllTextAsync(htmlPath, html, ct);
 		await File.WriteAllTextAsync(dataPath, data.DataJs, ct);
 		Telemetry.Info("Dashboard regenerated");
+
+		await OciDashboardDeployer.DeployAsync(dashboardDir, ct);
 	}
 
 	public sealed class Settings : CommandSettings
