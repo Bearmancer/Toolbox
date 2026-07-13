@@ -29,16 +29,17 @@ public class LastFmSyncOrchestrator(LastFmService service)
 
 		if (fetchAfter is { } since)
 			existing.RemoveAll(sc => sc.PlayedAt >= since);
+		else if (existing.Count > 0)
+			fetchAfter = existing[0].PlayedAt;
 
 		List<LastFmScrobble> newScrobbles = await service.FetchRecentTracksAsync(
 			fetchAfter,
-			(page, count) => Telemetry.Info("Page {Page}: {Count} tracks", page, count),
 			ct
 		);
 
 		if (newScrobbles.Count == 0)
 		{
-			Telemetry.Info("No new scrobbles found.");
+			Telemetry.Info("No new scrobbles since {Date}", fetchAfter?.ToString("yyyy-MM-dd HH:mm") ?? "beginning");
 			return new SyncResult(0, existing.Count, null);
 		}
 
@@ -48,9 +49,9 @@ public class LastFmSyncOrchestrator(LastFmService service)
 		DateTimeOffset? lastScrobbleDate = merged.Count > 0 ? merged[0].PlayedAt : null;
 
 		Telemetry.Info(
-			"Sync complete. {Total} total scrobbles ({New} new)",
-			merged.Count,
-			newScrobbles.Count
+			"Sync complete: {New} new scrobbles, {Total} total",
+			newScrobbles.Count,
+			merged.Count
 		);
 
 		return new SyncResult(newScrobbles.Count, merged.Count, lastScrobbleDate);

@@ -24,7 +24,6 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 
 	public async Task<List<LastFmScrobble>> FetchRecentTracksAsync(
 		DateTimeOffset? since,
-		Action<int, int> onPage,
 		CancellationToken ct
 	)
 	{
@@ -73,8 +72,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 				batchCount++;
 			}
 
-			onPage(page, batchCount);
-			Telemetry.Debug("Page {Page}: {Count} tracks", page, batchCount);
+			Telemetry.Debug("Page {Page}/{Total}: {Count} tracks", page, totalPages, batchCount);
 
 			if (page >= totalPages)
 				hasMore = false;

@@ -40,7 +40,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			SortPassResult result = passResult.Value;
 			totalRepositioned += result.Successes;
 
-			Telemetry.Info(
+			Telemetry.Debug(
 				"YouTube.SortPlaylist pass {Pass}: {Successes} updated, {Failures} failed",
 				pass + 1,
 				result.Successes,
@@ -59,7 +59,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			if (result.Successes == 0)
 				break;
 
-			Telemetry.Info("YouTube.SortPlaylist: all {Count} updates succeeded", result.Successes);
+			Telemetry.Debug("YouTube.SortPlaylist: all {Count} updates succeeded", result.Successes);
 		}
 
 		PlaylistSnapshot? finalSummary = await playlistService.GetPlaylistSummaryAsync(
@@ -111,7 +111,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			if (!keptIds.Contains(sorted[i].Id))
 				updates.Add(new PlaylistUpdate(sorted[i], i));
 
-		Telemetry.Info(
+		Telemetry.Debug(
 			"ComputeSortPlan: {Total} items, LIS={LisSize}, {Delta} need repositioning",
 			items.Count,
 			keptIds.Count,
@@ -129,7 +129,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		if (plan.Updates.Count == 0)
 			return new SortPassResult(0, 0);
 
-		Telemetry.Info("ExecuteSortPlan: updating {Count} items sequentially", plan.Updates.Count);
+		Telemetry.Debug("ExecuteSortPlan: updating {Count} items sequentially", plan.Updates.Count);
 
 		var successes = 0;
 		var failures = 0;

@@ -29,7 +29,7 @@ public class YouTubeSyncProcessor(
 	{
 		var counters = SyncCounters.FromStoredState(stored);
 
-		Telemetry.Info(
+		Telemetry.Debug(
 			"Azure Translator: {Used} chars used this month (2,000,000 free tier)",
 			counters.AzureCharsUsed
 		);
@@ -42,7 +42,7 @@ public class YouTubeSyncProcessor(
 			ct.ThrowIfCancellationRequested();
 			PlaylistSnapshot snapshot = playlistsToProcess[i];
 
-			Telemetry.Info(
+			Telemetry.Debug(
 				"[{Index}/{Total}] {Title}",
 				i + 1,
 				playlistsToProcess.Count,
@@ -116,7 +116,7 @@ public class YouTubeSyncProcessor(
 		);
 	}
 
-	private async Task SaveIncrementalStateAsync(
+	private static async Task SaveIncrementalStateAsync(
 		IReadOnlyDictionary<string, PlaylistSnapshot> updatedSnapshots,
 		PlaylistSnapshot snapshot,
 		int azureCharsUsed,
@@ -140,7 +140,7 @@ public class YouTubeSyncProcessor(
 		await YouTubeFetchState.SaveAsync(ManifestFile, state, ct);
 	}
 
-	public void ArchiveDeletedPlaylists(IReadOnlyList<PlaylistSnapshot> deletedPlaylists)
+	public static void ArchiveDeletedPlaylists(IReadOnlyList<PlaylistSnapshot> deletedPlaylists)
 	{
 		foreach (PlaylistSnapshot snapshot in deletedPlaylists)
 			ArchivePlaylist(snapshot);
@@ -230,9 +230,7 @@ public class YouTubeSyncProcessor(
 		CancellationToken ct
 	)
 	{
-		var groups = playlists
-			.GroupBy(p => Text.SanitizeFileName(p.Title))
-			.ToList();
+		var groups = playlists.GroupBy(p => Text.SanitizeFileName(p.Title)).ToList();
 
 		var duplicateGroups = groups.Where(g => g.Count() > 1).ToList();
 		if (duplicateGroups.Count == 0)
@@ -280,7 +278,7 @@ public class YouTubeSyncProcessor(
 		return [.. playlists.Except(toRemove)];
 	}
 
-	private async Task MergeProcessedVideosAsync(
+	private static async Task MergeProcessedVideosAsync(
 		PlaylistSnapshot winner,
 		List<PlaylistSnapshot> losers,
 		CancellationToken ct
@@ -294,7 +292,10 @@ public class YouTubeSyncProcessor(
 
 		foreach (PlaylistSnapshot loser in losers)
 		{
-			var loserPath = Path.Combine(ProcessedDir, $"{Text.SanitizeFileName(loser.Title)}.json");
+			var loserPath = Path.Combine(
+				ProcessedDir,
+				$"{Text.SanitizeFileName(loser.Title)}.json"
+			);
 			List<YouTubeVideo> loserVideos = await LoadProcessedVideosAsync(loserPath, ct);
 
 			var added = 0;
@@ -320,7 +321,10 @@ public class YouTubeSyncProcessor(
 		}
 	}
 
-	private static async Task<List<YouTubeVideo>> LoadProcessedVideosAsync(string path, CancellationToken ct)
+	private static async Task<List<YouTubeVideo>> LoadProcessedVideosAsync(
+		string path,
+		CancellationToken ct
+	)
 	{
 		if (!File.Exists(path))
 			return [];
@@ -329,18 +333,14 @@ public class YouTubeSyncProcessor(
 		{
 			await using FileStream stream = File.OpenRead(path);
 			return await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(
-				stream,
-				YouTubeFetchState.JsonOptions,
-				ct
-			) ?? [];
+					stream,
+					YouTubeFetchState.JsonOptions,
+					ct
+				) ?? [];
 		}
 		catch (Exception ex) when (ex is JsonException or FormatException)
 		{
-			Telemetry.Error(
-				"Invalid JSON in processed file {Path}: {Error}",
-				path,
-				ex.Message
-			);
+			Telemetry.Error("Invalid JSON in processed file {Path}: {Error}", path, ex.Message);
 			return [];
 		}
 	}

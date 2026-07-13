@@ -20,7 +20,7 @@ public static class Telemetry
 		LoggerConfiguration? config = new LoggerConfiguration()
 			.MinimumLevel.ControlledBy(LevelSwitch)
 			.Enrich.FromLogContext()
-			.WriteTo.Spectre("{Timestamp:HH:mm:ss} {Level:u4} {Message:lj}{NewLine}{Exception}");
+			.WriteTo.Spectre("{Timestamp:HH:mm:ss} [{Level:u4}] {Message:lj}{NewLine}{Exception}");
 
 		foreach (ServiceName service in Enum.GetValues<ServiceName>())
 			AddServiceLogger(config, service, $"logs/{service.ToFileSlug()}.jsonl");

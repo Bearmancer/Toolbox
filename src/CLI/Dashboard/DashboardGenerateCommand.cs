@@ -1,6 +1,6 @@
 using System.ComponentModel;
-using ErrorOr;
 using Core;
+using ErrorOr;
 using Services.Google.YouTube;
 using Spectre.Console;
 using Spectre.Console.Cli;
@@ -11,8 +11,7 @@ namespace CLI.Dashboard;
 	"Generate an HTML dashboard from locally synced YouTube playlist data. "
 		+ "Loads all playlists from the manifest and all videos from processed JSON files."
 )]
-public class DashboardGenerateCommand(DashboardService dashboardService)
-	: AsyncCommand<DashboardGenerateCommand.Settings>
+public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Settings>
 {
 	protected override async Task<int> ExecuteAsync(
 		CommandContext context,
@@ -21,7 +20,7 @@ public class DashboardGenerateCommand(DashboardService dashboardService)
 	)
 	{
 		ErrorOr<DashboardService.DashboardResult> result =
-			await dashboardService.GenerateDashboardDataAsync(ct);
+			await DashboardService.GenerateDashboardDataAsync(ct);
 		if (result.IsError)
 		{
 			AnsiConsole.MarkupLine($"[red]{result.FirstError.Description}[/]");
