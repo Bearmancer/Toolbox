@@ -1,22 +1,54 @@
-using System.Diagnostics;
 using Core;
+using Renci.SshNet;
 
 namespace CLI.Dashboard;
 
 public static class OciDashboardDeployer
 {
-	private static readonly string SshHost = "oci";
+	private static readonly string Host = "100.68.154.15";
+	private static readonly string User = "ubuntu";
+	private static readonly string KeyPath = Path.Combine(
+		Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+		".ssh", "oci", "id_ed25519"
+	);
 	private static readonly string RemoteTmp = "/tmp";
 	private static readonly string RemoteDest = "/opt/dashboard";
 
 	public static async Task DeployAsync(string dashboardDir, CancellationToken ct)
 	{
+		PrivateKeyFile key;
+		try
+		{
+			key = new PrivateKeyFile(KeyPath);
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Warn("OCI deploy: key not found at {Path} — {Error}", KeyPath, ex.Message);
+			return;
+		}
+
+		var auth = new PrivateKeyAuthenticationMethod(User, key);
+		var connInfo = new ConnectionInfo(Host, User, auth);
+
 		var htmlFile = Path.Combine(dashboardDir, "dashboard.html");
 		var dataFile = Path.Combine(dashboardDir, "dashboard-data.js");
 
-		if (!await RunAsync("scp", [htmlFile, dataFile, $"{SshHost}:{RemoteTmp}/"], ct))
+		try
 		{
-			Telemetry.Warn("OCI deploy: scp failed — dashboard not pushed");
+			using var sftp = new SftpClient(connInfo);
+			sftp.Connect();
+
+			await using var htmlStream = File.OpenRead(htmlFile);
+			await sftp.UploadFileAsync(htmlStream, $"{RemoteTmp}/dashboard.html", ct);
+
+			await using var dataStream = File.OpenRead(dataFile);
+			await sftp.UploadFileAsync(dataStream, $"{RemoteTmp}/dashboard-data.js", ct);
+
+			sftp.Disconnect();
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Warn("OCI deploy: SFTP upload failed — {Error}", ex.Message);
 			return;
 		}
 
@@ -25,48 +57,25 @@ public static class OciDashboardDeployer
 			+ $"&& sudo chown -R www-data:www-data {RemoteDest}/ "
 			+ $"&& rm {RemoteTmp}/dashboard.html {RemoteTmp}/dashboard-data.js";
 
-		if (!await RunAsync("ssh", [SshHost, remoteCmd], ct))
-			Telemetry.Warn("OCI deploy: ssh copy failed — files may be stale");
-		else
-			Telemetry.Info("OCI: dashboard live");
-	}
-
-	private static async Task<bool> RunAsync(string exe, string[] args, CancellationToken ct)
-	{
-		var psi = new ProcessStartInfo
-		{
-			FileName = exe,
-			RedirectStandardError = true,
-			UseShellExecute = false,
-			CreateNoWindow = true,
-		};
-
-		foreach (var arg in args)
-			psi.ArgumentList.Add(arg);
-
 		try
 		{
-			using var process =
-				Process.Start(psi)
-				?? throw new InvalidOperationException($"{exe} failed to start");
+			using var ssh = new SshClient(connInfo);
+			ssh.Connect();
+			using SshCommand cmd = ssh.RunCommand(remoteCmd);
+			ssh.Disconnect();
 
-			var stderrTask = process.StandardError.ReadToEndAsync(ct);
-			await process.WaitForExitAsync(ct);
-			var stderr = await stderrTask;
-
-			if (process.ExitCode != 0)
+			if (cmd.ExitStatus != 0)
 			{
-				if (!string.IsNullOrWhiteSpace(stderr))
-					Telemetry.Debug("{Exe} stderr: {Stderr}", exe, stderr.Trim());
-				return false;
+				Telemetry.Warn("OCI deploy: remote command failed — {Error}", cmd.Error.Trim());
+				return;
 			}
-
-			return true;
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Debug("{Exe} could not start: {Error}", exe, ex.Message);
-			return false;
+			Telemetry.Warn("OCI deploy: SSH command failed — {Error}", ex.Message);
+			return;
 		}
+
+		Telemetry.Info("OCI: dashboard live");
 	}
 }
