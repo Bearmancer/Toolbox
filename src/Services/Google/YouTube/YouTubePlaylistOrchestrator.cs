@@ -29,6 +29,8 @@ public class YouTubePlaylistOrchestrator(
 		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
 		var syncStopwatch = Stopwatch.StartNew();
 
+		Telemetry.Info("YouTube sync starting");
+
 		return await LoadStoredStateAsync(ManifestFile, ct)
 			.ThenAsync(stored => FetchSummariesAndDetectAsync(stored, ct))
 			.ThenAsync(ctx => MergePlaylistsAsync(ctx, ct))
@@ -45,12 +47,17 @@ public class YouTubePlaylistOrchestrator(
 			ct
 		);
 		ChangeDetectionResult changes = YouTubeChangeDetector.DetectChanges(current, stored);
-		syncProcessor.ArchiveDeletedPlaylists(changes.DeletedPlaylists);
+		foreach (PlaylistSnapshot deleted in changes.DeletedPlaylists)
+			Telemetry.Info("Deleted: \"{Title}\"", deleted.Title);
+		YouTubeSyncProcessor.ArchiveDeletedPlaylists(changes.DeletedPlaylists);
 		List<PlaylistSnapshot> toProcess = CombineNewAndChanged(changes);
 		return new SyncContext(stored, changes, toProcess);
 	}
 
-	private async Task<ErrorOr<SyncContext>> MergePlaylistsAsync(SyncContext ctx, CancellationToken ct)
+	private async Task<ErrorOr<SyncContext>> MergePlaylistsAsync(
+		SyncContext ctx,
+		CancellationToken ct
+	)
 	{
 		List<PlaylistSnapshot> deduplicated = await syncProcessor.MergeDuplicatePlaylistsAsync(
 			ctx.ToProcess,
@@ -73,9 +80,17 @@ public class YouTubePlaylistOrchestrator(
 		CancellationToken ct
 	)
 	{
+		Telemetry.Info(
+			"Changes: {New} new, {Changed} changed, {Deleted} deleted, {Unchanged} unchanged",
+			ctx.Changes.NewPlaylists.Count,
+			ctx.Changes.ChangedPlaylists.Count,
+			ctx.Changes.DeletedPlaylists.Count,
+			ctx.Changes.UnchangedPlaylists.Count
+		);
+
 		if (ctx.ToProcess.Count == 0)
 		{
-			LogNoChangesNeeded(ctx.Changes);
+			Telemetry.Info("Sync done: nothing to update");
 			return new ProcessOutcome(ctx.Stored, ctx.Changes, null);
 		}
 
@@ -90,7 +105,14 @@ public class YouTubePlaylistOrchestrator(
 	private static ErrorOr<SyncOutcome> Finalize(ProcessOutcome outcome, Stopwatch syncStopwatch)
 	{
 		if (outcome.Result is { } result)
-			LogSyncSummary(syncStopwatch.Elapsed, outcome.Changes, result);
+			Telemetry.Info(
+				"Sync done in {Elapsed:F1}s: {New} new, {Changed} changed, {Deleted} deleted | {TotalVideos} videos",
+				syncStopwatch.Elapsed.TotalSeconds,
+				outcome.Changes.NewPlaylists.Count,
+				outcome.Changes.ChangedPlaylists.Count,
+				outcome.Changes.DeletedPlaylists.Count,
+				result.TotalVideos
+			);
 
 		IReadOnlyList<string> ids = outcome.Result?.ProcessedIds ?? [];
 		IReadOnlyList<string> idsWithNewVideos = outcome.Result?.PlaylistsWithNewVideos ?? [];
@@ -242,32 +264,9 @@ public class YouTubePlaylistOrchestrator(
 	private static List<PlaylistSnapshot> CombineNewAndChanged(ChangeDetectionResult changes) =>
 		[.. changes.NewPlaylists, .. changes.ChangedPlaylists];
 
-	private static void LogNoChangesNeeded(ChangeDetectionResult changes) =>
-		Telemetry.Info(
-			"No playlists need updating — everything is current ({Unchanged} playlists unchanged, {Deleted} deleted)",
-			changes.UnchangedPlaylists.Count,
-			changes.DeletedPlaylists.Count
-		);
 
-	private static void LogSyncSummary(
-		TimeSpan elapsed,
-		ChangeDetectionResult changes,
-		YouTubeSyncProcessor.SyncResult result
-	) =>
-		Telemetry.Info(
-			"Sync complete in {Elapsed}s: {New} new, {Changed} changed, {Deleted} deleted, {Unchanged} unchanged | {TotalVideos} videos ({Skipped} skipped) | {PlaylistsProcessed}/{PlaylistsTotal} playlists",
-			elapsed.TotalSeconds,
-			changes.NewPlaylists.Count,
-			changes.ChangedPlaylists.Count,
-			changes.DeletedPlaylists.Count,
-			changes.UnchangedPlaylists.Count,
-			result.TotalVideos,
-			result.SkippedVideos,
-			result.ProcessedIds.Count,
-			changes.NewPlaylists.Count + changes.ChangedPlaylists.Count
-		);
 
-	private async Task<ErrorOr<YouTubeFetchState>> LoadStoredStateAsync(
+	private static async Task<ErrorOr<YouTubeFetchState>> LoadStoredStateAsync(
 		string path,
 		CancellationToken ct
 	)

@@ -31,7 +31,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 					- videos.Count(v =>
 						v.TranslatedTitle is null || v.TranslatedDescription is null
 					);
-				Telemetry.Info(
+				Telemetry.Debug(
 					"Translate: {Need}/{Total} videos need text completion, {Unchanged} already complete | {Chars:N0} chars ({Batches} {BatchWord})",
 					videos.Count - unchangedCount,
 					videos.Count,
@@ -130,7 +130,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 			batchIndex++;
 
 			var batchChars = batch.Sum(t => t.Text.Length);
-			Telemetry.Info(
+			Telemetry.Debug(
 				"Translate: [{Batch}/{TotalBatches}] → Azure ({Targets} fields, {Chars:N0} chars)",
 				batchIndex,
 				batches.Count,
@@ -196,7 +196,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 			", ",
 			languages.OrderByDescending(kv => kv.Value).Select(kv => $"{kv.Value} {kv.Key}")
 		);
-		Telemetry.Info(
+		Telemetry.Debug(
 			"Translate: done — {Translated} translated fields | {LangSummary} | {Chars:N0} Azure chars",
 			translatedCount,
 			langSummary,

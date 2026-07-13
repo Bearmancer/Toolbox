@@ -43,7 +43,7 @@ public static class LastFmState
 	{
 		if (!Directory.Exists(stateDir))
 			Directory.CreateDirectory(stateDir);
-			Directory.CreateDirectory(path: stateDir);
+		Directory.CreateDirectory(path: stateDir);
 
 		var path = Path.Combine(stateDir, "scrobbles.json");
 

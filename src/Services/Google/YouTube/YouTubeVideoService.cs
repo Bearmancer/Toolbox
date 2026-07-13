@@ -54,7 +54,7 @@ public class YouTubeVideoService(YouTubeService yt)
 				}
 			}
 
-			activity.Complete();
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			Telemetry.Debug("YouTube.GetVideoDurations fetched {Count} durations", result.Count);
 			return ErrorOrFactory.From(result);
 		}

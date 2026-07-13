@@ -80,7 +80,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 				page++;
 		}
 
-		activity.Complete();
+		activity.Complete(Serilog.Events.LogEventLevel.Debug);
 		Telemetry.Debug("LastFm.FetchRecentTracks returned {Count} scrobbles", scrobbles.Count);
 		return scrobbles;
 	}

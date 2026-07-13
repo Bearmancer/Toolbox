@@ -51,7 +51,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 			ct
 		);
 
-		activity.Complete();
+		activity.Complete(Serilog.Events.LogEventLevel.Debug);
 		Telemetry.Debug("YouTube.GetPlaylists returned {Count} playlists", playlists.Count);
 		return playlists;
 	}
@@ -81,7 +81,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 			ct
 		);
 
-		activity.Complete();
+		activity.Complete(Serilog.Events.LogEventLevel.Debug);
 		Telemetry.Debug(
 			"YouTube.GetPlaylistItems returned {Count} items for playlist {Id}",
 			items.Count,
@@ -122,7 +122,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 			ct
 		);
 
-		activity.Complete();
+		activity.Complete(Serilog.Events.LogEventLevel.Debug);
 		Telemetry.Debug(
 			"YouTube.GetPlaylistItemPagesRaw returned {Count} pages for {Id}",
 			pages.Count,
@@ -168,7 +168,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 			ct
 		);
 
-		activity.Complete();
+		activity.Complete(Serilog.Events.LogEventLevel.Debug);
 		return snapshots;
 	}
 
@@ -189,13 +189,13 @@ public class YouTubePlaylistService(YouTubeService yt)
 		Playlist? playlist = response.Items?.FirstOrDefault();
 		if (playlist is null)
 		{
-			activity.Complete();
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			return null;
 		}
 
 		DateTimeOffset publishedAt = ParsePublishedAt(playlistId, playlist.Snippet?.PublishedAtRaw);
 
-		activity.Complete();
+		activity.Complete(Serilog.Events.LogEventLevel.Debug);
 		return new PlaylistSnapshot
 		{
 			PlaylistId = playlist.Id!,
@@ -230,13 +230,13 @@ public class YouTubePlaylistService(YouTubeService yt)
 		try
 		{
 			await yt.Playlists.Delete(playlistId).ExecuteAsync(ct);
-			activity.Complete();
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			Telemetry.Info("Deleted playlist {Id}", playlistId);
 			return playlistId;
 		}
 		catch (Exception ex)
 		{
-			activity.Complete();
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			return Errors.YouTube.ApiError($"Failed to delete playlist {playlistId}: {ex.Message}");
 		}
 	}

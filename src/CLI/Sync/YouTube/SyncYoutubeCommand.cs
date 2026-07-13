@@ -3,7 +3,6 @@ using CLI.Dashboard;
 using Core;
 using ErrorOr;
 using Services.Google.YouTube;
-using Spectre.Console;
 using Spectre.Console.Cli;
 
 namespace CLI.Sync.YouTube;
@@ -18,7 +17,7 @@ namespace CLI.Sync.YouTube;
 		+ "The stored ETag is updated after each sync so subsequent runs skip "
 		+ "playlists that haven't changed on YouTube."
 )]
-public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator, DashboardService dashboardService)
+public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 	: AsyncCommand<SyncYoutubeCommand.Settings>
 {
 	protected override async Task<int> ExecuteAsync(
@@ -57,23 +56,20 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator, Dashbo
 		}
 		catch (Exception ex) when (ex is HttpRequestException or TimeoutException)
 		{
-			AnsiConsole.MarkupLine($"[bold red]API ERROR:[/] {ex.Message}");
+			Telemetry.Error("API error: {Error}", ex.Message);
 			return 1;
 		}
 
-		AnsiConsole.MarkupLine("[green]Sync complete.[/]");
 		return 0;
 	}
 
 	private async Task RegenerateDashboardAsync(CancellationToken ct)
 	{
 		ErrorOr<DashboardService.DashboardResult> result =
-			await dashboardService.GenerateDashboardDataAsync(ct);
+			await DashboardService.GenerateDashboardDataAsync(ct);
 		if (result.IsError)
 		{
-			AnsiConsole.MarkupLine(
-				$"[yellow]Dashboard skipped:[/] {result.FirstError.Description}"
-			);
+			Telemetry.Warn("Dashboard skipped: {Error}", result.FirstError.Description);
 			return;
 		}
 
@@ -88,7 +84,7 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator, Dashbo
 		var dataPath = Path.Combine(dashboardDir, "dashboard-data.js");
 		await File.WriteAllTextAsync(htmlPath, html, ct);
 		await File.WriteAllTextAsync(dataPath, data.DataJs, ct);
-		AnsiConsole.MarkupLine("[green]Dashboard regenerated.[/]");
+		Telemetry.Info("Dashboard regenerated");
 	}
 
 	public sealed class Settings : CommandSettings

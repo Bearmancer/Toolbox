@@ -16,15 +16,13 @@ public class DashboardService
 
 	private static readonly string ProcessedDir = Path.Combine(StateRoot, "processed");
 
-	public async Task<ErrorOr<DashboardResult>> GenerateDashboardDataAsync(
+	public static async Task<ErrorOr<DashboardResult>> GenerateDashboardDataAsync(
 		CancellationToken ct
 	)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
 
-		ErrorOr<IReadOnlyList<PlaylistSnapshot>> playlistsResult = await LoadPlaylistsAsync(
-			ct
-		);
+		ErrorOr<IReadOnlyList<PlaylistSnapshot>> playlistsResult = await LoadPlaylistsAsync(ct);
 		if (playlistsResult.IsError)
 			return playlistsResult.FirstError;
 
@@ -72,7 +70,7 @@ public class DashboardService
 			return result;
 
 		var reverseLookup = new Dictionary<string, string>();
-		foreach (var p in playlists)
+		foreach (PlaylistSnapshot p in playlists)
 			reverseLookup.TryAdd(Text.SanitizeFileName(p.Title), p.Title);
 
 		foreach (var file in Directory.GetFiles(ProcessedDir, "*.json"))

@@ -1,3 +1,4 @@
+using Core;
 using System.ComponentModel;
 using ErrorOr;
 using Services.Azure;
@@ -27,12 +28,12 @@ public class VisionCommand(VisionService service) : AsyncCommand<VisionCommand.S
 		return result.Match(
 			success =>
 			{
-				Console.WriteLine(success);
+				Telemetry.Info("{Result}", success);
 				return 0;
 			},
 			errors =>
 			{
-				Console.Error.WriteLine(errors[0].Description);
+				Telemetry.Error("{Error}", errors[0].Description);
 				return 1;
 			}
 		);

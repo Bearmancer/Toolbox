@@ -2,7 +2,6 @@ using System.ComponentModel;
 using Core;
 using ErrorOr;
 using Services.Google.YouTube;
-using Spectre.Console;
 using Spectre.Console.Cli;
 
 namespace CLI.Dashboard;
@@ -23,7 +22,7 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
 			await DashboardService.GenerateDashboardDataAsync(ct);
 		if (result.IsError)
 		{
-			AnsiConsole.MarkupLine($"[red]{result.FirstError.Description}[/]");
+			Telemetry.Error("Dashboard generation failed: {Error}", result.FirstError.Description);
 			return 1;
 		}
 
@@ -45,11 +44,11 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
 
 		var htmlSize = new FileInfo(htmlPath).Length;
 		var dataSize = new FileInfo(dataPath).Length;
-		AnsiConsole.MarkupLine(
-			$"[green]Dashboard generated:[/] {htmlPath} ({htmlSize / 1024.0:F1} KB)"
-		);
-		AnsiConsole.MarkupLine(
-			$"[green]Data file:[/]        {dataPath} ({dataSize / 1024.0:F1} KB)"
+		Telemetry.Info(
+			"Dashboard generated: {HtmlPath} ({HtmlKb:F1} KB) | data: {DataKb:F1} KB",
+			htmlPath,
+			htmlSize / 1024.0,
+			dataSize / 1024.0
 		);
 		return 0;
 	}

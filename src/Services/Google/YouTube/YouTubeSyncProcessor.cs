@@ -29,11 +29,6 @@ public class YouTubeSyncProcessor(
 	{
 		var counters = SyncCounters.FromStoredState(stored);
 
-		Telemetry.Debug(
-			"Azure Translator: {Used} chars used this month (2,000,000 free tier)",
-			counters.AzureCharsUsed
-		);
-
 		var processedSnapshots = new List<PlaylistSnapshot>();
 		var playlistsWithNewVideos = new List<string>();
 
@@ -42,16 +37,19 @@ public class YouTubeSyncProcessor(
 			ct.ThrowIfCancellationRequested();
 			PlaylistSnapshot snapshot = playlistsToProcess[i];
 
-			Telemetry.Debug(
-				"[{Index}/{Total}] {Title}",
-				i + 1,
-				playlistsToProcess.Count,
-				snapshot.Title
-			);
-
 			ProcessResult result = await ProcessSinglePlaylistAsync(snapshot, counters, ct);
 			if (result.ShouldBreak)
 				break;
+
+			var translationSuffix = result.AzureChars > 0
+				? $" \u2192 translated {result.AzureChars:N0} chars"
+				: string.Empty;
+			Telemetry.Info(
+				"Playlist \"{Title}\": {Videos} videos{TranslationSuffix}",
+				snapshot.Title,
+				result.Videos,
+				translationSuffix
+			);
 
 			processedSnapshots.Add(snapshot);
 			if (result.NewVideoCount > 0)
@@ -156,7 +154,7 @@ public class YouTubeSyncProcessor(
 			return;
 
 		File.Move(sourcePath, destPath, true);
-		Telemetry.Info("Archived deleted playlist: {Title}", snapshot.Title);
+		Telemetry.Debug("Archived deleted playlist: {Title}", snapshot.Title);
 	}
 
 	public async Task SortPlaylistsAsync(
@@ -165,7 +163,7 @@ public class YouTubeSyncProcessor(
 		CancellationToken ct
 	)
 	{
-		Telemetry.Info("Sorting {Count} playlist(s) after sync", playlistIds.Count);
+		Telemetry.Debug("Sorting {Count} playlist(s) after sync", playlistIds.Count);
 
 		var anySorted = false;
 
@@ -217,7 +215,7 @@ public class YouTubeSyncProcessor(
 		if (!string.IsNullOrEmpty(result.NewETag))
 			stored.PlaylistSnapshots[playlistId] = snapshot with { ETag = result.NewETag };
 
-		Telemetry.Info(
+		Telemetry.Debug(
 			"{Title}: {Repositioned} items repositioned",
 			snapshot.Title,
 			result.Repositioned

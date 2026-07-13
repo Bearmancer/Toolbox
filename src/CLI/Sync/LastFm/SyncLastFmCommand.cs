@@ -21,6 +21,8 @@ public class SyncLastFmCommand(LastFmSyncOrchestrator orchestrator)
 		CancellationToken ct
 	)
 	{
+		using IDisposable _ = Telemetry.ForService(ServiceName.LastFm);
+
 		DateTimeOffset? fetchAfter = null;
 		if (s.Since is { } sinceStr)
 		{
@@ -33,7 +35,11 @@ public class SyncLastFmCommand(LastFmSyncOrchestrator orchestrator)
 				return 1;
 			}
 			fetchAfter = sinceDate;
-			Telemetry.Info("Force resync from {Date}", sinceDate.ToString("yyyy-MM-dd HH:mm"));
+			Telemetry.Info("LastFm sync starting (forced from {Date})", sinceDate.ToString("yyyy-MM-dd HH:mm"));
+		}
+		else
+		{
+			Telemetry.Info("LastFm sync starting");
 		}
 
 		ErrorOr<LastFmSyncOrchestrator.SyncResult> result = await orchestrator.SyncAsync(
@@ -46,12 +52,6 @@ public class SyncLastFmCommand(LastFmSyncOrchestrator orchestrator)
 			Telemetry.Error("Sync failed: {Error}", result.FirstError.Description);
 			return 1;
 		}
-
-		if (result.Value.LastScrobbleDate is { } lastDate && fetchAfter is null)
-			Telemetry.Info(
-				"Incremental sync after {Date}",
-				lastDate.ToString("yyyy-MM-dd HH:mm")
-			);
 
 		return 0;
 	}

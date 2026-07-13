@@ -1,3 +1,4 @@
+using Core;
 using System.ComponentModel;
 using ErrorOr;
 using Services.Azure;
@@ -26,12 +27,12 @@ public class TranslateCommand(TranslateService service) : AsyncCommand<Translate
 		return result.Match(
 			results =>
 			{
-				Console.WriteLine(results[0].TranslatedText);
+				Telemetry.Info("{Result}", results[0].TranslatedText);
 				return 0;
 			},
 			errors =>
 			{
-				Console.Error.WriteLine(errors[0].Description);
+				Telemetry.Error("{Error}", errors[0].Description);
 				return 1;
 			}
 		);

@@ -308,8 +308,8 @@
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
       "Title": "Klaus Makela",
       "ETag": "knOOh1bXksCaZZSG3iLjK-BK3PY",
-      "ReportedVideoCount": 42,
-      "LastChecked": "2026-06-24T13:27:34.8906848+00:00",
+      "ReportedVideoCount": 41,
+      "LastChecked": "2026-07-13T14:27:56.9105474+00:00",
       "LastUpdated": "2025-06-24T18:43:21.812902+00:00"
     },
     "PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y": {
@@ -1145,8 +1145,8 @@
       "LastUpdated": "2026-06-24T18:00:43.186609+00:00"
     }
   },
-  "LastChecked": "2026-07-12T16:27:21.5845024+00:00",
-  "LastUpdated": "2026-07-12T16:27:21.5845026+00:00",
-  "AzureCharsUsed": 15064,
+  "LastChecked": "2026-07-13T14:28:01.6731697+00:00",
+  "LastUpdated": "2026-07-13T14:28:01.6731699+00:00",
+  "AzureCharsUsed": 33271,
   "AzureCharsMonth": 7
 }

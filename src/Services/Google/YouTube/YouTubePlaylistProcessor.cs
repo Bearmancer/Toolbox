@@ -65,7 +65,7 @@ public class YouTubePlaylistProcessor(
 			});
 
 		if (result.IsSuccess)
-			Telemetry.Info(
+			Telemetry.Debug(
 				"Done — {Count} videos, {Skipped} skipped in {Elapsed}s",
 				result.Value.Videos,
 				result.Value.Skipped,
@@ -87,7 +87,7 @@ public class YouTubePlaylistProcessor(
 			Path.Combine(ProcessedDir, $"{Text.SanitizeFileName(snapshot.Title)}.json")
 		);
 
-		Telemetry.Info(
+		Telemetry.Debug(
 			"Refreshing local state for {Title} to reflect sorted order...",
 			snapshot.Title
 		);
@@ -97,7 +97,7 @@ public class YouTubePlaylistProcessor(
 			.ThenAsync(videoCtx => MergeAndWriteAsync(videoCtx.Videos, ctx, ct));
 
 		if (result.IsSuccess)
-			Telemetry.Info(
+			Telemetry.Debug(
 				"Local state refreshed for {Title}: {Videos} videos",
 				snapshot.Title,
 				result.Value
@@ -206,7 +206,7 @@ public class YouTubePlaylistProcessor(
 		return mergeResult.Value.Videos.Count;
 	}
 
-	private async Task<ErrorOr<MergeCacheResult>> MergeCacheAsync(
+	private static async Task<ErrorOr<MergeCacheResult>> MergeCacheAsync(
 		List<YouTubeVideo> videos,
 		PlaylistProcessContext ctx,
 		CancellationToken ct
@@ -224,7 +224,7 @@ public class YouTubePlaylistProcessor(
 		{
 			var removed = existingDict.Keys.Except(incomingIds).Count();
 			var net = added - removed;
-			Telemetry.Info(
+			Telemetry.Debug(
 				"Update sync: {Added} added, {Removed} removed ({Net}), {Total} total",
 				added,
 				removed,
@@ -238,7 +238,7 @@ public class YouTubePlaylistProcessor(
 			);
 		}
 		else
-			Telemetry.Info("Fresh sync: {Count} videos", videos.Count);
+			Telemetry.Debug("Fresh sync: {Count} videos", videos.Count);
 
 		for (var i = 0; i < videos.Count; i++)
 		{
@@ -264,7 +264,7 @@ public class YouTubePlaylistProcessor(
 		if (cachedCount > 0)
 		{
 			IEnumerable<string> langGroups = CachedVideosSummary(videos);
-			Telemetry.Info(
+			Telemetry.Debug(
 				"Cache: {Count}/{Total} videos from previous run ({LangSummary})",
 				cachedCount,
 				videos.Count,
