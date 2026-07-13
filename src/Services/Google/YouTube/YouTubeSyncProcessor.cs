@@ -29,8 +29,8 @@ public class YouTubeSyncProcessor(
 	{
 		var counters = SyncCounters.FromStoredState(stored);
 
-		var processedSnapshots = new List<PlaylistSnapshot>();
-		var playlistsWithNewVideos = new List<string>();
+		List<PlaylistSnapshot> processedSnapshots = [];
+		List<string> playlistsWithNewVideos = [];
 
 		for (var i = 0; i < playlistsToProcess.Count; i++)
 		{
@@ -41,9 +41,10 @@ public class YouTubeSyncProcessor(
 			if (result.ShouldBreak)
 				break;
 
-			var translationSuffix = result.AzureChars > 0
-				? $" \u2192 translated {result.AzureChars:N0} chars"
-				: string.Empty;
+			var translationSuffix =
+				result.AzureChars > 0
+					? $" \u2192 translated {result.AzureChars:N0} chars"
+					: string.Empty;
 			Telemetry.Info(
 				"Playlist \"{Title}\": {Videos} videos{TranslationSuffix}",
 				snapshot.Title,
@@ -105,13 +106,7 @@ public class YouTubeSyncProcessor(
 			ct
 		);
 
-		return new ProcessResult(
-			result.Videos,
-			result.Skipped,
-			result.AzureChars,
-			result.NewVideoCount,
-			false
-		);
+		return new(result.Videos, result.Skipped, result.AzureChars, result.NewVideoCount, false);
 	}
 
 	private static async Task SaveIncrementalStateAsync(
@@ -122,7 +117,7 @@ public class YouTubeSyncProcessor(
 		CancellationToken ct
 	)
 	{
-		var snapshots = new Dictionary<string, PlaylistSnapshot>(updatedSnapshots)
+		Dictionary<string, PlaylistSnapshot> snapshots = new(updatedSnapshots)
 		{
 			[snapshot.PlaylistId] = snapshot,
 		};
@@ -234,7 +229,7 @@ public class YouTubeSyncProcessor(
 		if (duplicateGroups.Count == 0)
 			return playlists;
 
-		var toRemove = new List<PlaylistSnapshot>();
+		List<PlaylistSnapshot> toRemove = [];
 
 		foreach (var group in duplicateGroups)
 		{
@@ -284,7 +279,7 @@ public class YouTubeSyncProcessor(
 	{
 		var winnerPath = Path.Combine(ProcessedDir, $"{Text.SanitizeFileName(winner.Title)}.json");
 		List<YouTubeVideo> winnerVideos = await LoadProcessedVideosAsync(winnerPath, ct);
-		var videoDict = new Dictionary<string, YouTubeVideo>();
+		Dictionary<string, YouTubeVideo> videoDict = [];
 		foreach (YouTubeVideo v in winnerVideos)
 			videoDict.TryAdd(v.VideoId, v);
 
@@ -403,7 +398,7 @@ public class YouTubeSyncProcessor(
 		public static SyncCounters FromStoredState(YouTubeFetchState stored)
 		{
 			var currentMonth = DateTimeOffset.UtcNow.Month;
-			var snapshots = new Dictionary<string, PlaylistSnapshot>(stored.PlaylistSnapshots);
+			Dictionary<string, PlaylistSnapshot> snapshots = new(stored.PlaylistSnapshots);
 			return new SyncCounters(
 				snapshots,
 				currentMonth,
@@ -423,7 +418,7 @@ public class YouTubeSyncProcessor(
 			List<string> playlistsWithNewVideos
 		)
 		{
-			var updated = new Dictionary<string, PlaylistSnapshot>(processedSnapshots.Count);
+			Dictionary<string, PlaylistSnapshot> updated = new(processedSnapshots.Count);
 			foreach (PlaylistSnapshot s in processedSnapshots)
 				updated[s.PlaylistId] = s;
 

@@ -33,7 +33,7 @@ CLI/
 ## WHERE TO LOOK
 
 | Task                 | File                          | Notes                                                             |
-|----------------------|-------------------------------|-------------------------------------------------------------------|
+| -------------------- | ----------------------------- | ----------------------------------------------------------------- |
 | Add Azure subcommand | `Azure/AzureCommandModule.cs` | Register in `ConfigureCommands`, create command class             |
 | Add sync subcommand  | `Sync/SyncCommandModule.cs`   | Same pattern                                                      |
 | Command pattern      | Any `*Command.cs`             | `IRemainingArguments` → service call → `result.Match` → exit code |

@@ -31,7 +31,7 @@ public static class DashboardDataBuilder
 		Dictionary<string, IReadOnlyList<YouTubeVideo>> videosByPlaylist
 	)
 	{
-		var result = new List<object>();
+		List<object> result = [];
 		foreach (PlaylistSnapshot p in sorted)
 		{
 			if (!videosByPlaylist.TryGetValue(p.Title, out IReadOnlyList<YouTubeVideo>? videos))
@@ -85,15 +85,29 @@ public static class DashboardDataBuilder
 		sb.AppendLine("<div id=\"view-all-videos\" class=\"view\">");
 		sb.AppendLine("<h2>All Videos</h2>");
 		sb.AppendLine("<div class=\"toggle-bar\">");
-		sb.AppendLine("<input type=\"text\" class=\"per-search\" id=\"all-videos-search\" placeholder=\"Search all videos...\" oninput=\"onAllVideosSearch(this.value)\">");
+		sb.AppendLine(
+			"<input type=\"text\" class=\"per-search\" id=\"all-videos-search\" placeholder=\"Search all videos...\" oninput=\"onAllVideosSearch(this.value)\">"
+		);
 		sb.AppendLine("<div class=\"col-toggle\" id=\"all-videos-toggle\">");
-		sb.AppendLine("<button class=\"toggle-btn\" onclick=\"toggleDropdown('all-videos-cols')\">Columns &#9660;</button>");
+		sb.AppendLine(
+			"<button class=\"toggle-btn\" onclick=\"toggleDropdown('all-videos-cols')\">Columns &#9660;</button>"
+		);
 		sb.AppendLine("<div class=\"col-dropdown\" id=\"all-videos-cols\">");
-		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'title',this.checked)\"> Title</label>");
-		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'channelName',this.checked)\"> Channel</label>");
-		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'duration',this.checked)\"> Duration</label>");
-		sb.AppendLine("<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'playlistName',this.checked)\"> Playlist</label>");
-		sb.AppendLine("<label><input type=\"checkbox\" onchange=\"toggleCol(allVideoTable,'description',this.checked)\"> Description</label>");
+		sb.AppendLine(
+			"<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'title',this.checked)\"> Title</label>"
+		);
+		sb.AppendLine(
+			"<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'channelName',this.checked)\"> Channel</label>"
+		);
+		sb.AppendLine(
+			"<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'duration',this.checked)\"> Duration</label>"
+		);
+		sb.AppendLine(
+			"<label><input type=\"checkbox\" checked onchange=\"toggleCol(allVideoTable,'playlistName',this.checked)\"> Playlist</label>"
+		);
+		sb.AppendLine(
+			"<label><input type=\"checkbox\" onchange=\"toggleCol(allVideoTable,'description',this.checked)\"> Description</label>"
+		);
 		sb.AppendLine("</div></div></div>");
 		sb.AppendLine("<div id=\"all-videos-table\"></div>");
 		sb.AppendLine("</div>");

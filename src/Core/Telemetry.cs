@@ -84,7 +84,12 @@ public static class Telemetry
 			return true;
 		}
 		catch (Exception ex)
-			when (ex is SocketException or IOException or OperationCanceledException or UriFormatException)
+			when (ex
+					is SocketException
+						or IOException
+						or OperationCanceledException
+						or UriFormatException
+			)
 		{
 			return false;
 		}

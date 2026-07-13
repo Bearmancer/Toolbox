@@ -264,8 +264,6 @@ public class YouTubePlaylistOrchestrator(
 	private static List<PlaylistSnapshot> CombineNewAndChanged(ChangeDetectionResult changes) =>
 		[.. changes.NewPlaylists, .. changes.ChangedPlaylists];
 
-
-
 	private static async Task<ErrorOr<YouTubeFetchState>> LoadStoredStateAsync(
 		string path,
 		CancellationToken ct

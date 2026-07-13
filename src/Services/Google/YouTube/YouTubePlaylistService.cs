@@ -8,7 +8,6 @@ namespace Services.Google.YouTube;
 
 public class YouTubePlaylistService(YouTubeService yt)
 {
-
 	private static async Task<List<T>> PaginateAsync<T>(
 		Func<string?, Task<(IList<T> Items, string? NextPageToken)>> fetch,
 		CancellationToken ct
@@ -27,6 +26,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 
 		return results;
 	}
+
 	public async Task<IList<Playlist>> GetPlaylistsAsync(
 		CancellationToken ct,
 		string parts = "snippet"
@@ -116,7 +116,9 @@ public class YouTubePlaylistService(YouTubeService yt)
 			async pageToken =>
 			{
 				request.PageToken = pageToken;
-				PlaylistItemListResponse response = await request.ExecuteAsync(cancellationToken: ct);
+				PlaylistItemListResponse response = await request.ExecuteAsync(
+					cancellationToken: ct
+				);
 				return ((IList<PlaylistItemListResponse>)[response], response.NextPageToken);
 			},
 			ct
@@ -149,10 +151,13 @@ public class YouTubePlaylistService(YouTubeService yt)
 			{
 				request.PageToken = pageToken;
 				PlaylistListResponse response = await request.ExecuteAsync(ct);
-				var mapped =
-					(response.Items ?? []).Select(playlist =>
+				var mapped = (response.Items ?? [])
+					.Select(playlist =>
 					{
-						DateTimeOffset publishedAt = ParsePublishedAt(playlist.Id, playlist.Snippet?.PublishedAtRaw);
+						DateTimeOffset publishedAt = ParsePublishedAt(
+							playlist.Id,
+							playlist.Snippet?.PublishedAtRaw
+						);
 						return new PlaylistSnapshot
 						{
 							PlaylistId = playlist.Id,
@@ -162,7 +167,8 @@ public class YouTubePlaylistService(YouTubeService yt)
 							ETag = playlist.ETag,
 							ReportedVideoCount = playlist.ContentDetails?.ItemCount ?? 0,
 						};
-					}).ToList();
+					})
+					.ToList();
 				return ((IList<PlaylistSnapshot>)mapped, response.NextPageToken);
 			},
 			ct

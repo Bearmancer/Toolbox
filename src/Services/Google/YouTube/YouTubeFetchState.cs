@@ -100,7 +100,8 @@ public sealed record YouTubeFetchState
 			var sanitizedTitle = Text.SanitizeFileName(snapshot.Title);
 			var sourcePath = Path.Combine(processedDir, $"{sanitizedTitle}.json");
 			var destPath = Path.Combine(deletedDir, $"{sanitizedTitle}.json");
-			if (!File.Exists(sourcePath)) continue;
+			if (!File.Exists(sourcePath))
+				continue;
 			Directory.CreateDirectory(deletedDir);
 			File.Move(sourcePath, destPath, overwrite: true);
 			Telemetry.Info("Archived deleted playlist: {Title}", snapshot.Title);

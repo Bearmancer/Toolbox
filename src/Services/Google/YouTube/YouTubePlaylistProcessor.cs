@@ -26,7 +26,7 @@ public class YouTubePlaylistProcessor(
 	)
 	{
 		var stopwatch = Stopwatch.StartNew();
-		var ctx = new PlaylistProcessContext(
+		PlaylistProcessContext ctx = new(
 			snapshot,
 			Text.SanitizeFileName(snapshot.Title),
 			Path.Combine(RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
@@ -56,12 +56,9 @@ public class YouTubePlaylistProcessor(
 							await WriteJsonAsync(ctx.ProcessedPath, currentVideos, checkpointCt);
 						}
 					)
-					.Then(r => new ProcessResult(
-						r.Videos.Count,
-						state.Skipped,
-						r.AzureChars,
-						state.NewVideoCount
-					));
+					.Then(r =>
+						new(r.Videos.Count, state.Skipped, r.AzureChars, state.NewVideoCount)
+					);
 			});
 
 		if (result.IsSuccess)
@@ -80,7 +77,7 @@ public class YouTubePlaylistProcessor(
 		CancellationToken ct
 	)
 	{
-		var ctx = new PlaylistProcessContext(
+		PlaylistProcessContext ctx = new(
 			snapshot,
 			Text.SanitizeFileName(snapshot.Title),
 			Path.Combine(RawDir, $"{Text.SanitizeFileName(snapshot.Title)}.json"),
@@ -150,7 +147,7 @@ public class YouTubePlaylistProcessor(
 			return durationsResult.FirstError;
 
 		Dictionary<string, TimeSpan> durations = durationsResult.Value;
-		var videos = new List<YouTubeVideo>();
+		List<YouTubeVideo> videos = [];
 		var skipped = 0;
 
 		foreach (PlaylistItem item in items)
@@ -176,7 +173,7 @@ public class YouTubePlaylistProcessor(
 			);
 		}
 
-		return new BuildVideoResult(videos, skipped);
+		return new(videos, skipped);
 	}
 
 	private async Task<ErrorOr<MergeResult>> MergeWithSkippedCountAsync(
@@ -189,7 +186,7 @@ public class YouTubePlaylistProcessor(
 		ErrorOr<MergeCacheResult> mergeResult = await MergeCacheAsync(videos, ctx, ct);
 		return mergeResult.IsError
 			? mergeResult.FirstError
-			: new MergeResult(mergeResult.Value.Videos, skipped, mergeResult.Value.NewVideoCount);
+			: new(mergeResult.Value.Videos, skipped, mergeResult.Value.NewVideoCount);
 	}
 
 	private async Task<ErrorOr<int>> MergeAndWriteAsync(
@@ -213,7 +210,7 @@ public class YouTubePlaylistProcessor(
 	)
 	{
 		List<YouTubeVideo> existingVideos = await LoadExistingVideosAsync(ctx.ProcessedPath, ct);
-		var existingDict = new Dictionary<string, YouTubeVideo>();
+		Dictionary<string, YouTubeVideo> existingDict = [];
 		foreach (YouTubeVideo video in existingVideos)
 			existingDict.TryAdd(video.VideoId, video);
 
@@ -272,7 +269,7 @@ public class YouTubePlaylistProcessor(
 			);
 		}
 
-		return new MergeCacheResult(videos, added);
+		return new(videos, added);
 	}
 
 	private static IEnumerable<string> CachedVideosSummary(List<YouTubeVideo> videos) =>

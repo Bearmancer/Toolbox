@@ -19,10 +19,10 @@ public static class YouTubeChangeDetector
 		var currentDict = current.ToDictionary(p => p.PlaylistId);
 		Dictionary<string, PlaylistSnapshot> storedDict = stored.PlaylistSnapshots;
 
-		var newPlaylists = new List<PlaylistSnapshot>();
-		var changedPlaylists = new List<PlaylistSnapshot>();
-		var deletedPlaylists = new List<PlaylistSnapshot>();
-		var unchangedPlaylists = new List<PlaylistSnapshot>();
+		List<PlaylistSnapshot> newPlaylists = [];
+		List<PlaylistSnapshot> changedPlaylists = [];
+		List<PlaylistSnapshot> deletedPlaylists = [];
+		List<PlaylistSnapshot> unchangedPlaylists = [];
 
 		foreach (PlaylistSnapshot snapshot in current)
 		{
@@ -57,11 +57,6 @@ public static class YouTubeChangeDetector
 			unchangedPlaylists.Count
 		);
 
-		return new ChangeDetectionResult(
-			newPlaylists,
-			changedPlaylists,
-			deletedPlaylists,
-			unchangedPlaylists
-		);
+		return new(newPlaylists, changedPlaylists, deletedPlaylists, unchangedPlaylists);
 	}
 }

@@ -32,14 +32,14 @@ public class LastFmSyncOrchestrator(LastFmService service)
 		else if (existing.Count > 0)
 			fetchAfter = existing[0].PlayedAt;
 
-		List<LastFmScrobble> newScrobbles = await service.FetchRecentTracksAsync(
-			fetchAfter,
-			ct
-		);
+		List<LastFmScrobble> newScrobbles = await service.FetchRecentTracksAsync(fetchAfter, ct);
 
 		if (newScrobbles.Count == 0)
 		{
-			Telemetry.Info("No new scrobbles since {Date}", fetchAfter?.ToString("yyyy-MM-dd HH:mm") ?? "beginning");
+			Telemetry.Info(
+				"No new scrobbles since {Date}",
+				fetchAfter?.ToString("yyyy-MM-dd HH:mm") ?? "beginning"
+			);
 			return new SyncResult(0, existing.Count, null);
 		}
 

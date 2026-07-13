@@ -16,7 +16,7 @@ Core/
 ## WHERE TO LOOK
 
 | Task                     | File                              | Notes                                                  |
-|--------------------------|-----------------------------------|--------------------------------------------------------|
+| ------------------------ | --------------------------------- | ------------------------------------------------------ |
 | Add error category       | `Errors.cs`                       | Add `ErrorFactory` static class, e.g. `Errors.YouTube` |
 | Add service to telemetry | `ServiceName.cs` + `Telemetry.cs` | Add enum value, add to `RegisteredServices` array      |
 | Change log format        | `Telemetry.cs`                    | `AddServiceLogger()` controls per-service file sink    |

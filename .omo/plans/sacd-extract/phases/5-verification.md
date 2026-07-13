@@ -26,14 +26,14 @@ Audio/
 
 ## WHERE TO LOOK
 
-| Task                       | File                      | Notes                                              |
-| -------------------------- | ------------------------- | -------------------------------------------------- |
-| Add audio conversion step  | `DsdConvertService.cs`    | Add method, call from CLI command                  |
-| Change DSD→PCM filter      | `DsdConvertService.cs`    | `-af` filter chain in ConvertTrackAsync/ConvertFullDffAsync |
-| Add CUE field support      | `CueParser.cs`            | Add parsing in `Parse()` method                    |
-| Add metadata field         | `AudioMetadataService.cs` | Add to `TrackMetadata` record + Read/Write methods |
-| Change gain calculation    | `DsdConvertService.cs`    | `CalculateGainAsync` — TargetHeadroomDb constant   |
-| Change binary paths        | `AudioSetup.cs`           | SACD_EXTRACT_PATH, FFMPEG_PATH env vars            |
+| Task                      | File                      | Notes                                                       |
+| ------------------------- | ------------------------- | ----------------------------------------------------------- |
+| Add audio conversion step | `DsdConvertService.cs`    | Add method, call from CLI command                           |
+| Change DSD→PCM filter     | `DsdConvertService.cs`    | `-af` filter chain in ConvertTrackAsync/ConvertFullDffAsync |
+| Add CUE field support     | `CueParser.cs`            | Add parsing in `Parse()` method                             |
+| Add metadata field        | `AudioMetadataService.cs` | Add to `TrackMetadata` record + Read/Write methods          |
+| Change gain calculation   | `DsdConvertService.cs`    | `CalculateGainAsync` — TargetHeadroomDb constant            |
+| Change binary paths       | `AudioSetup.cs`           | SACD_EXTRACT_PATH, FFMPEG_PATH env vars                     |
 
 ## CONVENTIONS
 
@@ -45,10 +45,10 @@ Audio/
 
 ## ENVIRONMENT VARIABLES
 
-| Variable           | Required | Description                                      |
-| ------------------ | -------- | ------------------------------------------------ |
-| `SACD_EXTRACT_PATH` | For ISO extraction only | Path to sacd_extract binary. Download from https://github.com/Sound-Linux-More/sacd-extract |
-| `FFMPEG_PATH`       | Optional (defaults to `ffmpeg` on PATH) | Path to ffmpeg binary. Must support DSD demuxer (FFmpeg 4.0+) |
+| Variable            | Required                                | Description                                                                                 |
+| ------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `SACD_EXTRACT_PATH` | For ISO extraction only                 | Path to sacd_extract binary. Download from https://github.com/Sound-Linux-More/sacd-extract |
+| `FFMPEG_PATH`       | Optional (defaults to `ffmpeg` on PATH) | Path to ffmpeg binary. Must support DSD demuxer (FFmpeg 4.0+)                               |
 
 ## ANTI-PATTERNS
 

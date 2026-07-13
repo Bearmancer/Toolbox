@@ -51,7 +51,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			{
 				Telemetry.Error(
 					"YouTube.SortPlaylist: {Failures} updates failed — aborting",
-				result.Failures
+					result.Failures
 				);
 				break;
 			}
@@ -59,7 +59,10 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			if (result.Successes == 0)
 				break;
 
-			Telemetry.Debug("YouTube.SortPlaylist: all {Count} updates succeeded", result.Successes);
+			Telemetry.Debug(
+				"YouTube.SortPlaylist: all {Count} updates succeeded",
+				result.Successes
+			);
 		}
 
 		PlaylistSnapshot? finalSummary = await playlistService.GetPlaylistSummaryAsync(
@@ -106,10 +109,10 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		List<int> lisCurrentIndices = LongestIncreasingSubsequence(permutation);
 		var keptIds = lisCurrentIndices.Select(i => currentOrder[i].Id).ToHashSet();
 
-		var updates = new List<PlaylistUpdate>();
+		List<PlaylistUpdate> updates = [];
 		for (var i = 0; i < sorted.Count; i++)
 			if (!keptIds.Contains(sorted[i].Id))
-				updates.Add(new PlaylistUpdate(sorted[i], i));
+				updates.Add(new(sorted[i], i));
 
 		Telemetry.Debug(
 			"ComputeSortPlan: {Total} items, LIS={LisSize}, {Delta} need repositioning",
@@ -118,7 +121,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			updates.Count
 		);
 
-		return new SortPlan(items.Count, keptIds.Count, updates);
+		return new(items.Count, keptIds.Count, updates);
 	}
 
 	private async Task<ErrorOr<SortPassResult>> ExecuteSortPlanAsync(
@@ -189,8 +192,8 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		if (n == 0)
 			return [];
 
-		var tails = new List<int>();
-		var tailsIdx = new List<int>();
+		List<int> tails = [];
+		List<int> tailsIdx = [];
 		var predecessor = new int[n];
 		Array.Fill(predecessor, -1);
 
@@ -222,7 +225,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 				predecessor[i] = tailsIdx[lo - 1];
 		}
 
-		var result = new List<int>();
+		List<int> result = [];
 		var cur = tailsIdx[^1];
 		while (cur >= 0)
 		{

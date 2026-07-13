@@ -33,13 +33,13 @@ public class TranslateService(TextTranslationClient client)
 				cancellationToken: ct
 			);
 
-			var results = new List<TranslationResult>(texts.Count);
+			List<TranslationResult> results = new(texts.Count);
 			foreach (TranslatedTextItem item in response.Value)
 			{
 				var detected = item.DetectedLanguage?.Language ?? "unknown";
 				var translated = item.Translations[0].Text;
 
-				results.Add(new TranslationResult(detected, translated));
+				results.Add(new(detected, translated));
 			}
 
 			return results;

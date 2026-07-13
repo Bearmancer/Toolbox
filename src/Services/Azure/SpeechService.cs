@@ -47,7 +47,7 @@ public class SpeechService(AzureCredentials opts)
 				config,
 				AudioConfig.FromWavFileInput(wavPath)
 			);
-			var segments = new List<string>();
+			List<string> segments = [];
 			var stopped = new TaskCompletionSource<bool>();
 
 			recognizer.Recognized += (_, e) =>

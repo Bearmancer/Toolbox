@@ -35,7 +35,10 @@ public class SyncLastFmCommand(LastFmSyncOrchestrator orchestrator)
 				return 1;
 			}
 			fetchAfter = sinceDate;
-			Telemetry.Info("LastFm sync starting (forced from {Date})", sinceDate.ToString("yyyy-MM-dd HH:mm"));
+			Telemetry.Info(
+				"LastFm sync starting (forced from {Date})",
+				sinceDate.ToString("yyyy-MM-dd HH:mm")
+			);
 		}
 		else
 		{

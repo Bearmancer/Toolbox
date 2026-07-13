@@ -1,5 +1,5 @@
-using Core;
 using System.ComponentModel;
+using Core;
 using ErrorOr;
 using Services.Azure;
 using Spectre.Console.Cli;

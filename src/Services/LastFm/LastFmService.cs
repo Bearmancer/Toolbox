@@ -32,7 +32,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 			messageTemplate: "LastFm.FetchRecentTracks"
 		);
 
-		var scrobbles = new List<LastFmScrobble>();
+		List<LastFmScrobble> scrobbles = [];
 		var page = 1;
 		const int limit = 200;
 		var hasMore = true;

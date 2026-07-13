@@ -26,7 +26,8 @@ public static class PathResolver
 
 	public static string RepoRoot => LazyRepoRoot.Value;
 
-	public static string GetStatePath(string subdirectory) => Path.Combine(RepoRoot, "state", subdirectory);
+	public static string GetStatePath(string subdirectory) =>
+		Path.Combine(RepoRoot, "state", subdirectory);
 
 	private static string ResourcesRoot => Path.Combine(RepoRoot, "resources");
 

@@ -54,7 +54,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 
 	private static List<TranslationTarget> CollectTranslationTargets(List<YouTubeVideo> videos)
 	{
-		var targets = new List<TranslationTarget>();
+		List<TranslationTarget> targets = [];
 		foreach (
 			(var videoIndex, YouTubeVideo video) in videos
 				.Select((video, index) => (index, video))
@@ -62,18 +62,12 @@ public class YouTubeTranslationService(TranslateService translateService)
 		)
 		{
 			if (video.TranslatedTitle is null)
-				targets.Add(new TranslationTarget(videoIndex, TranslationField.Title, video.Title));
+				targets.Add(new(videoIndex, TranslationField.Title, video.Title));
 
 			if (video.TranslatedDescription is null)
 			{
 				if (video.Description.Length > 0)
-					targets.Add(
-						new TranslationTarget(
-							videoIndex,
-							TranslationField.Description,
-							video.Description
-						)
-					);
+					targets.Add(new(videoIndex, TranslationField.Description, video.Description));
 				else
 					videos[videoIndex] = video with { TranslatedDescription = "" };
 			}
@@ -86,8 +80,8 @@ public class YouTubeTranslationService(TranslateService translateService)
 		List<TranslationTarget> targets
 	)
 	{
-		var batches = new List<List<TranslationTarget>>();
-		var currentBatch = new List<TranslationTarget>();
+		List<List<TranslationTarget>> batches = [];
+		List<TranslationTarget> currentBatch = [];
 		var currentCharCount = 0;
 
 		foreach (TranslationTarget target in targets)
@@ -121,7 +115,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 		CancellationToken ct
 	)
 	{
-		var allResults = new List<BatchApiResult>();
+		List<BatchApiResult> allResults = [];
 		var batchIndex = 0;
 
 		foreach (List<TranslationTarget> batch in batches)
@@ -161,7 +155,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 	)
 	{
 		var translatedCount = 0;
-		var languages = new Dictionary<string, int>();
+		Dictionary<string, int> languages = [];
 
 		foreach ((TranslationTarget target, TranslationResult result) in results)
 		{
@@ -203,7 +197,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 			totalChars
 		);
 
-		return new TranslateResult(videos, totalChars);
+		return new(videos, totalChars);
 	}
 
 	public readonly record struct TranslateResult(List<YouTubeVideo> Videos, int AzureChars);

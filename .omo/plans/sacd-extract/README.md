@@ -6,12 +6,12 @@
 
 ### Dependencies
 
-| Dep | Type | License | Purpose |
-|-----|------|---------|---------|
-| `FFMpegCore` v5.4.0 | NuGet | MIT | Typed FFmpeg arg builder (DSD→PCM, gain, FLAC encode) |
-| `z440.atl.core` v7.15.3 | NuGet | MIT | DSF/DFF metadata reading, FLAC tagging |
-| `sacd_extract` binary | External CLI | GPL/LGPL | SACD ISO → DFF + CUE extraction (user-provided via .env) |
-| `ffmpeg` binary | External CLI | LGPL | DSD decoding + PCM conversion + FLAC encoding (user-provided via .env) |
+| Dep                     | Type         | License  | Purpose                                                                |
+| ----------------------- | ------------ | -------- | ---------------------------------------------------------------------- |
+| `FFMpegCore` v5.4.0     | NuGet        | MIT      | Typed FFmpeg arg builder (DSD→PCM, gain, FLAC encode)                  |
+| `z440.atl.core` v7.15.3 | NuGet        | MIT      | DSF/DFF metadata reading, FLAC tagging                                 |
+| `sacd_extract` binary   | External CLI | GPL/LGPL | SACD ISO → DFF + CUE extraction (user-provided via .env)               |
+| `ffmpeg` binary         | External CLI | LGPL     | DSD decoding + PCM conversion + FLAC encoding (user-provided via .env) |
 
 ### What FFmpeg Does in One Step
 
@@ -44,22 +44,22 @@ DSD→PCM (Gesemann dsd2pcm) + gain + TPDF dither + FLAC encoding — single com
 
 ### Python → .NET Mapping
 
-| Python | .NET |
-|--------|------|
-| `sacd_extract` subprocess | SacdExtractService (Process wrapper) |
-| `ffmpeg-python` (volumedetect, convert) | FFMpegCore |
-| `deflacue` CUE parser | CueParser.cs (custom, ~100 lines) |
-| `sox` downsampling | FFMpegCore (FFmpeg can downsample) |
-| ffmpeg metadata flags | ATL.NET (proper tag R/W) |
-| `tqdm` progress | Spectre.Console progress bars |
+| Python                                  | .NET                                 |
+| --------------------------------------- | ------------------------------------ |
+| `sacd_extract` subprocess               | SacdExtractService (Process wrapper) |
+| `ffmpeg-python` (volumedetect, convert) | FFMpegCore                           |
+| `deflacue` CUE parser                   | CueParser.cs (custom, ~100 lines)    |
+| `sox` downsampling                      | FFMpegCore (FFmpeg can downsample)   |
+| ffmpeg metadata flags                   | ATL.NET (proper tag R/W)             |
+| `tqdm` progress                         | Spectre.Console progress bars        |
 
 ### Phases
 
-| Phase | Focus | Files |
-|-------|-------|-------|
-| 0 | Foundation: packages, project, Core wiring | Directory.Packages.props, Audio.csproj, Toolbox.slnx, ServiceName.cs, Errors.cs |
-| 1 | Models + CUE parser | AudioModels.cs, CueParser.cs |
-| 2 | SACD extract service | AudioSetup.cs, SacdExtractService.cs |
-| 3 | DSD convert + metadata | DsdConvertService.cs, AudioMetadataService.cs |
-| 4 | CLI commands | AudioCommandModule.cs, SacdConvertCommand.cs, DsdConvertCommand.cs |
-| 5 | Verification | End-to-end test, state, logging |
+| Phase | Focus                                      | Files                                                                           |
+| ----- | ------------------------------------------ | ------------------------------------------------------------------------------- |
+| 0     | Foundation: packages, project, Core wiring | Directory.Packages.props, Audio.csproj, Toolbox.slnx, ServiceName.cs, Errors.cs |
+| 1     | Models + CUE parser                        | AudioModels.cs, CueParser.cs                                                    |
+| 2     | SACD extract service                       | AudioSetup.cs, SacdExtractService.cs                                            |
+| 3     | DSD convert + metadata                     | DsdConvertService.cs, AudioMetadataService.cs                                   |
+| 4     | CLI commands                               | AudioCommandModule.cs, SacdConvertCommand.cs, DsdConvertCommand.cs              |
+| 5     | Verification                               | End-to-end test, state, logging                                                 |

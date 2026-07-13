@@ -5,21 +5,23 @@ namespace CLI.Dashboard;
 
 public static class OciDashboardDeployer
 {
-	private static readonly string Host = "100.68.154.15";
-	private static readonly string User = "ubuntu";
+	private const string Host = "100.68.154.15";
+	private const string User = "ubuntu";
 	private static readonly string KeyPath = Path.Combine(
 		Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
-		".ssh", "oci", "id_ed25519"
+		".ssh",
+		"oci",
+		"id_ed25519"
 	);
-	private static readonly string RemoteTmp = "/tmp";
-	private static readonly string RemoteDest = "/opt/dashboard";
+	private const string RemoteTmp = "/tmp";
+	private const string RemoteDest = "/opt/dashboard";
 
 	public static async Task DeployAsync(string dashboardDir, CancellationToken ct)
 	{
 		PrivateKeyFile key;
 		try
 		{
-			key = new PrivateKeyFile(KeyPath);
+			key = new(KeyPath);
 		}
 		catch (Exception ex)
 		{
@@ -27,15 +29,15 @@ public static class OciDashboardDeployer
 			return;
 		}
 
-		var auth = new PrivateKeyAuthenticationMethod(User, key);
-		var connInfo = new ConnectionInfo(Host, User, auth);
+		PrivateKeyAuthenticationMethod auth = new(User, key);
+		ConnectionInfo connInfo = new(Host, User, auth);
 
 		var htmlFile = Path.Combine(dashboardDir, "dashboard.html");
 		var dataFile = Path.Combine(dashboardDir, "dashboard-data.js");
 
 		try
 		{
-			using var sftp = new SftpClient(connInfo);
+			using SftpClient sftp = new(connInfo);
 			sftp.Connect();
 
 			await using var htmlStream = File.OpenRead(htmlFile);
@@ -59,7 +61,7 @@ public static class OciDashboardDeployer
 
 		try
 		{
-			using var ssh = new SshClient(connInfo);
+			using SshClient ssh = new(connInfo);
 			ssh.Connect();
 			using SshCommand cmd = ssh.RunCommand(remoteCmd);
 			ssh.Disconnect();
