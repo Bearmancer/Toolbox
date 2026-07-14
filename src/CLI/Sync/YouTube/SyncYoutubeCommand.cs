@@ -33,23 +33,18 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 			if (!string.IsNullOrEmpty(s.Playlist))
 			{
 				var id = s.NoSort
-					? await orchestrator.ExecuteForPlaylistTitleAsync(s.Playlist, cancellationToken)
+					? await orchestrator.ExecuteForPlaylistTitleAsync(s.Playlist, s.NoTranslate, cancellationToken)
 					: await orchestrator.ExecuteForPlaylistTitleWithSortAsync(
 						s.Playlist,
+						s.NoTranslate,
 						cancellationToken
 					);
-
-				if (id is null)
-					return 1;
 			}
 			else
 			{
 				IReadOnlyList<string> syncedIds = s.NoSort
-					? await orchestrator.ExecuteAsync(cancellationToken)
-					: await orchestrator.ExecuteWithSortAsync(cancellationToken);
-
-				if (syncedIds.Count == 0)
-					Telemetry.Info("No playlists needed syncing");
+					? await orchestrator.ExecuteAsync(s.NoTranslate, cancellationToken)
+					: await orchestrator.ExecuteWithSortAsync(s.NoTranslate, cancellationToken);
 			}
 
 			await RegenerateDashboardAsync(cancellationToken);
@@ -106,5 +101,9 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 		)]
 		[CommandOption("--no-sort")]
 		public bool NoSort { get; init; }
+
+		[Description("Skip Azure translation of video titles and descriptions.")]
+		[CommandOption("--no-translate")]
+		public bool NoTranslate { get; init; }
 	}
 }

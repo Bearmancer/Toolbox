@@ -14,29 +14,29 @@ CLI/
 │   ├── VisionCommand.cs
 │   ├── SpeechSttCommand.cs
 │   ├── NerCommand.cs
-│   ── PhrasesCommand.cs
+│   └── PhrasesCommand.cs
 ├── Dashboard/
 │   ├── DashboardCommandModule.cs  # "dashboard" branch: generate
 │   ├── DashboardGenerateCommand.cs
 │   ├── DashboardHtmlGenerator.cs
-│   └── DashboardDataBuilder.cs
+│   ├── DashboardDataBuilder.cs
+│   └── OciDashboardDeployer.cs
 └── Sync/
     ├── SyncCommandModule.cs  # "sync" branch: youtube, lastfm
-    └── YouTube/
-        └── SyncYoutubeCommand.cs
-└── Sync/
-    ├── SyncCommandModule.cs  # "sync" branch: youtube, lastfm
-    └── YouTube/
-        └── SyncYoutubeCommand.cs
+    ├── YouTube/
+    │   └── SyncYoutubeCommand.cs
+    └── LastFm/
+        └── SyncLastFmCommand.cs
 ```
 
 ## WHERE TO LOOK
 
-| Task                 | File                          | Notes                                                             |
-| -------------------- | ----------------------------- | ----------------------------------------------------------------- |
-| Add Azure subcommand | `Azure/AzureCommandModule.cs` | Register in `ConfigureCommands`, create command class             |
-| Add sync subcommand  | `Sync/SyncCommandModule.cs`   | Same pattern                                                      |
-| Command pattern      | Any `*Command.cs`             | `IRemainingArguments` → service call → `result.Match` → exit code |
+| Task                     | File                                  | Notes                                                             |
+| ------------------------ | ------------------------------------- | ----------------------------------------------------------------- |
+| Add Azure subcommand     | `Azure/AzureCommandModule.cs`         | Register in `ConfigureCommands`, create command class             |
+| Add sync subcommand      | `Sync/SyncCommandModule.cs`           | Same pattern                                                      |
+| Add dashboard subcommand | `Dashboard/DashboardCommandModule.cs` | Same pattern                                                      |
+| Command pattern          | Any `*Command.cs`                     | `IRemainingArguments` → service call → `result.Match` → exit code |
 
 ## CONVENTIONS
 

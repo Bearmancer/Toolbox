@@ -121,6 +121,11 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 				await Task.Delay(waitTime, ct);
 				delay *= 2;
 			}
+			catch (LastFmApiException ex)
+			{
+				Telemetry.Error("Last.fm API error {Code}: {Error}", ex.ErrorCode, ex.Message);
+				return Errors.LastFm.ApiError(ex.Message);
+			}
 			catch (HttpRequestException ex)
 			{
 				Telemetry.Warn(

@@ -18,13 +18,13 @@ public class YouTubePlaylistOrchestrator(
 
 	private static readonly string ManifestFile = Path.Combine(StateRoot, "manifest.json");
 
-	public async Task<IReadOnlyList<string>> ExecuteAsync(CancellationToken ct)
+	public async Task<IReadOnlyList<string>> ExecuteAsync(bool noTranslate, CancellationToken ct)
 	{
-		ErrorOr<SyncOutcome> outcome = await ExecuteCoreAsync(ct);
+		ErrorOr<SyncOutcome> outcome = await ExecuteCoreAsync(noTranslate, ct);
 		return outcome.IsError ? [] : outcome.Value.Ids;
 	}
 
-	private async Task<ErrorOr<SyncOutcome>> ExecuteCoreAsync(CancellationToken ct)
+	private async Task<ErrorOr<SyncOutcome>> ExecuteCoreAsync(bool noTranslate, CancellationToken ct)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
 		var syncStopwatch = Stopwatch.StartNew();
@@ -34,7 +34,7 @@ public class YouTubePlaylistOrchestrator(
 		return await LoadStoredStateAsync(ManifestFile, ct)
 			.ThenAsync(stored => FetchSummariesAndDetectAsync(stored, ct))
 			.ThenAsync(ctx => MergePlaylistsAsync(ctx, ct))
-			.ThenAsync(ctx => ProcessIfNeededAsync(ctx, ct))
+			.ThenAsync(ctx => ProcessIfNeededAsync(ctx, noTranslate, ct))
 			.Then(outcome => Finalize(outcome, syncStopwatch));
 	}
 
@@ -43,21 +43,29 @@ public class YouTubePlaylistOrchestrator(
 		CancellationToken ct
 	)
 	{
-		IReadOnlyList<PlaylistSnapshot> current = await playlistService.GetPlaylistSummariesAsync(
-			ct
-		);
+		IReadOnlyList<PlaylistSnapshot> current = await playlistService.GetPlaylistSummariesAsync(ct);
 		ChangeDetectionResult changes = YouTubeChangeDetector.DetectChanges(current, stored);
-		foreach (PlaylistSnapshot deleted in changes.DeletedPlaylists)
-			Telemetry.Info("Deleted: {Title}", deleted.Title);
-		YouTubeSyncProcessor.ArchiveDeletedPlaylists(changes.DeletedPlaylists);
+
+		if (changes.DeletedPlaylists.Count > 0)
+		{
+			var deletedIds = changes.DeletedPlaylists.Select(d => d.PlaylistId).ToHashSet();
+			foreach (PlaylistSnapshot deleted in changes.DeletedPlaylists)
+				Telemetry.Info("Deleted: {Title}", deleted.Title);
+			YouTubeSyncProcessor.ArchiveDeletedPlaylists(changes.DeletedPlaylists);
+			stored = stored with
+			{
+				PlaylistSnapshots = stored.PlaylistSnapshots
+					.Where(kvp => !deletedIds.Contains(kvp.Key))
+					.ToDictionary(kvp => kvp.Key, kvp => kvp.Value),
+			};
+			await YouTubeFetchState.SaveAsync(ManifestFile, stored, ct);
+		}
+
 		List<PlaylistSnapshot> toProcess = CombineNewAndChanged(changes);
 		return new SyncContext(stored, changes, toProcess);
 	}
 
-	private async Task<ErrorOr<SyncContext>> MergePlaylistsAsync(
-		SyncContext ctx,
-		CancellationToken ct
-	)
+	private async Task<ErrorOr<SyncContext>> MergePlaylistsAsync(SyncContext ctx, CancellationToken ct)
 	{
 		List<PlaylistSnapshot> deduplicated = await syncProcessor.MergeDuplicatePlaylistsAsync(
 			ctx.ToProcess,
@@ -77,6 +85,7 @@ public class YouTubePlaylistOrchestrator(
 
 	private async Task<ErrorOr<ProcessOutcome>> ProcessIfNeededAsync(
 		SyncContext ctx,
+		bool noTranslate,
 		CancellationToken ct
 	)
 	{
@@ -89,6 +98,7 @@ public class YouTubePlaylistOrchestrator(
 		YouTubeSyncProcessor.SyncResult result = await syncProcessor.ProcessPlaylistsAsync(
 			ctx.ToProcess,
 			ctx.Stored,
+			noTranslate,
 			ct
 		);
 		return new ProcessOutcome(ctx.Stored, ctx.Changes, result);
@@ -98,15 +108,13 @@ public class YouTubePlaylistOrchestrator(
 	{
 		if (outcome.Result is { } result)
 		{
-			var charsNote = result.AzureCharsUsed > 0 ? $" | translated {result.AzureCharsUsed:N0} chars" : string.Empty;
 			Telemetry.Info(
-				"Sync done in {Elapsed:F1}s: {New} new, {Changed} changed, {Deleted} deleted | {TotalVideos} videos{CharsNote}",
+				"Sync done in {Elapsed:F1}s: {New} new, {Changed} changed, {Deleted} deleted | {TotalVideos} videos",
 				syncStopwatch.Elapsed.TotalSeconds,
 				outcome.Changes.NewPlaylists.Count,
 				outcome.Changes.ChangedPlaylists.Count,
 				outcome.Changes.DeletedPlaylists.Count,
-				result.TotalVideos,
-				charsNote
+				result.TotalVideos
 			);
 		}
 
@@ -115,9 +123,9 @@ public class YouTubePlaylistOrchestrator(
 		return new SyncOutcome(ids, idsWithNewVideos, outcome.Stored);
 	}
 
-	public async Task<IReadOnlyList<string>> ExecuteWithSortAsync(CancellationToken ct)
+	public async Task<IReadOnlyList<string>> ExecuteWithSortAsync(bool noTranslate, CancellationToken ct)
 	{
-		ErrorOr<SyncOutcome> outcomeResult = await ExecuteCoreAsync(ct);
+		ErrorOr<SyncOutcome> outcomeResult = await ExecuteCoreAsync(noTranslate, ct);
 		if (outcomeResult.IsError)
 			return [];
 
@@ -128,26 +136,36 @@ public class YouTubePlaylistOrchestrator(
 		return outcome.Ids;
 	}
 
-	public async Task<string?> ExecuteForPlaylistTitleAsync(string title, CancellationToken ct)
+	public async Task<string?> ExecuteForPlaylistTitleAsync(
+		string title,
+		bool noTranslate,
+		CancellationToken ct
+	)
 	{
-		ErrorOr<SinglePlaylistOutcome> outcome = await ExecuteForPlaylistTitleCoreAsync(title, ct);
+		ErrorOr<SinglePlaylistOutcome> outcome = await ExecuteForPlaylistTitleCoreAsync(
+			title,
+			noTranslate,
+			ct
+		);
 		return outcome.IsError ? null : outcome.Value.Id;
 	}
 
 	private async Task<ErrorOr<SinglePlaylistOutcome>> ExecuteForPlaylistTitleCoreAsync(
 		string title,
+		bool noTranslate,
 		CancellationToken ct
 	)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
 
 		return await LoadStoredStateAsync(ManifestFile, ct)
-			.ThenAsync(stored => ProcessTitlePipelineAsync(title, stored, ct));
+			.ThenAsync(stored => ProcessTitlePipelineAsync(title, stored, noTranslate, ct));
 	}
 
 	private async Task<ErrorOr<SinglePlaylistOutcome>> ProcessTitlePipelineAsync(
 		string title,
 		YouTubeFetchState stored,
+		bool noTranslate,
 		CancellationToken ct
 	)
 	{
@@ -164,9 +182,7 @@ public class YouTubePlaylistOrchestrator(
 		if (currentSummary is null)
 			return Errors.YouTube.ApiError($"Failed to fetch summary for {match.Title}");
 
-		PlaylistSnapshot? storedSnapshot = stored.PlaylistSnapshots.GetValueOrDefault(
-			match.PlaylistId
-		);
+		PlaylistSnapshot? storedSnapshot = stored.PlaylistSnapshots.GetValueOrDefault(match.PlaylistId);
 		if (
 			storedSnapshot is { }
 			&& !string.IsNullOrEmpty(storedSnapshot.ETag)
@@ -179,7 +195,7 @@ public class YouTubePlaylistOrchestrator(
 		}
 
 		ErrorOr<YouTubePlaylistProcessor.ProcessResult> processorResult =
-			await playlistProcessor.ProcessPlaylistAsync(currentSummary, ct);
+			await playlistProcessor.ProcessPlaylistAsync(currentSummary, noTranslate, ct);
 		if (processorResult.IsError)
 		{
 			Telemetry.Error(
@@ -215,11 +231,13 @@ public class YouTubePlaylistOrchestrator(
 
 	public async Task<string?> ExecuteForPlaylistTitleWithSortAsync(
 		string title,
+		bool noTranslate,
 		CancellationToken ct
 	)
 	{
 		ErrorOr<SinglePlaylistOutcome> outcomeResult = await ExecuteForPlaylistTitleCoreAsync(
 			title,
+			noTranslate,
 			ct
 		);
 		if (outcomeResult.IsError)
@@ -247,9 +265,7 @@ public class YouTubePlaylistOrchestrator(
 			return match;
 		}
 
-		IReadOnlyList<PlaylistSnapshot> summaries = await playlistService.GetPlaylistSummariesAsync(
-			ct
-		);
+		IReadOnlyList<PlaylistSnapshot> summaries = await playlistService.GetPlaylistSummariesAsync(ct);
 		match = summaries.FirstOrDefault(s => s.Title.IsEqualToIgnore(title));
 
 		return match is null

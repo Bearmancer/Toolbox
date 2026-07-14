@@ -71,7 +71,7 @@ public static class Telemetry
 		Log.Write(LogEventLevel.Error, template, args);
 
 	public static LoggerActivity StartActivity(string messageTemplate, params object[] args) =>
-		Log.Logger.StartActivity(messageTemplate, args);
+		Log.Logger.StartActivity(LogEventLevel.Debug, messageTemplate, args);
 
 	private static async Task<bool> IsSeqReachableAsync(string seqUrl)
 	{

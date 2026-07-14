@@ -8,14 +8,6 @@
       "LastChecked": "2026-06-24T13:23:57.7467806+00:00",
       "LastUpdated": "2026-05-28T06:35:15.7605+00:00"
     },
-    "PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5": {
-      "PlaylistId": "PL1zgNCoWt_7ZqqQjQY7Pc9_pxHPWndYI5",
-      "Title": "Neeme Jarvi",
-      "ETag": "wQJMJVxjIvPB95yVziGBU-LvfF4",
-      "ReportedVideoCount": 2,
-      "LastChecked": "2026-06-24T13:23:57.7469716+00:00",
-      "LastUpdated": "2026-05-20T21:10:58.519543+00:00"
-    },
     "PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3": {
       "PlaylistId": "PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3",
       "Title": "Petr Popelka",
@@ -339,7 +331,7 @@
     "PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU": {
       "PlaylistId": "PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU",
       "Title": "Fabio Luisi",
-      "ETag": "bZkMuAI7oiVdfdTIIiuCHUv2pTs",
+      "ETag": "_k3xq0jci0f1wtMV7ppFnzqF-k8",
       "ReportedVideoCount": 59,
       "LastChecked": "2026-06-24T13:27:34.8906879+00:00",
       "LastUpdated": "2025-06-06T22:20:56.831664+00:00"
@@ -355,7 +347,7 @@
     "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot": {
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
       "Title": "Bernard Haitink",
-      "ETag": "UklDuUejxk74S7VXeUXq3TLpFHo",
+      "ETag": "1XgibLd6iW_PQX662v_7NyfzII8",
       "ReportedVideoCount": 67,
       "LastChecked": "2026-07-04T21:04:12.8264299+00:00",
       "LastUpdated": "2025-06-06T21:29:03.293531+00:00"
@@ -1083,7 +1075,7 @@
     "PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh": {
       "PlaylistId": "PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh",
       "Title": "Sakari Oramo",
-      "ETag": "tpO6etIT47HvhVAU42luOUNWuDE",
+      "ETag": "VgSz8DxxLpZ7DhGVwjiv9oE0lXg",
       "ReportedVideoCount": 54,
       "LastChecked": "2026-07-04T19:16:50.4248271+00:00",
       "LastUpdated": "2023-11-19T13:32:22.499911+00:00"
@@ -1143,10 +1135,16 @@
       "ReportedVideoCount": 7,
       "LastChecked": "2026-06-28T16:55:22.0654591+00:00",
       "LastUpdated": "2026-06-24T18:00:43.186609+00:00"
+    },
+    "PLID5g4nWvScc": {
+      "PlaylistId": "PLID5g4nWvScc",
+      "Title": "Osmo Vanska",
+      "ETag": "Sy9Ra7jnlPRDcB2xvRbHMyZ_VcI",
+      "ReportedVideoCount": 2,
+      "LastChecked": "2026-07-13T17:53:05.3629434+00:00",
+      "LastUpdated": "2026-07-08T08:20:40.5606046+00:00"
     }
   },
-  "LastChecked": "2026-07-13T17:23:29.874709+00:00",
-  "LastUpdated": "2026-07-13T17:23:29.8747094+00:00",
-  "AzureCharsUsed": 51478,
-  "AzureCharsMonth": 7
+  "LastChecked": "2026-07-13T17:53:07.1449048+00:00",
+  "LastUpdated": "2026-07-13T17:53:07.1449056+00:00"
 }

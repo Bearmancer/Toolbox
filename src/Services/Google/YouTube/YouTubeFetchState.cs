@@ -26,8 +26,6 @@ public sealed record YouTubeFetchState
 	public Dictionary<string, PlaylistSnapshot> PlaylistSnapshots { get; init; } = [];
 	public required DateTimeOffset LastChecked { get; init; }
 	public required DateTimeOffset? LastUpdated { get; init; }
-	public int AzureCharsUsed { get; init; }
-	public int AzureCharsMonth { get; init; }
 
 	public static async Task<YouTubeFetchState> LoadAsync(string path, CancellationToken ct)
 	{

@@ -22,6 +22,7 @@ public class YouTubePlaylistProcessor(
 
 	public async Task<ErrorOr<ProcessResult>> ProcessPlaylistAsync(
 		PlaylistSnapshot snapshot,
+		bool noTranslate,
 		CancellationToken ct
 	)
 	{
@@ -42,6 +43,9 @@ public class YouTubePlaylistProcessor(
 			)
 			.ThenAsync(async state =>
 			{
+				if (noTranslate)
+					return new ProcessResult(state.Videos.Count, state.Skipped, state.NewVideoCount);
+
 				return await translationService
 					.TranslateVideosAsync(
 						state.Videos,
@@ -56,9 +60,7 @@ public class YouTubePlaylistProcessor(
 							await WriteJsonAsync(ctx.ProcessedPath, currentVideos, checkpointCt);
 						}
 					)
-					.Then(r =>
-						new ProcessResult(r.Videos.Count, state.Skipped, r.AzureChars, state.NewVideoCount)
-					);
+					.Then(r => new ProcessResult(r.Videos.Count, state.Skipped, state.NewVideoCount));
 			});
 
 		if (result.IsSuccess)
@@ -316,10 +318,8 @@ public class YouTubePlaylistProcessor(
 	public readonly record struct ProcessResult(
 		int Videos,
 		int Skipped,
-		int AzureChars,
 		int NewVideoCount
 	);
-
 	public readonly record struct BuildVideoResult(List<YouTubeVideo> Videos, int Skipped);
 
 	private readonly record struct MergeResult(

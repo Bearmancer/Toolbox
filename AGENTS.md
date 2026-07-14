@@ -1,26 +1,34 @@
 # AGENTS.md — Toolbox
 
-**Generated:** 2026-06-30 | **Commit:** 093dc80 | **Branch:** master
+**Generated:** 2026-07-14 | **Commit:** 505968c | **Branch:** master
 
 Extends `C:\Users\Lance\.config\opencode\AGENTS.md`. All Sisyphus directives apply.
 
 ## OVERVIEW
 
-CLI toolbox wrapping Azure AI services, Google YouTube API, and Last.fm. .NET 10.0, Spectre.Console.Cli, Serilog, ErrorOr.
+CLI toolbox wrapping Azure AI services, Google YouTube API, and Last.fm. .NET 11.0, Spectre.Console.Cli, Serilog, ErrorOr.
 
 ## STRUCTURE
 
 ```
 New/
+├── Toolbox.slnx        # Solution file (6 projects)
+├── .editorconfig        # Single source of truth for code style (naming, var, patterns, diagnostics)
 ├── src/
 │   ├── App/            # Entry point (exe). DI wiring only.
 │   ├── CLI/            # Spectre.Console.Cli commands. No service logic.
+│   │   ├── Azure/      # translate, docintel, vision, stt, ner, phrases
+│   │   ├── Dashboard/  # generate + OCI deploy
+│   │   └── Sync/       # youtube, lastfm
 │   ├── Core/           # Telemetry, errors, path resolution, text utils.
 │   └── Services/
 │       ├── Azure/      # Azure AI SDKs (Vision, Translate, Speech, DocIntel, OpenAI, TextAnalytics).
-│       ├── Google/     # YouTube API + orchestration. Depends on Azure.TranslateService.
-│       └── LastFm/     # Last.fm HTTP client + state.
-├── state/              # Persisted data (youtube/{raw,processed,deleted}, lastfm/).
+│       ├── Google/     # YouTube API + orchestration + dashboard. Depends on Azure.TranslateService.
+│       └── LastFm/     # Last.fm HTTP client + sync orchestrator + state.
+├── state/              # Persisted data
+│   ├── youtube/        # {raw,processed,deleted}/, manifest.json
+│   ├── lastfm/         # scrobbles.json
+│   └── dashboard/      # dashboard.html, dashboard-data.js
 ├── logs/               # Per-service JSONL logs (rolling, 7-day retention).
 ├── Directory.Build.props
 └── Directory.Packages.props
@@ -45,10 +53,13 @@ Services.LastFm → Core
 | Add CLI command            | `src/CLI/{Domain}/`            | Follow Spectre pattern: thin command → service call → Result.Match |
 | Add Azure service          | `src/Services/Azure/`          | Add credential to AzureCredentials.cs, register in AzureSetup.cs   |
 | Add Google/YouTube feature | `src/Services/Google/YouTube/` | Orchestrator handles state; processor handles per-playlist logic   |
-| Add Last.fm feature        | `src/Services/LastFm/`         | Simple HTTP client pattern                                         |
+| Add Last.fm feature        | `src/Services/LastFm/`         | LastFmApiClient for HTTP, LastFmSyncOrchestrator for sync flow     |
+| Dashboard generation       | `src/CLI/Dashboard/`           | DashboardDataBuilder → DashboardHtmlGenerator → OciDashboardDeployer |
+| Dashboard data service     | `src/Services/Google/YouTube/DashboardService.cs` | Reads state, builds dashboard data model          |
 | Modify telemetry           | `src/Core/Telemetry.cs`        | Per-service JSONL + optional Seq sink                              |
 | Add error codes            | `src/Core/Errors.cs`           | Central taxonomy; add factory method per domain                    |
 | Change build config        | `Directory.Build.props`        | Single source for TargetFramework, analyzers, warnings             |
+| Change code style          | `.editorconfig`                | Naming, var usage, patterns, diagnostics — all as errors           |
 
 ## CONVENTIONS
 
@@ -57,9 +68,10 @@ Services.LastFm → Core
 - **Error handling:** `ErrorOr<T>` railway-oriented. `result.Match(onSuccess, onError)`. Error factories in `Errors.cs`.
 - **JSON:** PascalCase properties. `JsonSerializerOptions { WriteIndented = true }` only. No `PropertyNamingPolicy`.
 - **Logging:** `Telemetry.ForService(ServiceName.X)` scopes log entries. JSONL per service in `logs/`.
-- **State:** `state/youtube/manifest.json` is the manifest. Raw/processed/deleted subdirs. No database.
+- **State:** `state/youtube/manifest.json` is the manifest. Raw/processed/deleted subdirs. `state/lastfm/scrobbles.json`. `state/dashboard/` for HTML output. No database.
 - **One class per file.** No `Constants.cs`, no `Helpers.cs`. Extract to shared file only when 3+ consumers.
 - **Inline constants:** `private static readonly string` at top of file.
+- **Code style:** `.editorconfig` is the single source of truth. All rules enforced as `error` severity. `EnforceCodeStyleInBuild` is enabled.
 
 ## RULES
 
@@ -89,13 +101,18 @@ Services.LastFm → Core
 dotnet build                          # Build all projects
 dotnet run --project src\App -- <cmd> # Run CLI command
 dotnet run --project src\App -- sync youtube
+dotnet run --project src\App -- sync lastfm
 dotnet run --project src\App -- azure translate
+dotnet run --project src\App -- dashboard generate
 ```
 
 ## NOTES
 
-- .NET 10.0 preview SDK required. `SuppressNETCoreSdkPreviewMessage` is set.
+- .NET 11.0 preview SDK required. `SuppressNETCoreSdkPreviewMessage` is set.
 - `<UseArtifactsOutput>true</UseArtifactsOutput>` — outputs in `artifacts/`, not `bin/`.
-- No `.editorconfig` exists. Style enforced by convention + AGENTS.md rules.
+- `.editorconfig` exists at repo root. All style rules enforced as errors. `EnforceCodeStyleInBuild` enabled.
+- `<TreatWarningsAsErrors>` is commented out in `Directory.Build.props` — individual rules set to `error` in `.editorconfig` instead.
+- `Toolbox.slnx` is the solution file (SDK-style, 6 projects).
 - No CI/CD pipeline. Builds are manual.
 - No test projects. Manual verification via standalone `.cs` files with `Main()`.
+- Sub-AGENTS.md files exist in `src/CLI/`, `src/Core/`, `src/Services/Azure/`, `src/Services/Google/` for domain-specific guidance.

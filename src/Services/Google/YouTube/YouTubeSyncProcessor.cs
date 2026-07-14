@@ -24,6 +24,7 @@ public class YouTubeSyncProcessor(
 	public async Task<SyncResult> ProcessPlaylistsAsync(
 		List<PlaylistSnapshot> playlistsToProcess,
 		YouTubeFetchState stored,
+		bool noTranslate,
 		CancellationToken ct
 	)
 	{
@@ -37,7 +38,7 @@ public class YouTubeSyncProcessor(
 			ct.ThrowIfCancellationRequested();
 			PlaylistSnapshot snapshot = playlistsToProcess[i];
 
-			ProcessResult result = await ProcessSinglePlaylistAsync(snapshot, counters, ct);
+			ProcessResult result = await ProcessSinglePlaylistAsync(snapshot, noTranslate, counters, ct);
 			if (result.ShouldBreak)
 				break;
 
@@ -47,8 +48,6 @@ public class YouTubeSyncProcessor(
 				result.Videos,
 				result.NewVideoCount
 			);
-			if (result.AzureChars > 0)
-				Telemetry.Debug("\u2192 translated {Chars:N0} chars", result.AzureChars);
 
 			processedSnapshots.Add(snapshot);
 			if (result.NewVideoCount > 0)
@@ -62,12 +61,13 @@ public class YouTubeSyncProcessor(
 
 	private async Task<ProcessResult> ProcessSinglePlaylistAsync(
 		PlaylistSnapshot snapshot,
+		bool noTranslate,
 		SyncCounters counters,
 		CancellationToken ct
 	)
 	{
 		ErrorOr<YouTubePlaylistProcessor.ProcessResult> processorResult =
-			await playlistProcessor.ProcessPlaylistAsync(snapshot, ct);
+			await playlistProcessor.ProcessPlaylistAsync(snapshot, noTranslate, ct);
 
 		if (processorResult.IsError)
 		{
@@ -97,22 +97,14 @@ public class YouTubeSyncProcessor(
 		}
 
 		YouTubePlaylistProcessor.ProcessResult result = processorResult.Value;
-		await SaveIncrementalStateAsync(
-			counters.UpdatedSnapshots,
-			snapshot,
-			counters.AzureCharsUsed + result.AzureChars,
-			counters.CurrentMonth,
-			ct
-		);
+		await SaveIncrementalStateAsync(counters.UpdatedSnapshots, snapshot, ct);
 
-		return new(result.Videos, result.Skipped, result.AzureChars, result.NewVideoCount, false);
+		return new(result.Videos, result.Skipped, result.NewVideoCount, false);
 	}
 
 	private static async Task SaveIncrementalStateAsync(
 		IReadOnlyDictionary<string, PlaylistSnapshot> updatedSnapshots,
 		PlaylistSnapshot snapshot,
-		int azureCharsUsed,
-		int currentMonth,
 		CancellationToken ct
 	)
 	{
@@ -126,8 +118,6 @@ public class YouTubeSyncProcessor(
 			PlaylistSnapshots = snapshots,
 			LastChecked = DateTimeOffset.UtcNow,
 			LastUpdated = DateTimeOffset.UtcNow,
-			AzureCharsUsed = azureCharsUsed,
-			AzureCharsMonth = currentMonth,
 		};
 		await YouTubeFetchState.SaveAsync(ManifestFile, state, ct);
 	}
@@ -359,57 +349,38 @@ public class YouTubeSyncProcessor(
 		IReadOnlyList<string> PlaylistsWithNewVideos,
 		Dictionary<string, PlaylistSnapshot> UpdatedSnapshots,
 		int TotalVideos,
-		int SkippedVideos,
-		int AzureCharsUsed,
-		int CurrentMonth
+		int SkippedVideos
 	);
 
 	public readonly record struct ProcessResult(
 		int Videos,
 		int Skipped,
-		int AzureChars,
 		int NewVideoCount,
 		bool ShouldBreak
 	)
 	{
-		public static ProcessResult Break { get; } = new(0, 0, 0, 0, true);
+		public static ProcessResult Break { get; } = new(0, 0, 0, true);
 	}
 
 	public sealed class SyncCounters
 	{
-		private SyncCounters(
-			Dictionary<string, PlaylistSnapshot> updatedSnapshots,
-			int currentMonth,
-			int azureCharsUsed
-		)
-		{
+		private SyncCounters(Dictionary<string, PlaylistSnapshot> updatedSnapshots) =>
 			UpdatedSnapshots = updatedSnapshots;
-			CurrentMonth = currentMonth;
-			AzureCharsUsed = azureCharsUsed;
-		}
 
 		public Dictionary<string, PlaylistSnapshot> UpdatedSnapshots { get; }
-		public int CurrentMonth { get; }
-		public int AzureCharsUsed { get; set; }
 		public int TotalVideos { get; set; }
 		public int SkippedVideos { get; set; }
 
 		public static SyncCounters FromStoredState(YouTubeFetchState stored)
 		{
-			var currentMonth = DateTimeOffset.UtcNow.Month;
 			Dictionary<string, PlaylistSnapshot> snapshots = new(stored.PlaylistSnapshots);
-			return new SyncCounters(
-				snapshots,
-				currentMonth,
-				stored.AzureCharsMonth == currentMonth ? stored.AzureCharsUsed : 0
-			);
+			return new SyncCounters(snapshots);
 		}
 
 		public void UpdateFrom(ProcessResult result)
 		{
 			TotalVideos += result.Videos;
 			SkippedVideos += result.Skipped;
-			AzureCharsUsed += result.AzureChars;
 		}
 
 		public SyncResult ToResult(
@@ -426,9 +397,7 @@ public class YouTubeSyncProcessor(
 				[.. playlistsWithNewVideos],
 				updated,
 				TotalVideos,
-				SkippedVideos,
-				AzureCharsUsed,
-				CurrentMonth
+				SkippedVideos
 			);
 		}
 	}

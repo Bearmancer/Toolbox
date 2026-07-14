@@ -38,10 +38,20 @@ public class YouTubeVideoService(YouTubeService yt)
 				return ErrorOrFactory.From(new Dictionary<string, TimeSpan>());
 
 			var result = new Dictionary<string, TimeSpan>();
+			var batchIndex = 0;
+			var totalBatches = (int)Math.Ceiling(videoIds.Count / 50.0);
 
 			foreach (var batch in videoIds.Chunk(size: 50))
 			{
 				ct.ThrowIfCancellationRequested();
+				batchIndex++;
+
+				Telemetry.Debug(
+					"YouTube.GetVideoDurations: batch {Batch}/{Total} ({Count} videos)",
+					batchIndex,
+					totalBatches,
+					batch.Length
+				);
 
 				VideosResource.ListRequest? request = yt.Videos.List(part: "contentDetails");
 				request.Id = string.Join(",", batch);

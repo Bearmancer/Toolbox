@@ -80,6 +80,8 @@ internal static class Program
 			appCts.Cancel();
 		};
 
-		return await toolbox.RunAsync(args, appCts.Token);
+		var exitCode = await toolbox.RunAsync(args, appCts.Token);
+		await Serilog.Log.CloseAndFlushAsync();
+		return exitCode;
 	}
 }

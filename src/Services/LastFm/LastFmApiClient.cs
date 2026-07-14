@@ -97,9 +97,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 		if (!recenttracks.TryGetProperty("track", out JsonElement tracksElement))
 			return Errors.LastFm.MalformedResponse;
 
-#pragma warning disable IDE0072
 		JsonElement[] tracks = tracksElement.ValueKind switch
-#pragma warning restore IDE0072
 		{
 			JsonValueKind.Array => [.. tracksElement.EnumerateArray()],
 			JsonValueKind.Object => [tracksElement],

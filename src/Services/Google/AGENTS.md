@@ -16,7 +16,8 @@ Google/
     ├── YouTubeTranslationService.cs   # Translates titles via Azure TranslateService
     ├── YouTubeChangeDetector.cs       # Diff stored vs. current state
     ├── YouTubeFetchState.cs           # Manifest persistence (JSON)
-    ── YouTubeSyncProcessor.cs        # Batch processing, sorting, archiving
+    ├── YouTubeSyncProcessor.cs        # Batch processing, sorting, archiving
+    └── DashboardService.cs            # Reads state, builds dashboard data model
 ```
 
 ## WHERE TO LOOK
@@ -28,7 +29,7 @@ Google/
 | Add YouTube API call      | `YouTubePlaylistService.cs` or `YouTubeVideoService.cs` | Wrap API response in domain types                |
 | Change translation        | `YouTubeTranslationService.cs`                          | Calls `TranslateService.TranslateBatchAsync()`   |
 | Change state schema       | `YouTubeFetchState.cs`                                  | `PlaylistSnapshot`, `YouTubeFetchState` records  |
-| Change state paths        | `YouTubePaths.cs`                                       | All paths relative to `state/youtube/`           |
+| Build dashboard data      | `DashboardService.cs`                                   | Reads `state/youtube/`, returns dashboard model  |
 
 ## CONVENTIONS
 

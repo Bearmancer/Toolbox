@@ -17,9 +17,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 	{
 		List<TranslationTarget> targets = CollectTranslationTargets(videos);
 		if (targets.Count == 0)
-			return new TranslateResult(videos, 0);
-
-		var totalChars = targets.Sum(t => t.Text.Length);
+			return new TranslateResult(videos);
 
 		return await ErrorOrFactory
 			.From(targets)
@@ -32,18 +30,17 @@ public class YouTubeTranslationService(TranslateService translateService)
 						v.TranslatedTitle is null || v.TranslatedDescription is null
 					);
 				Telemetry.Debug(
-					"Translate: {Need}/{Total} videos need text completion, {Unchanged} already complete | {Chars:N0} chars ({Batches} {BatchWord})",
+					"Translate: {Need}/{Total} videos need text completion, {Unchanged} already complete | {Batches} {BatchWord}",
 					videos.Count - unchangedCount,
 					videos.Count,
 					unchangedCount,
-					totalChars,
 					batches.Count,
 					batches.Count == 1 ? "batch" : "batches"
 				);
 				return batches;
 			})
 			.ThenAsync(batchPlan => ExecuteTranslationBatchesAsync(batchPlan, translateService, ct))
-			.Then(execResult => ApplyTranslationResults(videos, execResult, totalChars))
+			.Then(execResult => ApplyTranslationResults(videos, execResult))
 			.ThenAsync(async result =>
 			{
 				if (checkpointAsync is { })
@@ -123,13 +120,11 @@ public class YouTubeTranslationService(TranslateService translateService)
 			ct.ThrowIfCancellationRequested();
 			batchIndex++;
 
-			var batchChars = batch.Sum(t => t.Text.Length);
 			Telemetry.Debug(
-				"Translate: [{Batch}/{TotalBatches}] → Azure ({Targets} fields, {Chars:N0} chars)",
+				"Translate: [{Batch}/{TotalBatches}] -> Azure ({Targets} fields)",
 				batchIndex,
 				batches.Count,
-				batch.Count,
-				batchChars
+				batch.Count
 			);
 
 			ErrorOr<List<TranslationResult>> batchResult =
@@ -150,8 +145,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 
 	private static TranslateResult ApplyTranslationResults(
 		List<YouTubeVideo> videos,
-		List<BatchApiResult> results,
-		int totalChars
+		List<BatchApiResult> results
 	)
 	{
 		var translatedCount = 0;
@@ -191,16 +185,15 @@ public class YouTubeTranslationService(TranslateService translateService)
 			languages.OrderByDescending(kv => kv.Value).Select(kv => $"{kv.Value} {kv.Key}")
 		);
 		Telemetry.Debug(
-			"Translate: done — {Translated} translated fields | {LangSummary} | {Chars:N0} Azure chars",
+			"Translate: done — {Translated} translated fields | {LangSummary}",
 			translatedCount,
-			langSummary,
-			totalChars
+			langSummary
 		);
 
-		return new(videos, totalChars);
+		return new(videos);
 	}
 
-	public readonly record struct TranslateResult(List<YouTubeVideo> Videos, int AzureChars);
+	public readonly record struct TranslateResult(List<YouTubeVideo> Videos);
 
 	private readonly record struct BatchApiResult(
 		TranslationTarget Target,

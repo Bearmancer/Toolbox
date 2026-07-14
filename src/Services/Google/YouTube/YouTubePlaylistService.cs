@@ -9,20 +9,52 @@ namespace Services.Google.YouTube;
 public class YouTubePlaylistService(YouTubeService yt)
 {
 	private static async Task<List<T>> PaginateAsync<T>(
+		string activityName,
 		Func<string?, Task<(IList<T> Items, string? NextPageToken)>> fetch,
 		CancellationToken ct
 	)
 	{
 		var results = new List<T>();
 		string? pageToken = null;
+		string? previousToken = null;
+		var pageNumber = 0;
 
 		do
 		{
 			ct.ThrowIfCancellationRequested();
+			pageNumber++;
+
 			var (items, nextPageToken) = await fetch(pageToken);
 			results.AddRange(items);
+
+			Telemetry.Debug(
+				"{Activity}: page {Page} fetched {Count} items (token={Token})",
+				activityName,
+				pageNumber,
+				items.Count,
+				pageToken ?? "first"
+			);
+
+			if (nextPageToken is { } && nextPageToken == previousToken)
+			{
+				Telemetry.Warn(
+					"{Activity}: duplicate nextPageToken detected at page {Page} — breaking pagination to prevent infinite loop",
+					activityName,
+					pageNumber
+				);
+				break;
+			}
+
+			previousToken = pageToken;
 			pageToken = nextPageToken;
 		} while (pageToken is { });
+
+		Telemetry.Debug(
+			"{Activity}: pagination complete — {TotalPages} pages, {TotalItems} items",
+			activityName,
+			pageNumber,
+			results.Count
+		);
 
 		return results;
 	}
@@ -42,6 +74,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 		request.MaxResults = 50;
 
 		List<Playlist> playlists = await PaginateAsync(
+			"YouTube.GetPlaylists",
 			async pageToken =>
 			{
 				request.PageToken = pageToken;
@@ -72,6 +105,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 		request.MaxResults = 50;
 
 		List<PlaylistItem> items = await PaginateAsync(
+			"YouTube.GetPlaylistItems",
 			async pageToken =>
 			{
 				request.PageToken = pageToken;
@@ -113,6 +147,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 		request.MaxResults = 50;
 
 		List<PlaylistItemListResponse> pages = await PaginateAsync<PlaylistItemListResponse>(
+			"YouTube.GetPlaylistItemPagesRaw",
 			async pageToken =>
 			{
 				request.PageToken = pageToken;
@@ -147,6 +182,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 		request.MaxResults = 50;
 
 		List<PlaylistSnapshot> snapshots = await PaginateAsync(
+			"YouTube.GetPlaylistSummaries",
 			async pageToken =>
 			{
 				request.PageToken = pageToken;
