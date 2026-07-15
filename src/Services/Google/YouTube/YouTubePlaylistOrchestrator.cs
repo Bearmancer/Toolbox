@@ -46,6 +46,18 @@ public class YouTubePlaylistOrchestrator(
 		IReadOnlyList<PlaylistSnapshot> current = await playlistService.GetPlaylistSummariesAsync(ct);
 		ChangeDetectionResult changes = YouTubeChangeDetector.DetectChanges(current, stored);
 
+		foreach (PlaylistSnapshot playlist in changes.NewPlaylists)
+			Telemetry.Info("New: {Title} ({Count} videos)", playlist.Title, playlist.ReportedVideoCount);
+
+		foreach (PlaylistSnapshot playlist in changes.ChangedPlaylists)
+		{
+			var delta = stored.PlaylistSnapshots.TryGetValue(playlist.PlaylistId, out PlaylistSnapshot? storedSnapshot)
+				? playlist.ReportedVideoCount - storedSnapshot.ReportedVideoCount
+				: playlist.ReportedVideoCount;
+			var deltaStr = delta >= 0 ? $"+{delta}" : $"{delta}";
+			Telemetry.Info("Changed: {Title} ({Delta} videos)", playlist.Title, deltaStr);
+		}
+
 		if (changes.DeletedPlaylists.Count > 0)
 		{
 			var deletedIds = changes.DeletedPlaylists.Select(d => d.PlaylistId).ToHashSet();
