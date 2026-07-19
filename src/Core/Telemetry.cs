@@ -67,6 +67,9 @@ public static class Telemetry
 	public static void Debug(string template, params object[] args) =>
 		Log.Write(LogEventLevel.Debug, template, args);
 
+	public static void Verbose(string template, params object[] args) =>
+		Log.Write(LogEventLevel.Verbose, template, args);
+
 	public static void Error(string template, params object[] args) =>
 		Log.Write(LogEventLevel.Error, template, args);
 

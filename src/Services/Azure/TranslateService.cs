@@ -46,6 +46,7 @@ public class TranslateService(TextTranslationClient client)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("Translate: API error — {Error}", ex.Message);
 			return Errors.Translate.ApiError(ex.Message);
 		}
 	}

@@ -18,14 +18,22 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			messageTemplate: "YouTube.SortPlaylist"
 		);
 
+		var sortSw = System.Diagnostics.Stopwatch.StartNew();
+		Telemetry.Verbose("SortPlaylist started for {PlaylistId}", playlistId);
+
 		const int maxPasses = 3;
 		var totalRepositioned = 0;
 
 		for (var pass = 0; pass < maxPasses; pass++)
 		{
+			var passSw = System.Diagnostics.Stopwatch.StartNew();
+
 			ErrorOr<SortPassResult> passResult = await FetchPlaylistItemsAsync(playlistId, ct)
 				.Then(ComputeSortPlan)
 				.ThenAsync(plan => ExecuteSortPlanAsync(plan, ct));
+
+			passSw.Stop();
+			Telemetry.Verbose("Pass {Pass} completed in {ElapsedMs}ms", pass + 1, passSw.ElapsedMilliseconds);
 
 			if (passResult.IsError)
 			{
@@ -41,10 +49,11 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			totalRepositioned += result.Successes;
 
 			Telemetry.Debug(
-				"YouTube.SortPlaylist pass {Pass}: {Successes} updated, {Failures} failed",
+				"YouTube.SortPlaylist pass {Pass}: {Successes} updated, {Failures} failed in {ElapsedMs}ms",
 				pass + 1,
 				result.Successes,
-				result.Failures
+				result.Failures,
+				passSw.ElapsedMilliseconds
 			);
 
 			if (result.Failures > 0)
@@ -70,9 +79,11 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			ct
 		);
 		activity.Complete();
+		sortSw.Stop();
 		Telemetry.Info(
-			"YouTube.SortPlaylist complete — {Repositioned} repositioned, new ETag: {ETag}",
+			"YouTube.SortPlaylist complete — {Repositioned} repositioned in {ElapsedMs}ms, new ETag: {ETag}",
 			totalRepositioned,
+			sortSw.ElapsedMilliseconds,
 			finalSummary?.ETag ?? "unknown"
 		);
 		var etag = finalSummary?.ETag ?? "";
@@ -84,13 +95,18 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		CancellationToken ct
 	)
 	{
+		var fetchSw = System.Diagnostics.Stopwatch.StartNew();
 		try
 		{
 			IList<PlaylistItem> items = await playlistService.GetPlaylistItemsAsync(playlistId, ct);
+			fetchSw.Stop();
+			Telemetry.Verbose("Fetched {Count} items in {ElapsedMs}ms", items.Count, fetchSw.ElapsedMilliseconds);
 			return items.ToList();
 		}
 		catch (Exception ex)
 		{
+			fetchSw.Stop();
+			Telemetry.Verbose("Fetch failed in {ElapsedMs}ms: {Error}", fetchSw.ElapsedMilliseconds, ex.Message);
 			return Errors.YouTube.ApiError(ex.Message);
 		}
 	}
@@ -106,7 +122,11 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		var currentOrder = items.OrderBy(i => i.Snippet.Position ?? 0).ToList();
 		var permutation = currentOrder.Select(item => targetRank[item.Id]).ToArray();
 
+		var lisSw = System.Diagnostics.Stopwatch.StartNew();
 		List<int> lisCurrentIndices = LongestIncreasingSubsequence(permutation);
+		lisSw.Stop();
+		Telemetry.Verbose("LIS computed in {ElapsedMs}ms for {Count} items", lisSw.ElapsedMilliseconds, permutation.Length);
+
 		var keptIds = lisCurrentIndices.Select(i => currentOrder[i].Id).ToHashSet();
 
 		List<PlaylistUpdate> updates = [];
@@ -148,7 +168,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 
 			item.Snippet.Position = newPosition;
 
-			Telemetry.Debug(
+			Telemetry.Verbose(
 				"Updating item {Index}/{Total}: ItemId={ItemId}, NewPos={NewPos}",
 				i + 1,
 				plan.Updates.Count,
@@ -156,15 +176,25 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 				newPosition
 			);
 
+			if ((i + 1) % 25 == 0 || i == plan.Updates.Count - 1)
+			{
+				var avgMs = (double)(successes + failures) / (i + 1) * 1000;
+				Telemetry.Debug(
+					"Sort progress: {Current}/{Total} ({Percent}%) — avg {AvgMs:F0}ms/item",
+					i + 1,
+					plan.Updates.Count,
+					(i + 1) * 100 / plan.Updates.Count,
+					avgMs
+				);
+			}
+
 			try
 			{
+				var sw = System.Diagnostics.Stopwatch.StartNew();
 				await yt.PlaylistItems.Update(item, "snippet").ExecuteAsync(ct);
+				sw.Stop();
+				Telemetry.Verbose("API call completed in {ElapsedMs}ms", sw.ElapsedMilliseconds);
 				successes++;
-				Telemetry.Debug(
-					"Successfully updated ItemId={ItemId} to position {Position}",
-					itemId,
-					newPosition
-				);
 			}
 			catch (Exception ex)
 			{

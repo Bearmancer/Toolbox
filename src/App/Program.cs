@@ -33,9 +33,7 @@ internal static class Program
 
 		if (!File.Exists(envPath))
 		{
-			await Console.Error.WriteLineAsync(
-				$".env not found at {envPath}. Create one at the repo root with all required keys."
-			);
+			Telemetry.Error(".env not found at {Path}. Create one at the repo root with all required keys.", envPath);
 			return 2;
 		}
 
@@ -44,7 +42,9 @@ internal static class Program
 		Trace.Listeners.Add(new SerilogTraceListener());
 
 		await Telemetry.Configure(
-			args.Contains("--verbose") ? LogEventLevel.Debug : LogEventLevel.Information
+			args.Contains("--diagnostic") ? LogEventLevel.Verbose
+			: args.Contains("--verbose") ? LogEventLevel.Debug
+			: LogEventLevel.Information
 		);
 
 		var services = new ServiceCollection();
@@ -53,6 +53,7 @@ internal static class Program
 		{
 			services.AddAzureServices();
 			await services.AddGoogleServicesAsync();
+			services.AddLastFmServices();
 			services.AddLastFmServices();
 		}
 		catch (InvalidOperationException ex)

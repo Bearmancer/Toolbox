@@ -51,7 +51,10 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 
 	private async Task<ErrorOr<string>> ExecuteHttpRequestAsync(string url, CancellationToken ct)
 	{
+		var httpSw = System.Diagnostics.Stopwatch.StartNew();
 		using HttpResponseMessage response = await Client.GetAsync(url, ct);
+		httpSw.Stop();
+		Telemetry.Verbose("HTTP GET completed in {ElapsedMs}ms (status={StatusCode})", httpSw.ElapsedMilliseconds, (int)response.StatusCode);
 
 		if (response.StatusCode == HttpStatusCode.TooManyRequests)
 		{
@@ -65,13 +68,22 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 		}
 
 		response.EnsureSuccessStatusCode();
-		return await response.Content.ReadAsStringAsync(cancellationToken: ct);
+
+		var readSw = System.Diagnostics.Stopwatch.StartNew();
+		var content = await response.Content.ReadAsStringAsync(cancellationToken: ct);
+		readSw.Stop();
+		Telemetry.Verbose("Read response body in {ElapsedMs}ms ({Bytes} bytes)", readSw.ElapsedMilliseconds, content.Length);
+
+		return content;
 	}
 
 	private static ErrorOr<JsonElement> ParseJsonResponse(string json)
 	{
+		var parseSw = System.Diagnostics.Stopwatch.StartNew();
 		using var doc = JsonDocument.Parse(json);
 		JsonElement root = doc.RootElement;
+		parseSw.Stop();
+		Telemetry.Verbose("JSON parsed in {ElapsedMs}ms", parseSw.ElapsedMilliseconds);
 
 		if (root.TryGetProperty("error", out JsonElement errorElement))
 		{
@@ -91,6 +103,8 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 
 	private static ErrorOr<FetchPageResult> ExtractTracks(JsonElement root)
 	{
+		var extractSw = System.Diagnostics.Stopwatch.StartNew();
+
 		if (!root.TryGetProperty("recenttracks", out JsonElement recenttracks))
 			return Errors.LastFm.MalformedResponse;
 
@@ -115,6 +129,9 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 			&& attrElement.TryGetProperty("totalPages", out JsonElement totalPagesEl)
 		)
 			totalPages = int.Parse(totalPagesEl.GetString() ?? "1");
+
+		extractSw.Stop();
+		Telemetry.Verbose("Extracted {Count} tracks in {ElapsedMs}ms", scrobbles.Count, extractSw.ElapsedMilliseconds);
 
 		return new FetchPageResult(scrobbles, totalPages);
 	}

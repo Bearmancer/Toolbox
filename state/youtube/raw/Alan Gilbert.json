@@ -1,117 +1,12 @@
 [
   {
     "ContentDetails": {
-      "VideoId": "mMQ8MjUze-M",
-      "VideoPublishedAtRaw": "2025-07-02T09:47:12Z",
-      "VideoPublishedAtDateTimeOffset": "2025-07-02T09:47:12+00:00",
-      "VideoPublishedAt": "2025-07-02T15:17:12+05:30"
-    },
-    "ETag": "1LQU7_BvLkzyx2lbCmqI8gM_p0k",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40OTQ5QjlEMDgzN0FBNUIw",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Gershwin: Concerto in F\n00:00                     2. Adagio - Andante con moto (D-flat major)\n12:25                     3. Allegro agitato\n                                    Jean-Yves Thibaudet, piano\n                                    Alan Gilbert, conductor\n                                   New York Philharmonic Orchestras\nLincoln Center - Avery Fisher Hall  (12/31/11)\n\nMy daughter (https://youtu.be/P84gnHSNDbw?si=4bj99Y2768fjIb8R) lives on the 12th floor of the Whitehall Building overlooking Broadway Ave.  Gershwin lived 2 floors directly above her apartment in the \u0022Penthouse,\u0022 and she absolutely swears that she hears the faintest of \u0022Concerto in F\u0022 echoes, which he composed there, drifting through the ceiling!",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 0,
-      "PublishedAtRaw": "2025-10-02T07:09:05Z",
-      "PublishedAtDateTimeOffset": "2025-10-02T07:09:05+00:00",
-      "PublishedAt": "2025-10-02T12:39:05+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "mMQ8MjUze-M"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/mMQ8MjUze-M/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/mMQ8MjUze-M/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/mMQ8MjUze-M/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/mMQ8MjUze-M/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "2/2 Gershwin: Concerto in F Jean-Yves Thibaudet, Alan Gilbert, NY Phil - 2011 New Year\u0027s Eve Concert",
-      "VideoOwnerChannelId": "UCtdJVMoDRxtSwZNrDPcN6og",
-      "VideoOwnerChannelTitle": "Marlin Owen"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "YD6oFmtLvbw",
-      "VideoPublishedAtRaw": "2022-10-04T11:00:15Z",
-      "VideoPublishedAtDateTimeOffset": "2022-10-04T11:00:15+00:00",
-      "VideoPublishedAt": "2022-10-04T16:30:15+05:30"
-    },
-    "ETag": "K0jrAnCPTCZGs1wIQ_KDMRad328",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41OURENDc2NEM1MDI5Mjky",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "00:00 I - Allegro con brio\n11:12 II - Adagio\n21:57 III - Allegretto grazioso - Molto vivace\n27:52 IV - Allegro ma non troppo\n\n[KBS\uAD50\uD5A5\uC545\uB2E8 \uC81C780\uD68C \uC815\uAE30\uC5F0\uC8FC\uD68C]\n\u25B6 \uCD9C\uC5F0 : \uC568\uB7F0 \uAE38\uBC84\uD2B8(\uC9C0\uD718)\n\u25B6 \uC77C\uC2DC \uBC0F \uC7A5\uC18C : 2022\uB144 7\uC6D4 30\uC77C(\uD1A0) 11:30 / \uB86F\uB370\uCF58\uC11C\uD2B8\uD640\n\u25B6 \uD504\uB85C\uADF8\uB7A8 : \uB4DC\uBCF4\uB974\uC790\uD06C / \uAD50\uD5A5\uACE1 \uC81C8\uBC88 G\uC7A5\uC870, \uC791\uD48888\n\n[KBSSO The 778th Subscription Concert]\n\u25B6 Artists : Alan Gilbert(Cond)\n\u25B6 Date and Venue : Jul. 30th(Sat), 2022, 11:30 / Lotte Concert Hall\n\u25B6 Program : A. Dvo\u0159\u00E1k / Symphony No.8 in G Major, Op.88, B.163",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 1,
-      "PublishedAtRaw": "2025-06-06T11:09:26Z",
-      "PublishedAtDateTimeOffset": "2025-06-06T11:09:26+00:00",
-      "PublishedAt": "2025-06-06T16:39:26+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "YD6oFmtLvbw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "[\uAD11\uACE0\uC5C6\uC74C] A. Dvo\u0159\u00E1k / Symphony No.8 in G Major, Op.88, B.163 \uC568\uB7F0 \uAE38\uBC84\uD2B8 \uC9C0\uD718 Alan Gilbert",
-      "VideoOwnerChannelId": "UCUqNn2bpiOC6JPhMcf6wRYw",
-      "VideoOwnerChannelTitle": "KBS\uAD50\uD5A5\uC545\uB2E8"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "Dfx_7UYq-G8",
       "VideoPublishedAtRaw": "2016-08-18T22:39:05Z",
       "VideoPublishedAtDateTimeOffset": "2016-08-18T22:39:05+00:00",
       "VideoPublishedAt": "2016-08-19T04:09:05+05:30"
     },
-    "ETag": "w0phlcrl7jG5katZ31EdOJFHdYg",
+    "ETag": "wRcviYDMlCsuj1EbNYip6He02UE",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi43QzNCNkZENzIyMDY2MjZB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -119,7 +14,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Music Academy of the West is among the nation\u2019s preeminent summer schools and festivals for gifted young classically trained musicians. At its ocean-side campus in Santa Barbara, the Academy provides these musicians with the opportunity for advanced study and performance under the guidance of internationally renowned faculty artists, guest conductors, and soloists. Admission to the Academy is strictly merit based, and fellows receive full scholarships (tuition, room, and board). The Academy\u2019s distinguished teaching artists roster has included famed soprano Lotte Lehmann, composers Darius Milhaud and Arnold Schoenberg, cellist Gregor Piatigorsky, pianist Jeremy Denk, and current Voice Program Director Marilyn Horne. Academy alumni are members of major symphony orchestras, chamber orchestras, ensembles, opera companies, and university and conservatory faculties throughout the world. Many enjoy careers as prominent solo artists. In 2014 the Music Academy entered into a four-year partnership with the New York Philharmonic, resulting in unprecedented training and performance opportunities for Academy fellows, and Summer Festival residencies for Philharmonic musicians. The Music Academy of the West cultivates discerning, appreciative, and adventurous audiences, presenting more than 200 public events annually, nearly half of them free of charge. These include performances by faculty, visiting artists, and fellows; masterclasses; orchestra and chamber music concerts; and a fully staged opera. The 2016 Summer School and Festival took place from June 13 to August 6 at the Academy\u2019s scenic Miraflores campus and in venues throughout Santa Barbara. For more information, visit musicacademy.org.",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 2,
+      "Position": 0,
       "PublishedAtRaw": "2025-06-06T11:12:54Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:12:54+00:00",
       "PublishedAt": "2025-06-06T16:42:54+05:30",
@@ -166,7 +61,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-11-16T19:06:23+00:00",
       "VideoPublishedAt": "2019-11-17T00:36:23+05:30"
     },
-    "ETag": "hQmEC_sLneyjmkVZh-OXmmWW7p4",
+    "ETag": "1p1TdQMM-VjCLpgodjeWH1RmeRE",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi42RTNCOEMxREI3Q0VDMjU2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -174,7 +69,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Vivaldis \u0022Vier Jahreszeiten\u0022 werden zu \u0022For Seasons\u0022: Alan Gilbert (Leitung), Roland Greutter (Violine) und Musiker des NDR Elbphilharmonie Orchesters machen die Klimakrise h\u00F6rbar. Ein Konzertmitschnitt aus der Elbphilharmonie.\n\nDas Projekt: https://www.forseasonsbydata.com/\nWebseite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 3,
+      "Position": 1,
       "PublishedAtRaw": "2025-06-06T11:12:21Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:12:21+00:00",
       "PublishedAt": "2025-06-06T16:42:21+05:30",
@@ -216,7 +111,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-10-16T06:00:02+00:00",
       "VideoPublishedAt": "2019-10-16T11:30:02+05:30"
     },
-    "ETag": "Rqe8mGxsvQr8B0cr2UXnSONzAAQ",
+    "ETag": "Cl3SBeR6AkTnMVD-hqaF7wHCIH4",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40MDNEMzA0QTBFRThFMzBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -224,7 +119,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Alan Gilbert dirigiert Beethoven   Mit Carolin Widmann und dem NDR Elbphilharmonie Orchester",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 4,
+      "Position": 2,
       "PublishedAtRaw": "2025-06-06T11:12:03Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:12:03+00:00",
       "PublishedAt": "2025-06-06T16:42:03+05:30",
@@ -271,7 +166,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-08-16T12:03:19+00:00",
       "VideoPublishedAt": "2024-08-16T17:33:19+05:30"
     },
-    "ETag": "SrWQKlM-MaAa1SGJv7GqKcYi5lo",
+    "ETag": "77kRARaTdpjQ9xsty2ARXBnfCV4",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41NTZEOThBNThFOUVGQkVB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -279,7 +174,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester spielt Anton\u00EDn Dvo\u0159\u00E1ks Sinfonie Nr. 9 op. 95 \u0022Aus der Neuen Welt\u0022. Chefdirigent Alan Gilbert leitet das Saisonabschlusskonzert 2023/2024. \r\n\r\nEin Konzertausschnitt vom 29. Juni 2024 aus der Elbphilharmonie Hamburg.\r\n\r\nANTON\u00CDN DVOR\u00C1K\r\nSinfonie Nr. 9 op. 95 \u0022Aus der Neuen Welt\u0022  00:00\r\nI. Adagio - Allegro molto  00:19\r\nII. Largo 10:10\r\nIII. Scherzo. Molto vivace  22:45\r\nIV. Allegro con fuoco  30:36\r\n\r\nAlan Gilbert, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nWeitere Informationen:\r\nWebsite: https://www.ndr.de/eo\u200B\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\nInstagram: https://www.instagram.com/ndr.eo/\r\n\r\n#NDRElbphilharmonieOrchester #AlanGilbert #AntoninDvorak",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 5,
+      "Position": 3,
       "PublishedAtRaw": "2025-06-06T11:08:10Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:08:10+00:00",
       "PublishedAt": "2025-06-06T16:38:10+05:30",
@@ -321,7 +216,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-07-15T09:01:06+00:00",
       "VideoPublishedAt": "2022-07-15T14:31:06+05:30"
     },
-    "ETag": "ayf6ZViYEoxQ327X47c5bJiVQtE",
+    "ETag": "-LYrFUIe6BxEJcGV0aZO9zBEG6s",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40QTA3NTU2RkM1QzlCMzYx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -329,7 +224,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester spielt unter der Leitung von Chefdirigent Alan Gilbert Samuel Barbers \u0022Essay for Orchestra\u0022. Die Musikerinnen und Musiker interpretieren das Orchesterwerk in einem Satz im Rahmen des Festivals \u0022Age of Anxiety\u0022. Ein Ausschnitt aus dem Konzert vom 12. Februar 2022 in der Elbphilharmonie Hamburg.\r\n\r\nSAMUEL BARBER \r\nFirst Essay for Orchestra op. 12\r\n\r\nAlan Gilbert, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nEin Ausschnitt aus dem Konzert im Rahmen des Festivals \u0022Age of Anxiety\u0022 am 12. Februar 2022, Elbphilharmonie Hamburg\r\n\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\nInstagram: https://www.instagram.com/ndr.eo/\r\n\r\n#ndrelbphilharmonieorchester #ageofanxiety #samuelbarber",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 6,
+      "Position": 4,
       "PublishedAtRaw": "2024-12-11T22:41:37Z",
       "PublishedAtDateTimeOffset": "2024-12-11T22:41:37+00:00",
       "PublishedAt": "2024-12-12T04:11:37+05:30",
@@ -371,7 +266,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-10-02T15:05:42+00:00",
       "VideoPublishedAt": "2024-10-02T20:35:42+05:30"
     },
-    "ETag": "0IWH56HoWVyRY4HMezdngu4LLzc",
+    "ETag": "a0sxJ_RqQYH69IkFXYHCRg5hC_8",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zMEQ1MEIyRTFGNzhDQzFB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -379,7 +274,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "B\u00E9la Bart\u00F3ks Divertimento f\u00FCr Streichorchester, gespielt vom NDR Elbphilharmonie Orchester unter Leitung von Chefdirigent Alan Gilbert  Eine Aufzeichnung vom Festival  \u0022Kosmos Bart\u00F3k\u0022 am 2. Februar 2024 aus der Elbphilharmonie Hamburg.\n\nB\u00E9la Bart\u00F3k - Divertimento f\u00FCr Streichorchester Sz 113\n\n00:00:00 I. Allegro non troppo\n00:09:53 II. Molto adagio   \n00:18:50 III. Allegro assai   \n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 7,
+      "Position": 5,
       "PublishedAtRaw": "2025-06-06T11:07:56Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:07:56+00:00",
       "PublishedAt": "2025-06-06T16:37:56+05:30",
@@ -421,7 +316,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-10-17T13:31:25+00:00",
       "VideoPublishedAt": "2024-10-17T19:01:25+05:30"
     },
-    "ETag": "3UBQ-UqVerzoUOPaW3OokTL-yBw",
+    "ETag": "IXfMJq98OI2qRQWC_iCqP3CNSLk",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41QUZGQTY5OTE4QTREQUU4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -429,7 +324,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester er\u00F6ffnet unter der Leitung von Chefdirigent Alan Gilbert das Festival \u0022Kosmos Bart\u00F3k\u0022 mit dem ber\u00FChmten \u0022Konzert f\u00FCr Orchester\u0022, das B\u00E9la Bart\u00F3k im Jahr 1943 in den USA im Exil schrieb. Eine Aufzeichnung vom 2. Februar 2024 aus der Elbphilharmonie Hamburg.\n\nB\u00E9la Bart\u00F3k - Konzert f\u00FCr Orchester Sz 116\n\n00:00:00 I. Introduzione (Andante non troppo - Allegro vivace)\n00:10:20 II. Giuoco delle coppie (Allegretto scherzando)  \n00:17:00 III. Elegia (Andante non troppo)  \n00:24:20 IV. Intermezzo interrotto. (Allegretto)  \n00:28:50 V. Finale. (Pesante - Presto)  \n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 8,
+      "Position": 6,
       "PublishedAtRaw": "2024-11-04T19:02:19Z",
       "PublishedAtDateTimeOffset": "2024-11-04T19:02:19+00:00",
       "PublishedAt": "2024-11-05T00:32:19+05:30",
@@ -471,7 +366,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-08-05T09:45:23+00:00",
       "VideoPublishedAt": "2024-08-05T15:15:23+05:30"
     },
-    "ETag": "frZj6c2M7vc89_Vfnb0m45nHpe0",
+    "ETag": "l4ewnySHrD8b0gKOVn4r3YjQ8TE",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4xNjIyNEE0MDEyRDlCMjBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -479,7 +374,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester spielt Bed\u0159ich Smetanas Sinfonische Dichtung \u0022Vy\u0161ehrad\u0022 aus dem Zyklus \u0022Mein Vaterland\u0022. Chefdirigent Alan Gilbert leitet das Saisonabschlusskonzert 2023/2024. \n\nEin Konzertausschnitt vom 29. Juni 2024 aus der Elbphilharmonie Hamburg.\n\nBED\u0158ICH SMETANA\nVy\u0161ehrad - Sinfonische Dichtung Nr. 1 aus \u0022Mein Vaterland\u0022\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nWeitere Informationen:\nWebsite: https://www.ndr.de/eo\u200B\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo/\n\n#NDRElbphilharmonieOrchester #AlanGilbert #BedrichSmetana",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 9,
+      "Position": 7,
       "PublishedAtRaw": "2025-06-06T11:16:48Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:16:48+00:00",
       "PublishedAt": "2025-06-06T16:46:48+05:30",
@@ -516,12 +411,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "PtYi-506zSo",
+      "VideoPublishedAtRaw": "2026-06-15T12:00:16Z",
+      "VideoPublishedAtDateTimeOffset": "2026-06-15T12:00:16+00:00",
+      "VideoPublishedAt": "2026-06-15T17:30:16+05:30"
+    },
+    "ETag": "a06xKlqfij9hHOnbTpR6mTvGZd4",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5BRDg1NUY1OTY2QzgzOEM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethovens Sinfonie Nr. 3 Es-Dur op. 55 \u0022Eroica\u0022, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Alan Gilbert. Live aufgezeichnet am 4. Februar 2026 in der Elbphilharmonie Hamburg.\n\n00:00 Start\n00:23 I. Allegro con brio\n18:03 II. Marcia funebre. Adagio assai\n33:25 III. Scherzo. Allegro vivace - Trio\n39:18 IV. Finale. Allegro molto - Poco andante - Presto\n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Leitung\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 8,
+      "PublishedAtRaw": "2026-06-15T12:45:14Z",
+      "PublishedAtDateTimeOffset": "2026-06-15T12:45:14+00:00",
+      "PublishedAt": "2026-06-15T18:15:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "PtYi-506zSo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Sinfonie Nr. 3 Es-Dur op. 55 \u0022Eroica\u0022 | Alan Gilbert | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "TtKvazBwlbQ",
       "VideoPublishedAtRaw": "2023-03-17T13:46:16Z",
       "VideoPublishedAtDateTimeOffset": "2023-03-17T13:46:16+00:00",
       "VideoPublishedAt": "2023-03-17T19:16:16+05:30"
     },
-    "ETag": "9iCg-4_2lh7LMS_2-PZnxQdiFqY",
+    "ETag": "ADeo04SMh_aQ7Z1dUqvty4OQ-gM",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4wNEU1MTI4NkZEMzVBN0JF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -529,7 +479,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester unter Leitung von Chefdirigent Alan Gilbert spielt Beethovens 7. Sinfonie. Eine Aufzeichnung aus der Elbphilharmonie Hamburg vom 26. September 2019.\r\n\r\nLudwig van Beethoven - Sinfonie Nr. 7 in A-Dur op. 92 \r\n\r\n00:01:11\u2219I. Poco sostenuto \u2013 Vivace  \r\n00:15:30 II. Allegretto   \u2219\r\n00:24:02 III. Presto  \u2219\r\n00:32:42 IV. Allegro con brio   \u2219\r\n\r\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 10,
+      "Position": 9,
       "PublishedAtRaw": "2025-06-06T11:08:54Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:08:54+00:00",
       "PublishedAt": "2025-06-06T16:38:54+05:30",
@@ -571,7 +521,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-06-21T07:00:11+00:00",
       "VideoPublishedAt": "2024-06-21T12:30:11+05:30"
     },
-    "ETag": "xdMfTD02L6jY6gke1M-n3jKF_JQ",
+    "ETag": "V00KEYLM0of5rThRhCDjKpn6Iwg",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi43NERCMDIzQzFBMERCMEE3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -579,7 +529,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Beethovens imposante Neunte Sinfonie, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Chefdirigent Alan Gilbert.Ihr furioses Finale gipfelt in Friedrich Schillers Versen \u0022Alle Menschen werden Br\u00FCder\u0022 - dieses wird vom Rundfunkchor Berlin sowie hochkar\u00E4tigen Solistinnen und Solisten begleitet. Aufgezeichnet am 3. Mai 2024 in der Elbphilharmonie im Rahmen des Internationalen Musikfest Hamburg .\r\n\r\nLudwig van Beethoven - Sinfonie Nr. 9 d-Moll op. 125  \r\n\r\n00:00:00  I. Allegro ma non troppo e un poco maestoso \r\n00:14:30  II. Molto vivace - Presto - Molto vivace \r\n00:28:22  III. Adagio molto e cantabile - Andante moderato \r\n00:42:12  IV. Finale. Presto. Schlusschor \u00FCber Schillers Ode \u0022An die Freude\u0022  \r\n\r\nSusanna Philips, Sopran\r\nGerhild Romberger, Alt\r\nMaximilian Schmitt, Tenor\r\nMichael Nagy, Bariton\r\nRundfunkchor Berlin\r\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 11,
+      "Position": 10,
       "PublishedAtRaw": "2025-06-06T11:08:23Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:08:23+00:00",
       "PublishedAt": "2025-06-06T16:38:23+05:30",
@@ -626,7 +576,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-23T08:55:26+00:00",
       "VideoPublishedAt": "2021-10-23T14:25:26+05:30"
     },
-    "ETag": "iILCd3PBq5ToTcJE1Xd4IKF1wiE",
+    "ETag": "hRyLMdwY94BLwE1ZHnPxZO_nRyo",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5FQUY2Qzk4RUFDN0ZFRkZF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -634,7 +584,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Beethoven \nEgmont Overture op 84\nAlan Gilbert NDR Elbphilharmonie",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 12,
+      "Position": 11,
       "PublishedAtRaw": "2025-06-06T11:15:55Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:15:55+00:00",
       "PublishedAt": "2025-06-06T16:45:55+05:30",
@@ -681,7 +631,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-12-21T01:55:31+00:00",
       "VideoPublishedAt": "2020-12-21T07:25:31+05:30"
     },
-    "ETag": "_Dtpd22n4Ds7xhMWjK6cq6-kJ0Q",
+    "ETag": "NA4B2Yc9XuJb2G3aUnj-4jmYD6Y",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi43MTI1NDIwOTMwQjIxMzNG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -689,7 +639,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "TMSO Special Concert in Osaka\nSun. 23 April 2017, at Festival Hall\nAlan GILBERT, Conductor\nTokyo Metropolitan Symphony Orchestra\n\nBeethoven: Overture to \u201CEgmont\u201D, op.84\u30000:00:39\uFF5E\n\n\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 \u5927\u962A\u7279\u5225\u516C\u6F14\n2017\u5E744\u670823\u65E5\uFF08\u65E5\uFF09\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u30DB\u30FC\u30EB\n\u6307\u63EE\uFF0F\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\n\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3\n\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u5287\u4ED8\u968F\u97F3\u697D\u300A\u30A8\u30B0\u30E2\u30F3\u30C8\u300B\u5E8F\u66F2 op.84\u30000:00:39\uFF5E\n\n\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\u304B\u3089\u306E\u30E1\u30C3\u30BB\u30FC\u30B8\nhttps://youtu.be/1U_fRb2f_6s\n\n*****************************************************************\n\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3\u306E\u516C\u5F0F\u30C1\u30E3\u30F3\u30CD\u30EB\u306B\u767B\u9332\u3092\u3057\u3088\u3046\uFF01\n\u4E3B\u8981\u306A\u6F14\u594F\u4F1A\u306E\u6620\u50CF\u3084\u3001\u697D\u5668\u306E\u4ED5\u7D44\u307F\u3092\u308F\u304B\u308A\u3084\u3059\u304F\u89E3\u8AAC\u3057\u305F\u52D5\u753B\u306A\u3069\u3001\n\u69D8\u3005\u306A\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u304A\u697D\u3057\u307F\u3044\u305F\u3060\u3051\u307E\u3059\u3002\nhttps://www.youtube.com/TMSOMovie\n****************************************************************\n\n#\u90FD\u97FF #\u30A2\u30E9\u30F3\u30AE\u30EB\u30D0\u30FC\u30C8 #\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 13,
+      "Position": 12,
       "PublishedAtRaw": "2023-11-19T13:22:45Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:22:45+00:00",
       "PublishedAt": "2023-11-19T18:52:45+05:30",
@@ -736,7 +686,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-17T09:10:39+00:00",
       "VideoPublishedAt": "2022-06-17T14:40:39+05:30"
     },
-    "ETag": "b_stUwoIfPGyLEKrBe0aSL-3mFM",
+    "ETag": "vR_NOqboBozMAXxVSyQvKRx6he0",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5DQUNERDQ2NkIzRUQxNTY1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -744,7 +694,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Beim Benefizkonzert von Bundespr\u00E4sident Frank-Walter Steinmeier spielt das NDR Elbphilharmonie Ludwig van Beethovens ber\u00FChmte Sinfonie Nr. 5 e-Moll op. 67. Am Pult steht Chefdirigent Alan Gilbert. Ein Ausschnitt aus dem Konzert vom 27. Februar 2022 in der Elbphilharmonie Hamburg.\n\nLUDWIG VAN BEETHOVEN\nSinfonie Nr. 5 c-Moll op. 67  00:00\nI. Allegro con brio  00:01\nII. Andante con moto  07:15\nIII. Allegro  16:27\nIV. Allegro  24:18\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nKonzertmitschnitt vom Benefizkonzert des Bundespr\u00E4sidenten am 27. Februar 2022, Elbphilharmonie Hamburg\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo/\n\n#ndrelbphilharmonieorchester #ludwigvanbeethoven #benefzkonzert",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 14,
+      "Position": 13,
       "PublishedAtRaw": "2023-11-19T13:17:21Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:17:21+00:00",
       "PublishedAt": "2023-11-19T18:47:21+05:30",
@@ -777,6 +727,61 @@
       "Title": "Beethoven: Sinfonie Nr. 5  c-Moll op. 67 | Alan Gilbert | NDR Elbphilharmonie Orchester",
       "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
       "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Kz03gZlp2UA",
+      "VideoPublishedAtRaw": "2022-12-16T07:00:06Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-16T07:00:06+00:00",
+      "VideoPublishedAt": "2022-12-16T12:30:06+05:30"
+    },
+    "ETag": "k83ioZOExF-zb0B6VQ7p37pcRx4",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi42NEZDNTU0RTRENDUzRjMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u3010Program Info\u3011\nBeethoven: Symphony No.7 in A major, op.92\n\nI Poco sostenuto - Vivace\u30000:00:02\uFF5E\nII Allegretto\u30000:12:09\uFF5E\nIII Presto\u30000:19:47\uFF5E\nIV Allegro con brio\u30000:28:12\uFF5E\n\nTMSO Special 2021(1/19)\nTue. 19 January 2021, at Tokyo Metropolitan Theatre\nEliahu INBAL, Conductor\nTokyo Metropolitan Symphony Orchestra\n\nFilming and Editing by fontec\n\n\u3010Now Open\u3011\nBeethoven: Symphony No.6, \u201CPastorale\u201D\nhttps://youtu.be/gI0xuWBLfNI\n\n\u3010FOLLOW TMSO\u3011\nX - http://twitter.com/tmsonews\nFacebook \u2013 http://www.facebook.com/TokyoMetropolitanSymphonyOrchestra\nInstagram \u2013 https://www.instagram.com/tmsonews/\n\n#TMSO #INBAL #Beethoven",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 14,
+      "PublishedAtRaw": "2026-06-12T02:23:57Z",
+      "PublishedAtDateTimeOffset": "2026-06-12T02:23:57+00:00",
+      "PublishedAt": "2026-06-12T07:53:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Kz03gZlp2UA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.7 / Eliahu INBAL / TMSO",
+      "VideoOwnerChannelId": "UCW-bv9InoF-XIztER3wv7jg",
+      "VideoOwnerChannelTitle": "\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 / Tokyo Metropolitan Symphony Orchestra"
     }
   },
   {
@@ -1466,12 +1471,60 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "mMQ8MjUze-M"
+    },
+    "ETag": "kxaxHeKtBOjX2oy7dVwxRK5CZbw",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40OTQ5QjlEMDgzN0FBNUIw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 28,
+      "PublishedAtRaw": "2025-10-02T07:09:05Z",
+      "PublishedAtDateTimeOffset": "2025-10-02T07:09:05+00:00",
+      "PublishedAt": "2025-10-02T12:39:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mMQ8MjUze-M"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "tfjmM1fFhhA"
+    },
+    "ETag": "HzXzlyBtvCbpvkEDWtJ93sTa5wQ",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5FRjdGNDMzN0I2RTI3MDlG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 29,
+      "PublishedAtRaw": "2025-08-09T22:06:57Z",
+      "PublishedAtDateTimeOffset": "2025-08-09T22:06:57+00:00",
+      "PublishedAt": "2025-08-10T03:36:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "tfjmM1fFhhA"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "WJfX0c6WB6M",
       "VideoPublishedAtRaw": "2024-08-30T07:17:42Z",
       "VideoPublishedAtDateTimeOffset": "2024-08-30T07:17:42+00:00",
       "VideoPublishedAt": "2024-08-30T12:47:42+05:30"
     },
-    "ETag": "DjM7ARMpPbZrfzlzjm6ISZax5fs",
+    "ETag": "YSUYXI9IVrxCgEI6f1zaBj9FyDU",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi44QTY2MEEzNzBFQUJCMUQ2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1479,7 +1532,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester spielt unter der Leitung von Chefdirigent Alan Gilbert Henri Dutilleux\u0027 \u0022M\u00E9taboles\u0022 bei der Opening Night 2003. Eine Aufzeichnung vom 1. September 2023 aus der Elbphilharmonie Hamburg.\n\nHenri Dutilleux - M\u00E9taboles\n\n00:00:00 I. Incantatoire  \n00:03:48 II. Lin\u00E9aire  \n00:06:55 III. Obsessionnel  \n00:11:16 IV. Torpide  \n00:13:37 V. Flamboyant  \n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 28,
+      "Position": 30,
       "PublishedAtRaw": "2025-06-06T11:16:55Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:16:55+00:00",
       "PublishedAt": "2025-06-06T16:46:55+05:30",
@@ -1521,7 +1574,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-01-29T10:16:56+00:00",
       "VideoPublishedAt": "2026-01-29T15:46:56+05:30"
     },
-    "ETag": "T_aihAhC0LW-_uhU61lGr9EYuQ0",
+    "ETag": "s9K2zdtAc1788Ji4RMivziMK7UQ",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi43RDg3MzJDMTRFMTZFOTAw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1529,7 +1582,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anton\u00EDn Dvo\u0159\u00E1ks Sinfonie Nr. 7, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Alan Gilbert. Ein Konzertausschnitt vom 9. Oktober 2025 aus der Elbphilharmonie Hamburg.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Sinfonie Nr. 7 d-Moll op 70\n\n00:00:00 I. Allegro maestoso\n00:11:47 II. Poco adagio\n00:21:35 III. Scherzo. Vivace - Poco meno mosso\n00:29:12 IV. Finale. Allegro\n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\nWer mehr wei\u00DF, h\u00F6rt auch mehr: Jetzt reinh\u00F6ren in die Folge \u0022Klassik to Go\u0022 zu Dvo\u0159\u00E1ks Siebter Sinfonie mit Julius Heile: https://www.ardaudiothek.de/episode/urn:ard:episode:597e770d3b7def15/\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten und aktuellen Livestreams und Mitschnitten gibt es unter \nhttps://www.ndr.de/orchester_chor/elbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 29,
+      "Position": 31,
       "PublishedAtRaw": "2026-01-31T09:28:18Z",
       "PublishedAtDateTimeOffset": "2026-01-31T09:28:18+00:00",
       "PublishedAt": "2026-01-31T14:58:18+05:30",
@@ -1576,7 +1629,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-04-01T07:48:46+00:00",
       "VideoPublishedAt": "2022-04-01T13:18:46+05:30"
     },
-    "ETag": "laAIFw-uIEuweC77UxZi3NrABzg",
+    "ETag": "U79GWs1zJMjgi2MM07p2byIp6zI",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40NzZCMERDMjVEN0RFRThB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1584,7 +1637,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Zum Jahreswechsel spielt das NDR Elbphilharmonie Orchester Anton\u00EDn Dvo\u0159\u00E1ks \u0022Karneval\u0022-Ouvert\u00FCre unter der Leitung von Chefdirigent Alan Gilbert. Eine Konzertaufzeichnung aus der Elbphilharmonie vom 31. Dezember 2021.\n\nANTON\u00CDN DVO\u0158\u00C1K\nKarneval - Konzertouvert\u00FCre op. 92\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nEin Mitschnitt aus der Elbphilharmonie Hamburg vom 31. Dezember 2021.\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #alangilbert #dvorak",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 30,
+      "Position": 32,
       "PublishedAtRaw": "2023-11-19T13:18:52Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:18:52+00:00",
       "PublishedAt": "2023-11-19T18:48:52+05:30",
@@ -1626,7 +1679,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-03-27T19:19:56+00:00",
       "VideoPublishedAt": "2020-03-28T00:49:56+05:30"
     },
-    "ETag": "VqfmYzItm6DHWdIMRl4BzgseELM",
+    "ETag": "A2fVR9ZtQ_7ZYwsIZb-5SSui-O0",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4yQUE2Q0JEMTk4NTM3RTZC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1634,7 +1687,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Enno Poppe: \u0022Schnur\u0022 f\u00FCr Violine und Orchester (world premiere, commissioned by the Beethovenfest Bonn, financed by the Ernst von Siemens Music Foundation)\n\n00:00 Schnur I\n08:58 Schnur II\n14:31 Schnur III\n\nCarolin Widmann, violin\nNDR Elbphilharmonie Orchester\nAlan Gilbert, conductor\nElbphilharmonie, Hamburg, Sep 2019",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 31,
+      "Position": 33,
       "PublishedAtRaw": "2023-11-19T13:23:11Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:23:11+00:00",
       "PublishedAt": "2023-11-19T18:53:11+05:30",
@@ -1681,7 +1734,7 @@
       "VideoPublishedAtDateTimeOffset": "2016-05-02T05:47:53+00:00",
       "VideoPublishedAt": "2016-05-02T11:17:53+05:30"
     },
-    "ETag": "LSl8sdWkFAKFUnCjCH9LeaQRGQk",
+    "ETag": "daYzjplEt1wZLy8g_AnueZG8Qok",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5EQkE3RTJCQTJEQkFBQTcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1689,7 +1742,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "-Video Upload powered by https://www.TunesToTube.com",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 32,
+      "Position": 34,
       "PublishedAtRaw": "2025-06-06T11:13:08Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:13:08+00:00",
       "PublishedAt": "2025-06-06T16:43:08+05:30",
@@ -1736,7 +1789,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-02-28T10:04:36+00:00",
       "VideoPublishedAt": "2022-02-28T15:34:36+05:30"
     },
-    "ETag": "mkfG9s3chhp2ZLuZm5K5RcaOrIo",
+    "ETag": "yJBCiF9ZLw2FD1nYdB_bnHR61sE",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5EMEEwRUY5M0RDRTU3NDJC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1744,7 +1797,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester und Chefdirigent Alan Gilbert er\u00F6ffnen die Elbphilharmonie-Saison 2021/2022 unter anderem mit Gershwins \u0022Ein Amerikaner in Paris\u0022. Was passiert, wenn ein Jazz-affiner New Yorker zu Gast in einer pulsierenden Metropole des \u0022Alten Europa\u0022 ist? \n\nEin Mitschnitt aus der Elbphilharmonie Hamburg vom September 2021.\n\nGEORGE GERSHWIN\nEin Amerikaner in Paris\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nElbphilharmonie Hamburg, 1. September 2021\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\n#ndrelbphilharmonieorchester #alangilbert #openingnight",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 33,
+      "Position": 35,
       "PublishedAtRaw": "2023-11-19T13:18:58Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:18:58+00:00",
       "PublishedAt": "2023-11-19T18:48:58+05:30",
@@ -1781,62 +1834,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "tfjmM1fFhhA",
-      "VideoPublishedAtRaw": "2025-07-02T10:11:48Z",
-      "VideoPublishedAtDateTimeOffset": "2025-07-02T10:11:48+00:00",
-      "VideoPublishedAt": "2025-07-02T15:41:48+05:30"
-    },
-    "ETag": "NdlaPwXWC7c-XWl_qbOLff_QRDw",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5FRjdGNDMzN0I2RTI3MDlG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Gershwin: Rhapsody in Blue \n                      Jean-Yves Thibaudet, piano\n                      Alan Gilbert, conductor\n                      New York Philharmonic Orchestra\n\nLincoln Center - Avery Fisher Hall (12/31/11)",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 34,
-      "PublishedAtRaw": "2025-08-09T22:06:57Z",
-      "PublishedAtDateTimeOffset": "2025-08-09T22:06:57+00:00",
-      "PublishedAt": "2025-08-10T03:36:57+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "tfjmM1fFhhA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/tfjmM1fFhhA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/tfjmM1fFhhA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/tfjmM1fFhhA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/tfjmM1fFhhA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Gershwin: Rhapsody in Blue - Jean-Yves Thibaudet, Alan Gilbert, NY Phil  2011 New Year\u0027s Eve Concert",
-      "VideoOwnerChannelId": "UCtdJVMoDRxtSwZNrDPcN6og",
-      "VideoOwnerChannelTitle": "Marlin Owen"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "CxKKyAh2Qpw",
       "VideoPublishedAtRaw": "2019-04-23T13:59:44Z",
       "VideoPublishedAtDateTimeOffset": "2019-04-23T13:59:44+00:00",
       "VideoPublishedAt": "2019-04-23T19:29:44+05:30"
     },
-    "ETag": "fE0bNRh3KK1R22rDkQSmIBUehTU",
+    "ETag": "H8Al_TX4UpT7eTer6-_BNXhpIEo",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi44Mjc5REFBRUE2MTdFRDU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1844,7 +1847,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "George Gershwin\u0027s Rhapsody in Blue, performed by\nMakoto Ozone (pf)\nNew York Philharmonic \nConductor Alan Gilbert\n\n\u2014\n\nThis is a reupload from the channel dondokodokodon (https://www.youtube.com/channel/UCa7oiH9K1aWscsS1NEIsrKQ), where this video was taken down by Naxos of America for copyright infringement.\n\nHowever, despite how easily they blocked the video, Naxos of America does not own the rights to this piece or this performance.\n\nTherefore, I have reuploaded the video for your (and my) enjoyment.",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 35,
+      "Position": 36,
       "PublishedAtRaw": "2023-11-19T13:24:17Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:24:17+00:00",
       "PublishedAt": "2023-11-19T18:54:17+05:30",
@@ -1891,7 +1894,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-04-11T08:09:12+00:00",
       "VideoPublishedAt": "2022-04-11T13:39:12+05:30"
     },
-    "ETag": "eETXOiArV67OH7dmjGsxxhvnoZo",
+    "ETag": "Wrn6UB02ok-9LBQdgAPLx4aXI-o",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5CNTZFOTNGQzZEODg1RUQx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1899,7 +1902,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Der japanische Jazzpianist Makoto Ozone spielt beim Silvesterkonzert mit dem NDR Elbphilharmonie Orchester George Gershwins \u0022Rhapsody in Blue\u0022. Am Pult: Chefdirigent Alan Gilbert. Eine Konzertaufzeichnung aus der Elbphilharmonie vom 31. Dezember 2021.\n\nGEORGE GERSHWIN\nRhapsody in Blue \n\nMakoto Ozone, Klavier\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nEin Mitschnitt aus der Elbphilharmonie Hamburg vom 31. Dezember 2021.\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #makotoozone #alangilbert #gershwin",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 36,
+      "Position": 37,
       "PublishedAtRaw": "2025-06-06T11:09:48Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:09:48+00:00",
       "PublishedAt": "2025-06-06T16:39:48+05:30",
@@ -1941,7 +1944,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-04-01T07:44:49+00:00",
       "VideoPublishedAt": "2020-04-01T13:14:49+05:30"
     },
-    "ETag": "R37IHn96zS5iLUiSzOLwoz_oa5A",
+    "ETag": "TU580rYFWcFOQ4JYxCDxyyghCCA",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5DQ0MyQ0Y4Mzg0M0VGOEYw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1949,7 +1952,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Alan Gilbert / NDR Sinfonieorchester Hamburg\n2005.4.22  Laeiszhalle",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 37,
+      "Position": 38,
       "PublishedAtRaw": "2023-11-19T13:23:08Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:23:08+00:00",
       "PublishedAt": "2023-11-19T18:53:08+05:30",
@@ -1996,7 +1999,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-05-05T08:12:50+00:00",
       "VideoPublishedAt": "2023-05-05T13:42:50+05:30"
     },
-    "ETag": "gg_IF2D8GlOd4Zp919EQ_Jo9C98",
+    "ETag": "e-zMja-ZAsen-TOc7WgL4lVye9A",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4xOTEzQzhBQzU3MDNDNjcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2004,7 +2007,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester interpretiert die \u0022Tragische Ouvert\u00FCre\u0022 von Johannes Brahms unter der Leitung von Chefdirigent Alan Gilbert. Ein Konzertausschnitt vom 4. November 2022 aus der Elbphilharmonie Hamburg.\n\nJOHANNES BRAHMS \nTragische Ouvert\u00FCre d-Moll op. 81\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo\n\n#ndrelbphilharmonieorchester #johannesbrahms #alangilbert",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 38,
+      "Position": 39,
       "PublishedAtRaw": "2024-12-11T22:43:25Z",
       "PublishedAtDateTimeOffset": "2024-12-11T22:43:25+00:00",
       "PublishedAt": "2024-12-12T04:13:25+05:30",
@@ -2046,7 +2049,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-02-16T08:00:19+00:00",
       "VideoPublishedAt": "2024-02-16T13:30:19+05:30"
     },
-    "ETag": "wPyCCNkI1sxAMoj7RRuilafttSU",
+    "ETag": "o_Lc7BUd3sixpDYM7KSlBnzVqI8",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zQzFBN0RGNzNFREFCMjBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2054,7 +2057,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester spielt unter der Leitung von Alan Gilbert eines seiner Paradest\u00FCcke: Brahms\u0027 Erste Sinfonie.\n\nEin Konzertausschnitt vom 26. Oktober 2023 in der Elbphilharmonie.\n\nJOHANNES BRAHMS\nSinfonie Nr. 1 c-Moll op. 68  00:00\nI. Un poco sostenuto - Allegro  00:01\nII. Andante sostenuto  13:40\nIII. Un poco allegretto e grazioso  22:50\nIV. Adagio - Pi\u00F9 Andante - Allegro non troppo, ma con brio  27:54\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nMehr Informationen:\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #ndreo #alangilbert #johannesbrahms",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 39,
+      "Position": 40,
       "PublishedAtRaw": "2024-12-11T22:43:44Z",
       "PublishedAtDateTimeOffset": "2024-12-11T22:43:44+00:00",
       "PublishedAt": "2024-12-12T04:13:44+05:30",
@@ -2096,7 +2099,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-02-27T13:14:14+00:00",
       "VideoPublishedAt": "2019-02-27T18:44:14+05:30"
     },
-    "ETag": "v6RyxArTacosMdBndvTxcv5n1Gc",
+    "ETag": "NWJpJEh0xF5yc4YKO6VrVEh9E4o",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi43NDhFRTgwOTRERTU4Rjg3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2104,7 +2107,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Im Rahmen ihrer Asien-Tournee 2018 verabschieden sich Alan Gilbert und das NDR Elbphilharmonie Orchester mit Johannes Brahms\u0027 Sinfonie Nr. 4 aus Tokio.\n\nJOHANNES BRAHMS\nSinfonie Nr. 4 e-Moll op. 98\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nKonzertmitschnitt vom 8. November 2018, NHK Hall, Tokio, Japan\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 40,
+      "Position": 41,
       "PublishedAtRaw": "2023-11-19T13:24:32Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:24:32+00:00",
       "PublishedAt": "2023-11-19T18:54:32+05:30",
@@ -2146,7 +2149,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-04-08T08:16:32+00:00",
       "VideoPublishedAt": "2022-04-08T13:46:32+05:30"
     },
-    "ETag": "J4KlRXpAQH2_nR1OAtk9hszKYh4",
+    "ETag": "ynjCgBNk8jL-af3kVu2BMJEEyrM",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5GNjNDRDREMDQxOThCMDQ2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2154,7 +2157,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Zum Jahresausklang spielt das NDR Elbphilharmonie Orchester John Adams\u0027 \u0022The Chairman Dances\u0022 unter der Leitung von Chefdirigent Alan Gilbert. Eine Konzertaufzeichnung aus der Elbphilharmonie vom 31. Dezember 2021.\n\nJOHN ADAMS\nThe Chairman Dances - Foxtrott f\u00FCr Orchester \n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nEin Mitschnitt aus der Elbphilharmonie Hamburg vom 31. Dezember 2021.\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #alangilbert #adams",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 41,
+      "Position": 42,
       "PublishedAtRaw": "2023-11-19T13:18:47Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:18:47+00:00",
       "PublishedAt": "2023-11-19T18:48:47+05:30",
@@ -2196,7 +2199,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-07-29T16:03:39+00:00",
       "VideoPublishedAt": "2021-07-29T21:33:39+05:30"
     },
-    "ETag": "p8xwY-KKrFhJaEFsOA9ajcOqSsE",
+    "ETag": "VhhjoVDB68JQtMxbPAdt8ReLv2k",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4xNTZBNUQxMDZBQzFGMjkw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2204,7 +2207,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Klassik am Odeonsplatz 2019 - First concert day\n\nPart I\n\n                     Pjotr Iljitsch Tschaikowsky\n[00:00:00] - Polonaise from the 3rd act of the opera Eugen Onegin\n\n                     Pjotr Iljitsch Tschaikowsky\n[00:05:34] - Tatjana\u0027s letter scene from the 1st act of the opera Eugen Onegin\n\n                     Erich Wolfgang Korngold\n[00:18:58] - Kathrin\u0027s letter scene from the 1st act of the opera Die Kathrin\n\n                     Leonard Bernstein\n[00:24:10] - Three dance episodes from the musical On the Town\n                     from it No. 2 Lonely Town, Pas de deux\n\n                     Friedrich von Flotow\n[00:27:15] - Tis the Last Rose of Summer - Folk song of Martha\n                     from the 1st act of the opera Martha or The Richmond Market\n\n                     Richard Rodgers - Oscar Hammerstein\n[00:31:48] - You\u0027ll never walk alone from the Musical Carousel\n\n                     George Gershwin\n[00:36:58] - Summertime from the opera Porgy and Bess\n\n                     Erich Wolfgang Korngold\n[00:40:34] - Gl\u00FCck das mir verblieb from the opera Die tote Stadt\n\nPart II\n\nPjotr Iljitsch Tschaikowsky\nSymphony No. 5 in E minor, op. 64\n\n[00:48:43] - 01. Movement: Andante - Allegro con anima - Molto pi\u00F9 tranquillo\n[01:03:31] - 02. Movement: Andante cantabile, con alcuna licenza\n[01:15:29] - 03. Movement: Valse. Allegro moderato\n[01:21:32] - 04. Movement: Finale. Andante maestoso - Allegro vivace - Meno mosso\n\nEncores\n\n[01:35:52] - Leonard Bernstein - Waltz from Divertimento for Orchestra\n[01:37:59] - Pjotr Iljitsch Tschaikowsky - Waltz from the opera Eugene Onegin\n\nRen\u00E9e Fleming, soprano\n\nBavarian Radio Symphony Orchestra\nAlan Gilbert, conductor\n\nRecorded live on 13.07.2019\nat the Odeonsplatz, Munich",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 42,
+      "Position": 43,
       "PublishedAtRaw": "2025-06-06T11:34:11Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:34:11+00:00",
       "PublishedAt": "2025-06-06T17:04:11+05:30",
@@ -2241,7 +2244,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-02-15T21:24:50+00:00",
       "VideoPublishedAt": "2022-02-16T02:54:50+05:30"
     },
-    "ETag": "D4HaH4hXtg4YKZdytwK6lDvwpg4",
+    "ETag": "WrjJKwpG9AE9v0zk3aSJFGSFOqA",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zMDg5MkQ5MEVDMEM1NTg2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2249,7 +2252,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Erich Wolfgang Korngold (1897 - 1957) - Violin Concerto in D major, Op. 35 (1945)\n1. Moderato nobile (00:33)\n2. Romanze (09:32)\n3. Allegro assai vivace (18:20)\nLeonidas Kavakos, violin\nAlan Gilber, conductor\nNDR Elbphilharmonie Orchestra",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 43,
+      "Position": 44,
       "PublishedAtRaw": "2023-11-19T13:20:21Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:20:21+00:00",
       "PublishedAt": "2023-11-19T18:50:21+05:30",
@@ -2296,7 +2299,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-02-13T13:24:09+00:00",
       "VideoPublishedAt": "2023-02-13T18:54:09+05:30"
     },
-    "ETag": "7UW75eiT9zEQTVpRr0ZsDcpuFe8",
+    "ETag": "n4rYmJzNjTuUGiqwxjhEbJigA9w",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5CNEYyNTVBNDdGMDI1MDNC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2304,7 +2307,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Alan Gilbert und das NDR Elbphilharmonie Orchester bringen Magnus Lindbergs \u0022Tempus fugit\u0022 als Videoproduktion zur Biennale \u0022Elbphilharmonie Visions\u0022 2021. Das Festival konnte in diesem Jahr aufgrund der Corona-Pandemie nur online stattfinden.\n\nHinweis: Das Video ist bis zum 29. September 2032 verf\u00FCgbar.\n\nMAGNUS LINDBERG\nTempus fugit\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nEine Videoproduktion f\u00FCr das \u0022Elbphilharmonie Visions\u0022-Festival 2021 in Kooperation mit HamburgMusik, M\u00E4rz 2021\n\nWeitere Informationen:\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #visions #lindberg",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 44,
+      "Position": 45,
       "PublishedAtRaw": "2025-08-23T11:32:10Z",
       "PublishedAtDateTimeOffset": "2025-08-23T11:32:10+00:00",
       "PublishedAt": "2025-08-23T17:02:10+05:30",
@@ -2351,7 +2354,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-09-21T11:08:41+00:00",
       "VideoPublishedAt": "2025-09-21T16:38:41+05:30"
     },
-    "ETag": "hpQBafek8hJ3kZS4dAja4VHLgrA",
+    "ETag": "z8_cXIkMyoTFQLuCJB5zGPH8oE0",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5CQzUwREI3MzkxQjdBM0E0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2359,7 +2362,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Jean Sibelius: Concerto for Violin and Orchestra in D minor, Op. 47 | Lisa Batiashvili, violin | New York Philharmonic | Conductor: Alan Gilbert | Recorded on 17 May 2011 at the Great Hall of the Musikverein in Vienna | Radio broadcast: \u00D61 Matinee, 22 May 2011, 11:03 a.m. | Photo credits: https://www.youtube.com/watch?v=vrIKvE1L4hk.",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 45,
+      "Position": 46,
       "PublishedAtRaw": "2025-10-02T07:13:17Z",
       "PublishedAtDateTimeOffset": "2025-10-02T07:13:17+00:00",
       "PublishedAt": "2025-10-02T12:43:17+05:30",
@@ -2397,61 +2400,6 @@
       "Title": "Lisa Batiashvili \u2013 Sibelius Violin Concerto (Live, Vienna 2011, New York Philharmonic, Alan Gilbert)",
       "VideoOwnerChannelId": "UC-S5gvBsBLQ_NYPEgpP3PXQ",
       "VideoOwnerChannelTitle": "KfjmIe02"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "2C2oMQhHhv0",
-      "VideoPublishedAtRaw": "2021-03-07T06:42:31Z",
-      "VideoPublishedAtDateTimeOffset": "2021-03-07T06:42:31+00:00",
-      "VideoPublishedAt": "2021-03-07T12:12:31+05:30"
-    },
-    "ETag": "IR4MIKFfwbj8EKX0I3FipQpvOSc",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5ERkUyQTM0MzEwQjZCMTY5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Liszt Tasso Lamento e Trionfo Alan Gilbert Philharmonique de Radio France",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 46,
-      "PublishedAtRaw": "2025-06-06T11:10:33Z",
-      "PublishedAtDateTimeOffset": "2025-06-06T11:10:33+00:00",
-      "PublishedAt": "2025-06-06T16:40:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "2C2oMQhHhv0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/2C2oMQhHhv0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/2C2oMQhHhv0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/2C2oMQhHhv0/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/2C2oMQhHhv0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/2C2oMQhHhv0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Liszt Tasso Lamento e Trionfo Alan Gilbert Philharmonique de Radio France",
-      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
-      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
     }
   },
   {
@@ -2566,36 +2514,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "k2QkJvw7wzY"
-    },
-    "ETag": "n8us6-iF_7Erpw-yYf-UVCuEKsU",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5EMUJFNzRCNDRFQjE5RjM4",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 49,
-      "PublishedAtRaw": "2025-09-18T23:20:31Z",
-      "PublishedAtDateTimeOffset": "2025-09-18T23:20:31+00:00",
-      "PublishedAt": "2025-09-19T04:50:31+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "k2QkJvw7wzY"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "rol7B-zyL8Y",
       "VideoPublishedAtRaw": "2023-01-01T05:36:48Z",
       "VideoPublishedAtDateTimeOffset": "2023-01-01T05:36:48+00:00",
       "VideoPublishedAt": "2023-01-01T11:06:48+05:30"
     },
-    "ETag": "_DLhF6Z6QZZ6jaDXmBwWrqwfWMQ",
+    "ETag": "LeT6QRzwFgzH7zZje_2QICEe6QE",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4yOTZGRTNEQ0ZGNUM5RDgw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2603,7 +2527,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Musikalische Party zum Jahreswechsel: Das NDR Elbphilharmonie Orchester unter Chefdirigent Alan Gilbert spielt das traditionelle Silvesterkonzert in der Elbphilharmonie. Sopranistin Julia Bullock singt Gershwin und Bonds. Ein Livemitschnitt aus der Elbphilharmonie Hamburg am 31. Dezember 2022.\n\n00:00:00 Richard Strauss - Suite aus: Der Rosenkavalier op. 59\n00:29:42 George Gershwin - \u0022Somebody from Somewhere\u0022 aus: Delicious\n00:33:41 Margaret Bonds - The Negro Speaks of Rivers\n00:38:27 George Gershwin - \u0022Summertime\u0022 aus: Porgy and Bess\n00:41:46 Margaret Bonds  - Winter Moon\n00:43:15 George Gershwin - \u0022Soon\u0022 aus: Strike Up the Band\n\nZugabe Julia Bullock:\n00:46:45 Leonard Bernstein - \u0022Somewhere\u0022 aus: West Side Story\n\n00:51:48 Lili Boulanger - D\u0027un matin de printemps\n00:58:17 Maurice Ravel - La valse\n\nOrchesterzugabe:\n01:14:06 Leonard Bernstein - Ouvert\u00FCre zum Musical \u0022Candide\u0022\n\nJulia Bullock, Sopran\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\nFotorechte: NDR / Allison Michael Orenstein\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 50,
+      "Position": 49,
       "PublishedAtRaw": "2025-10-02T07:14:39Z",
       "PublishedAtDateTimeOffset": "2025-10-02T07:14:39+00:00",
       "PublishedAt": "2025-10-02T12:44:39+05:30",
@@ -2650,7 +2574,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-01-02T01:44:15+00:00",
       "VideoPublishedAt": "2018-01-02T07:14:15+05:30"
     },
-    "ETag": "tUD1L6RO9irJIjouiirCI2ndQmY",
+    "ETag": "UAYnbNW9V85Qw5AeAf9C4-2RUas",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi42MjYzMTMyQjA0QURCN0JF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2658,7 +2582,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Gewandhausorchestra Leipzig",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 51,
+      "Position": 50,
       "PublishedAtRaw": "2025-06-06T11:11:45Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:11:45+00:00",
       "PublishedAt": "2025-06-06T16:41:45+05:30",
@@ -2705,7 +2629,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-06-10T09:15:17+00:00",
       "VideoPublishedAt": "2022-06-10T14:45:17+05:30"
     },
-    "ETag": "1Q4jhckwIiKjj-668tIu7idZRHo",
+    "ETag": "b8U-QphK_Ubyb1mCpYcj6aoCHww",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45NDk1REZENzhEMzU5MDQz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2713,7 +2637,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester spielt unter der Leitung von Chefdirigent Alan Gilbert Beethovens Ouvert\u00FCre zu \u0022Fidelio\u0022 op. 72. Ludwig van Beethoven schuf mit jener Oper ein musikalisches Mahnmal f\u00FCr politische Freiheit und gegen staatliche Willk\u00FCr - eine aktuelle und passende Botschaft beim Benefizkonzert von Bundespr\u00E4sident Frank-Walter Steinmeier in der Elbphilharmonie. Ein Ausschnitt aus dem Konzert vom 27. Februar 2022. \r\n\r\nLUDWIG VAN BEETHOVEN\r\nOuvert\u00FCre zu \u0022Fidelio\u0022 op. 72\r\n\r\nAlan Gilbert, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nKonzertmitschnitt vom Benefizkonzert des Bundespr\u00E4sidenten am 27. Februar 2022, Elbphilharmonie Hamburg\r\n\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\nInstagram: https://www.instagram.com/ndr.eo/\r\n\r\n#ndrelbphilharmonieorchester #ludwigvanbeethoven #benefizkonzert",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 52,
+      "Position": 51,
       "PublishedAtRaw": "2023-11-19T13:18:35Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:18:35+00:00",
       "PublishedAt": "2023-11-19T18:48:35+05:30",
@@ -2755,7 +2679,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-11-15T15:02:00+00:00",
       "VideoPublishedAt": "2025-11-15T20:32:00+05:30"
     },
-    "ETag": "T3bTajeVXzKqTV-IMi3AJs8iyrY",
+    "ETag": "-VUsnUJYKOXoeOnoZtYALzLhso4",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5BNzdEQzY0REQzQTEyN0U3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2763,7 +2687,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Gustav Mahlers Sinfonie Nr. 1 in D-Dur (\u0022Titan\u0022), aufgef\u00FChrt vom NDR Elbphilharmonie Orchester unter der Leitung von Alan Gilbert. Aufgezeichnet am 6. September 2025 in der Elbphilharmonie Hamburg.\n\nGustav Mahler - Sinfonie Nr. 1 D-Dur (\u0022Titan\u0022)\n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Leitung\n\n00:00:00 I. Langsam. Schleppend \u2013 Im Anfang sehr gem\u00E4chlich\n00:15:53 II. Kr\u00E4ftig bewegt, doch nicht zu schnell \u2013 Trio. Recht gem\u00E4chlich \u2013Tempo primo \n00:23:32 III. Feierlich und gemessen, ohne zu schleppen \u2013 Sehr einfach und schlicht wie eine Volksweise \u2013 Wieder etwas bewegter, wie am Anfang \n00:34:00 IV. St\u00FCrmisch bewegt\n\nWer mehr wei\u00DF, h\u00F6rt auch mehr: Jetzt reinh\u00F6ren in die Folge \u0022Klassik to Go\u0022 zu Mahlers Sinfonie Nr. 1 mit Julius Heile: https://www.ardaudiothek.de/episode/urn:ard:episode:ff2e0729e9d14689/\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 53,
+      "Position": 52,
       "PublishedAtRaw": "2025-11-18T17:26:43Z",
       "PublishedAtDateTimeOffset": "2025-11-18T17:26:43+00:00",
       "PublishedAt": "2025-11-18T22:56:43+05:30",
@@ -2799,6 +2723,56 @@
         }
       },
       "Title": "Mahler - Sinfonie Nr. 1 \u0022Titan\u0022 | Alan Gilbert | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "dx5aEeRewxA",
+      "VideoPublishedAtRaw": "2022-11-07T09:19:33Z",
+      "VideoPublishedAtDateTimeOffset": "2022-11-07T09:19:33+00:00",
+      "VideoPublishedAt": "2022-11-07T14:49:33+05:30"
+    },
+    "ETag": "7AgNiOKDUy0gyBwJtWN4kfclWu0",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zMUEyMkQwOTk0NTg4MDgw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Saisoner\u00F6ffnung des NDR Elbphilharmonie Orchesters 2022: Alan Gilbert dirigiert Gustav Mahlers monumentale Zweite Sinfonie, die sogenannte \u0022Auferstehungssinfonie\u0022. Es singen: Christina Nielsson und Sarah Connolly sowie der Berliner Rundfunkchor und das NDR Vokalensemble. \n\nEin Konzertmitschnitt vom 3. September 2022 aus der Elbphilharmonie Hamburg\n\nGUSTAV MAHLER\nSinfonie Nr. 2 c-Moll \u0022Auferstehungssinfonie\u0022  00:00\nI. Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck  00:03\nII. Andante moderato. Sehr gem\u00E4chlich! Nie eilen!  22:51\nIII. Scherzo. In ruhig flie\u00DFender Bewegung   32:41\nIV. \u0022Urlicht\u0022. Sehr feierlich, aber schlicht  43:27\n \u0022O R\u00F6schen rot!\u0022 (Mezzosopran)  \nV. Im Tempo des Scherzos \u2013 Langsam. Misterioso  48:36\n \u0022Aufersteh\u0027n, ja aufersteh\u0027n wirst du\u0022 (Sopran, Chor)\n \u0022Wieder aufzubl\u00FCh\u2019n, wirst du ges\u00E4t\u0022 (Sopran, Chor)\n \u0022O glaube, mein Herz!\u0022 (Mezzosopran, Sopran)\n\u0022Was entstanden ist, das muss vergehen!\u0022 (Chor, Mezzosopran)\n\u0022O Schmerz! Du Alldurchdringer!\u0022 (Mezzosopran, Sopran)\n \u0022Mit Fl\u00FCgeln, die ich mir errungen\u0022 (Chor)\n\nAlan Gilbert, Dirigent\nChristina Nilsson, Sopran\nSarah Connolly, Mezzosopran\nRundfunkchor Berlin\nNDR Vokalensemble\nNDR Elbphilharmonie Orchester\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo\n\n#ndrelbphilharmonieorchester #alangilbert #gustavmahler",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 53,
+      "PublishedAtRaw": "2025-06-06T11:09:13Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T11:09:13+00:00",
+      "PublishedAt": "2025-06-06T16:39:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "dx5aEeRewxA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler: Sinfonie Nr. 2 - \u0022Auferstehungssinfonie\u0022 | Alan Gilbert | NDR Elbphilharmonie Orchester",
       "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
       "VideoOwnerChannelTitle": "ARD Klassik"
     }
@@ -2855,62 +2829,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "dx5aEeRewxA",
-      "VideoPublishedAtRaw": "2022-11-07T09:19:33Z",
-      "VideoPublishedAtDateTimeOffset": "2022-11-07T09:19:33+00:00",
-      "VideoPublishedAt": "2022-11-07T14:49:33+05:30"
-    },
-    "ETag": "r8uNZPwhXiKxsfZj56_BUWuVlcA",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zMUEyMkQwOTk0NTg4MDgw",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Saisoner\u00F6ffnung des NDR Elbphilharmonie Orchesters 2022: Alan Gilbert dirigiert Gustav Mahlers monumentale Zweite Sinfonie, die sogenannte \u0022Auferstehungssinfonie\u0022. Es singen: Christina Nielsson und Sarah Connolly sowie der Berliner Rundfunkchor und das NDR Vokalensemble. \n\nEin Konzertmitschnitt vom 3. September 2022 aus der Elbphilharmonie Hamburg\n\nGUSTAV MAHLER\nSinfonie Nr. 2 c-Moll \u0022Auferstehungssinfonie\u0022  00:00\nI. Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck  00:03\nII. Andante moderato. Sehr gem\u00E4chlich! Nie eilen!  22:51\nIII. Scherzo. In ruhig flie\u00DFender Bewegung   32:41\nIV. \u0022Urlicht\u0022. Sehr feierlich, aber schlicht  43:27\n \u0022O R\u00F6schen rot!\u0022 (Mezzosopran)  \nV. Im Tempo des Scherzos \u2013 Langsam. Misterioso  48:36\n \u0022Aufersteh\u0027n, ja aufersteh\u0027n wirst du\u0022 (Sopran, Chor)\n \u0022Wieder aufzubl\u00FCh\u2019n, wirst du ges\u00E4t\u0022 (Sopran, Chor)\n \u0022O glaube, mein Herz!\u0022 (Mezzosopran, Sopran)\n\u0022Was entstanden ist, das muss vergehen!\u0022 (Chor, Mezzosopran)\n\u0022O Schmerz! Du Alldurchdringer!\u0022 (Mezzosopran, Sopran)\n \u0022Mit Fl\u00FCgeln, die ich mir errungen\u0022 (Chor)\n\nAlan Gilbert, Dirigent\nChristina Nilsson, Sopran\nSarah Connolly, Mezzosopran\nRundfunkchor Berlin\nNDR Vokalensemble\nNDR Elbphilharmonie Orchester\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo\n\n#ndrelbphilharmonieorchester #alangilbert #gustavmahler",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 55,
-      "PublishedAtRaw": "2025-06-06T11:09:13Z",
-      "PublishedAtDateTimeOffset": "2025-06-06T11:09:13+00:00",
-      "PublishedAt": "2025-06-06T16:39:13+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "dx5aEeRewxA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/dx5aEeRewxA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mahler: Sinfonie Nr. 2 - \u0022Auferstehungssinfonie\u0022 | Alan Gilbert | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "qN3Le-dmKiw",
       "VideoPublishedAtRaw": "2024-08-22T13:02:23Z",
       "VideoPublishedAtDateTimeOffset": "2024-08-22T13:02:23+00:00",
       "VideoPublishedAt": "2024-08-22T18:32:23+05:30"
     },
-    "ETag": "byiUqskVWCI-oYAA2mI7QnOwsFw",
+    "ETag": "b7GCHsrQXlCbY9rFsJsyqncuiGQ",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi42Qzk5MkEzQjVFQjYwRDA4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2918,7 +2842,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester und Chefdirigent Alan Gilbert er\u00F6ffnen gemeinsam mit Pianist Emanuel Ax das Schleswig-Holstein Musik Festival 2024 mit Mozarts Klavierkonzert in C-Dur und Mahlers F\u00FCnfter Sinfonie. Ein Konzertmitschnitt vom Er\u00F6ffnungskonzert Schleswig-Holstein Musik Festival vom 7. Juli 2024 in der Musik- und Kongresshalle in L\u00FCbeck.\n\nEr\u00F6ffnungskonzert des Schleswig-Holstein Musik Festivals 2024\n\n00:00:00 Wolfgang Amadeus Mozart - Klavierkonzert C-Dur KV 503  \n34:13:00 Gustav Mahler - Sinfonie Nr. 5 cis-Moll \n\nEmanuel Ax, Klavier\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 56,
+      "Position": 55,
       "PublishedAtRaw": "2025-06-06T11:08:06Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:08:06+00:00",
       "PublishedAt": "2025-06-06T16:38:06+05:30",
@@ -2955,36 +2879,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "s4a1fsxU-eI"
-    },
-    "ETag": "VXNE1mpUq3outqNrviEg7iDHQgM",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5GNzk2RTlDQTNCQzJCQzJG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 57,
-      "PublishedAtRaw": "2025-10-02T07:05:48Z",
-      "PublishedAtDateTimeOffset": "2025-10-02T07:05:48+00:00",
-      "PublishedAt": "2025-10-02T12:35:48+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "s4a1fsxU-eI"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "xAPJxYmK1U0",
       "VideoPublishedAtRaw": "2024-11-01T10:01:19Z",
       "VideoPublishedAtDateTimeOffset": "2024-11-01T10:01:19+00:00",
       "VideoPublishedAt": "2024-11-01T15:31:19+05:30"
     },
-    "ETag": "taYEQK0E8rORharLxvuMamOCiwk",
+    "ETag": "XNuHdMLoBJjyaeRSOAyZh-6cOQk",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi42MTI4Njc2QjM1RjU1MjlG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2992,7 +2892,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Wolfgang Amadeus Mozarts \u0022kleine\u0022 g-Moll-Sinfonie, gespielt vom NDR Elbphilharmonie Orchester unter Leitung von Chefdirigent Alan Gilbert. Eine Aufzeichnung vom 26. Oktober 2023 aus der Elbphilharmonie Hamburg.\r\n\r\nWolfgang Amadeus Mozart - Sinfonie g-Moll KV 183\r\n\r\n00:00:00 I. Allegro con brio  \r\n00:07:05 II. Andante  \r\n00:10:30 III. Menuetto  \r\n00:13:40 IV. Allegro  \r\n\r\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 58,
+      "Position": 56,
       "PublishedAtRaw": "2024-12-11T21:12:07Z",
       "PublishedAtDateTimeOffset": "2024-12-11T21:12:07+00:00",
       "PublishedAt": "2024-12-12T02:42:07+05:30",
@@ -3029,67 +2929,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "clkx-fxPkUs",
-      "VideoPublishedAtRaw": "2024-07-08T09:24:00Z",
-      "VideoPublishedAtDateTimeOffset": "2024-07-08T09:24:00+00:00",
-      "VideoPublishedAt": "2024-07-08T14:54:00+05:30"
-    },
-    "ETag": "ziHZ2m3SK-ybFYiXlbSpuONDYz0",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41MzY4MzcwOUFFRUU3QzEx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C40\u756A \u30C8\u77ED\u8ABF K.550 \n\u7B2C1\u697D\u7AE0 \u30E2\u30EB\u30C8\u30FB\u30A2\u30EC\u30B0\u30ED   00:00:58\n\u7B2C2\u697D\u7AE0 \u30A2\u30F3\u30C0\u30F3\u30C6  00:08:20\n\u7B2C3\u697D\u7AE0 \u30E1\u30CC\u30A8\u30C3\u30C8\uFF0F\u30A2\u30EC\u30B0\u30EC\u30C3\u30C8  00:15:30\n\u7B2C4\u697D\u7AE0 \u30A2\u30EC\u30B0\u30ED\u30FB\u30A2\u30C3\u30B5\u30A4  00:19:40 \n\n\u7B2C956\u56DE \u5B9A\u671F\u6F14\u594F\u4F1AB\u30B7\u30EA\u30FC\u30BA\u3088\u308A\n2022\u5E747\u670825\u65E5\uFF08\u6708\uFF09 \u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\n\u6307\u63EE\uFF0F\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\n\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3\n\n2024\u5E747\u670820\u65E5\u653E\u9001\u300A\u30A2\u30F3\u30B3\u30FC\u30EB\uFF01\u90FD\u97FF\u300B\uFF08TOKYO MX2\uFF09\u306F\u3001\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\u3068\u90FD\u97FF\u304C\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\u3092\u3088\u308A\u6DF1\u3081\u308B\u3079\u304F\u6311\u3093\u3060\u30D7\u30ED\u30B0\u30E9\u30E0\uFF08\u7B2C39\u756A\u301C\u7B2C41\u756A\uFF09\u3092\u4E00\u6319\u306B\u653E\u9001\uFF01\n\u653E\u9001\u306B\u5148\u99C6\u3051\u3066\u3001\u90FD\u97FFYouTube\u30C1\u30E3\u30F3\u30CD\u30EB\u3067\u306F\u3001\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\u306E\u97F3\u697D\u907A\u7523\u306E\u4E2D\u3067\u3082\u7279\u306B\u79C0\u3067\u305F\u4EA4\u97FF\u66F2\u7B2C40\u756A\u3092\u5148\u884C\u914D\u4FE1\u3044\u305F\u3057\u307E\u3059\u3002\n\n\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8 \u00D7 \u30E2\u30FC\u30C4\u30A1\u30EB\u30C8 \u00D7 \u90FD\u97FF\n\u306E\u5999\u5473\u306F\u3001\u4E0B\u8A18\u306E\u516C\u6F14\u3067\u3082\u5B58\u5206\u306B\u304A\u697D\u3057\u307F\u304F\u3060\u3055\u3044\u3002\n\n\u30102024\u5E74\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\u6765\u65E5\u516C\u6F14 \u3011\n\u2460\u7B2C1004\u56DE\u5B9A\u671F\u6F14\u594F\u4F1AC\u30B7\u30EA\u30FC\u30BA\n2024\u5E747\u670815\u65E5\uFF08\u6708\u30FB\u795D\uFF0914:00 \u6771\u4EAC\u82B8\u8853\u5287\u5834\n\u2461\u90FD\u97FF\u30B9\u30DA\u30B7\u30E3\u30EB\uFF08\u5E73\u65E5\u663C\uFF09\n2024\u5E747\u670816\u65E5\uFF08\u706B\uFF0914:00 \u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\nhttps://www.tmso.or.jp/j/concert/index.php?tab=1\u0026keyword=Alcotts\n\n\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\uFF0F\u6A2B\u672C\u5927\u9032\uFF08\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u7B2C1\u30B3\u30F3\u30B5\u30FC\u30C8\u30DE\u30B9\u30BF\u30FC\uFF09\n\u30F4\u30A3\u30AA\u30E9\uFF0F\u30A2\u30DF\u30CF\u30A4\u30FB\u30B0\u30ED\u30B9\uFF08\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u7B2C1\u30BD\u30ED\u30FB\u30F4\u30A3\u30AA\u30E9\u594F\u8005\uFF09\n\n\u30A2\u30A4\u30F4\u30BA\uFF08\u30D6\u30E9\u30F3\u30C8\u7DE8\u66F2\uFF09\uFF1A\n\u30B3\u30F3\u30B3\u30FC\u30C9\u4EA4\u97FF\u66F2\u3088\u308A\u300C\u30AA\u30EB\u30B3\u30C3\u30C8\u5BB6\u306E\u4EBA\u3005\u300D\u3010\u30A2\u30A4\u30F4\u30BA\u751F\u8A95150\u5E74\u8A18\u5FF5\u3011 \n\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u3068\u30F4\u30A3\u30AA\u30E9\u306E\u305F\u3081\u306E\u5354\u594F\u4EA4\u97FF\u66F2 \u5909\u30DB\u9577\u8ABF K.364\uFF08320d\uFF09 \n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A \u30CF\u77ED\u8ABF op.67\u300A\u904B\u547D\u300B\n\n\u2462\u90FD\u97FF\u30B9\u30DA\u30B7\u30E3\u30EB\uFF08\u5E73\u65E5\u663C\uFF09\n2024\u5E747\u670823\u65E5\uFF08\u706B\uFF0914:00 \u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\n\u2463\u7B2C1005\u56DE\u5B9A\u671F\u6F14\u594F\u4F1AA\u30B7\u30EA\u30FC\u30BA\n2024\u5E747\u670824\u65E5\uFF08\u6C34\uFF0919:00 \u6771\u4EAC\u6587\u5316\u4F1A\u9928\n\n\u30DE\u30B0\u30CC\u30B9\u30FB\u30EA\u30F3\u30C9\u30D9\u30EB\u30A4\uFF1AEXPO\uFF082009\uFF09 \n\u30A8\u30C9\u30A5\u30A2\u30EB\u30C9\u30FB\u30C8\u30A5\u30D3\u30F3\uFF1A\u30B3\u30F3\u30C8\u30E9\u30D0\u30B9\u5354\u594F\u66F2 ETW22\uFF081948\uFF09 \n\u30EA\u30E0\u30B9\u30AD\u30FC=\u30B3\u30EB\u30B5\u30B3\u30D5\uFF1A\u4EA4\u97FF\u7D44\u66F2\u300A\u30B7\u30A7\u30D8\u30E9\u30B6\u30FC\u30C9\u300B op.35\uFF08\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u72EC\u594F\uFF0F\u77E2\u90E8\u9054\u54C9\uFF09\n\nTOKYO MX2 \u300A\u30A2\u30F3\u30B3\u30FC\u30EB\uFF01\u90FD\u97FF\u300B\nhttps://s.mxtv.jp/music/tmso/\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\n\u64AE\u5F71\u30FB\u7DE8\u96C6\uFF1A\u30D5\u30A9\u30F3\u30C6\u30C3\u30AF\nYouTube\u7248\u7DE8\u96C6\uFF1A\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 59,
-      "PublishedAtRaw": "2025-02-05T00:23:01Z",
-      "PublishedAtDateTimeOffset": "2025-02-05T00:23:01+00:00",
-      "PublishedAt": "2025-02-05T05:53:01+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "clkx-fxPkUs"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C40\u756A \u30C8\u77ED\u8ABF K.550 /\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8 / \u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3",
-      "VideoOwnerChannelId": "UCW-bv9InoF-XIztER3wv7jg",
-      "VideoOwnerChannelTitle": "\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 / Tokyo Metropolitan Symphony Orchestra"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "p9rRIXvg_bs",
       "VideoPublishedAtRaw": "2022-01-09T12:29:11Z",
       "VideoPublishedAtDateTimeOffset": "2022-01-09T12:29:11+00:00",
       "VideoPublishedAt": "2022-01-09T17:59:11+05:30"
     },
-    "ETag": "q4oe0GQo5NQ0uPweVWL95hUnD9k",
+    "ETag": "5QuFUr90rg8arElvJAh-3KOuqSQ",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zNDIxRUJGQThFRTg1QzAy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3097,7 +2942,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "NDR Elbphilharmonie Orchestra - New Year\u0027s Eve Gala 2021\n\nPart I\n\n[00:00:00] - Anton\u00EDn Dvor\u00E1k - Carnival, concert ouverture, op. 92\n[00:11:07] - John Adams - The Chairman Dances - Foxtrot for Orchestra\n[00:24:35] - George Gershwin - Rhapsody in Blue\n[00:50:08] - Joaqu\u00EDn Rodrigo - Chick Corea - Adagio from the Concierto de Aranjuez - Spain\n                                                                              (Piano improvisation by Makoto Ozone)\n[00:55:37] - George Gershwin - The man I love\n\nPart II\n\nSergei Rachmaninoff - Symphonic Dances, op. 45\n\n[00:59:17] - 01. Movement: Non allegro\n[01:11:09] - 02. Movement: Andante con moto (Tempo di valse)\n[01:20:54] - 03. Movement: Lento assai - Allegro vivace\n\nMakoto Ozone, piano\n\nNDR Elbphilharmonie Orchestra\nAlan Gilbert, conductor\n\nRecorded live on 31.12.2021\nat Elbphilharmonie, Hamburg",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 60,
+      "Position": 57,
       "PublishedAtRaw": "2025-10-02T07:17:17Z",
       "PublishedAtDateTimeOffset": "2025-10-02T07:17:17+00:00",
       "PublishedAt": "2025-10-02T12:47:17+05:30",
@@ -3144,7 +2989,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-01-02T17:27:19+00:00",
       "VideoPublishedAt": "2023-01-02T22:57:19+05:30"
     },
-    "ETag": "yQBdw-Jy6iI33UDpsFCF2nH5aC0",
+    "ETag": "Kg1hLAw_LL6zJ_izgs39TUWgxn8",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4wMDFGNzBEOTU4Q0Y1Q0RG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3152,7 +2997,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "NDR Elbphilharmonie Orchestra - New Year\u0027s Eve Gala 2022\n\n\n                           Richard Strauss\n[00:00:00] - 01. Suite from Der Rosenkavalier, op. 59\n\n                           George Gershwin\n[00:29:19] - 02. Somebody from Somewhere from the film \u00BBDelicious\u00AB \n\n                           Margaret Bonds\n[00:33:06] - 03. The Negro speaks of Rivers\n                           (arranged for orchestra by Jannina Norpoth)\n\n                           George Gershwin\n[00:37:51] - 04. Summertime from the opera Porgy and Bess\n\n                           Margaret Bonds\n[00:41:11] - 05. Winter Moon /\n                           (arranged for orchestra by Jannina Norpoth)\n\n                           George Gershwin\n[00:42:40] - 06. Soon from the Musical \u00BBStrike Up the Band\u00AB\n\n                           Leonard Bernstein\n[00:46:10] - 07. Somewhre from the Musical \u00BBWest Side Story\u00AB\n\n                           Lili Boulanger\n[00:51:00] - 08. D\u2019un matin de printemps for Orchestra\n\n                           Maurice Ravel\n[00:56:51] - 09. La valse - Po\u00E8me chor\u00E9graphique pour Orchestre\n\n                           Leonard Bernstein\n[01:12:38] - 10. Ouvertute to Candide\n\nJulia Bullock, soprano\n\nNDR Elbphilharmonie Orchestra\nAlan Gilbert, conductor\n\nRecorded live on 31.12.2022\nat Elbphilharmonie, Hamburg",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 61,
+      "Position": 58,
       "PublishedAtRaw": "2025-06-06T22:35:04Z",
       "PublishedAtDateTimeOffset": "2025-06-06T22:35:04+00:00",
       "PublishedAt": "2025-06-07T04:05:04+05:30",
@@ -3199,7 +3044,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-07-13T14:49:27+00:00",
       "VideoPublishedAt": "2024-07-13T20:19:27+05:30"
     },
-    "ETag": "31oHMKz-3Z44NoKBw-aamM-mT4s",
+    "ETag": "7dnlnmCVqM08jUp5rGPI8ySe6_o",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi44MkM2RjVEQkQ5N0I2MjVE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3207,7 +3052,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "NDR Elbphilharmonie Orchestra - Opening Concert Schleswig-Hollstein Musicfestival 2024\n\nPart I\n\nWolfgang Amadeus Mozart\nPiano Concerto No. 25 in C major, K. 503\n\n[00:00:00] - 01. Movement: Allegro maestoso\n[00:16:28] - 02. Movement: Andante\n[00:23:26] - 03. Movement: Allegretto\n\n                     Fr\u00E9d\u00E9ric Chopin\n[00:34:30] - Nocturne in E flat-major, op. 9 No. 2\n\n\nPart II\n\nGustav Mahler\nSymphony No. 5\n\n[00:40:36] - 01. Movement: Trauermarsch (Funeral march). In gemessenem Schritt. Streng. Wie ein Kondukt (At a measured pace. Strict. Like a funeral procession.\n[00:53:47] - 02. Movement: St\u00FCrmisch bewegt, mit gr\u00F6\u00DFter Vehemenz (Moving stormily, with the greatest vehemence)\n[01:09:02] - 03. Movement: Scherzo. Kr\u00E4ftig, nicht zu schnell (Strong and not too fast)\n[01:26:40] - 04. Movement: Adagietto. Sehr langsam (Very slow)\n[01:36:51] - 05. Movement: Rondo-Finale. Allegro \u2013 Allegro giocoso. Frisch (Fresh)\n\nEmanuel Ax, piano\n\nNDR Elbphilharmonie Orchestra\nAlan Gilbert, conductor\n\nRecorded live on 07.07.2024\nat the Music and Congress Hall, L\u00FCbeck",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 62,
+      "Position": 59,
       "PublishedAtRaw": "2025-06-06T22:45:32Z",
       "PublishedAtDateTimeOffset": "2025-06-06T22:45:32+00:00",
       "PublishedAt": "2025-06-07T04:15:32+05:30",
@@ -3254,7 +3099,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-06-14T15:15:16+00:00",
       "VideoPublishedAt": "2024-06-14T20:45:16+05:30"
     },
-    "ETag": "bMXFF3TsU2SW-VBACq5SUfJ0pPA",
+    "ETag": "nzj_2I0JWtvNTJO-5svp0Ndq6_k",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi44QTA1QTQyRTc3M0VGQzYx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3262,7 +3107,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Strauss\nDer Rosenkavalier, suite, op. 59 \n(The Rose-Bearer, suite, op. 59)\n\n ~ second version ~\nnewly compiled by Alan Gilbert\n\nNDR Elbphilharmonie Orchestra\nAlan Gilbert, conductor\n\nRecorded live on 31.12.2022\nat the Elbphilharmonie Hamburg",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 63,
+      "Position": 60,
       "PublishedAtRaw": "2025-06-06T22:43:02Z",
       "PublishedAtDateTimeOffset": "2025-06-06T22:43:02+00:00",
       "PublishedAt": "2025-06-07T04:13:02+05:30",
@@ -3309,7 +3154,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-03-31T10:52:58+00:00",
       "VideoPublishedAt": "2023-03-31T16:22:58+05:30"
     },
-    "ETag": "xmQlmWTVVZl9oWlgc9EgDEbPI8o",
+    "ETag": "TXj3iaX1usEgH63t-K1Q6c3XmSI",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5DNkMwRUI2MkI4QkI4NDFG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3317,7 +3162,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "H\u00E5kan Hardenberger und das NDR Elbphilharmonie Orchester spielen unter der Leitung von Alan Gilbert Olga Neuwirths 2006 uraufgef\u00FChrtes Trompetenkonzert \u0022...miramondo multiplo...\u0022 als Videoproduktion zur Biennale \u0022Elbphilharmonie Visions\u0022 2021. Das Festival fand aufgrund der Corona-Pandemie ausschlie\u00DFlich online statt.\r\n\r\nHinweis: Das Video ist bis zum 29. September 2032 verf\u00FCgbar.\r\n\r\nOLGA NEUWIRTH\r\n... miramondo multiplo ...\r\n\r\nAlan Gilbert, Dirigent\r\nH\u00E5kan Hardenberger, Trompete\r\nNDR Elbphilharmonie Orchester\r\n\r\nEine Videoproduktion f\u00FCr das \u0022Elbphilharmonie Visions\u0022-Festival 2021 in Kooperation mit HamburgMusik, M\u00E4rz 2021\r\n\r\nWeitere Informationen:\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\nInstagram: https://www.instagram.com/ndr.eo \r\n\r\n#ndrelbphilharmonieorchester #hardenberger #neuwirth",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 64,
+      "Position": 61,
       "PublishedAtRaw": "2024-12-12T00:43:31Z",
       "PublishedAtDateTimeOffset": "2024-12-12T00:43:31+00:00",
       "PublishedAt": "2024-12-12T06:13:31+05:30",
@@ -3359,7 +3204,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-10-24T08:55:56+00:00",
       "VideoPublishedAt": "2023-10-24T14:25:56+05:30"
     },
-    "ETag": "gNAAjJqjAwON9FEOIgx1leC9fV0",
+    "ETag": "34l1rYxn1HQuoTIK5c2lPcvvkrw",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5GNjAwN0Y0QTFGOTVDMEMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3367,7 +3212,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Kindertotenlieder   Thomas Hampson\nMahler Symphony No. 5  \nNew York Philharmonic \nAlan Gilbert",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 65,
+      "Position": 62,
       "PublishedAtRaw": "2025-06-06T11:08:42Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:08:42+00:00",
       "PublishedAt": "2025-06-06T16:38:42+05:30",
@@ -3409,7 +3254,7 @@
       "VideoPublishedAtDateTimeOffset": "2011-12-04T10:44:49+00:00",
       "VideoPublishedAt": "2011-12-04T16:14:49+05:30"
     },
-    "ETag": "FMclxbJ7HgStb-qme7jM0y1YGts",
+    "ETag": "tkgfhDfxgtyC-B_DfNB3BO_78OI",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45NDlDQUFFOThDMTAxQjUw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3417,7 +3262,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "from DVD Concerto, One Night in Central Park 2011 (Andrea Bocelli)\r\nNew York Philharmonic \r\nconductor Alan Gilbert",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 66,
+      "Position": 63,
       "PublishedAtRaw": "2025-06-06T11:14:33Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:14:33+00:00",
       "PublishedAt": "2025-06-06T16:44:33+05:30",
@@ -3459,7 +3304,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-02-24T13:16:24+00:00",
       "VideoPublishedAt": "2020-02-24T18:46:24+05:30"
     },
-    "ETag": "F95hMCvlvQ1mC6oG4f5DM0xdoT0",
+    "ETag": "ar2_km_saLZ9YzwAz--ut0gTsww",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5DMkU4NTY1QUFGQTYwMDE3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3467,7 +3312,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mit Werken von Brahms, Chin, Bernstein, Ives und Var\u00E8se er\u00F6ffnet der neue Chefdirigent des NDR Elbphilharmonie Orchesters Alan Gilbert die Saison 2019/2020 in der Elbphilharmonie.\n\n00:00  JOHANNES BRAHMS\nSinfonie Nr. 1 c-Moll op. 68\n02:25  I. Un poco sostenuto \u2013 Allegro\n16:26  II. Andante sostenuto\n25:27  III. Un poco allegretto e grazioso\n30:05  IV. Adagio \u2013 Pi\u00F9 Andante \u2013 Allegro non troppo, ma con brio\n\nUNSUK CHIN\n49:06  Frontispiece for orchestra (Urauff\u00FChrung, Auftragswerk des NDR mit Unterst\u00FCtzung der Freunde des NDR Elbphilharmonie Orchesters e. V.)\n\nLEONARD BERNSTEIN\nSinfonie Nr. 1 \u0022Jeremiah\u0022\n58:40  I. Prophecy (Weissagung): Largamente\n1:04:53  II. Profanation (Entweihung): Vivace con brio\n1:11:42  III. Lamentation (Klage): Lento\n\nCHARLES IVES\n1:25:55  The Unanswered Question\n\nEDGARD VAR\u00C8SE\n1:36:14 Am\u00E9riques\n\nAlan Gilbert, Dirigent\nRinat Shaham, Mezzosopran\nNDR Elbphilharmonie Orchester, Elbphilharmonie Hamburg, 6. September 2019\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 67,
+      "Position": 64,
       "PublishedAtRaw": "2023-11-19T13:23:33Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:23:33+00:00",
       "PublishedAt": "2023-11-19T18:53:33+05:30",
@@ -3509,7 +3354,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-08-31T10:59:32+00:00",
       "VideoPublishedAt": "2024-08-31T16:29:32+05:30"
     },
-    "ETag": "v45PkX-gJgYKY2ojDssrbJzxdKE",
+    "ETag": "rLGyLdTXyxa4lu99Jb6mylYKTiA",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zQTkzRjgxRTY0OEU0MkM3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3517,7 +3362,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ottorino Respighi: Fontane di Roma\nM\u00FCnchner Philharmoniker\nAlan Gilbert\n12 November 2014, Philharmonie, Munich\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 68,
+      "Position": 65,
       "PublishedAtRaw": "2025-06-06T11:16:59Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:16:59+00:00",
       "PublishedAt": "2025-06-06T16:46:59+05:30",
@@ -3564,7 +3409,7 @@
       "VideoPublishedAtDateTimeOffset": "2012-07-16T13:49:03+00:00",
       "VideoPublishedAt": "2012-07-16T19:19:03+05:30"
     },
-    "ETag": "uFCBMBAiZV2r3FsAwZO4JK_MElY",
+    "ETag": "zknItQWsb3WSzmwGHNCmlh0M5To",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41ODIyMTgwQzA4NjJCQkZC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3572,7 +3417,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Violin Concerto in D Major, Op. 35 (Live)\n\nI. Allegro moderato\nII. Canzonetta: Andante\nIII. Finale: Allegro vivacissimo\n\nSoloist: Janine Jansen\nOrchestra: NDR Symphony Orchestra\nConductor: Alan Gilbert\nComposer: Pyotr Ilyich Tchaikovsky (1840 - 1893)\n\nLive",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 69,
+      "Position": 66,
       "PublishedAtRaw": "2025-08-23T10:41:39Z",
       "PublishedAtDateTimeOffset": "2025-08-23T10:41:39+00:00",
       "PublishedAt": "2025-08-23T16:11:39+05:30",
@@ -3614,12 +3459,235 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "2C2oMQhHhv0"
+    },
+    "ETag": "TLhum3GW8U9sOE9GYVWwx9yX6es",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5ERkUyQTM0MzEwQjZCMTY5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 67,
+      "PublishedAtRaw": "2025-06-06T11:10:33Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T11:10:33+00:00",
+      "PublishedAt": "2025-06-06T16:40:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2C2oMQhHhv0"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "k2QkJvw7wzY"
+    },
+    "ETag": "Rln0H1e9Qp-MxT5UZdGrZ93aQxk",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5EMUJFNzRCNDRFQjE5RjM4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 68,
+      "PublishedAtRaw": "2025-09-18T23:20:31Z",
+      "PublishedAtDateTimeOffset": "2025-09-18T23:20:31+00:00",
+      "PublishedAt": "2025-09-19T04:50:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "k2QkJvw7wzY"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "s4a1fsxU-eI"
+    },
+    "ETag": "slcOoVzvhHqia-sI--DrLSjmqG8",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5GNzk2RTlDQTNCQzJCQzJG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 69,
+      "PublishedAtRaw": "2025-10-02T07:05:48Z",
+      "PublishedAtDateTimeOffset": "2025-10-02T07:05:48+00:00",
+      "PublishedAt": "2025-10-02T12:35:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "s4a1fsxU-eI"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "f6uvluRKHmc"
+    },
+    "ETag": "uGC7or2rAQ2TiE8Uzmwl94OqFpo",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 70,
+      "PublishedAtRaw": "2023-11-19T13:14:55Z",
+      "PublishedAtDateTimeOffset": "2023-11-19T13:14:55+00:00",
+      "PublishedAt": "2023-11-19T18:44:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "f6uvluRKHmc"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OMwtquklwEY"
+    },
+    "ETag": "Yj90cmfdcRrl6R2xEAdlCS9xX7s",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5GNDg1Njc1QzZERjlFRjE5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 71,
+      "PublishedAtRaw": "2024-12-11T22:43:39Z",
+      "PublishedAtDateTimeOffset": "2024-12-11T22:43:39+00:00",
+      "PublishedAt": "2024-12-12T04:13:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OMwtquklwEY"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cANG72afiVc"
+    },
+    "ETag": "NfXqxU8OnizLEboR6TBEO1sbhZY",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40QzRDOEU0QUYwNUIxN0M1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 72,
+      "PublishedAtRaw": "2025-04-01T20:29:59Z",
+      "PublishedAtDateTimeOffset": "2025-04-01T20:29:59+00:00",
+      "PublishedAt": "2025-04-02T01:59:59+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cANG72afiVc"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OOS48FpPGDs"
+    },
+    "ETag": "N6E3LpAN3cmpv3X4sm-kEzULi8Q",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45NkVENTkxRDdCQUFBMDY4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 73,
+      "PublishedAtRaw": "2024-12-12T00:33:31Z",
+      "PublishedAtDateTimeOffset": "2024-12-12T00:33:31+00:00",
+      "PublishedAt": "2024-12-12T06:03:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OOS48FpPGDs"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "9ogmK5eCZ5I",
+      "VideoPublishedAtRaw": "2025-11-05T14:33:48Z",
+      "VideoPublishedAtDateTimeOffset": "2025-11-05T14:33:48+00:00",
+      "VideoPublishedAt": "2025-11-05T20:03:48+05:30"
+    },
+    "ETag": "uW7N-T_lt89opEGuJScA0xOFOSE",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5ENEEyOTIwNkY4NzFGMkQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sergej Rachmaninows Rhapsodie \u00FCber ein Thema von Paganini f\u00FCr Klavier und Orchester, aufgef\u00FChrt vom NDR Elbphilharmonie Orchester mit Pianist Kirill Gerstein unter der Leitung von Alan Gilbert. Eine Aufzeichnung vom 6. September 2025 aus der Elbphilharmonie Hamburg. \n\nSergej Rachmaninow - Rhapsodie \u00FCber ein Thema von Paganini f\u00FCr Klavier und Orchester\n\nKirill Gerstein, Klavier\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Leitung\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 74,
+      "PublishedAtRaw": "2026-06-12T02:23:42Z",
+      "PublishedAtDateTimeOffset": "2026-06-12T02:23:42+00:00",
+      "PublishedAt": "2026-06-12T07:53:42+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "9ogmK5eCZ5I"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rachmaninow -  Paganini-Rhapsodie | Kirill Gerstein | Alan Gilbert | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "M4MSrw5TsRk",
       "VideoPublishedAtRaw": "2020-06-29T07:30:01Z",
       "VideoPublishedAtDateTimeOffset": "2020-06-29T07:30:01+00:00",
       "VideoPublishedAt": "2020-06-29T13:00:01+05:30"
     },
-    "ETag": "yf4mpqMKnDN1wA55VMr6cvyA6nE",
+    "ETag": "0jfWdEuWH4hMNetN9M9IDBJ9nqY",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5BRjJDODk5REM0NjkzMUIy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3627,7 +3695,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Unter Leitung von Alan Gilbert, Chefdirigent des NDR Elbphilharmonie Orchesters, spielt das NDR Jugendsinfonieorchester Sergej Rachmaninows \u0022Sinfonische T\u00E4nze\u0022. Eine Aufzeichnung vom 8. M\u00E4rz 2020 aus der Elbphilharmonie Hamburg.\n\nSergej Rachmaninow - Sinfonische T\u00E4nze op. 45\n\nNDR Jugendsinfonieorchester\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Jugendsinfonieorchester, zu Konzerten, aktuellen Probephasen und Mitschnitten gibt es unter https://www.ndr.de/jugendsinfonieorchester\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 70,
+      "Position": 75,
       "PublishedAtRaw": "2024-12-11T22:42:27Z",
       "PublishedAtDateTimeOffset": "2024-12-11T22:42:27+00:00",
       "PublishedAt": "2024-12-12T04:12:27+05:30",
@@ -3669,7 +3737,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-08-27T09:18:29+00:00",
       "VideoPublishedAt": "2021-08-27T14:48:29+05:30"
     },
-    "ETag": "LVDDW6luP_Xyk9bVuLy_VNrak-4",
+    "ETag": "HHVd2JvlxAQzH_Nz2UoJBY8e4J8",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4xN0Y2QjVBOEI2MzQ5OUM5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3677,7 +3745,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Maurice Ravels \u0022Bol\u00E9ro\u0022, gespielt vom NDR Elbphilharmonie Orchester unter Leitung von Alan Gilbert. Live aufgezeichnet beim Abschlusskonzert der Saison 2020/2021 am18. Juni 2021 im Gro\u00DFen Saal der Elbphilharmonie.\n\nMaurice Ravel - Bol\u00E9ro\n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 71,
+      "Position": 76,
       "PublishedAtRaw": "2025-06-06T11:15:48Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:15:48+00:00",
       "PublishedAt": "2025-06-06T16:45:48+05:30",
@@ -3724,7 +3792,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-10-20T14:01:04+00:00",
       "VideoPublishedAt": "2025-10-20T19:31:04+05:30"
     },
-    "ETag": "QDVYTSaWM5fu5oS6l739I-09obM",
+    "ETag": "HqMyn0K8kyQmVIqlZjqAfMuqiZQ",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4wN0FBRUVFNEVBMTZBQ0Mx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3732,7 +3800,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Strauss\u0027 Burleske in d-Moll f\u00FCr Klavier und Orchester, aufgef\u00FChrt vom NDR Elbphilharmonie Orchester mit Pianist Kirill Gerstein unter der Leitung von Alan Gilbert. Aufgezeichnet am 6. September 2025 in der Elbphilharmonie Hamburg. \n\nRichard Strauss - Burleske in d-Moll f\u00FCr Klavier und Orchester\n\nKirill Gerstein, Klavier\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Leitung\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 72,
+      "Position": 77,
       "PublishedAtRaw": "2025-10-21T01:22:35Z",
       "PublishedAtDateTimeOffset": "2025-10-21T01:22:35+00:00",
       "PublishedAt": "2025-10-21T06:52:35+05:30",
@@ -3779,7 +3847,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-08-20T08:11:51+00:00",
       "VideoPublishedAt": "2021-08-20T13:41:51+05:30"
     },
-    "ETag": "4PUtDLfWsOhTrptOaxWnO1KN7sQ",
+    "ETag": "ucntZJ-Oy0hPAopSmoRQWnAJHM0",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4zRjM0MkVCRTg0MkYyQTM0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3787,7 +3855,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Nikolai Rimski-Korsakows \u0022Capriccio Espagnol\u0022, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Alan Gilbert. Live aufgezeichnet beim Abschlusskonzert der Saison 2020/21 am 18. Juni 2021 in der Elbphilharmonie Hamburg.\n\nNikolai Rimski-Korsakow - Capriccio Espagnol op. 34\n\n00:00:00 I. Alborada: Vivo e strepitoso\n00:02:05 II. Variazioni: Andante con moto\n00:06:56 III. Alborada: Vivo e strepitoso\n00:08:17 IV. Scene e canto gitano: Allegretto\n00:13:33 V. Fandango asturiano\n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 73,
+      "Position": 78,
       "PublishedAtRaw": "2023-11-19T13:22:10Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:22:10+00:00",
       "PublishedAt": "2023-11-19T18:52:10+05:30",
@@ -3834,7 +3902,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-10-29T11:18:33+00:00",
       "VideoPublishedAt": "2021-10-29T16:48:33+05:30"
     },
-    "ETag": "66mIt9Io-bCM1Vg7WowZ8NoNvpI",
+    "ETag": "BNM7is7iCUp11N4CduN7De2UBME",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5CNTcxMDQ0NThBNzMxODYz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3842,7 +3910,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Erstes gemeinsames Konzert vor Publikum nach dem Corona-Lockdown: Chefdirigent Alan Gilbert ist im Juni 2021 zur\u00FCck beim NDR Elbphilharmonie Orchester. Auf dem Programm stehen Rimski-Korsakows Capriccio espagnol, Coplands Appalachian Spring und Ravels Bol\u00E9ro. \n\nKonzertmitschnitt vom 18. Juni 2021, Elbphilharmonie Hamburg  00:00\n\nNIKOLAJ RIMSKI-KORSAKOW\nCapriccio espagnol op. 34  01:44\nAARON COPLAND\nAppalachian Spring (Suite)  20:10\nMAURICE RAVEL\nBol\u00E9ro  46:04\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilha... \nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #alangilbert",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 74,
+      "Position": 79,
       "PublishedAtRaw": "2025-06-06T11:10:13Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:10:13+00:00",
       "PublishedAt": "2025-06-06T16:40:13+05:30",
@@ -3879,12 +3947,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "HCfGTuo_u5g",
+      "VideoPublishedAtRaw": "2025-11-03T01:14:58Z",
+      "VideoPublishedAtDateTimeOffset": "2025-11-03T01:14:58+00:00",
+      "VideoPublishedAt": "2025-11-03T06:44:58+05:30"
+    },
+    "ETag": "SPRzDeHHS5iVzyWrYXgn2CG1Evw",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4wRkVBNUY4OTkzN0JCNTA2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Rimsky-Korsakov: Scheherazade, op.35\n\n00:34 \u2160 The Sea and Sinbad\u02BCs Ship (Largo e maestoso - Allegro non troppo)\n10:35 \u2161 The Story of the Kalander Prince (Lento - Andantino - Allegro molto)\n22:44 \u2162 The Young Prince and the Princess (Andantino quasi allegretto)\n33:30 \u2163 Festival at Baghdad; The Sea; The Ship Goes to Pieces on a Rock\nSurmounted by a Bronze Warrior; Conclusion (Allegro molto)\n\nTMSO Special\nTue. 23. July 2024 at Suntory Hall\nAlan GILBERT, Conductor\nTokyo Metropolitan Symphony Orchestra\n\nYou can watch Program Note.\nhttps://www.tmso.or.jp/e/concert/detail/detail.php?id=3794\n\nSubscribe to our channel at\nhttps://www.youtube.com/user/TMSOMovie\n\nRead about our concerts : \nhttps://www.tmso.or.jp/e/concert/\n\nFollow us\uFF01\nX : https://x.com/tmsonews\nInstagram : https://www.instagram.com/tmsonews/\nFacebook : https://www.facebook.com/TokyoMetropolitanSymphonyOrchestra\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\nVideo production\uFF1AMediaForest\nYouTube Ver edit\uFF1ATMSO",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 80,
+      "PublishedAtRaw": "2026-06-12T02:22:33Z",
+      "PublishedAtDateTimeOffset": "2026-06-12T02:22:33+00:00",
+      "PublishedAt": "2026-06-12T07:52:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "HCfGTuo_u5g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rimsky-Korsakov: Scheherazade, op.35\uFF0FAlan GILBERT, Conductor\uFF0F Tokyo Metropolitan Symphony Orchestra",
+      "VideoOwnerChannelId": "UCW-bv9InoF-XIztER3wv7jg",
+      "VideoOwnerChannelTitle": "\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 / Tokyo Metropolitan Symphony Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "iBnZjFmZHac",
       "VideoPublishedAtRaw": "2021-10-21T10:18:01Z",
       "VideoPublishedAtDateTimeOffset": "2021-10-21T10:18:01+00:00",
       "VideoPublishedAt": "2021-10-21T15:48:01+05:30"
     },
-    "ETag": "E5FXghRGnLtyCPK8CbJI-d3c7IQ",
+    "ETag": "pYMwRSCXm9fpHCwOQpKEUKCXyOk",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4yMUQyQTQzMjRDNzMyQTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3892,7 +4015,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Bucharest, September 25, 2021 \u2013 Grand Palace Hall\n\nROYAL CONCERTGEBOUW ORCHESTRA\nALAN GILBERT conductor\nKIRILL GERSTEIN piano\n\nNielsen Helios Overture\nStrauss Burleske for Piano and Orchestra in D minor TrV 145\nRachmaninoff Rhapsody on a Theme of Paganini Op. 43\nNielsen Symphony No. 5 Op. 50 FS 97\n\nFor more information, please visit https://www.festivalenescu.ro/en/ \nFacebook: https://www.facebook.com/enescu.festi...\nTwitter: https://twitter.com/Enescu_Festival\nInstagram: https://www.instagram.com/enescu_festival/",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 75,
+      "Position": 81,
       "PublishedAtRaw": "2023-11-19T13:21:02Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:21:02+00:00",
       "PublishedAt": "2023-11-19T18:51:02+05:30",
@@ -3939,7 +4062,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-10-30T14:43:40+00:00",
       "VideoPublishedAt": "2024-10-30T20:13:40+05:30"
     },
-    "ETag": "Ir78d0Cdwg2pgIqagiqg58NU1ao",
+    "ETag": "UfMfZMFI7WrQIo5wTQr0llXypXg",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4xMzgwMzBERjQ4NjEzNUE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3947,7 +4070,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Arnold Sch\u00F6nbergs Gurre-Lieder, p\u00FCnktlich zum 150. Geburtstag des Komponisten pr\u00E4sentiert vom NDR Elbphilharmonie Orchester, dem NDR Vokalensemble, dem MDR-Rundfunkchor, dem Rundfunkchor Berlin und einer Riege internationaler Solistinnen und Solisten. Alan Gilbert dirigiert die Opening Night 2024 des NDR EO, aufgezeichnet am 13. September 2024 in der Elbphilharmonie Hamburg.\r\n\r\nArnold Sch\u00F6nberg - Gurre-Lieder f\u00FCr Soli, Chor und Orchester\r\n\r\n00:00:00 Erster Teil\r\n00:00:41 Orchestervorspiel\r\n00:07:34 \u0022Nun d\u00E4mpft die D\u00E4mm\u2018rung jeden Ton\u0022 (Waldemar)  \r\n00:11:51 \u0022O, wenn des Mondes Strahlen milde gleiten\u0022 (Tove)  \r\n00:14:44  \u0022Ross! Mein Ross! Was schleichst du so tr\u00E4g!\u0022 (Waldemar)  \r\n00:18:04  \u0022Sterne jubeln, das Meer, es leuchtet\u0022 (Tove)  \r\n00:20:37 \u0022So tanzen die Engel vor Gottes Thron nicht\u0022 (Waldemar)  \r\n00:23:52 \u0022Nun sag ich dir zum ersten Mal\u0022 (Tove)   \r\n00:27:52 \u0022Es ist Mitternachtszeit\u0022 (Waldemar)  \r\n00:33:45 \u0022Du sendest mir einen Liebesblick\u0022 (Tove)  \r\n00:39:01 \u0022Du wunderliche Tove!\u0022 (Waldemar)  \r\n00:43:18 Orchesterzwischenspiel  \r\n00:48:35 \u0022Tauben von Gurre! Sorge qu\u00E4lt mich\u0022 (Stimme der Waldtaube)   \r\n\r\nZweiter Teil\r\n01:02:42 \u0022Herrgott, wei\u00DFt du, was du tatest\u0022 (Waldemar)  \r\n\r\nDritter Teil\r\n01:07:05 \u0022Erwacht, K\u00F6nig Waldemars Mannen wert!\u0022 (Waldemar)   \r\n01:08:55 \u0022Deckel des Sarges klappert und klappt\u0022 (Bauer)  \r\n01:12:31 \u0022Gegr\u00FC\u00DFt, o K\u00F6nig, an Gurre-Sees Strand!\u0022 (Waldemars Mannen)  \r\n01:17:57 \u0022Mit Toves Stimme fl\u00FCstert der Wald\u0022 (Waldemar)  \r\n01:21:40 \u0022Ein seltsamer Vogel ist so\u2019n Aal\u0022 (Klaus Narr)  \r\n01:29:02  \u0022Du strenger Richter droben\u0022 (Waldemar)  \r\n01:31:28 \u0022Der Hahn erhebt den Kopf zur Kraht\u0022 (Waldemars Mannen)  \r\n\r\nMelodram: Des Sommerwindes wilde Jagd\r\n01:37:52 Orchestervorspiel\r\n01:40:23 \u0022Herr G\u00E4nsefu\u00DF, Frau G\u00E4nsekraut\u0022 (Sprecher)  \r\n01:46:30 \u0022Seht die Sonne\u0022 (gemischter Chor) \r\n\r\nSimon O\u0027Neill, Tenor (Waldemar)\r\nChristina Nilsson, Sopran (Tove)\r\nJamie Barton, Mezzosopran (Waldtaube)\r\nMichael Nagy, Bariton (Bauer)\r\nMichael Schade, Tenor (Narr)\r\nThomas Quasthoff (Sprecher)\r\nMDR-Rundfunkchor\r\nRundfunkchor Berlin\r\nNDR Vokalensemble (Einstudierung: Klaas Stok)\r\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 76,
+      "Position": 82,
       "PublishedAtRaw": "2025-06-06T11:07:46Z",
       "PublishedAtDateTimeOffset": "2025-06-06T11:07:46+00:00",
       "PublishedAt": "2025-06-06T16:37:46+05:30",
@@ -3989,7 +4112,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-09-07T03:00:02+00:00",
       "VideoPublishedAt": "2019-09-07T08:30:02+05:30"
     },
-    "ETag": "qAWkWiWyIojfQxsjN4q0ZPoLod4",
+    "ETag": "TkdhbTp6GJQmwJRo93Ahxrp_BII",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5GMDBDNkJGMzYzREUyMTYw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3997,7 +4120,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sebastian Currier (b. 1959) - Time Machines, for Violin and Orchestra\n#1. Fragmented Time - 00:00\n#2. Delay Time - 2:31\n#3. Compressed Time - 6:50\n#4. Overlapping Time - 8:15\n#5. Entropic Time - 11:56\n#6. Backwards Time - 18:22\n#7. Harmonic Time - 20:02\nWorld Premiere Recording\nAnne-Sophie Mutter (Violin)\nNew York Philharmonic\nAlan Gilbert (Conductor)\nI do not try to profit at all with these videos. I do not want to harm anyone. The composer, the publisher, or the corresponding persons can claim and dispose of their rights of execution at any time or request the elimination of this material.\nYo no intento lucrar en absoluto con estos videos. No deseo perjudicar a nadie. El compositor, la editorial, o las personas correspondientes pueden reclamar y disponer de sus derechos de ejecuci\u00F3n en cualquier momento o solicitar la eliminaci\u00F3n de este material.",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 77,
+      "Position": 83,
       "PublishedAtRaw": "2025-07-01T00:40:41Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:40:41+00:00",
       "PublishedAt": "2025-07-01T06:10:41+05:30",
@@ -4044,7 +4167,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-07-24T14:00:55+00:00",
       "VideoPublishedAt": "2025-07-24T19:30:55+05:30"
     },
-    "ETag": "y_xcJ-jPA4N9ND54mNEfkSfBhi0",
+    "ETag": "3GUgp1plkBUOU2aFGnQeo7t-i8U",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5ERENFNTk4Q0Q2MTZDMTA5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4052,7 +4175,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Strauss\u0027 \u0022Don Juan\u0022, Tondichtung f\u00FCr gro\u00DFes Orchester op. 20, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Chefdirigent Alan Gilbert. Eine Aufnahme aus der Elbphilharmonie Hamburg vom Abschlusskonzert der Saison 2023. \r\n\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 78,
+      "Position": 84,
       "PublishedAtRaw": "2025-07-24T16:03:53Z",
       "PublishedAtDateTimeOffset": "2025-07-24T16:03:53+00:00",
       "PublishedAt": "2025-07-24T21:33:53+05:30",
@@ -4099,7 +4222,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-06-20T14:00:22+00:00",
       "VideoPublishedAt": "2025-06-20T19:30:22+05:30"
     },
-    "ETag": "sbng-Mn8WuZvFbJ6e1gembuR5Js",
+    "ETag": "rHSjUpctsXd_Gct98Def3Pmjbww",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40NzE2MTY1QTM3RUI3QkU3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4107,7 +4230,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Richard Strauss\u0027 \u0022Ein Heldenleben\u0022, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Chefdirigent Alan Gilbert. Ein Konzertausschnitt aus der Elbphilharmonie vom 28. M\u00E4rz 2025.\r\n\r\nRichard Strauss - Ein Heldenleben, Tondichtung op. 40\r\n\r\n00:00:00 Der Held\r\n00:05:03 Des Helden Widersacher\r\n00:08:49 Des Helden Gef\u00E4hrtin\r\n00:21:55 Des Helden Walstatt\r\n00:29:25 Des Helden Friedenswerke\r\n00:36:15 Des Helden Weltflucht und Vollendung\r\n\r\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 79,
+      "Position": 85,
       "PublishedAtRaw": "2025-06-20T20:25:40Z",
       "PublishedAtDateTimeOffset": "2025-06-20T20:25:40+00:00",
       "PublishedAt": "2025-06-21T01:55:40+05:30",
@@ -4154,7 +4277,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-10-14T07:30:06+00:00",
       "VideoPublishedAt": "2022-10-14T13:00:06+05:30"
     },
-    "ETag": "JGbKWSmFDaEtn3PsR1CEttVDj1g",
+    "ETag": "8p4IOB68r7bfjZc39pymL6xV2Go",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4wOTA3OTZBNzVEMTUzOTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4162,7 +4285,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Zum Saisonabschluss bringen Chefdirigent Alan Gilbert und das NDR Elbphilharmonie Orchester Richard Strauss\u0027 gigantische \u0022Alpensinfonie\u0022 auf die B\u00FChne der Elphi.\n\nEin Konzertmitschnitt vom 25. Juni 2022.\n\nRICHARD STRAUSS\nEine Alpensinfonie op. 64 \n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Dirigent\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #alangilbert #strauss",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 80,
+      "Position": 86,
       "PublishedAtRaw": "2023-11-19T13:17:01Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:17:01+00:00",
       "PublishedAt": "2023-11-19T18:47:01+05:30",
@@ -4204,7 +4327,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-05-08T13:40:54+00:00",
       "VideoPublishedAt": "2025-05-08T19:10:54+05:30"
     },
-    "ETag": "mytIJyTHlYK2PafUQym6MC-kLrs",
+    "ETag": "lC-R9XTgfNUPOsoOyptYBcP2HHg",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41RTNBREYwMkI5QzU3RkY2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4212,7 +4335,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Igor Strawinskys L\u2019Oiseau de feu (Der Feuervogel), gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Alan Gilbert. Eine Aufzeichnung vom 24. Juni 2023 aus der Elbphilharmonie Hamburg.\n\nIgor Strawinsky - L\u0027Oiseau de feu (Der Feuervogel) - Ballettsuite f\u00FCr gro\u00DFes Orchester (Fassung von 1919)\n \n0:00:00 Introduction\n0:03:27 L\u0027Oiseau de feu et sa danse (Tanz des Feuervogels)\n0:03:44 Variation de l\u0027Oiseau de feu (Variation: Der Feuervogel)\n0:05:00 Ronde des princesses (Reigen der Prinzessinnen)\n0:09:32 Danse infernale du roi Kastschei (H\u00F6llentanz des K\u00F6nigs Kastschei)\n0:14:02 Berceuse (Wiegenlied)\n0:17:22 Final\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 81,
+      "Position": 87,
       "PublishedAtRaw": "2025-05-09T01:13:42Z",
       "PublishedAtDateTimeOffset": "2025-05-09T01:13:42+00:00",
       "PublishedAt": "2025-05-09T06:43:42+05:30",
@@ -4254,7 +4377,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-11-10T11:37:06+00:00",
       "VideoPublishedAt": "2023-11-10T17:07:06+05:30"
     },
-    "ETag": "_uv_5AduvS503MBJc9gaGKL3M30",
+    "ETag": "IjOnLiH_oHdBXYU61nUKnqU_h7I",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41NkI0NEY2RDEwNTU3Q0M2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4262,7 +4385,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Elbphilharmonie Orchester spielt unter der Leitung von Chefdirigent Alan Gilbert Igor Strawinskys Skandal-Klassiker \u0022Le sacre du printemps\u0022. Eine Aufzeichnung von der Opening Night des NDR Elbphilharmonie Orchesters am 1. September 2023 in der Elbphilharmonie Hamburg.\r\n \r\nIgor Strawinsky - Le sacre du printemps \r\n\r\n00:00:00 Erster Teil: Die Anbetung der Erde. Introduktion \r\n00:03:59 Vorboten des Fr\u00FChlings - T\u00E4nze der jungen M\u00E4dchen \r\n00:07:50 Spiel der Entf\u00FChrung  \r\n00:09:00 Fr\u00FChlingsreigen  \r\n00:12:52 Spiele der feindlichen St\u00E4mme  \r\n00:14:20 Prozession des weisen Alten  \r\n0015:20 Der weise Alte   \r\n0017:10 Zweiter Teil: Das Opfer. Introduktion   \r\n00:21:40 Geheimnisvolle Kreise der jungen M\u00E4dchen   \r\n00:24:46 Verherrlichung der Auserw\u00E4hlten   \r\n00:26:22 Anrufung der \u00C4ltesten   \r\n00:27:00 Weihevolle Handlung der \u00C4ltesten   \r\n00:30:30 Opfertanz (Die Auserw\u00E4hlte)   \r\n\r\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\r\n\r\nWer mehr wei\u00DF, h\u00F6rt auch mehr: Jetzt reinh\u00F6ren in die Folge \u0022Klassik to Go\u0022 zu Strawinskys \u0022Le sacre du printemps\u0022 - https://www.ardsounds.de/episode/urn:ard:episode:7f783b5f976ad169/\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 82,
+      "Position": 88,
       "PublishedAtRaw": "2023-11-19T13:14:40Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:14:40+00:00",
       "PublishedAt": "2023-11-19T18:44:40+05:30",
@@ -4304,108 +4427,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "f6uvluRKHmc"
-    },
-    "ETag": "NpTjvRY5QxH_o8_kww1pVzfYcjc",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 83,
-      "PublishedAtRaw": "2023-11-19T13:14:55Z",
-      "PublishedAtDateTimeOffset": "2023-11-19T13:14:55+00:00",
-      "PublishedAt": "2023-11-19T18:44:55+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "f6uvluRKHmc"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "OMwtquklwEY"
-    },
-    "ETag": "gR26SfJhiKdJ0XtnJI_nWeDY5z8",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5GNDg1Njc1QzZERjlFRjE5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 84,
-      "PublishedAtRaw": "2024-12-11T22:43:39Z",
-      "PublishedAtDateTimeOffset": "2024-12-11T22:43:39+00:00",
-      "PublishedAt": "2024-12-12T04:13:39+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "OMwtquklwEY"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "cANG72afiVc"
-    },
-    "ETag": "g35D2h0tbPXWrlPS-bQ0Y7RJc_A",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi40QzRDOEU0QUYwNUIxN0M1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 85,
-      "PublishedAtRaw": "2025-04-01T20:29:59Z",
-      "PublishedAtDateTimeOffset": "2025-04-01T20:29:59+00:00",
-      "PublishedAt": "2025-04-02T01:59:59+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "cANG72afiVc"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "OOS48FpPGDs"
-    },
-    "ETag": "ioTgrK_utNJrZQePkz_V2Z0HHoU",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45NkVENTkxRDdCQUFBMDY4",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 86,
-      "PublishedAtRaw": "2024-12-12T00:33:31Z",
-      "PublishedAtDateTimeOffset": "2024-12-12T00:33:31+00:00",
-      "PublishedAt": "2024-12-12T06:03:31+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "OOS48FpPGDs"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "8tc8lpan6so",
       "VideoPublishedAtRaw": "2020-12-22T11:40:29Z",
       "VideoPublishedAtDateTimeOffset": "2020-12-22T11:40:29+00:00",
       "VideoPublishedAt": "2020-12-22T17:10:29+05:30"
     },
-    "ETag": "9UirM70Qm3kUkTQllYAfMBiSvho",
+    "ETag": "UoNdInq2S3lROgxQEo4KjvF5Tgk",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5DNzE1RjZEMUZCMjA0RDBB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4413,7 +4440,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Tschaikowskys Sinfonie Nr. 5, gespielt anl\u00E4sslich des 75. Jubil\u00E4ums des NDR Elbphilharmonie Orchesters unter Leitung von Chefdirigent Alan Gilbert, aufgezeichnet  am 30. Oktober 2020 in der Elbphilharmonie Hamburg.\n\nDas Konzert fand aufgrund der Corona-Pandemie ohne Publikum statt.\n\nPeter Tschaikowsky - Sinfonie Nr. 5 e-Moll op. 64  \n\n00:00:00 I. Andante - Allegro con anima  \n00:14:49 II. Andante cantabile, con alcuna licenza - Moderato con anima - Andante mosso - Allegro non troppo - Tempo I  \n00:27:24 III. Valse. Allegro moderato  \n00:33:30 IV. Finale. Andante maestoso - Allegro vivace - Molto vivace - Moderato assai e molto maestoso - Presto  \n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Chefdirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 87,
+      "Position": 89,
       "PublishedAtRaw": "2023-11-19T13:22:36Z",
       "PublishedAtDateTimeOffset": "2023-11-19T13:22:36+00:00",
       "PublishedAt": "2023-11-19T18:52:36+05:30",
@@ -4455,7 +4482,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-04-21T08:46:11+00:00",
       "VideoPublishedAt": "2023-04-21T14:16:11+05:30"
     },
-    "ETag": "mYJ3n0FkbeazqgChLnVwUiTOsd4",
+    "ETag": "VNtdLmg9QmF9XPKTkLemtB7jguw",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5EMzJDRTUwQjBEOUVFQzAw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4463,7 +4490,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Peter Tschaikowskys hochemotionale \u0022Path\u00E9tique\u0022, seine Sinfonie Nr. 6, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Alan Gilbert. Eine Aufzeichnung vom 4. November 2022 aus der Elbphilharmonie Hamburg.\r\n\r\nPeter Tschaikowsky - Sinfonie Nr. 6 h-Moll op. 74 \u0022Path\u00E9tique\u0022 \r\n\r\n00:00:01 I. Adagio - Allegro non troppo \r\n00:18:55 II. Allegro con grazia \r\n00:26:49 III. Allegro molto vivace \r\n00:35:55 IV. Finale. Adagio lamentoso - Andante \r\n\r\nNDR Elbphilharmonie Orchester\r\nAlan Gilbert, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 88,
+      "Position": 90,
       "PublishedAtRaw": "2025-07-01T00:38:28Z",
       "PublishedAtDateTimeOffset": "2025-07-01T00:38:28+00:00",
       "PublishedAt": "2025-07-01T06:08:28+05:30",
@@ -4505,222 +4532,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "GXcsRtOM3Qk",
-      "VideoPublishedAtRaw": "2022-02-18T08:12:56Z",
-      "VideoPublishedAtDateTimeOffset": "2022-02-18T08:12:56+00:00",
-      "VideoPublishedAt": "2022-02-18T13:42:56+05:30"
-    },
-    "ETag": "SqCOK6-DUfN7Q4v86WMLP7Qe_ms",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45ODRDNTg0QjA4NkFBNkQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Urauff\u00FChrung bei der Opening Night der Elbphilharmonie-Saison 2021/2022: Das NDR Elbphilharmonie Orchester unter der Leitung von Chefdirigent Alan Gilbert hebt Mark-Anthony Turnages \u0022Time Flies\u0022 aus der Taufe. \r\n\r\nDas St\u00FCck, das der britische Komponist als Reise um die Welt in drei S\u00E4tzen gestaltete - von London \u00FCber Hamburg nach Tokio - , sollte eigentlich schon im Jubil\u00E4umskonzert des NDR EO zu dessen 75. Geburtstag erklingen. Wegen der Einschr\u00E4nkungen durch die Corona-Pandemie wurde diese Premiere verschoben. \r\n\r\nMARK-ANTHONY TURNAGE\r\nTime Flies  00:00\r\n(Urauff\u00FChrung, Auftragswerk u.a. des NDR) \r\nI. London Time  00:02\r\nII. Hamburg Time  06:20\r\nIII. Tokyo Time  13:25\n\nAlan Gilbert, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nMitschnitt von der Opening Night 2021/2022 aus der Elbphilharmonie Hamburg, 1. September 2021\r\n\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\r\n#ndrelbphilharmonieorchester #alangilbert #urauff\u00FChrung",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 89,
-      "PublishedAtRaw": "2023-11-19T13:19:02Z",
-      "PublishedAtDateTimeOffset": "2023-11-19T13:19:02+00:00",
-      "PublishedAt": "2023-11-19T18:49:02+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "GXcsRtOM3Qk"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Turnage: Time Flies  | Urauff\u00FChrung | Alan Gilbert | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "wSRz7gJJreQ",
-      "VideoPublishedAtRaw": "2021-09-27T10:56:17Z",
-      "VideoPublishedAtDateTimeOffset": "2021-09-27T10:56:17+00:00",
-      "VideoPublishedAt": "2021-09-27T16:26:17+05:30"
-    },
-    "ETag": "-cnMbu9PGpbvtg6pVNPLUwCm7VI",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4yMDhBMkNBNjRDMjQxQTg1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Chefdirigent Alan Gilbert und das NDR Elbphilharmonie Orchester spielen Anton Weberns Idyll f\u00FCr Orchester \u0022Im Sommerwind\u0022. Ein Konzertmitschnitt aus der Elphi vom 28. Februar 2020.\n\nANTON WEBERN \nIm Sommerwind - Idyll f\u00FCr Orchester\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\nMitschnitt des Konzerts vom 28. Februar 2020, Elbphilharmonie Hamburg\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #alangilbert #webern",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 90,
-      "PublishedAtRaw": "2023-11-19T13:21:58Z",
-      "PublishedAtDateTimeOffset": "2023-11-19T13:21:58+00:00",
-      "PublishedAt": "2023-11-19T18:51:58+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "wSRz7gJJreQ"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Webern: Im Sommerwind - Idyll f\u00FCr Orchester | Alan Gilbert | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "VRJVZrSlyiA",
-      "VideoPublishedAtRaw": "2021-03-06T19:30:14Z",
-      "VideoPublishedAtDateTimeOffset": "2021-03-06T19:30:14+00:00",
-      "VideoPublishedAt": "2021-03-07T01:00:14+05:30"
-    },
-    "ETag": "KcdfON35nOGki2ipQizwsOzg1CU",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45NzUwQkI1M0UxNThBMkU0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "In einem besonderen Konzert-Stream l\u00E4sst das Orchester unter seinem Chefdirigenten Alan Gilbert Musik und Architektur verschmelzen. Auf dem Programm: Magnus Lindbergs aufregendes \u00BBTempus fugit\u00AB und Olga Neuwirths Trompetenkonzert. Mehr Infos zum Stream \u27A1\uFE0F https://bit.ly/NDREO_Stream\n\n// BESETZUNG\nNDR Elbphilharmonie Orchester\nH\u00E5kan Hardenberger  | Trompete\nDirigent | Alan Gilbert\n\n// PROGRAMM\n0:20 - Magnus Lindberg (*1958)\nTempus fugit (2017)\n\n32:25 - Interview Alan Gilbert \u0026 H\u00E5kan Hardenberger \n\n42:22 - Olga Neuwirth (*1968)\n... miramondo multiplo ... (2006)\n\nCopyright for the works by Magnus Lindberg and Olga Neuwirth: Boosey \u0026 Hawkes, https://www.boosey.com/\n\n#NDR #AlanGilbert #ElbphilharmonieLive #Hamburg #Architektur\n\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\nELBPHILHARMONIE HAMBURG\nIn der Elbphilharmonie verbinden sich Architektur und Musik zu einem unvergleichlichen Gesamterlebnis. 2017 er\u00F6ffnet, ist sie eines der international gefragtesten Konzerth\u00E4user und begeistert mit ihrem vielseitigen Programm, ihrer ausgezeichneten Akustik und zahlreichen Mitmach-Angeboten ein breites Publikum. Das Geb\u00E4ude, das mitten im Strom der Elbe aus einem alten Lagerhaus entstanden ist, wurde vom Schweizer Architekturb\u00FCro Herzog \u0026 de Meuron entworfen. Als Wahrzeichen der Stadt Hamburg zieht es j\u00E4hrlich Millionen Besucher aus aller Welt an. \n__\nIN KONTAKT BLEIBEN\n\uD83D\uDCF1Facebook: https://fb.me/elbphilharmoniehamburg\n\uD83D\uDCF1Twitter: https://twitter.com/elbphilharmonie\n\uD83D\uDCF1Instagram: https://www.instagram.com/elbphilharmonie\n\uD83D\uDD0EGoogle Arts \u0026 Culture: http://g.co/elbphilharmonie\n\uD83D\uDCDDElbphilharmonie Mediathek: https://www.elbphilharmonie.de/de/mediathek\n___\nhttps://www.elbphilharmonie.de",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 91,
-      "PublishedAtRaw": "2023-11-19T13:22:29Z",
-      "PublishedAtDateTimeOffset": "2023-11-19T13:22:29+00:00",
-      "PublishedAt": "2023-11-19T18:52:29+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "VRJVZrSlyiA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "\u00BBTempus fugit\u00AB | Alan Gilbert \u0026 NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCnfmo4KkHHRDYOhyw9TMPRw",
-      "VideoOwnerChannelTitle": "Elbphilharmonie Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "HCfGTuo_u5g",
-      "VideoPublishedAtRaw": "2025-11-03T01:14:58Z",
-      "VideoPublishedAtDateTimeOffset": "2025-11-03T01:14:58+00:00",
-      "VideoPublishedAt": "2025-11-03T06:44:58+05:30"
-    },
-    "ETag": "f6vPhTHwxt6bLtDMfT_Hy9n42SE",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4wRkVBNUY4OTkzN0JCNTA2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Rimsky-Korsakov: Scheherazade, op.35\n\n00:34 \u2160 The Sea and Sinbad\u02BCs Ship (Largo e maestoso - Allegro non troppo)\n10:35 \u2161 The Story of the Kalander Prince (Lento - Andantino - Allegro molto)\n22:44 \u2162 The Young Prince and the Princess (Andantino quasi allegretto)\n33:30 \u2163 Festival at Baghdad; The Sea; The Ship Goes to Pieces on a Rock\nSurmounted by a Bronze Warrior; Conclusion (Allegro molto)\n\nTMSO Special\nTue. 23. July 2024 at Suntory Hall\nAlan GILBERT, Conductor\nTokyo Metropolitan Symphony Orchestra\n\nYou can watch Program Note.\nhttps://www.tmso.or.jp/e/concert/detail/detail.php?id=3794\n\nSubscribe to our channel at\nhttps://www.youtube.com/user/TMSOMovie\n\nRead about our concerts : \nhttps://www.tmso.or.jp/e/concert/\n\nFollow us\uFF01\nX : https://x.com/tmsonews\nInstagram : https://www.instagram.com/tmsonews/\nFacebook : https://www.facebook.com/TokyoMetropolitanSymphonyOrchestra\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\nVideo production\uFF1AMediaForest\nYouTube Ver edit\uFF1ATMSO",
-      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 92,
-      "PublishedAtRaw": "2026-06-12T02:22:33Z",
-      "PublishedAtDateTimeOffset": "2026-06-12T02:22:33+00:00",
-      "PublishedAt": "2026-06-12T07:52:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "HCfGTuo_u5g"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/HCfGTuo_u5g/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Rimsky-Korsakov: Scheherazade, op.35\uFF0FAlan GILBERT, Conductor\uFF0F Tokyo Metropolitan Symphony Orchestra",
-      "VideoOwnerChannelId": "UCW-bv9InoF-XIztER3wv7jg",
-      "VideoOwnerChannelTitle": "\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 / Tokyo Metropolitan Symphony Orchestra"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "r3NvXzu18bk",
       "VideoPublishedAtRaw": "2025-11-17T09:12:42Z",
       "VideoPublishedAtDateTimeOffset": "2025-11-17T09:12:42+00:00",
       "VideoPublishedAt": "2025-11-17T14:42:42+05:30"
     },
-    "ETag": "bkLMFYZxdm8EaDsC06NbTPiKJCM",
+    "ETag": "C8KvTfwXcEQRx2A2NzUbBlKTnsI",
     "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi43NjE5NDdDRTdENjQ3RTkw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -4728,7 +4545,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Eduard Tubin: Double Bass Concerto ETW22\n\nTMSO Special\nTue. 23. July 2024 at Suntory Hall\nAlan GILBERT, Conductor\nHiroshi IKEMATSU, Contrabass\nTokyo Metropolitan Symphony Orchestra\n\nYou can watch Program Note.\nhttps://www.tmso.or.jp/e/concert/detail/detail.php?id=3788\n\nSubscribe to our channel at\nhttps://www.youtube.com/user/TMSOMovie\n\nRead about our concerts : \nhttps://www.tmso.or.jp/e/concert/\n\nFollow us\uFF01\nX : https://x.com/tmsonews\nInstagram :https://www.instagram.com/tokyometropolitansymphony/\nFacebook : https://www.facebook.com/TokyoMetropolitanSymphonyOrchestra\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\nVideo production\uFF1AMediaForest\nYouTube Ver edit\uFF1ATMSO",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
-      "Position": 93,
+      "Position": 91,
       "PublishedAtRaw": "2026-06-12T02:23:36Z",
       "PublishedAtDateTimeOffset": "2026-06-12T02:23:36+00:00",
       "PublishedAt": "2026-06-12T07:53:36+05:30",
@@ -4770,167 +4587,267 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "9ogmK5eCZ5I",
-      "VideoPublishedAtRaw": "2025-11-05T14:33:48Z",
-      "VideoPublishedAtDateTimeOffset": "2025-11-05T14:33:48+00:00",
-      "VideoPublishedAt": "2025-11-05T20:03:48+05:30"
+      "VideoId": "GXcsRtOM3Qk",
+      "VideoPublishedAtRaw": "2022-02-18T08:12:56Z",
+      "VideoPublishedAtDateTimeOffset": "2022-02-18T08:12:56+00:00",
+      "VideoPublishedAt": "2022-02-18T13:42:56+05:30"
     },
-    "ETag": "qZV023wBknUwar3-ko8cQwLrtLE",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5ENEEyOTIwNkY4NzFGMkQ2",
+    "ETag": "xyh0ndo8w7BnlmL-qrQ0K8s96pU",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45ODRDNTg0QjA4NkFBNkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "Sergej Rachmaninows Rhapsodie \u00FCber ein Thema von Paganini f\u00FCr Klavier und Orchester, aufgef\u00FChrt vom NDR Elbphilharmonie Orchester mit Pianist Kirill Gerstein unter der Leitung von Alan Gilbert. Eine Aufzeichnung vom 6. September 2025 aus der Elbphilharmonie Hamburg. \n\nSergej Rachmaninow - Rhapsodie \u00FCber ein Thema von Paganini f\u00FCr Klavier und Orchester\n\nKirill Gerstein, Klavier\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Leitung\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "Description": "Urauff\u00FChrung bei der Opening Night der Elbphilharmonie-Saison 2021/2022: Das NDR Elbphilharmonie Orchester unter der Leitung von Chefdirigent Alan Gilbert hebt Mark-Anthony Turnages \u0022Time Flies\u0022 aus der Taufe. \r\n\r\nDas St\u00FCck, das der britische Komponist als Reise um die Welt in drei S\u00E4tzen gestaltete - von London \u00FCber Hamburg nach Tokio - , sollte eigentlich schon im Jubil\u00E4umskonzert des NDR EO zu dessen 75. Geburtstag erklingen. Wegen der Einschr\u00E4nkungen durch die Corona-Pandemie wurde diese Premiere verschoben. \r\n\r\nMARK-ANTHONY TURNAGE\r\nTime Flies  00:00\r\n(Urauff\u00FChrung, Auftragswerk u.a. des NDR) \r\nI. London Time  00:02\r\nII. Hamburg Time  06:20\r\nIII. Tokyo Time  13:25\n\nAlan Gilbert, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nMitschnitt von der Opening Night 2021/2022 aus der Elbphilharmonie Hamburg, 1. September 2021\r\n\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\r\n#ndrelbphilharmonieorchester #alangilbert #urauff\u00FChrung",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 92,
+      "PublishedAtRaw": "2023-11-19T13:19:02Z",
+      "PublishedAtDateTimeOffset": "2023-11-19T13:19:02+00:00",
+      "PublishedAt": "2023-11-19T18:49:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "GXcsRtOM3Qk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/GXcsRtOM3Qk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Turnage: Time Flies  | Urauff\u00FChrung | Alan Gilbert | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wSRz7gJJreQ",
+      "VideoPublishedAtRaw": "2021-09-27T10:56:17Z",
+      "VideoPublishedAtDateTimeOffset": "2021-09-27T10:56:17+00:00",
+      "VideoPublishedAt": "2021-09-27T16:26:17+05:30"
+    },
+    "ETag": "WJl_Vepq-9wqiIoVJRlYGwx_T3g",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Chefdirigent Alan Gilbert und das NDR Elbphilharmonie Orchester spielen Anton Weberns Idyll f\u00FCr Orchester \u0022Im Sommerwind\u0022. Ein Konzertmitschnitt aus der Elphi vom 28. Februar 2020.\n\nANTON WEBERN \nIm Sommerwind - Idyll f\u00FCr Orchester\n\nAlan Gilbert, Dirigent\nNDR Elbphilharmonie Orchester\nMitschnitt des Konzerts vom 28. Februar 2020, Elbphilharmonie Hamburg\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #alangilbert #webern",
+      "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
+      "Position": 93,
+      "PublishedAtRaw": "2023-11-19T13:21:58Z",
+      "PublishedAtDateTimeOffset": "2023-11-19T13:21:58+00:00",
+      "PublishedAt": "2023-11-19T18:51:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wSRz7gJJreQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wSRz7gJJreQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Webern: Im Sommerwind - Idyll f\u00FCr Orchester | Alan Gilbert | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "YD6oFmtLvbw",
+      "VideoPublishedAtRaw": "2022-10-04T11:00:15Z",
+      "VideoPublishedAtDateTimeOffset": "2022-10-04T11:00:15+00:00",
+      "VideoPublishedAt": "2022-10-04T16:30:15+05:30"
+    },
+    "ETag": "EquSfyCX0DkU7rqX6MTOlMyAbAU",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41OURENDc2NEM1MDI5Mjky",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "00:00 I - Allegro con brio\n11:12 II - Adagio\n21:57 III - Allegretto grazioso - Molto vivace\n27:52 IV - Allegro ma non troppo\n\n[KBS\uAD50\uD5A5\uC545\uB2E8 \uC81C780\uD68C \uC815\uAE30\uC5F0\uC8FC\uD68C]\n\u25B6 \uCD9C\uC5F0 : \uC568\uB7F0 \uAE38\uBC84\uD2B8(\uC9C0\uD718)\n\u25B6 \uC77C\uC2DC \uBC0F \uC7A5\uC18C : 2022\uB144 7\uC6D4 30\uC77C(\uD1A0) 11:30 / \uB86F\uB370\uCF58\uC11C\uD2B8\uD640\n\u25B6 \uD504\uB85C\uADF8\uB7A8 : \uB4DC\uBCF4\uB974\uC790\uD06C / \uAD50\uD5A5\uACE1 \uC81C8\uBC88 G\uC7A5\uC870, \uC791\uD48888\n\n[KBSSO The 778th Subscription Concert]\n\u25B6 Artists : Alan Gilbert(Cond)\n\u25B6 Date and Venue : Jul. 30th(Sat), 2022, 11:30 / Lotte Concert Hall\n\u25B6 Program : A. Dvo\u0159\u00E1k / Symphony No.8 in G Major, Op.88, B.163",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
       "Position": 94,
-      "PublishedAtRaw": "2026-06-12T02:23:42Z",
-      "PublishedAtDateTimeOffset": "2026-06-12T02:23:42+00:00",
-      "PublishedAt": "2026-06-12T07:53:42+05:30",
+      "PublishedAtRaw": "2025-06-06T11:09:26Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T11:09:26+00:00",
+      "PublishedAt": "2025-06-06T16:39:26+05:30",
       "ResourceId": {
         "Kind": "youtube#video",
-        "VideoId": "9ogmK5eCZ5I"
+        "VideoId": "YD6oFmtLvbw"
       },
       "Thumbnails": {
         "Default__": {
           "Height": 90,
-          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/default.jpg",
+          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/default.jpg",
           "Width": 120
         },
         "High": {
           "Height": 360,
-          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/hqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/hqdefault.jpg",
           "Width": 480
         },
         "Maxres": {
           "Height": 720,
-          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/maxresdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/maxresdefault.jpg",
           "Width": 1280
         },
         "Medium": {
           "Height": 180,
-          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/mqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/mqdefault.jpg",
           "Width": 320
         },
         "Standard": {
           "Height": 480,
-          "Url": "https://i.ytimg.com/vi/9ogmK5eCZ5I/sddefault.jpg",
+          "Url": "https://i.ytimg.com/vi/YD6oFmtLvbw/sddefault.jpg",
           "Width": 640
         }
       },
-      "Title": "Rachmaninow -  Paganini-Rhapsodie | Kirill Gerstein | Alan Gilbert | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
+      "Title": "[\uAD11\uACE0\uC5C6\uC74C] A. Dvo\u0159\u00E1k / Symphony No.8 in G Major, Op.88, B.163 \uC568\uB7F0 \uAE38\uBC84\uD2B8 \uC9C0\uD718 Alan Gilbert",
+      "VideoOwnerChannelId": "UCUqNn2bpiOC6JPhMcf6wRYw",
+      "VideoOwnerChannelTitle": "KBS\uAD50\uD5A5\uC545\uB2E8"
     }
   },
   {
     "ContentDetails": {
-      "VideoId": "Kz03gZlp2UA",
-      "VideoPublishedAtRaw": "2022-12-16T07:00:06Z",
-      "VideoPublishedAtDateTimeOffset": "2022-12-16T07:00:06+00:00",
-      "VideoPublishedAt": "2022-12-16T12:30:06+05:30"
+      "VideoId": "VRJVZrSlyiA",
+      "VideoPublishedAtRaw": "2021-03-06T19:30:14Z",
+      "VideoPublishedAtDateTimeOffset": "2021-03-06T19:30:14+00:00",
+      "VideoPublishedAt": "2021-03-07T01:00:14+05:30"
     },
-    "ETag": "uCOutChQKpGBEWwTnHIUjt4vVrc",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi42NEZDNTU0RTRENDUzRjMz",
+    "ETag": "x0OSO46MmRaENJ8EAOLJiFKpaw8",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi45NzUwQkI1M0UxNThBMkU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "\u3010Program Info\u3011\nBeethoven: Symphony No.7 in A major, op.92\n\nI Poco sostenuto - Vivace\u30000:00:02\uFF5E\nII Allegretto\u30000:12:09\uFF5E\nIII Presto\u30000:19:47\uFF5E\nIV Allegro con brio\u30000:28:12\uFF5E\n\nTMSO Special 2021(1/19)\nTue. 19 January 2021, at Tokyo Metropolitan Theatre\nEliahu INBAL, Conductor\nTokyo Metropolitan Symphony Orchestra\n\nFilming and Editing by fontec\n\n\u3010Now Open\u3011\nBeethoven: Symphony No.6, \u201CPastorale\u201D\nhttps://youtu.be/gI0xuWBLfNI\n\n\u3010FOLLOW TMSO\u3011\nX - http://twitter.com/tmsonews\nFacebook \u2013 http://www.facebook.com/TokyoMetropolitanSymphonyOrchestra\nInstagram \u2013 https://www.instagram.com/tmsonews/\n\n#TMSO #INBAL #Beethoven",
+      "Description": "In einem besonderen Konzert-Stream l\u00E4sst das Orchester unter seinem Chefdirigenten Alan Gilbert Musik und Architektur verschmelzen. Auf dem Programm: Magnus Lindbergs aufregendes \u00BBTempus fugit\u00AB und Olga Neuwirths Trompetenkonzert. Mehr Infos zum Stream \u27A1\uFE0F https://bit.ly/NDREO_Stream\n\n// BESETZUNG\nNDR Elbphilharmonie Orchester\nH\u00E5kan Hardenberger  | Trompete\nDirigent | Alan Gilbert\n\n// PROGRAMM\n0:20 - Magnus Lindberg (*1958)\nTempus fugit (2017)\n\n32:25 - Interview Alan Gilbert \u0026 H\u00E5kan Hardenberger \n\n42:22 - Olga Neuwirth (*1968)\n... miramondo multiplo ... (2006)\n\nCopyright for the works by Magnus Lindberg and Olga Neuwirth: Boosey \u0026 Hawkes, https://www.boosey.com/\n\n#NDR #AlanGilbert #ElbphilharmonieLive #Hamburg #Architektur\n\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\nELBPHILHARMONIE HAMBURG\nIn der Elbphilharmonie verbinden sich Architektur und Musik zu einem unvergleichlichen Gesamterlebnis. 2017 er\u00F6ffnet, ist sie eines der international gefragtesten Konzerth\u00E4user und begeistert mit ihrem vielseitigen Programm, ihrer ausgezeichneten Akustik und zahlreichen Mitmach-Angeboten ein breites Publikum. Das Geb\u00E4ude, das mitten im Strom der Elbe aus einem alten Lagerhaus entstanden ist, wurde vom Schweizer Architekturb\u00FCro Herzog \u0026 de Meuron entworfen. Als Wahrzeichen der Stadt Hamburg zieht es j\u00E4hrlich Millionen Besucher aus aller Welt an. \n__\nIN KONTAKT BLEIBEN\n\uD83D\uDCF1Facebook: https://fb.me/elbphilharmoniehamburg\n\uD83D\uDCF1Twitter: https://twitter.com/elbphilharmonie\n\uD83D\uDCF1Instagram: https://www.instagram.com/elbphilharmonie\n\uD83D\uDD0EGoogle Arts \u0026 Culture: http://g.co/elbphilharmonie\n\uD83D\uDCDDElbphilharmonie Mediathek: https://www.elbphilharmonie.de/de/mediathek\n___\nhttps://www.elbphilharmonie.de",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
       "Position": 95,
-      "PublishedAtRaw": "2026-06-12T02:23:57Z",
-      "PublishedAtDateTimeOffset": "2026-06-12T02:23:57+00:00",
-      "PublishedAt": "2026-06-12T07:53:57+05:30",
+      "PublishedAtRaw": "2023-11-19T13:22:29Z",
+      "PublishedAtDateTimeOffset": "2023-11-19T13:22:29+00:00",
+      "PublishedAt": "2023-11-19T18:52:29+05:30",
       "ResourceId": {
         "Kind": "youtube#video",
-        "VideoId": "Kz03gZlp2UA"
+        "VideoId": "VRJVZrSlyiA"
       },
       "Thumbnails": {
         "Default__": {
           "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/default.jpg",
+          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/default.jpg",
           "Width": 120
         },
         "High": {
           "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/hqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/hqdefault.jpg",
           "Width": 480
         },
         "Maxres": {
           "Height": 720,
-          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/maxresdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/maxresdefault.jpg",
           "Width": 1280
         },
         "Medium": {
           "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/mqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/mqdefault.jpg",
           "Width": 320
         },
         "Standard": {
           "Height": 480,
-          "Url": "https://i.ytimg.com/vi/Kz03gZlp2UA/sddefault.jpg",
+          "Url": "https://i.ytimg.com/vi/VRJVZrSlyiA/sddefault.jpg",
           "Width": 640
         }
       },
-      "Title": "Beethoven: Symphony No.7 / Eliahu INBAL / TMSO",
-      "VideoOwnerChannelId": "UCW-bv9InoF-XIztER3wv7jg",
-      "VideoOwnerChannelTitle": "\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 / Tokyo Metropolitan Symphony Orchestra"
+      "Title": "\u00BBTempus fugit\u00AB | Alan Gilbert \u0026 NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCnfmo4KkHHRDYOhyw9TMPRw",
+      "VideoOwnerChannelTitle": "Elbphilharmonie Hamburg"
     }
   },
   {
     "ContentDetails": {
-      "VideoId": "PtYi-506zSo",
-      "VideoPublishedAtRaw": "2026-06-15T12:00:16Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-15T12:00:16+00:00",
-      "VideoPublishedAt": "2026-06-15T17:30:16+05:30"
+      "VideoId": "clkx-fxPkUs",
+      "VideoPublishedAtRaw": "2024-07-08T09:24:00Z",
+      "VideoPublishedAtDateTimeOffset": "2024-07-08T09:24:00+00:00",
+      "VideoPublishedAt": "2024-07-08T14:54:00+05:30"
     },
-    "ETag": "W6-ZKbFNqgyh_vTGfXhZjiO6XGE",
-    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi5BRDg1NUY1OTY2QzgzOEM0",
+    "ETag": "Lbqq2x29lY5iFjHXHr6dJOyBNa4",
+    "Id": "UEwxemdOQ29XdF83YlFIYXZKdUMyMlg2OWc3VFJLN2FLdi41MzY4MzcwOUFFRUU3QzEx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "Ludwig van Beethovens Sinfonie Nr. 3 Es-Dur op. 55 \u0022Eroica\u0022, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Alan Gilbert. Live aufgezeichnet am 1. M\u00E4rz 2026 in der Elbphilharmonie Hamburg.\n\n00:00 Start\n00:23 I. Allegro con brio\n18:03 II. Marcia funebre. Adagio assai\n33:25 III. Scherzo. Allegro vivace - Trio\n39:18 IV. Finale. Allegro molto - Poco andante - Presto\n\nNDR Elbphilharmonie Orchester\nAlan Gilbert, Leitung\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "Description": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C40\u756A \u30C8\u77ED\u8ABF K.550 \n\u7B2C1\u697D\u7AE0 \u30E2\u30EB\u30C8\u30FB\u30A2\u30EC\u30B0\u30ED   00:00:58\n\u7B2C2\u697D\u7AE0 \u30A2\u30F3\u30C0\u30F3\u30C6  00:08:20\n\u7B2C3\u697D\u7AE0 \u30E1\u30CC\u30A8\u30C3\u30C8\uFF0F\u30A2\u30EC\u30B0\u30EC\u30C3\u30C8  00:15:30\n\u7B2C4\u697D\u7AE0 \u30A2\u30EC\u30B0\u30ED\u30FB\u30A2\u30C3\u30B5\u30A4  00:19:40 \n\n\u7B2C956\u56DE \u5B9A\u671F\u6F14\u594F\u4F1AB\u30B7\u30EA\u30FC\u30BA\u3088\u308A\n2022\u5E747\u670825\u65E5\uFF08\u6708\uFF09 \u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\n\u6307\u63EE\uFF0F\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\n\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3\n\n2024\u5E747\u670820\u65E5\u653E\u9001\u300A\u30A2\u30F3\u30B3\u30FC\u30EB\uFF01\u90FD\u97FF\u300B\uFF08TOKYO MX2\uFF09\u306F\u3001\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\u3068\u90FD\u97FF\u304C\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\u3092\u3088\u308A\u6DF1\u3081\u308B\u3079\u304F\u6311\u3093\u3060\u30D7\u30ED\u30B0\u30E9\u30E0\uFF08\u7B2C39\u756A\u301C\u7B2C41\u756A\uFF09\u3092\u4E00\u6319\u306B\u653E\u9001\uFF01\n\u653E\u9001\u306B\u5148\u99C6\u3051\u3066\u3001\u90FD\u97FFYouTube\u30C1\u30E3\u30F3\u30CD\u30EB\u3067\u306F\u3001\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\u306E\u97F3\u697D\u907A\u7523\u306E\u4E2D\u3067\u3082\u7279\u306B\u79C0\u3067\u305F\u4EA4\u97FF\u66F2\u7B2C40\u756A\u3092\u5148\u884C\u914D\u4FE1\u3044\u305F\u3057\u307E\u3059\u3002\n\n\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8 \u00D7 \u30E2\u30FC\u30C4\u30A1\u30EB\u30C8 \u00D7 \u90FD\u97FF\n\u306E\u5999\u5473\u306F\u3001\u4E0B\u8A18\u306E\u516C\u6F14\u3067\u3082\u5B58\u5206\u306B\u304A\u697D\u3057\u307F\u304F\u3060\u3055\u3044\u3002\n\n\u30102024\u5E74\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8\u6765\u65E5\u516C\u6F14 \u3011\n\u2460\u7B2C1004\u56DE\u5B9A\u671F\u6F14\u594F\u4F1AC\u30B7\u30EA\u30FC\u30BA\n2024\u5E747\u670815\u65E5\uFF08\u6708\u30FB\u795D\uFF0914:00 \u6771\u4EAC\u82B8\u8853\u5287\u5834\n\u2461\u90FD\u97FF\u30B9\u30DA\u30B7\u30E3\u30EB\uFF08\u5E73\u65E5\u663C\uFF09\n2024\u5E747\u670816\u65E5\uFF08\u706B\uFF0914:00 \u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\nhttps://www.tmso.or.jp/j/concert/index.php?tab=1\u0026keyword=Alcotts\n\n\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\uFF0F\u6A2B\u672C\u5927\u9032\uFF08\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u7B2C1\u30B3\u30F3\u30B5\u30FC\u30C8\u30DE\u30B9\u30BF\u30FC\uFF09\n\u30F4\u30A3\u30AA\u30E9\uFF0F\u30A2\u30DF\u30CF\u30A4\u30FB\u30B0\u30ED\u30B9\uFF08\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u7B2C1\u30BD\u30ED\u30FB\u30F4\u30A3\u30AA\u30E9\u594F\u8005\uFF09\n\n\u30A2\u30A4\u30F4\u30BA\uFF08\u30D6\u30E9\u30F3\u30C8\u7DE8\u66F2\uFF09\uFF1A\n\u30B3\u30F3\u30B3\u30FC\u30C9\u4EA4\u97FF\u66F2\u3088\u308A\u300C\u30AA\u30EB\u30B3\u30C3\u30C8\u5BB6\u306E\u4EBA\u3005\u300D\u3010\u30A2\u30A4\u30F4\u30BA\u751F\u8A95150\u5E74\u8A18\u5FF5\u3011 \n\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u3068\u30F4\u30A3\u30AA\u30E9\u306E\u305F\u3081\u306E\u5354\u594F\u4EA4\u97FF\u66F2 \u5909\u30DB\u9577\u8ABF K.364\uFF08320d\uFF09 \n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A \u30CF\u77ED\u8ABF op.67\u300A\u904B\u547D\u300B\n\n\u2462\u90FD\u97FF\u30B9\u30DA\u30B7\u30E3\u30EB\uFF08\u5E73\u65E5\u663C\uFF09\n2024\u5E747\u670823\u65E5\uFF08\u706B\uFF0914:00 \u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\n\u2463\u7B2C1005\u56DE\u5B9A\u671F\u6F14\u594F\u4F1AA\u30B7\u30EA\u30FC\u30BA\n2024\u5E747\u670824\u65E5\uFF08\u6C34\uFF0919:00 \u6771\u4EAC\u6587\u5316\u4F1A\u9928\n\n\u30DE\u30B0\u30CC\u30B9\u30FB\u30EA\u30F3\u30C9\u30D9\u30EB\u30A4\uFF1AEXPO\uFF082009\uFF09 \n\u30A8\u30C9\u30A5\u30A2\u30EB\u30C9\u30FB\u30C8\u30A5\u30D3\u30F3\uFF1A\u30B3\u30F3\u30C8\u30E9\u30D0\u30B9\u5354\u594F\u66F2 ETW22\uFF081948\uFF09 \n\u30EA\u30E0\u30B9\u30AD\u30FC=\u30B3\u30EB\u30B5\u30B3\u30D5\uFF1A\u4EA4\u97FF\u7D44\u66F2\u300A\u30B7\u30A7\u30D8\u30E9\u30B6\u30FC\u30C9\u300B op.35\uFF08\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\u72EC\u594F\uFF0F\u77E2\u90E8\u9054\u54C9\uFF09\n\nTOKYO MX2 \u300A\u30A2\u30F3\u30B3\u30FC\u30EB\uFF01\u90FD\u97FF\u300B\nhttps://s.mxtv.jp/music/tmso/\n\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\uFF3F\n\u64AE\u5F71\u30FB\u7DE8\u96C6\uFF1A\u30D5\u30A9\u30F3\u30C6\u30C3\u30AF\nYouTube\u7248\u7DE8\u96C6\uFF1A\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3",
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
       "Position": 96,
-      "PublishedAtRaw": "2026-06-15T12:45:14Z",
-      "PublishedAtDateTimeOffset": "2026-06-15T12:45:14+00:00",
-      "PublishedAt": "2026-06-15T18:15:14+05:30",
+      "PublishedAtRaw": "2025-02-05T00:23:01Z",
+      "PublishedAtDateTimeOffset": "2025-02-05T00:23:01+00:00",
+      "PublishedAt": "2025-02-05T05:53:01+05:30",
       "ResourceId": {
         "Kind": "youtube#video",
-        "VideoId": "PtYi-506zSo"
+        "VideoId": "clkx-fxPkUs"
       },
       "Thumbnails": {
         "Default__": {
           "Height": 90,
-          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/default.jpg",
+          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/default.jpg",
           "Width": 120
         },
         "High": {
           "Height": 360,
-          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/hqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/hqdefault.jpg",
           "Width": 480
         },
         "Maxres": {
           "Height": 720,
-          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/maxresdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/maxresdefault.jpg",
           "Width": 1280
         },
         "Medium": {
           "Height": 180,
-          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/mqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/mqdefault.jpg",
           "Width": 320
         },
         "Standard": {
           "Height": 480,
-          "Url": "https://i.ytimg.com/vi/PtYi-506zSo/sddefault.jpg",
+          "Url": "https://i.ytimg.com/vi/clkx-fxPkUs/sddefault.jpg",
           "Width": 640
         }
       },
-      "Title": "Beethoven - Sinfonie Nr. 3 Es-Dur op. 55 \u0022Eroica\u0022 | Alan Gilbert | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
+      "Title": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C40\u756A \u30C8\u77ED\u8ABF K.550 /\u30A2\u30E9\u30F3\u30FB\u30AE\u30EB\u30D0\u30FC\u30C8 / \u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3",
+      "VideoOwnerChannelId": "UCW-bv9InoF-XIztER3wv7jg",
+      "VideoOwnerChannelTitle": "\u6771\u4EAC\u90FD\u4EA4\u97FF\u697D\u56E3 / Tokyo Metropolitan Symphony Orchestra"
     }
   }
 ]

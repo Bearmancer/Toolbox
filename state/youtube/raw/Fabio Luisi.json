@@ -626,18 +626,15 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "BT7voz0RKvA",
-      "VideoPublishedAtRaw": "2023-01-24T08:35:34Z",
-      "VideoPublishedAtDateTimeOffset": "2023-01-24T08:35:34+00:00",
-      "VideoPublishedAt": "2023-01-24T14:05:34+05:30"
+      "VideoId": "BT7voz0RKvA"
     },
-    "ETag": "JaOEyoxfmsw6qPNMm33t7Re926s",
+    "ETag": "TWF9V1se69WXdYVhdtGy7JPGKo4",
     "Id": "UEwxemdOQ29XdF83WkxXbVZkcUIwT1ZHZjJwSXd2WjZNVS45RTgxNDRBMzUwRjQ0MDhC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "Camille Saint-Sa\u00EBns\nSymphony No 3 C minor, Organ Symphony\nFabio Luisi conducts Orchestre de la Suisse Romande\n1.Adagio -- Allegro moderato -- Poco adagio 0:00\n2.Allegro moderato -- Presto 20:23\n3.Maestoso - Allegro 27:31\nThe symphony was commissioned by the Royal Philharmonic Society in England, and the first performance was given in London on 19 May 1886, at St James\u0027s Hall, conducted by the composer. After the death of his friend Franz Liszt on 31 July 1886, Saint-Sa\u00EBns dedicated the work to Liszt\u0027s memory. The composer also conducted the French premiere in January 1887",
+      "Description": "This video is private.",
       "PlaylistId": "PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU",
       "Position": 12,
       "PublishedAtRaw": "2025-06-14T10:43:28Z",
@@ -647,36 +644,8 @@
         "Kind": "youtube#video",
         "VideoId": "BT7voz0RKvA"
       },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/BT7voz0RKvA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/BT7voz0RKvA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/BT7voz0RKvA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/BT7voz0RKvA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/BT7voz0RKvA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Camille Saint-Sa\u00EBns Symphony No 3 Organ Fabio Luisi Orchestre de la Suisse Romande",
-      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
-      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+      "Thumbnails": {},
+      "Title": "Private video"
     }
   },
   {
@@ -1434,18 +1403,15 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "QNomrCsOsqw",
-      "VideoPublishedAtRaw": "2022-10-20T10:58:54Z",
-      "VideoPublishedAtDateTimeOffset": "2022-10-20T10:58:54+00:00",
-      "VideoPublishedAt": "2022-10-20T16:28:54+05:30"
+      "VideoId": "QNomrCsOsqw"
     },
-    "ETag": "f2fPGF1r8qF8KhqUC8Vv-Vi-CJE",
+    "ETag": "T_tYaAsezsOcmnOZpKjAwYJrB6E",
     "Id": "UEwxemdOQ29XdF83WkxXbVZkcUIwT1ZHZjJwSXd2WjZNVS4yMDhBMkNBNjRDMjQxQTg1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "Gustav Mahler \nSinfonie nr. 2 in c-Moll, Auferstehungssinfonie\nSymphony No 2 in C minor, Resurrection\nFabio Luisi conducts Orchestra Sinfonica della RAI Torino,  Coro dell\u0027opera Teatro Regio di Torino. Solist : Valentina Farcas soprano  and Wiebke Lehmkuhl contralto\n0:00:00 1. Satz: Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck\n0:22:40 2. Satz: Andante comodo. Sehr gem\u00E4chlich. Nie eilen\n0:34:20 3. Satz: In ruhig flie\u00DFender Bewegung\n0:45:52 4. Satz: Urlicht \u2013 Sehr feierlich aber schlicht. Nicht schleppen\n0:51:00 5. Satz: Im Tempo des Scherzos. Wild herausfahrend\u2013 Wieder zur\u00FCckhaltend \u2013 Langsam\n1:08:33 6. Langsam Misterioso \u0022Die Auferstehung\u0022",
+      "Description": "This video is private.",
       "PlaylistId": "PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU",
       "Position": 28,
       "PublishedAtRaw": "2025-06-14T10:43:43Z",
@@ -1455,36 +1421,8 @@
         "Kind": "youtube#video",
         "VideoId": "QNomrCsOsqw"
       },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/QNomrCsOsqw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/QNomrCsOsqw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/QNomrCsOsqw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/QNomrCsOsqw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/QNomrCsOsqw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mahler Sinfonie nr 2 in c-Moll \u201EAuferstehungssinfonie\u201C Fabio Luisi",
-      "VideoOwnerChannelId": "UC6hFaPxIWQLG_3v3fWvYc_Q",
-      "VideoOwnerChannelTitle": "Sonorum Concentus Romantic Era"
+      "Thumbnails": {},
+      "Title": "Private video"
     }
   },
   {

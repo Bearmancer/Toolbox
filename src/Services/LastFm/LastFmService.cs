@@ -32,6 +32,9 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 			messageTemplate: "LastFm.FetchRecentTracks"
 		);
 
+		var fetchSw = System.Diagnostics.Stopwatch.StartNew();
+		Telemetry.Verbose("FetchRecentTracks started (since={Since})", since?.ToString("yyyy-MM-dd HH:mm") ?? "all");
+
 		List<LastFmScrobble> scrobbles = [];
 		var page = 1;
 		const int limit = 200;
@@ -41,14 +44,17 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 		{
 			ct.ThrowIfCancellationRequested();
 
+			var pageSw = System.Diagnostics.Stopwatch.StartNew();
 			ErrorOr<(List<LastFmScrobble> Tracks, int TotalPages)> pageResult =
 				await FetchPageAsync(since, page, limit, ct);
+			pageSw.Stop();
 
 			if (pageResult.IsError)
 			{
 				Telemetry.Error(
-					"Failed to fetch page {Page}: {Errors}",
+					"Failed to fetch page {Page} in {ElapsedMs}ms: {Errors}",
 					page,
+					pageSw.ElapsedMilliseconds,
 					string.Join(", ", pageResult.Errors.Select(e => e.Description))
 				);
 				break;
@@ -72,7 +78,24 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 				batchCount++;
 			}
 
-			Telemetry.Debug("Page {Page}/{Total}: {Count} tracks", page, totalPages, batchCount);
+			Telemetry.Debug(
+				"Page {Page}/{Total}: {Count} tracks in {ElapsedMs}ms",
+				page,
+				totalPages,
+				batchCount,
+				pageSw.ElapsedMilliseconds
+			);
+
+			if (page % 10 == 0 || page == totalPages)
+			{
+				Telemetry.Debug(
+					"Fetch progress: {Page}/{TotalPages} pages ({Percent}%) — {Scrobbles} scrobbles so far",
+					page,
+					totalPages,
+					page * 100 / totalPages,
+					scrobbles.Count
+				);
+			}
 
 			if (page >= totalPages)
 				hasMore = false;
@@ -80,8 +103,9 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 				page++;
 		}
 
+		fetchSw.Stop();
 		activity.Complete(Serilog.Events.LogEventLevel.Debug);
-		Telemetry.Debug("LastFm.FetchRecentTracks returned {Count} scrobbles", scrobbles.Count);
+		Telemetry.Debug("LastFm.FetchRecentTracks returned {Count} scrobbles in {ElapsedMs}ms", scrobbles.Count, fetchSw.ElapsedMilliseconds);
 		return scrobbles;
 	}
 
@@ -154,7 +178,11 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 	{
 		TimeSpan elapsed = DateTimeOffset.UtcNow - LastRequestTime;
 		if (elapsed < TimeSpan.FromMilliseconds(200))
-			await Task.Delay(TimeSpan.FromMilliseconds(200) - elapsed, ct);
+		{
+			var waitTime = TimeSpan.FromMilliseconds(200) - elapsed;
+			Telemetry.Verbose("Rate limit: waiting {WaitMs}ms", waitTime.TotalMilliseconds);
+			await Task.Delay(waitTime, ct);
+		}
 		LastRequestTime = DateTimeOffset.UtcNow;
 	}
 }

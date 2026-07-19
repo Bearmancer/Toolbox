@@ -69,6 +69,7 @@ public class OpenAiService(AzureOpenAIClient client, AzureCredentials opts)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("OpenAI: API error — {Error}", ex.Message);
 			return Errors.OpenAi.ApiError(ex.Message);
 		}
 	}

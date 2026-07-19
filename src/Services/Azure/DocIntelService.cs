@@ -48,6 +48,7 @@ public class DocIntelService(DocumentIntelligenceClient client)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("DocIntel: API error — {Error}", ex.Message);
 			return Errors.DocIntel.ApiError(ex.Message);
 		}
 	}

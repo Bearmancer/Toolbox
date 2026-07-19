@@ -34,6 +34,7 @@ public class SpeechService(AzureCredentials opts)
 			}
 			catch (Exception ex)
 			{
+				Telemetry.Error("Speech: ffmpeg conversion failed — {Error}", ex.Message);
 				return Errors.Speech.ApiError(ex.Message);
 			}
 		}
@@ -72,6 +73,7 @@ public class SpeechService(AzureCredentials opts)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("Speech: transcription failed — {Error}", ex.Message);
 			return Errors.Speech.ApiError(ex.Message);
 		}
 		finally
@@ -112,6 +114,7 @@ public class SpeechService(AzureCredentials opts)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("Speech: synthesis failed — {Error}", ex.Message);
 			return Errors.Speech.ApiError(ex.Message);
 		}
 	}

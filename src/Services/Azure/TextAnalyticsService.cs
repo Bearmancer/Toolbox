@@ -63,6 +63,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("TextAnalytics: sentiment error — {Error}", ex.Message);
 			return Errors.TextAnalytics.ApiError(ex.Message);
 		}
 	}
@@ -98,6 +99,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("TextAnalytics: entities error — {Error}", ex.Message);
 			return Errors.TextAnalytics.ApiError(ex.Message);
 		}
 	}
@@ -129,6 +131,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("TextAnalytics: key phrases error — {Error}", ex.Message);
 			return Errors.TextAnalytics.ApiError(ex.Message);
 		}
 	}
@@ -160,6 +163,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("TextAnalytics: detect language error — {Error}", ex.Message);
 			return Errors.TextAnalytics.ApiError(ex.Message);
 		}
 	}
@@ -220,6 +224,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("TextAnalytics: PII error — {Error}", ex.Message);
 			return Errors.TextAnalytics.ApiError(ex.Message);
 		}
 	}
