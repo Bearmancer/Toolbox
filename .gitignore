@@ -11,6 +11,9 @@ artifacts
 # dotenv files
 .env
 
+# Google OAuth tokens (sensitive credentials)
+state/google-auth/
+
 # Application settings (may contain secrets)
 appsettings.json
 appsettings.*.json

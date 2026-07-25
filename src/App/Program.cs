@@ -58,10 +58,18 @@ internal static class Program
 			await services.AddGoogleServicesAsync();
 			services.AddLastFmServices();
 		}
-		catch (Exception ex)
+		catch (InvalidOperationException ex)
 		{
-			var msg = $"[STARTUP FAILURE] {ex.GetType().Name}: {ex.Message}\n{ex.StackTrace}";
-			Telemetry.Error("{StartupFailure}", msg);
+			var msg = $"[STARTUP FAILURE] {ex.GetType().Name}: {ex.Message}";
+			Telemetry.Error("{StartupFailure}\n{StackTrace}", msg, ex.StackTrace ?? "");
+			await Console.Error.WriteLineAsync(msg);
+			await Serilog.Log.CloseAndFlushAsync();
+			return 2;
+		}
+		catch (OperationCanceledException ex)
+		{
+			var msg = $"[STARTUP FAILURE] {ex.GetType().Name}: {ex.Message}";
+			Telemetry.Error("{StartupFailure}\n{StackTrace}", msg, ex.StackTrace ?? "");
 			await Console.Error.WriteLineAsync(msg);
 			await Serilog.Log.CloseAndFlushAsync();
 			return 2;

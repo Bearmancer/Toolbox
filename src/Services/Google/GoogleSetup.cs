@@ -27,14 +27,8 @@ public static class GoogleSetup
 		GoogleCredentials credentials
 	)
 	{
-		// Token stored at repo-relative path so any OS account (including SYSTEM)
-		// can read the cached OAuth token. Default FileDataStore uses
-		// SHGetFolderPath(APPDATA) which differs per user/service context.
 		var tokenStorePath = PathResolver.GetStatePath("google-auth");
 		var dataStore = new FileDataStore(tokenStorePath, fullPath: true);
-
-		// 30-second timeout: fails fast with a clear error if the token is missing
-		// or the interactive browser flow is unavailable (e.g., under SYSTEM/service).
 		using var authCts = new CancellationTokenSource(TimeSpan.FromSeconds(30));
 
 		UserCredential credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(

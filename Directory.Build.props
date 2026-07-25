@@ -8,7 +8,7 @@
 		<SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
 		<UseArtifactsOutput>true</UseArtifactsOutput>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-		<!--		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<GenerateDocumentationFile>false</GenerateDocumentationFile>
 		<NoWarn>$(NoWarn);EnableGenerateDocumentationFile</NoWarn>
 	</PropertyGroup>

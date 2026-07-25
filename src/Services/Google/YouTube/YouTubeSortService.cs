@@ -80,12 +80,31 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		);
 		activity.Complete();
 		sortSw.Stop();
-		Telemetry.Info(
-			"YouTube.SortPlaylist complete — {Repositioned} repositioned in {ElapsedMs}ms, new ETag: {ETag}",
-			totalRepositioned,
-			sortSw.ElapsedMilliseconds,
-			finalSummary?.ETag ?? "unknown"
-		);
+
+		var playlistName = finalSummary?.Title ?? playlistId;
+		var itemCount = finalSummary?.ReportedVideoCount ?? 0;
+		if (totalRepositioned == 0)
+		{
+			Telemetry.Info(
+				"YouTube.SortPlaylist: {PlaylistName} already sorted ({ItemCount} items, {ElapsedMs}ms)",
+				playlistName,
+				itemCount,
+				sortSw.ElapsedMilliseconds
+			);
+		}
+		else
+		{
+			Telemetry.Info(
+				"YouTube.SortPlaylist: {PlaylistName} — {Repositioned}/{ItemCount} repositioned in {ElapsedMs}ms",
+				playlistName,
+				totalRepositioned,
+				itemCount,
+				sortSw.ElapsedMilliseconds
+			);
+		}
+
+		Telemetry.Debug("YouTube.SortPlaylist ETag: {ETag}", finalSummary?.ETag ?? "unknown");
+
 		var etag = finalSummary?.ETag ?? "";
 		return new SortResult(totalRepositioned, etag);
 	}
@@ -119,7 +138,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			.Select((item, idx) => (item.Id, idx))
 			.ToDictionary(x => x.Id, x => x.idx);
 
-		var currentOrder = items.OrderBy(i => i.Snippet.Position ?? 0).ToList();
+		var currentOrder = items.ToList();
 		var permutation = currentOrder.Select(item => targetRank[item.Id]).ToArray();
 
 		var lisSw = System.Diagnostics.Stopwatch.StartNew();
