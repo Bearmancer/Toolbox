@@ -33,7 +33,10 @@ internal static class Program
 
 		if (!File.Exists(envPath))
 		{
-			Telemetry.Error(".env not found at {Path}. Create one at the repo root with all required keys.", envPath);
+			Telemetry.Error(
+				".env not found at {Path}. Create one at the repo root with all required keys.",
+				envPath
+			);
 			return 2;
 		}
 
@@ -54,11 +57,13 @@ internal static class Program
 			services.AddAzureServices();
 			await services.AddGoogleServicesAsync();
 			services.AddLastFmServices();
-			services.AddLastFmServices();
 		}
-		catch (InvalidOperationException ex)
+		catch (Exception ex)
 		{
-			Telemetry.Error("Configuration error: {Error}", ex.Message);
+			var msg = $"[STARTUP FAILURE] {ex.GetType().Name}: {ex.Message}\n{ex.StackTrace}";
+			Telemetry.Error("{StartupFailure}", msg);
+			await Console.Error.WriteLineAsync(msg);
+			await Serilog.Log.CloseAndFlushAsync();
 			return 2;
 		}
 

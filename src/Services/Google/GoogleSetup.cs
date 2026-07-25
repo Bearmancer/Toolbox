@@ -1,5 +1,7 @@
+using Core;
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
+using Google.Apis.Util.Store;
 using Google.Apis.YouTube.v3;
 using Microsoft.Extensions.DependencyInjection;
 using Services.Google.YouTube;
@@ -25,7 +27,17 @@ public static class GoogleSetup
 		GoogleCredentials credentials
 	)
 	{
-		UserCredential? credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+		// Token stored at repo-relative path so any OS account (including SYSTEM)
+		// can read the cached OAuth token. Default FileDataStore uses
+		// SHGetFolderPath(APPDATA) which differs per user/service context.
+		var tokenStorePath = PathResolver.GetStatePath("google-auth");
+		var dataStore = new FileDataStore(tokenStorePath, fullPath: true);
+
+		// 30-second timeout: fails fast with a clear error if the token is missing
+		// or the interactive browser flow is unavailable (e.g., under SYSTEM/service).
+		using var authCts = new CancellationTokenSource(TimeSpan.FromSeconds(30));
+
+		UserCredential credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
 			new ClientSecrets
 			{
 				ClientId = credentials.ClientId,
@@ -33,7 +45,8 @@ public static class GoogleSetup
 			},
 			[YouTubeService.Scope.Youtube],
 			"user",
-			CancellationToken.None
+			authCts.Token,
+			dataStore
 		);
 
 		return new YouTubeService(
