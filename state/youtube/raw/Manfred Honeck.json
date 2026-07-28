@@ -1,62 +1,12 @@
 [
   {
     "ContentDetails": {
-      "VideoId": "MqgXUEFqBN4",
-      "VideoPublishedAtRaw": "2024-04-26T09:20:52Z",
-      "VideoPublishedAtDateTimeOffset": "2024-04-26T09:20:52+00:00",
-      "VideoPublishedAt": "2024-04-26T14:50:52+05:30"
-    },
-    "ETag": "INy9rOPPU_Bn8yUs04rsVl4a6gY",
-    "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS5DQ0MyQ0Y4Mzg0M0VGOEYw",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Das NDR Elbphilharmonie Orchester spielt unter der Leitung von Manfred Honeck Anton Bruckners Sinfonie Nr. 9 in d-Moll. Es war Bruckners letzte Sinfonie. Am Ende konnte er sie nicht mehr fertig stellen und starb \u00FCber den Entw\u00FCrfen zum Finale. \r\n\r\nEin Konzertausschnitt vom 1. M\u00E4rz 2024 aus der Elbphilharmonie Hamburg.\r\n\r\nANTON BRUCKNER\r\nSinfonie Nr. 9 in d-Moll  00:00\r\nI. Feierlich, misterioso  00:01\r\nII. Scherzo. Bewegt, lebhaft - Trio. Schnell  24:32\r\nIII. Adagio. Langsam, feierlich  35:30\r\n\r\nManfred Honeck, Dirigent\r\nNDR Elbphilharmonie Orchester\r\n\r\nWebsite: https://www.ndr.de/eo\r\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \r\nInstagram: https://www.instagram.com/ndr.eo/\r\n\r\n#NDRElbphilharmonieOrchester #NDREO #ManfredHoneck #AntonBruckner",
-      "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 0,
-      "PublishedAtRaw": "2024-10-26T12:02:40Z",
-      "PublishedAtDateTimeOffset": "2024-10-26T12:02:40+00:00",
-      "PublishedAt": "2024-10-26T17:32:40+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "MqgXUEFqBN4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Anton Bruckner: Sinfonie Nr. 9 | Manfred Honeck | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "KkpDgzg77Lo",
       "VideoPublishedAtRaw": "2021-05-04T18:00:14Z",
       "VideoPublishedAtDateTimeOffset": "2021-05-04T18:00:14+00:00",
       "VideoPublishedAt": "2021-05-04T23:30:14+05:30"
     },
-    "ETag": "BqNyaWUE4vfXDemrClcQwsTE4DY",
+    "ETag": "kKRqHySakfQZZCjRNNs7OVgCUIM",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS4yMUQyQTQzMjRDNzMyQTMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -64,7 +14,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Anton\u00EDn Dvo\u0159\u00E1ks Zigeunermelodien op. 55, gespielt vom WDR Sinfonieorchester unter der Leitung von Manfred Honeck. Aufnahme aus der K\u00F6lner Philharmonie vom 17. April 2021. \n\nWDR Sinfonieorchester \nManfred Honeck, Leitung \n\n00:00:00 I. Mein Lied ert\u00F6nt, ein Liebespsalm \n00:02:35 II. Ei, wie mein Triangel l\u00E4utet \n00:03:44 III. Rings ist der Wald so stumm \n00:06:39 IV. Als die alte Mutter \n00:08:51 V. Reingestimmt die Saiten \n00:09:52 VI. In dem weiten Leinenkleide \n00:11:18 VII. Darf des Falken schwingen \n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester \n\n\n\u25CB Werkeinf\u00FChrung  \nEin b\u00F6hmischer Komponist f\u00FCr den deutschsprachigen Markt: Das war Anton\u00EDn Dvo\u0159\u00E1k zu der Zeit, als er 1880 Texte seines Landsmanns Adolf Heyduk als \u0022Zigeunermelodien\u0022 vertonte. Ende drei\u00DFig war Dvo\u0159\u00E1k da, zeitgleich feilte er an seiner 6. Sinfonie. Gerade eben hatte Johannes Brahms sich f\u00FCr ihn stark gemacht, und sein deutscher Verleger erkannte sein gewinnversprechendes Potential. Tschechischsprachige Lieder hingegen erschienen nicht lukrativ. Daher lieferte Heyduk, mit dem Deutschen ebenso gut vertraut wie Dvo\u0159\u00E1k selbst, kurzerhand \u00DCbersetzungen. Widmungstr\u00E4ger der Lieder war eine s\u00E4ngerische Ber\u00FChmtheit jener Zeit: Gustav Walter, \u00FCber 30 Jahre lang f\u00FChrender lyrischer Tenor an der Wiener Hofoper. Auch Walter war befreundet mit Brahms, sang unter anderem in der Urauff\u00FChrung von dessen erster \u0022Liebeslieder-Walzer\u0022-Folge. Gro\u00DFe Ambitionen des tschechischen Komponisten also \u2013 und die l\u00F6st er klangvoll ein.\n\nWelches Bild aber vermitteln die Texte von Heyduk? Seine \u0022Zigeuner\u0022-Projektion bedient das jahrhundertelang herrschende Klischee einer vermeintlich romantischen, naturverbundenen und freiheitsliebenden Lebensweise: entweder feurig verliebt, frisch vergn\u00FCgt und obendrein mit Musik und Tanz \u2013 oder aber tiefmelancholisch. In Heyduks Worten: \u0022Heute froh, \u00FCberfroh noch heute, morgen tr\u00FCb nach alter Weise!\u0022 Positiv betrachtet zeichnet der Dichter hier einen Charakter im Wechselbad der Gef\u00FChle. Andererseits, und dieses Negativbild schwingt bei der damaligen ressentimentbeladenen Vorstellung von einem \u0022Zigeuner\u0022 stets mit, einen unsteten Gesellen: \u0022In dem weiten, breiten, luft\u2019gen Leinenkleide freier der Zigeuner als in Gold und Seide!\u0022\n\nDie Musik, die Dvo\u0159\u00E1k dazu ersann, hebt die Texte freilich \u00FCber sich hinaus: markante Rhythmen, unb\u00E4ndige Lebensfreude \u2013 und vor allem: innige Gef\u00FChlswelten ohne jede Sentimentalit\u00E4t. Besonders deutlich tritt das zutage im Arrangement von Manfred Honeck und Tom\u00E1\u0161 Ille, das das Lyrische von Streichern und Harfe kombiniert mit dem Temperament des Schlagzeugs.\n(Text: Otto Hagedorn)",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 1,
+      "Position": 0,
       "PublishedAtRaw": "2023-11-19T14:08:56Z",
       "PublishedAtDateTimeOffset": "2023-11-19T14:08:56+00:00",
       "PublishedAt": "2023-11-19T19:38:56+05:30",
@@ -106,7 +56,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-06-01T15:38:22+00:00",
       "VideoPublishedAt": "2025-06-01T21:08:22+05:30"
     },
-    "ETag": "tqG9g3a5am02Fq-xdt6AYFzYBF4",
+    "ETag": "8EDrsxw9zyR4vWptlb4AgqCVAII",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS5GNjAwN0Y0QTFGOTVDMEMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -114,7 +64,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitri Shostakovich\nSymphony No. 5 in D minor, op. 47\n\n[00:00] - 01. Movement: Moderato\n[17:54] - 02. Movement: Allegretto\n[23:54] - 03. Movement: Largo\n[38:48] - 04. Movement: Allegro non troppo\n\nBavarian Radio Symphony Orchestra\nJManfred Honeck, conductor\n\nRecorded live on 31.03.2023\nat the Isarphilharmonie, Munich",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 2,
+      "Position": 1,
       "PublishedAtRaw": "2025-11-15T09:08:54Z",
       "PublishedAtDateTimeOffset": "2025-11-15T09:08:54+00:00",
       "PublishedAt": "2025-11-15T14:38:54+05:30",
@@ -161,7 +111,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-01-26T15:00:09+00:00",
       "VideoPublishedAt": "2024-01-26T20:30:09+05:30"
     },
-    "ETag": "Bz1rBPUkEjg2UXyrvjCDmikw74w",
+    "ETag": "p2T7oatqrrx-_ZyjpObH5z_WeCI",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS5DMkU4NTY1QUFGQTYwMDE3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -169,7 +119,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ludwig van Beethovens Konzert Nr. 4 G-Dur f\u00FCr Klavier und Orchester op. 58, gespielt von Solistin Yulianna Avdeeva und dem WDR Sinfonieorchester unter der Leitung von Manfred Honeck. Live aufgenommen am 16.12.2023 in der K\u00F6lner Philharmonie.\n\nLudwig van Beethoven - Klavierkonzert Nr. 4 G-Dur op. 58\n\n00:00:00 I. Allegro moderato\n00:18:57 II. Andante con moto\n00:23:21 III. Rondo. Vivace\n\nYulianna Avdeeva, Klavier\nWDR Sinfonieorchester \nManfred Honeck, Leitung \n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik\n\nWerkeinf\u00FChrung: \nBeethoven, der Titan, das unbeirrbare Genie. Dieses \u00FCberh\u00F6hte Bild des Komponisten, das sich im 19. Jahrhundert entwickelte, hat durchaus objektive Grundlagen. Ein Beispiel daf\u00FCr ist ein Mammutkonzert, mit dem sich Beethoven beim Wiener Publikum recht unbescheiden vorstellte: Am 22. Dezember 1808 zog er im Theater an der Wien alle Register und pr\u00E4sentierte ausschlie\u00DFlich eigene St\u00FCcke. Uraufgef\u00FChrt wurden die f\u00FCnfte und die sechste Sinfonie, au\u00DFerdem die Chorfantasie op. 80. Und damit nicht genug: Es gab auch noch verschiedene Teile aus der C-Dur-Messe und eine gro\u00DFe Arie \u2013 sowie das vierte Klavierkonzert. Der Komponist Johann Friedrich Reichardt schrieb: \u0022Da haben wir denn auch in der bittersten K\u00E4lte von halb sieben bis halb elf ausgehalten und die Erfahrung bew\u00E4hrt gefunden, dass man auch des Guten \u2013 und mehr noch, des Starken, leicht zu viel haben kann.\u0022\nSeinen Wert poliert Beethoven immer wieder auch geschickt durch horrende Eintrittspreise auf. In einer zeitgen\u00F6ssischen Zeitungskritik zu einem \u00E4hnlichen Urauff\u00FChrungsmarathon mit seinem dritten Klavierkonzert hei\u00DFt es, er habe \u0022die ersten Pl\u00E4tze doppelt, die gesperrten Sitze dreyfach, und jede Loge (statt 4 [Gulden]) mit 12 Dukaten sich bezahlen\u0022 lassen. So geschickt setzt er dieses Mittel der \u00FCberh\u00F6hten Preise f\u00FCr sein Prestige ein, dass sogar das Ger\u00FCcht kursiert, er habe mit diesem einzelnen Konzertabend 1800 Gulden Gewinn gemacht \u2013 damals das Gehalt eines hohen Beamten. Und zwar nicht das Monats-, sondern das Jahresgehalt.\nDie Bedingungen f\u00FCr die erste \u00F6ffentliche Auff\u00FChrung des vierten Klavierkonzerts waren jedoch nicht sonderlich rosig. Das Orchester des Theaters an der Wien war in dieser Zeit so schlecht auf Beethoven zu sprechen, dass er bei den Proben nicht im Saal anwesend sein durfte. Er ging angeblich im Nebenraum auf und ab \u2013 und nach jedem Satz soll der Dirigent zu ihm gekommen sein, um mit ihm zu besprechen, welches Detail er gern wie verbessert h\u00E4tte. Wie allerdings das Zusammenspiel zwischen Beethoven am Klavier und dem Orchester auf diese Weise m\u00F6glich gewesen sein soll \u2013 das verschweigen die Quellen.\n\nText: Otto Hagedorn",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 3,
+      "Position": 2,
       "PublishedAtRaw": "2024-10-26T12:02:40Z",
       "PublishedAtDateTimeOffset": "2024-10-26T12:02:40+00:00",
       "PublishedAt": "2024-10-26T17:32:40+05:30",
@@ -216,7 +166,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-05-02T14:00:15+00:00",
       "VideoPublishedAt": "2021-05-02T19:30:15+05:30"
     },
-    "ETag": "2dbaRQh2PXNtemzJpXmnfTLSf4A",
+    "ETag": "5jkfe0BFrp9pdl3pwfZ1nvG3ZCU",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS42MTI4Njc2QjM1RjU1MjlG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -224,7 +174,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ludwig van Beethovens Sinfonie Nr. 6 in F-Dur op. 68, die sogenannte \u0022Pastorale\u0022, gespielt vom WDR Sinfonieorchester unter der Leitung von Manfred Honeck. Live aufgenommen am 17. April 2021 in der K\u00F6lner Philharmonie.\n\nLudwig van Beethoven - Sinfonie Nr. 6 F-Dur op. 68 - Pastorale\n\n00:00:00 I. Allegro ma non troppo. Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande \n00:10:50\u200B II. Andante molto moto. Szene am Bach   \n00:21:42\u200B III. Allegro. Lustiges Zusammensein der Landleute \n00:26:41\u200B IV. Allegro. Gewitter, Sturm  \n00:30:01\u200B V. Allegretto. Hirtengesang. Frohe und dankbare Gef\u00FChle nach dem Sturm \n\nWDR Sinfonieorchester \nManfred Honeck, Leitung \n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester \n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung:\nPastoral-Sinfonie, oder: \u0022Erinnerung an das Landleben. Mehr Ausdruck der Empfindung als Malerei.\u0022 So lautet der vollst\u00E4ndige Titel von Beethovens 6. Sinfonie und der Komponist legte gr\u00F6\u00DFten Wert darauf, dass er auf dem Deckblatt der Partitur vollst\u00E4ndig abgedruckt wurde. Offenbar ahnte er bereits, auf welch d\u00FCnnes Eis er sich mit einer so konkreten \u00DCberschrift begeben hatte, die er im Nachsatz quasi gleich wieder relativierte. \n\nAbstraktes Kunstwerk oder Ausdruck von Gef\u00FChl und Szenen?\n\nTats\u00E4chlich sah Beethoven sich einer \u00E4sthetischen Grundsatzfrage gegen\u00FCber, die noch lange nach seinem Tod f\u00FCr hitzige Debatten sorgen sollte: Muss Musik immer f\u00FCr sich stehen, als abstraktes Kunstwerk zum Selbstzweck? Oder sollte Musik etwas ausdr\u00FCcken, ein Gef\u00FChl, eine Szenerie, eine Romanhandlung? Kurioserweise bezogen sich die Anh\u00E4nger beider Positionen sp\u00E4ter (auch) auf Beethoven. Die eine Fraktion r\u00FChmte seine \u0022absoluten\u0022 Sinfonien 3 und 5 als Ausdruck h\u00F6chster Genialit\u00E4t. Die andere zog eine direkte Linie von Vivaldis \u0022Vier Jahreszeiten\u0022 \u00FCber Haydns \u0022Sch\u00F6pfung\u0022 bis hin zu Beethovens \u0022Natur-Sinfonie\u0022.\n...\n(Text: Clemens Matuschek) \n\u25BA Hier die vollst\u00E4ndige Werkeinf\u00FChrung weiterlesen: https://www1.wdr.de/orchester-und-chor/sinfonieorchester/videos-und-medien/cds/beethoven_zyklus_einzelbeitrag-110.html",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 4,
+      "Position": 3,
       "PublishedAtRaw": "2024-10-26T12:02:40Z",
       "PublishedAtDateTimeOffset": "2024-10-26T12:02:40+00:00",
       "PublishedAt": "2024-10-26T17:32:40+05:30",
@@ -266,7 +216,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-11-05T12:10:00+00:00",
       "VideoPublishedAt": "2023-11-05T17:40:00+05:30"
     },
-    "ETag": "vV7bD3h_6QYUuG7ME5uP-XR0ohU",
+    "ETag": "mWoGll3DJ-VESHbkGc4G5gL6mh8",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS44Mjc5REFBRUE2MTdFRDU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -274,7 +224,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ludwig van Beethoven: \n7. Sinfonie A-Dur op. 92 \u2219\n\nI. Poco sostenuto \u2013 Vivace  00:00 \u2219\nII. Allegretto  13:28 \u2219\nIII. Presto  22:41 \u2219\nIV. Allegro con brio  31:21 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nManfred Honeck, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 13. Oktober 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 5,
+      "Position": 4,
       "PublishedAtRaw": "2024-10-26T12:02:40Z",
       "PublishedAtDateTimeOffset": "2024-10-26T12:02:40+00:00",
       "PublishedAt": "2024-10-26T17:32:40+05:30",
@@ -321,7 +271,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-08-03T12:00:29+00:00",
       "VideoPublishedAt": "2024-08-03T17:30:29+05:30"
     },
-    "ETag": "8wauVUQhDWZZmdRs3YhQvpJIxDc",
+    "ETag": "FCPjCnU_4n2ocHlArTdc3fZfqX0",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS5DNkMwRUI2MkI4QkI4NDFG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -329,7 +279,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Beethoven\u2019s ode to nature. The Symphony No. 6 \u2013 the Pastoral Symphony \u2013 is one of the most iconic works of the great composer. Here, it\u2019s being performed by Manfred Honeck and the Verbier Festival Orchestra at the 2008 Verbier Festival. Beethoven (1770-1827) composed the symphony in 1807 and 1808. It has five movements, not four, and Beethoven gave them descriptive headings along with the usual tempo indications.\n\n(00:00) Coming on stage\n(00:29) I. Allegro ma non troppo: \u0027Awakening of Cheerful Feelings upon Arrival in the Country\u0027\n(11:15) II. Andante molto mosso: \u0027Scene by the Brook\u0027\n(22:01) III. Allegro: \u0027Merry Gathering of the Country Folk\u0027\n(26:43) IV. Allegro: \u2018Storm Movement\u0027\n(29:33) V. Allegretto: \u0027Shepherd\u0027s Song. Glad and Thankful Feelings After the Storm\u0027\n\nThe Symphony No. 6 in F major, Op. 68, known as the \u201CPastoral,\u0022 begins with \u0022Awakening of cheerful feelings upon arrival in the country,\u0022 to be taken at an \u0022Allegro ma non troppo\u0022 speed (fast but not exceedingly so). But there are actually many tempos, moods, feelings and effects in the first movement of Beethoven\u0027s Sixth. One thing is missing, though: that forward thrust so typical for Beethoven; the struggle and the passion in striving for a goal. Instead, the main theme is repeated, and in parts of the first movement, time seems to slow down and even stand still. The Symphony No. 6 isn\u0027t a graphic musical depiction of nature, though. As Ludwig van Beethoven personally wrote above the first movement: \u0022More an expression of feeling than tone-painting.\u0022\n\nUse your imagination while listening to the second movement of Beethoven\u0027s Sixth, and you can hear ripples on a creek and birds tweeting. To make it clear, Beethoven added a description, \u0022Scene by the Brook,\u0022 to go with the tempo heading \u0022Andante molto mosso\u0022 (as though walking, much movement). Beethoven only rarely explained his music, but in this case, he added: \u0022It\u0027s left to the listener to figure out the situations. Anyone who has any idea of life in the countryside can discern the composer\u0027s intent even without titles or headings.\u0022 For the musicians, Beethoven goes into greater detail, writing in the score that the calls of the nightingale, the quail and the cuckoo are rendered by the flute, the oboe and two clarinets.\n\nThe triple-movement episode begins with a \u0022Merry gathering of country folk,\u0022 with \u0022Allegro\u0022 (fast) the specified tempo. Altogether, the Symphony No. 6 in F major, Op. 68 anticipates what later went by the name of \u0022program music:\u0022 music that describes a situation or tells a story. In the \u0022merry gathering\u0022 we hear an oom-pah-pah village band that doesn\u0027t quite play together but, for that, is all the more boisterous. \u0022My decree,\u0022 wrote Ludwig van Beethoven: \u0022Stay in the countryside. My unfortunate hearing problem doesn\u0027t plague me here. It\u0027s as though, in the country, every tree was speaking to me. Holy, holy! Who can express it all? Sweet quietude of the forest!\u0022\n\nThat sweet quietude comes to an abrupt end in the fourth movement of the Symphony No. 6 in F major, op. 68. It\u0027s titled \u0022Thunder storm,\u0022 and the composer specified it to be taken at a fast clip, \u0022Allegro.\u0022 It\u0027s the shortest but most dramatic movement in Ludwig van Beethoven\u2019s Sixth Symphony. Thunder, screeching wind and a downpour are all clearly audible, while images come to mind from Walt Disney\u0027s 1940 animated film \u0022Fantasia,\u0022 where the Greek god Jupiter gleefully hurtles bolts of lightning and makes terrified villagers flee for shelter.\n\nAfter the merry gathering of the country folk and the storm comes the finale of Beethoven\u0027s Sixth, titled \u0022Shepherd\u0027s song. Cheerful and thankful feelings after the storm,\u0022 with the Italian tempo mark \u0022Allegretto\u0022 (moderately fast).\n\nThe Verbier Festival is one of the world\u2019s most prestigious classical music events. The quality of participating artists is coupled with the originality of the programs. The festival is held from late July to early August in the mountain resort of Verbier, Switzerland. \n\n\u00A9 2008 EuroArts Music International/Id\u00E9ale Audience \n\nWatch more concerts in your personal concert hall: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nand find more great symphonies here:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nor in our Beethoven playlist:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBWcX1eOXH-w75x-_-7gRF-w\n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic \n\n#beethoven #symphony #beethovensymphony",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 6,
+      "Position": 5,
       "PublishedAtRaw": "2024-10-26T12:02:40Z",
       "PublishedAtDateTimeOffset": "2024-10-26T12:02:40+00:00",
       "PublishedAt": "2024-10-26T17:32:40+05:30",
@@ -376,7 +326,7 @@
       "VideoPublishedAtDateTimeOffset": "2015-04-11T07:52:15+00:00",
       "VideoPublishedAt": "2015-04-11T13:22:15+05:30"
     },
-    "ETag": "p2XZDEmQ7w3ZxQwR32oLMLJNxkM",
+    "ETag": "H5E5uBxODZlY9vwqDunFtRZb9g8",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS5DNzE1RjZEMUZCMjA0RDBB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -384,7 +334,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Pierre Boulez: \nNotations \u2219 \n\nNotation I \u2219\nNotation III \u2219\nNotation IV \u2219\nNotation VII \u2219\nNotation II \u2219\n\nhr-Sinfonieorchester (Frankfurt Radio Symphony Orchestra) \u2219\nManfred Honeck, Dirigent \u2219\n\nAlte Oper Frankfurt, 27. M\u00E4rz 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 7,
+      "Position": 6,
       "PublishedAtRaw": "2023-11-19T14:17:54Z",
       "PublishedAtDateTimeOffset": "2023-11-19T14:17:54+00:00",
       "PublishedAt": "2023-11-19T19:47:54+05:30",
@@ -431,7 +381,7 @@
       "VideoPublishedAtDateTimeOffset": "2015-09-23T20:48:03+00:00",
       "VideoPublishedAt": "2015-09-24T02:18:03+05:30"
     },
-    "ETag": "XCjNVr9a9g0jkqJ3592DWUkT0u8",
+    "ETag": "Q2jwpRlqFAeuAmv27z7J8kz-TC4",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS4zQzFBN0RGNzNFREFCMjBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -439,7 +389,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Johannes Brahms\nDouble Concerto a minor op. 102\n\nRainer Honeck, Violin\nMaximilian Hornung, Cello\nKioi Sinfonietta\nSemyon Bychkov, Conductor\n\nRecorded live at Kioi Hall, Tokyo, Japan, July 3rd 2015",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 8,
+      "Position": 7,
       "PublishedAtRaw": "2024-10-26T12:02:40Z",
       "PublishedAtDateTimeOffset": "2024-10-26T12:02:40+00:00",
       "PublishedAt": "2024-10-26T17:32:40+05:30",
@@ -481,7 +431,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-12-13T18:05:25+00:00",
       "VideoPublishedAt": "2021-12-13T23:35:25+05:30"
     },
-    "ETag": "ZVAOPvM4vZF6tc-VSlNR5ww-aPA",
+    "ETag": "cbLOzttXYUqj-Y8iYl3SYg--tMw",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS4zMDg5MkQ5MEVDMEM1NTg2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -489,7 +439,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Rainer Honeck plays Brahms violin concerto with Hobart Earle conducting the Odessa Philharmonic Orchestra, during the 7th International \u0022Black Sea Music Fest\u0022 on October 8, 2021 in Philharmonic Hall, Odessa.",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 9,
+      "Position": 8,
       "PublishedAtRaw": "2023-11-19T14:07:37Z",
       "PublishedAtDateTimeOffset": "2023-11-19T14:07:37+00:00",
       "PublishedAt": "2023-11-19T19:37:37+05:30",
@@ -526,7 +476,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-04-16T07:03:51+00:00",
       "VideoPublishedAt": "2021-04-16T12:33:51+05:30"
     },
-    "ETag": "CM1rE6Qgryj4B_FcbNF4aDdNzKU",
+    "ETag": "twJKRkwkEXFRfYLVZ_mEvb9YBLA",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS41MzY4MzcwOUFFRUU3QzEx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -534,7 +484,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Max Bruchs ber\u00FChmtes Violinkonzert, als Deb\u00FCt gespielt von der Spanierin Mar\u00EDa Due\u00F1as und dem NDR Elbphilharmonie Orchester unter der Leitung von Manfred Honeck. Aufgezeichnet am 25. M\u00E4rz 2021 in der Elbphilharmonie Hamburg.\n\nAufgrund des Corona-Lockdown fand das Konzert ohne Zuschauer im Saal und ausschlie\u00DFlich im Livestream statt.\n\nMax Bruch - Violinkonzert Nr. 1 g-Moll op. 26\n\n00:00:00 I. Vorspiel. Allegro moderato  \n00:09:50 II. Adagio  \n00:18:45 III. Finale. Allegro energico  \n\nZugabe: \n00:26:43 Niccol\u00F2 Paganini - Caprice No. 5   \n\nMar\u00EDa Due\u00F1as, Violine\nNDR Elbphilharmonie Orchester\nManfred Honeck, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 10,
+      "Position": 9,
       "PublishedAtRaw": "2024-12-12T00:42:39Z",
       "PublishedAtDateTimeOffset": "2024-12-12T00:42:39+00:00",
       "PublishedAt": "2024-12-12T06:12:39+05:30",
@@ -581,7 +531,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-06-06T08:30:01+00:00",
       "VideoPublishedAt": "2019-06-06T14:00:01+05:30"
     },
-    "ETag": "yUBtDOYZkT2rEI_HfCMemS1TogE",
+    "ETag": "HClg1rXNgh7Z6-XVzBhOrHcs04M",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS45RTgxNDRBMzUwRjQ0MDhC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -589,7 +539,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mit der 8. Sinfonie in c-Moll von Anton Bruckner dirigiert Manfred Honeck ein monumentales Werk von tragischer Wucht. Honeck ist regelm\u00E4\u00DFig mit den Zentralwerken der deutsch-\u00F6sterreichischen Sinfonik beim WDR Sinfonieorchester zu Gast. Live aufgezeichnet am 8. Februar 2019 in der K\u00F6lner Philharmonie.\n\nAnton Bruckner - Sinfonie Nr. 8 c-Moll\n\n00:00:00 B\u00FChnenaufgang\n00:00:43 I. Allegro moderato \n00:19:28 II. Scherzo. Allegro moderato \u2013 Trio. Langsam \u2013 Scherzo da capo \n00:36:02 III. Adagio. Feierlich langsam; doch nicht schleppend \n01:04:48 IV. Finale. Feierlich, nicht schnell \n\nWDR Sinfonieorchester\nManfred Honeck, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://www.wdr-sinfonieorchester.de\n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung:\n\u0022Halb Genie, halb Trottel.\u0022 So beschrieb Gustav Mahler einmal Anton Bruckner. Diese paradoxe Charakterisierung ist symptomatisch f\u00FCr den gro\u00DFen romantischen Sinfoniker und preisgekr\u00F6nten Organisten, der sich einem Nachbarn seiner Schwester selbst so vorstellte: \u0022Sie wiss\u2019n wohl net, wer i bin? Ja, i bin dem Kaiser sein Organist und der G\u00E4rtnerin Hueber ihr Bruder.\u0022\nMit dem Zwiespalt zwischen hohen Ehren und niedriger Herkunft, zwischen geistigen H\u00F6henfl\u00FCgen und peinlichen irdischen \u00C4rgernissen rang Bruckner sein Leben lang. Geboren als Sohn eines Dorfschullehrers, kam er als Chorknabe zur Musik. \u00DCber einen dem\u00FCtigenden Umweg als Schulgehilfe wurde er zun\u00E4chst Organist am heimatlichen Stift Sankt Florian und in Linz, sp\u00E4ter Hoforganist und Professor f\u00FCr Kontrapunkt in Wien. Seine schlabberigen Anz\u00FCge legte er allerdings genauso wenig ab wie seinen deftigen Akzent, der in der Forschung mit Vorliebe in Lautschrift \u00FCberliefert wird.Wie unbeholfen er sich auf dem gesellschaftlichen Parkett bewegte, zeigt allein der Brief, mit dem er 1890 bei Kaiser Franz Joseph I. \u0022am allerh\u00F6chsten Throne zu H\u00F6chstdessen F\u00FC\u00DFen\u0022 anfragte, ob er ihm seine 8. Sinfonie widmen d\u00FCrfe \u2013 wobei er sich vor lauter Unterw\u00FCrfigkeitsfloskeln v\u00F6llig verhaspelte: \u0022Eure Kaiser. und K\u00F6nigl. Apostol. Majest\u00E4t wollen allergn\u00E4digst geruhen, die allerehrfurchtsvollste Dedication im Falle allerh\u00F6chster Auszeichnung allergn\u00E4digst Gnade zu bewilligen und allergn\u00E4digst zu gestatten, die alleruntert\u00E4nigste Dedication auf das Titelblatt setzen zu d\u00FCrfen.\u0022\nGut drei Jahre hatte Bruckner an der Sinfonie gearbeitet, mehrfach unterbrochen durch die umfangreiche Korrespondenz zur Drucklegung der vorangegangenen 7. Sinfonie und ihre ersten Auff\u00FChrungen 1884 in Leipzig und M\u00FCnchen. Aber auch seine gro\u00DFen Selbstzweifel, hervorgerufen durch vernichtende Kritiken, lie\u00DFen ihn z\u00F6gern und immer wieder an schon geschriebenen Takten herumbasteln. \n...\n(Text: Clemens Matuschek)\n\u25BA Hier die vollst\u00E4ndige Werkeinf\u00FChrung weiterlesen: https://www1.wdr.de/orchester-und-chor/sinfonieorchester/konzerte/honeck-dirigiert-bruckner-122.html",
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
-      "Position": 11,
+      "Position": 10,
       "PublishedAtRaw": "2023-11-19T14:10:16Z",
       "PublishedAtDateTimeOffset": "2023-11-19T14:10:16+00:00",
       "PublishedAt": "2023-11-19T19:40:16+05:30",
@@ -625,6 +575,61 @@
         }
       },
       "Title": "Bruckner - Sinfonie Nr. 8 | Manfred Honeck | WDR Sinfonieorchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MqgXUEFqBN4",
+      "VideoPublishedAtRaw": "2024-04-26T09:20:52Z",
+      "VideoPublishedAtDateTimeOffset": "2024-04-26T09:20:52+00:00",
+      "VideoPublishedAt": "2024-04-26T14:50:52+05:30"
+    },
+    "ETag": "X_WcDslrpjeGkVv_CAC9uaSrVWQ",
+    "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton Bruckners Sinfonie Nr. 9 in d-Moll, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung von Manfred Honeck. Eine Aufzeichnung vom 1. M\u00E4rz 2024 aus der Elbphilharmonie Hamburg.\r\n\r\nAnton Bruckner - Sinfonie Nr. 9 in d-Moll  \r\n\r\n00:00:00 Start\r\n00:00:09 I. Feierlich, misterioso  \r\n00:24:32 II. Scherzo. Bewegt, lebhaft - Trio. Schnell  \r\n00:35:30 III. Adagio. Langsam, feierlich \r\n\r\nNDR Elbphilharmonie Orchester\r\nManfred Honeck, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
+      "Position": 11,
+      "PublishedAtRaw": "2024-10-26T12:02:40Z",
+      "PublishedAtDateTimeOffset": "2024-10-26T12:02:40+00:00",
+      "PublishedAt": "2024-10-26T17:32:40+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MqgXUEFqBN4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/MqgXUEFqBN4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner - Sinfonie Nr. 9 | Manfred Honeck | NDR Elbphilharmonie Orchester",
       "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
       "VideoOwnerChannelTitle": "ARD Klassik"
     }
@@ -2234,7 +2239,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-02-09T15:00:08+00:00",
       "VideoPublishedAt": "2024-02-09T20:30:08+05:30"
     },
-    "ETag": "J11COh6SjDbxBKYsPMeqy9tvY8M",
+    "ETag": "9RWUN4Vz9FY27p7bCtx4TPla9fs",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS4yQUE2Q0JEMTk4NTM3RTZC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2449,7 +2454,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-07-01T12:00:25+00:00",
       "VideoPublishedAt": "2026-07-01T17:30:25+05:30"
     },
-    "ETag": "C6IVvIxBVh-sahqytNgZTRFo9SM",
+    "ETag": "-_NY4cmbmCAAs6Y6jupZFXgPztU",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS42QzdBMzlBQzQzRjQ0QkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2504,7 +2509,7 @@
       "VideoPublishedAtDateTimeOffset": "2016-12-25T18:32:18+00:00",
       "VideoPublishedAt": "2016-12-26T00:02:18+05:30"
     },
-    "ETag": "enWOZp63WabLl1Eti5yBluelGs4",
+    "ETag": "r0_N54Wkwbixo9kjpvPZrsSvlXA",
     "Id": "UEwxemdOQ29XdF83YlR1MzNzcGs3dHpfTGM3Qk5YUWlucS5GNDg1Njc1QzZERjlFRjE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
