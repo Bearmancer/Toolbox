@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "goal": {
+    "id": "7ee93a98-f3ea-4d1a-ba15-aa5cbfe43362",
+    "sessionID": "ses_049940917ffeZwEfWEGeWNIhDP",
+    "objective": "in any case read bugs.txt in Desktop and a. undo those actions and branches, b. add all files first, c. create new branch, d. commit all files in main, e. compare main v branch, f. if no diff then delete branch",
+    "status": "active",
+    "tokensUsed": 0,
+    "timeUsedSeconds": 0,
+    "createdAt": 1785480907,
+    "updatedAt": 1785480907,
+    "lastStartedAt": 1785480907
+  }
+}

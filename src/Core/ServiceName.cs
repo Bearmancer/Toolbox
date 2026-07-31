@@ -10,6 +10,7 @@ public enum ServiceName
 	TextAnalytics,
 	Speech,
 	DocIntel,
+	Audio,
 }
 
 public static class ServiceNameMethods
@@ -27,6 +28,7 @@ public static class ServiceNameMethods
 				ServiceName.TextAnalytics => "textanalytics",
 				ServiceName.Speech => "speech",
 				ServiceName.DocIntel => "docintel",
+				ServiceName.Audio => "audio",
 				_ => throw new ArgumentOutOfRangeException(nameof(s), s, null),
 			};
 	}

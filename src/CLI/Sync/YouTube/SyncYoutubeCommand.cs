@@ -33,7 +33,11 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 			if (!string.IsNullOrEmpty(s.Playlist))
 			{
 				var id = s.NoSort
-					? await orchestrator.ExecuteForPlaylistTitleAsync(s.Playlist, s.NoTranslate, cancellationToken)
+					? await orchestrator.ExecuteForPlaylistTitleAsync(
+						s.Playlist,
+						s.NoTranslate,
+						cancellationToken
+					)
 					: await orchestrator.ExecuteForPlaylistTitleWithSortAsync(
 						s.Playlist,
 						s.NoTranslate,

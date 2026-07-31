@@ -5,4 +5,5 @@
   <Project Path="src\Services\Azure\Azure.csproj" />
   <Project Path="src\Services\Google\Google.csproj" />
   <Project Path="src\Services\LastFm\LastFm.csproj" />
+  <Project Path="src/Services/Audio/Audio.csproj" />
 </Solution>

@@ -33,7 +33,10 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 		);
 
 		var fetchSw = System.Diagnostics.Stopwatch.StartNew();
-		Telemetry.Verbose("FetchRecentTracks started (since={Since})", since?.ToString("yyyy-MM-dd HH:mm") ?? "all");
+		Telemetry.Verbose(
+			"FetchRecentTracks started (since={Since})",
+			since?.ToString("yyyy-MM-dd HH:mm") ?? "all"
+		);
 
 		List<LastFmScrobble> scrobbles = [];
 		var page = 1;
@@ -105,7 +108,11 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 
 		fetchSw.Stop();
 		activity.Complete(Serilog.Events.LogEventLevel.Debug);
-		Telemetry.Debug("LastFm.FetchRecentTracks returned {Count} scrobbles in {ElapsedMs}ms", scrobbles.Count, fetchSw.ElapsedMilliseconds);
+		Telemetry.Debug(
+			"LastFm.FetchRecentTracks returned {Count} scrobbles in {ElapsedMs}ms",
+			scrobbles.Count,
+			fetchSw.ElapsedMilliseconds
+		);
 		return scrobbles;
 	}
 

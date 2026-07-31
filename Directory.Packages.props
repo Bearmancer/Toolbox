@@ -26,5 +26,6 @@
     <PackageVersion Include="Spectre.Console.Cli.Extensions.DependencyInjection" Version="0.26.0" />
     <PackageVersion Include="Google.Apis.YouTube.v3" Version="1.68.0.3394" />
     <PackageVersion Include="SSH.NET" Version="2025.1.0" />
+    <PackageVersion Include="z440.atl.core" Version="7.15.3" />
   </ItemGroup>
 </Project>

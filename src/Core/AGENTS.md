@@ -9,7 +9,7 @@ Core/
 ├── Telemetry.cs     # Serilog config, per-service JSONL, Seq sink, ForService() scope
 ├── Errors.cs        # ErrorOr taxonomy: General, Validation, YouTube, Azure, LastFm, etc.
 ├── PathResolver.cs  # RepoRoot detection, input path resolution, file size checks
-├── ServiceName.cs   # Enum: LastFm, YouTube, OpenAI, Vision, Translate, TextAnalytics, Speech, DocIntel
+├── ServiceName.cs   # Enum: LastFm, YouTube, OpenAI, Vision, Translate, TextAnalytics, Speech, DocIntel, Audio
 └── Text.cs          # String sanitization for file names
 ```
 
@@ -17,7 +17,7 @@ Core/
 
 | Task                     | File                              | Notes                                                  |
 | ------------------------ | --------------------------------- | ------------------------------------------------------ |
-| Add error category       | `Errors.cs`                       | Add `ErrorFactory` static class, e.g. `Errors.YouTube` |
+| Add error category       | `Errors.cs`                       | Add `ErrorFactory` static class, e.g. `Errors.YouTube`, `Errors.Audio`  |
 | Add service to telemetry | `ServiceName.cs` + `Telemetry.cs` | Add enum value, add to `RegisteredServices` array      |
 | Change log format        | `Telemetry.cs`                    | `AddServiceLogger()` controls per-service file sink    |
 | Resolve file paths       | `PathResolver.cs`                 | `RepoRoot`, `ResolveInput()`, `ReadChecked()`          |

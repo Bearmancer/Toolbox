@@ -38,7 +38,12 @@ public class YouTubeSyncProcessor(
 			ct.ThrowIfCancellationRequested();
 			PlaylistSnapshot snapshot = playlistsToProcess[i];
 
-			ProcessResult result = await ProcessSinglePlaylistAsync(snapshot, noTranslate, counters, ct);
+			ProcessResult result = await ProcessSinglePlaylistAsync(
+				snapshot,
+				noTranslate,
+				counters,
+				ct
+			);
 			if (result.ShouldBreak)
 				break;
 

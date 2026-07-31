@@ -54,7 +54,11 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 		var httpSw = System.Diagnostics.Stopwatch.StartNew();
 		using HttpResponseMessage response = await Client.GetAsync(url, ct);
 		httpSw.Stop();
-		Telemetry.Verbose("HTTP GET completed in {ElapsedMs}ms (status={StatusCode})", httpSw.ElapsedMilliseconds, (int)response.StatusCode);
+		Telemetry.Verbose(
+			"HTTP GET completed in {ElapsedMs}ms (status={StatusCode})",
+			httpSw.ElapsedMilliseconds,
+			(int)response.StatusCode
+		);
 
 		if (response.StatusCode == HttpStatusCode.TooManyRequests)
 		{
@@ -72,7 +76,11 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 		var readSw = System.Diagnostics.Stopwatch.StartNew();
 		var content = await response.Content.ReadAsStringAsync(cancellationToken: ct);
 		readSw.Stop();
-		Telemetry.Verbose("Read response body in {ElapsedMs}ms ({Bytes} bytes)", readSw.ElapsedMilliseconds, content.Length);
+		Telemetry.Verbose(
+			"Read response body in {ElapsedMs}ms ({Bytes} bytes)",
+			readSw.ElapsedMilliseconds,
+			content.Length
+		);
 
 		return content;
 	}
@@ -131,7 +139,11 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 			totalPages = int.Parse(totalPagesEl.GetString() ?? "1");
 
 		extractSw.Stop();
-		Telemetry.Verbose("Extracted {Count} tracks in {ElapsedMs}ms", scrobbles.Count, extractSw.ElapsedMilliseconds);
+		Telemetry.Verbose(
+			"Extracted {Count} tracks in {ElapsedMs}ms",
+			scrobbles.Count,
+			extractSw.ElapsedMilliseconds
+		);
 
 		return new FetchPageResult(scrobbles, totalPages);
 	}

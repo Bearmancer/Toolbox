@@ -96,4 +96,65 @@ public static class Errors
 		public static Error ApiError(string message) =>
 			Error.Failure("TextAnalytics.ApiError", message);
 	}
+
+	public static class Audio
+	{
+		public static Error BinaryNotFound(string name) =>
+			Error.Failure(
+				"Audio.BinaryNotFound",
+				$"{name} not found on system PATH. Install it and ensure it is available in your system PATH."
+			);
+
+		public static Error ExtractionFailed(string iso, string reason) =>
+			Error.Failure("Audio.ExtractionFailed", $"SACD extraction failed for {iso}: {reason}");
+
+		public static Error NoDffFound(string directory) =>
+			Error.NotFound("Audio.NoDff", $"No .dff file found in {directory}");
+
+		public static Error NoCueFound(string directory) =>
+			Error.NotFound("Audio.NoCue", $"No .cue file found in {directory}");
+
+		public static Error GainDetectionFailed(string file, string? reason = null) =>
+			Error.Failure(
+				"Audio.GainFailed",
+				reason is null
+					? $"Could not detect peak levels in {file}"
+					: $"Could not detect peak levels in {file}: {reason}"
+			);
+
+		public static Error ConversionFailed(string file, string reason) =>
+			Error.Failure("Audio.ConvertFailed", $"Conversion failed for {file}: {reason}");
+
+		public static Error NoIsoFound(string directory) =>
+			Error.NotFound("Audio.NoIso", $"No .iso files found in {directory}");
+
+		public static Error InvalidCueFormat(string file, string reason) =>
+			Error.Validation("Audio.InvalidCue", $"Malformed CUE file {file}: {reason}");
+
+		public static Error ProbeFailed(string file, string reason) =>
+			Error.Failure("Audio.ProbeFailed", $"DSD probe failed for {file}: {reason}");
+
+
+		public static Error InsufficientDiskSpace(
+			string path,
+			long requiredBytes,
+			long availableBytes
+		) =>
+			Error.Failure(
+				"Audio.InsufficientDiskSpace",
+				$"Insufficient disk space at {path}. Required: {requiredBytes / 1_048_576} MB, Available: {availableBytes / 1_048_576} MB."
+			);
+
+		public static Error OutputPathUnwritable(string path) =>
+			Error.Failure("Audio.OutputPathUnwritable", $"Output path is not writable: {path}");
+
+		public static Error InvalidInputPath(string path) =>
+			Error.Failure(
+				"Audio.InvalidInputPath",
+				$"Input path does not exist or is not accessible: {path}"
+			);
+
+		public static Error ProcessFailed(string binary, string reason) =>
+			Error.Failure("Audio.ProcessFailed", $"{binary} process failed: {reason}");
+	}
 }

@@ -33,7 +33,11 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 				.ThenAsync(plan => ExecuteSortPlanAsync(plan, ct));
 
 			passSw.Stop();
-			Telemetry.Verbose("Pass {Pass} completed in {ElapsedMs}ms", pass + 1, passSw.ElapsedMilliseconds);
+			Telemetry.Verbose(
+				"Pass {Pass} completed in {ElapsedMs}ms",
+				pass + 1,
+				passSw.ElapsedMilliseconds
+			);
 
 			if (passResult.IsError)
 			{
@@ -119,13 +123,21 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		{
 			IList<PlaylistItem> items = await playlistService.GetPlaylistItemsAsync(playlistId, ct);
 			fetchSw.Stop();
-			Telemetry.Verbose("Fetched {Count} items in {ElapsedMs}ms", items.Count, fetchSw.ElapsedMilliseconds);
+			Telemetry.Verbose(
+				"Fetched {Count} items in {ElapsedMs}ms",
+				items.Count,
+				fetchSw.ElapsedMilliseconds
+			);
 			return items.ToList();
 		}
 		catch (Exception ex)
 		{
 			fetchSw.Stop();
-			Telemetry.Verbose("Fetch failed in {ElapsedMs}ms: {Error}", fetchSw.ElapsedMilliseconds, ex.Message);
+			Telemetry.Verbose(
+				"Fetch failed in {ElapsedMs}ms: {Error}",
+				fetchSw.ElapsedMilliseconds,
+				ex.Message
+			);
 			return Errors.YouTube.ApiError(ex.Message);
 		}
 	}
@@ -144,7 +156,11 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		var lisSw = System.Diagnostics.Stopwatch.StartNew();
 		List<int> lisCurrentIndices = LongestIncreasingSubsequence(permutation);
 		lisSw.Stop();
-		Telemetry.Verbose("LIS computed in {ElapsedMs}ms for {Count} items", lisSw.ElapsedMilliseconds, permutation.Length);
+		Telemetry.Verbose(
+			"LIS computed in {ElapsedMs}ms for {Count} items",
+			lisSw.ElapsedMilliseconds,
+			permutation.Length
+		);
 
 		var keptIds = lisCurrentIndices.Select(i => currentOrder[i].Id).ToHashSet();
 

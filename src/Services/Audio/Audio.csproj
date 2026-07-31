@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>Services.Audio</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="z440.atl.core" />
+		<PackageReference Include="ErrorOr" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Core\Core.csproj" />
+	</ItemGroup>
+</Project>

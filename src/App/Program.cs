@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using CLI;
+using CLI.Audio;
 using CLI.Azure;
 using CLI.Dashboard;
 using CLI.Sync;
@@ -7,6 +8,7 @@ using Core;
 using DotNetEnv;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog.Events;
+using Services.Audio;
 using Services.Azure;
 using Services.Google;
 using Services.LastFm;
@@ -57,6 +59,7 @@ internal static class Program
 			services.AddAzureServices();
 			await services.AddGoogleServicesAsync();
 			services.AddLastFmServices();
+			services.AddAudioServices();
 		}
 		catch (InvalidOperationException ex)
 		{
@@ -85,6 +88,7 @@ internal static class Program
 			AzureCommandModule.ConfigureCommands(cfg);
 			SyncCommandModule.ConfigureCommands(cfg);
 			DashboardCommandModule.ConfigureCommands(cfg);
+			AudioCommandModule.ConfigureCommands(cfg);
 		});
 
 		using var appCts = new CancellationTokenSource();

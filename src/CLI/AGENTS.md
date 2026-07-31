@@ -15,6 +15,10 @@ CLI/
 │   ├── SpeechSttCommand.cs
 │   ├── NerCommand.cs
 │   └── PhrasesCommand.cs
+├── Audio/
+│   ├── AudioCommandModule.cs # "audio" branch: sacd-convert, dsd-convert
+│   ├── SacdConvertCommand.cs
+│   └── DsdConvertCommand.cs
 ├── Dashboard/
 │   ├── DashboardCommandModule.cs  # "dashboard" branch: generate
 │   ├── DashboardGenerateCommand.cs
@@ -34,7 +38,7 @@ CLI/
 | Task                     | File                                  | Notes                                                             |
 | ------------------------ | ------------------------------------- | ----------------------------------------------------------------- |
 | Add Azure subcommand     | `Azure/AzureCommandModule.cs`         | Register in `ConfigureCommands`, create command class             |
-| Add sync subcommand      | `Sync/SyncCommandModule.cs`           | Same pattern                                                      |
+| Add audio subcommand   | `Audio/AudioCommandModule.cs`         | Same pattern                                                      |
 | Add dashboard subcommand | `Dashboard/DashboardCommandModule.cs` | Same pattern                                                      |
 | Command pattern          | Any `*Command.cs`                     | `IRemainingArguments` → service call → `result.Match` → exit code |
 
