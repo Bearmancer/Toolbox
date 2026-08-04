@@ -5,7 +5,6 @@ using ErrorOr;
 namespace Services.Google.YouTube;
 
 public class YouTubeSyncProcessor(
-	YouTubePlaylistService playlistService,
 	YouTubePlaylistProcessor playlistProcessor,
 	YouTubeSortService sortService
 )
@@ -16,7 +15,6 @@ public class YouTubeSyncProcessor(
 		"youtube"
 	);
 	private static readonly string ProcessedDir = Path.Combine(StateRoot, "processed");
-	private static readonly string RawDir = Path.Combine(StateRoot, "raw");
 	private static readonly string DeletedDir = Path.Combine(StateRoot, "deleted");
 
 	private static readonly string ManifestFile = Path.Combine(StateRoot, "manifest.json");
@@ -229,7 +227,13 @@ public class YouTubeSyncProcessor(
 
 		try
 		{
-			List<YouTubeVideo> videos = await LoadProcessedVideosAsync(path, ct);
+			await using FileStream stream = File.OpenRead(path);
+			List<YouTubeVideo> videos =
+				await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(
+					stream,
+					YouTubeFetchState.JsonOptions,
+					ct
+				) ?? [];
 			return videos
 				.Where(v => v.TranslatedTitle is { })
 				.ToDictionary(v => v.VideoId, v => v.TranslatedTitle!);
@@ -239,143 +243,6 @@ public class YouTubeSyncProcessor(
 			Telemetry.Warn("Failed to load translated titles for {Title}: {Error}", playlistTitle, ex.Message);
 			return new Dictionary<string, string>();
 		}
-	}
-
-	public async Task<List<PlaylistSnapshot>> MergeDuplicatePlaylistsAsync(
-		List<PlaylistSnapshot> playlists,
-		CancellationToken ct
-	)
-	{
-		var groups = playlists.GroupBy(p => Text.SanitizeFileName(p.Title)).ToList();
-
-		var duplicateGroups = groups.Where(g => g.Count() > 1).ToList();
-		if (duplicateGroups.Count == 0)
-			return playlists;
-
-		List<PlaylistSnapshot> toRemove = [];
-
-		foreach (var group in duplicateGroups)
-		{
-			var ordered = group.OrderByDescending(p => p.ReportedVideoCount).ToList();
-			var winner = ordered[0];
-			var losers = ordered.Skip(1).ToList();
-
-			Telemetry.Info(
-				"Duplicate playlists for '{Sanitized}': keeping '{Winner}' ({Count} videos), merging {LoserCount} smaller playlist(s)",
-				Text.SanitizeFileName(winner.Title),
-				winner.Title,
-				winner.ReportedVideoCount,
-				losers.Count
-			);
-
-			await MergeProcessedVideosAsync(winner, losers, ct);
-
-			foreach (var loser in losers)
-			{
-				ErrorOr<string> deleteResult = await playlistService.DeletePlaylistAsync(
-					loser.PlaylistId,
-					ct
-				);
-
-				if (deleteResult.IsError)
-					Telemetry.Error(
-						"Failed to delete duplicate playlist {Title}: {Error}",
-						loser.Title,
-						deleteResult.FirstError.Description
-					);
-				else
-					Telemetry.Info("Deleted duplicate playlist: {Title}", loser.Title);
-
-				ArchiveRawPlaylist(loser);
-				toRemove.Add(loser);
-			}
-		}
-
-		return [.. playlists.Except(toRemove)];
-	}
-
-	private static async Task MergeProcessedVideosAsync(
-		PlaylistSnapshot winner,
-		List<PlaylistSnapshot> losers,
-		CancellationToken ct
-	)
-	{
-		var winnerPath = Path.Combine(ProcessedDir, $"{Text.SanitizeFileName(winner.Title)}.json");
-		List<YouTubeVideo> winnerVideos = await LoadProcessedVideosAsync(winnerPath, ct);
-		Dictionary<string, YouTubeVideo> videoDict = [];
-		foreach (YouTubeVideo v in winnerVideos)
-			videoDict.TryAdd(v.VideoId, v);
-
-		foreach (PlaylistSnapshot loser in losers)
-		{
-			var loserPath = Path.Combine(
-				ProcessedDir,
-				$"{Text.SanitizeFileName(loser.Title)}.json"
-			);
-			List<YouTubeVideo> loserVideos = await LoadProcessedVideosAsync(loserPath, ct);
-
-			var added = 0;
-			foreach (YouTubeVideo v in loserVideos)
-			{
-				if (videoDict.TryAdd(v.VideoId, v))
-					added++;
-			}
-
-			Telemetry.Info(
-				"Merged {Added} unique videos from '{Loser}' into '{Winner}'",
-				added,
-				loser.Title,
-				winner.Title
-			);
-		}
-
-		if (videoDict.Count > winnerVideos.Count)
-		{
-			var merged = videoDict.Values.ToList();
-			var json = JsonSerializer.Serialize(merged, YouTubeFetchState.JsonOptions);
-			await File.WriteAllTextAsync(winnerPath, json, ct);
-		}
-	}
-
-	private static async Task<List<YouTubeVideo>> LoadProcessedVideosAsync(
-		string path,
-		CancellationToken ct
-	)
-	{
-		if (!File.Exists(path))
-			return [];
-
-		try
-		{
-			await using FileStream stream = File.OpenRead(path);
-			return await JsonSerializer.DeserializeAsync<List<YouTubeVideo>>(
-					stream,
-					YouTubeFetchState.JsonOptions,
-					ct
-				) ?? [];
-		}
-		catch (Exception ex) when (ex is JsonException or FormatException)
-		{
-			Telemetry.Error("Invalid JSON in processed file {Path}: {Error}", path, ex.Message);
-			return [];
-		}
-	}
-
-	private static void ArchiveRawPlaylist(PlaylistSnapshot snapshot)
-	{
-		var sanitizedTitle = Text.SanitizeFileName(snapshot.Title);
-		var sourcePath = Path.Combine(RawDir, $"{sanitizedTitle}.json");
-		var destPath = Path.Combine(DeletedDir, $"{sanitizedTitle}.json");
-
-		if (!File.Exists(sourcePath))
-			return;
-
-		var dir = Path.GetDirectoryName(destPath);
-		if (dir is { } && !Directory.Exists(dir))
-			Directory.CreateDirectory(dir);
-
-		File.Move(sourcePath, destPath, true);
-		Telemetry.Info("Archived raw playlist file: {Title}", snapshot.Title);
 	}
 
 	public readonly record struct SyncResult(

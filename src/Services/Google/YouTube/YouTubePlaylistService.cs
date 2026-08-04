@@ -282,4 +282,52 @@ public class YouTubePlaylistService(YouTubeService yt)
 			return Errors.YouTube.ApiError($"Failed to delete playlist {playlistId}: {ex.Message}");
 		}
 	}
+
+	public async Task<ErrorOr<string>> InsertPlaylistItemAsync(
+		string playlistId,
+		string videoId,
+		CancellationToken ct
+	)
+	{
+		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
+		using LoggerActivity activity = Telemetry.StartActivity(
+			messageTemplate: "YouTube.InsertPlaylistItem"
+		);
+
+		try
+		{
+			PlaylistItem item = new()
+			{
+				Snippet = new PlaylistItemSnippet
+				{
+					PlaylistId = playlistId,
+					ResourceId = new ResourceId
+					{
+						Kind = "youtube#video",
+						VideoId = videoId,
+					},
+				},
+			};
+
+			Telemetry.Debug(
+				"YouTube.InsertPlaylistItem: inserting video {VideoId} into playlist {PlaylistId}",
+				videoId,
+				playlistId
+			);
+
+			PlaylistItem response = await yt.PlaylistItems
+				.Insert(item, "snippet")
+				.ExecuteAsync(ct);
+
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
+			return response.Id!;
+		}
+		catch (Exception ex)
+		{
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
+			return Errors.YouTube.ApiError(
+				$"Failed to insert video {videoId} into playlist {playlistId}: {ex.Message}"
+			);
+		}
+	}
 }

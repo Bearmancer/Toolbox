@@ -90,8 +90,8 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		var itemCount = finalSummary?.ReportedVideoCount ?? 0;
 		if (totalRepositioned == 0)
 		{
-			Telemetry.Info(
-				"YouTube.SortPlaylist: {PlaylistName} already sorted ({ItemCount} items, {ElapsedMs}ms)",
+			Telemetry.Debug(
+				"{PlaylistName} already sorted ({ItemCount} items, {ElapsedMs}ms)",
 				playlistName,
 				itemCount,
 				sortSw.ElapsedMilliseconds
@@ -100,11 +100,10 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		else
 		{
 			Telemetry.Info(
-				"YouTube.SortPlaylist: {PlaylistName} — {Repositioned}/{ItemCount} repositioned in {ElapsedMs}ms",
+				"{PlaylistName} — {Repositioned}/{ItemCount} repositioned",
 				playlistName,
 				totalRepositioned,
-				itemCount,
-				sortSw.ElapsedMilliseconds
+				itemCount
 			);
 		}
 

@@ -47,7 +47,7 @@ public static class GoogleSetup
 			new BaseClientService.Initializer
 			{
 				HttpClientInitializer = credential,
-				ApplicationName = "AzureAI",
+				ApplicationName = "Toolbox",
 			}
 		);
 	}
@@ -66,6 +66,7 @@ public static class GoogleSetup
 			services.AddSingleton<YouTubeSortService>();
 			services.AddSingleton<YouTubeTranslationService>();
 			services.AddSingleton<YouTubePlaylistProcessor>();
+			services.AddSingleton<YouTubeDuplicateMerger>();
 			services.AddSingleton<YouTubeSyncProcessor>();
 			services.AddSingleton<YouTubePlaylistOrchestrator>();
 			services.AddSingleton<DashboardService>();

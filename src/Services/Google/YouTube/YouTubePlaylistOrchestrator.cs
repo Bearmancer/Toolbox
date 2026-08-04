@@ -7,7 +7,8 @@ namespace Services.Google.YouTube;
 public class YouTubePlaylistOrchestrator(
 	YouTubePlaylistService playlistService,
 	YouTubePlaylistProcessor playlistProcessor,
-	YouTubeSyncProcessor syncProcessor
+	YouTubeSyncProcessor syncProcessor,
+	YouTubeDuplicateMerger merger
 )
 {
 	private static readonly string StateRoot = Path.Combine(
@@ -86,7 +87,7 @@ public class YouTubePlaylistOrchestrator(
 		}
 
 		List<PlaylistSnapshot> toProcess = CombineNewAndChanged(changes);
-		return new SyncContext(stored, changes, toProcess);
+		return new SyncContext(stored, changes, toProcess, current);
 	}
 
 	private async Task<ErrorOr<SyncContext>> MergePlaylistsAsync(
@@ -94,20 +95,44 @@ public class YouTubePlaylistOrchestrator(
 		CancellationToken ct
 	)
 	{
-		List<PlaylistSnapshot> deduplicated = await syncProcessor.MergeDuplicatePlaylistsAsync(
-			ctx.ToProcess,
+		DuplicateMergeOutcome mergeOutcome = await merger.MergeDuplicateGroupsAsync(
+			ctx.AllCurrentPlaylists,
 			ct
 		);
 
-		if (deduplicated.Count < ctx.ToProcess.Count)
-			Telemetry.Info(
-				"Merged {Count} duplicate playlist(s): {Before} -> {After}",
-				ctx.ToProcess.Count - deduplicated.Count,
-				ctx.ToProcess.Count,
-				deduplicated.Count
-			);
+		YouTubeFetchState stored = ctx.Stored;
+		ChangeDetectionResult changes = ctx.Changes;
 
-		return new SyncContext(ctx.Stored, ctx.Changes, deduplicated);
+		if (mergeOutcome.RemovedLosers.Count > 0)
+		{
+			var loserIds = mergeOutcome.RemovedLosers.Select(l => l.PlaylistId).ToHashSet();
+			stored = stored with
+			{
+				PlaylistSnapshots = stored
+					.PlaylistSnapshots.Where(kvp => !loserIds.Contains(kvp.Key))
+					.ToDictionary(kvp => kvp.Key, kvp => kvp.Value),
+			};
+			await YouTubeFetchState.SaveAsync(ManifestFile, stored, ct);
+
+			changes = changes with
+			{
+				NewPlaylists = [.. changes.NewPlaylists.Where(p => !loserIds.Contains(p.PlaylistId))],
+				ChangedPlaylists = [.. changes.ChangedPlaylists.Where(p => !loserIds.Contains(p.PlaylistId))],
+				DeletedPlaylists = [.. changes.DeletedPlaylists.Where(p => !loserIds.Contains(p.PlaylistId))],
+			};
+		}
+
+		List<PlaylistSnapshot> toProcess = [.. ctx.ToProcess];
+		foreach (var winnerId in mergeOutcome.WinnersRequiringProcessing)
+		{
+			PlaylistSnapshot? winner = mergeOutcome.Survivors.FirstOrDefault(s =>
+				s.PlaylistId == winnerId
+			);
+			if (winner is { } && !toProcess.Any(p => p.PlaylistId == winnerId))
+				toProcess.Add(winner);
+		}
+
+		return new SyncContext(stored, changes, toProcess, ctx.AllCurrentPlaylists);
 	}
 
 	private async Task<ErrorOr<ProcessOutcome>> ProcessIfNeededAsync(
@@ -340,7 +365,8 @@ public class YouTubePlaylistOrchestrator(
 	public readonly record struct SyncContext(
 		YouTubeFetchState Stored,
 		ChangeDetectionResult Changes,
-		List<PlaylistSnapshot> ToProcess
+		List<PlaylistSnapshot> ToProcess,
+		IReadOnlyList<PlaylistSnapshot> AllCurrentPlaylists
 	);
 
 	public readonly record struct ProcessOutcome(
