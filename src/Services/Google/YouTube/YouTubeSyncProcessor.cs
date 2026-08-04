@@ -181,8 +181,14 @@ public class YouTubeSyncProcessor(
 		CancellationToken ct
 	)
 	{
+		IReadOnlyDictionary<string, string> translatedTitles = await LoadTranslatedTitlesAsync(
+			snapshot.Title,
+			ct
+		);
+
 		ErrorOr<YouTubeSortService.SortResult> sortResult = await sortService.SortPlaylistAsync(
 			playlistId,
+			translatedTitles,
 			ct
 		);
 
@@ -210,6 +216,29 @@ public class YouTubeSyncProcessor(
 			result.Repositioned
 		);
 		return true;
+	}
+
+	private static async Task<IReadOnlyDictionary<string, string>> LoadTranslatedTitlesAsync(
+		string playlistTitle,
+		CancellationToken ct
+	)
+	{
+		var path = Path.Combine(ProcessedDir, $"{Text.SanitizeFileName(playlistTitle)}.json");
+		if (!File.Exists(path))
+			return new Dictionary<string, string>();
+
+		try
+		{
+			List<YouTubeVideo> videos = await LoadProcessedVideosAsync(path, ct);
+			return videos
+				.Where(v => v.TranslatedTitle is { })
+				.ToDictionary(v => v.VideoId, v => v.TranslatedTitle!);
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Warn("Failed to load translated titles for {Title}: {Error}", playlistTitle, ex.Message);
+			return new Dictionary<string, string>();
+		}
 	}
 
 	public async Task<List<PlaylistSnapshot>> MergeDuplicatePlaylistsAsync(

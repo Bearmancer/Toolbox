@@ -10,6 +10,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 {
 	public async Task<ErrorOr<SortResult>> SortPlaylistAsync(
 		string playlistId,
+		IReadOnlyDictionary<string, string> translatedTitles,
 		CancellationToken ct
 	)
 	{
@@ -29,7 +30,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			var passSw = System.Diagnostics.Stopwatch.StartNew();
 
 			ErrorOr<SortPassResult> passResult = await FetchPlaylistItemsAsync(playlistId, ct)
-				.Then(ComputeSortPlan)
+				.Then(items => ComputeSortPlan(items, translatedTitles))
 				.ThenAsync(plan => ExecuteSortPlanAsync(plan, ct));
 
 			passSw.Stop();
@@ -142,9 +143,14 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		}
 	}
 
-	public static SortPlan ComputeSortPlan(IList<PlaylistItem> items)
+	public static SortPlan ComputeSortPlan(
+		IList<PlaylistItem> items,
+		IReadOnlyDictionary<string, string> translatedTitles
+	)
 	{
-		var sorted = items.OrderBy(i => i.Snippet.Title, StringComparer.OrdinalIgnoreCase).ToList();
+		var sorted = items
+			.OrderBy(i => SortKeyFor(i, translatedTitles), StringComparer.OrdinalIgnoreCase)
+			.ToList();
 
 		var targetRank = sorted
 			.Select((item, idx) => (item.Id, idx))
@@ -177,6 +183,15 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		);
 
 		return new(items.Count, keptIds.Count, updates);
+	}
+
+	private static string SortKeyFor(
+		PlaylistItem item,
+		IReadOnlyDictionary<string, string> translatedTitles
+	)
+	{
+		var videoId = item.Snippet?.ResourceId?.VideoId ?? "";
+		return translatedTitles.GetValueOrDefault(videoId, item.Snippet?.Title ?? "");
 	}
 
 	private async Task<ErrorOr<SortPassResult>> ExecuteSortPlanAsync(
