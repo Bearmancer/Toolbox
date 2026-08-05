@@ -236,6 +236,7 @@ public class YouTubeSyncProcessor(
 				) ?? [];
 			return videos
 				.Where(v => v.TranslatedTitle is { })
+				.DistinctBy(v => v.VideoId)
 				.ToDictionary(v => v.VideoId, v => v.TranslatedTitle!);
 		}
 		catch (Exception ex)

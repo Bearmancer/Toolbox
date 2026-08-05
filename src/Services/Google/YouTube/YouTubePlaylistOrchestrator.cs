@@ -185,9 +185,11 @@ public class YouTubePlaylistOrchestrator(
 			return [];
 
 		SyncOutcome outcome = outcomeResult.Value;
-		if (outcome.IdsWithNewVideos.Count > 0)
-			await syncProcessor.SortPlaylistsAsync(outcome.IdsWithNewVideos, outcome.State, ct);
-		await syncProcessor.SortPlaylistsAsync(outcome.Ids, outcome.State, ct);
+		
+		// Sort ALL playlists in manifest, not just processed ones
+		var allPlaylistIds = outcome.State.PlaylistSnapshots.Keys.ToList();
+		await syncProcessor.SortPlaylistsAsync(allPlaylistIds, outcome.State, ct);
+		
 		return outcome.Ids;
 	}
 
@@ -301,8 +303,11 @@ public class YouTubePlaylistOrchestrator(
 			return null;
 
 		SinglePlaylistOutcome outcome = outcomeResult.Value;
-		if (outcome.Id is { } && outcome.NewVideoCount > 0)
+		
+		// Always sort, regardless of NewVideoCount
+		if (outcome.Id is { })
 			await syncProcessor.SortPlaylistsAsync([outcome.Id], outcome.State, ct);
+		
 		return outcome.Id;
 	}
 

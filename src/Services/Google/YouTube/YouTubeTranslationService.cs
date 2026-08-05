@@ -59,12 +59,15 @@ public class YouTubeTranslationService(TranslateService translateService)
 		)
 		{
 			if (video.TranslatedTitle is null)
-				targets.Add(new(videoIndex, TranslationField.Title, video.Title));
+			{
+				var shouldTransliterate = video.Title is not null && ContainsDevanagari(video.Title);
+				targets.Add(new(videoIndex, TranslationField.Title, video.Title!, shouldTransliterate));
+			}
 
 			if (video.TranslatedDescription is null)
 			{
 				if (video.Description.Length > 0)
-					targets.Add(new(videoIndex, TranslationField.Description, video.Description));
+					targets.Add(new(videoIndex, TranslationField.Description, video.Description, false));
 				else
 					videos[videoIndex] = video with { TranslatedDescription = "" };
 			}
@@ -72,6 +75,8 @@ public class YouTubeTranslationService(TranslateService translateService)
 
 		return targets;
 	}
+
+	private static bool ContainsDevanagari(string text) => text.Any(c => c is >= '\u0900' and <= '\u097F');
 
 	private static List<List<TranslationTarget>> BuildTranslationBatches(
 		List<TranslationTarget> targets
@@ -120,24 +125,57 @@ public class YouTubeTranslationService(TranslateService translateService)
 			ct.ThrowIfCancellationRequested();
 			batchIndex++;
 
-			Telemetry.Debug(
-				"Translate: [{Batch}/{TotalBatches}] -> Azure ({Targets} fields)",
-				batchIndex,
-				batches.Count,
-				batch.Count
-			);
+			var transliterateTargets = batch.Where(t => t.Transliterate).ToList();
+			var translateTargets = batch.Where(t => !t.Transliterate).ToList();
 
-			ErrorOr<List<TranslationResult>> batchResult =
-				await translateService.TranslateBatchAsync(
-					[.. batch.Select(t => t.Text)],
-					"en",
-					ct
+			if (transliterateTargets.Count > 0)
+			{
+				Telemetry.Debug(
+					"Translate: [{Batch}/{TotalBatches}] -> Azure Transliterate ({Targets} fields)",
+					batchIndex,
+					batches.Count,
+					transliterateTargets.Count
 				);
 
-			if (batchResult.IsError)
-				return batchResult.FirstError;
+				ErrorOr<List<string>> transliterateResult =
+					await translateService.TransliterateBatchAsync(
+						[.. transliterateTargets.Select(t => t.Text)],
+						"hi",
+						"Deva",
+						"Latn",
+						ct
+					);
 
-			allResults.AddRange(batch.Zip(batchResult.Value, (t, r) => new BatchApiResult(t, r)));
+				if (transliterateResult.IsError)
+					return transliterateResult.FirstError;
+
+				foreach (var (target, transliterated) in transliterateTargets.Zip(transliterateResult.Value))
+				{
+					allResults.Add(new BatchApiResult(target, new TranslationResult("hi", transliterated)));
+				}
+			}
+
+			if (translateTargets.Count > 0)
+			{
+				Telemetry.Debug(
+					"Translate: [{Batch}/{TotalBatches}] -> Azure Translate ({Targets} fields)",
+					batchIndex,
+					batches.Count,
+					translateTargets.Count
+				);
+
+				ErrorOr<List<TranslationResult>> translateResult =
+					await translateService.TranslateBatchAsync(
+						[.. translateTargets.Select(t => t.Text)],
+						"en",
+						ct
+					);
+
+				if (translateResult.IsError)
+					return translateResult.FirstError;
+
+				allResults.AddRange(translateTargets.Zip(translateResult.Value, (t, r) => new BatchApiResult(t, r)));
+			}
 		}
 
 		return allResults;
@@ -209,6 +247,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 	private readonly record struct TranslationTarget(
 		int VideoIndex,
 		TranslationField Field,
-		string Text
+		string Text,
+		bool Transliterate
 	);
 }

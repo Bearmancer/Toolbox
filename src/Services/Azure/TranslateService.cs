@@ -50,4 +50,34 @@ public class TranslateService(TextTranslationClient client)
 			return Errors.Translate.ApiError(ex.Message);
 		}
 	}
+
+	public async Task<ErrorOr<List<string>>> TransliterateBatchAsync(
+		List<string> texts,
+		string language,
+		string fromScript,
+		string toScript,
+		CancellationToken ct
+	)
+	{
+		using IDisposable _ = Telemetry.ForService(ServiceName.Translate);
+
+		try
+		{
+			var response = await client.TransliterateAsync(
+				language,
+				fromScript,
+				toScript,
+				texts,
+				cancellationToken: ct
+			);
+
+			var results = new List<string>(response.Value.Select(item => item.Text));
+			return results;
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Error("Transliterate: API error — {Error}", ex.Message);
+			return Errors.Translate.ApiError(ex.Message);
+		}
+	}
 }
