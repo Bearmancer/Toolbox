@@ -96,19 +96,21 @@ Verdicts: `PASS` (expected outcome observed) / `FAIL-expected` (reproduced known
 
 No fix ships without its journal evidence (probe before → probe after → case flips to PASS).
 
-1. **Filename staging** — if case 5/6 reproduces and sanitized-name run doesn't: stage DFF to sanitized temp name in `SaraconService.RunConversionWithRetryAsync` before invoking saracon.
-2. **Output-size sanity check** — in `SaraconService` after output found: expected bytes from DFF duration/channels/bitdepth; fail if <50% expected. Kills A1.
-3. **`HasId3Chunk` exception logging** — log the exception, never silent `return false`. Kills A2.
-4. **A/B without `-T`** via probe — if tolerant mode triggers truncation, gate `-T` behind setting.
+0. **UTF-8 beta locale — ROOT CAUSE (confirmed, HIGH confidence)** — ACP=65001 verified on this machine. Saracon's wxWidgets 2.8.12 cannot map codepage 65001 → "Unknown encoding (-1)" + nondeterministic truncation. **User decision: disable "Beta: Use Unicode UTF-8 for worldwide language support"** (Settings → Time & Language → Language → Administrative → Change system locale). Requires reboot. Verify ACP != 65001 after.
+1. **Probe harness first** — build tools/SacdProbe, run WITH UTF-8 still on to capture the death-loop evidence in the journal (repro), then disable + reboot, re-run → cases flip to PASS. This is the before/after proof.
+2. **Output-size sanity check** — in `SaraconService` after output found: expected bytes from DFF duration/channels/bitdepth; fail if <50% expected. Kills A1 (defense-in-depth; catches ALL truncation regardless of cause).
+3. **`HasId3Chunk` exception logging** — log the exception, never silent `return false`. Kills A2 (latent bug; sacd_extract sync-safe ID3 bug already fixed in euflo build, but pad-byte ambiguity remains per CMPR finding).
+4. **Filename staging** — DOWNGRADED to workaround-only: applies only if user keeps UTF-8 beta on. Not needed after fix 0.
 5. Optional: tighten `IsCharsetError`/`IsTransientError` matching from substring to evidence-based.
 
 ## 8. Librarian deployment (after spec approved)
 
-Two background librarian agents:
-1. Saracon 01.61-27 charset/truncation specifics (manual PDF, wxWidgets, forums)
-2. DSDIFF ID3/chunk-size corruption in sacd_extract + known-good conversion tooling
+Two background librarian agents ran 2026-08-08. Results:
 
-Findings appended to journal `## Findings`, reconciled against probe verdicts before fixes start.
+1. **Saracon charset/truncation** — "Unknown encoding (-1)" = wxWidgets 2.8.12 cannot map Windows codepage 65001 (UTF-8 beta). Trigger = system locale setting, NOT paths/metadata. "Good bye"+exit 0 = destructor path, fires regardless. Nondeterminism = race between audio thread and wx locale init. (wx-users thread 2019; wx PR #1570; local ACP=65001 verification.)
+2. **DSDIFF ID3** — sacd_extract sync-safe ID3 frame-size bug real (sacd-ripper #94) but fixed in euflo 0.3.9.3-173; trailing ID3 normal; DSDIFF spec says skip unknown chunks; CMPR pad-byte ambiguity real; chunk walkers should bound by remaining bytes.
+
+Findings appended to journal `.superpowers/audit/sacd-probe-journal.md` ## Findings.
 
 ## 9. Cleanup phase (post-fixes, user-mandated)
 
@@ -120,7 +122,9 @@ Delete all session noise:
 
 ## 10. Success criteria (Done =)
 
-- [ ] Probe exits 0 (all cases expected) — repeatedly after each fix
+- [ ] UTF-8 beta disabled; ACP != 65001 (registry verified)
+- [ ] Probe run #1 (pre-fix, UTF-8 on): death loop captured in journal (FAIL-expected entries)
+- [ ] Probe run #2 (post-fix, UTF-8 off): all cases PASS, probe exit 0
 - [ ] Real Disc 10 final gate: full `audio sacd-convert` run completes with correct output size
 - [ ] Journal complete: every run + findings + fix evidence
 - [ ] Noise pruned per Section 9
