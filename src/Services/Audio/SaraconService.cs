@@ -7,7 +7,7 @@ using ErrorOr;
 
 public sealed class SaraconService(ProcessRunner processRunner, string binaryPath)
 {
-	private static readonly TimeSpan DefaultTimeout = TimeSpan.FromMinutes(10);
+	private static readonly TimeSpan DefaultTimeout = TimeSpan.FromHours(1);
 	private const int MaxRetries = 2;
 
 	public async Task<ErrorOr<string>> ConvertDsdToPcmAsync(
@@ -105,29 +105,38 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			if (result.IsError)
 			{
 				var error = result.Errors[0];
-				Telemetry.Debug("Saracon.AttemptFailed attempt={Attempt} error={Error}", attempt + 1, error.Description);
+				Telemetry.Warn("Saracon.AttemptFailed attempt={Attempt}/{MaxAttempts} input={Input} error={Error}",
+					attempt + 1, MaxRetries + 1, Path.GetFileName(inputDff), error.Description);
 				if (attempt < MaxRetries && IsTransientError(error.Description))
 				{
+					Telemetry.Info("Saracon.Retrying input={Input} reason={Reason} delay={Delay}s",
+						Path.GetFileName(inputDff), error.Description, 2);
 					CleanupLockedFiles(outputDir, Path.GetFileNameWithoutExtension(inputDff));
 					await Task.Delay(TimeSpan.FromSeconds(2), ct);
 					continue;
 				}
 
+				Telemetry.Error("Saracon.ConversionFailed input={Input} attempts={Attempts} finalError={Error}",
+					Path.GetFileName(inputDff), attempt + 1, error.Description);
 				return result.Errors;
 			}
 
 			if (result.Value.ExitCode != 0)
 			{
 				var stderr = result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)];
-				Telemetry.Debug("Saracon.ExitCodeNonZero attempt={Attempt} exitCode={ExitCode} stderr={Stderr}",
-					attempt + 1, result.Value.ExitCode, stderr);
+				Telemetry.Warn("Saracon.ExitCodeNonZero attempt={Attempt}/{MaxAttempts} input={Input} exitCode={ExitCode} stderr={Stderr}",
+					attempt + 1, MaxRetries + 1, Path.GetFileName(inputDff), result.Value.ExitCode, stderr);
 				if (attempt < MaxRetries && IsCharsetError(stderr))
 				{
+					Telemetry.Info("Saracon.Retrying input={Input} reason=CharsetError delay={Delay}s",
+						Path.GetFileName(inputDff), 2);
 					CleanupLockedFiles(outputDir, Path.GetFileNameWithoutExtension(inputDff));
 					await Task.Delay(TimeSpan.FromSeconds(2), ct);
 					continue;
 				}
 
+				Telemetry.Error("Saracon.ConversionFailed input={Input} exitCode={ExitCode} stderr={Stderr}",
+					Path.GetFileName(inputDff), result.Value.ExitCode, stderr);
 				return Errors.Audio.ConversionFailed(inputDff, $"saracon exit code {result.Value.ExitCode}: {stderr}");
 			}
 
