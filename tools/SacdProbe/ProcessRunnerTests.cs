@@ -16,6 +16,10 @@ internal static class ProcessRunnerTests
         if (!result.IsError || !result.FirstError.Description.Contains("Timed out")) throw new Exception("FAIL: Timeout did not trigger");
         if (DateTime.UtcNow - start > TimeSpan.FromSeconds(5)) throw new Exception("FAIL: Timeout took too long");
         
+        var service = new SaraconService(new ProcessRunner(), "nonexistent");
+        Action<string> dummyCb = s => {};
+        _ = service.ConvertDsdToPcmAsync("in", "out", 44100, 16, 0.0, dummyCb);
+
         Console.WriteLine("PASS: ProcessRunner tests");
     }
 }
