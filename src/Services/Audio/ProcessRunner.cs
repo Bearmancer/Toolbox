@@ -15,7 +15,9 @@ public sealed class ProcessRunner
 		string? workingDir = null,
 		TimeSpan? timeout = null,
 		TimeSpan? inactivityTimeout = null,
-		Action<string>? onOutputLine = null
+		Action<string>? onOutputLine = null,
+		string? completionPattern = null,
+		TimeSpan? completionTimeout = null
 	)
 	{
 		if (!File.Exists(binaryPath) && !IsOnPath(binaryPath))
@@ -47,6 +49,7 @@ public sealed class ProcessRunner
 
 			var stdoutSb = new System.Text.StringBuilder();
 			var stderrSb = new System.Text.StringBuilder();
+			var completionDetected = false;
 
 			var inactivityCts = new CancellationTokenSource();
 			if (inactivityTimeout.HasValue)
@@ -67,6 +70,13 @@ public sealed class ProcessRunner
 					}
 					stdoutSb.AppendLine(e.Data);
 					onOutputLine?.Invoke(e.Data);
+					
+					if (completionPattern != null && !completionDetected && e.Data.Contains(completionPattern))
+					{
+						completionDetected = true;
+						Telemetry.Debug("ProcessRunner.CompletionDetected binary={Binary} pattern={Pattern}",
+							binaryName, completionPattern);
+					}
 				}
 			};
 
@@ -87,6 +97,7 @@ public sealed class ProcessRunner
 			process.BeginErrorReadLine();
 
 			var exitTask = process.WaitForExitAsync(linkedToken);
+			
 			if (timeout is { } t)
 			{
 				var timeoutTask = Task.Delay(t, ct);
@@ -101,6 +112,18 @@ public sealed class ProcessRunner
 						binaryPath,
 						$"Timed out after {t.TotalSeconds}s"
 					);
+				}
+			}
+			else if (completionDetected && completionTimeout is { } ct2)
+			{
+				var completionWaitTask = Task.Delay(ct2, ct);
+				var completed = await Task.WhenAny(exitTask, completionWaitTask);
+				if (completed == completionWaitTask && !process.HasExited)
+				{
+					sw.Stop();
+					process.Kill(entireProcessTree: true);
+					Telemetry.Info("ProcessRunner.CompletionTimeout binary={Binary} elapsed={ElapsedMs}ms waited={WaitedMs}ms",
+						binaryName, sw.ElapsedMilliseconds, ct2.TotalMilliseconds);
 				}
 			}
 			else

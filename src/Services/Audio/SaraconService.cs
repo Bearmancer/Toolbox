@@ -101,7 +101,15 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 				}
 			}
 
-			var result = await processRunner.RunAsync(binaryPath, effectiveArgs, ct, timeout: DefaultTimeout, onOutputLine: onOutputLine);
+			var result = await processRunner.RunAsync(
+				binaryPath, 
+				effectiveArgs, 
+				ct, 
+				timeout: DefaultTimeout, 
+				onOutputLine: onOutputLine,
+				completionPattern: "100%",
+				completionTimeout: TimeSpan.FromSeconds(10)
+			);
 			if (result.IsError)
 			{
 				var error = result.Errors[0];
