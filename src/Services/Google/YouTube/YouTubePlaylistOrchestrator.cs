@@ -186,9 +186,22 @@ public class YouTubePlaylistOrchestrator(
 
 		SyncOutcome outcome = outcomeResult.Value;
 		
-		// Sort ALL playlists in manifest, not just processed ones
 		var allPlaylistIds = outcome.State.PlaylistSnapshots.Keys.ToList();
-		await syncProcessor.SortPlaylistsAsync(allPlaylistIds, outcome.State, ct);
+		var processedIds = outcome.Ids.ToHashSet();
+		
+		var prioritizedIds = allPlaylistIds
+			.OrderByDescending(id => processedIds.Contains(id))
+			.ThenBy(id => id)
+			.Take(20)
+			.ToList();
+		
+		Telemetry.Info(
+			"Sorting {BatchSize}/{Total} playlists (batch mode)",
+			prioritizedIds.Count,
+			allPlaylistIds.Count
+		);
+		
+		await syncProcessor.SortPlaylistsAsync(prioritizedIds, outcome.State, ct);
 		
 		return outcome.Ids;
 	}
