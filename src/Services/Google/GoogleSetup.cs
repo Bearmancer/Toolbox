@@ -29,7 +29,7 @@ public static class GoogleSetup
 	{
 		var tokenStorePath = PathResolver.GetStatePath("google-auth");
 		var dataStore = new FileDataStore(tokenStorePath, fullPath: true);
-		using var authCts = new CancellationTokenSource(TimeSpan.FromSeconds(30));
+		using var authCts = new CancellationTokenSource(TimeSpan.FromMinutes(5));
 
 		UserCredential credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
 			new ClientSecrets
