@@ -8,8 +8,6 @@ internal static class Program
 {
 	public static int Main()
 	{
-		ProcessRunnerTests.Run().GetAwaiter().GetResult();
-		Environment.Exit(0);
 		if (!OperatingSystem.IsWindows())
 		{
 			Console.Error.WriteLine("PRECONDITION FAILED: SacdProbe requires Windows");
