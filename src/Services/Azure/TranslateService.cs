@@ -46,7 +46,7 @@ public class TranslateService(TextTranslationClient client)
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Error("Translate: API error — {Error}", ex.Message);
+			Telemetry.Error("Translate: API error for {Count} texts to {Language}: {Error}", texts.Count, toLang, ex.Message);
 			return Errors.Translate.ApiError(ex.Message);
 		}
 	}
@@ -76,7 +76,7 @@ public class TranslateService(TextTranslationClient client)
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Error("Transliterate: API error — {Error}", ex.Message);
+			Telemetry.Error("Transliterate: API error for {Count} texts {FromScript}->{ToScript}: {Error}", texts.Count, fromScript, toScript, ex.Message);
 			return Errors.Translate.ApiError(ex.Message);
 		}
 	}

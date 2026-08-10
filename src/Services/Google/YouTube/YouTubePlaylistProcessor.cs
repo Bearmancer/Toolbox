@@ -137,6 +137,7 @@ public class YouTubePlaylistProcessor(
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("YouTube.FetchItemsFailed playlist={Id}: {Error}", ctx.Snapshot.PlaylistId, ex.Message);
 			return Errors.YouTube.ApiError(ex.Message);
 		}
 	}

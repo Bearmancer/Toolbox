@@ -105,6 +105,7 @@ public sealed class DsdConvertService(
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
+			Telemetry.Error("DsdConvert.ProbeFailed file={File}: {Error}", dffFilePath, ex.Message);
 			return Errors.Audio.ProbeFailed(dffFilePath, ex.Message);
 		}
 	}

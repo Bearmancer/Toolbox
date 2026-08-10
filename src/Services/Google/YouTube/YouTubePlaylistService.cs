@@ -279,6 +279,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 		catch (Exception ex)
 		{
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
+			Telemetry.Error("YouTube.DeletePlaylistFailed id={Id}: {Error}", playlistId, ex.Message);
 			return Errors.YouTube.ApiError($"Failed to delete playlist {playlistId}: {ex.Message}");
 		}
 	}
@@ -325,6 +326,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 		catch (Exception ex)
 		{
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
+			Telemetry.Error("YouTube.InsertItemFailed video={VideoId} playlist={PlaylistId}: {Error}", videoId, playlistId, ex.Message);
 			return Errors.YouTube.ApiError(
 				$"Failed to insert video {videoId} into playlist {playlistId}: {ex.Message}"
 			);

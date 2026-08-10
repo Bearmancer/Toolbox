@@ -78,6 +78,40 @@ public sealed class PipelineOrchestrator(
 			: [validatedPath];
 	}
 
+	private enum ChannelDirState { NotPresent, Clean, Contaminated }
+
+	/// <summary>
+	/// Inspects an existing channelDir to determine if it can be reused.
+	/// Clean = has DFF files, none with Windows collision suffixes like "(1)", "(2)".
+	/// Contaminated = has collision-suffixed DFFs from a partial prior run.
+	/// NotPresent = dir doesn't exist yet.
+	/// </summary>
+	private static ChannelDirState InspectChannelDir(string channelDir, string discName)
+	{
+		if (!Directory.Exists(channelDir))
+			return ChannelDirState.NotPresent;
+
+		var dffFiles = Directory.GetFiles(channelDir, "*.dff", SearchOption.AllDirectories);
+		if (dffFiles.Length == 0)
+			return ChannelDirState.NotPresent;
+
+		// Collision suffix pattern: filename contains " (N)" before the extension
+		var hasCollision = dffFiles.Any(f =>
+		{
+			var name = Path.GetFileNameWithoutExtension(f);
+			return System.Text.RegularExpressions.Regex.IsMatch(name, @"\s\(\d+\)$");
+		});
+
+		if (hasCollision)
+		{
+			Telemetry.Warn("Pipeline.InspectChannelDir disc={Disc} collisionFiles={Files}",
+				discName, string.Join(", ", dffFiles.Select(Path.GetFileName)));
+			return ChannelDirState.Contaminated;
+		}
+
+		return ChannelDirState.Clean;
+	}
+
 	private async Task<ErrorOr<Success>> ProcessIsoAsync(
 		string isoPath,
 		AudioOutputFormat format,
@@ -99,9 +133,31 @@ public sealed class PipelineOrchestrator(
 		var suffix = extractMch ? "Multichannel" : "Stereo";
 		var channelDir = Path.Combine(parentDir, $"{Path.GetFileName(isoDir)} ({suffix})");
 
-		Telemetry.Info("Extracting {Channel} from {Disc}", suffix, discName);
+		var channelDirState = InspectChannelDir(channelDir, discName);
+		if (channelDirState == ChannelDirState.Contaminated)
+		{
+			Telemetry.Warn("Pipeline.ContaminatedDir dir={Dir} — collision-suffixed DFF files detected from a previous partial run; purging and re-extracting", channelDir);
+			Directory.Delete(channelDir, recursive: true);
+		}
 
-		var extractResult = await extractService.ExtractAsync(isoPath, channelDir, extractMch, ct);
+		ErrorOr<List<string>> extractResult;
+		if (channelDirState == ChannelDirState.Clean)
+		{
+			Telemetry.Info("Skipping extraction for {Disc} — clean DFFs already present", discName);
+			var existingDirs = Directory.GetDirectories(channelDir).ToList();
+			if (existingDirs.Count == 0)
+			{
+				var dffFiles = Directory.GetFiles(channelDir, "*.dff", SearchOption.AllDirectories);
+				var dir = dffFiles.Length > 0 ? Path.GetDirectoryName(dffFiles[0]) : null;
+				existingDirs = dir is not null ? [dir] : [];
+			}
+			extractResult = existingDirs;
+		}
+		else
+		{
+			Telemetry.Info("Extracting {Channel} from {Disc}", suffix, discName);
+			extractResult = await extractService.ExtractAsync(isoPath, channelDir, extractMch, ct);
+		}
 		if (extractResult.IsError)
 			return extractResult.Errors;
 
@@ -130,8 +186,27 @@ public sealed class PipelineOrchestrator(
 		if (cueFiles.Length == 0)
 			return Errors.Audio.NoCueFound(dffDir);
 
+		// Sort by filename length ascending so the original (no collision suffix) is always first.
+		// Collision copies from Windows auto-rename are longer: "Disc 10 (1).dff" > "Disc 10.dff"
+		Array.Sort(dffFiles, (a, b) =>
+			Path.GetFileName(a).Length.CompareTo(Path.GetFileName(b).Length));
+		Array.Sort(cueFiles, (a, b) =>
+			Path.GetFileName(a).Length.CompareTo(Path.GetFileName(b).Length));
+
 		var dffFile = dffFiles[0];
 		var cueFile = cueFiles[0];
+
+		if (dffFiles.Length > 1)
+			Telemetry.Warn("Pipeline.MultipleDff dir={Dir} selected={Dff} ignored={Rest}",
+				Path.GetFileName(dffDir), Path.GetFileName(dffFile),
+				string.Join(", ", dffFiles.Skip(1).Select(Path.GetFileName)));
+		if (cueFiles.Length > 1)
+			Telemetry.Warn("Pipeline.MultipleCue dir={Dir} selected={Cue} ignored={Rest}",
+				Path.GetFileName(dffDir), Path.GetFileName(cueFile),
+				string.Join(", ", cueFiles.Skip(1).Select(Path.GetFileName)));
+
+		Telemetry.Debug("Pipeline.ProcessDir dir={Dir} dff={Dff} cue={Cue}",
+			Path.GetFileName(dffDir), Path.GetFileName(dffFile), Path.GetFileName(cueFile));
 
 		var dsdProbe = await convertService.ProbeDsdAsync(dffFile, ct);
 		if (dsdProbe.IsError)
@@ -149,6 +224,9 @@ public sealed class PipelineOrchestrator(
 			dsdProbe.Value.SampleRate, format, gainResult.Value
 		);
 
+		Telemetry.Debug("Pipeline.ConversionSettings rate={Rate} primaryFormat={PrimaryFormat} primaryGain={PrimaryGain}dB derived={Derived}",
+			dsdProbe.Value.SampleRate, primary.SampleRate, primary.GainDb, derived is not null ? $"{derived.SampleRate}" : "none");
+
 		var convertResult = await convertService.ConvertAndSplitAsync(
 			dffFile, dffDir, cueResult.Value, primary, ct
 		);
@@ -162,6 +240,7 @@ public sealed class PipelineOrchestrator(
 				parentDir,
 				$"{Path.GetFileName(dffDir)} [16-bit {derived.SampleRate / 1000.0:F1}]"
 			);
+			Telemetry.Debug("Pipeline.DeriveStart dir={Dir} rate={Rate}", Path.GetFileName(derivedDir), derived.SampleRate);
 			await convertService.DeriveDirectoryAsync(dffDir, derivedDir, derived.SampleRate, ct);
 		}
 

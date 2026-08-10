@@ -30,6 +30,7 @@ public sealed class PathValidator
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
+			Telemetry.Error("PathValidator.OutputUnwritable path={Path}: {Error}", fullPath, ex.Message);
 			return Errors.Audio.OutputPathUnwritable(fullPath);
 		}
 

@@ -54,7 +54,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 		var httpSw = System.Diagnostics.Stopwatch.StartNew();
 		using HttpResponseMessage response = await Client.GetAsync(url, ct);
 		httpSw.Stop();
-		Telemetry.Verbose(
+		Telemetry.Debug(
 			"HTTP GET completed in {ElapsedMs}ms (status={StatusCode})",
 			httpSw.ElapsedMilliseconds,
 			(int)response.StatusCode

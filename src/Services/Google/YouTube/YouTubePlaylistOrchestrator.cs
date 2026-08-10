@@ -351,6 +351,7 @@ public class YouTubePlaylistOrchestrator(
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Error("YouTube.StateLoadFailed path={Path}: {Error}", path, ex.Message);
 			return Errors.YouTube.ApiError($"State load failed: {ex.Message}");
 		}
 	}

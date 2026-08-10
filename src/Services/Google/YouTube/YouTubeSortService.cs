@@ -133,8 +133,8 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		catch (Exception ex)
 		{
 			fetchSw.Stop();
-			Telemetry.Verbose(
-				"Fetch failed in {ElapsedMs}ms: {Error}",
+			Telemetry.Warn(
+				"YouTube.FetchFailed in {ElapsedMs}ms: {Error}",
 				fetchSw.ElapsedMilliseconds,
 				ex.Message
 			);

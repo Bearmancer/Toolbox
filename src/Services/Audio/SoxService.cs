@@ -9,7 +9,7 @@ using ErrorOr;
 public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 {
 	private static readonly Regex PeakLevelPattern = new(
-		@"Pk lev dB\s+(-?\d+\.?\d*)",
+		@"Pk lev dB\s+(-?\d+\.?\d*|-inf)",
 		RegexOptions.Compiled
 	);
 
@@ -43,6 +43,8 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		CancellationToken ct = default
 	)
 	{
+		Telemetry.Debug("Sox.StatsStart file={File}", Path.GetFileName(filePath));
+
 		var result = await processRunner.RunAsync(binaryPath, [filePath, "-n", "stats"], ct);
 		if (result.IsError)
 			return result.Errors;
@@ -50,9 +52,19 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		var output = result.Value.Stdout + "\n" + result.Value.Stderr;
 		var match = PeakLevelPattern.Match(output);
 		if (!match.Success)
+		{
+			Telemetry.Warn("Sox.StatsParseFailed file={File} stdoutLen={StdoutLen} stderrLen={StderrLen} output={Output}",
+				Path.GetFileName(filePath), result.Value.Stdout.Length, result.Value.Stderr.Length,
+				output[..Math.Min(output.Length, 500)]);
 			return Errors.Audio.GainDetectionFailed(filePath, "Could not parse sox stats output");
+		}
 
-		return double.Parse(match.Groups[1].Value, CultureInfo.InvariantCulture);
+		var peak = match.Groups[1].Value.Equals("-inf", StringComparison.OrdinalIgnoreCase)
+			? -120.0
+			: double.Parse(match.Groups[1].Value, CultureInfo.InvariantCulture);
+		Telemetry.Debug("Sox.StatsComplete file={File} peak={Peak}dB", Path.GetFileName(filePath), peak);
+
+		return peak;
 	}
 
 	public async Task<ErrorOr<TimeSpan>> GetDurationAsync(

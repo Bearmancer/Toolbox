@@ -15,14 +15,14 @@ LastFm/
 
 ## WHERE TO LOOK
 
-| Task | File | Notes |
-|------|------|-------|
-| Add API endpoint | `LastFmApiClient.cs` | Add to `BuildFetchUrl`, chain in `FetchPageCoreAsync` |
-| Change fetch behavior | `LastFmService.cs` | `FetchRecentTracksAsync` controls pagination + stop condition |
-| Modify sync logic | `LastFmSyncOrchestrator.cs` | Load, filter, merge, save. Returns `SyncResult` record |
-| Change persistence format | `LastFmState.cs` | `scrobbles.json` only. Uses `JsonSerializerOptions { WriteIndented = true }` |
-| Add error codes | `LastFmApiClient.cs` | `ClassifyError` switch maps Last.fm codes to `Retryable/Fatal/Permanent` |
-| Add env var | `LastFmSetup.cs` | Read in `AddLastFmServices()`, throw `InvalidOperationException` if missing |
+| Task                      | File                        | Notes                                                                        |
+| ------------------------- | --------------------------- | ---------------------------------------------------------------------------- |
+| Add API endpoint          | `LastFmApiClient.cs`        | Add to `BuildFetchUrl`, chain in `FetchPageCoreAsync`                        |
+| Change fetch behavior     | `LastFmService.cs`          | `FetchRecentTracksAsync` controls pagination + stop condition                |
+| Modify sync logic         | `LastFmSyncOrchestrator.cs` | Load, filter, merge, save. Returns `SyncResult` record                       |
+| Change persistence format | `LastFmState.cs`            | `scrobbles.json` only. Uses `JsonSerializerOptions { WriteIndented = true }` |
+| Add error codes           | `LastFmApiClient.cs`        | `ClassifyError` switch maps Last.fm codes to `Retryable/Fatal/Permanent`     |
+| Add env var               | `LastFmSetup.cs`            | Read in `AddLastFmServices()`, throw `InvalidOperationException` if missing  |
 
 ## CONVENTIONS
 

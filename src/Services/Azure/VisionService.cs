@@ -67,7 +67,7 @@ public class VisionService(ImageAnalysisClient client)
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Error("Vision: API error — {Error}", ex.Message);
+			Telemetry.Error("Vision: API error for {File} feature={Feature}: {Error}", filePath, feature, ex.Message);
 			return Errors.Vision.ApiError(ex.Message);
 		}
 	}

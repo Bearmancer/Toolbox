@@ -1,4 +1,5 @@
 using ATL;
+using Core;
 
 namespace Services.Audio;
 
@@ -30,6 +31,7 @@ public sealed class AudioMetadataService
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
+			Telemetry.Error("Audio.MetadataReadFailed file={File}: {Error}", filePath, ex.Message);
 			return Error.Failure("Audio.MetadataReadFailed", ex.Message);
 		}
 	}
@@ -75,6 +77,7 @@ public sealed class AudioMetadataService
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
+			Telemetry.Error("Audio.TagWriteFailed file={File}: {Error}", flacPath, ex.Message);
 			return Error.Failure("Audio.TagWriteFailed", ex.Message);
 		}
 	}
@@ -108,6 +111,7 @@ public sealed class AudioMetadataService
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
+			Telemetry.Error("Audio.CueTagFailed file={File}: {Error}", flacPath, ex.Message);
 			return Error.Failure("Audio.CueTagFailed", ex.Message);
 		}
 	}

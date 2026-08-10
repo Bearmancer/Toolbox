@@ -46,7 +46,7 @@ public static class OciDashboardDeployer
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Warn("OCI deploy: SFTP upload failed — {Error}", ex.Message);
+			Telemetry.Error("OCI deploy: SFTP upload failed — {Error}", ex.Message);
 			return;
 		}
 
@@ -64,13 +64,13 @@ public static class OciDashboardDeployer
 
 			if (cmd.ExitStatus != 0)
 			{
-				Telemetry.Warn("OCI deploy: remote command failed — {Error}", cmd.Error.Trim());
+				Telemetry.Error("OCI deploy: remote command failed — {Error}", cmd.Error.Trim());
 				return;
 			}
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Warn("OCI deploy: SSH command failed — {Error}", ex.Message);
+			Telemetry.Error("OCI deploy: SSH command failed — {Error}", ex.Message);
 			return;
 		}
 

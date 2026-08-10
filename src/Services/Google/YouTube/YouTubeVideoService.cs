@@ -70,6 +70,7 @@ public class YouTubeVideoService(YouTubeService yt)
 		}
 		catch (FormatException ex)
 		{
+			Telemetry.Error("YouTube.DurationParseFailed: {Error}", ex.Message);
 			return Errors.YouTube.ApiError(ex.Message);
 		}
 	}
