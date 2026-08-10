@@ -22,6 +22,9 @@ public sealed class DsdConvertService(
 	{
 		try
 		{
+			Telemetry.Debug("DsdConvert.ProbeStart file={File} size={Size}MB",
+				Path.GetFileName(dffFilePath), new FileInfo(dffFilePath).Length / 1_048_576.0);
+
 			ct.ThrowIfCancellationRequested();
 			await using var stream = File.OpenRead(dffFilePath);
 			using var reader = new BinaryReader(stream);
@@ -95,6 +98,9 @@ public sealed class DsdConvertService(
 			if (sampleRate == 0 || channels == 0)
 				return Errors.Audio.ProbeFailed(dffFilePath, "Could not parse FS or CHNL chunks from DFF header");
 
+			Telemetry.Debug("DsdConvert.ProbeComplete file={File} rate={Rate} channels={Channels}",
+				Path.GetFileName(dffFilePath), sampleRate, channels);
+
 			return new DsdProbeResult(dffFilePath, "dsd", sampleRate, channels);
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
@@ -108,12 +114,14 @@ public sealed class DsdConvertService(
 		CancellationToken ct = default
 	)
 	{
+		Telemetry.Debug("DsdConvert.GainCalcStart file={File}", Path.GetFileName(dffFilePath));
+
 		var tempDir = Path.Combine(Path.GetTempPath(), $"gain_probe_{Guid.NewGuid():N}");
 
 		try
 		{
 			var convertResult = await saracon.ConvertDsdToPcmAsync(
-				dffFilePath, tempDir, ProbeSampleRate, ProbeBitDepth, 0.0, ct
+				dffFilePath, tempDir, ProbeSampleRate, ProbeBitDepth, 0.0, null, ct
 			);
 			if (convertResult.IsError)
 				return convertResult.Errors;
@@ -123,7 +131,12 @@ public sealed class DsdConvertService(
 				return peakResult.Errors;
 
 			var gain = TargetHeadroomDb - peakResult.Value;
-			return Math.Min(gain, 6.0);
+			var finalGain = Math.Min(gain, 6.0);
+
+			Telemetry.Debug("DsdConvert.GainCalcComplete file={File} peak={Peak}dB gain={Gain}dB",
+				Path.GetFileName(dffFilePath), peakResult.Value, finalGain);
+
+			return finalGain;
 		}
 		finally
 		{
@@ -141,7 +154,7 @@ public sealed class DsdConvertService(
 	)
 	{
 		var masterResult = await saracon.ConvertDsdToPcmAsync(
-			dffFile, outputDir, settings.SampleRate, settings.BitDepth, settings.GainDb, ct
+			dffFile, outputDir, settings.SampleRate, settings.BitDepth, settings.GainDb, null, ct
 		);
 		if (masterResult.IsError)
 			return masterResult.Errors;
@@ -198,7 +211,7 @@ public sealed class DsdConvertService(
 		try
 		{
 			var convertResult = await saracon.ConvertDsdToFlacAsync(
-				inputDff, tempDir, settings.SampleRate, settings.BitDepth, settings.GainDb, ct
+				inputDff, tempDir, settings.SampleRate, settings.BitDepth, settings.GainDb, null, ct
 			);
 			if (convertResult.IsError)
 				return convertResult.Errors;
