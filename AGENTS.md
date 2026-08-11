@@ -1,6 +1,6 @@
 # AGENTS.md — Toolbox
 
-**Generated:** 2026-07-31 | **Commit:** 70dd931 | **Branch:** master
+**Generated:** 2026-07-31 | **Commit:** 70dd931 | **Branch:** main
 
 Extends `C:\Users\Lance\.config\opencode\AGENTS.md`. All Sisyphus directives apply.
 
@@ -46,18 +46,18 @@ Services.LastFm → Core
 
 ## WHERE TO LOOK
 
-| Task                       | Location                                          | Notes                                                                |
-| -------------------------- | ------------------------------------------------- | -------------------------------------------------------------------- |
-| Add CLI command            | `src/CLI/{Domain}/`                               | Follow Spectre pattern: thin command → service call → Result.Match   |
-| Add Azure service          | `src/Services/Azure/`                             | Add credential to AzureCredentials.cs, register in AzureSetup.cs     |
-| Add Google/YouTube feature | `src/Services/Google/YouTube/`                    | Orchestrator handles state; processor handles per-playlist logic     |
-| Add Last.fm feature        | `src/Services/LastFm/`                            | LastFmApiClient for HTTP, LastFmSyncOrchestrator for sync flow       |
-| Add audio conversion       | `src/Services/Audio/`                             | DsdConvertService is facade; PipelineOrchestrator sequences          |
-| Dashboard generation       | `src/CLI/Dashboard/`                              | DashboardDataBuilder → DashboardHtmlGenerator → OciDashboardDeployer |
-| Modify telemetry           | `src/Core/Telemetry.cs`                           | Per-service JSONL + optional Seq sink                                |
-| Add error codes            | `src/Core/Errors.cs`                              | Central taxonomy; add factory method per domain                      |
-| Change build config        | `Directory.Build.props`                           | Single source for TargetFramework, analyzers, warnings               |
-| Change code style          | `.editorconfig`                                   | Naming, var usage, patterns, diagnostics — all as errors             |
+| Task                       | Location                       | Notes                                                                |
+| -------------------------- | ------------------------------ | -------------------------------------------------------------------- |
+| Add CLI command            | `src/CLI/{Domain}/`            | Follow Spectre pattern: thin command → service call → Result.Match   |
+| Add Azure service          | `src/Services/Azure/`          | Add credential to AzureCredentials.cs, register in AzureSetup.cs     |
+| Add Google/YouTube feature | `src/Services/Google/YouTube/` | Orchestrator handles state; processor handles per-playlist logic     |
+| Add Last.fm feature        | `src/Services/LastFm/`         | LastFmApiClient for HTTP, LastFmSyncOrchestrator for sync flow       |
+| Add audio conversion       | `src/Services/Audio/`          | DsdConvertService is facade; PipelineOrchestrator sequences          |
+| Dashboard generation       | `src/CLI/Dashboard/`           | DashboardDataBuilder → DashboardHtmlGenerator → OciDashboardDeployer |
+| Modify telemetry           | `src/Core/Telemetry.cs`        | Per-service JSONL + optional Seq sink                                |
+| Add error codes            | `src/Core/Errors.cs`           | Central taxonomy; add factory method per domain                      |
+| Change build config        | `Directory.Build.props`        | Single source for TargetFramework, analyzers, warnings               |
+| Change code style          | `.editorconfig`                | Naming, var usage, patterns, diagnostics — all as errors             |
 
 ## CONVENTIONS
 
