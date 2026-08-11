@@ -1,387 +1,387 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "yQo80hCI9DI",
-      "VideoPublishedAtRaw": "2026-05-07T06:08:49Z",
-      "VideoPublishedAtDateTimeOffset": "2026-05-07T06:08:49+00:00",
-      "VideoPublishedAt": "2026-05-07T11:38:49+05:30"
-    },
-    "ETag": "UDULGHXG6P-RnWyNBbEAivGgrFM",
-    "Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Aaron Copland, called \u201Cthe father of American music,\u201D has had an enormous influence on film music, not least his way of balancing the grand with the intimate. Although he himself wrote few original film scores, Copland\u2019s style has become a template for the classic Hollywood sound. Copland\u2019s early work Dance Symphony bears a clear imprint of European modernism \u2013 especially Stravinsky with his rhythmic power and dissonant color \u2013 but also of jazz and the urban pulse of 1920s New York. Principal Guest Conductor Barbara Hannigan opened the season with musical fireworks.\n\nRecorded for GSOplay in Gothenburg Concert Hall in September 2025. \n\nWatch more concerts and interviews at www.gsoplay.com.",
-      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
-      "Position": 0,
-      "PublishedAtRaw": "2026-06-24T18:00:43Z",
-      "PublishedAtDateTimeOffset": "2026-06-24T18:00:43+00:00",
-      "PublishedAt": "2026-06-24T23:30:43+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "yQo80hCI9DI"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/yQo80hCI9DI/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/yQo80hCI9DI/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/yQo80hCI9DI/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/yQo80hCI9DI/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/yQo80hCI9DI/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Copland: Dance Symphony (Conductor Barbara Hannigan)",
-      "VideoOwnerChannelId": "UCfa7htPRS-5gAo2vt1smzTQ",
-      "VideoOwnerChannelTitle": "G\u00F6teborgs Symfoniker"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "9_0JDr5Dl2Q",
-      "VideoPublishedAtRaw": "2025-05-30T10:31:13Z",
-      "VideoPublishedAtDateTimeOffset": "2025-05-30T10:31:13+00:00",
-      "VideoPublishedAt": "2025-05-30T16:01:13+05:30"
-    },
-    "ETag": "sAMsbkd0053ElQxxXWU0X1swWQY",
-    "Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Joseph Haydn\nSymphony No 104 in D major, H. I/104\n\nAcademy Chamber Orchestra\nBarbara Hannigan - conductor\n\nRecorded live in the Duke\u2019s Hall, Royal Academy of Music, London, on 21 March 2025.",
-      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
-      "Position": 1,
-      "PublishedAtRaw": "2026-06-24T18:00:50Z",
-      "PublishedAtDateTimeOffset": "2026-06-24T18:00:50+00:00",
-      "PublishedAt": "2026-06-24T23:30:50+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "9_0JDr5Dl2Q"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Academy Chamber Orchestra performs Haydn Symphony No 104 with Barbara Hannigan",
-      "VideoOwnerChannelId": "UCasi3JnYYVlEfJqIgqj92hg",
-      "VideoOwnerChannelTitle": "Royal Academy of Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "s7wmlHhMN1M",
-      "VideoPublishedAtRaw": "2020-08-03T14:54:26Z",
-      "VideoPublishedAtDateTimeOffset": "2020-08-03T14:54:26+00:00",
-      "VideoPublishedAt": "2020-08-03T20:24:26+05:30"
-    },
-    "ETag": "gVLbjzohQ_N_YBM6Vk3-zMIuYRc",
-    "Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Sous la direction de Barbara Hannigan, l\u0027Orchestre philharmonique de Radio France joue la Symphonie n\u00B0 49 en fa mineur, \u00AB La Passion \u00BB, de Haydn.\n\n#Haydn #Hannigan # LeTempsRetrouv\u00E9\n\nRetrouvez tous les concerts vid\u00E9os de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
-      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
-      "Position": 2,
-      "PublishedAtRaw": "2026-06-24T18:01:07Z",
-      "PublishedAtDateTimeOffset": "2026-06-24T18:01:07+00:00",
-      "PublishedAt": "2026-06-24T23:31:07+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "s7wmlHhMN1M"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Haydn : Symphonie n\u00B0 49 en fa mineur, \u00AB La Passion \u00BB",
-      "VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
-      "VideoOwnerChannelTitle": "France Musique concerts"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "YOceLcH1Oe4",
-      "VideoPublishedAtRaw": "2024-10-17T10:01:16Z",
-      "VideoPublishedAtDateTimeOffset": "2024-10-17T10:01:16+00:00",
-      "VideoPublishedAt": "2024-10-17T15:31:16+05:30"
-    },
-    "ETag": "6Pn1lQvrsiXHW1M4ZgOK4h8h3gY",
-    "Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC41MjE1MkI0OTQ2QzJGNzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "L\u0027Orchestre Philharmonique et le Choeur de Radio France jouent la Symphonie en trois mouvements d\u0027Igor Stravinsky sous la direction de Barbara Hannigan. Extrait du concert enregistr\u00E9 le 11 octobre 2024 \u00E0 l\u0027Auditorium de la Maison de la Radio et de la Musique. \n\n#stravinsky #hannigan #symphonie \n\nCompos\u00E9e en 1942-1945 et cr\u00E9\u00E9e le 24 janvier 1946 au Carnegie Hall de New York, par le New York Philharmonic Orchestra sous la direction du compositeur. Cinq partitions de Stravinsky portent le titre de \u00AB symphonie \u00BB. La premi\u00E8re, dite en mi b\u00E9mol (1907), est l\u2019\u0153uvre d\u2019un \u00E9l\u00E8ve de Rimski-Korsakov qui se cherche encore. Les Symphonies d\u2019instruments \u00E0 vent (1920), qui se r\u00E9f\u00E8rent aux sinfonie de la fin de la Renaissance et du d\u00E9but du Baroque, ouvrent la voie \u00E0 la future Symphonie de psaumes (1930). Achev\u00E9e en 1940, la Symphonie en ut affirme le retour \u00E0 une harmonie plus claire, associ\u00E9e \u00E0 des saccades rythmiques typiques de Stravinsky. Quant \u00E0 la Symphonie en trois mouvements, compos\u00E9e aux \u00C9tats-Unis pendant la Seconde Guerre mondiale, elle se pr\u00E9sente comme une synth\u00E8se des proc\u00E9d\u00E9s mis en \u0153uvre jusque-l\u00E0.\n\nEn sus des consonances caract\u00E9ristiques de sa p\u00E9riode n\u00E9o-classique, on y entend des souvenirs de la bitonalit\u00E9 de Petrouchka (1911) et de la nervosit\u00E9 rythmique du Sacre du printemps (1913). Cette derni\u00E8re symphonie m\u00EAle en fait des \u00E9l\u00E9ments d\u2019origines diverses. L\u2019Andante, avec une partie de harpe solo, provient d\u2019une musique \u00E9crite pour Le Chant de Bernadette, film de Henry King adapt\u00E9 du livre de Franz Werfel. Le r\u00E9alisateur n\u2019ayant pas retenu la proposition de Stravinsky, celui-ci transf\u00E9ra son mat\u00E9riau dans sa symphonie. Peut-\u00EAtre avait-il au d\u00E9part envisag\u00E9 une \u0153uvre concertante, car le piano occupe une place significative dans le premier mouvement.\n\nLe Con moto final, qui met en valeur la harpe et le piano, renforce l\u2019unit\u00E9 de la partition. La Symphonie en trois mouvements, en sus de son mouvement central issu d\u2019un projet de bande-son, a \u00E9t\u00E9 influenc\u00E9e par plusieurs documentaires : l\u2019un sur la politique de la terre br\u00FBl\u00E9e des Japonais en guerre contre la Chine, d\u2019autres sur les soldats du IIIe Reich. Pour autant, si l\u2019on en croit son auteur, il ne s\u2019agit pas d\u2019une \u0153uvre \u00E0 programme, qui transposerait des images ou une quelconque narration. Fid\u00E8le \u00E0 ses conceptions, Stravinsky affirme son id\u00E9al d\u2019une musique qui ne soit qu\u2019une \u00AB combinaison de notes \u00BB.\n\n Pensez \u00E0 vous abonner pour d\u00E9couvrir d\u2019autres vid\u00E9os France Musique !\nhttps://www.youtube.com/channel/UCiPYZkZeNbYTQZKNMlB0Gsw?sub_confirmation=1\n \n \nD\u00E9couvrez tout France Musique : \n\u25BA Site internet - https://www.radiofrance.fr/francemusique\n\u25BA Espace Concerts - https://www.radiofrance.fr/concerts\n\u25BA Newsletters - https://www.radiofrance.fr/francemusique/newsletters\n \n \nSuivez-nous sur les r\u00E9seaux sociaux :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - https://twitter.com/francemusique?lang=fr\n\u25BA Instagram - https://www.instagram.com/francemusique/?hl=fr\n\u25BA TikTok - https://www.tiktok.com/@francemusique?lang=fr",
-      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
-      "Position": 3,
-      "PublishedAtRaw": "2026-06-24T18:01:12Z",
-      "PublishedAtDateTimeOffset": "2026-06-24T18:01:12+00:00",
-      "PublishedAt": "2026-06-24T23:31:12+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "YOceLcH1Oe4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Stravinsky : Symphonie en trois mouvements (Barbara Hannigan)",
-      "VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
-      "VideoOwnerChannelTitle": "France Musique concerts"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "zh5aGMEO8t4",
-      "VideoPublishedAtRaw": "2024-10-17T10:03:24Z",
-      "VideoPublishedAtDateTimeOffset": "2024-10-17T10:03:24+00:00",
-      "VideoPublishedAt": "2024-10-17T15:33:24+05:30"
-    },
-    "ETag": "gAWn5h2EQPWzX2jBVe57EsfhJyQ",
-    "Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "L\u0027Orchestre Philharmonique et le Choeur de Radio France interpr\u00E8tent la Symphonie de psaumes de Stravinsky sous la direction de Barbara Hannigan. Extrait du concert enregistr\u00E9 le 11 octobre 2024 \u00E0 l\u0027Auditorium de la Maison de la Radio et de la Musique. \n\n#stravinsky #hannigan #symphonie\n\nCompos\u00E9e en 1930 et cr\u00E9\u00E9e le 13 d\u00E9cembre 1930 au Palais des Beaux-Arts de Bruxelles par la Soci\u00E9t\u00E9 philharmonique de Bruxelles sous la direction d\u2019Ernest Ansermet. En t\u00EAte de la partition de la Symphonie de psaumes, Stravinsky appose cette d\u00E9dicace : \u00AB Cette symphonie compos\u00E9e \u00E0 la gloire de DIEU est d\u00E9di\u00E9e au Boston Symphony Orchestra \u00E0 l\u2019occasion du cinquantenaire de son existence. \u00BB S\u2019il accepte la commande du chef Serge Koussevitzky (lequel dirigera l\u2019\u0153uvre quelques jours apr\u00E8s sa cr\u00E9ation par Ernest Ansermet), il n\u2019en refuse pas moins l\u2019h\u00E9ritage symphonique du XIXe si\u00E8cle. En incluant des voix qui chantent des extraits des psaumes nos 38, 39 et 150 (selon la num\u00E9rotation de la Vulgate), il se rapproche du genre de la cantate : \u00AB Mon point de vue sur les rapports mutuels des parties vocales et instrumentales co\u00EFncidait avec celui des vieux ma\u00EEtres de la musique contrapuntique qui, eux aussi, les traitaient en \u00E9gales et ne r\u00E9duisaient ni le r\u00F4le des ch\u0153urs \u00E0 un chant homophone, ni la fonction de l\u2019ensemble instrumental \u00E0 celle d\u2019un accompagnement. \u00BB L\u2019orchestre, avec son effectif si singulier, renforce la dimension sacr\u00E9e, puisqu\u2019il stylise souvent des sonorit\u00E9s d\u2019orgue et de cloches : vents nombreux (mais pas de clarinettes), en particulier dans le registre aigu ; seulement des cordes graves (violoncelles et contrebasses) ; une harpe, des percussions et deux pianos.\n\nL\u2019\u0153uvre, qui privil\u00E9gie une \u00E9criture contrapuntique rigoureuse, t\u00E9moigne de la recherche de solennit\u00E9 et de d\u00E9pouillement que Stravinsky poursuit depuis plusieurs ann\u00E9es. Elle se distingue de surcro\u00EEt par sa structure, les mouvements 2 et 3 durant \u00E0 peu pr\u00E8s le double du mouvement qui les pr\u00E9c\u00E8de. En premi\u00E8re position, Exaudi orationem meam, Domine joue le r\u00F4le d\u2019un bref pr\u00E9lude au rythme de marche, o\u00F9 le ch\u0153ur chante souvent son texte de fa\u00E7on psalmodique. Expectans expectavi Dominum donne lieu \u00E0 une fugue combinant deux \u00E9l\u00E9ments th\u00E9matiques principaux (deux \u00AB sujets \u00BB). L\u2019ample Alleluia, laudate Dominum comprend plusieurs sections contrast\u00E9es, juxtapos\u00E9es sans transition (un type de construction fr\u00E9quent chez le compositeur), et s\u2019ach\u00E8ve sur une berceuse \u00E0 la fois lumineuse et hi\u00E9ratique. Revenu \u00E0 la foi orthodoxe en 1926, Stravinsky composera par la suite plusieurs \u0153uvres religieuses, parmi lesquelles sa Messe, Canticum sacrum, Threni et, en 1966, Requiem Canticles, sa derni\u00E8re \u0153uvre achev\u00E9e.\n\n Pensez \u00E0 vous abonner pour d\u00E9couvrir d\u2019autres vid\u00E9os France Musique !\nhttps://www.youtube.com/channel/UCiPYZkZeNbYTQZKNMlB0Gsw?sub_confirmation=1\n \n \nD\u00E9couvrez tout France Musique : \n\u25BA Site internet - https://www.radiofrance.fr/francemusique\n\u25BA Espace Concerts - https://www.radiofrance.fr/concerts\n\u25BA Newsletters - https://www.radiofrance.fr/francemusique/newsletters\n \n \nSuivez-nous sur les r\u00E9seaux sociaux :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - https://twitter.com/francemusique?lang=fr\n\u25BA Instagram - https://www.instagram.com/francemusique/?hl=fr\n\u25BA TikTok - https://www.tiktok.com/@francemusique?lang=fr",
-      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
-      "Position": 4,
-      "PublishedAtRaw": "2026-06-24T18:01:46Z",
-      "PublishedAtDateTimeOffset": "2026-06-24T18:01:46+00:00",
-      "PublishedAt": "2026-06-24T23:31:46+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "zh5aGMEO8t4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Stravinsky : Symphonie de psaumes (Barbara Hannigan)",
-      "VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
-      "VideoOwnerChannelTitle": "France Musique concerts"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "IOvmmtbb6lo",
-      "VideoPublishedAtRaw": "2018-01-06T09:06:11Z",
-      "VideoPublishedAtDateTimeOffset": "2018-01-06T09:06:11+00:00",
-      "VideoPublishedAt": "2018-01-06T14:36:11+05:30"
-    },
-    "ETag": "kXIMYAu7ooxAJ7X3tvZxA1yi_gg",
-    "Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4xMkVGQjNCMUM1N0RFNEUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Canadian soprano and conductor Barbara Hannigan leads the Danish National Symphony Orchestra in a lively performance of Haydn\u0027s Symphony No. 86 in D Major. The concert was recorded live on September 22, 2016.",
-      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
-      "Position": 5,
-      "PublishedAtRaw": "2026-06-24T18:02:46Z",
-      "PublishedAtDateTimeOffset": "2026-06-24T18:02:46+00:00",
-      "PublishedAt": "2026-06-24T23:32:46+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "IOvmmtbb6lo"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Barbara Hannigan conducts Haydn - Symphony No. 86 (2016)",
-      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
-      "VideoOwnerChannelTitle": "Female Conductors"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "iHgE00etup0",
-      "VideoPublishedAtRaw": "2024-12-06T15:00:06Z",
-      "VideoPublishedAtDateTimeOffset": "2024-12-06T15:00:06+00:00",
-      "VideoPublishedAt": "2024-12-06T20:30:06+05:30"
-    },
-    "ETag": "cQqfGS8OMwr5xVepS-gAxmYNnBQ",
-    "Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Gustav Mahlers Sinfonie Nr. 3 d-Moll, gespielt vom WDR Sinfonieorchester unter der Leitung seines Chefdirigenten Cristian M\u0103celaru am 02.11.2024 in der K\u00F6lner Philharmonie. Es singen Sasha Cooke, die Damen des WDR Rundfunkchores und die Knaben und M\u00E4dchen der K\u00F6lner Dommusik. \n\nGustav Mahler - Sinfonie Nr. 3 d-Moll \n\n00:00:00 I. Kr\u00E4ftig. Entschieden\n00:36:18 II. Tempo di Menuetto. Sehr m\u00E4\u00DFig\n00:46:54 III. Comodo. Scherzando\n01:05:46 IV. Sehr langsam. Misterioso\n01:15:06 V. Lustig im Tempo und keck im Ausdruck\n01:19:19 VI. Langsam. Ruhevoll. Empfunden\n\nSasha Cooke, Mezzosopran\nKnaben und M\u00E4dchen der K\u00F6lner Dommusik\nDamen des WDR Rundfunkchores\nWDR Sinfonieorchester\nCristian M\u0103celaru, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung\n\u0022Die Symphonie muss sein wie die Welt. Sie muss alles umfassen.\u0022 Mit diesen Worten brachte Gustav Mahler sein Selbstverst\u00E4ndnis als Komponist auf den Punkt. Musik, das war f\u00FCr ihn nicht einfach ein akustisches Ph\u00E4nomen, sondern der Spiegel allen Seins. In seiner zweiten Sinfonie hat er versucht, die bangen Existenzfragen des Menschen in Musik auszudr\u00FCcken. In seiner Dritten hingegen stellt er die Frage nach dem menschlichen Leben innerhalb des Kosmos. Er selbst hat das konkret so formuliert: \u0022Die h\u00F6chsten Menschheitsfragen, die ich in der Zweiten stellte und zu beantworten suchte: Wozu sind wir? und: Werden wir sein auch \u00FCber dieses Leben hinaus? \u2013 sie k\u00F6nnen mich hier nicht mehr bewegen. Denn was hat das im All zu bedeuten, wo alles lebt und leben mu\u00DF und wird? Kann ein Geist, der den ewigen Sch\u00F6pfungsgedanken der Gottheit in einer Symphonie wie dieser nachdenkt, sterben? Nein, die Zuversicht bekommt man: ewig und unverg\u00E4nglich wohlgeborgen ist alles; [\u2026] und hier hat auch Menschenleid und -tr\u00FCbsal keinen Raum mehr.\u0022 Eine wahrlich herausfordernde Fragestellung. Die musikalische Antwort darauf konnte naturgem\u00E4\u00DF nicht kurz und b\u00FCndig ausfallen, sondern detailreich, komplex, ja: ausufernd. Und so ist Mahlers Dritte die wohl l\u00E4ngste Sinfonie in der klassisch-romantischen Tradition. Nicht zuf\u00E4llig hat sie sage und schreibe sechs S\u00E4tze. Als Mahler dieses weltumfassende Werk 1892 konzipierte und 1895/96 umsetzte, formulierte er f\u00FCr jeden Satz einen Titel. Diese inhaltliche Konkretisierung verwarf er jedoch schon bald wieder, weil er die Erfahrung gemacht hatte, dass sie dem direkten Zugang zur Musik sogar hinderlich sein konnte. F\u00FCr das Erfassen dieser Sinfonie sind die Titel jedoch hilfreich. Denjenigen des ersten Satzes entnahm Mahler der griechischen Mythologie. Hintergrund ist die Vorstellung von Pan als Gott der Natur. In Mahlers Verst\u00E4ndnis reichte Pans Macht allerdings \u00FCber diese Bedeutung hinaus; er sah ihn als Metapher f\u00FCr das Weltall. Und so meint der Komponist mit dem urspr\u00FCnglichen Titel des ersten Satzes, \u0022Pan erwacht\u0022, nicht nur das Sprie\u00DFen der irdischen Natur, sondern die Materie an sich als Grundlage allen Lebens. Um dies im ersten Satz musikalisch auszudr\u00FCcken, ben\u00F6tigt Mahler mehr als eine halbe Stunde. Im Hinblick auf die gewichtige Aussage k\u00F6nnte man diesen l\u00E4ngsten Sinfoniesatz aller Zeiten sogar als \u00FCberraschend kurz bezeichnen. Was Mahler in dessen weiterem Verlauf schildert, hat er \u00FCberschrieben mit \u0022Der Sommer marschiert ein (\u0027Bacchuszug\u0027)\u0022. [...]\n\nText: Otto Hagedorn\n\n\u25BA Die vollst\u00E4ndige Werkeinf\u00FChrung finden Sie auf unserer Website:\nhttps://www1.wdr.de/orchester-und-chor/sinfonieorchester/werkeinfuehrungen/mahler-dritte-sinfonie-104.html",
-      "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
-      "Position": 6,
-      "PublishedAtRaw": "2026-06-28T16:54:15Z",
-      "PublishedAtDateTimeOffset": "2026-06-28T16:54:15+00:00",
-      "PublishedAt": "2026-06-28T22:24:15+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "iHgE00etup0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/iHgE00etup0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/iHgE00etup0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/iHgE00etup0/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/iHgE00etup0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/iHgE00etup0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mahler - Sinfonie Nr. 3 | Cristian M\u0103celaru | WDR Sinfonieorchester | WDR Rundfunkchor",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "yQo80hCI9DI",
+			"VideoPublishedAtRaw": "2026-05-07T06:08:49Z",
+			"VideoPublishedAtDateTimeOffset": "2026-05-07T06:08:49+00:00",
+			"VideoPublishedAt": "2026-05-07T11:38:49+05:30"
+		},
+		"ETag": "UDULGHXG6P-RnWyNBbEAivGgrFM",
+		"Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Aaron Copland, called \u201Cthe father of American music,\u201D has had an enormous influence on film music, not least his way of balancing the grand with the intimate. Although he himself wrote few original film scores, Copland\u2019s style has become a template for the classic Hollywood sound. Copland\u2019s early work Dance Symphony bears a clear imprint of European modernism \u2013 especially Stravinsky with his rhythmic power and dissonant color \u2013 but also of jazz and the urban pulse of 1920s New York. Principal Guest Conductor Barbara Hannigan opened the season with musical fireworks.\n\nRecorded for GSOplay in Gothenburg Concert Hall in September 2025. \n\nWatch more concerts and interviews at www.gsoplay.com.",
+			"PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+			"Position": 0,
+			"PublishedAtRaw": "2026-06-24T18:00:43Z",
+			"PublishedAtDateTimeOffset": "2026-06-24T18:00:43+00:00",
+			"PublishedAt": "2026-06-24T23:30:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "yQo80hCI9DI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/yQo80hCI9DI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/yQo80hCI9DI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/yQo80hCI9DI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/yQo80hCI9DI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/yQo80hCI9DI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Copland: Dance Symphony (Conductor Barbara Hannigan)",
+			"VideoOwnerChannelId": "UCfa7htPRS-5gAo2vt1smzTQ",
+			"VideoOwnerChannelTitle": "G\u00F6teborgs Symfoniker"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "9_0JDr5Dl2Q",
+			"VideoPublishedAtRaw": "2025-05-30T10:31:13Z",
+			"VideoPublishedAtDateTimeOffset": "2025-05-30T10:31:13+00:00",
+			"VideoPublishedAt": "2025-05-30T16:01:13+05:30"
+		},
+		"ETag": "sAMsbkd0053ElQxxXWU0X1swWQY",
+		"Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Joseph Haydn\nSymphony No 104 in D major, H. I/104\n\nAcademy Chamber Orchestra\nBarbara Hannigan - conductor\n\nRecorded live in the Duke\u2019s Hall, Royal Academy of Music, London, on 21 March 2025.",
+			"PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+			"Position": 1,
+			"PublishedAtRaw": "2026-06-24T18:00:50Z",
+			"PublishedAtDateTimeOffset": "2026-06-24T18:00:50+00:00",
+			"PublishedAt": "2026-06-24T23:30:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9_0JDr5Dl2Q"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/9_0JDr5Dl2Q/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Academy Chamber Orchestra performs Haydn Symphony No 104 with Barbara Hannigan",
+			"VideoOwnerChannelId": "UCasi3JnYYVlEfJqIgqj92hg",
+			"VideoOwnerChannelTitle": "Royal Academy of Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "s7wmlHhMN1M",
+			"VideoPublishedAtRaw": "2020-08-03T14:54:26Z",
+			"VideoPublishedAtDateTimeOffset": "2020-08-03T14:54:26+00:00",
+			"VideoPublishedAt": "2020-08-03T20:24:26+05:30"
+		},
+		"ETag": "gVLbjzohQ_N_YBM6Vk3-zMIuYRc",
+		"Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sous la direction de Barbara Hannigan, l\u0027Orchestre philharmonique de Radio France joue la Symphonie n\u00B0 49 en fa mineur, \u00AB La Passion \u00BB, de Haydn.\n\n#Haydn #Hannigan # LeTempsRetrouv\u00E9\n\nRetrouvez tous les concerts vid\u00E9os de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
+			"PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+			"Position": 2,
+			"PublishedAtRaw": "2026-06-24T18:01:07Z",
+			"PublishedAtDateTimeOffset": "2026-06-24T18:01:07+00:00",
+			"PublishedAt": "2026-06-24T23:31:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "s7wmlHhMN1M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/s7wmlHhMN1M/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn : Symphonie n\u00B0 49 en fa mineur, \u00AB La Passion \u00BB",
+			"VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+			"VideoOwnerChannelTitle": "France Musique concerts"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "YOceLcH1Oe4",
+			"VideoPublishedAtRaw": "2024-10-17T10:01:16Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-17T10:01:16+00:00",
+			"VideoPublishedAt": "2024-10-17T15:31:16+05:30"
+		},
+		"ETag": "6Pn1lQvrsiXHW1M4ZgOK4h8h3gY",
+		"Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "L\u0027Orchestre Philharmonique et le Choeur de Radio France jouent la Symphonie en trois mouvements d\u0027Igor Stravinsky sous la direction de Barbara Hannigan. Extrait du concert enregistr\u00E9 le 11 octobre 2024 \u00E0 l\u0027Auditorium de la Maison de la Radio et de la Musique. \n\n#stravinsky #hannigan #symphonie \n\nCompos\u00E9e en 1942-1945 et cr\u00E9\u00E9e le 24 janvier 1946 au Carnegie Hall de New York, par le New York Philharmonic Orchestra sous la direction du compositeur. Cinq partitions de Stravinsky portent le titre de \u00AB symphonie \u00BB. La premi\u00E8re, dite en mi b\u00E9mol (1907), est l\u2019\u0153uvre d\u2019un \u00E9l\u00E8ve de Rimski-Korsakov qui se cherche encore. Les Symphonies d\u2019instruments \u00E0 vent (1920), qui se r\u00E9f\u00E8rent aux sinfonie de la fin de la Renaissance et du d\u00E9but du Baroque, ouvrent la voie \u00E0 la future Symphonie de psaumes (1930). Achev\u00E9e en 1940, la Symphonie en ut affirme le retour \u00E0 une harmonie plus claire, associ\u00E9e \u00E0 des saccades rythmiques typiques de Stravinsky. Quant \u00E0 la Symphonie en trois mouvements, compos\u00E9e aux \u00C9tats-Unis pendant la Seconde Guerre mondiale, elle se pr\u00E9sente comme une synth\u00E8se des proc\u00E9d\u00E9s mis en \u0153uvre jusque-l\u00E0.\n\nEn sus des consonances caract\u00E9ristiques de sa p\u00E9riode n\u00E9o-classique, on y entend des souvenirs de la bitonalit\u00E9 de Petrouchka (1911) et de la nervosit\u00E9 rythmique du Sacre du printemps (1913). Cette derni\u00E8re symphonie m\u00EAle en fait des \u00E9l\u00E9ments d\u2019origines diverses. L\u2019Andante, avec une partie de harpe solo, provient d\u2019une musique \u00E9crite pour Le Chant de Bernadette, film de Henry King adapt\u00E9 du livre de Franz Werfel. Le r\u00E9alisateur n\u2019ayant pas retenu la proposition de Stravinsky, celui-ci transf\u00E9ra son mat\u00E9riau dans sa symphonie. Peut-\u00EAtre avait-il au d\u00E9part envisag\u00E9 une \u0153uvre concertante, car le piano occupe une place significative dans le premier mouvement.\n\nLe Con moto final, qui met en valeur la harpe et le piano, renforce l\u2019unit\u00E9 de la partition. La Symphonie en trois mouvements, en sus de son mouvement central issu d\u2019un projet de bande-son, a \u00E9t\u00E9 influenc\u00E9e par plusieurs documentaires : l\u2019un sur la politique de la terre br\u00FBl\u00E9e des Japonais en guerre contre la Chine, d\u2019autres sur les soldats du IIIe Reich. Pour autant, si l\u2019on en croit son auteur, il ne s\u2019agit pas d\u2019une \u0153uvre \u00E0 programme, qui transposerait des images ou une quelconque narration. Fid\u00E8le \u00E0 ses conceptions, Stravinsky affirme son id\u00E9al d\u2019une musique qui ne soit qu\u2019une \u00AB combinaison de notes \u00BB.\n\n Pensez \u00E0 vous abonner pour d\u00E9couvrir d\u2019autres vid\u00E9os France Musique !\nhttps://www.youtube.com/channel/UCiPYZkZeNbYTQZKNMlB0Gsw?sub_confirmation=1\n \n \nD\u00E9couvrez tout France Musique : \n\u25BA Site internet - https://www.radiofrance.fr/francemusique\n\u25BA Espace Concerts - https://www.radiofrance.fr/concerts\n\u25BA Newsletters - https://www.radiofrance.fr/francemusique/newsletters\n \n \nSuivez-nous sur les r\u00E9seaux sociaux :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - https://twitter.com/francemusique?lang=fr\n\u25BA Instagram - https://www.instagram.com/francemusique/?hl=fr\n\u25BA TikTok - https://www.tiktok.com/@francemusique?lang=fr",
+			"PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+			"Position": 3,
+			"PublishedAtRaw": "2026-06-24T18:01:12Z",
+			"PublishedAtDateTimeOffset": "2026-06-24T18:01:12+00:00",
+			"PublishedAt": "2026-06-24T23:31:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "YOceLcH1Oe4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/YOceLcH1Oe4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Stravinsky : Symphonie en trois mouvements (Barbara Hannigan)",
+			"VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+			"VideoOwnerChannelTitle": "France Musique concerts"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "zh5aGMEO8t4",
+			"VideoPublishedAtRaw": "2024-10-17T10:03:24Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-17T10:03:24+00:00",
+			"VideoPublishedAt": "2024-10-17T15:33:24+05:30"
+		},
+		"ETag": "gAWn5h2EQPWzX2jBVe57EsfhJyQ",
+		"Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "L\u0027Orchestre Philharmonique et le Choeur de Radio France interpr\u00E8tent la Symphonie de psaumes de Stravinsky sous la direction de Barbara Hannigan. Extrait du concert enregistr\u00E9 le 11 octobre 2024 \u00E0 l\u0027Auditorium de la Maison de la Radio et de la Musique. \n\n#stravinsky #hannigan #symphonie\n\nCompos\u00E9e en 1930 et cr\u00E9\u00E9e le 13 d\u00E9cembre 1930 au Palais des Beaux-Arts de Bruxelles par la Soci\u00E9t\u00E9 philharmonique de Bruxelles sous la direction d\u2019Ernest Ansermet. En t\u00EAte de la partition de la Symphonie de psaumes, Stravinsky appose cette d\u00E9dicace : \u00AB Cette symphonie compos\u00E9e \u00E0 la gloire de DIEU est d\u00E9di\u00E9e au Boston Symphony Orchestra \u00E0 l\u2019occasion du cinquantenaire de son existence. \u00BB S\u2019il accepte la commande du chef Serge Koussevitzky (lequel dirigera l\u2019\u0153uvre quelques jours apr\u00E8s sa cr\u00E9ation par Ernest Ansermet), il n\u2019en refuse pas moins l\u2019h\u00E9ritage symphonique du XIXe si\u00E8cle. En incluant des voix qui chantent des extraits des psaumes nos 38, 39 et 150 (selon la num\u00E9rotation de la Vulgate), il se rapproche du genre de la cantate : \u00AB Mon point de vue sur les rapports mutuels des parties vocales et instrumentales co\u00EFncidait avec celui des vieux ma\u00EEtres de la musique contrapuntique qui, eux aussi, les traitaient en \u00E9gales et ne r\u00E9duisaient ni le r\u00F4le des ch\u0153urs \u00E0 un chant homophone, ni la fonction de l\u2019ensemble instrumental \u00E0 celle d\u2019un accompagnement. \u00BB L\u2019orchestre, avec son effectif si singulier, renforce la dimension sacr\u00E9e, puisqu\u2019il stylise souvent des sonorit\u00E9s d\u2019orgue et de cloches : vents nombreux (mais pas de clarinettes), en particulier dans le registre aigu ; seulement des cordes graves (violoncelles et contrebasses) ; une harpe, des percussions et deux pianos.\n\nL\u2019\u0153uvre, qui privil\u00E9gie une \u00E9criture contrapuntique rigoureuse, t\u00E9moigne de la recherche de solennit\u00E9 et de d\u00E9pouillement que Stravinsky poursuit depuis plusieurs ann\u00E9es. Elle se distingue de surcro\u00EEt par sa structure, les mouvements 2 et 3 durant \u00E0 peu pr\u00E8s le double du mouvement qui les pr\u00E9c\u00E8de. En premi\u00E8re position, Exaudi orationem meam, Domine joue le r\u00F4le d\u2019un bref pr\u00E9lude au rythme de marche, o\u00F9 le ch\u0153ur chante souvent son texte de fa\u00E7on psalmodique. Expectans expectavi Dominum donne lieu \u00E0 une fugue combinant deux \u00E9l\u00E9ments th\u00E9matiques principaux (deux \u00AB sujets \u00BB). L\u2019ample Alleluia, laudate Dominum comprend plusieurs sections contrast\u00E9es, juxtapos\u00E9es sans transition (un type de construction fr\u00E9quent chez le compositeur), et s\u2019ach\u00E8ve sur une berceuse \u00E0 la fois lumineuse et hi\u00E9ratique. Revenu \u00E0 la foi orthodoxe en 1926, Stravinsky composera par la suite plusieurs \u0153uvres religieuses, parmi lesquelles sa Messe, Canticum sacrum, Threni et, en 1966, Requiem Canticles, sa derni\u00E8re \u0153uvre achev\u00E9e.\n\n Pensez \u00E0 vous abonner pour d\u00E9couvrir d\u2019autres vid\u00E9os France Musique !\nhttps://www.youtube.com/channel/UCiPYZkZeNbYTQZKNMlB0Gsw?sub_confirmation=1\n \n \nD\u00E9couvrez tout France Musique : \n\u25BA Site internet - https://www.radiofrance.fr/francemusique\n\u25BA Espace Concerts - https://www.radiofrance.fr/concerts\n\u25BA Newsletters - https://www.radiofrance.fr/francemusique/newsletters\n \n \nSuivez-nous sur les r\u00E9seaux sociaux :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - https://twitter.com/francemusique?lang=fr\n\u25BA Instagram - https://www.instagram.com/francemusique/?hl=fr\n\u25BA TikTok - https://www.tiktok.com/@francemusique?lang=fr",
+			"PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+			"Position": 4,
+			"PublishedAtRaw": "2026-06-24T18:01:46Z",
+			"PublishedAtDateTimeOffset": "2026-06-24T18:01:46+00:00",
+			"PublishedAt": "2026-06-24T23:31:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "zh5aGMEO8t4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/zh5aGMEO8t4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Stravinsky : Symphonie de psaumes (Barbara Hannigan)",
+			"VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+			"VideoOwnerChannelTitle": "France Musique concerts"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "IOvmmtbb6lo",
+			"VideoPublishedAtRaw": "2018-01-06T09:06:11Z",
+			"VideoPublishedAtDateTimeOffset": "2018-01-06T09:06:11+00:00",
+			"VideoPublishedAt": "2018-01-06T14:36:11+05:30"
+		},
+		"ETag": "kXIMYAu7ooxAJ7X3tvZxA1yi_gg",
+		"Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Canadian soprano and conductor Barbara Hannigan leads the Danish National Symphony Orchestra in a lively performance of Haydn\u0027s Symphony No. 86 in D Major. The concert was recorded live on September 22, 2016.",
+			"PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+			"Position": 5,
+			"PublishedAtRaw": "2026-06-24T18:02:46Z",
+			"PublishedAtDateTimeOffset": "2026-06-24T18:02:46+00:00",
+			"PublishedAt": "2026-06-24T23:32:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "IOvmmtbb6lo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/IOvmmtbb6lo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Barbara Hannigan conducts Haydn - Symphony No. 86 (2016)",
+			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+			"VideoOwnerChannelTitle": "Female Conductors"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "iHgE00etup0",
+			"VideoPublishedAtRaw": "2024-12-06T15:00:06Z",
+			"VideoPublishedAtDateTimeOffset": "2024-12-06T15:00:06+00:00",
+			"VideoPublishedAt": "2024-12-06T20:30:06+05:30"
+		},
+		"ETag": "cQqfGS8OMwr5xVepS-gAxmYNnBQ",
+		"Id": "UEwxemdOQ29XdF83WkFZTkpaMzNEekNIVkVlbzAzNHF2NC41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Gustav Mahlers Sinfonie Nr. 3 d-Moll, gespielt vom WDR Sinfonieorchester unter der Leitung seines Chefdirigenten Cristian M\u0103celaru am 02.11.2024 in der K\u00F6lner Philharmonie. Es singen Sasha Cooke, die Damen des WDR Rundfunkchores und die Knaben und M\u00E4dchen der K\u00F6lner Dommusik. \n\nGustav Mahler - Sinfonie Nr. 3 d-Moll \n\n00:00:00 I. Kr\u00E4ftig. Entschieden\n00:36:18 II. Tempo di Menuetto. Sehr m\u00E4\u00DFig\n00:46:54 III. Comodo. Scherzando\n01:05:46 IV. Sehr langsam. Misterioso\n01:15:06 V. Lustig im Tempo und keck im Ausdruck\n01:19:19 VI. Langsam. Ruhevoll. Empfunden\n\nSasha Cooke, Mezzosopran\nKnaben und M\u00E4dchen der K\u00F6lner Dommusik\nDamen des WDR Rundfunkchores\nWDR Sinfonieorchester\nCristian M\u0103celaru, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://sinfonieorchester.wdr.de \n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung\n\u0022Die Symphonie muss sein wie die Welt. Sie muss alles umfassen.\u0022 Mit diesen Worten brachte Gustav Mahler sein Selbstverst\u00E4ndnis als Komponist auf den Punkt. Musik, das war f\u00FCr ihn nicht einfach ein akustisches Ph\u00E4nomen, sondern der Spiegel allen Seins. In seiner zweiten Sinfonie hat er versucht, die bangen Existenzfragen des Menschen in Musik auszudr\u00FCcken. In seiner Dritten hingegen stellt er die Frage nach dem menschlichen Leben innerhalb des Kosmos. Er selbst hat das konkret so formuliert: \u0022Die h\u00F6chsten Menschheitsfragen, die ich in der Zweiten stellte und zu beantworten suchte: Wozu sind wir? und: Werden wir sein auch \u00FCber dieses Leben hinaus? \u2013 sie k\u00F6nnen mich hier nicht mehr bewegen. Denn was hat das im All zu bedeuten, wo alles lebt und leben mu\u00DF und wird? Kann ein Geist, der den ewigen Sch\u00F6pfungsgedanken der Gottheit in einer Symphonie wie dieser nachdenkt, sterben? Nein, die Zuversicht bekommt man: ewig und unverg\u00E4nglich wohlgeborgen ist alles; [\u2026] und hier hat auch Menschenleid und -tr\u00FCbsal keinen Raum mehr.\u0022 Eine wahrlich herausfordernde Fragestellung. Die musikalische Antwort darauf konnte naturgem\u00E4\u00DF nicht kurz und b\u00FCndig ausfallen, sondern detailreich, komplex, ja: ausufernd. Und so ist Mahlers Dritte die wohl l\u00E4ngste Sinfonie in der klassisch-romantischen Tradition. Nicht zuf\u00E4llig hat sie sage und schreibe sechs S\u00E4tze. Als Mahler dieses weltumfassende Werk 1892 konzipierte und 1895/96 umsetzte, formulierte er f\u00FCr jeden Satz einen Titel. Diese inhaltliche Konkretisierung verwarf er jedoch schon bald wieder, weil er die Erfahrung gemacht hatte, dass sie dem direkten Zugang zur Musik sogar hinderlich sein konnte. F\u00FCr das Erfassen dieser Sinfonie sind die Titel jedoch hilfreich. Denjenigen des ersten Satzes entnahm Mahler der griechischen Mythologie. Hintergrund ist die Vorstellung von Pan als Gott der Natur. In Mahlers Verst\u00E4ndnis reichte Pans Macht allerdings \u00FCber diese Bedeutung hinaus; er sah ihn als Metapher f\u00FCr das Weltall. Und so meint der Komponist mit dem urspr\u00FCnglichen Titel des ersten Satzes, \u0022Pan erwacht\u0022, nicht nur das Sprie\u00DFen der irdischen Natur, sondern die Materie an sich als Grundlage allen Lebens. Um dies im ersten Satz musikalisch auszudr\u00FCcken, ben\u00F6tigt Mahler mehr als eine halbe Stunde. Im Hinblick auf die gewichtige Aussage k\u00F6nnte man diesen l\u00E4ngsten Sinfoniesatz aller Zeiten sogar als \u00FCberraschend kurz bezeichnen. Was Mahler in dessen weiterem Verlauf schildert, hat er \u00FCberschrieben mit \u0022Der Sommer marschiert ein (\u0027Bacchuszug\u0027)\u0022. [...]\n\nText: Otto Hagedorn\n\n\u25BA Die vollst\u00E4ndige Werkeinf\u00FChrung finden Sie auf unserer Website:\nhttps://www1.wdr.de/orchester-und-chor/sinfonieorchester/werkeinfuehrungen/mahler-dritte-sinfonie-104.html",
+			"PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
+			"Position": 6,
+			"PublishedAtRaw": "2026-06-28T16:54:15Z",
+			"PublishedAtDateTimeOffset": "2026-06-28T16:54:15+00:00",
+			"PublishedAt": "2026-06-28T22:24:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iHgE00etup0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iHgE00etup0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iHgE00etup0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/iHgE00etup0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iHgE00etup0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/iHgE00etup0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler - Sinfonie Nr. 3 | Cristian M\u0103celaru | WDR Sinfonieorchester | WDR Rundfunkchor",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	}
 ]

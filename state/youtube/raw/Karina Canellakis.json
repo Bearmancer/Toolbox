@@ -106,67 +106,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "b_Z9qk0tlxU",
-      "VideoPublishedAtRaw": "2022-04-25T12:15:01Z",
-      "VideoPublishedAtDateTimeOffset": "2022-04-25T12:15:01+00:00",
-      "VideoPublishedAt": "2022-04-25T17:45:01+05:30"
-    },
-    "ETag": "flkJnTPM0hzUWepUX3pcQaCMEVw",
-    "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC43MTI1NDIwOTMwQjIxMzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Ludwig van Beethoven:\n3. Klavierkonzert c-Moll op. 37 \u2219  \n\nI. Allegro con brio \u2219\nII. Largo \u2219\nIII. Rondo. Allegro - Presto \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nLars Vogt, Klavier \u2219\nKarina Canellakis, Dirigentin \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 1. April 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
-      "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 2,
-      "PublishedAtRaw": "2025-05-27T18:03:02Z",
-      "PublishedAtDateTimeOffset": "2025-05-27T18:03:02+00:00",
-      "PublishedAt": "2025-05-27T23:33:02+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "b_Z9qk0tlxU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Beethoven: 3. Klavierkonzert \u2219 hr-Sinfonieorchester \u2219 Lars Vogt \u2219 Karina Canellakis",
-      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "vWmiP7rdRBg",
       "VideoPublishedAtRaw": "2020-03-02T15:48:37Z",
       "VideoPublishedAtDateTimeOffset": "2020-03-02T15:48:37+00:00",
       "VideoPublishedAt": "2020-03-02T21:18:37+05:30"
     },
-    "ETag": "6qeCq7g59byHzNXaI0YnJxs2V_A",
+    "ETag": "FVB78anloWsyJ66QgeUD7HQ-OYQ",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC4zQzFBN0RGNzNFREFCMjBE",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -174,7 +119,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Radio Philharmonic Orchestra led by conductor Karina Canellakis perform the \u0027Overture\u0027 from Beethoven\u0027s set of incidental music pieces \u0027Egmont, Op. 84\u0027 during the Sunday Morning Concert on the 1st of March 2020.\n\nThe music:\nLudwig van Beethoven - Overture \u0027Egmont, Op. 84\u0027\n\nMusicians:\nRadio Filharmonisch Orkest\nKarina Canellakis [conductor]\n\nRecording:\nSunday the 1st of March 2020, live in Het Concertgebouw in Amsterdam.\n\nMore AVROTROS Klassiek:\n\u266C Facebook: https://www.facebook.com/AVROTROS.Klassiek/\n\u266C Twitter: https://twitter.com/klassiekonline\n\u266C Instagram: https://www.instagram.com/avrotrosklassiek/",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 3,
+      "Position": 2,
       "PublishedAtRaw": "2025-05-27T18:13:30Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:13:30+00:00",
       "PublishedAt": "2025-05-27T23:43:30+05:30",
@@ -212,6 +157,61 @@
       "Title": "Beethoven: Overture Egmont -  Radio Filharmonisch Orkest led by Karina Canellakis - Live Concert HD",
       "VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
       "VideoOwnerChannelTitle": "AVROTROS Klassiek"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "b_Z9qk0tlxU",
+      "VideoPublishedAtRaw": "2022-04-25T12:15:01Z",
+      "VideoPublishedAtDateTimeOffset": "2022-04-25T12:15:01+00:00",
+      "VideoPublishedAt": "2022-04-25T17:45:01+05:30"
+    },
+    "ETag": "flJU1EiRxptpnbQ0xKNuA1kXWzA",
+    "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC43MTI1NDIwOTMwQjIxMzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven:\n3. Klavierkonzert c-Moll op. 37 \u2219  \n\nI. Allegro con brio \u2219\nII. Largo \u2219\nIII. Rondo. Allegro - Presto \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nLars Vogt, Klavier \u2219\nKarina Canellakis, Dirigentin \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 1. April 2022 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD-Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\n\n#4K\n\n\u00A9 2022\nHessischer Rundfunk (hr)",
+      "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
+      "Position": 3,
+      "PublishedAtRaw": "2025-05-27T18:03:02Z",
+      "PublishedAtDateTimeOffset": "2025-05-27T18:03:02+00:00",
+      "PublishedAt": "2025-05-27T23:33:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "b_Z9qk0tlxU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/b_Z9qk0tlxU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: 3. Klavierkonzert \u2219 hr-Sinfonieorchester \u2219 Lars Vogt \u2219 Karina Canellakis",
+      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
     }
   },
   {
@@ -916,12 +916,67 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "1I4jnAOH1gU",
+      "VideoPublishedAtRaw": "2019-10-15T12:50:28Z",
+      "VideoPublishedAtDateTimeOffset": "2019-10-15T12:50:28+00:00",
+      "VideoPublishedAt": "2019-10-15T18:20:28+05:30"
+    },
+    "ETag": "hYIKwVO8-QuXfvbYh77qNdqHtY4",
+    "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC41RTNBREYwMkI5QzU3RkY2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "De Amerikaanse dirigente Karina Canellakis dirigeert haar eerste concert als chef-dirigent van het Radio Filharmonisch Orkest in de NTR ZaterdagMatinee in Het Concertgebouw. Ze opent dit bijzondere inauguratieconcert met de Egmont-ouverture van Beethoven.\n\n\uD83C\uDFBB Abonneer op dit kanaal: https://www.youtube.com/nporadio4 \n\n----------\n\n\uD83C\uDFBC Ontdek meer van NPO Radio 4 op onze website, socials en app!\n\u25BA Website: https://www.nporadio4.nl\n\u25BA Instagram: https://www.instagram.com/nporadio4\n\u25BA Facebook: https://www.facebook.com/nporadio4\n\u25BA App iOS: https://itunes.apple.com/nl/app/npo-radio-4-klassieke-muziek/id356569274?mt=8\n\u25BA https://play.google.com/store/apps/details?id=nl.omroep.npo.radio4\u0026hl=nl\n\n----------\n\n\uD83C\uDFB6 Afspeellijsten:\n\u25BA Hollandse Helden: https://www.youtube.com/playlist?list=PL1NDo43jPBgvoKgOj3rPCHUMrdAHrJu15\n\u25BA De Klassieken: https://www.youtube.com/playlist?list=PLB59421E67A49A8B0\n\u25BA De Hart en Ziel Lijst: https://www.youtube.com/playlist?list=PL1NDo43jPBgsd5DYYSNT0cgSVFiVKDKDr\n\u25BA Ontspanning: https://www.youtube.com/playlist?list=PL1NDo43jPBgu1d8EJGvfb-DMQpp-H1x5C\n\u25BA  Mooie animaties: https://www.youtube.com/playlist?list=PL1NDo43jPBgtTvmJytoNFwpz0ZFWdQsOg\n\n#NPORadio4 #Radio4 #Klassiek",
+      "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
+      "Position": 17,
+      "PublishedAtRaw": "2025-05-27T18:16:06Z",
+      "PublishedAtDateTimeOffset": "2025-05-27T18:16:06+00:00",
+      "PublishedAt": "2025-05-27T23:46:06+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1I4jnAOH1gU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Karina Canellakis dirigeert Beethoven bij Radio Filharmonisch Orkest | NPO Radio 4",
+      "VideoOwnerChannelId": "UC52Ddf8E5GaGZBevLUM7PHw",
+      "VideoOwnerChannelTitle": "NPO Klassiek"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "ckqVCrPAXE4",
       "VideoPublishedAtRaw": "2017-12-11T11:21:30Z",
       "VideoPublishedAtDateTimeOffset": "2017-12-11T11:21:30+00:00",
       "VideoPublishedAt": "2017-12-11T16:51:30+05:30"
     },
-    "ETag": "bkV1038ROx04_eHDy8nZoXmoaMo",
+    "ETag": "kRDRirFDq842y7YhoEFDiSXBt5Y",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC4yODlGNEE0NkRGMEEzMEQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -929,7 +984,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor and violinist Karina Canellakis conducts the Rundfunk-Sinfonieorchester Berlin in a fresh performance Beethoven\u0027s Symphony No. 7. It was recorded live on September 2, 2017.",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 17,
+      "Position": 18,
       "PublishedAtRaw": "2025-05-27T18:00:25Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:00:25+00:00",
       "PublishedAt": "2025-05-27T23:30:25+05:30",
@@ -971,7 +1026,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:28+00:00",
       "VideoPublishedAt": "2024-01-02T18:38:28+05:30"
     },
-    "ETag": "mD82sPl_HZ1SdbjNJxHoU8W447o",
+    "ETag": "OtKEssMcuTp1ltSVHsvHtp0nSa8",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC5CMEQ2Mjk5NTc3NDZFRUNB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -979,7 +1034,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Brahms: Symphonie n\u00B04 \nStrauss: les Quatre derniers lieder \n\nCamilla Nylund, soprano\nOrchestre National de France",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 18,
+      "Position": 19,
       "PublishedAtRaw": "2025-05-27T18:04:23Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:04:23+00:00",
       "PublishedAt": "2025-05-27T23:34:23+05:30",
@@ -1026,7 +1081,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-03-18T19:54:15+00:00",
       "VideoPublishedAt": "2018-03-19T01:24:15+05:30"
     },
-    "ETag": "5BSdoh33llgNqURAyrOCno7DxSg",
+    "ETag": "S3D3gODympyDr4PML9YYuhtn1-8",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC4xOTEzQzhBQzU3MDNDNjcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1034,7 +1089,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor Karina Canellakis leads the Netherlands Radio Philharmonic Orchestra in this performance of Benjamin Britten\u0027s Four Sea Interludes from the opera \u2018Peter Grimes\u0027. The concert was recorded live on March 18, 2018.",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 19,
+      "Position": 20,
       "PublishedAtRaw": "2025-05-27T18:13:01Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:13:01+00:00",
       "PublishedAt": "2025-05-27T23:43:01+05:30",
@@ -1081,7 +1136,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-05-12T16:00:00+00:00",
       "VideoPublishedAt": "2019-05-12T21:30:00+05:30"
     },
-    "ETag": "sAr8GJJVrY6zP8yJKsRXZp46v64",
+    "ETag": "6CHlME81eRfQF5IPY-DHzQAz-m8",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC5EMEEwRUY5M0RDRTU3NDJC",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1089,7 +1144,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor Karina Canellakis leads the Swedish Radio Symphony Orchestra in a performance of Britten\u0027s Sinfonia da Requiem. It was recorded live on April 10, 2019.\n\nMore info about Ms. Canellakis can be found here: http://karinacanellakis.com/",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 20,
+      "Position": 21,
       "PublishedAtRaw": "2025-05-27T18:01:02Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:01:02+00:00",
       "PublishedAt": "2025-05-27T23:31:02+05:30",
@@ -1136,7 +1191,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-05-08T03:44:51+00:00",
       "VideoPublishedAt": "2018-05-08T09:14:51+05:30"
     },
-    "ETag": "sC7L3Rv7dJCjJABdLw6-qv3zvCA",
+    "ETag": "z-yKmgNjL6aVL85H6iXgQuprjnU",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC4xMkVGQjNCMUM1N0RFNEUx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1144,7 +1199,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor Karina Canellakis leads The Phoenix Symphony in this evocative performance of Debussy\u2019s La Mer. It was recorded live from concerts in January 2018.",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 21,
+      "Position": 22,
       "PublishedAtRaw": "2025-05-27T18:00:39Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:00:39+00:00",
       "PublishedAt": "2025-05-27T23:30:39+05:30",
@@ -1191,7 +1246,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-08-07T15:00:07+00:00",
       "VideoPublishedAt": "2019-08-07T20:30:07+05:30"
     },
-    "ETag": "MTNyGuz6_6RtEkDpUhuThoU2BIo",
+    "ETag": "uHHHnY8GSq3FD-cr-hoCTIP7mdE",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC4zMDg5MkQ5MEVDMEM1NTg2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1199,7 +1254,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor Karina Canellakis leads the BBC Symphony Orchestra in a performance of Jan\u00E1\u010Dek\u2019s Glagolitic Mass. Soloists were Asmik Grigorian (S), Jennifer Johnston (MS), Ladislav Elgr (T), Jan Martin\u00EDk (B) and Peter Holder (Org) along with the BBC Singers and BBC Symphony Chorus. It was recorded live on July 19, 2019.\n\nMore info about Ms. Canellakis can be found here: http://karinacanellakis.com/",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 22,
+      "Position": 23,
       "PublishedAtRaw": "2025-05-27T18:01:09Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:01:09+00:00",
       "PublishedAt": "2025-05-27T23:31:09+05:30",
@@ -1246,7 +1301,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-09-10T05:08:13+00:00",
       "VideoPublishedAt": "2018-09-10T10:38:13+05:30"
     },
-    "ETag": "1bDsz4sZQ0BC_4r9vihfeNco0jE",
+    "ETag": "EdZIGGxa6Y6srmdSCP8IcBOD5Mg",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC41MzJCQjBCNDIyRkJDN0VD",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1254,7 +1309,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor Karina Canellakis leads the BBC Symphony Orchestra in this performance of Rachmaninoff\u2019s Symphonic Dances. It was recorded live on July 23, 2018 at BBC Prom 12.",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 23,
+      "Position": 24,
       "PublishedAtRaw": "2025-05-27T18:00:43Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:00:43+00:00",
       "PublishedAt": "2025-05-27T23:30:43+05:30",
@@ -1296,7 +1351,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-12-07T19:33:18+00:00",
       "VideoPublishedAt": "2018-12-08T01:03:18+05:30"
     },
-    "ETag": "zLA1c0Igl-2d--r3l7JTTeLyP-Q",
+    "ETag": "HCngOw940_hD6-LxAVTvDewkQ1M",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC5GNjNDRDREMDQxOThCMDQ2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1304,7 +1359,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor Karina Canellakis leads the West Australian Symphony Orchestra in this performance of Shostakovich\u0027s Symphony No. 8 in C Minor. It was recorded live in concert on November 24, 2018.",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 24,
+      "Position": 25,
       "PublishedAtRaw": "2025-05-27T18:00:54Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:00:54+00:00",
       "PublishedAt": "2025-05-27T23:30:54+05:30",
@@ -1351,7 +1406,7 @@
       "VideoPublishedAtDateTimeOffset": "2018-11-03T01:24:49+00:00",
       "VideoPublishedAt": "2018-11-03T06:54:49+05:30"
     },
-    "ETag": "dV5eecgS0dWY3KVZnqeuFdZ4xXI",
+    "ETag": "yuT771B4HSRhS4ijKdvTpDnxiFM",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC5DQUNERDQ2NkIzRUQxNTY1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1359,7 +1414,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor Karina Canellakis leads the Adelaide Symphony Orchestra in this performance of the 1945 version of Stravinsky\u2019s Firebird Suite. It was recorded live on November 2, 2018.",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 25,
+      "Position": 26,
       "PublishedAtRaw": "2025-05-27T18:00:46Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:00:46+00:00",
       "PublishedAt": "2025-05-27T23:30:46+05:30",
@@ -1406,7 +1461,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:31+00:00",
       "VideoPublishedAt": "2024-01-02T18:38:31+05:30"
     },
-    "ETag": "X_WeqHymgk6P04xZvTy8u5KgZ6E",
+    "ETag": "asKq8UBR8mb_QtZ08RS8KXZtkcc",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC4zRDBDOEZDOUM0MDY5NEEz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1414,7 +1469,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Aanvang concert\nModest Moessorgski - Dageraad op de rivier Moskva uit Chovansjtsjina\nUnsuk Chin - Pianoconcert\nIgor Stravinsky - Le sacre du printemps / The Rite of Spring\n\nRadio Filharmonisch Orkest",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 26,
+      "Position": 27,
       "PublishedAtRaw": "2025-05-27T18:04:13Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:04:13+00:00",
       "PublishedAt": "2025-05-27T23:34:13+05:30",
@@ -1461,7 +1516,7 @@
       "VideoPublishedAtDateTimeOffset": "2017-12-11T20:16:17+00:00",
       "VideoPublishedAt": "2017-12-12T01:46:17+05:30"
     },
-    "ETag": "gtTy6w2zyHLcbNrzCPVABNY1aX4",
+    "ETag": "lJYJx3nJ62-Lc_bjxOFKJFHUtTQ",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC4wMTcyMDhGQUE4NTIzM0Y5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1469,7 +1524,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "American conductor and violinist Karina Canellakis conducts the Danish National Symphony Orchestra in an outstanding performance of Tchaikovsky\u0027s Symphony No. 4 in F Minor. It was recorded live on February 18, 2016.",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 27,
+      "Position": 28,
       "PublishedAtRaw": "2025-05-27T18:00:28Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:00:28+00:00",
       "PublishedAt": "2025-05-27T23:30:28+05:30",
@@ -1506,122 +1561,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "DvGlY6kl-gQ",
-      "VideoPublishedAtRaw": "2024-01-02T13:08:25Z",
-      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:25+00:00",
-      "VideoPublishedAt": "2024-01-02T18:38:25+05:30"
-    },
-    "ETag": "Iy25eNZWp44VXR0y-pQEdA1noo4",
-    "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC40QzRDOEU0QUYwNUIxN0M1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Wagemans: Requiem\nAroetjoenjan: Violin Concert\nBart\u00F3k: Divertimento\n\nViolinist: Sergey Khachatryan \nRadio Filharmonisch Orkest",
-      "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 28,
-      "PublishedAtRaw": "2025-05-27T18:15:49Z",
-      "PublishedAtDateTimeOffset": "2025-05-27T18:15:49+00:00",
-      "PublishedAt": "2025-05-27T23:45:49+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "DvGlY6kl-gQ"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Karina Canellakis conducts Wagemans, Aroetjoenjan and Bart\u00F3k",
-      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
-      "VideoOwnerChannelTitle": "Women Conductors"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "1I4jnAOH1gU",
-      "VideoPublishedAtRaw": "2019-10-15T12:50:28Z",
-      "VideoPublishedAtDateTimeOffset": "2019-10-15T12:50:28+00:00",
-      "VideoPublishedAt": "2019-10-15T18:20:28+05:30"
-    },
-    "ETag": "60zkBaDOz7roaRudDpzoqpMI268",
-    "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC41RTNBREYwMkI5QzU3RkY2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "De Amerikaanse dirigente Karina Canellakis dirigeert haar eerste concert als chef-dirigent van het Radio Filharmonisch Orkest in de NTR ZaterdagMatinee in Het Concertgebouw. Ze opent dit bijzondere inauguratieconcert met de Egmont-ouverture van Beethoven.\n\n\uD83C\uDFBB Abonneer op dit kanaal: https://www.youtube.com/nporadio4 \n\n----------\n\n\uD83C\uDFBC Ontdek meer van NPO Radio 4 op onze website, socials en app!\n\u25BA Website: https://www.nporadio4.nl\n\u25BA Instagram: https://www.instagram.com/nporadio4\n\u25BA Facebook: https://www.facebook.com/nporadio4\n\u25BA App iOS: https://itunes.apple.com/nl/app/npo-radio-4-klassieke-muziek/id356569274?mt=8\n\u25BA https://play.google.com/store/apps/details?id=nl.omroep.npo.radio4\u0026hl=nl\n\n----------\n\n\uD83C\uDFB6 Afspeellijsten:\n\u25BA Hollandse Helden: https://www.youtube.com/playlist?list=PL1NDo43jPBgvoKgOj3rPCHUMrdAHrJu15\n\u25BA De Klassieken: https://www.youtube.com/playlist?list=PLB59421E67A49A8B0\n\u25BA De Hart en Ziel Lijst: https://www.youtube.com/playlist?list=PL1NDo43jPBgsd5DYYSNT0cgSVFiVKDKDr\n\u25BA Ontspanning: https://www.youtube.com/playlist?list=PL1NDo43jPBgu1d8EJGvfb-DMQpp-H1x5C\n\u25BA  Mooie animaties: https://www.youtube.com/playlist?list=PL1NDo43jPBgtTvmJytoNFwpz0ZFWdQsOg\n\n#NPORadio4 #Radio4 #Klassiek",
-      "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 29,
-      "PublishedAtRaw": "2025-05-27T18:16:06Z",
-      "PublishedAtDateTimeOffset": "2025-05-27T18:16:06+00:00",
-      "PublishedAt": "2025-05-27T23:46:06+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "1I4jnAOH1gU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/1I4jnAOH1gU/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Karina Canellakis dirigeert Beethoven bij Radio Filharmonisch Orkest | NPO Radio 4",
-      "VideoOwnerChannelId": "UC52Ddf8E5GaGZBevLUM7PHw",
-      "VideoOwnerChannelTitle": "NPO Klassiek"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "DZNniqE9r80",
       "VideoPublishedAtRaw": "2019-10-21T09:55:57Z",
       "VideoPublishedAtDateTimeOffset": "2019-10-21T09:55:57+00:00",
       "VideoPublishedAt": "2019-10-21T15:25:57+05:30"
     },
-    "ETag": "wiCsc06lFfgqmB6yHSGhr1c3pCE",
+    "ETag": "2da6Fh4Tg3NMHPYwK36zC0uL6Bc",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC41Mzk2QTAxMTkzNDk4MDhF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1629,7 +1574,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "NTR ZaterdagMatinee - 12 oktober 2019 - Inauguratieconcert Karina Canellakis\n\nRadio Filharmonisch Orkest\nKarina Canellakis, dirigent\nBaiba Skride, viool\n\nBeethoven - Ouverture Egmont\nCurrier - Aether (Nederlandse premi\u00E8re)\nSjostakovitsj - Tiende symfonie\n\n\uD83C\uDFBB Abonneer op dit kanaal: https://www.youtube.com/nporadio4 \n\n----------\n\n\uD83C\uDFBC Ontdek meer van NPO Radio 4 op onze website, socials en app!\n\u25BA Website: https://www.nporadio4.nl\n\u25BA Instagram: https://www.instagram.com/nporadio4\n\u25BA Facebook: https://www.facebook.com/nporadio4\n\u25BA App iOS: https://itunes.apple.com/nl/app/npo-radio-4-klassieke-muziek/id356569274?mt=8\n\u25BA https://play.google.com/store/apps/details?id=nl.omroep.npo.radio4\u0026hl=nl\n\n----------\n\n\uD83C\uDFB6 Afspeellijsten:\n\u25BA Hollandse Helden: https://www.youtube.com/playlist?list=PL1NDo43jPBgvoKgOj3rPCHUMrdAHrJu15\n\u25BA De Klassieken: https://www.youtube.com/playlist?list=PLB59421E67A49A8B0\n\u25BA De Hart en Ziel Lijst: https://www.youtube.com/playlist?list=PL1NDo43jPBgsd5DYYSNT0cgSVFiVKDKDr\n\u25BA Ontspanning: https://www.youtube.com/playlist?list=PL1NDo43jPBgu1d8EJGvfb-DMQpp-H1x5C\n\u25BA  Mooie animaties: https://www.youtube.com/playlist?list=PL1NDo43jPBgtTvmJytoNFwpz0ZFWdQsOg\n\n#NPORadio4 #Radio4 #Klassiek",
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
-      "Position": 30,
+      "Position": 29,
       "PublishedAtRaw": "2025-05-27T18:01:24Z",
       "PublishedAtDateTimeOffset": "2025-05-27T18:01:24+00:00",
       "PublishedAt": "2025-05-27T23:31:24+05:30",
@@ -1667,6 +1612,61 @@
       "Title": "Karina Canellakis dirigeert het Radio Filharmonisch Orkest - NTR ZaterdagMatinee 12 oktober 2019",
       "VideoOwnerChannelId": "UC52Ddf8E5GaGZBevLUM7PHw",
       "VideoOwnerChannelTitle": "NPO Klassiek"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DvGlY6kl-gQ",
+      "VideoPublishedAtRaw": "2024-01-02T13:08:25Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-02T13:08:25+00:00",
+      "VideoPublishedAt": "2024-01-02T18:38:25+05:30"
+    },
+    "ETag": "UvAasXCc0XdGsXnEy-1T44kIZwQ",
+    "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC40QzRDOEU0QUYwNUIxN0M1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wagemans: Requiem\nAroetjoenjan: Violin Concert\nBart\u00F3k: Divertimento\n\nViolinist: Sergey Khachatryan \nRadio Filharmonisch Orkest",
+      "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
+      "Position": 30,
+      "PublishedAtRaw": "2025-05-27T18:15:49Z",
+      "PublishedAtDateTimeOffset": "2025-05-27T18:15:49+00:00",
+      "PublishedAt": "2025-05-27T23:45:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DvGlY6kl-gQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DvGlY6kl-gQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Karina Canellakis conducts Wagemans, Aroetjoenjan and Bart\u00F3k",
+      "VideoOwnerChannelId": "UCfHjmqqrDgHVJhFEiNqs0cQ",
+      "VideoOwnerChannelTitle": "Women Conductors"
     }
   },
   {
@@ -1781,7 +1781,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-07-21T12:00:34+00:00",
       "VideoPublishedAt": "2026-07-21T17:30:34+05:30"
     },
-    "ETag": "ujc2zzp77UAdiCiM7i02dB0NFoY",
+    "ETag": "gM8OO2mThqTPA_yDODkYMB8sTTA",
     "Id": "UEwxemdOQ29XdF83YkstSHo1OF92QnZQWUpCT2hyejFFZC42Qzk5MkEzQjVFQjYwRDA4",
     "Kind": "youtube#playlistItem",
     "Snippet": {

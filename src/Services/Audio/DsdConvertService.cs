@@ -22,8 +22,11 @@ public sealed class DsdConvertService(
 	{
 		try
 		{
-			Telemetry.Debug("DsdConvert.ProbeStart file={File} size={Size}MB",
-				Path.GetFileName(dffFilePath), new FileInfo(dffFilePath).Length / 1_048_576.0);
+			Telemetry.Debug(
+				"DsdConvert.ProbeStart file={File} size={Size}MB",
+				Path.GetFileName(dffFilePath),
+				new FileInfo(dffFilePath).Length / 1_048_576.0
+			);
 
 			ct.ThrowIfCancellationRequested();
 			await using var stream = File.OpenRead(dffFilePath);
@@ -59,13 +62,16 @@ public sealed class DsdConvertService(
 
 							if (subId == "FS  ")
 							{
-								sampleRate = (int)BinaryPrimitives.ReadUInt32BigEndian(reader.ReadBytes(4));
+								sampleRate = (int)
+									BinaryPrimitives.ReadUInt32BigEndian(reader.ReadBytes(4));
 								if (subSize > 4)
 									reader.ReadBytes((int)subSize - 4);
 							}
 							else if (subId == "CHNL")
 							{
-								channels = BinaryPrimitives.ReadUInt16BigEndian(reader.ReadBytes(2));
+								channels = BinaryPrimitives.ReadUInt16BigEndian(
+									reader.ReadBytes(2)
+								);
 								if (subSize > 2)
 									reader.ReadBytes((int)subSize - 2);
 							}
@@ -96,10 +102,17 @@ public sealed class DsdConvertService(
 			}
 
 			if (sampleRate == 0 || channels == 0)
-				return Errors.Audio.ProbeFailed(dffFilePath, "Could not parse FS or CHNL chunks from DFF header");
+				return Errors.Audio.ProbeFailed(
+					dffFilePath,
+					"Could not parse FS or CHNL chunks from DFF header"
+				);
 
-			Telemetry.Debug("DsdConvert.ProbeComplete file={File} rate={Rate} channels={Channels}",
-				Path.GetFileName(dffFilePath), sampleRate, channels);
+			Telemetry.Debug(
+				"DsdConvert.ProbeComplete file={File} rate={Rate} channels={Channels}",
+				Path.GetFileName(dffFilePath),
+				sampleRate,
+				channels
+			);
 
 			return new DsdProbeResult(dffFilePath, "dsd", sampleRate, channels);
 		}
@@ -122,7 +135,13 @@ public sealed class DsdConvertService(
 		try
 		{
 			var convertResult = await saracon.ConvertDsdToPcmAsync(
-				dffFilePath, tempDir, ProbeSampleRate, ProbeBitDepth, 0.0, null, ct
+				dffFilePath,
+				tempDir,
+				ProbeSampleRate,
+				ProbeBitDepth,
+				0.0,
+				null,
+				ct
 			);
 			if (convertResult.IsError)
 				return convertResult.Errors;
@@ -134,8 +153,12 @@ public sealed class DsdConvertService(
 			var gain = TargetHeadroomDb - peakResult.Value;
 			var finalGain = Math.Min(gain, 6.0);
 
-			Telemetry.Debug("DsdConvert.GainCalcComplete file={File} peak={Peak}dB gain={Gain}dB",
-				Path.GetFileName(dffFilePath), peakResult.Value, finalGain);
+			Telemetry.Debug(
+				"DsdConvert.GainCalcComplete file={File} peak={Peak}dB gain={Gain}dB",
+				Path.GetFileName(dffFilePath),
+				peakResult.Value,
+				finalGain
+			);
 
 			return finalGain;
 		}
@@ -155,7 +178,13 @@ public sealed class DsdConvertService(
 	)
 	{
 		var masterResult = await saracon.ConvertDsdToPcmAsync(
-			dffFile, outputDir, settings.SampleRate, settings.BitDepth, settings.GainDb, null, ct
+			dffFile,
+			outputDir,
+			settings.SampleRate,
+			settings.BitDepth,
+			settings.GainDb,
+			null,
+			ct
 		);
 		if (masterResult.IsError)
 			return masterResult.Errors;
@@ -171,7 +200,11 @@ public sealed class DsdConvertService(
 			var outputFlac = Path.Combine(outputDir, $"{trackNum}. {safeTitle}.flac");
 
 			var splitResult = await sox.SplitTrackAsync(
-				masterPcm, outputFlac, track.StartTime, track.Duration, ct
+				masterPcm,
+				outputFlac,
+				track.StartTime,
+				track.Duration,
+				ct
 			);
 
 			if (splitResult.IsError)
@@ -212,7 +245,13 @@ public sealed class DsdConvertService(
 		try
 		{
 			var convertResult = await saracon.ConvertDsdToFlacAsync(
-				inputDff, tempDir, settings.SampleRate, settings.BitDepth, settings.GainDb, null, ct
+				inputDff,
+				tempDir,
+				settings.SampleRate,
+				settings.BitDepth,
+				settings.GainDb,
+				null,
+				ct
 			);
 			if (convertResult.IsError)
 				return convertResult.Errors;

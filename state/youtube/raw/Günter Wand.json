@@ -571,7 +571,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-02-28T14:49:30+00:00",
       "VideoPublishedAt": "2020-02-28T20:19:30+05:30"
     },
-    "ETag": "NiSqLyHXtksD3wx3xmcro4gTh68",
+    "ETag": "9eKUh-is8P4qmdNOHCmwKOVQRQ0",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC43MTI1NDIwOTMwQjIxMzNG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -626,7 +626,7 @@
       "VideoPublishedAtDateTimeOffset": "2026-04-23T10:10:53+00:00",
       "VideoPublishedAt": "2026-04-23T15:40:53+05:30"
     },
-    "ETag": "rE1miVjsdZMfZnVWjMIsNAiCEFs",
+    "ETag": "HTrCG41l58hozccFW5wIu5U7_iE",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC5BRjJDODk5REM0NjkzMUIy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -676,12 +676,112 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "SLE15Y6lNVw",
+      "VideoPublishedAtRaw": "2026-07-22T12:43:27Z",
+      "VideoPublishedAtDateTimeOffset": "2026-07-22T12:43:27+00:00",
+      "VideoPublishedAt": "2026-07-22T18:13:27+05:30"
+    },
+    "ETag": "RgaqNCy0RGxCwFqW83j4TBfUbIY",
+    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4xOTEzQzhBQzU3MDNDNjcz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Bruckner: Symphony No.8\n1st movement   00:00\n2nd    16:20\n3rd     31:43\n4th     59:16\nGunter Want / NDR Symphony orchestra\n3/11/1990 Tokyo, Suntory Hall live recording\n\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\n\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u6307\u63EE\u3000NDR\u4EA4\u97FF\u697D\u56E3\n1990\u5E7411\u67083\u65E5\u3000\u6771\u4EAC\u3001\u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u7D76\u8CDB\u3092\u6D74\u3073\u305F\u4F1D\u8AAC\u7684\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\u3002",
+      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
+      "Position": 13,
+      "PublishedAtRaw": "2026-07-22T20:45:56Z",
+      "PublishedAtDateTimeOffset": "2026-07-22T20:45:56+00:00",
+      "PublishedAt": "2026-07-23T02:15:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "SLE15Y6lNVw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/SLE15Y6lNVw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/SLE15Y6lNVw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/SLE15Y6lNVw/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Bruckner: Symphony No 8 G. Wand / NDR SO live in Tokyo 1990",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nofbuFuZBho",
+      "VideoPublishedAtRaw": "2024-11-01T07:30:14Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-01T07:30:14+00:00",
+      "VideoPublishedAt": "2024-11-01T13:00:14+05:30"
+    },
+    "ETag": "_3s45751yJa74pT3-wgpkcTTaXM",
+    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton Bruckner: Symphony No. 9 d-Moll WAB 109\nNDR Sinfonieorchester (NDR Elbphilharmonie Orchester)\nG\u00FCnter Wand\n13. Nov. 2000\nTokyo Opera City Concert Hall\n\n\u30A2\u30F3\u30C8\u30F3\u30FB\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u3000\u4E8C\u77ED\u8ABF\n\u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\n2000\u5E7411\u670813\u65E5\u3001\u6771\u4EAC\u30AA\u30DA\u30E9\u30B7\u30C6\u30A3\u30FB\u30B3\u30F3\u30B5\u30FC\u30C8\u30DB\u30FC\u30EB\n\n00:48    I.  Feierlich, misterioso\n28:19   II.  Scherzo. Bewegt, lebhaft \u2013 Trio. Schnell\n39:39  III.  Adagio. Langsam, feierlich\n\n#bruckner #\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC",
+      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
+      "Position": 14,
+      "PublishedAtRaw": "2025-01-25T04:25:42Z",
+      "PublishedAtDateTimeOffset": "2025-01-25T04:25:42+00:00",
+      "PublishedAt": "2025-01-25T09:55:42+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nofbuFuZBho"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner: Symphony No 9 G\u00FCnter Wand /NDR Sinfonieorchester /Tokyo Live \u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A \u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8 \u6771\u4EAC\u516C\u6F14",
+      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
+      "VideoOwnerChannelTitle": "SPT"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "mkREVobsknQ",
       "VideoPublishedAtRaw": "2021-12-10T15:01:40Z",
       "VideoPublishedAtDateTimeOffset": "2021-12-10T15:01:40+00:00",
       "VideoPublishedAt": "2021-12-10T20:31:40+05:30"
     },
-    "ETag": "VtaF1GTahRO6r-GlKP3lDiC5iio",
+    "ETag": "1BK6WjwJ_Zb8Dis2DK2vory3d28",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC40NzZCMERDMjVEN0RFRThB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -689,7 +789,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "G\u00FCnter Wand dirigiert Bruckners Sinfonie Nr. 5 - ein Konzert mit dem damaligen NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) 1986 in Braunschweig.\n\nANTON BRUCKNER\nSinfonie Nr. 5 B-Dur  00:00\nI. Introduktion: Adagio - Allegro  00:03\nII. Adagio: Sehr langsam  20:50\nIII. Scherzo: Molto vivace (schnell) - Trio: Im gleichen Tempo  36:33\nIV. Finale: Adagio - Allegro moderato  50:17 \n\nG\u00FCnter Wand, Dirigent\nNDR Sinfonieorchester\n\nKonzertmitschnitt vom 25. September 1986 aus der Stadthalle Braunschweig\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #g\u00FCnterwand #bruckner",
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 13,
+      "Position": 15,
       "PublishedAtRaw": "2025-01-25T04:28:34Z",
       "PublishedAtDateTimeOffset": "2025-01-25T04:28:34+00:00",
       "PublishedAt": "2025-01-25T09:58:34+05:30",
@@ -731,7 +831,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-01-07T09:50:33+00:00",
       "VideoPublishedAt": "2022-01-07T15:20:33+05:30"
     },
-    "ETag": "CIGp0gdwm-jix_XnHjXGCJp6xuA",
+    "ETag": "TEhdAU5pc1vjaLiqli1S6f7bD9M",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC45NDk1REZENzhEMzU5MDQz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -739,7 +839,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Tribut zum 110. Geburtstag unseres Ehrendirigenten: G\u00FCnter Wand und das NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) er\u00F6ffnen im Dom zu L\u00FCbeck mit Anton Bruckners Neunter Sinfonie im Jahr 1988 das Schleswig-Holstein Musik Festival. \n\nANTON BRUCKNER\nSinfonie Nr. 9 d-Moll  00:00\nI. Feierlich. Misterioso  00:02\nII. Scherzo. Bewegt, lebhaft - Trio. Schnell  26:25\nIII. Adagio. Langsam, feierlich  37:51\n\nG\u00FCnter Wand, Dirigent  \nNDR Sinfonieorchester       \n\nEine Aufzeichnung vom 26. Juni 1988, Dom zu L\u00FCbeck\n\nMehr von G\u00FCnter Wand: https://www.ndr.de/orchester_chor/elbphilharmonieorchester/wand260.html\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #guenterwand #antonbruckner",
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 14,
+      "Position": 16,
       "PublishedAtRaw": "2025-01-25T04:28:21Z",
       "PublishedAtDateTimeOffset": "2025-01-25T04:28:21+00:00",
       "PublishedAt": "2025-01-25T09:58:21+05:30",
@@ -781,7 +881,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-02-14T09:41:11+00:00",
       "VideoPublishedAt": "2022-02-14T15:11:11+05:30"
     },
-    "ETag": "2OMKcHEoWBHpY4GOjK1pFJqRlY8",
+    "ETag": "sVzHjU7jdeRhcTBxtZ79Pk2-6Mk",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4xMkVGQjNCMUM1N0RFNEUx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -789,7 +889,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Heute vor 20 Jahren starb unser Ehrendirigent, der gro\u00DFe Musiker G\u00FCnter Wand. Ihm zu Ehren ver\u00F6ffentlichen wir heute den Konzertmitschnitt von der Er\u00F6ffnung des Schleswig-Holstein Musik Festivals 2001 neu. Es spielt das NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester).\n\nANTON BRUCKNER\nSinfonie Nr. 9 d-Moll 00:00  \nI. Feierlich. Misterioso  00:04\nII. Scherzo. Bewegt, lebhaft - Trio. Schnell  27:44 \nIII. Adagio. Langsam, feierlich  39:07\n\nNDR Sinfonieorchester\nG\u00FCnter Wand, Dirigent\nSchleswig-Holstein Musik Festival, L\u00FCbeck 2001\n\nMehr von G\u00FCnter Wand:\nhttps://www.ndr.de/orchester_chor/elbphilharmonieorchester/wand260.html\nhttps://www.ndr.de/kultur/wand292.html\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/\nInstagram: https://www.instagram.com/ndr.eo/",
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 15,
+      "Position": 17,
       "PublishedAtRaw": "2025-01-25T04:27:52Z",
       "PublishedAtDateTimeOffset": "2025-01-25T04:27:52+00:00",
       "PublishedAt": "2025-01-25T09:57:52+05:30",
@@ -822,106 +922,6 @@
       "Title": "Bruckner: Sinfonie Nr. 9 mit G\u00FCnter Wand (2001)  | NDR Elbphilharmonie Orchester",
       "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
       "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "SLE15Y6lNVw",
-      "VideoPublishedAtRaw": "2026-07-22T12:43:27Z",
-      "VideoPublishedAtDateTimeOffset": "2026-07-22T12:43:27+00:00",
-      "VideoPublishedAt": "2026-07-22T18:13:27+05:30"
-    },
-    "ETag": "KhwIhbsFwCZDRczQVup5my9nkBk",
-    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4xOTEzQzhBQzU3MDNDNjcz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Bruckner: Symphony No.8\n1st movement   00:00\n2nd    16:20\n3rd     31:43\n4th     59:16\nGunter Want / NDR Symphony orchestra\n3/11/1990 Tokyo, Suntory Hall live recording\n\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\n\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u6307\u63EE\u3000NDR\u4EA4\u97FF\u697D\u56E3\n1990\u5E7411\u67083\u65E5\u3000\u6771\u4EAC\u3001\u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u7D76\u8CDB\u3092\u6D74\u3073\u305F\u4F1D\u8AAC\u7684\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\u3002",
-      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 16,
-      "PublishedAtRaw": "2026-07-22T20:45:56Z",
-      "PublishedAtDateTimeOffset": "2026-07-22T20:45:56+00:00",
-      "PublishedAt": "2026-07-23T02:15:56+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "SLE15Y6lNVw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/SLE15Y6lNVw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/SLE15Y6lNVw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/SLE15Y6lNVw/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Bruckner: Symphony No 8 G. Wand / NDR SO live in Tokyo 1990",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "nofbuFuZBho",
-      "VideoPublishedAtRaw": "2024-11-01T07:30:14Z",
-      "VideoPublishedAtDateTimeOffset": "2024-11-01T07:30:14+00:00",
-      "VideoPublishedAt": "2024-11-01T13:00:14+05:30"
-    },
-    "ETag": "CyXw9YACIBkdpVx8AkBuckZJDOA",
-    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Anton Bruckner: Symphony No. 9 d-Moll WAB 109\nNDR Sinfonieorchester (NDR Elbphilharmonie Orchester)\nG\u00FCnter Wand\n13. Nov. 2000\nTokyo Opera City Concert Hall\n\n\u30A2\u30F3\u30C8\u30F3\u30FB\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u3000\u4E8C\u77ED\u8ABF\n\u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\n2000\u5E7411\u670813\u65E5\u3001\u6771\u4EAC\u30AA\u30DA\u30E9\u30B7\u30C6\u30A3\u30FB\u30B3\u30F3\u30B5\u30FC\u30C8\u30DB\u30FC\u30EB\n\n00:48    I.  Feierlich, misterioso\n28:19   II.  Scherzo. Bewegt, lebhaft \u2013 Trio. Schnell\n39:39  III.  Adagio. Langsam, feierlich\n\n#bruckner #\u30D6\u30EB\u30C3\u30AF\u30CA\u30FC",
-      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 17,
-      "PublishedAtRaw": "2025-01-25T04:25:42Z",
-      "PublishedAtDateTimeOffset": "2025-01-25T04:25:42+00:00",
-      "PublishedAt": "2025-01-25T09:55:42+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "nofbuFuZBho"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/nofbuFuZBho/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Bruckner: Symphony No 9 G\u00FCnter Wand /NDR Sinfonieorchester /Tokyo Live \u30D6\u30EB\u30C3\u30AF\u30CA\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A \u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8 \u6771\u4EAC\u516C\u6F14",
-      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
-      "VideoOwnerChannelTitle": "SPT"
     }
   },
   {
@@ -1081,7 +1081,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-02-14T05:06:01+00:00",
       "VideoPublishedAt": "2021-02-14T10:36:01+05:30"
     },
-    "ETag": "5UYROfOTjTtt_j_d4y59PydcllM",
+    "ETag": "I2y3eh0s9QFl93KL0xUh_dxKxM4",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4zRjM0MkVCRTg0MkYyQTM0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1426,12 +1426,62 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "-WzPwiuEB3Q",
+      "VideoPublishedAtRaw": "2021-11-20T20:00:00Z",
+      "VideoPublishedAtDateTimeOffset": "2021-11-20T20:00:00+00:00",
+      "VideoPublishedAt": "2021-11-21T01:30:00+05:30"
+    },
+    "ETag": "jKAi-Hz5cXxS3WCK1-LuAkeUt_c",
+    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u6307\u63EE  \u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\nG\u00FCnter Wand / NDR-Sinfonieorchester  6-8 March.1994\nMozart : Symphony No.40 in G minor, K.550\n1. Molto allegro  8:17 (00:03)\n2. Andante  8:29 (08:22)\n3. Menuetto. Allegretto  3:33 (16:52)\n4. Allegro assai  4:57 (20:25)",
+      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
+      "Position": 28,
+      "PublishedAtRaw": "2025-01-25T04:28:55Z",
+      "PublishedAtDateTimeOffset": "2025-01-25T04:28:55+00:00",
+      "PublishedAt": "2025-01-25T09:58:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-WzPwiuEB3Q"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2 \u7B2C40\u756A \u30C8\u77ED\u8ABF K.550 \u30F4\u30A1\u30F3\u30C8 1994",
+      "VideoOwnerChannelId": "UCTKDQOGeJg7lnGhxWG_Z5Kg",
+      "VideoOwnerChannelTitle": "QUEEN CURE MARINESNOW"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "XcsDuvphx_c",
       "VideoPublishedAtRaw": "2016-03-08T14:04:22Z",
       "VideoPublishedAtDateTimeOffset": "2016-03-08T14:04:22+00:00",
       "VideoPublishedAt": "2016-03-08T19:34:22+05:30"
     },
-    "ETag": "yRUjjVAVVUJWfvT71M41M0d8rYs",
+    "ETag": "2d3goW-FZim04BRd6-evXGv-QME",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC41QUZGQTY5OTE4QTREQUU4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1439,7 +1489,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Das NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) spielte Wolfgang Amadeus Mozarts Sinfonie Nr. 40 g-Moll KV 550  am 17. Dezember 1990 unter Leitung seines damaligen Chefdirigenten G\u00FCnter Wand.\n\nWOLFGANG AMADEUS MOZART\nSinfonie Nr. 40 g-Moll KV 550\n\nG\u00FCnter Wand, Dirigent\nNDR Sinfonieorchester\n\nhttp://www.ndr.de/sinfonieorchester",
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 28,
+      "Position": 29,
       "PublishedAtRaw": "2025-01-25T04:32:57Z",
       "PublishedAtDateTimeOffset": "2025-01-25T04:32:57+00:00",
       "PublishedAt": "2025-01-25T10:02:57+05:30",
@@ -1476,12 +1526,62 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "tyT6pucc23g",
+      "VideoPublishedAtRaw": "2021-11-21T20:00:10Z",
+      "VideoPublishedAtDateTimeOffset": "2021-11-21T20:00:10+00:00",
+      "VideoPublishedAt": "2021-11-22T01:30:10+05:30"
+    },
+    "ETag": "Z2qSetuj8ydsHeSoLRQnFh5wLmQ",
+    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u6307\u63EE  \u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\nG\u00FCnter Wand / NDR-Sinfonieorchester  6-8 May.1990\nMozart : Symphony No.41 in C major, K.551 \u0022Jupiter\u0022\n1. Allegro vivace  8:35 (00:03)\n2. Andante cantabile  8:42 (08:40)\n3. Menuetto. Allegretto  5:21 (17:23)\n4. Molto allegro  6:14 (22:48)",
+      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
+      "Position": 30,
+      "PublishedAtRaw": "2025-01-25T04:29:01Z",
+      "PublishedAtDateTimeOffset": "2025-01-25T04:29:01+00:00",
+      "PublishedAt": "2025-01-25T09:59:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "tyT6pucc23g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2 \u7B2C41\u756A \u30CF\u9577\u8ABF K.551\u300A\u30B8\u30E5\u30D4\u30BF\u30FC\u300B\u30F4\u30A1\u30F3\u30C8 1990",
+      "VideoOwnerChannelId": "UCTKDQOGeJg7lnGhxWG_Z5Kg",
+      "VideoOwnerChannelTitle": "QUEEN CURE MARINESNOW"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "UAfq9GSgBmo",
       "VideoPublishedAtRaw": "2024-08-13T10:39:10Z",
       "VideoPublishedAtDateTimeOffset": "2024-08-13T10:39:10+00:00",
       "VideoPublishedAt": "2024-08-13T16:09:10+05:30"
     },
-    "ETag": "67dP0xLoIQfnSh8k_071HrAkGW0",
+    "ETag": "S6tLB5aS7Jmjob_tcUiDveC1Dis",
     "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4wMTcyMDhGQUE4NTIzM0Y5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1489,7 +1589,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Pjotr Tschaikowsky: Piano Concerto No. 1 op. 23\nJorge Bolet\nNDR-Sinfonieorchester\nG\u00FCnter Wand\n14 January 1985, Laeiszhalle, Hamburg\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 29,
+      "Position": 31,
       "PublishedAtRaw": "2025-01-25T04:25:56Z",
       "PublishedAtDateTimeOffset": "2025-01-25T04:25:56+00:00",
       "PublishedAt": "2025-01-25T09:55:56+05:30",
@@ -1527,111 +1627,6 @@
       "Title": "Pjotr Tschaikowsky: Piano Concerto No. 1 op. 23 -- Jorge Bolet, G\u00FCnter Wand (Hamburg 1985)",
       "VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
       "VideoOwnerChannelTitle": "Quality Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "xSvFF6Vg9X4",
-      "VideoPublishedAtRaw": "2022-01-31T08:50:10Z",
-      "VideoPublishedAtDateTimeOffset": "2022-01-31T08:50:10+00:00",
-      "VideoPublishedAt": "2022-01-31T14:20:10+05:30"
-    },
-    "ETag": "XKbZX9qgSXvC8M53V3cJOLFBI90",
-    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "G\u00FCnter Wand dirigiert Franz Schuberts wohl bekannteste Sinfonie, seine \u0022Unvollendete\u0022. Das damalige NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) er\u00F6ffnet mit dem Werk das Schleswig-Holstein Musik Festival im Jahr 1988. Eine Konzertaufzeichnung aus dem Dom zu L\u00FCbeck.\n\nFRANZ SCHUBERT\nSinfonie Nr. 7 h-Moll D 759 \u0022Unvollendete\u0022  00:00\nI. Allegro moderato  0:03\nII. Andante con moto  15:00\n\nNDR Sinfonieorchester\nG\u00FCnter Wand, Dirigent\nEr\u00F6ffnungskonzert des Schleswig-Holstein Musik Festival, 26. Juni 1988, Dom zu L\u00FCbeck\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo/\n\n#ndrelbphilharmonieorchester #guenterwand #franzschubert",
-      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 30,
-      "PublishedAtRaw": "2025-01-25T04:27:58Z",
-      "PublishedAtDateTimeOffset": "2025-01-25T04:27:58+00:00",
-      "PublishedAt": "2025-01-25T09:57:58+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "xSvFF6Vg9X4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schubert: \u0022Unvollendete\u0022 mit G\u00FCnter Wand (1988) | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "PTw5DjzP4JM",
-      "VideoPublishedAtRaw": "2024-11-02T00:00:15Z",
-      "VideoPublishedAtDateTimeOffset": "2024-11-02T00:00:15+00:00",
-      "VideoPublishedAt": "2024-11-02T05:30:15+05:30"
-    },
-    "ETag": "HlEovrOSitHb-F-jE04wMHveIoI",
-    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Franz Schubert: Symphonie Nr. 8 in h Moll, D759 \u201CDie Unvollendete (Unfinished)\u201D \nNDR Sinfonieorchester (NDR Elbphilharmonie Orchester)\nG\u00FCnter Wand\n13. Nov. 2000\nTokyo Opera City Concert Hall\n\n\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u30ED\u77ED\u8ABF D.759\u300C\u672A\u5B8C\u6210\u300D\n\u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\n2000\u5E7411\u670813\u65E5\u3001\u6771\u4EAC\u30AA\u30DA\u30E9\u30B7\u30C6\u30A3\u30FB\u30B3\u30F3\u30B5\u30FC\u30C8\u30DB\u30FC\u30EB\n\n00:50    I. Allegro moderato\n17:20   II. Andante con moto\n\n#schubert #\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8",
-      "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
-      "Position": 31,
-      "PublishedAtRaw": "2025-01-25T04:25:37Z",
-      "PublishedAtDateTimeOffset": "2025-01-25T04:25:37+00:00",
-      "PublishedAt": "2025-01-25T09:55:37+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "PTw5DjzP4JM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schubert: Symphony No. 8 Unfinished /G\u00FCnter Wand /Tokyo Live \u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u300C\u672A\u5B8C\u6210\u300D\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u3000\u6771\u4EAC\u516C\u6F14",
-      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
-      "VideoOwnerChannelTitle": "SPT"
     }
   },
   {
@@ -1686,102 +1681,107 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "-WzPwiuEB3Q",
-      "VideoPublishedAtRaw": "2021-11-20T20:00:00Z",
-      "VideoPublishedAtDateTimeOffset": "2021-11-20T20:00:00+00:00",
-      "VideoPublishedAt": "2021-11-21T01:30:00+05:30"
+      "VideoId": "xSvFF6Vg9X4",
+      "VideoPublishedAtRaw": "2022-01-31T08:50:10Z",
+      "VideoPublishedAtDateTimeOffset": "2022-01-31T08:50:10+00:00",
+      "VideoPublishedAt": "2022-01-31T14:20:10+05:30"
     },
-    "ETag": "8QQSegszTkVEZe8SvBe1hMODixc",
-    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC45ODRDNTg0QjA4NkFBNkQy",
+    "ETag": "ZxIB6Mr-mbvXKPhZ7B2mV3vgFus",
+    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC41MzJCQjBCNDIyRkJDN0VD",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u6307\u63EE  \u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\nG\u00FCnter Wand / NDR-Sinfonieorchester  6-8 March.1994\nMozart : Symphony No.40 in G minor, K.550\n1. Molto allegro  8:17 (00:03)\n2. Andante  8:29 (08:22)\n3. Menuetto. Allegretto  3:33 (16:52)\n4. Allegro assai  4:57 (20:25)",
+      "Description": "G\u00FCnter Wand dirigiert Franz Schuberts wohl bekannteste Sinfonie, seine \u0022Unvollendete\u0022. Das damalige NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) er\u00F6ffnet mit dem Werk das Schleswig-Holstein Musik Festival im Jahr 1988. Eine Konzertaufzeichnung aus dem Dom zu L\u00FCbeck.\n\nFRANZ SCHUBERT\nSinfonie Nr. 7 h-Moll D 759 \u0022Unvollendete\u0022  00:00\nI. Allegro moderato  0:03\nII. Andante con moto  15:00\n\nNDR Sinfonieorchester\nG\u00FCnter Wand, Dirigent\nEr\u00F6ffnungskonzert des Schleswig-Holstein Musik Festival, 26. Juni 1988, Dom zu L\u00FCbeck\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo/\n\n#ndrelbphilharmonieorchester #guenterwand #franzschubert",
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
       "Position": 33,
-      "PublishedAtRaw": "2025-01-25T04:28:55Z",
-      "PublishedAtDateTimeOffset": "2025-01-25T04:28:55+00:00",
-      "PublishedAt": "2025-01-25T09:58:55+05:30",
+      "PublishedAtRaw": "2025-01-25T04:27:58Z",
+      "PublishedAtDateTimeOffset": "2025-01-25T04:27:58+00:00",
+      "PublishedAt": "2025-01-25T09:57:58+05:30",
       "ResourceId": {
         "Kind": "youtube#video",
-        "VideoId": "-WzPwiuEB3Q"
+        "VideoId": "xSvFF6Vg9X4"
       },
       "Thumbnails": {
         "Default__": {
           "Height": 90,
-          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/default.jpg",
+          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/default.jpg",
           "Width": 120
         },
         "High": {
           "Height": 360,
-          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/hqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/hqdefault.jpg",
           "Width": 480
         },
         "Medium": {
           "Height": 180,
-          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/mqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/mqdefault.jpg",
           "Width": 320
         },
         "Standard": {
           "Height": 480,
-          "Url": "https://i.ytimg.com/vi/-WzPwiuEB3Q/sddefault.jpg",
+          "Url": "https://i.ytimg.com/vi/xSvFF6Vg9X4/sddefault.jpg",
           "Width": 640
         }
       },
-      "Title": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2 \u7B2C40\u756A \u30C8\u77ED\u8ABF K.550 \u30F4\u30A1\u30F3\u30C8 1994",
-      "VideoOwnerChannelId": "UCTKDQOGeJg7lnGhxWG_Z5Kg",
-      "VideoOwnerChannelTitle": "QUEEN CURE MARINESNOW"
+      "Title": "Schubert: \u0022Unvollendete\u0022 mit G\u00FCnter Wand (1988) | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
     }
   },
   {
     "ContentDetails": {
-      "VideoId": "tyT6pucc23g",
-      "VideoPublishedAtRaw": "2021-11-21T20:00:10Z",
-      "VideoPublishedAtDateTimeOffset": "2021-11-21T20:00:10+00:00",
-      "VideoPublishedAt": "2021-11-22T01:30:10+05:30"
+      "VideoId": "PTw5DjzP4JM",
+      "VideoPublishedAtRaw": "2024-11-02T00:00:15Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-02T00:00:15+00:00",
+      "VideoPublishedAt": "2024-11-02T05:30:15+05:30"
     },
-    "ETag": "NINDL4RBsc3H0_CdFpCLhS8AfBw",
-    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC4zMDg5MkQ5MEVDMEM1NTg2",
+    "ETag": "EuYTBXht1csAaExNGq3GamtL23o",
+    "Id": "UEwxemdOQ29XdF83YW1KTUxRTjJsOXMxRDZNQTV1bWxqdC41NkI0NEY2RDEwNTU3Q0M2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
       "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
       "ChannelTitle": "Kanishk Nishar",
-      "Description": "\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u6307\u63EE  \u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\nG\u00FCnter Wand / NDR-Sinfonieorchester  6-8 May.1990\nMozart : Symphony No.41 in C major, K.551 \u0022Jupiter\u0022\n1. Allegro vivace  8:35 (00:03)\n2. Andante cantabile  8:42 (08:40)\n3. Menuetto. Allegretto  5:21 (17:23)\n4. Molto allegro  6:14 (22:48)",
+      "Description": "Franz Schubert: Symphonie Nr. 8 in h Moll, D759 \u201CDie Unvollendete (Unfinished)\u201D \nNDR Sinfonieorchester (NDR Elbphilharmonie Orchester)\nG\u00FCnter Wand\n13. Nov. 2000\nTokyo Opera City Concert Hall\n\n\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u30ED\u77ED\u8ABF D.759\u300C\u672A\u5B8C\u6210\u300D\n\u5317\u30C9\u30A4\u30C4\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\n2000\u5E7411\u670813\u65E5\u3001\u6771\u4EAC\u30AA\u30DA\u30E9\u30B7\u30C6\u30A3\u30FB\u30B3\u30F3\u30B5\u30FC\u30C8\u30DB\u30FC\u30EB\n\n00:50    I. Allegro moderato\n17:20   II. Andante con moto\n\n#schubert #\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8",
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
       "Position": 34,
-      "PublishedAtRaw": "2025-01-25T04:29:01Z",
-      "PublishedAtDateTimeOffset": "2025-01-25T04:29:01+00:00",
-      "PublishedAt": "2025-01-25T09:59:01+05:30",
+      "PublishedAtRaw": "2025-01-25T04:25:37Z",
+      "PublishedAtDateTimeOffset": "2025-01-25T04:25:37+00:00",
+      "PublishedAt": "2025-01-25T09:55:37+05:30",
       "ResourceId": {
         "Kind": "youtube#video",
-        "VideoId": "tyT6pucc23g"
+        "VideoId": "PTw5DjzP4JM"
       },
       "Thumbnails": {
         "Default__": {
           "Height": 90,
-          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/default.jpg",
+          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/default.jpg",
           "Width": 120
         },
         "High": {
           "Height": 360,
-          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/hqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/hqdefault.jpg",
           "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/maxresdefault.jpg",
+          "Width": 1280
         },
         "Medium": {
           "Height": 180,
-          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/mqdefault.jpg",
+          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/mqdefault.jpg",
           "Width": 320
         },
         "Standard": {
           "Height": 480,
-          "Url": "https://i.ytimg.com/vi/tyT6pucc23g/sddefault.jpg",
+          "Url": "https://i.ytimg.com/vi/PTw5DjzP4JM/sddefault.jpg",
           "Width": 640
         }
       },
-      "Title": "\u30E2\u30FC\u30C4\u30A1\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2 \u7B2C41\u756A \u30CF\u9577\u8ABF K.551\u300A\u30B8\u30E5\u30D4\u30BF\u30FC\u300B\u30F4\u30A1\u30F3\u30C8 1990",
-      "VideoOwnerChannelId": "UCTKDQOGeJg7lnGhxWG_Z5Kg",
-      "VideoOwnerChannelTitle": "QUEEN CURE MARINESNOW"
+      "Title": "Schubert: Symphony No. 8 Unfinished /G\u00FCnter Wand /Tokyo Live \u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u300C\u672A\u5B8C\u6210\u300D\u30AE\u30E5\u30F3\u30BF\u30FC\u30FB\u30F4\u30A1\u30F3\u30C8\u3000\u6771\u4EAC\u516C\u6F14",
+      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
+      "VideoOwnerChannelTitle": "SPT"
     }
   }
 ]

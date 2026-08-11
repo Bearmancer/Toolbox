@@ -53,16 +53,24 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		var match = PeakLevelPattern.Match(output);
 		if (!match.Success)
 		{
-			Telemetry.Warn("Sox.StatsParseFailed file={File} stdoutLen={StdoutLen} stderrLen={StderrLen} output={Output}",
-				Path.GetFileName(filePath), result.Value.Stdout.Length, result.Value.Stderr.Length,
-				output[..Math.Min(output.Length, 500)]);
+			Telemetry.Warn(
+				"Sox.StatsParseFailed file={File} stdoutLen={StdoutLen} stderrLen={StderrLen} output={Output}",
+				Path.GetFileName(filePath),
+				result.Value.Stdout.Length,
+				result.Value.Stderr.Length,
+				output[..Math.Min(output.Length, 500)]
+			);
 			return Errors.Audio.GainDetectionFailed(filePath, "Could not parse sox stats output");
 		}
 
 		var peak = match.Groups[1].Value.Equals("-inf", StringComparison.OrdinalIgnoreCase)
 			? -120.0
 			: double.Parse(match.Groups[1].Value, CultureInfo.InvariantCulture);
-		Telemetry.Debug("Sox.StatsComplete file={File} peak={Peak}dB", Path.GetFileName(filePath), peak);
+		Telemetry.Debug(
+			"Sox.StatsComplete file={File} peak={Peak}dB",
+			Path.GetFileName(filePath),
+			peak
+		);
 
 		return peak;
 	}
@@ -76,11 +84,13 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		if (result.IsError)
 			return result.Errors;
 
-		if (!double.TryParse(
-			result.Value.Stdout.Trim(),
-			CultureInfo.InvariantCulture,
-			out var seconds
-		))
+		if (
+			!double.TryParse(
+				result.Value.Stdout.Trim(),
+				CultureInfo.InvariantCulture,
+				out var seconds
+			)
+		)
 			return Errors.Audio.ProbeFailed(filePath, "Could not parse sox duration output");
 
 		return TimeSpan.FromSeconds(seconds);
@@ -97,9 +107,11 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 			binaryPath,
 			[
 				sourceFlac,
-				"-b", "16",
+				"-b",
+				"16",
 				outputFlac,
-				"rate", "-v",
+				"rate",
+				"-v",
 				targetSampleRate.ToString(CultureInfo.InvariantCulture),
 			],
 			ct

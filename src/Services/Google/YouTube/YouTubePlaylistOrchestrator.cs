@@ -116,9 +116,18 @@ public class YouTubePlaylistOrchestrator(
 
 			changes = changes with
 			{
-				NewPlaylists = [.. changes.NewPlaylists.Where(p => !loserIds.Contains(p.PlaylistId))],
-				ChangedPlaylists = [.. changes.ChangedPlaylists.Where(p => !loserIds.Contains(p.PlaylistId))],
-				DeletedPlaylists = [.. changes.DeletedPlaylists.Where(p => !loserIds.Contains(p.PlaylistId))],
+				NewPlaylists =
+				[
+					.. changes.NewPlaylists.Where(p => !loserIds.Contains(p.PlaylistId)),
+				],
+				ChangedPlaylists =
+				[
+					.. changes.ChangedPlaylists.Where(p => !loserIds.Contains(p.PlaylistId)),
+				],
+				DeletedPlaylists =
+				[
+					.. changes.DeletedPlaylists.Where(p => !loserIds.Contains(p.PlaylistId)),
+				],
 			};
 		}
 
@@ -185,24 +194,24 @@ public class YouTubePlaylistOrchestrator(
 			return [];
 
 		SyncOutcome outcome = outcomeResult.Value;
-		
+
 		var allPlaylistIds = outcome.State.PlaylistSnapshots.Keys.ToList();
 		var processedIds = outcome.Ids.ToHashSet();
-		
+
 		var prioritizedIds = allPlaylistIds
 			.OrderByDescending(id => processedIds.Contains(id))
 			.ThenBy(id => id)
 			.Take(20)
 			.ToList();
-		
+
 		Telemetry.Info(
 			"Sorting {BatchSize}/{Total} playlists (batch mode)",
 			prioritizedIds.Count,
 			allPlaylistIds.Count
 		);
-		
+
 		await syncProcessor.SortPlaylistsAsync(prioritizedIds, outcome.State, ct);
-		
+
 		return outcome.Ids;
 	}
 
@@ -316,11 +325,11 @@ public class YouTubePlaylistOrchestrator(
 			return null;
 
 		SinglePlaylistOutcome outcome = outcomeResult.Value;
-		
+
 		// Always sort, regardless of NewVideoCount
 		if (outcome.Id is { })
 			await syncProcessor.SortPlaylistsAsync([outcome.Id], outcome.State, ct);
-		
+
 		return outcome.Id;
 	}
 

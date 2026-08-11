@@ -24,7 +24,7 @@ public sealed class SpeechSdkEventListener(LogEventLevel logLevel) : IDisposable
 			LogEventLevel.Information => Level.Info,
 			LogEventLevel.Warning => Level.Warning,
 			LogEventLevel.Error or LogEventLevel.Fatal => Level.Error,
-			_ => Level.Warning
+			_ => Level.Warning,
 		};
 		EventLogger.SetLevel(speechLevel);
 		EventLogger.OnMessage += _handler;

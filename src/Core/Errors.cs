@@ -134,7 +134,6 @@ public static class Errors
 		public static Error ProbeFailed(string file, string reason) =>
 			Error.Failure("Audio.ProbeFailed", $"DSD probe failed for {file}: {reason}");
 
-
 		public static Error InsufficientDiskSpace(
 			string path,
 			long requiredBytes,

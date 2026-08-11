@@ -24,8 +24,13 @@ public sealed class ProcessRunner
 			return Errors.Audio.BinaryNotFound(Path.GetFileNameWithoutExtension(binaryPath));
 
 		var binaryName = Path.GetFileNameWithoutExtension(binaryPath);
-		Telemetry.Debug("ProcessRunner.Start binary={Binary} args={Args} workingDir={WorkingDir} timeout={Timeout}",
-			binaryName, string.Join(" ", args.Select(EscapeArg)) ?? string.Empty, workingDir ?? ".", (double?)timeout?.TotalSeconds ?? 0);
+		Telemetry.Debug(
+			"ProcessRunner.Start binary={Binary} args={Args} workingDir={WorkingDir} timeout={Timeout}",
+			binaryName,
+			string.Join(" ", args.Select(EscapeArg)) ?? string.Empty,
+			workingDir ?? ".",
+			(double?)timeout?.TotalSeconds ?? 0
+		);
 
 		var psi = new ProcessStartInfo
 		{
@@ -57,7 +62,10 @@ public sealed class ProcessRunner
 				inactivityCts.CancelAfter(inactivityTimeout.Value);
 			}
 
-			using var linkedCts = CancellationTokenSource.CreateLinkedTokenSource(ct, inactivityCts.Token);
+			using var linkedCts = CancellationTokenSource.CreateLinkedTokenSource(
+				ct,
+				inactivityCts.Token
+			);
 			var linkedToken = linkedCts.Token;
 
 			process.OutputDataReceived += (sender, e) =>
@@ -70,12 +78,19 @@ public sealed class ProcessRunner
 					}
 					stdoutSb.AppendLine(e.Data);
 					onOutputLine?.Invoke(e.Data);
-					
-					if (completionPattern != null && !completionDetected && e.Data.Contains(completionPattern))
+
+					if (
+						completionPattern != null
+						&& !completionDetected
+						&& e.Data.Contains(completionPattern)
+					)
 					{
 						completionDetected = true;
-						Telemetry.Debug("ProcessRunner.CompletionDetected binary={Binary} pattern={Pattern}",
-							binaryName, completionPattern);
+						Telemetry.Debug(
+							"ProcessRunner.CompletionDetected binary={Binary} pattern={Pattern}",
+							binaryName,
+							completionPattern
+						);
 					}
 				}
 			};
@@ -97,7 +112,7 @@ public sealed class ProcessRunner
 			process.BeginErrorReadLine();
 
 			var exitTask = process.WaitForExitAsync(linkedToken);
-			
+
 			if (timeout is { } t)
 			{
 				var timeoutTask = Task.Delay(t, ct);
@@ -106,8 +121,11 @@ public sealed class ProcessRunner
 				{
 					sw.Stop();
 					process.Kill(entireProcessTree: true);
-					Telemetry.Warn("ProcessRunner.Timeout binary={Binary} elapsed={ElapsedMs}ms",
-						binaryName, sw.ElapsedMilliseconds);
+					Telemetry.Warn(
+						"ProcessRunner.Timeout binary={Binary} elapsed={ElapsedMs}ms",
+						binaryName,
+						sw.ElapsedMilliseconds
+					);
 					return Errors.Audio.ProcessFailed(
 						binaryPath,
 						$"Timed out after {t.TotalSeconds}s"
@@ -122,8 +140,12 @@ public sealed class ProcessRunner
 				{
 					sw.Stop();
 					process.Kill(entireProcessTree: true);
-					Telemetry.Info("ProcessRunner.CompletionTimeout binary={Binary} elapsed={ElapsedMs}ms waited={WaitedMs}ms",
-						binaryName, sw.ElapsedMilliseconds, ct2.TotalMilliseconds);
+					Telemetry.Info(
+						"ProcessRunner.CompletionTimeout binary={Binary} elapsed={ElapsedMs}ms waited={WaitedMs}ms",
+						binaryName,
+						sw.ElapsedMilliseconds,
+						ct2.TotalMilliseconds
+					);
 				}
 			}
 			else
@@ -136,8 +158,11 @@ public sealed class ProcessRunner
 				{
 					sw.Stop();
 					process.Kill(entireProcessTree: true);
-					Telemetry.Warn("ProcessRunner.InactivityTimeout binary={Binary} elapsed={ElapsedMs}ms",
-						binaryName, sw.ElapsedMilliseconds);
+					Telemetry.Warn(
+						"ProcessRunner.InactivityTimeout binary={Binary} elapsed={ElapsedMs}ms",
+						binaryName,
+						sw.ElapsedMilliseconds
+					);
 					return Errors.Audio.ProcessFailed(
 						binaryPath,
 						$"Timed out due to inactivity after {inactivityTimeout!.Value.TotalSeconds}s"
@@ -150,26 +175,38 @@ public sealed class ProcessRunner
 			var stdout = stdoutSb.ToString();
 			var stderr = stderrSb.ToString();
 
-			Telemetry.Debug("ProcessRunner.Complete binary={Binary} exitCode={ExitCode} elapsed={ElapsedMs}ms stdoutLen={StdoutLen} stderrLen={StderrLen}",
-				binaryName, process.ExitCode, sw.ElapsedMilliseconds, stdout.Length, stderr.Length);
+			Telemetry.Debug(
+				"ProcessRunner.Complete binary={Binary} exitCode={ExitCode} elapsed={ElapsedMs}ms stdoutLen={StdoutLen} stderrLen={StderrLen}",
+				binaryName,
+				process.ExitCode,
+				sw.ElapsedMilliseconds,
+				stdout.Length,
+				stderr.Length
+			);
 
 			if (stderr.Length > 0)
-				Telemetry.Debug("ProcessRunner.Stderr binary={Binary} stderr={Stderr}",
-					binaryName, stderr[..Math.Min(stderr.Length, 1000)]);
+				Telemetry.Debug(
+					"ProcessRunner.Stderr binary={Binary} stderr={Stderr}",
+					binaryName,
+					stderr[..Math.Min(stderr.Length, 1000)]
+				);
 
 			return new ProcessResult(stdout, stderr, process.ExitCode);
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
 			sw.Stop();
-			Telemetry.Error("ProcessRunner.Failed binary={Binary} elapsed={ElapsedMs}ms error={Error}",
-				binaryName, sw.ElapsedMilliseconds, ex.Message);
+			Telemetry.Error(
+				"ProcessRunner.Failed binary={Binary} elapsed={ElapsedMs}ms error={Error}",
+				binaryName,
+				sw.ElapsedMilliseconds,
+				ex.Message
+			);
 			return Errors.Audio.ProcessFailed(binaryPath, ex.Message);
 		}
 	}
 
-	private static string EscapeArg(string arg) =>
-		arg.Contains(' ') ? $"\"{arg}\"" : arg;
+	private static string EscapeArg(string arg) => arg.Contains(' ') ? $"\"{arg}\"" : arg;
 
 	public static bool IsOnPath(string binaryName)
 	{

@@ -35,7 +35,7 @@ a:hover { text-decoration: underline; }
 </head>
 <body>
 <h1>YouTube Dashboard</h1>
-<p class="subtitle">143 playlists &middot; 8753 videos</p>
+<p class="subtitle">145 playlists &middot; 8963 videos</p>
 <div class="toolbar">
   <select id="playlist-dropdown" onchange="switchView(this.value)">
 <option value="all">Playlist Overview</option>
@@ -65,9 +65,11 @@ a:hover { text-decoration: underline; }
 <option value="PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1">Claudio Abbado</option>
 <option value="PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG">Colin Davis</option>
 <option value="PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT">Concertos for Two Pianos</option>
+<option value="PLGZ26GfFu_B0">Continue</option>
 <option value="PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl">Cristian Măcelaru</option>
 <option value="PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf">Daniel Barenboim</option>
 <option value="PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ">Daniel Harding</option>
+<option value="PLdCs21Nrbsas">Dev Anand</option>
 <option value="PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY">Dima Slobodeniouk</option>
 <option value="PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9">Dvořák Symphony No. 9</option>
 <option value="PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv">Edward Gardner</option>
@@ -228,9 +230,11 @@ a:hover { text-decoration: underline; }
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1', this.checked)"> Claudio Abbado</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG', this.checked)"> Colin Davis</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT', this.checked)"> Concertos for Two Pianos</label>
+<label><input type="checkbox" id="pl-cb-PLGZ26GfFu_B0" checked onchange="onTogglePlaylistIncluded('PLGZ26GfFu_B0', this.checked)"> Continue</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl', this.checked)"> Cristian Măcelaru</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf', this.checked)"> Daniel Barenboim</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ', this.checked)"> Daniel Harding</label>
+<label><input type="checkbox" id="pl-cb-PLdCs21Nrbsas" checked onchange="onTogglePlaylistIncluded('PLdCs21Nrbsas', this.checked)"> Dev Anand</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY', this.checked)"> Dima Slobodeniouk</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9', this.checked)"> Dvořák Symphony No. 9</label>
 <label><input type="checkbox" id="pl-cb-PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv" checked onchange="onTogglePlaylistIncluded('PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv', this.checked)"> Edward Gardner</label>
@@ -488,6 +492,11 @@ a:hover { text-decoration: underline; }
 <input type="text" class="per-search" placeholder="Search in Concertos for Two Pianos..." oninput="onPlaylistSearch('PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT', this.value)">
 <div id="video-table-PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT"></div>
 </div>
+<div id="view-PLGZ26GfFu_B0" class="view">
+<h2>Continue</h2>
+<input type="text" class="per-search" placeholder="Search in Continue..." oninput="onPlaylistSearch('PLGZ26GfFu_B0', this.value)">
+<div id="video-table-PLGZ26GfFu_B0"></div>
+</div>
 <div id="view-PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl" class="view">
 <h2>Cristian Măcelaru</h2>
 <input type="text" class="per-search" placeholder="Search in Cristian Măcelaru..." oninput="onPlaylistSearch('PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl', this.value)">
@@ -502,6 +511,11 @@ a:hover { text-decoration: underline; }
 <h2>Daniel Harding</h2>
 <input type="text" class="per-search" placeholder="Search in Daniel Harding..." oninput="onPlaylistSearch('PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ', this.value)">
 <div id="video-table-PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ"></div>
+</div>
+<div id="view-PLdCs21Nrbsas" class="view">
+<h2>Dev Anand</h2>
+<input type="text" class="per-search" placeholder="Search in Dev Anand..." oninput="onPlaylistSearch('PLdCs21Nrbsas', this.value)">
+<div id="video-table-PLdCs21Nrbsas"></div>
 </div>
 <div id="view-PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY" class="view">
 <h2>Dima Slobodeniouk</h2>

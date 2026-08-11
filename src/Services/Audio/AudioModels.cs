@@ -91,10 +91,8 @@ public sealed record CueTrack(
 	TimeSpan? Duration
 );
 
-
 public sealed record PipelineResult(
 	int SucceededCount,
 	int FailedCount,
 	List<string> RecoverableErrors
 );
-

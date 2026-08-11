@@ -88,11 +88,16 @@ internal sealed class DsdConvertCommand(
 		Telemetry.Info("Converting with gain {Gain:F2} dB", gain);
 
 		var (primary, derived) = DsdConversionSettings.ForDsdRate(
-			dsdProbe.Value.SampleRate, settings.Format, gain
+			dsdProbe.Value.SampleRate,
+			settings.Format,
+			gain
 		);
 
 		var result = await convertService.ConvertFullDffAsync(
-			inputPath, outputPath, primary, cancellationToken
+			inputPath,
+			outputPath,
+			primary,
+			cancellationToken
 		);
 
 		if (result.IsError)
@@ -108,7 +113,10 @@ internal sealed class DsdConvertCommand(
 			Telemetry.Info("Deriving 16-bit: {File}", Path.GetFileName(derivedPath));
 
 			var deriveResult = await convertService.DeriveFlacAsync(
-				outputPath, derivedPath, derived.SampleRate, cancellationToken
+				outputPath,
+				derivedPath,
+				derived.SampleRate,
+				cancellationToken
 			);
 			if (deriveResult.IsError)
 				Telemetry.Warn("Derive failed: {Error}", deriveResult.Errors[0].Description);

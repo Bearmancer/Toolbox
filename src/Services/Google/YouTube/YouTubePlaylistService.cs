@@ -279,7 +279,11 @@ public class YouTubePlaylistService(YouTubeService yt)
 		catch (Exception ex)
 		{
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
-			Telemetry.Error("YouTube.DeletePlaylistFailed id={Id}: {Error}", playlistId, ex.Message);
+			Telemetry.Error(
+				"YouTube.DeletePlaylistFailed id={Id}: {Error}",
+				playlistId,
+				ex.Message
+			);
 			return Errors.YouTube.ApiError($"Failed to delete playlist {playlistId}: {ex.Message}");
 		}
 	}
@@ -302,11 +306,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 				Snippet = new PlaylistItemSnippet
 				{
 					PlaylistId = playlistId,
-					ResourceId = new ResourceId
-					{
-						Kind = "youtube#video",
-						VideoId = videoId,
-					},
+					ResourceId = new ResourceId { Kind = "youtube#video", VideoId = videoId },
 				},
 			};
 
@@ -316,9 +316,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 				playlistId
 			);
 
-			PlaylistItem response = await yt.PlaylistItems
-				.Insert(item, "snippet")
-				.ExecuteAsync(ct);
+			PlaylistItem response = await yt.PlaylistItems.Insert(item, "snippet").ExecuteAsync(ct);
 
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			return response.Id!;
@@ -326,7 +324,12 @@ public class YouTubePlaylistService(YouTubeService yt)
 		catch (Exception ex)
 		{
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
-			Telemetry.Error("YouTube.InsertItemFailed video={VideoId} playlist={PlaylistId}: {Error}", videoId, playlistId, ex.Message);
+			Telemetry.Error(
+				"YouTube.InsertItemFailed video={VideoId} playlist={PlaylistId}: {Error}",
+				videoId,
+				playlistId,
+				ex.Message
+			);
 			return Errors.YouTube.ApiError(
 				$"Failed to insert video {videoId} into playlist {playlistId}: {ex.Message}"
 			);

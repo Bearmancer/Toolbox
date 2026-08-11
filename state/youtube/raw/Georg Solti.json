@@ -786,12 +786,57 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "bNFmdhdnyjU",
+      "VideoPublishedAtRaw": "2025-10-24T07:30:32Z",
+      "VideoPublishedAtDateTimeOffset": "2025-10-24T07:30:32+00:00",
+      "VideoPublishedAt": "2025-10-24T13:00:32+05:30"
+    },
+    "ETag": "UlA3fo0RXX-vyL9CoiqY6oFqiYk",
+    "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny41NUMwNTVERDNBRDc4REM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven: Symphony Nr. 5 c-Moll, Op. 67\nBerlioz: R\u00E1k\u00F3czy March, La Damnation de Faust Op. 24\nChicago Symphony Orchestra\nSir Georg Solti\n15. Apr. 1990, Suntory Hall, Tokyo\n\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C5\u756A \u30CF\u77ED\u8ABF \u4F5C\u54C167\n\u30D9\u30EB\u30EA\u30AA\u30FC\u30BA\uFF1A\u30E9\u30B3\u30C3\u30C4\u30A3\u30FC\u884C\u9032\u66F2\n\u30B7\u30AB\u30B4\u4EA4\u97FF\u697D\u56E3\n\u30B5\u30FC\u30FB\u30B2\u30AA\u30EB\u30AF\u30FB\u30B7\u30E7\u30EB\u30C6\u30A3\n1990\u5E744\u670815\u65E5\u3001\u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\n\n00:21     I. Allegro con brio\n08:13    II. Andante con moto\n17:53   III. Allegro\n22:56   IV. Allegro\n\n35:30   R\u00E1k\u00F3czy March\n\n#beethoven #\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3",
+      "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
+      "Position": 15,
+      "PublishedAtRaw": "2025-10-24T14:18:54Z",
+      "PublishedAtDateTimeOffset": "2025-10-24T14:18:54+00:00",
+      "PublishedAt": "2025-10-24T19:48:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "bNFmdhdnyjU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/bNFmdhdnyjU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/bNFmdhdnyjU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/bNFmdhdnyjU/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethoven: Symphony No. 5 Sir Georg Solti /Chicago Symphony \u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\u3000\u30B7\u30E7\u30EB\u30C6\u30A3 / \u30B7\u30AB\u30B4\u97FF\u3000\u6771\u4EAC\u516C\u6F14",
+      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
+      "VideoOwnerChannelTitle": "SPT"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "SuGlpsfsPkM",
       "VideoPublishedAtRaw": "2019-09-05T16:48:36Z",
       "VideoPublishedAtDateTimeOffset": "2019-09-05T16:48:36+00:00",
       "VideoPublishedAt": "2019-09-05T22:18:36+05:30"
     },
-    "ETag": "As-T5_RlJypnzgcSRUUSPmmOpmM",
+    "ETag": "oM0QxV0XZFHo1LuIIbKl9tDAAnU",
     "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny44Mjc5REFBRUE2MTdFRDU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -799,7 +844,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Ludwig van Beethoven: Sinfonia in la maggiore op 7 n 92\n1. Poco sostenuto - Vivace 0:00\n2. Allegretto 13:18\n3. Presto - Assai meno presto 22:55 \n4. Allegro con brio 30:40\n\nOrchestra Alessandro Scarlatti di Napoli della Rai diretta da Georg Solti\nRegistrazione effettuata presso la Sala Grande del Conservatorio \u0022San Pietro a Majella\u0022 di Napoli il 29 aprile 1958",
       "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
-      "Position": 15,
+      "Position": 16,
       "PublishedAtRaw": "2025-07-07T02:19:10Z",
       "PublishedAtDateTimeOffset": "2025-07-07T02:19:10+00:00",
       "PublishedAt": "2025-07-07T07:49:10+05:30",
@@ -837,51 +882,6 @@
       "Title": "Beethoven: Sinfonia n 7 op 92 | Sir Georg Solti | Orch Scarlatti Rai (29.4.1958)",
       "VideoOwnerChannelId": "UCb4pTnoEtxG8tLRlv1Pg5nQ",
       "VideoOwnerChannelTitle": "Angelo Procino"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "bNFmdhdnyjU",
-      "VideoPublishedAtRaw": "2025-10-24T07:30:32Z",
-      "VideoPublishedAtDateTimeOffset": "2025-10-24T07:30:32+00:00",
-      "VideoPublishedAt": "2025-10-24T13:00:32+05:30"
-    },
-    "ETag": "d90gW0SmJbCZUvneMGwcYi_Fau0",
-    "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny41NUMwNTVERDNBRDc4REM0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Ludwig van Beethoven: Symphony Nr. 5 c-Moll, Op. 67\nBerlioz: R\u00E1k\u00F3czy March, La Damnation de Faust Op. 24\nChicago Symphony Orchestra\nSir Georg Solti\n15. Apr. 1990, Suntory Hall, Tokyo\n\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2 \u7B2C5\u756A \u30CF\u77ED\u8ABF \u4F5C\u54C167\n\u30D9\u30EB\u30EA\u30AA\u30FC\u30BA\uFF1A\u30E9\u30B3\u30C3\u30C4\u30A3\u30FC\u884C\u9032\u66F2\n\u30B7\u30AB\u30B4\u4EA4\u97FF\u697D\u56E3\n\u30B5\u30FC\u30FB\u30B2\u30AA\u30EB\u30AF\u30FB\u30B7\u30E7\u30EB\u30C6\u30A3\n1990\u5E744\u670815\u65E5\u3001\u30B5\u30F3\u30C8\u30EA\u30FC\u30DB\u30FC\u30EB\n\n00:21     I. Allegro con brio\n08:13    II. Andante con moto\n17:53   III. Allegro\n22:56   IV. Allegro\n\n35:30   R\u00E1k\u00F3czy March\n\n#beethoven #\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3",
-      "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
-      "Position": 16,
-      "PublishedAtRaw": "2025-10-24T14:18:54Z",
-      "PublishedAtDateTimeOffset": "2025-10-24T14:18:54+00:00",
-      "PublishedAt": "2025-10-24T19:48:54+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "bNFmdhdnyjU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/bNFmdhdnyjU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/bNFmdhdnyjU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/bNFmdhdnyjU/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Beethoven: Symphony No. 5 Sir Georg Solti /Chicago Symphony \u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\u3000\u30B7\u30E7\u30EB\u30C6\u30A3 / \u30B7\u30AB\u30B4\u97FF\u3000\u6771\u4EAC\u516C\u6F14",
-      "VideoOwnerChannelId": "UCyryC2Ormjx05zfcb_l2t4A",
-      "VideoOwnerChannelTitle": "SPT"
     }
   },
   {
@@ -991,7 +991,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-09-27T03:19:57+00:00",
       "VideoPublishedAt": "2023-09-27T08:49:57+05:30"
     },
-    "ETag": "vz4Ecge2m9Wj71YJQrMKfALMi7U",
+    "ETag": "ESstPn3Vxoq7NVe2rtFm3EEqcog",
     "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny5EQkE3RTJCQTJEQkFBQTcz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -2181,7 +2181,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-07-11T12:33:25+00:00",
       "VideoPublishedAt": "2020-07-11T18:03:25+05:30"
     },
-    "ETag": "jTUjGLcSMJOQuynpSpdh_S1Y_Q8",
+    "ETag": "awItW-a6Rcd0tcI--kov-282Uuo",
     "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny40QzRDOEU0QUYwNUIxN0M1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3011,67 +3011,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "4KeKFyH8giM",
-      "VideoPublishedAtRaw": "2024-11-23T12:00:04Z",
-      "VideoPublishedAtDateTimeOffset": "2024-11-23T12:00:04+00:00",
-      "VideoPublishedAt": "2024-11-23T17:30:04+05:30"
-    },
-    "ETag": "B5UHCJ_E7vLy3WHWwkRDEXDjHTA",
-    "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "mahler  symphonie no 9 en r\u00E9 majeur\n\ni.   andante comodo ( 0:00 - )\nii.  im tempo eines gem\u00E4chlichen l\u00E4ndlers ( 29:10 - )\niii. rondo - burleske ( 46:43 - )\niv. adagio ( 59:24 - )\n\n( enregistrement en direct.  19.09.1981  royal festival hall, london )\n\n\n*. source : fkm cd-r (modifi\u00E9)\n*. g. solti                   orchestre symphonique de chicago",
-      "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
-      "Position": 58,
-      "PublishedAtRaw": "2024-12-12T01:00:52Z",
-      "PublishedAtDateTimeOffset": "2024-12-12T01:00:52+00:00",
-      "PublishedAt": "2024-12-12T06:30:52+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "4KeKFyH8giM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "mahler  symphonie no 9 en r\u00E9 majeur ( g. solti )",
-      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
-      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "wmZMzJI2GlM",
       "VideoPublishedAtRaw": "2018-04-20T07:59:54Z",
       "VideoPublishedAtDateTimeOffset": "2018-04-20T07:59:54+00:00",
       "VideoPublishedAt": "2018-04-20T13:29:54+05:30"
     },
-    "ETag": "wrSYaWeKnzwCHrQHD2j72v2SIFo",
+    "ETag": "rwGiyEqdxGArJO2rA3jGhRHWaiM",
     "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny5GNzk2RTlDQTNCQzJCQzJG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3079,7 +3024,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Symphony No 1 \u0022Titan\u0022 by Gustav Mahler\n1. Langsam, schleppend. Wie ein Naturlaut-\n   Im Anfang sehr gem\u00E4chlich\n2. Kr\u00E4ftig bewegt, doch nicht zu schnell\n3. Feierlich und gemessen, ohne zu schleppen\n4. St\u00FCrmisch bewegt\nK\u00F6lner Rundfunk-Sinfonie-Orchester\nGeorg Solti, Conductor\nK\u00F6ln 1957",
       "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
-      "Position": 59,
+      "Position": 58,
       "PublishedAtRaw": "2025-07-07T08:44:27Z",
       "PublishedAtDateTimeOffset": "2025-07-07T08:44:27+00:00",
       "PublishedAt": "2025-07-07T14:14:27+05:30",
@@ -3126,7 +3071,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-11-20T15:00:45+00:00",
       "VideoPublishedAt": "2023-11-20T20:30:45+05:30"
     },
-    "ETag": "KLOYQg62Twr7_cXK1qqrmpoj9_M",
+    "ETag": "ASz639ltGl40kB9NYFIR5E-rzv0",
     "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny4xMzgwMzBERjQ4NjEzNUE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3134,7 +3079,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Mahler : Symphony no 5 in c sharp minor\n1st movement   00:00\n2nd    12:30\n3rd     26:45\n4th     43:39\n5th     54:39\nGeorge Solti / Chicago Symphony orchestra\n26/3/1986 Tokyo bunkakaikan  hall live.\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C5\u756A\u5B30\u30CF\u77ED\u8ABF\n\u30B2\u30AA\u30EB\u30B0\u30FB\u30B7\u30E7\u30EB\u30C6\u30A3\u6307\u63EE\u3000\u30B7\u30AB\u30B4\u4EA4\u97FF\u697D\u56E3\n1986\u5E749\u670812\u65E5\u3000\u6771\u4EAC\u6587\u5316\u4F1A\u9928\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
       "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
-      "Position": 60,
+      "Position": 59,
       "PublishedAtRaw": "2025-07-07T02:24:20Z",
       "PublishedAtDateTimeOffset": "2025-07-07T02:24:20+00:00",
       "PublishedAt": "2025-07-07T07:54:20+05:30",
@@ -3181,7 +3126,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-05-20T20:30:53+00:00",
       "VideoPublishedAt": "2024-05-21T02:00:53+05:30"
     },
-    "ETag": "_jUhZC1CQUMln_JotYVzDWsx3Zg",
+    "ETag": "1lsixjytFF12OwHvIn3KwFL6ivA",
     "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny40NzZCMERDMjVEN0RFRThB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3189,7 +3134,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Chicago Symphony Orchestra conducted by Sir Georg Solti\nRecorded live at Bunka Kaikan, Tokyo on March 26, 1986\nMono sound (now repaired to be present in both channels).",
       "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
-      "Position": 61,
+      "Position": 60,
       "PublishedAtRaw": "2025-07-07T02:16:10Z",
       "PublishedAtDateTimeOffset": "2025-07-07T02:16:10+00:00",
       "PublishedAt": "2025-07-07T07:46:10+05:30",
@@ -3231,7 +3176,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-05-28T20:33:13+00:00",
       "VideoPublishedAt": "2020-05-29T02:03:13+05:30"
     },
-    "ETag": "Hxsb8Q9eMivpdnobDdmAD50Zuek",
+    "ETag": "MSQN-eYbMO33ooDbFfwG0bCkAqw",
     "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny45NzUwQkI1M0UxNThBMkU0",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -3239,7 +3184,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Chicago Symphony Orchestra conducted by Sir Georg Solti\nRecorded live at Bunka Kaikan, Tokyo on March 26, 1986\n00:30 - I. Trauermarsch.\n13:00 - II. St\u00FCrmisch bewegt.\n27:10 - III. Scherzo.\n44:21 - IV. Adagietto.\n54:37 - V. Rondo-Finale. Allegro - Allegro giocoso.",
       "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
-      "Position": 62,
+      "Position": 61,
       "PublishedAtRaw": "2025-07-07T02:18:03Z",
       "PublishedAtDateTimeOffset": "2025-07-07T02:18:03+00:00",
       "PublishedAt": "2025-07-07T07:48:03+05:30",
@@ -3272,6 +3217,61 @@
       "Title": "Mahler Symphony No. 5, Chicago Symphony Orchestra, Sir Georg Solti",
       "VideoOwnerChannelId": "UCwj-V_8KQxcIgHJqnqXE4ZQ",
       "VideoOwnerChannelTitle": "seilogramp"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "4KeKFyH8giM",
+      "VideoPublishedAtRaw": "2024-11-23T12:00:04Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-23T12:00:04+00:00",
+      "VideoPublishedAt": "2024-11-23T17:30:04+05:30"
+    },
+    "ETag": "lqA4qCn008QjclntpPPXPnhbspc",
+    "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "mahler  symphonie no 9 en r\u00E9 majeur\n\ni.   andante comodo ( 0:00 - )\nii.  im tempo eines gem\u00E4chlichen l\u00E4ndlers ( 29:10 - )\niii. rondo - burleske ( 46:43 - )\niv. adagio ( 59:24 - )\n\n( enregistrement en direct.  19.09.1981  royal festival hall, london )\n\n\n*. source : fkm cd-r (modifi\u00E9)\n*. g. solti                   orchestre symphonique de chicago",
+      "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
+      "Position": 62,
+      "PublishedAtRaw": "2024-12-12T01:00:52Z",
+      "PublishedAtDateTimeOffset": "2024-12-12T01:00:52+00:00",
+      "PublishedAt": "2024-12-12T06:30:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "4KeKFyH8giM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/4KeKFyH8giM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "mahler  symphonie no 9 en r\u00E9 majeur ( g. solti )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
     }
   },
   {

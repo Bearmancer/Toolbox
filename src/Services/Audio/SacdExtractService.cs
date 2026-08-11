@@ -38,8 +38,12 @@ public sealed class SacdExtractService(ProcessRunner processRunner, string binar
 		var hasStereo = StereoPattern.IsMatch(output);
 		var hasMch = MultichannelPattern.IsMatch(output);
 
-		Telemetry.Debug("SacdExtract.ProbeComplete iso={Iso} stereo={Stereo} multichannel={Mch}",
-			Path.GetFileName(isoPath), hasStereo, hasMch);
+		Telemetry.Debug(
+			"SacdExtract.ProbeComplete iso={Iso} stereo={Stereo} multichannel={Mch}",
+			Path.GetFileName(isoPath),
+			hasStereo,
+			hasMch
+		);
 
 		if (!hasStereo && !hasMch)
 			return Errors.Audio.ExtractionFailed(
@@ -58,8 +62,12 @@ public sealed class SacdExtractService(ProcessRunner processRunner, string binar
 	)
 	{
 		var channelFlag = multichannel ? "-m" : "-2";
-		Telemetry.Debug("SacdExtract.Start iso={Iso} outputDir={OutputDir} channels={Channel}",
-			Path.GetFileName(isoPath), outputDir, multichannel ? "multichannel" : "stereo");
+		Telemetry.Debug(
+			"SacdExtract.Start iso={Iso} outputDir={OutputDir} channels={Channel}",
+			Path.GetFileName(isoPath),
+			outputDir,
+			multichannel ? "multichannel" : "stereo"
+		);
 
 		if (!Directory.Exists(outputDir))
 			Directory.CreateDirectory(outputDir);
@@ -96,8 +104,11 @@ public sealed class SacdExtractService(ProcessRunner processRunner, string binar
 			}
 		}
 
-		Telemetry.Debug("SacdExtract.Complete iso={Iso} dirs={Dirs}",
-			Path.GetFileName(isoPath), newDirs.Count);
+		Telemetry.Debug(
+			"SacdExtract.Complete iso={Iso} dirs={Dirs}",
+			Path.GetFileName(isoPath),
+			newDirs.Count
+		);
 
 		return newDirs;
 	}

@@ -241,7 +241,11 @@ public class YouTubeSyncProcessor(
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Warn("Failed to load translated titles for {Title}: {Error}", playlistTitle, ex.Message);
+			Telemetry.Warn(
+				"Failed to load translated titles for {Title}: {Error}",
+				playlistTitle,
+				ex.Message
+			);
 			return new Dictionary<string, string>();
 		}
 	}

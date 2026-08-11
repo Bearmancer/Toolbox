@@ -60,14 +60,19 @@ public class YouTubeTranslationService(TranslateService translateService)
 		{
 			if (video.TranslatedTitle is null)
 			{
-				var shouldTransliterate = video.Title is not null && ContainsDevanagari(video.Title);
-				targets.Add(new(videoIndex, TranslationField.Title, video.Title!, shouldTransliterate));
+				var shouldTransliterate =
+					video.Title is not null && ContainsDevanagari(video.Title);
+				targets.Add(
+					new(videoIndex, TranslationField.Title, video.Title!, shouldTransliterate)
+				);
 			}
 
 			if (video.TranslatedDescription is null)
 			{
 				if (video.Description.Length > 0)
-					targets.Add(new(videoIndex, TranslationField.Description, video.Description, false));
+					targets.Add(
+						new(videoIndex, TranslationField.Description, video.Description, false)
+					);
 				else
 					videos[videoIndex] = video with { TranslatedDescription = "" };
 			}
@@ -76,7 +81,8 @@ public class YouTubeTranslationService(TranslateService translateService)
 		return targets;
 	}
 
-	private static bool ContainsDevanagari(string text) => text.Any(c => c is >= '\u0900' and <= '\u097F');
+	private static bool ContainsDevanagari(string text) =>
+		text.Any(c => c is >= '\u0900' and <= '\u097F');
 
 	private static List<List<TranslationTarget>> BuildTranslationBatches(
 		List<TranslationTarget> targets
@@ -149,9 +155,15 @@ public class YouTubeTranslationService(TranslateService translateService)
 				if (transliterateResult.IsError)
 					return transliterateResult.FirstError;
 
-				foreach (var (target, transliterated) in transliterateTargets.Zip(transliterateResult.Value))
+				foreach (
+					var (target, transliterated) in transliterateTargets.Zip(
+						transliterateResult.Value
+					)
+				)
 				{
-					allResults.Add(new BatchApiResult(target, new TranslationResult("hi", transliterated)));
+					allResults.Add(
+						new BatchApiResult(target, new TranslationResult("hi", transliterated))
+					);
 				}
 			}
 
@@ -174,7 +186,9 @@ public class YouTubeTranslationService(TranslateService translateService)
 				if (translateResult.IsError)
 					return translateResult.FirstError;
 
-				allResults.AddRange(translateTargets.Zip(translateResult.Value, (t, r) => new BatchApiResult(t, r)));
+				allResults.AddRange(
+					translateTargets.Zip(translateResult.Value, (t, r) => new BatchApiResult(t, r))
+				);
 			}
 		}
 

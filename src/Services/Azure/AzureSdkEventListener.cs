@@ -7,11 +7,7 @@ namespace Services.Azure;
 
 public sealed class AzureSdkEventListener(EventLevel captureLevel) : IDisposable
 {
-	private static readonly string[] AllowedEventSources =
-	[
-		"Azure-Core",
-		"Azure-Identity"
-	];
+	private static readonly string[] AllowedEventSources = ["Azure-Core", "Azure-Identity"];
 
 	private readonly AzureEventSourceListener _listener = new(OnEventWritten, captureLevel);
 
@@ -24,13 +20,13 @@ public sealed class AzureSdkEventListener(EventLevel captureLevel) : IDisposable
 
 		var level = MapLevel(eventData.Level);
 
-            Log.ForContext("Source", "AzureSDK")
-               .ForContext("EventSource", sourceName)
-               .ForContext("Service", "SdkDiagnostics")
-               .Write(level, "{Message}", formattedMessage);
+		Log.ForContext("Source", "AzureSDK")
+			.ForContext("EventSource", sourceName)
+			.ForContext("Service", "SdkDiagnostics")
+			.Write(level, "{Message}", formattedMessage);
 	}
 
-    private static LogEventLevel MapLevel(EventLevel level) => EventLevelMapper.Map(level);
+	private static LogEventLevel MapLevel(EventLevel level) => EventLevelMapper.Map(level);
 
 	public void Dispose() => _listener.Dispose();
 }

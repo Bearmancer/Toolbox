@@ -37,7 +37,11 @@ public class SpeechService(AzureCredentials opts)
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Error("Speech: ffmpeg conversion failed for {File}: {Error}", path, ex.Message);
+				Telemetry.Error(
+					"Speech: ffmpeg conversion failed for {File}: {Error}",
+					path,
+					ex.Message
+				);
 				return Errors.Speech.ApiError(ex.Message);
 			}
 		}
@@ -76,7 +80,12 @@ public class SpeechService(AzureCredentials opts)
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Error("Speech: transcription failed for {File} lang={Language}: {Error}", path, language, ex.Message);
+			Telemetry.Error(
+				"Speech: transcription failed for {File} lang={Language}: {Error}",
+				path,
+				language,
+				ex.Message
+			);
 			return Errors.Speech.ApiError(ex.Message);
 		}
 		finally
@@ -127,11 +136,17 @@ public class SpeechService(AzureCredentials opts)
 		CancellationToken ct
 	)
 	{
-		Telemetry.Debug("Speech: starting synthesis — voice={Voice}, text length={Length}", voice, text.Length);
+		Telemetry.Debug(
+			"Speech: starting synthesis — voice={Voice}, text length={Length}",
+			voice,
+			text.Length
+		);
 
 		SpeechConfig config = BuildSpeechConfig();
 		config.SpeechSynthesisVoiceName = voice;
-		config.SetSpeechSynthesisOutputFormat(SpeechSynthesisOutputFormat.Audio24Khz96KBitRateMonoMp3);
+		config.SetSpeechSynthesisOutputFormat(
+			SpeechSynthesisOutputFormat.Audio24Khz96KBitRateMonoMp3
+		);
 
 		var chunks = SplitTextIntoChunks(text, ChunkMaxChars);
 		Telemetry.Debug("Speech: split into {ChunkCount} chunks", chunks.Count);
@@ -142,15 +157,22 @@ public class SpeechService(AzureCredentials opts)
 		var charsProcessed = 0;
 
 		synth.Synthesizing += (_, e) =>
-			Telemetry.Verbose("Speech: audio chunk — {Bytes} bytes", e.Result.AudioData?.Length ?? 0);
+			Telemetry.Verbose(
+				"Speech: audio chunk — {Bytes} bytes",
+				e.Result.AudioData?.Length ?? 0
+			);
 
 		for (var i = 0; i < chunks.Count; i++)
 		{
 			ct.ThrowIfCancellationRequested();
 
 			var chunk = chunks[i];
-			Telemetry.Debug("Speech: synthesizing chunk {Index}/{Total} ({Chars} chars)",
-				i + 1, chunks.Count, chunk.Length);
+			Telemetry.Debug(
+				"Speech: synthesizing chunk {Index}/{Total} ({Chars} chars)",
+				i + 1,
+				chunks.Count,
+				chunk.Length
+			);
 
 			var speakTask = synth.SpeakTextAsync(chunk);
 			var timeoutTask = Task.Delay(TimeSpan.FromSeconds(ChunkTimeoutSeconds), ct);
@@ -159,15 +181,25 @@ public class SpeechService(AzureCredentials opts)
 			if (completed == timeoutTask)
 			{
 				await synth.StopSpeakingAsync();
-				Telemetry.Error("Speech: chunk {Index} timed out after {Seconds}s", i + 1, ChunkTimeoutSeconds);
-				return Errors.Speech.ApiError($"Chunk {i + 1} synthesis timed out after {ChunkTimeoutSeconds}s");
+				Telemetry.Error(
+					"Speech: chunk {Index} timed out after {Seconds}s",
+					i + 1,
+					ChunkTimeoutSeconds
+				);
+				return Errors.Speech.ApiError(
+					$"Chunk {i + 1} synthesis timed out after {ChunkTimeoutSeconds}s"
+				);
 			}
 
 			var result = await speakTask;
 
 			if (result.Reason != ResultReason.SynthesizingAudioCompleted)
 			{
-				Telemetry.Error("Speech: chunk {Index} failed — reason={Reason}", i + 1, result.Reason);
+				Telemetry.Error(
+					"Speech: chunk {Index} failed — reason={Reason}",
+					i + 1,
+					result.Reason
+				);
 				return Errors.Speech.ApiError($"Chunk {i + 1} synthesis failed: {result.Reason}");
 			}
 
@@ -181,15 +213,25 @@ public class SpeechService(AzureCredentials opts)
 			charsProcessed += chunk.Length;
 
 			var pct = (int)((double)charsProcessed / text.Length * 100);
-			Telemetry.Info("Speech: chunk {Index}/{Total} complete — {Pct}% ({Chars}/{TotalChars} chars) [{Elapsed}]",
-				i + 1, chunks.Count, pct, charsProcessed, text.Length, sw.Elapsed.ToString(@"mm\:ss"));
+			Telemetry.Info(
+				"Speech: chunk {Index}/{Total} complete — {Pct}% ({Chars}/{TotalChars} chars) [{Elapsed}]",
+				i + 1,
+				chunks.Count,
+				pct,
+				charsProcessed,
+				text.Length,
+				sw.Elapsed.ToString(@"mm\:ss")
+			);
 		}
 
 		var totalAudio = allAudio.SelectMany(bytes => bytes).ToArray();
 		await File.WriteAllBytesAsync(outputPath, totalAudio, ct);
 
-		Telemetry.Info("Speech: synthesis complete — {Bytes} bytes in {Elapsed}",
-			totalAudio.Length, sw.Elapsed.ToString(@"mm\:ss"));
+		Telemetry.Info(
+			"Speech: synthesis complete — {Bytes} bytes in {Elapsed}",
+			totalAudio.Length,
+			sw.Elapsed.ToString(@"mm\:ss")
+		);
 		return $"Voice: {voice}\nSaved: {outputPath}\nSize: {totalAudio.Length:N0} bytes";
 	}
 

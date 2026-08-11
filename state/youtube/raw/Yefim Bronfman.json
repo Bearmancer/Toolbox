@@ -1,349 +1,349 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "P-nANi8n2Oc"
-    },
-    "ETag": "qEV5bxQIc6Uce9Hq5qsvUkZIdC0",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4xMkVGQjNCMUM1N0RFNEUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 0,
-      "PublishedAtRaw": "2025-01-30T18:49:58Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:49:58+00:00",
-      "PublishedAt": "2025-01-31T00:19:58+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "P-nANi8n2Oc"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "sz4pRBHPgz0"
-    },
-    "ETag": "u978A6qsj9BU72fe5k9-69ZsWXQ",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 1,
-      "PublishedAtRaw": "2025-01-30T18:48:33Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:48:33+00:00",
-      "PublishedAt": "2025-01-31T00:18:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "sz4pRBHPgz0"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "UgNF5FFT0DU",
-      "VideoPublishedAtRaw": "2024-04-04T03:27:57Z",
-      "VideoPublishedAtDateTimeOffset": "2024-04-04T03:27:57+00:00",
-      "VideoPublishedAt": "2024-04-04T08:57:57+05:30"
-    },
-    "ETag": "bspwRWwbYL3tnXu_k2ULl_WjfW8",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Live from the Grand Teton Music Festival is a series of one-hour podcasts hosted by Music Director Sir Donald Runnicles and GTMF General Manager Jeff Counts. Season Seven celebrates the Festival\u0027s 2023 season at Walk Festival Hall in Jackson Hole.\n\nYefim Bronfman with the Grand Teton Music Festival Orchestra\nSir Donald Runnicles, conductor\n\n\n\nLudwig van Beethoven\nThe Creatures of Prometheus Overture, Op. 43\n\n\nJohannes Brahms\nPiano Concerto No. 1 in D minor, Op. 15\nYefim Bronfman, piano\n\n\nLive from the Grand Teton Music Festival is hosted by Music Director Sir Donald Runnicles and GTMF General Manager Jeff Counts. Episodes premiere on Wednesdays at 8 PM MT on Wyoming Public Radio and are available the next day wherever you get your podcasts.\n\n\nThe Grand Teton Music Festival, founded in 1962, unites over 250 celebrated orchestral musicians led by Music Director Sir Donald Runnicles in Jackson Hole, Wyoming each summer.\u00A0\n\n\nStay connected for the latest Festival updates:\n\n\nInstagram (https://www.instagram.com/grandtetonmusic/) \n\n\nFacebook (https://www.facebook.com/GrandTetonMusicFestival) \n\n\nEmail List (https://gtmf.us8.list-manage.com/subscribe?u=002507ec8840898f153cda591\u0026id=2d701099e0) \n\n\nGTMF Website (https://gtmf.org/)",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 2,
-      "PublishedAtRaw": "2025-01-30T18:51:33Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:51:33+00:00",
-      "PublishedAt": "2025-01-31T00:21:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "UgNF5FFT0DU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Live from the GTMF - S7, Episode 12: Bronfman plays Brahms",
-      "VideoOwnerChannelId": "UCv7wqOPMDm0dToIhEEPRT8w",
-      "VideoOwnerChannelTitle": "Grand Teton Music Festival"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "lAJBOKCSeUw",
-      "VideoPublishedAtRaw": "2024-09-24T06:02:00Z",
-      "VideoPublishedAtDateTimeOffset": "2024-09-24T06:02:00+00:00",
-      "VideoPublishedAt": "2024-09-24T11:32:00+05:30"
-    },
-    "ETag": "mq4zdh5M9IORuz2BC_-67Npi-vg",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy41MjE1MkI0OTQ2QzJGNzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Amsterdam Concertgebouw Orch.  cond. Herbert Blomstedt\n(00:00) I. Allegro con brio\n(17:39) II Largo\n(27:49) III Rondo: Allegro scherzando\nrec. 24 October 2006, at Semperoper Dresden\nAVRO live recording",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 3,
-      "PublishedAtRaw": "2025-01-30T18:49:11Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:49:11+00:00",
-      "PublishedAt": "2025-01-31T00:19:11+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "lAJBOKCSeUw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "yefim Bronfman - Beethoven : Piano Concerto No.1 Op.15 (2006-Live)",
-      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-      "VideoOwnerChannelTitle": "uchukyoku1"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "0VdmuhyVzgU",
-      "VideoPublishedAtRaw": "2024-12-08T13:30:00Z",
-      "VideoPublishedAtDateTimeOffset": "2024-12-08T13:30:00+00:00",
-      "VideoPublishedAt": "2024-12-08T19:00:00+05:30"
-    },
-    "ETag": "RR2B_acmEuDLrhPFxFP_htYQlkg",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Liszt: Piano Concerto No. 2, S.125 \nPianist: Yefim Bronfman\nConductor: Valery Gergiev\nOrchestra: Orchestra of the Mariinsky Theatre\nDate: January 1st, 2007\nPlace: Mariinsky 3 Concert Hall, St. Petersburg, Russia\n\nI. Adagio sostenuto assai: 0:20\nII. Allegro agitato assai: 4:59\nIII. Allegro moderato: 6:46\nIV. Allegro deciso: 11:20\nV. Marziale un poco meno allegro: 14:04\nVI. Allegro animato: 17:56\n\n**No copyright infringement is intended. This content is uploaded solely for educational and informational purposes. All rights to the original work are owned by their respective copyright holders.**\n\n#liszt #bach #mozart #beethoven #schubert #sonata #concerto #piano #brahms",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 4,
-      "PublishedAtRaw": "2025-01-30T18:48:09Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:48:09+00:00",
-      "PublishedAt": "2025-01-31T00:18:09+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "0VdmuhyVzgU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Yefim Bronfman - Liszt - Piano Concerto No. 2, S.125",
-      "VideoOwnerChannelId": "UCLLE9W4GeuwHzz6CeC4k5Ng",
-      "VideoOwnerChannelTitle": "The Maestro\u0027s Corner"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "bDqEWEgsNHQ"
-    },
-    "ETag": "LV5pxcNAivdvqk8UYvWLfThrGDc",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 5,
-      "PublishedAtRaw": "2025-01-30T18:48:26Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:48:26+00:00",
-      "PublishedAt": "2025-01-31T00:18:26+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "bDqEWEgsNHQ"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "3KZfj4Gwyuw",
-      "VideoPublishedAtRaw": "2024-09-06T11:07:11Z",
-      "VideoPublishedAtDateTimeOffset": "2024-09-06T11:07:11+00:00",
-      "VideoPublishedAt": "2024-09-06T16:37:11+05:30"
-    },
-    "ETag": "_Ply0GQ9uoTvXTVkcHV_brn6TyQ",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Yefim Bronfman,\u2002Klavier\nManfred Honeck, Dirigent\u2002\nPittsburgh Symphony Orchestra\n\nSergej Rachmaninow\nKonzert f\u00FCr Klavier und Orchester Nr. 3 d-Moll op. 30\n\nElbphilharmonie Hamburg\n2024",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 6,
-      "PublishedAtRaw": "2025-01-30T18:49:26Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:49:26+00:00",
-      "PublishedAt": "2025-01-31T00:19:26+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "3KZfj4Gwyuw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Yefim Bronfman, Rachmaninow Konzert f\u00FCr Klavier und Orchester Nr. 3",
-      "VideoOwnerChannelId": "UC_V4IZO_NLDNSydT8S9qqyg",
-      "VideoOwnerChannelTitle": "Margo"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "Uu0Vf5UaM2U",
-      "VideoPublishedAtRaw": "2024-04-02T17:00:17Z",
-      "VideoPublishedAtDateTimeOffset": "2024-04-02T17:00:17+00:00",
-      "VideoPublishedAt": "2024-04-02T22:30:17+05:30"
-    },
-    "ETag": "XonVlCS3vgpgmZeDzCtB7AvepSM",
-    "Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy5DQUNERDQ2NkIzRUQxNTY1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "From Severance Hall in Cleveland, Ohio:\nJulia Fischer \u0026 The Cleveland Orchestra (under the baton of Franz Welser-M\u00F6st) perform Johannes Brahms\u0027s Piano Concerto No. 1 in D minor, Op. 15.\n\nPart 2 of the Johannes Brahms concert with Yefim Bronfman, The Cleveland Orchestra \u0026 Franz Welser-M\u00F6st.\n\n#classicalmusic #orchestra #brahms \n\n------- \nSubscribe to wocomoMUSIC: https://goo.gl/ahZRzC\nFollow us on Facebook: http://www.facebook.com/wocomo\n\n------- \nJohannes Brahms - Piano Concerto No. 1 in D minor, Op. 15\n\nChapters\n\u25B7 00:00 Intro\n\u25B7 00:31 I. Maestoso\n\u25B7 22:46 II. Adagio\n\u25B7 35:21 III. Rondo: Allegro non troppo\n\nYefim Bronfman - piano\nThe Cleveland Orchestra\nFranz Welser-M\u00F6st - conductor\n\nDirected by William Cosel\n\nA production of Clasart\n\nExecutive producer: Musical Arts Association Inc. \nin cooperation with WVIZ/PBS ideastream\n\n\u00A9 2015, Clasart / Musical Arts Association Operating the Cleveland Orchestra\n\n------- \n\nHigh-quality music concerts, performances and documentaries \u2013 in areas such as classical, jazz, ballet, modern dance, rock and pop. WocomoMUSIC \u2013 music for grown-ups!\n\nCheck out our other channels to watch high-quality documentaries:\n\u25B7 wocomoCULTURE: https://www.youtube.com/@wocomoCULTURE\n\u25B7 wocomoFRAN\u00C7AIS: https://www.youtube.com/@wocomoFRAN\u00C7AIS\n\u25B7 wocomoHUMANITY: https://www.youtube.com/@wocomoHUMANITY\n\u25B7 wocomoHISTORY: https://www.youtube.com/@wocomoHISTORY\n\nWocomoMUSIC is part of the Wocomo channel network by NIKITA VENTURES. Wocomo - wonderful content in motion.",
-      "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
-      "Position": 7,
-      "PublishedAtRaw": "2025-01-30T18:53:00Z",
-      "PublishedAtDateTimeOffset": "2025-01-30T18:53:00+00:00",
-      "PublishedAt": "2025-01-31T00:23:00+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Uu0Vf5UaM2U"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Yefim Bronfman: Brahms - Piano Concerto No. 1 in D minor, Op. 15 (with Cleveland Orchestra)",
-      "VideoOwnerChannelId": "UCyBVuk3_ZHcEQn-rVBUYkzQ",
-      "VideoOwnerChannelTitle": "wocomoMUSIC"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "P-nANi8n2Oc"
+		},
+		"ETag": "qEV5bxQIc6Uce9Hq5qsvUkZIdC0",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 0,
+			"PublishedAtRaw": "2025-01-30T18:49:58Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:49:58+00:00",
+			"PublishedAt": "2025-01-31T00:19:58+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "P-nANi8n2Oc"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sz4pRBHPgz0"
+		},
+		"ETag": "u978A6qsj9BU72fe5k9-69ZsWXQ",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 1,
+			"PublishedAtRaw": "2025-01-30T18:48:33Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:48:33+00:00",
+			"PublishedAt": "2025-01-31T00:18:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sz4pRBHPgz0"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UgNF5FFT0DU",
+			"VideoPublishedAtRaw": "2024-04-04T03:27:57Z",
+			"VideoPublishedAtDateTimeOffset": "2024-04-04T03:27:57+00:00",
+			"VideoPublishedAt": "2024-04-04T08:57:57+05:30"
+		},
+		"ETag": "bspwRWwbYL3tnXu_k2ULl_WjfW8",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Live from the Grand Teton Music Festival is a series of one-hour podcasts hosted by Music Director Sir Donald Runnicles and GTMF General Manager Jeff Counts. Season Seven celebrates the Festival\u0027s 2023 season at Walk Festival Hall in Jackson Hole.\n\nYefim Bronfman with the Grand Teton Music Festival Orchestra\nSir Donald Runnicles, conductor\n\n\n\nLudwig van Beethoven\nThe Creatures of Prometheus Overture, Op. 43\n\n\nJohannes Brahms\nPiano Concerto No. 1 in D minor, Op. 15\nYefim Bronfman, piano\n\n\nLive from the Grand Teton Music Festival is hosted by Music Director Sir Donald Runnicles and GTMF General Manager Jeff Counts. Episodes premiere on Wednesdays at 8 PM MT on Wyoming Public Radio and are available the next day wherever you get your podcasts.\n\n\nThe Grand Teton Music Festival, founded in 1962, unites over 250 celebrated orchestral musicians led by Music Director Sir Donald Runnicles in Jackson Hole, Wyoming each summer.\u00A0\n\n\nStay connected for the latest Festival updates:\n\n\nInstagram (https://www.instagram.com/grandtetonmusic/) \n\n\nFacebook (https://www.facebook.com/GrandTetonMusicFestival) \n\n\nEmail List (https://gtmf.us8.list-manage.com/subscribe?u=002507ec8840898f153cda591\u0026id=2d701099e0) \n\n\nGTMF Website (https://gtmf.org/)",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 2,
+			"PublishedAtRaw": "2025-01-30T18:51:33Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:51:33+00:00",
+			"PublishedAt": "2025-01-31T00:21:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UgNF5FFT0DU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/UgNF5FFT0DU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Live from the GTMF - S7, Episode 12: Bronfman plays Brahms",
+			"VideoOwnerChannelId": "UCv7wqOPMDm0dToIhEEPRT8w",
+			"VideoOwnerChannelTitle": "Grand Teton Music Festival"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lAJBOKCSeUw",
+			"VideoPublishedAtRaw": "2024-09-24T06:02:00Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-24T06:02:00+00:00",
+			"VideoPublishedAt": "2024-09-24T11:32:00+05:30"
+		},
+		"ETag": "mq4zdh5M9IORuz2BC_-67Npi-vg",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Amsterdam Concertgebouw Orch.  cond. Herbert Blomstedt\n(00:00) I. Allegro con brio\n(17:39) II Largo\n(27:49) III Rondo: Allegro scherzando\nrec. 24 October 2006, at Semperoper Dresden\nAVRO live recording",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 3,
+			"PublishedAtRaw": "2025-01-30T18:49:11Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:49:11+00:00",
+			"PublishedAt": "2025-01-31T00:19:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lAJBOKCSeUw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lAJBOKCSeUw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "yefim Bronfman - Beethoven : Piano Concerto No.1 Op.15 (2006-Live)",
+			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+			"VideoOwnerChannelTitle": "uchukyoku1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0VdmuhyVzgU",
+			"VideoPublishedAtRaw": "2024-12-08T13:30:00Z",
+			"VideoPublishedAtDateTimeOffset": "2024-12-08T13:30:00+00:00",
+			"VideoPublishedAt": "2024-12-08T19:00:00+05:30"
+		},
+		"ETag": "RR2B_acmEuDLrhPFxFP_htYQlkg",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Liszt: Piano Concerto No. 2, S.125 \nPianist: Yefim Bronfman\nConductor: Valery Gergiev\nOrchestra: Orchestra of the Mariinsky Theatre\nDate: January 1st, 2007\nPlace: Mariinsky 3 Concert Hall, St. Petersburg, Russia\n\nI. Adagio sostenuto assai: 0:20\nII. Allegro agitato assai: 4:59\nIII. Allegro moderato: 6:46\nIV. Allegro deciso: 11:20\nV. Marziale un poco meno allegro: 14:04\nVI. Allegro animato: 17:56\n\n**No copyright infringement is intended. This content is uploaded solely for educational and informational purposes. All rights to the original work are owned by their respective copyright holders.**\n\n#liszt #bach #mozart #beethoven #schubert #sonata #concerto #piano #brahms",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 4,
+			"PublishedAtRaw": "2025-01-30T18:48:09Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:48:09+00:00",
+			"PublishedAt": "2025-01-31T00:18:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0VdmuhyVzgU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0VdmuhyVzgU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yefim Bronfman - Liszt - Piano Concerto No. 2, S.125",
+			"VideoOwnerChannelId": "UCLLE9W4GeuwHzz6CeC4k5Ng",
+			"VideoOwnerChannelTitle": "The Maestro\u0027s Corner"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "bDqEWEgsNHQ"
+		},
+		"ETag": "LV5pxcNAivdvqk8UYvWLfThrGDc",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 5,
+			"PublishedAtRaw": "2025-01-30T18:48:26Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:48:26+00:00",
+			"PublishedAt": "2025-01-31T00:18:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "bDqEWEgsNHQ"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3KZfj4Gwyuw",
+			"VideoPublishedAtRaw": "2024-09-06T11:07:11Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-06T11:07:11+00:00",
+			"VideoPublishedAt": "2024-09-06T16:37:11+05:30"
+		},
+		"ETag": "_Ply0GQ9uoTvXTVkcHV_brn6TyQ",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Yefim Bronfman,\u2002Klavier\nManfred Honeck, Dirigent\u2002\nPittsburgh Symphony Orchestra\n\nSergej Rachmaninow\nKonzert f\u00FCr Klavier und Orchester Nr. 3 d-Moll op. 30\n\nElbphilharmonie Hamburg\n2024",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 6,
+			"PublishedAtRaw": "2025-01-30T18:49:26Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:49:26+00:00",
+			"PublishedAt": "2025-01-31T00:19:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3KZfj4Gwyuw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3KZfj4Gwyuw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yefim Bronfman, Rachmaninow Konzert f\u00FCr Klavier und Orchester Nr. 3",
+			"VideoOwnerChannelId": "UC_V4IZO_NLDNSydT8S9qqyg",
+			"VideoOwnerChannelTitle": "Margo"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Uu0Vf5UaM2U",
+			"VideoPublishedAtRaw": "2024-04-02T17:00:17Z",
+			"VideoPublishedAtDateTimeOffset": "2024-04-02T17:00:17+00:00",
+			"VideoPublishedAt": "2024-04-02T22:30:17+05:30"
+		},
+		"ETag": "XonVlCS3vgpgmZeDzCtB7AvepSM",
+		"Id": "UEwxemdOQ29XdF83YXdCQzRIWTltNGoybjhIVkhUWGZHVy5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "From Severance Hall in Cleveland, Ohio:\nJulia Fischer \u0026 The Cleveland Orchestra (under the baton of Franz Welser-M\u00F6st) perform Johannes Brahms\u0027s Piano Concerto No. 1 in D minor, Op. 15.\n\nPart 2 of the Johannes Brahms concert with Yefim Bronfman, The Cleveland Orchestra \u0026 Franz Welser-M\u00F6st.\n\n#classicalmusic #orchestra #brahms \n\n------- \nSubscribe to wocomoMUSIC: https://goo.gl/ahZRzC\nFollow us on Facebook: http://www.facebook.com/wocomo\n\n------- \nJohannes Brahms - Piano Concerto No. 1 in D minor, Op. 15\n\nChapters\n\u25B7 00:00 Intro\n\u25B7 00:31 I. Maestoso\n\u25B7 22:46 II. Adagio\n\u25B7 35:21 III. Rondo: Allegro non troppo\n\nYefim Bronfman - piano\nThe Cleveland Orchestra\nFranz Welser-M\u00F6st - conductor\n\nDirected by William Cosel\n\nA production of Clasart\n\nExecutive producer: Musical Arts Association Inc. \nin cooperation with WVIZ/PBS ideastream\n\n\u00A9 2015, Clasart / Musical Arts Association Operating the Cleveland Orchestra\n\n------- \n\nHigh-quality music concerts, performances and documentaries \u2013 in areas such as classical, jazz, ballet, modern dance, rock and pop. WocomoMUSIC \u2013 music for grown-ups!\n\nCheck out our other channels to watch high-quality documentaries:\n\u25B7 wocomoCULTURE: https://www.youtube.com/@wocomoCULTURE\n\u25B7 wocomoFRAN\u00C7AIS: https://www.youtube.com/@wocomoFRAN\u00C7AIS\n\u25B7 wocomoHUMANITY: https://www.youtube.com/@wocomoHUMANITY\n\u25B7 wocomoHISTORY: https://www.youtube.com/@wocomoHISTORY\n\nWocomoMUSIC is part of the Wocomo channel network by NIKITA VENTURES. Wocomo - wonderful content in motion.",
+			"PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
+			"Position": 7,
+			"PublishedAtRaw": "2025-01-30T18:53:00Z",
+			"PublishedAtDateTimeOffset": "2025-01-30T18:53:00+00:00",
+			"PublishedAt": "2025-01-31T00:23:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Uu0Vf5UaM2U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Uu0Vf5UaM2U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yefim Bronfman: Brahms - Piano Concerto No. 1 in D minor, Op. 15 (with Cleveland Orchestra)",
+			"VideoOwnerChannelId": "UCyBVuk3_ZHcEQn-rVBUYkzQ",
+			"VideoOwnerChannelTitle": "wocomoMUSIC"
+		}
+	}
 ]
