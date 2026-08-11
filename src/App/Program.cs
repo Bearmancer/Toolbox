@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Diagnostics.Tracing;
 using CLI;
 using CLI.Audio;
 using CLI.Azure;
@@ -46,19 +47,39 @@ internal static class Program
 
 		Trace.Listeners.Add(new SerilogTraceListener());
 
-		await Telemetry.Configure(
-			args.Contains("--diagnostic") ? LogEventLevel.Verbose
-			: args.Contains("--verbose") ? LogEventLevel.Debug
-			: LogEventLevel.Information
-		);
+		var logLevel =
+			args.Contains("--verbose") ? LogEventLevel.Verbose
+			: args.Contains("--debug") ? LogEventLevel.Debug
+			: LogEventLevel.Information;
+
+		await Telemetry.Configure(logLevel);
+
+		var commandArgs = args.Where(a => a is not "--verbose" and not "--debug").ToArray();
+
+		var enableDiagnostics = logLevel <= LogEventLevel.Debug;
+		using var azureListener = enableDiagnostics
+			? new AzureSdkEventListener(EventLevel.Verbose)
+			: null;
+		using var clientModelListener = enableDiagnostics
+			? new ClientModelEventListener(EventLevel.Verbose)
+			: null;
+		using var speechListener = enableDiagnostics
+			? new SpeechSdkEventListener(LogEventLevel.Debug)
+			: null;
+		speechListener?.Activate();
 
 		var services = new ServiceCollection();
 
+		var isAudioOnly = commandArgs.Contains("audio");
+
 		try
 		{
-			services.AddAzureServices();
-			await services.AddGoogleServicesAsync();
-			services.AddLastFmServices();
+			if (!isAudioOnly)
+			{
+				services.AddAzureServices();
+				await services.AddGoogleServicesAsync();
+				services.AddLastFmServices();
+			}
 			services.AddAudioServices();
 		}
 		catch (InvalidOperationException ex)
@@ -98,7 +119,7 @@ internal static class Program
 			appCts.Cancel();
 		};
 
-		var exitCode = await toolbox.RunAsync(args, appCts.Token);
+		var exitCode = await toolbox.RunAsync(commandArgs, appCts.Token);
 		await Serilog.Log.CloseAndFlushAsync();
 		return exitCode;
 	}

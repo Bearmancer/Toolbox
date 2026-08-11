@@ -8,7 +8,6 @@ using ErrorOr;
 public sealed class SaraconService(ProcessRunner processRunner, string binaryPath)
 {
 	private static readonly TimeSpan DefaultTimeout = TimeSpan.FromHours(1);
-	private const int MaxRetries = 2;
 
 	public async Task<ErrorOr<string>> ConvertDsdToPcmAsync(
 		string inputDff,
@@ -21,7 +20,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 	)
 	{
 		var args = BuildD2pArgs(inputDff, outputDir, sampleRate, bitDepth, gainDb, "wav");
-		return await RunConversionWithRetryAsync(inputDff, outputDir, "wav", args, sampleRate, bitDepth, gainDb, onOutputLine, ct);
+		return await RunConversionAsync(inputDff, outputDir, "wav", args, sampleRate, bitDepth, gainDb, onOutputLine, ct);
 	}
 
 	public async Task<ErrorOr<string>> ConvertDsdToFlacAsync(
@@ -35,7 +34,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 	)
 	{
 		var args = BuildD2pArgs(inputDff, outputDir, sampleRate, bitDepth, gainDb, "flac");
-		return await RunConversionWithRetryAsync(inputDff, outputDir, "flac", args, sampleRate, bitDepth, gainDb, onOutputLine, ct);
+		return await RunConversionAsync(inputDff, outputDir, "flac", args, sampleRate, bitDepth, gainDb, onOutputLine, ct);
 	}
 
 	private static string[] BuildD2pArgs(
@@ -59,7 +58,15 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		inputDff,
 	];
 
-	private async Task<ErrorOr<string>> RunConversionWithRetryAsync(
+	// No retry loop. Retrying a failed/timed-out Saracon launch respawns a new
+	// process against the same output filename while the previous instance's
+	// partial write may not have fully released — that's the mechanism behind the
+	// self-restart death loop on the original Disc 10 DFF. Saracon either finishes
+	// cleanly within the timeout or it doesn't; there's no transient failure here
+	// worth retrying automatically. If a "just try again" behavior turns out to be
+	// needed in practice, add it at the PipelineOrchestrator/disc level (re-run the
+	// whole disc after cleaning up prior output), not inside a single Saracon call.
+	private async Task<ErrorOr<string>> RunConversionAsync(
 		string inputDff,
 		string outputDir,
 		string extension,
@@ -71,145 +78,145 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		CancellationToken ct
 	)
 	{
-		Telemetry.Debug("Saracon.ConvertStart input={Input} outputDir={OutputDir} format={Format} rate={Rate} bitDepth={BitDepth} gain={Gain}dB",
+		Telemetry.Debug(
+			"Saracon.ConvertStart input={Input} outputDir={OutputDir} format={Format} rate={Rate} bitDepth={BitDepth} gain={Gain}dB",
 			Path.GetFileName(inputDff), outputDir, extension, sampleRate, bitDepth, gainDb);
 
-		var hasId3 = DffMetadataStripper.HasId3Chunk(inputDff);
-		if (hasId3)
+		if (!Directory.Exists(outputDir))
+			Directory.CreateDirectory(outputDir);
+
+		var effectiveInput = inputDff;
+		var effectiveArgs = args;
+
+		if (DffMetadataStripper.HasId3Chunk(inputDff))
+		{
 			Telemetry.Warn("Saracon.Id3Detected input={Input} — ID3 chunk found, stripping before conversion",
 				Path.GetFileName(inputDff));
 
-		for (var attempt = 0; attempt <= MaxRetries; attempt++)
+			var stripResult = await DffMetadataStripper.StripId3TagsAsync(inputDff, outputDir, ct);
+			if (stripResult.IsError)
+			{
+				// Hard failure, deliberately: falling back to converting the
+				// original ID3-laden file would silently reintroduce the exact
+				// condition under investigation, with no retry loop left to mask it.
+				Telemetry.Error("Saracon.Id3StripFailed input={Input} error={Error}",
+					Path.GetFileName(inputDff), stripResult.Errors[0].Description);
+				return stripResult.Errors;
+			}
+
+			effectiveInput = stripResult.Value;
+			effectiveArgs = BuildD2pArgs(effectiveInput, outputDir, sampleRate, bitDepth, gainDb, extension);
+		}
+
+		var result = await processRunner.RunAsync(
+			binaryPath,
+			effectiveArgs,
+			ct,
+			timeout: DefaultTimeout,
+			onOutputLine: onOutputLine,
+			completionPattern: "100%",
+			completionTimeout: TimeSpan.FromSeconds(10)
+		);
+
+		if (result.IsError)
 		{
-			ct.ThrowIfCancellationRequested();
+			Telemetry.Error("Saracon.ConversionFailed input={Input} error={Error}",
+				Path.GetFileName(inputDff), result.Errors[0].Description);
+			return result.Errors;
+		}
 
-			if (!Directory.Exists(outputDir))
-				Directory.CreateDirectory(outputDir);
+		if (result.Value.ExitCode != 0)
+		{
+			var stderr = result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)];
+			Telemetry.Error("Saracon.ConversionFailed input={Input} exitCode={ExitCode} stderr={Stderr}",
+				Path.GetFileName(inputDff), result.Value.ExitCode, stderr);
+			return Errors.Audio.ConversionFailed(inputDff, $"saracon exit code {result.Value.ExitCode}: {stderr}");
+		}
 
-			var effectiveArgs = args;
-			if (hasId3)
+		// Match against the file Saracon actually converted (post-strip, if
+		// stripping happened) — Saracon names its output from that path, not from
+		// the original disc filename.
+		var baseName = Path.GetFileNameWithoutExtension(effectiveInput);
+		var expectedOutput = Path.Combine(outputDir, baseName + $".{extension}");
+
+		if (!File.Exists(expectedOutput))
+		{
+			// Saracon commonly appends "-d2p" to the output filename — check that
+			// explicit variant. Deliberately not a glob/prefix scan: a glob can
+			// match a stale 0-byte file left behind by an earlier failed attempt in
+			// the same output directory and report false success.
+			var d2pOutput = Path.Combine(outputDir, baseName + $"-d2p.{extension}");
+			if (File.Exists(d2pOutput))
 			{
-				var stripResult = await DffMetadataStripper.StripId3TagsAsync(inputDff, outputDir, ct);
-				if (!stripResult.IsError)
-				{
-					effectiveArgs = BuildD2pArgs(stripResult.Value, outputDir, sampleRate, bitDepth, gainDb, extension);
-				}
-				else
-				{
-					Telemetry.Warn("Saracon.Id3StripFailed input={Input} error={Error}",
-						Path.GetFileName(inputDff), stripResult.Errors[0].Description);
-				}
+				expectedOutput = d2pOutput;
 			}
-
-			var result = await processRunner.RunAsync(
-				binaryPath, 
-				effectiveArgs, 
-				ct, 
-				timeout: DefaultTimeout, 
-				onOutputLine: onOutputLine,
-				completionPattern: "100%",
-				completionTimeout: TimeSpan.FromSeconds(10)
-			);
-			if (result.IsError)
+			else
 			{
-				var error = result.Errors[0];
-				Telemetry.Warn("Saracon.AttemptFailed attempt={Attempt}/{MaxAttempts} input={Input} error={Error}",
-					attempt + 1, MaxRetries + 1, Path.GetFileName(inputDff), error.Description);
-				if (attempt < MaxRetries && IsTransientError(error.Description))
-				{
-					Telemetry.Info("Saracon.Retrying input={Input} reason={Reason} delay={Delay}s",
-						Path.GetFileName(inputDff), error.Description, 2);
-					CleanupLockedFiles(outputDir, Path.GetFileNameWithoutExtension(inputDff));
-					await Task.Delay(TimeSpan.FromSeconds(2), ct);
-					continue;
-				}
-
-				Telemetry.Error("Saracon.ConversionFailed input={Input} attempts={Attempts} finalError={Error}",
-					Path.GetFileName(inputDff), attempt + 1, error.Description);
-				return result.Errors;
-			}
-
-			if (result.Value.ExitCode != 0)
-			{
-				var stderr = result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)];
-				Telemetry.Warn("Saracon.ExitCodeNonZero attempt={Attempt}/{MaxAttempts} input={Input} exitCode={ExitCode} stderr={Stderr}",
-					attempt + 1, MaxRetries + 1, Path.GetFileName(inputDff), result.Value.ExitCode, stderr);
-				if (attempt < MaxRetries && IsCharsetError(stderr))
-				{
-					Telemetry.Info("Saracon.Retrying input={Input} reason=CharsetError delay={Delay}s",
-						Path.GetFileName(inputDff), 2);
-					CleanupLockedFiles(outputDir, Path.GetFileNameWithoutExtension(inputDff));
-					await Task.Delay(TimeSpan.FromSeconds(2), ct);
-					continue;
-				}
-
-				Telemetry.Error("Saracon.ConversionFailed input={Input} exitCode={ExitCode} stderr={Stderr}",
-					Path.GetFileName(inputDff), result.Value.ExitCode, stderr);
-				return Errors.Audio.ConversionFailed(inputDff, $"saracon exit code {result.Value.ExitCode}: {stderr}");
-			}
-
-			var expectedOutput = FindSaraconOutput(outputDir, Path.GetFileNameWithoutExtension(inputDff), extension);
-			if (expectedOutput is null)
+				Telemetry.Error("Saracon.OutputNotFound input={Input} tried={Tried1},{Tried2}",
+					Path.GetFileName(inputDff), Path.GetFileName(expectedOutput), Path.GetFileName(d2pOutput));
 				return Errors.Audio.ConversionFailed(
 					inputDff,
-					$"saracon reported success but no .{extension} output found in {outputDir}"
+					$"saracon reported success but neither {Path.GetFileName(expectedOutput)} nor {Path.GetFileName(d2pOutput)} found in {outputDir}"
 				);
-
-			Telemetry.Debug("Saracon.ConvertComplete output={Output} size={Size}MB",
-				Path.GetFileName(expectedOutput), new FileInfo(expectedOutput).Length / 1_048_576.0);
-
-			return expectedOutput;
+			}
 		}
 
-		return Errors.Audio.ConversionFailed(inputDff, "All retry attempts exhausted");
-	}
-
-	private static string? FindSaraconOutput(string outputDir, string baseName, string extension)
-	{
-		foreach (var file in Directory.GetFiles(outputDir, $"*.{extension}", SearchOption.TopDirectoryOnly))
+		var outputSize = new FileInfo(expectedOutput).Length;
+		var expectedPcmBytes = EstimateExpectedPcmBytes(effectiveInput, sampleRate, bitDepth);
+		if (expectedPcmBytes > 0 && outputSize < expectedPcmBytes / 2)
 		{
-			var nameWithoutExt = Path.GetFileNameWithoutExtension(file);
-			if (nameWithoutExt.StartsWith(baseName, StringComparison.OrdinalIgnoreCase))
-				return file;
+			Telemetry.Warn("Saracon.OutputTooSmall output={Output} size={Size}MB expected~{Expected}MB",
+				Path.GetFileName(expectedOutput), outputSize / 1_048_576.0, expectedPcmBytes / 1_048_576.0);
+			return Errors.Audio.ConversionFailed(inputDff,
+				$"saracon output {Path.GetFileName(expectedOutput)} is {outputSize} bytes — expected ~{expectedPcmBytes} (truncated conversion)");
 		}
 
-		return null;
+		Telemetry.Debug("Saracon.ConvertComplete output={Output} size={Size}MB",
+			Path.GetFileName(expectedOutput), outputSize / 1_048_576.0);
+
+		return expectedOutput;
 	}
 
-	private static bool IsCharsetError(string stderr) =>
-		stderr.Contains("charset", StringComparison.OrdinalIgnoreCase)
-		|| stderr.Contains("encoding", StringComparison.OrdinalIgnoreCase);
-
-	private static bool IsTransientError(string error) =>
-		error.Contains("timed out", StringComparison.OrdinalIgnoreCase)
-		|| error.Contains("charset", StringComparison.OrdinalIgnoreCase)
-		|| error.Contains("encoding", StringComparison.OrdinalIgnoreCase);
-
-	private static void CleanupLockedFiles(string outputDir, string baseName)
+	private static long EstimateExpectedPcmBytes(string dffPath, int sampleRate, int bitDepth)
 	{
 		try
 		{
-			foreach (var ext in new[] { "*.wav", "*.flac" })
+			using var stream = File.OpenRead(dffPath);
+			var magic = new byte[4];
+			stream.ReadExactly(magic, 0, 4);
+			if (System.Text.Encoding.ASCII.GetString(magic) != "FRM8")
+				return 0;
+
+			stream.Seek(16, SeekOrigin.Begin); // skip magic(4) + size(8) + form type(4) = 16
+			long dsdBytes = 0;
+			while (stream.Position < stream.Length - 12)
 			{
-				foreach (var file in Directory.GetFiles(outputDir, ext, SearchOption.TopDirectoryOnly))
-				{
-					if (Path.GetFileNameWithoutExtension(file).StartsWith(baseName, StringComparison.OrdinalIgnoreCase))
-					{
-						try
-						{
-							File.Delete(file);
-						}
-						catch (Exception ex)
-						{
-							Telemetry.Warn("Saracon.CleanupLockedFile failed for {File}: {Error}", file, ex.Message);
-						}
-					}
-				}
+				var idBuf = new byte[4];
+				stream.ReadExactly(idBuf, 0, 4);
+				var id = System.Text.Encoding.ASCII.GetString(idBuf);
+				var sizeBuf = new byte[8];
+				stream.ReadExactly(sizeBuf, 0, 8);
+				var size = System.Buffers.Binary.BinaryPrimitives.ReadUInt64BigEndian(sizeBuf);
+
+				if (id == "DSD ")
+					dsdBytes = (long)size;
+
+				var skip = (long)size;
+				if (skip <= 0) break; // malformed: zero-size chunk mid-walk
+				if (skip % 2 != 0) skip++;
+				if (stream.Position + skip > stream.Length) break; // miscoded size: bound by EOF
+				stream.Seek(skip, SeekOrigin.Current);
 			}
+
+			if (dsdBytes == 0) return 0;
+			// DSD64: bit clock 2822400 Hz → PCM 88.2kHz (decimate by 32)
+			// PCM bytes/sec = (bitClock / 32) * channels * bytesPerSample
+			var durationSeconds = dsdBytes / (2822400.0 / 8.0 * 2); // stereo DSD bytes
+			return (long)(durationSeconds * sampleRate * 2 * (bitDepth / 8.0));
 		}
-		catch (Exception ex)
+		catch
 		{
-			Telemetry.Warn("Saracon.CleanupLockedFiles failed for dir={Dir}: {Error}", outputDir, ex.Message);
+			return 0;
 		}
 	}
 }

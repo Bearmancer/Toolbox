@@ -30,7 +30,11 @@ public static class DffMetadataStripper
 			if (System.Text.Encoding.ASCII.GetString(magicBuf) != "FRM8")
 				return false;
 
-			stream.Seek(12, SeekOrigin.Begin);
+			// DSDIFF header is magic(4) + size(8) + form type(4) = 16 bytes before
+			// the first real chunk. Seeking to 12 (as the pre-merge master version
+			// did) reads the form type ("DSD ") as if it were a chunk ID and
+			// desyncs every chunk boundary after it.
+			stream.Seek(16, SeekOrigin.Begin);
 
 			while (stream.Position < stream.Length - 12)
 			{
@@ -43,15 +47,19 @@ public static class DffMetadataStripper
 					return true;
 
 				var skip = (long)chunkSize;
-				if (skip % 2 != 0)
-					skip++;
+				if (skip <= 0) break; // malformed: zero-size chunk mid-walk
+				if (skip % 2 != 0) skip++;
+				if (stream.Position + skip > stream.Length) break; // miscoded size: bound by EOF
 				stream.Seek(skip, SeekOrigin.Current);
 			}
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Warn("DffMetadataStripper.HasId3Chunk failed for {File}: {Error}", dffPath, ex.Message);
-			return false;
+			// Rethrow deliberately: swallowing here (as the pre-merge master
+			// version did, returning false) would let a corrupt/unreadable DFF
+			// pass through unstripped and straight into Saracon.
+			Telemetry.Error("DffMetadataStripper.HasId3Chunk failed for {File}: {Error}", dffPath, ex.Message);
+			throw;
 		}
 
 		return false;
@@ -111,6 +119,9 @@ public static class DffMetadataStripper
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
+			// Restored: dropped in repro's version, present on master. Without it,
+			// a strip failure deletes the partial file and returns an ErrorOr with
+			// no corresponding log line, which is a gap when diagnosing a failed run.
 			Telemetry.Error("DffMetadataStripper.StripFailed file={File}: {Error}", dffPath, ex.Message);
 			if (File.Exists(cleanPath))
 				File.Delete(cleanPath);

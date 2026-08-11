@@ -16,6 +16,7 @@ public static class AzureCommandModule
 				b.AddCommand<DocIntelCommand>("docintel");
 				b.AddCommand<VisionCommand>("vision");
 				b.AddCommand<SpeechSttCommand>("stt");
+				b.AddCommand<SpeechTtsCommand>("tts");
 				b.AddCommand<NerCommand>("ner");
 				b.AddCommand<PhrasesCommand>("phrases");
 			}

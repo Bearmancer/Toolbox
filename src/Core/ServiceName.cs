@@ -11,6 +11,7 @@ public enum ServiceName
 	Speech,
 	DocIntel,
 	Audio,
+	SdkDiagnostics,
 }
 
 public static class ServiceNameMethods
@@ -29,6 +30,7 @@ public static class ServiceNameMethods
 				ServiceName.Speech => "speech",
 				ServiceName.DocIntel => "docintel",
 				ServiceName.Audio => "audio",
+				ServiceName.SdkDiagnostics => "sdk",
 				_ => throw new ArgumentOutOfRangeException(nameof(s), s, null),
 			};
 	}
