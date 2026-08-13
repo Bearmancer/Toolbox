@@ -14,7 +14,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 		CancellationToken ct
 	)
 	{
-		var results = new List<T>();
+		List<T> results = [];
 		string? pageToken = null;
 		string? previousToken = null;
 		var pageNumber = 0;
@@ -24,7 +24,7 @@ public class YouTubePlaylistService(YouTubeService yt)
 			ct.ThrowIfCancellationRequested();
 			pageNumber++;
 
-			var (items, nextPageToken) = await fetch(pageToken);
+			(IList<T> items, var nextPageToken) = await fetch(pageToken);
 			results.AddRange(items);
 
 			Telemetry.Debug(
@@ -187,8 +187,9 @@ public class YouTubePlaylistService(YouTubeService yt)
 			{
 				request.PageToken = pageToken;
 				PlaylistListResponse response = await request.ExecuteAsync(ct);
-				var mapped = (response.Items ?? [])
-					.Select(playlist =>
+				List<PlaylistSnapshot> mapped =
+				[
+					.. (response.Items ?? []).Select(playlist =>
 					{
 						DateTimeOffset publishedAt = ParsePublishedAt(
 							playlist.Id,
@@ -203,8 +204,8 @@ public class YouTubePlaylistService(YouTubeService yt)
 							ETag = playlist.ETag,
 							ReportedVideoCount = playlist.ContentDetails?.ItemCount ?? 0,
 						};
-					})
-					.ToList();
+					}),
+				];
 				return ((IList<PlaylistSnapshot>)mapped, response.NextPageToken);
 			},
 			ct

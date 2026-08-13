@@ -21,7 +21,7 @@ public class TranslateService(TextTranslationClient client)
 
 		try
 		{
-			var oversized = texts.Where(t => t.Length > MaxChars).ToList();
+			List<string> oversized = [.. texts.Where(t => t.Length > MaxChars)];
 			if (oversized.Count > 0)
 				return Errors.Translate.ApiError(
 					$"Batch contains {oversized.Count} texts exceeding {MaxChars} chars"
@@ -33,7 +33,7 @@ public class TranslateService(TextTranslationClient client)
 				cancellationToken: ct
 			);
 
-			List<TranslationResult> results = new(texts.Count);
+			List<TranslationResult> results = [];
 			foreach (TranslatedTextItem item in response.Value)
 			{
 				var detected = item.DetectedLanguage?.Language ?? "unknown";
@@ -68,7 +68,7 @@ public class TranslateService(TextTranslationClient client)
 
 		try
 		{
-			var response = await client.TransliterateAsync(
+			Response<IReadOnlyList<TransliteratedText>> response = await client.TransliterateAsync(
 				language,
 				fromScript,
 				toScript,
@@ -76,7 +76,7 @@ public class TranslateService(TextTranslationClient client)
 				cancellationToken: ct
 			);
 
-			var results = new List<string>(response.Value.Select(item => item.Text));
+			List<string> results = [.. response.Value.Select(item => item.Text)];
 			return results;
 		}
 		catch (Exception ex)

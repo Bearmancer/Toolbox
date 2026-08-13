@@ -47,7 +47,7 @@ internal static class Program
 
 		Trace.Listeners.Add(new SerilogTraceListener());
 
-		var logLevel =
+		LogEventLevel logLevel =
 			args.Contains("--verbose") ? LogEventLevel.Verbose
 			: args.Contains("--debug") ? LogEventLevel.Debug
 			: LogEventLevel.Information;
@@ -57,18 +57,18 @@ internal static class Program
 		var commandArgs = args.Where(a => a is not "--verbose" and not "--debug").ToArray();
 
 		var enableDiagnostics = logLevel <= LogEventLevel.Debug;
-		using var azureListener = enableDiagnostics
-			? new AzureSdkEventListener(EventLevel.Verbose)
+		using AzureSdkEventListener? azureListener = enableDiagnostics
+			? new(EventLevel.Verbose)
 			: null;
-		using var clientModelListener = enableDiagnostics
-			? new ClientModelEventListener(EventLevel.Verbose)
+		using ClientModelEventListener? clientModelListener = enableDiagnostics
+			? new(EventLevel.Verbose)
 			: null;
-		using var speechListener = enableDiagnostics
-			? new SpeechSdkEventListener(LogEventLevel.Debug)
+		using SpeechSdkEventListener? speechListener = enableDiagnostics
+			? new(LogEventLevel.Debug)
 			: null;
 		speechListener?.Activate();
 
-		var services = new ServiceCollection();
+		ServiceCollection services = new();
 
 		var isAudioOnly = commandArgs.Contains("audio");
 
@@ -99,8 +99,8 @@ internal static class Program
 			return 2;
 		}
 
-		var registrar = new TypeRegistrar(services);
-		var toolbox = new CommandApp(registrar);
+		TypeRegistrar registrar = new(services);
+		CommandApp toolbox = new(registrar);
 
 		toolbox.Configure(cfg =>
 		{
@@ -112,7 +112,7 @@ internal static class Program
 			AudioCommandModule.ConfigureCommands(cfg);
 		});
 
-		using var appCts = new CancellationTokenSource();
+		using CancellationTokenSource appCts = new();
 		Console.CancelKeyPress += (_, e) =>
 		{
 			e.Cancel = true;

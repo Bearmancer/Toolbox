@@ -64,12 +64,12 @@ public class DashboardService
 		Dictionary<string, IReadOnlyList<YouTubeVideo>>
 	> LoadVideosByPlaylistAsync(IReadOnlyList<PlaylistSnapshot> playlists, CancellationToken ct)
 	{
-		var result = new Dictionary<string, IReadOnlyList<YouTubeVideo>>();
+		Dictionary<string, IReadOnlyList<YouTubeVideo>> result = [];
 
 		if (!Directory.Exists(ProcessedDir))
 			return result;
 
-		var reverseLookup = new Dictionary<string, string>();
+		Dictionary<string, string> reverseLookup = [];
 		foreach (PlaylistSnapshot p in playlists)
 			reverseLookup.TryAdd(Text.SanitizeFileName(p.Title), p.Title);
 

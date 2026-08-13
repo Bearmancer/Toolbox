@@ -42,7 +42,7 @@ public class VisionService(ImageAnalysisClient client)
 			);
 			activity.Complete();
 
-			var sb = new StringBuilder();
+			StringBuilder sb = new();
 			if (feature is "tags" or "all" && result.Value.Tags is { } tags)
 			{
 				sb.AppendLine("Tags:");

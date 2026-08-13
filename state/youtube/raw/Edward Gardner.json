@@ -1,587 +1,587 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "tFdXn1osisE",
-      "VideoPublishedAtRaw": "2024-01-29T11:53:11Z",
-      "VideoPublishedAtDateTimeOffset": "2024-01-29T11:53:11+00:00",
-      "VideoPublishedAt": "2024-01-29T17:23:11+05:30"
-    },
-    "ETag": "l6p1bMFBI2h6zX3IQ8wuf2mnNNQ",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Symphony No 2 by Sir Michael Tippett, by arrangement with Schott Music Ltd.\n\nPerformed by the Academy Symphony Orchestra\nEdward Gardner - conductor\n\nThe Academy\u0027s Sir Charles Mackerras Chair of Conducting, Edward Gardner, leads the Academy Symphony Orchestra in a performance of Tippett\u0027s Second Symphony.\n\nRecorded live at the Duke\u2019s Hall, Royal Academy of Music, London, on 15 October 2021. With thanks to the Michael Tippett Musical Foundation\u0027s support.",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 0,
-      "PublishedAtRaw": "2024-10-30T11:36:28Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:36:28+00:00",
-      "PublishedAt": "2024-10-30T17:06:28+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "tFdXn1osisE"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/tFdXn1osisE/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/tFdXn1osisE/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/tFdXn1osisE/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/tFdXn1osisE/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/tFdXn1osisE/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Academy Symphony Orchestra performs Tippett\u0027s Symphony No 2 conducted by Edward Gardner",
-      "VideoOwnerChannelId": "UCasi3JnYYVlEfJqIgqj92hg",
-      "VideoOwnerChannelTitle": "Royal Academy of Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "GzXsudCTblA",
-      "VideoPublishedAtRaw": "2013-02-22T18:37:34Z",
-      "VideoPublishedAtDateTimeOffset": "2013-02-22T18:37:34+00:00",
-      "VideoPublishedAt": "2013-02-23T00:07:34+05:30"
-    },
-    "ETag": "SQvETgUvPGMfPx89iD3Qxc41wUc",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi5GNjNDRDREMDQxOThCMDQ2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Meer klassiek op http://klassiek.avro.nl en http://www.hetzondagochtendconcert.nl\n\nBrahms: Eerste symfonie in c, op. 68\n- Un poco sostenuto. Allegro\n- Andante sostenuto\n- Un poco allegretto e grazioso\n- Adagio, piu andante, Allegro non troppo ma con brio\n \nRadio Filharmonisch Orkest o.l.v. Edward Gardner\n\nOpgenomen zondag 17 januari 2010 in de Grote Zaal van het Concertgebouw in Amsterdam.\n\n/\n\nMore classical music on http://klassiek.avro.nl and http://www.hetzondagochtendconcert.nl\n\nBrahms: Symphony No. 1 in C minor, op. 68\n- Un poco sostenuto. Allegro\n- Andante sostenuto\n- Un poco allegretto e grazioso\n- Adagio, piu andante, Allegro non troppo ma con brio\n\nRadio Filharmonisch Orkest conducted by Edward Gardner\n\nRecorded the 17th of January 2010, Concertgebouw, Amsterdam.",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 1,
-      "PublishedAtRaw": "2024-10-30T11:38:32Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:38:32+00:00",
-      "PublishedAt": "2024-10-30T17:08:32+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "GzXsudCTblA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/GzXsudCTblA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/GzXsudCTblA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/GzXsudCTblA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/GzXsudCTblA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/GzXsudCTblA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Brahms: Eerste symfonie in c, op. 68 - Radio Filharmonisch Orkest - Edward Gardner - Live concert",
-      "VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
-      "VideoOwnerChannelTitle": "AVROTROS Klassiek"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "l-6z-ow6H1c",
-      "VideoPublishedAtRaw": "2020-07-22T20:27:29Z",
-      "VideoPublishedAtDateTimeOffset": "2020-07-22T20:27:29+00:00",
-      "VideoPublishedAt": "2020-07-23T01:57:29+05:30"
-    },
-    "ETag": "B7sw9u0v1WMvDV7S1hbVedBHYv8",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "An intricate tapestry of sound, with bright vocal threads and driving brass and percussion rhythms. Featuring the BBC Proms Youth Choir.\n\nConductor - Edward Gardner\nOrchestra - BBC Symphony Orchestra\nChoir - BBC Symphony Chorus and BBC Proms Youth Choir",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 2,
-      "PublishedAtRaw": "2024-10-30T11:37:27Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:37:27+00:00",
-      "PublishedAt": "2024-10-30T17:07:27+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "l-6z-ow6H1c"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/l-6z-ow6H1c/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/l-6z-ow6H1c/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/l-6z-ow6H1c/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "John Adams - Harmonium - BBC Proms 2017",
-      "VideoOwnerChannelId": "UCwdqFtqKFyDAZQEXFFPvS1g",
-      "VideoOwnerChannelTitle": "tromboneflyguy"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "8yE3Dz0-koA",
-      "VideoPublishedAtRaw": "2011-09-12T16:51:36Z",
-      "VideoPublishedAtDateTimeOffset": "2011-09-12T16:51:36+00:00",
-      "VideoPublishedAt": "2011-09-12T22:21:36+05:30"
-    },
-    "ETag": "o1KBuxoZOif47oUNV11iAEb4JT8",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi40NzZCMERDMjVEN0RFRThB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Lang Lang performs Liszt Piano Concerto No. 1 in E flat major during Last Night Proms 2011 inside the Royal Albert Hall.  Edward Gardner conducts the BBC Symphony Orchestra.",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 3,
-      "PublishedAtRaw": "2024-10-30T11:38:38Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:38:38+00:00",
-      "PublishedAt": "2024-10-30T17:08:38+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "8yE3Dz0-koA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Lang Lang - Last Night Proms 2011 - Liszt Piano Concerto No. 1 in E flat major",
-      "VideoOwnerChannelId": "UCVXwZPvZSnh-zXn72_Db3gg",
-      "VideoOwnerChannelTitle": "RupertJones"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "cXQ1fgmUIPY",
-      "VideoPublishedAtRaw": "2015-10-07T15:41:53Z",
-      "VideoPublishedAtDateTimeOffset": "2015-10-07T15:41:53+00:00",
-      "VideoPublishedAt": "2015-10-07T21:11:53+05:30"
-    },
-    "ETag": "o9nAmJRAM65wMuglvmQbj9cEuNM",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4xMkVGQjNCMUM1N0RFNEUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Witold Lutos\u0142awski: \nKonzert f\u00FCr Orchester \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Intrada. Allegro maestoso 00:18 \u2219\nII. Capriccio Notturno e Arioso. Vivace  07:25 \u2219\nIII. Passacaglia, Toccata e Corale.  Andante con moto \u2013 Allegro giusto  13:37 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 4,
-      "PublishedAtRaw": "2024-10-30T11:38:00Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:38:00+00:00",
-      "PublishedAt": "2024-10-30T17:08:00+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "cXQ1fgmUIPY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Lutos\u0142awski: Konzert f\u00FCr Orchester \u2219 hr-Sinfonieorchester \u2219 Edward Gardner",
-      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "nfhaD7nZ3-0",
-      "VideoPublishedAtRaw": "2019-06-06T18:00:07Z",
-      "VideoPublishedAtDateTimeOffset": "2019-06-06T18:00:07+00:00",
-      "VideoPublishedAt": "2019-06-06T23:30:07+05:30"
-    },
-    "ETag": "T6QuK3E5GZn58qwcsGVx1y3Pz0Q",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi41MjE1MkI0OTQ2QzJGNzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Felix Mendelssohn Bartholdys Suite aus der Musik zu Shakespeares Schauspiel \u0022Ein Sommernachtstraum\u0022 op. 61 wird gespielt vom WDR Sinfonieorchester unter der Leitung von Edward Gardner. Eine Aufzeichnung vom 21. September 2018 aus der K\u00F6lner Philharmonie.\n\nFelix Mendelssohn Bartholdy - Ein Sommernachtstraum op. 61\n\n00:00:00 B\u00FChnenaufgang\n00:00:28 I. Ouverture. Allegro di molto \n00:12:26 II. Scherzo. Allegro vivace \n00:17:11 III. Notturno. Con moto tranquillo\n00:23:06 IV. Intermezzo. Allegro appassionato\n00:26:52 V. Hochzeitsmarsch. Allegro vivace \n\nWDR Sinfonieorchester\nEdward Gardner, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://www.wdr-sinfonieorchester.de\n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung:\nMit nur 17 Jahren gelingt Felix Mendelssohn Bartholdy mit seiner \u0022Sommernachtstraum\u0022-Ouvert\u00FCre ein Geniestreich. In kurzer Zeit erobert sie die Welt und gilt seither als perfekte musikalische Entsprechung zu Shakespeares Verwechslungskom\u00F6die. 17 Jahre sp\u00E4ter erg\u00E4nzt Mendelssohn die Ouvert\u00FCre durch Lieder, Chornummern und Intermezzi zur vollst\u00E4ndigen Schauspielmusik. Und auch die wird ein gro\u00DFer Erfolg: Der weltber\u00FChmte \u0022Hochzeitsmarsch\u0022 ist eines der absoluten Highlights der klassischen Musik \u2013 auch ohne den Elfenk\u00F6nig Oberon, die Feenk\u00F6nigin Titania, Puck und all die anderen geheimnisvollen M\u00E4rchenwesen. \nFranz Liszt lobte den \u0022Regenbogenduft\u0022 und den \u0022Perlmuttschimmer\u0022 der Musik. Die Textgrundlage von William Shakespeare und die Musik von Mendelssohn gehen eine besondere Symbiose ein. Doch was bezauberte den jungen Komponisten an dieser Geschichte, die immerhin \u00FCber 200 Jahre vor seiner Geburt entstanden ist? Erst zu Beginn des 19. Jahrhunderts gab es \u00FCberhaupt eine veritable Shakespeare-\u00DCbersetzung, und zwar die von August Wilhelm Schlegel. Nicht nur Felix, auch seine Geschwister begeisterten sich f\u00FCr den \u0022Sommernachtstraum\u0022, da hier wie in kaum einer anderen Dichtung das Ideal der Romantik zum Ausdruck kommt \u2013 mit seiner zauberhaften Welt zwischen Nacht und Wald. Der m\u00E4rchenhafte Stoff \u00FCbte auf die Kinder der Familie Mendelssohn eine ganz eigene Faszination aus. Im Gartenhaus der Familie verbanden sich Natur und Poesie in Form von Spielen, Verkleidungen und kleinen Auff\u00FChrungen, mit denen die jungen Leute ihrer Phantasie freien Lauf lassen konnten. Die Unbeschwertheit jener Zeit ist der Musik anzuh\u00F6ren.\nDer Auftrag f\u00FCr die Schauspielmusik kam von K\u00F6nig Wilhelm IV. von Preu\u00DFen. Er hatte bei Mendelssohn eine ganze Serie von Schauspielmusiken geordert, die im Schlosstheater des Neuen Palais in Potsdam aufgef\u00FChrt werden sollten. Neben dem festlich-pomp\u00F6sen \u0022Hochzeitsmarsch\u0022 z\u00E4hlen auch die beiden Nachtst\u00FCcke, n\u00E4mlich das treibende Intermezzo und das ruhige Notturno mit seinem von Horn und Fagotten gespielten Waldesklang (zu dieser Musik fallen die Elfenk\u00F6nigin und ihr Geliebter, der in einen Esel verwandelte Tischler Zettel, in den Schlaf), zu den bekanntesten S\u00E4tzen des \u0022Sommernachtstraums\u0022. Mit der Ouvert\u00FCre war dem 17-j\u00E4hrigen Mendelssohn ein Geniestreich gelungen. 16 Jahre sp\u00E4ter kn\u00FCpft er mit dem Auftrag f\u00FCr die B\u00FChnenmusik zu Shakespeares Theaterst\u00FCck scheinbar nahtlos an den damaligen Erfolg an und f\u00E4ngt die unvergleichliche Atmosph\u00E4re der Ouvert\u00FCre in den zus\u00E4tzlich komponierten Liedern, Zwischenspielen und verschiedenen anderen kleinen Nummern auf.\n(Text: Anja Renczikowski)",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 5,
-      "PublishedAtRaw": "2024-10-30T11:37:37Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:37:37+00:00",
-      "PublishedAt": "2024-10-30T17:07:37+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "nfhaD7nZ3-0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mendelssohn - Sommernachtstraum-Suite | Edward Gardner | WDR Sinfonieorchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "_4Hw9L0lvzk",
-      "VideoPublishedAtRaw": "2020-09-07T19:12:41Z",
-      "VideoPublishedAtDateTimeOffset": "2020-09-07T19:12:41+00:00",
-      "VideoPublishedAt": "2020-09-08T00:42:41+05:30"
-    },
-    "ETag": "-QtCEA1MB2u2TrhQtZQJ3bJBuLY",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Ryoma Takagi (25) from Japan is the winner of the 1st Prize in the International Edvard Grieg Piano Competition 2018. Together with Bergen Philharmonic Orchestra and conductor Edward Gardner, Takagi performed the Piano Concerto No. 2 in C minor, Op. 18 by Sergei Rachmaninov.\n\nThere have been 3 popular song themes that were lifted from Rachmaninov\u0027s Concerto.\n1. Eric Carmen \u201CAll By Myself - 2nd. Movement \n2. \u201CI Think Of You\u201D. Sinatra. (https://www.youtube.com/watch?v=fziOhukjpkc) 1st. Movement\n3. \u201CFull Moon and Empty Arms\u201D. Sinatra. (https://www.youtube.com/watch?v=dKsdCtsRczY\u0026app=desktop) 3rd. Movement",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 6,
-      "PublishedAtRaw": "2024-10-30T11:37:18Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:37:18+00:00",
-      "PublishedAt": "2024-10-30T17:07:18+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "_4Hw9L0lvzk"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Rachmaninov: Piano Concerto No. 2 ~ Ryoma Takagi  Bergen Philharmonic Orchestra",
-      "VideoOwnerChannelId": "UCnueNY0E-QodiHAnQ2HHNJw",
-      "VideoOwnerChannelTitle": "GreatPerformers1"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "FcRn_2DgPlA",
-      "VideoPublishedAtRaw": "2015-10-07T15:37:09Z",
-      "VideoPublishedAtDateTimeOffset": "2015-10-07T15:37:09+00:00",
-      "VideoPublishedAt": "2015-10-07T21:07:09+05:30"
-    },
-    "ETag": "xZwF5g7OREDysDI1LlnX4jkPU3w",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi5DQUNERDQ2NkIzRUQxNTY1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Sergej Rachmaninow: \nDie Toteninsel \u2219 \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 7,
-      "PublishedAtRaw": "2024-10-30T11:38:10Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:38:10+00:00",
-      "PublishedAt": "2024-10-30T17:08:10+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "FcRn_2DgPlA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Rachmaninow: Die Toteninsel \u2219 hr-Sinfonieorchester \u2219 Edward Gardner",
-      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "ysgdl4AWGc8",
-      "VideoPublishedAtRaw": "2015-10-07T15:37:56Z",
-      "VideoPublishedAtDateTimeOffset": "2015-10-07T15:37:56+00:00",
-      "VideoPublishedAt": "2015-10-07T21:07:56+05:30"
-    },
-    "ETag": "EmZeOMDXFmRGNNomvd7yLc1rZFQ",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Sergej Rachmaninow: \nRhapsodie \u00FCber ein Thema von Paganini \u2219 \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKirill Gerstein, Klavier \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 8,
-      "PublishedAtRaw": "2024-10-30T11:38:05Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:38:05+00:00",
-      "PublishedAt": "2024-10-30T17:08:05+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "ysgdl4AWGc8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Rachmaninow: Rhapsodie \u00FCber ein Thema von Paganini \u2219 hr-Sinfonieorchester \u2219 Gerstein \u2219 Gardner",
-      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "UIbEoC_5rIM",
-      "VideoPublishedAtRaw": "2017-03-06T07:18:42Z",
-      "VideoPublishedAtDateTimeOffset": "2017-03-06T07:18:42+00:00",
-      "VideoPublishedAt": "2017-03-06T12:48:42+05:30"
-    },
-    "ETag": "j_a6sq4SozgSiSRCuVCRJzC-yJA",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Bergen Philharmonic Orchestra\nEdward Gardner, conductor\nAh Ruem Ahn, piano\n\nSep.2016",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 9,
-      "PublishedAtRaw": "2024-10-30T11:37:46Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:37:46+00:00",
-      "PublishedAt": "2024-10-30T17:07:46+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "UIbEoC_5rIM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schumann Piano Concerto Ah Ruem Ahn, Edward Gardner, Bergen Philharmonic",
-      "VideoOwnerChannelId": "UC_Y8-J_S59ECOjmH2jpO5YA",
-      "VideoOwnerChannelTitle": "Ah Ruem Ahn"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "qWCfI17QyXw",
-      "VideoPublishedAtRaw": "2015-06-05T00:06:24Z",
-      "VideoPublishedAtDateTimeOffset": "2015-06-05T00:06:24+00:00",
-      "VideoPublishedAt": "2015-06-05T05:36:24+05:30"
-    },
-    "ETag": "ITpqNGFKudt3ugjHrtQNKYOfkTE",
-    "Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi45NDk1REZENzhEMzU5MDQz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nDmitri Shostakovich\nSymphony No 5 in D minor, Op 47\n\nBBC Symphony Orchestra\nEdward Gardner\n\nLondon, Proms 2010",
-      "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
-      "Position": 10,
-      "PublishedAtRaw": "2024-10-30T11:38:23Z",
-      "PublishedAtDateTimeOffset": "2024-10-30T11:38:23+00:00",
-      "PublishedAt": "2024-10-30T17:08:23+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "qWCfI17QyXw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/qWCfI17QyXw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/qWCfI17QyXw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/qWCfI17QyXw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/qWCfI17QyXw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/qWCfI17QyXw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Shostakovich - Symphony No 5 - Gardner",
-      "VideoOwnerChannelId": "UC9UkGZY5ezEfdBUG5wgZDdA",
-      "VideoOwnerChannelTitle": "Cantus 5"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "tFdXn1osisE",
+			"VideoPublishedAtRaw": "2024-01-29T11:53:11Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-29T11:53:11+00:00",
+			"VideoPublishedAt": "2024-01-29T17:23:11+05:30"
+		},
+		"ETag": "l6p1bMFBI2h6zX3IQ8wuf2mnNNQ",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Symphony No 2 by Sir Michael Tippett, by arrangement with Schott Music Ltd.\n\nPerformed by the Academy Symphony Orchestra\nEdward Gardner - conductor\n\nThe Academy\u0027s Sir Charles Mackerras Chair of Conducting, Edward Gardner, leads the Academy Symphony Orchestra in a performance of Tippett\u0027s Second Symphony.\n\nRecorded live at the Duke\u2019s Hall, Royal Academy of Music, London, on 15 October 2021. With thanks to the Michael Tippett Musical Foundation\u0027s support.",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 0,
+			"PublishedAtRaw": "2024-10-30T11:36:28Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:36:28+00:00",
+			"PublishedAt": "2024-10-30T17:06:28+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tFdXn1osisE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tFdXn1osisE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tFdXn1osisE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tFdXn1osisE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tFdXn1osisE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tFdXn1osisE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Academy Symphony Orchestra performs Tippett\u0027s Symphony No 2 conducted by Edward Gardner",
+			"VideoOwnerChannelId": "UCasi3JnYYVlEfJqIgqj92hg",
+			"VideoOwnerChannelTitle": "Royal Academy of Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "GzXsudCTblA",
+			"VideoPublishedAtRaw": "2013-02-22T18:37:34Z",
+			"VideoPublishedAtDateTimeOffset": "2013-02-22T18:37:34+00:00",
+			"VideoPublishedAt": "2013-02-23T00:07:34+05:30"
+		},
+		"ETag": "SQvETgUvPGMfPx89iD3Qxc41wUc",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Meer klassiek op http://klassiek.avro.nl en http://www.hetzondagochtendconcert.nl\n\nBrahms: Eerste symfonie in c, op. 68\n- Un poco sostenuto. Allegro\n- Andante sostenuto\n- Un poco allegretto e grazioso\n- Adagio, piu andante, Allegro non troppo ma con brio\n \nRadio Filharmonisch Orkest o.l.v. Edward Gardner\n\nOpgenomen zondag 17 januari 2010 in de Grote Zaal van het Concertgebouw in Amsterdam.\n\n/\n\nMore classical music on http://klassiek.avro.nl and http://www.hetzondagochtendconcert.nl\n\nBrahms: Symphony No. 1 in C minor, op. 68\n- Un poco sostenuto. Allegro\n- Andante sostenuto\n- Un poco allegretto e grazioso\n- Adagio, piu andante, Allegro non troppo ma con brio\n\nRadio Filharmonisch Orkest conducted by Edward Gardner\n\nRecorded the 17th of January 2010, Concertgebouw, Amsterdam.",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 1,
+			"PublishedAtRaw": "2024-10-30T11:38:32Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:38:32+00:00",
+			"PublishedAt": "2024-10-30T17:08:32+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "GzXsudCTblA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/GzXsudCTblA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/GzXsudCTblA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/GzXsudCTblA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/GzXsudCTblA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/GzXsudCTblA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms: Eerste symfonie in c, op. 68 - Radio Filharmonisch Orkest - Edward Gardner - Live concert",
+			"VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
+			"VideoOwnerChannelTitle": "AVROTROS Klassiek"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "l-6z-ow6H1c",
+			"VideoPublishedAtRaw": "2020-07-22T20:27:29Z",
+			"VideoPublishedAtDateTimeOffset": "2020-07-22T20:27:29+00:00",
+			"VideoPublishedAt": "2020-07-23T01:57:29+05:30"
+		},
+		"ETag": "B7sw9u0v1WMvDV7S1hbVedBHYv8",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "An intricate tapestry of sound, with bright vocal threads and driving brass and percussion rhythms. Featuring the BBC Proms Youth Choir.\n\nConductor - Edward Gardner\nOrchestra - BBC Symphony Orchestra\nChoir - BBC Symphony Chorus and BBC Proms Youth Choir",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 2,
+			"PublishedAtRaw": "2024-10-30T11:37:27Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:37:27+00:00",
+			"PublishedAt": "2024-10-30T17:07:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "l-6z-ow6H1c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/l-6z-ow6H1c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/l-6z-ow6H1c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/l-6z-ow6H1c/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "John Adams - Harmonium - BBC Proms 2017",
+			"VideoOwnerChannelId": "UCwdqFtqKFyDAZQEXFFPvS1g",
+			"VideoOwnerChannelTitle": "tromboneflyguy"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8yE3Dz0-koA",
+			"VideoPublishedAtRaw": "2011-09-12T16:51:36Z",
+			"VideoPublishedAtDateTimeOffset": "2011-09-12T16:51:36+00:00",
+			"VideoPublishedAt": "2011-09-12T22:21:36+05:30"
+		},
+		"ETag": "o1KBuxoZOif47oUNV11iAEb4JT8",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Lang Lang performs Liszt Piano Concerto No. 1 in E flat major during Last Night Proms 2011 inside the Royal Albert Hall.  Edward Gardner conducts the BBC Symphony Orchestra.",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 3,
+			"PublishedAtRaw": "2024-10-30T11:38:38Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:38:38+00:00",
+			"PublishedAt": "2024-10-30T17:08:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8yE3Dz0-koA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8yE3Dz0-koA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Lang Lang - Last Night Proms 2011 - Liszt Piano Concerto No. 1 in E flat major",
+			"VideoOwnerChannelId": "UCVXwZPvZSnh-zXn72_Db3gg",
+			"VideoOwnerChannelTitle": "RupertJones"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "cXQ1fgmUIPY",
+			"VideoPublishedAtRaw": "2015-10-07T15:41:53Z",
+			"VideoPublishedAtDateTimeOffset": "2015-10-07T15:41:53+00:00",
+			"VideoPublishedAt": "2015-10-07T21:11:53+05:30"
+		},
+		"ETag": "o9nAmJRAM65wMuglvmQbj9cEuNM",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Witold Lutos\u0142awski: \nKonzert f\u00FCr Orchester \u2219 \n\n(Auftritt)  00:00 \u2219\nI. Intrada. Allegro maestoso 00:18 \u2219\nII. Capriccio Notturno e Arioso. Vivace  07:25 \u2219\nIII. Passacaglia, Toccata e Corale.  Andante con moto \u2013 Allegro giusto  13:37 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 4,
+			"PublishedAtRaw": "2024-10-30T11:38:00Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:38:00+00:00",
+			"PublishedAt": "2024-10-30T17:08:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "cXQ1fgmUIPY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/cXQ1fgmUIPY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Lutos\u0142awski: Konzert f\u00FCr Orchester \u2219 hr-Sinfonieorchester \u2219 Edward Gardner",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "nfhaD7nZ3-0",
+			"VideoPublishedAtRaw": "2019-06-06T18:00:07Z",
+			"VideoPublishedAtDateTimeOffset": "2019-06-06T18:00:07+00:00",
+			"VideoPublishedAt": "2019-06-06T23:30:07+05:30"
+		},
+		"ETag": "T6QuK3E5GZn58qwcsGVx1y3Pz0Q",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Felix Mendelssohn Bartholdys Suite aus der Musik zu Shakespeares Schauspiel \u0022Ein Sommernachtstraum\u0022 op. 61 wird gespielt vom WDR Sinfonieorchester unter der Leitung von Edward Gardner. Eine Aufzeichnung vom 21. September 2018 aus der K\u00F6lner Philharmonie.\n\nFelix Mendelssohn Bartholdy - Ein Sommernachtstraum op. 61\n\n00:00:00 B\u00FChnenaufgang\n00:00:28 I. Ouverture. Allegro di molto \n00:12:26 II. Scherzo. Allegro vivace \n00:17:11 III. Notturno. Con moto tranquillo\n00:23:06 IV. Intermezzo. Allegro appassionato\n00:26:52 V. Hochzeitsmarsch. Allegro vivace \n\nWDR Sinfonieorchester\nEdward Gardner, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://www.wdr-sinfonieorchester.de\n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik \n\nWerkeinf\u00FChrung:\nMit nur 17 Jahren gelingt Felix Mendelssohn Bartholdy mit seiner \u0022Sommernachtstraum\u0022-Ouvert\u00FCre ein Geniestreich. In kurzer Zeit erobert sie die Welt und gilt seither als perfekte musikalische Entsprechung zu Shakespeares Verwechslungskom\u00F6die. 17 Jahre sp\u00E4ter erg\u00E4nzt Mendelssohn die Ouvert\u00FCre durch Lieder, Chornummern und Intermezzi zur vollst\u00E4ndigen Schauspielmusik. Und auch die wird ein gro\u00DFer Erfolg: Der weltber\u00FChmte \u0022Hochzeitsmarsch\u0022 ist eines der absoluten Highlights der klassischen Musik \u2013 auch ohne den Elfenk\u00F6nig Oberon, die Feenk\u00F6nigin Titania, Puck und all die anderen geheimnisvollen M\u00E4rchenwesen. \nFranz Liszt lobte den \u0022Regenbogenduft\u0022 und den \u0022Perlmuttschimmer\u0022 der Musik. Die Textgrundlage von William Shakespeare und die Musik von Mendelssohn gehen eine besondere Symbiose ein. Doch was bezauberte den jungen Komponisten an dieser Geschichte, die immerhin \u00FCber 200 Jahre vor seiner Geburt entstanden ist? Erst zu Beginn des 19. Jahrhunderts gab es \u00FCberhaupt eine veritable Shakespeare-\u00DCbersetzung, und zwar die von August Wilhelm Schlegel. Nicht nur Felix, auch seine Geschwister begeisterten sich f\u00FCr den \u0022Sommernachtstraum\u0022, da hier wie in kaum einer anderen Dichtung das Ideal der Romantik zum Ausdruck kommt \u2013 mit seiner zauberhaften Welt zwischen Nacht und Wald. Der m\u00E4rchenhafte Stoff \u00FCbte auf die Kinder der Familie Mendelssohn eine ganz eigene Faszination aus. Im Gartenhaus der Familie verbanden sich Natur und Poesie in Form von Spielen, Verkleidungen und kleinen Auff\u00FChrungen, mit denen die jungen Leute ihrer Phantasie freien Lauf lassen konnten. Die Unbeschwertheit jener Zeit ist der Musik anzuh\u00F6ren.\nDer Auftrag f\u00FCr die Schauspielmusik kam von K\u00F6nig Wilhelm IV. von Preu\u00DFen. Er hatte bei Mendelssohn eine ganze Serie von Schauspielmusiken geordert, die im Schlosstheater des Neuen Palais in Potsdam aufgef\u00FChrt werden sollten. Neben dem festlich-pomp\u00F6sen \u0022Hochzeitsmarsch\u0022 z\u00E4hlen auch die beiden Nachtst\u00FCcke, n\u00E4mlich das treibende Intermezzo und das ruhige Notturno mit seinem von Horn und Fagotten gespielten Waldesklang (zu dieser Musik fallen die Elfenk\u00F6nigin und ihr Geliebter, der in einen Esel verwandelte Tischler Zettel, in den Schlaf), zu den bekanntesten S\u00E4tzen des \u0022Sommernachtstraums\u0022. Mit der Ouvert\u00FCre war dem 17-j\u00E4hrigen Mendelssohn ein Geniestreich gelungen. 16 Jahre sp\u00E4ter kn\u00FCpft er mit dem Auftrag f\u00FCr die B\u00FChnenmusik zu Shakespeares Theaterst\u00FCck scheinbar nahtlos an den damaligen Erfolg an und f\u00E4ngt die unvergleichliche Atmosph\u00E4re der Ouvert\u00FCre in den zus\u00E4tzlich komponierten Liedern, Zwischenspielen und verschiedenen anderen kleinen Nummern auf.\n(Text: Anja Renczikowski)",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 5,
+			"PublishedAtRaw": "2024-10-30T11:37:37Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:37:37+00:00",
+			"PublishedAt": "2024-10-30T17:07:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "nfhaD7nZ3-0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/nfhaD7nZ3-0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn - Sommernachtstraum-Suite | Edward Gardner | WDR Sinfonieorchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_4Hw9L0lvzk",
+			"VideoPublishedAtRaw": "2020-09-07T19:12:41Z",
+			"VideoPublishedAtDateTimeOffset": "2020-09-07T19:12:41+00:00",
+			"VideoPublishedAt": "2020-09-08T00:42:41+05:30"
+		},
+		"ETag": "-QtCEA1MB2u2TrhQtZQJ3bJBuLY",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Ryoma Takagi (25) from Japan is the winner of the 1st Prize in the International Edvard Grieg Piano Competition 2018. Together with Bergen Philharmonic Orchestra and conductor Edward Gardner, Takagi performed the Piano Concerto No. 2 in C minor, Op. 18 by Sergei Rachmaninov.\n\nThere have been 3 popular song themes that were lifted from Rachmaninov\u0027s Concerto.\n1. Eric Carmen \u201CAll By Myself - 2nd. Movement \n2. \u201CI Think Of You\u201D. Sinatra. (https://www.youtube.com/watch?v=fziOhukjpkc) 1st. Movement\n3. \u201CFull Moon and Empty Arms\u201D. Sinatra. (https://www.youtube.com/watch?v=dKsdCtsRczY\u0026app=desktop) 3rd. Movement",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 6,
+			"PublishedAtRaw": "2024-10-30T11:37:18Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:37:18+00:00",
+			"PublishedAt": "2024-10-30T17:07:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_4Hw9L0lvzk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_4Hw9L0lvzk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Rachmaninov: Piano Concerto No. 2 ~ Ryoma Takagi  Bergen Philharmonic Orchestra",
+			"VideoOwnerChannelId": "UCnueNY0E-QodiHAnQ2HHNJw",
+			"VideoOwnerChannelTitle": "GreatPerformers1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "FcRn_2DgPlA",
+			"VideoPublishedAtRaw": "2015-10-07T15:37:09Z",
+			"VideoPublishedAtDateTimeOffset": "2015-10-07T15:37:09+00:00",
+			"VideoPublishedAt": "2015-10-07T21:07:09+05:30"
+		},
+		"ETag": "xZwF5g7OREDysDI1LlnX4jkPU3w",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sergej Rachmaninow: \nDie Toteninsel \u2219 \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 7,
+			"PublishedAtRaw": "2024-10-30T11:38:10Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:38:10+00:00",
+			"PublishedAt": "2024-10-30T17:08:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "FcRn_2DgPlA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/FcRn_2DgPlA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Rachmaninow: Die Toteninsel \u2219 hr-Sinfonieorchester \u2219 Edward Gardner",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ysgdl4AWGc8",
+			"VideoPublishedAtRaw": "2015-10-07T15:37:56Z",
+			"VideoPublishedAtDateTimeOffset": "2015-10-07T15:37:56+00:00",
+			"VideoPublishedAt": "2015-10-07T21:07:56+05:30"
+		},
+		"ETag": "EmZeOMDXFmRGNNomvd7yLc1rZFQ",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sergej Rachmaninow: \nRhapsodie \u00FCber ein Thema von Paganini \u2219 \n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKirill Gerstein, Klavier \u2219\nEdward Gardner, Dirigent \u2219\n\nAlte Oper Frankfurt, 25. September 2015 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 8,
+			"PublishedAtRaw": "2024-10-30T11:38:05Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:38:05+00:00",
+			"PublishedAt": "2024-10-30T17:08:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ysgdl4AWGc8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ysgdl4AWGc8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Rachmaninow: Rhapsodie \u00FCber ein Thema von Paganini \u2219 hr-Sinfonieorchester \u2219 Gerstein \u2219 Gardner",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UIbEoC_5rIM",
+			"VideoPublishedAtRaw": "2017-03-06T07:18:42Z",
+			"VideoPublishedAtDateTimeOffset": "2017-03-06T07:18:42+00:00",
+			"VideoPublishedAt": "2017-03-06T12:48:42+05:30"
+		},
+		"ETag": "j_a6sq4SozgSiSRCuVCRJzC-yJA",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bergen Philharmonic Orchestra\nEdward Gardner, conductor\nAh Ruem Ahn, piano\n\nSep.2016",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 9,
+			"PublishedAtRaw": "2024-10-30T11:37:46Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:37:46+00:00",
+			"PublishedAt": "2024-10-30T17:07:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UIbEoC_5rIM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/UIbEoC_5rIM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Piano Concerto Ah Ruem Ahn, Edward Gardner, Bergen Philharmonic",
+			"VideoOwnerChannelId": "UC_Y8-J_S59ECOjmH2jpO5YA",
+			"VideoOwnerChannelTitle": "Ah Ruem Ahn"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "qWCfI17QyXw",
+			"VideoPublishedAtRaw": "2015-06-05T00:06:24Z",
+			"VideoPublishedAtDateTimeOffset": "2015-06-05T00:06:24+00:00",
+			"VideoPublishedAt": "2015-06-05T05:36:24+05:30"
+		},
+		"ETag": "ITpqNGFKudt3ugjHrtQNKYOfkTE",
+		"Id": "UEwxemdOQ29XdF83WWJPdlhFUDF5TzRDU0pWLU0yaGJJdi45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nDmitri Shostakovich\nSymphony No 5 in D minor, Op 47\n\nBBC Symphony Orchestra\nEdward Gardner\n\nLondon, Proms 2010",
+			"PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
+			"Position": 10,
+			"PublishedAtRaw": "2024-10-30T11:38:23Z",
+			"PublishedAtDateTimeOffset": "2024-10-30T11:38:23+00:00",
+			"PublishedAt": "2024-10-30T17:08:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "qWCfI17QyXw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/qWCfI17QyXw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/qWCfI17QyXw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/qWCfI17QyXw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/qWCfI17QyXw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/qWCfI17QyXw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Shostakovich - Symphony No 5 - Gardner",
+			"VideoOwnerChannelId": "UC9UkGZY5ezEfdBUG5wgZDdA",
+			"VideoOwnerChannelTitle": "Cantus 5"
+		}
+	}
 ]

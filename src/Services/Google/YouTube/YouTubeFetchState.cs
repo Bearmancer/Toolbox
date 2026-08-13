@@ -12,6 +12,9 @@ public sealed record PlaylistSnapshot
 	public required long ReportedVideoCount { get; init; }
 	public required DateTimeOffset LastChecked { get; init; }
 	public required DateTimeOffset LastUpdated { get; init; }
+	public int? LastSortMoves { get; init; }
+	public DateTimeOffset? LastSortAttempted { get; init; }
+	public bool LastSortCompleted { get; init; }
 }
 
 public sealed record YouTubeFetchState
@@ -93,7 +96,7 @@ public sealed record YouTubeFetchState
 		var stateRoot = Path.Combine(PathResolver.RepoRoot, "state", "youtube");
 		var processedDir = Path.Combine(stateRoot, "processed");
 		var deletedDir = Path.Combine(stateRoot, "deleted");
-		foreach (var snapshot in deletedPlaylists)
+		foreach (PlaylistSnapshot snapshot in deletedPlaylists)
 		{
 			var sanitizedTitle = Text.SanitizeFileName(snapshot.Title);
 			var sourcePath = Path.Combine(processedDir, $"{sanitizedTitle}.json");

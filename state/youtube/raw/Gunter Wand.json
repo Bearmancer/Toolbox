@@ -1,52 +1,52 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "CqI6OuIOGbM",
-      "VideoPublishedAtRaw": "2015-09-10T08:47:56Z",
-      "VideoPublishedAtDateTimeOffset": "2015-09-10T08:47:56+00:00",
-      "VideoPublishedAt": "2015-09-10T14:17:56+05:30"
-    },
-    "ETag": "vksatw-QB0-keUQJ2WfCAyMF1Cc",
-    "Id": "UExFUloyNXFKc1VjMC41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Das NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) und G\u00FCnter Wand f\u00FChren das St\u00FCck mit dem markanten Trompetenmotiv am Tag der Deutschen Einheit 1992 auf. Die Sinfonie in d-Moll ist Richard Wagner gewidmet.\n\nANTON BRUCKNER\nSinfonie Nr. 3 d-moll (Fassung von 1889)\nI. Mehr langsam. Misterioso\nII. Adagio. Bewegt, quasi Andante\nIII. Ziemlich schnell \nIV. Allegro\n\nG\u00FCnter Wand, Dirigent\nNDR Sinfonieorchester\n\nEin Konzertmitschnitt vom 3. Oktober 1992\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/Instagram: https://www.instagram.com/ndr.eo/\n\n#ndrelbphilharmonieorchester #g\u00FCnterwand #bruckner",
-      "PlaylistId": "PLERZ25qJsUc0",
-      "Position": 0,
-      "PublishedAtRaw": "2026-08-04T17:37:01Z",
-      "PublishedAtDateTimeOffset": "2026-08-04T17:37:01+00:00",
-      "PublishedAt": "2026-08-04T23:07:01+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "CqI6OuIOGbM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Anton Bruckner: Sinfonie Nr. 3 mit G\u00FCnter Wand (1992) | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "CqI6OuIOGbM",
+			"VideoPublishedAtRaw": "2015-09-10T08:47:56Z",
+			"VideoPublishedAtDateTimeOffset": "2015-09-10T08:47:56+00:00",
+			"VideoPublishedAt": "2015-09-10T14:17:56+05:30"
+		},
+		"ETag": "vksatw-QB0-keUQJ2WfCAyMF1Cc",
+		"Id": "UExFUloyNXFKc1VjMC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Das NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) und G\u00FCnter Wand f\u00FChren das St\u00FCck mit dem markanten Trompetenmotiv am Tag der Deutschen Einheit 1992 auf. Die Sinfonie in d-Moll ist Richard Wagner gewidmet.\n\nANTON BRUCKNER\nSinfonie Nr. 3 d-moll (Fassung von 1889)\nI. Mehr langsam. Misterioso\nII. Adagio. Bewegt, quasi Andante\nIII. Ziemlich schnell \nIV. Allegro\n\nG\u00FCnter Wand, Dirigent\nNDR Sinfonieorchester\n\nEin Konzertmitschnitt vom 3. Oktober 1992\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/Instagram: https://www.instagram.com/ndr.eo/\n\n#ndrelbphilharmonieorchester #g\u00FCnterwand #bruckner",
+			"PlaylistId": "PLERZ25qJsUc0",
+			"Position": 0,
+			"PublishedAtRaw": "2026-08-04T17:37:01Z",
+			"PublishedAtDateTimeOffset": "2026-08-04T17:37:01+00:00",
+			"PublishedAt": "2026-08-04T23:07:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "CqI6OuIOGbM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/CqI6OuIOGbM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Anton Bruckner: Sinfonie Nr. 3 mit G\u00FCnter Wand (1992) | NDR Elbphilharmonie Orchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	}
 ]

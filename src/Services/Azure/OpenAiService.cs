@@ -40,12 +40,12 @@ public class OpenAiService(AzureOpenAIClient client, AzureCredentials opts)
 
 		ChatClient? chat = client.GetChatClient(modelDeployment);
 
-		var messageList = new List<ChatMessage>();
+		List<ChatMessage> messageList = [];
 		if (!string.IsNullOrWhiteSpace(systemPrompt))
 			messageList.Add(new SystemChatMessage(systemPrompt));
 		messageList.Add(new UserChatMessage(prompt));
 
-		var options = new ChatCompletionOptions();
+		ChatCompletionOptions options = new();
 		if (temperature is { } t)
 			options.Temperature = t;
 		if (maxTokens is { } mt)

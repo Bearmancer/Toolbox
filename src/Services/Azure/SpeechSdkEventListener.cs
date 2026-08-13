@@ -6,18 +6,18 @@ namespace Services.Azure;
 
 public sealed class SpeechSdkEventListener(LogEventLevel logLevel) : IDisposable
 {
-	private readonly EventHandler<string> _handler = (_, message) =>
+	private readonly EventHandler<string> Handler = (_, message) =>
 	{
 		Log.ForContext("Source", "SpeechSDK")
 			.ForContext("Service", "SdkDiagnostics")
 			.Write(logLevel, "{Message}", message);
 	};
 
-	public void Dispose() => EventLogger.OnMessage -= _handler;
+	public void Dispose() => EventLogger.OnMessage -= Handler;
 
 	public void Activate()
 	{
-		var speechLevel = logLevel switch
+		Level speechLevel = logLevel switch
 		{
 			LogEventLevel.Verbose => Level.Verbose,
 			LogEventLevel.Debug => Level.Info,
@@ -27,6 +27,6 @@ public sealed class SpeechSdkEventListener(LogEventLevel logLevel) : IDisposable
 			_ => Level.Warning,
 		};
 		EventLogger.SetLevel(speechLevel);
-		EventLogger.OnMessage += _handler;
+		EventLogger.OnMessage += Handler;
 	}
 }

@@ -25,7 +25,7 @@ public sealed class PathValidator
 				Directory.CreateDirectory(fullPath);
 
 			var testFile = Path.Combine(fullPath, Guid.NewGuid().ToString());
-			using var _ = File.Create(testFile);
+			using FileStream _ = File.Create(testFile);
 			File.Delete(testFile);
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)

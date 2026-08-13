@@ -31,7 +31,7 @@ public class YouTubePlaylistOrchestrator(
 	)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
-		var syncStopwatch = Stopwatch.StartNew();
+		Stopwatch syncStopwatch = Stopwatch.StartNew();
 
 		Telemetry.Info("YouTube sync starting");
 
@@ -73,7 +73,7 @@ public class YouTubePlaylistOrchestrator(
 
 		if (changes.DeletedPlaylists.Count > 0)
 		{
-			var deletedIds = changes.DeletedPlaylists.Select(d => d.PlaylistId).ToHashSet();
+			HashSet<string> deletedIds = [.. changes.DeletedPlaylists.Select(d => d.PlaylistId)];
 			foreach (PlaylistSnapshot deleted in changes.DeletedPlaylists)
 				Telemetry.Info("Deleted: {Title}", deleted.Title);
 			YouTubeSyncProcessor.ArchiveDeletedPlaylists(changes.DeletedPlaylists);
@@ -105,7 +105,7 @@ public class YouTubePlaylistOrchestrator(
 
 		if (mergeOutcome.RemovedLosers.Count > 0)
 		{
-			var loserIds = mergeOutcome.RemovedLosers.Select(l => l.PlaylistId).ToHashSet();
+			HashSet<string> loserIds = [.. mergeOutcome.RemovedLosers.Select(l => l.PlaylistId)];
 			stored = stored with
 			{
 				PlaylistSnapshots = stored
@@ -195,14 +195,28 @@ public class YouTubePlaylistOrchestrator(
 
 		SyncOutcome outcome = outcomeResult.Value;
 
-		var allPlaylistIds = outcome.State.PlaylistSnapshots.Keys.ToList();
-		var processedIds = outcome.Ids.ToHashSet();
+		List<string> allPlaylistIds = [.. outcome.State.PlaylistSnapshots.Keys];
+		HashSet<string> processedIds = [.. outcome.Ids];
 
-		var prioritizedIds = allPlaylistIds
-			.OrderByDescending(id => processedIds.Contains(id))
-			.ThenBy(id => id)
-			.Take(20)
-			.ToList();
+		List<string> prioritizedIds =
+		[
+			.. allPlaylistIds
+				.OrderByDescending(id => processedIds.Contains(id))
+				.ThenByDescending(id =>
+					outcome.State.PlaylistSnapshots.GetValueOrDefault(id)?.LastSortMoves ?? 0
+				)
+				.ThenBy(id =>
+					outcome.State.PlaylistSnapshots.GetValueOrDefault(id)?.LastSortAttempted
+					?? DateTimeOffset.MinValue
+				)
+				.Where(id =>
+					!(
+						outcome.State.PlaylistSnapshots.GetValueOrDefault(id)?.LastSortCompleted
+						?? false
+					)
+				)
+				.Take(20),
+		];
 
 		Telemetry.Info(
 			"Sorting {BatchSize}/{Total} playlists (batch mode)",

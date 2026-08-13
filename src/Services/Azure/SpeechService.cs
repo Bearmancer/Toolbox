@@ -51,12 +51,9 @@ public class SpeechService(AzureCredentials opts)
 			SpeechConfig config = BuildSpeechConfig();
 			config.SpeechRecognitionLanguage = language;
 
-			using var recognizer = new SpeechRecognizer(
-				config,
-				AudioConfig.FromWavFileInput(wavPath)
-			);
+			using SpeechRecognizer recognizer = new(config, AudioConfig.FromWavFileInput(wavPath));
 			List<string> segments = [];
-			var stopped = new TaskCompletionSource<bool>();
+			TaskCompletionSource<bool> stopped = new();
 
 			recognizer.Recognized += (_, e) =>
 			{
@@ -67,7 +64,7 @@ public class SpeechService(AzureCredentials opts)
 			recognizer.Canceled += (_, _) => stopped.TrySetResult(true);
 
 			await recognizer.StartContinuousRecognitionAsync();
-			using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+			using CancellationTokenSource cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
 			cts.CancelAfter(TimeSpan.FromSeconds(MaxDurationSeconds));
 			await using CancellationTokenRegistration registration = cts.Token.Register(() =>
 				stopped.TrySetResult(true)
@@ -148,12 +145,12 @@ public class SpeechService(AzureCredentials opts)
 			SpeechSynthesisOutputFormat.Audio24Khz96KBitRateMonoMp3
 		);
 
-		var chunks = SplitTextIntoChunks(text, ChunkMaxChars);
+		List<string> chunks = SplitTextIntoChunks(text, ChunkMaxChars);
 		Telemetry.Debug("Speech: split into {ChunkCount} chunks", chunks.Count);
 
-		using var synth = new SpeechSynthesizer(speechConfig: config);
-		var sw = Stopwatch.StartNew();
-		var allAudio = new List<byte[]>();
+		using SpeechSynthesizer synth = new(speechConfig: config);
+		Stopwatch sw = Stopwatch.StartNew();
+		List<byte[]> allAudio = [];
 		var charsProcessed = 0;
 
 		synth.Synthesizing += (_, e) =>
@@ -174,9 +171,9 @@ public class SpeechService(AzureCredentials opts)
 				chunk.Length
 			);
 
-			var speakTask = synth.SpeakTextAsync(chunk);
-			var timeoutTask = Task.Delay(TimeSpan.FromSeconds(ChunkTimeoutSeconds), ct);
-			var completed = await Task.WhenAny(speakTask, timeoutTask);
+			Task<SpeechSynthesisResult> speakTask = synth.SpeakTextAsync(chunk);
+			Task timeoutTask = Task.Delay(TimeSpan.FromSeconds(ChunkTimeoutSeconds), ct);
+			Task completed = await Task.WhenAny(speakTask, timeoutTask);
 
 			if (completed == timeoutTask)
 			{
@@ -191,7 +188,7 @@ public class SpeechService(AzureCredentials opts)
 				);
 			}
 
-			var result = await speakTask;
+			SpeechSynthesisResult result = await speakTask;
 
 			if (result.Reason != ResultReason.SynthesizingAudioCompleted)
 			{
@@ -237,10 +234,10 @@ public class SpeechService(AzureCredentials opts)
 
 	private static List<string> SplitTextIntoChunks(string text, int maxChars)
 	{
-		var chunks = new List<string>();
+		List<string> chunks = [];
 		var sentences = Regex.Split(text, @"(?<=[.!?])\s+");
 
-		var current = new System.Text.StringBuilder();
+		System.Text.StringBuilder current = new();
 		foreach (var sentence in sentences)
 		{
 			if (current.Length + sentence.Length > maxChars && current.Length > 0)
@@ -259,7 +256,7 @@ public class SpeechService(AzureCredentials opts)
 
 	private static async Task ConvertToWavAsync(string input, string output, CancellationToken ct)
 	{
-		var psi = new ProcessStartInfo
+		ProcessStartInfo psi = new()
 		{
 			FileName = "ffmpeg.exe",
 			Arguments =
@@ -280,7 +277,7 @@ public class SpeechService(AzureCredentials opts)
 
 	private SpeechConfig BuildSpeechConfig()
 	{
-		var endpoint = new Uri(opts.SpeechEndpoint);
+		Uri endpoint = new(opts.SpeechEndpoint);
 		return SpeechConfig.FromEndpoint(endpoint, opts.SpeechKey);
 	}
 }

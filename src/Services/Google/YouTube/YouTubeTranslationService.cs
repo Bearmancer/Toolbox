@@ -131,8 +131,8 @@ public class YouTubeTranslationService(TranslateService translateService)
 			ct.ThrowIfCancellationRequested();
 			batchIndex++;
 
-			var transliterateTargets = batch.Where(t => t.Transliterate).ToList();
-			var translateTargets = batch.Where(t => !t.Transliterate).ToList();
+			List<TranslationTarget> transliterateTargets = [.. batch.Where(t => t.Transliterate)];
+			List<TranslationTarget> translateTargets = [.. batch.Where(t => !t.Transliterate)];
 
 			if (transliterateTargets.Count > 0)
 			{
@@ -156,7 +156,7 @@ public class YouTubeTranslationService(TranslateService translateService)
 					return transliterateResult.FirstError;
 
 				foreach (
-					var (target, transliterated) in transliterateTargets.Zip(
+					(TranslationTarget target, var transliterated) in transliterateTargets.Zip(
 						transliterateResult.Value
 					)
 				)

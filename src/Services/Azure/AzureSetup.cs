@@ -14,7 +14,7 @@ public static class AzureSetup
 	{
 		public IServiceCollection AddAzureServices()
 		{
-			var credentials = AzureCredentials.Read();
+			AzureCredentials credentials = AzureCredentials.Read();
 			services.AddSingleton(credentials);
 
 			services.AddSingleton(

@@ -11,7 +11,7 @@ public sealed class AudioMetadataService
 	{
 		try
 		{
-			var track = new Track(filePath);
+			Track track = new(filePath);
 			return new TrackMetadata(
 				track.Title,
 				track.Artist,
@@ -40,7 +40,7 @@ public sealed class AudioMetadataService
 	{
 		try
 		{
-			var track = new Track(flacPath);
+			Track track = new(flacPath);
 
 			if (!string.IsNullOrEmpty(metadata.Title))
 				track.Title = metadata.Title;
@@ -86,7 +86,7 @@ public sealed class AudioMetadataService
 	{
 		try
 		{
-			var t = new Track(flacPath);
+			Track t = new(flacPath);
 
 			t.Title = track.Title;
 			t.TrackNumber = track.TrackNumber;

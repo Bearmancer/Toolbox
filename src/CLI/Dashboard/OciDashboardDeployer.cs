@@ -36,10 +36,10 @@ public static class OciDashboardDeployer
 			using SftpClient sftp = new(connInfo);
 			sftp.Connect();
 
-			await using var htmlStream = File.OpenRead(htmlFile);
+			await using FileStream htmlStream = File.OpenRead(htmlFile);
 			await sftp.UploadFileAsync(htmlStream, $"{RemoteTmp}/dashboard.html", ct);
 
-			await using var dataStream = File.OpenRead(dataFile);
+			await using FileStream dataStream = File.OpenRead(dataFile);
 			await sftp.UploadFileAsync(dataStream, $"{RemoteTmp}/dashboard-data.js", ct);
 
 			sftp.Disconnect();

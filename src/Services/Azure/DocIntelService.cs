@@ -38,7 +38,7 @@ public class DocIntelService(DocumentIntelligenceClient client)
 				return Errors.DocIntel.ApiError("Model returned no pages");
 			}
 
-			var sb = new StringBuilder();
+			StringBuilder sb = new();
 			sb.AppendLine($"Pages: {result.Pages.Count}");
 			sb.AppendLine($"Model: {modelId}");
 			sb.AppendLine("---");

@@ -36,7 +36,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 			);
 			activity.Complete();
 
-			var sb = new StringBuilder();
+			StringBuilder sb = new();
 			sb.AppendLine($"Sentiment: {result.Value.Sentiment}");
 			sb.AppendLine(
 				$"Scores: positive={result.Value.ConfidenceScores.Positive:F2}, neutral={result.Value.ConfidenceScores.Neutral:F2}, negative={result.Value.ConfidenceScores.Negative:F2}"
@@ -96,7 +96,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 			);
 			activity.Complete();
 
-			var sb = new StringBuilder();
+			StringBuilder sb = new();
 			foreach (CategorizedEntity e in result.Value)
 				sb.AppendLine($"  [{e.Category}] {e.Text} (confidence={e.ConfidenceScore:F2})");
 
@@ -200,7 +200,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 				$"Text length {text.Length} exceeds 5K"
 			);
 
-		var options = new RecognizePiiEntitiesOptions();
+		RecognizePiiEntitiesOptions options = new();
 		if (!string.IsNullOrWhiteSpace(domain))
 		{
 			var normalized = domain.Trim().ToLowerInvariant();
@@ -232,7 +232,7 @@ public class TextAnalyticsService(TextAnalyticsClient client)
 			);
 			activity.Complete();
 
-			var sb = new StringBuilder();
+			StringBuilder sb = new();
 			if (domain is { })
 				sb.AppendLine($"Domain: {domain}");
 

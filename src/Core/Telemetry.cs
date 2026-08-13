@@ -22,8 +22,15 @@ public static class Telemetry
 			.Enrich.FromLogContext()
 			.WriteTo.Spectre("{Timestamp:HH:mm:ss} [{Level:u4}] {Message:lj}{NewLine}{Exception}");
 
+		var logDir = Path.Combine(PathResolver.RepoRoot, "logs");
+		Directory.CreateDirectory(logDir);
+
 		foreach (ServiceName service in Enum.GetValues<ServiceName>())
-			AddServiceLogger(config, service, $"logs/{service.ToFileSlug()}.jsonl");
+			AddServiceLogger(
+				config,
+				service,
+				Path.Combine(logDir, $"{service.ToFileSlug()}.jsonl")
+			);
 
 		var seqUrl = Environment.GetEnvironmentVariable("SEQ_URL") ?? "http://localhost:5341";
 		if (await IsSeqReachableAsync(seqUrl))
@@ -48,6 +55,7 @@ public static class Telemetry
 				.WriteTo.File(
 					new CompactJsonFormatter(),
 					path,
+					restrictedToMinimumLevel: LogEventLevel.Debug,
 					rollingInterval: RollingInterval.Infinite,
 					retainedFileCountLimit: null,
 					fileSizeLimitBytes: 50 * 1024 * 1024
@@ -80,9 +88,9 @@ public static class Telemetry
 	{
 		try
 		{
-			var uri = new Uri(seqUrl);
-			using var client = new TcpClient();
-			using var cts = new CancellationTokenSource(TimeSpan.FromMilliseconds(500));
+			Uri uri = new(seqUrl);
+			using TcpClient client = new();
+			using CancellationTokenSource cts = new(TimeSpan.FromMilliseconds(500));
 			await client.ConnectAsync(uri.Host, uri.Port, cts.Token);
 			return true;
 		}

@@ -29,8 +29,8 @@ public sealed class DsdConvertService(
 			);
 
 			ct.ThrowIfCancellationRequested();
-			await using var stream = File.OpenRead(dffFilePath);
-			using var reader = new BinaryReader(stream);
+			await using FileStream stream = File.OpenRead(dffFilePath);
+			using BinaryReader reader = new(stream);
 
 			var magic = new string(reader.ReadChars(4));
 			if (magic != "FRM8")
@@ -134,7 +134,7 @@ public sealed class DsdConvertService(
 
 		try
 		{
-			var convertResult = await saracon.ConvertDsdToPcmAsync(
+			ErrorOr<string> convertResult = await saracon.ConvertDsdToPcmAsync(
 				dffFilePath,
 				tempDir,
 				ProbeSampleRate,
@@ -146,7 +146,7 @@ public sealed class DsdConvertService(
 			if (convertResult.IsError)
 				return convertResult.Errors;
 
-			var peakResult = await sox.GetPeakLevelAsync(convertResult.Value, ct);
+			ErrorOr<double> peakResult = await sox.GetPeakLevelAsync(convertResult.Value, ct);
 			if (peakResult.IsError)
 				return peakResult.Errors;
 
@@ -177,7 +177,7 @@ public sealed class DsdConvertService(
 		CancellationToken ct = default
 	)
 	{
-		var masterResult = await saracon.ConvertDsdToPcmAsync(
+		ErrorOr<string> masterResult = await saracon.ConvertDsdToPcmAsync(
 			dffFile,
 			outputDir,
 			settings.SampleRate,
@@ -190,16 +190,16 @@ public sealed class DsdConvertService(
 			return masterResult.Errors;
 
 		var masterPcm = masterResult.Value;
-		var outputFiles = new List<string>();
-		var errors = new List<string>();
+		List<string> outputFiles = [];
+		List<string> errors = [];
 
-		foreach (var track in cue.Tracks)
+		foreach (CueTrack track in cue.Tracks)
 		{
 			var trackNum = track.TrackNumber.ToString("D2");
 			var safeTitle = SanitizeFilename(track.Title);
 			var outputFlac = Path.Combine(outputDir, $"{trackNum}. {safeTitle}.flac");
 
-			var splitResult = await sox.SplitTrackAsync(
+			ErrorOr<string> splitResult = await sox.SplitTrackAsync(
 				masterPcm,
 				outputFlac,
 				track.StartTime,
@@ -215,7 +215,7 @@ public sealed class DsdConvertService(
 
 			outputFiles.Add(outputFlac);
 
-			var tagResult = metadata.CopyMetadataFromCue(outputFlac, cue, track);
+			ErrorOr<Success> tagResult = metadata.CopyMetadataFromCue(outputFlac, cue, track);
 			if (tagResult.IsError)
 				Telemetry.Warn(
 					"Tagging failed for {File}: {Error}",
@@ -244,7 +244,7 @@ public sealed class DsdConvertService(
 
 		try
 		{
-			var convertResult = await saracon.ConvertDsdToFlacAsync(
+			ErrorOr<string> convertResult = await saracon.ConvertDsdToFlacAsync(
 				inputDff,
 				tempDir,
 				settings.SampleRate,
@@ -263,11 +263,11 @@ public sealed class DsdConvertService(
 
 			File.Move(tempFlac, outputFlac, overwrite: true);
 
-			var durationResult = await sox.GetDurationAsync(outputFlac, ct);
+			ErrorOr<TimeSpan> durationResult = await sox.GetDurationAsync(outputFlac, ct);
 			if (durationResult.IsError)
 				return durationResult.Errors;
 
-			var fileInfo = new FileInfo(outputFlac);
+			FileInfo fileInfo = new(outputFlac);
 			fileInfo.Refresh();
 
 			return new ConversionResult(outputFlac, durationResult.Value, fileInfo.Length);
@@ -286,15 +286,20 @@ public sealed class DsdConvertService(
 		CancellationToken ct = default
 	)
 	{
-		var deriveResult = await sox.DeriveFlacAsync(sourceFlac, outputFlac, targetSampleRate, ct);
+		ErrorOr<string> deriveResult = await sox.DeriveFlacAsync(
+			sourceFlac,
+			outputFlac,
+			targetSampleRate,
+			ct
+		);
 		if (deriveResult.IsError)
 			return deriveResult.Errors;
 
-		var durationResult = await sox.GetDurationAsync(outputFlac, ct);
+		ErrorOr<TimeSpan> durationResult = await sox.GetDurationAsync(outputFlac, ct);
 		if (durationResult.IsError)
 			return durationResult.Errors;
 
-		var fileInfo = new FileInfo(outputFlac);
+		FileInfo fileInfo = new(outputFlac);
 		fileInfo.Refresh();
 
 		return new ConversionResult(outputFlac, durationResult.Value, fileInfo.Length);
@@ -312,7 +317,12 @@ public sealed class DsdConvertService(
 		foreach (var flac in Directory.GetFiles(sourceDir, "*.flac"))
 		{
 			var dest = Path.Combine(derivedDir, Path.GetFileName(flac));
-			var deriveResult = await sox.DeriveFlacAsync(flac, dest, targetSampleRate, ct);
+			ErrorOr<string> deriveResult = await sox.DeriveFlacAsync(
+				flac,
+				dest,
+				targetSampleRate,
+				ct
+			);
 			if (deriveResult.IsError)
 				Telemetry.Warn(
 					"Derive failed for {File}: {Error}",

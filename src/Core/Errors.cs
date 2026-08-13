@@ -34,6 +34,9 @@ public static class Errors
 			Error.NotFound("YT.VideoNotFound", $"Video {id} was not found on YouTube.");
 
 		public static Error ApiError(string message) => Error.Failure("YT.ApiError", message);
+
+		public static Error QuotaExceeded(string message) =>
+			Error.Failure("YT.QuotaExceeded", message);
 	}
 
 	public static class Azure
@@ -155,5 +158,11 @@ public static class Errors
 
 		public static Error ProcessFailed(string binary, string reason) =>
 			Error.Failure("Audio.ProcessFailed", $"{binary} process failed: {reason}");
+
+		public static Error PathTooLong(string path, int length) =>
+			Error.Failure(
+				"Audio.PathTooLong",
+				$"Output path exceeds Windows MAX_PATH ({length} chars): {path}"
+			);
 	}
 }

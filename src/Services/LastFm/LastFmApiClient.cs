@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Net;
 using System.Text.Json;
 using Core;
@@ -28,7 +29,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 
 	private ErrorOr<string> BuildFetchUrl(DateTimeOffset? fetchAfter, int page, int limit)
 	{
-		var queryParams = new Dictionary<string, string>
+		Dictionary<string, string> queryParams = new()
 		{
 			["method"] = "user.getrecenttracks",
 			["user"] = UserName,
@@ -51,7 +52,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 
 	private async Task<ErrorOr<string>> ExecuteHttpRequestAsync(string url, CancellationToken ct)
 	{
-		var httpSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch httpSw = System.Diagnostics.Stopwatch.StartNew();
 		using HttpResponseMessage response = await Client.GetAsync(url, ct);
 		httpSw.Stop();
 		Telemetry.Debug(
@@ -73,7 +74,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 
 		response.EnsureSuccessStatusCode();
 
-		var readSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch readSw = System.Diagnostics.Stopwatch.StartNew();
 		var content = await response.Content.ReadAsStringAsync(cancellationToken: ct);
 		readSw.Stop();
 		Telemetry.Verbose(
@@ -87,8 +88,8 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 
 	private static ErrorOr<JsonElement> ParseJsonResponse(string json)
 	{
-		var parseSw = System.Diagnostics.Stopwatch.StartNew();
-		using var doc = JsonDocument.Parse(json);
+		Stopwatch parseSw = System.Diagnostics.Stopwatch.StartNew();
+		using JsonDocument doc = JsonDocument.Parse(json);
 		JsonElement root = doc.RootElement;
 		parseSw.Stop();
 		Telemetry.Verbose("JSON parsed in {ElapsedMs}ms", parseSw.ElapsedMilliseconds);
@@ -111,7 +112,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 
 	private static ErrorOr<FetchPageResult> ExtractTracks(JsonElement root)
 	{
-		var extractSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch extractSw = System.Diagnostics.Stopwatch.StartNew();
 
 		if (!root.TryGetProperty("recenttracks", out JsonElement recenttracks))
 			return Errors.LastFm.MalformedResponse;
@@ -157,7 +158,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 		if (uts is "0" or null)
 			return Errors.LastFm.MalformedResponse;
 
-		var playedAt = DateTimeOffset.FromUnixTimeSeconds(long.Parse(uts));
+		DateTimeOffset playedAt = DateTimeOffset.FromUnixTimeSeconds(long.Parse(uts));
 
 		var trackName = track.TryGetProperty("name", out JsonElement nameEl)
 			? nameEl.GetString()

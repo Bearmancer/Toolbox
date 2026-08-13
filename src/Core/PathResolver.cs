@@ -42,7 +42,7 @@ public static class PathResolver
 
 	public static byte[] ReadChecked(string path, long maxBytes, string serviceName)
 	{
-		var info = new FileInfo(path);
+		FileInfo info = new(path);
 		return info.Length > maxBytes
 			? throw new ArgumentOutOfRangeException(
 				nameof(path),

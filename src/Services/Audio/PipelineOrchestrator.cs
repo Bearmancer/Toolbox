@@ -20,9 +20,9 @@ public sealed class PipelineOrchestrator(
 		CancellationToken ct
 	)
 	{
-		using var _ = Telemetry.ForService(ServiceName.Audio);
+		using IDisposable _ = Telemetry.ForService(ServiceName.Audio);
 
-		var validatedPath = pathValidator.ValidateInputPath(inputPath);
+		ErrorOr<string> validatedPath = pathValidator.ValidateInputPath(inputPath);
 		if (validatedPath.IsError)
 			return validatedPath.Errors;
 
@@ -34,7 +34,10 @@ public sealed class PipelineOrchestrator(
 
 		var totalIsoSize = isoFiles.Sum(f => new FileInfo(f).Length);
 		var baseDir = Path.GetDirectoryName(isoFiles[0]) ?? validatedPath.Value;
-		var spaceCheck = diskSpaceChecker.CheckSpaceForExtraction(baseDir, totalIsoSize);
+		ErrorOr<Success> spaceCheck = diskSpaceChecker.CheckSpaceForExtraction(
+			baseDir,
+			totalIsoSize
+		);
 		if (spaceCheck.IsError)
 			return spaceCheck.Errors;
 
@@ -42,18 +45,24 @@ public sealed class PipelineOrchestrator(
 
 		var succeeded = 0;
 		var failed = 0;
-		var recoverableErrors = new List<string>();
-		var dffDirsToClean = new List<string>();
+		List<string> recoverableErrors = [];
+		List<string> dffDirsToClean = [];
 
 		foreach (var iso in isoFiles)
 		{
 			ct.ThrowIfCancellationRequested();
 
-			var result = await ProcessIsoAsync(iso, format, multichannel, dffDirsToClean, ct);
+			ErrorOr<Success> result = await ProcessIsoAsync(
+				iso,
+				format,
+				multichannel,
+				dffDirsToClean,
+				ct
+			);
 			if (result.IsError)
 			{
 				failed++;
-				foreach (var error in result.Errors)
+				foreach (Error error in result.Errors)
 				{
 					Telemetry.Error("ISO failed: {Error}", error.Description);
 					recoverableErrors.Add(error.Description);
@@ -132,7 +141,7 @@ public sealed class PipelineOrchestrator(
 		var discName = Path.GetFileNameWithoutExtension(isoPath);
 		Telemetry.Info("Probing {Disc}", discName);
 
-		var probe = await extractService.ProbeAsync(isoPath, ct);
+		ErrorOr<SacdProbeResult> probe = await extractService.ProbeAsync(isoPath, ct);
 		if (probe.IsError)
 			return probe.Errors;
 
@@ -141,7 +150,7 @@ public sealed class PipelineOrchestrator(
 		var suffix = extractMch ? "Multichannel" : "Stereo";
 		var channelDir = Path.Combine(parentDir, $"{Path.GetFileName(isoDir)} ({suffix})");
 
-		var channelDirState = InspectChannelDir(channelDir, discName);
+		ChannelDirState channelDirState = InspectChannelDir(channelDir, discName);
 		if (channelDirState == ChannelDirState.Contaminated)
 		{
 			Telemetry.Warn(
@@ -155,7 +164,7 @@ public sealed class PipelineOrchestrator(
 		if (channelDirState == ChannelDirState.Clean)
 		{
 			Telemetry.Info("Skipping extraction for {Disc} — clean DFFs already present", discName);
-			var existingDirs = Directory.GetDirectories(channelDir).ToList();
+			List<string> existingDirs = [.. Directory.GetDirectories(channelDir)];
 			if (existingDirs.Count == 0)
 			{
 				var dffFiles = Directory.GetFiles(channelDir, "*.dff", SearchOption.AllDirectories);
@@ -175,7 +184,7 @@ public sealed class PipelineOrchestrator(
 		foreach (var dir in extractResult.Value)
 		{
 			dffDirsToClean.Add(dir);
-			var dirResult = await ProcessExtractedDirectoryAsync(dir, format, ct);
+			ErrorOr<Success> dirResult = await ProcessExtractedDirectoryAsync(dir, format, ct);
 			if (dirResult.IsError)
 				return dirResult.Errors;
 		}
@@ -233,23 +242,20 @@ public sealed class PipelineOrchestrator(
 			Path.GetFileName(cueFile)
 		);
 
-		var dsdProbe = await convertService.ProbeDsdAsync(dffFile, ct);
+		ErrorOr<DsdProbeResult> dsdProbe = await convertService.ProbeDsdAsync(dffFile, ct);
 		if (dsdProbe.IsError)
 			return dsdProbe.Errors;
 
-		var gainResult = await convertService.CalculateGainAsync(dffFile, ct);
+		ErrorOr<double> gainResult = await convertService.CalculateGainAsync(dffFile, ct);
 		if (gainResult.IsError)
 			return gainResult.Errors;
 
-		var cueResult = cueParser.Parse(cueFile);
+		ErrorOr<CueSheet> cueResult = cueParser.Parse(cueFile);
 		if (cueResult.IsError)
 			return cueResult.Errors;
 
-		var (primary, derived) = DsdConversionSettings.ForDsdRate(
-			dsdProbe.Value.SampleRate,
-			format,
-			gainResult.Value
-		);
+		(DsdConversionSettings primary, DsdConversionSettings? derived) =
+			DsdConversionSettings.ForDsdRate(dsdProbe.Value.SampleRate, format, gainResult.Value);
 
 		Telemetry.Debug(
 			"Pipeline.ConversionSettings rate={Rate} primaryFormat={PrimaryFormat} primaryGain={PrimaryGain}dB derived={Derived}",
@@ -259,7 +265,7 @@ public sealed class PipelineOrchestrator(
 			derived is not null ? $"{derived.SampleRate}" : "none"
 		);
 
-		var convertResult = await convertService.ConvertAndSplitAsync(
+		ErrorOr<List<string>> convertResult = await convertService.ConvertAndSplitAsync(
 			dffFile,
 			dffDir,
 			cueResult.Value,

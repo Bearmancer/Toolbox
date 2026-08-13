@@ -99,7 +99,7 @@ public sealed class CueParser
 					if (!int.TryParse(indexParts[0], out var indexNumber) || indexNumber != 1)
 						break;
 
-					var time = ParseCueTime(indexParts[1]);
+					ErrorOr<TimeSpan> time = ParseCueTime(indexParts[1]);
 					if (time.IsError)
 						return time.Errors;
 
@@ -118,7 +118,7 @@ public sealed class CueParser
 
 		for (var i = 0; i < tracks.Count - 1; i++)
 		{
-			var t = tracks[i];
+			CueTrack t = tracks[i];
 			tracks[i] = t with { Duration = tracks[i + 1].StartTime - t.StartTime };
 		}
 
@@ -195,13 +195,13 @@ public sealed class CueParser
 
 	private static string Unquote(string value)
 	{
-		var m = QuotedValue.Match(value.Trim());
+		Match m = QuotedValue.Match(value.Trim());
 		return m.Success ? m.Groups[1].Value : value.Trim();
 	}
 
 	private static ErrorOr<TimeSpan> ParseCueTime(string time)
 	{
-		var m = TimeFormat.Match(time.Trim());
+		Match m = TimeFormat.Match(time.Trim());
 		if (!m.Success)
 			return Error.Validation("Cue.BadTime", $"Invalid time format: {time}");
 

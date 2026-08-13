@@ -6,16 +6,16 @@ namespace Services.Azure;
 
 public sealed class ClientModelEventListener(EventLevel captureLevel) : IDisposable
 {
-	private readonly InternalListener _listener = new(captureLevel);
+	private readonly InternalListener Listener = new(captureLevel);
 
 	private sealed class InternalListener(EventLevel level) : EventListener
 	{
-		private readonly EventLevel _level = level;
+		private readonly EventLevel Level = level;
 
 		protected override void OnEventSourceCreated(EventSource eventSource)
 		{
 			if (eventSource.Name == "System.ClientModel")
-				EnableEvents(eventSource, _level);
+				EnableEvents(eventSource, Level);
 		}
 
 		protected override void OnEventWritten(EventWrittenEventArgs eventData)
@@ -34,5 +34,5 @@ public sealed class ClientModelEventListener(EventLevel captureLevel) : IDisposa
 		private static LogEventLevel MapLevel(EventLevel level) => EventLevelMapper.Map(level);
 	}
 
-	public void Dispose() => _listener.Dispose();
+	public void Dispose() => Listener.Dispose();
 }

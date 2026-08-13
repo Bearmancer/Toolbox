@@ -6,5 +6,4 @@
 	<Project Path="src\Services\Google\Google.csproj" />
 	<Project Path="src\Services\LastFm\LastFm.csproj" />
 	<Project Path="src/Services/Audio/Audio.csproj" />
-	<Project Path="tools\SacdProbe\SacdProbe.csproj" />
 </Solution>

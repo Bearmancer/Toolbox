@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Text.Json;
 using Core;
 using ErrorOr;
@@ -72,7 +73,7 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 		{
 			ct.ThrowIfCancellationRequested();
 
-			var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+			Stopwatch stopwatch = System.Diagnostics.Stopwatch.StartNew();
 			Telemetry.Info(
 				"Processing duplicate group '{Key}': {Count} playlist(s)",
 				group.Key,
@@ -80,7 +81,10 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 			);
 
 			PlaylistSnapshot winner = YouTubeDuplicateMergePolicy.SelectWinner(group.Playlists);
-			var losers = group.Playlists.Where(p => p.PlaylistId != winner.PlaylistId).ToList();
+			List<PlaylistSnapshot> losers =
+			[
+				.. group.Playlists.Where(p => p.PlaylistId != winner.PlaylistId),
+			];
 
 			Telemetry.Debug(
 				"Winner: '{Title}' ({Id}, {Count} videos), Losers: {LoserCount}",
@@ -92,7 +96,11 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 
 			var shouldDefer = false;
 
-			var winnerItems = await FetchItemsSafeAsync(winner.PlaylistId, winner.Title, ct);
+			List<PlaylistItem> winnerItems = await FetchItemsSafeAsync(
+				winner.PlaylistId,
+				winner.Title,
+				ct
+			);
 			if (winnerItems is null)
 			{
 				groupsDeferred++;
@@ -100,7 +108,7 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 				continue;
 			}
 
-			var winnerVideoIds = ExtractVideoIds(winnerItems);
+			HashSet<string> winnerVideoIds = ExtractVideoIds(winnerItems);
 			HashSet<string> allLoserVideoIds = [];
 
 			foreach (PlaylistSnapshot loser in losers)
@@ -232,7 +240,7 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 				continue;
 			}
 
-			var reListedVideoIds = ExtractVideoIds(reListedWinner);
+			HashSet<string> reListedVideoIds = ExtractVideoIds(reListedWinner);
 
 			if (!YouTubeDuplicateMergePolicy.ContainsAll(reListedVideoIds, allLoserVideoIds))
 			{
@@ -360,7 +368,7 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 		CancellationToken ct
 	)
 	{
-		var manifest = new MergeManifestRecord
+		MergeManifestRecord manifest = new()
 		{
 			WinnerId = winner.PlaylistId,
 			WinnerTitle = winner.Title,

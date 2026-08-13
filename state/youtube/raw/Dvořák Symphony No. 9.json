@@ -1,942 +1,942 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "9_BlhOJp8RY",
-      "VideoPublishedAtRaw": "2016-07-28T12:25:56Z",
-      "VideoPublishedAtDateTimeOffset": "2016-07-28T12:25:56+00:00",
-      "VideoPublishedAt": "2016-07-28T17:55:56+05:30"
-    },
-    "ETag": "iCP070Tm5FnTMbDtEBdNxibIP70",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41MjE1MkI0OTQ2QzJGNzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvo\u0159\u00E1k\u0027s 9th Symphony, played by the Bavarian Radio Symphony Orchestra (Symphonieorchester des Bayerischen Rundfunks) and conducted by Mariss Jansons.",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 0,
-      "PublishedAtRaw": "2024-10-24T16:51:30Z",
-      "PublishedAtDateTimeOffset": "2024-10-24T16:51:30+00:00",
-      "PublishedAt": "2024-10-24T22:21:30+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "9_BlhOJp8RY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Anton\u00EDn Dvo\u0159\u00E1k - Symphony No. 9 (Mariss Jansons, Bavarian Radio Symphony Orchestra) [60fps]",
-      "VideoOwnerChannelId": "UCIv7pi6GFZVURtA3a1dxnfw",
-      "VideoOwnerChannelTitle": "Leonardo Nascimento"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "lQEfUKrl-a4",
-      "VideoPublishedAtRaw": "2024-11-05T17:34:17Z",
-      "VideoPublishedAtDateTimeOffset": "2024-11-05T17:34:17+00:00",
-      "VideoPublishedAt": "2024-11-05T23:04:17+05:30"
-    },
-    "ETag": "OdzbfFxRb5Twe9FYD_hlFH3Ic-E",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41QTY1Q0UxMTVCODczNThE",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Anton\u00EDn Dvo\u0159\u00E1k: Symphony No. 9 in E minor op. 95 (From the New World)\nRadio-Sinfonie-Orchester Frankfurt\nJohn Adams\n21 November 2003, Alte Oper, Frankfurt\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 1,
-      "PublishedAtRaw": "2024-11-05T21:06:00Z",
-      "PublishedAtDateTimeOffset": "2024-11-05T21:06:00+00:00",
-      "PublishedAt": "2024-11-06T02:36:00+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "lQEfUKrl-a4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Anton\u00EDn Dvo\u0159\u00E1k: Symphony No. 9 in E minor -- John Adams/Radio-Sinfonie-Orchester Frankfurt (2003)",
-      "VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
-      "VideoOwnerChannelTitle": "Quality Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "8EmLqJ8kl14",
-      "VideoPublishedAtRaw": "2024-10-01T20:03:13Z",
-      "VideoPublishedAtDateTimeOffset": "2024-10-01T20:03:13+00:00",
-      "VideoPublishedAt": "2024-10-02T01:33:13+05:30"
-    },
-    "ETag": "aUg9cxCf2TolyUtQ43ZtG9g9FWg",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5DQUNERDQ2NkIzRUQxNTY1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 2,
-      "PublishedAtRaw": "2024-11-04T19:27:29Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:27:29+00:00",
-      "PublishedAt": "2024-11-05T00:57:29+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "8EmLqJ8kl14"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Bergen Youth Philharmonic Orchestra performs Dvorak\u0027s Symphony No. 9",
-      "VideoOwnerChannelId": "UCUZc6RwOe3JKUbc5tmsvZtw",
-      "VideoOwnerChannelTitle": "\u6708\u4E0B\u542C\u98CE"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "T2aOcsSe9rM",
-      "VideoPublishedAtRaw": "2024-02-20T13:00:26Z",
-      "VideoPublishedAtDateTimeOffset": "2024-02-20T13:00:26+00:00",
-      "VideoPublishedAt": "2024-02-20T18:30:26+05:30"
-    },
-    "ETag": "GZjNItCvZb8SKHowJ5L08C3e8Ko",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS45ODRDNTg0QjA4NkFBNkQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvorak : Symphony No.5\n1st movement   00:00\n2nd    09:51\n3rd     21:40\n4th     29:24  \nR.Kempe / BBC Symphony orchestra\n29/8/1975 Proms, Royal Albert hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30EB\u30C9\u30EB\u30D5\u30FB\u30B1\u30F3\u30DA\u6307\u63EE\u3000BBC\u4EA4\u97FF\u697D\u56E3\n1975\u5E748\u670829\u65E5\u3000\u30D7\u30ED\u30E0\u30B9\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30B1\u30F3\u30DA\u304C\u6669\u5E74\u3001\u751F\u6DAF\u6700\u5F8C\u306E\u30D7\u30ED\u30E0\u30B9\u3067\u6F14\u594F\u3057\u305F\u8A18\u9332\u3002\u4F53\u8ABF\u306E\u60AA\u3055\u3092\u611F\u3058\u3055\u305B\u306A\u3044\u63A8\u9032\u529B\u3068\u30A8\u30CD\u30EB\u30AE\u30FC\u3067\u5727\u5012\u7684\u306A\u611F\u52D5\u3092\u4E0E\u3048\u3089\u308C\u307E\u3059\u3002\u4F1D\u8AAC\u7684\u540D\u6F14\u3002",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 3,
-      "PublishedAtRaw": "2024-11-04T19:28:23Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:28:23+00:00",
-      "PublishedAt": "2024-11-05T00:58:23+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "T2aOcsSe9rM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvorak : Symphony No.9     R.Kempe / BBC.SO   1975 Proms live",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "B9Sfbte2Jo4",
-      "VideoPublishedAtRaw": "2024-08-18T14:11:39Z",
-      "VideoPublishedAtDateTimeOffset": "2024-08-18T14:11:39+00:00",
-      "VideoPublishedAt": "2024-08-18T19:41:39+05:30"
-    },
-    "ETag": "138cDjSmheW5x45VvQEYcUahutY",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS40NzZCMERDMjVEN0RFRThB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvorak : Symphony No.9 \u0027 From the new world \u0027\n1st movement   00:00\n2nd    09:05\n3rd    21:04\n4th    28:52\nG. Pretre / Stuttgart Radio Symphony Orchestra\n21/10/2004 Liederhalle live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30B8\u30E7\u30EB\u30B8\u30E5\u30FB\u30D7\u30EC\u30FC\u30C8\u30EB\u6307\u63EE\u3000SWR\u30B7\u30E5\u30C8\u30A5\u30C3\u30C8\u30AC\u30EB\u30C8\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n2004\u5E7410\u670821\u65E5\u3000\u30B7\u30E5\u30C8\u30A5\u30C3\u30C8\u30AC\u30EB\u30C8\u30FB\u30EA\u30FC\u30C0\u30FC\u30CF\u30EC\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 4,
-      "PublishedAtRaw": "2024-11-04T19:28:07Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:28:07+00:00",
-      "PublishedAt": "2024-11-05T00:58:07+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "B9Sfbte2Jo4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/B9Sfbte2Jo4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/B9Sfbte2Jo4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/B9Sfbte2Jo4/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Dvorak : Symphony No.9 \u0027 From the new world \u0027    G. Pretre / SWR 2004 live",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "SLJ3wv5fSDU",
-      "VideoPublishedAtRaw": "2024-02-09T13:58:37Z",
-      "VideoPublishedAtDateTimeOffset": "2024-02-09T13:58:37+00:00",
-      "VideoPublishedAt": "2024-02-09T19:28:37+05:30"
-    },
-    "ETag": "mjcP3qbvLQbnnowHDSp8EpO6zfQ",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4zMDg5MkQ5MEVDMEM1NTg2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvorak : Symphony No.9 In E Minor, Op.95 \u0022From The New World\u0022  \n\nSeiji Ozawa\n\nVienna Philharmonic Orchestra",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 5,
-      "PublishedAtRaw": "2024-11-04T19:28:34Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:28:34+00:00",
-      "PublishedAt": "2024-11-05T00:58:34+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "SLJ3wv5fSDU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvorak : Symphony No.9 In E Minor, Op.95 \u0022From The New World\u0022   -   Seiji Ozawa",
-      "VideoOwnerChannelId": "UCji8xL95n4WjeGix3f45Ysg",
-      "VideoOwnerChannelTitle": "Red Arrow"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "ULaHmLbIbq4",
-      "VideoPublishedAtRaw": "2024-03-18T21:22:36Z",
-      "VideoPublishedAtDateTimeOffset": "2024-03-18T21:22:36+00:00",
-      "VideoPublishedAt": "2024-03-19T02:52:36+05:30"
-    },
-    "ETag": "KsCFeu4JUDb8pZcQk-vOX8ixVNc",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5EMEEwRUY5M0RDRTU3NDJC",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvorak : Symphony No.9 in E minor, Op.95 \u0022From The New World\u0022  \n\nSeiji Ozawa\n\nVienna Philharmonic Orchestra",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 6,
-      "PublishedAtRaw": "2024-11-04T19:28:18Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:28:18+00:00",
-      "PublishedAt": "2024-11-05T00:58:18+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "ULaHmLbIbq4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvorak : Symphony No.9 in E minor, Op.95 \u0022From The New World\u0022  -  Seiji Ozawa",
-      "VideoOwnerChannelId": "UCji8xL95n4WjeGix3f45Ysg",
-      "VideoOwnerChannelTitle": "Red Arrow"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "mFRwTpRL3R4",
-      "VideoPublishedAtRaw": "2016-05-16T19:04:34Z",
-      "VideoPublishedAtDateTimeOffset": "2016-05-16T19:04:34+00:00",
-      "VideoPublishedAt": "2016-05-17T00:34:34+05:30"
-    },
-    "ETag": "5JaCOaiSWCKBDzqfnpD8WA8MGn0",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvor\u00E1k: Symphony No. 9, \nPeabody Symphony Orchestra, \nMarin Alsop, Conductor\nOctober 25, 2015",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 7,
-      "PublishedAtRaw": "2024-10-24T16:51:15Z",
-      "PublishedAtDateTimeOffset": "2024-10-24T16:51:15+00:00",
-      "PublishedAt": "2024-10-24T22:21:15+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "mFRwTpRL3R4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvor\u00E1k: Symphony No. 9, PSO, Marin Alsop",
-      "VideoOwnerChannelId": "UC-DgMc4CJO7zqNq_xnYAXEA",
-      "VideoOwnerChannelTitle": "Peabody Institute of the Johns Hopkins University"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "lT_yrsJwt7w",
-      "VideoPublishedAtRaw": "2021-04-20T07:37:13Z",
-      "VideoPublishedAtDateTimeOffset": "2021-04-20T07:37:13+00:00",
-      "VideoPublishedAt": "2021-04-20T13:07:13+05:30"
-    },
-    "ETag": "0QUQbQafmq4_qLT3XD5SnlKhxMo",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4xMkVGQjNCMUM1N0RFNEUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Anton\u00EDn Dvo\u0159\u00E1ks Neunte Sinfonie, gespielt vom NDR Elbphilharmonie Orchester unter Leitung von Manfred Honeck. Eine Aufzeichnung vom 25. M\u00E4rz 2021 aus der Elbphilharmonie Hamburg - aufgrund des Lockdowns zu Corona-Zeiten ohne Publikum im Saal.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Sinfonie Nr. 9 e-Moll op. 95 - Aus der Neuen Welt\n\n00:00:00 I. Adagio - Allegro molto \n00:10:00 II. Largo \n00:22:28 III. Scherzo. Molto vivace \n00:30:52 IV. Allegro con fuoco \n\nNDR Elbphilharmonie Orchester\nManfred Honeck, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 8,
-      "PublishedAtRaw": "2024-10-24T16:51:52Z",
-      "PublishedAtDateTimeOffset": "2024-10-24T16:51:52+00:00",
-      "PublishedAt": "2024-10-24T22:21:52+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "lT_yrsJwt7w"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k - Sinfonie Nr. 9 - Aus der Neuen Welt | Manfred Honeck | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "pZoEl6BbzKc",
-      "VideoPublishedAtRaw": "2023-03-30T02:19:13Z",
-      "VideoPublishedAtDateTimeOffset": "2023-03-30T02:19:13+00:00",
-      "VideoPublishedAt": "2023-03-30T07:49:13+05:30"
-    },
-    "ETag": "0sH63Msz4sM47FwKXsx_C7vk7Wc",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Anton\u00EDn Dvo\u0159\u00E1k - Symphony No. 9 in E minor, \u0022From the New World\u0022, Op. 95, B. 178 (Czech: Symfonie \u010D. 9 e moll \u0022Z nov\u00E9ho sv\u011Bta\u0022)\nSymphonieorchester des Bayerischen Rundfunks conducted by Rafael Kubel\u00EDk\nLive recording: Herkulessaal, Munich, December 1977",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 9,
-      "PublishedAtRaw": "2024-10-24T16:51:45Z",
-      "PublishedAtDateTimeOffset": "2024-10-24T16:51:45+00:00",
-      "PublishedAt": "2024-10-24T22:21:45+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "pZoEl6BbzKc"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k - Symphony No 9 \u0027New World\u0027 - Kubel\u00EDk, Symphonieorchester des Bayerischen Rundfunks (1977)",
-      "VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
-      "VideoOwnerChannelTitle": "1Furtwangler"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "k0webcrfBA8",
-      "VideoPublishedAtRaw": "2023-06-09T09:36:26Z",
-      "VideoPublishedAtDateTimeOffset": "2023-06-09T09:36:26+00:00",
-      "VideoPublishedAt": "2023-06-09T15:06:26+05:30"
-    },
-    "ETag": "BnrVvLzyMLo9ETVVfxjug-VFws4",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5GNjNDRDREMDQxOThCMDQ2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Anton\u00EDn Leopold Dvo\u0159\u00E1k(8 September 1841 \u2013 1 May 1904) \nSymphony No. 9 in E minor Op. 95 , \u0022From the New World\u0022\n(00:00) 1. Adagio - Allegro molto\n(09:07) 2. Largo\n(22:05) 3. Scherzo. Molto vivace\n(30:26) 4. Allegro con fuoco\n\nConductor - Karl B\u00F6hm\nOrchestra - Symphonie-Orchester Des Bayerischen Rundfunks\n\nRecorded 27-28 November 1958",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 10,
-      "PublishedAtRaw": "2024-11-04T19:27:46Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:27:46+00:00",
-      "PublishedAt": "2024-11-05T00:57:46+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "k0webcrfBA8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/k0webcrfBA8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/k0webcrfBA8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/k0webcrfBA8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/k0webcrfBA8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k - Symphony No.9 From the New World/ Karl B\u00F6hm \u0026 Symphonie-Orchester Des Bayerischen Rundfunks",
-      "VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
-      "VideoOwnerChannelTitle": "Tsubame Classics"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "kUB2dGfmZJg",
-      "VideoPublishedAtRaw": "2024-09-29T05:58:55Z",
-      "VideoPublishedAtDateTimeOffset": "2024-09-29T05:58:55+00:00",
-      "VideoPublishedAt": "2024-09-29T11:28:55+05:30"
-    },
-    "ETag": "TMv1fZJWc04WVjIwOodFW2h3xwg",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvo\u0159\u00E1k : Symphony No.9 \n1st movement   00:00\n2nd    11:53\n3rd     25:37\n4th    33:07\nLeonard Slatkin / Washington National Symphony orchestra\n9/2001 Washington, Kennedy center Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30B9\u30E9\u30C3\u30C8\u30AD\u30F3\u6307\u63EE\u3000\u30EF\u30B7\u30F3\u30C8\u30F3\u30FB\u30CA\u30B7\u30E7\u30CA\u30EB\u4EA4\u97FF\u697D\u56E3\n2001\u5E749\u6708\u3000\u30EF\u30B7\u30F3\u30C8\u30F3\u3001\u30B1\u30CD\u30C7\u30A3\u30FB\u30BB\u30F3\u30BF\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 11,
-      "PublishedAtRaw": "2024-11-04T19:27:19Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:27:19+00:00",
-      "PublishedAt": "2024-11-05T00:57:19+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "kUB2dGfmZJg"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/kUB2dGfmZJg/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/kUB2dGfmZJg/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/kUB2dGfmZJg/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k : Symphony No.9    L. Slatkin / WNSO  2001 live",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "sIY7zGDjyDU",
-      "VideoPublishedAtRaw": "2023-10-29T16:00:41Z",
-      "VideoPublishedAtDateTimeOffset": "2023-10-29T16:00:41+00:00",
-      "VideoPublishedAt": "2023-10-29T21:30:41+05:30"
-    },
-    "ETag": "FqTgRz2qsDXhwCwMwGadxqSXHKA",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41Mzk2QTAxMTkzNDk4MDhF",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027 \n1st movement   00:00\n2nd   09:15\n3rd    21:35\n4th    29:35\nV\u00E1clav Smet\u00E1\u010Dek / Prague Radio Symphony Orchestra\n1974 Live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30F4\u30A1\u30FC\u30C4\u30E9\u30D5\u30FB\u30B9\u30E1\u30BF\u30FC\u30C1\u30A7\u30AF\u6307\u63EE\u3000\u30D7\u30E9\u30CF\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n1974\u5E74\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30B9\u30E1\u30BF\u30FC\u30C1\u30A7\u30AF\u306E\u5B9F\u529B\u304C\u907A\u61BE\u306A\u304F\u767A\u63EE\u3055\u308C\u305F\u767D\u71B1\u306E\u30E9\u30A4\u30D6\u9332\u97F3\u3002",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 12,
-      "PublishedAtRaw": "2024-11-04T19:28:46Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:28:46+00:00",
-      "PublishedAt": "2024-11-05T00:58:46+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "sIY7zGDjyDU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027 V\u00E1clav Smet\u00E1\u010Dek 1974 live",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "kzi9DFTYO9w",
-      "VideoPublishedAtRaw": "2023-06-14T18:45:35Z",
-      "VideoPublishedAtDateTimeOffset": "2023-06-14T18:45:35+00:00",
-      "VideoPublishedAt": "2023-06-15T00:15:35+05:30"
-    },
-    "ETag": "Cu37qslW-x6bIJnfMn4j2F3XFc0",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5EQUE1NTFDRjcwMDg0NEMz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dvo\u0159\u00E1k Symphony No. 9 Nicholas Collon Finnish Radio Symphony Orchestra\n\nAntonin Dvo\u0159\u00E1k: Symphony No. 9 \nI Adagio\nII Largo\nIII Scherzo: Molto vivace \u2013 Poco sostenuto\nIV Finale: Allegro con fuoco\n\nNicholas Collon, conductor \nFinnish Radio Symphony Orchestra \n\nRecorded at Musiikkitalo, Helsinki, November 9, 2022\nFull-length concert: https://areena.yle.fi/1-62612398\n\nFRSO is LIVE every week at Yle Areena: \nhttps://areena.yle.fi/tv/ohjelmat/57-7A4k1J0dd\nWatch all our concerts on demand at Yle Areena:\nhttps://areena.yle.fi/tv/ohjelmat/57-7A4k1J0dd\n\nSubscribe to our newsletter:\nhttps://yle.fi/aihe/sivu/rso-in-engli...\nWebsite of the Finnish Radio Symphony Orchestra:\nhttps://yle.fi/aihe/rso-english",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 13,
-      "PublishedAtRaw": "2024-11-04T19:28:53Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:28:53+00:00",
-      "PublishedAt": "2024-11-05T00:58:53+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "kzi9DFTYO9w"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k Symphony No. 9 Nicholas Collon Finnish Radio Symphony Orchestra",
-      "VideoOwnerChannelId": "UCbR2rQmH7jsrpg8ESUsM10g",
-      "VideoOwnerChannelTitle": "Finnish Radio Symphony Orchestra"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "jOofzffyDSA",
-      "VideoPublishedAtRaw": "2018-06-06T14:54:59Z",
-      "VideoPublishedAtDateTimeOffset": "2018-06-06T14:54:59+00:00",
-      "VideoPublishedAt": "2018-06-06T20:24:59+05:30"
-    },
-    "ETag": "S4PKgw1r8Q1N7Nb5X-eIa_oXkqk",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Anton\u00EDn Dvo\u0159\u00E1k: 9. Sinfonie (\u00BBAus der Neuen Welt\u00AB) \u2219\n\n(Auftritt)  00:00 \u2219\nI. Adagio \u2013 Allegro molto  00:24 \u2219\nII. Largo  13:01 \u2219\nIII. Scherzo. Molto vivace  26:23 \u2219\nIV. Allegro con fuoco  34:06 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAndr\u00E9s Orozco-Estrada, Dirigent \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 25. Mai 2018 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 14,
-      "PublishedAtRaw": "2024-10-24T16:51:22Z",
-      "PublishedAtDateTimeOffset": "2024-10-24T16:51:22+00:00",
-      "PublishedAt": "2024-10-24T22:21:22+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "jOofzffyDSA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/jOofzffyDSA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/jOofzffyDSA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/jOofzffyDSA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/jOofzffyDSA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/jOofzffyDSA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k: 9. Sinfonie (\u00BBAus der Neuen Welt\u00AB) \u2219 hr-Sinfonieorchester \u2219 Andr\u00E9s Orozco-Estrada",
-      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "dfW8jgnoUkI",
-      "VideoPublishedAtRaw": "2017-11-18T13:53:28Z",
-      "VideoPublishedAtDateTimeOffset": "2017-11-18T13:53:28+00:00",
-      "VideoPublishedAt": "2017-11-18T19:23:28+05:30"
-    },
-    "ETag": "-5vmb15pyb_SfzSPjMMit57JbnQ",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "ANTON\u00CDN DVOR\u00C1K (1841-1904)\nSinfon\u00EDa n\u00BA 9, en mi menor, op. 95, \u0022Del Nuevo Mundo\u0022\nAdagio - Allegro (0:18)\nLargo (10:23)\nScherzo. Molto vivace (23:00)\nAllegro con fuoco (31:00)\n\n\nOrquesta Sinf\u00F3nica de Galicia\nEliahu Inbal, director\nGrabaci\u00F3n realizada en el Palacio de la \u00D3pera de A Coru\u00F1a el 10 de noviembre de 2017.\n\nRealizaci\u00F3n de Antonio Cid / RDC Producciones\nSonido de Pablo Barreiro / Radio Galega",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 15,
-      "PublishedAtRaw": "2024-10-24T16:51:08Z",
-      "PublishedAtDateTimeOffset": "2024-10-24T16:51:08+00:00",
-      "PublishedAt": "2024-10-24T22:21:08+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "dfW8jgnoUkI"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k: Symphony No. 9 \u0022From the New World\u0022 - Eliahu Inbal - Sinf\u00F3nica de Galicia",
-      "VideoOwnerChannelId": "UCS6ifbKJFAW9dJEOd97hQ4g",
-      "VideoOwnerChannelTitle": "SinfonicadeGalicia"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "5SNxIjdjB1o",
-      "VideoPublishedAtRaw": "2024-10-23T13:00:06Z",
-      "VideoPublishedAtDateTimeOffset": "2024-10-23T13:00:06+00:00",
-      "VideoPublishedAt": "2024-10-23T18:30:06+05:30"
-    },
-    "ETag": "J7Z3dFDtDaPfr6Wh9SkGmRlwJqY",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5ENDU4Q0M4RDExNzM1Mjcy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "It is one of the most popular symphonies ever: Anton\u00EDn Dvo\u0159\u00E1k\u2019s Symphony No. 9 in E minor, Op. 95 \u201CFrom the New World.\u201D Here, the masterpiece is performed by the Verbier Festival Orchestra under the baton of Neeme J\u00E4rvi at the Verbier Festival 2012.\n\n(00:00) Coming on stage \n(00:27) I. Adagio. Allegro molto \n(12:16) II. Largo \n(23:29) III. Scherzo: Molto vivace \n(31:34) IV. Allegro con fuoco\n\nAnton\u00EDn Dvo\u0159\u00E1k\u2019s Symphony No. 9 in E minor, Op. 95 \u201CFrom the New World\u201D is the musical testimony of a fusion of sounds from home and abroad. Although Dvo\u0159\u00E1k composed the world-famous Ninth Symphony \u201Cin the spirit of American folk songs\u201D during a stay in the USA, he actually invented the themes and motifs to be reminiscent of Bohemian folk tunes.\n\nDvo\u0159\u00E1k (1841-1904) had left his homeland of Bohemia (in what is today the Czech Republic) in 1892 for New York, where he was the Director of the National Conservatory of Music until 1895. Dvo\u0159\u00E1k named the symphony he wrote in New York in 1893 \u201CFrom the New World\u201D after it was first published as Symphony No. 5. According to the composer, the symphony was intended to reflect his idea of the spirit of American music.\n\nDvo\u0159\u00E1k had listened to melodies of Native Americans and African Americans played to him to capture their musical spirit \u2013 he by no means wanted to completely replicate the music. In the second and third movements of \u201CFrom the New World,\u201D Dvo\u0159\u00E1k also references the epic poem Hiawatha by U.S. author Henry Wadsworth Longfellow (1807 - 1882), which tells the story of the fictitious chief Hiawatha. \n\nBut beyond the explicit agenda of writing the symphony \u201CFrom the New World,\u201D Dvo\u0159\u00E1k also incorporated Bohemian folk music into his Ninth and drew from this mix a wealth of catchy melodies. It is the fusion of supposedly Native American and Bohemian folk music that gives Dvo\u0159\u00E1k\u2019s Symphony No. 9 its special appeal. \n\nThe premiere on December 16, 1893, with the New York Philharmonic conducted by Anton Seidl, was a resounding success, as were the first performances in Europe. To this day, Dvo\u0159\u00E1k\u2019s Ninth Symphony is very popular with audiences. And astronaut Neil Armstrong even took it with him on the Apollo 11 mission that led to the first moon landing in 1969. \n\nNeeme J\u00E4rvi was born in Tallinn, Estonia in 1937. He studied percussion and choral conducting at the conservatory of his native city before later pursuing his studies to become a conductor at the N. A. Rimsky-Korsakov Conservatory in then Leningrad.\n\nFrom 1963 to 1979, he held the position of Principal Conductor at the Estonian National Symphony Orchestra, and from 1964 to 1975, he headed the Estonian National Opera in parallel. Shortly after J\u00E4rvi\u2019s first performance at the New York Metropolitan Opera, in 1979, he emigrated to the USA. There, he soon began collaborating with the New York Philharmonic, the Philadelphia Orchestra and the San Francisco Symphony.\n\nIn 1982, he became the Principal Conductor at the Gothenburg Symphony Orchestra, from 1984 to 1988, he headed the Royal Scottish National Orchestra, and from 1990 to 2005, he led the Detroit Symphony Orchestra. In 2005, J\u00E4rvi became the Music Director of the New Jersey Symphony Orchestra and Chief Conductor of the Residentie Orkest The Hague. From 2010 to 2020, he acted as the Principal Director and Artistic Director of the Estonian National Symphony Orchestra, and he currently holds the title of Chief Conductor Emeritus at the Residentie Orkest The Hague and Music Director Emeritus at the Detroit Symphony Orchestra.\n\nIn the course of his sixty-year career, Neeme J\u00E4rvi has conducted over 150 orchestras. His discography comprises over 450 recordings \u2013 many of which award-winning. At the 2018 Gramophone Awards, he was bestowed the Lifetime Achievement Award for his extensive and high-quality range of works.\n\nNeeme J\u00E4rvi is the head of a musical dynasty. His children are also very successful musicians: His sons Paavo and Kristjan have become conductors, and his daughter Maarika a flutist. There is a wealth of videos featuring Paavo J\u00E4rvi on DW Classical Music. Here \u2013 like his father before him \u2013 he can be seen conducting Antonin Dvo\u0159\u00E1k\u2019s Symphony No. 9 \u201CFrom the New World\u201D: https://www.youtube.com/watch?v=uOmaQSqnPfw\n\nThe Verbier Festival is one of the world\u2019s most prestigious classical music events. The quality of participating artists is coupled with the originality of the programs. The festival is held from late July to early August in the mountain resort of Verbier, Switzerland.\n\n\u00A9 2012 Id\u00E9ale Audience\n\nWatch more concerts in your PERSONAL CONCERT HALL: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nand in our SYMPHONIES playlist: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic \n\n#dvo\u0159\u00E1k #symphony #ninth",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 16,
-      "PublishedAtRaw": "2024-12-12T00:30:18Z",
-      "PublishedAtDateTimeOffset": "2024-12-12T00:30:18+00:00",
-      "PublishedAt": "2024-12-12T06:00:18+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "5SNxIjdjB1o"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Dvo\u0159\u00E1k: Symphony No. 9 From the New World | Neeme J\u00E4rvi \u0026 the Verbier Festival Orchestra",
-      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-      "VideoOwnerChannelTitle": "DW Classical Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "7pRmOdre7jI",
-      "VideoPublishedAtRaw": "2024-09-09T14:38:04Z",
-      "VideoPublishedAtDateTimeOffset": "2024-09-09T14:38:04+00:00",
-      "VideoPublishedAt": "2024-09-09T20:08:04+05:30"
-    },
-    "ETag": "8cziXJFqeFsriOyYREzff1D_4xY",
-    "Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS45NDk1REZENzhEMzU5MDQz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "",
-      "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
-      "Position": 17,
-      "PublishedAtRaw": "2024-11-04T19:27:33Z",
-      "PublishedAtDateTimeOffset": "2024-11-04T19:27:33+00:00",
-      "PublishedAt": "2024-11-05T00:57:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "7pRmOdre7jI"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/7pRmOdre7jI/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/7pRmOdre7jI/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/7pRmOdre7jI/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/7pRmOdre7jI/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Myung-Whun Chung conducts Dvorak\u2019s Symphony No. 9",
-      "VideoOwnerChannelId": "UCUZc6RwOe3JKUbc5tmsvZtw",
-      "VideoOwnerChannelTitle": "\u6708\u4E0B\u542C\u98CE"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "9_BlhOJp8RY",
+			"VideoPublishedAtRaw": "2016-07-28T12:25:56Z",
+			"VideoPublishedAtDateTimeOffset": "2016-07-28T12:25:56+00:00",
+			"VideoPublishedAt": "2016-07-28T17:55:56+05:30"
+		},
+		"ETag": "iCP070Tm5FnTMbDtEBdNxibIP70",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvo\u0159\u00E1k\u0027s 9th Symphony, played by the Bavarian Radio Symphony Orchestra (Symphonieorchester des Bayerischen Rundfunks) and conducted by Mariss Jansons.",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 0,
+			"PublishedAtRaw": "2024-10-24T16:51:30Z",
+			"PublishedAtDateTimeOffset": "2024-10-24T16:51:30+00:00",
+			"PublishedAt": "2024-10-24T22:21:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "9_BlhOJp8RY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/9_BlhOJp8RY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Anton\u00EDn Dvo\u0159\u00E1k - Symphony No. 9 (Mariss Jansons, Bavarian Radio Symphony Orchestra) [60fps]",
+			"VideoOwnerChannelId": "UCIv7pi6GFZVURtA3a1dxnfw",
+			"VideoOwnerChannelTitle": "Leonardo Nascimento"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lQEfUKrl-a4",
+			"VideoPublishedAtRaw": "2024-11-05T17:34:17Z",
+			"VideoPublishedAtDateTimeOffset": "2024-11-05T17:34:17+00:00",
+			"VideoPublishedAt": "2024-11-05T23:04:17+05:30"
+		},
+		"ETag": "OdzbfFxRb5Twe9FYD_hlFH3Ic-E",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Dvo\u0159\u00E1k: Symphony No. 9 in E minor op. 95 (From the New World)\nRadio-Sinfonie-Orchester Frankfurt\nJohn Adams\n21 November 2003, Alte Oper, Frankfurt\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 1,
+			"PublishedAtRaw": "2024-11-05T21:06:00Z",
+			"PublishedAtDateTimeOffset": "2024-11-05T21:06:00+00:00",
+			"PublishedAt": "2024-11-06T02:36:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lQEfUKrl-a4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lQEfUKrl-a4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Anton\u00EDn Dvo\u0159\u00E1k: Symphony No. 9 in E minor -- John Adams/Radio-Sinfonie-Orchester Frankfurt (2003)",
+			"VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
+			"VideoOwnerChannelTitle": "Quality Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "8EmLqJ8kl14",
+			"VideoPublishedAtRaw": "2024-10-01T20:03:13Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-01T20:03:13+00:00",
+			"VideoPublishedAt": "2024-10-02T01:33:13+05:30"
+		},
+		"ETag": "aUg9cxCf2TolyUtQ43ZtG9g9FWg",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 2,
+			"PublishedAtRaw": "2024-11-04T19:27:29Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:27:29+00:00",
+			"PublishedAt": "2024-11-05T00:57:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "8EmLqJ8kl14"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/8EmLqJ8kl14/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bergen Youth Philharmonic Orchestra performs Dvorak\u0027s Symphony No. 9",
+			"VideoOwnerChannelId": "UCUZc6RwOe3JKUbc5tmsvZtw",
+			"VideoOwnerChannelTitle": "\u6708\u4E0B\u542C\u98CE"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "T2aOcsSe9rM",
+			"VideoPublishedAtRaw": "2024-02-20T13:00:26Z",
+			"VideoPublishedAtDateTimeOffset": "2024-02-20T13:00:26+00:00",
+			"VideoPublishedAt": "2024-02-20T18:30:26+05:30"
+		},
+		"ETag": "GZjNItCvZb8SKHowJ5L08C3e8Ko",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvorak : Symphony No.5\n1st movement   00:00\n2nd    09:51\n3rd     21:40\n4th     29:24  \nR.Kempe / BBC Symphony orchestra\n29/8/1975 Proms, Royal Albert hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30EB\u30C9\u30EB\u30D5\u30FB\u30B1\u30F3\u30DA\u6307\u63EE\u3000BBC\u4EA4\u97FF\u697D\u56E3\n1975\u5E748\u670829\u65E5\u3000\u30D7\u30ED\u30E0\u30B9\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30B1\u30F3\u30DA\u304C\u6669\u5E74\u3001\u751F\u6DAF\u6700\u5F8C\u306E\u30D7\u30ED\u30E0\u30B9\u3067\u6F14\u594F\u3057\u305F\u8A18\u9332\u3002\u4F53\u8ABF\u306E\u60AA\u3055\u3092\u611F\u3058\u3055\u305B\u306A\u3044\u63A8\u9032\u529B\u3068\u30A8\u30CD\u30EB\u30AE\u30FC\u3067\u5727\u5012\u7684\u306A\u611F\u52D5\u3092\u4E0E\u3048\u3089\u308C\u307E\u3059\u3002\u4F1D\u8AAC\u7684\u540D\u6F14\u3002",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 3,
+			"PublishedAtRaw": "2024-11-04T19:28:23Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:28:23+00:00",
+			"PublishedAt": "2024-11-05T00:58:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "T2aOcsSe9rM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/T2aOcsSe9rM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvorak : Symphony No.9     R.Kempe / BBC.SO   1975 Proms live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "B9Sfbte2Jo4",
+			"VideoPublishedAtRaw": "2024-08-18T14:11:39Z",
+			"VideoPublishedAtDateTimeOffset": "2024-08-18T14:11:39+00:00",
+			"VideoPublishedAt": "2024-08-18T19:41:39+05:30"
+		},
+		"ETag": "138cDjSmheW5x45VvQEYcUahutY",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvorak : Symphony No.9 \u0027 From the new world \u0027\n1st movement   00:00\n2nd    09:05\n3rd    21:04\n4th    28:52\nG. Pretre / Stuttgart Radio Symphony Orchestra\n21/10/2004 Liederhalle live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30B8\u30E7\u30EB\u30B8\u30E5\u30FB\u30D7\u30EC\u30FC\u30C8\u30EB\u6307\u63EE\u3000SWR\u30B7\u30E5\u30C8\u30A5\u30C3\u30C8\u30AC\u30EB\u30C8\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n2004\u5E7410\u670821\u65E5\u3000\u30B7\u30E5\u30C8\u30A5\u30C3\u30C8\u30AC\u30EB\u30C8\u30FB\u30EA\u30FC\u30C0\u30FC\u30CF\u30EC\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 4,
+			"PublishedAtRaw": "2024-11-04T19:28:07Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:28:07+00:00",
+			"PublishedAt": "2024-11-05T00:58:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "B9Sfbte2Jo4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/B9Sfbte2Jo4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/B9Sfbte2Jo4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/B9Sfbte2Jo4/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Dvorak : Symphony No.9 \u0027 From the new world \u0027    G. Pretre / SWR 2004 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "SLJ3wv5fSDU",
+			"VideoPublishedAtRaw": "2024-02-09T13:58:37Z",
+			"VideoPublishedAtDateTimeOffset": "2024-02-09T13:58:37+00:00",
+			"VideoPublishedAt": "2024-02-09T19:28:37+05:30"
+		},
+		"ETag": "mjcP3qbvLQbnnowHDSp8EpO6zfQ",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvorak : Symphony No.9 In E Minor, Op.95 \u0022From The New World\u0022  \n\nSeiji Ozawa\n\nVienna Philharmonic Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 5,
+			"PublishedAtRaw": "2024-11-04T19:28:34Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:28:34+00:00",
+			"PublishedAt": "2024-11-05T00:58:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "SLJ3wv5fSDU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/SLJ3wv5fSDU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvorak : Symphony No.9 In E Minor, Op.95 \u0022From The New World\u0022   -   Seiji Ozawa",
+			"VideoOwnerChannelId": "UCji8xL95n4WjeGix3f45Ysg",
+			"VideoOwnerChannelTitle": "Red Arrow"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ULaHmLbIbq4",
+			"VideoPublishedAtRaw": "2024-03-18T21:22:36Z",
+			"VideoPublishedAtDateTimeOffset": "2024-03-18T21:22:36+00:00",
+			"VideoPublishedAt": "2024-03-19T02:52:36+05:30"
+		},
+		"ETag": "KsCFeu4JUDb8pZcQk-vOX8ixVNc",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvorak : Symphony No.9 in E minor, Op.95 \u0022From The New World\u0022  \n\nSeiji Ozawa\n\nVienna Philharmonic Orchestra",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 6,
+			"PublishedAtRaw": "2024-11-04T19:28:18Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:28:18+00:00",
+			"PublishedAt": "2024-11-05T00:58:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ULaHmLbIbq4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ULaHmLbIbq4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvorak : Symphony No.9 in E minor, Op.95 \u0022From The New World\u0022  -  Seiji Ozawa",
+			"VideoOwnerChannelId": "UCji8xL95n4WjeGix3f45Ysg",
+			"VideoOwnerChannelTitle": "Red Arrow"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "mFRwTpRL3R4",
+			"VideoPublishedAtRaw": "2016-05-16T19:04:34Z",
+			"VideoPublishedAtDateTimeOffset": "2016-05-16T19:04:34+00:00",
+			"VideoPublishedAt": "2016-05-17T00:34:34+05:30"
+		},
+		"ETag": "5JaCOaiSWCKBDzqfnpD8WA8MGn0",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvor\u00E1k: Symphony No. 9, \nPeabody Symphony Orchestra, \nMarin Alsop, Conductor\nOctober 25, 2015",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 7,
+			"PublishedAtRaw": "2024-10-24T16:51:15Z",
+			"PublishedAtDateTimeOffset": "2024-10-24T16:51:15+00:00",
+			"PublishedAt": "2024-10-24T22:21:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "mFRwTpRL3R4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/mFRwTpRL3R4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvor\u00E1k: Symphony No. 9, PSO, Marin Alsop",
+			"VideoOwnerChannelId": "UC-DgMc4CJO7zqNq_xnYAXEA",
+			"VideoOwnerChannelTitle": "Peabody Institute of the Johns Hopkins University"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lT_yrsJwt7w",
+			"VideoPublishedAtRaw": "2021-04-20T07:37:13Z",
+			"VideoPublishedAtDateTimeOffset": "2021-04-20T07:37:13+00:00",
+			"VideoPublishedAt": "2021-04-20T13:07:13+05:30"
+		},
+		"ETag": "0QUQbQafmq4_qLT3XD5SnlKhxMo",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Dvo\u0159\u00E1ks Neunte Sinfonie, gespielt vom NDR Elbphilharmonie Orchester unter Leitung von Manfred Honeck. Eine Aufzeichnung vom 25. M\u00E4rz 2021 aus der Elbphilharmonie Hamburg - aufgrund des Lockdowns zu Corona-Zeiten ohne Publikum im Saal.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Sinfonie Nr. 9 e-Moll op. 95 - Aus der Neuen Welt\n\n00:00:00 I. Adagio - Allegro molto \n00:10:00 II. Largo \n00:22:28 III. Scherzo. Molto vivace \n00:30:52 IV. Allegro con fuoco \n\nNDR Elbphilharmonie Orchester\nManfred Honeck, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 8,
+			"PublishedAtRaw": "2024-10-24T16:51:52Z",
+			"PublishedAtDateTimeOffset": "2024-10-24T16:51:52+00:00",
+			"PublishedAt": "2024-10-24T22:21:52+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lT_yrsJwt7w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lT_yrsJwt7w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k - Sinfonie Nr. 9 - Aus der Neuen Welt | Manfred Honeck | NDR Elbphilharmonie Orchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "pZoEl6BbzKc",
+			"VideoPublishedAtRaw": "2023-03-30T02:19:13Z",
+			"VideoPublishedAtDateTimeOffset": "2023-03-30T02:19:13+00:00",
+			"VideoPublishedAt": "2023-03-30T07:49:13+05:30"
+		},
+		"ETag": "0sH63Msz4sM47FwKXsx_C7vk7Wc",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Dvo\u0159\u00E1k - Symphony No. 9 in E minor, \u0022From the New World\u0022, Op. 95, B. 178 (Czech: Symfonie \u010D. 9 e moll \u0022Z nov\u00E9ho sv\u011Bta\u0022)\nSymphonieorchester des Bayerischen Rundfunks conducted by Rafael Kubel\u00EDk\nLive recording: Herkulessaal, Munich, December 1977",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 9,
+			"PublishedAtRaw": "2024-10-24T16:51:45Z",
+			"PublishedAtDateTimeOffset": "2024-10-24T16:51:45+00:00",
+			"PublishedAt": "2024-10-24T22:21:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "pZoEl6BbzKc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/pZoEl6BbzKc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k - Symphony No 9 \u0027New World\u0027 - Kubel\u00EDk, Symphonieorchester des Bayerischen Rundfunks (1977)",
+			"VideoOwnerChannelId": "UC7W3i6EM5VQEZ2HM6uy5vsQ",
+			"VideoOwnerChannelTitle": "1Furtwangler"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "k0webcrfBA8",
+			"VideoPublishedAtRaw": "2023-06-09T09:36:26Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-09T09:36:26+00:00",
+			"VideoPublishedAt": "2023-06-09T15:06:26+05:30"
+		},
+		"ETag": "BnrVvLzyMLo9ETVVfxjug-VFws4",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Leopold Dvo\u0159\u00E1k(8 September 1841 \u2013 1 May 1904) \nSymphony No. 9 in E minor Op. 95 , \u0022From the New World\u0022\n(00:00) 1. Adagio - Allegro molto\n(09:07) 2. Largo\n(22:05) 3. Scherzo. Molto vivace\n(30:26) 4. Allegro con fuoco\n\nConductor - Karl B\u00F6hm\nOrchestra - Symphonie-Orchester Des Bayerischen Rundfunks\n\nRecorded 27-28 November 1958",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 10,
+			"PublishedAtRaw": "2024-11-04T19:27:46Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:27:46+00:00",
+			"PublishedAt": "2024-11-05T00:57:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "k0webcrfBA8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/k0webcrfBA8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/k0webcrfBA8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/k0webcrfBA8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/k0webcrfBA8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k - Symphony No.9 From the New World/ Karl B\u00F6hm \u0026 Symphonie-Orchester Des Bayerischen Rundfunks",
+			"VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
+			"VideoOwnerChannelTitle": "Tsubame Classics"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kUB2dGfmZJg",
+			"VideoPublishedAtRaw": "2024-09-29T05:58:55Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-29T05:58:55+00:00",
+			"VideoPublishedAt": "2024-09-29T11:28:55+05:30"
+		},
+		"ETag": "TMv1fZJWc04WVjIwOodFW2h3xwg",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvo\u0159\u00E1k : Symphony No.9 \n1st movement   00:00\n2nd    11:53\n3rd     25:37\n4th    33:07\nLeonard Slatkin / Washington National Symphony orchestra\n9/2001 Washington, Kennedy center Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30EC\u30CA\u30FC\u30C9\u30FB\u30B9\u30E9\u30C3\u30C8\u30AD\u30F3\u6307\u63EE\u3000\u30EF\u30B7\u30F3\u30C8\u30F3\u30FB\u30CA\u30B7\u30E7\u30CA\u30EB\u4EA4\u97FF\u697D\u56E3\n2001\u5E749\u6708\u3000\u30EF\u30B7\u30F3\u30C8\u30F3\u3001\u30B1\u30CD\u30C7\u30A3\u30FB\u30BB\u30F3\u30BF\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 11,
+			"PublishedAtRaw": "2024-11-04T19:27:19Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:27:19+00:00",
+			"PublishedAt": "2024-11-05T00:57:19+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kUB2dGfmZJg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kUB2dGfmZJg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kUB2dGfmZJg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kUB2dGfmZJg/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k : Symphony No.9    L. Slatkin / WNSO  2001 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sIY7zGDjyDU",
+			"VideoPublishedAtRaw": "2023-10-29T16:00:41Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-29T16:00:41+00:00",
+			"VideoPublishedAt": "2023-10-29T21:30:41+05:30"
+		},
+		"ETag": "FqTgRz2qsDXhwCwMwGadxqSXHKA",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027 \n1st movement   00:00\n2nd   09:15\n3rd    21:35\n4th    29:35\nV\u00E1clav Smet\u00E1\u010Dek / Prague Radio Symphony Orchestra\n1974 Live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30F4\u30A1\u30FC\u30C4\u30E9\u30D5\u30FB\u30B9\u30E1\u30BF\u30FC\u30C1\u30A7\u30AF\u6307\u63EE\u3000\u30D7\u30E9\u30CF\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n1974\u5E74\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30B9\u30E1\u30BF\u30FC\u30C1\u30A7\u30AF\u306E\u5B9F\u529B\u304C\u907A\u61BE\u306A\u304F\u767A\u63EE\u3055\u308C\u305F\u767D\u71B1\u306E\u30E9\u30A4\u30D6\u9332\u97F3\u3002",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 12,
+			"PublishedAtRaw": "2024-11-04T19:28:46Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:28:46+00:00",
+			"PublishedAt": "2024-11-05T00:58:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sIY7zGDjyDU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/sIY7zGDjyDU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027 V\u00E1clav Smet\u00E1\u010Dek 1974 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kzi9DFTYO9w",
+			"VideoPublishedAtRaw": "2023-06-14T18:45:35Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-14T18:45:35+00:00",
+			"VideoPublishedAt": "2023-06-15T00:15:35+05:30"
+		},
+		"ETag": "Cu37qslW-x6bIJnfMn4j2F3XFc0",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dvo\u0159\u00E1k Symphony No. 9 Nicholas Collon Finnish Radio Symphony Orchestra\n\nAntonin Dvo\u0159\u00E1k: Symphony No. 9 \nI Adagio\nII Largo\nIII Scherzo: Molto vivace \u2013 Poco sostenuto\nIV Finale: Allegro con fuoco\n\nNicholas Collon, conductor \nFinnish Radio Symphony Orchestra \n\nRecorded at Musiikkitalo, Helsinki, November 9, 2022\nFull-length concert: https://areena.yle.fi/1-62612398\n\nFRSO is LIVE every week at Yle Areena: \nhttps://areena.yle.fi/tv/ohjelmat/57-7A4k1J0dd\nWatch all our concerts on demand at Yle Areena:\nhttps://areena.yle.fi/tv/ohjelmat/57-7A4k1J0dd\n\nSubscribe to our newsletter:\nhttps://yle.fi/aihe/sivu/rso-in-engli...\nWebsite of the Finnish Radio Symphony Orchestra:\nhttps://yle.fi/aihe/rso-english",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 13,
+			"PublishedAtRaw": "2024-11-04T19:28:53Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:28:53+00:00",
+			"PublishedAt": "2024-11-05T00:58:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kzi9DFTYO9w"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kzi9DFTYO9w/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k Symphony No. 9 Nicholas Collon Finnish Radio Symphony Orchestra",
+			"VideoOwnerChannelId": "UCbR2rQmH7jsrpg8ESUsM10g",
+			"VideoOwnerChannelTitle": "Finnish Radio Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jOofzffyDSA",
+			"VideoPublishedAtRaw": "2018-06-06T14:54:59Z",
+			"VideoPublishedAtDateTimeOffset": "2018-06-06T14:54:59+00:00",
+			"VideoPublishedAt": "2018-06-06T20:24:59+05:30"
+		},
+		"ETag": "S4PKgw1r8Q1N7Nb5X-eIa_oXkqk",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton\u00EDn Dvo\u0159\u00E1k: 9. Sinfonie (\u00BBAus der Neuen Welt\u00AB) \u2219\n\n(Auftritt)  00:00 \u2219\nI. Adagio \u2013 Allegro molto  00:24 \u2219\nII. Largo  13:01 \u2219\nIII. Scherzo. Molto vivace  26:23 \u2219\nIV. Allegro con fuoco  34:06 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nAndr\u00E9s Orozco-Estrada, Dirigent \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 25. Mai 2018 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 14,
+			"PublishedAtRaw": "2024-10-24T16:51:22Z",
+			"PublishedAtDateTimeOffset": "2024-10-24T16:51:22+00:00",
+			"PublishedAt": "2024-10-24T22:21:22+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jOofzffyDSA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jOofzffyDSA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jOofzffyDSA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/jOofzffyDSA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jOofzffyDSA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/jOofzffyDSA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k: 9. Sinfonie (\u00BBAus der Neuen Welt\u00AB) \u2219 hr-Sinfonieorchester \u2219 Andr\u00E9s Orozco-Estrada",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dfW8jgnoUkI",
+			"VideoPublishedAtRaw": "2017-11-18T13:53:28Z",
+			"VideoPublishedAtDateTimeOffset": "2017-11-18T13:53:28+00:00",
+			"VideoPublishedAt": "2017-11-18T19:23:28+05:30"
+		},
+		"ETag": "-5vmb15pyb_SfzSPjMMit57JbnQ",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "ANTON\u00CDN DVOR\u00C1K (1841-1904)\nSinfon\u00EDa n\u00BA 9, en mi menor, op. 95, \u0022Del Nuevo Mundo\u0022\nAdagio - Allegro (0:18)\nLargo (10:23)\nScherzo. Molto vivace (23:00)\nAllegro con fuoco (31:00)\n\n\nOrquesta Sinf\u00F3nica de Galicia\nEliahu Inbal, director\nGrabaci\u00F3n realizada en el Palacio de la \u00D3pera de A Coru\u00F1a el 10 de noviembre de 2017.\n\nRealizaci\u00F3n de Antonio Cid / RDC Producciones\nSonido de Pablo Barreiro / Radio Galega",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 15,
+			"PublishedAtRaw": "2024-10-24T16:51:08Z",
+			"PublishedAtDateTimeOffset": "2024-10-24T16:51:08+00:00",
+			"PublishedAt": "2024-10-24T22:21:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dfW8jgnoUkI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/dfW8jgnoUkI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k: Symphony No. 9 \u0022From the New World\u0022 - Eliahu Inbal - Sinf\u00F3nica de Galicia",
+			"VideoOwnerChannelId": "UCS6ifbKJFAW9dJEOd97hQ4g",
+			"VideoOwnerChannelTitle": "SinfonicadeGalicia"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "5SNxIjdjB1o",
+			"VideoPublishedAtRaw": "2024-10-23T13:00:06Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-23T13:00:06+00:00",
+			"VideoPublishedAt": "2024-10-23T18:30:06+05:30"
+		},
+		"ETag": "J7Z3dFDtDaPfr6Wh9SkGmRlwJqY",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "It is one of the most popular symphonies ever: Anton\u00EDn Dvo\u0159\u00E1k\u2019s Symphony No. 9 in E minor, Op. 95 \u201CFrom the New World.\u201D Here, the masterpiece is performed by the Verbier Festival Orchestra under the baton of Neeme J\u00E4rvi at the Verbier Festival 2012.\n\n(00:00) Coming on stage \n(00:27) I. Adagio. Allegro molto \n(12:16) II. Largo \n(23:29) III. Scherzo: Molto vivace \n(31:34) IV. Allegro con fuoco\n\nAnton\u00EDn Dvo\u0159\u00E1k\u2019s Symphony No. 9 in E minor, Op. 95 \u201CFrom the New World\u201D is the musical testimony of a fusion of sounds from home and abroad. Although Dvo\u0159\u00E1k composed the world-famous Ninth Symphony \u201Cin the spirit of American folk songs\u201D during a stay in the USA, he actually invented the themes and motifs to be reminiscent of Bohemian folk tunes.\n\nDvo\u0159\u00E1k (1841-1904) had left his homeland of Bohemia (in what is today the Czech Republic) in 1892 for New York, where he was the Director of the National Conservatory of Music until 1895. Dvo\u0159\u00E1k named the symphony he wrote in New York in 1893 \u201CFrom the New World\u201D after it was first published as Symphony No. 5. According to the composer, the symphony was intended to reflect his idea of the spirit of American music.\n\nDvo\u0159\u00E1k had listened to melodies of Native Americans and African Americans played to him to capture their musical spirit \u2013 he by no means wanted to completely replicate the music. In the second and third movements of \u201CFrom the New World,\u201D Dvo\u0159\u00E1k also references the epic poem Hiawatha by U.S. author Henry Wadsworth Longfellow (1807 - 1882), which tells the story of the fictitious chief Hiawatha. \n\nBut beyond the explicit agenda of writing the symphony \u201CFrom the New World,\u201D Dvo\u0159\u00E1k also incorporated Bohemian folk music into his Ninth and drew from this mix a wealth of catchy melodies. It is the fusion of supposedly Native American and Bohemian folk music that gives Dvo\u0159\u00E1k\u2019s Symphony No. 9 its special appeal. \n\nThe premiere on December 16, 1893, with the New York Philharmonic conducted by Anton Seidl, was a resounding success, as were the first performances in Europe. To this day, Dvo\u0159\u00E1k\u2019s Ninth Symphony is very popular with audiences. And astronaut Neil Armstrong even took it with him on the Apollo 11 mission that led to the first moon landing in 1969. \n\nNeeme J\u00E4rvi was born in Tallinn, Estonia in 1937. He studied percussion and choral conducting at the conservatory of his native city before later pursuing his studies to become a conductor at the N. A. Rimsky-Korsakov Conservatory in then Leningrad.\n\nFrom 1963 to 1979, he held the position of Principal Conductor at the Estonian National Symphony Orchestra, and from 1964 to 1975, he headed the Estonian National Opera in parallel. Shortly after J\u00E4rvi\u2019s first performance at the New York Metropolitan Opera, in 1979, he emigrated to the USA. There, he soon began collaborating with the New York Philharmonic, the Philadelphia Orchestra and the San Francisco Symphony.\n\nIn 1982, he became the Principal Conductor at the Gothenburg Symphony Orchestra, from 1984 to 1988, he headed the Royal Scottish National Orchestra, and from 1990 to 2005, he led the Detroit Symphony Orchestra. In 2005, J\u00E4rvi became the Music Director of the New Jersey Symphony Orchestra and Chief Conductor of the Residentie Orkest The Hague. From 2010 to 2020, he acted as the Principal Director and Artistic Director of the Estonian National Symphony Orchestra, and he currently holds the title of Chief Conductor Emeritus at the Residentie Orkest The Hague and Music Director Emeritus at the Detroit Symphony Orchestra.\n\nIn the course of his sixty-year career, Neeme J\u00E4rvi has conducted over 150 orchestras. His discography comprises over 450 recordings \u2013 many of which award-winning. At the 2018 Gramophone Awards, he was bestowed the Lifetime Achievement Award for his extensive and high-quality range of works.\n\nNeeme J\u00E4rvi is the head of a musical dynasty. His children are also very successful musicians: His sons Paavo and Kristjan have become conductors, and his daughter Maarika a flutist. There is a wealth of videos featuring Paavo J\u00E4rvi on DW Classical Music. Here \u2013 like his father before him \u2013 he can be seen conducting Antonin Dvo\u0159\u00E1k\u2019s Symphony No. 9 \u201CFrom the New World\u201D: https://www.youtube.com/watch?v=uOmaQSqnPfw\n\nThe Verbier Festival is one of the world\u2019s most prestigious classical music events. The quality of participating artists is coupled with the originality of the programs. The festival is held from late July to early August in the mountain resort of Verbier, Switzerland.\n\n\u00A9 2012 Id\u00E9ale Audience\n\nWatch more concerts in your PERSONAL CONCERT HALL: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nand in our SYMPHONIES playlist: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic \n\n#dvo\u0159\u00E1k #symphony #ninth",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 16,
+			"PublishedAtRaw": "2024-12-12T00:30:18Z",
+			"PublishedAtDateTimeOffset": "2024-12-12T00:30:18+00:00",
+			"PublishedAt": "2024-12-12T06:00:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "5SNxIjdjB1o"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/5SNxIjdjB1o/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Dvo\u0159\u00E1k: Symphony No. 9 From the New World | Neeme J\u00E4rvi \u0026 the Verbier Festival Orchestra",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7pRmOdre7jI",
+			"VideoPublishedAtRaw": "2024-09-09T14:38:04Z",
+			"VideoPublishedAtDateTimeOffset": "2024-09-09T14:38:04+00:00",
+			"VideoPublishedAt": "2024-09-09T20:08:04+05:30"
+		},
+		"ETag": "8cziXJFqeFsriOyYREzff1D_4xY",
+		"Id": "UEwxemdOQ29XdF83WTZzX0dfVUJ5dEpYd3lDOXd1N09BOS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
+			"Position": 17,
+			"PublishedAtRaw": "2024-11-04T19:27:33Z",
+			"PublishedAtDateTimeOffset": "2024-11-04T19:27:33+00:00",
+			"PublishedAt": "2024-11-05T00:57:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7pRmOdre7jI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7pRmOdre7jI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7pRmOdre7jI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7pRmOdre7jI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7pRmOdre7jI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Myung-Whun Chung conducts Dvorak\u2019s Symphony No. 9",
+			"VideoOwnerChannelId": "UCUZc6RwOe3JKUbc5tmsvZtw",
+			"VideoOwnerChannelTitle": "\u6708\u4E0B\u542C\u98CE"
+		}
+	}
 ]

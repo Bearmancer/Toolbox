@@ -26,7 +26,7 @@ public class YouTubePlaylistProcessor(
 		CancellationToken ct
 	)
 	{
-		var stopwatch = Stopwatch.StartNew();
+		Stopwatch stopwatch = Stopwatch.StartNew();
 		PlaylistProcessContext ctx = new(
 			snapshot,
 			Text.SanitizeFileName(snapshot.Title),
@@ -151,10 +151,12 @@ public class YouTubePlaylistProcessor(
 		CancellationToken ct
 	)
 	{
-		var videoIds = items
-			.Select(i => i.ContentDetails.VideoId ?? i.Snippet.ResourceId.VideoId)
-			.Where(id => !string.IsNullOrEmpty(id))
-			.ToList();
+		List<string> videoIds =
+		[
+			.. items
+				.Select(i => i.ContentDetails.VideoId ?? i.Snippet.ResourceId.VideoId)
+				.Where(id => !string.IsNullOrEmpty(id)),
+		];
 
 		ErrorOr<Dictionary<string, TimeSpan>> durationsResult =
 			await videoService.GetVideoDurationsAsync(videoIds, ct);
@@ -229,7 +231,7 @@ public class YouTubePlaylistProcessor(
 		foreach (YouTubeVideo video in existingVideos)
 			existingDict.TryAdd(video.VideoId, video);
 
-		var incomingIds = videos.Select(v => v.VideoId).ToHashSet();
+		HashSet<string> incomingIds = [.. videos.Select(v => v.VideoId)];
 		var added = incomingIds.Except(existingDict.Keys).Count();
 
 		if (existingVideos.Count > 0)

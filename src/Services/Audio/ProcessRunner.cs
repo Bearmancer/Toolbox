@@ -4,6 +4,7 @@ using Core;
 
 namespace Services.Audio;
 
+using System.Text;
 using ErrorOr;
 
 public sealed class ProcessRunner
@@ -32,7 +33,7 @@ public sealed class ProcessRunner
 			(double?)timeout?.TotalSeconds ?? 0
 		);
 
-		var psi = new ProcessStartInfo
+		ProcessStartInfo psi = new()
 		{
 			FileName = binaryPath,
 			UseShellExecute = false,
@@ -45,28 +46,26 @@ public sealed class ProcessRunner
 		foreach (var arg in args)
 			psi.ArgumentList.Add(arg);
 
-		var sw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch sw = System.Diagnostics.Stopwatch.StartNew();
 		try
 		{
-			using var process =
+			using Process process =
 				Process.Start(psi)
 				?? throw new InvalidOperationException($"Failed to start {binaryPath}");
 
-			var stdoutSb = new System.Text.StringBuilder();
-			var stderrSb = new System.Text.StringBuilder();
+			StringBuilder stdoutSb = new();
+			StringBuilder stderrSb = new();
 			var completionDetected = false;
 
-			var inactivityCts = new CancellationTokenSource();
+			CancellationTokenSource inactivityCts = new();
 			if (inactivityTimeout.HasValue)
 			{
 				inactivityCts.CancelAfter(inactivityTimeout.Value);
 			}
 
-			using var linkedCts = CancellationTokenSource.CreateLinkedTokenSource(
-				ct,
-				inactivityCts.Token
-			);
-			var linkedToken = linkedCts.Token;
+			using CancellationTokenSource linkedCts =
+				CancellationTokenSource.CreateLinkedTokenSource(ct, inactivityCts.Token);
+			CancellationToken linkedToken = linkedCts.Token;
 
 			process.OutputDataReceived += (sender, e) =>
 			{
@@ -111,12 +110,12 @@ public sealed class ProcessRunner
 			process.BeginOutputReadLine();
 			process.BeginErrorReadLine();
 
-			var exitTask = process.WaitForExitAsync(linkedToken);
+			Task exitTask = process.WaitForExitAsync(linkedToken);
 
 			if (timeout is { } t)
 			{
-				var timeoutTask = Task.Delay(t, ct);
-				var completed = await Task.WhenAny(exitTask, timeoutTask);
+				Task timeoutTask = Task.Delay(t, ct);
+				Task completed = await Task.WhenAny(exitTask, timeoutTask);
 				if (completed == timeoutTask)
 				{
 					sw.Stop();
@@ -134,8 +133,8 @@ public sealed class ProcessRunner
 			}
 			else if (completionDetected && completionTimeout is { } ct2)
 			{
-				var completionWaitTask = Task.Delay(ct2, ct);
-				var completed = await Task.WhenAny(exitTask, completionWaitTask);
+				Task completionWaitTask = Task.Delay(ct2, ct);
+				Task completed = await Task.WhenAny(exitTask, completionWaitTask);
 				if (completed == completionWaitTask && !process.HasExited)
 				{
 					sw.Stop();

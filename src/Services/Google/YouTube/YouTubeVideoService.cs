@@ -37,7 +37,7 @@ public class YouTubeVideoService(YouTubeService yt)
 			if (videoIds.Count == 0)
 				return ErrorOrFactory.From(new Dictionary<string, TimeSpan>());
 
-			var result = new Dictionary<string, TimeSpan>();
+			Dictionary<string, TimeSpan> result = [];
 			var batchIndex = 0;
 			var totalBatches = (int)Math.Ceiling(videoIds.Count / 50.0);
 

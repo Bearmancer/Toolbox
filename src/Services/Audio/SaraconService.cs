@@ -20,7 +20,17 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 	)
 	{
 		var args = BuildD2pArgs(inputDff, outputDir, sampleRate, bitDepth, gainDb, "wav");
-		return await RunConversionAsync(inputDff, outputDir, "wav", args, sampleRate, bitDepth, gainDb, onOutputLine, ct);
+		return await RunConversionAsync(
+			inputDff,
+			outputDir,
+			"wav",
+			args,
+			sampleRate,
+			bitDepth,
+			gainDb,
+			onOutputLine,
+			ct
+		);
 	}
 
 	public async Task<ErrorOr<string>> ConvertDsdToFlacAsync(
@@ -34,7 +44,17 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 	)
 	{
 		var args = BuildD2pArgs(inputDff, outputDir, sampleRate, bitDepth, gainDb, "flac");
-		return await RunConversionAsync(inputDff, outputDir, "flac", args, sampleRate, bitDepth, gainDb, onOutputLine, ct);
+		return await RunConversionAsync(
+			inputDff,
+			outputDir,
+			"flac",
+			args,
+			sampleRate,
+			bitDepth,
+			gainDb,
+			onOutputLine,
+			ct
+		);
 	}
 
 	private static string[] BuildD2pArgs(
@@ -45,18 +65,26 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		double gainDb,
 		string format
 	) =>
-	[
-		"-c", "d2p",
-		"-r", sampleRate.ToString(CultureInfo.InvariantCulture),
-		"-f", format,
-		"-n", $"{bitDepth}bit",
-		"-d", "tpdf",
-		"-g", gainDb.ToString("F2", CultureInfo.InvariantCulture),
-		"-T",
-		"-V", "all",
-		"-t", outputDir,
-		inputDff,
-	];
+		[
+			"-c",
+			"d2p",
+			"-r",
+			sampleRate.ToString(CultureInfo.InvariantCulture),
+			"-f",
+			format,
+			"-n",
+			$"{bitDepth}bit",
+			"-d",
+			"tpdf",
+			"-g",
+			gainDb.ToString("F2", CultureInfo.InvariantCulture),
+			"-T",
+			"-V",
+			"all",
+			"-t",
+			outputDir,
+			inputDff,
+		];
 
 	// No retry loop. Retrying a failed/timed-out Saracon launch respawns a new
 	// process against the same output filename while the previous instance's
@@ -80,7 +108,13 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 	{
 		Telemetry.Debug(
 			"Saracon.ConvertStart input={Input} outputDir={OutputDir} format={Format} rate={Rate} bitDepth={BitDepth} gain={Gain}dB",
-			Path.GetFileName(inputDff), outputDir, extension, sampleRate, bitDepth, gainDb);
+			Path.GetFileName(inputDff),
+			outputDir,
+			extension,
+			sampleRate,
+			bitDepth,
+			gainDb
+		);
 
 		if (!Directory.Exists(outputDir))
 			Directory.CreateDirectory(outputDir);
@@ -90,25 +124,41 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 
 		if (DffMetadataStripper.HasId3Chunk(inputDff))
 		{
-			Telemetry.Warn("Saracon.Id3Detected input={Input} — ID3 chunk found, stripping before conversion",
-				Path.GetFileName(inputDff));
+			Telemetry.Warn(
+				"Saracon.Id3Detected input={Input} — ID3 chunk found, stripping before conversion",
+				Path.GetFileName(inputDff)
+			);
 
-			var stripResult = await DffMetadataStripper.StripId3TagsAsync(inputDff, outputDir, ct);
+			ErrorOr<string> stripResult = await DffMetadataStripper.StripId3TagsAsync(
+				inputDff,
+				outputDir,
+				ct
+			);
 			if (stripResult.IsError)
 			{
 				// Hard failure, deliberately: falling back to converting the
 				// original ID3-laden file would silently reintroduce the exact
 				// condition under investigation, with no retry loop left to mask it.
-				Telemetry.Error("Saracon.Id3StripFailed input={Input} error={Error}",
-					Path.GetFileName(inputDff), stripResult.Errors[0].Description);
+				Telemetry.Error(
+					"Saracon.Id3StripFailed input={Input} error={Error}",
+					Path.GetFileName(inputDff),
+					stripResult.Errors[0].Description
+				);
 				return stripResult.Errors;
 			}
 
 			effectiveInput = stripResult.Value;
-			effectiveArgs = BuildD2pArgs(effectiveInput, outputDir, sampleRate, bitDepth, gainDb, extension);
+			effectiveArgs = BuildD2pArgs(
+				effectiveInput,
+				outputDir,
+				sampleRate,
+				bitDepth,
+				gainDb,
+				extension
+			);
 		}
 
-		var result = await processRunner.RunAsync(
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
 			effectiveArgs,
 			ct,
@@ -120,17 +170,27 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 
 		if (result.IsError)
 		{
-			Telemetry.Error("Saracon.ConversionFailed input={Input} error={Error}",
-				Path.GetFileName(inputDff), result.Errors[0].Description);
+			Telemetry.Error(
+				"Saracon.ConversionFailed input={Input} error={Error}",
+				Path.GetFileName(inputDff),
+				result.Errors[0].Description
+			);
 			return result.Errors;
 		}
 
 		if (result.Value.ExitCode != 0)
 		{
 			var stderr = result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)];
-			Telemetry.Error("Saracon.ConversionFailed input={Input} exitCode={ExitCode} stderr={Stderr}",
-				Path.GetFileName(inputDff), result.Value.ExitCode, stderr);
-			return Errors.Audio.ConversionFailed(inputDff, $"saracon exit code {result.Value.ExitCode}: {stderr}");
+			Telemetry.Error(
+				"Saracon.ConversionFailed input={Input} exitCode={ExitCode} stderr={Stderr}",
+				Path.GetFileName(inputDff),
+				result.Value.ExitCode,
+				stderr
+			);
+			return Errors.Audio.ConversionFailed(
+				inputDff,
+				$"saracon exit code {result.Value.ExitCode}: {stderr}"
+			);
 		}
 
 		// Match against the file Saracon actually converted (post-strip, if
@@ -152,8 +212,12 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			}
 			else
 			{
-				Telemetry.Error("Saracon.OutputNotFound input={Input} tried={Tried1},{Tried2}",
-					Path.GetFileName(inputDff), Path.GetFileName(expectedOutput), Path.GetFileName(d2pOutput));
+				Telemetry.Error(
+					"Saracon.OutputNotFound input={Input} tried={Tried1},{Tried2}",
+					Path.GetFileName(inputDff),
+					Path.GetFileName(expectedOutput),
+					Path.GetFileName(d2pOutput)
+				);
 				return Errors.Audio.ConversionFailed(
 					inputDff,
 					$"saracon reported success but neither {Path.GetFileName(expectedOutput)} nor {Path.GetFileName(d2pOutput)} found in {outputDir}"
@@ -165,14 +229,23 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		var expectedPcmBytes = EstimateExpectedPcmBytes(effectiveInput, sampleRate, bitDepth);
 		if (expectedPcmBytes > 0 && outputSize < expectedPcmBytes / 2)
 		{
-			Telemetry.Warn("Saracon.OutputTooSmall output={Output} size={Size}MB expected~{Expected}MB",
-				Path.GetFileName(expectedOutput), outputSize / 1_048_576.0, expectedPcmBytes / 1_048_576.0);
-			return Errors.Audio.ConversionFailed(inputDff,
-				$"saracon output {Path.GetFileName(expectedOutput)} is {outputSize} bytes — expected ~{expectedPcmBytes} (truncated conversion)");
+			Telemetry.Warn(
+				"Saracon.OutputTooSmall output={Output} size={Size}MB expected~{Expected}MB",
+				Path.GetFileName(expectedOutput),
+				outputSize / 1_048_576.0,
+				expectedPcmBytes / 1_048_576.0
+			);
+			return Errors.Audio.ConversionFailed(
+				inputDff,
+				$"saracon output {Path.GetFileName(expectedOutput)} is {outputSize} bytes — expected ~{expectedPcmBytes} (truncated conversion)"
+			);
 		}
 
-		Telemetry.Debug("Saracon.ConvertComplete output={Output} size={Size}MB",
-			Path.GetFileName(expectedOutput), outputSize / 1_048_576.0);
+		Telemetry.Debug(
+			"Saracon.ConvertComplete output={Output} size={Size}MB",
+			Path.GetFileName(expectedOutput),
+			outputSize / 1_048_576.0
+		);
 
 		return expectedOutput;
 	}
@@ -181,7 +254,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 	{
 		try
 		{
-			using var stream = File.OpenRead(dffPath);
+			using FileStream stream = File.OpenRead(dffPath);
 			var magic = new byte[4];
 			stream.ReadExactly(magic, 0, 4);
 			if (System.Text.Encoding.ASCII.GetString(magic) != "FRM8")
@@ -202,13 +275,17 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 					dsdBytes = (long)size;
 
 				var skip = (long)size;
-				if (skip <= 0) break; // malformed: zero-size chunk mid-walk
-				if (skip % 2 != 0) skip++;
-				if (stream.Position + skip > stream.Length) break; // miscoded size: bound by EOF
+				if (skip <= 0)
+					break; // malformed: zero-size chunk mid-walk
+				if (skip % 2 != 0)
+					skip++;
+				if (stream.Position + skip > stream.Length)
+					break; // miscoded size: bound by EOF
 				stream.Seek(skip, SeekOrigin.Current);
 			}
 
-			if (dsdBytes == 0) return 0;
+			if (dsdBytes == 0)
+				return 0;
 			// DSD64: bit clock 2822400 Hz → PCM 88.2kHz (decimate by 32)
 			// PCM bytes/sec = (bitClock / 32) * channels * bytesPerSample
 			var durationSeconds = dsdBytes / (2822400.0 / 8.0 * 2); // stereo DSD bytes

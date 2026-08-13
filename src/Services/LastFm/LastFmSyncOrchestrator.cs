@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Core;
 using ErrorOr;
 
@@ -18,7 +19,7 @@ public class LastFmSyncOrchestrator(LastFmService service)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.LastFm);
 
-		var syncSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch syncSw = System.Diagnostics.Stopwatch.StartNew();
 		Telemetry.Verbose(
 			"LastFm sync started (fetchAfter={Since})",
 			fetchAfter?.ToString("yyyy-MM-dd HH:mm") ?? "null"
@@ -34,7 +35,7 @@ public class LastFmSyncOrchestrator(LastFmService service)
 
 		Directory.CreateDirectory(StateDir);
 
-		var loadSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch loadSw = System.Diagnostics.Stopwatch.StartNew();
 		List<LastFmScrobble> existing =
 		[
 			.. (await LastFmState.LoadScrobblesAsync(StateDir)).OrderByDescending(scrobble =>
@@ -78,7 +79,7 @@ public class LastFmSyncOrchestrator(LastFmService service)
 			return new SyncResult(0, removedCount, existing.Count, null);
 		}
 
-		var mergeSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch mergeSw = System.Diagnostics.Stopwatch.StartNew();
 		List<LastFmScrobble> merged = LastFmState.MergeScrobbles(existing, newScrobbles);
 		mergeSw.Stop();
 		Telemetry.Verbose(
@@ -89,7 +90,7 @@ public class LastFmSyncOrchestrator(LastFmService service)
 			mergeSw.ElapsedMilliseconds
 		);
 
-		var saveSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch saveSw = System.Diagnostics.Stopwatch.StartNew();
 		await LastFmState.SaveScrobblesAsync(StateDir, merged);
 		saveSw.Stop();
 		Telemetry.Verbose(

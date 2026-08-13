@@ -28,8 +28,8 @@ public static class GoogleSetup
 	)
 	{
 		var tokenStorePath = PathResolver.GetStatePath("google-auth");
-		var dataStore = new FileDataStore(tokenStorePath, fullPath: true);
-		using var authCts = new CancellationTokenSource(TimeSpan.FromMinutes(5));
+		FileDataStore dataStore = new(tokenStorePath, fullPath: true);
+		using CancellationTokenSource authCts = new(TimeSpan.FromMinutes(5));
 
 		UserCredential credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
 			new ClientSecrets
@@ -56,7 +56,7 @@ public static class GoogleSetup
 	{
 		public async Task<IServiceCollection> AddGoogleServicesAsync()
 		{
-			var credentials = GoogleCredentials.Read();
+			GoogleCredentials credentials = GoogleCredentials.Read();
 			services.AddSingleton(credentials);
 
 			YouTubeService youtubeService = await BuildYouTubeServiceAsync(credentials);

@@ -24,7 +24,7 @@ public sealed class DiskSpaceChecker
 
 	private static ErrorOr<Success> CheckAvailableSpace(string path, long requiredBytes)
 	{
-		var driveInfo = new DriveInfo(Path.GetPathRoot(Path.GetFullPath(path)) ?? path);
+		DriveInfo driveInfo = new(Path.GetPathRoot(Path.GetFullPath(path)) ?? path);
 		var availableBytes = driveInfo.AvailableFreeSpace;
 
 		if (availableBytes < requiredBytes)

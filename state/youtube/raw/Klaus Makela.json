@@ -1,1586 +1,1586 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "l2RxtyLK0Ec"
-    },
-    "ETag": "iFknGo7KOWtOEsULlermYkky3no",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zRjM0MkVCRTg0MkYyQTM0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 0,
-      "PublishedAtRaw": "2025-06-24T18:47:23Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:47:23+00:00",
-      "PublishedAt": "2025-06-25T00:17:23+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "l2RxtyLK0Ec"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "dYfhoawXzs8"
-    },
-    "ETag": "xeUTsJPCCqQe2H8neUzoBRxS4hQ",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ENDU4Q0M4RDExNzM1Mjcy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 1,
-      "PublishedAtRaw": "2025-06-24T18:47:07Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:47:07+00:00",
-      "PublishedAt": "2025-06-25T00:17:07+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "dYfhoawXzs8"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "7kAOt5kQugA"
-    },
-    "ETag": "BKa3Vei3C4TlxqGA1qjZn2nBU84",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yMUQyQTQzMjRDNzMyQTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 2,
-      "PublishedAtRaw": "2025-06-24T18:46:57Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:46:57+00:00",
-      "PublishedAt": "2025-06-25T00:16:57+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "7kAOt5kQugA"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "fDmb2_Xzgjc"
-    },
-    "ETag": "JdmBiWfk_n-wY4hn5Yrtt5Fqa1o",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CQkEwRDA0MDkwNUM2MDY1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 3,
-      "PublishedAtRaw": "2025-09-28T08:45:18Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:45:18+00:00",
-      "PublishedAt": "2025-09-28T14:15:18+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "fDmb2_Xzgjc"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "HzK7Wn6u-qQ"
-    },
-    "ETag": "MgNk4g2DbS2zNK3vgaJgfS9vzEc",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 4,
-      "PublishedAtRaw": "2025-06-24T18:43:53Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:43:53+00:00",
-      "PublishedAt": "2025-06-25T00:13:53+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "HzK7Wn6u-qQ"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "4rVJtAFkANs"
-    },
-    "ETag": "ewV5FgWjOKh-D5fFGGD0BQvNPjA",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5EQUE1NTFDRjcwMDg0NEMz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 5,
-      "PublishedAtRaw": "2025-06-24T18:46:47Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:46:47+00:00",
-      "PublishedAt": "2025-06-25T00:16:47+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "4rVJtAFkANs"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "dvjvVVpUsOM"
-    },
-    "ETag": "PHuen2Qd3ewa24CAstc6yywEAJk",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4wNEU1MTI4NkZEMzVBN0JF",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 6,
-      "PublishedAtRaw": "2025-09-28T08:45:36Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:45:36+00:00",
-      "PublishedAt": "2025-09-28T14:15:36+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "dvjvVVpUsOM"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "uhifIs4thw4"
-    },
-    "ETag": "jfTHoX6GZf7mhdCYskKmpCYQFDI",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 7,
-      "PublishedAtRaw": "2025-06-24T18:43:56Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:43:56+00:00",
-      "PublishedAt": "2025-06-25T00:13:56+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "uhifIs4thw4"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "ZnnB5QghmyE"
-    },
-    "ETag": "5_RvjM3CQ2NHRmEQj6HgWkpmubs",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yMDhBMkNBNjRDMjQxQTg1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 8,
-      "PublishedAtRaw": "2025-06-24T18:47:15Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:47:15+00:00",
-      "PublishedAt": "2025-06-25T00:17:15+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "ZnnB5QghmyE"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "sx9vuIs5ANg"
-    },
-    "ETag": "daOV7xQKU6gHLxLvC2EEDsFw1Vk",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45NzUwQkI1M0UxNThBMkU0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 9,
-      "PublishedAtRaw": "2025-06-24T18:48:36Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:48:36+00:00",
-      "PublishedAt": "2025-06-25T00:18:36+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "sx9vuIs5ANg"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "_2fOVPFo4kA"
-    },
-    "ETag": "TpxLFnmlqhsdW8yNcYmoFK-XJDU",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS43MTI1NDIwOTMwQjIxMzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 10,
-      "PublishedAtRaw": "2025-06-24T18:48:54Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:48:54+00:00",
-      "PublishedAt": "2025-06-25T00:18:54+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "_2fOVPFo4kA"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "lfB1cqdufyk"
-    },
-    "ETag": "Rcnw0u3GlSmIsC2R6vaWc6R2inM",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5GM0Q3M0MzMzY5NTJFNTdE",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 11,
-      "PublishedAtRaw": "2025-06-24T18:47:17Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:47:17+00:00",
-      "PublishedAt": "2025-06-25T00:17:17+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "lfB1cqdufyk"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "-Zd7YfA4gU0"
-    },
-    "ETag": "R1codcuRuldi2IV__-TSx7PwZrs",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yQjZFRkExQjFGODk3RUFD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 12,
-      "PublishedAtRaw": "2025-09-28T08:37:02Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:37:02+00:00",
-      "PublishedAt": "2025-09-28T14:07:02+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "-Zd7YfA4gU0"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "xKDDOHxtJBk"
-    },
-    "ETag": "oDhgbJgqTeMNSWwOgqppGhTBwyc",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4wMTYxQzVBRDI1NEVDQUZE",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 13,
-      "PublishedAtRaw": "2025-09-28T08:46:33Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:46:33+00:00",
-      "PublishedAt": "2025-09-28T14:16:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "xKDDOHxtJBk"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "WWaTzHOrUEo"
-    },
-    "ETag": "e7vyVuU5Xs9RTfynuxyQMz4FBIM",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yQUE2Q0JEMTk4NTM3RTZC",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 14,
-      "PublishedAtRaw": "2025-06-24T18:50:19Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:50:19+00:00",
-      "PublishedAt": "2025-06-25T00:20:19+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "WWaTzHOrUEo"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "SkrmTcKzt2E"
-    },
-    "ETag": "3gpHatuyZ9X5CBVJw0uMn1DBakA",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DMkU4NTY1QUFGQTYwMDE3",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 15,
-      "PublishedAtRaw": "2025-06-24T18:50:25Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:50:25+00:00",
-      "PublishedAt": "2025-06-25T00:20:25+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "SkrmTcKzt2E"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "W_PZ_In3UKg"
-    },
-    "ETag": "u3Nf_OPpew2NIsnwC3DLa3pwtuI",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ENjI1QUI0MDI5NEQzODFE",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 16,
-      "PublishedAtRaw": "2025-09-28T08:38:23Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:38:23+00:00",
-      "PublishedAt": "2025-09-28T14:08:23+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "W_PZ_In3UKg"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "iQyslueHtOI",
-      "VideoPublishedAtRaw": "2021-02-18T20:00:03Z",
-      "VideoPublishedAtDateTimeOffset": "2021-02-18T20:00:03+00:00",
-      "VideoPublishedAt": "2021-02-19T01:30:03+05:30"
-    },
-    "ETag": "9A9KPbiyJhJQBCpPvSVGwoWLjdQ",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DNkMwRUI2MkI4QkI4NDFG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform Rolf Gupta\u0027s Epilogue from Earth\u0027s Song in Oslo Concert Hall on 16th October 2020.\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO\nMusic Producer: Vegard Landaas\nLighting design: Petter Dahl Nielsen\n\nWe take infection control seriously. Everything you see on stage and in the concert hall was in accordance with official Norwegian guidelines at the time of the recording.\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\u200B\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\u200B\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\u200B\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\u200B\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 17,
-      "PublishedAtRaw": "2025-09-28T08:35:51Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:35:51+00:00",
-      "PublishedAt": "2025-09-28T14:05:51+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "iQyslueHtOI"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/iQyslueHtOI/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/iQyslueHtOI/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/iQyslueHtOI/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/iQyslueHtOI/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/iQyslueHtOI/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Earth\u0027s Song: Epilogue / Rolf Gupta / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "iWUuSKVFc74",
-      "VideoPublishedAtRaw": "2020-04-28T09:15:05Z",
-      "VideoPublishedAtDateTimeOffset": "2020-04-28T09:15:05+00:00",
-      "VideoPublishedAt": "2020-04-28T14:45:05+05:30"
-    },
-    "ETag": "PQm6vH_FDzgKi9FEIePIXzG7tK0",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yQUJFNUVCMzVDNjcxRTlF",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform Epitaffio by Arne Nordheim in Oslo Concert Hall on 7th November 2019.\n\nSound production: NRK\n\nVideo production: Trippel-M Levende Bilder\n\nMusic used with permission from NCB\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 18,
-      "PublishedAtRaw": "2025-09-28T08:37:11Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:37:11+00:00",
-      "PublishedAt": "2025-09-28T14:07:11+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "iWUuSKVFc74"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/iWUuSKVFc74/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/iWUuSKVFc74/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/iWUuSKVFc74/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/iWUuSKVFc74/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/iWUuSKVFc74/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Epitaffio / Arne Nordheim / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "Ej9y4BVthlA",
-      "VideoPublishedAtRaw": "2021-01-22T11:05:05Z",
-      "VideoPublishedAtDateTimeOffset": "2021-01-22T11:05:05+00:00",
-      "VideoPublishedAt": "2021-01-22T16:35:05+05:30"
-    },
-    "ETag": "xe6_6BCwPrq-n3gyaaMLkmAiCHY",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS42QzdBMzlBQzQzRjQ0QkQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Truls M\u00F8rk au violoncelle et l\u0027Orchestre Philharmonique de Radio France sous la direction de Klaus M\u00E4kel\u00E4 interpr\u00E8te le Concerto pour violoncelle d\u0027Esa-Pekka Salonen. Extrait du concert donn\u00E9 le 6 mars 2020 \u00E0 l\u2019Auditorium de la Maison de la Radio \u00E0 Paris.\n\n#KlausM\u00E4kel\u00E4 #TrulsM\u00F8rk #OrchestrePhilharmoniquedeRadioFrance\n\n\nRetrouvez tous les concerts en vid\u00E9o de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 19,
-      "PublishedAtRaw": "2025-09-28T08:49:10Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:49:10+00:00",
-      "PublishedAt": "2025-09-28T14:19:10+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Ej9y4BVthlA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Esa-Pekka Salonen : Concerto pour violoncelle",
-      "VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
-      "VideoOwnerChannelTitle": "France Musique concerts"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "QkQapdgAa7o",
-      "VideoPublishedAtRaw": "2019-03-08T12:39:32Z",
-      "VideoPublishedAtDateTimeOffset": "2019-03-08T12:39:32+00:00",
-      "VideoPublishedAt": "2019-03-08T18:09:32+05:30"
-    },
-    "ETag": "70WmONuwDqStQ3WHMIxK81dwLx8",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5BRjJDODk5REM0NjkzMUIy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Watch the Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform Ludwig van Beethoven\u0027s Symphony No. 9 in Oslo Concert Hall on 4th January 2019.\n\nSoloists: \nLauren Fagan, soprano\nHanna Hipp, mezzo soprano\nTuomas Katajala, tenor\nShenyang, bass-baritone\n\nOslo Philharmonic Choir (conductor: \u00D8ystein Fevang)\n\nKlaus M\u00E4kel\u00E4 will be Oslo Philharmonic\u0027s chief conductor from August 2020.\n\nSound production: NRK\nMusic Producer: Krzysztof Drab\nRecording engineers: Elisabeth Sommernes and Marit Askeland\n\nVideo production: Trippel-M Levende Bilder\n\nColorist: Joachim Nilsen, Storyline\nEIC: Even \u00D8verby\nDirector: Patrick Bakkland Gjerde\nAD: Kamilla Follev\u00E5g\nProject Manager: Herman Gudesen\n\nCamera crew:\n\u00D8yvind Sandnes\nSimen Bredesen\nAnne Grethe Olavsdatter Vold\nAslak Woo Ravlum\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID\n\n#GlobalOdeToJoy\n\nMovements:\n00:00 I. Allegro ma non troppo, un poco maestoso \n16:07 II. Molto vivace \n30:20 III. Adagio molto e cantabile \n43:52 IV. Presto - Allegro assai",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 20,
-      "PublishedAtRaw": "2025-06-24T18:53:08Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:53:08+00:00",
-      "PublishedAt": "2025-06-25T00:23:08+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "QkQapdgAa7o"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/QkQapdgAa7o/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/QkQapdgAa7o/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/QkQapdgAa7o/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/QkQapdgAa7o/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/QkQapdgAa7o/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "From the archives / Beethoven\u0027s Symphony No. 9 / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "_ktidUXuyPM",
-      "VideoPublishedAtRaw": "2021-01-22T11:22:03Z",
-      "VideoPublishedAtDateTimeOffset": "2021-01-22T11:22:03+00:00",
-      "VideoPublishedAt": "2021-01-22T16:52:03+05:30"
-    },
-    "ETag": "kB3GuXZHsz6ZJ8DOrd6Y9m5jDW8",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CMEQ2Mjk5NTc3NDZFRUNB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "L\u2019Orchestre Philharmonique de Radio France sous la direction de Klaus M\u00E4kel\u00E4 interpr\u00E8te la Symphonie n\u00B01 en mi mineur op 39 de Jean Sibelius. Extrait du concert donn\u00E9 le 6 mars 2020 \u00E0 l\u2019Auditorium de la Maison de la Radio \u00E0 Paris.\n\n#KlausM\u00E4kel\u00E4 #OrchestrePhilharmoniquedeRadioFrance\n\n\nRetrouvez tous les concerts en vid\u00E9o de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 21,
-      "PublishedAtRaw": "2025-06-24T18:52:30Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:52:30+00:00",
-      "PublishedAt": "2025-06-25T00:22:30+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "_ktidUXuyPM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/_ktidUXuyPM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/_ktidUXuyPM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/_ktidUXuyPM/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/_ktidUXuyPM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/_ktidUXuyPM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Jean Sibelius : Symphonie n\u00B01 en mi mineur op 39",
-      "VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
-      "VideoOwnerChannelTitle": "France Musique concerts"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "0U-IXWaapx4",
-      "VideoPublishedAtRaw": "2021-12-24T15:11:54Z",
-      "VideoPublishedAtDateTimeOffset": "2021-12-24T15:11:54+00:00",
-      "VideoPublishedAt": "2021-12-24T20:41:54+05:30"
-    },
-    "ETag": "foQJop3QXSeM7f-Xgd_mtS1QJOw",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4xMzgwMzBERjQ4NjEzNUE5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 22,
-      "PublishedAtRaw": "2025-09-28T08:39:50Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:39:50+00:00",
-      "PublishedAt": "2025-09-28T14:09:50+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "0U-IXWaapx4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/0U-IXWaapx4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/0U-IXWaapx4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/0U-IXWaapx4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/0U-IXWaapx4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Khatia Buniatishvili - Rhapsody in Blue",
-      "VideoOwnerChannelId": "UCTZzI5aeG1pp511XUwKeBWA",
-      "VideoOwnerChannelTitle": "Chicken Man"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "7GVj-3qPJRY",
-      "VideoPublishedAtRaw": "2025-09-11T09:00:08Z",
-      "VideoPublishedAtDateTimeOffset": "2025-09-11T09:00:08+00:00",
-      "VideoPublishedAt": "2025-09-11T14:30:08+05:30"
-    },
-    "ETag": "AZDqYcZZmfCCzNJhyCXY9lHMFaU",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zMEQ1MEIyRTFGNzhDQzFB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "SUBSCRIBE to our channel: https://bit.ly/3BEyYGx\nFACEBOOK: https://www.facebook.com/mezzo.tv\nINSTAGRAM: https://www.instagram.com/mezzo.tv/\nX: https://x.com/mezzo_tv\nTIK TOK: https://www.tiktok.com/@mezzo.tv\n00:00 - Bartok: The Miraculous Mandarin, Royal concertgebouw Orchestra, Concertgebouw\n03:00 - Brahms: Double Concerto for Violin and Cello, Daniel Lozakovich, Oslo Philharmonic\n05:52 - Mozart: Requiem, Royalconcertgebouw Orchestra, Concertgebouw\n08:05 - Ravel: Le tombeau de Couperin, Orchestre de Paris\n11:04 - Berlioz: Harold en Italie, Antoine Tamestit, Oslo Philharmonic\n13:11 - Beethoven: Symphony No.3 Eroica, Royalconcertgebouw Orchestra, Concertgebouw\n16:07 - Lindberg: Piano Concerto No.3, Yuja Wang, Orchestre de Paris\n18:42 - Schumann: Symphony No.2, Orchestre de Paris\n#classicalmusic   #dance  #jazz #opera #ballet #makela",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 23,
-      "PublishedAtRaw": "2025-09-28T08:43:04Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:43:04+00:00",
-      "PublishedAt": "2025-09-28T14:13:04+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "7GVj-3qPJRY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Klaus M\u00E4kel\u00E4 - Orchestre de Paris, Concertgebouworkest, Oslo Philharmonic - Bartok, Brahms, Ravel",
-      "VideoOwnerChannelId": "UCjLSaHl_xeo2BB6Ghss-zbA",
-      "VideoOwnerChannelTitle": "MEZZO"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "TkIBnFQhQ64",
-      "VideoPublishedAtRaw": "2026-04-09T15:33:18Z",
-      "VideoPublishedAtDateTimeOffset": "2026-04-09T15:33:18+00:00",
-      "VideoPublishedAt": "2026-04-09T21:03:18+05:30"
-    },
-    "ETag": "b55ubJU7feM5JbqSJlk8i3v1wR4",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CNTcxMDQ0NThBNzMxODYz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Mahler: Symphony No.2 \u0027Resurrection\u0027 \n1st movement   00:00\n2nd   23:10\n3rd    32:58\n4th    43:54\n5th    49:10\nKlaus M\u00E4kel\u00E4 / Orchestre de Paris\nSop) Kristiane Karg     Alt) Wiebke Lehmkuhl\nCho) Wiener Singverein\n13/3/2023 Wiener Musikverein Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C2\u756A\u300C\u5FA9\u6D3B\u300D\n\u30AF\u30E9\u30A6\u30B9\u30FB\u30DE\u30B1\u30E9\u6307\u63EE\u3000\u30D1\u30EA\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30AF\u30EA\u30B9\u30C6\u30A3\u30A2\u30FC\u30CD\u30FB\u30AB\u30EB\u30AF\u3000\u30A2\u30EB\u30C8\uFF09\u30F4\u30A3\u30FC\u30D7\u30B1\u30FB\u30EC\u30FC\u30E0\u30AF\u30FC\u30EB\n\u5408\u5531\uFF09\u30A6\u30A3\u30FC\u30F3\u697D\u53CB\u5354\u4F1A\u5408\u5531\u56E3\n2023\u5E743\u670813\u65E5\u3000\u30A6\u30A3\u30FC\u30F3\u697D\u53CB\u5354\u4F1A\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u5929\u624D\u30DE\u30B1\u30E9\u306F\u30DE\u30FC\u30E9\u30FC\u3092\u632F\u3063\u3066\u3082\u3084\u306F\u308A\u6B21\u5143\u304C\u9055\u3046\u6C17\u304C\u3057\u307E\u3059\u3002\u82E6\u3082\u7121\u304F\u5168\u3066\u3092\u652F\u914D\u3057\u3066\u3044\u308B\u96F0\u56F2\u6C17\u304C\u3002",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 24,
-      "PublishedAtRaw": "2026-04-09T20:22:16Z",
-      "PublishedAtDateTimeOffset": "2026-04-09T20:22:16+00:00",
-      "PublishedAt": "2026-04-10T01:52:16+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "TkIBnFQhQ64"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mahler: Symphony No.2 \u0027Resurrection\u0027     K. M\u00E4kel\u00E4 / ODP live in Wien",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "e6qN21GTZVE",
-      "VideoPublishedAtRaw": "2023-01-29T20:00:10Z",
-      "VideoPublishedAtDateTimeOffset": "2023-01-29T20:00:10+00:00",
-      "VideoPublishedAt": "2023-01-30T01:30:10+05:30"
-    },
-    "ETag": "JhaaP6rgcGMcw9ptf6BiRc4AKAo",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS40QzRDOEU0QUYwNUIxN0M1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Oslo Philharmonic with Chief Conductor Klaus M\u00E4kel\u00E4 performs Mette Henriettes Overture II - Vega in Oslo Concert Hall. The recording was made on 19 August, 2021. \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Dag \u00C5nnevik\nScript: Ole Sandholt\nMusic producer: J\u00F8rn Pedersen\nSound technician: \u00C5sgeir Grong\nLighting design: Petter Dahl Nielsen",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 25,
-      "PublishedAtRaw": "2025-09-28T08:37:19Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:37:19+00:00",
-      "PublishedAt": "2025-09-28T14:07:19+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "e6qN21GTZVE"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/e6qN21GTZVE/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/e6qN21GTZVE/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/e6qN21GTZVE/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/e6qN21GTZVE/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/e6qN21GTZVE/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Overture II \u2013 Vega / Mette Henriette / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "XwJMpQiqCm4",
-      "VideoPublishedAtRaw": "2022-04-10T19:00:00Z",
-      "VideoPublishedAtDateTimeOffset": "2022-04-10T19:00:00+00:00",
-      "VideoPublishedAt": "2022-04-11T00:30:00+05:30"
-    },
-    "ETag": "3XUHuWtbpgKvA9-Rdn1GypRr23E",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5GNjAwN0Y0QTFGOTVDMEMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Oslo Philharmonic with conductor Semyon Bychkov perform Pictures at an Exhibition by Modest Mussorgsky (orchestrated by Maurice Ravel)  in Oslo Concert Hall. The recording was made on 27th January 2022.\n\n0:07 Promenade I \n1:58 Gnomus \n5:00 Promenade II \n5:59 The Old Castle \n10:38 Promenade III \n11:15 Tuileries Gardens \n12:22 Bydlo \n15:17 Promenade IV \n16:06 Ballet of the Unhatched Chicks \n17:30 Samuel Goldenberg and Schmu\u00FFle \n20:10 The Market of Limoges \n21:38 Catacombs \n23:53 Cum mortuis in lingua mortua \n25:55 The Hut on Fowl\u0027s Legs \n29:36 The Great Gate of Kiev \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Ole Sandholt\nScript: Steinar Yggeseth\nMusic producer: J\u00F8rn Pedersen\nSound technician: \u00C5sgeir Grong\nLighting design: Petter Dahl Nielsen\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nSubscribe to our channel: https://oslophil.lnk.to/oslophil-subscribeID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 26,
-      "PublishedAtRaw": "2025-09-28T08:44:57Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:44:57+00:00",
-      "PublishedAt": "2025-09-28T14:14:57+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "XwJMpQiqCm4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Pictures at an Exhibition (complete) / Modest Mussorgsky / Semyon Bychkov / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "UmU7L-s9ZhI"
-    },
-    "ETag": "i4kauSZtbBCWK6aB84lZXTNvBIA",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zMUEyMkQwOTk0NTg4MDgw",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 27,
-      "PublishedAtRaw": "2025-09-28T08:47:35Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:47:35+00:00",
-      "PublishedAt": "2025-09-28T14:17:35+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "UmU7L-s9ZhI"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "WxbfkZ_BzwU"
-    },
-    "ETag": "LI8eylcCXfh0Wdy1MwbawQkY-RU",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS42MTI4Njc2QjM1RjU1MjlG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 28,
-      "PublishedAtRaw": "2025-06-24T18:52:35Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:52:35+00:00",
-      "PublishedAt": "2025-06-25T00:22:35+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "WxbfkZ_BzwU"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "a6bG3uDRqH4"
-    },
-    "ETag": "eUMQg6ooUZLaj5pL8ghRCQSn3dk",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DNzE1RjZEMUZCMjA0RDBB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 29,
-      "PublishedAtRaw": "2025-06-24T18:48:43Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:48:43+00:00",
-      "PublishedAt": "2025-06-25T00:18:43+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "a6bG3uDRqH4"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "o4UScRNrb5M"
-    },
-    "ETag": "bhVNfyaCLqulpyHUum010PaFvdk",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zRDBDOEZDOUM0MDY5NEEz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 30,
-      "PublishedAtRaw": "2025-06-24T18:52:25Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:52:25+00:00",
-      "PublishedAt": "2025-06-25T00:22:25+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "o4UScRNrb5M"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "fGCTysTzwFo",
-      "VideoPublishedAtRaw": "2020-12-10T20:00:11Z",
-      "VideoPublishedAtDateTimeOffset": "2020-12-10T20:00:11+00:00",
-      "VideoPublishedAt": "2020-12-11T01:30:11+05:30"
-    },
-    "ETag": "JCn1UqmkSNgtOTru9dCVCrR1fp0",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45RjNFMDhGQ0Q2RkFCQTc1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform:\nHenry Purcell: March from \u0022Music for the Funeral of Queen Mary\u0022\nJoseph Haydn: Symphony No. 49, \u0022La Passione\u0022\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO \nMusic producer: Vegard Landaas\nLighting design: Petter Dahl Nielsen \n\nIn cooperation with Norway Live.\n\nSubscribe to our channel at https://oslophil.lnk.to/ofo-mellomspill-iiID \n\nRead about our musicians: https://oslophil.lnk.to/musiciansID \n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID \n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID \n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 31,
-      "PublishedAtRaw": "2025-06-24T18:52:53Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:52:53+00:00",
-      "PublishedAt": "2025-06-25T00:22:53+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "fGCTysTzwFo"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/fGCTysTzwFo/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/fGCTysTzwFo/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/fGCTysTzwFo/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/fGCTysTzwFo/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/fGCTysTzwFo/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Purcell: March / Haydn: Symphony No. 49 / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "atg_hjEgHK0",
-      "VideoPublishedAtRaw": "2023-06-09T07:06:59Z",
-      "VideoPublishedAtDateTimeOffset": "2023-06-09T07:06:59+00:00",
-      "VideoPublishedAt": "2023-06-09T12:36:59+05:30"
-    },
-    "ETag": "W4PC_KGW5V6wuhyrKkjSJ7yTD6M",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41RTNBREYwMkI5QzU3RkY2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Munchen Philharmonic conducted by Klaus M\u00E4kel\u00E4, \nIsarphilharmonie, June, 2022.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 32,
-      "PublishedAtRaw": "2025-09-28T08:37:29Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:37:29+00:00",
-      "PublishedAt": "2025-09-28T14:07:29+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "atg_hjEgHK0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/atg_hjEgHK0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/atg_hjEgHK0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/atg_hjEgHK0/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/atg_hjEgHK0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/atg_hjEgHK0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Sauli Zinovjev: Batteria (2016) / Munchen Philharmonic / Klaus M\u00E4kel\u00E4",
-      "VideoOwnerChannelId": "UC3Bt9OzZRcnqAqNXIPQwCTw",
-      "VideoOwnerChannelTitle": "s02r"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "kgRV_6hFhw4",
-      "VideoPublishedAtRaw": "2023-06-09T07:55:15Z",
-      "VideoPublishedAtDateTimeOffset": "2023-06-09T07:55:15+00:00",
-      "VideoPublishedAt": "2023-06-09T13:25:15+05:30"
-    },
-    "ETag": "nksh7LOdfidIIhf_2J_iupukMyk",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41QUZGQTY5OTE4QTREQUU4",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "00:00 1. Misterioso ma preciso\n11:46 2. Tranquillo \n18:31 3. Rondo: Allegretto\n\nPianist Vikingur Olafsson and conductor Klaus M\u00E4kel\u00E4 premiering Sauli Zinovjev\u0027s Piano Concerto (2019) with the Finnish Radio Symphony Orchestra live in 7.1.2022.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 33,
-      "PublishedAtRaw": "2025-06-24T18:51:51Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:51:51+00:00",
-      "PublishedAt": "2025-06-25T00:21:51+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "kgRV_6hFhw4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Sauli Zinovjev: Piano Concerto (2019) / Vikingur Olafsson / Klaus M\u00E4kel\u00E4 / FRSO",
-      "VideoOwnerChannelId": "UC3Bt9OzZRcnqAqNXIPQwCTw",
-      "VideoOwnerChannelTitle": "s02r"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "ceUfputKA2A",
-      "VideoPublishedAtRaw": "2020-01-13T15:11:59Z",
-      "VideoPublishedAtDateTimeOffset": "2020-01-13T15:11:59+00:00",
-      "VideoPublishedAt": "2020-01-13T20:41:59+05:30"
-    },
-    "ETag": "KnjBth7eeDoB_rEeHEVK_K4eiqo",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS44QzVGQUU2QjE2NDgxM0M4",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Sauli Zinovjev\u0027s Un Grande Sospiro (2018) performed live by l\u0027OCL \u0026 Klaus M\u00E4kel\u00E4.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 34,
-      "PublishedAtRaw": "2025-09-28T08:38:39Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:38:39+00:00",
-      "PublishedAt": "2025-09-28T14:08:39+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "ceUfputKA2A"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/ceUfputKA2A/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/ceUfputKA2A/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/ceUfputKA2A/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/ceUfputKA2A/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/ceUfputKA2A/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Sauli Zinovjev: Un Grande Sospiro (2018) / Klaus M\u00E4kel\u00E4 \u0026 l\u0027OCL",
-      "VideoOwnerChannelId": "UC3Bt9OzZRcnqAqNXIPQwCTw",
-      "VideoOwnerChannelTitle": "s02r"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "GB3zR_X25UU",
-      "VideoPublishedAtRaw": "2019-11-12T16:54:21Z",
-      "VideoPublishedAtDateTimeOffset": "2019-11-12T16:54:21+00:00",
-      "VideoPublishedAt": "2019-11-12T22:24:21+05:30"
-    },
-    "ETag": "az7E0aZMSLHRNkpTjLypmQH0B9I",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS40QTA3NTU2RkM1QzlCMzYx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Dmitrij Schostakowitsch: \n7. Sinfonie C-Dur op. 60\n\u00BBLeningrader Sinfonie\u00AB \u2219 \n\n(Auftritt)  0:00:00 \u2219\nI. Allegretto  0:00:30 \u2219\nII. Moderato (poco allegretto)  0:29:15 \u2219\nIII. Adagio \u2013 Largo \u2013 Moderato risoluto \u2013 Largo \u2013 Adagio  0:40:55 \u2219\nIV. Allegro non troppo \u2013 Moderato  1:01:11 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKlaus M\u00E4kel\u00E4, Dirigent \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 1. November 2019 \u2219\n\nWebsite: https://www.hr-sinfonieorchester.de \u2219\nFacebook: https://www.facebook.com/hrsinfonieorchester",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 35,
-      "PublishedAtRaw": "2025-06-24T18:53:01Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:53:01+00:00",
-      "PublishedAt": "2025-06-25T00:23:01+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "GB3zR_X25UU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/GB3zR_X25UU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/GB3zR_X25UU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/GB3zR_X25UU/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/GB3zR_X25UU/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/GB3zR_X25UU/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schostakowitsch: 7. Sinfonie (\u00BBLeningrader\u00AB) \u2219 hr-Sinfonieorchester \u2219 Klaus M\u00E4kel\u00E4",
-      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "V4tZCwI_oZw",
-      "VideoPublishedAtRaw": "2024-10-14T23:00:49Z",
-      "VideoPublishedAtDateTimeOffset": "2024-10-14T23:00:49+00:00",
-      "VideoPublishedAt": "2024-10-15T04:30:49+05:30"
-    },
-    "ETag": "3sYvE3bxGjGCv2DpAjMybIWn3EA",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DRUQwODMxQzUyRTlGRkY3",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Royal Concertgebouw Orchestra\nKlaus M\u00E4kel\u00E4, conductor",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 36,
-      "PublishedAtRaw": "2025-09-28T08:36:09Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:36:09+00:00",
-      "PublishedAt": "2025-09-28T14:06:09+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "V4tZCwI_oZw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Sibelius, Swan of Tuonela",
-      "VideoOwnerChannelId": "UC8oHWiMOQNmVJVQ7vcrGk2A",
-      "VideoOwnerChannelTitle": "Miriam Pastor Burgos"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "WYVzEAKzvfs",
-      "VideoPublishedAtRaw": "2023-06-20T14:57:14Z",
-      "VideoPublishedAtDateTimeOffset": "2023-06-20T14:57:14+00:00",
-      "VideoPublishedAt": "2023-06-20T20:27:14+05:30"
-    },
-    "ETag": "xLkPtrtPx_8bqqB67ejO2jHfBNU",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS43NDhFRTgwOTRERTU4Rjg3",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Sol Gabetta performs Shostakovich\u2019s Cello Concerto no. 2 with Orchestre de Paris, conducted by Klaus M\u00E4kel\u00E4. \n\nPhilharmonie de Paris, 2023\n\nFootage courtesy of Arte\n\n\nMore information about Sol Gabetta: https://solgabetta.com\n\nInstagram: https://www.instagram.com/sol_gabetta/?hl=en\nFacebook: https://www.facebook.com/solgabetta/\nTwitter: https://twitter.com/solgabetta\nTikTok: https://www.tiktok.com/@solgabetta",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 37,
-      "PublishedAtRaw": "2025-06-24T18:50:37Z",
-      "PublishedAtDateTimeOffset": "2025-06-24T18:50:37+00:00",
-      "PublishedAt": "2025-06-25T00:20:37+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "WYVzEAKzvfs"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Sol Gabetta: Shostakovich Concerto for Cello n\u00B0 2",
-      "VideoOwnerChannelId": "UCY-m4hSSSy3obXMBwvV9jaQ",
-      "VideoOwnerChannelTitle": "Sol Gabetta"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "3PhS25Rf_bQ",
-      "VideoPublishedAtRaw": "2021-06-17T19:00:10Z",
-      "VideoPublishedAtDateTimeOffset": "2021-06-17T19:00:10+00:00",
-      "VideoPublishedAt": "2021-06-18T00:30:10+05:30"
-    },
-    "ETag": "Fc2b2yqc3Z_WHodaBUm4sXMRQL0",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45NkVENTkxRDdCQUFBMDY4",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform subito con forza by Unsuk Chin  in Oslo Concert Hall. The recording was made on 4th June 2021.\n\n#classicalmusic #concert #unsykchin #orchestra \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Dag \u00C5nnevik\nSound production: LAWO\nMusic producer: Vegard Landaas \nSound technician: Thomas Wolden\nLighting design: Petter Dahl Nielsen\n\nWe take infection control seriously. Everything you see on stage and in the concert hall was in accordance with official Norwegian guidelines at the time of the recording.\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nSubscribe to our channel: https://oslophil.lnk.to/oslophil-subs...\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 38,
-      "PublishedAtRaw": "2025-09-28T08:35:43Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:35:43+00:00",
-      "PublishedAt": "2025-09-28T14:05:43+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "3PhS25Rf_bQ"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "subito con forza / Unsuk Chin / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "TGF8aCb8ECI",
-      "VideoPublishedAtRaw": "2026-04-08T15:05:16Z",
-      "VideoPublishedAtDateTimeOffset": "2026-04-08T15:05:16+00:00",
-      "VideoPublishedAt": "2026-04-08T20:35:16+05:30"
-    },
-    "ETag": "ANEk33gFUcr9HYROv7coLmV_iGU",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ERkUyQTM0MzEwQjZCMTY5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Tchaikovsky: Symphony no.6 \u0027Pathetic\u0027\n1st movement    00:00\n2nd   19:46\n3rd    27:30\n4th    36:17\nKlaus M\u00E4kel\u00E4 / Royal Concertgebouw orchestra\n11/2021 Hamburg, Elbphilharmonie Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u300C\u60B2\u6134\u300D\n\u30AF\u30E9\u30A6\u30B9\u30FB\u30DE\u30B1\u30E9\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n2021\u5E7411\u6708\u3000\u30CF\u30F3\u30D6\u30EB\u30AF\u3001\u30A8\u30EB\u30D7\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u5929\u624D\u30DE\u30B1\u30E9\u304C\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u3068\u30B3\u30ED\u30CA\u798D\u306B\u6562\u884C\u3057\u305F\u30E8\u30FC\u30ED\u30C3\u30D1\u30FB\u30C4\u30A2\u30FC\u306E\u8CB4\u91CD\u306A\u8A18\u9332\u3002\u5F53\u6642\u5F31\u51A025\u6B73\u306B\u3057\u3066\u6DF1\u9060\u306A\u4E16\u754C\u3092\u898B\u4E8B\u306B\u8074\u304B\u305B\u307E\u3059\u3002",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 39,
-      "PublishedAtRaw": "2026-04-09T20:22:25Z",
-      "PublishedAtDateTimeOffset": "2026-04-09T20:22:25+00:00",
-      "PublishedAt": "2026-04-10T01:52:25+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "TGF8aCb8ECI"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/TGF8aCb8ECI/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/TGF8aCb8ECI/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/TGF8aCb8ECI/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Tchaikovsky: Symphony no.6 \u0027Pathetic\u0027    K. M\u00E4kel\u00E4 / RCO live in Hamburg 2021",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "uHjTS0ivZtQ",
-      "VideoPublishedAtRaw": "2020-09-13T17:38:55Z",
-      "VideoPublishedAtDateTimeOffset": "2020-09-13T17:38:55+00:00",
-      "VideoPublishedAt": "2020-09-13T23:08:55+05:30"
-    },
-    "ETag": "lqkkhaJErrv35avBpzz6BLR71Ig",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41MzY4MzcwOUFFRUU3QzEx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform the world premiere of Wiegenlied by Sauli Zinovjev in Oslo Concert Hall on 19th August 2020.\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO\nMusic Producer: Vegard Landaas\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 40,
-      "PublishedAtRaw": "2025-09-28T08:36:37Z",
-      "PublishedAtDateTimeOffset": "2025-09-28T08:36:37+00:00",
-      "PublishedAt": "2025-09-28T14:06:37+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "uHjTS0ivZtQ"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Wiegenlied (world premiere) / Sauli Zinovjev / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
-      "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
-      "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "l2RxtyLK0Ec"
+		},
+		"ETag": "iFknGo7KOWtOEsULlermYkky3no",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zRjM0MkVCRTg0MkYyQTM0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 0,
+			"PublishedAtRaw": "2025-06-24T18:47:23Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:47:23+00:00",
+			"PublishedAt": "2025-06-25T00:17:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "l2RxtyLK0Ec"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dYfhoawXzs8"
+		},
+		"ETag": "xeUTsJPCCqQe2H8neUzoBRxS4hQ",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 1,
+			"PublishedAtRaw": "2025-06-24T18:47:07Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:47:07+00:00",
+			"PublishedAt": "2025-06-25T00:17:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dYfhoawXzs8"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7kAOt5kQugA"
+		},
+		"ETag": "BKa3Vei3C4TlxqGA1qjZn2nBU84",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 2,
+			"PublishedAtRaw": "2025-06-24T18:46:57Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:46:57+00:00",
+			"PublishedAt": "2025-06-25T00:16:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7kAOt5kQugA"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fDmb2_Xzgjc"
+		},
+		"ETag": "JdmBiWfk_n-wY4hn5Yrtt5Fqa1o",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CQkEwRDA0MDkwNUM2MDY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 3,
+			"PublishedAtRaw": "2025-09-28T08:45:18Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:45:18+00:00",
+			"PublishedAt": "2025-09-28T14:15:18+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fDmb2_Xzgjc"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "HzK7Wn6u-qQ"
+		},
+		"ETag": "MgNk4g2DbS2zNK3vgaJgfS9vzEc",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 4,
+			"PublishedAtRaw": "2025-06-24T18:43:53Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:43:53+00:00",
+			"PublishedAt": "2025-06-25T00:13:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "HzK7Wn6u-qQ"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "4rVJtAFkANs"
+		},
+		"ETag": "ewV5FgWjOKh-D5fFGGD0BQvNPjA",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 5,
+			"PublishedAtRaw": "2025-06-24T18:46:47Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:46:47+00:00",
+			"PublishedAt": "2025-06-25T00:16:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "4rVJtAFkANs"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dvjvVVpUsOM"
+		},
+		"ETag": "PHuen2Qd3ewa24CAstc6yywEAJk",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4wNEU1MTI4NkZEMzVBN0JF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 6,
+			"PublishedAtRaw": "2025-09-28T08:45:36Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:45:36+00:00",
+			"PublishedAt": "2025-09-28T14:15:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dvjvVVpUsOM"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "uhifIs4thw4"
+		},
+		"ETag": "jfTHoX6GZf7mhdCYskKmpCYQFDI",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 7,
+			"PublishedAtRaw": "2025-06-24T18:43:56Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:43:56+00:00",
+			"PublishedAt": "2025-06-25T00:13:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "uhifIs4thw4"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ZnnB5QghmyE"
+		},
+		"ETag": "5_RvjM3CQ2NHRmEQj6HgWkpmubs",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 8,
+			"PublishedAtRaw": "2025-06-24T18:47:15Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:47:15+00:00",
+			"PublishedAt": "2025-06-25T00:17:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ZnnB5QghmyE"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "sx9vuIs5ANg"
+		},
+		"ETag": "daOV7xQKU6gHLxLvC2EEDsFw1Vk",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 9,
+			"PublishedAtRaw": "2025-06-24T18:48:36Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:48:36+00:00",
+			"PublishedAt": "2025-06-25T00:18:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "sx9vuIs5ANg"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_2fOVPFo4kA"
+		},
+		"ETag": "TpxLFnmlqhsdW8yNcYmoFK-XJDU",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 10,
+			"PublishedAtRaw": "2025-06-24T18:48:54Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:48:54+00:00",
+			"PublishedAt": "2025-06-25T00:18:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_2fOVPFo4kA"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lfB1cqdufyk"
+		},
+		"ETag": "Rcnw0u3GlSmIsC2R6vaWc6R2inM",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 11,
+			"PublishedAtRaw": "2025-06-24T18:47:17Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:47:17+00:00",
+			"PublishedAt": "2025-06-25T00:17:17+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lfB1cqdufyk"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-Zd7YfA4gU0"
+		},
+		"ETag": "R1codcuRuldi2IV__-TSx7PwZrs",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yQjZFRkExQjFGODk3RUFD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 12,
+			"PublishedAtRaw": "2025-09-28T08:37:02Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:37:02+00:00",
+			"PublishedAt": "2025-09-28T14:07:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-Zd7YfA4gU0"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "xKDDOHxtJBk"
+		},
+		"ETag": "oDhgbJgqTeMNSWwOgqppGhTBwyc",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4wMTYxQzVBRDI1NEVDQUZE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 13,
+			"PublishedAtRaw": "2025-09-28T08:46:33Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:46:33+00:00",
+			"PublishedAt": "2025-09-28T14:16:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xKDDOHxtJBk"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WWaTzHOrUEo"
+		},
+		"ETag": "e7vyVuU5Xs9RTfynuxyQMz4FBIM",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 14,
+			"PublishedAtRaw": "2025-06-24T18:50:19Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:50:19+00:00",
+			"PublishedAt": "2025-06-25T00:20:19+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WWaTzHOrUEo"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "SkrmTcKzt2E"
+		},
+		"ETag": "3gpHatuyZ9X5CBVJw0uMn1DBakA",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 15,
+			"PublishedAtRaw": "2025-06-24T18:50:25Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:50:25+00:00",
+			"PublishedAt": "2025-06-25T00:20:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "SkrmTcKzt2E"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "W_PZ_In3UKg"
+		},
+		"ETag": "u3Nf_OPpew2NIsnwC3DLa3pwtuI",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ENjI1QUI0MDI5NEQzODFE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 16,
+			"PublishedAtRaw": "2025-09-28T08:38:23Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:38:23+00:00",
+			"PublishedAt": "2025-09-28T14:08:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "W_PZ_In3UKg"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "iQyslueHtOI",
+			"VideoPublishedAtRaw": "2021-02-18T20:00:03Z",
+			"VideoPublishedAtDateTimeOffset": "2021-02-18T20:00:03+00:00",
+			"VideoPublishedAt": "2021-02-19T01:30:03+05:30"
+		},
+		"ETag": "9A9KPbiyJhJQBCpPvSVGwoWLjdQ",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DNkMwRUI2MkI4QkI4NDFG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform Rolf Gupta\u0027s Epilogue from Earth\u0027s Song in Oslo Concert Hall on 16th October 2020.\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO\nMusic Producer: Vegard Landaas\nLighting design: Petter Dahl Nielsen\n\nWe take infection control seriously. Everything you see on stage and in the concert hall was in accordance with official Norwegian guidelines at the time of the recording.\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\u200B\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\u200B\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\u200B\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\u200B\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 17,
+			"PublishedAtRaw": "2025-09-28T08:35:51Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:35:51+00:00",
+			"PublishedAt": "2025-09-28T14:05:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iQyslueHtOI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iQyslueHtOI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iQyslueHtOI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/iQyslueHtOI/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iQyslueHtOI/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/iQyslueHtOI/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Earth\u0027s Song: Epilogue / Rolf Gupta / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "iWUuSKVFc74",
+			"VideoPublishedAtRaw": "2020-04-28T09:15:05Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-28T09:15:05+00:00",
+			"VideoPublishedAt": "2020-04-28T14:45:05+05:30"
+		},
+		"ETag": "PQm6vH_FDzgKi9FEIePIXzG7tK0",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yQUJFNUVCMzVDNjcxRTlF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform Epitaffio by Arne Nordheim in Oslo Concert Hall on 7th November 2019.\n\nSound production: NRK\n\nVideo production: Trippel-M Levende Bilder\n\nMusic used with permission from NCB\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 18,
+			"PublishedAtRaw": "2025-09-28T08:37:11Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:37:11+00:00",
+			"PublishedAt": "2025-09-28T14:07:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "iWUuSKVFc74"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/iWUuSKVFc74/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/iWUuSKVFc74/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/iWUuSKVFc74/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/iWUuSKVFc74/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/iWUuSKVFc74/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Epitaffio / Arne Nordheim / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Ej9y4BVthlA",
+			"VideoPublishedAtRaw": "2021-01-22T11:05:05Z",
+			"VideoPublishedAtDateTimeOffset": "2021-01-22T11:05:05+00:00",
+			"VideoPublishedAt": "2021-01-22T16:35:05+05:30"
+		},
+		"ETag": "xe6_6BCwPrq-n3gyaaMLkmAiCHY",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS42QzdBMzlBQzQzRjQ0QkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Truls M\u00F8rk au violoncelle et l\u0027Orchestre Philharmonique de Radio France sous la direction de Klaus M\u00E4kel\u00E4 interpr\u00E8te le Concerto pour violoncelle d\u0027Esa-Pekka Salonen. Extrait du concert donn\u00E9 le 6 mars 2020 \u00E0 l\u2019Auditorium de la Maison de la Radio \u00E0 Paris.\n\n#KlausM\u00E4kel\u00E4 #TrulsM\u00F8rk #OrchestrePhilharmoniquedeRadioFrance\n\n\nRetrouvez tous les concerts en vid\u00E9o de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 19,
+			"PublishedAtRaw": "2025-09-28T08:49:10Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:49:10+00:00",
+			"PublishedAt": "2025-09-28T14:19:10+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Ej9y4BVthlA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Ej9y4BVthlA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Esa-Pekka Salonen : Concerto pour violoncelle",
+			"VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+			"VideoOwnerChannelTitle": "France Musique concerts"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "QkQapdgAa7o",
+			"VideoPublishedAtRaw": "2019-03-08T12:39:32Z",
+			"VideoPublishedAtDateTimeOffset": "2019-03-08T12:39:32+00:00",
+			"VideoPublishedAt": "2019-03-08T18:09:32+05:30"
+		},
+		"ETag": "70WmONuwDqStQ3WHMIxK81dwLx8",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5BRjJDODk5REM0NjkzMUIy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Watch the Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform Ludwig van Beethoven\u0027s Symphony No. 9 in Oslo Concert Hall on 4th January 2019.\n\nSoloists: \nLauren Fagan, soprano\nHanna Hipp, mezzo soprano\nTuomas Katajala, tenor\nShenyang, bass-baritone\n\nOslo Philharmonic Choir (conductor: \u00D8ystein Fevang)\n\nKlaus M\u00E4kel\u00E4 will be Oslo Philharmonic\u0027s chief conductor from August 2020.\n\nSound production: NRK\nMusic Producer: Krzysztof Drab\nRecording engineers: Elisabeth Sommernes and Marit Askeland\n\nVideo production: Trippel-M Levende Bilder\n\nColorist: Joachim Nilsen, Storyline\nEIC: Even \u00D8verby\nDirector: Patrick Bakkland Gjerde\nAD: Kamilla Follev\u00E5g\nProject Manager: Herman Gudesen\n\nCamera crew:\n\u00D8yvind Sandnes\nSimen Bredesen\nAnne Grethe Olavsdatter Vold\nAslak Woo Ravlum\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID\n\n#GlobalOdeToJoy\n\nMovements:\n00:00 I. Allegro ma non troppo, un poco maestoso \n16:07 II. Molto vivace \n30:20 III. Adagio molto e cantabile \n43:52 IV. Presto - Allegro assai",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 20,
+			"PublishedAtRaw": "2025-06-24T18:53:08Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:53:08+00:00",
+			"PublishedAt": "2025-06-25T00:23:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "QkQapdgAa7o"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/QkQapdgAa7o/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/QkQapdgAa7o/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/QkQapdgAa7o/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/QkQapdgAa7o/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/QkQapdgAa7o/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "From the archives / Beethoven\u0027s Symphony No. 9 / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "_ktidUXuyPM",
+			"VideoPublishedAtRaw": "2021-01-22T11:22:03Z",
+			"VideoPublishedAtDateTimeOffset": "2021-01-22T11:22:03+00:00",
+			"VideoPublishedAt": "2021-01-22T16:52:03+05:30"
+		},
+		"ETag": "kB3GuXZHsz6ZJ8DOrd6Y9m5jDW8",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "L\u2019Orchestre Philharmonique de Radio France sous la direction de Klaus M\u00E4kel\u00E4 interpr\u00E8te la Symphonie n\u00B01 en mi mineur op 39 de Jean Sibelius. Extrait du concert donn\u00E9 le 6 mars 2020 \u00E0 l\u2019Auditorium de la Maison de la Radio \u00E0 Paris.\n\n#KlausM\u00E4kel\u00E4 #OrchestrePhilharmoniquedeRadioFrance\n\n\nRetrouvez tous les concerts en vid\u00E9o de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 21,
+			"PublishedAtRaw": "2025-06-24T18:52:30Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:52:30+00:00",
+			"PublishedAt": "2025-06-25T00:22:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "_ktidUXuyPM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/_ktidUXuyPM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/_ktidUXuyPM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/_ktidUXuyPM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/_ktidUXuyPM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/_ktidUXuyPM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Jean Sibelius : Symphonie n\u00B01 en mi mineur op 39",
+			"VideoOwnerChannelId": "UCiPYZkZeNbYTQZKNMlB0Gsw",
+			"VideoOwnerChannelTitle": "France Musique concerts"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "0U-IXWaapx4",
+			"VideoPublishedAtRaw": "2021-12-24T15:11:54Z",
+			"VideoPublishedAtDateTimeOffset": "2021-12-24T15:11:54+00:00",
+			"VideoPublishedAt": "2021-12-24T20:41:54+05:30"
+		},
+		"ETag": "foQJop3QXSeM7f-Xgd_mtS1QJOw",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4xMzgwMzBERjQ4NjEzNUE5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 22,
+			"PublishedAtRaw": "2025-09-28T08:39:50Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:39:50+00:00",
+			"PublishedAt": "2025-09-28T14:09:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "0U-IXWaapx4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/0U-IXWaapx4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/0U-IXWaapx4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/0U-IXWaapx4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/0U-IXWaapx4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Khatia Buniatishvili - Rhapsody in Blue",
+			"VideoOwnerChannelId": "UCTZzI5aeG1pp511XUwKeBWA",
+			"VideoOwnerChannelTitle": "Chicken Man"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "7GVj-3qPJRY",
+			"VideoPublishedAtRaw": "2025-09-11T09:00:08Z",
+			"VideoPublishedAtDateTimeOffset": "2025-09-11T09:00:08+00:00",
+			"VideoPublishedAt": "2025-09-11T14:30:08+05:30"
+		},
+		"ETag": "AZDqYcZZmfCCzNJhyCXY9lHMFaU",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zMEQ1MEIyRTFGNzhDQzFB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "SUBSCRIBE to our channel: https://bit.ly/3BEyYGx\nFACEBOOK: https://www.facebook.com/mezzo.tv\nINSTAGRAM: https://www.instagram.com/mezzo.tv/\nX: https://x.com/mezzo_tv\nTIK TOK: https://www.tiktok.com/@mezzo.tv\n00:00 - Bartok: The Miraculous Mandarin, Royal concertgebouw Orchestra, Concertgebouw\n03:00 - Brahms: Double Concerto for Violin and Cello, Daniel Lozakovich, Oslo Philharmonic\n05:52 - Mozart: Requiem, Royalconcertgebouw Orchestra, Concertgebouw\n08:05 - Ravel: Le tombeau de Couperin, Orchestre de Paris\n11:04 - Berlioz: Harold en Italie, Antoine Tamestit, Oslo Philharmonic\n13:11 - Beethoven: Symphony No.3 Eroica, Royalconcertgebouw Orchestra, Concertgebouw\n16:07 - Lindberg: Piano Concerto No.3, Yuja Wang, Orchestre de Paris\n18:42 - Schumann: Symphony No.2, Orchestre de Paris\n#classicalmusic   #dance  #jazz #opera #ballet #makela",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 23,
+			"PublishedAtRaw": "2025-09-28T08:43:04Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:43:04+00:00",
+			"PublishedAt": "2025-09-28T14:13:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "7GVj-3qPJRY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/7GVj-3qPJRY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Klaus M\u00E4kel\u00E4 - Orchestre de Paris, Concertgebouworkest, Oslo Philharmonic - Bartok, Brahms, Ravel",
+			"VideoOwnerChannelId": "UCjLSaHl_xeo2BB6Ghss-zbA",
+			"VideoOwnerChannelTitle": "MEZZO"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "TkIBnFQhQ64",
+			"VideoPublishedAtRaw": "2026-04-09T15:33:18Z",
+			"VideoPublishedAtDateTimeOffset": "2026-04-09T15:33:18+00:00",
+			"VideoPublishedAt": "2026-04-09T21:03:18+05:30"
+		},
+		"ETag": "b55ubJU7feM5JbqSJlk8i3v1wR4",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CNTcxMDQ0NThBNzMxODYz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler: Symphony No.2 \u0027Resurrection\u0027 \n1st movement   00:00\n2nd   23:10\n3rd    32:58\n4th    43:54\n5th    49:10\nKlaus M\u00E4kel\u00E4 / Orchestre de Paris\nSop) Kristiane Karg     Alt) Wiebke Lehmkuhl\nCho) Wiener Singverein\n13/3/2023 Wiener Musikverein Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C2\u756A\u300C\u5FA9\u6D3B\u300D\n\u30AF\u30E9\u30A6\u30B9\u30FB\u30DE\u30B1\u30E9\u6307\u63EE\u3000\u30D1\u30EA\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30AF\u30EA\u30B9\u30C6\u30A3\u30A2\u30FC\u30CD\u30FB\u30AB\u30EB\u30AF\u3000\u30A2\u30EB\u30C8\uFF09\u30F4\u30A3\u30FC\u30D7\u30B1\u30FB\u30EC\u30FC\u30E0\u30AF\u30FC\u30EB\n\u5408\u5531\uFF09\u30A6\u30A3\u30FC\u30F3\u697D\u53CB\u5354\u4F1A\u5408\u5531\u56E3\n2023\u5E743\u670813\u65E5\u3000\u30A6\u30A3\u30FC\u30F3\u697D\u53CB\u5354\u4F1A\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u5929\u624D\u30DE\u30B1\u30E9\u306F\u30DE\u30FC\u30E9\u30FC\u3092\u632F\u3063\u3066\u3082\u3084\u306F\u308A\u6B21\u5143\u304C\u9055\u3046\u6C17\u304C\u3057\u307E\u3059\u3002\u82E6\u3082\u7121\u304F\u5168\u3066\u3092\u652F\u914D\u3057\u3066\u3044\u308B\u96F0\u56F2\u6C17\u304C\u3002",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 24,
+			"PublishedAtRaw": "2026-04-09T20:22:16Z",
+			"PublishedAtDateTimeOffset": "2026-04-09T20:22:16+00:00",
+			"PublishedAt": "2026-04-10T01:52:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "TkIBnFQhQ64"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/TkIBnFQhQ64/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler: Symphony No.2 \u0027Resurrection\u0027     K. M\u00E4kel\u00E4 / ODP live in Wien",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "e6qN21GTZVE",
+			"VideoPublishedAtRaw": "2023-01-29T20:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2023-01-29T20:00:10+00:00",
+			"VideoPublishedAt": "2023-01-30T01:30:10+05:30"
+		},
+		"ETag": "JhaaP6rgcGMcw9ptf6BiRc4AKAo",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS40QzRDOEU0QUYwNUIxN0M1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Oslo Philharmonic with Chief Conductor Klaus M\u00E4kel\u00E4 performs Mette Henriettes Overture II - Vega in Oslo Concert Hall. The recording was made on 19 August, 2021. \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Dag \u00C5nnevik\nScript: Ole Sandholt\nMusic producer: J\u00F8rn Pedersen\nSound technician: \u00C5sgeir Grong\nLighting design: Petter Dahl Nielsen",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 25,
+			"PublishedAtRaw": "2025-09-28T08:37:19Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:37:19+00:00",
+			"PublishedAt": "2025-09-28T14:07:19+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "e6qN21GTZVE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/e6qN21GTZVE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/e6qN21GTZVE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/e6qN21GTZVE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/e6qN21GTZVE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/e6qN21GTZVE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Overture II \u2013 Vega / Mette Henriette / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XwJMpQiqCm4",
+			"VideoPublishedAtRaw": "2022-04-10T19:00:00Z",
+			"VideoPublishedAtDateTimeOffset": "2022-04-10T19:00:00+00:00",
+			"VideoPublishedAt": "2022-04-11T00:30:00+05:30"
+		},
+		"ETag": "3XUHuWtbpgKvA9-Rdn1GypRr23E",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5GNjAwN0Y0QTFGOTVDMEMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Oslo Philharmonic with conductor Semyon Bychkov perform Pictures at an Exhibition by Modest Mussorgsky (orchestrated by Maurice Ravel)  in Oslo Concert Hall. The recording was made on 27th January 2022.\n\n0:07 Promenade I \n1:58 Gnomus \n5:00 Promenade II \n5:59 The Old Castle \n10:38 Promenade III \n11:15 Tuileries Gardens \n12:22 Bydlo \n15:17 Promenade IV \n16:06 Ballet of the Unhatched Chicks \n17:30 Samuel Goldenberg and Schmu\u00FFle \n20:10 The Market of Limoges \n21:38 Catacombs \n23:53 Cum mortuis in lingua mortua \n25:55 The Hut on Fowl\u0027s Legs \n29:36 The Great Gate of Kiev \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Ole Sandholt\nScript: Steinar Yggeseth\nMusic producer: J\u00F8rn Pedersen\nSound technician: \u00C5sgeir Grong\nLighting design: Petter Dahl Nielsen\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nSubscribe to our channel: https://oslophil.lnk.to/oslophil-subscribeID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 26,
+			"PublishedAtRaw": "2025-09-28T08:44:57Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:44:57+00:00",
+			"PublishedAt": "2025-09-28T14:14:57+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XwJMpQiqCm4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/XwJMpQiqCm4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Pictures at an Exhibition (complete) / Modest Mussorgsky / Semyon Bychkov / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UmU7L-s9ZhI"
+		},
+		"ETag": "i4kauSZtbBCWK6aB84lZXTNvBIA",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zMUEyMkQwOTk0NTg4MDgw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 27,
+			"PublishedAtRaw": "2025-09-28T08:47:35Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:47:35+00:00",
+			"PublishedAt": "2025-09-28T14:17:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UmU7L-s9ZhI"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WxbfkZ_BzwU"
+		},
+		"ETag": "LI8eylcCXfh0Wdy1MwbawQkY-RU",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS42MTI4Njc2QjM1RjU1MjlG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 28,
+			"PublishedAtRaw": "2025-06-24T18:52:35Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:52:35+00:00",
+			"PublishedAt": "2025-06-25T00:22:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WxbfkZ_BzwU"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "a6bG3uDRqH4"
+		},
+		"ETag": "eUMQg6ooUZLaj5pL8ghRCQSn3dk",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 29,
+			"PublishedAtRaw": "2025-06-24T18:48:43Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:48:43+00:00",
+			"PublishedAt": "2025-06-25T00:18:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "a6bG3uDRqH4"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "o4UScRNrb5M"
+		},
+		"ETag": "bhVNfyaCLqulpyHUum010PaFvdk",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 30,
+			"PublishedAtRaw": "2025-06-24T18:52:25Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:52:25+00:00",
+			"PublishedAt": "2025-06-25T00:22:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "o4UScRNrb5M"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fGCTysTzwFo",
+			"VideoPublishedAtRaw": "2020-12-10T20:00:11Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-10T20:00:11+00:00",
+			"VideoPublishedAt": "2020-12-11T01:30:11+05:30"
+		},
+		"ETag": "JCn1UqmkSNgtOTru9dCVCrR1fp0",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45RjNFMDhGQ0Q2RkFCQTc1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform:\nHenry Purcell: March from \u0022Music for the Funeral of Queen Mary\u0022\nJoseph Haydn: Symphony No. 49, \u0022La Passione\u0022\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO \nMusic producer: Vegard Landaas\nLighting design: Petter Dahl Nielsen \n\nIn cooperation with Norway Live.\n\nSubscribe to our channel at https://oslophil.lnk.to/ofo-mellomspill-iiID \n\nRead about our musicians: https://oslophil.lnk.to/musiciansID \n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID \n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID \n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 31,
+			"PublishedAtRaw": "2025-06-24T18:52:53Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:52:53+00:00",
+			"PublishedAt": "2025-06-25T00:22:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fGCTysTzwFo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fGCTysTzwFo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fGCTysTzwFo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/fGCTysTzwFo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fGCTysTzwFo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/fGCTysTzwFo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Purcell: March / Haydn: Symphony No. 49 / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "atg_hjEgHK0",
+			"VideoPublishedAtRaw": "2023-06-09T07:06:59Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-09T07:06:59+00:00",
+			"VideoPublishedAt": "2023-06-09T12:36:59+05:30"
+		},
+		"ETag": "W4PC_KGW5V6wuhyrKkjSJ7yTD6M",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41RTNBREYwMkI5QzU3RkY2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Munchen Philharmonic conducted by Klaus M\u00E4kel\u00E4, \nIsarphilharmonie, June, 2022.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 32,
+			"PublishedAtRaw": "2025-09-28T08:37:29Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:37:29+00:00",
+			"PublishedAt": "2025-09-28T14:07:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "atg_hjEgHK0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/atg_hjEgHK0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/atg_hjEgHK0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/atg_hjEgHK0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/atg_hjEgHK0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/atg_hjEgHK0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sauli Zinovjev: Batteria (2016) / Munchen Philharmonic / Klaus M\u00E4kel\u00E4",
+			"VideoOwnerChannelId": "UC3Bt9OzZRcnqAqNXIPQwCTw",
+			"VideoOwnerChannelTitle": "s02r"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kgRV_6hFhw4",
+			"VideoPublishedAtRaw": "2023-06-09T07:55:15Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-09T07:55:15+00:00",
+			"VideoPublishedAt": "2023-06-09T13:25:15+05:30"
+		},
+		"ETag": "nksh7LOdfidIIhf_2J_iupukMyk",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 1. Misterioso ma preciso\n11:46 2. Tranquillo \n18:31 3. Rondo: Allegretto\n\nPianist Vikingur Olafsson and conductor Klaus M\u00E4kel\u00E4 premiering Sauli Zinovjev\u0027s Piano Concerto (2019) with the Finnish Radio Symphony Orchestra live in 7.1.2022.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 33,
+			"PublishedAtRaw": "2025-06-24T18:51:51Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:51:51+00:00",
+			"PublishedAt": "2025-06-25T00:21:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kgRV_6hFhw4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kgRV_6hFhw4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sauli Zinovjev: Piano Concerto (2019) / Vikingur Olafsson / Klaus M\u00E4kel\u00E4 / FRSO",
+			"VideoOwnerChannelId": "UC3Bt9OzZRcnqAqNXIPQwCTw",
+			"VideoOwnerChannelTitle": "s02r"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ceUfputKA2A",
+			"VideoPublishedAtRaw": "2020-01-13T15:11:59Z",
+			"VideoPublishedAtDateTimeOffset": "2020-01-13T15:11:59+00:00",
+			"VideoPublishedAt": "2020-01-13T20:41:59+05:30"
+		},
+		"ETag": "KnjBth7eeDoB_rEeHEVK_K4eiqo",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS44QzVGQUU2QjE2NDgxM0M4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sauli Zinovjev\u0027s Un Grande Sospiro (2018) performed live by l\u0027OCL \u0026 Klaus M\u00E4kel\u00E4.",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 34,
+			"PublishedAtRaw": "2025-09-28T08:38:39Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:38:39+00:00",
+			"PublishedAt": "2025-09-28T14:08:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ceUfputKA2A"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ceUfputKA2A/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ceUfputKA2A/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ceUfputKA2A/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ceUfputKA2A/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ceUfputKA2A/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sauli Zinovjev: Un Grande Sospiro (2018) / Klaus M\u00E4kel\u00E4 \u0026 l\u0027OCL",
+			"VideoOwnerChannelId": "UC3Bt9OzZRcnqAqNXIPQwCTw",
+			"VideoOwnerChannelTitle": "s02r"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "GB3zR_X25UU",
+			"VideoPublishedAtRaw": "2019-11-12T16:54:21Z",
+			"VideoPublishedAtDateTimeOffset": "2019-11-12T16:54:21+00:00",
+			"VideoPublishedAt": "2019-11-12T22:24:21+05:30"
+		},
+		"ETag": "az7E0aZMSLHRNkpTjLypmQH0B9I",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS40QTA3NTU2RkM1QzlCMzYx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Dmitrij Schostakowitsch: \n7. Sinfonie C-Dur op. 60\n\u00BBLeningrader Sinfonie\u00AB \u2219 \n\n(Auftritt)  0:00:00 \u2219\nI. Allegretto  0:00:30 \u2219\nII. Moderato (poco allegretto)  0:29:15 \u2219\nIII. Adagio \u2013 Largo \u2013 Moderato risoluto \u2013 Largo \u2013 Adagio  0:40:55 \u2219\nIV. Allegro non troppo \u2013 Moderato  1:01:11 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKlaus M\u00E4kel\u00E4, Dirigent \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 1. November 2019 \u2219\n\nWebsite: https://www.hr-sinfonieorchester.de \u2219\nFacebook: https://www.facebook.com/hrsinfonieorchester",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 35,
+			"PublishedAtRaw": "2025-06-24T18:53:01Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:53:01+00:00",
+			"PublishedAt": "2025-06-25T00:23:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "GB3zR_X25UU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/GB3zR_X25UU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/GB3zR_X25UU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/GB3zR_X25UU/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/GB3zR_X25UU/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/GB3zR_X25UU/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schostakowitsch: 7. Sinfonie (\u00BBLeningrader\u00AB) \u2219 hr-Sinfonieorchester \u2219 Klaus M\u00E4kel\u00E4",
+			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "V4tZCwI_oZw",
+			"VideoPublishedAtRaw": "2024-10-14T23:00:49Z",
+			"VideoPublishedAtDateTimeOffset": "2024-10-14T23:00:49+00:00",
+			"VideoPublishedAt": "2024-10-15T04:30:49+05:30"
+		},
+		"ETag": "3sYvE3bxGjGCv2DpAjMybIWn3EA",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DRUQwODMxQzUyRTlGRkY3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Royal Concertgebouw Orchestra\nKlaus M\u00E4kel\u00E4, conductor",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 36,
+			"PublishedAtRaw": "2025-09-28T08:36:09Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:36:09+00:00",
+			"PublishedAt": "2025-09-28T14:06:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "V4tZCwI_oZw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/V4tZCwI_oZw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sibelius, Swan of Tuonela",
+			"VideoOwnerChannelId": "UC8oHWiMOQNmVJVQ7vcrGk2A",
+			"VideoOwnerChannelTitle": "Miriam Pastor Burgos"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WYVzEAKzvfs",
+			"VideoPublishedAtRaw": "2023-06-20T14:57:14Z",
+			"VideoPublishedAtDateTimeOffset": "2023-06-20T14:57:14+00:00",
+			"VideoPublishedAt": "2023-06-20T20:27:14+05:30"
+		},
+		"ETag": "xLkPtrtPx_8bqqB67ejO2jHfBNU",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Sol Gabetta performs Shostakovich\u2019s Cello Concerto no. 2 with Orchestre de Paris, conducted by Klaus M\u00E4kel\u00E4. \n\nPhilharmonie de Paris, 2023\n\nFootage courtesy of Arte\n\n\nMore information about Sol Gabetta: https://solgabetta.com\n\nInstagram: https://www.instagram.com/sol_gabetta/?hl=en\nFacebook: https://www.facebook.com/solgabetta/\nTwitter: https://twitter.com/solgabetta\nTikTok: https://www.tiktok.com/@solgabetta",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 37,
+			"PublishedAtRaw": "2025-06-24T18:50:37Z",
+			"PublishedAtDateTimeOffset": "2025-06-24T18:50:37+00:00",
+			"PublishedAt": "2025-06-25T00:20:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WYVzEAKzvfs"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WYVzEAKzvfs/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Sol Gabetta: Shostakovich Concerto for Cello n\u00B0 2",
+			"VideoOwnerChannelId": "UCY-m4hSSSy3obXMBwvV9jaQ",
+			"VideoOwnerChannelTitle": "Sol Gabetta"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3PhS25Rf_bQ",
+			"VideoPublishedAtRaw": "2021-06-17T19:00:10Z",
+			"VideoPublishedAtDateTimeOffset": "2021-06-17T19:00:10+00:00",
+			"VideoPublishedAt": "2021-06-18T00:30:10+05:30"
+		},
+		"ETag": "Fc2b2yqc3Z_WHodaBUm4sXMRQL0",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45NkVENTkxRDdCQUFBMDY4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform subito con forza by Unsuk Chin  in Oslo Concert Hall. The recording was made on 4th June 2021.\n\n#classicalmusic #concert #unsykchin #orchestra \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Dag \u00C5nnevik\nSound production: LAWO\nMusic producer: Vegard Landaas \nSound technician: Thomas Wolden\nLighting design: Petter Dahl Nielsen\n\nWe take infection control seriously. Everything you see on stage and in the concert hall was in accordance with official Norwegian guidelines at the time of the recording.\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nSubscribe to our channel: https://oslophil.lnk.to/oslophil-subs...\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 38,
+			"PublishedAtRaw": "2025-09-28T08:35:43Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:35:43+00:00",
+			"PublishedAt": "2025-09-28T14:05:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3PhS25Rf_bQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3PhS25Rf_bQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "subito con forza / Unsuk Chin / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "TGF8aCb8ECI",
+			"VideoPublishedAtRaw": "2026-04-08T15:05:16Z",
+			"VideoPublishedAtDateTimeOffset": "2026-04-08T15:05:16+00:00",
+			"VideoPublishedAt": "2026-04-08T20:35:16+05:30"
+		},
+		"ETag": "ANEk33gFUcr9HYROv7coLmV_iGU",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ERkUyQTM0MzEwQjZCMTY5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tchaikovsky: Symphony no.6 \u0027Pathetic\u0027\n1st movement    00:00\n2nd   19:46\n3rd    27:30\n4th    36:17\nKlaus M\u00E4kel\u00E4 / Royal Concertgebouw orchestra\n11/2021 Hamburg, Elbphilharmonie Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u300C\u60B2\u6134\u300D\n\u30AF\u30E9\u30A6\u30B9\u30FB\u30DE\u30B1\u30E9\u6307\u63EE\u3000\u30ED\u30A4\u30E4\u30EB\u30FB\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u5F26\u697D\u56E3\n2021\u5E7411\u6708\u3000\u30CF\u30F3\u30D6\u30EB\u30AF\u3001\u30A8\u30EB\u30D7\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u5929\u624D\u30DE\u30B1\u30E9\u304C\u30B3\u30F3\u30BB\u30EB\u30C8\u30D8\u30DC\u30A6\u7BA1\u3068\u30B3\u30ED\u30CA\u798D\u306B\u6562\u884C\u3057\u305F\u30E8\u30FC\u30ED\u30C3\u30D1\u30FB\u30C4\u30A2\u30FC\u306E\u8CB4\u91CD\u306A\u8A18\u9332\u3002\u5F53\u6642\u5F31\u51A025\u6B73\u306B\u3057\u3066\u6DF1\u9060\u306A\u4E16\u754C\u3092\u898B\u4E8B\u306B\u8074\u304B\u305B\u307E\u3059\u3002",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 39,
+			"PublishedAtRaw": "2026-04-09T20:22:25Z",
+			"PublishedAtDateTimeOffset": "2026-04-09T20:22:25+00:00",
+			"PublishedAt": "2026-04-10T01:52:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "TGF8aCb8ECI"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/TGF8aCb8ECI/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/TGF8aCb8ECI/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/TGF8aCb8ECI/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Tchaikovsky: Symphony no.6 \u0027Pathetic\u0027    K. M\u00E4kel\u00E4 / RCO live in Hamburg 2021",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "uHjTS0ivZtQ",
+			"VideoPublishedAtRaw": "2020-09-13T17:38:55Z",
+			"VideoPublishedAtDateTimeOffset": "2020-09-13T17:38:55+00:00",
+			"VideoPublishedAt": "2020-09-13T23:08:55+05:30"
+		},
+		"ETag": "lqkkhaJErrv35avBpzz6BLR71Ig",
+		"Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41MzY4MzcwOUFFRUU3QzEx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform the world premiere of Wiegenlied by Sauli Zinovjev in Oslo Concert Hall on 19th August 2020.\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO\nMusic Producer: Vegard Landaas\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
+			"PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+			"Position": 40,
+			"PublishedAtRaw": "2025-09-28T08:36:37Z",
+			"PublishedAtDateTimeOffset": "2025-09-28T08:36:37+00:00",
+			"PublishedAt": "2025-09-28T14:06:37+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "uHjTS0ivZtQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/uHjTS0ivZtQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Wiegenlied (world premiere) / Sauli Zinovjev / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
+			"VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
+			"VideoOwnerChannelTitle": "Oslo Philharmonic"
+		}
+	}
 ]

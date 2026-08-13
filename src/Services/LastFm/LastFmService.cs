@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Globalization;
 using Core;
 using ErrorOr;
@@ -32,7 +33,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 			messageTemplate: "LastFm.FetchRecentTracks"
 		);
 
-		var fetchSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch fetchSw = System.Diagnostics.Stopwatch.StartNew();
 		Telemetry.Verbose(
 			"FetchRecentTracks started (since={Since})",
 			since?.ToString("yyyy-MM-dd HH:mm") ?? "all"
@@ -47,7 +48,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 		{
 			ct.ThrowIfCancellationRequested();
 
-			var pageSw = System.Diagnostics.Stopwatch.StartNew();
+			Stopwatch pageSw = System.Diagnostics.Stopwatch.StartNew();
 			ErrorOr<(List<LastFmScrobble> Tracks, int TotalPages)> pageResult =
 				await FetchPageAsync(since, page, limit, ct);
 			pageSw.Stop();
@@ -124,7 +125,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 	)
 	{
 		const int maxRetries = 3;
-		var delay = TimeSpan.FromSeconds(1);
+		TimeSpan delay = TimeSpan.FromSeconds(1);
 
 		for (var attempt = 1; attempt < maxRetries; attempt++)
 			try
@@ -186,7 +187,7 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 		TimeSpan elapsed = DateTimeOffset.UtcNow - LastRequestTime;
 		if (elapsed < TimeSpan.FromMilliseconds(200))
 		{
-			var waitTime = TimeSpan.FromMilliseconds(200) - elapsed;
+			TimeSpan waitTime = TimeSpan.FromMilliseconds(200) - elapsed;
 			Telemetry.Verbose("Rate limit: waiting {WaitMs}ms", waitTime.TotalMilliseconds);
 			await Task.Delay(waitTime, ct);
 		}

@@ -5,6 +5,8 @@ using Spectre.Console.Cli;
 
 namespace CLI.Audio;
 
+using ErrorOr;
+
 internal sealed class DsdConvertCommand(
 	DsdConvertService convertService,
 	AudioMetadataService metadataService
@@ -39,7 +41,7 @@ internal sealed class DsdConvertCommand(
 		CancellationToken cancellationToken
 	)
 	{
-		using var _ = Telemetry.ForService(ServiceName.Audio);
+		using IDisposable _ = Telemetry.ForService(ServiceName.Audio);
 
 		var inputPath = Path.GetFullPath(settings.Input);
 		var outputPath = settings.Output ?? Path.ChangeExtension(inputPath, ".flac");
@@ -54,7 +56,10 @@ internal sealed class DsdConvertCommand(
 		}
 
 		Telemetry.Info("Probing DSD file: {File}", inputPath);
-		var dsdProbe = await convertService.ProbeDsdAsync(inputPath, cancellationToken);
+		ErrorOr<DsdProbeResult> dsdProbe = await convertService.ProbeDsdAsync(
+			inputPath,
+			cancellationToken
+		);
 		if (dsdProbe.IsError)
 		{
 			await Console.Error.WriteLineAsync(dsdProbe.Errors[0].Description, cancellationToken);
@@ -73,7 +78,10 @@ internal sealed class DsdConvertCommand(
 		if (settings.GainDb is null)
 		{
 			Telemetry.Info("Auto-detecting gain for {File}", inputPath);
-			var gainResult = await convertService.CalculateGainAsync(inputPath, cancellationToken);
+			ErrorOr<double> gainResult = await convertService.CalculateGainAsync(
+				inputPath,
+				cancellationToken
+			);
 			if (gainResult.IsError)
 			{
 				await Console.Error.WriteLineAsync(
@@ -87,13 +95,10 @@ internal sealed class DsdConvertCommand(
 
 		Telemetry.Info("Converting with gain {Gain:F2} dB", gain);
 
-		var (primary, derived) = DsdConversionSettings.ForDsdRate(
-			dsdProbe.Value.SampleRate,
-			settings.Format,
-			gain
-		);
+		(DsdConversionSettings primary, DsdConversionSettings? derived) =
+			DsdConversionSettings.ForDsdRate(dsdProbe.Value.SampleRate, settings.Format, gain);
 
-		var result = await convertService.ConvertFullDffAsync(
+		ErrorOr<ConversionResult> result = await convertService.ConvertFullDffAsync(
 			inputPath,
 			outputPath,
 			primary,
@@ -112,7 +117,7 @@ internal sealed class DsdConvertCommand(
 				Path.ChangeExtension(outputPath, null) + $" [16-bit {derived.SampleRate}].flac";
 			Telemetry.Info("Deriving 16-bit: {File}", Path.GetFileName(derivedPath));
 
-			var deriveResult = await convertService.DeriveFlacAsync(
+			ErrorOr<ConversionResult> deriveResult = await convertService.DeriveFlacAsync(
 				outputPath,
 				derivedPath,
 				derived.SampleRate,
@@ -124,10 +129,13 @@ internal sealed class DsdConvertCommand(
 
 		if (settings.CopyTags)
 		{
-			var metaResult = metadataService.ReadDsdMetadata(inputPath);
+			ErrorOr<TrackMetadata> metaResult = metadataService.ReadDsdMetadata(inputPath);
 			if (!metaResult.IsError)
 			{
-				var tagResult = metadataService.WriteFlacTags(outputPath, metaResult.Value);
+				ErrorOr<Success> tagResult = metadataService.WriteFlacTags(
+					outputPath,
+					metaResult.Value
+				);
 				if (tagResult.IsError)
 					Telemetry.Warn("Tagging failed: {Error}", tagResult.Errors[0].Description);
 			}

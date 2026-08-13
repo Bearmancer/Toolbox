@@ -1,402 +1,402 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "xb30r2ftuws",
-      "VideoPublishedAtRaw": "2026-07-29T15:49:24Z",
-      "VideoPublishedAtDateTimeOffset": "2026-07-29T15:49:24+00:00",
-      "VideoPublishedAt": "2026-07-29T21:19:24+05:30"
-    },
-    "ETag": "7n-6u-kq2544X8wfjLfVeiLqRpw",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS45NDk1REZENzhEMzU5MDQz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "0:00:00 Jan\u00E1\u010Dek (arr. Jilek) Suite - The Cunning Little Vixen\n0:19:31 Jan\u00E1\u010Dek Glagolitic Mass\n\nThis concert was given on 28 February 1998, and I recorded the re-broadcast given in honour of Sir Charles Mackerras\u0027s 80th Birthday on 20 November 2005. It was given in the Bridgewater Hall, Manchester. Alas I do not have the first item in the concert, the Sinfonietta. My apologies for that.\n\nChristine Brewer (soprano)\nAmeral Gunson (mezzo-soprano)\nPeter Bronder (tenor)\nGeoffrey Moses (bass)\nThomas Trotter (organ)\nCity of Birmingham Symphony Chorus\n\nBBC Philharmonic Orchestra\nconducted by\nSir Charles Mackerras\n\nFor more details please see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/2005-11-20#at-18.30\nhttps://www.bbc.co.uk/radio3/classical/mackerras/broadcasts.shtml\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 0,
-      "PublishedAtRaw": "2026-07-30T00:18:41Z",
-      "PublishedAtDateTimeOffset": "2026-07-30T00:18:41+00:00",
-      "PublishedAt": "2026-07-30T05:48:41+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "xb30r2ftuws"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/xb30r2ftuws/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/xb30r2ftuws/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/xb30r2ftuws/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/xb30r2ftuws/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/xb30r2ftuws/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Jan\u00E1\u010Dek - BBC Philharmonic Orchestra - Sir Charles Mackerras (Manchester, 1998)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "uclutu85YoQ",
-      "VideoPublishedAtRaw": "2025-11-23T15:15:48Z",
-      "VideoPublishedAtDateTimeOffset": "2025-11-23T15:15:48+00:00",
-      "VideoPublishedAt": "2025-11-23T20:45:48+05:30"
-    },
-    "ETag": "HpvIKAZhaky3sElNDLbhzpQNlCE",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "0:00:00 Radio commentary\n0:00:23 Jan\u00E1\u010Dek Suite - The Cunning Little Vixen\n0:21:01 Radio commentary\n0:23:30 Jan\u00E1\u010Dek Taras Bulba\n0:48:41 Radio commentary\n0:49:05 Mahler Symphony No. 1\n\nThese performances were given as part of the 1998 season of BBC Promenade Concerts at the Royal Albert Hall, London on 7 September 1998.\n\nCzech Philharmonic Orhestra\nconducted by\nSir Charles Mackerras\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ecqxj5\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 1,
-      "PublishedAtRaw": "2025-12-13T02:11:29Z",
-      "PublishedAtDateTimeOffset": "2025-12-13T02:11:29+00:00",
-      "PublishedAt": "2025-12-13T07:41:29+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "uclutu85YoQ"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/uclutu85YoQ/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/uclutu85YoQ/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/uclutu85YoQ/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/uclutu85YoQ/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/uclutu85YoQ/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Jan\u00E1\u010Dek, Mahler - Czech Philharmonic Orchestra - Sir Charles Mackerras (RAH, 1998)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "1wTnoRKYcqc",
-      "VideoPublishedAtRaw": "2025-11-21T14:49:44Z",
-      "VideoPublishedAtDateTimeOffset": "2025-11-21T14:49:44+00:00",
-      "VideoPublishedAt": "2025-11-21T20:19:44+05:30"
-    },
-    "ETag": "pJk24o3DfW3j7HXY4aV0jFzkkxQ",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This performance was given as part of the 1995 BBC Promenade Concerts at the Royal Albert Hall, London on 15 September 1995. \n\nRosa Mannion (soprano)\nJean Rigby (mezzo-soprano)\n\nBBC Singers\nBrighton Festival Chorus\nEdinburgh Festival Chorus\n\nBBC Philharmonic Orchestra\nconducted by\nSir Charles Mackerras\n\nFor more details see:\nhttps://www.bbc.co.uk/events/e8b8gw\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 2,
-      "PublishedAtRaw": "2025-11-22T02:43:33Z",
-      "PublishedAtDateTimeOffset": "2025-11-22T02:43:33+00:00",
-      "PublishedAt": "2025-11-22T08:13:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "1wTnoRKYcqc"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mahler Symphony No. 2 - BBC Philharmonic Orchestra - Sir Charles Mackerras (RAH, 1995)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "jEyMzVfXoOU",
-      "VideoPublishedAtRaw": "2025-12-01T07:20:02Z",
-      "VideoPublishedAtDateTimeOffset": "2025-12-01T07:20:02+00:00",
-      "VideoPublishedAt": "2025-12-01T12:50:02+05:30"
-    },
-    "ETag": "DnwkbkSHpdFUQhVoV38d0qdCV6c",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Mahler: Symphony No.1 \n1st movement   00:00\n2nd   16:02\n3rd    23:51\n4th    34:23\nCharles Mackerras / Czech Philharmonic orchestra\n7/9/1998 London, Royal Albert Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C1\u756A\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1998\u5E749\u67087\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DE\u30C3\u30B1\u30E9\u30B9\u306E\u30DE\u30FC\u30E9\u30FC\u306F\u8A18\u9332\u306F\u5C11\u306A\u3044\u3051\u308C\u3069\u3069\u308C\u3082\u7D20\u6674\u3089\u3057\u3044\u3082\u306E\u3067\u3059\u3002\u3053\u3053\u3067\u306F\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u306E\u8276\u3084\u304B\u306A\u5F26\u3068\u58EE\u9E97\u306A\u30D6\u30E9\u30B9\u3092\u751F\u304B\u3057\u3001\u7F8E\u3057\u304F\u3082\u53B3\u3057\u3044\u540D\u6F14\u3092\u8074\u304B\u305B\u3066\u304F\u308C\u307E\u3057\u305F\u3002",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 3,
-      "PublishedAtRaw": "2025-12-02T11:40:26Z",
-      "PublishedAtDateTimeOffset": "2025-12-02T11:40:26+00:00",
-      "PublishedAt": "2025-12-02T17:10:26+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "jEyMzVfXoOU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/jEyMzVfXoOU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/jEyMzVfXoOU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/jEyMzVfXoOU/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Mahler: Symphony No.1     C. Mackerras / Czech Phil. live at Proms 1998",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "pUMakWFLI1s",
-      "VideoPublishedAtRaw": "2025-12-01T12:15:06Z",
-      "VideoPublishedAtDateTimeOffset": "2025-12-01T12:15:06+00:00",
-      "VideoPublishedAt": "2025-12-01T17:45:06+05:30"
-    },
-    "ETag": "5qeYENeHwQ_hug5d5ww-XtnO4Qc",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS41MjE1MkI0OTQ2QzJGNzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Mahler: Symphony No.2 \u0027Resurrection\u0027   \n1st movement   00:00\n2nd   20:48\n3rd    30:37\n4th    40:37\n5th    46:00\nCharles Mackerras / BBC Philharmonic orchestra\n(Sub conductor: Sachio Fujioka)\nSop) Rosa Mannion     Alt) Jean Rigby\nCho) Brighton festival Chorus, Edinburgh festival chorus, BBC singers\n15/9/1995 London, Royal Albert Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C2\u756A\u300C\u5FA9\u6D3B\u300D\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000BBC\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30ED\u30FC\u30B6\u30FB\u30DE\u30CB\u30AA\u30F3\u3000\u30A2\u30EB\u30C8\uFF09\u30B8\u30A7\u30FC\u30F3\u30FB\u30EA\u30B0\u30D3\u30FC\n\u5408\u5531\uFF09\u30D6\u30E9\u30A4\u30C8\u30F3\u795D\u796D\u5408\u5531\u56E3\u3001\u30A8\u30B8\u30F3\u30D0\u30E9\u795D\u796D\u5408\u5531\u56E3\u3001BBC\u30B7\u30F3\u30AC\u30FC\u30BA\n1995\u5E749\u670815\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B1995\u5E74\u30D7\u30ED\u30E0\u30B9\u97F3\u697D\u796D\u306E\u6389\u5C3E\u3092\u98FE\u3063\u305F\u30DE\u30C3\u30B1\u30E9\u30B9\u306E\u300C\u5FA9\u6D3B\u300D\u3002\u5927\u30AA\u30EB\u30AC\u30F3\u3068\u4E00\u4F53\u306B\u306A\u3063\u305F\u30AF\u30E9\u30A4\u30DE\u30C3\u30AF\u30B9\u307E\u3067\u306E\u30C9\u30E9\u30DE\u30C6\u30A3\u30C3\u30AF\u306A\u5C55\u958B\u306F\u3055\u3059\u304C\u30DE\u30C3\u30B1\u30E9\u30B9\u3067\u3059\u3002\u5F53\u6642BBC\u30D5\u30A3\u30EB\u306E\u526F\u6307\u63EE\u8005\u3060\u3063\u305F\u85E4\u5CA1\u5E78\u592B\u304C\u7DF4\u7FD2\u6307\u63EE\u3001\u304A\u3088\u3073\u672C\u756A\u5F71\u30AA\u30B1\u306E\u6307\u63EE\u3092\u62C5\u5F53\u3057\u3066\u3044\u307E\u3057\u305F\u3002",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 4,
-      "PublishedAtRaw": "2025-12-02T11:40:35Z",
-      "PublishedAtDateTimeOffset": "2025-12-02T11:40:35+00:00",
-      "PublishedAt": "2025-12-02T17:10:35+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "pUMakWFLI1s"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/pUMakWFLI1s/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/pUMakWFLI1s/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/pUMakWFLI1s/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Mahler: Symphony No.2 \u0027Resurrection\u0027      C. Mackerras / BBCPO live at Proms 1995",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "l31XvM9PPlE",
-      "VideoPublishedAtRaw": "2026-05-13T18:33:32Z",
-      "VideoPublishedAtDateTimeOffset": "2026-05-13T18:33:32+00:00",
-      "VideoPublishedAt": "2026-05-14T00:03:32+05:30"
-    },
-    "ETag": "glIiDWtxCqvud3wOvnMSXNcBiX8",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS5DQUNERDQ2NkIzRUQxNTY1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "0:00:00 Schubert 5 Songs (orch. Brahms and Berlioz)\n\nAn Schwager Kronos, D 369 (orch. Johannes Brahms )\nGeheimes, D 719 (orch. Johannes Brahms)\nGruppe aus dem Tartarus, D 583 (orch. Johannes Brahms)\nMemnon, D 541 (orch. Johannes Brahms)\nErlk\u00F6nig, D 328 (arr. Hector Berlioz)\n\n0:16:35  Brahms Symphony No. 4\n\nThese performances were given during the 1997 BBC Proms Season as part of the Promenade Concert given on  21 August 1997 in the Royal Albert Hall, London. I unfortunately do not have Schubert Symphony No. 3 which started the concert.\n\nThomas Allen (baritone)\n\nLondon Philharmonic Orchestra\nconducted by\nSir Charles Mackerras\n\nFor more details see:\nhttps://www.bbc.co.uk/events/eg2n3d\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 5,
-      "PublishedAtRaw": "2026-05-17T18:07:00Z",
-      "PublishedAtDateTimeOffset": "2026-05-17T18:07:00+00:00",
-      "PublishedAt": "2026-05-17T23:37:00+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "l31XvM9PPlE"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/l31XvM9PPlE/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/l31XvM9PPlE/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/l31XvM9PPlE/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/l31XvM9PPlE/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/l31XvM9PPlE/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schubert 5 Songs, Brahms Symphony No. 4 - London Philharmonic - Charles Mackerras (RAH, 1997)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "Oo3XAWrb2Fc",
-      "VideoPublishedAtRaw": "2025-12-12T12:40:25Z",
-      "VideoPublishedAtDateTimeOffset": "2025-12-12T12:40:25+00:00",
-      "VideoPublishedAt": "2025-12-12T18:10:25+05:30"
-    },
-    "ETag": "MPqFVIc4btjc4Y4RZ5UfY9wKScU",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Schubert: Symphony No.8 \u0027 The Great\u0027\n1st movement   00:00\n2nd   15:56\n3rd    30:03\n4th    43:43\nCharles Mackerras / Philharmonia Orchestra\n9/10/2006 London, Queen Elizabeth Hall live recording\n\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u300C\u30B0\u30EC\u30FC\u30C8\u300D\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u5F26\u697D\u56E3\n2006\u5E7410\u67089\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30AF\u30A4\u30FC\u30F3\u30FB\u30A8\u30EA\u30B6\u30D9\u30B9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DE\u30C3\u30B1\u30E9\u30B9\u304C\u6669\u5E74\u3001\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u3092\u632F\u3063\u305F\u30E9\u30A4\u30D6\u306B\u306F\u305A\u308C\u306F\u3042\u308A\u307E\u305B\u3093\u3002\u5F97\u610F\u3068\u3057\u305F\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\u306F\u30D4\u30EA\u30AA\u30C9\u697D\u56E3\u3068\u306E\u9332\u97F3\u3082\u3042\u308A\u307E\u3059\u304C\u3001\u305D\u306E\u30A2\u30D7\u30ED\u30FC\u30C1\u3092\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u306E\u8C4A\u304B\u306A\u6A5F\u80FD\u306B\u843D\u3068\u3057\u8FBC\u3093\u3067\u898B\u4E8B\u306A\u97F3\u4E16\u754C\u3092\u8074\u304B\u305B\u3066\u304F\u308C\u307E\u3059\u3002\u5168\u3066\u306E\u7E70\u308A\u8FD4\u3057\u3092\u63A1\u7528\u3057\u305F\u71B1\u6F14\u3002",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 6,
-      "PublishedAtRaw": "2025-12-12T19:04:31Z",
-      "PublishedAtDateTimeOffset": "2025-12-12T19:04:31+00:00",
-      "PublishedAt": "2025-12-13T00:34:31+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Oo3XAWrb2Fc"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Oo3XAWrb2Fc/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Oo3XAWrb2Fc/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Oo3XAWrb2Fc/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Schubert: Symphony No.8 \u0027 The Great\u0027    C. Mackerras / PO 2006 live",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "CHdkX4DNjoc",
-      "VideoPublishedAtRaw": "2025-12-12T00:34:38Z",
-      "VideoPublishedAtDateTimeOffset": "2025-12-12T00:34:38+00:00",
-      "VideoPublishedAt": "2025-12-12T06:04:38+05:30"
-    },
-    "ETag": "zM7Eg6KyGhQCEjBlwWNKtyATF_o",
-    "Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS4xMkVGQjNCMUM1N0RFNEUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Tchaikovsky: Symphony No.6 \u0027 Pathetic\u0027 \n1st movement   00:00\n2nd    18:40\n3rd     26:42\n4th     35:10\nCharles Mackerras / Philharmonia Orchestra\n8/2/2009 London, Royal Festival Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u300C\u60B2\u6134\u300D\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u5F26\u697D\u56E3\n2009\u5E742\u67088\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DE\u30C3\u30B1\u30E9\u30B9\u6700\u6669\u5E74\u306E\u540D\u6F14\u3002\u5F53\u664283\u6B73\u306A\u304C\u3089\u97F3\u697D\u7684\u306A\u5F1B\u7DE9\u3082\u306A\u304F\u3001\u5207\u308C\u306E\u826F\u3055\u306F\u629C\u7FA4\u3067\u3059\u3002\u968F\u6240\u306B\u6C7A\u307E\u308B\u540D\u624B\u30A2\u30F3\u30C7\u30A3\u30FC\u30FB\u30B9\u30DF\u30B9\u306E\u30C6\u30A3\u30F3\u30D1\u30CB\u304C\u5B9F\u306B\u7D20\u6674\u3089\u3057\u3044\u3002",
-      "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
-      "Position": 7,
-      "PublishedAtRaw": "2025-12-12T19:23:40Z",
-      "PublishedAtDateTimeOffset": "2025-12-12T19:23:40+00:00",
-      "PublishedAt": "2025-12-13T00:53:40+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "CHdkX4DNjoc"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/CHdkX4DNjoc/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/CHdkX4DNjoc/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/CHdkX4DNjoc/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Tchaikovsky: Symphony No.6 \u0027 Pathetic\u0027     C. Mackerras / PO 2009 live",
-      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-      "VideoOwnerChannelTitle": "Isappin"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "xb30r2ftuws",
+			"VideoPublishedAtRaw": "2026-07-29T15:49:24Z",
+			"VideoPublishedAtDateTimeOffset": "2026-07-29T15:49:24+00:00",
+			"VideoPublishedAt": "2026-07-29T21:19:24+05:30"
+		},
+		"ETag": "7n-6u-kq2544X8wfjLfVeiLqRpw",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Jan\u00E1\u010Dek (arr. Jilek) Suite - The Cunning Little Vixen\n0:19:31 Jan\u00E1\u010Dek Glagolitic Mass\n\nThis concert was given on 28 February 1998, and I recorded the re-broadcast given in honour of Sir Charles Mackerras\u0027s 80th Birthday on 20 November 2005. It was given in the Bridgewater Hall, Manchester. Alas I do not have the first item in the concert, the Sinfonietta. My apologies for that.\n\nChristine Brewer (soprano)\nAmeral Gunson (mezzo-soprano)\nPeter Bronder (tenor)\nGeoffrey Moses (bass)\nThomas Trotter (organ)\nCity of Birmingham Symphony Chorus\n\nBBC Philharmonic Orchestra\nconducted by\nSir Charles Mackerras\n\nFor more details please see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/2005-11-20#at-18.30\nhttps://www.bbc.co.uk/radio3/classical/mackerras/broadcasts.shtml\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 0,
+			"PublishedAtRaw": "2026-07-30T00:18:41Z",
+			"PublishedAtDateTimeOffset": "2026-07-30T00:18:41+00:00",
+			"PublishedAt": "2026-07-30T05:48:41+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "xb30r2ftuws"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/xb30r2ftuws/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/xb30r2ftuws/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/xb30r2ftuws/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/xb30r2ftuws/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/xb30r2ftuws/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Jan\u00E1\u010Dek - BBC Philharmonic Orchestra - Sir Charles Mackerras (Manchester, 1998)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "uclutu85YoQ",
+			"VideoPublishedAtRaw": "2025-11-23T15:15:48Z",
+			"VideoPublishedAtDateTimeOffset": "2025-11-23T15:15:48+00:00",
+			"VideoPublishedAt": "2025-11-23T20:45:48+05:30"
+		},
+		"ETag": "HpvIKAZhaky3sElNDLbhzpQNlCE",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Radio commentary\n0:00:23 Jan\u00E1\u010Dek Suite - The Cunning Little Vixen\n0:21:01 Radio commentary\n0:23:30 Jan\u00E1\u010Dek Taras Bulba\n0:48:41 Radio commentary\n0:49:05 Mahler Symphony No. 1\n\nThese performances were given as part of the 1998 season of BBC Promenade Concerts at the Royal Albert Hall, London on 7 September 1998.\n\nCzech Philharmonic Orhestra\nconducted by\nSir Charles Mackerras\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ecqxj5\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 1,
+			"PublishedAtRaw": "2025-12-13T02:11:29Z",
+			"PublishedAtDateTimeOffset": "2025-12-13T02:11:29+00:00",
+			"PublishedAt": "2025-12-13T07:41:29+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "uclutu85YoQ"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/uclutu85YoQ/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/uclutu85YoQ/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/uclutu85YoQ/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/uclutu85YoQ/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/uclutu85YoQ/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Jan\u00E1\u010Dek, Mahler - Czech Philharmonic Orchestra - Sir Charles Mackerras (RAH, 1998)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "1wTnoRKYcqc",
+			"VideoPublishedAtRaw": "2025-11-21T14:49:44Z",
+			"VideoPublishedAtDateTimeOffset": "2025-11-21T14:49:44+00:00",
+			"VideoPublishedAt": "2025-11-21T20:19:44+05:30"
+		},
+		"ETag": "pJk24o3DfW3j7HXY4aV0jFzkkxQ",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This performance was given as part of the 1995 BBC Promenade Concerts at the Royal Albert Hall, London on 15 September 1995. \n\nRosa Mannion (soprano)\nJean Rigby (mezzo-soprano)\n\nBBC Singers\nBrighton Festival Chorus\nEdinburgh Festival Chorus\n\nBBC Philharmonic Orchestra\nconducted by\nSir Charles Mackerras\n\nFor more details see:\nhttps://www.bbc.co.uk/events/e8b8gw\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 2,
+			"PublishedAtRaw": "2025-11-22T02:43:33Z",
+			"PublishedAtDateTimeOffset": "2025-11-22T02:43:33+00:00",
+			"PublishedAt": "2025-11-22T08:13:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "1wTnoRKYcqc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/1wTnoRKYcqc/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler Symphony No. 2 - BBC Philharmonic Orchestra - Sir Charles Mackerras (RAH, 1995)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "jEyMzVfXoOU",
+			"VideoPublishedAtRaw": "2025-12-01T07:20:02Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-01T07:20:02+00:00",
+			"VideoPublishedAt": "2025-12-01T12:50:02+05:30"
+		},
+		"ETag": "DnwkbkSHpdFUQhVoV38d0qdCV6c",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler: Symphony No.1 \n1st movement   00:00\n2nd   16:02\n3rd    23:51\n4th    34:23\nCharles Mackerras / Czech Philharmonic orchestra\n7/9/1998 London, Royal Albert Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C1\u756A\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1998\u5E749\u67087\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DE\u30C3\u30B1\u30E9\u30B9\u306E\u30DE\u30FC\u30E9\u30FC\u306F\u8A18\u9332\u306F\u5C11\u306A\u3044\u3051\u308C\u3069\u3069\u308C\u3082\u7D20\u6674\u3089\u3057\u3044\u3082\u306E\u3067\u3059\u3002\u3053\u3053\u3067\u306F\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u306E\u8276\u3084\u304B\u306A\u5F26\u3068\u58EE\u9E97\u306A\u30D6\u30E9\u30B9\u3092\u751F\u304B\u3057\u3001\u7F8E\u3057\u304F\u3082\u53B3\u3057\u3044\u540D\u6F14\u3092\u8074\u304B\u305B\u3066\u304F\u308C\u307E\u3057\u305F\u3002",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 3,
+			"PublishedAtRaw": "2025-12-02T11:40:26Z",
+			"PublishedAtDateTimeOffset": "2025-12-02T11:40:26+00:00",
+			"PublishedAt": "2025-12-02T17:10:26+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "jEyMzVfXoOU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/jEyMzVfXoOU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/jEyMzVfXoOU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/jEyMzVfXoOU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Mahler: Symphony No.1     C. Mackerras / Czech Phil. live at Proms 1998",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "pUMakWFLI1s",
+			"VideoPublishedAtRaw": "2025-12-01T12:15:06Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-01T12:15:06+00:00",
+			"VideoPublishedAt": "2025-12-01T17:45:06+05:30"
+		},
+		"ETag": "5qeYENeHwQ_hug5d5ww-XtnO4Qc",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler: Symphony No.2 \u0027Resurrection\u0027   \n1st movement   00:00\n2nd   20:48\n3rd    30:37\n4th    40:37\n5th    46:00\nCharles Mackerras / BBC Philharmonic orchestra\n(Sub conductor: Sachio Fujioka)\nSop) Rosa Mannion     Alt) Jean Rigby\nCho) Brighton festival Chorus, Edinburgh festival chorus, BBC singers\n15/9/1995 London, Royal Albert Hall live recording\n\u30DE\u30FC\u30E9\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C2\u756A\u300C\u5FA9\u6D3B\u300D\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000BBC\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30ED\u30FC\u30B6\u30FB\u30DE\u30CB\u30AA\u30F3\u3000\u30A2\u30EB\u30C8\uFF09\u30B8\u30A7\u30FC\u30F3\u30FB\u30EA\u30B0\u30D3\u30FC\n\u5408\u5531\uFF09\u30D6\u30E9\u30A4\u30C8\u30F3\u795D\u796D\u5408\u5531\u56E3\u3001\u30A8\u30B8\u30F3\u30D0\u30E9\u795D\u796D\u5408\u5531\u56E3\u3001BBC\u30B7\u30F3\u30AC\u30FC\u30BA\n1995\u5E749\u670815\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B1995\u5E74\u30D7\u30ED\u30E0\u30B9\u97F3\u697D\u796D\u306E\u6389\u5C3E\u3092\u98FE\u3063\u305F\u30DE\u30C3\u30B1\u30E9\u30B9\u306E\u300C\u5FA9\u6D3B\u300D\u3002\u5927\u30AA\u30EB\u30AC\u30F3\u3068\u4E00\u4F53\u306B\u306A\u3063\u305F\u30AF\u30E9\u30A4\u30DE\u30C3\u30AF\u30B9\u307E\u3067\u306E\u30C9\u30E9\u30DE\u30C6\u30A3\u30C3\u30AF\u306A\u5C55\u958B\u306F\u3055\u3059\u304C\u30DE\u30C3\u30B1\u30E9\u30B9\u3067\u3059\u3002\u5F53\u6642BBC\u30D5\u30A3\u30EB\u306E\u526F\u6307\u63EE\u8005\u3060\u3063\u305F\u85E4\u5CA1\u5E78\u592B\u304C\u7DF4\u7FD2\u6307\u63EE\u3001\u304A\u3088\u3073\u672C\u756A\u5F71\u30AA\u30B1\u306E\u6307\u63EE\u3092\u62C5\u5F53\u3057\u3066\u3044\u307E\u3057\u305F\u3002",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 4,
+			"PublishedAtRaw": "2025-12-02T11:40:35Z",
+			"PublishedAtDateTimeOffset": "2025-12-02T11:40:35+00:00",
+			"PublishedAt": "2025-12-02T17:10:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "pUMakWFLI1s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/pUMakWFLI1s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/pUMakWFLI1s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/pUMakWFLI1s/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Mahler: Symphony No.2 \u0027Resurrection\u0027      C. Mackerras / BBCPO live at Proms 1995",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "l31XvM9PPlE",
+			"VideoPublishedAtRaw": "2026-05-13T18:33:32Z",
+			"VideoPublishedAtDateTimeOffset": "2026-05-13T18:33:32+00:00",
+			"VideoPublishedAt": "2026-05-14T00:03:32+05:30"
+		},
+		"ETag": "glIiDWtxCqvud3wOvnMSXNcBiX8",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Schubert 5 Songs (orch. Brahms and Berlioz)\n\nAn Schwager Kronos, D 369 (orch. Johannes Brahms )\nGeheimes, D 719 (orch. Johannes Brahms)\nGruppe aus dem Tartarus, D 583 (orch. Johannes Brahms)\nMemnon, D 541 (orch. Johannes Brahms)\nErlk\u00F6nig, D 328 (arr. Hector Berlioz)\n\n0:16:35  Brahms Symphony No. 4\n\nThese performances were given during the 1997 BBC Proms Season as part of the Promenade Concert given on  21 August 1997 in the Royal Albert Hall, London. I unfortunately do not have Schubert Symphony No. 3 which started the concert.\n\nThomas Allen (baritone)\n\nLondon Philharmonic Orchestra\nconducted by\nSir Charles Mackerras\n\nFor more details see:\nhttps://www.bbc.co.uk/events/eg2n3d\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 5,
+			"PublishedAtRaw": "2026-05-17T18:07:00Z",
+			"PublishedAtDateTimeOffset": "2026-05-17T18:07:00+00:00",
+			"PublishedAt": "2026-05-17T23:37:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "l31XvM9PPlE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/l31XvM9PPlE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/l31XvM9PPlE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/l31XvM9PPlE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/l31XvM9PPlE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/l31XvM9PPlE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schubert 5 Songs, Brahms Symphony No. 4 - London Philharmonic - Charles Mackerras (RAH, 1997)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Oo3XAWrb2Fc",
+			"VideoPublishedAtRaw": "2025-12-12T12:40:25Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-12T12:40:25+00:00",
+			"VideoPublishedAt": "2025-12-12T18:10:25+05:30"
+		},
+		"ETag": "MPqFVIc4btjc4Y4RZ5UfY9wKScU",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Schubert: Symphony No.8 \u0027 The Great\u0027\n1st movement   00:00\n2nd   15:56\n3rd    30:03\n4th    43:43\nCharles Mackerras / Philharmonia Orchestra\n9/10/2006 London, Queen Elizabeth Hall live recording\n\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u300C\u30B0\u30EC\u30FC\u30C8\u300D\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u5F26\u697D\u56E3\n2006\u5E7410\u67089\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30AF\u30A4\u30FC\u30F3\u30FB\u30A8\u30EA\u30B6\u30D9\u30B9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DE\u30C3\u30B1\u30E9\u30B9\u304C\u6669\u5E74\u3001\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u3092\u632F\u3063\u305F\u30E9\u30A4\u30D6\u306B\u306F\u305A\u308C\u306F\u3042\u308A\u307E\u305B\u3093\u3002\u5F97\u610F\u3068\u3057\u305F\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\u306F\u30D4\u30EA\u30AA\u30C9\u697D\u56E3\u3068\u306E\u9332\u97F3\u3082\u3042\u308A\u307E\u3059\u304C\u3001\u305D\u306E\u30A2\u30D7\u30ED\u30FC\u30C1\u3092\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u306E\u8C4A\u304B\u306A\u6A5F\u80FD\u306B\u843D\u3068\u3057\u8FBC\u3093\u3067\u898B\u4E8B\u306A\u97F3\u4E16\u754C\u3092\u8074\u304B\u305B\u3066\u304F\u308C\u307E\u3059\u3002\u5168\u3066\u306E\u7E70\u308A\u8FD4\u3057\u3092\u63A1\u7528\u3057\u305F\u71B1\u6F14\u3002",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 6,
+			"PublishedAtRaw": "2025-12-12T19:04:31Z",
+			"PublishedAtDateTimeOffset": "2025-12-12T19:04:31+00:00",
+			"PublishedAt": "2025-12-13T00:34:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Oo3XAWrb2Fc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Oo3XAWrb2Fc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Oo3XAWrb2Fc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Oo3XAWrb2Fc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Schubert: Symphony No.8 \u0027 The Great\u0027    C. Mackerras / PO 2006 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "CHdkX4DNjoc",
+			"VideoPublishedAtRaw": "2025-12-12T00:34:38Z",
+			"VideoPublishedAtDateTimeOffset": "2025-12-12T00:34:38+00:00",
+			"VideoPublishedAt": "2025-12-12T06:04:38+05:30"
+		},
+		"ETag": "zM7Eg6KyGhQCEjBlwWNKtyATF_o",
+		"Id": "UEwxemdOQ29XdF83Wkp2ZlpDbDZiTWZPRXFucnFQNzBDQS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tchaikovsky: Symphony No.6 \u0027 Pathetic\u0027 \n1st movement   00:00\n2nd    18:40\n3rd     26:42\n4th     35:10\nCharles Mackerras / Philharmonia Orchestra\n8/2/2009 London, Royal Festival Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u300C\u60B2\u6134\u300D\n\u30C1\u30E3\u30FC\u30EB\u30BA\u30FB\u30DE\u30C3\u30B1\u30E9\u30B9\u6307\u63EE\u3000\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30A2\u7BA1\u5F26\u697D\u56E3\n2009\u5E742\u67088\u65E5\u3000\u30ED\u30F3\u30C9\u30F3\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30DE\u30C3\u30B1\u30E9\u30B9\u6700\u6669\u5E74\u306E\u540D\u6F14\u3002\u5F53\u664283\u6B73\u306A\u304C\u3089\u97F3\u697D\u7684\u306A\u5F1B\u7DE9\u3082\u306A\u304F\u3001\u5207\u308C\u306E\u826F\u3055\u306F\u629C\u7FA4\u3067\u3059\u3002\u968F\u6240\u306B\u6C7A\u307E\u308B\u540D\u624B\u30A2\u30F3\u30C7\u30A3\u30FC\u30FB\u30B9\u30DF\u30B9\u306E\u30C6\u30A3\u30F3\u30D1\u30CB\u304C\u5B9F\u306B\u7D20\u6674\u3089\u3057\u3044\u3002",
+			"PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
+			"Position": 7,
+			"PublishedAtRaw": "2025-12-12T19:23:40Z",
+			"PublishedAtDateTimeOffset": "2025-12-12T19:23:40+00:00",
+			"PublishedAt": "2025-12-13T00:53:40+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "CHdkX4DNjoc"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/CHdkX4DNjoc/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/CHdkX4DNjoc/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/CHdkX4DNjoc/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Tchaikovsky: Symphony No.6 \u0027 Pathetic\u0027     C. Mackerras / PO 2009 live",
+			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+			"VideoOwnerChannelTitle": "Isappin"
+		}
+	}
 ]

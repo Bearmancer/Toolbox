@@ -21,7 +21,7 @@ public static class DffMetadataStripper
 
 		try
 		{
-			using var stream = File.OpenRead(dffPath);
+			using FileStream stream = File.OpenRead(dffPath);
 			if (stream.Length < 12)
 				return false;
 
@@ -47,9 +47,12 @@ public static class DffMetadataStripper
 					return true;
 
 				var skip = (long)chunkSize;
-				if (skip <= 0) break; // malformed: zero-size chunk mid-walk
-				if (skip % 2 != 0) skip++;
-				if (stream.Position + skip > stream.Length) break; // miscoded size: bound by EOF
+				if (skip <= 0)
+					break; // malformed: zero-size chunk mid-walk
+				if (skip % 2 != 0)
+					skip++;
+				if (stream.Position + skip > stream.Length)
+					break; // miscoded size: bound by EOF
 				stream.Seek(skip, SeekOrigin.Current);
 			}
 		}
@@ -58,7 +61,11 @@ public static class DffMetadataStripper
 			// Rethrow deliberately: swallowing here (as the pre-merge master
 			// version did, returning false) would let a corrupt/unreadable DFF
 			// pass through unstripped and straight into Saracon.
-			Telemetry.Error("DffMetadataStripper.HasId3Chunk failed for {File}: {Error}", dffPath, ex.Message);
+			Telemetry.Error(
+				"DffMetadataStripper.HasId3Chunk failed for {File}: {Error}",
+				dffPath,
+				ex.Message
+			);
 			throw;
 		}
 
@@ -74,12 +81,15 @@ public static class DffMetadataStripper
 		if (!HasId3Chunk(dffPath))
 			return dffPath;
 
-		var cleanPath = Path.Combine(outputDir, Path.GetFileNameWithoutExtension(dffPath) + "_clean.dff");
+		var cleanPath = Path.Combine(
+			outputDir,
+			Path.GetFileNameWithoutExtension(dffPath) + "_clean.dff"
+		);
 
 		try
 		{
-			await using var input = File.OpenRead(dffPath);
-			await using var output = File.Create(cleanPath);
+			await using FileStream input = File.OpenRead(dffPath);
+			await using FileStream output = File.Create(cleanPath);
 
 			if (input.Length < 12)
 				return Errors.Audio.ConversionFailed(dffPath, "File too small to be valid DSDIFF");
@@ -104,7 +114,10 @@ public static class DffMetadataStripper
 				}
 				else
 				{
-					Telemetry.Debug("DffMetadataStripper.SkippedId3 size={Size}KB", chunkSize / 1024.0);
+					Telemetry.Debug(
+						"DffMetadataStripper.SkippedId3 size={Size}KB",
+						chunkSize / 1024.0
+					);
 					var skip = (long)chunkSize;
 					if (skip % 2 != 0)
 						skip++;
@@ -112,8 +125,12 @@ public static class DffMetadataStripper
 				}
 			}
 
-			Telemetry.Debug("DffMetadataStripper.Complete input={Input} clean={Clean} size={Size}MB",
-				Path.GetFileName(dffPath), Path.GetFileName(cleanPath), new FileInfo(cleanPath).Length / 1_048_576.0);
+			Telemetry.Debug(
+				"DffMetadataStripper.Complete input={Input} clean={Clean} size={Size}MB",
+				Path.GetFileName(dffPath),
+				Path.GetFileName(cleanPath),
+				new FileInfo(cleanPath).Length / 1_048_576.0
+			);
 
 			return cleanPath;
 		}
@@ -122,14 +139,23 @@ public static class DffMetadataStripper
 			// Restored: dropped in repro's version, present on master. Without it,
 			// a strip failure deletes the partial file and returns an ErrorOr with
 			// no corresponding log line, which is a gap when diagnosing a failed run.
-			Telemetry.Error("DffMetadataStripper.StripFailed file={File}: {Error}", dffPath, ex.Message);
+			Telemetry.Error(
+				"DffMetadataStripper.StripFailed file={File}: {Error}",
+				dffPath,
+				ex.Message
+			);
 			if (File.Exists(cleanPath))
 				File.Delete(cleanPath);
 			return Errors.Audio.ConversionFailed(dffPath, $"ID3 strip failed: {ex.Message}");
 		}
 	}
 
-	private static async Task CopyBytes(Stream input, Stream output, long count, CancellationToken ct)
+	private static async Task CopyBytes(
+		Stream input,
+		Stream output,
+		long count,
+		CancellationToken ct
+	)
 	{
 		var buffer = new byte[81920];
 		var remaining = count;

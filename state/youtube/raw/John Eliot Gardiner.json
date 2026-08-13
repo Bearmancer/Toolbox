@@ -1,1060 +1,1060 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "vdj1myZbUHY",
-      "VideoPublishedAtRaw": "2026-03-28T13:00:06Z",
-      "VideoPublishedAtDateTimeOffset": "2026-03-28T13:00:06+00:00",
-      "VideoPublishedAt": "2026-03-28T18:30:06+05:30"
-    },
-    "ETag": "QsnovjzCQNa-QAnuf24I_dkrgII",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Mit John Eliot Gardiner steht ein Dirigent am Pult von Chor und Symphonieorchester des Bayerischen Rundfunks, der schon oft in den riesigen Kosmos der \u0022Missa solemnis\u0022 eingetaucht ist und das Spannungsfeld zwischen Gl\u00E4ubigkeit und zu Herzen gehender Emotionalit\u00E4t ausgelotet hat. Aufgenommen am 24. September 2021 im M\u00FCnchner Herkulessaal der Residenz.\n\nLudwig van Beethoven -  Missa solemnis in  D-Dur, op. 123\n00:00:00 I. Kyrie\n00:09:42 II. Gloria\n00:27:03 III. Credo\n00:47:11 IV. Sanctus - Benedictus\n01:03:40 V. Agnus Dei\n\nLucy Crowe, Sopran\nGerhild Romberger, Alt\nJulian Pr\u00E9gardien, Tenor\nTareq Nazmi, Bass\nLeitung: John Eliot Gardiner\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-chor.de/\n\u25BA Facebook: https://www.facebook.com/brchor/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 0,
-      "PublishedAtRaw": "2026-03-29T04:52:48Z",
-      "PublishedAtDateTimeOffset": "2026-03-29T04:52:48+00:00",
-      "PublishedAt": "2026-03-29T10:22:48+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "vdj1myZbUHY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/vdj1myZbUHY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/vdj1myZbUHY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/vdj1myZbUHY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/vdj1myZbUHY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/vdj1myZbUHY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Beethoven - Missa solemnis | Gardiner | BR-Chor | BRSO",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "lNtb-ly1I_k",
-      "VideoPublishedAtRaw": "2017-04-05T13:39:34Z",
-      "VideoPublishedAtDateTimeOffset": "2017-04-05T13:39:34+00:00",
-      "VideoPublishedAt": "2017-04-05T19:09:34+05:30"
-    },
-    "ETag": "7WgxQpTOXy9joxNpb1IUtBBzUDI",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5ENDU4Q0M4RDExNzM1Mjcy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 1,
-      "PublishedAtRaw": "2026-06-18T16:08:12Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T16:08:12+00:00",
-      "PublishedAt": "2026-06-18T21:38:12+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "lNtb-ly1I_k"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Beethoven Symphony No 5 C minor John Eliot Gardiner Orchestre Revolutionnaire et Romantique 2016",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "vL_ULwBdgz4",
-      "VideoPublishedAtRaw": "2026-06-06T15:48:55Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-06T15:48:55+00:00",
-      "VideoPublishedAt": "2026-06-06T21:18:55+05:30"
-    },
-    "ETag": "dILBx7b68mT5MZDLfEp5IceP5zo",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4xMkVGQjNCMUM1N0RFNEUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This performance was given as part of the BBC Promenade  Concert given on 10 August 1997 in the Royal Albert Hall, London.\n\n\u013Duba Orgon\u00E1\u0161ov\u00E1 (soprano)\nBernarda Fink (mezzo-soprano)\nGordon Gietz (tenor)\nBryn Terfel (bass-baritone)\n\nMonteverdi Choir\n\nOrchestre R\u00E9volutionnaire et Romantique\nJohn Eliot Gardiner\n\nFor more details see:\nhttps://www.bbc.co.uk/events/eppgwh\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 2,
-      "PublishedAtRaw": "2026-06-09T21:55:14Z",
-      "PublishedAtDateTimeOffset": "2026-06-09T21:55:14+00:00",
-      "PublishedAt": "2026-06-10T03:25:14+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "vL_ULwBdgz4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Beethoven Symphony No. 9 - Orchestre R\u00E9volutionnaire et Romantique - John Eliot Gardiner (RAH, 1997)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "TMevJ8AAqXo",
-      "VideoPublishedAtRaw": "2018-11-27T20:57:07Z",
-      "VideoPublishedAtDateTimeOffset": "2018-11-27T20:57:07+00:00",
-      "VideoPublishedAt": "2018-11-28T02:27:07+05:30"
-    },
-    "ETag": "JJXMAmuvFIz_-OXTPTJNOBe1y_s",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41Mzk2QTAxMTkzNDk4MDhF",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Elgar\u0027s Symphony No2 \nJohn Eliot Gardiner conducts the Royal Concertgebouw Orchestra \nThe Concertgebouw, Amsterdam \n5 March 2017\n1 Allegro vivace e nobilmente  - 1:00\n\n2 Larghetto   -  21:41\n\n3 Rondo: Presto  - 37:53 \n\n4 Moderato e maestoso   - 46:26",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 3,
-      "PublishedAtRaw": "2026-06-18T15:47:33Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:47:33+00:00",
-      "PublishedAt": "2026-06-18T21:17:33+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "TMevJ8AAqXo"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Edward Elgar Symphony 2 in E-flat major John Eliot Gardiner the RCO",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "E6UJq1u6jmU",
-      "VideoPublishedAtRaw": "2021-05-01T16:48:15Z",
-      "VideoPublishedAtDateTimeOffset": "2021-05-01T16:48:15+00:00",
-      "VideoPublishedAt": "2021-05-01T22:18:15+05:30"
-    },
-    "ETag": "uaQRiwceiApe8bZYyxwD0EByuko",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS45ODRDNTg0QjA4NkFBNkQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "1.Adagio \u2013 Allegro 00:04\n2.Andante 09:06\n3.Menuet (Allegro) -Trio 17:15\n4.Finale ( Spiritoso) 22:21\n\nRecorded at LSO St Luke\u0027s on Thursday 18 February 2021",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 4,
-      "PublishedAtRaw": "2026-06-18T15:46:31Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:46:31+00:00",
-      "PublishedAt": "2026-06-18T21:16:31+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "E6UJq1u6jmU"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/E6UJq1u6jmU/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/E6UJq1u6jmU/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/E6UJq1u6jmU/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Haydn Symphony 104 \u0022London\u0022 - John Eliot Gardiner/London Symphony Orchestra",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "h3mYvbGiyL0",
-      "VideoPublishedAtRaw": "2019-06-03T11:05:11Z",
-      "VideoPublishedAtDateTimeOffset": "2019-06-03T11:05:11+00:00",
-      "VideoPublishedAt": "2019-06-03T16:35:11+05:30"
-    },
-    "ETag": "-VeeFxpoLq1sFUPYEHcZcFB1iZY",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS45NDk1REZENzhEMzU5MDQz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Joseph Haydn: Symphony No. 44 E minor, Hob. I:44 (\u0027Trauer\u0027 Symphony)\n\n1. Allegro con brio     0:12\n\n2. Menuetto: Allegretto     8:57\n\n3. Adagio     14:19\n\n4. Finale: Presto     23:24\n\nJohn Eliot Gardiner  \nBavarian Radio Symphony Orchestra\nHerkulessaal M\u00FCnchen\n23 May 2019\nFull concert here: https://www.br-so.com/video/sir-john-eliot-gardiner-anna-prohaska/",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 5,
-      "PublishedAtRaw": "2026-06-18T15:45:49Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:45:49+00:00",
-      "PublishedAt": "2026-06-18T21:15:49+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "h3mYvbGiyL0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Haydn Symphony 44 E minor Trauersinphonie  John Eliot Gardiner  BRSO",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "3NpYevMsxr8",
-      "VideoPublishedAtRaw": "2023-10-25T08:25:34Z",
-      "VideoPublishedAtDateTimeOffset": "2023-10-25T08:25:34+00:00",
-      "VideoPublishedAt": "2023-10-25T13:55:34+05:30"
-    },
-    "ETag": "2HtBD75Ik2vNsWJ4OSo1M2S09uY",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5EMEEwRUY5M0RDRTU3NDJC",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "English Baroque Soloists,  John Eliot Gardiner\nJanuary 2023 London",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 6,
-      "PublishedAtRaw": "2026-06-18T15:46:13Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:46:13+00:00",
-      "PublishedAt": "2026-06-18T21:16:13+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "3NpYevMsxr8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/3NpYevMsxr8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/3NpYevMsxr8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/3NpYevMsxr8/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/3NpYevMsxr8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/3NpYevMsxr8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Haydn Symphony 84 E-flat major EBS John Eliot Gardiner",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "BUgUo_468OY",
-      "VideoPublishedAtRaw": "2020-04-24T08:49:35Z",
-      "VideoPublishedAtDateTimeOffset": "2020-04-24T08:49:35+00:00",
-      "VideoPublishedAt": "2020-04-24T14:19:35+05:30"
-    },
-    "ETag": "ID0E22NeDz1bnydONoOx52uIyFw",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS40NzZCMERDMjVEN0RFRThB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Munich 24 May 2019\n\nFull concert : https://www.br-so.com/video/sir-john-eliot-gardiner-anna-prohaska/",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 7,
-      "PublishedAtRaw": "2026-06-18T15:46:07Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:46:07+00:00",
-      "PublishedAt": "2026-06-18T21:16:07+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "BUgUo_468OY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/BUgUo_468OY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/BUgUo_468OY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/BUgUo_468OY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/BUgUo_468OY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/BUgUo_468OY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Haydn Symphony No 52 in C minor, Hob. I:52 John Eliot Gardiner BRSO",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "G8QPDx6Nhic",
-      "VideoPublishedAtRaw": "2020-12-31T19:08:03Z",
-      "VideoPublishedAtDateTimeOffset": "2020-12-31T19:08:03+00:00",
-      "VideoPublishedAt": "2021-01-01T00:38:03+05:30"
-    },
-    "ETag": "k7E6XhfwKZ9wI7ivgBkUbHBc89U",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41QTY1Q0UxMTVCODczNThE",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "1 Allegro vivace 0:20\n2 Andante con moto 11:18\n3 Con moto moderato 17:29\n4 Saltarello. Presto  23:29\n\nFelix Mendelssohn Bartholdy, Symphony No. 4 in A major op. 90 \u201CItalian\u201D 27\u2019\nOrchestra dell\u2019Accademia Nazionale di Santa Cecilia\ndirettore John Eliot Gardiner\nMendelssohn Sinfonia n. 4 \u201CItaliana\u201D\nRome  11 December 2020",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 8,
-      "PublishedAtRaw": "2026-06-18T15:48:11Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:48:11+00:00",
-      "PublishedAt": "2026-06-18T21:18:11+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "G8QPDx6Nhic"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mendelssohn Symphony n. 4  John Eliot Gardiner Orchestra dell\u2019Accademia Nazionale di Santa Cecilia",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "f11BeXhxLME",
-      "VideoPublishedAtRaw": "2026-05-02T12:01:10Z",
-      "VideoPublishedAtDateTimeOffset": "2026-05-02T12:01:10+00:00",
-      "VideoPublishedAt": "2026-05-02T17:31:10+05:30"
-    },
-    "ETag": "-Y5spbL8CzfFQVNl-jGD4XoyZCs",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "It\u0027s the composition of a prodigy: the Concerto for Violin, Piano \u0026 Orchestra in D minor, \u0022Double Concerto,\u0022 MWV 04 by Felix Mendelssohn Bartholdy. The performers in this video are Isabelle Faust on violin, and pianist Kristian Bezuidenhout, as well as the London Symphony Orchestra, conducted by Sir John Eliot Gardiner. The concert took place in 2019 at the Barbican Centre in London.\n\n(00:00) I. Allegro\n(18:57) II. Adagio\n(27:54) III. Allegro molto\n\nIt\u0027s hard to imagine better conditions for a musician and composer to start off than those of Felix Mendelssohn Bartholdy (1809\u20131847). Both of his parents were not only deeply interested in music but were also musicians themselves. They recognized their son\u0027s musical talent early on and actively supported it. From a young age, Mendelssohn received the best instruction in both instrumental performance and composition. His musical education was taken to the next level starting in 1821 thanks to the so-called \u0022Sunday concerts\u0022 \u2014 weekly private concerts held in a special concert hall in the family\u2019s stately Berlin home. Musicians from the royal court orchestra of Berlin performed there, along with notable soloists who stopped in the city during their concert tours. At these Sunday concerts, the teenage Felix was able to hear his own compositions performed by professional musicians \u2014 and even take part himself.\n\nIt was in this exceptional setting that the Concerto for Violin, Piano \u0026 Orchestra in D minor premiered on May 25, 1823 in the presence of around 60 guests. A small string orchestra played the piece, with the violin part likely played by Eduard Rietz, and the piano part by the 14-year-old Felix himself. Reitz (1802-1832) was Mendelssohn Bartholdy\u0027s violin teacher and close friend and the young composer dedicated the work to him. The concerto was completed on May 6, 1823 and the public premiere followed on July 3 of the same year at the Schauspielhaus Berlin \u2014 this time with an expanded orchestration including woodwinds, brass and timpani. It is not entirely clear which version was written first. In any case, the Double Concerto in D minor was the first instrumental concerto by the young Mendelssohn to feature an expanded orchestral setting. As early as age 11, the gifted composer had begun writing music and quickly produced one work after another.\n\nThe double concerto is a demanding piece, both technically and musically. It reflects how early Mendelssohn had mastered the compositional techniques of Johann Sebastian Bach (1685\u20131750) and Wolfgang Amadeus Mozart (1756\u20131791), and how he was able to develop them into his own distinct early Romantic style. After a dramatic orchestral introduction, an intense dialogue unfolds between solo violin and piano. The concerto is characterized by contrasting moods and emotions that seem to merge seamlessly into a complex whole. The essentially classical form of the concerto seems to almost overflow with new ideas. \n\nWith his Concerto for Violin, Piano and Orchestra, the child prodigy undeniably created a lasting masterpiece of early Romantic instrumental music.\n\n\u00A9 2019 C Major Entertainment\n\nText: Rita Kass\n\nWatch more great concerts here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nCheck out more famous violin pieces here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBWJ5t7LxFkBRlcTu4qHdo67\n\nAnd find more music from the Romantic era here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#romanticinstrumental #violinconcerto #mendelssohn",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 9,
-      "PublishedAtRaw": "2026-05-08T18:41:08Z",
-      "PublishedAtDateTimeOffset": "2026-05-08T18:41:08+00:00",
-      "PublishedAt": "2026-05-09T00:11:08+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "f11BeXhxLME"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/f11BeXhxLME/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/f11BeXhxLME/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/f11BeXhxLME/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/f11BeXhxLME/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/f11BeXhxLME/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mendelssohn: Double Concerto | Faust, Bezuidenhout, Gardiner \u0026 the London Symphony Orchestra",
-      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-      "VideoOwnerChannelTitle": "DW Classical Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "I6ExYOB_OwY",
-      "VideoPublishedAtRaw": "2024-02-15T15:01:21Z",
-      "VideoPublishedAtDateTimeOffset": "2024-02-15T15:01:21+00:00",
-      "VideoPublishedAt": "2024-02-15T20:31:21+05:30"
-    },
-    "ETag": "pfNig8Qn6f2ChtWEpGERhkZpq3g",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5DQUNERDQ2NkIzRUQxNTY1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "St Martin-in-the-Fields, London     January 2023",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 10,
-      "PublishedAtRaw": "2026-06-18T15:45:35Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:45:35+00:00",
-      "PublishedAt": "2026-06-18T21:15:35+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "I6ExYOB_OwY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mozart - Symphony No. 36, K. 425 \u0022Linz Symphony\u0022 John Eliot Gardiner English Baroque Soloists",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "JVozRhvkIuY",
-      "VideoPublishedAtRaw": "2020-06-09T07:41:00Z",
-      "VideoPublishedAtDateTimeOffset": "2020-06-09T07:41:00+00:00",
-      "VideoPublishedAt": "2020-06-09T13:11:00+05:30"
-    },
-    "ETag": "ZhFszWEnEOnJHhWfhiijonrPgnM",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS45RTgxNDRBMzUwRjQ0MDhC",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 11,
-      "PublishedAtRaw": "2026-06-18T15:52:36Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:52:36+00:00",
-      "PublishedAt": "2026-06-18T21:22:36+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "JVozRhvkIuY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/JVozRhvkIuY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/JVozRhvkIuY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/JVozRhvkIuY/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "NDR Sinfonieorchester John Eliot Gardiner, Feuerwerksmusik H\u00E4ndel Schumann 2 etc  Schleswig Holstei",
-      "VideoOwnerChannelId": "UCcexVoJBXXNmH3JHgUVliuA",
-      "VideoOwnerChannelTitle": "Ab Koster"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "XPB0qr8v_4c"
-    },
-    "ETag": "KweFDJG0G6GUcWRKPB-u5fMW_po",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4zMDg5MkQ5MEVDMEM1NTg2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 12,
-      "PublishedAtRaw": "2026-06-18T15:46:54Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:46:54+00:00",
-      "PublishedAt": "2026-06-18T21:16:54+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "XPB0qr8v_4c"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "70UtscvIWsk"
-    },
-    "ETag": "rIsJqYR_yOE4FyI1XzOFKY-DQgE",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4yMUQyQTQzMjRDNzMyQTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 13,
-      "PublishedAtRaw": "2026-06-18T15:51:35Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:51:35+00:00",
-      "PublishedAt": "2026-06-18T21:21:35+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "70UtscvIWsk"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "oWIc9MgjsrE",
-      "VideoPublishedAtRaw": "2018-04-08T20:14:38Z",
-      "VideoPublishedAtDateTimeOffset": "2018-04-08T20:14:38+00:00",
-      "VideoPublishedAt": "2018-04-09T01:44:38+05:30"
-    },
-    "ETag": "92YM-lJ7ZhPvNnTetBtxTt_1I6g",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5EQUE1NTFDRjcwMDg0NEMz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "The Concertgebouw, Amsterdam 19.11.2016",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 14,
-      "PublishedAtRaw": "2026-06-18T15:47:53Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:47:53+00:00",
-      "PublishedAt": "2026-06-18T21:17:53+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "oWIc9MgjsrE"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schubert Symphony No5 in B-flat major, D. 485 - John Eliot Gardiner/ORR",
-      "VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
-      "VideoOwnerChannelTitle": "vse vsad"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "VAN7Sh0eUxk",
-      "VideoPublishedAtRaw": "2026-07-19T11:24:32Z",
-      "VideoPublishedAtDateTimeOffset": "2026-07-19T11:24:32+00:00",
-      "VideoPublishedAt": "2026-07-19T16:54:32+05:30"
-    },
-    "ETag": "Fp-p1afZKO-71XIExC3AMksJ8zI",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4yMDhBMkNBNjRDMjQxQTg1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "0:00:00 Schumann Overture - Genoveva\n0:09:09 Schumann Cello Concerto\n0:33:27 Schumann Symphony No. 2\n\nThis performance was given on 8 October 1997 in the Barbican Centre, London as part of a set of concerts devoted to the works of Schumann. You can find another here (https://youtu.be/hrwpTkzwD14).\n\nSteven Isserlis (cello)\n\nOrchestre R\u00E9volutionnaire et Romantique\nconducted by\nJohn Eliot Gardiner\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1997-10-08#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 15,
-      "PublishedAtRaw": "2026-07-19T11:42:02Z",
-      "PublishedAtDateTimeOffset": "2026-07-19T11:42:02+00:00",
-      "PublishedAt": "2026-07-19T17:12:02+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "VAN7Sh0eUxk"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schumann Overture - Genoveva, Cello Concerto, Symphony No. 2 - ORR - Gardiner (Barbican, 1997)",
-      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "WS94Z92OYL8",
-      "VideoPublishedAtRaw": "2026-02-16T17:00:55Z",
-      "VideoPublishedAtDateTimeOffset": "2026-02-16T17:00:55+00:00",
-      "VideoPublishedAt": "2026-02-16T22:30:55+05:30"
-    },
-    "ETag": "WbBS19KG-7aEYx0ehYHtgSxblpE",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41MjE1MkI0OTQ2QzJGNzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt die vierte Symphonie von Robert Schumann unter der Leitung von John Eliot Gardiner. Live aufgenommen im Herkulessaal der M\u00FCnchner Residenz am 25. Mai 2019.\n\nRobert Schumann \u2013 Symphonie Nr. 4 in d-Moll, op. 120\n00:00 I. Ziemlich langsam \u2013 Lebhaft\n09:40 II. Romanze. Ziemlich langsam\n13:23 III. Scherzo. Lebhaft \u2013 Trio\n19:05 IV. Langsam \u2013 Lebhaft \u2013 Presto\n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: John Eliot Gardiner\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 16,
-      "PublishedAtRaw": "2026-03-31T20:39:25Z",
-      "PublishedAtDateTimeOffset": "2026-03-31T20:39:25+00:00",
-      "PublishedAt": "2026-04-01T02:09:25+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "WS94Z92OYL8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/WS94Z92OYL8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/WS94Z92OYL8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/WS94Z92OYL8/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/WS94Z92OYL8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/WS94Z92OYL8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schumann \u2013 Symphonie Nr. 4 | John Eliot Gardiner | BRSO",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "TFDCwvKP3d0",
-      "VideoPublishedAtRaw": "2022-06-24T10:48:40Z",
-      "VideoPublishedAtDateTimeOffset": "2022-06-24T10:48:40+00:00",
-      "VideoPublishedAt": "2022-06-24T16:18:40+05:30"
-    },
-    "ETag": "PV3rbSNkUMJadl3gKgCgzcGhchk",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5GNjNDRDREMDQxOThCMDQ2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Historische Konzertaufnahme aus dem Dom zu L\u00FCbeck: John Eliot Gardiner und das damalige NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) spielen Schumanns Zweite Sinfonie beim Schleswig-Holstein Musik Festival 1989.\n\nROBERT SCHUMANN\nSinfonie Nr. 2 C-Dur op. 61  00:00\nI. Sostenuto assai - Allegro, ma non troppo  00:01\nII. Scherzo. Allegro vivace  12:44\nIII. Adagio espressivo  20:02\nIV. Allegro molto vivace  30:23\n\nJohn Eliot Gardiner, Dirigent\nNDR Sinfonieorchester\n\nMitschnitt vom 25. Juni 1989 aus dem Dom zu L\u00FCbeck\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #johneliotgardiner #schumann",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 17,
-      "PublishedAtRaw": "2026-06-18T15:46:01Z",
-      "PublishedAtDateTimeOffset": "2026-06-18T15:46:01+00:00",
-      "PublishedAt": "2026-06-18T21:16:01+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "TFDCwvKP3d0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schumann: Sinfonie Nr. 2 C-Dur | John Eliot Gardiner | SHMF 1989 | NDR Elbphilharmonie Orchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "m3XAl0_H11U",
-      "VideoPublishedAtRaw": "2026-06-06T12:00:03Z",
-      "VideoPublishedAtDateTimeOffset": "2026-06-06T12:00:03+00:00",
-      "VideoPublishedAt": "2026-06-06T17:30:03+05:30"
-    },
-    "ETag": "ESbjz0pMd_cHDsYbzVFdmT8CjGU",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "A romantic homage to the Rhine, the famous joyfulness of the Rhinelanders, and the grandeur of Cologne Cathedral: all this is captured in Robert Schumann\u0027s Symphony No. 3 in E-flat major, Op. 97, known as the Rhenish. Performed here by the London Symphony Orchestra, conducted by Sir John Eliot Gardiner in 2019 at the Barbican Centre in London.\n\n(00:00) I. Lebhaft\n(09:39) II. Scherzo: sehr m\u00E4\u00DFig\n(16:16) III. Nicht schnell\n(21:11) IV. Feierlich\n(25:48) V. Lebhaft\n\nIn a frenzy of inspiration, Robert Schumann (1810\u20131856) composed his Symphony No. 3 in E-flat major, Op. 97 in just four weeks between early November and early December 1850. The 3rd Symphony owes its cheerful character to the happy circumstances in which it was written: In 1850, Schumann had been appointed to the prestigious position of municipal music director in D\u00FCsseldorf. After less successful years in Leipzig and Dresden, he was suddenly in demand as a composer and conductor in the city on the Rhine. When he arrived in D\u00FCsseldorf with his family in September of that year, he was welcomed with grand celebrations. No wonder he was in high spirits when he composed the Symphony in E-flat major. Of the four symphonies that Schumann published, the 3rd Symphony was the last to be written. He had already written his Symphony in D minor, Op. 120 in 1841, but revised it again in 1851, re-orchestrated it, and published it as his 4th Symphony. \n\nThe epithet \u201CRhenish\u201D attached to Symphony No. 3 was not coined by Schumann himself, but was applied posthumously by a friend. It has since become established \u2013 and the composer himself would probably not have objected. Schumann\u2019s own statements about the Third suggest this symphony is a truly \u201CRhenish\u201D work. On the one hand, it was the sight of Cologne Cathedral that inspired him to compose it. On the other hand, Schumann wanted the music to be shaped by folk elements, and was convinced that he had succeeded in this, and that the symphony reflected a Rhenish life here and there. In keeping with the proverbial \u201CRhenish cheerfulness,\u201D the premiere took place on February 6, 1851, in D\u00FCsseldorf\u2014in the middle of Carnival. \n\nBut despite all the \u201CRhenish\u201D impressions, Schumann\u0027s 3rd Symphony is not program music. The Rhine River or Cologne Cathedral are not depicted in a tone-painting style; rather, Schumann is merely concerned with expressing moods musically. In any case, the German composer believed that the circumstances surrounding the creation of a piece of music were not decisive; what mattered was that the music was good and satisfying purely as music. With Symphony No. 3, he also intended to make the music easier to understand. This may be why he used German movement titles instead of the usual Italian ones. Clara Schumann (1819\u20131896) certainly felt that this symphony was accessible even to lay listeners, especially the folk-like second and third movements.\n\nAs a formal peculiarity, the \u201CRhenish\u201D has five movements instead of four. The three middle movements are all slow movements. The fourth movement stands out in several ways: it is the only movement that is not cheerful and optimistic. It comes as a surprise because after the third movement, one expects the finale. In it, Schumann processes a venerable chorale theme in a contrapuntal manner. The timbres dominated by the use of trombones are striking. Within the structure of the symphony, the fourth movement seems like a later insertion of a piece of church music. However, this is not the case, as it was sketched and orchestrated almost simultaneously with the final movement. There has been much speculation about the meaning of the sacred movement. Even Clara Schumann expressed her perplexity about it. Robert Schumann had titled the movement \u201CIn the character of the accompaniment to a solemn ceremony.\u201D For the printed version, however, he changed the movement title to a simple \u201CSolemn.\u201D Some interpreters believe that Schumann wanted to capture the imaginary atmosphere of a solemn cardinal\u0027s elevation in Cologne Cathedral in music. In fact, the Archbishop of Cologne had been elevated to cardinal at the time, but Schumann is not believed to have witnessed the celebrations in the cathedral himself.\n\nNevertheless, the Rhenish Symphony is in many ways a tribute to the Rhine, which had become a central symbol of Romanticism since the early 19th century. For this reason alone, the Third is a thoroughly Romantic symphony.\n\nText: Rita Kass\n\n\u00A9 2019 C Major Entertainment\n\nFind more symphonies here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nMore pieces from the Romantic period: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nAnd more music from Robert Schumann: https://www.youtube.com/playlist?list=PL_SdnzPd3eBVVGSZy9tzxzigD5gD0ZSz5\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#romanticmusic #schumann #symphony",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 18,
-      "PublishedAtRaw": "2026-06-09T21:55:39Z",
-      "PublishedAtDateTimeOffset": "2026-06-09T21:55:39+00:00",
-      "PublishedAt": "2026-06-10T03:25:39+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "m3XAl0_H11U"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/m3XAl0_H11U/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/m3XAl0_H11U/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/m3XAl0_H11U/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/m3XAl0_H11U/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/m3XAl0_H11U/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Schumann: Symphony No. 3 \u0022Rhenish\u0022 | London Symphony Orchestra \u0026 Sir John Eliot Gardiner (complete)",
-      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-      "VideoOwnerChannelTitle": "DW Classical Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "t4WRFBMqkDY",
-      "VideoPublishedAtRaw": "2025-10-25T12:01:48Z",
-      "VideoPublishedAtDateTimeOffset": "2025-10-25T12:01:48+00:00",
-      "VideoPublishedAt": "2025-10-25T17:31:48+05:30"
-    },
-    "ETag": "fOrXqrQAq-1NwZJs43JyCHkCiXE",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "A symphony based on a series of Ukrainian folk songs: Symphony No. 2 in C minor, Op. 17 by Russian composer Pyotr Ilyich Tchaikovsky. The catchy symphony is performed by the London Symphony Orchestra conducted by Sir John Eliot Gardiner. The concert took place on July 5, 2022, at St Luke\u0027s Church in London.\n\n(00:00) I. Andante sostenuto \u2013 Allegro vivo \n(11:16) II. Andantino marziale, quasi moderato \n(18:09) III. Scherzo. Allegro molto vivace \n(23:23) IV. Finale. Moderato assai \u2013 Allegro vivo \n\nPyotr Ilyich Tchaikovsky\u0027s (1840\u20131893) Symphony No. 2 in C minor, Op. 17, is also known by the nickname \u201CLittle Russian.\u201D A friend of Tchaikovsky\u0027s gave the 2nd Symphony this name because its themes and motifs are based on several Ukrainian folk songs. The romantic composer heard these folk songs while on summer vacation with his sister in an area that today belongs to Ukraine but was called \u201CLittle Russia\u201D during Tchaikovsky\u0027s lifetime in the Russian Empire. In none of his other six symphonies did Tchaikovsky take so many motifs and themes from folk songs. The \u201CLittle Russian Symphony\u201D is thus quite elaborate. \n\nTchaikovsky composed his Second Symphony between June and November 1872, and it premiered on February 7, 1873, in Moscow, conducted by his friend Nikolai Rubinstein. Both the audience and critics celebrated the symphony, even calling it a \u201Cnational achievement.\u201D This label was considered a special mark of quality, especially in the 19th century. In various European countries, music in a supposedly national musical language had become fashionable. This usually meant using elements from the folk music of the respective country in compositions. In Russia, a circle of renowned composers had even formed to promote Russian national music. They called themselves \u201CThe Mighty Five\u201D (also \u201CThe Five\u201D or \u201CThe Mighty Handful\u201D). Tchaikovsky was not a member of this group; in fact, he expressly distanced himself from \u201CThe Five.\u201D Nevertheless, his Symphony No. 2 certainly meets the criteria of a \u201Cnational\u201D music of some kind.  \n\nThe popularity of Tchaikovsky\u0027s 2nd Symphony did not prevent the Russian Romantic composer from reworking it a few years later. Tchaikovsky confided to his pen pal and patron Nadezhda von Meck that he considered the symphony immature and mediocre. He had decided that he needed to rewrite it. The revised version was written between December 1879 and January 1880. The significantly altered Second Symphony was first performed in St. Petersburg in 1881. This version of the symphony was also well received by audiences, particularly because of its rich melodies. It is this second version of the \u201CLittle Russian Symphony\u201D that is still performed today.\n\nText: Rita Kass\n\n\u00A9 2022 C Major Entertainment\n\nWatch more concerts: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nFamous symphonies: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nOther great pieces by Tchaikovsky: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXeqiLcYJCB2Ct1lqIDtivN\n\nMore music of the Romantic period: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#symphony #romanticmusic #tchaikovsky",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 19,
-      "PublishedAtRaw": "2025-10-25T14:53:27Z",
-      "PublishedAtDateTimeOffset": "2025-10-25T14:53:27+00:00",
-      "PublishedAt": "2025-10-25T20:23:27+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "t4WRFBMqkDY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Tchaikovsky: Symphony No. 2 | London Symphony Orchestra \u0026 Sir John Eliot Gardiner",
-      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-      "VideoOwnerChannelTitle": "DW Classical Music"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "hdgdoRQSAdM",
-      "VideoPublishedAtRaw": "2026-03-04T13:01:14Z",
-      "VideoPublishedAtDateTimeOffset": "2026-03-04T13:01:14+00:00",
-      "VideoPublishedAt": "2026-03-04T18:31:14+05:30"
-    },
-    "ETag": "F5E40Y209t5w5XYYVQzy3xUszTM",
-    "Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "His music enthused opera fans, but the libretto faced ridicule. Carl Maria von Weber experienced some initial challenges with his opera \u201CEuryanthe,\u201D which premiered in 1823. However, the opera\u0027s overture has remained a popular concert piece to this day. Here it is performed by the London Symphony Orchestra under the baton of Sir John Eliot Gardiner. The concert took place in February 2019 at the Barbican Centre in London. \n\nCarl Maria von Weber (1786-1826) was frustrated with the text of his opera \u0022Euryanthe,\u0022 a grand romantic work in three acts dedicated to Emperor Franz I of Austria. Unable to secure any of the authors he knew to write the libretto, he ultimately turned to the poet and librettist Helmina von Ch\u00E9zy. Despite his efforts to make changes to her text, which was based on a French chivalric novel, Weber was still dissatisfied. His revisions did not resolve the inconsistencies in the libretto or the complex relationships among the protagonists. At the premiere, which Weber conducted himself on October 25, 1823, the audience and critics responded with ridicule and criticism.\n\nIn this romantic heroic opera by Weber, Knight Adolar pledges his loyalty to his bride, Euryanthe. However, he engages in a bet with a count who claims he can seduce her. Although Euryanthe remains resolute in the face of the count\u0027s advances, she becomes accused of deceptive intrigue and infidelity. The opera features ghostly fantasies and dramatic twists, ultimately culminating in a triumphant happy ending for Adolar and Euryanthe.\n\nThe opening music effectively conveys all the drama through its highs and lows, reflecting both a festive mood and Euryanthe\u0027s deep despair. With beautiful violin melodies and foreboding drum rolls, Carl Maria von Weber demonstrates his ahead-of-his-time vision. He is regarded as a pioneer of German Romantic opera.\n\nEuryanthe is an impressive, thoroughly composed opera that features recurring leitmotifs for its main characters \u2014 an approach that later became a hallmark of Richard Wagner\u0027s operas. The opening of the second act of Wagner\u0027s Lohengrin is reminiscent of Weber\u0027s Euryanthe. Although it is believed that Wagner initially mocked the opera, he eventually came to admire Weber as a composer throughout his life. After Carl Maria von Weber\u0027s death, Wagner composed funeral music inspired by motifs from Euryanthe.\n\nText: Gaby Reucher\n\n\u00A9 2019 C Major Entertainment\n\nWatch more masterpieces in your personal concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nAnd check out our playlist with great Romantic music: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#romanticmusic #overture #orchestra",
-      "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
-      "Position": 20,
-      "PublishedAtRaw": "2026-03-31T20:34:03Z",
-      "PublishedAtDateTimeOffset": "2026-03-31T20:34:03+00:00",
-      "PublishedAt": "2026-04-01T02:04:03+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "hdgdoRQSAdM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/hdgdoRQSAdM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/hdgdoRQSAdM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/hdgdoRQSAdM/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Weber: Euryanthe Overture | Sir John Eliot Gardiner \u0026 the London Symphony Orchestra",
-      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-      "VideoOwnerChannelTitle": "DW Classical Music"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "vdj1myZbUHY",
+			"VideoPublishedAtRaw": "2026-03-28T13:00:06Z",
+			"VideoPublishedAtDateTimeOffset": "2026-03-28T13:00:06+00:00",
+			"VideoPublishedAt": "2026-03-28T18:30:06+05:30"
+		},
+		"ETag": "QsnovjzCQNa-QAnuf24I_dkrgII",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mit John Eliot Gardiner steht ein Dirigent am Pult von Chor und Symphonieorchester des Bayerischen Rundfunks, der schon oft in den riesigen Kosmos der \u0022Missa solemnis\u0022 eingetaucht ist und das Spannungsfeld zwischen Gl\u00E4ubigkeit und zu Herzen gehender Emotionalit\u00E4t ausgelotet hat. Aufgenommen am 24. September 2021 im M\u00FCnchner Herkulessaal der Residenz.\n\nLudwig van Beethoven -  Missa solemnis in  D-Dur, op. 123\n00:00:00 I. Kyrie\n00:09:42 II. Gloria\n00:27:03 III. Credo\n00:47:11 IV. Sanctus - Benedictus\n01:03:40 V. Agnus Dei\n\nLucy Crowe, Sopran\nGerhild Romberger, Alt\nJulian Pr\u00E9gardien, Tenor\nTareq Nazmi, Bass\nLeitung: John Eliot Gardiner\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-chor.de/\n\u25BA Facebook: https://www.facebook.com/brchor/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 0,
+			"PublishedAtRaw": "2026-03-29T04:52:48Z",
+			"PublishedAtDateTimeOffset": "2026-03-29T04:52:48+00:00",
+			"PublishedAt": "2026-03-29T10:22:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vdj1myZbUHY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vdj1myZbUHY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vdj1myZbUHY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vdj1myZbUHY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vdj1myZbUHY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vdj1myZbUHY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven - Missa solemnis | Gardiner | BR-Chor | BRSO",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lNtb-ly1I_k",
+			"VideoPublishedAtRaw": "2017-04-05T13:39:34Z",
+			"VideoPublishedAtDateTimeOffset": "2017-04-05T13:39:34+00:00",
+			"VideoPublishedAt": "2017-04-05T19:09:34+05:30"
+		},
+		"ETag": "7WgxQpTOXy9joxNpb1IUtBBzUDI",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 1,
+			"PublishedAtRaw": "2026-06-18T16:08:12Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T16:08:12+00:00",
+			"PublishedAt": "2026-06-18T21:38:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lNtb-ly1I_k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lNtb-ly1I_k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Symphony No 5 C minor John Eliot Gardiner Orchestre Revolutionnaire et Romantique 2016",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "vL_ULwBdgz4",
+			"VideoPublishedAtRaw": "2026-06-06T15:48:55Z",
+			"VideoPublishedAtDateTimeOffset": "2026-06-06T15:48:55+00:00",
+			"VideoPublishedAt": "2026-06-06T21:18:55+05:30"
+		},
+		"ETag": "dILBx7b68mT5MZDLfEp5IceP5zo",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This performance was given as part of the BBC Promenade  Concert given on 10 August 1997 in the Royal Albert Hall, London.\n\n\u013Duba Orgon\u00E1\u0161ov\u00E1 (soprano)\nBernarda Fink (mezzo-soprano)\nGordon Gietz (tenor)\nBryn Terfel (bass-baritone)\n\nMonteverdi Choir\n\nOrchestre R\u00E9volutionnaire et Romantique\nJohn Eliot Gardiner\n\nFor more details see:\nhttps://www.bbc.co.uk/events/eppgwh\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 2,
+			"PublishedAtRaw": "2026-06-09T21:55:14Z",
+			"PublishedAtDateTimeOffset": "2026-06-09T21:55:14+00:00",
+			"PublishedAt": "2026-06-10T03:25:14+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "vL_ULwBdgz4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/vL_ULwBdgz4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven Symphony No. 9 - Orchestre R\u00E9volutionnaire et Romantique - John Eliot Gardiner (RAH, 1997)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "TMevJ8AAqXo",
+			"VideoPublishedAtRaw": "2018-11-27T20:57:07Z",
+			"VideoPublishedAtDateTimeOffset": "2018-11-27T20:57:07+00:00",
+			"VideoPublishedAt": "2018-11-28T02:27:07+05:30"
+		},
+		"ETag": "JJXMAmuvFIz_-OXTPTJNOBe1y_s",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Elgar\u0027s Symphony No2 \nJohn Eliot Gardiner conducts the Royal Concertgebouw Orchestra \nThe Concertgebouw, Amsterdam \n5 March 2017\n1 Allegro vivace e nobilmente  - 1:00\n\n2 Larghetto   -  21:41\n\n3 Rondo: Presto  - 37:53 \n\n4 Moderato e maestoso   - 46:26",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 3,
+			"PublishedAtRaw": "2026-06-18T15:47:33Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:47:33+00:00",
+			"PublishedAt": "2026-06-18T21:17:33+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "TMevJ8AAqXo"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/TMevJ8AAqXo/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Edward Elgar Symphony 2 in E-flat major John Eliot Gardiner the RCO",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "E6UJq1u6jmU",
+			"VideoPublishedAtRaw": "2021-05-01T16:48:15Z",
+			"VideoPublishedAtDateTimeOffset": "2021-05-01T16:48:15+00:00",
+			"VideoPublishedAt": "2021-05-01T22:18:15+05:30"
+		},
+		"ETag": "uaQRiwceiApe8bZYyxwD0EByuko",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1.Adagio \u2013 Allegro 00:04\n2.Andante 09:06\n3.Menuet (Allegro) -Trio 17:15\n4.Finale ( Spiritoso) 22:21\n\nRecorded at LSO St Luke\u0027s on Thursday 18 February 2021",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 4,
+			"PublishedAtRaw": "2026-06-18T15:46:31Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:46:31+00:00",
+			"PublishedAt": "2026-06-18T21:16:31+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "E6UJq1u6jmU"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/E6UJq1u6jmU/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/E6UJq1u6jmU/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/E6UJq1u6jmU/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Haydn Symphony 104 \u0022London\u0022 - John Eliot Gardiner/London Symphony Orchestra",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "h3mYvbGiyL0",
+			"VideoPublishedAtRaw": "2019-06-03T11:05:11Z",
+			"VideoPublishedAtDateTimeOffset": "2019-06-03T11:05:11+00:00",
+			"VideoPublishedAt": "2019-06-03T16:35:11+05:30"
+		},
+		"ETag": "-VeeFxpoLq1sFUPYEHcZcFB1iZY",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Joseph Haydn: Symphony No. 44 E minor, Hob. I:44 (\u0027Trauer\u0027 Symphony)\n\n1. Allegro con brio     0:12\n\n2. Menuetto: Allegretto     8:57\n\n3. Adagio     14:19\n\n4. Finale: Presto     23:24\n\nJohn Eliot Gardiner  \nBavarian Radio Symphony Orchestra\nHerkulessaal M\u00FCnchen\n23 May 2019\nFull concert here: https://www.br-so.com/video/sir-john-eliot-gardiner-anna-prohaska/",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 5,
+			"PublishedAtRaw": "2026-06-18T15:45:49Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:45:49+00:00",
+			"PublishedAt": "2026-06-18T21:15:49+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "h3mYvbGiyL0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/h3mYvbGiyL0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn Symphony 44 E minor Trauersinphonie  John Eliot Gardiner  BRSO",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3NpYevMsxr8",
+			"VideoPublishedAtRaw": "2023-10-25T08:25:34Z",
+			"VideoPublishedAtDateTimeOffset": "2023-10-25T08:25:34+00:00",
+			"VideoPublishedAt": "2023-10-25T13:55:34+05:30"
+		},
+		"ETag": "2HtBD75Ik2vNsWJ4OSo1M2S09uY",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "English Baroque Soloists,  John Eliot Gardiner\nJanuary 2023 London",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 6,
+			"PublishedAtRaw": "2026-06-18T15:46:13Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:46:13+00:00",
+			"PublishedAt": "2026-06-18T21:16:13+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3NpYevMsxr8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3NpYevMsxr8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3NpYevMsxr8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3NpYevMsxr8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3NpYevMsxr8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3NpYevMsxr8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn Symphony 84 E-flat major EBS John Eliot Gardiner",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "BUgUo_468OY",
+			"VideoPublishedAtRaw": "2020-04-24T08:49:35Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-24T08:49:35+00:00",
+			"VideoPublishedAt": "2020-04-24T14:19:35+05:30"
+		},
+		"ETag": "ID0E22NeDz1bnydONoOx52uIyFw",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Munich 24 May 2019\n\nFull concert : https://www.br-so.com/video/sir-john-eliot-gardiner-anna-prohaska/",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 7,
+			"PublishedAtRaw": "2026-06-18T15:46:07Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:46:07+00:00",
+			"PublishedAt": "2026-06-18T21:16:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "BUgUo_468OY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/BUgUo_468OY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/BUgUo_468OY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/BUgUo_468OY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/BUgUo_468OY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/BUgUo_468OY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Haydn Symphony No 52 in C minor, Hob. I:52 John Eliot Gardiner BRSO",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "G8QPDx6Nhic",
+			"VideoPublishedAtRaw": "2020-12-31T19:08:03Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-31T19:08:03+00:00",
+			"VideoPublishedAt": "2021-01-01T00:38:03+05:30"
+		},
+		"ETag": "k7E6XhfwKZ9wI7ivgBkUbHBc89U",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "1 Allegro vivace 0:20\n2 Andante con moto 11:18\n3 Con moto moderato 17:29\n4 Saltarello. Presto  23:29\n\nFelix Mendelssohn Bartholdy, Symphony No. 4 in A major op. 90 \u201CItalian\u201D 27\u2019\nOrchestra dell\u2019Accademia Nazionale di Santa Cecilia\ndirettore John Eliot Gardiner\nMendelssohn Sinfonia n. 4 \u201CItaliana\u201D\nRome  11 December 2020",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 8,
+			"PublishedAtRaw": "2026-06-18T15:48:11Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:48:11+00:00",
+			"PublishedAt": "2026-06-18T21:18:11+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "G8QPDx6Nhic"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/G8QPDx6Nhic/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn Symphony n. 4  John Eliot Gardiner Orchestra dell\u2019Accademia Nazionale di Santa Cecilia",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "f11BeXhxLME",
+			"VideoPublishedAtRaw": "2026-05-02T12:01:10Z",
+			"VideoPublishedAtDateTimeOffset": "2026-05-02T12:01:10+00:00",
+			"VideoPublishedAt": "2026-05-02T17:31:10+05:30"
+		},
+		"ETag": "-Y5spbL8CzfFQVNl-jGD4XoyZCs",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "It\u0027s the composition of a prodigy: the Concerto for Violin, Piano \u0026 Orchestra in D minor, \u0022Double Concerto,\u0022 MWV 04 by Felix Mendelssohn Bartholdy. The performers in this video are Isabelle Faust on violin, and pianist Kristian Bezuidenhout, as well as the London Symphony Orchestra, conducted by Sir John Eliot Gardiner. The concert took place in 2019 at the Barbican Centre in London.\n\n(00:00) I. Allegro\n(18:57) II. Adagio\n(27:54) III. Allegro molto\n\nIt\u0027s hard to imagine better conditions for a musician and composer to start off than those of Felix Mendelssohn Bartholdy (1809\u20131847). Both of his parents were not only deeply interested in music but were also musicians themselves. They recognized their son\u0027s musical talent early on and actively supported it. From a young age, Mendelssohn received the best instruction in both instrumental performance and composition. His musical education was taken to the next level starting in 1821 thanks to the so-called \u0022Sunday concerts\u0022 \u2014 weekly private concerts held in a special concert hall in the family\u2019s stately Berlin home. Musicians from the royal court orchestra of Berlin performed there, along with notable soloists who stopped in the city during their concert tours. At these Sunday concerts, the teenage Felix was able to hear his own compositions performed by professional musicians \u2014 and even take part himself.\n\nIt was in this exceptional setting that the Concerto for Violin, Piano \u0026 Orchestra in D minor premiered on May 25, 1823 in the presence of around 60 guests. A small string orchestra played the piece, with the violin part likely played by Eduard Rietz, and the piano part by the 14-year-old Felix himself. Reitz (1802-1832) was Mendelssohn Bartholdy\u0027s violin teacher and close friend and the young composer dedicated the work to him. The concerto was completed on May 6, 1823 and the public premiere followed on July 3 of the same year at the Schauspielhaus Berlin \u2014 this time with an expanded orchestration including woodwinds, brass and timpani. It is not entirely clear which version was written first. In any case, the Double Concerto in D minor was the first instrumental concerto by the young Mendelssohn to feature an expanded orchestral setting. As early as age 11, the gifted composer had begun writing music and quickly produced one work after another.\n\nThe double concerto is a demanding piece, both technically and musically. It reflects how early Mendelssohn had mastered the compositional techniques of Johann Sebastian Bach (1685\u20131750) and Wolfgang Amadeus Mozart (1756\u20131791), and how he was able to develop them into his own distinct early Romantic style. After a dramatic orchestral introduction, an intense dialogue unfolds between solo violin and piano. The concerto is characterized by contrasting moods and emotions that seem to merge seamlessly into a complex whole. The essentially classical form of the concerto seems to almost overflow with new ideas. \n\nWith his Concerto for Violin, Piano and Orchestra, the child prodigy undeniably created a lasting masterpiece of early Romantic instrumental music.\n\n\u00A9 2019 C Major Entertainment\n\nText: Rita Kass\n\nWatch more great concerts here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nCheck out more famous violin pieces here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBWJ5t7LxFkBRlcTu4qHdo67\n\nAnd find more music from the Romantic era here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#romanticinstrumental #violinconcerto #mendelssohn",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 9,
+			"PublishedAtRaw": "2026-05-08T18:41:08Z",
+			"PublishedAtDateTimeOffset": "2026-05-08T18:41:08+00:00",
+			"PublishedAt": "2026-05-09T00:11:08+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "f11BeXhxLME"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/f11BeXhxLME/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/f11BeXhxLME/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/f11BeXhxLME/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/f11BeXhxLME/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/f11BeXhxLME/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn: Double Concerto | Faust, Bezuidenhout, Gardiner \u0026 the London Symphony Orchestra",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "I6ExYOB_OwY",
+			"VideoPublishedAtRaw": "2024-02-15T15:01:21Z",
+			"VideoPublishedAtDateTimeOffset": "2024-02-15T15:01:21+00:00",
+			"VideoPublishedAt": "2024-02-15T20:31:21+05:30"
+		},
+		"ETag": "pfNig8Qn6f2ChtWEpGERhkZpq3g",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "St Martin-in-the-Fields, London     January 2023",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 10,
+			"PublishedAtRaw": "2026-06-18T15:45:35Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:45:35+00:00",
+			"PublishedAt": "2026-06-18T21:15:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "I6ExYOB_OwY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/I6ExYOB_OwY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mozart - Symphony No. 36, K. 425 \u0022Linz Symphony\u0022 John Eliot Gardiner English Baroque Soloists",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "JVozRhvkIuY",
+			"VideoPublishedAtRaw": "2020-06-09T07:41:00Z",
+			"VideoPublishedAtDateTimeOffset": "2020-06-09T07:41:00+00:00",
+			"VideoPublishedAt": "2020-06-09T13:11:00+05:30"
+		},
+		"ETag": "ZhFszWEnEOnJHhWfhiijonrPgnM",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 11,
+			"PublishedAtRaw": "2026-06-18T15:52:36Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:52:36+00:00",
+			"PublishedAt": "2026-06-18T21:22:36+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "JVozRhvkIuY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/JVozRhvkIuY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/JVozRhvkIuY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/JVozRhvkIuY/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "NDR Sinfonieorchester John Eliot Gardiner, Feuerwerksmusik H\u00E4ndel Schumann 2 etc  Schleswig Holstei",
+			"VideoOwnerChannelId": "UCcexVoJBXXNmH3JHgUVliuA",
+			"VideoOwnerChannelTitle": "Ab Koster"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XPB0qr8v_4c"
+		},
+		"ETag": "KweFDJG0G6GUcWRKPB-u5fMW_po",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 12,
+			"PublishedAtRaw": "2026-06-18T15:46:54Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:46:54+00:00",
+			"PublishedAt": "2026-06-18T21:16:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XPB0qr8v_4c"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "70UtscvIWsk"
+		},
+		"ETag": "rIsJqYR_yOE4FyI1XzOFKY-DQgE",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 13,
+			"PublishedAtRaw": "2026-06-18T15:51:35Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:51:35+00:00",
+			"PublishedAt": "2026-06-18T21:21:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "70UtscvIWsk"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "oWIc9MgjsrE",
+			"VideoPublishedAtRaw": "2018-04-08T20:14:38Z",
+			"VideoPublishedAtDateTimeOffset": "2018-04-08T20:14:38+00:00",
+			"VideoPublishedAt": "2018-04-09T01:44:38+05:30"
+		},
+		"ETag": "92YM-lJ7ZhPvNnTetBtxTt_1I6g",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "The Concertgebouw, Amsterdam 19.11.2016",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 14,
+			"PublishedAtRaw": "2026-06-18T15:47:53Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:47:53+00:00",
+			"PublishedAt": "2026-06-18T21:17:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "oWIc9MgjsrE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/oWIc9MgjsrE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schubert Symphony No5 in B-flat major, D. 485 - John Eliot Gardiner/ORR",
+			"VideoOwnerChannelId": "UC6lY8UAPI2zbhkkOUTVe-Yw",
+			"VideoOwnerChannelTitle": "vse vsad"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "VAN7Sh0eUxk",
+			"VideoPublishedAtRaw": "2026-07-19T11:24:32Z",
+			"VideoPublishedAtDateTimeOffset": "2026-07-19T11:24:32+00:00",
+			"VideoPublishedAt": "2026-07-19T16:54:32+05:30"
+		},
+		"ETag": "Fp-p1afZKO-71XIExC3AMksJ8zI",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4yMDhBMkNBNjRDMjQxQTg1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "0:00:00 Schumann Overture - Genoveva\n0:09:09 Schumann Cello Concerto\n0:33:27 Schumann Symphony No. 2\n\nThis performance was given on 8 October 1997 in the Barbican Centre, London as part of a set of concerts devoted to the works of Schumann. You can find another here (https://youtu.be/hrwpTkzwD14).\n\nSteven Isserlis (cello)\n\nOrchestre R\u00E9volutionnaire et Romantique\nconducted by\nJohn Eliot Gardiner\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1997-10-08#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 15,
+			"PublishedAtRaw": "2026-07-19T11:42:02Z",
+			"PublishedAtDateTimeOffset": "2026-07-19T11:42:02+00:00",
+			"PublishedAt": "2026-07-19T17:12:02+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "VAN7Sh0eUxk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/VAN7Sh0eUxk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann Overture - Genoveva, Cello Concerto, Symphony No. 2 - ORR - Gardiner (Barbican, 1997)",
+			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "WS94Z92OYL8",
+			"VideoPublishedAtRaw": "2026-02-16T17:00:55Z",
+			"VideoPublishedAtDateTimeOffset": "2026-02-16T17:00:55+00:00",
+			"VideoPublishedAt": "2026-02-16T22:30:55+05:30"
+		},
+		"ETag": "WbBS19KG-7aEYx0ehYHtgSxblpE",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt die vierte Symphonie von Robert Schumann unter der Leitung von John Eliot Gardiner. Live aufgenommen im Herkulessaal der M\u00FCnchner Residenz am 25. Mai 2019.\n\nRobert Schumann \u2013 Symphonie Nr. 4 in d-Moll, op. 120\n00:00 I. Ziemlich langsam \u2013 Lebhaft\n09:40 II. Romanze. Ziemlich langsam\n13:23 III. Scherzo. Lebhaft \u2013 Trio\n19:05 IV. Langsam \u2013 Lebhaft \u2013 Presto\n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: John Eliot Gardiner\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 16,
+			"PublishedAtRaw": "2026-03-31T20:39:25Z",
+			"PublishedAtDateTimeOffset": "2026-03-31T20:39:25+00:00",
+			"PublishedAt": "2026-04-01T02:09:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "WS94Z92OYL8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/WS94Z92OYL8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/WS94Z92OYL8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/WS94Z92OYL8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/WS94Z92OYL8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/WS94Z92OYL8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann \u2013 Symphonie Nr. 4 | John Eliot Gardiner | BRSO",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "TFDCwvKP3d0",
+			"VideoPublishedAtRaw": "2022-06-24T10:48:40Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-24T10:48:40+00:00",
+			"VideoPublishedAt": "2022-06-24T16:18:40+05:30"
+		},
+		"ETag": "PV3rbSNkUMJadl3gKgCgzcGhchk",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Historische Konzertaufnahme aus dem Dom zu L\u00FCbeck: John Eliot Gardiner und das damalige NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) spielen Schumanns Zweite Sinfonie beim Schleswig-Holstein Musik Festival 1989.\n\nROBERT SCHUMANN\nSinfonie Nr. 2 C-Dur op. 61  00:00\nI. Sostenuto assai - Allegro, ma non troppo  00:01\nII. Scherzo. Allegro vivace  12:44\nIII. Adagio espressivo  20:02\nIV. Allegro molto vivace  30:23\n\nJohn Eliot Gardiner, Dirigent\nNDR Sinfonieorchester\n\nMitschnitt vom 25. Juni 1989 aus dem Dom zu L\u00FCbeck\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester\nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #johneliotgardiner #schumann",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 17,
+			"PublishedAtRaw": "2026-06-18T15:46:01Z",
+			"PublishedAtDateTimeOffset": "2026-06-18T15:46:01+00:00",
+			"PublishedAt": "2026-06-18T21:16:01+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "TFDCwvKP3d0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/TFDCwvKP3d0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Sinfonie Nr. 2 C-Dur | John Eliot Gardiner | SHMF 1989 | NDR Elbphilharmonie Orchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "m3XAl0_H11U",
+			"VideoPublishedAtRaw": "2026-06-06T12:00:03Z",
+			"VideoPublishedAtDateTimeOffset": "2026-06-06T12:00:03+00:00",
+			"VideoPublishedAt": "2026-06-06T17:30:03+05:30"
+		},
+		"ETag": "ESbjz0pMd_cHDsYbzVFdmT8CjGU",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "A romantic homage to the Rhine, the famous joyfulness of the Rhinelanders, and the grandeur of Cologne Cathedral: all this is captured in Robert Schumann\u0027s Symphony No. 3 in E-flat major, Op. 97, known as the Rhenish. Performed here by the London Symphony Orchestra, conducted by Sir John Eliot Gardiner in 2019 at the Barbican Centre in London.\n\n(00:00) I. Lebhaft\n(09:39) II. Scherzo: sehr m\u00E4\u00DFig\n(16:16) III. Nicht schnell\n(21:11) IV. Feierlich\n(25:48) V. Lebhaft\n\nIn a frenzy of inspiration, Robert Schumann (1810\u20131856) composed his Symphony No. 3 in E-flat major, Op. 97 in just four weeks between early November and early December 1850. The 3rd Symphony owes its cheerful character to the happy circumstances in which it was written: In 1850, Schumann had been appointed to the prestigious position of municipal music director in D\u00FCsseldorf. After less successful years in Leipzig and Dresden, he was suddenly in demand as a composer and conductor in the city on the Rhine. When he arrived in D\u00FCsseldorf with his family in September of that year, he was welcomed with grand celebrations. No wonder he was in high spirits when he composed the Symphony in E-flat major. Of the four symphonies that Schumann published, the 3rd Symphony was the last to be written. He had already written his Symphony in D minor, Op. 120 in 1841, but revised it again in 1851, re-orchestrated it, and published it as his 4th Symphony. \n\nThe epithet \u201CRhenish\u201D attached to Symphony No. 3 was not coined by Schumann himself, but was applied posthumously by a friend. It has since become established \u2013 and the composer himself would probably not have objected. Schumann\u2019s own statements about the Third suggest this symphony is a truly \u201CRhenish\u201D work. On the one hand, it was the sight of Cologne Cathedral that inspired him to compose it. On the other hand, Schumann wanted the music to be shaped by folk elements, and was convinced that he had succeeded in this, and that the symphony reflected a Rhenish life here and there. In keeping with the proverbial \u201CRhenish cheerfulness,\u201D the premiere took place on February 6, 1851, in D\u00FCsseldorf\u2014in the middle of Carnival. \n\nBut despite all the \u201CRhenish\u201D impressions, Schumann\u0027s 3rd Symphony is not program music. The Rhine River or Cologne Cathedral are not depicted in a tone-painting style; rather, Schumann is merely concerned with expressing moods musically. In any case, the German composer believed that the circumstances surrounding the creation of a piece of music were not decisive; what mattered was that the music was good and satisfying purely as music. With Symphony No. 3, he also intended to make the music easier to understand. This may be why he used German movement titles instead of the usual Italian ones. Clara Schumann (1819\u20131896) certainly felt that this symphony was accessible even to lay listeners, especially the folk-like second and third movements.\n\nAs a formal peculiarity, the \u201CRhenish\u201D has five movements instead of four. The three middle movements are all slow movements. The fourth movement stands out in several ways: it is the only movement that is not cheerful and optimistic. It comes as a surprise because after the third movement, one expects the finale. In it, Schumann processes a venerable chorale theme in a contrapuntal manner. The timbres dominated by the use of trombones are striking. Within the structure of the symphony, the fourth movement seems like a later insertion of a piece of church music. However, this is not the case, as it was sketched and orchestrated almost simultaneously with the final movement. There has been much speculation about the meaning of the sacred movement. Even Clara Schumann expressed her perplexity about it. Robert Schumann had titled the movement \u201CIn the character of the accompaniment to a solemn ceremony.\u201D For the printed version, however, he changed the movement title to a simple \u201CSolemn.\u201D Some interpreters believe that Schumann wanted to capture the imaginary atmosphere of a solemn cardinal\u0027s elevation in Cologne Cathedral in music. In fact, the Archbishop of Cologne had been elevated to cardinal at the time, but Schumann is not believed to have witnessed the celebrations in the cathedral himself.\n\nNevertheless, the Rhenish Symphony is in many ways a tribute to the Rhine, which had become a central symbol of Romanticism since the early 19th century. For this reason alone, the Third is a thoroughly Romantic symphony.\n\nText: Rita Kass\n\n\u00A9 2019 C Major Entertainment\n\nFind more symphonies here: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nMore pieces from the Romantic period: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nAnd more music from Robert Schumann: https://www.youtube.com/playlist?list=PL_SdnzPd3eBVVGSZy9tzxzigD5gD0ZSz5\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#romanticmusic #schumann #symphony",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 18,
+			"PublishedAtRaw": "2026-06-09T21:55:39Z",
+			"PublishedAtDateTimeOffset": "2026-06-09T21:55:39+00:00",
+			"PublishedAt": "2026-06-10T03:25:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "m3XAl0_H11U"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/m3XAl0_H11U/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/m3XAl0_H11U/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/m3XAl0_H11U/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/m3XAl0_H11U/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/m3XAl0_H11U/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Schumann: Symphony No. 3 \u0022Rhenish\u0022 | London Symphony Orchestra \u0026 Sir John Eliot Gardiner (complete)",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "t4WRFBMqkDY",
+			"VideoPublishedAtRaw": "2025-10-25T12:01:48Z",
+			"VideoPublishedAtDateTimeOffset": "2025-10-25T12:01:48+00:00",
+			"VideoPublishedAt": "2025-10-25T17:31:48+05:30"
+		},
+		"ETag": "fOrXqrQAq-1NwZJs43JyCHkCiXE",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "A symphony based on a series of Ukrainian folk songs: Symphony No. 2 in C minor, Op. 17 by Russian composer Pyotr Ilyich Tchaikovsky. The catchy symphony is performed by the London Symphony Orchestra conducted by Sir John Eliot Gardiner. The concert took place on July 5, 2022, at St Luke\u0027s Church in London.\n\n(00:00) I. Andante sostenuto \u2013 Allegro vivo \n(11:16) II. Andantino marziale, quasi moderato \n(18:09) III. Scherzo. Allegro molto vivace \n(23:23) IV. Finale. Moderato assai \u2013 Allegro vivo \n\nPyotr Ilyich Tchaikovsky\u0027s (1840\u20131893) Symphony No. 2 in C minor, Op. 17, is also known by the nickname \u201CLittle Russian.\u201D A friend of Tchaikovsky\u0027s gave the 2nd Symphony this name because its themes and motifs are based on several Ukrainian folk songs. The romantic composer heard these folk songs while on summer vacation with his sister in an area that today belongs to Ukraine but was called \u201CLittle Russia\u201D during Tchaikovsky\u0027s lifetime in the Russian Empire. In none of his other six symphonies did Tchaikovsky take so many motifs and themes from folk songs. The \u201CLittle Russian Symphony\u201D is thus quite elaborate. \n\nTchaikovsky composed his Second Symphony between June and November 1872, and it premiered on February 7, 1873, in Moscow, conducted by his friend Nikolai Rubinstein. Both the audience and critics celebrated the symphony, even calling it a \u201Cnational achievement.\u201D This label was considered a special mark of quality, especially in the 19th century. In various European countries, music in a supposedly national musical language had become fashionable. This usually meant using elements from the folk music of the respective country in compositions. In Russia, a circle of renowned composers had even formed to promote Russian national music. They called themselves \u201CThe Mighty Five\u201D (also \u201CThe Five\u201D or \u201CThe Mighty Handful\u201D). Tchaikovsky was not a member of this group; in fact, he expressly distanced himself from \u201CThe Five.\u201D Nevertheless, his Symphony No. 2 certainly meets the criteria of a \u201Cnational\u201D music of some kind.  \n\nThe popularity of Tchaikovsky\u0027s 2nd Symphony did not prevent the Russian Romantic composer from reworking it a few years later. Tchaikovsky confided to his pen pal and patron Nadezhda von Meck that he considered the symphony immature and mediocre. He had decided that he needed to rewrite it. The revised version was written between December 1879 and January 1880. The significantly altered Second Symphony was first performed in St. Petersburg in 1881. This version of the symphony was also well received by audiences, particularly because of its rich melodies. It is this second version of the \u201CLittle Russian Symphony\u201D that is still performed today.\n\nText: Rita Kass\n\n\u00A9 2022 C Major Entertainment\n\nWatch more concerts: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nFamous symphonies: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXvpOWNmQ1AUBPQeyNanpxY\n\nOther great pieces by Tchaikovsky: https://www.youtube.com/playlist?list=PL_SdnzPd3eBXeqiLcYJCB2Ct1lqIDtivN\n\nMore music of the Romantic period: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#symphony #romanticmusic #tchaikovsky",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 19,
+			"PublishedAtRaw": "2025-10-25T14:53:27Z",
+			"PublishedAtDateTimeOffset": "2025-10-25T14:53:27+00:00",
+			"PublishedAt": "2025-10-25T20:23:27+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "t4WRFBMqkDY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/t4WRFBMqkDY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Tchaikovsky: Symphony No. 2 | London Symphony Orchestra \u0026 Sir John Eliot Gardiner",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "hdgdoRQSAdM",
+			"VideoPublishedAtRaw": "2026-03-04T13:01:14Z",
+			"VideoPublishedAtDateTimeOffset": "2026-03-04T13:01:14+00:00",
+			"VideoPublishedAt": "2026-03-04T18:31:14+05:30"
+		},
+		"ETag": "F5E40Y209t5w5XYYVQzy3xUszTM",
+		"Id": "UEwxemdOQ29XdF83YVJIdXpLcDVrZUFQT015WnNPang0aS4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "His music enthused opera fans, but the libretto faced ridicule. Carl Maria von Weber experienced some initial challenges with his opera \u201CEuryanthe,\u201D which premiered in 1823. However, the opera\u0027s overture has remained a popular concert piece to this day. Here it is performed by the London Symphony Orchestra under the baton of Sir John Eliot Gardiner. The concert took place in February 2019 at the Barbican Centre in London. \n\nCarl Maria von Weber (1786-1826) was frustrated with the text of his opera \u0022Euryanthe,\u0022 a grand romantic work in three acts dedicated to Emperor Franz I of Austria. Unable to secure any of the authors he knew to write the libretto, he ultimately turned to the poet and librettist Helmina von Ch\u00E9zy. Despite his efforts to make changes to her text, which was based on a French chivalric novel, Weber was still dissatisfied. His revisions did not resolve the inconsistencies in the libretto or the complex relationships among the protagonists. At the premiere, which Weber conducted himself on October 25, 1823, the audience and critics responded with ridicule and criticism.\n\nIn this romantic heroic opera by Weber, Knight Adolar pledges his loyalty to his bride, Euryanthe. However, he engages in a bet with a count who claims he can seduce her. Although Euryanthe remains resolute in the face of the count\u0027s advances, she becomes accused of deceptive intrigue and infidelity. The opera features ghostly fantasies and dramatic twists, ultimately culminating in a triumphant happy ending for Adolar and Euryanthe.\n\nThe opening music effectively conveys all the drama through its highs and lows, reflecting both a festive mood and Euryanthe\u0027s deep despair. With beautiful violin melodies and foreboding drum rolls, Carl Maria von Weber demonstrates his ahead-of-his-time vision. He is regarded as a pioneer of German Romantic opera.\n\nEuryanthe is an impressive, thoroughly composed opera that features recurring leitmotifs for its main characters \u2014 an approach that later became a hallmark of Richard Wagner\u0027s operas. The opening of the second act of Wagner\u0027s Lohengrin is reminiscent of Weber\u0027s Euryanthe. Although it is believed that Wagner initially mocked the opera, he eventually came to admire Weber as a composer throughout his life. After Carl Maria von Weber\u0027s death, Wagner composed funeral music inspired by motifs from Euryanthe.\n\nText: Gaby Reucher\n\n\u00A9 2019 C Major Entertainment\n\nWatch more masterpieces in your personal concert hall: https://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nAnd check out our playlist with great Romantic music: https://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: https://www.youtube.com/dwclassicalmusic\n\n#romanticmusic #overture #orchestra",
+			"PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
+			"Position": 20,
+			"PublishedAtRaw": "2026-03-31T20:34:03Z",
+			"PublishedAtDateTimeOffset": "2026-03-31T20:34:03+00:00",
+			"PublishedAt": "2026-04-01T02:04:03+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "hdgdoRQSAdM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/hdgdoRQSAdM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/hdgdoRQSAdM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/hdgdoRQSAdM/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Weber: Euryanthe Overture | Sir John Eliot Gardiner \u0026 the London Symphony Orchestra",
+			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+			"VideoOwnerChannelTitle": "DW Classical Music"
+		}
+	}
 ]

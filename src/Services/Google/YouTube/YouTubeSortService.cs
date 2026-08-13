@@ -1,5 +1,8 @@
+using System.Diagnostics;
+using System.Net;
 using Core;
 using ErrorOr;
+using Google;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
 using SerilogTracing;
@@ -11,6 +14,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 	public async Task<ErrorOr<SortResult>> SortPlaylistAsync(
 		string playlistId,
 		IReadOnlyDictionary<string, string> translatedTitles,
+		int remainingBudget,
 		CancellationToken ct
 	)
 	{
@@ -19,19 +23,32 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			messageTemplate: "YouTube.SortPlaylist"
 		);
 
-		var sortSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch sortSw = System.Diagnostics.Stopwatch.StartNew();
 		Telemetry.Verbose("SortPlaylist started for {PlaylistId}", playlistId);
 
 		const int maxPasses = 3;
 		var totalRepositioned = 0;
+		var totalWritesConsumed = 0;
+		var totalDistinctMoved = 0;
 
 		for (var pass = 0; pass < maxPasses; pass++)
 		{
-			var passSw = System.Diagnostics.Stopwatch.StartNew();
+			Stopwatch passSw = System.Diagnostics.Stopwatch.StartNew();
+
+			var budgetForPass = remainingBudget - totalWritesConsumed;
+			if (budgetForPass <= 0)
+			{
+				Telemetry.Info(
+					"Quota budget reached ({Writes}/{Max} writes). Stopping sort.",
+					totalWritesConsumed,
+					remainingBudget
+				);
+				break;
+			}
 
 			ErrorOr<SortPassResult> passResult = await FetchPlaylistItemsAsync(playlistId, ct)
 				.Then(items => ComputeSortPlan(items, translatedTitles))
-				.ThenAsync(plan => ExecuteSortPlanAsync(plan, ct));
+				.ThenAsync(plan => ExecuteSortPlanAsync(plan, budgetForPass, ct));
 
 			passSw.Stop();
 			Telemetry.Verbose(
@@ -52,6 +69,8 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 
 			SortPassResult result = passResult.Value;
 			totalRepositioned += result.Successes;
+			totalWritesConsumed += result.WritesConsumed;
+			totalDistinctMoved += result.DistinctItemsMoved;
 
 			Telemetry.Debug(
 				"YouTube.SortPlaylist pass {Pass}: {Successes} updated, {Failures} failed in {ElapsedMs}ms",
@@ -100,17 +119,30 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		else
 		{
 			Telemetry.Info(
-				"{PlaylistName} — {Repositioned}/{ItemCount} repositioned",
+				"{PlaylistName} — {Distinct}/{Total} items sorted ({ApiCalls} API calls)",
 				playlistName,
-				totalRepositioned,
-				itemCount
+				totalDistinctMoved,
+				itemCount,
+				totalRepositioned
 			);
 		}
 
 		Telemetry.Debug("YouTube.SortPlaylist ETag: {ETag}", finalSummary?.ETag ?? "unknown");
+		Telemetry.Debug(
+			"Sort completed: {Writes} writes ({Units} quota units)",
+			totalWritesConsumed,
+			totalWritesConsumed * 50
+		);
 
 		var etag = finalSummary?.ETag ?? "";
-		return new SortResult(totalRepositioned, etag);
+		return new SortResult(
+			totalRepositioned,
+			etag,
+			totalWritesConsumed,
+			totalDistinctMoved,
+			DateTimeOffset.UtcNow,
+			totalRepositioned == 0
+		);
 	}
 
 	private async Task<ErrorOr<List<PlaylistItem>>> FetchPlaylistItemsAsync(
@@ -118,7 +150,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		CancellationToken ct
 	)
 	{
-		var fetchSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch fetchSw = System.Diagnostics.Stopwatch.StartNew();
 		try
 		{
 			IList<PlaylistItem> items = await playlistService.GetPlaylistItemsAsync(playlistId, ct);
@@ -147,18 +179,22 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		IReadOnlyDictionary<string, string> translatedTitles
 	)
 	{
-		var sorted = items
-			.OrderBy(i => SortKeyFor(i, translatedTitles), StringComparer.OrdinalIgnoreCase)
-			.ToList();
+		List<PlaylistItem> sorted =
+		[
+			.. items.OrderBy(
+				i => SortKeyFor(i, translatedTitles),
+				StringComparer.OrdinalIgnoreCase
+			),
+		];
 
-		var targetRank = sorted
+		Dictionary<string, int> targetRank = sorted
 			.Select((item, idx) => (item.Id, idx))
 			.ToDictionary(x => x.Id, x => x.idx);
 
-		var currentOrder = items.ToList();
+		List<PlaylistItem> currentOrder = [.. items];
 		var permutation = currentOrder.Select(item => targetRank[item.Id]).ToArray();
 
-		var lisSw = System.Diagnostics.Stopwatch.StartNew();
+		Stopwatch lisSw = System.Diagnostics.Stopwatch.StartNew();
 		List<int> lisCurrentIndices = LongestIncreasingSubsequence(permutation);
 		lisSw.Stop();
 		Telemetry.Verbose(
@@ -167,7 +203,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			permutation.Length
 		);
 
-		var keptIds = lisCurrentIndices.Select(i => currentOrder[i].Id).ToHashSet();
+		HashSet<string> keptIds = [.. lisCurrentIndices.Select(i => currentOrder[i].Id)];
 
 		List<PlaylistUpdate> updates = [];
 		for (var i = 0; i < sorted.Count; i++)
@@ -195,18 +231,26 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 
 	private async Task<ErrorOr<SortPassResult>> ExecuteSortPlanAsync(
 		SortPlan plan,
+		int remainingBudget,
 		CancellationToken ct
 	)
 	{
 		if (plan.Updates.Count == 0)
-			return new SortPassResult(0, 0);
+			return new SortPassResult(0, 0, 0, 0);
 
-		Telemetry.Debug("ExecuteSortPlan: updating {Count} items sequentially", plan.Updates.Count);
+		var maxUpdatesThisPass = Math.Min(plan.Updates.Count, remainingBudget);
+		Telemetry.Debug(
+			"ExecuteSortPlan: updating {Count} items sequentially (budget: {Budget})",
+			maxUpdatesThisPass,
+			remainingBudget
+		);
 
 		var successes = 0;
 		var failures = 0;
+		var writesConsumed = 0;
+		HashSet<string> movedItemIds = [];
 
-		for (var i = 0; i < plan.Updates.Count; i++)
+		for (var i = 0; i < maxUpdatesThisPass; i++)
 		{
 			ct.ThrowIfCancellationRequested();
 
@@ -220,30 +264,41 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			Telemetry.Verbose(
 				"Updating item {Index}/{Total}: ItemId={ItemId}, NewPos={NewPos}",
 				i + 1,
-				plan.Updates.Count,
+				maxUpdatesThisPass,
 				itemId,
 				newPosition
 			);
 
-			if ((i + 1) % 25 == 0 || i == plan.Updates.Count - 1)
+			if ((i + 1) % 25 == 0 || i == maxUpdatesThisPass - 1)
 			{
 				var avgMs = (double)(successes + failures) / (i + 1) * 1000;
 				Telemetry.Debug(
 					"Sort progress: {Current}/{Total} ({Percent}%) — avg {AvgMs:F0}ms/item",
 					i + 1,
-					plan.Updates.Count,
-					(i + 1) * 100 / plan.Updates.Count,
+					maxUpdatesThisPass,
+					(i + 1) * 100 / maxUpdatesThisPass,
 					avgMs
 				);
 			}
 
 			try
 			{
-				var sw = System.Diagnostics.Stopwatch.StartNew();
+				Stopwatch sw = System.Diagnostics.Stopwatch.StartNew();
 				await yt.PlaylistItems.Update(item, "snippet").ExecuteAsync(ct);
 				sw.Stop();
 				Telemetry.Verbose("API call completed in {ElapsedMs}ms", sw.ElapsedMilliseconds);
 				successes++;
+				writesConsumed++;
+				movedItemIds.Add(itemId);
+			}
+			catch (GoogleApiException ex) when (IsQuotaOrRateLimit(ex))
+			{
+				Telemetry.Error(
+					"Quota/rate-limit exhausted at item {Index}/{Total}. Stopping sort.",
+					i + 1,
+					maxUpdatesThisPass
+				);
+				return Errors.YouTube.QuotaExceeded($"Quota exhausted after {successes} updates");
 			}
 			catch (Exception ex)
 			{
@@ -256,14 +311,27 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 				);
 			}
 
-			if (i < plan.Updates.Count - 1)
+			if (writesConsumed >= remainingBudget)
+			{
+				Telemetry.Warn(
+					"Quota budget exhausted mid-playlist. Stopping after {Count} writes.",
+					writesConsumed
+				);
+				return new SortPassResult(successes, failures, writesConsumed, movedItemIds.Count);
+			}
+
+			if (i < maxUpdatesThisPass - 1)
 				await Task.Delay(TimeSpan.FromMilliseconds(100), ct);
 		}
 
 		return failures > 0
-			? Errors.YouTube.ApiError($"{failures}/{plan.Updates.Count} updates failed")
-			: new SortPassResult(successes, failures);
+			? Errors.YouTube.ApiError($"{failures}/{maxUpdatesThisPass} updates failed")
+			: new SortPassResult(successes, failures, writesConsumed, movedItemIds.Count);
 	}
+
+	private static bool IsQuotaOrRateLimit(GoogleApiException ex) =>
+		ex.HttpStatusCode is HttpStatusCode.Forbidden or HttpStatusCode.TooManyRequests
+		&& ex.Message.Contains("quota", StringComparison.OrdinalIgnoreCase);
 
 	private static List<int> LongestIncreasingSubsequence(int[] arr)
 	{
@@ -318,7 +386,14 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 
 	public readonly record struct PlaylistUpdate(PlaylistItem Item, int NewPosition);
 
-	public readonly record struct SortResult(int Repositioned, string NewETag);
+	public readonly record struct SortResult(
+		int Repositioned,
+		string NewETag,
+		int WritesConsumed,
+		int DistinctItemsMoved,
+		DateTimeOffset? LastSortAttempted,
+		bool LastSortCompleted
+	);
 
 	public readonly record struct SortPlan(
 		int TotalItems,
@@ -326,5 +401,10 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		IReadOnlyList<PlaylistUpdate> Updates
 	);
 
-	public readonly record struct SortPassResult(int Successes, int Failures);
+	public readonly record struct SortPassResult(
+		int Successes,
+		int Failures,
+		int WritesConsumed,
+		int DistinctItemsMoved
+	);
 }

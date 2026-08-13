@@ -4,6 +4,8 @@ using Spectre.Console.Cli;
 
 namespace CLI.Audio;
 
+using ErrorOr;
+
 internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 	: AsyncCommand<SacdConvertCommand.Settings>
 {
@@ -32,7 +34,7 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		CancellationToken cancellationToken
 	)
 	{
-		var result = await orchestrator.RunAsync(
+		ErrorOr<PipelineResult> result = await orchestrator.RunAsync(
 			settings.Input,
 			settings.Format,
 			settings.Multichannel,
@@ -42,12 +44,12 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 
 		if (result.IsError)
 		{
-			foreach (var error in result.Errors)
+			foreach (Error error in result.Errors)
 				await Console.Error.WriteLineAsync(error.Description, cancellationToken);
 			return 1;
 		}
 
-		var pipelineResult = result.Value;
+		PipelineResult pipelineResult = result.Value;
 		await Console.Out.WriteLineAsync(
 			$"SACD processing completed: {pipelineResult.SucceededCount} succeeded, {pipelineResult.FailedCount} failed",
 			cancellationToken

@@ -25,7 +25,7 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		if (duration is { } d && d > TimeSpan.Zero)
 			args.Add(FormatSeconds(d));
 
-		var result = await processRunner.RunAsync(binaryPath, [.. args], ct);
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(binaryPath, [.. args], ct);
 		if (result.IsError)
 			return result.Errors;
 
@@ -45,12 +45,16 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 	{
 		Telemetry.Debug("Sox.StatsStart file={File}", Path.GetFileName(filePath));
 
-		var result = await processRunner.RunAsync(binaryPath, [filePath, "-n", "stats"], ct);
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
+			binaryPath,
+			[filePath, "-n", "stats"],
+			ct
+		);
 		if (result.IsError)
 			return result.Errors;
 
 		var output = result.Value.Stdout + "\n" + result.Value.Stderr;
-		var match = PeakLevelPattern.Match(output);
+		Match match = PeakLevelPattern.Match(output);
 		if (!match.Success)
 		{
 			Telemetry.Warn(
@@ -80,7 +84,11 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		CancellationToken ct = default
 	)
 	{
-		var result = await processRunner.RunAsync(binaryPath, ["--i", "-D", filePath], ct);
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
+			binaryPath,
+			["--i", "-D", filePath],
+			ct
+		);
 		if (result.IsError)
 			return result.Errors;
 
@@ -103,7 +111,7 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		CancellationToken ct = default
 	)
 	{
-		var result = await processRunner.RunAsync(
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
 			[
 				sourceFlac,

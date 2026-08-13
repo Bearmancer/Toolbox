@@ -5922,5 +5922,60 @@
       "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
       "VideoOwnerChannelTitle": "Classical Radio Archive UK"
     }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mLa0tU-tGT8",
+      "VideoPublishedAtRaw": "2026-08-10T13:04:41Z",
+      "VideoPublishedAtDateTimeOffset": "2026-08-10T13:04:41+00:00",
+      "VideoPublishedAt": "2026-08-10T18:34:41+05:30"
+    },
+    "ETag": "02oVl-1Th5by3ok0zgu7SlLH3OY",
+    "Id": "UEwxemdOQ29XdF83WnZEdS10YkxsTjJ3RW1rM0Q5NHd2Ny44M0Q5MzQ0QTcwQzFDMjc5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Tchaikovsky: Symphony No.6\n1st movement   00:00\n2nd    18:32\n3rd     27:09\n4th     36:02\nGeorge Solti / Berlin Philharmonic orchestra\n8/3/1994 Berlin, Phil harmony Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C6\u756A\u300C\u60B2\u6134\u300D\n\u30B2\u30AA\u30EB\u30B0\u30FB\u30B7\u30E7\u30EB\u30C6\u30A3\u6307\u63EE\u3000\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1994\u5E743\u67088\u65E5\u3000\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30AB\u30E9\u30E4\u30F3\u6642\u4EE3\u307B\u3068\u3093\u3069\u63A5\u70B9\u304C\u7121\u304B\u3063\u305F\u30B7\u30E7\u30EB\u30C6\u30A3\u3068\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u3002\u30AB\u30E9\u30E4\u30F3\u306E\u6B7B\u5F8C\u4F55\u5EA6\u304B\u5B9F\u73FE\u3057\u305F\u30B7\u30E7\u30EB\u30C6\u30A3\u306E\u5BA2\u6F14\u306F\u5B9F\u306F\u76F8\u6027\u304C\u3068\u3066\u3082\u826F\u304B\u3063\u305F\u3088\u3046\u306B\u611F\u3058\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
+      "Position": 115,
+      "PublishedAtRaw": "2026-08-11T18:39:27Z",
+      "PublishedAtDateTimeOffset": "2026-08-11T18:39:27+00:00",
+      "PublishedAt": "2026-08-12T00:09:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mLa0tU-tGT8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mLa0tU-tGT8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mLa0tU-tGT8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mLa0tU-tGT8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mLa0tU-tGT8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mLa0tU-tGT8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky: Symphony No.6 \u0027Pathetic\u0027    G. Solti / BPO 1994 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
   }
 ]

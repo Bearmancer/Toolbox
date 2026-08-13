@@ -26,7 +26,7 @@ public class YouTubeSyncProcessor(
 		CancellationToken ct
 	)
 	{
-		var counters = SyncCounters.FromStoredState(stored);
+		SyncCounters counters = SyncCounters.FromStoredState(stored);
 
 		List<PlaylistSnapshot> processedSnapshots = [];
 		List<string> playlistsWithNewVideos = [];
@@ -116,7 +116,7 @@ public class YouTubeSyncProcessor(
 			[snapshot.PlaylistId] = snapshot,
 		};
 
-		var state = new YouTubeFetchState
+		YouTubeFetchState state = new()
 		{
 			PlaylistSnapshots = snapshots,
 			LastChecked = DateTimeOffset.UtcNow,
@@ -144,7 +144,7 @@ public class YouTubeSyncProcessor(
 		Telemetry.Debug("Archived deleted playlist: {Title}", snapshot.Title);
 	}
 
-	public async Task SortPlaylistsAsync(
+	public async Task<SortStatistics> SortPlaylistsAsync(
 		IReadOnlyList<string> playlistIds,
 		YouTubeFetchState state,
 		CancellationToken ct
@@ -152,30 +152,75 @@ public class YouTubeSyncProcessor(
 	{
 		Telemetry.Debug("Sorting {Count} playlist(s) after sync", playlistIds.Count);
 
-		var anySorted = false;
+		const int maxWritesPerRun = 150;
+		var writesConsumed = 0;
+		var modified = 0;
+		var attempted = 0;
 
 		foreach (var playlistId in playlistIds)
 		{
 			ct.ThrowIfCancellationRequested();
 
+			if (writesConsumed >= maxWritesPerRun)
+			{
+				Telemetry.Info(
+					"Quota budget reached ({Writes}/{Max} writes). Stopping sort.",
+					writesConsumed,
+					maxWritesPerRun
+				);
+				break;
+			}
+
 			if (!state.PlaylistSnapshots.TryGetValue(playlistId, out PlaylistSnapshot? snapshot))
 				continue;
 
-			var sorted = await SortSinglePlaylistAsync(playlistId, snapshot, state, ct);
-			if (sorted)
-				anySorted = true;
-			else
+			attempted++;
+			var remainingBudget = maxWritesPerRun - writesConsumed;
+			(var sorted, var consumed, var distinctMoved) = await SortSinglePlaylistAsync(
+				playlistId,
+				snapshot,
+				state,
+				remainingBudget,
+				ct
+			);
+			writesConsumed += consumed;
+			if (sorted && consumed > 0)
+				modified++;
+			else if (sorted)
 				break;
 		}
 
-		if (anySorted)
+		if (modified > 0)
 			await YouTubeFetchState.SaveAsync(ManifestFile, state, ct);
+
+		SortStatistics stats = new(
+			Attempted: attempted,
+			Modified: modified,
+			AlreadySorted: attempted - modified,
+			TotalWrites: writesConsumed
+		);
+
+		Telemetry.Info(
+			"Sort complete: {Attempted} attempted, {Modified} modified, {AlreadySorted} already-sorted | {TotalWrites} writes ({WritesUnits} units)",
+			stats.Attempted,
+			stats.Modified,
+			stats.AlreadySorted,
+			stats.TotalWrites,
+			stats.TotalWrites * 50
+		);
+
+		return stats;
 	}
 
-	private async Task<bool> SortSinglePlaylistAsync(
+	private async Task<(
+		bool Sorted,
+		int WritesConsumed,
+		int DistinctItemsMoved
+	)> SortSinglePlaylistAsync(
 		string playlistId,
 		PlaylistSnapshot snapshot,
 		YouTubeFetchState stored,
+		int remainingBudget,
 		CancellationToken ct
 	)
 	{
@@ -187,6 +232,7 @@ public class YouTubeSyncProcessor(
 		ErrorOr<YouTubeSortService.SortResult> sortResult = await sortService.SortPlaylistAsync(
 			playlistId,
 			translatedTitles,
+			remainingBudget,
 			ct
 		);
 
@@ -197,7 +243,7 @@ public class YouTubeSyncProcessor(
 				snapshot.Title,
 				sortResult.FirstError.Description
 			);
-			return false;
+			return (false, 0, 0);
 		}
 
 		YouTubeSortService.SortResult result = sortResult.Value;
@@ -205,15 +251,20 @@ public class YouTubeSyncProcessor(
 		if (result.Repositioned > 0)
 			await playlistProcessor.RefreshLocalStateAsync(snapshot, ct);
 
-		if (!string.IsNullOrEmpty(result.NewETag))
-			stored.PlaylistSnapshots[playlistId] = snapshot with { ETag = result.NewETag };
+		stored.PlaylistSnapshots[playlistId] = snapshot with
+		{
+			ETag = !string.IsNullOrEmpty(result.NewETag) ? result.NewETag : snapshot.ETag,
+			LastSortMoves = result.DistinctItemsMoved,
+			LastSortAttempted = result.LastSortAttempted,
+			LastSortCompleted = result.LastSortCompleted,
+		};
 
 		Telemetry.Debug(
 			"{Title}: {Repositioned} items repositioned",
 			snapshot.Title,
 			result.Repositioned
 		);
-		return true;
+		return (true, result.WritesConsumed, result.DistinctItemsMoved);
 	}
 
 	private static async Task<IReadOnlyDictionary<string, string>> LoadTranslatedTitlesAsync(
@@ -250,6 +301,13 @@ public class YouTubeSyncProcessor(
 		}
 	}
 
+	public readonly record struct SortStatistics(
+		int Attempted,
+		int Modified,
+		int AlreadySorted,
+		int TotalWrites
+	);
+
 	public readonly record struct SyncResult(
 		IReadOnlyList<string> ProcessedIds,
 		IReadOnlyList<string> PlaylistsWithNewVideos,
@@ -279,7 +337,10 @@ public class YouTubeSyncProcessor(
 
 		public static SyncCounters FromStoredState(YouTubeFetchState stored)
 		{
-			Dictionary<string, PlaylistSnapshot> snapshots = new(stored.PlaylistSnapshots);
+			Dictionary<string, PlaylistSnapshot> snapshots = stored.PlaylistSnapshots.ToDictionary(
+				kv => kv.Key,
+				kv => kv.Value
+			);
 			return new SyncCounters(snapshots);
 		}
 
@@ -294,7 +355,7 @@ public class YouTubeSyncProcessor(
 			List<string> playlistsWithNewVideos
 		)
 		{
-			Dictionary<string, PlaylistSnapshot> updated = new(processedSnapshots.Count);
+			Dictionary<string, PlaylistSnapshot> updated = [];
 			foreach (PlaylistSnapshot s in processedSnapshots)
 				updated[s.PlaylistId] = s;
 

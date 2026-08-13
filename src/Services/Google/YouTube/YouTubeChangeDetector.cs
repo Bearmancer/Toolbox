@@ -16,7 +16,7 @@ public static class YouTubeChangeDetector
 		YouTubeFetchState stored
 	)
 	{
-		var currentDict = current.ToDictionary(p => p.PlaylistId);
+		Dictionary<string, PlaylistSnapshot> currentDict = current.ToDictionary(p => p.PlaylistId);
 		Dictionary<string, PlaylistSnapshot> storedDict = stored.PlaylistSnapshots;
 
 		List<PlaylistSnapshot> newPlaylists = [];

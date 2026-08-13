@@ -23,7 +23,11 @@ public sealed class SacdExtractService(ProcessRunner processRunner, string binar
 	{
 		Telemetry.Debug("SacdExtract.ProbeStart iso={Iso}", Path.GetFileName(isoPath));
 
-		var result = await processRunner.RunAsync(binaryPath, ["-P", "-i", isoPath], ct);
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
+			binaryPath,
+			["-P", "-i", isoPath],
+			ct
+		);
 
 		if (result.IsError)
 			return result.Errors;
@@ -74,7 +78,7 @@ public sealed class SacdExtractService(ProcessRunner processRunner, string binar
 
 		var beforeDirs = Directory.GetDirectories(outputDir);
 
-		var result = await processRunner.RunAsync(
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
 			[channelFlag, "-e", "-c", "-C", "-i", isoPath],
 			ct,
@@ -91,7 +95,7 @@ public sealed class SacdExtractService(ProcessRunner processRunner, string binar
 			);
 
 		var afterDirs = Directory.GetDirectories(outputDir);
-		var newDirs = afterDirs.Except(beforeDirs).ToList();
+		List<string> newDirs = [.. afterDirs.Except(beforeDirs)];
 
 		if (newDirs.Count == 0)
 		{

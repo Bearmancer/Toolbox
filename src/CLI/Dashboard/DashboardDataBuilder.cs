@@ -13,7 +13,7 @@ public static class DashboardDataBuilder
 		Dictionary<string, IReadOnlyList<YouTubeVideo>> videosByPlaylist
 	)
 	{
-		var sorted = playlists.OrderBy(p => p.Title).ToList();
+		List<PlaylistSnapshot> sorted = [.. playlists.OrderBy(p => p.Title)];
 		List<object> videos = BuildVideoData(sorted, videosByPlaylist);
 		List<object> playlistData = BuildPlaylistData(sorted);
 
@@ -70,7 +70,7 @@ public static class DashboardDataBuilder
 
 	private static string BuildDropdownHtml(List<PlaylistSnapshot> sorted)
 	{
-		var sb = new StringBuilder();
+		StringBuilder sb = new();
 		sb.AppendLine("<select id=\"playlist-dropdown\" onchange=\"switchView(this.value)\">");
 		sb.AppendLine("<option value=\"all\">Playlist Overview</option>");
 		sb.AppendLine("<option value=\"all-videos\">All Videos</option>");
@@ -82,7 +82,7 @@ public static class DashboardDataBuilder
 
 	private static string BuildVideoViewsHtml(List<PlaylistSnapshot> sorted)
 	{
-		var sb = new StringBuilder();
+		StringBuilder sb = new();
 		foreach (PlaylistSnapshot p in sorted)
 		{
 			sb.AppendLine($"<div id=\"view-{p.PlaylistId}\" class=\"view\">");
@@ -101,7 +101,7 @@ public static class DashboardDataBuilder
 
 	private static string BuildPlaylistFilterHtml(List<PlaylistSnapshot> sorted)
 	{
-		var sb = new StringBuilder();
+		StringBuilder sb = new();
 		foreach (PlaylistSnapshot p in sorted)
 		{
 			sb.AppendLine(
@@ -116,7 +116,7 @@ public static class DashboardDataBuilder
 
 	private static string BuildDataJs(List<object> videos, List<object> playlists)
 	{
-		var sb = new StringBuilder();
+		StringBuilder sb = new();
 		sb.Append("window.allVideos=");
 		sb.Append(JsonSerializer.Serialize(videos, CompactJson));
 		sb.AppendLine(";");
