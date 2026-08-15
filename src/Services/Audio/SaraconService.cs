@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Text;
 using Core;
 
 namespace Services.Audio;
@@ -15,6 +16,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		int sampleRate,
 		int bitDepth,
 		double gainDb,
+		int dsdSampleRate,
+		int channels,
 		Action<string>? onOutputLine = null,
 		CancellationToken ct = default
 	)
@@ -28,6 +31,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			sampleRate,
 			bitDepth,
 			gainDb,
+			dsdSampleRate,
+			channels,
 			onOutputLine,
 			ct
 		);
@@ -39,6 +44,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		int sampleRate,
 		int bitDepth,
 		double gainDb,
+		int dsdSampleRate,
+		int channels,
 		Action<string>? onOutputLine = null,
 		CancellationToken ct = default
 	)
@@ -52,6 +59,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			sampleRate,
 			bitDepth,
 			gainDb,
+			dsdSampleRate,
+			channels,
 			onOutputLine,
 			ct
 		);
@@ -102,6 +111,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		int sampleRate,
 		int bitDepth,
 		double gainDb,
+		int dsdSampleRate,
+		int channels,
 		Action<string>? onOutputLine,
 		CancellationToken ct
 	)
@@ -109,7 +120,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		Telemetry.Debug(
 			"Saracon.ConvertStart input={Input} outputDir={OutputDir} format={Format} rate={Rate} bitDepth={BitDepth} gain={Gain}dB",
 			Path.GetFileName(inputDff),
-			outputDir,
+			LogPaths.Format(outputDir),
 			extension,
 			sampleRate,
 			bitDepth,
@@ -119,48 +130,9 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		if (!Directory.Exists(outputDir))
 			Directory.CreateDirectory(outputDir);
 
-		var effectiveInput = inputDff;
-		var effectiveArgs = args;
-
-		if (DffMetadataStripper.HasId3Chunk(inputDff))
-		{
-			Telemetry.Warn(
-				"Saracon.Id3Detected input={Input} — ID3 chunk found, stripping before conversion",
-				Path.GetFileName(inputDff)
-			);
-
-			ErrorOr<string> stripResult = await DffMetadataStripper.StripId3TagsAsync(
-				inputDff,
-				outputDir,
-				ct
-			);
-			if (stripResult.IsError)
-			{
-				// Hard failure, deliberately: falling back to converting the
-				// original ID3-laden file would silently reintroduce the exact
-				// condition under investigation, with no retry loop left to mask it.
-				Telemetry.Error(
-					"Saracon.Id3StripFailed input={Input} error={Error}",
-					Path.GetFileName(inputDff),
-					stripResult.Errors[0].Description
-				);
-				return stripResult.Errors;
-			}
-
-			effectiveInput = stripResult.Value;
-			effectiveArgs = BuildD2pArgs(
-				effectiveInput,
-				outputDir,
-				sampleRate,
-				bitDepth,
-				gainDb,
-				extension
-			);
-		}
-
 		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
-			effectiveArgs,
+			args,
 			ct,
 			timeout: DefaultTimeout,
 			onOutputLine: onOutputLine,
@@ -172,31 +144,30 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		{
 			Telemetry.Error(
 				"Saracon.ConversionFailed input={Input} error={Error}",
-				Path.GetFileName(inputDff),
+				LogPaths.Format(inputDff),
 				result.Errors[0].Description
 			);
 			return result.Errors;
 		}
 
-		if (result.Value.ExitCode != 0)
+		var markerKill = result.Value.TerminationReason == TerminationReason.KilledAfterCompletionMarker;
+		if (!markerKill && (result.Value.TerminationReason != TerminationReason.Exited || result.Value.ExitCode != 0))
 		{
 			var stderr = result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)];
 			Telemetry.Error(
-				"Saracon.ConversionFailed input={Input} exitCode={ExitCode} stderr={Stderr}",
-				Path.GetFileName(inputDff),
+				"Saracon.ConversionFailed input={Input} reason={Reason} exitCode={ExitCode} stderr={Stderr}",
+				LogPaths.Format(inputDff),
+				result.Value.TerminationReason,
 				result.Value.ExitCode,
 				stderr
 			);
 			return Errors.Audio.ConversionFailed(
 				inputDff,
-				$"saracon exit code {result.Value.ExitCode}: {stderr}"
+				$"saracon terminated with {result.Value.TerminationReason}, exit code {result.Value.ExitCode}: {stderr}"
 			);
 		}
 
-		// Match against the file Saracon actually converted (post-strip, if
-		// stripping happened) — Saracon names its output from that path, not from
-		// the original disc filename.
-		var baseName = Path.GetFileNameWithoutExtension(effectiveInput);
+		var baseName = Path.GetFileNameWithoutExtension(inputDff);
 		var expectedOutput = Path.Combine(outputDir, baseName + $".{extension}");
 
 		if (!File.Exists(expectedOutput))
@@ -214,7 +185,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			{
 				Telemetry.Error(
 					"Saracon.OutputNotFound input={Input} tried={Tried1},{Tried2}",
-					Path.GetFileName(inputDff),
+					LogPaths.Format(inputDff),
 					Path.GetFileName(expectedOutput),
 					Path.GetFileName(d2pOutput)
 				);
@@ -226,7 +197,18 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		}
 
 		var outputSize = new FileInfo(expectedOutput).Length;
-		var expectedPcmBytes = EstimateExpectedPcmBytes(effectiveInput, sampleRate, bitDepth);
+		if (!IsExpectedOutput(expectedOutput, extension, sampleRate, bitDepth, channels))
+		{
+			Telemetry.Error(
+				"Saracon.OutputInvalid input={Input} output={Output} format={Format}",
+				LogPaths.Format(inputDff),
+				Path.GetFileName(expectedOutput),
+				extension
+			);
+			return Errors.Audio.ConversionFailed(inputDff, $"saracon output {Path.GetFileName(expectedOutput)} has invalid {extension} structure");
+		}
+
+		var expectedPcmBytes = EstimateExpectedPcmBytes(inputDff, dsdSampleRate, sampleRate, channels, bitDepth);
 		if (expectedPcmBytes > 0 && outputSize < expectedPcmBytes / 2)
 		{
 			Telemetry.Warn(
@@ -250,7 +232,66 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		return expectedOutput;
 	}
 
-	private static long EstimateExpectedPcmBytes(string dffPath, int sampleRate, int bitDepth)
+	private static bool IsExpectedOutput(
+		string outputPath,
+		string extension,
+		int sampleRate,
+		int bitDepth,
+		int channels
+	)
+	{
+		if (extension == "flac")
+		{
+			using FileStream stream = File.OpenRead(outputPath);
+			Span<byte> magic = stackalloc byte[4];
+			return stream.Length >= magic.Length && stream.Read(magic) == magic.Length && Encoding.ASCII.GetString(magic) == "fLaC";
+		}
+
+		using FileStream wav = File.OpenRead(outputPath);
+		using BinaryReader reader = new(wav);
+		if (wav.Length < 44 || new string(reader.ReadChars(4)) != "RIFF")
+			return false;
+		reader.ReadUInt32();
+		if (new string(reader.ReadChars(4)) != "WAVE")
+			return false;
+
+		var hasFormat = false;
+		var hasData = false;
+		while (wav.Position + 8 <= wav.Length)
+		{
+			var chunkId = new string(reader.ReadChars(4));
+			var chunkSize = reader.ReadUInt32();
+			var chunkEnd = wav.Position + chunkSize + (chunkSize & 1);
+			if (chunkEnd > wav.Length)
+				return false;
+
+			if (chunkId == "fmt " && chunkSize >= 16)
+			{
+				hasFormat = reader.ReadUInt16() == 1
+					&& reader.ReadUInt16() == channels
+					&& reader.ReadUInt32() == sampleRate;
+				reader.ReadUInt32();
+				reader.ReadUInt16();
+				hasFormat &= reader.ReadUInt16() == bitDepth;
+			}
+			else if (chunkId == "data" && chunkSize > 0)
+			{
+				hasData = true;
+			}
+
+			wav.Position = chunkEnd;
+		}
+
+		return hasFormat && hasData;
+	}
+
+	private static long EstimateExpectedPcmBytes(
+		string dffPath,
+		int dsdSampleRate,
+		int sampleRate,
+		int channels,
+		int bitDepth
+	)
 	{
 		try
 		{
@@ -286,10 +327,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 
 			if (dsdBytes == 0)
 				return 0;
-			// DSD64: bit clock 2822400 Hz → PCM 88.2kHz (decimate by 32)
-			// PCM bytes/sec = (bitClock / 32) * channels * bytesPerSample
-			var durationSeconds = dsdBytes / (2822400.0 / 8.0 * 2); // stereo DSD bytes
-			return (long)(durationSeconds * sampleRate * 2 * (bitDepth / 8.0));
+			var durationSeconds = dsdBytes / (dsdSampleRate / 8.0 * channels);
+			return (long)(durationSeconds * sampleRate * channels * (bitDepth / 8.0));
 		}
 		catch
 		{

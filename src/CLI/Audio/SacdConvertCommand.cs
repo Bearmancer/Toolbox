@@ -34,6 +34,15 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		CancellationToken cancellationToken
 	)
 	{
+		if (settings.Format != AudioOutputFormat.Bit16)
+		{
+			await Console.Error.WriteLineAsync(
+				"SACD conversion supports only --format 16.",
+				cancellationToken
+			);
+			return 1;
+		}
+
 		ErrorOr<PipelineResult> result = await orchestrator.RunAsync(
 			settings.Input,
 			settings.Format,
@@ -50,10 +59,17 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		}
 
 		PipelineResult pipelineResult = result.Value;
-		await Console.Out.WriteLineAsync(
-			$"SACD processing completed: {pipelineResult.SucceededCount} succeeded, {pipelineResult.FailedCount} failed",
-			cancellationToken
-		);
+			await Console.Out.WriteLineAsync(
+				$"SACD processing completed: {pipelineResult.SucceededCount} succeeded, {pipelineResult.FailedCount} failed",
+				cancellationToken
+			);
+
+		if (pipelineResult.GuardFailedDiscs.Count > 0)
+		{
+			await Console.Out.WriteLineAsync("Guard-failed discs:", cancellationToken);
+			foreach (var disc in pipelineResult.GuardFailedDiscs)
+				await Console.Out.WriteLineAsync($"  - {disc}", cancellationToken);
+		}
 
 		if (pipelineResult.RecoverableErrors.Count > 0)
 		{

@@ -215,11 +215,10 @@ public class YouTubePlaylistOrchestrator(
 						?? false
 					)
 				)
-				.Take(20),
 		];
 
 		Telemetry.Info(
-			"Sorting {BatchSize}/{Total} playlists (batch mode)",
+			"Sorting {Count}/{Total} unsorted playlists",
 			prioritizedIds.Count,
 			allPlaylistIds.Count
 		);

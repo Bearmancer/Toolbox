@@ -40,18 +40,4 @@ public sealed class PathValidator
 
 		return fullPath;
 	}
-
-	public ErrorOr<string> ValidateContainedPath(string basePath, string childPath)
-	{
-		var fullBase = Path.GetFullPath(basePath);
-		var fullChild = Path.GetFullPath(childPath);
-
-		if (!fullChild.StartsWith(fullBase, StringComparison.OrdinalIgnoreCase))
-			return Error.Validation(
-				"Audio.PathTraversal",
-				$"Output path escapes base directory: {childPath}"
-			);
-
-		return fullChild;
-	}
 }

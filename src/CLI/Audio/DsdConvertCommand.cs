@@ -73,78 +73,108 @@ internal sealed class DsdConvertCommand(
 			dsdProbe.Value.Channels
 		);
 
-		var gain = settings.GainDb ?? 0.0;
-
-		if (settings.GainDb is null)
+		var cleanDir = Path.Combine(Path.GetTempPath(), $"dsd_convert_{Guid.NewGuid():N}");
+		try
 		{
-			Telemetry.Info("Auto-detecting gain for {File}", inputPath);
-			ErrorOr<double> gainResult = await convertService.CalculateGainAsync(
+			ErrorOr<string> preparedDff = await convertService.PrepareDffAsync(
 				inputPath,
+				cleanDir,
 				cancellationToken
 			);
-			if (gainResult.IsError)
+			if (preparedDff.IsError)
 			{
-				await Console.Error.WriteLineAsync(
-					gainResult.Errors[0].Description,
-					cancellationToken
-				);
+				await Console.Error.WriteLineAsync(preparedDff.Errors[0].Description, cancellationToken);
 				return 1;
 			}
-			gain = gainResult.Value;
-		}
 
-		Telemetry.Info("Converting with gain {Gain:F2} dB", gain);
+			var conversionInputPath = preparedDff.Value;
+			var gain = settings.GainDb ?? 0.0;
+			DsdConversionSettings primary = DsdConversionSettings.ForDsdRate(
+				dsdProbe.Value.SampleRate,
+				settings.Format,
+				gain
+			).Primary;
 
-		(DsdConversionSettings primary, DsdConversionSettings? derived) =
-			DsdConversionSettings.ForDsdRate(dsdProbe.Value.SampleRate, settings.Format, gain);
+			if (settings.GainDb is null)
+			{
+				Telemetry.Info("Auto-detecting gain for {File}", inputPath);
+				ErrorOr<double> gainResult = await convertService.CalculateGainAsync(
+					conversionInputPath,
+					dsdProbe.Value,
+					primary,
+					cancellationToken
+				);
+				if (gainResult.IsError)
+				{
+					await Console.Error.WriteLineAsync(
+						gainResult.Errors[0].Description,
+						cancellationToken
+					);
+					return 1;
+				}
+				gain = gainResult.Value;
+			}
 
-		ErrorOr<ConversionResult> result = await convertService.ConvertFullDffAsync(
-			inputPath,
-			outputPath,
-			primary,
-			cancellationToken
-		);
+			Telemetry.Info("Converting with gain {Gain:F2} dB", gain);
 
-		if (result.IsError)
-		{
-			await Console.Error.WriteLineAsync(result.Errors[0].Description, cancellationToken);
-			return 1;
-		}
+			(DsdConversionSettings finalPrimary, DsdConversionSettings? derived) =
+				DsdConversionSettings.ForDsdRate(dsdProbe.Value.SampleRate, settings.Format, gain);
+			primary = finalPrimary;
 
-		if (derived is not null)
-		{
-			var derivedPath =
-				Path.ChangeExtension(outputPath, null) + $" [16-bit {derived.SampleRate}].flac";
-			Telemetry.Info("Deriving 16-bit: {File}", Path.GetFileName(derivedPath));
-
-			ErrorOr<ConversionResult> deriveResult = await convertService.DeriveFlacAsync(
+			ErrorOr<ConversionResult> result = await convertService.ConvertFullDffAsync(
+				conversionInputPath,
 				outputPath,
-				derivedPath,
-				derived.SampleRate,
+				primary,
+				dsdProbe.Value,
 				cancellationToken
 			);
-			if (deriveResult.IsError)
-				Telemetry.Warn("Derive failed: {Error}", deriveResult.Errors[0].Description);
-		}
 
-		if (settings.CopyTags)
-		{
-			ErrorOr<TrackMetadata> metaResult = metadataService.ReadDsdMetadata(inputPath);
-			if (!metaResult.IsError)
+			if (result.IsError)
 			{
-				ErrorOr<Success> tagResult = metadataService.WriteFlacTags(
-					outputPath,
-					metaResult.Value
-				);
-				if (tagResult.IsError)
-					Telemetry.Warn("Tagging failed: {Error}", tagResult.Errors[0].Description);
+				await Console.Error.WriteLineAsync(result.Errors[0].Description, cancellationToken);
+				return 1;
 			}
-		}
 
-		await Console.Out.WriteLineAsync(
-			$"Converted: {inputPath} → {outputPath} ({result.Value.FileSizeBytes / 1024 / 1024} MB)",
-			cancellationToken
-		);
-		return 0;
+			if (derived is not null)
+			{
+				var derivedPath =
+					Path.ChangeExtension(outputPath, null) + $" [16-bit {derived.SampleRate}].flac";
+				Telemetry.Info("Deriving 16-bit: {File}", Path.GetFileName(derivedPath));
+
+				ErrorOr<ConversionResult> deriveResult = await convertService.DeriveFlacAsync(
+					outputPath,
+					derivedPath,
+					derived.SampleRate,
+					cancellationToken
+				);
+				if (deriveResult.IsError)
+					Telemetry.Warn("Derive failed: {Error}", deriveResult.Errors[0].Description);
+			}
+
+			if (settings.CopyTags)
+			{
+				ErrorOr<TrackMetadata> metaResult = metadataService.ReadDsdMetadata(inputPath);
+				if (!metaResult.IsError)
+				{
+					ErrorOr<Success> tagResult = metadataService.WriteFlacTags(
+						outputPath,
+						metaResult.Value
+					);
+					if (tagResult.IsError)
+						Telemetry.Warn("Tagging failed: {Error}", tagResult.Errors[0].Description);
+				}
+			}
+
+			await Console.Out.WriteLineAsync(
+				$"Converted: {inputPath} → {outputPath} ({result.Value.FileSizeBytes / 1024 / 1024} MB)",
+				cancellationToken
+			);
+			return 0;
+		}
+		finally
+		{
+			if (Directory.Exists(cleanDir))
+				Directory.Delete(cleanDir, recursive: true);
+		}
 	}
 }

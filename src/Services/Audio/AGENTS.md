@@ -7,7 +7,9 @@ SACD ISO extraction and DSD→FLAC conversion pipeline.
 ```
 Audio/
 ├── AudioSetup.cs              # DI: extension AddAudioServices(), PATH validation for saracon/sox/sacd_extract
-├── PipelineOrchestrator.cs    # Pure orchestration: ISO enumeration, extraction, format routing, cleanup. 5 deps
+├── PipelineOrchestrator.cs    # Pure orchestration: ISO enumeration, extraction, format routing, cleanup. 6 deps
+├── DiscOutputInspector.cs     # Disc assessment: CUE/FLAC/DFF probing, resume state detection
+├── FlacCompletenessChecker.cs # Duration validation, FLAC-by-track mapping, DFF dir resolution
 ├── ProcessRunner.cs           # Shared external process abstraction: ArgumentList, concurrent stdout/stderr, CancellationToken
 ├── PathValidator.cs           # Path traversal protection, input/output validation, containment checks
 ├── DiskSpaceChecker.cs        # Pre-flight disk space checks (4x extraction, 8x conversion)
@@ -32,6 +34,7 @@ Audio/
 | Add metadata field        | `DsdConvertService.cs`                      | Metadata tagging handled inside ConvertAndSplitAsync       |
 | Change binary paths       | `AudioSetup.cs`                             | PATH validation at DI registration. No env vars.           |
 | Modify pipeline logic     | `PipelineOrchestrator.cs`                   | ISO enumeration, extraction, format routing, cleanup       |
+| Disc resume/assessment   | `DiscOutputInspector.cs`                    | CUE/FLAC/DFF probing, duration checks, resume state       |
 | Add pre-flight check      | `PathValidator.cs` or `DiskSpaceChecker.cs` | Validation before pipeline starts                           |
 
 ## CONVENTIONS
@@ -39,6 +42,7 @@ Audio/
 - **CUE parsing:** Custom parser, no external dependency. BOM detection + UTF-8 heuristic + Windows-1252 fallback.
 - **ProcessRunner:** Shared abstraction for all external binary calls. ArgumentList only, concurrent stdout/stderr, CancellationToken ALWAYS.
 - **PipelineOrchestrator:** Pure orchestration. ISO enumeration, extraction, format routing, cleanup. Calls ONLY DsdConvertService for conversion, never SaraconService/SoxService directly.
+- **DiscOutputInspector:** Disc state assessment. CUE parsing, FLAC enumeration, DFF probing, duration validation. Returns DiscAssessment for orchestrator routing decisions.
 - **PathValidator:** Path traversal protection. Input/output validation. Containment checks.
 - **DiskSpaceChecker:** Pre-flight disk space checks. 4x ISO size for extraction, 8x for conversion, 500MB safety margin.
 - **SaraconService/SoxService:** Internal dependencies of DsdConvertService. Thin binary wrappers via ProcessRunner. Not called by PipelineOrchestrator directly.
@@ -71,3 +75,14 @@ All binaries (saracon, sox, sacd_extract) resolved from PATH. Validated eagerly 
 7. ATL.NET → tag FLACs (inside ConvertAndSplitAsync)
 8. Delete intermediate WAV (inside ConvertAndSplitAsync)
 9. Optional: DsdConvertService.DeriveDirectoryAsync → 16-bit FLACs
+
+## ARTIFACT OWNERSHIP
+
+| Artifact | Success | Failure / cancellation |
+|---|---|---|
+| ISO | delete only if `--keep-iso` absent **and** all outputs validate | retain |
+| CUE | retain | **retain — never deleted** |
+| DFF / `_clean.dff` | delete after full output validation | retain or quarantine |
+| FLAC | retain | delete only for a deliberate re-split, logged |
+| Master PCM | best-effort delete in `finally` | never masks the primary error |
+| Temp files | run-owned unique path, publish on success | remove run-owned only |

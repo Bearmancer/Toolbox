@@ -12,8 +12,22 @@ public sealed class DsdConvertService(
 )
 {
 	private const double TargetHeadroomDb = -0.5;
-	private const int ProbeSampleRate = 88200;
-	private const int ProbeBitDepth = 24;
+
+	public async Task<ErrorOr<string>> PrepareDffAsync(
+		string dffFilePath,
+		string outputDir,
+		CancellationToken ct = default
+	)
+	{
+		if (!DffMetadataStripper.HasId3Chunk(dffFilePath))
+			return dffFilePath;
+
+		Telemetry.Warn(
+			"Saracon.Id3Detected input={Input} — stripping before conversion",
+			Path.GetFileName(dffFilePath)
+		);
+		return await DffMetadataStripper.StripId3TagsAsync(dffFilePath, outputDir, ct);
+	}
 
 	public async Task<ErrorOr<DsdProbeResult>> ProbeDsdAsync(
 		string dffFilePath,
@@ -118,28 +132,37 @@ public sealed class DsdConvertService(
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
-			Telemetry.Error("DsdConvert.ProbeFailed file={File}: {Error}", dffFilePath, ex.Message);
+			Telemetry.Error("DsdConvert.ProbeFailed file={File}: {Error}", LogPaths.Format(dffFilePath), ex.Message);
 			return Errors.Audio.ProbeFailed(dffFilePath, ex.Message);
 		}
 	}
 
 	public async Task<ErrorOr<double>> CalculateGainAsync(
 		string dffFilePath,
+		DsdProbeResult probe,
+		DsdConversionSettings settings,
 		CancellationToken ct = default
 	)
 	{
-		Telemetry.Debug("DsdConvert.GainCalcStart file={File}", Path.GetFileName(dffFilePath));
+		Telemetry.Debug(
+			"DsdConvert.GainCalcStart file={File} rate={Rate} bitDepth={BitDepth}",
+			Path.GetFileName(dffFilePath),
+			settings.SampleRate,
+			settings.BitDepth
+		);
 
-		var tempDir = Path.Combine(Path.GetTempPath(), $"gain_probe_{Guid.NewGuid():N}");
+		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"gain_probe_{Guid.NewGuid():N}");
 
 		try
 		{
 			ErrorOr<string> convertResult = await saracon.ConvertDsdToPcmAsync(
 				dffFilePath,
 				tempDir,
-				ProbeSampleRate,
-				ProbeBitDepth,
-				0.0,
+				settings.SampleRate,
+				settings.BitDepth,
+				settings.GainDb,
+				probe.SampleRate,
+				probe.Channels,
 				null,
 				ct
 			);
@@ -154,8 +177,10 @@ public sealed class DsdConvertService(
 			var finalGain = Math.Min(gain, 6.0);
 
 			Telemetry.Debug(
-				"DsdConvert.GainCalcComplete file={File} peak={Peak}dB gain={Gain}dB",
+				"DsdConvert.GainCalcComplete file={File} rate={Rate} bitDepth={BitDepth} peak={Peak}dB gain={Gain}dB",
 				Path.GetFileName(dffFilePath),
+				settings.SampleRate,
+				settings.BitDepth,
 				peakResult.Value,
 				finalGain
 			);
@@ -164,8 +189,15 @@ public sealed class DsdConvertService(
 		}
 		finally
 		{
-			if (Directory.Exists(tempDir))
-				Directory.Delete(tempDir, recursive: true);
+			try
+			{
+				if (Directory.Exists(tempDir))
+					Directory.Delete(tempDir, recursive: true);
+			}
+			catch (Exception ex)
+			{
+				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
+			}
 		}
 	}
 
@@ -174,73 +206,101 @@ public sealed class DsdConvertService(
 		string outputDir,
 		CueSheet cue,
 		DsdConversionSettings settings,
+		DsdProbeResult probe,
 		CancellationToken ct = default
 	)
 	{
-		ErrorOr<string> masterResult = await saracon.ConvertDsdToPcmAsync(
-			dffFile,
-			outputDir,
-			settings.SampleRate,
-			settings.BitDepth,
-			settings.GainDb,
-			null,
-			ct
-		);
-		if (masterResult.IsError)
-			return masterResult.Errors;
-
-		var masterPcm = masterResult.Value;
-		List<string> outputFiles = [];
-		List<string> errors = [];
-
-		foreach (CueTrack track in cue.Tracks)
+		string? masterPcm = null;
+		try
 		{
-			var trackNum = track.TrackNumber.ToString("D2");
-			var safeTitle = SanitizeFilename(track.Title);
-			var outputFlac = Path.Combine(outputDir, $"{trackNum}. {safeTitle}.flac");
-
-			ErrorOr<string> splitResult = await sox.SplitTrackAsync(
-				masterPcm,
-				outputFlac,
-				track.StartTime,
-				track.Duration,
+			ErrorOr<string> masterResult = await saracon.ConvertDsdToPcmAsync(
+				dffFile,
+				outputDir,
+				settings.SampleRate,
+				settings.BitDepth,
+				settings.GainDb,
+				probe.SampleRate,
+				probe.Channels,
+				null,
 				ct
 			);
+			if (masterResult.IsError)
+				return masterResult.Errors;
 
-			if (splitResult.IsError)
+			masterPcm = masterResult.Value;
+			List<string> outputFiles = [];
+
+			foreach (CueTrack track in cue.Tracks)
 			{
-				errors.Add(splitResult.Errors[0].Description);
-				continue;
+				var trackNum = track.TrackNumber.ToString("D2");
+				var safeTitle = SanitizeFilename(track.Title);
+				var outputFlac = Path.Combine(outputDir, $"{trackNum}. {safeTitle}.flac");
+
+				ErrorOr<string> splitResult = await sox.SplitTrackAsync(
+					masterPcm,
+					outputFlac,
+					track.StartTime,
+					track.Duration,
+					ct
+				);
+
+				if (splitResult.IsError)
+					continue;
+
+				outputFiles.Add(outputFlac);
+
+				ErrorOr<Success> tagResult = metadata.CopyMetadataFromCue(outputFlac, cue, track);
+				if (tagResult.IsError)
+					Telemetry.Warn(
+						"Tagging failed for {File}: {Error}",
+						outputFlac,
+						tagResult.Errors[0].Description
+					);
 			}
 
-			outputFiles.Add(outputFlac);
-
-			ErrorOr<Success> tagResult = metadata.CopyMetadataFromCue(outputFlac, cue, track);
-			if (tagResult.IsError)
-				Telemetry.Warn(
-					"Tagging failed for {File}: {Error}",
-					outputFlac,
-					tagResult.Errors[0].Description
+			if (outputFiles.Count < cue.Tracks.Count)
+			{
+				List<int> missing = [.. cue.Tracks
+					.Where(t => !outputFiles.Any(f =>
+						Path.GetFileName(f).StartsWith(
+							$"{t.TrackNumber:D2}. ",
+							StringComparison.Ordinal
+						)))
+					.Select(t => t.TrackNumber)];
+				return Errors.Audio.ConversionFailed(
+					dffFile,
+					$"Incomplete conversion: missing tracks {string.Join(", ", missing)}"
 				);
+			}
+
+			return outputFiles;
 		}
-
-		if (File.Exists(masterPcm))
-			File.Delete(masterPcm);
-
-		if (errors.Count == cue.Tracks.Count)
-			return Errors.Audio.ConversionFailed(dffFile, "All tracks failed conversion.");
-
-		return outputFiles;
+		finally
+		{
+			if (masterPcm is not null)
+			{
+				try
+				{
+					if (File.Exists(masterPcm))
+						File.Delete(masterPcm);
+				}
+				catch (Exception ex)
+				{
+					Telemetry.Warn("DsdConvert.MasterCleanupFailed file={File} error={Error}", LogPaths.Format(masterPcm), ex.Message);
+				}
+			}
+		}
 	}
 
 	public async Task<ErrorOr<ConversionResult>> ConvertFullDffAsync(
 		string inputDff,
 		string outputFlac,
 		DsdConversionSettings settings,
+		DsdProbeResult probe,
 		CancellationToken ct = default
 	)
 	{
-		var tempDir = Path.Combine(Path.GetTempPath(), $"saracon_{Guid.NewGuid():N}");
+		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"saracon_{Guid.NewGuid():N}");
 
 		try
 		{
@@ -250,6 +310,8 @@ public sealed class DsdConvertService(
 				settings.SampleRate,
 				settings.BitDepth,
 				settings.GainDb,
+				probe.SampleRate,
+				probe.Channels,
 				null,
 				ct
 			);
@@ -274,8 +336,15 @@ public sealed class DsdConvertService(
 		}
 		finally
 		{
-			if (Directory.Exists(tempDir))
-				Directory.Delete(tempDir, recursive: true);
+			try
+			{
+				if (Directory.Exists(tempDir))
+					Directory.Delete(tempDir, recursive: true);
+			}
+			catch (Exception ex)
+			{
+				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
+			}
 		}
 	}
 
@@ -303,35 +372,6 @@ public sealed class DsdConvertService(
 		fileInfo.Refresh();
 
 		return new ConversionResult(outputFlac, durationResult.Value, fileInfo.Length);
-	}
-
-	public async Task<ErrorOr<Success>> DeriveDirectoryAsync(
-		string sourceDir,
-		string derivedDir,
-		int targetSampleRate,
-		CancellationToken ct = default
-	)
-	{
-		Directory.CreateDirectory(derivedDir);
-
-		foreach (var flac in Directory.GetFiles(sourceDir, "*.flac"))
-		{
-			var dest = Path.Combine(derivedDir, Path.GetFileName(flac));
-			ErrorOr<string> deriveResult = await sox.DeriveFlacAsync(
-				flac,
-				dest,
-				targetSampleRate,
-				ct
-			);
-			if (deriveResult.IsError)
-				Telemetry.Warn(
-					"Derive failed for {File}: {Error}",
-					flac,
-					deriveResult.Errors[0].Description
-				);
-		}
-
-		return Result.Success;
 	}
 
 	private static string SanitizeFilename(string name)

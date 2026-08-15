@@ -154,6 +154,8 @@ internal sealed class SacdProbeRunner(SaraconService saracon)
 			88200,
 			24,
 			0.0,
+			2822400,
+			2,
 			ct: ct
 		);
 		sw.Stop();

@@ -15,6 +15,7 @@ public static class AudioSetup
 			services.AddSingleton<ProcessRunner>();
 			services.AddSingleton<PathValidator>();
 			services.AddSingleton<DiskSpaceChecker>();
+			services.AddSingleton<SacdProbeService>();
 			services.AddSingleton(sp => new SacdExtractService(
 				sp.GetRequiredService<ProcessRunner>(),
 				"sacd_extract"
@@ -30,6 +31,8 @@ public static class AudioSetup
 			services.AddSingleton<DsdConvertService>();
 			services.AddSingleton<AudioMetadataService>();
 			services.AddSingleton<CueParser>();
+			services.AddSingleton<FlacCompletenessChecker>();
+			services.AddSingleton<DiscOutputInspector>();
 			services.AddSingleton<PipelineOrchestrator>();
 		}
 	}

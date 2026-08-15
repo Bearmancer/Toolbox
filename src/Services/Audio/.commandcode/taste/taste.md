@@ -1,0 +1,12 @@
+- Prefers broad, repository-wide design assessments that inspect all files rather than narrowly reviewing a single component. Confidence: 0.95
+- Wants god methods and god classes analyzed as distinct categories, alongside separation-of-concerns and Single Responsibility Principle violations. Confidence: 0.98
+- Values general architectural/design-quality review in addition to isolated code-smell identification. Confidence: 0.9
+- Prefers using a brainstorming-oriented workflow for ambiguous architecture and design assessments. Confidence: 0.95
+- Prefers extremely terse, plain-language “caveman” communication. Confidence: 1.0
+- Expects god methods to be prevented and the Single Responsibility Principle to be enforced as default design constraints. Confidence: 1.0
+- For .NET work, does not want test packages, repository abstractions, or additional projects/modules; standalone test files are acceptable. Confidence: 1.0
+- Prefers maximizing concrete QA/tool usage over presenting many vague options. Confidence: 1.0
+- When options are presented, expects each option to include concrete pros, cons, and detailed explanations. Confidence: 1.0
+- Never wants comments added to code, documentation, tests, plans, or other generated files unless explicitly requested for a specific item. Confidence: 1.0
+- Wants plans to be evidence-driven and state-based, showing the current failure first when possible, then implementing until aggressive automated QA gates pass. Confidence: 1.0
+- Treats build, tests, type checks, lint, analyzers, and relevant verification commands as hard completion gates; does not want completion declared while any applicable gate fails. Confidence: 1.0

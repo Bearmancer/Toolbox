@@ -8,5 +8,6 @@
 		<PackageReference Include="Serilog.Sinks.Spectre" />
 		<PackageReference Include="SerilogTracing" />
 		<PackageReference Include="Spectre.Console" />
+		<PackageReference Include="SSH.NET" />
 	</ItemGroup>
 </Project>

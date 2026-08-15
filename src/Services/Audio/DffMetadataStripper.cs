@@ -1,18 +1,15 @@
 using System.Buffers.Binary;
+using System.Text;
 using Core;
 
 namespace Services.Audio;
 
 using ErrorOr;
 
-/// <summary>
-/// Strips ID3v2 metadata chunks from DSDIFF (.dff) files.
-/// Saracon's wxWidgets GUI throws "Cannot convert from the charset 'Unknown encoding (-1)'!"
-/// when it encounters corrupted or non-standard ID3v2 encoding bytes embedded in DFF files.
-/// </summary>
 public static class DffMetadataStripper
 {
-	private const string Id3ChunkId = "ID3 ";
+	private const int HeaderSize = 12, DffHeaderSize = 16;
+	private const string FormId = "FRM8", FormType = "DSD ", Id3ChunkId = "ID3 ", PropChunkId = "PROP";
 
 	public static bool HasId3Chunk(string dffPath)
 	{
@@ -21,55 +18,18 @@ public static class DffMetadataStripper
 
 		try
 		{
-			using FileStream stream = File.OpenRead(dffPath);
-			if (stream.Length < 12)
-				return false;
-
-			var magicBuf = new byte[4];
-			stream.ReadExactly(magicBuf, 0, 4);
-			if (System.Text.Encoding.ASCII.GetString(magicBuf) != "FRM8")
-				return false;
-
-			// DSDIFF header is magic(4) + size(8) + form type(4) = 16 bytes before
-			// the first real chunk. Seeking to 12 (as the pre-merge master version
-			// did) reads the form type ("DSD ") as if it were a chunk ID and
-			// desyncs every chunk boundary after it.
-			stream.Seek(16, SeekOrigin.Begin);
-
-			while (stream.Position < stream.Length - 12)
-			{
-				var chunkIdBuf = new byte[4];
-				stream.ReadExactly(chunkIdBuf, 0, 4);
-				var chunkId = System.Text.Encoding.ASCII.GetString(chunkIdBuf);
-				var chunkSize = BinaryPrimitives.ReadUInt64BigEndian(ReadBytes(stream, 8));
-
-				if (chunkId == Id3ChunkId)
-					return true;
-
-				var skip = (long)chunkSize;
-				if (skip <= 0)
-					break; // malformed: zero-size chunk mid-walk
-				if (skip % 2 != 0)
-					skip++;
-				if (stream.Position + skip > stream.Length)
-					break; // miscoded size: bound by EOF
-				stream.Seek(skip, SeekOrigin.Current);
-			}
+			using FileStream input = File.OpenRead(dffPath);
+			return ScanAsync(input, CancellationToken.None).GetAwaiter().GetResult();
 		}
 		catch (Exception ex)
 		{
-			// Rethrow deliberately: swallowing here (as the pre-merge master
-			// version did, returning false) would let a corrupt/unreadable DFF
-			// pass through unstripped and straight into Saracon.
 			Telemetry.Error(
-				"DffMetadataStripper.HasId3Chunk failed for {File}: {Error}",
-				dffPath,
+				"DffMetadataStripper.ScanFailed file={File} error={Error}",
+				LogPaths.Format(dffPath),
 				ex.Message
 			);
 			throw;
 		}
-
-		return false;
 	}
 
 	public static async Task<ErrorOr<string>> StripId3TagsAsync(
@@ -78,127 +38,248 @@ public static class DffMetadataStripper
 		CancellationToken ct = default
 	)
 	{
-		if (!HasId3Chunk(dffPath))
-			return dffPath;
-
 		var cleanPath = Path.Combine(
 			outputDir,
 			Path.GetFileNameWithoutExtension(dffPath) + "_clean.dff"
 		);
+		var outputCreated = false;
+		var completed = false;
 
 		try
 		{
 			await using FileStream input = File.OpenRead(dffPath);
-			await using FileStream output = File.Create(cleanPath);
+			var hasId3 = await ScanAsync(input, ct);
+			if (!hasId3)
+				return dffPath;
 
-			if (input.Length < 12)
-				return Errors.Audio.ConversionFailed(dffPath, "File too small to be valid DSDIFF");
+			Directory.CreateDirectory(outputDir);
+			await using FileStream output = new(
+				cleanPath,
+				FileMode.Create,
+				FileAccess.ReadWrite,
+				FileShare.None,
+				81920,
+				FileOptions.Asynchronous | FileOptions.SequentialScan
+			);
+			outputCreated = true;
 
-			await CopyBytes(input, output, 12, ct);
+			input.Position = 0;
+			var dffHeader = await ReadExactlyAsync(input, DffHeaderSize, ct);
+			await output.WriteAsync(dffHeader, ct);
+			input.Position = DffHeaderSize;
+			await CopyChunksAsync(input, output, input.Length, ct);
 
-			while (input.Position < input.Length - 12)
-			{
-				var chunkIdBuf = new byte[4];
-				await ReadExact(input, chunkIdBuf, ct);
-				var chunkId = System.Text.Encoding.ASCII.GetString(chunkIdBuf);
-				var chunkSize = BinaryPrimitives.ReadUInt64BigEndian(ReadBytesFromStream(input, 8));
+			var outputDataSize = output.Length - HeaderSize;
+			if ((outputDataSize & 1) != 0)
+				throw new InvalidDataException("Filtered DFF length is not even");
 
-				if (chunkId != Id3ChunkId)
-				{
-					await WriteBytes(output, chunkIdBuf, ct);
-					await WriteBytes(output, chunkSize, ct);
-					await CopyBytes(input, output, (long)chunkSize, ct);
+			output.Position = 4;
+			var sizeBytes = new byte[8];
+			BinaryPrimitives.WriteUInt64BigEndian(sizeBytes, checked((ulong)outputDataSize));
+			await output.WriteAsync(sizeBytes, ct);
+			await output.FlushAsync(ct);
 
-					if (chunkSize % 2 != 0 && input.Position < input.Length)
-						await CopyBytes(input, output, 1, ct);
-				}
-				else
-				{
-					Telemetry.Debug(
-						"DffMetadataStripper.SkippedId3 size={Size}KB",
-						chunkSize / 1024.0
-					);
-					var skip = (long)chunkSize;
-					if (skip % 2 != 0)
-						skip++;
-					input.Seek(skip, SeekOrigin.Current);
-				}
-			}
+			output.Position = 4;
+			var writtenSize = BinaryPrimitives.ReadUInt64BigEndian(
+				await ReadExactlyAsync(output, 8, ct)
+			);
+			if (writtenSize != (ulong)outputDataSize)
+				throw new InvalidDataException("Filtered DFF FRM8 size does not match output length");
 
 			Telemetry.Debug(
-				"DffMetadataStripper.Complete input={Input} clean={Clean} size={Size}MB",
+				"DffMetadataStripper.Completed input={Input} clean={Clean} inputBytes={InputBytes} outputBytes={OutputBytes}",
 				Path.GetFileName(dffPath),
 				Path.GetFileName(cleanPath),
-				new FileInfo(cleanPath).Length / 1_048_576.0
+				input.Length,
+				output.Length
 			);
-
+			completed = true;
 			return cleanPath;
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
-			// Restored: dropped in repro's version, present on master. Without it,
-			// a strip failure deletes the partial file and returns an ErrorOr with
-			// no corresponding log line, which is a gap when diagnosing a failed run.
 			Telemetry.Error(
-				"DffMetadataStripper.StripFailed file={File}: {Error}",
-				dffPath,
+				"DffMetadataStripper.StripFailed file={File} error={Error}",
+				LogPaths.Format(dffPath),
 				ex.Message
 			);
-			if (File.Exists(cleanPath))
-				File.Delete(cleanPath);
 			return Errors.Audio.ConversionFailed(dffPath, $"ID3 strip failed: {ex.Message}");
+		}
+		finally
+		{
+			if (outputCreated && !completed)
+			{
+				try
+				{
+					File.Delete(cleanPath);
+				}
+				catch (Exception cleanupError)
+				{
+					Telemetry.Error(
+						"DffMetadataStripper.CleanupFailed file={File} error={Error}",
+						LogPaths.Format(cleanPath),
+						cleanupError.Message
+					);
+				}
+			}
 		}
 	}
 
-	private static async Task CopyBytes(
-		Stream input,
-		Stream output,
-		long count,
-		CancellationToken ct
-	)
+	private static async Task<bool> ScanAsync(Stream input, CancellationToken ct)
+	{
+		if (input.Length < DffHeaderSize)
+			throw new InvalidDataException("File too small to be valid DSDIFF");
+
+		var header = await ReadExactlyAsync(input, DffHeaderSize, ct);
+		ValidateDffHeader(header, input.Length);
+		return await ScanChunksAsync(input, input.Length, ct);
+	}
+
+	private static async Task<bool> ScanChunksAsync(Stream input, long end, CancellationToken ct)
+	{
+		var found = false;
+		while (input.Position < end)
+		{
+			Chunk chunk = await ReadChunkAsync(input, end, ct);
+			if (chunk.Id == Id3ChunkId)
+			{
+				found = true;
+				input.Position = chunk.End;
+				continue;
+			}
+
+			if (chunk.Id == PropChunkId)
+			{
+				if (chunk.Size < 4)
+					throw new InvalidDataException("PROP chunk is missing property type");
+
+				input.Position += 4;
+				found |= await ScanChunksAsync(input, chunk.DataEnd, ct);
+			}
+
+			input.Position = chunk.End;
+		}
+
+		if (input.Position != end)
+			throw new InvalidDataException("DSDIFF chunk walk did not end on a chunk boundary");
+
+		return found;
+	}
+
+	private static async Task CopyChunksAsync(Stream input, Stream output, long end, CancellationToken ct)
+	{
+		while (input.Position < end)
+		{
+			var headerPosition = input.Position;
+			Chunk chunk = await ReadChunkAsync(input, end, ct);
+			if (chunk.Id == Id3ChunkId)
+			{
+				Telemetry.Debug(
+					"DffMetadataStripper.Id3ChunkSkipped offset={Offset} sizeBytes={SizeBytes}",
+					headerPosition,
+					chunk.Size
+				);
+				input.Position = chunk.End;
+				continue;
+			}
+
+			if (chunk.Id != PropChunkId)
+			{
+				input.Position = headerPosition;
+				await CopyBytesAsync(input, output, chunk.End - headerPosition, ct);
+				continue;
+			}
+
+			if (chunk.Size < 4)
+				throw new InvalidDataException("PROP chunk is missing property type");
+
+			var outputHeaderPosition = output.Position;
+			await WriteChunkHeaderAsync(output, chunk.Id, chunk.Size, ct);
+			input.Position = chunk.DataStart;
+			await CopyBytesAsync(input, output, 4, ct);
+			await CopyChunksAsync(input, output, chunk.DataEnd, ct);
+			var outputSize = output.Position - outputHeaderPosition - HeaderSize;
+			if ((outputSize & 1) != 0)
+				throw new InvalidDataException("Filtered PROP chunk length is not even");
+
+			var endPosition = output.Position;
+			output.Position = outputHeaderPosition + 4;
+			var sizeBytes = new byte[8];
+			BinaryPrimitives.WriteUInt64BigEndian(sizeBytes, checked((ulong)outputSize));
+			await output.WriteAsync(sizeBytes, ct);
+			output.Position = endPosition;
+			input.Position = chunk.End;
+		}
+
+		if (input.Position != end)
+			throw new InvalidDataException("DSDIFF chunk copy did not end on a chunk boundary");
+	}
+
+	private static async Task<Chunk> ReadChunkAsync(Stream input, long end, CancellationToken ct)
+	{
+		if (end - input.Position < HeaderSize)
+			throw new InvalidDataException("DSDIFF chunk header is truncated");
+
+		var header = await ReadExactlyAsync(input, HeaderSize, ct);
+		var id = Encoding.ASCII.GetString(header, 0, 4);
+		var size = BinaryPrimitives.ReadUInt64BigEndian(header.AsSpan(4, 8));
+		var dataEnd = checked(input.Position + (long)size);
+		var endPosition = checked(dataEnd + (long)(size & 1));
+		if (endPosition > end)
+			throw new InvalidDataException($"DSDIFF chunk {id} exceeds its parent boundary");
+
+		return new Chunk(id, size, input.Position, dataEnd, endPosition);
+	}
+
+	private static void ValidateDffHeader(byte[] header, long length)
+	{
+		if (Encoding.ASCII.GetString(header, 0, 4) != FormId)
+			throw new InvalidDataException("DSDIFF file does not start with FRM8");
+		if (Encoding.ASCII.GetString(header, 12, 4) != FormType)
+			throw new InvalidDataException("DSDIFF FRM8 form type is not DSD");
+
+		var declaredSize = BinaryPrimitives.ReadUInt64BigEndian(header.AsSpan(4, 8));
+		if (declaredSize != (ulong)(length - HeaderSize))
+			throw new InvalidDataException("DSDIFF FRM8 size does not match source length");
+	}
+
+	private static async Task<byte[]> ReadExactlyAsync(Stream input, int count, CancellationToken ct)
+	{
+		var buffer = new byte[count];
+		var offset = 0;
+		while (offset < count)
+		{
+			var read = await input.ReadAsync(buffer.AsMemory(offset, count - offset), ct);
+			if (read == 0)
+				throw new EndOfStreamException($"Expected {count} bytes, got {offset}");
+			offset += read;
+		}
+
+		return buffer;
+	}
+
+	private static async Task CopyBytesAsync(Stream input, Stream output, long count, CancellationToken ct)
 	{
 		var buffer = new byte[81920];
 		var remaining = count;
 		while (remaining > 0)
 		{
-			ct.ThrowIfCancellationRequested();
-			var toRead = (int)Math.Min(buffer.Length, remaining);
-			var read = await input.ReadAsync(buffer.AsMemory(0, toRead), ct);
+			var requested = (int)Math.Min(buffer.Length, remaining);
+			var read = await input.ReadAsync(buffer.AsMemory(0, requested), ct);
 			if (read == 0)
-				break;
+				throw new EndOfStreamException($"Expected {count} bytes while copying, got {count - remaining}");
 			await output.WriteAsync(buffer.AsMemory(0, read), ct);
 			remaining -= read;
 		}
 	}
 
-	private static byte[] ReadBytes(Stream stream, int count)
+	private static async Task WriteChunkHeaderAsync(Stream output, string id, ulong size, CancellationToken ct)
 	{
-		var buf = new byte[count];
-		stream.ReadExactly(buf, 0, count);
-		return buf;
+		var header = new byte[HeaderSize];
+		Encoding.ASCII.GetBytes(id, header.AsSpan(0, 4));
+		BinaryPrimitives.WriteUInt64BigEndian(header.AsSpan(4, 8), size);
+		await output.WriteAsync(header, ct);
 	}
 
-	private static async Task ReadExact(Stream stream, byte[] buffer, CancellationToken ct)
-	{
-		var read = await stream.ReadAsync(buffer.AsMemory(), ct);
-		if (read != buffer.Length)
-			throw new IOException($"Expected {buffer.Length} bytes, got {read}");
-	}
-
-	private static async Task WriteBytes(Stream stream, byte[] data, CancellationToken ct) =>
-		await stream.WriteAsync(data.AsMemory(), ct);
-
-	private static async Task WriteBytes(Stream stream, ulong value, CancellationToken ct)
-	{
-		var buf = new byte[8];
-		BinaryPrimitives.WriteUInt64BigEndian(buf, value);
-		await stream.WriteAsync(buf.AsMemory(), ct);
-	}
-
-	private static byte[] ReadBytesFromStream(Stream stream, int count)
-	{
-		var buf = new byte[count];
-		stream.ReadExactly(buf, 0, count);
-		return buf;
-	}
+	private sealed record Chunk(string Id, ulong Size, long DataStart, long DataEnd, long End);
 }

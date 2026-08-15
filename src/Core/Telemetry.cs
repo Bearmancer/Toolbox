@@ -18,11 +18,14 @@ public static class Telemetry
 		LevelSwitch = new LoggingLevelSwitch(level);
 
 		LoggerConfiguration? config = new LoggerConfiguration()
-			.MinimumLevel.ControlledBy(LevelSwitch)
+			.MinimumLevel.Verbose()
 			.Enrich.FromLogContext()
-			.WriteTo.Spectre("{Timestamp:HH:mm:ss} [{Level:u4}] {Message:lj}{NewLine}{Exception}");
+			.WriteTo.Logger(lc =>
+				lc.MinimumLevel.ControlledBy(LevelSwitch)
+					.WriteTo.Spectre("{Timestamp:HH:mm:ss} [{Level:u4}] {Message:lj}{NewLine}{Exception}")
+			);
 
-		var logDir = Path.Combine(PathResolver.RepoRoot, "logs");
+		var logDir = Path.Combine(PathResolver.RepoRoot, "state", "logs");
 		Directory.CreateDirectory(logDir);
 
 		foreach (ServiceName service in Enum.GetValues<ServiceName>())
@@ -46,7 +49,8 @@ public static class Telemetry
 	)
 	{
 		_ = config.WriteTo.Logger(lc =>
-			lc.Filter.ByIncludingOnly(e =>
+			lc.MinimumLevel.Verbose()
+				.Filter.ByIncludingOnly(e =>
 					e.Properties.TryGetValue("Service", out LogEventPropertyValue? propValue)
 					&& propValue is ScalarValue sv
 					&& sv.Value is string serviceName

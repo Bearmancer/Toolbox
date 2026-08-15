@@ -9,6 +9,7 @@
 		<PackageReference Include="Microsoft.CognitiveServices.Speech" />
 		<PackageReference Include="Azure.Core" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+		<PackageReference Include="SSH.NET" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Core\Core.csproj" />

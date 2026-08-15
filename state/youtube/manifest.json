@@ -6,7 +6,10 @@
       "ETag": "U6MW3CvYDD5o4TVkZ24jDSY5oT4",
       "ReportedVideoCount": 18,
       "LastChecked": "2026-08-05T14:27:37.653794+00:00",
-      "LastUpdated": "2026-05-28T06:35:15.7605+00:00"
+      "LastUpdated": "2026-05-28T06:35:15.7605+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:45:58.2299262+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3": {
       "PlaylistId": "PL1zgNCoWt_7ajKEybpAJZ3PF8UC42ZNp3",
@@ -14,7 +17,10 @@
       "ETag": "8EODBMT7YZcK2OtQu_fAOx5-LsI",
       "ReportedVideoCount": 9,
       "LastChecked": "2026-06-24T13:23:57.746973+00:00",
-      "LastUpdated": "2026-05-02T22:57:05.93618+00:00"
+      "LastUpdated": "2026-05-02T22:57:05.93618+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:45:58.9445334+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7Z7CS7UZwMSgY0gotGGBPuK": {
       "PlaylistId": "PL1zgNCoWt_7Z7CS7UZwMSgY0gotGGBPuK",
@@ -22,7 +28,10 @@
       "ETag": "YVGEQMK6-YSr6bKzGXQJw-khYcI",
       "ReportedVideoCount": 446,
       "LastChecked": "2026-08-05T03:30:07.1311668+00:00",
-      "LastUpdated": "2026-04-26T16:54:52.88398+00:00"
+      "LastUpdated": "2026-04-26T16:54:52.88398+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:46:03.1184071+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7atkU5_AJBk0ud7-TlL7D3q": {
       "PlaylistId": "PL1zgNCoWt_7atkU5_AJBk0ud7-TlL7D3q",
@@ -30,7 +39,10 @@
       "ETag": "nxrAFbbFgfu0uBEgLkCBiRCYt0w",
       "ReportedVideoCount": 199,
       "LastChecked": "2026-06-24T13:23:57.7469753+00:00",
-      "LastUpdated": "2026-04-22T06:53:24.457642+00:00"
+      "LastUpdated": "2026-04-22T06:53:24.457642+00:00",
+      "LastSortMoves": 6,
+      "LastSortAttempted": "2026-08-14T03:46:15.7213159+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YmUaUYq3-uzgArf2R7FMn-": {
       "PlaylistId": "PL1zgNCoWt_7YmUaUYq3-uzgArf2R7FMn-",
@@ -38,7 +50,10 @@
       "ETag": "vtrFZSeRysLPukZVLmgbcB3dBkw",
       "ReportedVideoCount": 163,
       "LastChecked": "2026-06-24T13:23:57.746977+00:00",
-      "LastUpdated": "2026-04-22T02:18:08.153874+00:00"
+      "LastUpdated": "2026-04-22T02:18:08.153874+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:46:20.8917564+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7as7ce0EPgDmwj6KWRhm9Aa": {
       "PlaylistId": "PL1zgNCoWt_7as7ce0EPgDmwj6KWRhm9Aa",
@@ -46,15 +61,21 @@
       "ETag": "cRZgEOslQ0fbi_bEGlkeJF4Y86A",
       "ReportedVideoCount": 284,
       "LastChecked": "2026-08-05T03:30:07.1311691+00:00",
-      "LastUpdated": "2026-04-22T02:16:59.441495+00:00"
+      "LastUpdated": "2026-04-22T02:16:59.441495+00:00",
+      "LastSortMoves": 1,
+      "LastSortAttempted": "2026-08-14T03:46:26.8942089+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Yj5i9eXV_KdcYMhtmB6NhM": {
       "PlaylistId": "PL1zgNCoWt_7Yj5i9eXV_KdcYMhtmB6NhM",
       "Title": "String Sextets",
-      "ETag": "mzBx1HP2987xNw-_vrJxMRG1VSI",
+      "ETag": "91_9LVcvojVyJBQCx7kjSh8Edyo",
       "ReportedVideoCount": 70,
       "LastChecked": "2026-06-24T13:23:57.7469788+00:00",
-      "LastUpdated": "2026-04-22T02:07:43.724401+00:00"
+      "LastUpdated": "2026-04-22T02:07:43.724401+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:46:49.9153304+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7Z7qMz11vb8nwxWE24Uls64": {
       "PlaylistId": "PL1zgNCoWt_7Z7qMz11vb8nwxWE24Uls64",
@@ -62,7 +83,10 @@
       "ETag": "W6oJjq-L2ayjB3xoxRNGr-Izh64",
       "ReportedVideoCount": 197,
       "LastChecked": "2026-06-24T13:23:57.7469811+00:00",
-      "LastUpdated": "2026-04-22T02:06:23.870758+00:00"
+      "LastUpdated": "2026-04-22T02:06:23.870758+00:00",
+      "LastSortMoves": 11,
+      "LastSortAttempted": "2026-08-14T03:47:11.4907892+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z9NKQg_IRjzZDiK07uisaO": {
       "PlaylistId": "PL1zgNCoWt_7Z9NKQg_IRjzZDiK07uisaO",
@@ -70,7 +94,10 @@
       "ETag": "lNJND5ERcfj-qhn2VUtljxThe3Y",
       "ReportedVideoCount": 154,
       "LastChecked": "2026-06-24T13:23:57.7469828+00:00",
-      "LastUpdated": "2026-04-22T02:05:34.21277+00:00"
+      "LastUpdated": "2026-04-22T02:05:34.21277+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:47:45.7452901+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7ZgyygT4aXqYlXXJaozGGOC": {
       "PlaylistId": "PL1zgNCoWt_7ZgyygT4aXqYlXXJaozGGOC",
@@ -78,7 +105,10 @@
       "ETag": "h0Gy-p0GxdsPcfbli-DKhwoW0Hc",
       "ReportedVideoCount": 108,
       "LastChecked": "2026-06-24T13:23:57.7469837+00:00",
-      "LastUpdated": "2026-04-22T02:05:07.006229+00:00"
+      "LastUpdated": "2026-04-22T02:05:07.006229+00:00",
+      "LastSortMoves": 3,
+      "LastSortAttempted": "2026-08-14T03:47:52.4953638+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aBCJlIQp_KJcdaBz5zGhx7": {
       "PlaylistId": "PL1zgNCoWt_7aBCJlIQp_KJcdaBz5zGhx7",
@@ -86,7 +116,10 @@
       "ETag": "B6RC8uW8BUx2CXUlM_VQJZUzzkU",
       "ReportedVideoCount": 126,
       "LastChecked": "2026-06-24T13:23:57.7469845+00:00",
-      "LastUpdated": "2026-03-31T19:35:05.528717+00:00"
+      "LastUpdated": "2026-03-31T19:35:05.528717+00:00",
+      "LastSortMoves": 2,
+      "LastSortAttempted": "2026-08-14T03:47:59.8443374+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z8hLZzo6t98-xZ1zptUY6t": {
       "PlaylistId": "PL1zgNCoWt_7Z8hLZzo6t98-xZ1zptUY6t",
@@ -94,7 +127,10 @@
       "ETag": "fTAxY2VKsIQV-roONHr9V5HuYZI",
       "ReportedVideoCount": 14,
       "LastChecked": "2026-07-13T17:23:27.7459185+00:00",
-      "LastUpdated": "2026-03-25T07:32:05.960756+00:00"
+      "LastUpdated": "2026-03-25T07:32:05.960756+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:02.4114304+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc": {
       "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
@@ -102,7 +138,10 @@
       "ETag": "ZOUVfw5Yf-p5M5g9_lMNoYlGjbI",
       "ReportedVideoCount": 19,
       "LastChecked": "2026-06-24T13:23:57.7469862+00:00",
-      "LastUpdated": "2026-03-25T06:44:58.036329+00:00"
+      "LastUpdated": "2026-03-25T06:44:58.036329+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:03.0670586+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7bQ1qmLI9HIWGCsTjzwK0K3": {
       "PlaylistId": "PL1zgNCoWt_7bQ1qmLI9HIWGCsTjzwK0K3",
@@ -110,7 +149,10 @@
       "ETag": "NhHHsTgW88h6dvSZZ7EnL__-eNM",
       "ReportedVideoCount": 4,
       "LastChecked": "2026-06-24T13:23:57.746987+00:00",
-      "LastUpdated": "2026-02-12T00:48:02.447833+00:00"
+      "LastUpdated": "2026-02-12T00:48:02.447833+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:03.6530886+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7byF1eVPNLGIEYel5-Hgf-U": {
       "PlaylistId": "PL1zgNCoWt_7byF1eVPNLGIEYel5-Hgf-U",
@@ -118,7 +160,10 @@
       "ETag": "fsISuG7Wr7Wnav59WUOl18ww9pk",
       "ReportedVideoCount": 1,
       "LastChecked": "2026-06-24T13:23:57.7469879+00:00",
-      "LastUpdated": "2025-12-14T20:03:32.631925+00:00"
+      "LastUpdated": "2025-12-14T20:03:32.631925+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:04.1810865+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7bpcSoY0h6FONwg0iaplXCa": {
       "PlaylistId": "PL1zgNCoWt_7bpcSoY0h6FONwg0iaplXCa",
@@ -126,15 +171,21 @@
       "ETag": "H0zeFLM1CC8axxus6MLzTv3LL0M",
       "ReportedVideoCount": 14,
       "LastChecked": "2026-06-24T13:23:57.74699+00:00",
-      "LastUpdated": "2025-11-29T22:39:00.737778+00:00"
+      "LastUpdated": "2025-11-29T22:39:00.737778+00:00",
+      "LastSortMoves": 13,
+      "LastSortAttempted": "2026-08-14T03:48:24.4259447+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aJBbckp-ubQKR22nWw9-xs": {
       "PlaylistId": "PL1zgNCoWt_7aJBbckp-ubQKR22nWw9-xs",
       "Title": "Kalevi Aho",
-      "ETag": "vf3DH3BqCQiGFf2OcRzNo6PNsuI",
+      "ETag": "ePIw475eHHj73mua1qnd0TitxOk",
       "ReportedVideoCount": 195,
-      "LastChecked": "2026-06-24T13:23:57.7469911+00:00",
-      "LastUpdated": "2025-11-28T17:33:32.252285+00:00"
+      "LastChecked": "2026-08-13T21:33:00.2319228+00:00",
+      "LastUpdated": "2025-11-28T17:33:32.252285+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:26.7677199+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA": {
       "PlaylistId": "PL1zgNCoWt_7ZJvfZCl6bMfOEqnrqP70CA",
@@ -142,7 +193,10 @@
       "ETag": "OC6wBI9Mx8_pORnr0WhjnFxC9Kc",
       "ReportedVideoCount": 8,
       "LastChecked": "2026-08-05T03:30:07.1311773+00:00",
-      "LastUpdated": "2025-11-22T02:43:33.887587+00:00"
+      "LastUpdated": "2025-11-22T02:43:33.887587+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:27.3532444+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0": {
       "PlaylistId": "PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0",
@@ -150,7 +204,10 @@
       "ETag": "0pSTQdrwXKG5LHLa-MWZbW7VU54",
       "ReportedVideoCount": 1,
       "LastChecked": "2026-06-24T13:23:57.7469928+00:00",
-      "LastUpdated": "2025-11-05T01:29:34.024783+00:00"
+      "LastUpdated": "2025-11-05T01:29:34.024783+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:27.9917176+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7bmwt8vyU873HoAEJ3P8WbP": {
       "PlaylistId": "PL1zgNCoWt_7bmwt8vyU873HoAEJ3P8WbP",
@@ -158,7 +215,10 @@
       "ETag": "SdRIgk_4_QcXxuehGA2k3V5CnyQ",
       "ReportedVideoCount": 1,
       "LastChecked": "2026-06-24T13:23:57.7469937+00:00",
-      "LastUpdated": "2025-11-04T15:05:39.88805+00:00"
+      "LastUpdated": "2025-11-04T15:05:39.88805+00:00",
+      "LastSortMoves": 0,
+      "LastSortAttempted": "2026-08-14T03:48:28.566023+00:00",
+      "LastSortCompleted": true
     },
     "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i": {
       "PlaylistId": "PL1zgNCoWt_7aRHuzKp5keAPOMyZsOjx4i",
@@ -166,7 +226,8 @@
       "ETag": "feEGBH_Qb7B_EeCb_X-KZ57X1EM",
       "ReportedVideoCount": 21,
       "LastChecked": "2026-08-05T03:30:07.1311791+00:00",
-      "LastUpdated": "2025-10-25T14:53:27.286713+00:00"
+      "LastUpdated": "2025-10-25T14:53:27.286713+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Yd0bp8KIFnkAejvQEsgdeL": {
       "PlaylistId": "PL1zgNCoWt_7Yd0bp8KIFnkAejvQEsgdeL",
@@ -174,7 +235,8 @@
       "ETag": "kY9QHhW21jvZ_Fu2FOwCdq0xiCo",
       "ReportedVideoCount": 1,
       "LastChecked": "2026-06-24T13:23:57.7469955+00:00",
-      "LastUpdated": "2025-10-24T14:20:03.448798+00:00"
+      "LastUpdated": "2025-10-24T14:20:03.448798+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK": {
       "PlaylistId": "PL1zgNCoWt_7ZJQJ9ffW7hleLmjDXmPHVK",
@@ -182,7 +244,8 @@
       "ETag": "B412MOrBWZQ3qM0QEeGIDQ6Lffg",
       "ReportedVideoCount": 32,
       "LastChecked": "2026-06-24T13:23:57.7469967+00:00",
-      "LastUpdated": "2025-10-16T06:28:28.288719+00:00"
+      "LastUpdated": "2025-10-16T06:28:28.288719+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ": {
       "PlaylistId": "PL1zgNCoWt_7Y1ywRM1YBOqoLi-dtXtgRZ",
@@ -190,7 +253,8 @@
       "ETag": "aEmZr6MXY3VlekMM-66nLkZKGyM",
       "ReportedVideoCount": 22,
       "LastChecked": "2026-06-24T13:23:57.7469978+00:00",
-      "LastUpdated": "2025-10-11T13:58:42.492049+00:00"
+      "LastUpdated": "2025-10-11T13:58:42.492049+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZCamY8HXK-o7QaKiXV22vC": {
       "PlaylistId": "PL1zgNCoWt_7ZCamY8HXK-o7QaKiXV22vC",
@@ -198,7 +262,8 @@
       "ETag": "28qDzfgMrkUSi6dT1JH-QbSb1Kk",
       "ReportedVideoCount": 2,
       "LastChecked": "2026-06-24T13:23:57.7469992+00:00",
-      "LastUpdated": "2025-09-18T23:12:57.374576+00:00"
+      "LastUpdated": "2025-09-18T23:12:57.374576+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7a6A7Nt9ZGWUR98mPooHSL7": {
       "PlaylistId": "PL1zgNCoWt_7a6A7Nt9ZGWUR98mPooHSL7",
@@ -206,15 +271,17 @@
       "ETag": "Pu6uPFkJqI1dE9ia2w3a77AFsxA",
       "ReportedVideoCount": 7,
       "LastChecked": "2026-06-24T13:23:57.7470001+00:00",
-      "LastUpdated": "2025-09-11T16:29:52.097816+00:00"
+      "LastUpdated": "2025-09-11T16:29:52.097816+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt": {
       "PlaylistId": "PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt",
       "Title": "Bowie",
-      "ETag": "VwCyXHsD8UXmYqA2rlFCfrT5TcE",
+      "ETag": "WrACA01C0GkjHyLNXE1NIHVOXOo",
       "ReportedVideoCount": 105,
-      "LastChecked": "2026-06-24T13:27:34.890673+00:00",
-      "LastUpdated": "2025-09-09T22:29:30.119727+00:00"
+      "LastChecked": "2026-08-14T04:07:55.3900446+00:00",
+      "LastUpdated": "2025-09-09T22:29:30.119727+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz": {
       "PlaylistId": "PL1zgNCoWt_7aS0UH6rl5_83OOTS6mB9hz",
@@ -222,7 +289,8 @@
       "ETag": "f6bzqyJayKMHf2mxJDyqxqopSJw",
       "ReportedVideoCount": 26,
       "LastChecked": "2026-07-13T17:16:30.4551696+00:00",
-      "LastUpdated": "2025-09-01T22:45:04.661476+00:00"
+      "LastUpdated": "2025-09-01T22:45:04.661476+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZSiF--ol6_fIl7R_YRe_hI": {
       "PlaylistId": "PL1zgNCoWt_7ZSiF--ol6_fIl7R_YRe_hI",
@@ -230,7 +298,8 @@
       "ETag": "whukrsMq1UFniQE0PjaKNHeiUE0",
       "ReportedVideoCount": 5,
       "LastChecked": "2026-06-24T13:27:34.890677+00:00",
-      "LastUpdated": "2025-08-29T06:14:43.010507+00:00"
+      "LastUpdated": "2025-08-29T06:14:43.010507+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT": {
       "PlaylistId": "PL1zgNCoWt_7ZwDkfWP1wfa1UUv9lbQcsT",
@@ -238,7 +307,8 @@
       "ETag": "O4Oz0zETnP6GnVmcVArx-CtAWa0",
       "ReportedVideoCount": 4,
       "LastChecked": "2026-06-24T13:27:34.8906779+00:00",
-      "LastUpdated": "2025-08-27T16:14:31.305872+00:00"
+      "LastUpdated": "2025-08-27T16:14:31.305872+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv": {
       "PlaylistId": "PL1zgNCoWt_7ar9JflN2XHxRPA5NZT9Tyv",
@@ -246,7 +316,8 @@
       "ETag": "oQrHk-p0XH1TUrCOMbShJKM3o-g",
       "ReportedVideoCount": 21,
       "LastChecked": "2026-06-24T13:27:34.8906788+00:00",
-      "LastUpdated": "2025-08-21T04:10:42.169067+00:00"
+      "LastUpdated": "2025-08-21T04:10:42.169067+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9": {
       "PlaylistId": "PL1zgNCoWt_7bOeGuDaVCbwtQiKr1vddE9",
@@ -254,7 +325,8 @@
       "ETag": "7e2BM634bvRhYvE8bktezLATgIE",
       "ReportedVideoCount": 12,
       "LastChecked": "2026-06-24T13:27:34.8906796+00:00",
-      "LastUpdated": "2025-08-21T04:10:12.390862+00:00"
+      "LastUpdated": "2025-08-21T04:10:12.390862+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr": {
       "PlaylistId": "PL1zgNCoWt_7a6x-cd1a2mEH_4BwG8oGBr",
@@ -262,7 +334,8 @@
       "ETag": "7I1RjFK9Z65cC5LphyxXKwUvPK0",
       "ReportedVideoCount": 8,
       "LastChecked": "2026-06-24T13:27:34.8906805+00:00",
-      "LastUpdated": "2025-08-21T04:05:49.127484+00:00"
+      "LastUpdated": "2025-08-21T04:05:49.127484+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T": {
       "PlaylistId": "PL1zgNCoWt_7aqCAIk05MDkMo8aqYQyu8T",
@@ -270,7 +343,8 @@
       "ETag": "CnKaXUsi4i98vYSGz4lrAlrsIwc",
       "ReportedVideoCount": 29,
       "LastChecked": "2026-06-24T13:27:34.8906813+00:00",
-      "LastUpdated": "2025-08-11T04:38:49.264731+00:00"
+      "LastUpdated": "2025-08-11T04:38:49.264731+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YG5RkKdKpeNthksZcFSvtM": {
       "PlaylistId": "PL1zgNCoWt_7YG5RkKdKpeNthksZcFSvtM",
@@ -278,7 +352,8 @@
       "ETag": "iP17oyazZiZosNKv3U6wJaKhqDI",
       "ReportedVideoCount": 48,
       "LastChecked": "2026-06-24T13:27:34.890682+00:00",
-      "LastUpdated": "2025-08-09T01:58:15.113906+00:00"
+      "LastUpdated": "2025-08-09T01:58:15.113906+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aUyO33dPwr8fJXLGpBkLpl": {
       "PlaylistId": "PL1zgNCoWt_7aUyO33dPwr8fJXLGpBkLpl",
@@ -286,7 +361,8 @@
       "ETag": "P_YoG4B2iWtxyUrJ5CjhAhc8mXg",
       "ReportedVideoCount": 14,
       "LastChecked": "2026-06-24T13:27:34.8906828+00:00",
-      "LastUpdated": "2025-08-03T23:15:17.765086+00:00"
+      "LastUpdated": "2025-08-03T23:15:17.765086+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY": {
       "PlaylistId": "PL1zgNCoWt_7a77xIgbwCpZnN8lxnuz5QY",
@@ -294,7 +370,8 @@
       "ETag": "M3rs7mrcP6_CDqBypuRWZut_W8o",
       "ReportedVideoCount": 18,
       "LastChecked": "2026-06-24T13:27:34.8906835+00:00",
-      "LastUpdated": "2025-08-03T04:21:37.173737+00:00"
+      "LastUpdated": "2025-08-03T04:21:37.173737+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ": {
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
@@ -302,15 +379,17 @@
       "ETag": "knOOh1bXksCaZZSG3iLjK-BK3PY",
       "ReportedVideoCount": 41,
       "LastChecked": "2026-07-13T14:27:56.9105474+00:00",
-      "LastUpdated": "2025-06-24T18:43:21.812902+00:00"
+      "LastUpdated": "2025-06-24T18:43:21.812902+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y": {
       "PlaylistId": "PL1zgNCoWt_7aihIfliSqiFDrol-RRxN-y",
       "Title": "Pablo Heras-Casado",
-      "ETag": "ZlCFkjAfqARjmUfkhXBM8Wnh65M",
+      "ETag": "0fuQriYBgKCNfhtbN5othEFv8BQ",
       "ReportedVideoCount": 2,
-      "LastChecked": "2026-06-24T13:27:34.8906855+00:00",
-      "LastUpdated": "2025-06-14T11:10:21.23363+00:00"
+      "LastChecked": "2026-08-13T21:33:00.2319446+00:00",
+      "LastUpdated": "2025-06-14T11:10:21.23363+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr": {
       "PlaylistId": "PL1zgNCoWt_7Zc8PoNytI5mcWeWabU16Hr",
@@ -318,7 +397,8 @@
       "ETag": "wsWVgcTByAdH1XQMrd3l6aDFeO0",
       "ReportedVideoCount": 26,
       "LastChecked": "2026-06-24T13:27:34.8906863+00:00",
-      "LastUpdated": "2025-06-06T22:45:17.271646+00:00"
+      "LastUpdated": "2025-06-06T22:45:17.271646+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bXQEjsgRLgOIeI5uz9gxTN": {
       "PlaylistId": "PL1zgNCoWt_7bXQEjsgRLgOIeI5uz9gxTN",
@@ -326,7 +406,8 @@
       "ETag": "0QILS2vAooC52buICEAkZo_v9c0",
       "ReportedVideoCount": 1,
       "LastChecked": "2026-06-24T13:27:34.8906871+00:00",
-      "LastUpdated": "2025-06-06T22:36:28.585505+00:00"
+      "LastUpdated": "2025-06-06T22:36:28.585505+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU": {
       "PlaylistId": "PL1zgNCoWt_7ZLWmVdqB0OVGf2pIwvZ6MU",
@@ -334,7 +415,8 @@
       "ETag": "_k3xq0jci0f1wtMV7ppFnzqF-k8",
       "ReportedVideoCount": 58,
       "LastChecked": "2026-07-15T19:39:17.4423625+00:00",
-      "LastUpdated": "2025-06-06T22:20:56.831664+00:00"
+      "LastUpdated": "2025-06-06T22:20:56.831664+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YiPReL0yJa3jt22ev4MrHl": {
       "PlaylistId": "PL1zgNCoWt_7YiPReL0yJa3jt22ev4MrHl",
@@ -342,7 +424,8 @@
       "ETag": "1bLlWVuuDlyW3JoptWrMp_71jbk",
       "ReportedVideoCount": 6,
       "LastChecked": "2026-06-24T13:27:34.8906887+00:00",
-      "LastUpdated": "2025-06-06T21:36:07.733627+00:00"
+      "LastUpdated": "2025-06-06T21:36:07.733627+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot": {
       "PlaylistId": "PL1zgNCoWt_7Ys-75eAOiZdk2HnGwDZaot",
@@ -350,7 +433,8 @@
       "ETag": "1XgibLd6iW_PQX662v_7NyfzII8",
       "ReportedVideoCount": 68,
       "LastChecked": "2026-07-15T19:39:17.4423642+00:00",
-      "LastUpdated": "2025-06-06T21:29:03.293531+00:00"
+      "LastUpdated": "2025-06-06T21:29:03.293531+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ": {
       "PlaylistId": "PL1zgNCoWt_7Z0OJMT6uET-5LwItpOrYtQ",
@@ -358,7 +442,8 @@
       "ETag": "ahdyZksOrGzsoerRhxnx7t0HihA",
       "ReportedVideoCount": 18,
       "LastChecked": "2026-06-24T13:27:34.8906951+00:00",
-      "LastUpdated": "2025-06-06T21:28:45.762751+00:00"
+      "LastUpdated": "2025-06-06T21:28:45.762751+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bYuE1IqzIRY4wOI8LiYPH-": {
       "PlaylistId": "PL1zgNCoWt_7bYuE1IqzIRY4wOI8LiYPH-",
@@ -366,7 +451,8 @@
       "ETag": "upRnjqFVkA0_oNnM6VQ8xthhTRI",
       "ReportedVideoCount": 13,
       "LastChecked": "2026-06-24T13:27:34.8906958+00:00",
-      "LastUpdated": "2025-06-06T21:21:28.012686+00:00"
+      "LastUpdated": "2025-06-06T21:21:28.012686+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG": {
       "PlaylistId": "PL1zgNCoWt_7ZF-FtDwR_r4TIrW3zM96eG",
@@ -374,7 +460,8 @@
       "ETag": "pCDgFax5SoqIA3c_fsspDORyna4",
       "ReportedVideoCount": 10,
       "LastChecked": "2026-06-24T13:27:34.8906966+00:00",
-      "LastUpdated": "2025-06-06T11:17:55.879695+00:00"
+      "LastUpdated": "2025-06-06T11:17:55.879695+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bjFDHLMcEtKH2QmSiAZmkm": {
       "PlaylistId": "PL1zgNCoWt_7bjFDHLMcEtKH2QmSiAZmkm",
@@ -382,7 +469,8 @@
       "ETag": "YPd5XrMDfQ5A-5yosje9RfeACa0",
       "ReportedVideoCount": 36,
       "LastChecked": "2026-06-24T13:27:34.8906974+00:00",
-      "LastUpdated": "2025-05-27T18:07:41.53793+00:00"
+      "LastUpdated": "2025-05-27T18:07:41.53793+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed": {
       "PlaylistId": "PL1zgNCoWt_7bK-Hz58_vBvPYJBOhrz1Ed",
@@ -390,7 +478,8 @@
       "ETag": "KLnumJQzpIJO_TTFY2HxB-liGnE",
       "ReportedVideoCount": 51,
       "LastChecked": "2026-08-05T03:30:07.5410323+00:00",
-      "LastUpdated": "2025-05-27T18:00:20.754369+00:00"
+      "LastUpdated": "2025-05-27T18:00:20.754369+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh": {
       "PlaylistId": "PL1zgNCoWt_7bq-C1EQ0qM09F4hxo5PUPh",
@@ -398,7 +487,8 @@
       "ETag": "9MtBonWt6vohJvGFsreMSKeapws",
       "ReportedVideoCount": 42,
       "LastChecked": "2026-07-04T21:00:52.4105303+00:00",
-      "LastUpdated": "2025-05-26T03:14:01.060136+00:00"
+      "LastUpdated": "2025-05-26T03:14:01.060136+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3": {
       "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
@@ -406,7 +496,8 @@
       "ETag": "XXi_0RrjAPdnUzT1kGno_fGfB3s",
       "ReportedVideoCount": 14,
       "LastChecked": "2026-06-24T13:27:35.2950534+00:00",
-      "LastUpdated": "2025-05-20T15:51:18.655977+00:00"
+      "LastUpdated": "2025-05-20T15:51:18.655977+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-": {
       "PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
@@ -414,7 +505,8 @@
       "ETag": "lVEJfc6lCw-PGjg0ce9oZtbFgas",
       "ReportedVideoCount": 5,
       "LastChecked": "2026-06-24T13:27:35.2950568+00:00",
-      "LastUpdated": "2025-04-20T23:31:26.800945+00:00"
+      "LastUpdated": "2025-04-20T23:31:26.800945+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZOmyC7Z_xSBuGYYGeOaL6f": {
       "PlaylistId": "PL1zgNCoWt_7ZOmyC7Z_xSBuGYYGeOaL6f",
@@ -422,7 +514,8 @@
       "ETag": "7piN3krJbs8hQzeDAlryEEkOCEg",
       "ReportedVideoCount": 43,
       "LastChecked": "2026-06-24T13:27:35.2950585+00:00",
-      "LastUpdated": "2025-04-16T23:45:30.543625+00:00"
+      "LastUpdated": "2025-04-16T23:45:30.543625+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZQoYC3f_cTnOwplJF5Qj2t": {
       "PlaylistId": "PL1zgNCoWt_7ZQoYC3f_cTnOwplJF5Qj2t",
@@ -430,7 +523,8 @@
       "ETag": "5H3cblKNmAJH5IDa_ZsiMwBwz4w",
       "ReportedVideoCount": 5,
       "LastChecked": "2026-06-24T13:27:35.2950609+00:00",
-      "LastUpdated": "2025-04-07T21:24:06.316102+00:00"
+      "LastUpdated": "2025-04-07T21:24:06.316102+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-": {
       "PlaylistId": "PL1zgNCoWt_7byHQ2-d8-I26sFWtobYlN-",
@@ -438,7 +532,8 @@
       "ETag": "EoSKYxre11_KLnCpMyl-8kvcYUA",
       "ReportedVideoCount": 33,
       "LastChecked": "2026-06-24T13:27:35.2950637+00:00",
-      "LastUpdated": "2025-03-30T22:14:47.263883+00:00"
+      "LastUpdated": "2025-03-30T22:14:47.263883+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh": {
       "PlaylistId": "PL1zgNCoWt_7ZiOsH3EwZb0BG3xebkLPrh",
@@ -446,7 +541,8 @@
       "ETag": "8XV7VWsxikik3rkX3fClOwMy9U4",
       "ReportedVideoCount": 21,
       "LastChecked": "2026-06-24T13:27:35.2950653+00:00",
-      "LastUpdated": "2025-03-16T15:32:02.872358+00:00"
+      "LastUpdated": "2025-03-16T15:32:02.872358+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm": {
       "PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
@@ -454,7 +550,8 @@
       "ETag": "8bHEwzrzoB1NqQvahRSAUE8Sgoo",
       "ReportedVideoCount": 38,
       "LastChecked": "2026-06-24T13:27:35.2950668+00:00",
-      "LastUpdated": "2025-03-13T17:49:01.320955+00:00"
+      "LastUpdated": "2025-03-13T17:49:01.320955+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Zou6XcsnKbEu0KnGchCjPF": {
       "PlaylistId": "PL1zgNCoWt_7Zou6XcsnKbEu0KnGchCjPF",
@@ -462,7 +559,8 @@
       "ETag": "39CRfatnKIqMVrGyIcF6xRnDgys",
       "ReportedVideoCount": 48,
       "LastChecked": "2026-06-24T13:27:35.2950682+00:00",
-      "LastUpdated": "2025-02-09T04:07:39.900245+00:00"
+      "LastUpdated": "2025-02-09T04:07:39.900245+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZYPdiIi1WHpQL8YtiLlp-z": {
       "PlaylistId": "PL1zgNCoWt_7ZYPdiIi1WHpQL8YtiLlp-z",
@@ -470,7 +568,8 @@
       "ETag": "5YXoGtyfGJa0KebM1mHOJIcce6w",
       "ReportedVideoCount": 140,
       "LastChecked": "2026-06-24T13:27:35.2950756+00:00",
-      "LastUpdated": "2025-02-09T04:06:35.42101+00:00"
+      "LastUpdated": "2025-02-09T04:06:35.42101+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YL7GTIvyJbc5bMj-qgwW2N": {
       "PlaylistId": "PL1zgNCoWt_7YL7GTIvyJbc5bMj-qgwW2N",
@@ -478,7 +577,8 @@
       "ETag": "Pe80x4iAnKS3Sw2VvhP4fW1hvck",
       "ReportedVideoCount": 31,
       "LastChecked": "2026-06-24T13:27:35.295077+00:00",
-      "LastUpdated": "2025-02-06T01:02:26.00205+00:00"
+      "LastUpdated": "2025-02-06T01:02:26.00205+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW": {
       "PlaylistId": "PL1zgNCoWt_7awBC4HY9m4j2n8HVHTXfGW",
@@ -486,7 +586,8 @@
       "ETag": "nsQ6AX1BIxVohYwAbCCUrOcfsu8",
       "ReportedVideoCount": 8,
       "LastChecked": "2026-06-24T13:27:35.2950791+00:00",
-      "LastUpdated": "2025-01-30T18:48:09.920102+00:00"
+      "LastUpdated": "2025-01-30T18:48:09.920102+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY": {
       "PlaylistId": "PL1zgNCoWt_7aMwMBoKDIYy2XQw7zRgCZY",
@@ -494,7 +595,8 @@
       "ETag": "gqUk1oS2avAJKj8sSkimfLbfJu8",
       "ReportedVideoCount": 67,
       "LastChecked": "2026-06-24T13:27:35.2950805+00:00",
-      "LastUpdated": "2025-01-30T14:46:30.067465+00:00"
+      "LastUpdated": "2025-01-30T14:46:30.067465+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bHTMdnOQoJUPo8raEyJUuT": {
       "PlaylistId": "PL1zgNCoWt_7bHTMdnOQoJUPo8raEyJUuT",
@@ -502,7 +604,8 @@
       "ETag": "xZGyzB98wMWAE1lx6ZMWsVWCgf0",
       "ReportedVideoCount": 103,
       "LastChecked": "2026-06-24T13:27:35.2950821+00:00",
-      "LastUpdated": "2025-01-29T22:32:38.090223+00:00"
+      "LastUpdated": "2025-01-29T22:32:38.090223+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl": {
       "PlaylistId": "PL1zgNCoWt_7ZaFJ_yb8OKWxec-qVKOvLl",
@@ -510,7 +613,8 @@
       "ETag": "EOy9ViHjF5htIeZzCqazz0V8B_c",
       "ReportedVideoCount": 22,
       "LastChecked": "2026-06-24T13:27:35.295084+00:00",
-      "LastUpdated": "2025-01-29T03:07:57.242541+00:00"
+      "LastUpdated": "2025-01-29T03:07:57.242541+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt": {
       "PlaylistId": "PL1zgNCoWt_7amJMLQN2l9s1D6MA5umljt",
@@ -518,7 +622,8 @@
       "ETag": "bonDryf8fRjtR9cQZB6FtBhWAew",
       "ReportedVideoCount": 35,
       "LastChecked": "2026-08-05T03:30:07.5410494+00:00",
-      "LastUpdated": "2025-01-25T04:25:37.263239+00:00"
+      "LastUpdated": "2025-01-25T04:25:37.263239+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bu9IKcLh-FMd5wzkIOolL4": {
       "PlaylistId": "PL1zgNCoWt_7bu9IKcLh-FMd5wzkIOolL4",
@@ -526,7 +631,8 @@
       "ETag": "jj0XN9MWfIPez6PYWX-8S7wfSZE",
       "ReportedVideoCount": 10,
       "LastChecked": "2026-06-24T13:27:35.2950888+00:00",
-      "LastUpdated": "2025-01-24T18:16:32.252662+00:00"
+      "LastUpdated": "2025-01-24T18:16:32.252662+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZvpnAMjQG9hxt1UJgV3vRi": {
       "PlaylistId": "PL1zgNCoWt_7ZvpnAMjQG9hxt1UJgV3vRi",
@@ -534,7 +640,8 @@
       "ETag": "lVlgGIC3CSIoxrzv_7GTmQyK9U4",
       "ReportedVideoCount": 47,
       "LastChecked": "2026-06-24T13:27:35.29509+00:00",
-      "LastUpdated": "2025-01-23T11:45:53.319914+00:00"
+      "LastUpdated": "2025-01-23T11:45:53.319914+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZFpUZhv014SWeYUnRMypbw": {
       "PlaylistId": "PL1zgNCoWt_7ZFpUZhv014SWeYUnRMypbw",
@@ -542,7 +649,8 @@
       "ETag": "Uj2DKB7Qg5YuxOWHIp2GOzVFZuQ",
       "ReportedVideoCount": 13,
       "LastChecked": "2026-06-24T13:27:35.2950913+00:00",
-      "LastUpdated": "2025-01-15T09:12:52.241206+00:00"
+      "LastUpdated": "2025-01-15T09:12:52.241206+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bYi5pgWEqOsS6n-Z6lKONL": {
       "PlaylistId": "PL1zgNCoWt_7bYi5pgWEqOsS6n-Z6lKONL",
@@ -550,7 +658,8 @@
       "ETag": "qDD38aLWwOA6OWIb1voJuV4P80o",
       "ReportedVideoCount": 89,
       "LastChecked": "2026-06-24T13:27:35.2950924+00:00",
-      "LastUpdated": "2025-01-08T12:00:08.243479+00:00"
+      "LastUpdated": "2025-01-08T12:00:08.243479+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW": {
       "PlaylistId": "PL1zgNCoWt_7Z5vhoSzJLlHfu6MN3j7owW",
@@ -558,7 +667,8 @@
       "ETag": "fuspSe-Dn4MPu5_rULGgeQulOYM",
       "ReportedVideoCount": 20,
       "LastChecked": "2026-06-24T13:27:35.2950939+00:00",
-      "LastUpdated": "2025-01-01T10:52:39.880758+00:00"
+      "LastUpdated": "2025-01-01T10:52:39.880758+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bFrRPT_Gc9prHT0_Svy9YX": {
       "PlaylistId": "PL1zgNCoWt_7bFrRPT_Gc9prHT0_Svy9YX",
@@ -566,7 +676,8 @@
       "ETag": "v6ISSU14nzRqW0ZEpyJ_dKzg2Is",
       "ReportedVideoCount": 60,
       "LastChecked": "2026-06-24T13:27:35.2950955+00:00",
-      "LastUpdated": "2024-12-28T14:25:56.593404+00:00"
+      "LastUpdated": "2024-12-28T14:25:56.593404+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X": {
       "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
@@ -574,7 +685,8 @@
       "ETag": "u2n4507tp9IPLArcDx27qKvnMhM",
       "ReportedVideoCount": 33,
       "LastChecked": "2026-06-24T13:27:35.2950969+00:00",
-      "LastUpdated": "2024-12-26T11:19:35.567811+00:00"
+      "LastUpdated": "2024-12-26T11:19:35.567811+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r": {
       "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
@@ -582,7 +694,8 @@
       "ETag": "1IBj3FOx9sm08fTh7Qr88M1fw2M",
       "ReportedVideoCount": 23,
       "LastChecked": "2026-06-24T13:27:35.2950982+00:00",
-      "LastUpdated": "2024-12-26T04:54:24.356453+00:00"
+      "LastUpdated": "2024-12-26T04:54:24.356453+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7atf86nll2v6WdPi1qvuqdB": {
       "PlaylistId": "PL1zgNCoWt_7atf86nll2v6WdPi1qvuqdB",
@@ -590,7 +703,8 @@
       "ETag": "gIz5MClBUnTCipzKpE_SiJwJj1Y",
       "ReportedVideoCount": 72,
       "LastChecked": "2026-06-24T13:27:35.2950995+00:00",
-      "LastUpdated": "2024-12-21T05:57:19.46961+00:00"
+      "LastUpdated": "2024-12-21T05:57:19.46961+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M": {
       "PlaylistId": "PL1zgNCoWt_7YXJFV6dt-DR93TwrBqka4M",
@@ -598,7 +712,8 @@
       "ETag": "yxHEE_rf2n4NaB88L3rnEXJtDRc",
       "ReportedVideoCount": 26,
       "LastChecked": "2026-06-24T13:27:35.2951008+00:00",
-      "LastUpdated": "2024-12-12T18:21:01.979055+00:00"
+      "LastUpdated": "2024-12-12T18:21:01.979055+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZyGxH9Cp33K0sV053yGQ5F": {
       "PlaylistId": "PL1zgNCoWt_7ZyGxH9Cp33K0sV053yGQ5F",
@@ -606,7 +721,8 @@
       "ETag": "zE0F4AsH3iqifF0m8P0587lognc",
       "ReportedVideoCount": 17,
       "LastChecked": "2026-06-24T13:27:35.2951016+00:00",
-      "LastUpdated": "2024-12-12T18:12:13.381428+00:00"
+      "LastUpdated": "2024-12-12T18:12:13.381428+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bYUCepGsS18F8HOk04pOHT": {
       "PlaylistId": "PL1zgNCoWt_7bYUCepGsS18F8HOk04pOHT",
@@ -614,7 +730,8 @@
       "ETag": "IAY1GZD9ozypfpvcPVdu2tB0rVQ",
       "ReportedVideoCount": 2,
       "LastChecked": "2026-06-24T13:27:35.2951025+00:00",
-      "LastUpdated": "2024-12-12T00:43:56.778974+00:00"
+      "LastUpdated": "2024-12-12T00:43:56.778974+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aoFmSy2j0-3E1RKZSR3WKj": {
       "PlaylistId": "PL1zgNCoWt_7aoFmSy2j0-3E1RKZSR3WKj",
@@ -622,7 +739,8 @@
       "ETag": "psHNkZXU3cE1yt2YIPKLh9jKTXI",
       "ReportedVideoCount": 22,
       "LastChecked": "2026-06-24T13:27:35.2951034+00:00",
-      "LastUpdated": "2024-12-12T00:33:54.364109+00:00"
+      "LastUpdated": "2024-12-12T00:33:54.364109+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YSMmyCKDPuPwSJd5Sb7eZm": {
       "PlaylistId": "PL1zgNCoWt_7YSMmyCKDPuPwSJd5Sb7eZm",
@@ -630,7 +748,8 @@
       "ETag": "E26aHuqTcfUTGd5jhvWYocwuYBo",
       "ReportedVideoCount": 15,
       "LastChecked": "2026-06-24T13:27:35.2951164+00:00",
-      "LastUpdated": "2024-12-12T00:31:41.336383+00:00"
+      "LastUpdated": "2024-12-12T00:31:41.336383+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bwMjcr0zFyKdmjX5bN5ybS": {
       "PlaylistId": "PL1zgNCoWt_7bwMjcr0zFyKdmjX5bN5ybS",
@@ -638,7 +757,8 @@
       "ETag": "nTUeJ-NUwXsd3xE2QQu21u_3z_4",
       "ReportedVideoCount": 53,
       "LastChecked": "2026-06-24T13:27:35.2951183+00:00",
-      "LastUpdated": "2024-12-12T00:30:31.533264+00:00"
+      "LastUpdated": "2024-12-12T00:30:31.533264+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aOSnkY281DMdWNHiEgQem-": {
       "PlaylistId": "PL1zgNCoWt_7aOSnkY281DMdWNHiEgQem-",
@@ -646,7 +766,8 @@
       "ETag": "s4fI69bBwKfXQv0EbxEYs_6hipQ",
       "ReportedVideoCount": 9,
       "LastChecked": "2026-06-24T13:27:35.2951193+00:00",
-      "LastUpdated": "2024-12-12T00:29:16.406841+00:00"
+      "LastUpdated": "2024-12-12T00:29:16.406841+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z8j7OFV3gv3pkoxyxw-Mgp": {
       "PlaylistId": "PL1zgNCoWt_7Z8j7OFV3gv3pkoxyxw-Mgp",
@@ -654,7 +775,8 @@
       "ETag": "ofOrONvE7l5fHmMpIEQuSBTshow",
       "ReportedVideoCount": 148,
       "LastChecked": "2026-06-24T13:27:35.2951201+00:00",
-      "LastUpdated": "2024-12-12T00:28:32.909713+00:00"
+      "LastUpdated": "2024-12-12T00:28:32.909713+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZjIQUaGoXYX9xaeksRzPxL": {
       "PlaylistId": "PL1zgNCoWt_7ZjIQUaGoXYX9xaeksRzPxL",
@@ -662,15 +784,17 @@
       "ETag": "QyRsdVfpvGDPILY8JQGfggjhZmE",
       "ReportedVideoCount": 61,
       "LastChecked": "2026-06-24T13:27:35.2951211+00:00",
-      "LastUpdated": "2024-12-12T00:26:12.848941+00:00"
+      "LastUpdated": "2024-12-12T00:26:12.848941+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZysJdo__7aWUppzDp0JIbz": {
       "PlaylistId": "PL1zgNCoWt_7ZysJdo__7aWUppzDp0JIbz",
       "Title": "Gennady Rozhdestvensky",
-      "ETag": "0K3yfctiJqKjONjluM8-EycsUVA",
-      "ReportedVideoCount": 99,
-      "LastChecked": "2026-08-05T03:30:07.5410743+00:00",
-      "LastUpdated": "2024-12-12T00:24:46.442518+00:00"
+      "ETag": "HzOnjrv_FinsSFPc84Nr0qW9aOU",
+      "ReportedVideoCount": 100,
+      "LastChecked": "2026-08-13T21:33:00.5803554+00:00",
+      "LastUpdated": "2024-12-12T00:24:46.442518+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT": {
       "PlaylistId": "PL1zgNCoWt_7bgmCjPdFN2xA0IHNk_JLnT",
@@ -678,7 +802,8 @@
       "ETag": "utI6zHk7uLYpeAVPHalsA0KjoIQ",
       "ReportedVideoCount": 38,
       "LastChecked": "2026-08-05T03:30:07.5410748+00:00",
-      "LastUpdated": "2024-12-12T00:23:10.440236+00:00"
+      "LastUpdated": "2024-12-12T00:23:10.440236+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bD3Qm-jArfPV9Sk20zQK6-": {
       "PlaylistId": "PL1zgNCoWt_7bD3Qm-jArfPV9Sk20zQK6-",
@@ -686,7 +811,8 @@
       "ETag": "tqCkz2ms5-31CD5tIb2O8Z5ueUg",
       "ReportedVideoCount": 4,
       "LastChecked": "2026-06-24T13:27:35.2951239+00:00",
-      "LastUpdated": "2024-12-12T00:22:29.729704+00:00"
+      "LastUpdated": "2024-12-12T00:22:29.729704+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bktvhP55qQtvklU7_YGdSx": {
       "PlaylistId": "PL1zgNCoWt_7bktvhP55qQtvklU7_YGdSx",
@@ -694,7 +820,8 @@
       "ETag": "iS95HPUmitHAm4jHcfPx2uZ5vHg",
       "ReportedVideoCount": 33,
       "LastChecked": "2026-06-24T13:27:35.2951247+00:00",
-      "LastUpdated": "2024-12-12T00:20:36.755761+00:00"
+      "LastUpdated": "2024-12-12T00:20:36.755761+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc": {
       "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
@@ -702,7 +829,8 @@
       "ETag": "uaIMb6N236u_ahnwRO7JEeMbqFw",
       "ReportedVideoCount": 27,
       "LastChecked": "2026-06-24T13:27:35.2951256+00:00",
-      "LastUpdated": "2024-12-11T22:42:02.699482+00:00"
+      "LastUpdated": "2024-12-11T22:42:02.699482+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZG0EkaRQ7BSlvhKudbuHak": {
       "PlaylistId": "PL1zgNCoWt_7ZG0EkaRQ7BSlvhKudbuHak",
@@ -710,7 +838,8 @@
       "ETag": "i6GBP9gaNagqpO-uSwa9Fg5CrGw",
       "ReportedVideoCount": 172,
       "LastChecked": "2026-06-24T13:27:35.2951267+00:00",
-      "LastUpdated": "2024-12-11T21:15:21.211032+00:00"
+      "LastUpdated": "2024-12-11T21:15:21.211032+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4": {
       "PlaylistId": "PL1zgNCoWt_7bdQf5RbldHEZHFyDkmOvJ4",
@@ -718,7 +847,8 @@
       "ETag": "ygr-se1pIjaVWVuXh_UQtDfA1ZY",
       "ReportedVideoCount": 10,
       "LastChecked": "2026-06-24T13:27:35.2951276+00:00",
-      "LastUpdated": "2024-12-11T21:13:22.550369+00:00"
+      "LastUpdated": "2024-12-11T21:13:22.550369+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7a88sq_nQhH6Af0sIiTom_k": {
       "PlaylistId": "PL1zgNCoWt_7a88sq_nQhH6Af0sIiTom_k",
@@ -726,7 +856,8 @@
       "ETag": "TrgYXRX_8b8u-xaEZbuCyLmClVs",
       "ReportedVideoCount": 200,
       "LastChecked": "2026-06-24T13:27:35.2951284+00:00",
-      "LastUpdated": "2024-12-11T21:10:19.846431+00:00"
+      "LastUpdated": "2024-12-11T21:10:19.846431+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YpD64XlMAIwRKnAXPQ2hsK": {
       "PlaylistId": "PL1zgNCoWt_7YpD64XlMAIwRKnAXPQ2hsK",
@@ -734,7 +865,8 @@
       "ETag": "pojumvgmY0b_uQKwUy5QF-MTqyY",
       "ReportedVideoCount": 66,
       "LastChecked": "2026-07-15T19:39:18.4656464+00:00",
-      "LastUpdated": "2024-12-11T21:09:19.034863+00:00"
+      "LastUpdated": "2024-12-11T21:09:19.034863+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZvZ7I8Dj7dIJEgK24SF-NF": {
       "PlaylistId": "PL1zgNCoWt_7ZvZ7I8Dj7dIJEgK24SF-NF",
@@ -742,7 +874,8 @@
       "ETag": "-I9bDIsxvMDo3ogH6sEjjHe8hnQ",
       "ReportedVideoCount": 90,
       "LastChecked": "2026-06-24T13:27:35.2951303+00:00",
-      "LastUpdated": "2024-12-11T20:15:38.126935+00:00"
+      "LastUpdated": "2024-12-11T20:15:38.126935+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT": {
       "PlaylistId": "PL1zgNCoWt_7bMrgICbgoTjwScsdEBZJDT",
@@ -750,7 +883,8 @@
       "ETag": "yKFxsZOv6xNu7NNpIHSfsfCEW_E",
       "ReportedVideoCount": 34,
       "LastChecked": "2026-07-15T19:39:18.4656481+00:00",
-      "LastUpdated": "2024-12-10T14:42:42.922837+00:00"
+      "LastUpdated": "2024-12-10T14:42:42.922837+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YFLUg8W7sSzxvC9cQY5WpL": {
       "PlaylistId": "PL1zgNCoWt_7YFLUg8W7sSzxvC9cQY5WpL",
@@ -758,7 +892,8 @@
       "ETag": "db1YNKdoisy3-Z1K2FQwD6GKEmM",
       "ReportedVideoCount": 2,
       "LastChecked": "2026-06-24T13:27:35.2951321+00:00",
-      "LastUpdated": "2024-12-09T21:32:37.422553+00:00"
+      "LastUpdated": "2024-12-09T21:32:37.422553+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5": {
       "PlaylistId": "PL1zgNCoWt_7ZqbPKsAA4C8SeXlBAlPq_5",
@@ -766,7 +901,8 @@
       "ETag": "0qlczW2aAwDQ5mSRvCcNk8xbKSY",
       "ReportedVideoCount": 66,
       "LastChecked": "2026-06-24T13:27:35.2951328+00:00",
-      "LastUpdated": "2024-12-09T03:28:43.786825+00:00"
+      "LastUpdated": "2024-12-09T03:28:43.786825+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf": {
       "PlaylistId": "PL1zgNCoWt_7ZdsaX0KeEgdHKmANLT-kmf",
@@ -774,7 +910,8 @@
       "ETag": "e-Ykw9x7OjOae3HY7isJrCp1G_8",
       "ReportedVideoCount": 129,
       "LastChecked": "2026-06-24T13:27:35.2951336+00:00",
-      "LastUpdated": "2024-12-06T12:30:23.418819+00:00"
+      "LastUpdated": "2024-12-06T12:30:23.418819+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q": {
       "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
@@ -782,7 +919,8 @@
       "ETag": "R9hHJmCxuNjZg8KRJJgBrg40XCo",
       "ReportedVideoCount": 17,
       "LastChecked": "2026-06-24T13:27:35.2951345+00:00",
-      "LastUpdated": "2024-12-06T12:27:44.577634+00:00"
+      "LastUpdated": "2024-12-06T12:27:44.577634+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Y8qEPyNpugd5CPdIYHgpm5": {
       "PlaylistId": "PL1zgNCoWt_7Y8qEPyNpugd5CPdIYHgpm5",
@@ -790,7 +928,8 @@
       "ETag": "X8GB6rEnPvq3f3FU1jNSRMnscFE",
       "ReportedVideoCount": 9,
       "LastChecked": "2026-06-24T13:27:35.2951352+00:00",
-      "LastUpdated": "2024-12-02T12:51:45.011268+00:00"
+      "LastUpdated": "2024-12-02T12:51:45.011268+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT": {
       "PlaylistId": "PL1zgNCoWt_7Y3I1maTH5CJfpTTVAdaQYT",
@@ -798,7 +937,8 @@
       "ETag": "57LlCh0yt_QPamhIbpeuAB4pQHI",
       "ReportedVideoCount": 88,
       "LastChecked": "2026-06-24T13:27:35.6557079+00:00",
-      "LastUpdated": "2024-12-02T11:49:00.330244+00:00"
+      "LastUpdated": "2024-12-02T11:49:00.330244+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1": {
       "PlaylistId": "PL1zgNCoWt_7b7OTKVVTnnzKb-EYjwrsm1",
@@ -806,7 +946,8 @@
       "ETag": "nWQNoQsqDDlAtlU6cdTxFcMaVdA",
       "ReportedVideoCount": 191,
       "LastChecked": "2026-06-24T13:27:35.6557112+00:00",
-      "LastUpdated": "2024-11-30T17:43:00.988748+00:00"
+      "LastUpdated": "2024-11-30T17:43:00.988748+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZwQEq4pnE526Z8EvGvcvgZ": {
       "PlaylistId": "PL1zgNCoWt_7ZwQEq4pnE526Z8EvGvcvgZ",
@@ -814,7 +955,8 @@
       "ETag": "17y2yGMcdcB1j0H2fCYn5T6hqCI",
       "ReportedVideoCount": 50,
       "LastChecked": "2026-06-24T13:27:35.655713+00:00",
-      "LastUpdated": "2024-11-30T06:46:27.915486+00:00"
+      "LastUpdated": "2024-11-30T06:46:27.915486+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YBmznJUQ_cnm_ja9qolWKP": {
       "PlaylistId": "PL1zgNCoWt_7YBmznJUQ_cnm_ja9qolWKP",
@@ -822,7 +964,8 @@
       "ETag": "5LSlHeEcys8TT9_VNn1ALrjpILw",
       "ReportedVideoCount": 81,
       "LastChecked": "2026-06-24T13:27:35.6557143+00:00",
-      "LastUpdated": "2024-11-29T04:59:39.047215+00:00"
+      "LastUpdated": "2024-11-29T04:59:39.047215+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ": {
       "PlaylistId": "PL1zgNCoWt_7b1s2JNwD2MwtmZhoMOgQEQ",
@@ -830,7 +973,8 @@
       "ETag": "DEztWOSdT9KugWX5GXOYqQTCX3c",
       "ReportedVideoCount": 77,
       "LastChecked": "2026-06-24T13:27:35.6557154+00:00",
-      "LastUpdated": "2024-11-28T03:07:09.560448+00:00"
+      "LastUpdated": "2024-11-28T03:07:09.560448+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z_wVa6fdkZS3PzLVzYIknu": {
       "PlaylistId": "PL1zgNCoWt_7Z_wVa6fdkZS3PzLVzYIknu",
@@ -838,7 +982,8 @@
       "ETag": "fH-VcjcQm0lnOpoUfNhgXEVrPGk",
       "ReportedVideoCount": 290,
       "LastChecked": "2026-08-05T03:30:08.0331267+00:00",
-      "LastUpdated": "2024-11-27T08:25:37.454046+00:00"
+      "LastUpdated": "2024-11-27T08:25:37.454046+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ": {
       "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
@@ -846,7 +991,8 @@
       "ETag": "BlarKgcoJhqt30aobCVennQYcaU",
       "ReportedVideoCount": 10,
       "LastChecked": "2026-06-24T13:27:35.6557174+00:00",
-      "LastUpdated": "2024-11-27T08:04:40.551884+00:00"
+      "LastUpdated": "2024-11-27T08:04:40.551884+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7a6aiofxogeYYzdhbblYpMG": {
       "PlaylistId": "PL1zgNCoWt_7a6aiofxogeYYzdhbblYpMG",
@@ -854,7 +1000,8 @@
       "ETag": "cp8mt-8qrDkre-3NGMHCzBI2m6I",
       "ReportedVideoCount": 173,
       "LastChecked": "2026-06-24T13:27:35.6557184+00:00",
-      "LastUpdated": "2024-11-26T19:15:11.20294+00:00"
+      "LastUpdated": "2024-11-26T19:15:11.20294+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZjZP3HjtwDIqqBHUJqTEgX": {
       "PlaylistId": "PL1zgNCoWt_7ZjZP3HjtwDIqqBHUJqTEgX",
@@ -862,7 +1009,8 @@
       "ETag": "6AJGn5NVD9n1JmB7phPtLUreCQU",
       "ReportedVideoCount": 229,
       "LastChecked": "2026-08-05T03:30:08.033136+00:00",
-      "LastUpdated": "2024-11-26T08:25:47.824676+00:00"
+      "LastUpdated": "2024-11-26T08:25:47.824676+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bUFC0MJUIZMA4gWTAZLJ9N": {
       "PlaylistId": "PL1zgNCoWt_7bUFC0MJUIZMA4gWTAZLJ9N",
@@ -870,7 +1018,8 @@
       "ETag": "e-Uk6yd3yUXNVg_8NopyBdlwb2s",
       "ReportedVideoCount": 44,
       "LastChecked": "2026-06-24T13:27:35.6557209+00:00",
-      "LastUpdated": "2024-11-11T01:56:53.093892+00:00"
+      "LastUpdated": "2024-11-11T01:56:53.093892+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YtyIXzbQQyn7M2fCaUn9Ae": {
       "PlaylistId": "PL1zgNCoWt_7YtyIXzbQQyn7M2fCaUn9Ae",
@@ -878,7 +1027,8 @@
       "ETag": "4GGAxVoo85WRbImJx676x_Cpkvc",
       "ReportedVideoCount": 37,
       "LastChecked": "2026-06-24T13:27:35.6557222+00:00",
-      "LastUpdated": "2024-11-11T01:54:17.53201+00:00"
+      "LastUpdated": "2024-11-11T01:54:17.53201+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Ydhxd8JsOc1_Um6tVV1HK8": {
       "PlaylistId": "PL1zgNCoWt_7Ydhxd8JsOc1_Um6tVV1HK8",
@@ -886,7 +1036,8 @@
       "ETag": "ryWnu0lcRre4KxRPsUbTSJ94W-U",
       "ReportedVideoCount": 134,
       "LastChecked": "2026-06-24T13:27:35.6557231+00:00",
-      "LastUpdated": "2024-11-10T21:11:10.779257+00:00"
+      "LastUpdated": "2024-11-10T21:11:10.779257+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq": {
       "PlaylistId": "PL1zgNCoWt_7aAlTJQqIhXu5_qDIFuZoUq",
@@ -894,7 +1045,8 @@
       "ETag": "9Yw2NKtNlvX39hP_Oyf19qUx6T8",
       "ReportedVideoCount": 66,
       "LastChecked": "2026-06-24T13:27:35.6557242+00:00",
-      "LastUpdated": "2024-11-10T20:54:45.117961+00:00"
+      "LastUpdated": "2024-11-10T20:54:45.117961+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl": {
       "PlaylistId": "PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl",
@@ -902,7 +1054,8 @@
       "ETag": "xZvr9JllvRRpNfEGIxgjzQUDBgk",
       "ReportedVideoCount": 66,
       "LastChecked": "2026-06-24T13:27:35.655725+00:00",
-      "LastUpdated": "2024-11-09T23:22:25.836909+00:00"
+      "LastUpdated": "2024-11-09T23:22:25.836909+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr": {
       "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
@@ -910,7 +1063,8 @@
       "ETag": "nwUrKelqhXWqMSVFFGZ7Ft9wSmc",
       "ReportedVideoCount": 18,
       "LastChecked": "2026-06-24T13:27:35.6557258+00:00",
-      "LastUpdated": "2024-11-09T15:45:41.872599+00:00"
+      "LastUpdated": "2024-11-09T15:45:41.872599+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7": {
       "PlaylistId": "PL1zgNCoWt_7ZvDu-tbLlN2wEmk3D94wv7",
@@ -918,7 +1072,8 @@
       "ETag": "XENN-pdv8d9aTh0xgCKmwIeaXHQ",
       "ReportedVideoCount": 116,
       "LastChecked": "2026-08-13T06:26:01.1114834+00:00",
-      "LastUpdated": "2024-11-01T20:15:17.729593+00:00"
+      "LastUpdated": "2024-11-01T20:15:17.729593+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG": {
       "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
@@ -926,7 +1081,8 @@
       "ETag": "Emis9xJ4WaQE-Ly5_G1Vjmj8log",
       "ReportedVideoCount": 39,
       "LastChecked": "2026-06-24T13:54:24.7995522+00:00",
-      "LastUpdated": "2024-10-30T23:44:42.177521+00:00"
+      "LastUpdated": "2024-10-30T23:44:42.177521+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f": {
       "PlaylistId": "PL1zgNCoWt_7avKQ5LL2Wsri0ngOnuZW2f",
@@ -934,7 +1090,8 @@
       "ETag": "-TWZ6FLvOOLRlNT_FV0fivM_UiY",
       "ReportedVideoCount": 139,
       "LastChecked": "2026-08-05T03:30:08.0331456+00:00",
-      "LastUpdated": "2024-10-30T22:30:21.10427+00:00"
+      "LastUpdated": "2024-10-30T22:30:21.10427+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv": {
       "PlaylistId": "PL1zgNCoWt_7YbOvXEP1yO4CSJV-M2hbIv",
@@ -942,7 +1099,8 @@
       "ETag": "pFjI_9IPouyuUBHv3UZMmdB2Pig",
       "ReportedVideoCount": 11,
       "LastChecked": "2026-06-24T13:54:24.7995535+00:00",
-      "LastUpdated": "2024-10-30T11:36:28.885834+00:00"
+      "LastUpdated": "2024-10-30T11:36:28.885834+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bwQQmNskHXvIH_0WQ6tLKs": {
       "PlaylistId": "PL1zgNCoWt_7bwQQmNskHXvIH_0WQ6tLKs",
@@ -950,7 +1108,8 @@
       "ETag": "G1Do9YWhfANsGbFY_MohqfjoRdk",
       "ReportedVideoCount": 36,
       "LastChecked": "2026-06-24T13:54:24.7995543+00:00",
-      "LastUpdated": "2024-10-27T12:04:52.94761+00:00"
+      "LastUpdated": "2024-10-27T12:04:52.94761+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9": {
       "PlaylistId": "PL1zgNCoWt_7Y6s_G_UBytJXwyC9wu7OA9",
@@ -958,15 +1117,17 @@
       "ETag": "WN9j_eZjiULlww7PYQGEcAyry_M",
       "ReportedVideoCount": 18,
       "LastChecked": "2026-06-24T13:54:24.799555+00:00",
-      "LastUpdated": "2024-10-24T16:51:08.894423+00:00"
+      "LastUpdated": "2024-10-24T16:51:08.894423+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7aLNB0xmClNCMnY7RK6IcXb": {
       "PlaylistId": "PL1zgNCoWt_7aLNB0xmClNCMnY7RK6IcXb",
       "Title": "K-Man\u0027s Greatest Hindi Hits",
-      "ETag": "vceA7qEQYIY1wJTvRswltiE-vKk",
+      "ETag": "975Km-Z0mLV6VskTMdBRk5KPvTI",
       "ReportedVideoCount": 314,
-      "LastChecked": "2026-06-24T13:54:24.7995557+00:00",
-      "LastUpdated": "2024-10-22T12:49:48.515099+00:00"
+      "LastChecked": "2026-08-13T21:33:00.9028414+00:00",
+      "LastUpdated": "2024-10-22T12:49:48.515099+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bFgYDZyF4hj2sIfJ89zoAQ": {
       "PlaylistId": "PL1zgNCoWt_7bFgYDZyF4hj2sIfJ89zoAQ",
@@ -974,7 +1135,8 @@
       "ETag": "bWdXmn7HgzIHaTZKgvmnOHcv0iI",
       "ReportedVideoCount": 132,
       "LastChecked": "2026-06-24T13:54:24.7995563+00:00",
-      "LastUpdated": "2024-10-07T11:00:47.526727+00:00"
+      "LastUpdated": "2024-10-07T11:00:47.526727+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bCtx9cPkQiXl9bB0Ytozfa": {
       "PlaylistId": "PL1zgNCoWt_7bCtx9cPkQiXl9bB0Ytozfa",
@@ -982,7 +1144,8 @@
       "ETag": "n-mhACen6MMwOjGw5-inM4YposY",
       "ReportedVideoCount": 50,
       "LastChecked": "2026-08-05T03:30:08.0331514+00:00",
-      "LastUpdated": "2024-10-07T10:47:14.702524+00:00"
+      "LastUpdated": "2024-10-07T10:47:14.702524+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Y5CQv9pTBS9ZS1oDPTCRq5": {
       "PlaylistId": "PL1zgNCoWt_7Y5CQv9pTBS9ZS1oDPTCRq5",
@@ -990,7 +1153,8 @@
       "ETag": "UIwTrpdTk7B1tgAULc0-Zp6IyWg",
       "ReportedVideoCount": 299,
       "LastChecked": "2026-06-24T13:54:24.7995586+00:00",
-      "LastUpdated": "2024-08-05T19:35:48.683357+00:00"
+      "LastUpdated": "2024-08-05T19:35:48.683357+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7": {
       "PlaylistId": "PL1zgNCoWt_7bSyrVmDd2dC9gbYF2BX4X7",
@@ -998,7 +1162,8 @@
       "ETag": "HrJiuwtTSdjtl6qExk3874ikLao",
       "ReportedVideoCount": 7,
       "LastChecked": "2026-06-24T13:54:24.7995606+00:00",
-      "LastUpdated": "2024-06-26T22:58:22.612569+00:00"
+      "LastUpdated": "2024-06-26T22:58:22.612569+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YBiyLkVfl0XN6ww1Xjj417": {
       "PlaylistId": "PL1zgNCoWt_7YBiyLkVfl0XN6ww1Xjj417",
@@ -1006,7 +1171,8 @@
       "ETag": "fJ1lZIm6J04l-wI8xWQyswvfZkU",
       "ReportedVideoCount": 24,
       "LastChecked": "2026-06-24T13:54:24.7995613+00:00",
-      "LastUpdated": "2024-05-27T22:43:05.889549+00:00"
+      "LastUpdated": "2024-05-27T22:43:05.889549+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB": {
       "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
@@ -1014,7 +1180,8 @@
       "ETag": "qeLdMRDVxzJRAzs3YJEMIn_Z9Yk",
       "ReportedVideoCount": 7,
       "LastChecked": "2026-06-24T13:54:24.7995642+00:00",
-      "LastUpdated": "2024-05-14T19:01:10.570948+00:00"
+      "LastUpdated": "2024-05-14T19:01:10.570948+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Yt04UW0c1G0ZKYVZc4YeUV": {
       "PlaylistId": "PL1zgNCoWt_7Yt04UW0c1G0ZKYVZc4YeUV",
@@ -1022,7 +1189,8 @@
       "ETag": "_pB5QqmHfQgX-VGd39vF1VlrzVI",
       "ReportedVideoCount": 95,
       "LastChecked": "2026-06-24T13:54:24.7995659+00:00",
-      "LastUpdated": "2024-04-07T14:38:01.705525+00:00"
+      "LastUpdated": "2024-04-07T14:38:01.705525+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf": {
       "PlaylistId": "PL1zgNCoWt_7bm4VKYvAysZyjkGED5Ljqf",
@@ -1030,7 +1198,8 @@
       "ETag": "cSAz4DqjCDpY_eQutMMri6glFgc",
       "ReportedVideoCount": 91,
       "LastChecked": "2026-06-26T18:00:00.9195549+00:00",
-      "LastUpdated": "2023-11-27T22:53:02.900428+00:00"
+      "LastUpdated": "2023-11-27T22:53:02.900428+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-": {
       "PlaylistId": "PL1zgNCoWt_7bIxeKoqVUmN9rQ8a3zg9x-",
@@ -1038,7 +1207,8 @@
       "ETag": "BcSm4Qe9jCRy61tq7l6nHF9DlAA",
       "ReportedVideoCount": 43,
       "LastChecked": "2026-06-24T13:54:24.7995699+00:00",
-      "LastUpdated": "2023-11-26T04:01:08.386759+00:00"
+      "LastUpdated": "2023-11-26T04:01:08.386759+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YvRKUw_4Z4eg327eE72o5S": {
       "PlaylistId": "PL1zgNCoWt_7YvRKUw_4Z4eg327eE72o5S",
@@ -1046,7 +1216,8 @@
       "ETag": "QBkc45qgxhQ0eMy6qfVCMVfphGw",
       "ReportedVideoCount": 90,
       "LastChecked": "2026-06-24T13:54:24.7995706+00:00",
-      "LastUpdated": "2023-11-24T19:03:49.939752+00:00"
+      "LastUpdated": "2023-11-24T19:03:49.939752+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7b4uFWFGP3igY4tZRrZgp5J": {
       "PlaylistId": "PL1zgNCoWt_7b4uFWFGP3igY4tZRrZgp5J",
@@ -1054,7 +1225,8 @@
       "ETag": "89cpKn0RpxBIEOkmqArlPHXXKNE",
       "ReportedVideoCount": 58,
       "LastChecked": "2026-06-24T13:54:24.7995712+00:00",
-      "LastUpdated": "2023-11-19T14:24:23.021589+00:00"
+      "LastUpdated": "2023-11-19T14:24:23.021589+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq": {
       "PlaylistId": "PL1zgNCoWt_7bTu33spk7tz_Lc7BNXQinq",
@@ -1062,7 +1234,8 @@
       "ETag": "vz0aSOQg0wpuBcSOcOL9ySv37MU",
       "ReportedVideoCount": 54,
       "LastChecked": "2026-07-04T19:21:19.8925837+00:00",
-      "LastUpdated": "2023-11-19T14:01:09.512769+00:00"
+      "LastUpdated": "2023-11-19T14:01:09.512769+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7arQOe8rlPTX21Hg8CSbSxh": {
       "PlaylistId": "PL1zgNCoWt_7arQOe8rlPTX21Hg8CSbSxh",
@@ -1070,7 +1243,8 @@
       "ETag": "og318fBRmKffRXHQyNC0ULuIOFw",
       "ReportedVideoCount": 164,
       "LastChecked": "2026-06-24T13:54:24.7995724+00:00",
-      "LastUpdated": "2023-11-19T13:41:54.74609+00:00"
+      "LastUpdated": "2023-11-19T13:41:54.74609+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh": {
       "PlaylistId": "PL1zgNCoWt_7Z3XFIa_W_s44EM-piLRkFh",
@@ -1078,7 +1252,8 @@
       "ETag": "VgSz8DxxLpZ7DhGVwjiv9oE0lXg",
       "ReportedVideoCount": 63,
       "LastChecked": "2026-07-15T19:39:18.8322077+00:00",
-      "LastUpdated": "2023-11-19T13:32:22.499911+00:00"
+      "LastUpdated": "2023-11-19T13:32:22.499911+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv": {
       "PlaylistId": "PL1zgNCoWt_7bQHavJuC22X69g7TRK7aKv",
@@ -1086,7 +1261,8 @@
       "ETag": "6HAovPHiGb0bs_TI9x-FXNSRDc4",
       "ReportedVideoCount": 97,
       "LastChecked": "2026-06-24T13:54:24.7995739+00:00",
-      "LastUpdated": "2023-11-19T13:14:40.154208+00:00"
+      "LastUpdated": "2023-11-19T13:14:40.154208+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YIuUHxscYo21YxqOu83kJB": {
       "PlaylistId": "PL1zgNCoWt_7YIuUHxscYo21YxqOu83kJB",
@@ -1094,7 +1270,8 @@
       "ETag": "tjqHQ92M366xOXudJ9soVIBCTZY",
       "ReportedVideoCount": 95,
       "LastChecked": "2026-07-12T16:27:01.4650191+00:00",
-      "LastUpdated": "2023-11-17T19:50:24.789273+00:00"
+      "LastUpdated": "2023-11-17T19:50:24.789273+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo": {
       "PlaylistId": "PL1zgNCoWt_7bGHz1ITg7oDKPJiW3lXhGo",
@@ -1102,7 +1279,8 @@
       "ETag": "54_WNvRAg3GSKjzGxb4_FrXu0PE",
       "ReportedVideoCount": 77,
       "LastChecked": "2026-07-15T19:39:18.8322114+00:00",
-      "LastUpdated": "2023-11-16T19:31:01.311723+00:00"
+      "LastUpdated": "2023-11-16T19:31:01.311723+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9": {
       "PlaylistId": "PL1zgNCoWt_7YcoPqvLdBcpZ0gyEpOWJu9",
@@ -1110,7 +1288,8 @@
       "ETag": "kU0gholV4UJQzVHnrLKZUEGdorg",
       "ReportedVideoCount": 166,
       "LastChecked": "2026-06-26T18:00:00.9195598+00:00",
-      "LastUpdated": "2023-11-16T19:30:38.001297+00:00"
+      "LastUpdated": "2023-11-16T19:30:38.001297+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7bpwlJYymdY79IvMF7YQ2Nx": {
       "PlaylistId": "PL1zgNCoWt_7bpwlJYymdY79IvMF7YQ2Nx",
@@ -1118,7 +1297,8 @@
       "ETag": "CBbDH7DwZexk6bH03HkBpx18bG8",
       "ReportedVideoCount": 73,
       "LastChecked": "2026-06-24T13:54:24.7995764+00:00",
-      "LastUpdated": "2023-05-21T09:43:04.499699+00:00"
+      "LastUpdated": "2023-05-21T09:43:04.499699+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7a8WCbPh3i6xNS-to4ZyqBs": {
       "PlaylistId": "PL1zgNCoWt_7a8WCbPh3i6xNS-to4ZyqBs",
@@ -1126,7 +1306,8 @@
       "ETag": "wrHVkGOs4pgJ0nVOBlpA3Ar3Zq8",
       "ReportedVideoCount": 9,
       "LastChecked": "2026-06-24T13:54:24.799577+00:00",
-      "LastUpdated": "2023-04-13T20:20:02.143261+00:00"
+      "LastUpdated": "2023-04-13T20:20:02.143261+00:00",
+      "LastSortCompleted": false
     },
     "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4": {
       "PlaylistId": "PL1zgNCoWt_7ZAYNJZ33DzCHVEeo034qv4",
@@ -1134,7 +1315,8 @@
       "ETag": "5rj5wtt_Uhhw8kKHoyZqVzu9mPU",
       "ReportedVideoCount": 7,
       "LastChecked": "2026-06-28T16:55:22.0654591+00:00",
-      "LastUpdated": "2026-06-24T18:00:43.186609+00:00"
+      "LastUpdated": "2026-06-24T18:00:43.186609+00:00",
+      "LastSortCompleted": false
     },
     "PLID5g4nWvScc": {
       "PlaylistId": "PLID5g4nWvScc",
@@ -1142,7 +1324,8 @@
       "ETag": "3VytpLkSzfr89FMcIBrhx3tG8W4",
       "ReportedVideoCount": 2,
       "LastChecked": "2026-07-15T19:39:17.4420987+00:00",
-      "LastUpdated": "2026-07-08T08:20:40.560604+00:00"
+      "LastUpdated": "2026-07-08T08:20:40.560604+00:00",
+      "LastSortCompleted": false
     },
     "PLGZ26GfFu_B0": {
       "PlaylistId": "PLGZ26GfFu_B0",
@@ -1150,7 +1333,8 @@
       "ETag": "IRNw2aHKi9Uhc_jupwQ_7BH9XkE",
       "ReportedVideoCount": 3,
       "LastChecked": "2026-08-05T03:30:07.1310601+00:00",
-      "LastUpdated": "2026-07-26T03:47:51.468224+00:00"
+      "LastUpdated": "2026-07-26T03:47:51.468224+00:00",
+      "LastSortCompleted": false
     },
     "PLdCs21Nrbsas": {
       "PlaylistId": "PLdCs21Nrbsas",
@@ -1158,9 +1342,10 @@
       "ETag": "gTL7m3OD1aQUSt7igHc8brnprGE",
       "ReportedVideoCount": 206,
       "LastChecked": "2026-08-05T03:30:07.1311629+00:00",
-      "LastUpdated": "2026-07-20T21:17:27.100996+00:00"
+      "LastUpdated": "2026-07-20T21:17:27.100996+00:00",
+      "LastSortCompleted": false
     }
   },
-  "LastChecked": "2026-08-13T06:26:04.7135798+00:00",
-  "LastUpdated": "2026-08-13T06:26:04.71358+00:00"
+  "LastChecked": "2026-08-14T04:07:58.102499+00:00",
+  "LastUpdated": "2026-08-14T04:07:58.1024993+00:00"
 }

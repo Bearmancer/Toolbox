@@ -69,7 +69,7 @@ public sealed class SacdExtractService(ProcessRunner processRunner, string binar
 		Telemetry.Debug(
 			"SacdExtract.Start iso={Iso} outputDir={OutputDir} channels={Channel}",
 			Path.GetFileName(isoPath),
-			outputDir,
+			LogPaths.Format(outputDir),
 			multichannel ? "multichannel" : "stereo"
 		);
 

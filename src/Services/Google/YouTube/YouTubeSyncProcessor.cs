@@ -174,23 +174,23 @@ public class YouTubeSyncProcessor(
 			if (!state.PlaylistSnapshots.TryGetValue(playlistId, out PlaylistSnapshot? snapshot))
 				continue;
 
-			attempted++;
-			var remainingBudget = maxWritesPerRun - writesConsumed;
-			(var sorted, var consumed, var distinctMoved) = await SortSinglePlaylistAsync(
-				playlistId,
-				snapshot,
-				state,
-				remainingBudget,
-				ct
-			);
-			writesConsumed += consumed;
-			if (sorted && consumed > 0)
-				modified++;
-			else if (sorted)
-				break;
+		attempted++;
+		var remainingBudget = maxWritesPerRun - writesConsumed;
+		(var sorted, var consumed, var distinctMoved) = await SortSinglePlaylistAsync(
+			playlistId,
+			snapshot,
+			state,
+			remainingBudget,
+			ct
+		);
+		writesConsumed += consumed;
+		if (sorted && consumed > 0)
+			modified++;
+		else if (!sorted)
+			break;
 		}
 
-		if (modified > 0)
+		if (attempted > 0)
 			await YouTubeFetchState.SaveAsync(ManifestFile, state, ct);
 
 		SortStatistics stats = new(

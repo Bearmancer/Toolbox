@@ -94,5 +94,6 @@ public sealed record CueTrack(
 public sealed record PipelineResult(
 	int SucceededCount,
 	int FailedCount,
-	List<string> RecoverableErrors
+	List<string> RecoverableErrors,
+	List<string> GuardFailedDiscs
 );

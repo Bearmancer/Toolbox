@@ -2,6 +2,7 @@
 	<ItemGroup>
 		<PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" />
 		<PackageReference Include="DotNetEnv" />
+		<PackageReference Include="SSH.NET" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CLI\CLI.csproj" />

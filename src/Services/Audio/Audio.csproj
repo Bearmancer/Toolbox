@@ -3,6 +3,7 @@
 		<RootNamespace>Services.Audio</RootNamespace>
 	</PropertyGroup>
 	<ItemGroup>
+		<PackageReference Include="SSH.NET" />
 		<PackageReference Include="z440.atl.core" />
 		<PackageReference Include="ErrorOr" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
