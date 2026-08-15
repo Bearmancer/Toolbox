@@ -46,7 +46,8 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 				break;
 			}
 
-			ErrorOr<SortPassResult> passResult = await FetchPlaylistItemsAsync(playlistId, ct)
+			ErrorOr<List<PlaylistItem>> fetchResult = await FetchPlaylistItemsAsync(playlistId, ct);
+			ErrorOr<SortPassResult> passResult = await fetchResult
 				.Then(items => ComputeSortPlan(items, translatedTitles))
 				.ThenAsync(plan => ExecuteSortPlanAsync(plan, budgetForPass, ct));
 
@@ -154,13 +155,15 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		try
 		{
 			IList<PlaylistItem> items = await playlistService.GetPlaylistItemsAsync(playlistId, ct);
+			List<PlaylistItem> deduped = [.. items.DistinctBy(i => i.Id)];
 			fetchSw.Stop();
 			Telemetry.Verbose(
-				"Fetched {Count} items in {ElapsedMs}ms",
-				items.Count,
+				"Fetched {Count} items ({Removed} duplicates removed) in {ElapsedMs}ms",
+				deduped.Count,
+				items.Count - deduped.Count,
 				fetchSw.ElapsedMilliseconds
 			);
-			return items.ToList();
+			return deduped;
 		}
 		catch (Exception ex)
 		{
@@ -174,7 +177,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 		}
 	}
 
-	public static SortPlan ComputeSortPlan(
+	public static ErrorOr<SortPlan> ComputeSortPlan(
 		IList<PlaylistItem> items,
 		IReadOnlyDictionary<string, string> translatedTitles
 	)
@@ -187,9 +190,17 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			),
 		];
 
-		Dictionary<string, int> targetRank = sorted
-			.Select((item, idx) => (item.Id, idx))
-			.ToDictionary(x => x.Id, x => x.idx);
+		Dictionary<string, int> targetRank;
+		try
+		{
+			targetRank = sorted
+				.Select((item, idx) => (item.Id, idx))
+				.ToDictionary(x => x.Id, x => x.idx);
+		}
+		catch (ArgumentException ex)
+		{
+			return Errors.YouTube.ApiError($"Duplicate playlist item IDs detected: {ex.Message}");
+		}
 
 		List<PlaylistItem> currentOrder = [.. items];
 		var permutation = currentOrder.Select(item => targetRank[item.Id]).ToArray();
@@ -217,7 +228,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 			updates.Count
 		);
 
-		return new(items.Count, keptIds.Count, updates);
+		return new SortPlan(items.Count, keptIds.Count, updates);
 	}
 
 	private static string SortKeyFor(

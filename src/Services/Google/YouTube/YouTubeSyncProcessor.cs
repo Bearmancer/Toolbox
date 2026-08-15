@@ -176,18 +176,30 @@ public class YouTubeSyncProcessor(
 
 		attempted++;
 		var remainingBudget = maxWritesPerRun - writesConsumed;
-		(var sorted, var consumed, var distinctMoved) = await SortSinglePlaylistAsync(
-			playlistId,
-			snapshot,
-			state,
-			remainingBudget,
-			ct
-		);
-		writesConsumed += consumed;
-		if (sorted && consumed > 0)
-			modified++;
-		else if (!sorted)
-			break;
+		try
+		{
+			(var sorted, var consumed, var distinctMoved) = await SortSinglePlaylistAsync(
+				playlistId,
+				snapshot,
+				state,
+				remainingBudget,
+				ct
+			);
+			writesConsumed += consumed;
+			if (sorted && consumed > 0)
+				modified++;
+			else if (!sorted)
+				break;
+		}
+		catch (Exception ex) when (ex is not OperationCanceledException)
+		{
+			Telemetry.Error(
+				"Sort failed for {Title} ({Id}): {Error}. Continuing to next playlist.",
+				snapshot.Title,
+				playlistId,
+				ex.Message
+			);
+		}
 		}
 
 		if (attempted > 0)

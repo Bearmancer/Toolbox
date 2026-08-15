@@ -1,246 +1,246 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "2QWJLlB5xBU",
-			"VideoPublishedAtRaw": "2020-06-18T14:38:10Z",
-			"VideoPublishedAtDateTimeOffset": "2020-06-18T14:38:10+00:00",
-			"VideoPublishedAt": "2020-06-18T20:08:10+05:30"
-		},
-		"ETag": "QljEJIThDHfQhKcmZqFDq8xMz4Q",
-		"Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Donate now to the Symphony\u2019s Stabilization Fund and your new or increased gift will be matched dollar for dollar. Help keep the music playing for everyone!\nClick here to donate: https://tinyurl.com/yyl7c3tv \n--------------------------------------------------------------------------------------------------------------------------------------------\nA new digital series: LISTEN // HEAR featuring Music Director Rafael Payare and his colleagues from the San Diego Symphony, together with our London-based Creative Consultant, Gerard McBurney, discussing highlights of the symphonic repertoire. This week\u0027s guest speakers are Jeremy Kurtz-Harris, principal bass, and Douglas Hall, horn.\n\nThese weekly virtual gatherings will be live-streamed on YouTube and Facebook every Wednesday evening and available for on-demand viewing afterward. \n\nIn our first episode, we tackle one of the loftiest peaks of the art form: Beethoven\u2019s Symphony No. 9.",
-			"PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
-			"Position": 0,
-			"PublishedAtRaw": "2025-04-20T23:32:27Z",
-			"PublishedAtDateTimeOffset": "2025-04-20T23:32:27+00:00",
-			"PublishedAt": "2025-04-21T05:02:27+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "2QWJLlB5xBU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "LISTEN // HEAR Ep. 1 Beethoven\u0027s Symphony No. 9",
-			"VideoOwnerChannelId": "UCjtlnNvT06GtRfd6O8QTBcw",
-			"VideoOwnerChannelTitle": "San Diego Symphony"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "oXcQeEo-iK8",
-			"VideoPublishedAtRaw": "2020-07-09T14:24:37Z",
-			"VideoPublishedAtDateTimeOffset": "2020-07-09T14:24:37+00:00",
-			"VideoPublishedAt": "2020-07-09T19:54:37+05:30"
-		},
-		"ETag": "v-LFHGk8i_Pb0kvFBtOXlyVORT0",
-		"Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Donate now to the Symphony\u2019s Stabilization Fund and your new or increased gift will be matched dollar for dollar. Help keep the music playing for everyone!\nClick here to donate: https://tinyurl.com/yyl7c3tv \n--------------------------------------------------------------------------------------------------------------------------------------------\nTune in live on Facebook or YouTube Wednesday, July 8 at 6:30PM for Episode 4 of LISTEN // HEAR featuring Music Director Rafael Payare and our London-based Creative Consultant, Gerard McBurney.\n\nIn Episode 4, we explore Tchaikovsky\u2019s \u0022Path\u00E9tique\u0022 Symphony with San Diego Symphony musicians Kyle Covington, principal trombone and Yao Zhao, principal cello.",
-			"PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
-			"Position": 1,
-			"PublishedAtRaw": "2025-04-20T23:32:21Z",
-			"PublishedAtDateTimeOffset": "2025-04-20T23:32:21+00:00",
-			"PublishedAt": "2025-04-21T05:02:21+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "oXcQeEo-iK8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "LISTEN // HEAR Ep. 4  Tchaikovsky\u0027s Path\u00E9tique Symphony",
-			"VideoOwnerChannelId": "UCjtlnNvT06GtRfd6O8QTBcw",
-			"VideoOwnerChannelTitle": "San Diego Symphony"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "TuZU16BeGW0",
-			"VideoPublishedAtRaw": "2025-03-21T21:59:20Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-21T21:59:20+00:00",
-			"VideoPublishedAt": "2025-03-22T03:29:20+05:30"
-		},
-		"ETag": "L-BrTIQzH2P1CStUD2QJhYaowV0",
-		"Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Download the concert programme: https://www.rcm.ac.uk/included/eventimages/programmes/Symphonie%20fantastique%20-%20concert%20programme.pdf\n\nRafael Payare - conductor \nMagdalene Ho - piano \nRCM Symphony Orchestra \n\nProgramme:\nCarlos Simon - Fate Now Conquers \nBeethoven - Piano Concerto no 1 in C major op15 \nBerlioz - Symphonie fantastique\n\nRafael Payare is at the helm for a spellbinding RCM Symphony Orchestra concert, featuring Berlioz\u2019s dramatic and passionate Symphonie fantastique as well Carlos Simon\u2019s piece inspired by an entry in Beethoven\u2019s journal, \u2019Fate Now Conquers\u2019, and Beethoven\u2019s First Piano Concerto performed by Magdalene Ho.\n\nBerlioz was a Romantic through and through, and the young man at the heart of the Symphonie fantastique\u2019s story might have been the composer himself, his obsessive nature represented by a recurring motif or \u2019ide\u00E9 fixe\u2019. In the opening \u2019Reveries, Passions\u2019, Berlioz conjures up what he called \u2019volcanic love\u2019, followed by a waltzing ball scene and pastoral interlude. Then come the sinister \u2019March to the Scaffold\u2019 and nightmarish \u2019Dream of a Witches\u2019 Sabbath\u2019, reflecting what Berlioz described as the key elements of his style: \u2019passionate expression, inner warmth, rhythmic impetus and unexpectedness\u2019.\n\nTo browse the Royal College of Music\u2019s events season, visit https://www.rcm.ac.uk/events",
-			"PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
-			"Position": 2,
-			"PublishedAtRaw": "2025-04-20T23:31:50Z",
-			"PublishedAtDateTimeOffset": "2025-04-20T23:31:50+00:00",
-			"PublishedAt": "2025-04-21T05:01:50+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "TuZU16BeGW0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/TuZU16BeGW0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/TuZU16BeGW0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/TuZU16BeGW0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/TuZU16BeGW0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/TuZU16BeGW0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Rafael Payare conducts Berlioz\u2019s Symphonie fantastique",
-			"VideoOwnerChannelId": "UCjUQsk6a-IvdSeUboCifDxQ",
-			"VideoOwnerChannelTitle": "Royal College of Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "OJil540kZlg",
-			"VideoPublishedAtRaw": "2020-08-14T09:21:15Z",
-			"VideoPublishedAtDateTimeOffset": "2020-08-14T09:21:15+00:00",
-			"VideoPublishedAt": "2020-08-14T14:51:15+05:30"
-		},
-		"ETag": "81am2yEsemlRORyuaUTsr1W3LBI",
-		"Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Find out more about the Royal College of Music at http://www.rcm.ac.uk\n\nGuest conductor Rafael Payare leads the RCM Symphony Orchestra in a performance of Skryabin\u2019s symphonic poem, written in the early 20th century. The composer wrote a poem over three hundred lines long to accompany the music, though not to be recited with it. The poem tracks the ascent of a spirit into consciousness, catalysed by the recurring appearance of \u2018trembling presentiments of dark rhythms\u2019 that later transform into \u2018bright presentiments of shining rhythms.\u2019 \n\nRecorded on 13 January 2019 in the Amaryllis Fleming Concert Hall at the Royal College of Music in London. \n\nSee what the #RCMCommunity is doing right now by following us on social media. \n\nhttps://www.facebook.com/royalcollegeofmusic  \nhttps://twitter.com/RCMLondon \nhttps://www.instagram.com/rcmlondon/",
-			"PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
-			"Position": 3,
-			"PublishedAtRaw": "2025-04-20T23:31:26Z",
-			"PublishedAtDateTimeOffset": "2025-04-20T23:31:26+00:00",
-			"PublishedAt": "2025-04-21T05:01:26+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "OJil540kZlg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/OJil540kZlg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/OJil540kZlg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/OJil540kZlg/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/OJil540kZlg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/OJil540kZlg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "RCM Symphony Orchestra: Rafael Payare conducts Skryabin Poema Ekastaza",
-			"VideoOwnerChannelId": "UCjUQsk6a-IvdSeUboCifDxQ",
-			"VideoOwnerChannelTitle": "Royal College of Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "-mato3gUeBM"
-		},
-		"ETag": "uQ63J6BD-0w0ewX9Kd2TBXNX7a8",
-		"Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This video is unavailable.",
-			"PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
-			"Position": 4,
-			"PublishedAtRaw": "2025-04-20T23:31:55Z",
-			"PublishedAtDateTimeOffset": "2025-04-20T23:31:55+00:00",
-			"PublishedAt": "2025-04-21T05:01:55+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "-mato3gUeBM"
-			},
-			"Thumbnails": {},
-			"Title": "Deleted video"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "-mato3gUeBM"
+    },
+    "ETag": "w_57gJUl6RndkRhYGlLY6S-qgC8",
+    "Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
+      "Position": 0,
+      "PublishedAtRaw": "2025-04-20T23:31:55Z",
+      "PublishedAtDateTimeOffset": "2025-04-20T23:31:55+00:00",
+      "PublishedAt": "2025-04-21T05:01:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-mato3gUeBM"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2QWJLlB5xBU",
+      "VideoPublishedAtRaw": "2020-06-18T14:38:10Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-18T14:38:10+00:00",
+      "VideoPublishedAt": "2020-06-18T20:08:10+05:30"
+    },
+    "ETag": "2MfnRVEUgoeRzs3k7HkJoRBQekA",
+    "Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Donate now to the Symphony\u2019s Stabilization Fund and your new or increased gift will be matched dollar for dollar. Help keep the music playing for everyone!\nClick here to donate: https://tinyurl.com/yyl7c3tv \n--------------------------------------------------------------------------------------------------------------------------------------------\nA new digital series: LISTEN // HEAR featuring Music Director Rafael Payare and his colleagues from the San Diego Symphony, together with our London-based Creative Consultant, Gerard McBurney, discussing highlights of the symphonic repertoire. This week\u0027s guest speakers are Jeremy Kurtz-Harris, principal bass, and Douglas Hall, horn.\n\nThese weekly virtual gatherings will be live-streamed on YouTube and Facebook every Wednesday evening and available for on-demand viewing afterward. \n\nIn our first episode, we tackle one of the loftiest peaks of the art form: Beethoven\u2019s Symphony No. 9.",
+      "PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
+      "Position": 1,
+      "PublishedAtRaw": "2025-04-20T23:32:27Z",
+      "PublishedAtDateTimeOffset": "2025-04-20T23:32:27+00:00",
+      "PublishedAt": "2025-04-21T05:02:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2QWJLlB5xBU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/2QWJLlB5xBU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "LISTEN // HEAR Ep. 1 Beethoven\u0027s Symphony No. 9",
+      "VideoOwnerChannelId": "UCjtlnNvT06GtRfd6O8QTBcw",
+      "VideoOwnerChannelTitle": "San Diego Symphony"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "oXcQeEo-iK8",
+      "VideoPublishedAtRaw": "2020-07-09T14:24:37Z",
+      "VideoPublishedAtDateTimeOffset": "2020-07-09T14:24:37+00:00",
+      "VideoPublishedAt": "2020-07-09T19:54:37+05:30"
+    },
+    "ETag": "CGntaW24gw_MJ3C0L8vvImjBU2M",
+    "Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Donate now to the Symphony\u2019s Stabilization Fund and your new or increased gift will be matched dollar for dollar. Help keep the music playing for everyone!\nClick here to donate: https://tinyurl.com/yyl7c3tv \n--------------------------------------------------------------------------------------------------------------------------------------------\nTune in live on Facebook or YouTube Wednesday, July 8 at 6:30PM for Episode 4 of LISTEN // HEAR featuring Music Director Rafael Payare and our London-based Creative Consultant, Gerard McBurney.\n\nIn Episode 4, we explore Tchaikovsky\u2019s \u0022Path\u00E9tique\u0022 Symphony with San Diego Symphony musicians Kyle Covington, principal trombone and Yao Zhao, principal cello.",
+      "PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
+      "Position": 2,
+      "PublishedAtRaw": "2025-04-20T23:32:21Z",
+      "PublishedAtDateTimeOffset": "2025-04-20T23:32:21+00:00",
+      "PublishedAt": "2025-04-21T05:02:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "oXcQeEo-iK8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/oXcQeEo-iK8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "LISTEN // HEAR Ep. 4  Tchaikovsky\u0027s Path\u00E9tique Symphony",
+      "VideoOwnerChannelId": "UCjtlnNvT06GtRfd6O8QTBcw",
+      "VideoOwnerChannelTitle": "San Diego Symphony"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "TuZU16BeGW0",
+      "VideoPublishedAtRaw": "2025-03-21T21:59:20Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-21T21:59:20+00:00",
+      "VideoPublishedAt": "2025-03-22T03:29:20+05:30"
+    },
+    "ETag": "sm-gtG5K5W3TS5ZHaRMHSleGFwA",
+    "Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Download the concert programme: https://www.rcm.ac.uk/included/eventimages/programmes/Symphonie%20fantastique%20-%20concert%20programme.pdf\n\nRafael Payare - conductor \nMagdalene Ho - piano \nRCM Symphony Orchestra \n\nProgramme:\nCarlos Simon - Fate Now Conquers \nBeethoven - Piano Concerto no 1 in C major op15 \nBerlioz - Symphonie fantastique\n\nRafael Payare is at the helm for a spellbinding RCM Symphony Orchestra concert, featuring Berlioz\u2019s dramatic and passionate Symphonie fantastique as well Carlos Simon\u2019s piece inspired by an entry in Beethoven\u2019s journal, \u2019Fate Now Conquers\u2019, and Beethoven\u2019s First Piano Concerto performed by Magdalene Ho.\n\nBerlioz was a Romantic through and through, and the young man at the heart of the Symphonie fantastique\u2019s story might have been the composer himself, his obsessive nature represented by a recurring motif or \u2019ide\u00E9 fixe\u2019. In the opening \u2019Reveries, Passions\u2019, Berlioz conjures up what he called \u2019volcanic love\u2019, followed by a waltzing ball scene and pastoral interlude. Then come the sinister \u2019March to the Scaffold\u2019 and nightmarish \u2019Dream of a Witches\u2019 Sabbath\u2019, reflecting what Berlioz described as the key elements of his style: \u2019passionate expression, inner warmth, rhythmic impetus and unexpectedness\u2019.\n\nTo browse the Royal College of Music\u2019s events season, visit https://www.rcm.ac.uk/events",
+      "PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
+      "Position": 3,
+      "PublishedAtRaw": "2025-04-20T23:31:50Z",
+      "PublishedAtDateTimeOffset": "2025-04-20T23:31:50+00:00",
+      "PublishedAt": "2025-04-21T05:01:50+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "TuZU16BeGW0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/TuZU16BeGW0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/TuZU16BeGW0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/TuZU16BeGW0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/TuZU16BeGW0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/TuZU16BeGW0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rafael Payare conducts Berlioz\u2019s Symphonie fantastique",
+      "VideoOwnerChannelId": "UCjUQsk6a-IvdSeUboCifDxQ",
+      "VideoOwnerChannelTitle": "Royal College of Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OJil540kZlg",
+      "VideoPublishedAtRaw": "2020-08-14T09:21:15Z",
+      "VideoPublishedAtDateTimeOffset": "2020-08-14T09:21:15+00:00",
+      "VideoPublishedAt": "2020-08-14T14:51:15+05:30"
+    },
+    "ETag": "-rWf3T51pX72iDwgB7HA32wtxJs",
+    "Id": "UEwxemdOQ29XdF83WldQaVlpMkYzVHZiUDRlWHJoQmhkLS41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Find out more about the Royal College of Music at http://www.rcm.ac.uk\n\nGuest conductor Rafael Payare leads the RCM Symphony Orchestra in a performance of Skryabin\u2019s symphonic poem, written in the early 20th century. The composer wrote a poem over three hundred lines long to accompany the music, though not to be recited with it. The poem tracks the ascent of a spirit into consciousness, catalysed by the recurring appearance of \u2018trembling presentiments of dark rhythms\u2019 that later transform into \u2018bright presentiments of shining rhythms.\u2019 \n\nRecorded on 13 January 2019 in the Amaryllis Fleming Concert Hall at the Royal College of Music in London. \n\nSee what the #RCMCommunity is doing right now by following us on social media. \n\nhttps://www.facebook.com/royalcollegeofmusic  \nhttps://twitter.com/RCMLondon \nhttps://www.instagram.com/rcmlondon/",
+      "PlaylistId": "PL1zgNCoWt_7ZWPiYi2F3TvbP4eXrhBhd-",
+      "Position": 4,
+      "PublishedAtRaw": "2025-04-20T23:31:26Z",
+      "PublishedAtDateTimeOffset": "2025-04-20T23:31:26+00:00",
+      "PublishedAt": "2025-04-21T05:01:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OJil540kZlg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/OJil540kZlg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/OJil540kZlg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/OJil540kZlg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/OJil540kZlg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/OJil540kZlg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "RCM Symphony Orchestra: Rafael Payare conducts Skryabin Poema Ekastaza",
+      "VideoOwnerChannelId": "UCjUQsk6a-IvdSeUboCifDxQ",
+      "VideoOwnerChannelTitle": "Royal College of Music"
+    }
+  }
 ]

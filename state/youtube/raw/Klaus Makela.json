@@ -409,12 +409,60 @@
   },
   {
     "ContentDetails": {
+      "VideoId": "TkIBnFQhQ64"
+    },
+    "ETag": "yXiqVGMNmbFmqVTD0jVZXltYBFM",
+    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CNTcxMDQ0NThBNzMxODYz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+      "Position": 17,
+      "PublishedAtRaw": "2026-04-09T20:22:16Z",
+      "PublishedAtDateTimeOffset": "2026-04-09T20:22:16+00:00",
+      "PublishedAt": "2026-04-10T01:52:16+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "TkIBnFQhQ64"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "TGF8aCb8ECI"
+    },
+    "ETag": "J_CsIKdw3mrPQyO62vDphJTXGPo",
+    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ERkUyQTM0MzEwQjZCMTY5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
+      "Position": 18,
+      "PublishedAtRaw": "2026-04-09T20:22:25Z",
+      "PublishedAtDateTimeOffset": "2026-04-09T20:22:25+00:00",
+      "PublishedAt": "2026-04-10T01:52:25+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "TGF8aCb8ECI"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
       "VideoId": "iQyslueHtOI",
       "VideoPublishedAtRaw": "2021-02-18T20:00:03Z",
       "VideoPublishedAtDateTimeOffset": "2021-02-18T20:00:03+00:00",
       "VideoPublishedAt": "2021-02-19T01:30:03+05:30"
     },
-    "ETag": "9A9KPbiyJhJQBCpPvSVGwoWLjdQ",
+    "ETag": "ra1pTaDKTC6SE5-k_9d66qGp4Qw",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DNkMwRUI2MkI4QkI4NDFG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -422,7 +470,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform Rolf Gupta\u0027s Epilogue from Earth\u0027s Song in Oslo Concert Hall on 16th October 2020.\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO\nMusic Producer: Vegard Landaas\nLighting design: Petter Dahl Nielsen\n\nWe take infection control seriously. Everything you see on stage and in the concert hall was in accordance with official Norwegian guidelines at the time of the recording.\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\u200B\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\u200B\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\u200B\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\u200B\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 17,
+      "Position": 19,
       "PublishedAtRaw": "2025-09-28T08:35:51Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:35:51+00:00",
       "PublishedAt": "2025-09-28T14:05:51+05:30",
@@ -469,7 +517,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-04-28T09:15:05+00:00",
       "VideoPublishedAt": "2020-04-28T14:45:05+05:30"
     },
-    "ETag": "PQm6vH_FDzgKi9FEIePIXzG7tK0",
+    "ETag": "XGPKvfOVk6_MSwkoEWrj-1rQzjg",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4yQUJFNUVCMzVDNjcxRTlF",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -477,7 +525,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform Epitaffio by Arne Nordheim in Oslo Concert Hall on 7th November 2019.\n\nSound production: NRK\n\nVideo production: Trippel-M Levende Bilder\n\nMusic used with permission from NCB\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 18,
+      "Position": 20,
       "PublishedAtRaw": "2025-09-28T08:37:11Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:37:11+00:00",
       "PublishedAt": "2025-09-28T14:07:11+05:30",
@@ -524,7 +572,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-01-22T11:05:05+00:00",
       "VideoPublishedAt": "2021-01-22T16:35:05+05:30"
     },
-    "ETag": "xe6_6BCwPrq-n3gyaaMLkmAiCHY",
+    "ETag": "ohVYj66RFW6oijBgdoeyDFWI9Vo",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS42QzdBMzlBQzQzRjQ0QkQy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -532,7 +580,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Truls M\u00F8rk au violoncelle et l\u0027Orchestre Philharmonique de Radio France sous la direction de Klaus M\u00E4kel\u00E4 interpr\u00E8te le Concerto pour violoncelle d\u0027Esa-Pekka Salonen. Extrait du concert donn\u00E9 le 6 mars 2020 \u00E0 l\u2019Auditorium de la Maison de la Radio \u00E0 Paris.\n\n#KlausM\u00E4kel\u00E4 #TrulsM\u00F8rk #OrchestrePhilharmoniquedeRadioFrance\n\n\nRetrouvez tous les concerts en vid\u00E9o de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 19,
+      "Position": 21,
       "PublishedAtRaw": "2025-09-28T08:49:10Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:49:10+00:00",
       "PublishedAt": "2025-09-28T14:19:10+05:30",
@@ -579,7 +627,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-03-08T12:39:32+00:00",
       "VideoPublishedAt": "2019-03-08T18:09:32+05:30"
     },
-    "ETag": "Jye3RLhK69Nqd7HBGu8rvDMbz14",
+    "ETag": "Re-63yu9vOLsEouozfc1J1fjTUA",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5BRjJDODk5REM0NjkzMUIy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -587,7 +635,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Watch the Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform Ludwig van Beethoven\u0027s Symphony No. 9 in Oslo Concert Hall on 4th January 2019.\n\nSoloists: \nLauren Fagan, soprano\nHanna Hipp, mezzo soprano\nTuomas Katajala, tenor\nShenyang, bass-baritone\n\nOslo Philharmonic Choir (conductor: \u00D8ystein Fevang)\n\nKlaus M\u00E4kel\u00E4 will be Oslo Philharmonic\u0027s chief conductor from August 2020.\n\nSound production: NRK\nMusic Producer: Krzysztof Drab\nRecording engineers: Elisabeth Sommernes and Marit Askeland\n\nVideo production: Trippel-M Levende Bilder\n\nColorist: Joachim Nilsen, Storyline\nEIC: Even \u00D8verby\nDirector: Patrick Bakkland Gjerde\nAD: Kamilla Follev\u00E5g\nProject Manager: Herman Gudesen\n\nCamera crew:\n\u00D8yvind Sandnes\nSimen Bredesen\nAnne Grethe Olavsdatter Vold\nAslak Woo Ravlum\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID\n\n#GlobalOdeToJoy\n\nMovements:\n00:00 I. Allegro ma non troppo, un poco maestoso \n16:07 II. Molto vivace \n30:20 III. Adagio molto e cantabile \n43:52 IV. Presto - Allegro assai",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 20,
+      "Position": 22,
       "PublishedAtRaw": "2025-06-24T18:53:08Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:53:08+00:00",
       "PublishedAt": "2025-06-25T00:23:08+05:30",
@@ -634,7 +682,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-01-22T11:22:03+00:00",
       "VideoPublishedAt": "2021-01-22T16:52:03+05:30"
     },
-    "ETag": "kB3GuXZHsz6ZJ8DOrd6Y9m5jDW8",
+    "ETag": "i2kW9ktcAWknuTAyxx1xWpLfiho",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CMEQ2Mjk5NTc3NDZFRUNB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -642,7 +690,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "L\u2019Orchestre Philharmonique de Radio France sous la direction de Klaus M\u00E4kel\u00E4 interpr\u00E8te la Symphonie n\u00B01 en mi mineur op 39 de Jean Sibelius. Extrait du concert donn\u00E9 le 6 mars 2020 \u00E0 l\u2019Auditorium de la Maison de la Radio \u00E0 Paris.\n\n#KlausM\u00E4kel\u00E4 #OrchestrePhilharmoniquedeRadioFrance\n\n\nRetrouvez tous les concerts en vid\u00E9o de France Musique sur https://www.francemusique.fr/concerts\n\nCliquez ici pour vous abonner : http://bit.ly/2oeEr3e \n\nSuivez nous sur :\n\u25BA Facebook - https://facebook.com/FranceMusique\n\u25BA Twitter - http://bit.ly/2okZSfP\n\u25BA Instagram - http://bit.ly/2nDA547",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 21,
+      "Position": 23,
       "PublishedAtRaw": "2025-06-24T18:52:30Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:52:30+00:00",
       "PublishedAt": "2025-06-25T00:22:30+05:30",
@@ -689,7 +737,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-12-24T15:11:54+00:00",
       "VideoPublishedAt": "2021-12-24T20:41:54+05:30"
     },
-    "ETag": "foQJop3QXSeM7f-Xgd_mtS1QJOw",
+    "ETag": "xcpLRq8F6bPW53Fj94g87K-H1D8",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4xMzgwMzBERjQ4NjEzNUE5",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -697,7 +745,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 22,
+      "Position": 24,
       "PublishedAtRaw": "2025-09-28T08:39:50Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:39:50+00:00",
       "PublishedAt": "2025-09-28T14:09:50+05:30",
@@ -739,7 +787,7 @@
       "VideoPublishedAtDateTimeOffset": "2025-09-11T09:00:08+00:00",
       "VideoPublishedAt": "2025-09-11T14:30:08+05:30"
     },
-    "ETag": "AZDqYcZZmfCCzNJhyCXY9lHMFaU",
+    "ETag": "gVmbm3hbnPAR8ZqQuMDu7cYpuTA",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zMEQ1MEIyRTFGNzhDQzFB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -747,7 +795,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "SUBSCRIBE to our channel: https://bit.ly/3BEyYGx\nFACEBOOK: https://www.facebook.com/mezzo.tv\nINSTAGRAM: https://www.instagram.com/mezzo.tv/\nX: https://x.com/mezzo_tv\nTIK TOK: https://www.tiktok.com/@mezzo.tv\n00:00 - Bartok: The Miraculous Mandarin, Royal concertgebouw Orchestra, Concertgebouw\n03:00 - Brahms: Double Concerto for Violin and Cello, Daniel Lozakovich, Oslo Philharmonic\n05:52 - Mozart: Requiem, Royalconcertgebouw Orchestra, Concertgebouw\n08:05 - Ravel: Le tombeau de Couperin, Orchestre de Paris\n11:04 - Berlioz: Harold en Italie, Antoine Tamestit, Oslo Philharmonic\n13:11 - Beethoven: Symphony No.3 Eroica, Royalconcertgebouw Orchestra, Concertgebouw\n16:07 - Lindberg: Piano Concerto No.3, Yuja Wang, Orchestre de Paris\n18:42 - Schumann: Symphony No.2, Orchestre de Paris\n#classicalmusic   #dance  #jazz #opera #ballet #makela",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 23,
+      "Position": 25,
       "PublishedAtRaw": "2025-09-28T08:43:04Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:43:04+00:00",
       "PublishedAt": "2025-09-28T14:13:04+05:30",
@@ -794,7 +842,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-09-13T17:38:55+00:00",
       "VideoPublishedAt": "2020-09-13T23:08:55+05:30"
     },
-    "ETag": "Xfp2Wie6Z5Mm8Dj8S5kdPaHyGgU",
+    "ETag": "PivuMzpZyd87NlMfFLiMj-QCLNE",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41MzY4MzcwOUFFRUU3QzEx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -802,7 +850,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Oslo Philharmonic with conductor Klaus M\u00E4kel\u00E4 perform the world premiere of Wiegenlied by Sauli Zinovjev in Oslo Concert Hall on 19th August 2020.\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO\nMusic Producer: Vegard Landaas\n\nSubscribe to our channel at https://oslophil.lnk.to/oslophil-subs...\n\nRead about our concerts: https://oslophil.lnk.to/calendarID\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 24,
+      "Position": 26,
       "PublishedAtRaw": "2025-09-28T08:36:37Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:36:37+00:00",
       "PublishedAt": "2025-09-28T14:06:37+05:30",
@@ -844,36 +892,12 @@
   },
   {
     "ContentDetails": {
-      "VideoId": "TkIBnFQhQ64"
-    },
-    "ETag": "Rp4diVg6geWJRHhuPEjPiGVRrXg",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5CNTcxMDQ0NThBNzMxODYz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 25,
-      "PublishedAtRaw": "2026-04-09T20:22:16Z",
-      "PublishedAtDateTimeOffset": "2026-04-09T20:22:16+00:00",
-      "PublishedAt": "2026-04-10T01:52:16+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "TkIBnFQhQ64"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
       "VideoId": "e6qN21GTZVE",
       "VideoPublishedAtRaw": "2023-01-29T20:00:10Z",
       "VideoPublishedAtDateTimeOffset": "2023-01-29T20:00:10+00:00",
       "VideoPublishedAt": "2023-01-30T01:30:10+05:30"
     },
-    "ETag": "_lA5gohIOIiQjHPp87HrHfxqO18",
+    "ETag": "ipYWci0w90f_dp9L-Zfy2pPd10c",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS40QzRDOEU0QUYwNUIxN0M1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -881,7 +905,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Oslo Philharmonic with Chief Conductor Klaus M\u00E4kel\u00E4 performs Mette Henriettes Overture II - Vega in Oslo Concert Hall. The recording was made on 19 August, 2021. \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Dag \u00C5nnevik\nScript: Ole Sandholt\nMusic producer: J\u00F8rn Pedersen\nSound technician: \u00C5sgeir Grong\nLighting design: Petter Dahl Nielsen",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 26,
+      "Position": 27,
       "PublishedAtRaw": "2025-09-28T08:37:19Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:37:19+00:00",
       "PublishedAt": "2025-09-28T14:07:19+05:30",
@@ -928,7 +952,7 @@
       "VideoPublishedAtDateTimeOffset": "2022-04-10T19:00:00+00:00",
       "VideoPublishedAt": "2022-04-11T00:30:00+05:30"
     },
-    "ETag": "aYehjd1_OSgaViuaHDBVOVyVpIY",
+    "ETag": "vWf65L45WcKL8csS_NaPKxaIzFU",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5GNjAwN0Y0QTFGOTVDMEMy",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -936,7 +960,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Oslo Philharmonic with conductor Semyon Bychkov perform Pictures at an Exhibition by Modest Mussorgsky (orchestrated by Maurice Ravel)  in Oslo Concert Hall. The recording was made on 27th January 2022.\n\n0:07 Promenade I \n1:58 Gnomus \n5:00 Promenade II \n5:59 The Old Castle \n10:38 Promenade III \n11:15 Tuileries Gardens \n12:22 Bydlo \n15:17 Promenade IV \n16:06 Ballet of the Unhatched Chicks \n17:30 Samuel Goldenberg and Schmu\u00FFle \n20:10 The Market of Limoges \n21:38 Catacombs \n23:53 Cum mortuis in lingua mortua \n25:55 The Hut on Fowl\u0027s Legs \n29:36 The Great Gate of Kiev \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Ole Sandholt\nScript: Steinar Yggeseth\nMusic producer: J\u00F8rn Pedersen\nSound technician: \u00C5sgeir Grong\nLighting design: Petter Dahl Nielsen\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nSubscribe to our channel: https://oslophil.lnk.to/oslophil-subscribeID\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 27,
+      "Position": 28,
       "PublishedAtRaw": "2025-09-28T08:44:57Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:44:57+00:00",
       "PublishedAt": "2025-09-28T14:14:57+05:30",
@@ -980,7 +1004,7 @@
     "ContentDetails": {
       "VideoId": "UmU7L-s9ZhI"
     },
-    "ETag": "YeMzG7QzgZn158pB37jSvI7tpN4",
+    "ETag": "D9bmAtq56FaZ_vvAbv18oEuSuKU",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zMUEyMkQwOTk0NTg4MDgw",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -988,7 +1012,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "This video is private.",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 28,
+      "Position": 29,
       "PublishedAtRaw": "2025-09-28T08:47:35Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:47:35+00:00",
       "PublishedAt": "2025-09-28T14:17:35+05:30",
@@ -1004,7 +1028,7 @@
     "ContentDetails": {
       "VideoId": "WxbfkZ_BzwU"
     },
-    "ETag": "lTamQPzEtbhaKwNQx3pcHIuZdMo",
+    "ETag": "Jdc8IVmFTqlXz1MSe-Z-vuyjfkM",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS42MTI4Njc2QjM1RjU1MjlG",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1012,7 +1036,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "This video is private.",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 29,
+      "Position": 30,
       "PublishedAtRaw": "2025-06-24T18:52:35Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:52:35+00:00",
       "PublishedAt": "2025-06-25T00:22:35+05:30",
@@ -1028,7 +1052,7 @@
     "ContentDetails": {
       "VideoId": "a6bG3uDRqH4"
     },
-    "ETag": "UTl3_8nUJr91dTGnmPo7DHlqv1o",
+    "ETag": "iBJi5PjnwC03FhL9-5iLZEwguv8",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DNzE1RjZEMUZCMjA0RDBB",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1036,7 +1060,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "This video is private.",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 30,
+      "Position": 31,
       "PublishedAtRaw": "2025-06-24T18:48:43Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:48:43+00:00",
       "PublishedAt": "2025-06-25T00:18:43+05:30",
@@ -1052,7 +1076,7 @@
     "ContentDetails": {
       "VideoId": "o4UScRNrb5M"
     },
-    "ETag": "Gn4BgW2JHHPTONH9UTcTlP-ehHI",
+    "ETag": "CTUv7oOm6_xW3GB1zD57J-eoOCQ",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS4zRDBDOEZDOUM0MDY5NEEz",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1060,7 +1084,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "This video is private.",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 31,
+      "Position": 32,
       "PublishedAtRaw": "2025-06-24T18:52:25Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:52:25+00:00",
       "PublishedAt": "2025-06-25T00:22:25+05:30",
@@ -1079,7 +1103,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-12-10T20:00:11+00:00",
       "VideoPublishedAt": "2020-12-11T01:30:11+05:30"
     },
-    "ETag": "wgBcIvxcspZwwTR9xdtH6jdRFzc",
+    "ETag": "aCIDJVgKcIjWYoeu2CtuWGe5Ai8",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45RjNFMDhGQ0Q2RkFCQTc1",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1087,7 +1111,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform:\nHenry Purcell: March from \u0022Music for the Funeral of Queen Mary\u0022\nJoseph Haydn: Symphony No. 49, \u0022La Passione\u0022\n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Robin Richardsen\nSound production: LAWO \nMusic producer: Vegard Landaas\nLighting design: Petter Dahl Nielsen \n\nIn cooperation with Norway Live.\n\nSubscribe to our channel at https://oslophil.lnk.to/ofo-mellomspill-iiID \n\nRead about our musicians: https://oslophil.lnk.to/musiciansID \n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID \n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID \n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 32,
+      "Position": 33,
       "PublishedAtRaw": "2025-06-24T18:52:53Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:52:53+00:00",
       "PublishedAt": "2025-06-25T00:22:53+05:30",
@@ -1134,7 +1158,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-06-09T07:06:59+00:00",
       "VideoPublishedAt": "2023-06-09T12:36:59+05:30"
     },
-    "ETag": "RaQhfM2KY69Tu3iZLFpLL_4V9u0",
+    "ETag": "miCZaAKMAtAKZsLTkPHxxLywIQQ",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41RTNBREYwMkI5QzU3RkY2",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1142,7 +1166,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Munchen Philharmonic conducted by Klaus M\u00E4kel\u00E4, \nIsarphilharmonie, June, 2022.",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 33,
+      "Position": 34,
       "PublishedAtRaw": "2025-09-28T08:37:29Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:37:29+00:00",
       "PublishedAt": "2025-09-28T14:07:29+05:30",
@@ -1189,7 +1213,7 @@
       "VideoPublishedAtDateTimeOffset": "2020-01-13T15:11:59+00:00",
       "VideoPublishedAt": "2020-01-13T20:41:59+05:30"
     },
-    "ETag": "KnjBth7eeDoB_rEeHEVK_K4eiqo",
+    "ETag": "LeZU0GAGIrKgqfkFUmooiGzS5-Y",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS44QzVGQUU2QjE2NDgxM0M4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1197,7 +1221,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sauli Zinovjev\u0027s Un Grande Sospiro (2018) performed live by l\u0027OCL \u0026 Klaus M\u00E4kel\u00E4.",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 34,
+      "Position": 35,
       "PublishedAtRaw": "2025-09-28T08:38:39Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:38:39+00:00",
       "PublishedAt": "2025-09-28T14:08:39+05:30",
@@ -1244,7 +1268,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-06-09T07:55:15+00:00",
       "VideoPublishedAt": "2023-06-09T13:25:15+05:30"
     },
-    "ETag": "kH24LIvr6da2j-ohsrMnANWZ72c",
+    "ETag": "3m3erNnY4i-AodzfkGvKU7Euuuc",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS41QUZGQTY5OTE4QTREQUU4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1252,7 +1276,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "00:00 1. Misterioso ma preciso\n11:46 2. Tranquillo \n18:31 3. Rondo: Allegretto\n\nPianist Vikingur Olafsson and conductor Klaus M\u00E4kel\u00E4 premiering Sauli Zinovjev\u0027s Piano Concerto (2019) with the Finnish Radio Symphony Orchestra live in 7.1.2022.",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 35,
+      "Position": 36,
       "PublishedAtRaw": "2025-06-24T18:51:51Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:51:51+00:00",
       "PublishedAt": "2025-06-25T00:21:51+05:30",
@@ -1299,7 +1323,7 @@
       "VideoPublishedAtDateTimeOffset": "2019-11-12T16:54:21+00:00",
       "VideoPublishedAt": "2019-11-12T22:24:21+05:30"
     },
-    "ETag": "XMAJKxAQT04rXEKK5rhv84EjHCc",
+    "ETag": "nJB9AuoKUZEgQi6RRVnSbGP1OjI",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS40QTA3NTU2RkM1QzlCMzYx",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1307,7 +1331,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Dmitrij Schostakowitsch: \n7. Sinfonie C-Dur op. 60\n\u00BBLeningrader Sinfonie\u00AB \u2219 \n\n(Auftritt)  0:00:00 \u2219\nI. Allegretto  0:00:30 \u2219\nII. Moderato (poco allegretto)  0:29:15 \u2219\nIII. Adagio \u2013 Largo \u2013 Moderato risoluto \u2013 Largo \u2013 Adagio  0:40:55 \u2219\nIV. Allegro non troppo \u2013 Moderato  1:01:11 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nKlaus M\u00E4kel\u00E4, Dirigent \u2219\n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 1. November 2019 \u2219\n\nWebsite: https://www.hr-sinfonieorchester.de \u2219\nFacebook: https://www.facebook.com/hrsinfonieorchester",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 36,
+      "Position": 37,
       "PublishedAtRaw": "2025-06-24T18:53:01Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:53:01+00:00",
       "PublishedAt": "2025-06-25T00:23:01+05:30",
@@ -1354,7 +1378,7 @@
       "VideoPublishedAtDateTimeOffset": "2024-10-14T23:00:49+00:00",
       "VideoPublishedAt": "2024-10-15T04:30:49+05:30"
     },
-    "ETag": "NXni69vbHyLprba2gsrjl6ZBnZ0",
+    "ETag": "5LR4ZQYBs94dqvYOxzM3kcAhaYM",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5DRUQwODMxQzUyRTlGRkY3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1362,7 +1386,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Royal Concertgebouw Orchestra\nKlaus M\u00E4kel\u00E4, conductor",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 37,
+      "Position": 38,
       "PublishedAtRaw": "2025-09-28T08:36:09Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:36:09+00:00",
       "PublishedAt": "2025-09-28T14:06:09+05:30",
@@ -1409,7 +1433,7 @@
       "VideoPublishedAtDateTimeOffset": "2023-06-20T14:57:14+00:00",
       "VideoPublishedAt": "2023-06-20T20:27:14+05:30"
     },
-    "ETag": "KCOLdKlI_pagGJcuo8atG_m_fuA",
+    "ETag": "aMcgCw-wn9Do59rHib4GUR2GcJI",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS43NDhFRTgwOTRERTU4Rjg3",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1417,7 +1441,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "Sol Gabetta performs Shostakovich\u2019s Cello Concerto no. 2 with Orchestre de Paris, conducted by Klaus M\u00E4kel\u00E4. \n\nPhilharmonie de Paris, 2023\n\nFootage courtesy of Arte\n\n\nMore information about Sol Gabetta: https://solgabetta.com\n\nInstagram: https://www.instagram.com/sol_gabetta/?hl=en\nFacebook: https://www.facebook.com/solgabetta/\nTwitter: https://twitter.com/solgabetta\nTikTok: https://www.tiktok.com/@solgabetta",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 38,
+      "Position": 39,
       "PublishedAtRaw": "2025-06-24T18:50:37Z",
       "PublishedAtDateTimeOffset": "2025-06-24T18:50:37+00:00",
       "PublishedAt": "2025-06-25T00:20:37+05:30",
@@ -1464,7 +1488,7 @@
       "VideoPublishedAtDateTimeOffset": "2021-06-17T19:00:10+00:00",
       "VideoPublishedAt": "2021-06-18T00:30:10+05:30"
     },
-    "ETag": "IDmsXH_2BHfcImdR1LfBL8YiPVg",
+    "ETag": "o7ccRShQFZIAXWFqbqvrLSxwKwk",
     "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS45NkVENTkxRDdCQUFBMDY4",
     "Kind": "youtube#playlistItem",
     "Snippet": {
@@ -1472,7 +1496,7 @@
       "ChannelTitle": "Kanishk Nishar",
       "Description": "The Oslo Philharmonic with chief conductor Klaus M\u00E4kel\u00E4 perform subito con forza by Unsuk Chin  in Oslo Concert Hall. The recording was made on 4th June 2021.\n\n#classicalmusic #concert #unsykchin #orchestra \n\nVideo production: Trippel-M Levende Bilder \nMulticamera director: Dag \u00C5nnevik\nSound production: LAWO\nMusic producer: Vegard Landaas \nSound technician: Thomas Wolden\nLighting design: Petter Dahl Nielsen\n\nWe take infection control seriously. Everything you see on stage and in the concert hall was in accordance with official Norwegian guidelines at the time of the recording.\n\nRead about our musicians: https://oslophil.lnk.to/musiciansID\n\nSubscribe to our channel: https://oslophil.lnk.to/oslophil-subs...\n\nListen to us on Idagio: https://oslophil.lnk.to/idagioID\n\nListen to us on Spotify: https://oslophil.lnk.to/spotifyID\n\nFollow us on Twitter: https://oslophil.lnk.to/twitterID",
       "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 39,
+      "Position": 40,
       "PublishedAtRaw": "2025-09-28T08:35:43Z",
       "PublishedAtDateTimeOffset": "2025-09-28T08:35:43+00:00",
       "PublishedAt": "2025-09-28T14:05:43+05:30",
@@ -1510,30 +1534,6 @@
       "Title": "subito con forza / Unsuk Chin / Klaus M\u00E4kel\u00E4 / Oslo Philharmonic",
       "VideoOwnerChannelId": "UCPUB5D0J_TStRlg399Mfc8A",
       "VideoOwnerChannelTitle": "Oslo Philharmonic"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "TGF8aCb8ECI"
-    },
-    "ETag": "HfxRJ5s9xdT7phs-8CAeKhgjJyo",
-    "Id": "UEwxemdOQ29XdF83WkkwZ3lwRXhXSENJcFFONEZvQzNCUS5ERkUyQTM0MzEwQjZCMTY5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7ZI0gypExWHCIpQN4FoC3BQ",
-      "Position": 40,
-      "PublishedAtRaw": "2026-04-09T20:22:25Z",
-      "PublishedAtDateTimeOffset": "2026-04-09T20:22:25+00:00",
-      "PublishedAt": "2026-04-10T01:52:25+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "TGF8aCb8ECI"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
     }
   }
 ]

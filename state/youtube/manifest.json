@@ -277,9 +277,9 @@
     "PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt": {
       "PlaylistId": "PL1zgNCoWt_7bM5yIiOICtJ5cylcOXrSWt",
       "Title": "Bowie",
-      "ETag": "WrACA01C0GkjHyLNXE1NIHVOXOo",
-      "ReportedVideoCount": 105,
-      "LastChecked": "2026-08-14T04:07:55.3900446+00:00",
+      "ETag": "J0eKvMKdJ4YonmOEkUN8z4DPhN8",
+      "ReportedVideoCount": 104,
+      "LastChecked": "2026-08-15T15:02:32.6416194+00:00",
       "LastUpdated": "2025-09-09T22:29:30.119727+00:00",
       "LastSortCompleted": false
     },
@@ -547,9 +547,9 @@
     "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm": {
       "PlaylistId": "PL1zgNCoWt_7ZuaRqwAOkIjt4H-YFcrakm",
       "Title": "Schumann Symphony No. 2",
-      "ETag": "8bHEwzrzoB1NqQvahRSAUE8Sgoo",
+      "ETag": "1V_tNVV2SZZ8rJdncAnYaRhnkwE",
       "ReportedVideoCount": 38,
-      "LastChecked": "2026-06-24T13:27:35.2950668+00:00",
+      "LastChecked": "2026-08-15T15:11:10.5240962+00:00",
       "LastUpdated": "2025-03-13T17:49:01.320955+00:00",
       "LastSortCompleted": false
     },
@@ -1051,9 +1051,9 @@
     "PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl": {
       "PlaylistId": "PL1zgNCoWt_7anDJe8DNizCV542Ech7VTl",
       "Title": "Cristian M\u0103celaru",
-      "ETag": "xZvr9JllvRRpNfEGIxgjzQUDBgk",
-      "ReportedVideoCount": 66,
-      "LastChecked": "2026-06-24T13:27:35.655725+00:00",
+      "ETag": "Bd5EwVGZb7iOUvwt5_rcr1T7Ud8",
+      "ReportedVideoCount": 67,
+      "LastChecked": "2026-08-15T15:11:10.8453295+00:00",
       "LastUpdated": "2024-11-09T23:22:25.836909+00:00",
       "LastSortCompleted": false
     },
@@ -1346,6 +1346,6 @@
       "LastSortCompleted": false
     }
   },
-  "LastChecked": "2026-08-14T04:07:58.102499+00:00",
-  "LastUpdated": "2026-08-14T04:07:58.1024993+00:00"
+  "LastChecked": "2026-08-15T15:11:12.8776329+00:00",
+  "LastUpdated": "2026-08-15T15:11:12.877633+00:00"
 }
