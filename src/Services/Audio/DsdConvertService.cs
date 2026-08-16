@@ -1,4 +1,5 @@
 using System.Buffers.Binary;
+using System.Text;
 using Core;
 
 namespace Services.Audio;
@@ -46,12 +47,12 @@ public sealed class DsdConvertService(
 			await using FileStream stream = File.OpenRead(dffFilePath);
 			using BinaryReader reader = new(stream);
 
-			var magic = new string(reader.ReadChars(4));
+			var magic = Encoding.ASCII.GetString(ReadExactly(reader, 4));
 			if (magic != "FRM8")
 				return Errors.Audio.ProbeFailed(dffFilePath, $"Not a DSDIFF file (magic: {magic})");
 
 			reader.ReadBytes(8);
-			var formType = new string(reader.ReadChars(4));
+			var formType = Encoding.ASCII.GetString(ReadExactly(reader, 4));
 			if (formType != "DSD ")
 				return Errors.Audio.ProbeFailed(dffFilePath, $"Unexpected form type: {formType}");
 
@@ -60,26 +61,51 @@ public sealed class DsdConvertService(
 
 			while (stream.Position < stream.Length - 12)
 			{
-				var chunkId = new string(reader.ReadChars(4));
+				var chunkId = Encoding.ASCII.GetString(ReadExactly(reader, 4));
 				var chunkSize = BinaryPrimitives.ReadUInt64BigEndian(reader.ReadBytes(8));
+
+				var chunkDataEnd = checked(stream.Position + (long)chunkSize);
+				if (chunkDataEnd > stream.Length)
+					return Errors.Audio.ProbeFailed(
+						dffFilePath,
+						$"Chunk {chunkId} size {chunkSize} exceeds stream length"
+					);
 
 				if (chunkId == "PROP")
 				{
-					var propType = new string(reader.ReadChars(4));
+					if (chunkSize < 4)
+						return Errors.Audio.ProbeFailed(
+							dffFilePath,
+							"PROP chunk is missing property type"
+						);
+
+					var propType = Encoding.ASCII.GetString(ReadExactly(reader, 4));
+					var propEnd = stream.Position + (long)chunkSize - 4;
+
 					if (propType == "SND ")
 					{
-						var propEnd = stream.Position + (long)chunkSize - 4;
 						while (stream.Position < propEnd - 12)
 						{
-							var subId = new string(reader.ReadChars(4));
-							var subSize = BinaryPrimitives.ReadUInt64BigEndian(reader.ReadBytes(8));
+							var subId = Encoding.ASCII.GetString(ReadExactly(reader, 4));
+							var subSize = BinaryPrimitives.ReadUInt64BigEndian(
+								reader.ReadBytes(8)
+							);
+
+							var subDataEnd = checked(stream.Position + (long)subSize);
+							if (subDataEnd > propEnd)
+								return Errors.Audio.ProbeFailed(
+									dffFilePath,
+									$"Subchunk {subId} size {subSize} exceeds PROP boundary"
+								);
 
 							if (subId == "FS  ")
 							{
-								sampleRate = (int)
-									BinaryPrimitives.ReadUInt32BigEndian(reader.ReadBytes(4));
+								sampleRate =
+									(int)BinaryPrimitives.ReadUInt32BigEndian(
+										reader.ReadBytes(4)
+									);
 								if (subSize > 4)
-									reader.ReadBytes((int)subSize - 4);
+									stream.Seek((long)subSize - 4, SeekOrigin.Current);
 							}
 							else if (subId == "CHNL")
 							{
@@ -87,11 +113,11 @@ public sealed class DsdConvertService(
 									reader.ReadBytes(2)
 								);
 								if (subSize > 2)
-									reader.ReadBytes((int)subSize - 2);
+									stream.Seek((long)subSize - 2, SeekOrigin.Current);
 							}
 							else
 							{
-								reader.ReadBytes((int)subSize);
+								stream.Seek((long)subSize, SeekOrigin.Current);
 							}
 
 							if (subSize % 2 != 0 && stream.Position < stream.Length)
@@ -100,12 +126,12 @@ public sealed class DsdConvertService(
 					}
 					else
 					{
-						reader.ReadBytes((int)chunkSize - 4);
+						stream.Seek((long)chunkSize - 4, SeekOrigin.Current);
 					}
 				}
 				else
 				{
-					reader.ReadBytes((int)chunkSize);
+					stream.Seek((long)chunkSize, SeekOrigin.Current);
 				}
 
 				if (chunkSize % 2 != 0 && stream.Position < stream.Length)
@@ -135,6 +161,23 @@ public sealed class DsdConvertService(
 			Telemetry.Error("DsdConvert.ProbeFailed file={File}: {Error}", LogPaths.Format(dffFilePath), ex.Message);
 			return Errors.Audio.ProbeFailed(dffFilePath, ex.Message);
 		}
+	}
+
+	private static byte[] ReadExactly(BinaryReader reader, int count)
+	{
+		var buffer = new byte[count];
+		var totalRead = 0;
+		while (totalRead < count)
+		{
+			var read = reader.Read(buffer, totalRead, count - totalRead);
+			if (read == 0)
+				throw new EndOfStreamException(
+					$"Expected {count} bytes, got {totalRead}"
+				);
+			totalRead += read;
+		}
+
+		return buffer;
 	}
 
 	public async Task<ErrorOr<double>> CalculateGainAsync(
