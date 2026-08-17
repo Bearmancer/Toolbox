@@ -57,5 +57,5 @@ public static class LogPaths
 
 	private static string Normalise(string path) =>
 		path.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar)
-			+ Path.DirectorySeparatorChar;
+		+ Path.DirectorySeparatorChar;
 }

@@ -1,504 +1,512 @@
-# SACD Pipeline — Authoritative Plan
+# SACD Pipeline — Completion Brief v2
 
-**Version:** 4.0 — SUPERSEDES AND REPLACES ALL PRIOR SACD DOCUMENTS
+**Version:** 2.0 — corrects v1, which was built on `progress.md` alone
 **Date:** 2026-08-15
-**Status:** authoritative; this is the only SACD plan that should exist
-**Changes from v3:** six defects found by self-audit are corrected — three false-negative acceptance gates, one byte-count error, one build break, one scope overclaim. One structural finding added (F-23, no loop-breaker).
+**Baseline:** working tree at `d4db355`
+**Evidence base:** 24 audio source files, `new-mega-plan.md`, **and all 44 artifacts in `.superpowers/sdd/new-mega-plan/`** (briefs, reports, review packages) — the last of which v1 did not read
+
+**Total: 31 tasks, 173 subtasks, across 7 phases.**
 
 ---
 
-## 0. Scope of this document
+## 0. What v1 got wrong
 
-This file replaces every earlier SACD plan, spec, audit, and report. Once it is in place, **the following can be deleted**:
+v1 was written from `progress.md`. That ledger is incomplete and, in one place, misleading. Reading the task reports and review packages changes three conclusions:
 
-| Delete | Why it is safe to delete |
-|---|---|
-| `sacd-pipeline-rescue.md` | B1–B7 dispositions carried forward in §5; Phase 0 migration already executed |
-| `2026-08-12-sacd-consolidated.md` | Status ledger contains two false rows (C-6); binding content restated here |
-| `2026-08-09-sacd-death-loop-v2-design.md` | Hypotheses closed; §8/§12 process rules restated in §1 |
-| `2026-08-14-audio-design-assessment.md` | A1–A18 dispositions carried forward in §5 and §10 |
-| `2026-08-10-logging-audit.md` | Audio findings verified fixed in source (C-4); non-Audio out of scope |
-| `2026-08-10-logging-audit-spec.md` | Method doc; its one durable rule restated in §1 |
-| `2026-08-10-process-runner-streaming.md` | Targets a deleted directory and the wrong .NET version |
-| `sacd=extractopn.md` | 8-line stub, header only, zero content |
-| `sacdprobe-editorconfig.md` | Executed; two live constraints restated in §1 — but see C-7, one task falsely marked done |
+### 0.1 T11 was executed. `progress.md` has no line for it.
 
-**Keep:** `sacd-guide.md` (authority), `sacd-probe-journal.md` (append-only, needs the C-2 correction line), `toolbox-flatline.md` (repo hygiene, separate), the two YouTube plans (separate, but see T1).
+`task-11-report.md` records **74 passing cases** across twelve categories, a clean build, and exit code 0. v1 stated "T11–T19 not started" and scheduled T11 as new work. That was wrong.
 
-### Evidence scope — read this before acting on any "dead code" finding
+### 0.2 The T11 harness asserted two of the defects as correct behaviour
 
-Every code claim in this document was verified against **22 source files**: `src/Services/Audio/*.cs` (19) and `src/CLI/Audio/*.cs` (3).
+This is the material finding. Two of its passing guard cases were:
 
-**`Program.cs`, `Core`, and the other CLI branches were not available.** Findings F-15, F-16, and F-17 assert "zero call sites" — that means *zero within those 22 files*. All three members are `public` on public classes, so `App` or another CLI branch could reference them. `SacdProbeService` in particular may be resolved from `Program.cs`; `sacdprobe-editorconfig.md` task 14 claims someone invoked `RunProbeAsync` through DI. **Each requires a repo-wide grep before deletion** — T8 step 1.
+- *"Complete can't remove Failed (sticky)"*
+- *"different verdict resets count"*
 
----
+Those are precisely the two guard defects the compliance audit raised — the unrecoverable lockout and the oscillation escape. The harness did not miss them. It **encoded them as expected behaviour and passed.**
 
-## 1. Binding rules
+v1 warned that the harness "must not be written before P1.2 lands, or it will encode the defective recording semantics into the regression suite." That has already happened. The remediation therefore is not "write a harness" but **"decontaminate an existing suite, then rebuild it durably"** — the harness was deleted after passing (`task-11-report.md`, "Artifacts deleted: T11Driver/"), so the assertions survive only as specification in the report, which is where they will be copied from if someone rebuilds naively.
 
-1. **Pipeline shape is fixed:** `sacd_extract` (single-file DSDIFF Edit Master + CUE) → strip ID3 → measure peak → Saracon DSD→PCM → split at CUE `INDEX 01` → tag FLAC.
-2. **Saracon is the only DSD→PCM converter.** SoX cannot read DSD. ffmpeg must not measure gain (§3).
-3. **No 0.0065 s click trim.** The guide prescribes it only for per-track extraction; single-file-then-split avoids the click by construction. Any future proposal to add it is wrong.
-4. **Gain never clips.** Measure the actual peak, apply below it with 0.3–0.5 dB headroom, never exceed +6 dB.
-5. **DFF must not carry ID3.** Guide rule 2.14.1.5.2.
-6. **Every finding carries a confidence tag** (`HIGH`/`MEDIUM`/`LOW`) with its basis. Tags may not be dropped or upgraded when restated.
-7. **Every acceptance criterion states its measurement, and must be capable of failing.** A criterion that cannot fail is decoration, not verification. A criterion that fails when the code is correct is worse than none.
-8. **Structured logging only** — `Telemetry.Error("... {File}: {Error}", path, ex.Message)`, never string interpolation.
-9. **Repo constraints:** one class per file; no inline comments; no test NuGet packages; no new dependencies; `ErrorOr` railway style; editorconfig violations are **build errors**.
-10. **The probe harness stays in `src/Services/Audio`** — deliberate, oracle-documented user override. Not an open design question.
+### 0.3 Two defects are deliberate, documented decisions — not oversights
 
----
+The compliance audit treated guard stickiness and the attempt-count off-by-one as bugs. The artifacts show both were chosen:
 
-## 2. Decision register
+- `task-10.2-report.md`: *"`Failed` remains sticky until JSON removal."* Deliberate, and manual JSON deletion is the intended recovery path.
+- `task-10.3-report.md` review finding #2, severity Important: *"Transition must happen before processing"* → implemented as `c + 1 >= MaxConsecutiveCount` blocking before `ProbeAsync`. A reviewer asked for this.
 
-| # | Decision | Rationale | Consequence |
-|---|---|---|---|
-| **D-1** | **16-bit only.** `Bit16` is the sole format supported by the SACD pipeline. | User decision. Library is for personal listening, not upload. | The pipeline's derived-output subsystem becomes unreachable and is **deleted, not fixed**. Removes three findings outright. **Does not extend to `dsd-convert`** — see T3. |
-| **D-2** | **Saracon runs twice** (gain probe + master). | Self-consistent measurement (§3). The guide's one-pass route needs foobar2000, which cannot be automated headlessly. | ~50–70 min per disc. T15 is 12 h and cannot be compressed. |
-| **D-3** | **Saracon measures gain**, not ffmpeg or sox. | §3. | Locked. |
-| **D-4** | **One-pass optimisation is dead**, not deferred. | Requires a 24-bit intermediate to apply gain post-dither safely; D-1 forbids 24-bit. | Experiment E1-B removed. Only E1-A survives. |
+**This does not make them correct.** Stickiness plus the pre-work verdict recording (which nobody noticed, and which is a genuine bug) produces permanent lockout of healthy discs. The reviewer's "block before processing" request was satisfied in a way that also reduced three attempts to two. But these now require **decision reversal with recorded rationale**, not silent bug-fixing — someone deliberately chose them and the reasoning must be addressed rather than overwritten.
 
-### Deviation from the guide — DEV-1
+### 0.4 Several acceptance criteria were satisfied statically, never observed
 
-- **Guide says:** 88.2 kHz / 24-bit, TPDF. The guide has no 44.1 kHz step at all.
-- **We do:** 44,100 Hz / 16-bit in a single Saracon pass.
-- **Technically:** both are single integer decimations of the DSD64 bit clock (2,822,400 ÷ 32 = 88,200; ÷ 64 = 44,100). Neither is a fractional resample.
-- **Cost:** the gain decision is welded in at 16 bit with no headroom to correct later; 22.05–44.1 kHz content is discarded. Output is a listening copy, not an archival master.
-- **Revoke DEV-1 before converting** if any rip is ever destined for a tracker that mandates the guide.
+A theme across the reports, and a direct violation of the governing rule that criteria must be measurable:
+
+- `task-3-report.md`: *"SACD `--format 16` media conversion was not run."*
+- `task-7-report.md`: *"Real Saracon full conversion remains unexecuted by design."*
+- `task-8-report.md`: *"Runtime gain/master log equality was verified **statically** through shared resolved settings and clean build."* — T8's acceptance was that `GainCalcComplete` and `Saracon.ConvertStart` show the same rate and depth **in the log**. That was never observed.
+- `task-9-report.md`: *"Runtime media gates remain outside T9 and were not run."*
+
+Phase 4 now includes a task that observes these at runtime rather than inferring them.
+
+### 0.5 Corroborations worth carrying forward
+
+- `task-2-report.md` flags the ISO layout as `Disc N\Disc N.iso` (double-nested) with **two sibling trees** — ISOs under `Karajan 1970-79 Berlin\`, output under `Karajan 1970-79 Berlin (Stereo)\`. This independently corroborates the fresh-disc crash: `FindDffDir` resolves to `…(Stereo)\Disc N\Disc N`, which does not exist before extraction.
+- `task-1-report.md` flags that `OutputDir` renders as a mangled temp-root label in `Saracon.ConvertStart`. Every Phase 5 gate verifies from the log, so this must be fixed or accounted for.
+- `task-11-report.md` flags `TerminationReason.StartFailed` as never exercised, and `internal` members tested through reflection.
 
 ---
 
-## 3. Why Saracon measures the gain
+## 1. Governing rules
 
-**sox cannot read DSD.** The codebase proves it: `CalculateGainAsync` converts DFF→PCM with Saracon *first*, then runs `sox stats` on the PCM. If sox could open a DFF that conversion would be pointless.
+Unchanged from v1 and binding on every task.
 
-**ffmpeg can decode DSD but must not be used here.** <cite index="13-1">It defaults to 16-bit output for DSD with no straightforward way to request 24–32 bit,</cite> and <cite index="17-1">DSD→PCM requires an explicitly chosen lowpass filter for the high-frequency noise, with the threshold left to the user.</cite>
+1. **Pipeline shape is fixed:** `sacd_extract` (single-file Edit Master + CUE) → strip ID3 → measure peak → Saracon DSD→PCM → split at CUE `INDEX 01` → tag FLAC.
+2. **16-bit / 44.1 kHz only** from the SACD pipeline. `dsd-convert` is a separate contract.
+3. **Saracon is the only DSD→PCM converter.** SoX cannot read DSD; ffmpeg must never measure gain.
+4. **Saracon runs twice per disc.** Not an inefficiency to remove.
+5. **No 0.0065 s click trim.**
+6. **Gain never clips:** peak measured, applied below it with 0.5 dB headroom, capped +6 dB.
+7. **No new packages, no test frameworks.** Harnesses are plain `.cs` with a `Main`.
+8. **Repo constraints:** one class per file; no inline comments; `ErrorOr` railway style; structured logging only; editorconfig violations are build errors.
+9. **Every acceptance criterion must be capable of failing, must not fail on correct code, and must be *observed* — not inferred from a clean build or shared settings.**
+10. **Partial completion is failure.** No deferred-minor state.
+11. **New:** a harness assertion that encodes current behaviour is not evidence. Every assertion must trace to a requirement in this brief or the guide, not to what the code happens to do.
 
-The decisive point: **peak level is a property of the decimation filter, not of the DSD stream.** Different filters give different overshoot and ringing, so ffmpeg's peak is not the peak Saracon will produce. The gap is typically a few tenths of a dB — and the pipeline cuts exactly 0.5 dB (`TargetHeadroomDb = -0.5`). Using ffmpeg would force padding the margin to ~1.5 dB, discarding the level the measurement exists to preserve.
+### Reporting contract
 
-**Caveat, and it is live:** this argument only fully holds when probe and master use the *same* decimation ratio. Today they do not — F-2. T8 closes it.
-
----
-
-## 4. Corrections to prior reporting
-
-Everything below was claimed by an earlier plan, an agent, or by me, and is wrong or overstated. Verified against source.
-
-| # | Prior claim | Source | Verified reality |
-|---|---|---|---|
-| **C-1** | Stripper "produces a malformed DSDIFF"; output "missing bytes 12–15" | commandcode `62fa8a33` | **Wrong.** Simulation: output is **byte-identical** to input. Nothing stripped, nothing malformed. Silent no-op. |
-| **C-2** | Probe journal `stripped/` rows are meaningful evidence | `sacd-probe-journal.md` | **Void.** Given F-1 those runs were byte-identical to `raw/`. Both show four `Unknown chunk (ID3 )` warnings. Append a correction; do not delete rows. |
-| **C-3** | "Change 12 to 16. No other changes needed." | commandcode `62fa8a33` | **Incomplete.** Leaves `FRM8 ckDataSize` over-declaring by the bytes removed (F-3). |
-| **C-4** | 5 CRITICAL silent catches in Audio | logging-audit | **Stale.** `AudioMetadataService` ×3 (34, 80, 114), `DsdConvertService` (121), `DffMetadataStripper` (142), `PathValidator` (33) all log now. Zero remain. |
-| **C-5** | UTF-8 / ACP 65001 is the root cause | v2 design §3 | **Closed-false.** Rejected by probe run #4; ACP is 1252. Never restate. |
-| **C-6** | "ID3 strip fix landed, commit `0395a1e`"; "`tools/SacdProbe` stays as the regression gate" | consolidated ledger | **Both false.** `Seek(16)` landed in `HasId3Chunk` only. `tools/SacdProbe` was deleted by the editorconfig plan. |
-| **C-7** | "Register `SacdProbeService` in DI" marked `[x]` | editorconfig task 10 | **Not done in `AudioSetup`** — it registers 12 services, not that one. Check `Program.cs` before concluding it is unregistered everywhere. |
-| **C-8** | Last track's `Duration` is `TimeSpan.Zero` | subagent `bg-18` | **Wrong.** `CueParser.cs:83` — `TimeSpan.Zero` is `StartTime`; `Duration` is **null**. |
-| **C-9** | Last-track 30 s check is "ineffective, nested under `if (track.Duration is {})`" | research agent, and my own v1–v2 | **Wrong — it is live.** `FlacCompletenessChecker.cs:85` is an `else if` on that condition, firing exactly when `Duration` is null. Hard completeness failure → F-11. |
-| **C-10** | Path containment broken in three places, HIGH | assessment A8, and my own v1–v2 | **Overstated twice.** `LogPaths.Normalise` appends a trailing separator so `IsWithin` is correct; `PipelineOrchestrator:384` appends it explicitly and is correct. Only `PathValidator` uses a raw prefix, and it has no call sites in the audio subset. HIGH → LOW. |
-| **C-11** | Inactivity cancellation leaves the child running, HIGH | reconciliation agent | **Latent.** No caller passes `inactivityTimeout` — `SaraconService:165-168` passes only `timeout`, `completionPattern`, `completionTimeout`. HIGH → LOW-latent. |
-| **C-12** | B6 "partial split returns success" is FIXED | rescue plan, my v1–v2 | **Partial.** Aggregate check at `:228` catches missing tracks, but `:209-212` discards each error with a bare `continue` and no log. |
-| **C-13** | *(v3 plan)* "`_clean.dff` measurably smaller than source" as a T14 gate | **my v3** | **Unverifiable.** `_clean.dff` is written into `dffDir` and `CleanupSuccesses` deletes `*.dff`. The file is gone before inspection. Gate would fail when the fix works. Corrected in T14. |
-| **C-14** | *(v3 plan)* "zero `sacd_extract` process starts" as a T16 gate | **my v3**, inherited from rescue plan | **Impossible.** `ProcessIsoAsync:138` calls `ProbeAsync` unconditionally before assessment. Historical logs show `SacdExtract.ProbeStart` followed by `Skipping Disc 11`. Corrected in T16. |
-| **C-15** | *(v3 plan)* clean file is "1,758 ± 8 B smaller" | **my v3** | **Off by 48 B.** 1,758 is the ID3 *payload* total; each chunk also has a 12-byte header. Chunk spans: 446 + 436 + 474 + 450 = **1,806 B**. My own simulation printed 1,806. Corrected in T4. |
-| **C-16** | *(v3 plan)* T3 deletes `DsdConvertService.DeriveFlacAsync` | **my v3** | **Build break.** `DsdConvertCommand.cs:121` calls it and `:101` calls `ConvertFullDffAsync`. Both belong to the standalone `dsd-convert` command, not the SACD pipeline. Corrected in T3. |
+Per subtask: command or diff applied, raw observed output, `PASS` / `FAIL` / `BLOCKED`. `BLOCKED` requires the blocking signature quoted and an owner named. **Reports must also record any assertion deliberately inverted from a prior harness, with the prior text quoted**, so the reversal is auditable.
 
 ---
 
-## 5. Duplicate marking
+# PHASE 0 — Ground truth (5 tasks, 25 subtasks)
 
-### 5a. TRUE duplicates — collapsed, all closed
+## P0.1 — Snapshot and safety net (5 subtasks)
 
-| ID | Absorbed from | Verdict |
-|---|---|---|
-| Cancellation vs timeout | rescue B1, assessment A2 (part) | **FIXED** — `ProcessRunner.cs:124,137` |
-| Dead completion-grace branch | rescue B2 | **FIXED** — independent `WhenAny` arm `:171-193` |
-| Tree-A output layout | rescue B3 | **FIXED** — `PipelineOrchestrator.cs:146-150` |
-| Ordinal ISO sort | rescue B7 | **FIXED** — `NaturalSortPad` `:40-48` |
-| Partial split returns success | rescue B6 | **PARTIAL** — C-12, becomes F-9 |
-| Failed-disc cleanup | rescue B5 | **MOSTLY FIXED** — residual is F-6/F-7 |
-| Silent-catch logging (Audio) | logging-audit ×6 | **CLOSED-STALE** — C-4 |
-| UTF-8 root cause | v2 §3 | **CLOSED-FALSE** — C-5 |
-| Relocate probe harness | assessment A14 | **CLOSED-ADJUDICATED** — rule 10. Only C-7 survives. |
+1. `git tag backup/pre-completion-brief-v2` at `d4db355`; record the SHA.
+2. `git status --porcelain` — record every dirty file; do not stash or discard.
+3. Copy the full output tree to a **different physical volume**; confirm byte totals match.
+4. Record SHA-256 for one FLAC per disc (13 canaries) for Phase 5 tamper detection.
+5. Confirm all 20 ISOs present with sizes; record the manifest, noting the `Disc N\Disc N.iso` nesting.
 
-### 5b. FALSE duplicates — kept separate
+**Accept:** tag exists; byte totals equal; 13 canaries recorded; 20 ISOs manifested.
 
-| Apparent pair | Why distinct |
-|---|---|
-| "grace branch dead" vs **F-4** (grace kill → exit 0) | Same ten lines, opposite problems. Fixing the first *activated* the second. |
-| **F-1** (stripper 12-vs-16) vs A11 (duplicated chunk walkers) | Correctness defect vs DRY observation. Doing A11 first propagates the bug into a shared reader. |
-| A12 vs A5 vs B5 vs **F-6** (recovery deletes CUE) vs **F-7** (cleanup path mismatch) | Five artifacts, five lifetimes. Merging them is what let F-6 and F-7 survive every prior plan. |
-| **F-2** (probe rate mismatch) vs **F-5** (stereo-DSD64 size estimate) | Both rate assumptions, different files, different fixes. |
-| **F-11** (30 s rule) vs **F-23** (no loop-breaker) | F-11 is one trigger; F-23 is the absence of any guard that would stop *any* trigger. Fixing F-11 alone leaves the class open. |
-| A1/A4 (god classes) vs every correctness finding | Decomposition is not a fix. §10 defers it. |
-| rescue "Phase 0 migration" vs anything current | **Already executed** — 13 discs verified in Tree B. Dead section. |
+## P0.2 — Guard state audit (4 subtasks)
+
+`Failed` is sticky by design and recovery is manual JSON deletion. Prior driver runs may have left entries.
+
+1. Dump `state/audio/sacd-guard.json`; if absent, record that. Note that T10.2, T10.3 and T11 reports each claim cleanup after their driver runs.
+2. Per entry record ISO path, `Verdict`, `ConsecutiveCount`, `UpdatedAt`.
+3. Classify each `Failed` entry against on-disk output as genuine-failure or false-lockout.
+4. Archive to `state/audio/sacd-guard.pre-brief.json`; delete the live file.
+
+**Accept:** every entry classified with on-disk evidence quoted; live file removed; archive retained.
+
+## P0.3 — Falsified-completion audit (6 subtasks)
+
+Re-derive each T1–T11 claim against source. Table: claim, source location, `CONFIRMED` / `FALSE` / `PARTIAL` / `STATIC-ONLY`.
+
+1. **T1** — sink at `state/logs`; file sub-logger explicitly Verbose and not shadowed by the root `LevelSwitch`. Run one command from `C:\Users\Lance`. Also record the mangled temp-root label defect and the Seq-sink level deferral.
+2. **T3** — rejection of `24`/`both`; `ForDsdRate` intact; `dsd-convert` builds and runs. Mark the never-run media conversion as `STATIC-ONLY`.
+3. **T4** — copy-16, `ckDataSize` rewrite, read-back verify, `finally` cleanup, `PROP` descent. Separately enumerate every reachable `throw` and whether any caller catches it.
+4. **T6/T7** — six `TerminationReason` values; no path returns 0 for a killed process; every abnormal path reaps; `inactivityCts` disposed; estimator receives probed rate and channels. Mark the unexecuted real conversion `STATIC-ONLY`.
+5. **T8/T9** — gain probe uses resolved settings; `ProbeSampleRate`/`ProbeBitDepth` gone; `CheckSpaceForConversion` wired at both sites and ordered before `DeletePartialFlacs` in case B. Mark runtime log equality `STATIC-ONLY`.
+6. **T10/T11** — record F-9, F-10, F-11 as `FALSE` with line evidence; record the two T11 assertions that blessed defective guard behaviour, quoting them.
+
+**Accept:** table covering T1–T11; every `FALSE`/`PARTIAL`/`STATIC-ONLY` row maps to a task ID in this brief.
+
+## P0.4 — Media risk inventory (4 subtasks)
+
+1. Decode final-track duration for all 14 discs with CUEs (`sox --i -D`).
+2. Flag any under 30 s — these trip the live rule today.
+3. Record output-directory existence per ISO, separating fresh discs from re-processed ones.
+4. Record CUE track count per disc as the Phase 5 expected-FLAC oracle.
+
+**Accept:** per-disc table with all four columns.
+
+## P0.5 — SDD artifact reconciliation (6 subtasks) — **NEW in v2**
+
+The ledger and the reports disagree. Future readers must not repeat v1's error.
+
+1. Add the missing T11 line to `progress.md` with its commit or a note that the harness was deleted without one.
+2. Cross-check every task's `progress.md` line against its report's `Status:` field; record discrepancies.
+3. Extract every "Concerns" item from all eleven reports into one open-items register.
+4. Map each open item to a task in this brief, or mark it formally closed with rationale.
+5. Extract every review finding marked `Minor` and kept (e.g. T10.3 finding #7, duplicate `Failed` lookup) and confirm each is still an acceptable decision.
+6. Record which reports claim driver cleanup of `state/audio/sacd-guard.json`, and reconcile against P0.2's actual finding.
+
+**Accept:** one register containing every concern and kept-minor from all reports, each mapped to a task or an explicit closure.
 
 ---
 
-## 6. Findings
+# PHASE 1 — Remediation (7 tasks, 38 subtasks)
 
-### F-1 — `DffMetadataStripper` is inert `[CRITICAL] [HIGH]`
+## P1.1 — Fresh-disc crash (4 subtasks)
 
-`DffMetadataStripper.cs:97` copies **12** bytes; `HasId3Chunk:37` seeks to **16**.
+`DeleteFlacsInDir` enumerates without an existence check. On a fresh disc `FindDffDir` returns a non-existent path, state is `NeedsExtraction`, and the deleter runs *before* extraction. `Directory.GetFiles` throws; the inner `try/catch` covers only `File.Delete`; nothing up to `RunAsync` catches it. **The whole batch aborts.** Corroborated by `task-2-report.md`'s two-sibling-tree observation.
 
-The DSDIFF 1.5 spec defines the Form DSD Chunk as `ckID`(4) + `ckDataSize`(8, big-endian 64-bit) + `formType`(4) = 16 bytes before the first local chunk, with <cite index="1-1">ckDataSize equal to total file size minus the length of ckID and ckDataSize, always an even number because all chunks cover an even number of bytes, and formType always 'DSD '</cite>.
+1. Add an existence guard as the first statement of `DeleteFlacsInDir`.
+2. Audit every directory enumeration in `src/Services/Audio`; record each with a disposition. Every sibling already guards — this is the sole exception.
+3. Add a per-disc exception boundary in `RunAsync` so an unexpected throw fails one disc and the batch continues.
+4. Confirm the boundary does not swallow `OperationCanceledException`.
 
-Simulating the exact loop: the walk starts at 12, reads `"DSD "` as a chunk ID, reads bytes 16–23 as a size (`"FVER"` + zero padding = `0x4656455200000000` ≈ 5.07 × 10¹⁸), and since that ID is not `"ID3 "` it writes both back and calls `CopyBytes` with the absurd count, which terminates on EOF.
+**Accept:** a fresh temp tree reaches the extraction call without throwing; an injected `IOException` fails one disc and the loop continues; Ctrl+C still stops the run.
+
+## P1.2 — Reprocess guard semantics (11 subtasks) — **expanded in v2**
+
+Three defects, two of which are documented decisions requiring explicit reversal.
+
+**Genuine bug:** both success paths record `assessment.State` — the pre-work verdict — so success and failure are indistinguishable to the counter.
+
+**Decision to reverse (T10.2):** `Failed` is sticky until manual JSON removal.
+
+**Decision to re-scope (T10.3 finding #2):** transition fires before the Nth attempt, so N=3 yields two attempts.
+
+1. Record the reversal rationale for stickiness in the task report, quoting `task-10.2-report.md`, before changing code.
+2. Record the re-scoping rationale for the off-by-one, quoting `task-10.3-report.md` finding #2, and confirm the reviewer's actual requirement — *a `Failed` disc starts no process* — remains satisfied.
+3. Change both success paths to record the **cycle outcome**, not `assessment.State`.
+4. Count **consecutive non-`Complete` outcomes regardless of verdict**, so oscillation terminates.
+5. Move the transition so N attempts execute before blocking: with N=3, attempts 1–3 run and attempt 4 is refused.
+6. Make `Failed` clearable by a genuine `Complete` outcome.
+7. Add `--reset-guard` to `SacdConvertCommand`, logging each cleared entry.
+8. Log every transition at `Warn` with ISO, previous verdict, new verdict, count.
+9. Resolve T10.3 kept-minor #7 (duplicate `Failed` lookup in `RunAsync` and `ProcessIsoAsync`) — keep with documented reason or remove.
+10. Confirm guard writes are atomic enough that an interrupted write cannot produce unparseable JSON — `LoadAsync` treats `JsonException` as "reset to empty", which would silently erase every lockout.
+11. Preserve the nine cancellation guards added by T10.3 review-fix-2; confirm no state write occurs after a cancellation request.
+
+**Accept:** P3.2 suite passes with **inverted** assertions; three consecutive successes never accumulate; a deterministic failure runs exactly three times then is refused; alternating verdicts still terminate; `--reset-guard` restores a `Failed` disc; an interrupted write does not erase the file.
+
+## P1.3 — Last-track completeness rule (4 subtasks)
+
+The 30-second failure is still live. No format requirement imposes a minimum track length.
+
+1. Replace `< 30.0` failure with `<= 0`.
+2. Downgrade the short-track observation to `Warn` with the measured duration; do not fail completeness.
+3. Confirm the `else if` branch still fires only for the final track — it is the `else` of the `Duration is { }` test, and the final CUE track's `Duration` is `null` by construction.
+4. Confirm the non-final ±2.0 s tolerance is untouched.
+
+**Accept:** a 20-second final track assesses `Complete`; a 0-byte final track assesses non-`Complete`; a non-final track off by 3 s still assesses non-`Complete`.
+
+## P1.4 — Split error capture (5 subtasks)
+
+The bare `continue` destroys sox's stderr at the moment it is produced.
+
+1. Capture into a `Dictionary<int, string>` keyed by track number.
+2. Log each failure at `Warn` with track number, output path, error text.
+3. Include per-track reasons in the aggregate error.
+4. Confirm the aggregate still names missing track numbers.
+5. Confirm a mid-loop failure does not prevent remaining tracks being attempted.
+
+**Accept:** an injected failure on track 7 of 19 produces a `Warn` naming track 7 and its stderr, and the aggregate error carries both list and reasons.
+
+## P1.5 — Split output verification (4 subtasks)
+
+`SplitTrackAsync` returns on exit code alone; the count check counts list entries, not files.
+
+1. Confirm the output file exists after the exit-code check.
+2. Confirm non-zero length.
+3. Return a descriptive `ConversionFailed` naming the expected path when either fails.
+4. Apply the same check to `DeriveFlacAsync` and `ConvertDsdToFlacAsync`; record any other method returning an unverified path.
+
+**Accept:** a stub exiting 0 writing nothing produces an error; the real Disc 3 split still succeeds.
+
+## P1.6 — ISO deletion gating (5 subtasks)
+
+`outputsValidated` checks only directory existence. With P1.5 unfixed this is the path that destroys the only recoverable source.
+
+1. Require FLAC count equal to CUE track count.
+2. Require every FLAC non-zero length.
+3. Require the CUE present.
+4. Log the validation outcome per disc at `Info` before any deletion decision.
+5. Confirm `--keep-iso` short-circuits regardless.
+
+**Accept:** a disc with one zero-length FLAC retains its ISO with the reason logged; a valid disc without `--keep-iso` deletes its ISO; `--keep-iso` retains in both cases.
+
+## P1.7 — Stripper exception containment (5 subtasks)
+
+Strict input validation plus a rethrowing `HasId3Chunk` with no catching caller means one odd DFF aborts the batch — the exact input class the `ckDataSize` fix exists to repair.
+
+1. Convert `HasId3Chunk` to `ErrorOr<bool>`, or wrap it so callers receive a value.
+2. Wrap `PrepareDffAsync` so stripper failure degrades to a per-disc error.
+3. Keep the validations but classify: mismatched size on **input** warns and attempts repair; on **output** remains a hard failure.
+4. Confirm `finally` partial-output cleanup fires on every failure path including the new ones.
+5. Confirm `OperationCanceledException` stays excluded from the catch filter.
+
+**Accept:** a synthetic DFF with `ckDataSize` four bytes short fails that disc and the batch continues; a well-formed DFF strips with the same byte delta; cancellation during a strip still cancels.
+
+---
+
+# PHASE 2 — Defects no plan scheduled (3 tasks, 13 subtasks)
+
+## P2.1 — `ProbeDsdAsync` hardening (5 subtasks)
+
+1. Replace every `ReadChars` with `ReadBytes` plus `Encoding.ASCII.GetString`.
+2. Replace `(int)` narrowing casts with `long`/`ulong` and `Stream.Seek` for skipping.
+3. Bound seeks so a corrupt size cannot pass end-of-file.
+4. Confirm the walk still breaks after `PROP` on real files.
+5. Consider routing through the `DffMetadataStripper` chunk reader rather than maintaining a second walker; if not, record why.
+
+**Accept:** real Disc 3 probe returns 2822400 Hz / 2 ch unchanged; a corrupt oversized chunk size returns an error rather than throwing or over-allocating.
+
+## P2.2 — CLI contract truthfulness (4 subtasks)
+
+`task-10.4-report.md` reproduces `--help` output showing `Output format: 16 (default), 24, both` — shipped after review, while the command rejects everything but 16.
+
+1. Correct the `sacd-convert` format description to 16-bit only.
+2. Correct the `dsd-convert` input description to DFF only, or add DSF parsing — decide and record.
+3. Confirm the rejection message names the supported value.
+4. Confirm `--keep-iso` help states the destructive default clearly.
+
+**Accept:** `--help` for both commands matches actual behaviour on every option.
+
+## P2.3 — Probe harness disposition (4 subtasks)
+
+`SacdProbeService` is DI-registered but `RunProbeAsync` has no caller; `RealDffFixture` hardcodes `C:\Temp\t.dff` in the shipped assembly.
+
+1. Decide: expose behind a CLI command, or remove. Record the decision.
+2. If retained, replace the hardcoded path with configuration defaulting to absent.
+3. If retained, guard the entry point so a missing fixture reports a precondition failure.
+4. If removed, delete the three files and the registration together; confirm a clean build.
+
+**Accept:** either a working CLI path, or the three files and registration gone; no unreferenced public member remains.
+
+---
+
+# PHASE 3 — Durable verification (5 tasks, 33 subtasks)
+
+## P3.1 — Harness infrastructure (5 subtasks)
+
+Prior harnesses (T5, T10.2, T11) were built, passed, then deleted. This one is **committed and runnable on demand**.
+
+1. Plain `.cs` entry point, no test packages, referencing the production project.
+2. Assertion helpers with failure output naming the case.
+3. Temp-workspace creation and teardown, with a hard assertion the path is under the system temp root — no real media mutation.
+4. Controllable child-process stub: configurable exit code, output volume, delay, and a mode ignoring termination.
+5. Non-zero exit on any failure; per-case summary. Configure `Telemetry` at `Fatal` to suppress output while avoiding the null-logger crash noted in `task-11-report.md`.
+
+**Accept:** harness runs, prints per-case results, exits 0 clean and non-zero when forced to fail. **Committed to the repo, not deleted.**
+
+## P3.2 — Regression-suite decontamination (7 subtasks) — **NEW in v2**
+
+The T11 suite passed 74 cases while asserting two defects as correct. Its report is the specification anyone rebuilding will copy from.
+
+1. Quote both blessed assertions verbatim in the task report: *"Complete can't remove Failed (sticky)"* and *"different verdict resets count"*.
+2. Write the **inverted** assertions: a genuine `Complete` outcome clears `Failed`; a differing non-`Complete` verdict does **not** reset the count.
+3. Annotate `task-11-report.md` in place, marking those two rows superseded and naming this brief — do not delete the file.
+4. Re-derive every other T11 case against a requirement in this brief or the guide, and discard any that merely restates current behaviour.
+5. Add the case T11 recorded as unexercised: `TerminationReason.StartFailed`.
+6. Resolve the reflection dependency on `internal` members (`GetFlacsByTrackNumber`, `FindDffDir`) — `InternalsVisibleTo` or widened visibility, decided and recorded.
+7. Confirm no assertion in the new suite was carried over without a requirement citation.
+
+**Accept:** both inverted assertions pass; `task-11-report.md` annotated; every retained case carries a requirement citation.
+
+## P3.3 — State matrix and guard termination (8 subtasks)
+
+1. Fresh directory, no CUE/DFF/FLACs → `NeedsExtraction`, and no throw (P1.1).
+2. Valid DFF, no CUE → `InvalidArtifacts`, stale DFF deleted, nothing else removed.
+3. Valid DFF, CUE, zero FLACs → `NeedsPrimaryConversion`.
+4. Valid DFF, CUE, partial FLACs → `NeedsPrimaryConversion`.
+5. CUE, all FLACs, durations correct, no DFF → `Complete`.
+6. Final track 20 s → `Complete` (P1.3).
+7. Final track 0 bytes → non-`Complete`.
+8. Guard termination **through the orchestrator, not `ReprocessGuard` in isolation** — this is why T11 missed the pre-work-verdict bug: it fed verdicts by hand. Three consecutive non-`Complete` outcomes → `Failed` on the fourth encounter with zero process starts; three consecutive successes → no accumulation; alternating verdicts → still terminates; `--reset-guard` restores processing.
+
+**Accept:** all eight pass; case 8 drives `ProcessIsoAsync`, not `RecordAsync` directly, and proves termination.
+
+## P3.4 — Stripper suite (7 subtasks)
+
+1. Synthetic DSDIFF with four top-level ID3 chunks → removed; `ckDataSize` = filesize − 12; even.
+2. Odd-sized chunk requiring a pad → padding preserved, output even.
+3. ID3 nested under `PROP` → removed and the `PROP` size field rewritten.
+4. Truncated file → descriptive error, no partial output.
+5. Zero-size chunk mid-walk → descriptive error, no partial output.
+6. Input `ckDataSize` four bytes short → per P1.7, warns and repairs or fails that file only.
+7. Real Disc 3 DFF **streamed** — never `File.ReadAllBytes` (throws above 2 GB on a 3.33 GB file). Assert ID3 4 → 0, output exactly 1,806 bytes smaller (3,332,711,216 → 3,332,709,410), `ckDataSize` = 3,332,709,398.
+
+**Accept:** all seven; case 7 runs against real media with exact figures.
+
+## P3.5 — ProcessRunner termination suite (6 subtasks)
+
+1. Exit 0 → `Exited`, code 0, full stdout captured.
+2. Exit 3 → `Exited`, code **3 preserved**, stderr captured.
+3. Caller cancellation → `CallerCanceled`, tree killed and reaped, no orphan.
+4. Wall-clock timeout → `Timeout`, killed and reaped, code not laundered to 0.
+5. Completion marker then hang → `KilledAfterCompletionMarker`, killed and reaped; caller-side acceptance still requires output validation.
+6. High-volume stdout then immediate exit → drain barrier holds; output complete.
+
+**Accept:** all six; no case returns exit 0 for a killed process; no orphan remains.
+
+---
+
+# PHASE 4 — Build, contracts, and observation (3 tasks, 17 subtasks)
+
+## P4.1 — Build and style gate (4 subtasks)
+
+1. `dotnet build Toolbox.slnx --no-restore --no-incremental` → 0 errors, 0 warnings.
+2. Confirm editorconfig violations are build errors.
+3. Close the deferred formatting nit in `SacdConvertCommand`.
+4. Confirm no test package or new dependency entered project files during Phases 1–3.
+
+**Accept:** clean build; a deliberate style violation fails it; project files otherwise unchanged.
+
+## P4.2 — Tool integration contracts (6 subtasks)
+
+1. `sacd_extract -P` on a real ISO → confirm the parse contract including multichannel detection.
+2. `sox --i -D` → duration parsing on a real FLAC.
+3. `sox ... -n stats` → peak regex against real output, including negative and `-0.00` cases.
+4. `sox ... trim` → split offsets, and final track trims to EOF.
+5. `saracon` on a short real DFF → normal exit, completion-marker path, and a truncated output tripping the size guard.
+6. Record each tool's version string.
+
+**Accept:** each contract asserted against captured real output, quoted.
+
+## P4.3 — Runtime observation of static-only criteria (7 subtasks) — **NEW in v2**
+
+Closes the four acceptance criteria satisfied by inference rather than observation (§0.4).
+
+1. **T8** — run one real conversion and confirm from `state/logs/audio.jsonl` that `DsdConvert.GainCalcComplete` and the master `Saracon.ConvertStart` show the **same** rate and bit depth. This was T8's stated criterion and was never observed.
+2. **T3** — run one real `--format 16` SACD conversion end to end.
+3. **T7** — run one real full Saracon conversion, confirming the estimator against actual output size.
+4. **T9** — observe artifact ownership at runtime: CUE retained through a forced probe failure; temp cleanup exception not masking the primary error.
+5. Fix or formally account for the mangled temp-root label in `Saracon.ConvertStart` (`task-1-report.md`) — Phase 5 gates read this log.
+6. Confirm the Seq sink level deferral from T1 is either intended or corrected.
+7. Confirm no gate in Phase 5 depends on a log field that renders unreadably.
+
+**Accept:** each of the four criteria observed in a real log with the entry quoted; log rendering defects fixed or explicitly accounted for.
+
+---
+
+# PHASE 5 — Real media gates (5 tasks, 29 subtasks)
+
+Ascending risk. **A gate failure stops the phase.**
+
+**HALT rule, all tasks:** on a `RegistryOleInit` signature (`Can't open registry key`, `Cannot initialize OLE`, `wxIdleWakeUpModule`) the agent session is blocked by design. Stop, quote the signature, hand the command to the interactive terminal, resume at validation.
+
+## P5.1 — Gate A: Disc 3, case B (7 subtasks)
+
+Disc 3 has DFF and CUE, zero FLACs. Expected durations 1223.000 / 1158.373 / 820.720 / remainder.
+
+1. Run with `--keep-iso`.
+2. Four FLACs; non-final durations within 0.01 s.
+3. Exactly one `DffMetadataStripper.Completed` with `outputBytes` < `inputBytes` — **from the log, not the filesystem**; cleanup deletes `_clean.dff` before the run ends.
+4. `Saracon.Id3Detected` exactly once, not twice — proves the strip is hoisted.
+5. No `Saracon.OutputTooSmall`.
+6. ISO present at original size; CUE present.
+7. Guard records `Complete` or no entry.
+
+## P5.2 — Gate B: Disc 4 canary, case A (6 subtasks)
+
+First true exercise of the fresh-disc path. ~1 hour.
+
+1. Confirm no output directory exists beforehand (P0.4).
+2. Run with `--keep-iso`; confirm extraction is reached **without throwing**.
+3. FLAC count equals the P0.4 CUE oracle.
+4. No leftover WAV or DFF.
+5. ISO retained; CUE present.
+6. Guard records `Complete`, not `NeedsExtraction` — the direct field test of P1.2.
+
+**Subtask 6 failing means P1.2 is wrong and Phase 5 stops.**
+
+## P5.3 — Gate C: Discs 5–9 (6 subtasks)
+
+~10 hours, detached. Do not treat elapsed time alone as failure before the one-hour Saracon timeout.
+
+1. Run all five with `--keep-iso`.
+2. Per disc, FLAC count equals CUE track count.
+3. Zero discs reach `Failed`.
+4. No leftover WAV or DFF for succeeded discs.
+5. All five ISOs retained; all five CUEs present.
+6. Re-verify the 13 canary hashes — **prior output must be untouched.** A mismatch is a stop-everything event.
+
+## P5.4 — Gate D: full 20-disc rerun (5 subtasks)
+
+1. Immediately re-run all 20.
+2. 20/20 logged as skipped at `Info`.
+3. **20 `sacd_extract` probe invocations are expected and correct** — the orchestrator probes unconditionally before assessment. Zero **extraction** invocations (arguments containing `-e`).
+4. Zero `saracon` process starts.
+5. Guard contains no entries, or only `Complete`-cleared state.
+
+## P5.5 — Gate E: cancellation (5 subtasks)
+
+1. Ctrl+C during the Saracon master pass.
+2. Reported as cancellation, not timeout — no `ProcessRunner.Timeout` entry.
+3. No orphaned `saracon.exe`.
+4. Exit within seconds, not after the one-hour timeout.
+5. Next run resumes; the interrupted disc did not accumulate a guard count it should not have (T10.3 review-fix-2 claims no state write occurs after cancellation — this observes it).
+
+---
+
+# PHASE 6 — Closure (3 tasks, 18 subtasks)
+
+## P6.1 — Documentation reconciliation (6 subtasks)
+
+1. Update `src/Services/Audio/AGENTS.md` so its file list matches disk — it predates `DiscState` and `ReprocessGuard`.
+2. Document the state model, guard semantics **as rebuilt**, and the `--reset-guard` recovery path replacing manual JSON deletion.
+3. Publish the artifact ownership table with success and failure columns.
+4. Record the 16-bit deviation from the guide, its cost, and the condition for revoking it.
+5. Delete superseded plans: `sacd-pipeline-rescue.md`, `2026-08-12-sacd-consolidated.md`, `2026-08-09-sacd-death-loop-v2-design.md`, `2026-08-14-audio-design-assessment.md`, both logging-audit files, `2026-08-10-process-runner-streaming.md`, `sacd=extractopn.md`, `sacdprobe-editorconfig.md`.
+6. Retain `sacd-guide.md`, `sacd-probe-journal.md`, `toolbox-flatline.md`, the YouTube plans, **and the entire `.superpowers/sdd/new-mega-plan/` set** — annotated, never deleted; they are the audit trail that exposed §0.
+
+## P6.2 — Journal (5 subtasks)
+
+1. Append findings with confidence tags and basis; tags may not be dropped or upgraded when restated.
+2. Record that historical `stripped/` journal rows were byte-identical to `raw/` rows — the stripper was inert, so inferences from comparing them are void. **Do not delete historical rows.**
+3. Record that the UTF-8 / ACP 65001 root cause was rejected and must not be restated as settled.
+4. Record the P0.3 falsified-completion table and the P0.5 open-items register.
+5. Record every `BLOCKED` subtask with its signature.
+
+## P6.3 — Experiment E1-A (7 subtasks)
+
+Quantifies what the historical probe/master rate mismatch cost, and whether the 13 converted discs were gained wrongly. **The one-pass optimisation is not revived** — it needs a 24-bit intermediate, which rule 2 forbids.
+
+1. Build the dummy: truncate the real Disc 3 DFF to 60 s of DSD — 60 × (2,822,400 ÷ 8) × 2 = **42,336,000 bytes**. Copy bytes 0–15, then `FVER` (16 B) and `PROP` (100 B) verbatim, then a `DSD ` header with size 42,336,000 and that payload. Omit `DIIN`, `COMT`, all ID3. Rewrite `ckDataSize` at offset 4 to **42,336,132**. Expected total **42,336,144 bytes**.
+2. Assert `ckDataSize` even and equal to filesize − 12; record SHA-256.
+3. Convert at 88200/24, gain 0.00; record `sox stats` peak.
+4. Convert at 44100/16, gain 0.00; record `sox stats` peak.
+5. Compute `delta = peak88 − peak44` and the gain each yields (`−0.5 − peak`, capped +6).
+6. Interpret: `delta > 0` → historical gain was conservative, that much level lost; `delta < 0` → optimistic, the 13 discs need clipping checks; `|delta| < 0.05` → immaterial.
+7. Record both wall-clock timings and any Saracon warnings.
+
+**Accept:** delta computed from measured peaks with both raw `sox stats` blocks quoted; explicit verdict on whether the 13 existing discs need re-conversion.
+
+---
+
+# Task index
+
+| Phase | Tasks | Subtasks | Change from v1 |
+|---|---:|---:|---|
+| 0 — Ground truth | 5 | 25 | +P0.5 SDD reconciliation |
+| 1 — Remediation | 7 | 38 | P1.2 expanded 8 → 11 |
+| 2 — Unscheduled defects | 3 | 13 | — |
+| 3 — Durable verification | 5 | 33 | +P3.2 decontamination |
+| 4 — Build and contracts | 3 | 17 | +P4.3 runtime observation |
+| 5 — Real media gates | 5 | 29 | — |
+| 6 — Closure | 3 | 18 | — |
+| **Total** | **31** | **173** | v1: 28 / 150 |
+
+## Dependencies
 
 ```
-current code : 3504 B out, byte-identical = True,  ID3 chunks remaining = 4
-copy-16 fix  : 1698 B out, 1806 B removed,         ID3 chunks remaining = 0
+P0.1 → P0.2 → P0.3 → P0.4 → P0.5
+                              ↓
+        ┌──────────────┬──────┴───────┬──────────────┐
+       P1.1           P1.2          P1.3 … P1.7    P2.1 … P2.3
+        └──────────────┴──────┬───────┴──────────────┘
+                              ↓
+              P3.1 → P3.2 → P3.3 / P3.4 / P3.5
+                              ↓
+                    P4.1 → P4.2 → P4.3
+                              ↓
+          P5.1 → P5.2 → P5.3 → P5.4       P5.5 (after P5.1)
+                              ↓
+                    P6.1 → P6.2 → P6.3
 ```
 
-**The single defence the entire death-loop programme was built on has never executed.** The real Disc 3 DFF carries four top-level ID3 chunks spanning 1,806 bytes (payloads 434 + 424 + 462 + 438 = 1,758, plus 4 × 12-byte headers).
+**Serialisation.** P1.1 precedes every Phase 5 task. P1.2 precedes P5.2, whose subtask 6 is its field test. P1.5 precedes P1.6. **P3.2 precedes P3.3** — decontamination must happen before the guard suite is written, or the inverted assertions will not be written at all. P4.3 precedes Phase 5, because the gates read logs whose rendering it repairs.
 
-### F-23 — There is no loop-breaker anywhere in the pipeline `[HIGH] [HIGH]` — **NEW, structural**
+**Parallelisable.** P1.3–P1.7 touch different files. P2.1–P2.3 are independent of Phase 1. P3.4 and P3.5 are independent of P3.2 and P3.3.
 
-`ProcessIsoAsync` maps every non-`IsComplete` assessment to reprocess, unconditionally. There is no attempt counter, no quarantine, no `Failed` terminal state. A disc that fails a completeness rule **deterministically** — same input, same output, same verdict — is re-extracted and re-converted on every run forever, while `succeededIsos.Add(isoPath)` still reports success.
+**Wall clock.** Phase 5 is ~14 hours of Saracon runtime, uncompressible — Saracon is single-threaded with process-global registry and OLE state, and concurrent instances were the original death-loop cause. Everything else is roughly 24 engineering hours, up from 20 in v1.
 
-Worse, the reprocess path runs `DeletePartialFlacs` then `DeleteExtractionArtifacts` *before* re-extracting, so each cycle opens a ~50-minute window in which a correct disc has been reduced to an ISO. Interrupt inside that window and working output is destroyed to satisfy a check that was never going to pass.
+## Completion definition
 
-This is the class; F-11 is one instance. **Any completeness rule added without a guard is a potential loop** — including the "positive decoded duration" replacement proposed for F-11, which fails permanently if a CUE's final `INDEX 01` lies past the master's end (sox trims past EOF, emits an empty file, exits 0).
-
-The loop only recurs while the ISO survives. With `--keep-iso` absent, run 1 deletes the ISO and run 2 skips the disc entirely — but every plan in the archive mandates `--keep-iso`, so in the intended configuration it repeats indefinitely.
-
-### F-2 — Gain probe decimates at a different ratio than the master `[HIGH] [HIGH]`
-
-`DsdConvertService.cs:15-16` fixes the probe at `ProbeSampleRate = 88200`, `ProbeBitDepth = 24`. Under D-1 the master converts at 44,100 / 16. Peak is measured through ÷32; gain is applied through ÷64. Different anti-alias filters, and the 88.2 kHz probe retains 22–44 kHz content the master discards.
-
-Direction is *probably* conservative — DSD noise-shaping energy above 22 kHz inflates the probe peak, so gain undershoots and loses level rather than clipping. `MEDIUM` on direction, `HIGH` on the mismatch. **E1-A measures it.** The 13 already-converted discs went through the mismatched path.
-
-### F-3 — The universal proposed fix for F-1 is incomplete `[HIGH] [HIGH]`
-
-Every prior document proposes `12` → `16` and stops. That removes the ID3 chunks but copies the original `ckDataSize` verbatim, so `FRM8` over-declares by the bytes removed. The spec requires that field to equal filesize − 12 and be even. The SACD decoder project documents readers failing on a `FRM8` length four bytes off.
-
-**Required:** after the loop, seek to offset 4 and rewrite `ckDataSize` = `output.Length − 12` big-endian; assert even and matching. The assertion matters more than the rewrite — it stops a future edit silently reintroducing the bug.
-
-### F-4 — Grace-killed process reported as exit 0 `[HIGH] [HIGH]`
-
-`ProcessRunner.cs:202-203`: `if (graceKillOccurred) exitCode = 0;`. `Process.Kill` is asynchronous and best-effort; observing `100%` is not evidence Saracon flushed and closed. Compounding: `WaitForExitAsync(CancellationToken.None)` at `:197` observes exit but does not wait for the async `DataReceived` handlers to drain, so captured output may be truncated. The inactivity and timeout `return`s at `:148` and `:165` kill without reaping at all.
-
-### F-7 — Cleanup reconstructs a path that can be wrong `[HIGH] [HIGH]`
-
-`CleanupSuccesses:375` builds `Path.Combine(outputRoot, discName, discName)`, where `outputRoot` was computed once at `:64-68` from the **run-level** `multichannel` flag. Each disc's actual directory is built at `:142-150` from **per-disc** `extractMch = multichannel ?? probe.Value.HasMultichannel`.
-
-Omit `-m`, let any disc auto-detect as multichannel, and its output lives under `... (Multichannel)` while cleanup looks under `... (Stereo)`, finds nothing, and silently `continue`s — DFF and XML never cleaned, while the ISO is still deleted if `--keep-iso` is absent.
-
-### F-6 — Invalid-artifact recovery deletes the CUE `[HIGH] [MEDIUM]`
-
-`PipelineOrchestrator.cs:273-282` removes `*.dff`, `*.cue`, `*.xml`. Once the CUE is gone, completeness cannot be assessed without a full re-extract. Adopt keep-CUE.
-
-### F-5 — PCM size guard hardcodes stereo DSD64 `[MEDIUM] [HIGH]`
-
-`EstimateExpectedPcmBytes`: `dsdBytes / (2822400.0 / 8.0 * 2)`. Verified correct for stereo DSD64 — Disc 3's `DSD ` chunk of 3,332,708,736 B ÷ 705,600 = 4,723.2 s, consistent with its CUE (last track starts 3,204.093 s). But `ProbeDsdAsync` already parses actual rate and channels and that data is never passed in. Multichannel under-estimates, so truncated output passes.
-
-### F-8 — Extraction can collide with an existing DFF `[MEDIUM] [HIGH]`
-
-Case B requires `HasValidDff && HasCue` (`:206`); artifact deletion happens only when `!HasValidDff` (`:228`). **Valid DFF + no CUE** falls through to case-A extraction without removing the existing DFF; `sacd_extract` writes beside it and Windows applies collision suffixes.
-
-### F-9 — Split errors are discarded silently `[MEDIUM] [HIGH]`
-
-`DsdConvertService.cs:209-212`: `if (splitResult.IsError) { continue; }` — no log, no capture. The aggregate check at `:228` then infers missing tracks from filenames; sox's stderr is lost.
-
-### F-10 — Split success is not verified against the filesystem `[MEDIUM] [HIGH]`
-
-`SoxService.SplitTrackAsync` returns `outputFlac` after checking exit code only. A sox exit-0 producing nothing counts as a successful track.
-
-### F-11 — Last-track 30-second rule is an instance of F-23 `[MEDIUM] [HIGH]`
-
-`FlacCompletenessChecker.cs:85-104` returns `IsComplete = false` when the final track is under 30 s. Not a format requirement; a disc with a genuinely short closing track can never be marked complete. Replace with "positive decoded duration" — **and only under the F-23 guard**, since the replacement has its own permanent-failure mode.
-
-### F-12 — `LogPaths` process-global, not exception-safe `[MEDIUM] [HIGH]`
-
-`Setup` at `:69`, `Reset` only on the normal path at `:111`; cancellation throws at `:82`, skipping both cleanup and reset.
-
-### F-13 — Temp cleanup can replace the primary error `[MEDIUM] [HIGH]`
-
-`CalculateGainAsync:165-169` and `ConvertFullDffAsync:285-289` delete temp dirs in `finally` unguarded.
-
-### F-14 — Strip failure leaves partial output `[MEDIUM] [HIGH]`
-
-Output created at `:92` before validation at `:94`; the non-exceptional failure path returns without deleting it.
-
-### F-22 — ISOs are deleted by default `[MEDIUM] [HIGH]`
-
-`SacdConvertCommand.Settings.KeepIso` defaults to `false`. Every invocation must pass `--keep-iso`. Combined with F-7, a disc can lose its ISO while its DFF is left behind.
-
-### F-15 — Conversion disk-space check appears unwired `[MEDIUM] [MEDIUM]`
-
-`DiskSpaceChecker.CheckSpaceForConversion` (8× factor) has no call site in the audio subset; only `CheckSpaceForExtraction` (4×) runs, once, at `:52`. Conversion is the more space-hungry phase. **Confirm repo-wide before acting** (§0).
-
-### F-20 — ID3 detection and strip run twice per disc `[LOW] [HIGH]`
-
-`RunConversionAsync` calls `HasId3Chunk` and `StripId3TagsAsync` on every invocation, and the pipeline invokes it twice per disc (gain probe + master). **Once F-1 is fixed this becomes two full 3.3 GB rewrites per disc**, landing on T15's wall clock. Strip once, reuse.
-
-### F-16 — Probe harness appears orphaned `[LOW] [MEDIUM]`
-
-`SacdProbeService`/`SacdProbeRunner` are not registered in `AudioSetup` and are referenced by nothing in the audio subset. `RealDffFixture.Path` hardcodes `C:\Temp\t.dff`. **Confirm repo-wide before deletion** (§0, C-7).
-
-### F-17 — `ValidateContainedPath` is unsafe and appears unreachable `[LOW] [MEDIUM]`
-
-Raw prefix comparison; `Disc 1` admits `Disc 10`. No call site in the audio subset. Wire it in correctly or delete it — **confirm repo-wide first** (§0).
-
-### F-18 — Latent inactivity deadlock `[LOW-latent] [HIGH]`
-
-If `inactivityTimeout` were ever passed, `exitTask` (built on `linkedToken`) transitions to Canceled, `while (!exitTask.IsCompleted)` exits without entering the body, and `:197` blocks on a process nobody killed. No caller passes it today.
-
-### F-19 — `ProbeDsdAsync` uses encoding-sensitive reads and narrowing casts `[LOW] [MEDIUM]`
-
-`BinaryReader.ReadChars(4)` decodes via the stream encoding; on binary data it can consume a variable number of bytes and desync the walk. `(int)chunkSize` narrows a `ulong`; the DSD chunk (3.33 GB) overflows `int`. In practice the loop breaks after `PROP` — which the spec requires before the sound-data chunk — so it degrades to a probe failure rather than a crash.
-
-### F-21 — `DsdConvertCommand` advertises DSF input it cannot process `[LOW] [HIGH]`
-
-Description says "Input DSF or DFF file"; `ProbeDsdAsync` parses `FRM8` only.
-
----
-
-## 7. CPM network
-
-Engineering hours; T14–T17 are wall-clock including Saracon runtime. **Project duration 33.5 h** (v3: 33.0; +0.5 for the F-23 guard).
-
-| ID | Task | Dur | Deps | ES | EF | LS | LF | Float |
-|---|---|---:|---|---:|---:|---:|---:|---:|
-| T1 | Logging preconditions | 0.5 | — | 0.0 | 0.5 | 0.0 | 0.5 | **0** |
-| T2 | Freeze baseline | 0.5 | T1 | 0.5 | 1.0 | 0.5 | 1.0 | **0** |
-| T3 | 16-bit-only: retire `Bit24`/`Both` from the pipeline | 1.0 | T2 | 1.0 | 2.0 | 3.0 | 4.0 | 2.0 |
-| T4 | Stripper: copy 16 + rewrite `ckDataSize` + partial cleanup | 3.0 | T2 | 1.0 | 4.0 | 7.5 | 10.5 | 6.5 |
-| T6 | ProcessRunner: `TerminationReason`, real exit code, drain, reap | 3.0 | T2 | 1.0 | 4.0 | 1.0 | 4.0 | **0** |
-| T8 | Gain-probe alignment + dead-code resolution | 2.0 | T3 | 2.0 | 4.0 | 10.5 | 12.5 | 8.5 |
-| T5 | Standalone DFF strip harness | 2.0 | T4 | 4.0 | 6.0 | 10.5 | 12.5 | 6.5 |
-| T7 | Saracon: gated grace accept, probed rate/channels, strip-once | 2.0 | T6,T4 | 4.0 | 6.0 | 10.5 | 12.5 | 6.5 |
-| T9 | Artifact ownership: CUE preserved, cleanup path fix, temp owner | 2.5 | T6,T3 | 4.0 | 6.5 | 4.0 | 6.5 | **0** |
-| T10 | `DiscState` + **reprocess guard** + split-error capture + existence checks | 3.5 | T3,T9 | 6.5 | 10.0 | 6.5 | 10.0 | **0** |
-| T11 | Standalone harness: state matrix, guard, containment, termination | 2.5 | T10 | 10.0 | 12.5 | 10.0 | 12.5 | **0** |
-| T12 | Build + editorconfig-as-error gate | 0.5 | T5,T7,T8,T11 | 12.5 | 13.0 | 12.5 | 13.0 | **0** |
-| T13 | Tool-integration checks | 3.0 | T12 | 13.0 | 16.0 | 13.0 | 16.0 | **0** |
-| T14 | Gate A: Disc 3 case-B → 4 FLACs | 2.0 | T13 | 16.0 | 18.0 | 16.0 | 18.0 | **0** |
-| T15 | Gate B: Discs 4–9 case-A | 12.0 | T14 | 18.0 | 30.0 | 18.0 | 30.0 | **0** |
-| T17 | Gate D: Ctrl+C semantics | 0.5 | T14 | 18.0 | 18.5 | 32.0 | 32.5 | 14.0 |
-| T16 | Gate C: 20/20 rerun | 0.5 | T15 | 30.0 | 30.5 | 30.0 | 30.5 | **0** |
-| T18 | Doc reconciliation, delete superseded plans | 2.0 | T16 | 30.5 | 32.5 | 30.5 | 32.5 | **0** |
-| T19 | Journal + commit + handoff | 1.0 | T16,T17,T18 | 32.5 | 33.5 | 32.5 | 33.5 | **0** |
-
-### Critical path
-
-```
-T1 → T2 → T6 → T9 → T10 → T11 → T12 → T13 → T14 → T15 → T16 → T18 → T19
-```
-
-```
-          ┌─ T3 ─→ T8 ────────────────┐   2.0 / 8.5 float
-          │   ║                        │
-T1 ═→ T2 ═┼─ T4 ─→ T5 ────────────────┤   6.5 float
-          │   ↘                        │
-          └─ T6 ═╬═→ T7 ──────────────┤   6.5 float
-              ║  ║                     │
-              T6 ╩═→ T9 ═→ T10 ═→ T11 ═→ T12 ═→ T13 ═→ T14 ═→ T15 ═→ T16 ═→ T18 ═→ T19
-                                                          └→ T17   14.0 float
-
-  ═══ critical (zero float)      ─── has float
-```
-
-### Reading the network
-
-**The critical path runs through process semantics, cleanup ownership, and state modelling — not through the ID3 bug.** T4, the most severe defect, carries 6.5 h of float. Urgent for correctness, not schedule-binding, because the real-media gates cannot start until the state machine is trustworthy.
-
-**T3 is the sleeper at 2.0 h float.** It feeds both T8 and T10.
-
-**T15 is 36 % of the schedule and cannot be compressed.** Six discs × two full Saracon passes. Parallelising is not an option — Saracon is a 2010 wxWidgets application with process-global registry/OLE state and a documented self-restart interference history.
-
-**Compression, in order of value:**
-1. Do T4/T5 first despite the float — cheap, independently verifiable, and a bad master wastes 12 h of T15.
-2. Run T3, T4, T6 concurrently right after T2 — three workers, no shared files.
-3. Fix F-20 (strip-once) inside T7 — with F-1 live, every disc gains two 3.3 GB rewrites straight onto T15's wall clock.
-4. Schedule T17 (14 h float) inside T15's dead time.
-5. **Do not compress T13.** Skipping tool-integration checks is what made every previous real-media run fail late.
-
----
-
-## 8. Task detail
-
-Per rule 7, each criterion must be able to fail, and must not fail on correct code.
-
-### T1 — Logging preconditions
-`youtube-quota-logging.md` tasks 1–2 move the Serilog sink to `PathResolver.RepoRoot/logs` and pin the file sink to `Debug+` independently of `--verbose`. **Every gate below reads Debug-level events.** If those have not landed, land them here.
-**Accept:** run any `audio` command from `C:\Users\Lance`; `<repo>\logs\audio.jsonl` gains Debug entries; no log file appears in CWD.
-
-### T2 — Freeze baseline
-`dotnet build Toolbox.slnx --no-restore --no-incremental` → 0/0. `git tag backup/pre-sacd-v4`. Record `where.exe saracon sacd_extract sox`, ACP, and a media inventory.
-**Accept:** three binaries resolve; build exit 0. The inventory is **recorded, not asserted** — it is a baseline for later diffing, not a pass condition.
-
-### T3 — 16-bit only for the SACD pipeline (D-1)
-Reject `Bit24` and `Both` at `SacdConvertCommand` validation with a clear message. **Keep `ForDsdRate` intact** — a one-line revert restores them if DEV-1 is revoked.
-
-Delete only what becomes unreachable in the pipeline: `DsdConvertService.DeriveDirectoryAsync`; the `DerivedOnly` branch (`PipelineOrchestrator:159-175`); the `IsComplete`+`Both` re-derive block (`:179-201`); derived handling in `DeletePartialFlacs`; derived fields in `DiscAssessment` and `DurationCheckResult`.
-
-**Do NOT delete `DsdConvertService.DeriveFlacAsync` or `ConvertFullDffAsync`** — `DsdConvertCommand.cs:101` and `:121` call them (C-16). Decide separately whether `dsd-convert` also drops `Bit24`/`Both`; it is a different command with a different contract.
-**Accept:** `audio sacd-convert --format 24|both` fails with a clear message; no `derivedDir` string is constructed in the pipeline; `audio dsd-convert --help` still works; build clean.
-
-### T4 — Stripper (F-1, F-3, F-14)
-Copy 16 not 12. After the loop, seek to 4 and write `output.Length − 12` big-endian; assert even and matching. Validate before creating output; delete incomplete output in `finally` on every failure path. Descend into `PROP` when scanning, or log `Id3ScanScope=TopLevelOnly`.
-**Accept:** T5 passes. On the real Disc 3 DFF the clean file is **1,806 bytes smaller** (3,332,711,216 → 3,332,709,410), contains zero `ID3 ` chunks, and its `ckDataSize` equals **3,332,709,398**.
-
-### T5 — Strip harness
-Standalone `.cs`, no test packages. Cases: synthetic DSDIFF with 4 ID3 chunks; odd-sized chunk needing pad; ID3 nested under `PROP`; truncated file; zero-size chunk. Plus the real Disc 3 DFF **streamed** — never `File.ReadAllBytes`, which throws above 2 GB on a 3.33 GB file and already bit a prior session.
-**Accept:** all cases pass; real-DFF case reports ID3 count 4 → 0 and the exact byte delta above.
-
-### T6 — ProcessRunner (F-4, F-18)
-`TerminationReason { Exited, CallerCanceled, Timeout, InactivityTimeout, KilledAfterCompletionMarker, StartFailed }`. Preserve the real exit code. Explicit output-drain barrier before reading stdout/stderr. Every abnormal path kills the tree **and reaps** — the current inactivity and timeout `return`s at `:148`/`:165` skip the reap. Handle `exitTask` completing as Canceled before the loop body (F-18). Dispose `inactivityCts`.
-**Accept:** T11 drives a controllable child through each reason; no path returns 0 for a killed process; no path returns without reaping.
-
-### T7 — Saracon (F-4 acceptance, F-5, F-20)
-Accept `KilledAfterCompletionMarker` only after output exists, is structurally valid, and passes the size guard. Thread probed rate and channel count into `EstimateExpectedPcmBytes`. **Strip ID3 once per disc and reuse the clean DFF** across gain probe and master.
-**Accept:** Disc 3 estimate returns 4,723 s ± 1 s; a synthetic multichannel header no longer under-estimates; `Saracon.Id3Detected` appears **once** per disc in `audio.jsonl`, not twice.
-
-### T8 — Gain-probe alignment and dead-code resolution (F-2, F-15, F-16, F-17)
-**Step 1, before anything else:** repo-wide grep for `ValidateContainedPath`, `CheckSpaceForConversion`, `SacdProbeService`, `RunProbeAsync` across `src/` including `Program.cs` and all CLI branches (§0). Record the result. Only then decide delete-versus-wire for each.
-
-Then: pass the resolved `DsdConversionSettings` into `CalculateGainAsync`; probe at the master's own rate and depth; delete `ProbeSampleRate`/`ProbeBitDepth`.
-**Accept:** `DsdConvert.GainCalcComplete` and the master's `Saracon.ConvertStart` show the same rate and bit depth; the grep result is recorded with a disposition per member.
-
-### T9 — Artifact ownership (F-6, F-7, F-13, F-22)
-Publish this table into `AGENTS.md` and implement it. **Cleanup operates on exact paths returned by the per-disc result, never reconstructed** (F-7) — this requires `ProcessIsoAsync` to return the output directory alongside success, not just add the ISO path to a list.
-
-| Artifact | Success | Failure / cancellation |
-|---|---|---|
-| ISO | delete only if `--keep-iso` absent **and** all outputs validate | retain |
-| CUE | retain | **retain — never deleted** |
-| DFF / `_clean.dff` | delete after full output validation | retain or quarantine |
-| FLAC | retain | delete only for a deliberate re-split, logged |
-| Master PCM | best-effort delete in `finally` | never masks the primary error |
-| Temp files | run-owned unique path, publish on success | remove run-owned only |
-
-**Accept:** forced probe failure leaves the CUE on disk; a disc forced to auto-detect as multichannel is cleaned in its own `(Multichannel)` directory; forced cleanup exception still surfaces the original conversion error.
-
-### T10 — `DiscState` and the reprocess guard (F-23, F-8 – F-12)
-Replace the boolean bag with `Complete | NeedsPrimaryConversion | NeedsExtraction | InvalidArtifacts | Failed`.
-
-**Add the loop-breaker first** (F-23): persist a per-disc reprocess-attempt count; after N consecutive cycles that end in the same non-`Complete` verdict, transition to `Failed`, log the reason, retain all artifacts, and **stop reprocessing that disc**. `Failed` is terminal for the run and is reported in `PipelineResult`, not silently counted as success.
-
-Then: handle **valid DFF + no CUE** explicitly, deleting the stale DFF before re-extracting (F-8). Capture per-track split errors keyed by track number instead of `continue` (F-9). Verify each split output exists and is non-empty (F-10). Replace the 30-second last-track failure with "positive decoded duration", warning only (F-11). Put `LogPaths.Reset` in `finally` or use a scope (F-12).
-**Accept:** T11 matrix passes; a disc with a 20-second final track is marked `Complete`; a disc rigged to fail completeness deterministically reaches `Failed` after N attempts and starts zero processes on the next run; a forced sox failure names the failing track and its stderr.
-
-### T11 — Standalone harness
-State matrix, reprocess guard, containment, termination reasons, cleanup ownership.
-**Accept:** all cases pass, exit 0; the guard case proves termination, not just detection.
-
-### T12 — Build gate
-**Accept:** 0 errors, 0 warnings; editorconfig violations are build errors.
-
-### T13 — Tool integration
-`sacd_extract -P` parse contract against real output; `sox` split/stats/duration; `saracon` on a short real DFF covering normal exit, completion marker, truncated output.
-**Accept:** each contract asserted against actual output, not assumed.
-
-### T14 — Gate A (Disc 3, case B)
-Disc 3 has DFF + CUE and 0 FLACs. Expect 4 FLACs with CUE durations 1223.000 / 1158.373 / 820.720 / remainder.
-**Accept:**
-- 4 FLACs present; non-final durations within 0.01 s of the CUE-derived values
-- `logs/audio.jsonl` contains one `DffMetadataStripper.Complete` line whose `size` is smaller than the source DFF — **verify from the log, not the filesystem**, because `CleanupSuccesses` deletes `_clean.dff` before the run ends (C-13)
-- `Saracon.Id3Detected` appears exactly once
-- master WAV passed the size guard (no `Saracon.OutputTooSmall`)
-- ISO still present at its original size
-
-### T15 — Gate B (Discs 4–9)
-Full case-A path. Run detached; do not treat elapsed time alone as failure before the 1 h Saracon timeout.
-**HALT rule:** on a `RegistryOleInit` signature (`Can't open registry key` / `Cannot initialize OLE` / `wxIdleWakeUpModule`) the agent session is blocked by design — stop, journal the signature, hand the command to the interactive terminal, resume at validation.
-**Accept:** each disc's FLAC count equals its CUE track count; no leftover WAV/DFF for succeeded discs; all 6 ISOs retained; zero discs reach `Failed`.
-
-### T16 — Gate C (rerun)
-Immediate 20-disc re-run.
-**Accept:** 20/20 logged as skipped at INFO. In `logs/audio.jsonl`: **20 `sacd_extract` probe invocations are expected and correct** — `ProcessIsoAsync:138` probes unconditionally before assessment (C-14). What must be zero is `sacd_extract` **extraction** invocations (args containing `-e`) and `saracon` process starts.
-
-### T17 — Gate D (cancellation)
-Ctrl+C during a Saracon conversion.
-**Accept:** reported as cancellation; no `ProcessRunner.Timeout` entry for that run; no orphaned `saracon.exe` in the process list; exit within seconds; next run resumes rather than restarting from scratch.
-
-### T18 — Doc reconciliation
-Update `src/Services/Audio/AGENTS.md` — it omits `DiscOutputInspector`, `FlacCompletenessChecker`, `LogPaths`, `SacdProbeService`, `SacdProbeRunner`, `RealDffFixture`, and misdescribes the state model. Record DEV-1. Delete every file listed in §0.
-**Accept:** one SACD plan in `docs/`; `AGENTS.md` file list matches disk exactly.
-
-### T19 — Journal and handoff
-Append findings with confidence tags, **including the C-2 correction that historical `stripped/` rows were never stripped.** Do not delete historical rows.
-**Accept:** every `## Findings` entry carries a tag; no UTF-8 claim restated as settled.
-
----
-
-## 9. Experiment E1-A — deferred, ~30 minutes
-
-**One question:** how much level did the probe/master rate mismatch (F-2) cost, and were the 13 already-converted discs gained wrongly?
-
-**E1-B (one-pass optimisation) is cancelled**, not deferred. It requires a 24-bit intermediate; D-1 forbids 24-bit. Boosting a 16-bit file by +5 dB lifts its dither floor from ≈ −96 to ≈ −91 dBFS. Do not revive without revoking D-1.
-
-### Build the dummy file
-
-Truncate the real Disc 3 DFF to ~60 s of DSD — real content, ~1 min per Saracon pass. 60 s stereo DSD64 = 60 × (2,822,400 ÷ 8) × 2 = **42,336,000 bytes**.
-
-1. Copy bytes 0–15 (`FRM8` + size + `DSD `).
-2. Copy `FVER` (16 B total) and `PROP` (100 B total) verbatim.
-3. Write a `DSD ` chunk header with size 42,336,000, then the first 42,336,000 payload bytes.
-4. Stop — omit `DIIN`, `COMT`, and all `ID3 ` chunks.
-5. Rewrite `ckDataSize` at offset 4 = filesize − 12 = **42,336,132**. Assert even.
-
-Expected total size **42,336,144 bytes**. Save as `C:\Temp\e1-dummy.dff`, record SHA-256. This reuses T4's header-rewrite code, which is the point.
-
-### Measure
-
-```
-saracon -c d2p -r 88200 -f wav -n 24bit -d tpdf -g 0.00 -T -V all -t <out> e1-dummy.dff
-saracon -c d2p -r 44100 -f wav -n 16bit -d tpdf -g 0.00 -T -V all -t <out> e1-dummy.dff
-sox <88k.wav> -n stats
-sox <44k.wav> -n stats
-```
-
-`delta = peak88 − peak44`.
-
-| Result | Meaning |
-|---|---|
-| `delta > 0` | Current gain is **conservative** — `delta` dB of level lost on all 13 finished discs. Safe but wasteful. Confirms F-2's reasoned direction. |
-| `delta < 0` | Current gain is **optimistic and can clip.** F-2 becomes urgent, T8 moves onto the critical path, and the 13 finished discs need checking for clipping. |
-| `\|delta\| < 0.05` | Immaterial for this material. T8 becomes hygiene. |
-
-### Report template
-
-````
-=== SACD E1-A REPORT ===
-date:
-saracon version:            (first line of any saracon run)
-sox version:                (sox --version)
-ACP:                        (reg query HKLM\SYSTEM\CurrentControlSet\Control\Nls\CodePage /v ACP)
-
---- dummy file ---
-source dff:                 C:\Users\Lance\Desktop\Music\...\Disc 3.dff
-dummy path:                 C:\Temp\e1-dummy.dff
-dummy size bytes:           (expect 42336144)
-dummy sha256:
-dummy DSD chunk bytes:      (expect 42336000)
-dummy ckDataSize field:     (expect 42336132)
-ckDataSize even:            yes / no
-ID3 chunks in dummy:        (expect 0)
-
---- probe rate mismatch ---
-peak @ 88200/24 0dB:                     dB     (sox Pk lev dB)
-peak @ 44100/16 0dB:                     dB
-delta (peak88 - peak44):                 dB
-gain that WOULD be applied (88.2 probe): (-0.5 - peak88, cap +6)  =        dB
-gain that SHOULD be applied (44.1 probe):(-0.5 - peak44, cap +6)  =        dB
-level left on table (or clipped by):     dB
-
---- timings ---
-88.2/24 pass wall clock:                 s
-44.1/16 pass wall clock:                 s
-
---- anomalies ---
-(saracon warnings, non-zero exits, size-guard trips, unexpected output filenames)
-=== END ===
-````
-
----
-
-## 10. Explicitly out of scope
-
-Design findings A1, A4, A9, A10, A13, A15–A18 (god classes, CLI layering, metadata SRP, harness decomposition) are **maintainability**, not correctness. Attempting them before T16 risks the working 13-disc library for zero functional gain. Revisit after a clean 20/20 run.
-
-A14 (relocate the probe) is closed — rule 10.
-
-Also excluded: any SoX-based DSD→PCM replacement (SoX cannot read DSD); any Saracon replacement; any ffmpeg gain measurement (§3); any retry inside `SaraconService`; any repeat of the Tree A → Tree B migration (already executed); **any 0.0065 s click-trim step** (rule 3); the one-pass gain optimisation (§9); 24-bit output from the SACD pipeline (D-1); new NuGet packages or test frameworks; YouTube/Azure/dashboard work beyond T1.
+Complete when all 173 subtasks carry an observed `PASS`, or a `BLOCKED` with a quoted signature and named owner. `FAIL` on any subtask means its parent task is incomplete regardless of sibling passes. There is no deferred-minor state, and **no criterion may be satisfied by inference from a clean build, shared settings, or source reading alone.**

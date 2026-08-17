@@ -87,9 +87,7 @@ public sealed class DsdConvertService(
 						while (stream.Position < propEnd - 12)
 						{
 							var subId = Encoding.ASCII.GetString(ReadExactly(reader, 4));
-							var subSize = BinaryPrimitives.ReadUInt64BigEndian(
-								reader.ReadBytes(8)
-							);
+							var subSize = BinaryPrimitives.ReadUInt64BigEndian(reader.ReadBytes(8));
 
 							var subDataEnd = checked(stream.Position + (long)subSize);
 							if (subDataEnd > propEnd)
@@ -100,10 +98,8 @@ public sealed class DsdConvertService(
 
 							if (subId == "FS  ")
 							{
-								sampleRate =
-									(int)BinaryPrimitives.ReadUInt32BigEndian(
-										reader.ReadBytes(4)
-									);
+								sampleRate = (int)
+									BinaryPrimitives.ReadUInt32BigEndian(reader.ReadBytes(4));
 								if (subSize > 4)
 									stream.Seek((long)subSize - 4, SeekOrigin.Current);
 							}
@@ -158,7 +154,11 @@ public sealed class DsdConvertService(
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
-			Telemetry.Error("DsdConvert.ProbeFailed file={File}: {Error}", LogPaths.Format(dffFilePath), ex.Message);
+			Telemetry.Error(
+				"DsdConvert.ProbeFailed file={File}: {Error}",
+				LogPaths.Format(dffFilePath),
+				ex.Message
+			);
 			return Errors.Audio.ProbeFailed(dffFilePath, ex.Message);
 		}
 	}
@@ -171,9 +171,7 @@ public sealed class DsdConvertService(
 		{
 			var read = reader.Read(buffer, totalRead, count - totalRead);
 			if (read == 0)
-				throw new EndOfStreamException(
-					$"Expected {count} bytes, got {totalRead}"
-				);
+				throw new EndOfStreamException($"Expected {count} bytes, got {totalRead}");
 			totalRead += read;
 		}
 
@@ -194,7 +192,11 @@ public sealed class DsdConvertService(
 			settings.BitDepth
 		);
 
-		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"gain_probe_{Guid.NewGuid():N}");
+		var tempDir = Path.Combine(
+			Path.GetTempPath(),
+			"toolbox-audio",
+			$"gain_probe_{Guid.NewGuid():N}"
+		);
 
 		try
 		{
@@ -239,7 +241,11 @@ public sealed class DsdConvertService(
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
+				Telemetry.Warn(
+					"DsdConvert.TempCleanupFailed dir={Dir} error={Error}",
+					LogPaths.Format(tempDir),
+					ex.Message
+				);
 			}
 		}
 	}
@@ -303,13 +309,17 @@ public sealed class DsdConvertService(
 
 			if (outputFiles.Count < cue.Tracks.Count)
 			{
-				List<int> missing = [.. cue.Tracks
-					.Where(t => !outputFiles.Any(f =>
-						Path.GetFileName(f).StartsWith(
-							$"{t.TrackNumber:D2}. ",
-							StringComparison.Ordinal
-						)))
-					.Select(t => t.TrackNumber)];
+				List<int> missing =
+				[
+					.. cue
+						.Tracks.Where(t =>
+							!outputFiles.Any(f =>
+								Path.GetFileName(f)
+									.StartsWith($"{t.TrackNumber:D2}. ", StringComparison.Ordinal)
+							)
+						)
+						.Select(t => t.TrackNumber),
+				];
 				return Errors.Audio.ConversionFailed(
 					dffFile,
 					$"Incomplete conversion: missing tracks {string.Join(", ", missing)}"
@@ -329,7 +339,11 @@ public sealed class DsdConvertService(
 				}
 				catch (Exception ex)
 				{
-					Telemetry.Warn("DsdConvert.MasterCleanupFailed file={File} error={Error}", LogPaths.Format(masterPcm), ex.Message);
+					Telemetry.Warn(
+						"DsdConvert.MasterCleanupFailed file={File} error={Error}",
+						LogPaths.Format(masterPcm),
+						ex.Message
+					);
 				}
 			}
 		}
@@ -343,7 +357,11 @@ public sealed class DsdConvertService(
 		CancellationToken ct = default
 	)
 	{
-		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"saracon_{Guid.NewGuid():N}");
+		var tempDir = Path.Combine(
+			Path.GetTempPath(),
+			"toolbox-audio",
+			$"saracon_{Guid.NewGuid():N}"
+		);
 
 		try
 		{
@@ -386,7 +404,11 @@ public sealed class DsdConvertService(
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
+				Telemetry.Warn(
+					"DsdConvert.TempCleanupFailed dir={Dir} error={Error}",
+					LogPaths.Format(tempDir),
+					ex.Message
+				);
 			}
 		}
 	}

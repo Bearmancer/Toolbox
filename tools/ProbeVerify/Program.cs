@@ -32,9 +32,16 @@ internal static class Program
 		{
 			DsdConvertService svc = CreateService();
 			ErrorOr<DsdProbeResult> result = await svc.ProbeDsdAsync(path);
-			Assert("ValidDff", result.IsSuccess, $"Expected success, got error: {result.Errors[0].Description}");
+			Assert(
+				"ValidDff",
+				result.IsSuccess,
+				$"Expected success, got error: {result.Errors[0].Description}"
+			);
 		}
-		finally { File.Delete(path); }
+		finally
+		{
+			File.Delete(path);
+		}
 	}
 
 	private static async Task TestOversizedChunk()
@@ -44,14 +51,21 @@ internal static class Program
 		{
 			DsdConvertService svc = CreateService();
 			ErrorOr<DsdProbeResult> result = await svc.ProbeDsdAsync(path);
-			Assert("OversizedChunk_ReturnsError", result.IsError, "Expected ErrorOr error for oversized chunk");
+			Assert(
+				"OversizedChunk_ReturnsError",
+				result.IsError,
+				"Expected ErrorOr error for oversized chunk"
+			);
 			Assert("OversizedChunk_NoThrow", true, "Did not throw (caught by ErrorOr)");
 		}
 		catch (Exception ex)
 		{
 			Assert("OversizedChunk_NoThrow", false, $"Threw: {ex.GetType().Name}: {ex.Message}");
 		}
-		finally { File.Delete(path); }
+		finally
+		{
+			File.Delete(path);
+		}
 	}
 
 	private static async Task TestOversizedPropSubchunk()
@@ -61,13 +75,24 @@ internal static class Program
 		{
 			DsdConvertService svc = CreateService();
 			ErrorOr<DsdProbeResult> result = await svc.ProbeDsdAsync(path);
-			Assert("OversizedPropSubchunk_ReturnsError", result.IsError, "Expected ErrorOr error for oversized PROP subchunk");
+			Assert(
+				"OversizedPropSubchunk_ReturnsError",
+				result.IsError,
+				"Expected ErrorOr error for oversized PROP subchunk"
+			);
 		}
 		catch (Exception ex)
 		{
-			Assert("OversizedPropSubchunk_NoThrow", false, $"Threw: {ex.GetType().Name}: {ex.Message}");
+			Assert(
+				"OversizedPropSubchunk_NoThrow",
+				false,
+				$"Threw: {ex.GetType().Name}: {ex.Message}"
+			);
 		}
-		finally { File.Delete(path); }
+		finally
+		{
+			File.Delete(path);
+		}
 	}
 
 	private static async Task TestCorruptMagic()
@@ -77,13 +102,20 @@ internal static class Program
 		{
 			DsdConvertService svc = CreateService();
 			ErrorOr<DsdProbeResult> result = await svc.ProbeDsdAsync(path);
-			Assert("CorruptMagic_ReturnsError", result.IsError, "Expected ErrorOr error for corrupt magic");
+			Assert(
+				"CorruptMagic_ReturnsError",
+				result.IsError,
+				"Expected ErrorOr error for corrupt magic"
+			);
 		}
 		catch (Exception ex)
 		{
 			Assert("CorruptMagic_NoThrow", false, $"Threw: {ex.GetType().Name}: {ex.Message}");
 		}
-		finally { File.Delete(path); }
+		finally
+		{
+			File.Delete(path);
+		}
 	}
 
 	private static async Task TestTruncatedHeader()
@@ -93,13 +125,20 @@ internal static class Program
 		{
 			DsdConvertService svc = CreateService();
 			ErrorOr<DsdProbeResult> result = await svc.ProbeDsdAsync(path);
-			Assert("TruncatedHeader_ReturnsError", result.IsError, "Expected ErrorOr error for truncated file");
+			Assert(
+				"TruncatedHeader_ReturnsError",
+				result.IsError,
+				"Expected ErrorOr error for truncated file"
+			);
 		}
 		catch (Exception ex)
 		{
 			Assert("TruncatedHeader_NoThrow", false, $"Threw: {ex.GetType().Name}: {ex.Message}");
 		}
-		finally { File.Delete(path); }
+		finally
+		{
+			File.Delete(path);
+		}
 	}
 
 	private static async Task TestPropMissingPropertyType()
@@ -109,13 +148,20 @@ internal static class Program
 		{
 			DsdConvertService svc = CreateService();
 			ErrorOr<DsdProbeResult> result = await svc.ProbeDsdAsync(path);
-			Assert("TinyProp_ReturnsError", result.IsError, "Expected ErrorOr error for PROP with < 4 bytes");
+			Assert(
+				"TinyProp_ReturnsError",
+				result.IsError,
+				"Expected ErrorOr error for PROP with < 4 bytes"
+			);
 		}
 		catch (Exception ex)
 		{
 			Assert("TinyProp_NoThrow", false, $"Threw: {ex.GetType().Name}: {ex.Message}");
 		}
-		finally { File.Delete(path); }
+		finally
+		{
+			File.Delete(path);
+		}
 	}
 
 	private static async Task TestNonSndPropSkipsCorrectly()
@@ -125,13 +171,20 @@ internal static class Program
 		{
 			DsdConvertService svc = CreateService();
 			ErrorOr<DsdProbeResult> result = await svc.ProbeDsdAsync(path);
-			Assert("NonSndProp_IgnoresNonSnd", result.IsSuccess, "PROP with non-SND type should be skipped");
+			Assert(
+				"NonSndProp_IgnoresNonSnd",
+				result.IsSuccess,
+				"PROP with non-SND type should be skipped"
+			);
 		}
 		catch (Exception ex)
 		{
 			Assert("NonSndProp_NoThrow", false, $"Threw: {ex.GetType().Name}: {ex.Message}");
 		}
-		finally { File.Delete(path); }
+		finally
+		{
+			File.Delete(path);
+		}
 	}
 
 	private static DsdConvertService CreateService() =>

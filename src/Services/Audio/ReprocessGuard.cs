@@ -25,21 +25,27 @@ public sealed class ReprocessGuard
 		try
 		{
 			await using FileStream stream = File.OpenRead(StatePath);
-			Dictionary<string, GuardEntry>? entries =
-				await JsonSerializer.DeserializeAsync<Dictionary<string, GuardEntry>>(
-					stream,
-					JsonOptions
-				);
+			Dictionary<string, GuardEntry>? entries = await JsonSerializer.DeserializeAsync<
+				Dictionary<string, GuardEntry>
+			>(stream, JsonOptions);
 			return new ReprocessGuard(entries ?? []);
 		}
 		catch (JsonException ex)
 		{
-			Telemetry.Warn("Corrupt SACD guard at {Path}, resetting: {Error}", StatePath, ex.Message);
+			Telemetry.Warn(
+				"Corrupt SACD guard at {Path}, resetting: {Error}",
+				StatePath,
+				ex.Message
+			);
 			return new ReprocessGuard([]);
 		}
 		catch (IOException ex)
 		{
-			Telemetry.Error("Failed to load SACD guard from {Path}: {Error}", StatePath, ex.Message);
+			Telemetry.Error(
+				"Failed to load SACD guard from {Path}: {Error}",
+				StatePath,
+				ex.Message
+			);
 			throw;
 		}
 		catch (UnauthorizedAccessException ex)
@@ -61,8 +67,10 @@ public sealed class ReprocessGuard
 	{
 		isoPath = Path.GetFullPath(isoPath);
 
-		if (Entries.TryGetValue(isoPath, out GuardEntry? existing)
-			&& existing.Verdict == DiscState.Failed)
+		if (
+			Entries.TryGetValue(isoPath, out GuardEntry? existing)
+			&& existing.Verdict == DiscState.Failed
+		)
 			return;
 
 		if (verdict == DiscState.Complete)
@@ -70,7 +78,8 @@ public sealed class ReprocessGuard
 		else
 		{
 			var count = existing?.Verdict == verdict ? existing.ConsecutiveCount + 1 : 1;
-			Entries[isoPath] = count >= MaxConsecutiveCount
+			Entries[isoPath] =
+				count >= MaxConsecutiveCount
 					? new GuardEntry(DiscState.Failed, count, DateTimeOffset.UtcNow)
 					: new GuardEntry(verdict, count, DateTimeOffset.UtcNow);
 		}

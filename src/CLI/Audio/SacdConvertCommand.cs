@@ -59,10 +59,10 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		}
 
 		PipelineResult pipelineResult = result.Value;
-			await Console.Out.WriteLineAsync(
-				$"SACD processing completed: {pipelineResult.SucceededCount} succeeded, {pipelineResult.FailedCount} failed",
-				cancellationToken
-			);
+		await Console.Out.WriteLineAsync(
+			$"SACD processing completed: {pipelineResult.SucceededCount} succeeded, {pipelineResult.FailedCount} failed",
+			cancellationToken
+		);
 
 		if (pipelineResult.GuardFailedDiscs.Count > 0)
 		{

@@ -27,8 +27,6 @@ public static class GoogleSetup
 		GoogleCredentials credentials
 	)
 	{
-		var tokenStorePath = PathResolver.GetStatePath("google-auth");
-		FileDataStore dataStore = new(tokenStorePath, fullPath: true);
 		using CancellationTokenSource authCts = new(TimeSpan.FromMinutes(5));
 
 		UserCredential credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
@@ -39,8 +37,7 @@ public static class GoogleSetup
 			},
 			[YouTubeService.Scope.Youtube],
 			"user",
-			authCts.Token,
-			dataStore
+			authCts.Token
 		);
 
 		return new YouTubeService(

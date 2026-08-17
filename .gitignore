@@ -11,9 +11,6 @@ artifacts
 # dotenv files
 .env
 
-# Google OAuth tokens (sensitive credentials)
-state/google-auth/
-
 # Application settings (may contain secrets)
 appsettings.json
 appsettings.*.json
@@ -139,7 +136,7 @@ ipch/
 *.sap
 
 # Visual Studio Trace Files
-*.e2e
+
 # but not directories ending in .e2e
 !*.e2e/
 
@@ -489,5 +486,3 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-.worktrees/
-.omo/evidence/

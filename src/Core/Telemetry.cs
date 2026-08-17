@@ -22,7 +22,9 @@ public static class Telemetry
 			.Enrich.FromLogContext()
 			.WriteTo.Logger(lc =>
 				lc.MinimumLevel.ControlledBy(LevelSwitch)
-					.WriteTo.Spectre("{Timestamp:HH:mm:ss} [{Level:u4}] {Message:lj}{NewLine}{Exception}")
+					.WriteTo.Spectre(
+						"{Timestamp:HH:mm:ss} [{Level:u4}] {Message:lj}{NewLine}{Exception}"
+					)
 			);
 
 		var logDir = Path.Combine(PathResolver.RepoRoot, "state", "logs");

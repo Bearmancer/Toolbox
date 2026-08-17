@@ -42,12 +42,7 @@ public sealed class FlacCompletenessChecker(SoxService sox)
 					LogPaths.Format(flacPath),
 					durationResult.Errors[0].Description
 				);
-				return new DurationCheckResult(
-					false,
-					trackNumberCount,
-					primaryFlacCount,
-					dffDir
-				);
+				return new DurationCheckResult(false, trackNumberCount, primaryFlacCount, dffDir);
 			}
 
 			if (track.Duration is { } expectedDur)
@@ -62,39 +57,34 @@ public sealed class FlacCompletenessChecker(SoxService sox)
 						expectedDur.TotalSeconds,
 						durationResult.Value.TotalSeconds
 					);
-				return new DurationCheckResult(
-					false,
-					trackNumberCount,
-					primaryFlacCount,
-					dffDir
-				);
+					return new DurationCheckResult(
+						false,
+						trackNumberCount,
+						primaryFlacCount,
+						dffDir
+					);
+				}
 			}
-		}
-		else if (track == cueTracks[^1])
-		{
-			if (durationResult.Value.TotalSeconds < 30.0)
+			else if (track == cueTracks[^1])
 			{
-				Telemetry.Info(
-					"Pipeline.LastTrackTooShort dir={Dir} duration={Duration:F1}s",
-					LogPaths.Format(dffDir),
-					durationResult.Value.TotalSeconds
-				);
-				return new DurationCheckResult(
-					false,
-					trackNumberCount,
-					primaryFlacCount,
-					dffDir
-				);
+				if (durationResult.Value.TotalSeconds < 30.0)
+				{
+					Telemetry.Info(
+						"Pipeline.LastTrackTooShort dir={Dir} duration={Duration:F1}s",
+						LogPaths.Format(dffDir),
+						durationResult.Value.TotalSeconds
+					);
+					return new DurationCheckResult(
+						false,
+						trackNumberCount,
+						primaryFlacCount,
+						dffDir
+					);
+				}
 			}
 		}
-	}
 
-	return new DurationCheckResult(
-		true,
-		trackNumberCount,
-		primaryFlacCount,
-		dffDir
-	);
+		return new DurationCheckResult(true, trackNumberCount, primaryFlacCount, dffDir);
 	}
 
 	internal static Dictionary<int, string> GetFlacsByTrackNumber(string dir)
