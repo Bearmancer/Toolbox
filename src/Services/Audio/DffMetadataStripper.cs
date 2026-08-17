@@ -8,14 +8,10 @@ using ErrorOr;
 
 public static class DffMetadataStripper
 {
-	private const int HeaderSize = 12,
-		DffHeaderSize = 16;
-	private const string FormId = "FRM8",
-		FormType = "DSD ",
-		Id3ChunkId = "ID3 ",
-		PropChunkId = "PROP";
+	private const int HeaderSize = 12, DffHeaderSize = 16;
+	private const string FormId = "FRM8", FormType = "DSD ", Id3ChunkId = "ID3 ", PropChunkId = "PROP";
 
-	public static bool HasId3Chunk(string dffPath)
+	public static ErrorOr<bool> HasId3Chunk(string dffPath)
 	{
 		if (!File.Exists(dffPath))
 			return false;
@@ -25,6 +21,10 @@ public static class DffMetadataStripper
 			using FileStream input = File.OpenRead(dffPath);
 			return ScanAsync(input, CancellationToken.None).GetAwaiter().GetResult();
 		}
+		catch (OperationCanceledException)
+		{
+			throw;
+		}
 		catch (Exception ex)
 		{
 			Telemetry.Error(
@@ -32,7 +32,7 @@ public static class DffMetadataStripper
 				LogPaths.Format(dffPath),
 				ex.Message
 			);
-			throw;
+			return Errors.Audio.StripFailed(dffPath, ex.Message);
 		}
 	}
 
@@ -52,8 +52,10 @@ public static class DffMetadataStripper
 		try
 		{
 			await using FileStream input = File.OpenRead(dffPath);
-			var hasId3 = await ScanAsync(input, ct);
-			if (!hasId3)
+			ErrorOr<bool> scanResult = await ScanAsync(input, ct);
+			if (scanResult.IsError)
+				return scanResult.Errors;
+			if (!scanResult.Value)
 				return dffPath;
 
 			Directory.CreateDirectory(outputDir);
@@ -71,7 +73,9 @@ public static class DffMetadataStripper
 			var dffHeader = await ReadExactlyAsync(input, DffHeaderSize, ct);
 			await output.WriteAsync(dffHeader, ct);
 			input.Position = DffHeaderSize;
-			await CopyChunksAsync(input, output, input.Length, ct);
+			ErrorOr<Success> copyResult = await CopyChunksAsync(input, output, input.Length, ct);
+			if (copyResult.IsError)
+				return copyResult.Errors;
 
 			var outputDataSize = output.Length - HeaderSize;
 			if ((outputDataSize & 1) != 0)
@@ -88,9 +92,7 @@ public static class DffMetadataStripper
 				await ReadExactlyAsync(output, 8, ct)
 			);
 			if (writtenSize != (ulong)outputDataSize)
-				throw new InvalidDataException(
-					"Filtered DFF FRM8 size does not match output length"
-				);
+				throw new InvalidDataException("Filtered DFF FRM8 size does not match output length");
 
 			Telemetry.Debug(
 				"DffMetadataStripper.Completed input={Input} clean={Clean} inputBytes={InputBytes} outputBytes={OutputBytes}",
@@ -131,22 +133,28 @@ public static class DffMetadataStripper
 		}
 	}
 
-	private static async Task<bool> ScanAsync(Stream input, CancellationToken ct)
+	private static async Task<ErrorOr<bool>> ScanAsync(Stream input, CancellationToken ct)
 	{
 		if (input.Length < DffHeaderSize)
-			throw new InvalidDataException("File too small to be valid DSDIFF");
+			return Errors.Audio.StripFailed("input", "File too small to be valid DSDIFF");
 
 		var header = await ReadExactlyAsync(input, DffHeaderSize, ct);
-		ValidateDffHeader(header, input.Length);
+		ErrorOr<Success> headerResult = ValidateDffHeader(header, input.Length);
+		if (headerResult.IsError)
+			return headerResult.Errors;
 		return await ScanChunksAsync(input, input.Length, ct);
 	}
 
-	private static async Task<bool> ScanChunksAsync(Stream input, long end, CancellationToken ct)
+	private static async Task<ErrorOr<bool>> ScanChunksAsync(Stream input, long end, CancellationToken ct)
 	{
 		var found = false;
 		while (input.Position < end)
 		{
-			Chunk chunk = await ReadChunkAsync(input, end, ct);
+			ErrorOr<Chunk> chunkResult = await ReadChunkAsync(input, end, ct);
+			if (chunkResult.IsError)
+				return chunkResult.Errors;
+			Chunk chunk = chunkResult.Value;
+
 			if (chunk.Id == Id3ChunkId)
 			{
 				found = true;
@@ -157,32 +165,34 @@ public static class DffMetadataStripper
 			if (chunk.Id == PropChunkId)
 			{
 				if (chunk.Size < 4)
-					throw new InvalidDataException("PROP chunk is missing property type");
+					return Errors.Audio.StripFailed("input", "PROP chunk is missing property type");
 
 				input.Position += 4;
-				found |= await ScanChunksAsync(input, chunk.DataEnd, ct);
+				ErrorOr<bool> innerResult = await ScanChunksAsync(input, chunk.DataEnd, ct);
+				if (innerResult.IsError)
+					return innerResult.Errors;
+				found |= innerResult.Value;
 			}
 
 			input.Position = chunk.End;
 		}
 
 		if (input.Position != end)
-			throw new InvalidDataException("DSDIFF chunk walk did not end on a chunk boundary");
+			return Errors.Audio.StripFailed("input", "DSDIFF chunk walk did not end on a chunk boundary");
 
 		return found;
 	}
 
-	private static async Task CopyChunksAsync(
-		Stream input,
-		Stream output,
-		long end,
-		CancellationToken ct
-	)
+	private static async Task<ErrorOr<Success>> CopyChunksAsync(Stream input, Stream output, long end, CancellationToken ct)
 	{
 		while (input.Position < end)
 		{
 			var headerPosition = input.Position;
-			Chunk chunk = await ReadChunkAsync(input, end, ct);
+			ErrorOr<Chunk> chunkResult = await ReadChunkAsync(input, end, ct);
+			if (chunkResult.IsError)
+				return chunkResult.Errors;
+			Chunk chunk = chunkResult.Value;
+
 			if (chunk.Id == Id3ChunkId)
 			{
 				Telemetry.Debug(
@@ -202,16 +212,18 @@ public static class DffMetadataStripper
 			}
 
 			if (chunk.Size < 4)
-				throw new InvalidDataException("PROP chunk is missing property type");
+				return Errors.Audio.StripFailed("input", "PROP chunk is missing property type");
 
 			var outputHeaderPosition = output.Position;
 			await WriteChunkHeaderAsync(output, chunk.Id, chunk.Size, ct);
 			input.Position = chunk.DataStart;
 			await CopyBytesAsync(input, output, 4, ct);
-			await CopyChunksAsync(input, output, chunk.DataEnd, ct);
+			ErrorOr<Success> innerResult = await CopyChunksAsync(input, output, chunk.DataEnd, ct);
+			if (innerResult.IsError)
+				return innerResult.Errors;
 			var outputSize = output.Position - outputHeaderPosition - HeaderSize;
 			if ((outputSize & 1) != 0)
-				throw new InvalidDataException("Filtered PROP chunk length is not even");
+				return Errors.Audio.StripFailed("input", "Filtered PROP chunk length is not even");
 
 			var endPosition = output.Position;
 			output.Position = outputHeaderPosition + 4;
@@ -223,13 +235,15 @@ public static class DffMetadataStripper
 		}
 
 		if (input.Position != end)
-			throw new InvalidDataException("DSDIFF chunk copy did not end on a chunk boundary");
+			return Errors.Audio.StripFailed("input", "DSDIFF chunk copy did not end on a chunk boundary");
+
+		return Result.Success;
 	}
 
-	private static async Task<Chunk> ReadChunkAsync(Stream input, long end, CancellationToken ct)
+	private static async Task<ErrorOr<Chunk>> ReadChunkAsync(Stream input, long end, CancellationToken ct)
 	{
 		if (end - input.Position < HeaderSize)
-			throw new InvalidDataException("DSDIFF chunk header is truncated");
+			return Errors.Audio.StripFailed("input", "DSDIFF chunk header is truncated");
 
 		var header = await ReadExactlyAsync(input, HeaderSize, ct);
 		var id = Encoding.ASCII.GetString(header, 0, 4);
@@ -237,28 +251,33 @@ public static class DffMetadataStripper
 		var dataEnd = checked(input.Position + (long)size);
 		var endPosition = checked(dataEnd + (long)(size & 1));
 		if (endPosition > end)
-			throw new InvalidDataException($"DSDIFF chunk {id} exceeds its parent boundary");
+			return Errors.Audio.StripFailed("input", $"DSDIFF chunk {id} exceeds its parent boundary");
 
 		return new Chunk(id, size, input.Position, dataEnd, endPosition);
 	}
 
-	private static void ValidateDffHeader(byte[] header, long length)
+	private static ErrorOr<Success> ValidateDffHeader(byte[] header, long length)
 	{
 		if (Encoding.ASCII.GetString(header, 0, 4) != FormId)
-			throw new InvalidDataException("DSDIFF file does not start with FRM8");
+			return Errors.Audio.StripFailed("input", "DSDIFF file does not start with FRM8");
 		if (Encoding.ASCII.GetString(header, 12, 4) != FormType)
-			throw new InvalidDataException("DSDIFF FRM8 form type is not DSD");
+			return Errors.Audio.StripFailed("input", "DSDIFF FRM8 form type is not DSD");
 
 		var declaredSize = BinaryPrimitives.ReadUInt64BigEndian(header.AsSpan(4, 8));
-		if (declaredSize != (ulong)(length - HeaderSize))
-			throw new InvalidDataException("DSDIFF FRM8 size does not match source length");
+		var actualSize = (ulong)(length - HeaderSize);
+		if (declaredSize != actualSize)
+		{
+			Telemetry.Warn(
+				"DffMetadataStripper.InputSizeMismatch declared={Declared} actual={Actual} — will scan physical chunk bounds",
+				declaredSize,
+				actualSize
+			);
+		}
+
+		return Result.Success;
 	}
 
-	private static async Task<byte[]> ReadExactlyAsync(
-		Stream input,
-		int count,
-		CancellationToken ct
-	)
+	private static async Task<byte[]> ReadExactlyAsync(Stream input, int count, CancellationToken ct)
 	{
 		var buffer = new byte[count];
 		var offset = 0;
@@ -273,12 +292,7 @@ public static class DffMetadataStripper
 		return buffer;
 	}
 
-	private static async Task CopyBytesAsync(
-		Stream input,
-		Stream output,
-		long count,
-		CancellationToken ct
-	)
+	private static async Task CopyBytesAsync(Stream input, Stream output, long count, CancellationToken ct)
 	{
 		var buffer = new byte[81920];
 		var remaining = count;
@@ -287,20 +301,13 @@ public static class DffMetadataStripper
 			var requested = (int)Math.Min(buffer.Length, remaining);
 			var read = await input.ReadAsync(buffer.AsMemory(0, requested), ct);
 			if (read == 0)
-				throw new EndOfStreamException(
-					$"Expected {count} bytes while copying, got {count - remaining}"
-				);
+				throw new EndOfStreamException($"Expected {count} bytes while copying, got {count - remaining}");
 			await output.WriteAsync(buffer.AsMemory(0, read), ct);
 			remaining -= read;
 		}
 	}
 
-	private static async Task WriteChunkHeaderAsync(
-		Stream output,
-		string id,
-		ulong size,
-		CancellationToken ct
-	)
+	private static async Task WriteChunkHeaderAsync(Stream output, string id, ulong size, CancellationToken ct)
 	{
 		var header = new byte[HeaderSize];
 		Encoding.ASCII.GetBytes(id, header.AsSpan(0, 4));

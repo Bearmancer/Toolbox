@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using Core;
 using Services.Audio;
 using Spectre.Console.Cli;
 
@@ -12,10 +13,10 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 	public sealed class Settings : CommandSettings
 	{
 		[Description("Input SACD ISO file or directory containing .iso files")]
-		[CommandArgument(0, "<input>")]
-		public required string Input { get; init; }
+		[CommandArgument(0, "[input]")]
+		public string Input { get; init; } = string.Empty;
 
-		[Description("Output format: 16 (default), 24, both")]
+		[Description("Output format: 16 (only supported value)")]
 		[CommandOption("-f|--format")]
 		public AudioOutputFormat Format { get; init; } = AudioOutputFormat.Bit16;
 
@@ -23,9 +24,13 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		[CommandOption("-m|--multichannel")]
 		public bool? Multichannel { get; init; }
 
-		[Description("Keep source ISO files (deleted by default)")]
+		[Description("Keep source ISO files (ISO deleted after conversion by default)")]
 		[CommandOption("--keep-iso")]
 		public bool KeepIso { get; init; }
+
+		[Description("Clear all guard entries and exit")]
+		[CommandOption("--reset-guard")]
+		public bool ResetGuard { get; init; }
 	}
 
 	protected override async Task<int> ExecuteAsync(
@@ -34,6 +39,23 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		CancellationToken cancellationToken
 	)
 	{
+		if (settings.ResetGuard)
+		{
+			ReprocessGuard guard = await ReprocessGuard.LoadAsync();
+			await guard.ResetAllAsync(cancellationToken);
+			await Console.Out.WriteLineAsync("Guard entries cleared.", cancellationToken);
+			return 0;
+		}
+
+		if (string.IsNullOrWhiteSpace(settings.Input))
+		{
+			await Console.Error.WriteLineAsync(
+				"Input path is required (or use --reset-guard).",
+				cancellationToken
+			);
+			return 1;
+		}
+
 		if (settings.Format != AudioOutputFormat.Bit16)
 		{
 			await Console.Error.WriteLineAsync(

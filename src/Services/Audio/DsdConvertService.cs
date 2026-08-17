@@ -20,7 +20,10 @@ public sealed class DsdConvertService(
 		CancellationToken ct = default
 	)
 	{
-		if (!DffMetadataStripper.HasId3Chunk(dffFilePath))
+		ErrorOr<bool> hasId3Result = DffMetadataStripper.HasId3Chunk(dffFilePath);
+		if (hasId3Result.IsError)
+			return hasId3Result.Errors;
+		if (!hasId3Result.Value)
 			return dffFilePath;
 
 		Telemetry.Warn(
@@ -47,91 +50,89 @@ public sealed class DsdConvertService(
 			await using FileStream stream = File.OpenRead(dffFilePath);
 			using BinaryReader reader = new(stream);
 
-			var magic = Encoding.ASCII.GetString(ReadExactly(reader, 4));
+			var magic = Encoding.ASCII.GetString(ReadExactBytes(reader, 4));
 			if (magic != "FRM8")
 				return Errors.Audio.ProbeFailed(dffFilePath, $"Not a DSDIFF file (magic: {magic})");
 
-			reader.ReadBytes(8);
-			var formType = Encoding.ASCII.GetString(ReadExactly(reader, 4));
+			var formSize = BinaryPrimitives.ReadUInt64BigEndian(ReadExactBytes(reader, 8));
+			if (formSize < 4)
+				throw new InvalidDataException("DSDIFF FORM is too small");
+			var formEnd = checked(12 + checked((long)formSize));
+			if (formEnd > stream.Length)
+				throw new InvalidDataException("DSDIFF FORM exceeds stream bounds");
+			var formType = Encoding.ASCII.GetString(ReadExactBytes(reader, 4));
 			if (formType != "DSD ")
 				return Errors.Audio.ProbeFailed(dffFilePath, $"Unexpected form type: {formType}");
 
 			var sampleRate = 0;
 			var channels = 0;
 
-			while (stream.Position < stream.Length - 12)
+			while (stream.Position < formEnd)
 			{
-				var chunkId = Encoding.ASCII.GetString(ReadExactly(reader, 4));
-				var chunkSize = BinaryPrimitives.ReadUInt64BigEndian(reader.ReadBytes(8));
+				if (formEnd - stream.Position < 12)
+					throw new InvalidDataException("Truncated DSDIFF chunk header");
 
-				var chunkDataEnd = checked(stream.Position + (long)chunkSize);
-				if (chunkDataEnd > stream.Length)
-					return Errors.Audio.ProbeFailed(
-						dffFilePath,
-						$"Chunk {chunkId} size {chunkSize} exceeds stream length"
-					);
+				var chunkId = Encoding.ASCII.GetString(ReadExactBytes(reader, 4));
+				var chunkSize = BinaryPrimitives.ReadUInt64BigEndian(ReadExactBytes(reader, 8));
+				var chunkEnd = checked(stream.Position + checked((long)chunkSize));
+				if (chunkEnd > formEnd || chunkEnd > stream.Length)
+					throw new InvalidDataException("DSDIFF chunk exceeds bounds");
 
 				if (chunkId == "PROP")
 				{
 					if (chunkSize < 4)
-						return Errors.Audio.ProbeFailed(
-							dffFilePath,
-							"PROP chunk is missing property type"
-						);
+						throw new InvalidDataException("PROP chunk is too small");
 
-					var propType = Encoding.ASCII.GetString(ReadExactly(reader, 4));
-					var propEnd = stream.Position + (long)chunkSize - 4;
-
+					var propEnd = chunkEnd;
+					var propType = Encoding.ASCII.GetString(ReadExactBytes(reader, 4));
 					if (propType == "SND ")
 					{
-						while (stream.Position < propEnd - 12)
+						while (stream.Position < propEnd)
 						{
-							var subId = Encoding.ASCII.GetString(ReadExactly(reader, 4));
-							var subSize = BinaryPrimitives.ReadUInt64BigEndian(reader.ReadBytes(8));
+							if (propEnd - stream.Position < 12)
+								throw new InvalidDataException("Truncated PROP subchunk header");
 
-							var subDataEnd = checked(stream.Position + (long)subSize);
-							if (subDataEnd > propEnd)
-								return Errors.Audio.ProbeFailed(
-									dffFilePath,
-									$"Subchunk {subId} size {subSize} exceeds PROP boundary"
-								);
+							var subId = Encoding.ASCII.GetString(ReadExactBytes(reader, 4));
+							var subSize = BinaryPrimitives.ReadUInt64BigEndian(ReadExactBytes(reader, 8));
+							var subEnd = checked(stream.Position + checked((long)subSize));
+							if (subEnd > propEnd)
+								throw new InvalidDataException("PROP subchunk exceeds PROP chunk");
 
 							if (subId == "FS  ")
 							{
-								sampleRate = (int)
-									BinaryPrimitives.ReadUInt32BigEndian(reader.ReadBytes(4));
-								if (subSize > 4)
-									stream.Seek((long)subSize - 4, SeekOrigin.Current);
+								if (subSize < 4)
+									throw new InvalidDataException("FS subchunk is too small");
+
+								sampleRate = checked((int)BinaryPrimitives.ReadUInt32BigEndian(ReadExactBytes(reader, 4)));
 							}
 							else if (subId == "CHNL")
 							{
-								channels = BinaryPrimitives.ReadUInt16BigEndian(
-									reader.ReadBytes(2)
-								);
-								if (subSize > 2)
-									stream.Seek((long)subSize - 2, SeekOrigin.Current);
-							}
-							else
-							{
-								stream.Seek((long)subSize, SeekOrigin.Current);
+								if (subSize < 2)
+									throw new InvalidDataException("CHNL subchunk is too small");
+
+								channels = BinaryPrimitives.ReadUInt16BigEndian(ReadExactBytes(reader, 2));
 							}
 
-							if (subSize % 2 != 0 && stream.Position < stream.Length)
-								reader.ReadByte();
+							SeekChecked(stream, subEnd);
+							if (subSize % 2 != 0)
+							{
+								var paddedSubEnd = checked(subEnd + 1);
+								if (paddedSubEnd > propEnd)
+									throw new InvalidDataException("PROP subchunk padding exceeds PROP chunk");
+								SeekChecked(stream, paddedSubEnd);
+							}
 						}
 					}
-					else
-					{
-						stream.Seek((long)chunkSize - 4, SeekOrigin.Current);
-					}
-				}
-				else
-				{
-					stream.Seek((long)chunkSize, SeekOrigin.Current);
 				}
 
-				if (chunkSize % 2 != 0 && stream.Position < stream.Length)
-					reader.ReadByte();
+				SeekChecked(stream, chunkEnd);
+				if (chunkSize % 2 != 0)
+				{
+					var paddedChunkEnd = checked(chunkEnd + 1);
+					if (paddedChunkEnd > formEnd || paddedChunkEnd > stream.Length)
+						throw new InvalidDataException("DSDIFF chunk padding exceeds bounds");
+					SeekChecked(stream, paddedChunkEnd);
+				}
 
 				if (sampleRate > 0 && channels > 0)
 					break;
@@ -154,28 +155,24 @@ public sealed class DsdConvertService(
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
-			Telemetry.Error(
-				"DsdConvert.ProbeFailed file={File}: {Error}",
-				LogPaths.Format(dffFilePath),
-				ex.Message
-			);
+			Telemetry.Error("DsdConvert.ProbeFailed file={File}: {Error}", LogPaths.Format(dffFilePath), ex.Message);
 			return Errors.Audio.ProbeFailed(dffFilePath, ex.Message);
 		}
 	}
 
-	private static byte[] ReadExactly(BinaryReader reader, int count)
+	private static byte[] ReadExactBytes(BinaryReader reader, int count)
 	{
-		var buffer = new byte[count];
-		var totalRead = 0;
-		while (totalRead < count)
-		{
-			var read = reader.Read(buffer, totalRead, count - totalRead);
-			if (read == 0)
-				throw new EndOfStreamException($"Expected {count} bytes, got {totalRead}");
-			totalRead += read;
-		}
+		var bytes = reader.ReadBytes(count);
+		if (bytes.Length != count)
+			throw new EndOfStreamException();
+		return bytes;
+	}
 
-		return buffer;
+	private static void SeekChecked(FileStream stream, long target)
+	{
+		if (target < 0 || target > stream.Length)
+			throw new InvalidDataException("DSDIFF seek exceeds stream bounds");
+		stream.Seek(target, SeekOrigin.Begin);
 	}
 
 	public async Task<ErrorOr<double>> CalculateGainAsync(
@@ -192,11 +189,7 @@ public sealed class DsdConvertService(
 			settings.BitDepth
 		);
 
-		var tempDir = Path.Combine(
-			Path.GetTempPath(),
-			"toolbox-audio",
-			$"gain_probe_{Guid.NewGuid():N}"
-		);
+		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"gain_probe_{Guid.NewGuid():N}");
 
 		try
 		{
@@ -208,7 +201,7 @@ public sealed class DsdConvertService(
 				settings.GainDb,
 				probe.SampleRate,
 				probe.Channels,
-				line => Telemetry.Debug("Saracon.Out {Line}", line),
+				null,
 				ct
 			);
 			if (convertResult.IsError)
@@ -241,11 +234,7 @@ public sealed class DsdConvertService(
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Warn(
-					"DsdConvert.TempCleanupFailed dir={Dir} error={Error}",
-					LogPaths.Format(tempDir),
-					ex.Message
-				);
+				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
 			}
 		}
 	}
@@ -270,7 +259,7 @@ public sealed class DsdConvertService(
 				settings.GainDb,
 				probe.SampleRate,
 				probe.Channels,
-				line => Telemetry.Debug("Saracon.Out {Line}", line),
+				null,
 				ct
 			);
 			if (masterResult.IsError)
@@ -278,6 +267,7 @@ public sealed class DsdConvertService(
 
 			masterPcm = masterResult.Value;
 			List<string> outputFiles = [];
+			Dictionary<int, string> splitErrors = [];
 
 			foreach (CueTrack track in cue.Tracks)
 			{
@@ -294,7 +284,17 @@ public sealed class DsdConvertService(
 				);
 
 				if (splitResult.IsError)
+				{
+					var reason = splitResult.Errors[0].Description;
+					splitErrors[track.TrackNumber] = reason;
+					Telemetry.Warn(
+						"DsdConvert.SplitFailed track={Track} output={Output} error={Error}",
+						track.TrackNumber,
+						outputFlac,
+						reason
+					);
 					continue;
+				}
 
 				outputFiles.Add(outputFlac);
 
@@ -309,20 +309,16 @@ public sealed class DsdConvertService(
 
 			if (outputFiles.Count < cue.Tracks.Count)
 			{
-				List<int> missing =
-				[
-					.. cue
-						.Tracks.Where(t =>
-							!outputFiles.Any(f =>
-								Path.GetFileName(f)
-									.StartsWith($"{t.TrackNumber:D2}. ", StringComparison.Ordinal)
-							)
-						)
-						.Select(t => t.TrackNumber),
-				];
+				List<int> missing = [.. splitErrors.Keys.Order()];
+				var reasons = string.Join(
+					"; ",
+					splitErrors
+						.OrderBy(kv => kv.Key)
+						.Select(kv => $"track {kv.Key}: {kv.Value}")
+				);
 				return Errors.Audio.ConversionFailed(
 					dffFile,
-					$"Incomplete conversion: missing tracks {string.Join(", ", missing)}"
+					$"Incomplete conversion: missing tracks {string.Join(", ", missing)}. {reasons}"
 				);
 			}
 
@@ -339,11 +335,7 @@ public sealed class DsdConvertService(
 				}
 				catch (Exception ex)
 				{
-					Telemetry.Warn(
-						"DsdConvert.MasterCleanupFailed file={File} error={Error}",
-						LogPaths.Format(masterPcm),
-						ex.Message
-					);
+					Telemetry.Warn("DsdConvert.MasterCleanupFailed file={File} error={Error}", LogPaths.Format(masterPcm), ex.Message);
 				}
 			}
 		}
@@ -357,11 +349,7 @@ public sealed class DsdConvertService(
 		CancellationToken ct = default
 	)
 	{
-		var tempDir = Path.Combine(
-			Path.GetTempPath(),
-			"toolbox-audio",
-			$"saracon_{Guid.NewGuid():N}"
-		);
+		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"saracon_{Guid.NewGuid():N}");
 
 		try
 		{
@@ -373,7 +361,7 @@ public sealed class DsdConvertService(
 				settings.GainDb,
 				probe.SampleRate,
 				probe.Channels,
-				line => Telemetry.Debug("Saracon.Out {Line}", line),
+				null,
 				ct
 			);
 			if (convertResult.IsError)
@@ -404,11 +392,7 @@ public sealed class DsdConvertService(
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Warn(
-					"DsdConvert.TempCleanupFailed dir={Dir} error={Error}",
-					LogPaths.Format(tempDir),
-					ex.Message
-				);
+				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
 			}
 		}
 	}

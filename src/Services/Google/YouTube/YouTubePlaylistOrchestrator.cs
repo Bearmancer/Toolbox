@@ -214,7 +214,7 @@ public class YouTubePlaylistOrchestrator(
 						outcome.State.PlaylistSnapshots.GetValueOrDefault(id)?.LastSortCompleted
 						?? false
 					)
-				),
+				)
 		];
 
 		Telemetry.Info(

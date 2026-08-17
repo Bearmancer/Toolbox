@@ -14,7 +14,10 @@ public sealed class PipelineOrchestrator(
 	DiskSpaceChecker diskSpaceChecker
 )
 {
-	private static readonly Regex NaturalSortPad = new(@"\d+", RegexOptions.Compiled);
+	private static readonly Regex NaturalSortPad = new(
+		@"\d+",
+		RegexOptions.Compiled
+	);
 
 	public async Task<ErrorOr<PipelineResult>> RunAsync(
 		string inputPath,
@@ -86,37 +89,57 @@ public sealed class PipelineOrchestrator(
 				{
 					failed++;
 					guardFailedDiscs.Add(iso);
-					Telemetry.Warn("Guard: {Disc} is Failed — skipping", LogPaths.Format(iso));
+					Telemetry.Warn(
+						"Guard: {Disc} is Failed — skipping",
+						LogPaths.Format(iso)
+					);
 					continue;
 				}
 
-				ErrorOr<ProcessedDisc> result = await ProcessIsoAsync(
-					iso,
-					format,
-					multichannel,
-					guard,
-					ct
-				);
-				if (result.IsError)
+				try
 				{
-					failed++;
-					if (result.Errors.Any(error => error.Code == "Audio.GuardBlocked"))
-						guardFailedDiscs.Add(iso);
-
-					foreach (Error error in result.Errors)
+					ErrorOr<ProcessedDisc> result = await ProcessIsoAsync(
+						iso,
+						format,
+						multichannel,
+						guard,
+						ct
+					);
+					if (result.IsError)
 					{
-						Telemetry.Error(
-							"ISO failed: iso={Iso} error={Error}",
-							LogPaths.Format(iso),
-							error.Description
-						);
-						recoverableErrors.Add(error.Description);
+						failed++;
+						if (result.Errors.Any(error => error.Code == "Audio.GuardBlocked"))
+							guardFailedDiscs.Add(iso);
+
+						foreach (Error error in result.Errors)
+						{
+							Telemetry.Error(
+								"ISO failed: iso={Iso} error={Error}",
+								LogPaths.Format(iso),
+								error.Description
+							);
+							recoverableErrors.Add(error.Description);
+						}
+					}
+					else
+					{
+						succeededDiscs.Add(result.Value);
+						succeeded++;
 					}
 				}
-				else
+				catch (OperationCanceledException)
 				{
-					succeededDiscs.Add(result.Value);
-					succeeded++;
+					throw;
+				}
+				catch (Exception ex)
+				{
+					failed++;
+					Telemetry.Error(
+						"ISO unexpected exception: iso={Iso} error={Error}",
+						LogPaths.Format(iso),
+						ex.Message
+					);
+					recoverableErrors.Add(ex.Message);
 				}
 			}
 
@@ -157,26 +180,6 @@ public sealed class PipelineOrchestrator(
 				$"{discName} is Failed (stuck {existing.ConsecutiveCount}x) — no process started"
 			);
 
-		if (
-			existing is { Verdict: var v, ConsecutiveCount: var c }
-			&& c + 1 >= ReprocessGuard.MaxConsecutiveCount
-			&& v != DiscState.Complete
-		)
-		{
-			ct.ThrowIfCancellationRequested();
-			await guard.RecordAsync(isoPath, v);
-			Telemetry.Warn(
-				"Guard: {Disc} reached {Count}x {Verdict} — transitioning Failed",
-				discName,
-				c + 1,
-				v
-			);
-			return Error.Failure(
-				"Audio.GuardBlocked",
-				$"{discName} reached {c + 1}x {v} — transitioning Failed, no process started"
-			);
-		}
-
 		Telemetry.Info("Probing {Disc}", discName);
 
 		ErrorOr<SacdProbeResult> probe = await extractService.ProbeAsync(isoPath, ct);
@@ -202,7 +205,7 @@ public sealed class PipelineOrchestrator(
 		if (assessment.State == DiscState.Complete)
 		{
 			ct.ThrowIfCancellationRequested();
-			await guard.RecordAsync(isoPath, DiscState.Complete);
+			await guard.RecordAsync(isoPath, DiscState.Complete, ct);
 			return new ProcessedDisc(isoPath, [assessment.DffDir]);
 		}
 
@@ -215,7 +218,7 @@ public sealed class PipelineOrchestrator(
 			if (conversionSpaceCheck.IsError)
 			{
 				ct.ThrowIfCancellationRequested();
-				await guard.RecordAsync(isoPath, assessment.State);
+				await guard.RecordAsync(isoPath, assessment.State, ct);
 				return conversionSpaceCheck.Errors;
 			}
 
@@ -227,16 +230,20 @@ public sealed class PipelineOrchestrator(
 				assessment.PrimaryFlacCount,
 				assessment.CueTrackCount
 			);
-			ErrorOr<Success> convertResult = await ConvertDiscAsync(assessment.DffDir, format, ct);
+			ErrorOr<Success> convertResult = await ConvertDiscAsync(
+				assessment.DffDir,
+				format,
+				ct
+			);
 			if (convertResult.IsError)
 			{
 				ct.ThrowIfCancellationRequested();
-				await guard.RecordAsync(isoPath, assessment.State);
+				await guard.RecordAsync(isoPath, assessment.State, ct);
 				return convertResult.Errors;
 			}
 
 			ct.ThrowIfCancellationRequested();
-			await guard.RecordAsync(isoPath, assessment.State);
+			await guard.RecordAsync(isoPath, DiscState.Complete, ct);
 			return new ProcessedDisc(isoPath, [assessment.DffDir]);
 		}
 
@@ -246,7 +253,10 @@ public sealed class PipelineOrchestrator(
 		if (assessment.State == DiscState.NeedsExtraction)
 			DeletePartialFlacs(assessment.DffDir);
 
-		Telemetry.Info("Disc {Disc}: case A — extracting from ISO", discName);
+		Telemetry.Info(
+			"Disc {Disc}: case A — extracting from ISO",
+			discName
+		);
 
 		ErrorOr<List<string>> extractResult = await extractService.ExtractAsync(
 			isoPath,
@@ -257,7 +267,7 @@ public sealed class PipelineOrchestrator(
 		if (extractResult.IsError)
 		{
 			ct.ThrowIfCancellationRequested();
-			await guard.RecordAsync(isoPath, assessment.State);
+			await guard.RecordAsync(isoPath, assessment.State, ct);
 			return extractResult.Errors;
 		}
 
@@ -270,7 +280,7 @@ public sealed class PipelineOrchestrator(
 			if (conversionSpaceCheck.IsError)
 			{
 				ct.ThrowIfCancellationRequested();
-				await guard.RecordAsync(isoPath, assessment.State);
+				await guard.RecordAsync(isoPath, assessment.State, ct);
 				return conversionSpaceCheck.Errors;
 			}
 		}
@@ -281,13 +291,13 @@ public sealed class PipelineOrchestrator(
 			if (dirResult.IsError)
 			{
 				ct.ThrowIfCancellationRequested();
-				await guard.RecordAsync(isoPath, assessment.State);
+				await guard.RecordAsync(isoPath, assessment.State, ct);
 				return dirResult.Errors;
 			}
 		}
 
 		ct.ThrowIfCancellationRequested();
-		await guard.RecordAsync(isoPath, assessment.State);
+		await guard.RecordAsync(isoPath, DiscState.Complete, ct);
 		return new ProcessedDisc(isoPath, extractResult.Value);
 	}
 
@@ -318,6 +328,9 @@ public sealed class PipelineOrchestrator(
 
 	private static void DeleteFlacsInDir(string dir)
 	{
+		if (!Directory.Exists(dir))
+			return;
+
 		foreach (var flac in Directory.GetFiles(dir, "*.flac"))
 		{
 			try
@@ -342,7 +355,9 @@ public sealed class PipelineOrchestrator(
 		CancellationToken ct
 	)
 	{
-		var cueFiles = Directory.Exists(dffDir) ? Directory.GetFiles(dffDir, "*.cue") : [];
+		var cueFiles = Directory.Exists(dffDir)
+			? Directory.GetFiles(dffDir, "*.cue")
+			: [];
 		if (cueFiles.Length == 0)
 			return Errors.Audio.NoCueFound(dffDir);
 
@@ -371,9 +386,11 @@ public sealed class PipelineOrchestrator(
 		if (preparedDff.IsError)
 			return preparedDff.Errors;
 
-		DsdConversionSettings gainSettings = DsdConversionSettings
-			.ForDsdRate(dsdProbe.Value.SampleRate, format, 0.0)
-			.Primary;
+		DsdConversionSettings gainSettings = DsdConversionSettings.ForDsdRate(
+			dsdProbe.Value.SampleRate,
+			format,
+			0.0
+		).Primary;
 
 		ErrorOr<double> gainResult = await convertService.CalculateGainAsync(
 			preparedDff.Value,
@@ -384,9 +401,11 @@ public sealed class PipelineOrchestrator(
 		if (gainResult.IsError)
 			return gainResult.Errors;
 
-		DsdConversionSettings primary = DsdConversionSettings
-			.ForDsdRate(dsdProbe.Value.SampleRate, format, gainResult.Value)
-			.Primary;
+		DsdConversionSettings primary = DsdConversionSettings.ForDsdRate(
+			dsdProbe.Value.SampleRate,
+			format,
+			gainResult.Value
+		).Primary;
 
 		ErrorOr<List<string>> convertResult = await convertService.ConvertAndSplitAsync(
 			preparedDff.Value,
@@ -402,28 +421,43 @@ public sealed class PipelineOrchestrator(
 		return Result.Success;
 	}
 
-	private static void CleanupSuccesses(List<ProcessedDisc> succeededDiscs, bool keepIso)
+	private void CleanupSuccesses(List<ProcessedDisc> succeededDiscs, bool keepIso)
 	{
 		foreach (ProcessedDisc disc in succeededDiscs)
 		{
-			var outputsValidated = true;
+			string? failureReason = null;
+			foreach (var outputDir in disc.OutputDirectories)
+			{
+				ErrorOr<Success> validation = ValidateOutputsForDeletion(outputDir);
+				if (validation.IsError)
+				{
+					failureReason = validation.Errors[0].Description;
+					break;
+				}
+			}
+
+			if (failureReason is not null)
+			{
+				Telemetry.Info(
+					"Pipeline.DeletionValidationFailed iso={Iso} reason={Reason}",
+					LogPaths.Format(disc.IsoPath),
+					failureReason
+				);
+				continue;
+			}
+
+			Telemetry.Info(
+				"Pipeline.DeletionValidationPassed iso={Iso}",
+				LogPaths.Format(disc.IsoPath)
+			);
+
 			foreach (var outputDir in disc.OutputDirectories)
 			{
 				if (!Directory.Exists(outputDir))
-				{
-					outputsValidated = false;
-					Telemetry.Warn(
-						"Pipeline.OutputValidationFailed dir={Dir}",
-						LogPaths.Format(outputDir)
-					);
 					continue;
-				}
 
-				foreach (
-					var file in Directory
-						.GetFiles(outputDir, "*.dff", SearchOption.AllDirectories)
-						.Concat(Directory.GetFiles(outputDir, "*.xml", SearchOption.AllDirectories))
-				)
+				foreach (var file in Directory.GetFiles(outputDir, "*.dff", SearchOption.AllDirectories)
+					.Concat(Directory.GetFiles(outputDir, "*.xml", SearchOption.AllDirectories)))
 				{
 					try
 					{
@@ -440,23 +474,71 @@ public sealed class PipelineOrchestrator(
 				}
 			}
 
-			if (!keepIso && outputsValidated)
+			if (keepIso)
 			{
-				try
-				{
-					if (File.Exists(disc.IsoPath))
-						File.Delete(disc.IsoPath);
-				}
-				catch (Exception ex)
-				{
-					Telemetry.Warn(
-						"Pipeline.CleanupFailed file={File}: {Error}",
-						LogPaths.Format(disc.IsoPath),
-						ex.Message
-					);
-				}
+				Telemetry.Info(
+					"Pipeline.KeepIsoRetained iso={Iso}",
+					LogPaths.Format(disc.IsoPath)
+				);
+				continue;
+			}
+
+			try
+			{
+				if (File.Exists(disc.IsoPath))
+					File.Delete(disc.IsoPath);
+			}
+			catch (Exception ex)
+			{
+				Telemetry.Warn(
+					"Pipeline.CleanupFailed file={File}: {Error}",
+					LogPaths.Format(disc.IsoPath),
+					ex.Message
+				);
 			}
 		}
+	}
+
+	private ErrorOr<Success> ValidateOutputsForDeletion(string outputDir)
+	{
+		if (!Directory.Exists(outputDir))
+			return Error.Validation(
+				"Audio.DeletionValidationFailed",
+				$"Output directory does not exist: {outputDir}"
+			);
+
+		var cueFiles = Directory.GetFiles(outputDir, "*.cue");
+		if (cueFiles.Length == 0)
+			return Error.Validation(
+				"Audio.DeletionValidationFailed",
+				$"No CUE file in {outputDir}"
+			);
+
+		ErrorOr<CueSheet> cueResult = cueParser.Parse(cueFiles[0]);
+		if (cueResult.IsError)
+			return Error.Validation(
+				"Audio.DeletionValidationFailed",
+				$"CUE parse failed: {cueResult.Errors[0].Description}"
+			);
+
+		var cueTrackCount = cueResult.Value.Tracks.Count;
+		var flacFiles = Directory.GetFiles(outputDir, "*.flac");
+		if (flacFiles.Length != cueTrackCount)
+			return Error.Validation(
+				"Audio.DeletionValidationFailed",
+				$"FLAC count {flacFiles.Length} != CUE track count {cueTrackCount}"
+			);
+
+		foreach (var flac in flacFiles)
+		{
+			if (new FileInfo(flac).Length == 0)
+				return Error.Validation(
+					"Audio.DeletionValidationFailed",
+					$"Zero-length FLAC: {flac}"
+				);
+		}
+
+		return Result.Success;
 	}
 
 	private sealed record ProcessedDisc(string IsoPath, IReadOnlyList<string> OutputDirectories);

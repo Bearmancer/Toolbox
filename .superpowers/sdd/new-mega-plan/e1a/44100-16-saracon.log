@@ -1,0 +1,67 @@
+{22:40:36.919} 
+ Saracon 01.61-27 (Mar  4 2010, 11:29:38)
+ Copyright (c) 2004 - 2010 Weiss Engineering, Switzerland
+
+{22:40:36.919} License: Saracon DSD.
+{22:40:36.919} Saracon has been set into tolerant mode.
+{22:40:36} [warning] LSCO chunk not supported.
+{22:40:36.919} Anatomy of "C:\Users\Lance\Dev\Toolbox-worktrees\sacd-completion-v2\.superpowers\sdd\new-mega-plan\e1a\disc3-60s.dff":
+FVER: (16, 4)
+  version: 17104896
+FS  : (48, 4)
+  sample rate: 2822400
+CHNL: (64, 10)
+  channel IDs: SLFT, SRGT, 
+CMPR: (86, 20)
+  compression type: DSD 
+  compression name: not compressed
+PROP: (32, 88)
+  property type: SND 
+DSD : (132, 42336000)
+FRM8: (0, 42336132)
+
+
+{22:40:36} [warning] LSCO chunk not supported.
+{22:40:36.920} Disk space:
+	total disk capacity:     930.86 GB
+	bytes available on disk: 731.32 GB
+	bytes required:          10.59 MB
+{22:40:36.920} License: Saracon DSD.
+{22:40:36} [warning] LSCO chunk not supported.
+{22:40:36.922} ==== Conversion summary: ====
+  Module:                 D2P
+  Configuration file:     None
+  Batch mode:             Smart Interleave
+  Target directory:       C:\Users\Lance\Dev\Toolbox-worktrees\sacd-completion-v2\.superpowers\sdd\new-mega-plan\e1a\out-44100-16
+  Postfix:                -d2p
+  Conversion gain:        1
+  Target sample rate:     44100
+  Target bits per sample: 16.000000
+  Target format:          Microsoft Wave (wav)
+  Target sub-format:      16 bit fixed point
+  Target dither:          TPDF
+
+{22:40:36.922} Starting conversion...
+{22:40:36.922} ---- Summary for job 1: ----
+  Target files:  C:\Users\Lance\Dev\Toolbox-worktrees\sacd-completion-v2\.superpowers\sdd\new-mega-plan\e1a\out-44100-16\disc3-60s-d2p.wav
+  Input 1 :
+    Path:        C:\Users\Lance\Dev\Toolbox-worktrees\sacd-completion-v2\.superpowers\sdd\new-mega-plan\e1a\disc3-60s.dff
+    Sample rate: 2822.4kHz
+    Channels:    2
+    Length:      0h:1m:0s.0ms (169344000 samples)
+
+{22:40:36.938} SRC filter has a latency of 63.101562 output samples which is compensated by 8078.000000 additional silent input samples.
+{22:40:36} [warning] LSCO chunk not supported.
+{22:40:39.415} 10% remaining time: 00:00:22 speed: 2.393714 [s/s]
+{22:40:41.930} 20% remaining time: 00:00:18 speed: 2.532148 [s/s]
+{22:40:43.941} 30% remaining time: 00:00:16 speed: 2.550589 [s/s]
+{22:40:46.436} 40% remaining time: 00:00:13 speed: 2.587351 [s/s]
+{22:40:48.440} 50% remaining time: 00:00:11 speed: 2.590523 [s/s]
+{22:40:50.949} 60% remaining time: 00:00:08 speed: 2.605768 [s/s]
+{22:40:53.444} 70% remaining time: 00:00:06 speed: 2.618604 [s/s]
+{22:40:54.956} 80% remaining time: 00:00:04 speed: 2.647235 [s/s]
+{22:40:57.459} 90% remaining time: 00:00:01 speed: 2.651493 [s/s]
+{22:40:59.451} 100% remaining time: 00:00:00 speed: 2.681931 [s/s]
+{22:40:59.451} Job 1 of 1 processed. Elapsed time: 00:00:22
+{22:40:59.451} All jobs processed.
+{22:40:59.454} No configurations left to process.

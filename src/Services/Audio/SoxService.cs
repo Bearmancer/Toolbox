@@ -25,12 +25,7 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		if (duration is { } d && d > TimeSpan.Zero)
 			args.Add(FormatSeconds(d));
 
-		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
-			binaryPath,
-			[.. args],
-			ct,
-			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
-		);
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(binaryPath, [.. args], ct);
 		if (result.IsError)
 			return result.Errors;
 
@@ -38,6 +33,12 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 			return Errors.Audio.ConversionFailed(
 				sourcePcm,
 				$"sox split exit code {result.Value.ExitCode}: {result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)]}"
+			);
+
+		if (!File.Exists(outputFlac) || new FileInfo(outputFlac).Length == 0)
+			return Errors.Audio.ConversionFailed(
+				outputFlac,
+				"sox split exited 0 but produced no output file"
 			);
 
 		return outputFlac;
@@ -53,8 +54,7 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
 			[filePath, "-n", "stats"],
-			ct,
-			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
+			ct
 		);
 		if (result.IsError)
 			return result.Errors;
@@ -93,8 +93,7 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
 			["--i", "-D", filePath],
-			ct,
-			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
+			ct
 		);
 		if (result.IsError)
 			return result.Errors;
@@ -129,8 +128,7 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 				"-v",
 				targetSampleRate.ToString(CultureInfo.InvariantCulture),
 			],
-			ct,
-			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
+			ct
 		);
 
 		if (result.IsError)
@@ -140,6 +138,12 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 			return Errors.Audio.ConversionFailed(
 				sourceFlac,
 				$"sox derive exit code {result.Value.ExitCode}: {result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)]}"
+			);
+
+		if (!File.Exists(outputFlac) || new FileInfo(outputFlac).Length == 0)
+			return Errors.Audio.ConversionFailed(
+				outputFlac,
+				"sox derive exited 0 but produced no output file"
 			);
 
 		return outputFlac;

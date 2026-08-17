@@ -105,6 +105,22 @@ dotnet run --project src\App -- azure translate
 dotnet run --project src\App -- dashboard generate
 ```
 
+### Saracon CLI
+
+Saracon is invoked headlessly through its command-line interface. Do not open the Saracon GUI for pipeline work. The DSD-to-PCM form is:
+
+```text
+saracon -c d2p -r <sample-rate> -f wav -n <bit-depth>bit -d tpdf -g <gain-db> -T -V all -t "<output-directory>" "<input.dff>"
+```
+
+`-c d2p` selects DSD-to-PCM conversion, `-t` selects the target directory, and the DFF input is the final argument. The application builds this exact argument shape in `src/Services/Audio/SaraconService.cs`; it resolves `saracon` from `PATH` and never launches the GUI. Example for a DSD64 16-bit conversion:
+
+```text
+saracon -c d2p -r 44100 -f wav -n 16bit -d tpdf -g 0.00 -T -V all -t "C:\path\to\output" "C:\path\to\input.dff"
+```
+
+For the application-level SACD test, omit `--format`; its default is `Bit16`. The current Spectre enum parser rejects the numeric token `--format 16`, even though help describes the supported format as 16.
+
 ## NOTES
 
 - .NET 11.0 preview SDK required. `SuppressNETCoreSdkPreviewMessage` is set.

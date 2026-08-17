@@ -46,3 +46,29 @@ Saracon launched from `SacdProbe` in Session 1 but did not return after more tha
 3. Fix #2 output-size sanity check: still required (defense-in-depth; catches ALL truncation).
 4. Fix #3 HasId3Chunk exception logging: still required (latent bug).
 5. Probe harness still required: proves fix, becomes regression gate, verifies real Disc 10 run.
+
+## 2026-08-17 Reconciliation
+
+Historical `stripped/` and `raw/` rows were byte-identical, so conclusions derived from comparing those rows are void. Confidence: HIGH, basis: historical journal rows and later streamed stripper evidence.
+
+The earlier UTF-8 / ACP 65001 explanation is rejected as settled root cause. Confidence: HIGH, basis: current real Disc 3/4/5 headless Saracon runs completed through the same machine configuration; no `RegistryOleInit`, charset, or `Unknown encoding (-1)` signature occurred. Preserve historical rows, but do not restate ACP 65001 as confirmed.
+
+Current observed cause classification: Saracon CLI runs are valid with `-c d2p -r 44100 -f wav -n 16bit -d tpdf -g <gain> -T -V all -t <output> <input>`. Output-size validation remains required defense-in-depth. The prior journal's ACP root-cause claims are superseded, not deleted.
+
+## 2026-08-17 Plan residue register
+
+Confidence tags below describe evidence status, not source-code quality.
+
+| Item | Status | Signature / evidence | Owner / rationale |
+|---|---|---|---|
+| P0.1 second-volume byte copy | BLOCKED | `Get-Volume` exposed only `C:`; no different physical volume | System hardware; cannot fabricate cross-volume equality |
+| P0.1 13 canaries | FAIL/BLOCKED | Historical FLAC baseline was deleted; seven requested discs had no preserved canary | User-owned media state; do not invent hashes |
+| Historical T11 artifact | BLOCKED | Historical report path absent; current `task-11-report.md` is P1.6 | Audit artifact unavailable; collision note retained |
+| P3.3.8 orchestrator guard termination | BLOCKED | Durable harness records no production `PipelineOrchestrator` guard invocation | Checks harness owner; synthetic matrix remains valid but not end-to-end |
+| P4.2.5 completion-marker/truncated-output branches | BLOCKED | Real Disc 13/4/5 Saracon normal exits observed; no forced marker-hang or truncated-output fixture run | Runtime contract test owner |
+| P4.3.4 artifact ownership fault injection | BLOCKED | Forced probe failure and cleanup-exception paths not exercised | Runtime fault-injection owner |
+| P5.3 Gate C | BLOCKED/SKIPPED | User instruction: `Skip gate C`; Disc 5 completed, Disc 6 extraction partial, Discs 7-9 untouched | User-directed skip; no media deletion |
+| P5.4 Gate D | BLOCKED | Requires all discs complete; P5.3 skipped and Disc 6 partial | Phase dependency |
+| P5.5 Gate E | BLOCKED | Requires active Saracon cancellation run after Phase 5 sequencing; phase halted | Phase dependency and safe media state |
+
+P3.4.7 is no longer blocked: streamed Disc 3 evidence observed `3332711216 -> 3332709410` bytes, exactly 1806 bytes removed, with real Saracon completion. P4.3 T8/T3/T7 and P4.2 real ISO/FLAC/trim evidence are likewise superseded from BLOCKED to observed runtime evidence in the plan addenda.

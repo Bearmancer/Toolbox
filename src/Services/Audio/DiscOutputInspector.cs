@@ -25,7 +25,9 @@ public sealed class DiscOutputInspector(
 	{
 		var dffDir = FlacCompletenessChecker.FindDffDir(channelDir, discName);
 
-		var cueFiles = Directory.Exists(dffDir) ? Directory.GetFiles(dffDir, "*.cue") : [];
+		var cueFiles = Directory.Exists(dffDir)
+			? Directory.GetFiles(dffDir, "*.cue")
+			: [];
 		var cueFile = cueFiles.Length > 0 ? cueFiles[0] : null;
 
 		CueSheet? cue = null;
@@ -48,18 +50,16 @@ public sealed class DiscOutputInspector(
 		var hasValidDff = false;
 		if (dffFiles.Length > 0)
 		{
-			Array.Sort(
-				dffFiles,
-				(a, b) => Path.GetFileName(a).Length.CompareTo(Path.GetFileName(b).Length)
-			);
-			ErrorOr<DsdProbeResult> probe = await convertService.ProbeDsdAsync(dffFiles[0], ct);
+			Array.Sort(dffFiles, (a, b) =>
+				Path.GetFileName(a).Length.CompareTo(Path.GetFileName(b).Length));
+			ErrorOr<DsdProbeResult> probe =
+				await convertService.ProbeDsdAsync(dffFiles[0], ct);
 			if (probe.IsSuccess)
 				hasValidDff = true;
 		}
 
-		Dictionary<int, string> primaryFlacs = FlacCompletenessChecker.GetFlacsByTrackNumber(
-			dffDir
-		);
+		Dictionary<int, string> primaryFlacs =
+			FlacCompletenessChecker.GetFlacsByTrackNumber(dffDir);
 
 		if (cue is null)
 		{
@@ -77,9 +77,10 @@ public sealed class DiscOutputInspector(
 		}
 
 		List<int> allTrackNumbers = [.. cue.Tracks.Select(t => t.TrackNumber)];
-		var primaryFlacFiles = Directory.Exists(dffDir) ? Directory.GetFiles(dffDir, "*.flac") : [];
-		var hasAllTracks =
-			primaryFlacFiles.Length == allTrackNumbers.Count
+		var primaryFlacFiles = Directory.Exists(dffDir)
+			? Directory.GetFiles(dffDir, "*.flac")
+			: [];
+		var hasAllTracks = primaryFlacFiles.Length == allTrackNumbers.Count
 			&& primaryFlacs.Count == allTrackNumbers.Count
 			&& allTrackNumbers.All(n => primaryFlacs.ContainsKey(n));
 
@@ -117,7 +118,9 @@ public sealed class DiscOutputInspector(
 				durationCheck.DffDir
 			);
 
-		var totalSeconds = cue.Tracks.Sum(t => t.Duration?.TotalSeconds ?? 0);
+		var totalSeconds = cue.Tracks.Sum(t =>
+			t.Duration?.TotalSeconds ?? 0
+		);
 		var hours = (int)(totalSeconds / 3600);
 		var minutes = (int)((totalSeconds % 3600) / 60);
 		var seconds = (int)(totalSeconds % 60);

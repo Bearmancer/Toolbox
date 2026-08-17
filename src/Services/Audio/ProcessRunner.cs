@@ -70,13 +70,11 @@ public sealed class ProcessRunner
 					TerminationReason.StartFailed
 				);
 
-			StringBuilder stdoutSb = new();
-			StringBuilder stderrSb = new();
-			stdoutDrainTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
-			stderrDrainTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
-			TaskCompletionSource<bool> completionTcs = new(
-				TaskCreationOptions.RunContinuationsAsynchronously
-			);
+				StringBuilder stdoutSb = new();
+				StringBuilder stderrSb = new();
+				stdoutDrainTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
+				stderrDrainTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
+				TaskCompletionSource<bool> completionTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
 			var completionDetected = false;
 
 			using CancellationTokenSource inactivityCts = new();
@@ -89,20 +87,16 @@ public sealed class ProcessRunner
 
 			process.OutputDataReceived += (sender, e) =>
 			{
-				if (e.Data is null)
-				{
-					stdoutDrainTcs.TrySetResult(true);
-					return;
-				}
+					if (e.Data is null)
+					{
+						stdoutDrainTcs.TrySetResult(true);
+						return;
+					}
 				if (inactivityTimeout.HasValue)
 					inactivityCts.CancelAfter(inactivityTimeout.Value);
 				stdoutSb.AppendLine(e.Data);
 				onOutputLine?.Invoke(e.Data);
-				if (
-					completionPattern is not null
-					&& !completionDetected
-					&& e.Data.Contains(completionPattern)
-				)
+				if (completionPattern is not null && !completionDetected && e.Data.Contains(completionPattern))
 				{
 					completionDetected = true;
 					completionTcs.TrySetResult(true);
@@ -116,11 +110,11 @@ public sealed class ProcessRunner
 
 			process.ErrorDataReceived += (sender, e) =>
 			{
-				if (e.Data is null)
-				{
-					stderrDrainTcs.TrySetResult(true);
-					return;
-				}
+					if (e.Data is null)
+					{
+						stderrDrainTcs.TrySetResult(true);
+						return;
+					}
 				if (inactivityTimeout.HasValue)
 					inactivityCts.CancelAfter(inactivityTimeout.Value);
 				stderrSb.AppendLine(e.Data);
@@ -135,20 +129,15 @@ public sealed class ProcessRunner
 			Task? inactivityTask = inactivityTimeout.HasValue
 				? Task.Delay(Timeout.InfiniteTimeSpan, inactivityCts.Token)
 				: null;
-			Task? graceTask = null;
-			TerminationReason terminationReason = TerminationReason.Exited;
-			async Task<ProcessResult> stopAndBuildAsync(TerminationReason reason)
-			{
-				await KillAndReapAsync(process, stdoutDrainTcs.Task, stderrDrainTcs.Task);
-				return new ProcessResult(
-					stdoutSb.ToString(),
-					stderrSb.ToString(),
-					process.ExitCode,
-					reason
-				);
-			}
+				Task? graceTask = null;
+				TerminationReason terminationReason = TerminationReason.Exited;
+				async Task<ProcessResult> stopAndBuildAsync(TerminationReason reason)
+				{
+					await KillAndReapAsync(process, stdoutDrainTcs.Task, stderrDrainTcs.Task);
+					return new ProcessResult(stdoutSb.ToString(), stderrSb.ToString(), process.ExitCode, reason);
+				}
 
-			while (true)
+				while (true)
 			{
 				if (exitTask.IsCompleted)
 				{
@@ -332,11 +321,7 @@ public sealed class ProcessRunner
 		await DrainOutputAsync(process, stdoutDrain, stderrDrain);
 	}
 
-	private static async Task DrainOutputAsync(
-		Process process,
-		Task? stdoutDrain,
-		Task? stderrDrain
-	)
+	private static async Task DrainOutputAsync(Process process, Task? stdoutDrain, Task? stderrDrain)
 	{
 		await process.WaitForExitAsync(CancellationToken.None);
 		if (stdoutDrain is not null && stderrDrain is not null)
@@ -369,10 +354,8 @@ public sealed record ProcessResult(
 	TerminationReason TerminationReason
 );
 
-public sealed class ProcessRunnerCanceledException(
-	ProcessResult result,
-	CancellationToken cancellationToken
-) : OperationCanceledException(cancellationToken)
+public sealed class ProcessRunnerCanceledException(ProcessResult result, CancellationToken cancellationToken)
+	: OperationCanceledException(cancellationToken)
 {
 	public ProcessResult Result { get; } = result;
 }

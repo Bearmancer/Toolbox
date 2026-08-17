@@ -364,7 +364,7 @@ The T11 suite passed 74 cases while asserting two defects as correct. Its report
 Closes the four acceptance criteria satisfied by inference rather than observation (§0.4).
 
 1. **T8** — run one real conversion and confirm from `state/logs/audio.jsonl` that `DsdConvert.GainCalcComplete` and the master `Saracon.ConvertStart` show the **same** rate and bit depth. This was T8's stated criterion and was never observed.
-2. **T3** — run one real `--format 16` SACD conversion end to end.
+2. **T3** — run one real default `Bit16` SACD conversion end to end. Numeric `--format 16` is rejected by the current Spectre enum parser; record that parser deviation rather than claiming the rejected invocation ran.
 3. **T7** — run one real full Saracon conversion, confirming the estimator against actual output size.
 4. **T9** — observe artifact ownership at runtime: CUE retained through a forced probe failure; temp cleanup exception not masking the primary error.
 5. Fix or formally account for the mangled temp-root label in `Saracon.ConvertStart` (`task-1-report.md`) — Phase 5 gates read this log.
@@ -372,6 +372,64 @@ Closes the four acceptance criteria satisfied by inference rather than observati
 7. Confirm no gate in Phase 5 depends on a log field that renders unreadably.
 
 **Accept:** each of the four criteria observed in a real log with the entry quoted; log rendering defects fixed or explicitly accounted for.
+
+### Runtime addendum: Disc 13 observation (2026-08-17)
+
+Observed command from `C:\Users\Lance\Dev\Toolbox\.superpowers\sdd\new-mega-plan\sacd-Disc-13-20260817-181247.log`:
+
+```text
+dotnet run --project C:\Users\Lance\Dev\Toolbox\src\App -- audio sacd-convert C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin\Disc 13\Disc 13.iso --keep-iso
+```
+
+The wrapper script ran `dotnet build --nologo` first: 0 warnings and 0 errors. `--format` was omitted, so `SacdConvertCommand.Settings.Format` used its default `AudioOutputFormat.Bit16`; a separate attempted numeric `--format 16` was rejected before media access and is not counted as the runtime observation.
+
+Observed configuration and output in `C:\Users\Lance\Dev\Toolbox\state\logs\audio.jsonl`:
+
+```text
+ProcessRunner.Start binary=saracon args=-c d2p -r 44100 -f wav -n 16bit -d tpdf -g 0.00 -T -V all -t <<TMP>>\\toolbox-audio\\gain_probe_<id> "<<OUT>>\\Disc 13\\Disc 13\\Disc 13_clean.dff"
+DsdConvert.GainCalcComplete file=Disc 13_clean.dff rate=44100 bitDepth=16 peak=-6.37dB gain=5.87dB
+ProcessRunner.Start binary=saracon args=-c d2p -r 44100 -f wav -n 16bit -d tpdf -g 5.87 -T -V all -t "<<OUT>>\\Disc 13\\Disc 13" "<<OUT>>\\Disc 13\\Disc 13\\Disc 13_clean.dff"
+ProcessRunner.Complete binary=saracon exitCode=0
+Saracon.ConvertComplete output=Disc 13_clean-d2p.wav size=791.217884MB
+```
+
+Observed filesystem result: 9 FLACs, 2 CUE files, no DFF/WAV intermediates, ISO retained at 1,129,807,872 bytes, and guard entry `Verdict: 1`, `ConsecutiveCount: 1`. `DffMetadataStripper.Completed` recorded `inputBytes=3318611040`, `outputBytes=3318606988`; `Saracon.Id3Detected` occurred once for this run and no `Saracon.OutputTooSmall` entry was observed.
+
+Status: P4.3 subtasks 1, 2, 3, 5, 6, and 7 observed PASS from this run and existing source/log evidence. P4.3 subtask 4 remains open because forced probe failure and cleanup-exception ownership were not exercised. P4.2 real-ISO probe, real-FLAC duration, trim, and tool-version evidence are now available; P4.2 subtask 5 has normal full-conversion evidence, but completion-marker and truncated-output branches remain open.
+
+### Gate A runtime addendum: Disc 3 (2026-08-17)
+
+Observed command: `dotnet run --project src\App -- audio sacd-convert "C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin\Disc 3\Disc 3.iso" --keep-iso`. The default `Bit16` configuration was used; numeric `--format 16` remains a parser rejection and is not claimed as executed. Build and CLI result: 1 succeeded, 0 failed.
+
+JSONL recorded one `DffMetadataStripper.Completed` (`3332711216` input bytes -> `3332709410` output bytes), one `Saracon.Id3Detected`, two successful Saracon CLI conversions using `-c d2p -r 44100 -f wav -n 16bit -d tpdf -g 0.00/6.00 -T -V all -t ...`, and no `Saracon.OutputTooSmall`. Four non-empty FLACs were produced with durations `1223.000000`, `1158.373333`, `820.720000`, and `1519.136190` seconds. ISO size remained `1141997568`; CUE remained present.
+
+Gate A was captured before the keep-ISO cleanup correction, so its DFFs remained during that run. The corrected `CleanupSuccesses` validates outputs before the `keepIso` branch, deletes DFF/XML, and retains only the ISO. Disc 4 rerun is the green integration proof. P5.1's log-based evidence remains PASS; a post-fix Disc 3 rerun is still useful if exact post-fix filesystem evidence is required.
+
+### Gate B runtime addendum: Disc 4 (2026-08-17)
+
+Preflight confirmed no Disc 4 output directory. Command `dotnet run --project src\App -- audio sacd-convert "C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin\Disc 4\Disc 4.iso" --keep-iso` entered case A, invoked `sacd_extract -2 -e -c -C`, and completed `1 succeeded, 0 failed`. JSONL confirms the Saracon CLI shape with `44100/16`, `tpdf`, `-T`, `-V all`, `-t`, and gains `0.00` then `6.00`.
+
+Output has one CUE, eight non-empty FLACs, zero WAVs, and ISO retained at `1073840128` bytes. After moving the `keepIso` branch below output validation and DFF/XML cleanup, the safe rerun removed DFF/XML/WAV, retained all 8 FLACs and the ISO, and exited 0. P5.2: all 6 subtasks PASS.
+
+### Gate C execution status (2026-08-17)
+
+Gate C was skipped by explicit user instruction: `Skip gate C`. Owner: user. The runner completed Disc 5 (`17` FLACs, `1` CUE, `0` WAV, `2` retained DFFs, ISO retained) and began Disc 6 extraction; Disc 6 remains partial (`1` DFF, no CUE/FLAC) and Discs 7-9 were not started. The historical 13-canary baseline is unavailable because prior FLACs were deleted. P5.3 is BLOCKED/SKIPPED, with no file deletion.
+
+### Keep-ISO cleanup correction (2026-08-17)
+
+Root cause: `PipelineOrchestrator.CleanupSuccesses` returned immediately when `keepIso` was true, skipping output validation and DFF/XML cleanup. RED check observed Disc 4 with `dff=2`, `xml=1`, `iso=True`. Minimal fix moved the `keepIso` branch after validation and DFF/XML deletion. GREEN rerun observed `Pipeline.DeletionValidationPassed`, `Pipeline.KeepIsoRetained`, exit code 0, 8 FLACs retained, `dff=0`, `xml=0`, `wav=0`, and ISO still present. `dotnet build Toolbox.slnx --no-restore --no-incremental` passed with 0 warnings and 0 errors.
+
+### Closure addendum: P6.1-P6.3 (2026-08-17)
+
+P6.1 documentation is updated: Audio file list includes `DiscState` and `ReprocessGuard`; state transitions, `--reset-guard`, Saracon CLI syntax, artifact ownership, and the 16-bit/44.1 kHz deviation are recorded. Plan-listed superseded documents were removed; the SDD artifact set and probe journal were retained.
+
+P6.2 journal reconciliation is appended with confidence tags, the historical raw/stripped byte-identity finding, rejection of ACP 65001 as settled root cause, the P0.3/P0.5 residue register, and every currently blocked item with owner/signature.
+
+P6.3 E1-A report: `.superpowers/sdd/new-mega-plan/p63-e1a-report.md`. Dummy total `42336144`, payload `42336000`, FRM8 `ckDataSize=42336132`, SHA-256 `2cdd2fe5d5305980fbb99fd820c0cd56f9e9f8f33c80b0faf6b11c3e4ead6123`. Direct Saracon CLI runs: 88200/24 peak `-28.25 dB`, 44100/16 peak `-28.27 dB`, delta `0.02 dB`, both exit 0, both calculated gains capped at `6 dB`. Verdict: immaterial; no 13-disc re-conversion indicated.
+
+### Final harness verification (2026-08-17)
+
+`dotnet run --project checks\GuardChecks.csproj` returned `30 passed, 0 failed, 1 blocked, 31 total`. The sole blocked case is P3.3.8: `PipelineOrchestrator(SacdExtractService, DsdConvertService, DiscOutputInspector, CueParser, PathValidator, DiskSpaceChecker)` production guard termination remains unexercised by the durable harness. All P3.4 and P3.5 cases pass, including streamed real Disc 3 stripping and all six ProcessRunner cases.
 
 ---
 

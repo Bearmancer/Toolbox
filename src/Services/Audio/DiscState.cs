@@ -6,5 +6,5 @@ public enum DiscState
 	NeedsPrimaryConversion,
 	NeedsExtraction,
 	InvalidArtifacts,
-	Failed,
+	Failed
 }

@@ -14,7 +14,7 @@ internal sealed class DsdConvertCommand(
 {
 	public sealed class Settings : CommandSettings
 	{
-		[Description("Input DSF or DFF file")]
+		[Description("Input DFF file")]
 		[CommandArgument(0, "<input>")]
 		public required string Input { get; init; }
 
@@ -83,18 +83,17 @@ internal sealed class DsdConvertCommand(
 			);
 			if (preparedDff.IsError)
 			{
-				await Console.Error.WriteLineAsync(
-					preparedDff.Errors[0].Description,
-					cancellationToken
-				);
+				await Console.Error.WriteLineAsync(preparedDff.Errors[0].Description, cancellationToken);
 				return 1;
 			}
 
 			var conversionInputPath = preparedDff.Value;
 			var gain = settings.GainDb ?? 0.0;
-			DsdConversionSettings primary = DsdConversionSettings
-				.ForDsdRate(dsdProbe.Value.SampleRate, settings.Format, gain)
-				.Primary;
+			DsdConversionSettings primary = DsdConversionSettings.ForDsdRate(
+				dsdProbe.Value.SampleRate,
+				settings.Format,
+				gain
+			).Primary;
 
 			if (settings.GainDb is null)
 			{

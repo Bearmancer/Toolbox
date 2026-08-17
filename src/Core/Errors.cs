@@ -164,5 +164,8 @@ public static class Errors
 				"Audio.PathTooLong",
 				$"Output path exceeds Windows MAX_PATH ({length} chars): {path}"
 			);
+
+		public static Error StripFailed(string file, string reason) =>
+			Error.Failure("Audio.StripFailed", $"DFF metadata strip failed for {file}: {reason}");
 	}
 }

@@ -1,1695 +1,1695 @@
 [
-  {
-    "ContentDetails": {
-      "VideoId": "nUzdlFmcA1g",
-      "VideoPublishedAtRaw": "2019-08-02T15:19:27Z",
-      "VideoPublishedAtDateTimeOffset": "2019-08-02T15:19:27+00:00",
-      "VideoPublishedAt": "2019-08-02T20:49:27+05:30"
-    },
-    "ETag": "LHeZmH-4SP7xrQcdMaaBKFtXGUQ",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4yMUQyQTQzMjRDNzMyQTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Detroit Symphony Orchestra\nKent Nagano, conductor\nLive recording from May 25, 2019\n\n00:00 I. M\u00E4ssig bewegt\n23:00 II. Adagio (etwas bewegt) quasi Andante\n36:35 III. Scherzo: Ziemlich schnell\n44:50 IV. Finale: Allegro",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 0,
-      "PublishedAtRaw": "2024-12-26T11:20:46Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:46+00:00",
-      "PublishedAt": "2024-12-26T16:50:46+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "nUzdlFmcA1g"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "ANTON BRUCKNER Symphony No. 3 in D minor (1889 revised version ed. Nowak) Kent Nagano, conductor",
-      "VideoOwnerChannelId": "UCkrgMThbHZ3pzthqLnnEhKA",
-      "VideoOwnerChannelTitle": "Detroit Symphony Orchestra"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "fnCq7Sc8Hiw",
-      "VideoPublishedAtRaw": "2021-05-06T19:15:05Z",
-      "VideoPublishedAtDateTimeOffset": "2021-05-06T19:15:05+00:00",
-      "VideoPublishedAt": "2021-05-07T00:45:05+05:30"
-    },
-    "ETag": "fjLQFdwDKtmKB7LroArtql0d_-g",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45NDk1REZENzhEMzU5MDQz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "\u201ESo klopft das Schicksal an die Pforte\u201C \u2013 das soll Beethoven \u00FCber das ber\u00FChmte \u201EKlopf-Motiv\u201C in seiner F\u00FCnften Symphonie gesagt haben. Nagano und die Philharmoniker interpretieren die wohl bekannteste Symphonie \u00FCberhaupt.\n\nLudwig van Beethoven (1770-1827): \nSymphonie Nr. 5 c-Moll op. 67 \u201ESchicksalssymphonie\u201C\n\n00:30 I. Allegro con brio\n07:52 II. Andante con moto\n16:44 III. Allegro\n24:28 IV. Allegro \u2013 Presto\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#Elbphilharmonie #Musikfest2021 #IMFH",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 1,
-      "PublishedAtRaw": "2024-12-26T11:20:09Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:09+00:00",
-      "PublishedAt": "2024-12-26T16:50:09+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "fnCq7Sc8Hiw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Beethoven 5. Symphonie c-Moll op. 67, Elbphilharmonie | Nagano, Philharmonisches Staatsorchester",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "UMBd9iKqE04",
-      "VideoPublishedAtRaw": "2019-09-10T06:51:54Z",
-      "VideoPublishedAtDateTimeOffset": "2019-09-10T06:51:54+00:00",
-      "VideoPublishedAt": "2019-09-10T12:21:54+05:30"
-    },
-    "ETag": "vq3BNni5X7sPa-W7rJsKVHeH4yE",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5EQUE1NTFDRjcwMDg0NEMz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 2,
-      "PublishedAtRaw": "2024-12-26T11:20:38Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:38+00:00",
-      "PublishedAt": "2024-12-26T16:50:38+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "UMBd9iKqE04"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/UMBd9iKqE04/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/UMBd9iKqE04/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/UMBd9iKqE04/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/UMBd9iKqE04/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Bernstein \u201CMASS\u201D Kent Nagano, 2003",
-      "VideoOwnerChannelId": "UC-yMtb2pKDoEHpXBskvfMAw",
-      "VideoOwnerChannelTitle": "Sadanori Kobinata"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "MckpoEQkr6k",
-      "VideoPublishedAtRaw": "2022-12-27T09:01:09Z",
-      "VideoPublishedAtDateTimeOffset": "2022-12-27T09:01:09+00:00",
-      "VideoPublishedAt": "2022-12-27T14:31:09+05:30"
-    },
-    "ETag": "D16-7dqBU76iH_DX9EEzrrNai_w",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4yODlGNEE0NkRGMEEzMEQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Radu Lupu\nBrahms Piano Concerto No. 1\nDeutsches Sinfonieorchester Berlin, Kent Nagano\nMay 4, 2002",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 3,
-      "PublishedAtRaw": "2024-12-26T11:19:39Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:19:39+00:00",
-      "PublishedAt": "2024-12-26T16:49:39+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "MckpoEQkr6k"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/MckpoEQkr6k/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/MckpoEQkr6k/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/MckpoEQkr6k/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/MckpoEQkr6k/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/MckpoEQkr6k/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Brahms Piano Concerto No. 1 - Radu Lupu, Deutsches Sinfonieorchester Berlin, Nagano (May 4, 2002)",
-      "VideoOwnerChannelId": "UCN5ioUKvtPkTl_1g3O496JA",
-      "VideoOwnerChannelTitle": "Barron de Schl\u00F6zer"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "kqHRFziaJWg",
-      "VideoPublishedAtRaw": "2020-12-23T07:42:28Z",
-      "VideoPublishedAtDateTimeOffset": "2020-12-23T07:42:28+00:00",
-      "VideoPublishedAt": "2020-12-23T13:12:28+05:30"
-    },
-    "ETag": "rUcJ8c8Q-p_30qYOdED-ZwhpaWc",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5EMEEwRUY5M0RDRTU3NDJC",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Johannes Brahms (1833\u20131897): \nSerenade Nr. 2 A-Dur op. 16\n\n00:11 I. Allegro moderato\n09:28 II. Scherzo. Vivace \u2013 Trio\n12:16 III. Adagio non troppo\n20:45 IV. Quasi Menuetto \u2013 Trio\n25:50 V. Rondo. Allegro\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nUraufgef\u00FChrt wurde das Werk am 10. Februar 1860 von den Hamburger Philharmonikern unter der Leitung von Johannes Brahms im Gro\u00DFen W\u00F6rmerschen Concertsaal an der Fuhlentwiete, sp\u00E4ter bekannt geworden als Conventgarten, jener popul\u00E4re im 2. Weltkrieg zerst\u00F6rte Konzertsaal der Hansestadt. Selbstverst\u00E4ndlich stand 1860 der gerade erst 26-j\u00E4hrige Komponist selbst am Pult bei dieser Urauff\u00FChrung in seiner Geburtsstadt. Rund 160 Jahre sp\u00E4ter spielen die Philharmoniker das Werk nun in der Hamburgischen Staatsoper unter der Leitung von Generalmusikdirektor Kent Nagano. \n\nRecording: Wolfram Nehls, Thomas B\u00F6\u00DFl\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#staatsoperhamburg #kentnagano #philharmonischesstaatsorchesterhamburg #johannesbrahms",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 4,
-      "PublishedAtRaw": "2024-12-26T11:20:21Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:21+00:00",
-      "PublishedAt": "2024-12-26T16:50:21+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "kqHRFziaJWg"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/kqHRFziaJWg/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/kqHRFziaJWg/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/kqHRFziaJWg/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/kqHRFziaJWg/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/kqHRFziaJWg/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Brahms: Serenade Nr. 2 A-Dur op. 16 | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "HC49wsny2SE",
-      "VideoPublishedAtRaw": "2019-08-19T08:00:01Z",
-      "VideoPublishedAtDateTimeOffset": "2019-08-19T08:00:01+00:00",
-      "VideoPublishedAt": "2019-08-19T13:30:01+05:30"
-    },
-    "ETag": "8is4nyhdXRdmAtxQmVpug_yO6Ek",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41QTY1Q0UxMTVCODczNThE",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Bruckners Sinfonie Nr. 6 A-Dur, aufgef\u00FChrt vom SWR Symphonieorchester unter der Leitung von Kent Nagano. Live aufgenommen im Juli 2019 in der Liederhalle Stuttgart.\n\nAnton Bruckner \u2013 Sinfonie Nr. 6 A-Dur\n\n00:00 - I. Majestoso\n16:56 - II. Adagio. Sehr feierlich\n33:37 - III. Scherzo. Nicht schnell \u2013 Trio. Langsam\n42:12 - IV. Finale. Bewegt, doch nicht zu schnell\n\nMitwirkende:\nSWR Symphonieorchester\nDirigent: Kent Nagano\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Web: http://swr.li/web-concerts\n\u25BA Facebook: /klassikswrkultur\n\nImpressum: https://www.swr.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette:\nhttps://www.swr.de/home/netiquette-100\nDatenschutz: https://www.swr.de/datenschutz",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 5,
-      "PublishedAtRaw": "2024-12-26T11:20:42Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:42+00:00",
-      "PublishedAt": "2024-12-26T16:50:42+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "HC49wsny2SE"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/HC49wsny2SE/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/HC49wsny2SE/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/HC49wsny2SE/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/HC49wsny2SE/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/HC49wsny2SE/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Bruckner \u2013 Sinfonie Nr. 6 A-Dur | Kent Nagano | SWR Symphonieorchester",
-      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-      "VideoOwnerChannelTitle": "ARD Klassik"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "LF-W6-LhMj4",
-      "VideoPublishedAtRaw": "2015-10-29T17:21:04Z",
-      "VideoPublishedAtDateTimeOffset": "2015-10-29T17:21:04+00:00",
-      "VideoPublishedAt": "2015-10-29T22:51:04+05:30"
-    },
-    "ETag": "4bbP70TtjBkVm6igVJsHlztF2m8",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5ENDU4Q0M4RDExNzM1Mjcy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Darius Milhaud (1892-1974)\n\nLe b\u0153uf sur le toit (The Ox on the Roof: The Nothing-Doing Bar) Op. 58 (1919)\n\nOrchestre de l\u2019Op\u00E9ra de Lyon\nKent Nagano, conductor\n\nRecording date: 1992.\nEducational use only. No copyright infringement intended.\n\nThe influence of Brazilian music on Darius Milhaud\u2019s work is known. In this 1919, composition, he uses lines of songs he could hear in the streets of Rio de Janeiro when he worked at the French embassy in Brazil (1917-1919). Besides the music of Ernesto Nazareth, he used themes by the woman composer Chiquinha Gonzaga, maybe unaware that they were not songs from the folklore, thus of public domain, but by a highly educated woman composer and pioneer feminist. Especially at 5:00 min, we can clearly recognize the song \u201CCorta-jaca\u201D by Chiquinha Gonzaga, a \u201CBrazilian tango,\u201D a very syncopated dance music, quite popular at the time and one of the Brazilian musical expressions of the \u201Cbelle \u00E9poque.\u201D Here is a link for a comparison: https://www.youtube.com/watch?v=BXWBSmava34.",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 6,
-      "PublishedAtRaw": "2024-12-26T11:20:54Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:54+00:00",
-      "PublishedAt": "2024-12-26T16:50:54+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "LF-W6-LhMj4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Darius Milhaud: Le b\u0153uf sur le toit, Orchestre de l\u2019Op\u00E9ra de Lyon Kent Nagano",
-      "VideoOwnerChannelId": "UCm2eimcQPZ141Q6LLsN2EtQ",
-      "VideoOwnerChannelTitle": "Roberto Carvalho de Magalh\u00E3es"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "BONNivKhf4I"
-    },
-    "ETag": "28VNgob8MtUAjG-AW-CuYsZtCiQ",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45NzUwQkI1M0UxNThBMkU0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is unavailable.",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 7,
-      "PublishedAtRaw": "2025-09-04T05:33:30Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:33:30+00:00",
-      "PublishedAt": "2025-09-04T11:03:30+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "BONNivKhf4I"
-      },
-      "Thumbnails": {},
-      "Title": "Deleted video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "SC8eATis6Ek",
-      "VideoPublishedAtRaw": "2016-08-02T11:50:14Z",
-      "VideoPublishedAtDateTimeOffset": "2016-08-02T11:50:14+00:00",
-      "VideoPublishedAt": "2016-08-02T17:20:14+05:30"
-    },
-    "ETag": "UQRyve2-7i4SUBi7ookrphir050",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC44Mjc5REFBRUE2MTdFRDU0",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Edward Gregson: Violin Concerto [Kent Nagano-Halle Orchestra- Lyn Fletcher, violin]. premiere",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 8,
-      "PublishedAtRaw": "2025-09-04T05:38:44Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:38:44+00:00",
-      "PublishedAt": "2025-09-04T11:08:44+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "SC8eATis6Ek"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/SC8eATis6Ek/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/SC8eATis6Ek/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/SC8eATis6Ek/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Edward Gregson: Violin Concerto [Nagano-Halle Orch-Fletcher] premiere",
-      "VideoOwnerChannelId": "UCfFPCgr45pH_pzslan4EriQ",
-      "VideoOwnerChannelTitle": "James Stuart"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "u9v7zOSgc_c",
-      "VideoPublishedAtRaw": "2021-09-23T08:21:35Z",
-      "VideoPublishedAtDateTimeOffset": "2021-09-23T08:21:35+00:00",
-      "VideoPublishedAt": "2021-09-23T13:51:35+05:30"
-    },
-    "ETag": "_q_VcdSPjTKWLGBtjDl7wflLe_s",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5CMEQ2Mjk5NTc3NDZFRUNB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Franz Schubert (1797-1828): \nDeutsche T\u00E4nze op. posthum D 820\nf\u00FCr Orchester gesetzt von Anton Webern\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nVon Schuberts Deutschen T\u00E4nzen f\u00FCr Klavier verfasste Anton Webern 1931 eine Bearbeitung f\u00FCr kleines Orchester, Holzbl\u00E4ser und zwei H\u00F6rner bearbeitet. \u201ESeine Eingriffe beschr\u00E4nken sich auf teilweise Stimmteilungen und solistische Hervorhebungen. Die Instrumentierung wollte die Struktur des Werkes klarer hervortreten lassen und einen schubertnahen Klang bewahren. Herausgekommen ist fast ein Wunder an Pr\u00E4zision, Klangdifferenzierung und abgedunkelt leuchtenden Farben\u201C (Universal Edition)\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#elbphilharmonie #kentnagano #philharmonischesstaatsorchesterhamburg #franzschubert",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 9,
-      "PublishedAtRaw": "2025-09-04T05:41:07Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:41:07+00:00",
-      "PublishedAt": "2025-09-04T11:11:07+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "u9v7zOSgc_c"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Elbphilharmonie: Schubert Deutsche T\u00E4nze | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "bSBa9Wd5nIw",
-      "VideoPublishedAtRaw": "2022-06-16T16:29:35Z",
-      "VideoPublishedAtDateTimeOffset": "2022-06-16T16:29:35+00:00",
-      "VideoPublishedAt": "2022-06-16T21:59:35+05:30"
-    },
-    "ETag": "Oz288oaBkATdujWDZuZg4N5pMP8",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41MjE1MkI0OTQ2QzJGNzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "\u0022A Zappa Affair\u0022, Zellerbach Auditorium, University of California, Berkeley, CA, June 16, 1984 \r\n\r\n00:00 Bob In Dacron 1st Movement \r\n05:08 Bob In Dacron 2nd Movement \r\n11:51 Sad Jane 1st Movement \r\n16:00 Sad Jane 2nd Movement \r\n\r\nScene I - Bob\u0027s Clothes \r\nScene II - What Bob\u0027s Body Is Really Like \r\nScene III - Bob Gets Drunk \r\nScene IV - Bob Meets Jane \r\nScene V - Jane\u0027s Clothes \r\nScene VI - What Jane\u0027s Body Is Really Like \n\nPuppets choreography by Tandy Beal\n\nPhoto: FZ with the Puppets Cast, from Time magazine, June 18, 1984\n\nThe Black Page - The Zappa Page https://www.facebook.com/zblackpage/",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 10,
-      "PublishedAtRaw": "2024-12-26T11:19:47Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:19:47+00:00",
-      "PublishedAt": "2024-12-26T16:49:47+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "bSBa9Wd5nIw"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Frank Zappa/The Berkeley Symphony Orchestra conducted by Kent Nagano - Bob \u0026 Jane, June 16, 1984",
-      "VideoOwnerChannelId": "UC4qr1xHPjd4U1iW-jzv4xuQ",
-      "VideoOwnerChannelTitle": "Black Page"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "x4kDBtLNuj4",
-      "VideoPublishedAtRaw": "2021-05-29T19:10:12Z",
-      "VideoPublishedAtDateTimeOffset": "2021-05-29T19:10:12+00:00",
-      "VideoPublishedAt": "2021-05-30T00:40:12+05:30"
-    },
-    "ETag": "7WAmihE_e-bdBYuPl7BdwfHbJiA",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4xMkVGQjNCMUM1N0RFNEUx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Franz Schubert (1797-1828): Symphonie Nr. 3 D-Dur D 200\n\n00:17 I. Adagio maestoso \u2013 Allegro con brio\n09:26 II. Allegretto \n12:56 III. Menuetto. Vivace \u2013 Trio\n17:03 IV. Presto vivace\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#elbphilharmonie #kentnagano #philharmonischesstaatsorchesterhamburg #franzschubert",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 11,
-      "PublishedAtRaw": "2024-12-26T11:19:56Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:19:56+00:00",
-      "PublishedAt": "2024-12-26T16:49:56+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "x4kDBtLNuj4"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Franz Schubert: Symphonie Nr. 3 D-Dur | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "lcGEGl5bdbk",
-      "VideoPublishedAtRaw": "2013-11-15T01:59:06Z",
-      "VideoPublishedAtDateTimeOffset": "2013-11-15T01:59:06+00:00",
-      "VideoPublishedAt": "2013-11-15T07:29:06+05:30"
-    },
-    "ETag": "LF5333-R4aWRi_X1zgCeE4qGwtU",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4zRDBDOEZDOUM0MDY5NEEz",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nErich Wolfgang Korngold\nViolin Concerto in D major, Op 35\n\n1 Moderato nobile\n2 Romanze\n3 Allegro assai vivace\n\nHilary Hahn, violin\n\nDeutsche Symphonie Orchester\nKent Nagano, conductor\n\nLive recording.",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 12,
-      "PublishedAtRaw": "2025-09-04T05:39:53Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:39:53+00:00",
-      "PublishedAt": "2025-09-04T11:09:53+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "lcGEGl5bdbk"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Hilary Hahn - Korngold - Violin Concerto in D major, Op 35",
-      "VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
-      "VideoOwnerChannelTitle": "Classical Vault 1"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "h9tGSVcfqRg",
-      "VideoPublishedAtRaw": "2022-05-13T14:42:38Z",
-      "VideoPublishedAtDateTimeOffset": "2022-05-13T14:42:38+00:00",
-      "VideoPublishedAt": "2022-05-13T20:12:38+05:30"
-    },
-    "ETag": "58ZFCAUp-wQBFPf8wD2_k8QHpwg",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4wMTcyMDhGQUE4NTIzM0Y5",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Josef Suk (1874-1935): \nSerenade f\u00FCr Streicher op. 6  \n\n0:06 Andante con moto\n5:33 Allegro ma non troppo e grazioso\n11:43 Adagio\n21:42 Allegro giocoso, ma non troppo presto\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nVideo: Philip Loeper\nRecording: Wolfram Nehls, Thomas B\u00F6\u00DFl\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de \n\n#philharmonischesstaatsorchesterhamburg #staatsoperhamburg #josefsuk #kentnagano",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 13,
-      "PublishedAtRaw": "2024-12-26T11:19:43Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:19:43+00:00",
-      "PublishedAt": "2024-12-26T16:49:43+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "h9tGSVcfqRg"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Josef Suk: Serenade f\u00FCr Streicher op. 6 | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "oicVWlNfd3s",
-      "VideoPublishedAtRaw": "2020-06-17T02:00:03Z",
-      "VideoPublishedAtDateTimeOffset": "2020-06-17T02:00:03+00:00",
-      "VideoPublishedAt": "2020-06-17T07:30:03+05:30"
-    },
-    "ETag": "9bK-eu6DXrxBRXiFAv2xWzX0XTk",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45ODRDNTg0QjA4NkFBNkQy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Mahler No9\n The Hall\u00E9 conducted by Kent Nagano\n(1996 Tokyo)",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 14,
-      "PublishedAtRaw": "2024-12-26T11:20:25Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:25+00:00",
-      "PublishedAt": "2024-12-26T16:50:25+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "oicVWlNfd3s"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/oicVWlNfd3s/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/oicVWlNfd3s/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/oicVWlNfd3s/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "\u30B1\u30F3\u30C8\u30FB\u30CA\u30AC\u30CE\u3000\u30DE\u30FC\u30E9\u30FC9\u756A\u3000\u30CF\u30EC\u7BA1\u5F26\u697D\u56E3\uFF081996\uFF09",
-      "VideoOwnerChannelId": "UCK8gA4W2dku6XOcAdEtYXJA",
-      "VideoOwnerChannelTitle": "tamatamanakaji"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "eAUwb8ctQF8",
-      "VideoPublishedAtRaw": "2023-11-19T11:58:15Z",
-      "VideoPublishedAtDateTimeOffset": "2023-11-19T11:58:15+00:00",
-      "VideoPublishedAt": "2023-11-19T17:28:15+05:30"
-    },
-    "ETag": "Rvwh44C8VFs_EQWZ2eLNQZP980A",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DQ0MyQ0Y4Mzg0M0VGOEYw",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Nella sua continua ricerca di buona musica contemporanea, Kent Nagano si \u00E8 associato ad un certo numero di rockstar negli ultimi anni (tra cui Ronnie Montrose), un\u0027associazione che raggiunger\u00E0 il massimo dei frutti questo fine settimana quando la Berkeley Symphony presenter\u00E0 un concerto dedicato alla seria musica orchestrale di Frank Zappa.\n\n\u201CEro all\u0027IRCAM del Centro Georges Pompidou di Parigi, l\u0027Istituto Boulez per la Musica Contemporanea. Ho scoperto che Boulez aveva chiesto un pezzo proprio a Frank Zappa - ricorda Nagano - Sono rimasto davvero sbalordito perch\u00E9 Boulez pu\u00F2 pretendere il meglio. Non appena Frank \u00E8 venuto a suonare al Berkeley Community Theatre, ho chiamato il suo management a Los Angeles e ho chiesto di parlare con Zappa del suo pezzo orchestrale. Frank mi ha chiamato pi\u00F9 tardi, con mia grande sorpresa. Mi ha detto di fare un salto nel backstage tra uno spettacolo e l\u0027altro e l\u2019ho raggiunto. Non sapevo bene cosa aspettarmi, ma non mi aspettavo di vedere un\u0027opera con la difficolt\u00E0 di una partitura di Elliott Carter, la complessit\u00E0 di un\u0027opera di Boulez, la sincerit\u00E0 di Takemitsu e l\u0027intensit\u00E0 trascinante di Var\u00E8se. Sono rimasto sbalordito seduto l\u00EC in questo squallido camerino a guardare Frank che dirigeva le persone nel suo modo inimitabile\u201D.\n\u201CHo portato a casa la colonna sonora e ho trascorso diverse settimane a esaminarla con molta attenzione, e alla fine ho concluso che si trattava di un\u2019opera davvero importante. Ho contattato il suo ufficio chiedendo di eseguire la partitura con la Berkeley Symphony e la risposta \u00E8 stata: \u0027Cosa ti fa pensare di poterlo eseguire?\u0027 perch\u00E9 il pezzo \u00E8 davvero, davvero difficile. Frank mi ha invitato a scendere e parlare con lui pi\u00F9 seriamente. Voleva essere certo che si potesse programmare il numero necessario di prove. Nessuna di queste partiture orchestrali che scriveva da quando aveva 14 anni era mai stata eseguita\u201D.\n\n\u201CPoche settimane dopo, di punto in bianco, Frank mi ha chiamato dicendo che voleva registrare parte della sua musica. Stava per assumere la London Symphony Orchestra e avrebbe preso in considerazione l\u0027idea di farm dirigere. Per un periodo di quasi due mesi sono rimasto sveglio e ho dormito circa tre ore. Per molto tempo non ho dormito, quelle partiture stavano forzando la mia tecnica personale. Sono cresciuto parecchio solo imparando le partiture\u201D.\n\u201CPoi, quando siamo andati a Londra, sapevo cosa avrebbero pensato i membri dell\u0027orchestra: musica di un musicista rock, sar\u00E0 una giornata facile. Abbiamo iniziato con la colonna sonora pi\u00F9 difficile e si scatenava il panico quando i musicisti aprivano le partiture\u201D.\n\u201CC\u2019era molta tensione. Era un\u0027orchestra con cui non avevo mai lavorato prima e Frank Zappa era seduto proprio dietro di me. E\u2019 stato un compositore meraviglioso con cui lavorare perch\u00E9 \u00E8 rimasto fuori dai piedi quando doveva restare fuori dai piedi, eppure era sempre l\u00EC per rispondere a qualsiasi domanda. Quando lavori con qualcuno di quel calibro, diventa cos\u00EC eccitante, perch\u00E9 sai che lavorerai ai pi\u00F9 alti standard e non dovrai scendere a compromessi a causa del tempo\u201D.\n\u201CQuando abbiamo eseguito la performance a Londra, qualcuno l\u0027ha descritta come una sagra della primavera, perch\u00E9 tutto il pubblico stava urlando. Non sono mai stato a un concerto sinfonico dove la gente urlava dopo. Non giovani, ma musicisti e critici seri. Non so nemmeno esattamente perch\u00E9 stessero urlando.\n\nQuesto fine settimana Nagano e la Berkeley Symphony presenteranno la prima americana di molte delle opere di Zappa incluse nella registrazione, cos\u00EC come la prima mondiale di Sinister Footwear. Inizialmente, era stato programmato l\u0027Oakland Ballet per il ballo delle opere ma \u00E8 stato cancellato e sostituito con uno spettacolo di marionette. Nagano ha visto il lavoro del burattinaio John Gilkerson e del San Francisco Miniature Theatre. Era cos\u00EC impressionato che ricorda di aver chiamato Zappa nel cuore della notte per elogiare queste monumentali marionette high-tech, alcune delle quali raggiungono un\u0027altezza di 36 piedi. I burattini volano nell\u0027aria, esplodono, si trasformano in strane creature con cinque paia di bulbi oculari: tutti effetti richiesti nelle partiture di Zappa, che creerebbero una certa difficolt\u00E0 ai ballerini in carne e ossa\u201D.\nNagano ha dichiarato che le opere di Zappa sono autentiche opere sinfoniche che suonano come Bartok o Var\u00E8se.\n\u201CFrank Zappa \u00E8 al fianco di Elliott Carter nella sua padronanza della scrittura sinfonica - commenta Nagano - e, allo stesso tempo, stabilisce un rapporto con i giovani\u201D.\nSecondo Nagano, gli artisti hanno la responsabilit\u00E0 di fornire al pubblico un\u0027opera non solo della pi\u00F9 alta qualit\u00E0 artistica, ma che contribuisca alla qualit\u00E0, alla comprensione, al godimento della vita. \n\u0022Ci\u00F2 che rende un\u0027orchestra un\u0027organizzazione vivente, impegnata a comunicare con entusiasmo, \u00E8 il fatto che i musicisti abbiano una sorta di propria ispirazione\u201D afferma Nagano.\n(East Bay Express, 15 giugno 1984)",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 15,
-      "PublishedAtRaw": "2025-09-04T05:34:30Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:34:30+00:00",
-      "PublishedAt": "2025-09-04T11:04:30+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "eAUwb8ctQF8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Kent Nagano meets Frank Zappa (part 1): Sinister Footwear (1984) \u002B interview Kent Nagano",
-      "VideoOwnerChannelId": "UCrPSlVyLbRpyzEPEJ09HOog",
-      "VideoOwnerChannelTitle": "What\u0027s Zappa"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "Z4WsurD_ntg",
-      "VideoPublishedAtRaw": "2021-05-19T20:18:46Z",
-      "VideoPublishedAtDateTimeOffset": "2021-05-19T20:18:46+00:00",
-      "VideoPublishedAt": "2021-05-20T01:48:46+05:30"
-    },
-    "ETag": "LBw5OG5EVZ7Kgk9YE9UPdJSMTnM",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DQUNERDQ2NkIzRUQxNTY1",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Johannes Brahms (1833-1897): \nSymphonie Nr. 3 F-Dur op. 90\n\n00:21 I. Allegro con brio\n14:33 II. Andante\n24:04 III. Poco Allegretto\n30:40 IV. Allegro\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#elbphilharmonie #kentnagano #philharmonischesstaatsorchesterhamburg #johannesbrahms",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 16,
-      "PublishedAtRaw": "2024-12-26T11:20:05Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:05+00:00",
-      "PublishedAt": "2024-12-26T16:50:05+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Z4WsurD_ntg"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Kent Nagano: Johannes Brahms Symphonie Nr. 3 F-Dur op. 90 | Philharmonisches Staatsorchester Hamburg",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "KvpCv3DvUzA",
-      "VideoPublishedAtRaw": "2023-12-28T21:21:31Z",
-      "VideoPublishedAtDateTimeOffset": "2023-12-28T21:21:31+00:00",
-      "VideoPublishedAt": "2023-12-29T02:51:31+05:30"
-    },
-    "ETag": "L5dAaxZzAUsKMMwySeipTWeXMlU",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC43MTI1NDIwOTMwQjIxMzNG",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "London Symphony Orchestra - Zappa Conducted By Kent Nagano \u2013 Zappa - Vol. II\nGenre: Classical\nStyle: Post-Modern\nAnn\u00E9e: 1995\n\nTracklist\n\nEnvelopes 4:04\nPedro\u0027s Dowry 10:25\nBogus Pomp 24:31\nStrictly Genteel 6:56",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 17,
-      "PublishedAtRaw": "2025-09-04T05:34:25Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:34:25+00:00",
-      "PublishedAt": "2025-09-04T11:04:25+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "KvpCv3DvUzA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "London Symphony Orchestra - Zappa Conducted By Kent Nagano \u2013 Zappa - Vol. II",
-      "VideoOwnerChannelId": "UCgDor4WYnIGvzCMzBfeECJA",
-      "VideoOwnerChannelTitle": "Impakktt"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "Bt8Ex8Hj0SA",
-      "VideoPublishedAtRaw": "2024-01-11T17:31:19Z",
-      "VideoPublishedAtDateTimeOffset": "2024-01-11T17:31:19+00:00",
-      "VideoPublishedAt": "2024-01-11T23:01:19+05:30"
-    },
-    "ETag": "INHMqGHMrzF2vRrs1zxiQeuqhHY",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DNzE1RjZEMUZCMjA0RDBB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "00:00 First Movement \n04:55 Second Movement \n14:24 Third Movement \n\nThe London Symphony Orchestra conducted by Kent Nagano \n\u002B \nDavid Ocker \u2014 Solo Clarinet \nChad Wackerman \u2014 Drums \nEd Mann \u2014 Featured Percussionist \n\nMo\u0027N Herb\u0027s Vacation was originally named W\u00F8\u00F6\u00F6\u00F8\u0142, and successively copyrighted as W0oo0l in 1978 and 1981.\n\nRip Rense, \u0022Frank Zappa\u2014A Would-be Chemist Who Turned To Music,\u0022 The Valley News, December 1977:\nHe recently completed [...] a new symphonic work called \u0022Wooool\u0022 (spelled with slashes through the first and last o\u0027s, umlauts over the two middle o\u0027s, and a tilde over the L\u2014thus pronounced something like \u0022Woh-ooo-oh-luh,\u0022 but modern typesetting prohibits such reproduction here.)\n\u0022Wooool\u0022 is scored for a Mahler-sized orchestra: 60 strings, four flutes, piccolo, all other woodwinds four-deep, eight french horns, four trumpets, three trombones, bass, tuba, six percussionists.\n\nKent Nagano, interviewed by Dan Forte, Mix, June 1983:\nWhen I heard that Frank Zappa had been commissioned to write some pieces for Pierre Boulez, I was really curious, because that\u0027s one of the biggest honors a composer can possibly get\u2014to have Boulez ask you to write a piece for his ensemble.\nSo I contacted Frank\u0027s management and met with him backstage when he played the Berkeley Community Theater, late in 1981. He showed me a score and said, \u0022This is what I do.\u0022 So I sat there and looked at it, and it was just an amazing score. It was not some thing that I could just sit and casually glance over. Very, very sophisticated stuff; I couldn\u0027t even hear it\u2014I had to take it home and look at it at the piano. He let me borrow it to study and gave me a couple of other ones. It took me a long time just to get through it. Bear in mind, I\u0027m one of those overly educated erudite jerks\u2014heavy theory background. I was very excited by it. For someone like me, who peruses\u2014without exaggeration\u2014maybe 50 or 60 brand new scores a year, it was so refreshing to see a very finely crafted score like that. So I called Frank and explained that I\u0027d like to perform the piece. His answer, which now I realize is typical but at the time sort of took me aback, was, \u0022What makes you think you can play the piece?\u0022\nWe had a meeting about it, but the main issue was being able to pull together enough rehearsal time to do it properly, which is a very expensive venture. The music is so difficult it requires maybe five times the normal amount of rehearsal, so if you\u0027re working with a union orchestra it means big dollars. But then Frank called me with the invitation to go to London.\n\nPhoto by Michael Putland\n\nThe Black Page - The Zappa Page https://www.facebook.com/zblackpage/",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 18,
-      "PublishedAtRaw": "2025-09-04T05:34:12Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:34:12+00:00",
-      "PublishedAt": "2025-09-04T11:04:12+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Bt8Ex8Hj0SA"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "LSO (cond. Kent Nagano) - Mo\u0027N Herb\u0027s Vacation (Frank Zappa) The Barbican, London, January 11, 1983",
-      "VideoOwnerChannelId": "UC4qr1xHPjd4U1iW-jzv4xuQ",
-      "VideoOwnerChannelTitle": "Black Page"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "NAvua455dls",
-      "VideoPublishedAtRaw": "2016-12-05T22:00:02Z",
-      "VideoPublishedAtDateTimeOffset": "2016-12-05T22:00:02+00:00",
-      "VideoPublishedAt": "2016-12-06T03:30:02+05:30"
-    },
-    "ETag": "QS0OP1ntqkd4YUPi-JXaMU100S0",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45RTgxNDRBMzUwRjQ0MDhC",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Tamara, one of Balakirev\u0027s orchestra masterpiece inspired after a lyric of Lermontov is performed by the Orchestre Symphonique de Montreal under Kent Nagano.",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 19,
-      "PublishedAtRaw": "2024-12-26T11:20:50Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:50+00:00",
-      "PublishedAt": "2024-12-26T16:50:50+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "NAvua455dls"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/NAvua455dls/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/NAvua455dls/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/NAvua455dls/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/NAvua455dls/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/NAvua455dls/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "M.A. Balakirev: Tamara symphonic poem; conductor Kent Nagano",
-      "VideoOwnerChannelId": "UCrBPi8d-uKG6fjDJBQEaO1A",
-      "VideoOwnerChannelTitle": "lorenzo costa"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "EW9KCV0X2ms",
-      "VideoPublishedAtRaw": "2022-04-25T20:27:10Z",
-      "VideoPublishedAtDateTimeOffset": "2022-04-25T20:27:10+00:00",
-      "VideoPublishedAt": "2022-04-26T01:57:10+05:30"
-    },
-    "ETag": "ozF68T531IlaYbjYmwevrHXTsbk",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4yQUE2Q0JEMTk4NTM3RTZC",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 20,
-      "PublishedAtRaw": "2025-09-04T05:35:48Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:35:48+00:00",
-      "PublishedAt": "2025-09-04T11:05:48+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "EW9KCV0X2ms"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/EW9KCV0X2ms/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/EW9KCV0X2ms/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/EW9KCV0X2ms/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "MA Balakirev Tamara symphonic poem conductor Kent Nagano",
-      "VideoOwnerChannelId": "UCe6WHcftwavh984i_jMXfSw",
-      "VideoOwnerChannelTitle": "Probando Probando"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "dHdlvmmZJus",
-      "VideoPublishedAtRaw": "2019-09-24T18:20:26Z",
-      "VideoPublishedAtDateTimeOffset": "2019-09-24T18:20:26+00:00",
-      "VideoPublishedAt": "2019-09-24T23:50:26+05:30"
-    },
-    "ETag": "Mpw4xy-BDv9-Amv7TmRKV7VQhIU",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41Mzk2QTAxMTkzNDk4MDhF",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Orchestre symphonique de Montr\u00E9al\nKent Nagano, chef d\u0027orchestre/ director\n\nMahler, Symphony no. 5 in C-sharp minor (76 min)\nMahler, Symphonie no 5 en do di\u00E8se mineur (76 min)\n\nNote de programme / Program note : http://bit.ly/2rfI9wd\n\nTo see the full concert including Ravel, Introduction et Allegro: medici.tv\nPour voir le concert complet avec Ravel, Introduction et Allegro: medici.tv\n\nConcert enregistr\u00E9 \u00E0 la Maison symphonique de Montr\u00E9al le 21 septembre 2019.\nRecorded live at the Maison symphonique de Montr\u00E9al on September 21, 2019.",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 21,
-      "PublishedAtRaw": "2024-12-26T11:20:34Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:34+00:00",
-      "PublishedAt": "2024-12-26T16:50:34+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "dHdlvmmZJus"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/dHdlvmmZJus/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/dHdlvmmZJus/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/dHdlvmmZJus/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/dHdlvmmZJus/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/dHdlvmmZJus/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mahler, Symphonie n\u00B0 5 - Kent Nagano, Orchestre symphonique de Montr\u00E9al",
-      "VideoOwnerChannelId": "UCTpzmAzVm5-cQNwgIbcsqCw",
-      "VideoOwnerChannelTitle": "Orchestre symphonique de Montr\u00E9al"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "m9mhI30C3QM",
-      "VideoPublishedAtRaw": "2022-02-23T03:03:00Z",
-      "VideoPublishedAtDateTimeOffset": "2022-02-23T03:03:00+00:00",
-      "VideoPublishedAt": "2022-02-23T08:33:00+05:30"
-    },
-    "ETag": "OmVQGX3VAJRNjxb-CoUyOKvvQgQ",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4wOTA3OTZBNzVEMTUzOTMy",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Felix Mendelssohn\u0027s Violin Concerto in E minor, Op. 64, is his last concerto. Well received at its premiere, it has remained among the most prominent and highly-regarded violin concertos. It holds a central place in the violin repertoire and has developed a reputation as an essential concerto for all aspiring concert violinists to master, and usually one of the first Romantic era concertos they learn. A typical performance lasts just under half an hour.\n\nMendelssohn originally proposed the idea of the violin concerto to Ferdinand David, a close friend and then concertmaster of the Leipzig Gewandhaus Orchestra. Although conceived in 1838, the work took another six years to complete and was not premiered until 1845. During this time, Mendelssohn maintained a regular correspondence with David, who gave him many suggestions. The work itself was one of the foremost violin concertos of the Romantic era and was influential on many other composers.\n\nAlthough the concerto consists of three movements in a standard fast\u2013slow\u2013fast structure and each movement follows a traditional form, the concerto was innovative and included many novel features for its time. Distinctive aspects include the almost immediate entrance of the violin at the beginning of the work (rather than following an orchestral preview of the first movement\u0027s major themes, as was typical in Classical-era concertos) and the through-composed form of the concerto as a whole, in which the three movements are melodically and harmonically connected and played attacca (each movement immediately following the previous one without any pauses).\n\nInfo: https://en.wikipedia.org/wiki/Violin_Concerto_(Mendelssohn)\nVideo: https://www.youtube.com/watch?v=I03Hs6dwj7E\n\n#Mendelssohn #Ray Chen #Kent Nagano",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 22,
-      "PublishedAtRaw": "2024-12-26T11:19:51Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:19:51+00:00",
-      "PublishedAt": "2024-12-26T16:49:51+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "m9mhI30C3QM"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/m9mhI30C3QM/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/m9mhI30C3QM/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/m9mhI30C3QM/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/m9mhI30C3QM/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/m9mhI30C3QM/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Mendelssohn Violin Concerto in E minor / Ray Chen / Kent Nagano / Gothenburg Symphony Orchestra",
-      "VideoOwnerChannelId": "UCt-JKeQ_8ZsdbLqCufnZnoQ",
-      "VideoOwnerChannelTitle": "Patetikus"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "X0QkoFsYj4M",
-      "VideoPublishedAtRaw": "2023-02-19T09:51:21Z",
-      "VideoPublishedAtDateTimeOffset": "2023-02-19T09:51:21+00:00",
-      "VideoPublishedAt": "2023-02-19T15:21:21+05:30"
-    },
-    "ETag": "G86rRBhLiog2yJKAlpbdj_sXYJ8",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41NkI0NEY2RDEwNTU3Q0M2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Richard Wagner: Tristan und Isolde, Prelude and \u201CLiebestod\u201D\nArnold Schoenberg: The Transfigured Night op.4\nFranz Schubert: Symphony No. 8 in B minor, D. 759, \u201CUnfinished\u201D\nRichard Strauss: Four Last Songs\n\nMiah Persson, soprano\nMontreal Symphony Orchestra\nKent Nagano, conductor",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 23,
-      "PublishedAtRaw": "2024-12-26T11:19:35Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:19:35+00:00",
-      "PublishedAt": "2024-12-26T16:49:35+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "X0QkoFsYj4M"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/X0QkoFsYj4M/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/X0QkoFsYj4M/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/X0QkoFsYj4M/mqdefault.jpg",
-          "Width": 320
-        }
-      },
-      "Title": "Miah Persson \u0026 Kent Nagano perform with Montreal Symphony Orchestra",
-      "VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
-      "VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "Wi709dYOM38",
-      "VideoPublishedAtRaw": "2020-04-06T19:08:56Z",
-      "VideoPublishedAtDateTimeOffset": "2020-04-06T19:08:56+00:00",
-      "VideoPublishedAt": "2020-04-07T00:38:56+05:30"
-    },
-    "ETag": "CYSSHyy_gBqjWWiAiUA0sGo2RBc",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4zMDg5MkQ5MEVDMEM1NTg2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Fundada en 1934, la OSM es reconocida como una de las mejores orquestas en el mundo. Se present\u00F3 en el Cervantino con Kent Nagano al frente de la agrupaci\u00F3n para interpretar piezas de Mozart y Mahler.\n\nProducci\u00F3n: TV4 Guanajuato.\nDerechos reservados y autorizados por las agrupaci\u00F3n  para su distribuci\u00F3n a trav\u00E9s de los canales oficiales del Festival Internacional Cervantino. Octubre, 2019.",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 24,
-      "PublishedAtRaw": "2024-12-26T11:20:30Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:30+00:00",
-      "PublishedAt": "2024-12-26T16:50:30+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Wi709dYOM38"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/Wi709dYOM38/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/Wi709dYOM38/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/Wi709dYOM38/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/Wi709dYOM38/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/Wi709dYOM38/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Orquesta Sinf\u00F3nica de Montreal bajo la direcci\u00F3n de Kent Nagano en Festival Internacional Cervantino",
-      "VideoOwnerChannelId": "UCUEb0k8IntJYXexe5TRc47g",
-      "VideoOwnerChannelTitle": "Festival Internacional Cervantino"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "ierL0LwMm74",
-      "VideoPublishedAtRaw": "2021-01-11T12:52:33Z",
-      "VideoPublishedAtDateTimeOffset": "2021-01-11T12:52:33+00:00",
-      "VideoPublishedAt": "2021-01-11T18:22:33+05:30"
-    },
-    "ETag": "6hORUn2AIRUvB6UBt0QeeUNIfdE",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC40NzZCMERDMjVEN0RFRThB",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Anton Bruckner (1824-1896): Quintett F-Dur \n(bearbeitet f\u00FCr Streichorchester von Hans Stadlmair)\n\u2003\n00:12 I. Gem\u00E4\u00DFigt\n15:52 II. Scherzo. Schnell \u2013 Trio. Langsamer\n24:28 III. Adagio\n40:03 IV. Finale. Lebhaft bewegt\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nBuckners Streichquintett z\u00E4hlt zu den wenigen kammermusikalischen Werken des gro\u00DFen Symphonikers und doch kann es die symphonische Klangsprache seines Sch\u00F6pfers nicht verbergen. Bruckner-Biograf Mathias Hansen beschrieb es denn auch \u201Ewie ein getreues Echo Bruckner\u0027scher Sinfonien, gespielt von einem Mahler\u0027schen Fernorchester.\u201C Kent Nagano und die Philharmoniker sp\u00FCren diesem Echo in der Sakral-Akustik von St. Michaelis nach und pr\u00E4sentieren das Werk in der Fassung f\u00FCr Streichorchester von Hans Stadlmair.\n\nRecording: Wolfram Nehls, Thomas B\u00F6\u00DFl\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de\nhttps://www.staatsorchester-hamburg.de/\n\n#philharmonischesstaatsorchesterhamburg #stmichaelishamburg #kentnagano #antonbruckner",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 25,
-      "PublishedAtRaw": "2024-12-26T11:20:16Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:16+00:00",
-      "PublishedAt": "2024-12-26T16:50:16+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "ierL0LwMm74"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/ierL0LwMm74/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/ierL0LwMm74/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/ierL0LwMm74/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/ierL0LwMm74/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/ierL0LwMm74/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Nagano: Bruckner Quintett F-Dur (Streichorchesterfassung) | Philharmonisches Staatsorchester Hamburg",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "Yy_AWQkjcT4"
-    },
-    "ETag": "jxiK9UaM9HBMCNeFeh3MfjLP7d8",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41QUZGQTY5OTE4QTREQUU4",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "This video is private.",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 26,
-      "PublishedAtRaw": "2025-09-04T05:39:46Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:39:46+00:00",
-      "PublishedAt": "2025-09-04T11:09:46+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "Yy_AWQkjcT4"
-      },
-      "Thumbnails": {},
-      "Title": "Private video"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "tle2naBF75c",
-      "VideoPublishedAtRaw": "2025-07-18T10:47:43Z",
-      "VideoPublishedAtDateTimeOffset": "2025-07-18T10:47:43+00:00",
-      "VideoPublishedAt": "2025-07-18T16:17:43+05:30"
-    },
-    "ETag": "OawE08TSOAOyiKzZ5zjD4D2V6Rg",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5GM0Q3M0MzMzY5NTJFNTdE",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Richard Strauss: Ein Heldenleben op. 40\nDSO Berlin\nKent Nagano\nHans Maile, solo violin\n\nlive Suntory Hall, Tokyo, 1999/10/29",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 27,
-      "PublishedAtRaw": "2025-09-04T05:33:15Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:33:15+00:00",
-      "PublishedAt": "2025-09-04T11:03:15+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "tle2naBF75c"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/tle2naBF75c/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/tle2naBF75c/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/tle2naBF75c/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/tle2naBF75c/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/tle2naBF75c/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Richard Strauss: Ein Heldenleben op. 40 (Kent Nagano / Hans Maile)",
-      "VideoOwnerChannelId": "UCHK2QDxt7yQzYBrE6QAf3Tw",
-      "VideoOwnerChannelTitle": "MDCelloBerlin"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "tpT6kWcddq0",
-      "VideoPublishedAtRaw": "2025-11-30T13:52:29Z",
-      "VideoPublishedAtDateTimeOffset": "2025-11-30T13:52:29+00:00",
-      "VideoPublishedAt": "2025-11-30T19:22:29+05:30"
-    },
-    "ETag": "RmkhuRTVHpOQiXu25SIo5LdBSg8",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC40QTA3NTU2RkM1QzlCMzYx",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Here is the first half of the Russian National Orchestra\u0027s 20th anniversary concert I uploaded a few weeks ago. Luckily the video available here is far less fragmented - only missing for the Beethoven.\n-----------------------------------------------------------------\n\u25BA 00:00. Ludwig van Beethoven -  Leonore Overture No. 3\n\u25BA 12:35. Richard Strauss - Don Juan\n\u25BA 30:31. Maurice Ravel - Bolero\nRussian National Orchestra, Kent Nagano\nMoscow, Tchaikovsky Concert Hall, 5 November 2010\n-----------------------------------------------------------------\n\u041B\u044E\u0434\u0432\u0438\u0433 \u0432\u0430\u043D \u0411\u0435\u0442\u0445\u043E\u0432\u0435\u043D - \u00AB\u041B\u0435\u043E\u043D\u043E\u0440\u0430\u00BB No. 3\n\u0420\u0438\u0445\u0430\u0440\u0434 \u0428\u0442\u0440\u0430\u0443\u0441 - \u0414\u043E\u043D \u0416\u0443\u0430\u043D\n\u0420\u0430\u0432\u0435\u043B\u044C - \u0411\u043E\u043B\u0435\u0440\u043E\n\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u0439 \u041D\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u041E\u0440\u043A\u0435\u0441\u0442\u0440, \u041A\u0435\u043D\u0442 \u041D\u0430\u0433\u0430\u043D\u043E\n\u041C\u043E\u0441\u043A\u0432\u0430, \u041A\u043E\u043D\u0446\u0435\u0440\u0442\u043D\u044B\u0439 \u0417\u0430\u043B \u0427\u0430\u0439\u043A\u043E\u0432\u0441\u043A\u043E\u0433\u043E, 5 \u043D\u043E\u044F\u0431\u0440\u044F 2010\n20-\u043B\u0435\u0442\u043D\u0438\u0439 \u044E\u0431\u0438\u043B\u0435\u0439 \u0420\u041D\u041E",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 28,
-      "PublishedAtRaw": "2025-11-30T15:50:45Z",
-      "PublishedAtDateTimeOffset": "2025-11-30T15:50:45+00:00",
-      "PublishedAt": "2025-11-30T21:20:45+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "tpT6kWcddq0"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/tpT6kWcddq0/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/tpT6kWcddq0/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/tpT6kWcddq0/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/tpT6kWcddq0/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/tpT6kWcddq0/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "RNO 20th Anniversary: Kent Nagano conducts Beethoven, Strauss, Ravel (Moscow, 2010)",
-      "VideoOwnerChannelId": "UCqvpGMR-NgBFe0I9etclJdA",
-      "VideoOwnerChannelTitle": "Classical Rarities"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "E1LGQXA5AgY",
-      "VideoPublishedAtRaw": "2021-06-26T14:05:29Z",
-      "VideoPublishedAtDateTimeOffset": "2021-06-26T14:05:29+00:00",
-      "VideoPublishedAt": "2021-06-26T19:35:29+05:30"
-    },
-    "ETag": "uFzI8ULyfSs7q-llq7TIYYT0M7o",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DMkU4NTY1QUFGQTYwMDE3",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "20210625  Symphonic Concert, Kent Nagano\nPhilharmonie Berlin, Germany\n\nPianist: Seong-Jin Cho\nDeutsches Symphonie-Orchester Berlin\nConductor : Kent Nagano\n\nLudwig van Beethoven Piano Concerto No. 2 in B flat major Op.19\n00:01   I. Allegro con brio \n13:52  II. Adagio \n22:14 III. Rondo, Allegro molto \n28:22 Interview      \n\nBroadcasted live in concert at deutschland funk kultur radio from Philharmonie Berlin on Jun 25, 2021\n\nlistening service is available until July 25, 2021 - 8:03 p.m. at https://www.deutschlandfunkkultur.de/kent-nagano-und-das-deutsche-symphonie-orchester-berlin-mit.1091.de.html?dram:article_id=498978",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 29,
-      "PublishedAtRaw": "2025-09-04T05:36:04Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:36:04+00:00",
-      "PublishedAt": "2025-09-04T11:06:04+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "E1LGQXA5AgY"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Seong-Jin Cho : Beethoven Piano Concerto No. 2 (20210625 Berlin)",
-      "VideoOwnerChannelId": "UCbuuWGqGgMoeF5tC4uMEatg",
-      "VideoOwnerChannelTitle": "Beautiful Life"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "3u-unvYedx8",
-      "VideoPublishedAtRaw": "2015-05-20T10:06:25Z",
-      "VideoPublishedAtDateTimeOffset": "2015-05-20T10:06:25+00:00",
-      "VideoPublishedAt": "2015-05-20T15:36:25+05:30"
-    },
-    "ETag": "oerBxugdfuscP8wDF5IYj9sF-sQ",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC43NDhFRTgwOTRERTU4Rjg3",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "\uD83D\uDCDD Never forget what your teacher told you again. I built Tonic Notes to turn your lesson into a clear summary, a homework list, and a full transcript: https://tonicnotes.app.link/ray-yt\n\nGet the most out of every lesson. Learn more: https://www.tonicnotes.com/\n\n\uD83D\uDD14 Subscribe to the channel for the latest vids: https://www.youtube.com/@RayChenViolinist?sub_confirmation=1\n\nPerformed live on March 26th, 2015 with the Gothenburg Symphony Orchestra and Maestro Kent Nagano. \n\nI. Allegro moderato \nII. Adagio di molto \nIII. Allegro, ma non tanto",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 30,
-      "PublishedAtRaw": "2025-09-04T05:39:23Z",
-      "PublishedAtDateTimeOffset": "2025-09-04T05:39:23+00:00",
-      "PublishedAt": "2025-09-04T11:09:23+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "3u-unvYedx8"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/3u-unvYedx8/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/3u-unvYedx8/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/3u-unvYedx8/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/3u-unvYedx8/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/3u-unvYedx8/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "SIBELIUS Violin Concerto in D minor, Op. 47 - Ray Chen",
-      "VideoOwnerChannelId": "UC-oPgEuX6iwJucvVGEmQL7Q",
-      "VideoOwnerChannelTitle": "Ray Chen"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "-Y286c8hz94",
-      "VideoPublishedAtRaw": "2021-05-27T18:00:01Z",
-      "VideoPublishedAtDateTimeOffset": "2021-05-27T18:00:01+00:00",
-      "VideoPublishedAt": "2021-05-27T23:30:01+05:30"
-    },
-    "ETag": "gF3C7e6u1lmFK8dawFkPw1DzKLo",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41MzJCQjBCNDIyRkJDN0VD",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "\u201EAlisma\u201C von William Blank wurde im Er\u00F6ffnungskonzert des Internationalen Musikfsts Hamburg uraufgef\u00FChrt. Ende Mai 2021 h\u00E4tte es im Rahmen der Dresdner Musikfestspiele erneut zur Auff\u00FChrung kommen sollen. Das Tripelkonzert ist eine Auftragskomposition der Dresdner Musikfestspiele mit freundlicher Unterst\u00FCtzung der Osts\u00E4chsischen Sparkasse Dresden. \n\nWilliam Blank: \u201EAlisma\u201C Tripelkonzert f\u00FCr Violine, Violoncello, Klarinette und Orchester\n\nKent Nagano, Dirigent\nMira Wang, Violine\nJan Vogler, Violoncello\nDaniel Ottensamer, Klarinette\nPhilharmonisches Staatsorchester Hamburg\n\nDas Programmheft finden Sie hier: https://bit.ly/3yIvkcc\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 31,
-      "PublishedAtRaw": "2024-12-26T11:20:00Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:00+00:00",
-      "PublishedAt": "2024-12-26T16:50:00+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "-Y286c8hz94"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/-Y286c8hz94/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/-Y286c8hz94/hqdefault.jpg",
-          "Width": 480
-        },
-        "Maxres": {
-          "Height": 720,
-          "Url": "https://i.ytimg.com/vi/-Y286c8hz94/maxresdefault.jpg",
-          "Width": 1280
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/-Y286c8hz94/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/-Y286c8hz94/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "William Blank: \u201EAlisma\u201C, Nagano, Wang, Vogler, Ottensamer | Philharmonisches Staatsorchester Hamburg",
-      "VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
-      "VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
-    }
-  },
-  {
-    "ContentDetails": {
-      "VideoId": "XikrPlgDCng",
-      "VideoPublishedAtRaw": "2021-01-31T16:10:16Z",
-      "VideoPublishedAtDateTimeOffset": "2021-01-31T16:10:16+00:00",
-      "VideoPublishedAt": "2021-01-31T21:40:16+05:30"
-    },
-    "ETag": "ZVvd3ou7z6p-dJ0FRICbEb8_cyA",
-    "Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5GNjNDRDREMDQxOThCMDQ2",
-    "Kind": "youtube#playlistItem",
-    "Snippet": {
-      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-      "ChannelTitle": "Kanishk Nishar",
-      "Description": "Igor Stravinsky: Capriccio for piano and orchestra \n\nYulianna Avdeeva, piano \nKent Nagano, conductor \nOrchestre symphonique de Montr\u00E9al\n\nMontr\u00E9al Bach Festival (2015)",
-      "PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
-      "Position": 32,
-      "PublishedAtRaw": "2024-12-26T11:20:12Z",
-      "PublishedAtDateTimeOffset": "2024-12-26T11:20:12+00:00",
-      "PublishedAt": "2024-12-26T16:50:12+05:30",
-      "ResourceId": {
-        "Kind": "youtube#video",
-        "VideoId": "XikrPlgDCng"
-      },
-      "Thumbnails": {
-        "Default__": {
-          "Height": 90,
-          "Url": "https://i.ytimg.com/vi/XikrPlgDCng/default.jpg",
-          "Width": 120
-        },
-        "High": {
-          "Height": 360,
-          "Url": "https://i.ytimg.com/vi/XikrPlgDCng/hqdefault.jpg",
-          "Width": 480
-        },
-        "Medium": {
-          "Height": 180,
-          "Url": "https://i.ytimg.com/vi/XikrPlgDCng/mqdefault.jpg",
-          "Width": 320
-        },
-        "Standard": {
-          "Height": 480,
-          "Url": "https://i.ytimg.com/vi/XikrPlgDCng/sddefault.jpg",
-          "Width": 640
-        }
-      },
-      "Title": "Yulianna Avdeeva - Stravinsky - Capriccio for piano and orchestra (Kent Nagano, conductor)",
-      "VideoOwnerChannelId": "UCSkyyj0rfzEwNTZZfS8u_Kw",
-      "VideoOwnerChannelTitle": "MusicLover"
-    }
-  }
+	{
+		"ContentDetails": {
+			"VideoId": "BONNivKhf4I"
+		},
+		"ETag": "2TPnrmc1Nrofmvrp2FNpKeGBBHI",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45NzUwQkI1M0UxNThBMkU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is unavailable.",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 0,
+			"PublishedAtRaw": "2025-09-04T05:33:30Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:33:30+00:00",
+			"PublishedAt": "2025-09-04T11:03:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "BONNivKhf4I"
+			},
+			"Thumbnails": {},
+			"Title": "Deleted video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "nUzdlFmcA1g",
+			"VideoPublishedAtRaw": "2019-08-02T15:19:27Z",
+			"VideoPublishedAtDateTimeOffset": "2019-08-02T15:19:27+00:00",
+			"VideoPublishedAt": "2019-08-02T20:49:27+05:30"
+		},
+		"ETag": "WXIrdFYKmSmAHjgwq_zMCh7r5nc",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4yMUQyQTQzMjRDNzMyQTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Detroit Symphony Orchestra\nKent Nagano, conductor\nLive recording from May 25, 2019\n\n00:00 I. M\u00E4ssig bewegt\n23:00 II. Adagio (etwas bewegt) quasi Andante\n36:35 III. Scherzo: Ziemlich schnell\n44:50 IV. Finale: Allegro",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 1,
+			"PublishedAtRaw": "2024-12-26T11:20:46Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:46+00:00",
+			"PublishedAt": "2024-12-26T16:50:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "nUzdlFmcA1g"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/nUzdlFmcA1g/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "ANTON BRUCKNER Symphony No. 3 in D minor (1889 revised version ed. Nowak) Kent Nagano, conductor",
+			"VideoOwnerChannelId": "UCkrgMThbHZ3pzthqLnnEhKA",
+			"VideoOwnerChannelTitle": "Detroit Symphony Orchestra"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "fnCq7Sc8Hiw",
+			"VideoPublishedAtRaw": "2021-05-06T19:15:05Z",
+			"VideoPublishedAtDateTimeOffset": "2021-05-06T19:15:05+00:00",
+			"VideoPublishedAt": "2021-05-07T00:45:05+05:30"
+		},
+		"ETag": "TNG9jiSDe7DiQRnMCdjxuc6Dib4",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45NDk1REZENzhEMzU5MDQz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u201ESo klopft das Schicksal an die Pforte\u201C \u2013 das soll Beethoven \u00FCber das ber\u00FChmte \u201EKlopf-Motiv\u201C in seiner F\u00FCnften Symphonie gesagt haben. Nagano und die Philharmoniker interpretieren die wohl bekannteste Symphonie \u00FCberhaupt.\n\nLudwig van Beethoven (1770-1827): \nSymphonie Nr. 5 c-Moll op. 67 \u201ESchicksalssymphonie\u201C\n\n00:30 I. Allegro con brio\n07:52 II. Andante con moto\n16:44 III. Allegro\n24:28 IV. Allegro \u2013 Presto\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#Elbphilharmonie #Musikfest2021 #IMFH",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 2,
+			"PublishedAtRaw": "2024-12-26T11:20:09Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:09+00:00",
+			"PublishedAt": "2024-12-26T16:50:09+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "fnCq7Sc8Hiw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/fnCq7Sc8Hiw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Beethoven 5. Symphonie c-Moll op. 67, Elbphilharmonie | Nagano, Philharmonisches Staatsorchester",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "UMBd9iKqE04",
+			"VideoPublishedAtRaw": "2019-09-10T06:51:54Z",
+			"VideoPublishedAtDateTimeOffset": "2019-09-10T06:51:54+00:00",
+			"VideoPublishedAt": "2019-09-10T12:21:54+05:30"
+		},
+		"ETag": "iaT7JZ2SC4gz29BTM18AvTZbiao",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5EQUE1NTFDRjcwMDg0NEMz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 3,
+			"PublishedAtRaw": "2024-12-26T11:20:38Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:38+00:00",
+			"PublishedAt": "2024-12-26T16:50:38+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "UMBd9iKqE04"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/UMBd9iKqE04/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/UMBd9iKqE04/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/UMBd9iKqE04/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/UMBd9iKqE04/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bernstein \u201CMASS\u201D Kent Nagano, 2003",
+			"VideoOwnerChannelId": "UC-yMtb2pKDoEHpXBskvfMAw",
+			"VideoOwnerChannelTitle": "Sadanori Kobinata"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "MckpoEQkr6k",
+			"VideoPublishedAtRaw": "2022-12-27T09:01:09Z",
+			"VideoPublishedAtDateTimeOffset": "2022-12-27T09:01:09+00:00",
+			"VideoPublishedAt": "2022-12-27T14:31:09+05:30"
+		},
+		"ETag": "i45155Je5AmHOQF2JB_GYSEeV5Q",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4yODlGNEE0NkRGMEEzMEQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Radu Lupu\nBrahms Piano Concerto No. 1\nDeutsches Sinfonieorchester Berlin, Kent Nagano\nMay 4, 2002",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 4,
+			"PublishedAtRaw": "2024-12-26T11:19:39Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:19:39+00:00",
+			"PublishedAt": "2024-12-26T16:49:39+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "MckpoEQkr6k"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/MckpoEQkr6k/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/MckpoEQkr6k/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/MckpoEQkr6k/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/MckpoEQkr6k/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/MckpoEQkr6k/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms Piano Concerto No. 1 - Radu Lupu, Deutsches Sinfonieorchester Berlin, Nagano (May 4, 2002)",
+			"VideoOwnerChannelId": "UCN5ioUKvtPkTl_1g3O496JA",
+			"VideoOwnerChannelTitle": "Barron de Schl\u00F6zer"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "kqHRFziaJWg",
+			"VideoPublishedAtRaw": "2020-12-23T07:42:28Z",
+			"VideoPublishedAtDateTimeOffset": "2020-12-23T07:42:28+00:00",
+			"VideoPublishedAt": "2020-12-23T13:12:28+05:30"
+		},
+		"ETag": "zYx5rMJkHB-FrlG5j2iyrcZRDlk",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5EMEEwRUY5M0RDRTU3NDJC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms (1833\u20131897): \nSerenade Nr. 2 A-Dur op. 16\n\n00:11 I. Allegro moderato\n09:28 II. Scherzo. Vivace \u2013 Trio\n12:16 III. Adagio non troppo\n20:45 IV. Quasi Menuetto \u2013 Trio\n25:50 V. Rondo. Allegro\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nUraufgef\u00FChrt wurde das Werk am 10. Februar 1860 von den Hamburger Philharmonikern unter der Leitung von Johannes Brahms im Gro\u00DFen W\u00F6rmerschen Concertsaal an der Fuhlentwiete, sp\u00E4ter bekannt geworden als Conventgarten, jener popul\u00E4re im 2. Weltkrieg zerst\u00F6rte Konzertsaal der Hansestadt. Selbstverst\u00E4ndlich stand 1860 der gerade erst 26-j\u00E4hrige Komponist selbst am Pult bei dieser Urauff\u00FChrung in seiner Geburtsstadt. Rund 160 Jahre sp\u00E4ter spielen die Philharmoniker das Werk nun in der Hamburgischen Staatsoper unter der Leitung von Generalmusikdirektor Kent Nagano. \n\nRecording: Wolfram Nehls, Thomas B\u00F6\u00DFl\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#staatsoperhamburg #kentnagano #philharmonischesstaatsorchesterhamburg #johannesbrahms",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 5,
+			"PublishedAtRaw": "2024-12-26T11:20:21Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:21+00:00",
+			"PublishedAt": "2024-12-26T16:50:21+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "kqHRFziaJWg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/kqHRFziaJWg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/kqHRFziaJWg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/kqHRFziaJWg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/kqHRFziaJWg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/kqHRFziaJWg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Brahms: Serenade Nr. 2 A-Dur op. 16 | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "HC49wsny2SE",
+			"VideoPublishedAtRaw": "2019-08-19T08:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2019-08-19T08:00:01+00:00",
+			"VideoPublishedAt": "2019-08-19T13:30:01+05:30"
+		},
+		"ETag": "9nPUvMkLrwesMF9wJ3a900eQVbw",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41QTY1Q0UxMTVCODczNThE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Bruckners Sinfonie Nr. 6 A-Dur, aufgef\u00FChrt vom SWR Symphonieorchester unter der Leitung von Kent Nagano. Live aufgenommen im Juli 2019 in der Liederhalle Stuttgart.\n\nAnton Bruckner \u2013 Sinfonie Nr. 6 A-Dur\n\n00:00 - I. Majestoso\n16:56 - II. Adagio. Sehr feierlich\n33:37 - III. Scherzo. Nicht schnell \u2013 Trio. Langsam\n42:12 - IV. Finale. Bewegt, doch nicht zu schnell\n\nMitwirkende:\nSWR Symphonieorchester\nDirigent: Kent Nagano\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Web: http://swr.li/web-concerts\n\u25BA Facebook: /klassikswrkultur\n\nImpressum: https://www.swr.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette:\nhttps://www.swr.de/home/netiquette-100\nDatenschutz: https://www.swr.de/datenschutz",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 6,
+			"PublishedAtRaw": "2024-12-26T11:20:42Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:42+00:00",
+			"PublishedAt": "2024-12-26T16:50:42+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "HC49wsny2SE"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/HC49wsny2SE/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/HC49wsny2SE/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/HC49wsny2SE/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/HC49wsny2SE/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/HC49wsny2SE/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Bruckner \u2013 Sinfonie Nr. 6 A-Dur | Kent Nagano | SWR Symphonieorchester",
+			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+			"VideoOwnerChannelTitle": "ARD Klassik"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "LF-W6-LhMj4",
+			"VideoPublishedAtRaw": "2015-10-29T17:21:04Z",
+			"VideoPublishedAtDateTimeOffset": "2015-10-29T17:21:04+00:00",
+			"VideoPublishedAt": "2015-10-29T22:51:04+05:30"
+		},
+		"ETag": "eZNTKH8SntmKlq_1ZgZzBu40Xas",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5ENDU4Q0M4RDExNzM1Mjcy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Darius Milhaud (1892-1974)\n\nLe b\u0153uf sur le toit (The Ox on the Roof: The Nothing-Doing Bar) Op. 58 (1919)\n\nOrchestre de l\u2019Op\u00E9ra de Lyon\nKent Nagano, conductor\n\nRecording date: 1992.\nEducational use only. No copyright infringement intended.\n\nThe influence of Brazilian music on Darius Milhaud\u2019s work is known. In this 1919, composition, he uses lines of songs he could hear in the streets of Rio de Janeiro when he worked at the French embassy in Brazil (1917-1919). Besides the music of Ernesto Nazareth, he used themes by the woman composer Chiquinha Gonzaga, maybe unaware that they were not songs from the folklore, thus of public domain, but by a highly educated woman composer and pioneer feminist. Especially at 5:00 min, we can clearly recognize the song \u201CCorta-jaca\u201D by Chiquinha Gonzaga, a \u201CBrazilian tango,\u201D a very syncopated dance music, quite popular at the time and one of the Brazilian musical expressions of the \u201Cbelle \u00E9poque.\u201D Here is a link for a comparison: https://www.youtube.com/watch?v=BXWBSmava34.",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 7,
+			"PublishedAtRaw": "2024-12-26T11:20:54Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:54+00:00",
+			"PublishedAt": "2024-12-26T16:50:54+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "LF-W6-LhMj4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/LF-W6-LhMj4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Darius Milhaud: Le b\u0153uf sur le toit, Orchestre de l\u2019Op\u00E9ra de Lyon Kent Nagano",
+			"VideoOwnerChannelId": "UCm2eimcQPZ141Q6LLsN2EtQ",
+			"VideoOwnerChannelTitle": "Roberto Carvalho de Magalh\u00E3es"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Yy_AWQkjcT4"
+		},
+		"ETag": "lItv3dqhwvRbw_HqJpEhNLjjrr4",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41QUZGQTY5OTE4QTREQUU4",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "This video is private.",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 8,
+			"PublishedAtRaw": "2025-09-04T05:39:46Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:39:46+00:00",
+			"PublishedAt": "2025-09-04T11:09:46+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Yy_AWQkjcT4"
+			},
+			"Thumbnails": {},
+			"Title": "Private video"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "SC8eATis6Ek",
+			"VideoPublishedAtRaw": "2016-08-02T11:50:14Z",
+			"VideoPublishedAtDateTimeOffset": "2016-08-02T11:50:14+00:00",
+			"VideoPublishedAt": "2016-08-02T17:20:14+05:30"
+		},
+		"ETag": "h4Qk57DkOSPSH5cKWQZtrRnn510",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC44Mjc5REFBRUE2MTdFRDU0",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Edward Gregson: Violin Concerto [Kent Nagano-Halle Orchestra- Lyn Fletcher, violin]. premiere",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 9,
+			"PublishedAtRaw": "2025-09-04T05:38:44Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:38:44+00:00",
+			"PublishedAt": "2025-09-04T11:08:44+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "SC8eATis6Ek"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/SC8eATis6Ek/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/SC8eATis6Ek/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/SC8eATis6Ek/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Edward Gregson: Violin Concerto [Nagano-Halle Orch-Fletcher] premiere",
+			"VideoOwnerChannelId": "UCfFPCgr45pH_pzslan4EriQ",
+			"VideoOwnerChannelTitle": "James Stuart"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "u9v7zOSgc_c",
+			"VideoPublishedAtRaw": "2021-09-23T08:21:35Z",
+			"VideoPublishedAtDateTimeOffset": "2021-09-23T08:21:35+00:00",
+			"VideoPublishedAt": "2021-09-23T13:51:35+05:30"
+		},
+		"ETag": "R9xQ4Ex57dWopIiph6SFlx8XqTY",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5CMEQ2Mjk5NTc3NDZFRUNB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Schubert (1797-1828): \nDeutsche T\u00E4nze op. posthum D 820\nf\u00FCr Orchester gesetzt von Anton Webern\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nVon Schuberts Deutschen T\u00E4nzen f\u00FCr Klavier verfasste Anton Webern 1931 eine Bearbeitung f\u00FCr kleines Orchester, Holzbl\u00E4ser und zwei H\u00F6rner bearbeitet. \u201ESeine Eingriffe beschr\u00E4nken sich auf teilweise Stimmteilungen und solistische Hervorhebungen. Die Instrumentierung wollte die Struktur des Werkes klarer hervortreten lassen und einen schubertnahen Klang bewahren. Herausgekommen ist fast ein Wunder an Pr\u00E4zision, Klangdifferenzierung und abgedunkelt leuchtenden Farben\u201C (Universal Edition)\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#elbphilharmonie #kentnagano #philharmonischesstaatsorchesterhamburg #franzschubert",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 10,
+			"PublishedAtRaw": "2025-09-04T05:41:07Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:41:07+00:00",
+			"PublishedAt": "2025-09-04T11:11:07+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "u9v7zOSgc_c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/u9v7zOSgc_c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Elbphilharmonie: Schubert Deutsche T\u00E4nze | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "bSBa9Wd5nIw",
+			"VideoPublishedAtRaw": "2022-06-16T16:29:35Z",
+			"VideoPublishedAtDateTimeOffset": "2022-06-16T16:29:35+00:00",
+			"VideoPublishedAt": "2022-06-16T21:59:35+05:30"
+		},
+		"ETag": "iiy9sp6AbKqNM2wHBk6cNo11lBE",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41MjE1MkI0OTQ2QzJGNzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u0022A Zappa Affair\u0022, Zellerbach Auditorium, University of California, Berkeley, CA, June 16, 1984 \r\n\r\n00:00 Bob In Dacron 1st Movement \r\n05:08 Bob In Dacron 2nd Movement \r\n11:51 Sad Jane 1st Movement \r\n16:00 Sad Jane 2nd Movement \r\n\r\nScene I - Bob\u0027s Clothes \r\nScene II - What Bob\u0027s Body Is Really Like \r\nScene III - Bob Gets Drunk \r\nScene IV - Bob Meets Jane \r\nScene V - Jane\u0027s Clothes \r\nScene VI - What Jane\u0027s Body Is Really Like \n\nPuppets choreography by Tandy Beal\n\nPhoto: FZ with the Puppets Cast, from Time magazine, June 18, 1984\n\nThe Black Page - The Zappa Page https://www.facebook.com/zblackpage/",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 11,
+			"PublishedAtRaw": "2024-12-26T11:19:47Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:19:47+00:00",
+			"PublishedAt": "2024-12-26T16:49:47+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "bSBa9Wd5nIw"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/bSBa9Wd5nIw/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Frank Zappa/The Berkeley Symphony Orchestra conducted by Kent Nagano - Bob \u0026 Jane, June 16, 1984",
+			"VideoOwnerChannelId": "UC4qr1xHPjd4U1iW-jzv4xuQ",
+			"VideoOwnerChannelTitle": "Black Page"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "x4kDBtLNuj4",
+			"VideoPublishedAtRaw": "2021-05-29T19:10:12Z",
+			"VideoPublishedAtDateTimeOffset": "2021-05-29T19:10:12+00:00",
+			"VideoPublishedAt": "2021-05-30T00:40:12+05:30"
+		},
+		"ETag": "jnzEW191AMOMDxMIkheE7-7JxuA",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4xMkVGQjNCMUM1N0RFNEUx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Franz Schubert (1797-1828): Symphonie Nr. 3 D-Dur D 200\n\n00:17 I. Adagio maestoso \u2013 Allegro con brio\n09:26 II. Allegretto \n12:56 III. Menuetto. Vivace \u2013 Trio\n17:03 IV. Presto vivace\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#elbphilharmonie #kentnagano #philharmonischesstaatsorchesterhamburg #franzschubert",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 12,
+			"PublishedAtRaw": "2024-12-26T11:19:56Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:19:56+00:00",
+			"PublishedAt": "2024-12-26T16:49:56+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "x4kDBtLNuj4"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/x4kDBtLNuj4/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Franz Schubert: Symphonie Nr. 3 D-Dur | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "lcGEGl5bdbk",
+			"VideoPublishedAtRaw": "2013-11-15T01:59:06Z",
+			"VideoPublishedAtDateTimeOffset": "2013-11-15T01:59:06+00:00",
+			"VideoPublishedAt": "2013-11-15T07:29:06+05:30"
+		},
+		"ETag": "INEZzT1_bZrZULGRe88j47RXbjA",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4zRDBDOEZDOUM0MDY5NEEz",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nErich Wolfgang Korngold\nViolin Concerto in D major, Op 35\n\n1 Moderato nobile\n2 Romanze\n3 Allegro assai vivace\n\nHilary Hahn, violin\n\nDeutsche Symphonie Orchester\nKent Nagano, conductor\n\nLive recording.",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 13,
+			"PublishedAtRaw": "2025-09-04T05:39:53Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:39:53+00:00",
+			"PublishedAt": "2025-09-04T11:09:53+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "lcGEGl5bdbk"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/lcGEGl5bdbk/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Hilary Hahn - Korngold - Violin Concerto in D major, Op 35",
+			"VideoOwnerChannelId": "UCsOvFiAws5ENZNs_mI34GnQ",
+			"VideoOwnerChannelTitle": "Classical Vault 1"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "h9tGSVcfqRg",
+			"VideoPublishedAtRaw": "2022-05-13T14:42:38Z",
+			"VideoPublishedAtDateTimeOffset": "2022-05-13T14:42:38+00:00",
+			"VideoPublishedAt": "2022-05-13T20:12:38+05:30"
+		},
+		"ETag": "xGhVjTKkd91KI6ZWzcs3OxtBOS0",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4wMTcyMDhGQUE4NTIzM0Y5",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Josef Suk (1874-1935): \nSerenade f\u00FCr Streicher op. 6  \n\n0:06 Andante con moto\n5:33 Allegro ma non troppo e grazioso\n11:43 Adagio\n21:42 Allegro giocoso, ma non troppo presto\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nVideo: Philip Loeper\nRecording: Wolfram Nehls, Thomas B\u00F6\u00DFl\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de \n\n#philharmonischesstaatsorchesterhamburg #staatsoperhamburg #josefsuk #kentnagano",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 14,
+			"PublishedAtRaw": "2024-12-26T11:19:43Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:19:43+00:00",
+			"PublishedAt": "2024-12-26T16:49:43+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "h9tGSVcfqRg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/h9tGSVcfqRg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Josef Suk: Serenade f\u00FCr Streicher op. 6 | Kent Nagano, Philharmonisches Staatsorchester Hamburg",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "eAUwb8ctQF8",
+			"VideoPublishedAtRaw": "2023-11-19T11:58:15Z",
+			"VideoPublishedAtDateTimeOffset": "2023-11-19T11:58:15+00:00",
+			"VideoPublishedAt": "2023-11-19T17:28:15+05:30"
+		},
+		"ETag": "Rvwh44C8VFs_EQWZ2eLNQZP980A",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DQ0MyQ0Y4Mzg0M0VGOEYw",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Nella sua continua ricerca di buona musica contemporanea, Kent Nagano si \u00E8 associato ad un certo numero di rockstar negli ultimi anni (tra cui Ronnie Montrose), un\u0027associazione che raggiunger\u00E0 il massimo dei frutti questo fine settimana quando la Berkeley Symphony presenter\u00E0 un concerto dedicato alla seria musica orchestrale di Frank Zappa.\n\n\u201CEro all\u0027IRCAM del Centro Georges Pompidou di Parigi, l\u0027Istituto Boulez per la Musica Contemporanea. Ho scoperto che Boulez aveva chiesto un pezzo proprio a Frank Zappa - ricorda Nagano - Sono rimasto davvero sbalordito perch\u00E9 Boulez pu\u00F2 pretendere il meglio. Non appena Frank \u00E8 venuto a suonare al Berkeley Community Theatre, ho chiamato il suo management a Los Angeles e ho chiesto di parlare con Zappa del suo pezzo orchestrale. Frank mi ha chiamato pi\u00F9 tardi, con mia grande sorpresa. Mi ha detto di fare un salto nel backstage tra uno spettacolo e l\u0027altro e l\u2019ho raggiunto. Non sapevo bene cosa aspettarmi, ma non mi aspettavo di vedere un\u0027opera con la difficolt\u00E0 di una partitura di Elliott Carter, la complessit\u00E0 di un\u0027opera di Boulez, la sincerit\u00E0 di Takemitsu e l\u0027intensit\u00E0 trascinante di Var\u00E8se. Sono rimasto sbalordito seduto l\u00EC in questo squallido camerino a guardare Frank che dirigeva le persone nel suo modo inimitabile\u201D.\n\u201CHo portato a casa la colonna sonora e ho trascorso diverse settimane a esaminarla con molta attenzione, e alla fine ho concluso che si trattava di un\u2019opera davvero importante. Ho contattato il suo ufficio chiedendo di eseguire la partitura con la Berkeley Symphony e la risposta \u00E8 stata: \u0027Cosa ti fa pensare di poterlo eseguire?\u0027 perch\u00E9 il pezzo \u00E8 davvero, davvero difficile. Frank mi ha invitato a scendere e parlare con lui pi\u00F9 seriamente. Voleva essere certo che si potesse programmare il numero necessario di prove. Nessuna di queste partiture orchestrali che scriveva da quando aveva 14 anni era mai stata eseguita\u201D.\n\n\u201CPoche settimane dopo, di punto in bianco, Frank mi ha chiamato dicendo che voleva registrare parte della sua musica. Stava per assumere la London Symphony Orchestra e avrebbe preso in considerazione l\u0027idea di farm dirigere. Per un periodo di quasi due mesi sono rimasto sveglio e ho dormito circa tre ore. Per molto tempo non ho dormito, quelle partiture stavano forzando la mia tecnica personale. Sono cresciuto parecchio solo imparando le partiture\u201D.\n\u201CPoi, quando siamo andati a Londra, sapevo cosa avrebbero pensato i membri dell\u0027orchestra: musica di un musicista rock, sar\u00E0 una giornata facile. Abbiamo iniziato con la colonna sonora pi\u00F9 difficile e si scatenava il panico quando i musicisti aprivano le partiture\u201D.\n\u201CC\u2019era molta tensione. Era un\u0027orchestra con cui non avevo mai lavorato prima e Frank Zappa era seduto proprio dietro di me. E\u2019 stato un compositore meraviglioso con cui lavorare perch\u00E9 \u00E8 rimasto fuori dai piedi quando doveva restare fuori dai piedi, eppure era sempre l\u00EC per rispondere a qualsiasi domanda. Quando lavori con qualcuno di quel calibro, diventa cos\u00EC eccitante, perch\u00E9 sai che lavorerai ai pi\u00F9 alti standard e non dovrai scendere a compromessi a causa del tempo\u201D.\n\u201CQuando abbiamo eseguito la performance a Londra, qualcuno l\u0027ha descritta come una sagra della primavera, perch\u00E9 tutto il pubblico stava urlando. Non sono mai stato a un concerto sinfonico dove la gente urlava dopo. Non giovani, ma musicisti e critici seri. Non so nemmeno esattamente perch\u00E9 stessero urlando.\n\nQuesto fine settimana Nagano e la Berkeley Symphony presenteranno la prima americana di molte delle opere di Zappa incluse nella registrazione, cos\u00EC come la prima mondiale di Sinister Footwear. Inizialmente, era stato programmato l\u0027Oakland Ballet per il ballo delle opere ma \u00E8 stato cancellato e sostituito con uno spettacolo di marionette. Nagano ha visto il lavoro del burattinaio John Gilkerson e del San Francisco Miniature Theatre. Era cos\u00EC impressionato che ricorda di aver chiamato Zappa nel cuore della notte per elogiare queste monumentali marionette high-tech, alcune delle quali raggiungono un\u0027altezza di 36 piedi. I burattini volano nell\u0027aria, esplodono, si trasformano in strane creature con cinque paia di bulbi oculari: tutti effetti richiesti nelle partiture di Zappa, che creerebbero una certa difficolt\u00E0 ai ballerini in carne e ossa\u201D.\nNagano ha dichiarato che le opere di Zappa sono autentiche opere sinfoniche che suonano come Bartok o Var\u00E8se.\n\u201CFrank Zappa \u00E8 al fianco di Elliott Carter nella sua padronanza della scrittura sinfonica - commenta Nagano - e, allo stesso tempo, stabilisce un rapporto con i giovani\u201D.\nSecondo Nagano, gli artisti hanno la responsabilit\u00E0 di fornire al pubblico un\u0027opera non solo della pi\u00F9 alta qualit\u00E0 artistica, ma che contribuisca alla qualit\u00E0, alla comprensione, al godimento della vita. \n\u0022Ci\u00F2 che rende un\u0027orchestra un\u0027organizzazione vivente, impegnata a comunicare con entusiasmo, \u00E8 il fatto che i musicisti abbiano una sorta di propria ispirazione\u201D afferma Nagano.\n(East Bay Express, 15 giugno 1984)",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 15,
+			"PublishedAtRaw": "2025-09-04T05:34:30Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:34:30+00:00",
+			"PublishedAt": "2025-09-04T11:04:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "eAUwb8ctQF8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/eAUwb8ctQF8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Kent Nagano meets Frank Zappa (part 1): Sinister Footwear (1984) \u002B interview Kent Nagano",
+			"VideoOwnerChannelId": "UCrPSlVyLbRpyzEPEJ09HOog",
+			"VideoOwnerChannelTitle": "What\u0027s Zappa"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Z4WsurD_ntg",
+			"VideoPublishedAtRaw": "2021-05-19T20:18:46Z",
+			"VideoPublishedAtDateTimeOffset": "2021-05-19T20:18:46+00:00",
+			"VideoPublishedAt": "2021-05-20T01:48:46+05:30"
+		},
+		"ETag": "LBw5OG5EVZ7Kgk9YE9UPdJSMTnM",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DQUNERDQ2NkIzRUQxNTY1",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Johannes Brahms (1833-1897): \nSymphonie Nr. 3 F-Dur op. 90\n\n00:21 I. Allegro con brio\n14:33 II. Andante\n24:04 III. Poco Allegretto\n30:40 IV. Allegro\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nRecording: Felix Gargerle\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de\n#elbphilharmonie #kentnagano #philharmonischesstaatsorchesterhamburg #johannesbrahms",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 16,
+			"PublishedAtRaw": "2024-12-26T11:20:05Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:05+00:00",
+			"PublishedAt": "2024-12-26T16:50:05+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Z4WsurD_ntg"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Z4WsurD_ntg/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Kent Nagano: Johannes Brahms Symphonie Nr. 3 F-Dur op. 90 | Philharmonisches Staatsorchester Hamburg",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "KvpCv3DvUzA",
+			"VideoPublishedAtRaw": "2023-12-28T21:21:31Z",
+			"VideoPublishedAtDateTimeOffset": "2023-12-28T21:21:31+00:00",
+			"VideoPublishedAt": "2023-12-29T02:51:31+05:30"
+		},
+		"ETag": "L5dAaxZzAUsKMMwySeipTWeXMlU",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC43MTI1NDIwOTMwQjIxMzNG",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "London Symphony Orchestra - Zappa Conducted By Kent Nagano \u2013 Zappa - Vol. II\nGenre: Classical\nStyle: Post-Modern\nAnn\u00E9e: 1995\n\nTracklist\n\nEnvelopes 4:04\nPedro\u0027s Dowry 10:25\nBogus Pomp 24:31\nStrictly Genteel 6:56",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 17,
+			"PublishedAtRaw": "2025-09-04T05:34:25Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:34:25+00:00",
+			"PublishedAt": "2025-09-04T11:04:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "KvpCv3DvUzA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/KvpCv3DvUzA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "London Symphony Orchestra - Zappa Conducted By Kent Nagano \u2013 Zappa - Vol. II",
+			"VideoOwnerChannelId": "UCgDor4WYnIGvzCMzBfeECJA",
+			"VideoOwnerChannelTitle": "Impakktt"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Bt8Ex8Hj0SA",
+			"VideoPublishedAtRaw": "2024-01-11T17:31:19Z",
+			"VideoPublishedAtDateTimeOffset": "2024-01-11T17:31:19+00:00",
+			"VideoPublishedAt": "2024-01-11T23:01:19+05:30"
+		},
+		"ETag": "INHMqGHMrzF2vRrs1zxiQeuqhHY",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DNzE1RjZEMUZCMjA0RDBB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "00:00 First Movement \n04:55 Second Movement \n14:24 Third Movement \n\nThe London Symphony Orchestra conducted by Kent Nagano \n\u002B \nDavid Ocker \u2014 Solo Clarinet \nChad Wackerman \u2014 Drums \nEd Mann \u2014 Featured Percussionist \n\nMo\u0027N Herb\u0027s Vacation was originally named W\u00F8\u00F6\u00F6\u00F8\u0142, and successively copyrighted as W0oo0l in 1978 and 1981.\n\nRip Rense, \u0022Frank Zappa\u2014A Would-be Chemist Who Turned To Music,\u0022 The Valley News, December 1977:\nHe recently completed [...] a new symphonic work called \u0022Wooool\u0022 (spelled with slashes through the first and last o\u0027s, umlauts over the two middle o\u0027s, and a tilde over the L\u2014thus pronounced something like \u0022Woh-ooo-oh-luh,\u0022 but modern typesetting prohibits such reproduction here.)\n\u0022Wooool\u0022 is scored for a Mahler-sized orchestra: 60 strings, four flutes, piccolo, all other woodwinds four-deep, eight french horns, four trumpets, three trombones, bass, tuba, six percussionists.\n\nKent Nagano, interviewed by Dan Forte, Mix, June 1983:\nWhen I heard that Frank Zappa had been commissioned to write some pieces for Pierre Boulez, I was really curious, because that\u0027s one of the biggest honors a composer can possibly get\u2014to have Boulez ask you to write a piece for his ensemble.\nSo I contacted Frank\u0027s management and met with him backstage when he played the Berkeley Community Theater, late in 1981. He showed me a score and said, \u0022This is what I do.\u0022 So I sat there and looked at it, and it was just an amazing score. It was not some thing that I could just sit and casually glance over. Very, very sophisticated stuff; I couldn\u0027t even hear it\u2014I had to take it home and look at it at the piano. He let me borrow it to study and gave me a couple of other ones. It took me a long time just to get through it. Bear in mind, I\u0027m one of those overly educated erudite jerks\u2014heavy theory background. I was very excited by it. For someone like me, who peruses\u2014without exaggeration\u2014maybe 50 or 60 brand new scores a year, it was so refreshing to see a very finely crafted score like that. So I called Frank and explained that I\u0027d like to perform the piece. His answer, which now I realize is typical but at the time sort of took me aback, was, \u0022What makes you think you can play the piece?\u0022\nWe had a meeting about it, but the main issue was being able to pull together enough rehearsal time to do it properly, which is a very expensive venture. The music is so difficult it requires maybe five times the normal amount of rehearsal, so if you\u0027re working with a union orchestra it means big dollars. But then Frank called me with the invitation to go to London.\n\nPhoto by Michael Putland\n\nThe Black Page - The Zappa Page https://www.facebook.com/zblackpage/",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 18,
+			"PublishedAtRaw": "2025-09-04T05:34:12Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:34:12+00:00",
+			"PublishedAt": "2025-09-04T11:04:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Bt8Ex8Hj0SA"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Bt8Ex8Hj0SA/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "LSO (cond. Kent Nagano) - Mo\u0027N Herb\u0027s Vacation (Frank Zappa) The Barbican, London, January 11, 1983",
+			"VideoOwnerChannelId": "UC4qr1xHPjd4U1iW-jzv4xuQ",
+			"VideoOwnerChannelTitle": "Black Page"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "NAvua455dls",
+			"VideoPublishedAtRaw": "2016-12-05T22:00:02Z",
+			"VideoPublishedAtDateTimeOffset": "2016-12-05T22:00:02+00:00",
+			"VideoPublishedAt": "2016-12-06T03:30:02+05:30"
+		},
+		"ETag": "QS0OP1ntqkd4YUPi-JXaMU100S0",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45RTgxNDRBMzUwRjQ0MDhC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Tamara, one of Balakirev\u0027s orchestra masterpiece inspired after a lyric of Lermontov is performed by the Orchestre Symphonique de Montreal under Kent Nagano.",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 19,
+			"PublishedAtRaw": "2024-12-26T11:20:50Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:50+00:00",
+			"PublishedAt": "2024-12-26T16:50:50+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "NAvua455dls"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/NAvua455dls/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/NAvua455dls/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/NAvua455dls/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/NAvua455dls/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/NAvua455dls/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "M.A. Balakirev: Tamara symphonic poem; conductor Kent Nagano",
+			"VideoOwnerChannelId": "UCrBPi8d-uKG6fjDJBQEaO1A",
+			"VideoOwnerChannelTitle": "lorenzo costa"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "EW9KCV0X2ms",
+			"VideoPublishedAtRaw": "2022-04-25T20:27:10Z",
+			"VideoPublishedAtDateTimeOffset": "2022-04-25T20:27:10+00:00",
+			"VideoPublishedAt": "2022-04-26T01:57:10+05:30"
+		},
+		"ETag": "ozF68T531IlaYbjYmwevrHXTsbk",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4yQUE2Q0JEMTk4NTM3RTZC",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 20,
+			"PublishedAtRaw": "2025-09-04T05:35:48Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:35:48+00:00",
+			"PublishedAt": "2025-09-04T11:05:48+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "EW9KCV0X2ms"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/EW9KCV0X2ms/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/EW9KCV0X2ms/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/EW9KCV0X2ms/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "MA Balakirev Tamara symphonic poem conductor Kent Nagano",
+			"VideoOwnerChannelId": "UCe6WHcftwavh984i_jMXfSw",
+			"VideoOwnerChannelTitle": "Probando Probando"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "dHdlvmmZJus",
+			"VideoPublishedAtRaw": "2019-09-24T18:20:26Z",
+			"VideoPublishedAtDateTimeOffset": "2019-09-24T18:20:26+00:00",
+			"VideoPublishedAt": "2019-09-24T23:50:26+05:30"
+		},
+		"ETag": "aJVaL2ZTe2bTRyVDtxnW7GjkKWM",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41Mzk2QTAxMTkzNDk4MDhF",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Orchestre symphonique de Montr\u00E9al\nKent Nagano, chef d\u0027orchestre/ director\n\nMahler, Symphony no. 5 in C-sharp minor (76 min)\nMahler, Symphonie no 5 en do di\u00E8se mineur (76 min)\n\nNote de programme / Program note : http://bit.ly/2rfI9wd\n\nTo see the full concert including Ravel, Introduction et Allegro: medici.tv\nPour voir le concert complet avec Ravel, Introduction et Allegro: medici.tv\n\nConcert enregistr\u00E9 \u00E0 la Maison symphonique de Montr\u00E9al le 21 septembre 2019.\nRecorded live at the Maison symphonique de Montr\u00E9al on September 21, 2019.",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 21,
+			"PublishedAtRaw": "2024-12-26T11:20:34Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:34+00:00",
+			"PublishedAt": "2024-12-26T16:50:34+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "dHdlvmmZJus"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/dHdlvmmZJus/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/dHdlvmmZJus/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/dHdlvmmZJus/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/dHdlvmmZJus/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/dHdlvmmZJus/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mahler, Symphonie n\u00B0 5 - Kent Nagano, Orchestre symphonique de Montr\u00E9al",
+			"VideoOwnerChannelId": "UCTpzmAzVm5-cQNwgIbcsqCw",
+			"VideoOwnerChannelTitle": "Orchestre symphonique de Montr\u00E9al"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "m9mhI30C3QM",
+			"VideoPublishedAtRaw": "2022-02-23T03:03:00Z",
+			"VideoPublishedAtDateTimeOffset": "2022-02-23T03:03:00+00:00",
+			"VideoPublishedAt": "2022-02-23T08:33:00+05:30"
+		},
+		"ETag": "OmVQGX3VAJRNjxb-CoUyOKvvQgQ",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4wOTA3OTZBNzVEMTUzOTMy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Felix Mendelssohn\u0027s Violin Concerto in E minor, Op. 64, is his last concerto. Well received at its premiere, it has remained among the most prominent and highly-regarded violin concertos. It holds a central place in the violin repertoire and has developed a reputation as an essential concerto for all aspiring concert violinists to master, and usually one of the first Romantic era concertos they learn. A typical performance lasts just under half an hour.\n\nMendelssohn originally proposed the idea of the violin concerto to Ferdinand David, a close friend and then concertmaster of the Leipzig Gewandhaus Orchestra. Although conceived in 1838, the work took another six years to complete and was not premiered until 1845. During this time, Mendelssohn maintained a regular correspondence with David, who gave him many suggestions. The work itself was one of the foremost violin concertos of the Romantic era and was influential on many other composers.\n\nAlthough the concerto consists of three movements in a standard fast\u2013slow\u2013fast structure and each movement follows a traditional form, the concerto was innovative and included many novel features for its time. Distinctive aspects include the almost immediate entrance of the violin at the beginning of the work (rather than following an orchestral preview of the first movement\u0027s major themes, as was typical in Classical-era concertos) and the through-composed form of the concerto as a whole, in which the three movements are melodically and harmonically connected and played attacca (each movement immediately following the previous one without any pauses).\n\nInfo: https://en.wikipedia.org/wiki/Violin_Concerto_(Mendelssohn)\nVideo: https://www.youtube.com/watch?v=I03Hs6dwj7E\n\n#Mendelssohn #Ray Chen #Kent Nagano",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 22,
+			"PublishedAtRaw": "2024-12-26T11:19:51Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:19:51+00:00",
+			"PublishedAt": "2024-12-26T16:49:51+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "m9mhI30C3QM"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/m9mhI30C3QM/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/m9mhI30C3QM/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/m9mhI30C3QM/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/m9mhI30C3QM/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/m9mhI30C3QM/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Mendelssohn Violin Concerto in E minor / Ray Chen / Kent Nagano / Gothenburg Symphony Orchestra",
+			"VideoOwnerChannelId": "UCt-JKeQ_8ZsdbLqCufnZnoQ",
+			"VideoOwnerChannelTitle": "Patetikus"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "X0QkoFsYj4M",
+			"VideoPublishedAtRaw": "2023-02-19T09:51:21Z",
+			"VideoPublishedAtDateTimeOffset": "2023-02-19T09:51:21+00:00",
+			"VideoPublishedAt": "2023-02-19T15:21:21+05:30"
+		},
+		"ETag": "G86rRBhLiog2yJKAlpbdj_sXYJ8",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41NkI0NEY2RDEwNTU3Q0M2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Wagner: Tristan und Isolde, Prelude and \u201CLiebestod\u201D\nArnold Schoenberg: The Transfigured Night op.4\nFranz Schubert: Symphony No. 8 in B minor, D. 759, \u201CUnfinished\u201D\nRichard Strauss: Four Last Songs\n\nMiah Persson, soprano\nMontreal Symphony Orchestra\nKent Nagano, conductor",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 23,
+			"PublishedAtRaw": "2024-12-26T11:19:35Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:19:35+00:00",
+			"PublishedAt": "2024-12-26T16:49:35+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "X0QkoFsYj4M"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/X0QkoFsYj4M/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/X0QkoFsYj4M/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/X0QkoFsYj4M/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "Miah Persson \u0026 Kent Nagano perform with Montreal Symphony Orchestra",
+			"VideoOwnerChannelId": "UCOpL6JBxoUu3zImhj5xUTlA",
+			"VideoOwnerChannelTitle": "ALTEA MEDIA / I LOVE TV"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "ierL0LwMm74",
+			"VideoPublishedAtRaw": "2021-01-11T12:52:33Z",
+			"VideoPublishedAtDateTimeOffset": "2021-01-11T12:52:33+00:00",
+			"VideoPublishedAt": "2021-01-11T18:22:33+05:30"
+		},
+		"ETag": "qa2_-58lC7ft968c4Blu_yBbsbU",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC40NzZCMERDMjVEN0RFRThB",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Anton Bruckner (1824-1896): Quintett F-Dur \n(bearbeitet f\u00FCr Streichorchester von Hans Stadlmair)\n\u2003\n00:12 I. Gem\u00E4\u00DFigt\n15:52 II. Scherzo. Schnell \u2013 Trio. Langsamer\n24:28 III. Adagio\n40:03 IV. Finale. Lebhaft bewegt\n\nKent Nagano, Dirigent\nPhilharmonisches Staatsorchester Hamburg\n\nBuckners Streichquintett z\u00E4hlt zu den wenigen kammermusikalischen Werken des gro\u00DFen Symphonikers und doch kann es die symphonische Klangsprache seines Sch\u00F6pfers nicht verbergen. Bruckner-Biograf Mathias Hansen beschrieb es denn auch \u201Ewie ein getreues Echo Bruckner\u0027scher Sinfonien, gespielt von einem Mahler\u0027schen Fernorchester.\u201C Kent Nagano und die Philharmoniker sp\u00FCren diesem Echo in der Sakral-Akustik von St. Michaelis nach und pr\u00E4sentieren das Werk in der Fassung f\u00FCr Streichorchester von Hans Stadlmair.\n\nRecording: Wolfram Nehls, Thomas B\u00F6\u00DFl\nRedaktion: Hannes Rathjen\n\nwww.staatsorchester-hamburg.de\nhttps://www.staatsorchester-hamburg.de/\n\n#philharmonischesstaatsorchesterhamburg #stmichaelishamburg #kentnagano #antonbruckner",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 24,
+			"PublishedAtRaw": "2024-12-26T11:20:16Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:16+00:00",
+			"PublishedAt": "2024-12-26T16:50:16+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "ierL0LwMm74"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/ierL0LwMm74/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/ierL0LwMm74/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/ierL0LwMm74/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/ierL0LwMm74/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/ierL0LwMm74/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Nagano: Bruckner Quintett F-Dur (Streichorchesterfassung) | Philharmonisches Staatsorchester Hamburg",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "Wi709dYOM38",
+			"VideoPublishedAtRaw": "2020-04-06T19:08:56Z",
+			"VideoPublishedAtDateTimeOffset": "2020-04-06T19:08:56+00:00",
+			"VideoPublishedAt": "2020-04-07T00:38:56+05:30"
+		},
+		"ETag": "aK5urLGNzTwWHXJX5W5TmzFxMk8",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC4zMDg5MkQ5MEVDMEM1NTg2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Fundada en 1934, la OSM es reconocida como una de las mejores orquestas en el mundo. Se present\u00F3 en el Cervantino con Kent Nagano al frente de la agrupaci\u00F3n para interpretar piezas de Mozart y Mahler.\n\nProducci\u00F3n: TV4 Guanajuato.\nDerechos reservados y autorizados por las agrupaci\u00F3n  para su distribuci\u00F3n a trav\u00E9s de los canales oficiales del Festival Internacional Cervantino. Octubre, 2019.",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 25,
+			"PublishedAtRaw": "2024-12-26T11:20:30Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:30+00:00",
+			"PublishedAt": "2024-12-26T16:50:30+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "Wi709dYOM38"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/Wi709dYOM38/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/Wi709dYOM38/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/Wi709dYOM38/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/Wi709dYOM38/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/Wi709dYOM38/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Orquesta Sinf\u00F3nica de Montreal bajo la direcci\u00F3n de Kent Nagano en Festival Internacional Cervantino",
+			"VideoOwnerChannelId": "UCUEb0k8IntJYXexe5TRc47g",
+			"VideoOwnerChannelTitle": "Festival Internacional Cervantino"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tle2naBF75c",
+			"VideoPublishedAtRaw": "2025-07-18T10:47:43Z",
+			"VideoPublishedAtDateTimeOffset": "2025-07-18T10:47:43+00:00",
+			"VideoPublishedAt": "2025-07-18T16:17:43+05:30"
+		},
+		"ETag": "yEuRiEXE9j_PYg_DHYZPTXU9kMg",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5GM0Q3M0MzMzY5NTJFNTdE",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Richard Strauss: Ein Heldenleben op. 40\nDSO Berlin\nKent Nagano\nHans Maile, solo violin\n\nlive Suntory Hall, Tokyo, 1999/10/29",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 26,
+			"PublishedAtRaw": "2025-09-04T05:33:15Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:33:15+00:00",
+			"PublishedAt": "2025-09-04T11:03:15+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tle2naBF75c"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tle2naBF75c/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tle2naBF75c/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tle2naBF75c/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tle2naBF75c/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tle2naBF75c/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Richard Strauss: Ein Heldenleben op. 40 (Kent Nagano / Hans Maile)",
+			"VideoOwnerChannelId": "UCHK2QDxt7yQzYBrE6QAf3Tw",
+			"VideoOwnerChannelTitle": "MDCelloBerlin"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "tpT6kWcddq0",
+			"VideoPublishedAtRaw": "2025-11-30T13:52:29Z",
+			"VideoPublishedAtDateTimeOffset": "2025-11-30T13:52:29+00:00",
+			"VideoPublishedAt": "2025-11-30T19:22:29+05:30"
+		},
+		"ETag": "2lPBy2kI2hI0ExCSQbYY1XZLXq0",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC40QTA3NTU2RkM1QzlCMzYx",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Here is the first half of the Russian National Orchestra\u0027s 20th anniversary concert I uploaded a few weeks ago. Luckily the video available here is far less fragmented - only missing for the Beethoven.\n-----------------------------------------------------------------\n\u25BA 00:00. Ludwig van Beethoven -  Leonore Overture No. 3\n\u25BA 12:35. Richard Strauss - Don Juan\n\u25BA 30:31. Maurice Ravel - Bolero\nRussian National Orchestra, Kent Nagano\nMoscow, Tchaikovsky Concert Hall, 5 November 2010\n-----------------------------------------------------------------\n\u041B\u044E\u0434\u0432\u0438\u0433 \u0432\u0430\u043D \u0411\u0435\u0442\u0445\u043E\u0432\u0435\u043D - \u00AB\u041B\u0435\u043E\u043D\u043E\u0440\u0430\u00BB No. 3\n\u0420\u0438\u0445\u0430\u0440\u0434 \u0428\u0442\u0440\u0430\u0443\u0441 - \u0414\u043E\u043D \u0416\u0443\u0430\u043D\n\u0420\u0430\u0432\u0435\u043B\u044C - \u0411\u043E\u043B\u0435\u0440\u043E\n\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u0439 \u041D\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u041E\u0440\u043A\u0435\u0441\u0442\u0440, \u041A\u0435\u043D\u0442 \u041D\u0430\u0433\u0430\u043D\u043E\n\u041C\u043E\u0441\u043A\u0432\u0430, \u041A\u043E\u043D\u0446\u0435\u0440\u0442\u043D\u044B\u0439 \u0417\u0430\u043B \u0427\u0430\u0439\u043A\u043E\u0432\u0441\u043A\u043E\u0433\u043E, 5 \u043D\u043E\u044F\u0431\u0440\u044F 2010\n20-\u043B\u0435\u0442\u043D\u0438\u0439 \u044E\u0431\u0438\u043B\u0435\u0439 \u0420\u041D\u041E",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 27,
+			"PublishedAtRaw": "2025-11-30T15:50:45Z",
+			"PublishedAtDateTimeOffset": "2025-11-30T15:50:45+00:00",
+			"PublishedAt": "2025-11-30T21:20:45+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "tpT6kWcddq0"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/tpT6kWcddq0/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/tpT6kWcddq0/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/tpT6kWcddq0/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/tpT6kWcddq0/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/tpT6kWcddq0/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "RNO 20th Anniversary: Kent Nagano conducts Beethoven, Strauss, Ravel (Moscow, 2010)",
+			"VideoOwnerChannelId": "UCqvpGMR-NgBFe0I9etclJdA",
+			"VideoOwnerChannelTitle": "Classical Rarities"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "E1LGQXA5AgY",
+			"VideoPublishedAtRaw": "2021-06-26T14:05:29Z",
+			"VideoPublishedAtDateTimeOffset": "2021-06-26T14:05:29+00:00",
+			"VideoPublishedAt": "2021-06-26T19:35:29+05:30"
+		},
+		"ETag": "7ZevEUq4cyRD0m7RPi6I5zQEKKs",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5DMkU4NTY1QUFGQTYwMDE3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "20210625  Symphonic Concert, Kent Nagano\nPhilharmonie Berlin, Germany\n\nPianist: Seong-Jin Cho\nDeutsches Symphonie-Orchester Berlin\nConductor : Kent Nagano\n\nLudwig van Beethoven Piano Concerto No. 2 in B flat major Op.19\n00:01   I. Allegro con brio \n13:52  II. Adagio \n22:14 III. Rondo, Allegro molto \n28:22 Interview      \n\nBroadcasted live in concert at deutschland funk kultur radio from Philharmonie Berlin on Jun 25, 2021\n\nlistening service is available until July 25, 2021 - 8:03 p.m. at https://www.deutschlandfunkkultur.de/kent-nagano-und-das-deutsche-symphonie-orchester-berlin-mit.1091.de.html?dram:article_id=498978",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 28,
+			"PublishedAtRaw": "2025-09-04T05:36:04Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:36:04+00:00",
+			"PublishedAt": "2025-09-04T11:06:04+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "E1LGQXA5AgY"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/E1LGQXA5AgY/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Seong-Jin Cho : Beethoven Piano Concerto No. 2 (20210625 Berlin)",
+			"VideoOwnerChannelId": "UCbuuWGqGgMoeF5tC4uMEatg",
+			"VideoOwnerChannelTitle": "Beautiful Life"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "3u-unvYedx8",
+			"VideoPublishedAtRaw": "2015-05-20T10:06:25Z",
+			"VideoPublishedAtDateTimeOffset": "2015-05-20T10:06:25+00:00",
+			"VideoPublishedAt": "2015-05-20T15:36:25+05:30"
+		},
+		"ETag": "L4st4SrDEb-fwOY3jb9Q70w2A9g",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC43NDhFRTgwOTRERTU4Rjg3",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Download the Tonic App to practice your instrument with a community of other musicians: https://tonicmusic.app/practice-together\n\n\uD83D\uDD14 Subscribe to the channel for the latest vids: https://www.youtube.com/@RayChenViolinist?sub_confirmation=1\n\nPerformed live on March 26th, 2015 with the Gothenburg Symphony Orchestra and Maestro Kent Nagano. \n\nI. Allegro moderato \nII. Adagio di molto \nIII. Allegro, ma non tanto",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 29,
+			"PublishedAtRaw": "2025-09-04T05:39:23Z",
+			"PublishedAtDateTimeOffset": "2025-09-04T05:39:23+00:00",
+			"PublishedAt": "2025-09-04T11:09:23+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "3u-unvYedx8"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/3u-unvYedx8/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/3u-unvYedx8/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/3u-unvYedx8/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/3u-unvYedx8/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/3u-unvYedx8/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "SIBELIUS Violin Concerto in D minor, Op. 47 - Ray Chen",
+			"VideoOwnerChannelId": "UC-oPgEuX6iwJucvVGEmQL7Q",
+			"VideoOwnerChannelTitle": "Ray Chen"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "-Y286c8hz94",
+			"VideoPublishedAtRaw": "2021-05-27T18:00:01Z",
+			"VideoPublishedAtDateTimeOffset": "2021-05-27T18:00:01+00:00",
+			"VideoPublishedAt": "2021-05-27T23:30:01+05:30"
+		},
+		"ETag": "0gwkE8eKYPAEFYda44rZSs7TjrE",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC41MzJCQjBCNDIyRkJDN0VD",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "\u201EAlisma\u201C von William Blank wurde im Er\u00F6ffnungskonzert des Internationalen Musikfsts Hamburg uraufgef\u00FChrt. Ende Mai 2021 h\u00E4tte es im Rahmen der Dresdner Musikfestspiele erneut zur Auff\u00FChrung kommen sollen. Das Tripelkonzert ist eine Auftragskomposition der Dresdner Musikfestspiele mit freundlicher Unterst\u00FCtzung der Osts\u00E4chsischen Sparkasse Dresden. \n\nWilliam Blank: \u201EAlisma\u201C Tripelkonzert f\u00FCr Violine, Violoncello, Klarinette und Orchester\n\nKent Nagano, Dirigent\nMira Wang, Violine\nJan Vogler, Violoncello\nDaniel Ottensamer, Klarinette\nPhilharmonisches Staatsorchester Hamburg\n\nDas Programmheft finden Sie hier: https://bit.ly/3yIvkcc\n\nwww.staatsorchester-hamburg.de \nhttps://www.staatsorchester-hamburg.de",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 30,
+			"PublishedAtRaw": "2024-12-26T11:20:00Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:00+00:00",
+			"PublishedAt": "2024-12-26T16:50:00+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "-Y286c8hz94"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/-Y286c8hz94/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/-Y286c8hz94/hqdefault.jpg",
+					"Width": 480
+				},
+				"Maxres": {
+					"Height": 720,
+					"Url": "https://i.ytimg.com/vi/-Y286c8hz94/maxresdefault.jpg",
+					"Width": 1280
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/-Y286c8hz94/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/-Y286c8hz94/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "William Blank: \u201EAlisma\u201C, Nagano, Wang, Vogler, Ottensamer | Philharmonisches Staatsorchester Hamburg",
+			"VideoOwnerChannelId": "UCeA8g1j18IgOcblnKKvoSZQ",
+			"VideoOwnerChannelTitle": "Philharmonisches Staatsorchester Hamburg"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "XikrPlgDCng",
+			"VideoPublishedAtRaw": "2021-01-31T16:10:16Z",
+			"VideoPublishedAtDateTimeOffset": "2021-01-31T16:10:16+00:00",
+			"VideoPublishedAt": "2021-01-31T21:40:16+05:30"
+		},
+		"ETag": "TzHbekuR6bWwtLTLN-6KG68AS7Y",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC5GNjNDRDREMDQxOThCMDQ2",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Igor Stravinsky: Capriccio for piano and orchestra \n\nYulianna Avdeeva, piano \nKent Nagano, conductor \nOrchestre symphonique de Montr\u00E9al\n\nMontr\u00E9al Bach Festival (2015)",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 31,
+			"PublishedAtRaw": "2024-12-26T11:20:12Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:12+00:00",
+			"PublishedAt": "2024-12-26T16:50:12+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "XikrPlgDCng"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/XikrPlgDCng/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/XikrPlgDCng/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/XikrPlgDCng/mqdefault.jpg",
+					"Width": 320
+				},
+				"Standard": {
+					"Height": 480,
+					"Url": "https://i.ytimg.com/vi/XikrPlgDCng/sddefault.jpg",
+					"Width": 640
+				}
+			},
+			"Title": "Yulianna Avdeeva - Stravinsky - Capriccio for piano and orchestra (Kent Nagano, conductor)",
+			"VideoOwnerChannelId": "UCSkyyj0rfzEwNTZZfS8u_Kw",
+			"VideoOwnerChannelTitle": "MusicLover"
+		}
+	},
+	{
+		"ContentDetails": {
+			"VideoId": "oicVWlNfd3s",
+			"VideoPublishedAtRaw": "2020-06-17T02:00:03Z",
+			"VideoPublishedAtDateTimeOffset": "2020-06-17T02:00:03+00:00",
+			"VideoPublishedAt": "2020-06-17T07:30:03+05:30"
+		},
+		"ETag": "gDxyRaZeJDlexhojyd4_eilO47M",
+		"Id": "UEwxemdOQ29XdF83YWxYYXlnRnR4ZE52TUxYazZKaGQ0WC45ODRDNTg0QjA4NkFBNkQy",
+		"Kind": "youtube#playlistItem",
+		"Snippet": {
+			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+			"ChannelTitle": "Kanishk Nishar",
+			"Description": "Mahler No9\n The Hall\u00E9 conducted by Kent Nagano\n(1996 Tokyo)",
+			"PlaylistId": "PL1zgNCoWt_7alXaygFtxdNvMLXk6Jhd4X",
+			"Position": 32,
+			"PublishedAtRaw": "2024-12-26T11:20:25Z",
+			"PublishedAtDateTimeOffset": "2024-12-26T11:20:25+00:00",
+			"PublishedAt": "2024-12-26T16:50:25+05:30",
+			"ResourceId": {
+				"Kind": "youtube#video",
+				"VideoId": "oicVWlNfd3s"
+			},
+			"Thumbnails": {
+				"Default__": {
+					"Height": 90,
+					"Url": "https://i.ytimg.com/vi/oicVWlNfd3s/default.jpg",
+					"Width": 120
+				},
+				"High": {
+					"Height": 360,
+					"Url": "https://i.ytimg.com/vi/oicVWlNfd3s/hqdefault.jpg",
+					"Width": 480
+				},
+				"Medium": {
+					"Height": 180,
+					"Url": "https://i.ytimg.com/vi/oicVWlNfd3s/mqdefault.jpg",
+					"Width": 320
+				}
+			},
+			"Title": "\u30B1\u30F3\u30C8\u30FB\u30CA\u30AC\u30CE\u3000\u30DE\u30FC\u30E9\u30FC9\u756A\u3000\u30CF\u30EC\u7BA1\u5F26\u697D\u56E3\uFF081996\uFF09",
+			"VideoOwnerChannelId": "UCK8gA4W2dku6XOcAdEtYXJA",
+			"VideoOwnerChannelTitle": "tamatamanakaji"
+		}
+	}
 ]

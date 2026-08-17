@@ -1,0 +1,7 @@
+16:53:57 [INFO] SACD run: ISO root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin"
+16:53:57 [INFO] SACD run: output root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin (Stereo)"
+16:53:57 [INFO] Found 1 SACD ISO(s) to process
+16:53:57 [INFO] Probing "Disc 3"
+16:53:58 [INFO] Pipeline.Incomplete dir="┬½OUT┬╗\Disc 3\Disc 3" cue=4 flacs=0
+16:53:58 [INFO] Disc "Disc 3": case B ΓÇö DFF valid, 0/4 FLACs ΓåÆ converting
+16:53:58 [WARN] Saracon.Id3Detected input="Disc 3.dff" ΓÇö stripping before conversion

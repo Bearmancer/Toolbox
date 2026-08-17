@@ -15,7 +15,6 @@ public static class AudioSetup
 			services.AddSingleton<ProcessRunner>();
 			services.AddSingleton<PathValidator>();
 			services.AddSingleton<DiskSpaceChecker>();
-			services.AddSingleton<SacdProbeService>();
 			services.AddSingleton(sp => new SacdExtractService(
 				sp.GetRequiredService<ProcessRunner>(),
 				"sacd_extract"

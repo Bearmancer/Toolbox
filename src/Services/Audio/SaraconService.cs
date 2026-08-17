@@ -150,15 +150,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			return result.Errors;
 		}
 
-		var markerKill =
-			result.Value.TerminationReason == TerminationReason.KilledAfterCompletionMarker;
-		if (
-			!markerKill
-			&& (
-				result.Value.TerminationReason != TerminationReason.Exited
-				|| result.Value.ExitCode != 0
-			)
-		)
+		var markerKill = result.Value.TerminationReason == TerminationReason.KilledAfterCompletionMarker;
+		if (!markerKill && (result.Value.TerminationReason != TerminationReason.Exited || result.Value.ExitCode != 0))
 		{
 			var stderr = result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)];
 			Telemetry.Error(
@@ -212,19 +205,10 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 				Path.GetFileName(expectedOutput),
 				extension
 			);
-			return Errors.Audio.ConversionFailed(
-				inputDff,
-				$"saracon output {Path.GetFileName(expectedOutput)} has invalid {extension} structure"
-			);
+			return Errors.Audio.ConversionFailed(inputDff, $"saracon output {Path.GetFileName(expectedOutput)} has invalid {extension} structure");
 		}
 
-		var expectedPcmBytes = EstimateExpectedPcmBytes(
-			inputDff,
-			dsdSampleRate,
-			sampleRate,
-			channels,
-			bitDepth
-		);
+		var expectedPcmBytes = EstimateExpectedPcmBytes(inputDff, dsdSampleRate, sampleRate, channels, bitDepth);
 		if (expectedPcmBytes > 0 && outputSize < expectedPcmBytes / 2)
 		{
 			Telemetry.Warn(
@@ -260,9 +244,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		{
 			using FileStream stream = File.OpenRead(outputPath);
 			Span<byte> magic = stackalloc byte[4];
-			return stream.Length >= magic.Length
-				&& stream.Read(magic) == magic.Length
-				&& Encoding.ASCII.GetString(magic) == "fLaC";
+			return stream.Length >= magic.Length && stream.Read(magic) == magic.Length && Encoding.ASCII.GetString(magic) == "fLaC";
 		}
 
 		using FileStream wav = File.OpenRead(outputPath);
@@ -285,8 +267,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 
 			if (chunkId == "fmt " && chunkSize >= 16)
 			{
-				hasFormat =
-					reader.ReadUInt16() == 1
+				hasFormat = reader.ReadUInt16() == 1
 					&& reader.ReadUInt16() == channels
 					&& reader.ReadUInt32() == sampleRate;
 				reader.ReadUInt32();
