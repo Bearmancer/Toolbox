@@ -208,7 +208,7 @@ public sealed class DsdConvertService(
 				settings.GainDb,
 				probe.SampleRate,
 				probe.Channels,
-				null,
+				line => Telemetry.Debug("Saracon.Out {Line}", line),
 				ct
 			);
 			if (convertResult.IsError)
@@ -270,7 +270,7 @@ public sealed class DsdConvertService(
 				settings.GainDb,
 				probe.SampleRate,
 				probe.Channels,
-				null,
+				line => Telemetry.Debug("Saracon.Out {Line}", line),
 				ct
 			);
 			if (masterResult.IsError)
@@ -373,7 +373,7 @@ public sealed class DsdConvertService(
 				settings.GainDb,
 				probe.SampleRate,
 				probe.Channels,
-				null,
+				line => Telemetry.Debug("Saracon.Out {Line}", line),
 				ct
 			);
 			if (convertResult.IsError)

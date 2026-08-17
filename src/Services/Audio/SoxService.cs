@@ -25,7 +25,12 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		if (duration is { } d && d > TimeSpan.Zero)
 			args.Add(FormatSeconds(d));
 
-		ErrorOr<ProcessResult> result = await processRunner.RunAsync(binaryPath, [.. args], ct);
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
+			binaryPath,
+			[.. args],
+			ct,
+			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
+		);
 		if (result.IsError)
 			return result.Errors;
 
@@ -48,7 +53,8 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
 			[filePath, "-n", "stats"],
-			ct
+			ct,
+			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
 		);
 		if (result.IsError)
 			return result.Errors;
@@ -87,7 +93,8 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
 			binaryPath,
 			["--i", "-D", filePath],
-			ct
+			ct,
+			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
 		);
 		if (result.IsError)
 			return result.Errors;
@@ -122,7 +129,8 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 				"-v",
 				targetSampleRate.ToString(CultureInfo.InvariantCulture),
 			],
-			ct
+			ct,
+			onOutputLine: line => Telemetry.Debug("Sox.Out {Line}", line)
 		);
 
 		if (result.IsError)
