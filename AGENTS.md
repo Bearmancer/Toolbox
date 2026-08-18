@@ -12,25 +12,27 @@ CLI toolbox wrapping Azure AI services, Google YouTube API, Last.fm, and SACD au
 
 ```
 Toolbox/
-├── Toolbox.slnx           # Solution file (6 projects)
-├── .editorconfig          # Single source of truth for code style
+├── Toolbox.slnx           # 7 projects: App, CLI, Core, Audio, Azure, Google, LastFm
+├── .editorconfig          # Code style — single source of truth
 ├── src/
-│   ├── App/               # Entry point (exe). DI wiring only.
-│   ├── CLI/               # Spectre.Console.Cli commands. No service logic.
+│   ├── App/               # Exe. DI wiring only.
+│   ├── CLI/               # Spectre.Console.Cli. No service logic.
 │   │   ├── Azure/         # translate, docintel, vision, stt, ner, phrases
 │   │   ├── Audio/         # sacd-convert, dsd-convert
 │   │   ├── Dashboard/     # generate + OCI deploy
 │   │   └── Sync/          # youtube, lastfm
-│   ├── Core/              # Telemetry, errors, path resolution, text utils.
+│   ├── Core/              # Telemetry, errors, path resolution, text utils
 │   └── Services/
-│       ├── Audio/         # SACD ISO extraction + DSD→FLAC (sacd_extract, saracon, sox)
-│       ├── Azure/         # Azure AI SDKs (Vision, Translate, Speech, DocIntel, OpenAI, TextAnalytics)
-│       ├── Google/        # YouTube API + orchestration + dashboard. Depends on Azure.TranslateService.
-│       └── LastFm/        # Last.fm HTTP client + sync orchestrator + state.
-├── state/                 # Persisted data (youtube/, lastfm/, dashboard/)
-├── logs/                  # Per-service JSONL logs (rolling, 7-day retention).
+│       ├── Audio/         # SACD ISO → DSD→FLAC (sacd_extract, saracon, sox)
+│       ├── Azure/         # Vision, Translate, Speech, DocIntel, OpenAI, TextAnalytics
+│       ├── Google/YouTube/# YouTube API + orchestration. Depends on Azure.TranslateService
+│       └── LastFm/        # Last.fm HTTP + sync orchestrator
+├── state/                 # audio/, dashboard/, lastfm/, logs/, youtube/{deleted,merge-manifests,processed,raw}
+├── state/logs/            # 10 JSONL per service (rolling, 7-day)
+├── artifacts/             # bin+obj via UseArtifactsOutput (not bin/)
 ├── Directory.Build.props
-└── Directory.Packages.props
+├── Directory.Packages.props
+└── .codegraph → C:\Users\Lance\.omo\codegraph\projects\Toolbox-6ccb6ce65a117481 (junction)
 ```
 
 ## DEPENDENCY GRAPH
@@ -65,8 +67,8 @@ Services.LastFm → Core
 - **DI registration:** Extension methods using C# `extension(IServiceCollection)` syntax in each service's `*Setup.cs`.
 - **Error handling:** `ErrorOr<T>` railway-oriented. `result.Match(onSuccess, onError)`. Error factories in `Errors.cs`.
 - **JSON:** PascalCase properties. `JsonSerializerOptions { WriteIndented = true }` only. No `PropertyNamingPolicy`.
-- **Logging:** `Telemetry.ForService(ServiceName.X)` scopes log entries. JSONL per service in `logs/`.
-- **State:** `state/youtube/manifest.json`, `state/lastfm/scrobbles.json`, `state/dashboard/`. No database.
+- **Logging:** `Telemetry.ForService(ServiceName.X)` scopes log entries. JSONL per service in `state/logs/`.
+- **State:** `state/youtube/manifest.json`, `state/lastfm/scrobbles.json`, `state/dashboard/`, `state/audio/`. No database.
 - **One class per file.** No `Constants.cs`, no `Helpers.cs`. Extract to shared file only when 3+ consumers.
 - **Inline constants:** `private static readonly string` at top of file.
 - **Code style:** `.editorconfig` is the single source of truth. All rules enforced as `error` severity.
@@ -107,26 +109,20 @@ dotnet run --project src\App -- dashboard generate
 
 ### Saracon CLI
 
-Saracon is invoked headlessly through its command-line interface. Do not open the Saracon GUI for pipeline work. The DSD-to-PCM form is:
+Headless only — never GUI. Shape built in `src/Services/Audio/SaraconService.cs` (`saracon` from `PATH`):
 
 ```text
 saracon -c d2p -r <sample-rate> -f wav -n <bit-depth>bit -d tpdf -g <gain-db> -T -V all -t "<output-directory>" "<input.dff>"
 ```
 
-`-c d2p` selects DSD-to-PCM conversion, `-t` selects the target directory, and the DFF input is the final argument. The application builds this exact argument shape in `src/Services/Audio/SaraconService.cs`; it resolves `saracon` from `PATH` and never launches the GUI. Example for a DSD64 16-bit conversion:
-
-```text
-saracon -c d2p -r 44100 -f wav -n 16bit -d tpdf -g 0.00 -T -V all -t "C:\path\to\output" "C:\path\to\input.dff"
-```
-
-For the application-level SACD test, omit `--format`; its default is `Bit16`. The current Spectre enum parser rejects the numeric token `--format 16`, even though help describes the supported format as 16.
+`-c d2p` = DSD→PCM, `-t` = output dir, final arg = input .dff. Omit `--format` (default `Bit16`); parser rejects `--format 16`.
 
 ## NOTES
 
 - .NET 11.0 preview SDK required. `SuppressNETCoreSdkPreviewMessage` is set.
 - `<UseArtifactsOutput>true</UseArtifactsOutput>` — outputs in `artifacts/`, not `bin/`.
-- `.editorconfig` exists at repo root. All style rules enforced as errors.
-- `Toolbox.slnx` is the solution file (SDK-style, 6 projects).
-- No CI/CD pipeline. Builds are manual.
-- No test projects. Manual verification via standalone `.cs` files with `Main()`.
-- Sub-AGENTS.md files exist in `src/CLI/`, `src/Core/`, `src/Services/Audio/`, `src/Services/Azure/`, `src/Services/Google/`, `src/Services/LastFm/` for domain-specific guidance.
+- `.editorconfig` is source of truth. All rules enforced as `error`.
+- `Toolbox.slnx` is SDK-style, 7 projects.
+- No CI/CD (no `.github/`). No `tools/` dir. Manual builds.
+- No test projects. Standalone `.cs` with `Main()` only.
+- Sub-AGENTS.md in `src/CLI/`, `src/Core/`, `src/Services/Audio/`, `src/Services/Azure/`, `src/Services/Google/`, `src/Services/LastFm/`.

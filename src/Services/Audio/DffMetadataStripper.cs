@@ -8,8 +8,12 @@ using ErrorOr;
 
 public static class DffMetadataStripper
 {
-	private const int HeaderSize = 12, DffHeaderSize = 16;
-	private const string FormId = "FRM8", FormType = "DSD ", Id3ChunkId = "ID3 ", PropChunkId = "PROP";
+	private const int HeaderSize = 12,
+		DffHeaderSize = 16;
+	private const string FormId = "FRM8",
+		FormType = "DSD ",
+		Id3ChunkId = "ID3 ",
+		PropChunkId = "PROP";
 
 	public static ErrorOr<bool> HasId3Chunk(string dffPath)
 	{
@@ -92,7 +96,9 @@ public static class DffMetadataStripper
 				await ReadExactlyAsync(output, 8, ct)
 			);
 			if (writtenSize != (ulong)outputDataSize)
-				throw new InvalidDataException("Filtered DFF FRM8 size does not match output length");
+				throw new InvalidDataException(
+					"Filtered DFF FRM8 size does not match output length"
+				);
 
 			Telemetry.Debug(
 				"DffMetadataStripper.Completed input={Input} clean={Clean} inputBytes={InputBytes} outputBytes={OutputBytes}",
@@ -145,7 +151,11 @@ public static class DffMetadataStripper
 		return await ScanChunksAsync(input, input.Length, ct);
 	}
 
-	private static async Task<ErrorOr<bool>> ScanChunksAsync(Stream input, long end, CancellationToken ct)
+	private static async Task<ErrorOr<bool>> ScanChunksAsync(
+		Stream input,
+		long end,
+		CancellationToken ct
+	)
 	{
 		var found = false;
 		while (input.Position < end)
@@ -178,12 +188,20 @@ public static class DffMetadataStripper
 		}
 
 		if (input.Position != end)
-			return Errors.Audio.StripFailed("input", "DSDIFF chunk walk did not end on a chunk boundary");
+			return Errors.Audio.StripFailed(
+				"input",
+				"DSDIFF chunk walk did not end on a chunk boundary"
+			);
 
 		return found;
 	}
 
-	private static async Task<ErrorOr<Success>> CopyChunksAsync(Stream input, Stream output, long end, CancellationToken ct)
+	private static async Task<ErrorOr<Success>> CopyChunksAsync(
+		Stream input,
+		Stream output,
+		long end,
+		CancellationToken ct
+	)
 	{
 		while (input.Position < end)
 		{
@@ -235,12 +253,19 @@ public static class DffMetadataStripper
 		}
 
 		if (input.Position != end)
-			return Errors.Audio.StripFailed("input", "DSDIFF chunk copy did not end on a chunk boundary");
+			return Errors.Audio.StripFailed(
+				"input",
+				"DSDIFF chunk copy did not end on a chunk boundary"
+			);
 
 		return Result.Success;
 	}
 
-	private static async Task<ErrorOr<Chunk>> ReadChunkAsync(Stream input, long end, CancellationToken ct)
+	private static async Task<ErrorOr<Chunk>> ReadChunkAsync(
+		Stream input,
+		long end,
+		CancellationToken ct
+	)
 	{
 		if (end - input.Position < HeaderSize)
 			return Errors.Audio.StripFailed("input", "DSDIFF chunk header is truncated");
@@ -251,7 +276,10 @@ public static class DffMetadataStripper
 		var dataEnd = checked(input.Position + (long)size);
 		var endPosition = checked(dataEnd + (long)(size & 1));
 		if (endPosition > end)
-			return Errors.Audio.StripFailed("input", $"DSDIFF chunk {id} exceeds its parent boundary");
+			return Errors.Audio.StripFailed(
+				"input",
+				$"DSDIFF chunk {id} exceeds its parent boundary"
+			);
 
 		return new Chunk(id, size, input.Position, dataEnd, endPosition);
 	}
@@ -277,7 +305,11 @@ public static class DffMetadataStripper
 		return Result.Success;
 	}
 
-	private static async Task<byte[]> ReadExactlyAsync(Stream input, int count, CancellationToken ct)
+	private static async Task<byte[]> ReadExactlyAsync(
+		Stream input,
+		int count,
+		CancellationToken ct
+	)
 	{
 		var buffer = new byte[count];
 		var offset = 0;
@@ -292,7 +324,12 @@ public static class DffMetadataStripper
 		return buffer;
 	}
 
-	private static async Task CopyBytesAsync(Stream input, Stream output, long count, CancellationToken ct)
+	private static async Task CopyBytesAsync(
+		Stream input,
+		Stream output,
+		long count,
+		CancellationToken ct
+	)
 	{
 		var buffer = new byte[81920];
 		var remaining = count;
@@ -301,13 +338,20 @@ public static class DffMetadataStripper
 			var requested = (int)Math.Min(buffer.Length, remaining);
 			var read = await input.ReadAsync(buffer.AsMemory(0, requested), ct);
 			if (read == 0)
-				throw new EndOfStreamException($"Expected {count} bytes while copying, got {count - remaining}");
+				throw new EndOfStreamException(
+					$"Expected {count} bytes while copying, got {count - remaining}"
+				);
 			await output.WriteAsync(buffer.AsMemory(0, read), ct);
 			remaining -= read;
 		}
 	}
 
-	private static async Task WriteChunkHeaderAsync(Stream output, string id, ulong size, CancellationToken ct)
+	private static async Task WriteChunkHeaderAsync(
+		Stream output,
+		string id,
+		ulong size,
+		CancellationToken ct
+	)
 	{
 		var header = new byte[HeaderSize];
 		Encoding.ASCII.GetBytes(id, header.AsSpan(0, 4));

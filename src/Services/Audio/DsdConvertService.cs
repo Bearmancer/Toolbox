@@ -93,7 +93,9 @@ public sealed class DsdConvertService(
 								throw new InvalidDataException("Truncated PROP subchunk header");
 
 							var subId = Encoding.ASCII.GetString(ReadExactBytes(reader, 4));
-							var subSize = BinaryPrimitives.ReadUInt64BigEndian(ReadExactBytes(reader, 8));
+							var subSize = BinaryPrimitives.ReadUInt64BigEndian(
+								ReadExactBytes(reader, 8)
+							);
 							var subEnd = checked(stream.Position + checked((long)subSize));
 							if (subEnd > propEnd)
 								throw new InvalidDataException("PROP subchunk exceeds PROP chunk");
@@ -103,14 +105,21 @@ public sealed class DsdConvertService(
 								if (subSize < 4)
 									throw new InvalidDataException("FS subchunk is too small");
 
-								sampleRate = checked((int)BinaryPrimitives.ReadUInt32BigEndian(ReadExactBytes(reader, 4)));
+								sampleRate = checked(
+									(int)
+										BinaryPrimitives.ReadUInt32BigEndian(
+											ReadExactBytes(reader, 4)
+										)
+								);
 							}
 							else if (subId == "CHNL")
 							{
 								if (subSize < 2)
 									throw new InvalidDataException("CHNL subchunk is too small");
 
-								channels = BinaryPrimitives.ReadUInt16BigEndian(ReadExactBytes(reader, 2));
+								channels = BinaryPrimitives.ReadUInt16BigEndian(
+									ReadExactBytes(reader, 2)
+								);
 							}
 
 							SeekChecked(stream, subEnd);
@@ -118,7 +127,9 @@ public sealed class DsdConvertService(
 							{
 								var paddedSubEnd = checked(subEnd + 1);
 								if (paddedSubEnd > propEnd)
-									throw new InvalidDataException("PROP subchunk padding exceeds PROP chunk");
+									throw new InvalidDataException(
+										"PROP subchunk padding exceeds PROP chunk"
+									);
 								SeekChecked(stream, paddedSubEnd);
 							}
 						}
@@ -155,7 +166,11 @@ public sealed class DsdConvertService(
 		}
 		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
-			Telemetry.Error("DsdConvert.ProbeFailed file={File}: {Error}", LogPaths.Format(dffFilePath), ex.Message);
+			Telemetry.Error(
+				"DsdConvert.ProbeFailed file={File}: {Error}",
+				LogPaths.Format(dffFilePath),
+				ex.Message
+			);
 			return Errors.Audio.ProbeFailed(dffFilePath, ex.Message);
 		}
 	}
@@ -189,7 +204,11 @@ public sealed class DsdConvertService(
 			settings.BitDepth
 		);
 
-		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"gain_probe_{Guid.NewGuid():N}");
+		var tempDir = Path.Combine(
+			Path.GetTempPath(),
+			"toolbox-audio",
+			$"gain_probe_{Guid.NewGuid():N}"
+		);
 
 		try
 		{
@@ -234,7 +253,11 @@ public sealed class DsdConvertService(
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
+				Telemetry.Warn(
+					"DsdConvert.TempCleanupFailed dir={Dir} error={Error}",
+					LogPaths.Format(tempDir),
+					ex.Message
+				);
 			}
 		}
 	}
@@ -312,9 +335,7 @@ public sealed class DsdConvertService(
 				List<int> missing = [.. splitErrors.Keys.Order()];
 				var reasons = string.Join(
 					"; ",
-					splitErrors
-						.OrderBy(kv => kv.Key)
-						.Select(kv => $"track {kv.Key}: {kv.Value}")
+					splitErrors.OrderBy(kv => kv.Key).Select(kv => $"track {kv.Key}: {kv.Value}")
 				);
 				return Errors.Audio.ConversionFailed(
 					dffFile,
@@ -335,7 +356,11 @@ public sealed class DsdConvertService(
 				}
 				catch (Exception ex)
 				{
-					Telemetry.Warn("DsdConvert.MasterCleanupFailed file={File} error={Error}", LogPaths.Format(masterPcm), ex.Message);
+					Telemetry.Warn(
+						"DsdConvert.MasterCleanupFailed file={File} error={Error}",
+						LogPaths.Format(masterPcm),
+						ex.Message
+					);
 				}
 			}
 		}
@@ -349,7 +374,11 @@ public sealed class DsdConvertService(
 		CancellationToken ct = default
 	)
 	{
-		var tempDir = Path.Combine(Path.GetTempPath(), "toolbox-audio", $"saracon_{Guid.NewGuid():N}");
+		var tempDir = Path.Combine(
+			Path.GetTempPath(),
+			"toolbox-audio",
+			$"saracon_{Guid.NewGuid():N}"
+		);
 
 		try
 		{
@@ -392,7 +421,11 @@ public sealed class DsdConvertService(
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Warn("DsdConvert.TempCleanupFailed dir={Dir} error={Error}", LogPaths.Format(tempDir), ex.Message);
+				Telemetry.Warn(
+					"DsdConvert.TempCleanupFailed dir={Dir} error={Error}",
+					LogPaths.Format(tempDir),
+					ex.Message
+				);
 			}
 		}
 	}

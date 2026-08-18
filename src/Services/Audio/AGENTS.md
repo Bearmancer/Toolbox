@@ -1,112 +1,89 @@
-# Audio Services
+# Audio — SACD ISO → DSD → FLAC
 
-SACD ISO extraction and DSD→FLAC conversion pipeline.
+External-bin pipeline: sacd_extract → DFF → saracon d2p → sox split → ATL.NET tag.
 
-## STRUCTURE
+## STRUCTURE — 18 files
 
 ```
 Audio/
-├── AudioSetup.cs              # DI: extension AddAudioServices(), PATH validation for saracon/sox/sacd_extract
-├── PipelineOrchestrator.cs    # Pure orchestration: ISO enumeration, extraction, format routing, cleanup. 6 deps
-├── DiscOutputInspector.cs     # Disc assessment: CUE/FLAC/DFF probing, resume state detection
-├── FlacCompletenessChecker.cs # Duration validation, FLAC-by-track mapping, DFF dir resolution
-├── ProcessRunner.cs           # Shared external process abstraction: ArgumentList, concurrent stdout/stderr, CancellationToken
-├── PathValidator.cs           # Path traversal protection, input/output validation, containment checks
-├── DiskSpaceChecker.cs        # Pre-flight disk space checks (4x extraction, 8x conversion)
-├── SacdExtractService.cs      # wraps sacd_extract CLI: probe ISO, extract DFF+CUE
-├── SaraconService.cs          # wraps saracon CLI: DSD→PCM conversion (d2p). Internal dep of DsdConvertService
-├── SoxService.cs              # wraps sox CLI: track splitting, gain stats, duration, resampling. Internal dep
-├── DsdConvertService.cs       # Conversion facade: DFF header probe, gain orchestration, saracon→split→tag pipeline, derivation. Absorbs SaraconService/SoxService/AudioMetadataService
-├── AudioMetadataService.cs    # ATL.NET: read DSF/DFF tags, write FLAC tags
-├── CueParser.cs               # CUE sheet parser (custom, BOM + UTF-8 heuristic + Windows-1252 fallback)
-├── DiscState.cs                # Disc assessment and guard verdict enum
-├── ReprocessGuard.cs           # Persistent consecutive-failure guard and reset support
-└── AudioModels.cs             # SacdDisc, SacdTrack, CueSheet, CueTrack, DsdConversionSettings, ConversionResult, PipelineResult
+├── AudioSetup.cs              # DI extension AddAudioServices(), eager PATH check saracon/sox/sacd_extract
+├── PipelineOrchestrator.cs    # Pure orchestration: enumerate ISOs (natural sort), probe, route, cleanup. 6 deps
+├── DsdConvertService.cs       # Facade: ProbeDsdAsync, PrepareDffAsync, CalculateGainAsync, ConvertAndSplitAsync, Derive. Owns Saracon/Sox/Metadata
+├── SaraconService.cs          # Internal of DsdConvertService. saracon -c d2p wrapper. 1h timeout, 100% marker, Validates WAV/FLAC output
+├── SoxService.cs              # Internal of DsdConvertService. trim split, stats (Pk lev dB), duration --i -D, derive rate -v
+├── SacdExtractService.cs      # sacd_extract: -P probe, -2/-m -e -c -C extract (Edit Master + CUE)
+├── ProcessRunner.cs           # Shared: ArgumentList, concurrent stdout/stderr drain, CancellationToken, timeout/inactivity/completionPattern
+├── LogPaths.cs                # Path redaction: Setup/Reset IsoRoot+OutputRoot, Format → «ISO»/«OUT»/«TMP»
+├── PathValidator.cs           # Traversal/containment validation
+├── DiskSpaceChecker.cs        # Pre-flight: 4x extraction, 8x conversion + 500MB margin
+├── DiscOutputInspector.cs     # Disc assessment: CUE/FLAC/DFF probe → DiscState
+├── FlacCompletenessChecker.cs # Duration checks, FLAC-by-track map, DFF dir resolution
+├── DiscState.cs               # Complete | NeedsPrimaryConversion | NeedsExtraction | InvalidArtifacts | Failed
+├── ReprocessGuard.cs          # state/audio/sacd-guard.json — 3 consecutive non-Complete → Failed
+├── DffMetadataStripper.cs     # ID3 chunk strip → _clean.dff, FRM8 size rewrite, odd-pad handling
+├── AudioMetadataService.cs    # ATL.NET: new Track(path), set props, Save()
+├── CueParser.cs               # Custom CUE: BOM + UTF-8 heuristic + Windows-1252 fallback, no external dep
+└── AudioModels.cs             # SacdDisc/Track, DsdProbeResult, CueSheet/Track, DsdConversionSettings.ForDsdRate, ConversionResult, PipelineResult
 ```
+
+Facade: `PipelineOrchestrator` → `DsdConvertService` only. Never `SaraconService`/`SoxService` directly.
 
 ## WHERE TO LOOK
 
-| Task                      | File                                        | Notes                                                       |
-| ------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
-| Add audio conversion step | `DsdConvertService.cs`                      | Add method to facade, call from PipelineOrchestrator      |
-| Change DSD→PCM conversion | `SaraconService.cs`                         | Internal dep of DsdConvertService. saracon d2p: gain, sample rate, bit depth, dither |
-| Change sox operations     | `SoxService.cs`                             | Internal dep of DsdConvertService. Split, stats, duration, derive |
-| Change gain calculation   | `DsdConvertService.cs`                      | DFF header parse + saracon/sox stats → gain = -0.5 - peak, cap 6.0 |
-| Add CUE field support     | `CueParser.cs`                              | Add parsing in `Parse()` method                             |
-| Add metadata field        | `DsdConvertService.cs`                      | Metadata tagging handled inside ConvertAndSplitAsync       |
-| Change binary paths       | `AudioSetup.cs`                             | PATH validation at DI registration. No env vars.           |
-| Modify pipeline logic     | `PipelineOrchestrator.cs`                   | ISO enumeration, extraction, format routing, cleanup       |
-| Disc resume/assessment   | `DiscOutputInspector.cs`                    | CUE/FLAC/DFF probing, duration checks, resume state       |
-| Add pre-flight check      | `PathValidator.cs` or `DiskSpaceChecker.cs` | Validation before pipeline starts                           |
+| Task | File | Notes |
+|---|---|---|
+| Add conversion step | `DsdConvertService.cs` | Add method to facade, call from PipelineOrchestrator |
+| Change DSD→PCM | `SaraconService.cs` | Internal dep. d2p: gain/sample-rate/bit-depth/tpdf |
+| Change sox op | `SoxService.cs` | Internal dep. Split/stats/duration/derive |
+| Change gain | `DsdConvertService.cs` | DFF header + saracon 0dB→sox stats → gain = -0.5 - peak, cap 6.0 |
+| Add CUE field | `CueParser.cs` | Parse() method |
+| Add metadata | `DsdConvertService.cs` | ATL tag inside ConvertAndSplitAsync |
+| Change binary path | `AudioSetup.cs` | PATH only, no env vars |
+| Pipeline logic | `PipelineOrchestrator.cs` | Enumeration, routing, cleanup |
+| Resume/assessment | `DiscOutputInspector.cs` | CUE/FLAC/DFF probe, resume state |
+| Pre-flight check | `PathValidator.cs` / `DiskSpaceChecker.cs` | Before pipeline start |
 
 ## CONVENTIONS
 
-- **CUE parsing:** Custom parser, no external dependency. BOM detection + UTF-8 heuristic + Windows-1252 fallback.
-- **ProcessRunner:** Shared abstraction for all external binary calls. ArgumentList only, concurrent stdout/stderr, CancellationToken ALWAYS.
-- **PipelineOrchestrator:** Pure orchestration. ISO enumeration, extraction, format routing, cleanup. Calls ONLY DsdConvertService for conversion, never SaraconService/SoxService directly.
-- **DiscOutputInspector:** Disc state assessment. CUE parsing, FLAC enumeration, DFF probing, duration validation. Returns DiscAssessment for orchestrator routing decisions.
-- **PathValidator:** Path traversal protection. Input/output validation. Containment checks.
-- **DiskSpaceChecker:** Pre-flight disk space checks. 4x ISO size for extraction, 8x for conversion, 500MB safety margin.
-- **SaraconService/SoxService:** Internal dependencies of DsdConvertService. Thin binary wrappers via ProcessRunner. Not called by PipelineOrchestrator directly.
-- **DsdConvertService:** Conversion facade. DFF header probe, gain orchestration, saracon→split→tag pipeline, derivation. PipelineOrchestrator calls ONLY this service.
-- **ATL.NET for metadata:** `new Track(path)`, set properties, `track.Save()`.
-- **ErrorOr pattern:** All fallible operations return `ErrorOr<T>`.
-- **DsdConversionSettings.ForDsdRate():** Single source for sample-rate mapping. No inline switches.
-- **Output directories:** Sibling pattern: `../Name (Stereo)/` not `Name/[Stereo]/`.
+- ProcessRunner: ArgumentList only, concurrent stdout/stderr collectors, CancellationToken always, TerminationReason (Exited/Timeout/Inactivity/KilledAfterCompletionMarker/Canceled/StartFailed), completionPattern "100%" + 10s grace.
+- PipelineOrchestrator pure orchestration: natural-sort ISO enumeration, sacd_extract probe, DiscOutputInspector routing, delegates ONLY to DsdConvertService.
+- CUE: custom parser, no lib. BOM + UTF-8 heuristic + Windows-1252 fallback.
+- DsdConversionSettings.ForDsdRate(): single sample-rate mapping. DSD64→44100/16,88200/24; DSD128→88200/16,176400/24. No inline switches.
+- ATL.NET metadata: new Track(path), set props, Save().
+- ErrorOr<T> on all fallible ops. Telemetry.ForService(ServiceName.Audio) scope.
+- Output dirs: sibling `../Name (Stereo)/` not `Name/[Stereo]/`. Single disc per subdir assessment.
+- DiskSpace: 4x ISO extraction, 8x conversion, +500MB margin via DriveInfo.AvailableFreeSpace.
 
-## ENVIRONMENT VARIABLES
+## ENVIRONMENT
 
-All binaries (saracon, sox, sacd_extract) resolved from PATH. Validated eagerly at DI registration in `AudioSetup.AddAudioServices()`. No environment variables. No `SACD_EXTRACT_PATH`, `FFMPEG_PATH`, `SARACON_PATH`, or `SOX_PATH`.
+Binaries `saracon`, `sox`, `sacd_extract` from PATH only. Validated eagerly in AudioSetup.AddAudioServices() via ProcessRunner.IsOnPath() — throws InvalidOperationException if missing. No env vars.
 
-## ANTI-PATTERNS
+## PIPELINE — 9 steps
 
-- **NEVER** bundle saracon, sox, or sacd_extract binaries in the repo
-- **NEVER** hardcode binary paths
-- **NEVER** use TagLibSharp (ATL.NET is better maintained)
-- **NEVER** call SaraconService or SoxService from PipelineOrchestrator — use DsdConvertService facade
-- **NEVER** duplicate sample-rate mapping logic — use DsdConversionSettings.ForDsdRate()
+1. sacd_extract -P -i <iso> → stereo/mch probe
+2. sacd_extract -2/-m -e -c -C -i <iso> → DSDIFF Edit Master DFF + CUE (in channelDir sibling)
+3. DFF FRM8/DSD header parse (PROP/SND/FS/CHNL) → sample rate + channels
+4. Prepare: DffMetadataStripper ID3 check → _clean.dff if needed
+5. Gain: saracon d2p 0dB → temp WAV → sox stats → gain = -0.5 - Pk lev dB, cap 6.0
+6. saracon -c d2p -r <rate> -f wav -n <bit>bit -d tpdf -g <gain> -T -V all -t <outDir> <dff> → master WAV
+7. sox trim per CueTrack → FLACs (inside ConvertAndSplitAsync), ATL.NET tag per track
+8. Delete master WAV in finally; best-effort (never masks primary error)
+9. Optional: DeriveDirectoryAsync → 16-bit FLAC via sox rate -v
 
-## PIPELINE
+## SARACON
 
-1. `sacd_extract -P` → probe ISO for stereo/mch
-2. `sacd_extract -2/-m -e -c -C` → DSDIFF Edit Master + CUE
-3. DFF binary header parse → sample rate, channels
-4. saracon d2p (0dB) → temp WAV → sox stats → gain = -0.5 - peak, cap 6.0
-5. saracon d2p (gain, resolved SACD 44.1k/16bit/tpdf) → single WAV master (via DsdConvertService.ConvertAndSplitAsync)
-6. sox trim per cue track → individual FLACs (inside ConvertAndSplitAsync)
-7. ATL.NET → tag FLACs (inside ConvertAndSplitAsync)
-8. Delete intermediate WAV (inside ConvertAndSplitAsync)
-9. Optional: DsdConvertService.DeriveDirectoryAsync → 16-bit FLACs
+Headless only, never GUI. SaraconService builds: `saracon -c d2p -r <rate> -f wav -n <bit>bit -d tpdf -g <gain> -T -V all -t "<outDir>" "<input.dff>"`. -c d2p required, final arg = input DFF, -t = output dir. Default Bit16 at app layer (omit --format, parser rejects --format 16). Validates RIFF/WAVE/fmt/data chunks, checks -d2p variant filename, warns if output <50% expected PCM bytes. 1h timeout.
 
-## STATE AND RECOVERY
+## STATE / RECOVERY
 
-`DiscOutputInspector` assesses each disc as `Complete`, `NeedsPrimaryConversion`, `NeedsExtraction`, or `InvalidArtifacts`. `ReprocessGuard` records consecutive non-`Complete` outcomes in `state/audio/sacd-guard.json`; the third consecutive non-complete outcome becomes `Failed`, and a genuine `Complete` outcome removes the entry. Guard transitions are logged at `Warn`.
-
-Use `dotnet run --project src\App -- audio sacd-convert --reset-guard` to clear all guard entries. This is supported recovery path; do not edit guard JSON manually during normal operation.
-
-## SARACON CLI INVOCATION
-
-Use Saracon headlessly. Never open the Saracon GUI for pipeline work. `SaraconService` resolves `saracon` from `PATH` and invokes:
-
-```text
-saracon -c d2p -r <sample-rate> -f wav -n <bit-depth>bit -d tpdf -g <gain-db> -T -V all -t "<output-directory>" "<input.dff>"
-```
-
-The final argument is the input DFF. `-t` is the output directory. `-c d2p` is required; `d2p` is not a positional subcommand. For a DSD64 16-bit run, resolved settings produce:
-
-```text
-saracon -c d2p -r 44100 -f wav -n 16bit -d tpdf -g 0.00 -T -V all -t "<output-directory>" "<input.dff>"
-```
-
-The wrapper uses `ProcessRunner`, `-V all`, a one-hour timeout, and the `100%` completion marker. Pipeline tests must pass `--keep-iso`; do not delete source ISOs or CUE files during verification. At the application layer, omit `--format` because the default is `Bit16`; the current Spectre enum parser rejects numeric `--format 16`.
+DiscOutputInspector → Complete / NeedsPrimaryConversion / NeedsExtraction / InvalidArtifacts. ReprocessGuard in state/audio/sacd-guard.json, 3 consecutive non-Complete → Failed, Complete clears entry, Warn log on transition. Reset: `dotnet run --project src\App -- audio sacd-convert --reset-guard`. Don't edit JSON manually.
 
 ## ARTIFACT OWNERSHIP
 
-| Artifact | Success | Failure / cancellation |
+| Artifact | Success | Failure |
 |---|---|---|
-| ISO | delete only if `--keep-iso` absent **and** all outputs validate | retain |
-| CUE | retain | **retain — never deleted** |
-| DFF / `_clean.dff` | delete after full output validation, including with `--keep-iso` | retain or quarantine |
-| FLAC | retain | delete only for a deliberate re-split, logged |
-| Master PCM | best-effort delete in `finally` | never masks the primary error |
-| Temp files | run-owned unique path, publish on success | remove run-owned only |
+| ISO | delete iff --keep-iso absent AND outputs validate (FLAC count==CUE tracks, non-zero) | retain |
+| CUE | retain — never deleted | retain |
+| DFF/_clean.dff | delete after full validation (even with --keep-iso) | retain/quarantine |
+| FLAC | retain | delete only deliberate re-split, logged |
+| Master WAV | finally best-effort delete | never masks error |

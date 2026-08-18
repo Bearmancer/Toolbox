@@ -1,6 +1,0 @@
-21:43:54 [INFO] SACD run: ISO root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin"
-21:43:54 [INFO] SACD run: output root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin (Stereo)"
-21:43:54 [INFO] Found 1 SACD ISO(s) to process
-21:43:54 [INFO] Probing "Disc 6"
-21:43:55 [WARN] Pipeline.NoCue dir="┬½OUT┬╗\Disc 6\Disc 6" flacs=0
-21:43:55 [INFO] Disc "Disc 6": case A ΓÇö extracting from ISO

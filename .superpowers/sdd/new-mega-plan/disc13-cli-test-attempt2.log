@@ -1,7 +1,0 @@
-17:12:33 [INFO] SACD run: ISO root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin"
-17:12:34 [INFO] SACD run: output root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin (Stereo)"
-17:12:34 [INFO] Found 1 SACD ISO(s) to process
-17:12:34 [INFO] Probing "Disc 13"
-17:12:34 [INFO] Pipeline.Incomplete dir="«OUT»\Disc 13\Disc 13" cue=9 flacs=0
-17:12:34 [INFO] Disc "Disc 13": case A — extracting from ISO
-17:14:41 [WARN] Saracon.Id3Detected input="Disc 13.dff" — stripping before conversion

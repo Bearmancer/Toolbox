@@ -23,11 +23,9 @@ public sealed class ReprocessGuard
 			return new ReprocessGuard([]);
 
 		await using FileStream stream = File.OpenRead(StatePath);
-		Dictionary<string, GuardEntry>? entries =
-			await JsonSerializer.DeserializeAsync<Dictionary<string, GuardEntry>>(
-				stream,
-				JsonOptions
-			);
+		Dictionary<string, GuardEntry>? entries = await JsonSerializer.DeserializeAsync<
+			Dictionary<string, GuardEntry>
+		>(stream, JsonOptions);
 		return new ReprocessGuard(entries ?? []);
 	}
 
@@ -125,7 +123,12 @@ public sealed class ReprocessGuard
 		var tempPath = StatePath + ".tmp";
 		try
 		{
-			await using FileStream stream = File.Open(tempPath, FileMode.Create, FileAccess.Write, FileShare.None);
+			await using FileStream stream = File.Open(
+				tempPath,
+				FileMode.Create,
+				FileAccess.Write,
+				FileShare.None
+			);
 			await JsonSerializer.SerializeAsync(stream, Entries, JsonOptions, ct);
 			await stream.FlushAsync(ct);
 			stream.Close();

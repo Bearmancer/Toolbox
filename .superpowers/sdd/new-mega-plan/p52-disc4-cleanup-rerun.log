@@ -1,8 +1,0 @@
-22:33:21 [INFO] SACD run: ISO root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin"
-22:33:21 [INFO] SACD run: output root="C:\Users\Lance\Desktop\Music\Karajan 1970-79 Berlin (Stereo)"
-22:33:21 [INFO] Found 1 SACD ISO(s) to process
-22:33:21 [INFO] Probing "Disc 4"
-22:33:22 [INFO] Skipping "┬½OUT┬╗\Disc 4\Disc 4" ΓÇö 8/8 FLACs complete ("1:01:07")
-22:33:22 [INFO] Pipeline.DeletionValidationPassed iso="┬½ISO┬╗\Disc 4\Disc 4.iso"
-22:33:22 [INFO] Pipeline.KeepIsoRetained iso="┬½ISO┬╗\Disc 4\Disc 4.iso"
-SACD processing completed: 1 succeeded, 0 failed

@@ -1,4 +1,6 @@
-# toolbox-flatline - Work Plan
+# toolbox-flatline - Work Plan — COMPLETED (2026-08-18 snapshot)
+
+> **Status:** completed steps landed in commits `fix(audio): no-retry…` through `chore: flatline…` (see `git log --oneline origin/master..master` pre-squash branch `backup/pre-squash-5db9633`). Remaining 209-line detail below retained as audit trail; active hygiene is now the `.omo/plans/` SoC set + `AGENTS.md` hierarchy. Source: `toolbox-consolidated-spec.md` §9 plan bucket.
 
 ## TL;DR (For humans)
 

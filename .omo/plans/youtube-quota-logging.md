@@ -1,8 +1,10 @@
-# Plan: YouTube Quota + Logging Fixes
+# Plan: YouTube Quota + Logging Fixes — COMPLETED
 
-**Status:** approved  
+**Status:** completed (2026-08-18)  
 **Intent:** CLEAR  
 **Date:** 2026-08-13
+
+> **Implemented.** `Telemetry.cs:30` now uses `Path.Combine(PathResolver.RepoRoot, "state", "logs")` (verified live). `YouTubeFetchState` has `LastSortMoves/Attempted/Completed`. `YouTubeSyncProcessor` caps at `maxWritesPerRun=150` with `remainingBudget` + `IsQuotaOrRateLimit` early-exit. This doc retained as build spec reference; active source of truth is `youtube-architecture.md` + live `YouTubeFetchState.cs`/`YouTubeSyncProcessor.cs`/`Telemetry.cs`.
 
 ---
 

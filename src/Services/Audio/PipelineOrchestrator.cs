@@ -14,10 +14,7 @@ public sealed class PipelineOrchestrator(
 	DiskSpaceChecker diskSpaceChecker
 )
 {
-	private static readonly Regex NaturalSortPad = new(
-		@"\d+",
-		RegexOptions.Compiled
-	);
+	private static readonly Regex NaturalSortPad = new(@"\d+", RegexOptions.Compiled);
 
 	public async Task<ErrorOr<PipelineResult>> RunAsync(
 		string inputPath,
@@ -89,10 +86,7 @@ public sealed class PipelineOrchestrator(
 				{
 					failed++;
 					guardFailedDiscs.Add(iso);
-					Telemetry.Warn(
-						"Guard: {Disc} is Failed — skipping",
-						LogPaths.Format(iso)
-					);
+					Telemetry.Warn("Guard: {Disc} is Failed — skipping", LogPaths.Format(iso));
 					continue;
 				}
 
@@ -230,11 +224,7 @@ public sealed class PipelineOrchestrator(
 				assessment.PrimaryFlacCount,
 				assessment.CueTrackCount
 			);
-			ErrorOr<Success> convertResult = await ConvertDiscAsync(
-				assessment.DffDir,
-				format,
-				ct
-			);
+			ErrorOr<Success> convertResult = await ConvertDiscAsync(assessment.DffDir, format, ct);
 			if (convertResult.IsError)
 			{
 				ct.ThrowIfCancellationRequested();
@@ -253,10 +243,7 @@ public sealed class PipelineOrchestrator(
 		if (assessment.State == DiscState.NeedsExtraction)
 			DeletePartialFlacs(assessment.DffDir);
 
-		Telemetry.Info(
-			"Disc {Disc}: case A — extracting from ISO",
-			discName
-		);
+		Telemetry.Info("Disc {Disc}: case A — extracting from ISO", discName);
 
 		ErrorOr<List<string>> extractResult = await extractService.ExtractAsync(
 			isoPath,
@@ -355,9 +342,7 @@ public sealed class PipelineOrchestrator(
 		CancellationToken ct
 	)
 	{
-		var cueFiles = Directory.Exists(dffDir)
-			? Directory.GetFiles(dffDir, "*.cue")
-			: [];
+		var cueFiles = Directory.Exists(dffDir) ? Directory.GetFiles(dffDir, "*.cue") : [];
 		if (cueFiles.Length == 0)
 			return Errors.Audio.NoCueFound(dffDir);
 
@@ -386,11 +371,9 @@ public sealed class PipelineOrchestrator(
 		if (preparedDff.IsError)
 			return preparedDff.Errors;
 
-		DsdConversionSettings gainSettings = DsdConversionSettings.ForDsdRate(
-			dsdProbe.Value.SampleRate,
-			format,
-			0.0
-		).Primary;
+		DsdConversionSettings gainSettings = DsdConversionSettings
+			.ForDsdRate(dsdProbe.Value.SampleRate, format, 0.0)
+			.Primary;
 
 		ErrorOr<double> gainResult = await convertService.CalculateGainAsync(
 			preparedDff.Value,
@@ -401,11 +384,9 @@ public sealed class PipelineOrchestrator(
 		if (gainResult.IsError)
 			return gainResult.Errors;
 
-		DsdConversionSettings primary = DsdConversionSettings.ForDsdRate(
-			dsdProbe.Value.SampleRate,
-			format,
-			gainResult.Value
-		).Primary;
+		DsdConversionSettings primary = DsdConversionSettings
+			.ForDsdRate(dsdProbe.Value.SampleRate, format, gainResult.Value)
+			.Primary;
 
 		ErrorOr<List<string>> convertResult = await convertService.ConvertAndSplitAsync(
 			preparedDff.Value,
@@ -456,8 +437,11 @@ public sealed class PipelineOrchestrator(
 				if (!Directory.Exists(outputDir))
 					continue;
 
-				foreach (var file in Directory.GetFiles(outputDir, "*.dff", SearchOption.AllDirectories)
-					.Concat(Directory.GetFiles(outputDir, "*.xml", SearchOption.AllDirectories)))
+				foreach (
+					var file in Directory
+						.GetFiles(outputDir, "*.dff", SearchOption.AllDirectories)
+						.Concat(Directory.GetFiles(outputDir, "*.xml", SearchOption.AllDirectories))
+				)
 				{
 					try
 					{
@@ -476,10 +460,7 @@ public sealed class PipelineOrchestrator(
 
 			if (keepIso)
 			{
-				Telemetry.Info(
-					"Pipeline.KeepIsoRetained iso={Iso}",
-					LogPaths.Format(disc.IsoPath)
-				);
+				Telemetry.Info("Pipeline.KeepIsoRetained iso={Iso}", LogPaths.Format(disc.IsoPath));
 				continue;
 			}
 
