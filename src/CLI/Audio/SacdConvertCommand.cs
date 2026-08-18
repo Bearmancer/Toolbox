@@ -16,11 +16,11 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		[CommandArgument(0, "[input]")]
 		public string Input { get; init; } = string.Empty;
 
-		[Description("Output format: 16 (only supported value)")]
+		[Description("Output bit depth: 16 (default, CD-compatible) or 24 (hi-res)")]
 		[CommandOption("-f|--format")]
 		public AudioOutputFormat Format { get; init; } = AudioOutputFormat.Bit16;
 
-		[Description("Force multichannel extraction (auto-detected if omitted)")]
+		[Description("Force multichannel extraction (auto-detected from ISO if omitted)")]
 		[CommandOption("-m|--multichannel")]
 		public bool? Multichannel { get; init; }
 
@@ -51,15 +51,6 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		{
 			await Console.Error.WriteLineAsync(
 				"Input path is required (or use --reset-guard).",
-				cancellationToken
-			);
-			return 1;
-		}
-
-		if (settings.Format != AudioOutputFormat.Bit16)
-		{
-			await Console.Error.WriteLineAsync(
-				"SACD conversion supports only --format 16.",
 				cancellationToken
 			);
 			return 1;

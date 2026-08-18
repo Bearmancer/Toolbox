@@ -275,6 +275,15 @@ public sealed class PipelineOrchestrator(
 			}
 		}
 
+		var totalFlacs = extractResult.Value.Sum(d =>
+			Directory.Exists(d) ? Directory.GetFiles(d, "*.flac").Length : 0
+		);
+		Telemetry.Info(
+			"Disc {Disc}: extracted & converted — {Flacs} FLACs from ISO",
+			discName,
+			totalFlacs
+		);
+
 		ct.ThrowIfCancellationRequested();
 		await guard.RecordAsync(isoPath, DiscState.Complete, ct);
 		return new ProcessedDisc(isoPath, extractResult.Value);
