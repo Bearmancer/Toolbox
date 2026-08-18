@@ -6,7 +6,6 @@ namespace Services.Google.YouTube;
 
 public class YouTubePlaylistOrchestrator(
 	YouTubePlaylistService playlistService,
-	YouTubePlaylistProcessor playlistProcessor,
 	YouTubeSyncProcessor syncProcessor,
 	YouTubeDuplicateMerger merger
 )
@@ -39,7 +38,7 @@ public class YouTubePlaylistOrchestrator(
 			.ThenAsync(stored => FetchSummariesAndDetectAsync(stored, ct))
 			.ThenAsync(ctx => MergePlaylistsAsync(ctx, ct))
 			.ThenAsync(ctx => ProcessIfNeededAsync(ctx, noTranslate, ct))
-			.Then(outcome => Finalize(outcome, syncStopwatch));
+			.Then(outcome => Finalize(outcome, null, syncStopwatch));
 	}
 
 	private async Task<ErrorOr<SyncContext>> FetchSummariesAndDetectAsync(
@@ -165,17 +164,45 @@ public class YouTubePlaylistOrchestrator(
 		return new ProcessOutcome(ctx.Stored, ctx.Changes, result);
 	}
 
-	private static ErrorOr<SyncOutcome> Finalize(ProcessOutcome outcome, Stopwatch syncStopwatch)
+	private static ErrorOr<SyncOutcome> Finalize(
+		ProcessOutcome outcome,
+		YouTubeSyncProcessor.SortStatistics? sortStats,
+		Stopwatch syncStopwatch
+	)
 	{
 		if (outcome.Result is { } result)
 		{
-			Telemetry.Info(
-				"Sync done in {Elapsed:F1}s: {New} new, {Changed} changed, {Deleted} deleted | {TotalVideos} videos",
-				syncStopwatch.Elapsed.TotalSeconds,
-				outcome.Changes.NewPlaylists.Count,
-				outcome.Changes.ChangedPlaylists.Count,
-				outcome.Changes.DeletedPlaylists.Count,
-				result.TotalVideos
+			if (sortStats is { } s)
+				Telemetry.Info(
+					"Sync done in {Elapsed:F1}s: {New} new, {Changed} changed, {Deleted} deleted, {Unchanged} unchanged | {TotalVideos} videos ({Skipped} skipped) | Sort: {Attempted} attempted, {Modified} modified, {Writes} writes",
+					syncStopwatch.Elapsed.TotalSeconds,
+					outcome.Changes.NewPlaylists.Count,
+					outcome.Changes.ChangedPlaylists.Count,
+					outcome.Changes.DeletedPlaylists.Count,
+					outcome.Changes.UnchangedPlaylists.Count,
+					result.TotalVideos,
+					result.SkippedVideos,
+					s.Attempted,
+					s.Modified,
+					s.TotalWrites
+				);
+			else
+				Telemetry.Info(
+					"Sync done in {Elapsed:F1}s: {New} new, {Changed} changed, {Deleted} deleted, {Unchanged} unchanged | {TotalVideos} videos ({Skipped} skipped)",
+					syncStopwatch.Elapsed.TotalSeconds,
+					outcome.Changes.NewPlaylists.Count,
+					outcome.Changes.ChangedPlaylists.Count,
+					outcome.Changes.DeletedPlaylists.Count,
+					outcome.Changes.UnchangedPlaylists.Count,
+					result.TotalVideos,
+					result.SkippedVideos
+				);
+
+			Telemetry.Debug(
+				"SyncResult: {PlaylistCount} playlists, {VideoCount} videos, {Skipped} skipped",
+				result.ProcessedIds.Count,
+				result.TotalVideos,
+				result.SkippedVideos
 			);
 		}
 
@@ -184,14 +211,14 @@ public class YouTubePlaylistOrchestrator(
 		return new SyncOutcome(ids, idsWithNewVideos, outcome.Stored);
 	}
 
-	public async Task<IReadOnlyList<string>> ExecuteWithSortAsync(
-		bool noTranslate,
-		CancellationToken ct
-	)
+	public async Task<(
+		IReadOnlyList<string> Ids,
+		YouTubeSyncProcessor.SortStatistics SortStats
+	)> ExecuteWithSortAsync(bool noTranslate, CancellationToken ct)
 	{
 		ErrorOr<SyncOutcome> outcomeResult = await ExecuteCoreAsync(noTranslate, ct);
 		if (outcomeResult.IsError)
-			return [];
+			return ([], new(0, 0, 0, 0));
 
 		SyncOutcome outcome = outcomeResult.Value;
 
@@ -223,9 +250,20 @@ public class YouTubePlaylistOrchestrator(
 			allPlaylistIds.Count
 		);
 
-		await syncProcessor.SortPlaylistsAsync(prioritizedIds, outcome.State, ct);
+		YouTubeSyncProcessor.SortStatistics sortStats = await syncProcessor.SortPlaylistsAsync(
+			prioritizedIds,
+			outcome.State,
+			ct
+		);
+		if (sortStats.Attempted > 0)
+			Telemetry.Info(
+				"Sort: {Attempted} attempted, {Modified} modified, {Writes} writes",
+				sortStats.Attempted,
+				sortStats.Modified,
+				sortStats.TotalWrites
+			);
 
-		return outcome.Ids;
+		return (outcome.Ids, sortStats);
 	}
 
 	public async Task<string?> ExecuteForPlaylistTitleAsync(
@@ -289,7 +327,7 @@ public class YouTubePlaylistOrchestrator(
 		}
 
 		ErrorOr<YouTubePlaylistProcessor.ProcessResult> processorResult =
-			await playlistProcessor.ProcessPlaylistAsync(currentSummary, noTranslate, ct);
+			await syncProcessor.ProcessSingleViaProcessorAsync(currentSummary, noTranslate, ct);
 		if (processorResult.IsError)
 		{
 			Telemetry.Error(

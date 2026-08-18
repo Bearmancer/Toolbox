@@ -335,9 +335,7 @@ public class YouTubeSortService(YouTubeService yt, YouTubePlaylistService playli
 				await Task.Delay(TimeSpan.FromMilliseconds(100), ct);
 		}
 
-		return failures > 0
-			? Errors.YouTube.ApiError($"{failures}/{maxUpdatesThisPass} updates failed")
-			: new SortPassResult(successes, failures, writesConsumed, movedItemIds.Count);
+		return new SortPassResult(successes, failures, writesConsumed, movedItemIds.Count);
 	}
 
 	private static bool IsQuotaOrRateLimit(GoogleApiException ex) =>

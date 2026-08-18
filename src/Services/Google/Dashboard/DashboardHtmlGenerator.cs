@@ -1,4 +1,4 @@
-namespace CLI.Dashboard;
+namespace Services.Google.Dashboard;
 
 public static class DashboardHtmlGenerator
 {

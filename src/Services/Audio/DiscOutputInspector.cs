@@ -35,7 +35,7 @@ public sealed class DiscOutputInspector(
 			if (cueResult.IsError)
 				Telemetry.Warn(
 					"Pipeline.CueParseFailed dir={Dir} error={Error}",
-					LogPaths.Format(dffDir),
+					Path.GetFileName(dffDir),
 					cueResult.Errors[0].Description
 				);
 			else
@@ -65,7 +65,7 @@ public sealed class DiscOutputInspector(
 		{
 			Telemetry.Warn(
 				"Pipeline.NoCue dir={Dir} flacs={Flacs}",
-				LogPaths.Format(dffDir),
+				Path.GetFileName(dffDir),
 				primaryFlacs.Count
 			);
 			return new DiscAssessment(
@@ -87,7 +87,7 @@ public sealed class DiscOutputInspector(
 		{
 			Telemetry.Info(
 				"Pipeline.Incomplete dir={Dir} cue={CueCount} flacs={FlacCount}",
-				LogPaths.Format(dffDir),
+				Path.GetFileName(dffDir),
 				allTrackNumbers.Count,
 				primaryFlacs.Count
 			);
@@ -123,7 +123,7 @@ public sealed class DiscOutputInspector(
 		var seconds = (int)(totalSeconds % 60);
 		Telemetry.Info(
 			"Skipping {Disc} — {Count}/{Total} FLACs complete ({Duration})",
-			LogPaths.Format(dffDir),
+			Path.GetFileName(dffDir),
 			primaryFlacs.Count,
 			allTrackNumbers.Count,
 			$"{hours}:{minutes:D2}:{seconds:D2}"

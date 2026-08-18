@@ -33,7 +33,7 @@ public static class DffMetadataStripper
 		{
 			Telemetry.Error(
 				"DffMetadataStripper.ScanFailed file={File} error={Error}",
-				LogPaths.Format(dffPath),
+				Path.GetFileName(dffPath),
 				ex.Message
 			);
 			return Errors.Audio.StripFailed(dffPath, ex.Message);
@@ -114,7 +114,7 @@ public static class DffMetadataStripper
 		{
 			Telemetry.Error(
 				"DffMetadataStripper.StripFailed file={File} error={Error}",
-				LogPaths.Format(dffPath),
+				Path.GetFileName(dffPath),
 				ex.Message
 			);
 			return Errors.Audio.ConversionFailed(dffPath, $"ID3 strip failed: {ex.Message}");
@@ -131,7 +131,7 @@ public static class DffMetadataStripper
 				{
 					Telemetry.Error(
 						"DffMetadataStripper.CleanupFailed file={File} error={Error}",
-						LogPaths.Format(cleanPath),
+						Path.GetFileName(cleanPath),
 						cleanupError.Message
 					);
 				}

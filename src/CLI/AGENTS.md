@@ -1,14 +1,10 @@
-# CLI Layer
-
-Spectre.Console.Cli thin wrappers — `Settings` → service → `result.Match` → 0/1. No business logic.
-
-## STRUCTURE
-
-```
-CLI/
+<h1>CLI Layer</h1>
+<p>Spectre.Console.Cli thin wrappers — <code>Settings</code> → service → <code>result.Match</code> → 0/1. No business logic.</p>
+<h2>STRUCTURE</h2>
+<pre class="syntax-highlighting"><code><span class="text plain">CLI/
 ├── TypeRegistrar.cs              # Spectre ITypeRegistrar → IServiceProvider bridge
 ├── Azure/
-│   ├── AzureCommandModule.cs     # "azure" branch: translate, docintel, vision, stt, tts, ner, phrases
+│   ├── AzureCommandModule.cs     # &quot;azure&quot; branch: translate, docintel, vision, stt, tts, ner, phrases
 │   ├── TranslateCommand.cs
 │   ├── DocIntelCommand.cs
 │   ├── VisionCommand.cs
@@ -17,38 +13,61 @@ CLI/
 │   ├── NerCommand.cs
 │   └── PhrasesCommand.cs
 ├── Audio/
-│   ├── AudioCommandModule.cs     # "audio" branch: sacd-convert, dsd-convert
+│   ├── AudioCommandModule.cs     # &quot;audio&quot; branch: sacd-convert, dsd-convert
 │   ├── SacdConvertCommand.cs
 │   └── DsdConvertCommand.cs
 ├── Dashboard/
-│   ├── DashboardCommandModule.cs # "dashboard" branch: generate
+│   ├── DashboardCommandModule.cs # &quot;dashboard&quot; branch: generate
 │   ├── DashboardGenerateCommand.cs
 │   ├── DashboardDataBuilder.cs
 │   ├── DashboardHtmlGenerator.cs
 │   └── OciDashboardDeployer.cs   # lives in CLI (not Services) — repo truth
 └── Sync/
-    ├── SyncCommandModule.cs      # "sync" branch: youtube, lastfm
+    ├── SyncCommandModule.cs      # &quot;sync&quot; branch: youtube, lastfm
     ├── YouTube/SyncYoutubeCommand.cs
     └── LastFm/SyncLastFmCommand.cs
-```
-
-## WHERE TO LOOK
-
-| Task | File | Notes |
-|------|------|-------|
-| Add Azure subcommand | `Azure/AzureCommandModule.cs` | `AddCommand<T>` in `AddBranch("azure")`, new `AsyncCommand<Settings>` |
-| Add Audio subcommand | `Audio/AudioCommandModule.cs` | Same pattern |
-| Add Dashboard subcommand | `Dashboard/DashboardCommandModule.cs` | Same pattern |
-| Command pattern | Any `*Command.cs` | `AsyncCommand<Settings>` → `service.CallAsync(ct)` → `result.Match` → exit code |
-
-## CONVENTIONS
-
-- **Thin only.** `ExecuteAsync(Settings, CancellationToken)` → service `ErrorOr<T>` → `Match(onSuccess→0, onError→1)`. No orchestration.
-- **No business logic.** Merge/state/pagination/ETag → `Services/` orchestrator.
-- **Result matching.** `result.Match(v => { Console.WriteLine(v); return 0; }, e => { Console.Error.WriteLine(e.Description); return 1; })`
-- **Cancellation.** `CancellationToken ct` from Spectre `ExecuteAsync` signature — pass to service.
-
-## ANTI-PATTERNS
-
-- **NEVER** merge/state/pagination in command — extract to service layer.
-- **NEVER** import `Core` for business logic — CLI uses `Core` only for `Telemetry`/`Errors`.
+</span></code></pre>
+<h2>WHERE TO LOOK</h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>File</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Add Azure subcommand</td>
+<td><code>Azure/AzureCommandModule.cs</code></td>
+<td><code>AddCommand&lt;T&gt;</code> in <code>AddBranch(&quot;azure&quot;)</code>, new <code>AsyncCommand&lt;Settings&gt;</code></td>
+</tr>
+<tr>
+<td>Add Audio subcommand</td>
+<td><code>Audio/AudioCommandModule.cs</code></td>
+<td>Same pattern</td>
+</tr>
+<tr>
+<td>Add Dashboard subcommand</td>
+<td><code>Dashboard/DashboardCommandModule.cs</code></td>
+<td>Same pattern</td>
+</tr>
+<tr>
+<td>Command pattern</td>
+<td>Any <code>*Command.cs</code></td>
+<td><code>AsyncCommand&lt;Settings&gt;</code> → <code>service.CallAsync(ct)</code> → <code>result.Match</code> → exit code</td>
+</tr>
+</tbody>
+</table>
+<h2>CONVENTIONS</h2>
+<ul>
+<li><strong>Thin only.</strong> <code>ExecuteAsync(Settings, CancellationToken)</code> → service <code>ErrorOr&lt;T&gt;</code> → <code>Match(onSuccess→0, onError→1)</code>. No orchestration.</li>
+<li><strong>No business logic.</strong> Merge/state/pagination/ETag → <code>Services/</code> orchestrator.</li>
+<li><strong>Result matching.</strong> <code>result.Match(v =&gt; { Console.WriteLine(v); return 0; }, e =&gt; { Console.Error.WriteLine(e.Description); return 1; })</code></li>
+<li><strong>Cancellation.</strong> <code>CancellationToken ct</code> from Spectre <code>ExecuteAsync</code> signature — pass to service.</li>
+</ul>
+<h2>ANTI-PATTERNS</h2>
+<ul>
+<li><strong>NEVER</strong> merge/state/pagination in command — extract to service layer.</li>
+<li><strong>NEVER</strong> import <code>Core</code> for business logic — CLI uses <code>Core</code> only for <code>Telemetry</code>/<code>Errors</code>.</li>
+</ul>

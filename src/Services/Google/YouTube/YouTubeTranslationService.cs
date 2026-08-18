@@ -210,20 +210,27 @@ public class YouTubeTranslationService(TranslateService translateService)
 
 			languages[detectedLang] = languages.GetValueOrDefault(detectedLang) + 1;
 
-			var translated = detectedLang is not "en" and not "unknown";
+			var isTransliterated = target.Transliterate;
+			var translated = !isTransliterated && detectedLang is not "en" and not "unknown";
 			if (translated)
 				translatedCount++;
+
+			var effectiveText =
+				isTransliterated ? result.TranslatedText
+				: translated ? result.TranslatedText
+				: target.Field == TranslationField.Title ? video.Title
+				: video.Description;
 
 			videos[target.VideoIndex] = target.Field switch
 			{
 				TranslationField.Title => video with
 				{
-					TranslatedTitle = translated ? result.TranslatedText : video.Title,
+					TranslatedTitle = effectiveText,
 					DetectedLanguage = video.DetectedLanguage ?? detectedLang,
 				},
 				TranslationField.Description => video with
 				{
-					TranslatedDescription = translated ? result.TranslatedText : video.Description,
+					TranslatedDescription = effectiveText,
 					DetectedLanguage = video.DetectedLanguage ?? detectedLang,
 				},
 				_ => throw new InvalidOperationException(

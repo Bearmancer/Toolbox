@@ -1,3 +1,4 @@
+using System.Net;
 using Azure;
 using Azure.AI.Translation.Text;
 using Core;
@@ -10,6 +11,22 @@ public readonly record struct TranslationResult(string DetectedLanguage, string 
 public class TranslateService(TextTranslationClient client)
 {
 	private const int MaxChars = 50_000;
+
+	private static Error MapTranslateException(Exception ex) =>
+		ex switch
+		{
+			RequestFailedException rfe when rfe.Status == 429 => Errors.Azure.RateLimitExceeded,
+			RequestFailedException rfe when rfe.Status is 401 or 403 => Errors
+				.Azure
+				.AuthenticationFailed,
+			HttpRequestException hre when hre.StatusCode == HttpStatusCode.TooManyRequests => Errors
+				.Azure
+				.RateLimitExceeded,
+			HttpRequestException hre
+				when hre.StatusCode is HttpStatusCode.Unauthorized or HttpStatusCode.Forbidden =>
+				Errors.Azure.AuthenticationFailed,
+			_ => Errors.Translate.ApiError(ex.Message),
+		};
 
 	public async Task<ErrorOr<List<TranslationResult>>> TranslateBatchAsync(
 		List<string> texts,
@@ -52,7 +69,7 @@ public class TranslateService(TextTranslationClient client)
 				toLang,
 				ex.Message
 			);
-			return Errors.Translate.ApiError(ex.Message);
+			return MapTranslateException(ex);
 		}
 	}
 
@@ -88,7 +105,7 @@ public class TranslateService(TextTranslationClient client)
 				toScript,
 				ex.Message
 			);
-			return Errors.Translate.ApiError(ex.Message);
+			return MapTranslateException(ex);
 		}
 	}
 }

@@ -1,17 +1,10 @@
-# AGENTS.md — Toolbox
-
-**Generated:** 2026-07-31 | **Commit:** 70dd931 | **Branch:** main
-
-Extends `C:\Users\Lance\.config\opencode\AGENTS.md`. All Sisyphus directives apply.
-
-## OVERVIEW
-
-CLI toolbox wrapping Azure AI services, Google YouTube API, Last.fm, and SACD audio conversion. .NET 11.0, Spectre.Console.Cli, Serilog, ErrorOr.
-
-## STRUCTURE
-
-```
-Toolbox/
+<h1>AGENTS.md — Toolbox</h1>
+<p><strong>Generated:</strong> 2026-07-31 | <strong>Commit:</strong> 70dd931 | <strong>Branch:</strong> main</p>
+<p>Extends <code>C:\Users\Lance\.config\opencode\AGENTS.md</code>. All Sisyphus directives apply.</p>
+<h2>OVERVIEW</h2>
+<p>CLI toolbox wrapping Azure AI services, Google YouTube API, Last.fm, and SACD audio conversion. .NET 11.0, Spectre.Console.Cli, Serilog, ErrorOr.</p>
+<h2>STRUCTURE</h2>
+<pre class="syntax-highlighting"><code><span class="text plain">Toolbox/
 ├── Toolbox.slnx           # 7 projects: App, CLI, Core, Audio, Azure, Google, LastFm
 ├── .editorconfig          # Code style — single source of truth
 ├── src/
@@ -33,96 +26,132 @@ Toolbox/
 ├── Directory.Build.props
 ├── Directory.Packages.props
 └── .codegraph → C:\Users\Lance\.omo\codegraph\projects\Toolbox-6ccb6ce65a117481 (junction)
-```
-
-## DEPENDENCY GRAPH
-
-```
-App → CLI, Core
+</span></code></pre>
+<h2>DEPENDENCY GRAPH</h2>
+<pre class="syntax-highlighting"><code><span class="text plain">App → CLI, Core
 CLI → Core, Services.Azure, Services.Google, Services.LastFm, Services.Audio
 Services.Google → Core, Services.Azure  (cross-service: YouTubeTranslationService → TranslateService)
 Services.Audio → Core
 Services.Azure → Core
 Services.LastFm → Core
-```
-
-## WHERE TO LOOK
-
-| Task                       | Location                       | Notes                                                                |
-| -------------------------- | ------------------------------ | -------------------------------------------------------------------- |
-| Add CLI command            | `src/CLI/{Domain}/`            | Follow Spectre pattern: thin command → service call → Result.Match   |
-| Add Azure service          | `src/Services/Azure/`          | Add credential to AzureCredentials.cs, register in AzureSetup.cs     |
-| Add Google/YouTube feature | `src/Services/Google/YouTube/` | Orchestrator handles state; processor handles per-playlist logic     |
-| Add Last.fm feature        | `src/Services/LastFm/`         | LastFmApiClient for HTTP, LastFmSyncOrchestrator for sync flow       |
-| Add audio conversion       | `src/Services/Audio/`          | DsdConvertService is facade; PipelineOrchestrator sequences          |
-| Dashboard generation       | `src/CLI/Dashboard/`           | DashboardDataBuilder → DashboardHtmlGenerator → OciDashboardDeployer |
-| Modify telemetry           | `src/Core/Telemetry.cs`        | Per-service JSONL + optional Seq sink                                |
-| Add error codes            | `src/Core/Errors.cs`           | Central taxonomy; add factory method per domain                      |
-| Change build config        | `Directory.Build.props`        | Single source for TargetFramework, analyzers, warnings               |
-| Change code style          | `.editorconfig`                | Naming, var usage, patterns, diagnostics — all as errors             |
-
-## CONVENTIONS
-
-- **Auth:** `.env` only. No hardcoded secrets. `AzureCredentials.Read()`, `GoogleCredentials.Read()`, env vars in LastFmSetup.
-- **DI registration:** Extension methods using C# `extension(IServiceCollection)` syntax in each service's `*Setup.cs`.
-- **Error handling:** `ErrorOr<T>` railway-oriented. `result.Match(onSuccess, onError)`. Error factories in `Errors.cs`.
-- **JSON:** PascalCase properties. `JsonSerializerOptions { WriteIndented = true }` only. No `PropertyNamingPolicy`.
-- **Logging:** `Telemetry.ForService(ServiceName.X)` scopes log entries. JSONL per service in `state/logs/`.
-- **State:** `state/youtube/manifest.json`, `state/lastfm/scrobbles.json`, `state/dashboard/`, `state/audio/`. No database.
-- **One class per file.** No `Constants.cs`, no `Helpers.cs`. Extract to shared file only when 3+ consumers.
-- **Inline constants:** `private static readonly string` at top of file.
-- **Code style:** `.editorconfig` is the single source of truth. All rules enforced as `error` severity.
-
-## RULES
-
-1. **Build-verify every edit.** Change one file → `dotnet build` → verify clean.
-2. **Commit after each phase.** 1–3 files per commit. Atomic, revertable, descriptive message.
-3. **Minimize file sprawl.** One class per file. No `Constants.cs`, no `Helpers.cs`.
-4. **No test NuGet packages.** No xUnit, NUnit, MSTest. Standalone `.cs` files with `Main()` for manual verification.
-5. **`Directory.Build.props`/`.csproj` exclusively.** No `Directory.Build.targets`, no extra props files.
-6. **Never skip style warnings.** No `#pragma warning disable`, no suppression attributes.
-7. **PascalCase JSON — never set PropertyNamingPolicy.**
-8. **Inline paths, keys, defaults.** `private static readonly string` at top of file.
-9. **Zero inline/explanatory comments.** Code is self-documenting. XML docs only where required.
-
-## ANTI-PATTERNS (THIS PROJECT)
-
-- **NEVER** `global::` — use `using` aliases.
-- **NEVER** fully-qualified invocations inline — import via `using`.
-- **NEVER** `#pragma warning disable` or suppression attributes.
-- **NEVER** `PropertyNamingPolicy` on `JsonSerializerOptions`.
-- **NEVER** test NuGet packages (xUnit, NUnit, MSTest). Standalone `.cs` with `Main()` only.
-- **NEVER** `Directory.Build.targets` or extra props files.
-- **NEVER** inline/explanatory comments.
-
-## COMMANDS
-
-```bash
-dotnet build                          # Build all projects
-dotnet run --project src\App -- <cmd> # Run CLI command
-dotnet run --project src\App -- sync youtube
-dotnet run --project src\App -- sync lastfm
-dotnet run --project src\App -- audio sacd-convert <iso>
-dotnet run --project src\App -- azure translate
-dotnet run --project src\App -- dashboard generate
-```
-
-### Saracon CLI
-
-Headless only — never GUI. Shape built in `src/Services/Audio/SaraconService.cs` (`saracon` from `PATH`):
-
-```text
-saracon -c d2p -r <sample-rate> -f wav -n <bit-depth>bit -d tpdf -g <gain-db> -T -V all -t "<output-directory>" "<input.dff>"
-```
-
-`-c d2p` = DSD→PCM, `-t` = output dir, final arg = input .dff. Omit `--format` (default `Bit16`); parser rejects `--format 16`.
-
-## NOTES
-
-- .NET 11.0 preview SDK required. `SuppressNETCoreSdkPreviewMessage` is set.
-- `<UseArtifactsOutput>true</UseArtifactsOutput>` — outputs in `artifacts/`, not `bin/`.
-- `.editorconfig` is source of truth. All rules enforced as `error`.
-- `Toolbox.slnx` is SDK-style, 7 projects.
-- No CI/CD (no `.github/`). No `tools/` dir. Manual builds.
-- No test projects. Standalone `.cs` with `Main()` only.
-- Sub-AGENTS.md in `src/CLI/`, `src/Core/`, `src/Services/Audio/`, `src/Services/Azure/`, `src/Services/Google/`, `src/Services/LastFm/`.
+</span></code></pre>
+<h2>WHERE TO LOOK</h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Location</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Add CLI command</td>
+<td><code>src/CLI/{Domain}/</code></td>
+<td>Follow Spectre pattern: thin command → service call → Result.Match</td>
+</tr>
+<tr>
+<td>Add Azure service</td>
+<td><code>src/Services/Azure/</code></td>
+<td>Add credential to AzureCredentials.cs, register in AzureSetup.cs</td>
+</tr>
+<tr>
+<td>Add Google/YouTube feature</td>
+<td><code>src/Services/Google/YouTube/</code></td>
+<td>Orchestrator handles state; processor handles per-playlist logic</td>
+</tr>
+<tr>
+<td>Add Last.fm feature</td>
+<td><code>src/Services/LastFm/</code></td>
+<td>LastFmApiClient for HTTP, LastFmSyncOrchestrator for sync flow</td>
+</tr>
+<tr>
+<td>Add audio conversion</td>
+<td><code>src/Services/Audio/</code></td>
+<td>DsdConvertService is facade; PipelineOrchestrator sequences</td>
+</tr>
+<tr>
+<td>Dashboard generation</td>
+<td><code>src/CLI/Dashboard/</code></td>
+<td>DashboardDataBuilder → DashboardHtmlGenerator → OciDashboardDeployer</td>
+</tr>
+<tr>
+<td>Modify telemetry</td>
+<td><code>src/Core/Telemetry.cs</code></td>
+<td>Per-service JSONL + optional Seq sink</td>
+</tr>
+<tr>
+<td>Add error codes</td>
+<td><code>src/Core/Errors.cs</code></td>
+<td>Central taxonomy; add factory method per domain</td>
+</tr>
+<tr>
+<td>Change build config</td>
+<td><code>Directory.Build.props</code></td>
+<td>Single source for TargetFramework, analyzers, warnings</td>
+</tr>
+<tr>
+<td>Change code style</td>
+<td><code>.editorconfig</code></td>
+<td>Naming, var usage, patterns, diagnostics — all as errors</td>
+</tr>
+</tbody>
+</table>
+<h2>CONVENTIONS</h2>
+<ul>
+<li><strong>Auth:</strong> <code>.env</code> only. No hardcoded secrets. <code>AzureCredentials.Read()</code>, <code>GoogleCredentials.Read()</code>, env vars in LastFmSetup.</li>
+<li><strong>DI registration:</strong> Extension methods using C# <code>extension(IServiceCollection)</code> syntax in each service's <code>*Setup.cs</code>.</li>
+<li><strong>Error handling:</strong> <code>ErrorOr&lt;T&gt;</code> railway-oriented. <code>result.Match(onSuccess, onError)</code>. Error factories in <code>Errors.cs</code>.</li>
+<li><strong>JSON:</strong> PascalCase properties. <code>JsonSerializerOptions { WriteIndented = true }</code> only. No <code>PropertyNamingPolicy</code>.</li>
+<li><strong>Logging:</strong> <code>Telemetry.ForService(ServiceName.X)</code> scopes log entries. JSONL per service in <code>state/logs/</code>.</li>
+<li><strong>State:</strong> <code>state/youtube/manifest.json</code>, <code>state/lastfm/scrobbles.json</code>, <code>state/dashboard/</code>, <code>state/audio/</code>. No database.</li>
+<li><strong>One class per file.</strong> No <code>Constants.cs</code>, no <code>Helpers.cs</code>. Extract to shared file only when 3+ consumers.</li>
+<li><strong>Inline constants:</strong> <code>private static readonly string</code> at top of file.</li>
+<li><strong>Code style:</strong> <code>.editorconfig</code> is the single source of truth. All rules enforced as <code>error</code> severity.</li>
+</ul>
+<h2>RULES</h2>
+<ol>
+<li><strong>Build-verify every edit.</strong> Change one file → <code>dotnet build</code> → verify clean.</li>
+<li><strong>Commit after each phase.</strong> 1–3 files per commit. Atomic, revertable, descriptive message.</li>
+<li><strong>Minimize file sprawl.</strong> One class per file. No <code>Constants.cs</code>, no <code>Helpers.cs</code>.</li>
+<li><strong>No test NuGet packages.</strong> No xUnit, NUnit, MSTest. Standalone <code>.cs</code> files with <code>Main()</code> for manual verification.</li>
+<li><strong><code>Directory.Build.props</code>/<code>.csproj</code> exclusively.</strong> No <code>Directory.Build.targets</code>, no extra props files.</li>
+<li><strong>Never skip style warnings.</strong> No <code>#pragma warning disable</code>, no suppression attributes.</li>
+<li><strong>PascalCase JSON — never set PropertyNamingPolicy.</strong></li>
+<li><strong>Inline paths, keys, defaults.</strong> <code>private static readonly string</code> at top of file.</li>
+<li><strong>Zero inline/explanatory comments.</strong> Code is self-documenting. XML docs only where required.</li>
+</ol>
+<h2>ANTI-PATTERNS (THIS PROJECT)</h2>
+<ul>
+<li><strong>NEVER</strong> <code>global::</code> — use <code>using</code> aliases.</li>
+<li><strong>NEVER</strong> fully-qualified invocations inline — import via <code>using</code>.</li>
+<li><strong>NEVER</strong> <code>#pragma warning disable</code> or suppression attributes.</li>
+<li><strong>NEVER</strong> <code>PropertyNamingPolicy</code> on <code>JsonSerializerOptions</code>.</li>
+<li><strong>NEVER</strong> test NuGet packages (xUnit, NUnit, MSTest). Standalone <code>.cs</code> with <code>Main()</code> only.</li>
+<li><strong>NEVER</strong> <code>Directory.Build.targets</code> or extra props files.</li>
+<li><strong>NEVER</strong> inline/explanatory comments.</li>
+</ul>
+<h2>COMMANDS</h2>
+<pre class="syntax-highlighting"><code><span class="source shell bash"><span class="meta function-call shell"><span class="variable function shell">dotnet</span></span><span class="meta function-call arguments shell"> build                          <span class="comment line number-sign shell"><span class="punctuation definition comment begin shell">#</span></span><span class="comment line number-sign shell"> Build all projects</span><span class="comment line number-sign shell">
+</span></span><span class="meta function-call shell"><span class="variable function shell">dotnet</span></span><span class="meta function-call arguments shell"> run<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> --</span>project</span> src<span class="constant character escape shell">\A</span>pp<span class="keyword operator end-of-options shell"> --</span></span><span class="meta function-call arguments shell"> <span class="keyword operator assignment redirection shell">&lt;</span>cmd<span class="keyword operator assignment redirection shell">&gt;</span> # Run CLI command</span>
+<span class="meta function-call shell"><span class="variable function shell">dotnet</span></span><span class="meta function-call arguments shell"> run<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> --</span>project</span> src<span class="constant character escape shell">\A</span>pp<span class="keyword operator end-of-options shell"> --</span></span><span class="meta function-call arguments shell"> sync youtube</span>
+<span class="meta function-call shell"><span class="variable function shell">dotnet</span></span><span class="meta function-call arguments shell"> run<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> --</span>project</span> src<span class="constant character escape shell">\A</span>pp<span class="keyword operator end-of-options shell"> --</span></span><span class="meta function-call arguments shell"> sync lastfm</span>
+<span class="meta function-call shell"><span class="variable function shell">dotnet</span></span><span class="meta function-call arguments shell"> run<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> --</span>project</span> src<span class="constant character escape shell">\A</span>pp<span class="keyword operator end-of-options shell"> --</span></span><span class="meta function-call arguments shell"> audio sacd-convert <span class="keyword operator assignment redirection shell">&lt;</span>iso<span class="keyword operator assignment redirection shell">&gt;</span>
+</span><span class="meta function-call shell"><span class="variable function shell">dotnet</span></span><span class="meta function-call arguments shell"> run<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> --</span>project</span> src<span class="constant character escape shell">\A</span>pp<span class="keyword operator end-of-options shell"> --</span></span><span class="meta function-call arguments shell"> azure translate</span>
+<span class="meta function-call shell"><span class="variable function shell">dotnet</span></span><span class="meta function-call arguments shell"> run<span class="variable parameter option shell"><span class="punctuation definition parameter shell"> --</span>project</span> src<span class="constant character escape shell">\A</span>pp<span class="keyword operator end-of-options shell"> --</span></span><span class="meta function-call arguments shell"> dashboard generate</span>
+</span></code></pre>
+<h3>Saracon CLI</h3>
+<p>Headless only — never GUI. Shape built in <code>src/Services/Audio/SaraconService.cs</code> (<code>saracon</code> from <code>PATH</code>):</p>
+<pre class="syntax-highlighting"><code><span class="text plain">saracon -c d2p -r &lt;sample-rate&gt; -f wav -n &lt;bit-depth&gt;bit -d tpdf -g &lt;gain-db&gt; -T -V all -t &quot;&lt;output-directory&gt;&quot; &quot;&lt;input.dff&gt;&quot;
+</span></code></pre>
+<p><code>-c d2p</code> = DSD→PCM, <code>-t</code> = output dir, final arg = input .dff. Omit <code>--format</code> (default <code>Bit16</code>); parser rejects <code>--format 16</code>.</p>
+<h2>NOTES</h2>
+<ul>
+<li>.NET 11.0 preview SDK required. <code>SuppressNETCoreSdkPreviewMessage</code> is set.</li>
+<li><code>&lt;UseArtifactsOutput&gt;true&lt;/UseArtifactsOutput&gt;</code> — outputs in <code>artifacts/</code>, not <code>bin/</code>.</li>
+<li><code>.editorconfig</code> is source of truth. All rules enforced as <code>error</code>.</li>
+<li><code>Toolbox.slnx</code> is SDK-style, 7 projects.</li>
+<li>No CI/CD (no <code>.github/</code>). No <code>tools/</code> dir. Manual builds.</li>
+<li>No test projects. Standalone <code>.cs</code> with <code>Main()</code> only.</li>
+<li>Sub-AGENTS.md in <code>src/CLI/</code>, <code>src/Core/</code>, <code>src/Services/Audio/</code>, <code>src/Services/Azure/</code>, <code>src/Services/Google/</code>, <code>src/Services/LastFm/</code>.</li>
+</ul>

@@ -27,8 +27,6 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 	private static readonly string ProcessedDir = Path.Combine(StateRoot, "processed");
 	private static readonly string RawDir = Path.Combine(StateRoot, "raw");
 
-	private static readonly JsonSerializerOptions JsonOptions = new() { WriteIndented = true };
-
 	public async Task<DuplicateMergeOutcome> MergeDuplicateGroupsAsync(
 		IReadOnlyList<PlaylistSnapshot> allCurrentPlaylists,
 		CancellationToken ct
@@ -392,7 +390,7 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 
 		var filename = $"{DateTime.UtcNow:yyyyMMdd-HHmmss}-{winner.PlaylistId}.json";
 		var path = Path.Combine(MergeManifestDir, filename);
-		var json = JsonSerializer.Serialize(manifest, JsonOptions);
+		var json = JsonSerializer.Serialize(manifest, YouTubeFetchState.JsonOptions);
 		await File.WriteAllTextAsync(path, json, ct);
 
 		Telemetry.Debug("Archived merge manifest: {Path}", path);

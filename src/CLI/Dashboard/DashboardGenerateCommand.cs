@@ -1,7 +1,8 @@
 using System.ComponentModel;
 using Core;
 using ErrorOr;
-using Services.Google.YouTube;
+using Serilog.Events;
+using Services.Google.Dashboard;
 using Spectre.Console.Cli;
 
 namespace CLI.Dashboard;
@@ -10,7 +11,8 @@ namespace CLI.Dashboard;
 	"Generate an HTML dashboard from locally synced YouTube playlist data. "
 		+ "Loads all playlists from the manifest and all videos from processed JSON files."
 )]
-public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Settings>
+public sealed class DashboardGenerateCommand(DashboardOrchestrator orchestrator)
+	: AsyncCommand<DashboardGenerateCommand.Settings>
 {
 	protected override async Task<int> ExecuteAsync(
 		CommandContext context,
@@ -18,39 +20,29 @@ public class DashboardGenerateCommand : AsyncCommand<DashboardGenerateCommand.Se
 		CancellationToken ct
 	)
 	{
-		ErrorOr<DashboardService.DashboardResult> result =
-			await DashboardService.GenerateDashboardDataAsync(ct);
-		if (result.IsError)
-		{
-			Telemetry.Error("Dashboard generation failed: {Error}", result.FirstError.Description);
-			return 1;
-		}
-
-		DashboardService.DashboardResult dashboardResult = result.Value;
-		DashboardData data = DashboardDataBuilder.Build(
-			dashboardResult.Playlists,
-			dashboardResult.VideosByPlaylist
+		ErrorOr<string> result = await orchestrator.GenerateAndDeployAsync(s.Output, ct);
+		return result.Match(
+			htmlPath =>
+			{
+				Telemetry.Log(
+					ServiceName.YouTube,
+					LogEventLevel.Information,
+					"Dashboard generated: {Path}",
+					htmlPath
+				);
+				return 0;
+			},
+			errors =>
+			{
+				Telemetry.Log(
+					ServiceName.YouTube,
+					LogEventLevel.Error,
+					"Dashboard generation failed: {Error}",
+					errors[0].Description
+				);
+				return 1;
+			}
 		);
-		var html = DashboardHtmlGenerator.Generate(data);
-
-		var dashboardDir = PathResolver.GetStatePath("dashboard");
-		Directory.CreateDirectory(dashboardDir);
-
-		var htmlPath = s.Output ?? Path.Combine(dashboardDir, "dashboard.html");
-		var dataPath = Path.Combine(dashboardDir, "dashboard-data.js");
-
-		await File.WriteAllTextAsync(htmlPath, html, ct);
-		await File.WriteAllTextAsync(dataPath, data.DataJs, ct);
-
-		var htmlSize = new FileInfo(htmlPath).Length;
-		var dataSize = new FileInfo(dataPath).Length;
-		Telemetry.Info(
-			"Dashboard generated: {HtmlPath} ({HtmlKb:F1} KB) | data: {DataKb:F1} KB",
-			htmlPath,
-			htmlSize / 1024.0,
-			dataSize / 1024.0
-		);
-		return 0;
 	}
 
 	public sealed class Settings : CommandSettings

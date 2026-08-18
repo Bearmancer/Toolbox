@@ -63,87 +63,79 @@ public sealed class PipelineOrchestrator(
 			Path.GetDirectoryName(isoRoot) ?? isoRoot,
 			$"{Path.GetFileName(isoRoot)} ({suffix0})"
 		);
-		try
+		ReprocessGuard guard = await ReprocessGuard.LoadAsync();
+
+		Telemetry.Info("SACD run: ISO root={IsoRoot}", isoRoot);
+		Telemetry.Info("SACD run: output root={OutputRoot}", outputRoot);
+		Telemetry.Info("Found {Count} SACD ISO(s) to process", isoFiles.Length);
+
+		var succeeded = 0;
+		var failed = 0;
+		List<string> recoverableErrors = [];
+		List<string> guardFailedDiscs = [];
+		List<ProcessedDisc> succeededDiscs = [];
+
+		foreach (var iso in isoFiles)
 		{
-			LogPaths.Setup(isoRoot, outputRoot);
-			ReprocessGuard guard = await ReprocessGuard.LoadAsync();
+			ct.ThrowIfCancellationRequested();
 
-			Telemetry.Info("SACD run: ISO root={IsoRoot}", isoRoot);
-			Telemetry.Info("SACD run: output root={OutputRoot}", outputRoot);
-			Telemetry.Info("Found {Count} SACD ISO(s) to process", isoFiles.Length);
-
-			var succeeded = 0;
-			var failed = 0;
-			List<string> recoverableErrors = [];
-			List<string> guardFailedDiscs = [];
-			List<ProcessedDisc> succeededDiscs = [];
-
-			foreach (var iso in isoFiles)
+			if (guard.Get(iso)?.Verdict == DiscState.Failed)
 			{
-				ct.ThrowIfCancellationRequested();
-
-				if (guard.Get(iso)?.Verdict == DiscState.Failed)
-				{
-					failed++;
-					guardFailedDiscs.Add(iso);
-					Telemetry.Warn("Guard: {Disc} is Failed — skipping", LogPaths.Format(iso));
-					continue;
-				}
-
-				try
-				{
-					ErrorOr<ProcessedDisc> result = await ProcessIsoAsync(
-						iso,
-						format,
-						multichannel,
-						guard,
-						ct
-					);
-					if (result.IsError)
-					{
-						failed++;
-						if (result.Errors.Any(error => error.Code == "Audio.GuardBlocked"))
-							guardFailedDiscs.Add(iso);
-
-						foreach (Error error in result.Errors)
-						{
-							Telemetry.Error(
-								"ISO failed: iso={Iso} error={Error}",
-								LogPaths.Format(iso),
-								error.Description
-							);
-							recoverableErrors.Add(error.Description);
-						}
-					}
-					else
-					{
-						succeededDiscs.Add(result.Value);
-						succeeded++;
-					}
-				}
-				catch (OperationCanceledException)
-				{
-					throw;
-				}
-				catch (Exception ex)
-				{
-					failed++;
-					Telemetry.Error(
-						"ISO unexpected exception: iso={Iso} error={Error}",
-						LogPaths.Format(iso),
-						ex.Message
-					);
-					recoverableErrors.Add(ex.Message);
-				}
+				failed++;
+				guardFailedDiscs.Add(iso);
+				Telemetry.Warn("Guard: {Disc} is Failed — skipping", Path.GetFileName(iso));
+				continue;
 			}
 
-			CleanupSuccesses(succeededDiscs, keepIso);
-			return new PipelineResult(succeeded, failed, recoverableErrors, guardFailedDiscs);
+			try
+			{
+				ErrorOr<ProcessedDisc> result = await ProcessIsoAsync(
+					iso,
+					format,
+					multichannel,
+					guard,
+					ct
+				);
+				if (result.IsError)
+				{
+					failed++;
+					if (result.Errors.Any(error => error.Code == "Audio.GuardBlocked"))
+						guardFailedDiscs.Add(iso);
+
+					foreach (Error error in result.Errors)
+					{
+						Telemetry.Error(
+							"ISO failed: iso={Iso} error={Error}",
+							Path.GetFileName(iso),
+							error.Description
+						);
+						recoverableErrors.Add(error.Description);
+					}
+				}
+				else
+				{
+					succeededDiscs.Add(result.Value);
+					succeeded++;
+				}
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
+			catch (Exception ex)
+			{
+				failed++;
+				Telemetry.Error(
+					"ISO unexpected exception: iso={Iso} error={Error}",
+					Path.GetFileName(iso),
+					ex.Message
+				);
+				recoverableErrors.Add(ex.Message);
+			}
 		}
-		finally
-		{
-			LogPaths.Reset();
-		}
+
+		CleanupSuccesses(succeededDiscs, keepIso);
+		return new PipelineResult(succeeded, failed, recoverableErrors, guardFailedDiscs);
 	}
 
 	private static string[] EnumerateIsoFiles(string validatedPath)
@@ -297,14 +289,14 @@ public sealed class PipelineOrchestrator(
 		{
 			try
 			{
-				Telemetry.Info("Pipeline.StaleDffDeleted file={File}", LogPaths.Format(dff));
+				Telemetry.Info("Pipeline.StaleDffDeleted file={File}", Path.GetFileName(dff));
 				File.Delete(dff);
 			}
 			catch (Exception ex)
 			{
 				Telemetry.Warn(
 					"Pipeline.DffDeleteFailed file={File} error={Error}",
-					LogPaths.Format(dff),
+					Path.GetFileName(dff),
 					ex.Message
 				);
 			}
@@ -322,14 +314,14 @@ public sealed class PipelineOrchestrator(
 		{
 			try
 			{
-				Telemetry.Info("Pipeline.ResplitFlacDeleted file={File}", LogPaths.Format(flac));
+				Telemetry.Info("Pipeline.ResplitFlacDeleted file={File}", Path.GetFileName(flac));
 				File.Delete(flac);
 			}
 			catch (Exception ex)
 			{
 				Telemetry.Warn(
 					"Pipeline.FlacDeleteFailed file={File} error={Error}",
-					LogPaths.Format(flac),
+					Path.GetFileName(flac),
 					ex.Message
 				);
 			}
@@ -421,7 +413,7 @@ public sealed class PipelineOrchestrator(
 			{
 				Telemetry.Info(
 					"Pipeline.DeletionValidationFailed iso={Iso} reason={Reason}",
-					LogPaths.Format(disc.IsoPath),
+					Path.GetFileName(disc.IsoPath),
 					failureReason
 				);
 				continue;
@@ -429,7 +421,7 @@ public sealed class PipelineOrchestrator(
 
 			Telemetry.Info(
 				"Pipeline.DeletionValidationPassed iso={Iso}",
-				LogPaths.Format(disc.IsoPath)
+				Path.GetFileName(disc.IsoPath)
 			);
 
 			foreach (var outputDir in disc.OutputDirectories)
@@ -451,7 +443,7 @@ public sealed class PipelineOrchestrator(
 					{
 						Telemetry.Warn(
 							"Pipeline.CleanupFailed file={File}: {Error}",
-							LogPaths.Format(file),
+							Path.GetFileName(file),
 							ex.Message
 						);
 					}
@@ -460,7 +452,10 @@ public sealed class PipelineOrchestrator(
 
 			if (keepIso)
 			{
-				Telemetry.Info("Pipeline.KeepIsoRetained iso={Iso}", LogPaths.Format(disc.IsoPath));
+				Telemetry.Info(
+					"Pipeline.KeepIsoRetained iso={Iso}",
+					Path.GetFileName(disc.IsoPath)
+				);
 				continue;
 			}
 
@@ -473,7 +468,7 @@ public sealed class PipelineOrchestrator(
 			{
 				Telemetry.Warn(
 					"Pipeline.CleanupFailed file={File}: {Error}",
-					LogPaths.Format(disc.IsoPath),
+					Path.GetFileName(disc.IsoPath),
 					ex.Message
 				);
 			}

@@ -10,6 +10,8 @@ public sealed record PlaylistSnapshot
 	public required string Title { get; init; }
 	public required string ETag { get; init; }
 	public required long ReportedVideoCount { get; init; }
+
+	// ponytail: throttle read not yet wired — gate fetch if LastChecked within window when throttle lands
 	public required DateTimeOffset LastChecked { get; init; }
 	public required DateTimeOffset LastUpdated { get; init; }
 	public int? LastSortMoves { get; init; }
@@ -27,6 +29,8 @@ public sealed record YouTubeFetchState
 	};
 
 	public Dictionary<string, PlaylistSnapshot> PlaylistSnapshots { get; init; } = [];
+
+	// ponytail: throttle read not yet wired — gate fetch if LastChecked within window when throttle lands
 	public required DateTimeOffset LastChecked { get; init; }
 	public required DateTimeOffset? LastUpdated { get; init; }
 

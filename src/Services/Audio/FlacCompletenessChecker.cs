@@ -38,8 +38,8 @@ public sealed class FlacCompletenessChecker(SoxService sox)
 			{
 				Telemetry.Warn(
 					"Pipeline.DurationCheckFailed dir={Dir} file={File} error={Error}",
-					LogPaths.Format(dffDir),
-					LogPaths.Format(flacPath),
+					Path.GetFileName(dffDir),
+					Path.GetFileName(flacPath),
 					durationResult.Errors[0].Description
 				);
 				return new DurationCheckResult(false, trackNumberCount, primaryFlacCount, dffDir);
@@ -52,7 +52,7 @@ public sealed class FlacCompletenessChecker(SoxService sox)
 				{
 					Telemetry.Info(
 						"Pipeline.DurationMismatch dir={Dir} track={Track} expected={Expected:F1}s actual={Actual:F1}s",
-						LogPaths.Format(dffDir),
+						Path.GetFileName(dffDir),
 						track.TrackNumber,
 						expectedDur.TotalSeconds,
 						durationResult.Value.TotalSeconds
@@ -71,7 +71,7 @@ public sealed class FlacCompletenessChecker(SoxService sox)
 				{
 					Telemetry.Warn(
 						"Pipeline.LastTrackTooShort dir={Dir} duration={Duration:F1}s",
-						LogPaths.Format(dffDir),
+						Path.GetFileName(dffDir),
 						durationResult.Value.TotalSeconds
 					);
 					return new DurationCheckResult(
@@ -85,7 +85,7 @@ public sealed class FlacCompletenessChecker(SoxService sox)
 				{
 					Telemetry.Warn(
 						"Pipeline.LastTrackShort dir={Dir} duration={Duration:F1}s",
-						LogPaths.Format(dffDir),
+						Path.GetFileName(dffDir),
 						durationResult.Value.TotalSeconds
 					);
 				}

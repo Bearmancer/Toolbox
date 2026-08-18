@@ -4,7 +4,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Spectre.Console.Cli" />
-		<PackageReference Include="SSH.NET" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Core\Core.csproj" />

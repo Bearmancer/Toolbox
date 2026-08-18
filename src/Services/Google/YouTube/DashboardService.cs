@@ -70,8 +70,21 @@ public class DashboardService
 			return result;
 
 		Dictionary<string, string> reverseLookup = [];
+		Dictionary<string, PlaylistSnapshot> snapshotById = playlists.ToDictionary(
+			p => p.PlaylistId,
+			p => p
+		);
 		foreach (PlaylistSnapshot p in playlists)
-			reverseLookup.TryAdd(Text.SanitizeFileName(p.Title), p.Title);
+		{
+			var key = Text.SanitizeFileName(p.Title);
+			if (!reverseLookup.TryAdd(key, p.PlaylistId))
+				Telemetry.Warn(
+					"Dashboard reverseLookup collision: sanitized '{Key}' maps to multiple playlists ({Existing} vs {New}) — first wins",
+					key,
+					reverseLookup[key],
+					p.PlaylistId
+				);
+		}
 
 		foreach (var file in Directory.GetFiles(ProcessedDir, "*.json"))
 		{
@@ -87,10 +100,11 @@ public class DashboardService
 					videos is { Count: > 0 }
 					&& reverseLookup.TryGetValue(
 						Path.GetFileNameWithoutExtension(file),
-						out var title
+						out var pid
 					)
+					&& snapshotById.TryGetValue(pid, out PlaylistSnapshot? snap)
 				)
-					result[title] = videos;
+					result[snap.Title] = videos;
 			}
 			catch (Exception ex) when (ex is JsonException or IOException)
 			{

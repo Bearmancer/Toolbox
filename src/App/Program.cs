@@ -52,7 +52,7 @@ internal static class Program
 			: args.Contains("--debug") ? LogEventLevel.Debug
 			: LogEventLevel.Information;
 
-		await Telemetry.Configure(logLevel);
+		Telemetry.Configure(logLevel);
 
 		var commandArgs = args.Where(a => a is not "--verbose" and not "--debug").ToArray();
 

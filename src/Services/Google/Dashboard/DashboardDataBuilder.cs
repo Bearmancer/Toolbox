@@ -2,7 +2,7 @@ using System.Text;
 using System.Text.Json;
 using Services.Google.YouTube;
 
-namespace CLI.Dashboard;
+namespace Services.Google.Dashboard;
 
 public static class DashboardDataBuilder
 {
@@ -44,12 +44,15 @@ public static class DashboardDataBuilder
 					{
 						videoId = v.VideoId,
 						title = v.TranslatedTitle ?? v.Title,
+						originalTitle = v.Title,
 						description = v.TranslatedDescription ?? v.Description,
 						duration = v.Duration.ToString(@"hh\:mm\:ss"),
 						channelId = v.ChannelId,
 						channelName = v.ChannelName,
 						playlistId = p.PlaylistId,
 						playlistName = p.Title,
+						detectedLanguage = v.DetectedLanguage ?? "unknown",
+						hasTranslation = v.TranslatedTitle != null,
 					}
 				);
 		}

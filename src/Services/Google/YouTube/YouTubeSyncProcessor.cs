@@ -46,9 +46,10 @@ public class YouTubeSyncProcessor(
 				break;
 
 			Telemetry.Debug(
-				"Playlist {Title}: {Videos} videos, {New} new",
+				"Playlist {Title}: {VideoCount} videos ({Skipped} skipped), {New} new",
 				snapshot.Title,
 				result.Videos,
+				result.Skipped,
 				result.NewVideoCount
 			);
 
@@ -61,6 +62,14 @@ public class YouTubeSyncProcessor(
 
 		return counters.ToResult(processedSnapshots, playlistsWithNewVideos);
 	}
+
+	public async Task<
+		ErrorOr<YouTubePlaylistProcessor.ProcessResult>
+	> ProcessSingleViaProcessorAsync(
+		PlaylistSnapshot snapshot,
+		bool noTranslate,
+		CancellationToken ct
+	) => await playlistProcessor.ProcessPlaylistAsync(snapshot, noTranslate, ct);
 
 	private async Task<ProcessResult> ProcessSinglePlaylistAsync(
 		PlaylistSnapshot snapshot,
@@ -76,7 +85,7 @@ public class YouTubeSyncProcessor(
 		{
 			Error error = processorResult.Errors[0];
 
-			if (error.Code is "YT.RateLimit" or "Azure.RateLimit")
+			if (error.Code is "YT.RateLimit" or "YT.QuotaExceeded" or "Azure.RateLimit")
 			{
 				Telemetry.Warn(
 					"Rate limit reached ({Code}). Skipping remaining playlists.",

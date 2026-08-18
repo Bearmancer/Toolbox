@@ -12,7 +12,6 @@ public enum TerminationReason
 	CallerCanceled,
 	Timeout,
 	InactivityTimeout,
-	KilledAfterCompletionMarker,
 	StartFailed,
 }
 
@@ -25,9 +24,7 @@ public sealed class ProcessRunner
 		string? workingDir = null,
 		TimeSpan? timeout = null,
 		TimeSpan? inactivityTimeout = null,
-		Action<string>? onOutputLine = null,
-		string? completionPattern = null,
-		TimeSpan? completionTimeout = null
+		Action<string>? onOutputLine = null
 	)
 	{
 		if (!File.Exists(binaryPath) && !IsOnPath(binaryPath))
@@ -37,8 +34,8 @@ public sealed class ProcessRunner
 		Telemetry.Debug(
 			"ProcessRunner.Start binary={Binary} args={Args} workingDir={WorkingDir} timeout={Timeout}",
 			binaryName,
-			LogPaths.FormatText(string.Join(" ", args.Select(EscapeArg))),
-			LogPaths.Format(workingDir ?? "."),
+			string.Join(" ", args.Select(EscapeArg)),
+			Path.GetFileName(workingDir ?? "."),
 			(double?)timeout?.TotalSeconds ?? 0
 		);
 
@@ -74,10 +71,6 @@ public sealed class ProcessRunner
 			StringBuilder stderrSb = new();
 			stdoutDrainTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
 			stderrDrainTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
-			TaskCompletionSource<bool> completionTcs = new(
-				TaskCreationOptions.RunContinuationsAsynchronously
-			);
-			var completionDetected = false;
 
 			using CancellationTokenSource inactivityCts = new();
 			if (inactivityTimeout.HasValue)
@@ -98,20 +91,6 @@ public sealed class ProcessRunner
 					inactivityCts.CancelAfter(inactivityTimeout.Value);
 				stdoutSb.AppendLine(e.Data);
 				onOutputLine?.Invoke(e.Data);
-				if (
-					completionPattern is not null
-					&& !completionDetected
-					&& e.Data.Contains(completionPattern)
-				)
-				{
-					completionDetected = true;
-					completionTcs.TrySetResult(true);
-					Telemetry.Debug(
-						"ProcessRunner.CompletionDetected binary={Binary} pattern={Pattern}",
-						binaryName,
-						completionPattern
-					);
-				}
 			};
 
 			process.ErrorDataReceived += (sender, e) =>
@@ -135,7 +114,6 @@ public sealed class ProcessRunner
 			Task? inactivityTask = inactivityTimeout.HasValue
 				? Task.Delay(Timeout.InfiniteTimeSpan, inactivityCts.Token)
 				: null;
-			Task? graceTask = null;
 			TerminationReason terminationReason = TerminationReason.Exited;
 			async Task<ProcessResult> stopAndBuildAsync(TerminationReason reason)
 			{
@@ -178,10 +156,6 @@ public sealed class ProcessRunner
 					waitTasks.Add(timeoutTask);
 				if (inactivityTask is not null)
 					waitTasks.Add(inactivityTask);
-				if (completionPattern is not null && graceTask is null)
-					waitTasks.Add(completionTcs.Task);
-				if (graceTask is not null)
-					waitTasks.Add(graceTask);
 
 				Task completed = await Task.WhenAny(waitTasks);
 				if (completed == exitTask)
@@ -236,26 +210,6 @@ public sealed class ProcessRunner
 						binaryName,
 						sw.ElapsedMilliseconds,
 						timeout!.Value.TotalMilliseconds
-					);
-					return await stopAndBuildAsync(terminationReason);
-				}
-
-				if (completed == completionTcs.Task)
-				{
-					graceTask = Task.Delay(
-						completionTimeout ?? TimeSpan.FromSeconds(10),
-						linkedToken
-					);
-					continue;
-				}
-
-				if (completed == graceTask)
-				{
-					terminationReason = TerminationReason.KilledAfterCompletionMarker;
-					Telemetry.Info(
-						"ProcessRunner.CompletionGraceKill binary={Binary} waited={WaitedMs}ms",
-						binaryName,
-						(int)(completionTimeout ?? TimeSpan.FromSeconds(10)).TotalMilliseconds
 					);
 					return await stopAndBuildAsync(terminationReason);
 				}

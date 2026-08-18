@@ -1,5 +1,7 @@
+using System.Net;
 using Core;
 using ErrorOr;
+using Google;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
 using SerilogTracing;
@@ -263,6 +265,38 @@ public class YouTubePlaylistService(YouTubeService yt)
 		return DateTimeOffset.UtcNow;
 	}
 
+	private static Error MapGoogleApiException(GoogleApiException ex, string contextId) =>
+		ex.HttpStatusCode switch
+		{
+			HttpStatusCode.TooManyRequests => Errors.YouTube.RateLimitExceeded,
+			HttpStatusCode.Forbidden
+				when ex.Message.Contains("quota", StringComparison.OrdinalIgnoreCase) =>
+				Errors.YouTube.QuotaExceeded(ex.Message),
+			_ => Errors.YouTube.ApiError(
+				ex.HttpStatusCode == HttpStatusCode.NotFound
+					? $"Playlist {contextId} not found: {ex.Message}"
+					: ex.Message
+			),
+		};
+
+	private static Error MapInsertGoogleApiException(
+		GoogleApiException ex,
+		string playlistId,
+		string videoId
+	) =>
+		ex.HttpStatusCode switch
+		{
+			HttpStatusCode.TooManyRequests => Errors.YouTube.RateLimitExceeded,
+			HttpStatusCode.Forbidden
+				when ex.Message.Contains("quota", StringComparison.OrdinalIgnoreCase) =>
+				Errors.YouTube.QuotaExceeded(ex.Message),
+			_ => Errors.YouTube.ApiError(
+				ex.HttpStatusCode == HttpStatusCode.NotFound
+					? $"Playlist {playlistId} not found inserting video {videoId}: {ex.Message}"
+					: ex.Message
+			),
+		};
+
 	public async Task<ErrorOr<string>> DeletePlaylistAsync(string playlistId, CancellationToken ct)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
@@ -276,6 +310,16 @@ public class YouTubePlaylistService(YouTubeService yt)
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			Telemetry.Info("Deleted playlist {Id}", playlistId);
 			return playlistId;
+		}
+		catch (GoogleApiException ex)
+		{
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
+			Telemetry.Error(
+				"YouTube.DeletePlaylistFailed id={Id}: {Error}",
+				playlistId,
+				ex.Message
+			);
+			return MapGoogleApiException(ex, playlistId);
 		}
 		catch (Exception ex)
 		{
@@ -321,6 +365,17 @@ public class YouTubePlaylistService(YouTubeService yt)
 
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			return response.Id!;
+		}
+		catch (GoogleApiException ex)
+		{
+			activity.Complete(Serilog.Events.LogEventLevel.Debug);
+			Telemetry.Error(
+				"YouTube.InsertItemFailed video={VideoId} playlist={PlaylistId}: {Error}",
+				videoId,
+				playlistId,
+				ex.Message
+			);
+			return MapInsertGoogleApiException(ex, playlistId, videoId);
 		}
 		catch (Exception ex)
 		{

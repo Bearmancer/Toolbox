@@ -1,7 +1,7 @@
 using Core;
 using Renci.SshNet;
 
-namespace CLI.Dashboard;
+namespace Services.Google.Dashboard;
 
 public static class OciDashboardDeployer
 {

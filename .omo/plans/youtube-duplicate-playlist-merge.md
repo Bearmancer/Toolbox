@@ -1,281 +1,374 @@
-# YouTube Duplicate Playlist Merge — COMPLETED
-
-> **Status: completed (2026-08-18).** `YouTubeDuplicateMerger.cs` (386 LOC) + `YouTubeDuplicateMergePolicy.cs` (54 LOC) exist live. `YOUTUBE_MERGE_INSERT_CAP=100`, verification-before-delete implemented. Retained as reference; active truth is `youtube-architecture.md` + live merger files.
-
-> *Original header:* For agentic workers: Use `subagent-driven-development` — retained below as spec history.
-
-**Goal:** Automatically consolidate duplicate YouTube playlists during every sync by transferring live playlist items into a deterministic winner, verifying the complete video-ID union, then deleting losers safely.
-
-**Architecture:** Fetch all current playlist summaries before duplicate processing. Group playlists by trimmed exact title using `StringComparer.OrdinalIgnoreCase`. Keep the playlist with the largest reported count; break ties by oldest `LastUpdated`. Transfer missing live video IDs through `playlistItems.insert`, verify the winner contains every transferable source video, delete each loser only after verification, archive local loser state after deletion, then process and sort affected winners through the existing pipeline.
-
-**Tech Stack:** .NET 11 preview, Google.Apis.YouTube.v3, ErrorOr, Serilog through `Core.Telemetry`, Spectre.Console.Cli.
-
-## Global Constraints
-
-- Automatic duplicate consolidation runs on every `sync youtube` execution.
-- Duplicate identity is `Title.Trim()` compared with `StringComparer.OrdinalIgnoreCase`.
-- Winner selection is descending `ReportedVideoCount`, then ascending `LastUpdated`, then ascending `PlaylistId` for a fully deterministic final tie-break.
-- Live YouTube items are the source of truth. Local processed JSON never authorizes deletion.
-- Transfer uses `playlistItems.insert` with `part=snippet`, `snippet.playlistId`, `snippet.resourceId.kind="youtube#video"`, and `snippet.resourceId.videoId`.
-- `playlistItems.insert` is non-idempotent and costs 50 quota units; re-list the winner before each run and deduplicate by `videoId`.
-- Delete a loser only after exact video-ID union verification succeeds for every transferable item in that loser.
-- Invalid or missing source `videoId`, failed insertion, failed verification, or over-cap transfer blocks that loser’s deletion.
-- Per-group insertion cap is configured by `YOUTUBE_MERGE_INSERT_CAP`; default is `100` missing videos.
-- Failed or over-cap groups remain retryable. Do not archive local files for a loser that was not deleted.
-- Archive local loser state using playlist ID in the archive filename to avoid sanitized-title collisions.
-- Move method names, item IDs, timing, and API diagnostics to Debug. Info remains concise and user-facing.
-- Suppress already-sorted playlist Info logs. Emit Info only for actual repositioning and successful duplicate mutations; use Warn/Error for deferred or failed merges.
-- Preserve existing ErrorOr railway style, cancellation propagation, one class per file, PascalCase JSON, and no inline comments.
-- Do not add test NuGet packages. Repository has no test project; use focused build checks, static pure-policy verification, and controlled live API verification.
-- Run `dotnet build` after every implementation task and before any live API execution.
-- Do not commit, push, or execute destructive live deletion during plan creation.
-
-## Current State and Gaps
-
-| Component | Current state | Desired state | Gap |
-|---|---|---|---|
-| Duplicate scope | `MergeDuplicatePlaylistsAsync` receives only new/changed playlists | Scan all current summaries every sync | Unchanged duplicates survive indefinitely |
-| Duplicate key | `Text.SanitizeFileName(p.Title)` | Trimmed exact title, ordinal case-insensitive | Filename sanitization can merge distinct titles |
-| Winner | Largest count; API enumeration decides ties | Largest count, oldest timestamp, stable ID tie-break | Nondeterministic deletion |
-| Content merge | Local processed JSON only | Live API item transfer and exact ID verification | Source-only videos can be lost before deletion |
-| Deletion | `playlists.delete` after local merge | Delete only after transfer and verification | Destructive ordering unsafe |
-| Failure archive | Archives raw state even when delete fails | Archive only after successful delete | State can falsely imply deletion |
-| Insert protection | No cap | Configurable cap, default 100 | Large groups can exhaust quota |
-| Sort Info | Includes method name, item count, milliseconds; logs already-sorted Info | Concise mutation Info; detailed Debug; no already-sorted Info | Default logs too noisy |
-
-## Dependency and Subagent Order
-
-| Task | Depends on | Domain | Subagent category | Review gate |
-|---|---|---|---|---|
-| 1. Playlist-item insert API | None | C# API wrapper | `quick` | Build, API shape review |
-| 2. Pure duplicate policy and merge planner | None | C# logic | `ultrabrain` | Manual policy verification, build, logic review |
-| 3. Live merger and archive safety | 1, 2 | API orchestration | `deep` | Build, failure-path review |
-| 4. Orchestrator/state integration | 3 | Cross-file C# | `unspecified-high` | Build, reference scan, state-flow review |
-| 5. Sort and duplicate logging | None | C# logging | `quick` | Build, output-template review |
-| 6. Full verification and controlled live run | 1-5 | QA/operations | `deep` | Build, diagnostics, API evidence |
-
-Tasks 1, 2, and 5 are logically independent, but implementation agents must run sequentially in the current session because each task receives a separate review gate and no overlapping writes are allowed. Tasks 3 and 4 follow the critical path.
-
-## Subagent-Driven Execution Protocol
-
-For each task:
-
-1. Record `BASE=$(git rev-parse HEAD)` before dispatch.
-2. Generate a task brief containing only that task’s requirements.
-3. Dispatch one fresh implementer with the task brief, exact files, constraints, and report path.
-4. Implementer writes code, runs required verification, self-reviews, and reports status.
-5. Inspect the diff and dispatch a separate task reviewer for spec compliance and code quality.
-6. If reviewer finds Critical/Important issues, resume implementer for fix rounds 1-3; use a fresh stronger implementer for rounds 4-5. Re-review every fix.
-7. Record task completion and commit range in the SDD ledger before the next task.
-8. Never fix reviewer findings in the controller session.
-
-Use `using-git-worktrees` before implementation. Keep a plan-specific ledger under `.superpowers/sdd/<plan-basename>/progress.md`. Do not run multiple implementation agents against overlapping files.
-
-## Task 1: Add Live Playlist-Item Insert API
-
-**Files:**
-- Modify: `src/Services/Google/YouTube/YouTubePlaylistService.cs`
-
-**Interface produced:**
-
-```csharp
-Task<ErrorOr<string>> InsertPlaylistItemAsync(
+<h1>YouTube Duplicate Playlist Merge — COMPLETED</h1>
+<blockquote>
+<p><strong>Status: completed (2026-08-18).</strong> <code>YouTubeDuplicateMerger.cs</code> (386 LOC) + <code>YouTubeDuplicateMergePolicy.cs</code> (54 LOC) exist live. <code>YOUTUBE_MERGE_INSERT_CAP=100</code>, verification-before-delete implemented. Retained as reference; active truth is <code>youtube-architecture.md</code> + live merger files.</p>
+</blockquote>
+<blockquote>
+<p><em>Original header:</em> For agentic workers: Use <code>subagent-driven-development</code> — retained below as spec history.</p>
+</blockquote>
+<p><strong>Goal:</strong> Automatically consolidate duplicate YouTube playlists during every sync by transferring live playlist items into a deterministic winner, verifying the complete video-ID union, then deleting losers safely.</p>
+<p><strong>Architecture:</strong> Fetch all current playlist summaries before duplicate processing. Group playlists by trimmed exact title using <code>StringComparer.OrdinalIgnoreCase</code>. Keep the playlist with the largest reported count; break ties by oldest <code>LastUpdated</code>. Transfer missing live video IDs through <code>playlistItems.insert</code>, verify the winner contains every transferable source video, delete each loser only after verification, archive local loser state after deletion, then process and sort affected winners through the existing pipeline.</p>
+<p><strong>Tech Stack:</strong> .NET 11 preview, Google.Apis.YouTube.v3, ErrorOr, Serilog through <code>Core.Telemetry</code>, Spectre.Console.Cli.</p>
+<h2>Global Constraints</h2>
+<ul>
+<li>Automatic duplicate consolidation runs on every <code>sync youtube</code> execution.</li>
+<li>Duplicate identity is <code>Title.Trim()</code> compared with <code>StringComparer.OrdinalIgnoreCase</code>.</li>
+<li>Winner selection is descending <code>ReportedVideoCount</code>, then ascending <code>LastUpdated</code>, then ascending <code>PlaylistId</code> for a fully deterministic final tie-break.</li>
+<li>Live YouTube items are the source of truth. Local processed JSON never authorizes deletion.</li>
+<li>Transfer uses <code>playlistItems.insert</code> with <code>part=snippet</code>, <code>snippet.playlistId</code>, <code>snippet.resourceId.kind=&quot;youtube#video&quot;</code>, and <code>snippet.resourceId.videoId</code>.</li>
+<li><code>playlistItems.insert</code> is non-idempotent and costs 50 quota units; re-list the winner before each run and deduplicate by <code>videoId</code>.</li>
+<li>Delete a loser only after exact video-ID union verification succeeds for every transferable item in that loser.</li>
+<li>Invalid or missing source <code>videoId</code>, failed insertion, failed verification, or over-cap transfer blocks that loser’s deletion.</li>
+<li>Per-group insertion cap is configured by <code>YOUTUBE_MERGE_INSERT_CAP</code>; default is <code>100</code> missing videos.</li>
+<li>Failed or over-cap groups remain retryable. Do not archive local files for a loser that was not deleted.</li>
+<li>Archive local loser state using playlist ID in the archive filename to avoid sanitized-title collisions.</li>
+<li>Move method names, item IDs, timing, and API diagnostics to Debug. Info remains concise and user-facing.</li>
+<li>Suppress already-sorted playlist Info logs. Emit Info only for actual repositioning and successful duplicate mutations; use Warn/Error for deferred or failed merges.</li>
+<li>Preserve existing ErrorOr railway style, cancellation propagation, one class per file, PascalCase JSON, and no inline comments.</li>
+<li>Do not add test NuGet packages. Repository has no test project; use focused build checks, static pure-policy verification, and controlled live API verification.</li>
+<li>Run <code>dotnet build</code> after every implementation task and before any live API execution.</li>
+<li>Do not commit, push, or execute destructive live deletion during plan creation.</li>
+</ul>
+<h2>Current State and Gaps</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Current state</th>
+<th>Desired state</th>
+<th>Gap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Duplicate scope</td>
+<td><code>MergeDuplicatePlaylistsAsync</code> receives only new/changed playlists</td>
+<td>Scan all current summaries every sync</td>
+<td>Unchanged duplicates survive indefinitely</td>
+</tr>
+<tr>
+<td>Duplicate key</td>
+<td><code>Text.SanitizeFileName(p.Title)</code></td>
+<td>Trimmed exact title, ordinal case-insensitive</td>
+<td>Filename sanitization can merge distinct titles</td>
+</tr>
+<tr>
+<td>Winner</td>
+<td>Largest count; API enumeration decides ties</td>
+<td>Largest count, oldest timestamp, stable ID tie-break</td>
+<td>Nondeterministic deletion</td>
+</tr>
+<tr>
+<td>Content merge</td>
+<td>Local processed JSON only</td>
+<td>Live API item transfer and exact ID verification</td>
+<td>Source-only videos can be lost before deletion</td>
+</tr>
+<tr>
+<td>Deletion</td>
+<td><code>playlists.delete</code> after local merge</td>
+<td>Delete only after transfer and verification</td>
+<td>Destructive ordering unsafe</td>
+</tr>
+<tr>
+<td>Failure archive</td>
+<td>Archives raw state even when delete fails</td>
+<td>Archive only after successful delete</td>
+<td>State can falsely imply deletion</td>
+</tr>
+<tr>
+<td>Insert protection</td>
+<td>No cap</td>
+<td>Configurable cap, default 100</td>
+<td>Large groups can exhaust quota</td>
+</tr>
+<tr>
+<td>Sort Info</td>
+<td>Includes method name, item count, milliseconds; logs already-sorted Info</td>
+<td>Concise mutation Info; detailed Debug; no already-sorted Info</td>
+<td>Default logs too noisy</td>
+</tr>
+</tbody>
+</table>
+<h2>Dependency and Subagent Order</h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Depends on</th>
+<th>Domain</th>
+<th>Subagent category</th>
+<th>Review gate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Playlist-item insert API</td>
+<td>None</td>
+<td>C# API wrapper</td>
+<td><code>quick</code></td>
+<td>Build, API shape review</td>
+</tr>
+<tr>
+<td>2. Pure duplicate policy and merge planner</td>
+<td>None</td>
+<td>C# logic</td>
+<td><code>ultrabrain</code></td>
+<td>Manual policy verification, build, logic review</td>
+</tr>
+<tr>
+<td>3. Live merger and archive safety</td>
+<td>1, 2</td>
+<td>API orchestration</td>
+<td><code>deep</code></td>
+<td>Build, failure-path review</td>
+</tr>
+<tr>
+<td>4. Orchestrator/state integration</td>
+<td>3</td>
+<td>Cross-file C#</td>
+<td><code>unspecified-high</code></td>
+<td>Build, reference scan, state-flow review</td>
+</tr>
+<tr>
+<td>5. Sort and duplicate logging</td>
+<td>None</td>
+<td>C# logging</td>
+<td><code>quick</code></td>
+<td>Build, output-template review</td>
+</tr>
+<tr>
+<td>6. Full verification and controlled live run</td>
+<td>1-5</td>
+<td>QA/operations</td>
+<td><code>deep</code></td>
+<td>Build, diagnostics, API evidence</td>
+</tr>
+</tbody>
+</table>
+<p>Tasks 1, 2, and 5 are logically independent, but implementation agents must run sequentially in the current session because each task receives a separate review gate and no overlapping writes are allowed. Tasks 3 and 4 follow the critical path.</p>
+<h2>Subagent-Driven Execution Protocol</h2>
+<p>For each task:</p>
+<ol>
+<li>Record <code>BASE=$(git rev-parse HEAD)</code> before dispatch.</li>
+<li>Generate a task brief containing only that task’s requirements.</li>
+<li>Dispatch one fresh implementer with the task brief, exact files, constraints, and report path.</li>
+<li>Implementer writes code, runs required verification, self-reviews, and reports status.</li>
+<li>Inspect the diff and dispatch a separate task reviewer for spec compliance and code quality.</li>
+<li>If reviewer finds Critical/Important issues, resume implementer for fix rounds 1-3; use a fresh stronger implementer for rounds 4-5. Re-review every fix.</li>
+<li>Record task completion and commit range in the SDD ledger before the next task.</li>
+<li>Never fix reviewer findings in the controller session.</li>
+</ol>
+<p>Use <code>using-git-worktrees</code> before implementation. Keep a plan-specific ledger under <code>.superpowers/sdd/&lt;plan-basename&gt;/progress.md</code>. Do not run multiple implementation agents against overlapping files.</p>
+<h2>Task 1: Add Live Playlist-Item Insert API</h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Modify: <code>src/Services/Google/YouTube/YouTubePlaylistService.cs</code></li>
+</ul>
+<p><strong>Interface produced:</strong></p>
+<pre class="syntax-highlighting"><code><span class="text plain">Task&lt;ErrorOr&lt;string&gt;&gt; InsertPlaylistItemAsync(
     string playlistId,
     string videoId,
     CancellationToken ct
 )
-```
-
-**Implementation steps:**
-
-- [ ] Add `InsertPlaylistItemAsync` after existing playlist mutation methods.
-- [ ] Construct `PlaylistItem` with `PlaylistItemSnippet.PlaylistId`, `ResourceId.Kind = "youtube#video"`, and `ResourceId.VideoId`.
-- [ ] Call `yt.PlaylistItems.Insert(item, "snippet").ExecuteAsync(ct)`.
-- [ ] Return inserted playlist-item ID through `ErrorOr<string>`.
-- [ ] Follow existing `Telemetry.ForService`, `StartActivity`, cancellation, and `Errors.YouTube.ApiError` patterns.
-- [ ] Keep request/response details at Debug; do not add Info noise per inserted item.
-- [ ] Run `dotnet build` and `lsp_diagnostics` on the changed file.
-- [ ] Commit: `feat(youtube): add playlist item insert API`.
-
-**Reviewer checks:** request body uses video ID, not playlist-item ID; cancellation reaches API; failure returns ErrorOr; no deletion behavior is introduced.
-
-## Task 2: Add Pure Duplicate Policy and Transfer Planning
-
-**Files:**
-- Create: `src/Services/Google/YouTube/YouTubeDuplicateMergePolicy.cs`
-
-**Interfaces produced:**
-
-```csharp
-public static IReadOnlyList<DuplicatePlaylistGroup> FindGroups(
-    IReadOnlyList<PlaylistSnapshot> playlists
+</span></code></pre>
+<p><strong>Implementation steps:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Add <code>InsertPlaylistItemAsync</code> after existing playlist mutation methods.</li>
+<li><input type="checkbox" disabled="" /> Construct <code>PlaylistItem</code> with <code>PlaylistItemSnippet.PlaylistId</code>, <code>ResourceId.Kind = &quot;youtube#video&quot;</code>, and <code>ResourceId.VideoId</code>.</li>
+<li><input type="checkbox" disabled="" /> Call <code>yt.PlaylistItems.Insert(item, &quot;snippet&quot;).ExecuteAsync(ct)</code>.</li>
+<li><input type="checkbox" disabled="" /> Return inserted playlist-item ID through <code>ErrorOr&lt;string&gt;</code>.</li>
+<li><input type="checkbox" disabled="" /> Follow existing <code>Telemetry.ForService</code>, <code>StartActivity</code>, cancellation, and <code>Errors.YouTube.ApiError</code> patterns.</li>
+<li><input type="checkbox" disabled="" /> Keep request/response details at Debug; do not add Info noise per inserted item.</li>
+<li><input type="checkbox" disabled="" /> Run <code>dotnet build</code> and <code>lsp_diagnostics</code> on the changed file.</li>
+<li><input type="checkbox" disabled="" /> Commit: <code>feat(youtube): add playlist item insert API</code>.</li>
+</ul>
+<p><strong>Reviewer checks:</strong> request body uses video ID, not playlist-item ID; cancellation reaches API; failure returns ErrorOr; no deletion behavior is introduced.</p>
+<h2>Task 2: Add Pure Duplicate Policy and Transfer Planning</h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>src/Services/Google/YouTube/YouTubeDuplicateMergePolicy.cs</code></li>
+</ul>
+<p><strong>Interfaces produced:</strong></p>
+<pre class="syntax-highlighting"><code><span class="text plain">public static IReadOnlyList&lt;DuplicatePlaylistGroup&gt; FindGroups(
+    IReadOnlyList&lt;PlaylistSnapshot&gt; playlists
 )
 
 public static PlaylistSnapshot SelectWinner(
-    IReadOnlyList<PlaylistSnapshot> group
+    IReadOnlyList&lt;PlaylistSnapshot&gt; group
 )
 
 public static TransferCandidateSet GetTransferCandidates(
-    IReadOnlySet<string> winnerVideoIds,
-    IReadOnlyList<PlaylistItem> loserItems
+    IReadOnlySet&lt;string&gt; winnerVideoIds,
+    IReadOnlyList&lt;PlaylistItem&gt; loserItems
 )
 
 public static bool ContainsAll(
-    IReadOnlySet<string> winnerVideoIds,
-    IReadOnlySet<string> sourceVideoIds
+    IReadOnlySet&lt;string&gt; winnerVideoIds,
+    IReadOnlySet&lt;string&gt; sourceVideoIds
 )
-```
-
-`DuplicatePlaylistGroup` is `record struct DuplicatePlaylistGroup(string Key, IReadOnlyList<PlaylistSnapshot> Playlists)`. `TransferCandidateSet` is `record struct TransferCandidateSet(IReadOnlyList<string> MissingVideoIds, bool HasInvalidItems)`.
-
-**Policy steps:**
-
-- [ ] Group by `playlist.Title.Trim()` using `StringComparer.OrdinalIgnoreCase`.
-- [ ] Ignore singleton groups.
-- [ ] Select winner by `ReportedVideoCount` descending, `LastUpdated` ascending, `PlaylistId` ascending.
-- [ ] Extract only non-empty `Snippet.ResourceId.VideoId` values. Preserve source order, remove duplicates, and never insert a video already present in winner.
-- [ ] Return `HasInvalidItems = true` when any source item has no usable video ID. Caller must block deletion for that source; it must not silently discard the item.
-- [ ] Make verification set-based, not count-only. `winnerVideoIds` must contain every transferable source ID; count is only supplementary telemetry.
-- [ ] Keep policy deterministic and side-effect free so it can be checked without Google credentials.
-- [ ] Write a temporary standalone harness at `.superpowers/sdd/<plan-basename>/YouTubeDuplicateMergePolicyVerification.cs` with `Main()` and a `#:project` reference to `src/Services/Google/Google.csproj`. Run `dotnet run --file .superpowers/sdd/<plan-basename>/YouTubeDuplicateMergePolicyVerification.cs`; verify no duplicates, case/whitespace duplicate, punctuation-distinct titles, largest winner, oldest equal-count winner, duplicate source IDs, empty IDs, and cap boundary values. Delete harness after the task review.
-- [ ] Run `dotnet build` and `lsp_diagnostics`.
-- [ ] Commit: `feat(youtube): add deterministic duplicate merge policy`.
-
-**Reviewer checks:** sanitized filenames are absent from identity logic; equal-size selection is stable; missing IDs cannot silently authorize deletion; policy does not call APIs or mutate files.
-
-## Task 3: Implement Live Merger and Safe Archive Ordering
-
-**Files:**
-- Create: `src/Services/Google/YouTube/YouTubeDuplicateMerger.cs`
-
-**Interface produced:**
-
-```csharp
-Task<DuplicateMergeOutcome> MergeDuplicateGroupsAsync(
-    IReadOnlyList<PlaylistSnapshot> allCurrentPlaylists,
+</span></code></pre>
+<p><code>DuplicatePlaylistGroup</code> is <code>record struct DuplicatePlaylistGroup(string Key, IReadOnlyList&lt;PlaylistSnapshot&gt; Playlists)</code>. <code>TransferCandidateSet</code> is <code>record struct TransferCandidateSet(IReadOnlyList&lt;string&gt; MissingVideoIds, bool HasInvalidItems)</code>.</p>
+<p><strong>Policy steps:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Group by <code>playlist.Title.Trim()</code> using <code>StringComparer.OrdinalIgnoreCase</code>.</li>
+<li><input type="checkbox" disabled="" /> Ignore singleton groups.</li>
+<li><input type="checkbox" disabled="" /> Select winner by <code>ReportedVideoCount</code> descending, <code>LastUpdated</code> ascending, <code>PlaylistId</code> ascending.</li>
+<li><input type="checkbox" disabled="" /> Extract only non-empty <code>Snippet.ResourceId.VideoId</code> values. Preserve source order, remove duplicates, and never insert a video already present in winner.</li>
+<li><input type="checkbox" disabled="" /> Return <code>HasInvalidItems = true</code> when any source item has no usable video ID. Caller must block deletion for that source; it must not silently discard the item.</li>
+<li><input type="checkbox" disabled="" /> Make verification set-based, not count-only. <code>winnerVideoIds</code> must contain every transferable source ID; count is only supplementary telemetry.</li>
+<li><input type="checkbox" disabled="" /> Keep policy deterministic and side-effect free so it can be checked without Google credentials.</li>
+<li><input type="checkbox" disabled="" /> Write a temporary standalone harness at <code>.superpowers/sdd/&lt;plan-basename&gt;/YouTubeDuplicateMergePolicyVerification.cs</code> with <code>Main()</code> and a <code>#:project</code> reference to <code>src/Services/Google/Google.csproj</code>. Run <code>dotnet run --file .superpowers/sdd/&lt;plan-basename&gt;/YouTubeDuplicateMergePolicyVerification.cs</code>; verify no duplicates, case/whitespace duplicate, punctuation-distinct titles, largest winner, oldest equal-count winner, duplicate source IDs, empty IDs, and cap boundary values. Delete harness after the task review.</li>
+<li><input type="checkbox" disabled="" /> Run <code>dotnet build</code> and <code>lsp_diagnostics</code>.</li>
+<li><input type="checkbox" disabled="" /> Commit: <code>feat(youtube): add deterministic duplicate merge policy</code>.</li>
+</ul>
+<p><strong>Reviewer checks:</strong> sanitized filenames are absent from identity logic; equal-size selection is stable; missing IDs cannot silently authorize deletion; policy does not call APIs or mutate files.</p>
+<h2>Task 3: Implement Live Merger and Safe Archive Ordering</h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Create: <code>src/Services/Google/YouTube/YouTubeDuplicateMerger.cs</code></li>
+</ul>
+<p><strong>Interface produced:</strong></p>
+<pre class="syntax-highlighting"><code><span class="text plain">Task&lt;DuplicateMergeOutcome&gt; MergeDuplicateGroupsAsync(
+    IReadOnlyList&lt;PlaylistSnapshot&gt; allCurrentPlaylists,
     CancellationToken ct
 )
-```
-
-`DuplicateMergeOutcome` is:
-
-```csharp
-public readonly record struct DuplicateMergeOutcome(
-    IReadOnlyList<PlaylistSnapshot> Survivors,
-    IReadOnlyList<PlaylistSnapshot> RemovedLosers,
-    IReadOnlySet<string> WinnersRequiringProcessing,
+</span></code></pre>
+<p><code>DuplicateMergeOutcome</code> is:</p>
+<pre class="syntax-highlighting"><code><span class="text plain">public readonly record struct DuplicateMergeOutcome(
+    IReadOnlyList&lt;PlaylistSnapshot&gt; Survivors,
+    IReadOnlyList&lt;PlaylistSnapshot&gt; RemovedLosers,
+    IReadOnlySet&lt;string&gt; WinnersRequiringProcessing,
     int GroupsProcessed,
     int GroupsDeferred
 )
-```
-
-The merger owns duplicate-delete archive creation. `YouTubeSyncProcessor` keeps only ordinary deleted-playlist archival.
-
-**Implementation steps:**
-
-- [ ] Read `YOUTUBE_MERGE_INSERT_CAP`; use `100` when absent, invalid, or non-positive; log invalid configuration at Warn.
-- [ ] Process groups serially to avoid concurrent mutations and quota spikes.
-- [ ] For each group, list complete winner items and complete loser items through the existing paginated `GetPlaylistItemsAsync` method.
-- [ ] Build target video-ID set. For each loser, reject deletion eligibility if any item lacks a video ID.
-- [ ] Build the complete missing-ID list across all losers before inserting anything. If missing count exceeds cap, log Warn and leave every playlist intact.
-- [ ] Insert missing IDs through `InsertPlaylistItemAsync`, one at a time, with cancellation checks. If any insert fails, stop the group and delete nothing.
-- [ ] Re-list winner after inserts. Verify every transferable source ID is present. Do not rely solely on `ReportedVideoCount` because item-count metadata can lag.
-- [ ] Persist a deletion archive manifest containing winner ID, loser ID, source item IDs/video IDs, transfer counts, and timestamp before deletion. Use playlist ID in archive paths.
-- [ ] Delete losers only after union verification. Because YouTube has no transaction, delete sequentially and record any loser delete failure without deleting that loser’s local archive.
-- [ ] Archive loser processed/raw files only after the corresponding `playlists.delete` succeeds.
-- [ ] If one loser deletion fails after another succeeds, report partial group completion; remaining loser stays retryable and winner remains authoritative.
-- [ ] Return winner IDs needing reprocessing when inserts occurred. Return no winner-processing requirement when loser content was already a verified subset.
-- [ ] Never call old local-JSON merge logic as a substitute for live transfer.
-- [ ] Run build and diagnostics on every changed file.
-- [ ] Commit: `feat(youtube): merge duplicate playlists through live API`.
-
-**Reviewer checks:** no source deletion before exact union verification; over-cap path performs zero inserts; partial insert path performs zero deletes; archive occurs after delete only; rerun after partial inserts skips already-present IDs.
-
-## Task 4: Wire All-Playlist Consolidation and State Flow
-
-**Files:**
-- Modify: `src/Services/Google/YouTube/YouTubePlaylistOrchestrator.cs`
-- Modify: `src/Services/Google/YouTube/YouTubeSyncProcessor.cs`
-- Modify: `src/Services/Google/GoogleSetup.cs`
-
-**Implementation steps:**
-
-- [ ] Register `YouTubeDuplicateMerger` in the existing Google service setup.
-- [ ] Extend `SyncContext` so merge stage can access all current summaries, not only `CombineNewAndChanged` output.
-- [ ] Invoke duplicate consolidation for all current playlists after summaries are fetched and before normal processing.
-- [ ] Remove deleted loser IDs from stored manifest snapshots and all change lists before `ProcessIfNeededAsync` and `Finalize` calculate counts.
-- [ ] Add affected winner IDs to processing when live inserts changed winner contents, including winners previously classified unchanged.
-- [ ] Refresh winner snapshot after merge where needed; do not leave stale `ReportedVideoCount` or `ETag` in state.
-- [ ] Preserve normal new/changed processing for non-duplicate playlists.
-- [ ] Remove obsolete `MergeDuplicatePlaylistsAsync`, `MergeProcessedVideosAsync`, and any local-only duplicate merge path after the new merger is wired.
-- [ ] Keep archive behavior for ordinary YouTube-deleted playlists separate from duplicate-delete archives.
-- [ ] Run `dotnet build`, `lsp_diagnostics`, and a workspace search confirming removed methods have no callers.
-- [ ] Commit: `feat(youtube): run duplicate consolidation across all playlists`.
-
-**Reviewer checks:** unchanged duplicate groups are detected; deleted losers do not remain in manifest or final counters; merged winners are processed; no duplicate group can be processed twice in one sync due stale context.
-
-## Task 5: Refactor Sort and Duplicate Logging
-
-**Files:**
-- Modify: `src/Services/Google/YouTube/YouTubeSortService.cs`
-
-**Implementation steps:**
-
-- [ ] Move existing already-sorted summary from Info to Debug, retaining item count and elapsed milliseconds there.
-- [ ] Change repositioning Info to omit `YouTube.SortPlaylist`, method wording, and milliseconds. Use a concise template equivalent to `{PlaylistName} — {Repositioned}/{ItemCount} repositioned`.
-- [ ] Keep pass timings, method names, item IDs, and API timings at Debug/Verbose.
-- [ ] Emit duplicate detection and successful deletion summaries at Info without method names or timing.
-- [ ] Emit deferred cap groups at Warn; failed transfer/verification/delete paths at Error or Warn according to existing Telemetry conventions.
-- [ ] Run build and diagnostics.
-- [ ] Commit: `refactor(youtube): reduce default playlist logging noise`.
-
-**Reviewer checks:** no already-sorted Info output; mutation Info contains playlist/user outcome only; detailed diagnostics remain available at Debug; no sorting behavior changes.
-
-## Task 6: Full Verification and Controlled Live Run
-
-**Files:** None for verification; do not alter state until preflight is captured.
-
-**Implementation steps:**
-
-- [ ] Run `dotnet build` on the full solution. Require exit code 0 and no warnings/errors.
-- [ ] Run `lsp_diagnostics` on every changed C# file.
-- [ ] Inspect `git diff`, `git status`, and recent commits. Confirm only planned files changed.
-- [ ] Capture a preflight export of duplicate candidate playlist summaries and live item video IDs before the first destructive run.
-- [ ] Set `YOUTUBE_MERGE_INSERT_CAP=100` explicitly for first live run.
-- [ ] Run `dotnet run --project src\App -- sync youtube` once.
-- [ ] Verify logs show duplicate detection, transfer counts, exact verification, deletion only after verification, concise sort Info, and no already-sorted Info.
-- [ ] Verify `state/youtube/manifest.json`: loser IDs absent, winner ID present with refreshed count/ETag.
-- [ ] Verify `state/youtube/deleted/`: loser archive manifest and local files exist only for successfully deleted losers.
-- [ ] Verify live YouTube: winner contains the union of all preflight source/winner video IDs; loser no longer exists; no duplicate video IDs were introduced.
-- [ ] Run sync a second time. Expected: no repeat inserts/deletes for successfully consolidated groups; deferred/failed groups retry with existing target IDs skipped.
-- [ ] Exercise cap behavior using a known group requiring more than 100 inserts: expect Warn, zero deletion, loser remains live.
-- [ ] Exercise failure behavior only with a controlled invalid/non-transferable source item if available: expect no deletion and retryable state.
-- [ ] Do not claim completion until all evidence is recorded in the SDD ledger.
-
-**Live-run rollback reality:** YouTube playlist deletion is not transactional. Local archives preserve IDs and metadata for manual recreation, but cannot restore a deleted playlist automatically without additional API inserts. Do not run live deletion against production duplicates until the preflight export is complete.
-
-## Commit and Review Strategy
-
-| Commit | Scope | Reviewer focus |
-|---|---|---|
-| 1 | Playlist insert API | Request shape, ErrorOr, cancellation |
-| 2 | Pure duplicate policy | Identity, deterministic winner, ID-set correctness |
-| 3 | Live merger | Cap, partial failures, verification-before-delete, archives |
-| 4 | Orchestrator/state | All-playlist scope, survivor state, affected winners |
-| 5 | Logging | Info/Debug separation, no behavior regression |
-
-Every commit receives a task-scoped review package. After all tasks, dispatch one broad whole-branch reviewer against the merge base. Any final Critical/Important finding gets one fix subagent and one scoped re-review; residual load-bearing findings block handoff.
-
-## Success Criteria
-
-- All current playlists scanned every sync.
-- Only trimmed exact case-insensitive title matches become duplicate groups.
-- Largest playlist survives; equal-size ties keep oldest playlist.
-- Live missing items transfer through YouTube API.
-- Exact source video-ID union verified before any loser deletion.
-- Over-cap and failed groups remain intact and retryable.
-- Local archives created only after successful deletion.
-- Manifest and processing pipeline reflect survivors and affected winners.
-- Default Info logs contain no method names, timing, or already-sorted lines.
-- `dotnet build` exits 0 with zero warnings/errors.
-- Second sync is idempotent for successfully merged groups.
+</span></code></pre>
+<p>The merger owns duplicate-delete archive creation. <code>YouTubeSyncProcessor</code> keeps only ordinary deleted-playlist archival.</p>
+<p><strong>Implementation steps:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Read <code>YOUTUBE_MERGE_INSERT_CAP</code>; use <code>100</code> when absent, invalid, or non-positive; log invalid configuration at Warn.</li>
+<li><input type="checkbox" disabled="" /> Process groups serially to avoid concurrent mutations and quota spikes.</li>
+<li><input type="checkbox" disabled="" /> For each group, list complete winner items and complete loser items through the existing paginated <code>GetPlaylistItemsAsync</code> method.</li>
+<li><input type="checkbox" disabled="" /> Build target video-ID set. For each loser, reject deletion eligibility if any item lacks a video ID.</li>
+<li><input type="checkbox" disabled="" /> Build the complete missing-ID list across all losers before inserting anything. If missing count exceeds cap, log Warn and leave every playlist intact.</li>
+<li><input type="checkbox" disabled="" /> Insert missing IDs through <code>InsertPlaylistItemAsync</code>, one at a time, with cancellation checks. If any insert fails, stop the group and delete nothing.</li>
+<li><input type="checkbox" disabled="" /> Re-list winner after inserts. Verify every transferable source ID is present. Do not rely solely on <code>ReportedVideoCount</code> because item-count metadata can lag.</li>
+<li><input type="checkbox" disabled="" /> Persist a deletion archive manifest containing winner ID, loser ID, source item IDs/video IDs, transfer counts, and timestamp before deletion. Use playlist ID in archive paths.</li>
+<li><input type="checkbox" disabled="" /> Delete losers only after union verification. Because YouTube has no transaction, delete sequentially and record any loser delete failure without deleting that loser’s local archive.</li>
+<li><input type="checkbox" disabled="" /> Archive loser processed/raw files only after the corresponding <code>playlists.delete</code> succeeds.</li>
+<li><input type="checkbox" disabled="" /> If one loser deletion fails after another succeeds, report partial group completion; remaining loser stays retryable and winner remains authoritative.</li>
+<li><input type="checkbox" disabled="" /> Return winner IDs needing reprocessing when inserts occurred. Return no winner-processing requirement when loser content was already a verified subset.</li>
+<li><input type="checkbox" disabled="" /> Never call old local-JSON merge logic as a substitute for live transfer.</li>
+<li><input type="checkbox" disabled="" /> Run build and diagnostics on every changed file.</li>
+<li><input type="checkbox" disabled="" /> Commit: <code>feat(youtube): merge duplicate playlists through live API</code>.</li>
+</ul>
+<p><strong>Reviewer checks:</strong> no source deletion before exact union verification; over-cap path performs zero inserts; partial insert path performs zero deletes; archive occurs after delete only; rerun after partial inserts skips already-present IDs.</p>
+<h2>Task 4: Wire All-Playlist Consolidation and State Flow</h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Modify: <code>src/Services/Google/YouTube/YouTubePlaylistOrchestrator.cs</code></li>
+<li>Modify: <code>src/Services/Google/YouTube/YouTubeSyncProcessor.cs</code></li>
+<li>Modify: <code>src/Services/Google/GoogleSetup.cs</code></li>
+</ul>
+<p><strong>Implementation steps:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Register <code>YouTubeDuplicateMerger</code> in the existing Google service setup.</li>
+<li><input type="checkbox" disabled="" /> Extend <code>SyncContext</code> so merge stage can access all current summaries, not only <code>CombineNewAndChanged</code> output.</li>
+<li><input type="checkbox" disabled="" /> Invoke duplicate consolidation for all current playlists after summaries are fetched and before normal processing.</li>
+<li><input type="checkbox" disabled="" /> Remove deleted loser IDs from stored manifest snapshots and all change lists before <code>ProcessIfNeededAsync</code> and <code>Finalize</code> calculate counts.</li>
+<li><input type="checkbox" disabled="" /> Add affected winner IDs to processing when live inserts changed winner contents, including winners previously classified unchanged.</li>
+<li><input type="checkbox" disabled="" /> Refresh winner snapshot after merge where needed; do not leave stale <code>ReportedVideoCount</code> or <code>ETag</code> in state.</li>
+<li><input type="checkbox" disabled="" /> Preserve normal new/changed processing for non-duplicate playlists.</li>
+<li><input type="checkbox" disabled="" /> Remove obsolete <code>MergeDuplicatePlaylistsAsync</code>, <code>MergeProcessedVideosAsync</code>, and any local-only duplicate merge path after the new merger is wired.</li>
+<li><input type="checkbox" disabled="" /> Keep archive behavior for ordinary YouTube-deleted playlists separate from duplicate-delete archives.</li>
+<li><input type="checkbox" disabled="" /> Run <code>dotnet build</code>, <code>lsp_diagnostics</code>, and a workspace search confirming removed methods have no callers.</li>
+<li><input type="checkbox" disabled="" /> Commit: <code>feat(youtube): run duplicate consolidation across all playlists</code>.</li>
+</ul>
+<p><strong>Reviewer checks:</strong> unchanged duplicate groups are detected; deleted losers do not remain in manifest or final counters; merged winners are processed; no duplicate group can be processed twice in one sync due stale context.</p>
+<h2>Task 5: Refactor Sort and Duplicate Logging</h2>
+<p><strong>Files:</strong></p>
+<ul>
+<li>Modify: <code>src/Services/Google/YouTube/YouTubeSortService.cs</code></li>
+</ul>
+<p><strong>Implementation steps:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Move existing already-sorted summary from Info to Debug, retaining item count and elapsed milliseconds there.</li>
+<li><input type="checkbox" disabled="" /> Change repositioning Info to omit <code>YouTube.SortPlaylist</code>, method wording, and milliseconds. Use a concise template equivalent to <code>{PlaylistName} — {Repositioned}/{ItemCount} repositioned</code>.</li>
+<li><input type="checkbox" disabled="" /> Keep pass timings, method names, item IDs, and API timings at Debug/Verbose.</li>
+<li><input type="checkbox" disabled="" /> Emit duplicate detection and successful deletion summaries at Info without method names or timing.</li>
+<li><input type="checkbox" disabled="" /> Emit deferred cap groups at Warn; failed transfer/verification/delete paths at Error or Warn according to existing Telemetry conventions.</li>
+<li><input type="checkbox" disabled="" /> Run build and diagnostics.</li>
+<li><input type="checkbox" disabled="" /> Commit: <code>refactor(youtube): reduce default playlist logging noise</code>.</li>
+</ul>
+<p><strong>Reviewer checks:</strong> no already-sorted Info output; mutation Info contains playlist/user outcome only; detailed diagnostics remain available at Debug; no sorting behavior changes.</p>
+<h2>Task 6: Full Verification and Controlled Live Run</h2>
+<p><strong>Files:</strong> None for verification; do not alter state until preflight is captured.</p>
+<p><strong>Implementation steps:</strong></p>
+<ul>
+<li><input type="checkbox" disabled="" /> Run <code>dotnet build</code> on the full solution. Require exit code 0 and no warnings/errors.</li>
+<li><input type="checkbox" disabled="" /> Run <code>lsp_diagnostics</code> on every changed C# file.</li>
+<li><input type="checkbox" disabled="" /> Inspect <code>git diff</code>, <code>git status</code>, and recent commits. Confirm only planned files changed.</li>
+<li><input type="checkbox" disabled="" /> Capture a preflight export of duplicate candidate playlist summaries and live item video IDs before the first destructive run.</li>
+<li><input type="checkbox" disabled="" /> Set <code>YOUTUBE_MERGE_INSERT_CAP=100</code> explicitly for first live run.</li>
+<li><input type="checkbox" disabled="" /> Run <code>dotnet run --project src\App -- sync youtube</code> once.</li>
+<li><input type="checkbox" disabled="" /> Verify logs show duplicate detection, transfer counts, exact verification, deletion only after verification, concise sort Info, and no already-sorted Info.</li>
+<li><input type="checkbox" disabled="" /> Verify <code>state/youtube/manifest.json</code>: loser IDs absent, winner ID present with refreshed count/ETag.</li>
+<li><input type="checkbox" disabled="" /> Verify <code>state/youtube/deleted/</code>: loser archive manifest and local files exist only for successfully deleted losers.</li>
+<li><input type="checkbox" disabled="" /> Verify live YouTube: winner contains the union of all preflight source/winner video IDs; loser no longer exists; no duplicate video IDs were introduced.</li>
+<li><input type="checkbox" disabled="" /> Run sync a second time. Expected: no repeat inserts/deletes for successfully consolidated groups; deferred/failed groups retry with existing target IDs skipped.</li>
+<li><input type="checkbox" disabled="" /> Exercise cap behavior using a known group requiring more than 100 inserts: expect Warn, zero deletion, loser remains live.</li>
+<li><input type="checkbox" disabled="" /> Exercise failure behavior only with a controlled invalid/non-transferable source item if available: expect no deletion and retryable state.</li>
+<li><input type="checkbox" disabled="" /> Do not claim completion until all evidence is recorded in the SDD ledger.</li>
+</ul>
+<p><strong>Live-run rollback reality:</strong> YouTube playlist deletion is not transactional. Local archives preserve IDs and metadata for manual recreation, but cannot restore a deleted playlist automatically without additional API inserts. Do not run live deletion against production duplicates until the preflight export is complete.</p>
+<h2>Commit and Review Strategy</h2>
+<table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Scope</th>
+<th>Reviewer focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Playlist insert API</td>
+<td>Request shape, ErrorOr, cancellation</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pure duplicate policy</td>
+<td>Identity, deterministic winner, ID-set correctness</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Live merger</td>
+<td>Cap, partial failures, verification-before-delete, archives</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Orchestrator/state</td>
+<td>All-playlist scope, survivor state, affected winners</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Logging</td>
+<td>Info/Debug separation, no behavior regression</td>
+</tr>
+</tbody>
+</table>
+<p>Every commit receives a task-scoped review package. After all tasks, dispatch one broad whole-branch reviewer against the merge base. Any final Critical/Important finding gets one fix subagent and one scoped re-review; residual load-bearing findings block handoff.</p>
+<h2>Success Criteria</h2>
+<ul>
+<li>All current playlists scanned every sync.</li>
+<li>Only trimmed exact case-insensitive title matches become duplicate groups.</li>
+<li>Largest playlist survives; equal-size ties keep oldest playlist.</li>
+<li>Live missing items transfer through YouTube API.</li>
+<li>Exact source video-ID union verified before any loser deletion.</li>
+<li>Over-cap and failed groups remain intact and retryable.</li>
+<li>Local archives created only after successful deletion.</li>
+<li>Manifest and processing pipeline reflect survivors and affected winners.</li>
+<li>Default Info logs contain no method names, timing, or already-sorted lines.</li>
+<li><code>dotnet build</code> exits 0 with zero warnings/errors.</li>
+<li>Second sync is idempotent for successfully merged groups.</li>
+</ul>

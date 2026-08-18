@@ -14,30 +14,4 @@ public sealed class PathValidator
 		var fullPath = Path.GetFullPath(inputPath);
 		return fullPath;
 	}
-
-	public ErrorOr<string> ValidateOutputDirectory(string outputDir)
-	{
-		var fullPath = Path.GetFullPath(outputDir);
-
-		try
-		{
-			if (!Directory.Exists(fullPath))
-				Directory.CreateDirectory(fullPath);
-
-			var testFile = Path.Combine(fullPath, Guid.NewGuid().ToString());
-			using FileStream _ = File.Create(testFile);
-			File.Delete(testFile);
-		}
-		catch (Exception ex) when (ex is not OperationCanceledException)
-		{
-			Telemetry.Error(
-				"PathValidator.OutputUnwritable path={Path}: {Error}",
-				fullPath,
-				ex.Message
-			);
-			return Errors.Audio.OutputPathUnwritable(fullPath);
-		}
-
-		return fullPath;
-	}
 }

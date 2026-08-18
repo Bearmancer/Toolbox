@@ -1,44 +1,71 @@
-# AGENTS.md — Services/LastFm
-
-Last.fm API client + sync orchestrator. Persists scrobbles to `state/lastfm/scrobbles.json`.
-
-## STRUCTURE
-
-```
-LastFm/
+<h1>AGENTS.md — Services/LastFm</h1>
+<p>Last.fm API client + sync orchestrator. Persists scrobbles to <code>state/lastfm/scrobbles.json</code>.</p>
+<h2>STRUCTURE</h2>
+<pre class="syntax-highlighting"><code><span class="text plain">LastFm/
 ├── LastFmSetup.cs            # DI: reads LASTFM_API_KEY + LASTFM_USERNAME from env, registers singletons
 ├── LastFmApiClient.cs        # HTTP layer: BuildFetchUrl, request execution, JSON parsing, ClassifyError
 ├── LastFmService.cs          # Business logic: FetchRecentTracksAsync pagination, 3x retry, 200ms rate limit
 ├── LastFmSyncOrchestrator.cs # Sync flow: load state → filter → fetch → merge → save (SyncResult)
 └── LastFmState.cs            # Persistence: LoadScrobblesAsync, SaveScrobblesAsync, MergeScrobbles (PlayedAt dedup)
-```
-
-## WHERE TO LOOK
-
-| Task | File | Notes |
-| ---- | ---- | ----- |
-| Add API endpoint | `LastFmApiClient.cs` | Add to `BuildFetchUrl`, chain in `FetchPageCoreAsync` |
-| Change fetch | `LastFmService.cs` | `FetchRecentTracksAsync` controls pagination + stop condition |
-| Modify sync | `LastFmSyncOrchestrator.cs` | Load, filter, merge, save. Returns `SyncResult` record |
-| Persistence | `LastFmState.cs` | `scrobbles.json` only. `JsonSerializerOptions { WriteIndented = true }` |
-| Error codes | `LastFmApiClient.cs` | `ClassifyError` maps codes → `Retryable/Fatal/Permanent` |
-| Env var | `LastFmSetup.cs` | Read in `AddLastFmServices()`, throw `InvalidOperationException` if missing |
-
-## CONVENTIONS
-
-- **Auth:** `LASTFM_API_KEY` + `LASTFM_USERNAME` via env. Never hardcode.
-- **Error flow:** `LastFmApiException` (Retryable/Fatal) → `FetchPageAsync` → `ErrorOr<T>`.
-- **Rate limit:** 200ms between requests. HTTP 429 → `Retry-After` header, fallback 5s.
-- **Retry:** 3 attempts, exponential backoff. Only on `Retryable` + `HttpRequestException`.
-- **Merge:** `MergeScrobbles` dedups by `PlayedAt` (GroupBy, take First), sorted descending.
-- **JSON:** PascalCase properties. No `PropertyNamingPolicy`.
-- **Display:** `LastFmScrobble.Date` returns IST (UTC+5:30) `yyyy-MM-dd HH:mm`.
-- **Telemetry:** `Telemetry.ForService(ServiceName.LastFm)` per operation.
-
-## ANTI-PATTERNS
-
-- **NEVER** hardcode API keys. Env vars only.
-- **NEVER** bypass `WaitForRateLimit` (200ms) before each request.
-- **NEVER** write `state/lastfm/scrobbles.json` directly. Use `LastFmState.SaveScrobblesAsync`.
-- **NEVER** swallow `LastFmApiException` without logging. `FetchPageAsync` handles it.
-- **NEVER** assume single track shape. Response `track` can be array or single object.
+</span></code></pre>
+<h2>WHERE TO LOOK</h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>File</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Add API endpoint</td>
+<td><code>LastFmApiClient.cs</code></td>
+<td>Add to <code>BuildFetchUrl</code>, chain in <code>FetchPageCoreAsync</code></td>
+</tr>
+<tr>
+<td>Change fetch</td>
+<td><code>LastFmService.cs</code></td>
+<td><code>FetchRecentTracksAsync</code> controls pagination + stop condition</td>
+</tr>
+<tr>
+<td>Modify sync</td>
+<td><code>LastFmSyncOrchestrator.cs</code></td>
+<td>Load, filter, merge, save. Returns <code>SyncResult</code> record</td>
+</tr>
+<tr>
+<td>Persistence</td>
+<td><code>LastFmState.cs</code></td>
+<td><code>scrobbles.json</code> only. <code>JsonSerializerOptions { WriteIndented = true }</code></td>
+</tr>
+<tr>
+<td>Error codes</td>
+<td><code>LastFmApiClient.cs</code></td>
+<td><code>ClassifyError</code> maps codes → <code>Retryable/Fatal/Permanent</code></td>
+</tr>
+<tr>
+<td>Env var</td>
+<td><code>LastFmSetup.cs</code></td>
+<td>Read in <code>AddLastFmServices()</code>, throw <code>InvalidOperationException</code> if missing</td>
+</tr>
+</tbody>
+</table>
+<h2>CONVENTIONS</h2>
+<ul>
+<li><strong>Auth:</strong> <code>LASTFM_API_KEY</code> + <code>LASTFM_USERNAME</code> via env. Never hardcode.</li>
+<li><strong>Error flow:</strong> <code>LastFmApiException</code> (Retryable/Fatal) → <code>FetchPageAsync</code> → <code>ErrorOr&lt;T&gt;</code>.</li>
+<li><strong>Rate limit:</strong> 200ms between requests. HTTP 429 → <code>Retry-After</code> header, fallback 5s.</li>
+<li><strong>Retry:</strong> 3 attempts, exponential backoff. Only on <code>Retryable</code> + <code>HttpRequestException</code>.</li>
+<li><strong>Merge:</strong> <code>MergeScrobbles</code> dedups by <code>PlayedAt</code> (GroupBy, take First), sorted descending.</li>
+<li><strong>JSON:</strong> PascalCase properties. No <code>PropertyNamingPolicy</code>.</li>
+<li><strong>Display:</strong> <code>LastFmScrobble.Date</code> returns IST (UTC+5:30) <code>yyyy-MM-dd HH:mm</code>.</li>
+<li><strong>Telemetry:</strong> <code>Telemetry.ForService(ServiceName.LastFm)</code> per operation.</li>
+</ul>
+<h2>ANTI-PATTERNS</h2>
+<ul>
+<li><strong>NEVER</strong> hardcode API keys. Env vars only.</li>
+<li><strong>NEVER</strong> bypass <code>WaitForRateLimit</code> (200ms) before each request.</li>
+<li><strong>NEVER</strong> write <code>state/lastfm/scrobbles.json</code> directly. Use <code>LastFmState.SaveScrobblesAsync</code>.</li>
+<li><strong>NEVER</strong> swallow <code>LastFmApiException</code> without logging. <code>FetchPageAsync</code> handles it.</li>
+<li><strong>NEVER</strong> assume single track shape. Response <code>track</code> can be array or single object.</li>
+</ul>

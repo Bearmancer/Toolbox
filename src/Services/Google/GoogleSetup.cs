@@ -1,4 +1,3 @@
-using Core;
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
@@ -27,8 +26,7 @@ public static class GoogleSetup
 		GoogleCredentials credentials
 	)
 	{
-		var tokenStorePath = PathResolver.GetStatePath("google-auth");
-		FileDataStore dataStore = new(tokenStorePath, fullPath: true);
+		FileDataStore dataStore = new("Toolbox");
 		using CancellationTokenSource authCts = new(TimeSpan.FromMinutes(5));
 
 		UserCredential credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
@@ -69,7 +67,7 @@ public static class GoogleSetup
 			services.AddSingleton<YouTubeDuplicateMerger>();
 			services.AddSingleton<YouTubeSyncProcessor>();
 			services.AddSingleton<YouTubePlaylistOrchestrator>();
-			services.AddSingleton<DashboardService>();
+			services.AddDashboardServices();
 
 			return services;
 		}

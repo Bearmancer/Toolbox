@@ -120,7 +120,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		Telemetry.Debug(
 			"Saracon.ConvertStart input={Input} outputDir={OutputDir} format={Format} rate={Rate} bitDepth={BitDepth} gain={Gain}dB",
 			Path.GetFileName(inputDff),
-			LogPaths.Format(outputDir),
+			Path.GetFileName(outputDir),
 			extension,
 			sampleRate,
 			bitDepth,
@@ -135,35 +135,28 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			args,
 			ct,
 			timeout: DefaultTimeout,
-			onOutputLine: onOutputLine,
-			completionPattern: "100%",
-			completionTimeout: TimeSpan.FromSeconds(10)
+			onOutputLine: onOutputLine
 		);
 
 		if (result.IsError)
 		{
 			Telemetry.Error(
 				"Saracon.ConversionFailed input={Input} error={Error}",
-				LogPaths.Format(inputDff),
+				Path.GetFileName(inputDff),
 				result.Errors[0].Description
 			);
 			return result.Errors;
 		}
 
-		var markerKill =
-			result.Value.TerminationReason == TerminationReason.KilledAfterCompletionMarker;
 		if (
-			!markerKill
-			&& (
-				result.Value.TerminationReason != TerminationReason.Exited
-				|| result.Value.ExitCode != 0
-			)
+			result.Value.TerminationReason != TerminationReason.Exited
+			|| result.Value.ExitCode != 0
 		)
 		{
 			var stderr = result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)];
 			Telemetry.Error(
 				"Saracon.ConversionFailed input={Input} reason={Reason} exitCode={ExitCode} stderr={Stderr}",
-				LogPaths.Format(inputDff),
+				Path.GetFileName(inputDff),
 				result.Value.TerminationReason,
 				result.Value.ExitCode,
 				stderr
@@ -192,7 +185,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			{
 				Telemetry.Error(
 					"Saracon.OutputNotFound input={Input} tried={Tried1},{Tried2}",
-					LogPaths.Format(inputDff),
+					Path.GetFileName(inputDff),
 					Path.GetFileName(expectedOutput),
 					Path.GetFileName(d2pOutput)
 				);
@@ -208,7 +201,7 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 		{
 			Telemetry.Error(
 				"Saracon.OutputInvalid input={Input} output={Output} format={Format}",
-				LogPaths.Format(inputDff),
+				Path.GetFileName(inputDff),
 				Path.GetFileName(expectedOutput),
 				extension
 			);

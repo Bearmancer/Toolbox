@@ -27,12 +27,6 @@ public static class Errors
 		public static Error RateLimitExceeded =>
 			Error.Failure("YT.RateLimit", "YouTube API rate limit exceeded. Retrying...");
 
-		public static Error PlaylistNotFound(string id) =>
-			Error.NotFound("YT.PlaylistNotFound", $"Playlist {id} was not found on YouTube.");
-
-		public static Error VideoNotFound(string id) =>
-			Error.NotFound("YT.VideoNotFound", $"Video {id} was not found on YouTube.");
-
 		public static Error ApiError(string message) => Error.Failure("YT.ApiError", message);
 
 		public static Error QuotaExceeded(string message) =>
@@ -46,9 +40,6 @@ public static class Errors
 
 		public static Error RateLimitExceeded =>
 			Error.Failure("Azure.RateLimit", "Azure API rate limit exceeded.");
-
-		public static Error ServiceUnavailable(string service) =>
-			Error.Failure($"Azure.{service}Unavailable", $"{service} is currently unavailable.");
 	}
 
 	public static class LastFm

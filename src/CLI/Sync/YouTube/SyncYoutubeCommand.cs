@@ -1,7 +1,7 @@
 using System.ComponentModel;
-using CLI.Dashboard;
 using Core;
 using ErrorOr;
+using Services.Google.Dashboard;
 using Services.Google.YouTube;
 using Spectre.Console.Cli;
 
@@ -28,11 +28,11 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 	{
 		try
 		{
-			using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);
+			using IDisposable scope = Telemetry.ForService(ServiceName.YouTube);
 
 			if (!string.IsNullOrEmpty(s.Playlist))
 			{
-				var id = s.NoSort
+				_ = s.NoSort
 					? await orchestrator.ExecuteForPlaylistTitleAsync(
 						s.Playlist,
 						s.NoTranslate,
@@ -46,9 +46,14 @@ public class SyncYoutubeCommand(YouTubePlaylistOrchestrator orchestrator)
 			}
 			else
 			{
-				IReadOnlyList<string> syncedIds = s.NoSort
-					? await orchestrator.ExecuteAsync(s.NoTranslate, cancellationToken)
-					: await orchestrator.ExecuteWithSortAsync(s.NoTranslate, cancellationToken);
+				if (s.NoSort)
+				{
+					_ = await orchestrator.ExecuteAsync(s.NoTranslate, cancellationToken);
+				}
+				else
+				{
+					_ = await orchestrator.ExecuteWithSortAsync(s.NoTranslate, cancellationToken);
+				}
 			}
 
 			await RegenerateDashboardAsync(cancellationToken);
