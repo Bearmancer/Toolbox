@@ -137,26 +137,28 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 					limit,
 					ct
 				);
-				return result.IsError
-					? result.FirstError
-					: (result.Value.Scrobbles, result.Value.TotalPages);
-			}
-			catch (LastFmApiException ex) when (ex.ErrorType == LastFmErrorType.Retryable)
-			{
-				TimeSpan waitTime = ex.RetryAfter ?? delay;
-				Telemetry.Warn(
-					"Last.fm API attempt {Attempt} failed: {Error}. Retrying in {Delay}s",
-					attempt,
-					ex.Message,
-					waitTime.TotalSeconds
-				);
-				await Task.Delay(waitTime, ct);
-				delay *= 2;
-			}
-			catch (LastFmApiException ex)
-			{
-				Telemetry.Error("Last.fm API error {Code}: {Error}", ex.ErrorCode, ex.Message);
-				return Errors.LastFm.ApiError(ex.Message);
+				if (result.IsError)
+				{
+					Error err = result.FirstError;
+					var isRetryable = err.NumericType is 429 or 503;
+					if (isRetryable && attempt < maxRetries)
+					{
+						TimeSpan waitTime = err.NumericType == 429
+							? TimeSpan.Parse(err.Description.Split("Retry-After: ")[1].TrimEnd('s'))
+							: delay;
+						Telemetry.Warn(
+							"Last.fm API attempt {Attempt} failed: {Error}. Retrying in {Delay}s",
+							attempt,
+							err.Description,
+							waitTime.TotalSeconds
+						);
+						await Task.Delay(waitTime, ct);
+						delay *= 2;
+						continue;
+					}
+					return err;
+				}
+				return (result.Value.Scrobbles, result.Value.TotalPages);
 			}
 			catch (HttpRequestException ex)
 			{

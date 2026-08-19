@@ -57,6 +57,12 @@ public static class Errors
 			Error.NotFound("Lfm.UserNotFound", $"Last.fm user {user} not found.");
 
 		public static Error ApiError(string message) => Error.Failure("Lfm.ApiError", message);
+
+		public static Error RateLimited(TimeSpan retryAfter) =>
+			Error.Custom(429, "LastFm.RateLimited", $"Rate limited. Retry-After: {retryAfter.TotalSeconds}s");
+
+		public static Error Retryable(int code, string message) =>
+			Error.Custom(503, "LastFm.Retryable", $"[{code}] {message}");
 	}
 
 	public static class DocIntel
@@ -163,10 +169,10 @@ public static class Errors
 	public static class Pristine
 	{
 		public static Error MissingBaseOutDir =>
-			Error.Validation("Pristine.MissingBaseOutDir", "PRISTINE_BASE_OUT_DIR not set");
+			Error.Validation("Pristine.MissingBaseOutDir", "Output dir unavailable");
 
 		public static Error AuthMissing =>
-			Error.NotFound("Pristine.AuthMissing", "No session at state/pristine/auth.json — run pristine login first");
+			Error.NotFound("Pristine.AuthMissing", "No session at state/auth/pristine/auth.json — run pristine login first");
 
 		public static Error BrowserFailed(string reason) =>
 			Error.Failure("Pristine.BrowserFailed", $"Browser failed: {reason}");
@@ -182,5 +188,11 @@ public static class Errors
 
 		public static Error AlbumNotFound(string code) =>
 			Error.NotFound("Pristine.AlbumNotFound", $"Album not found: {code}");
+
+		public static Error TracklistParseFailed(string reason) =>
+			Error.Failure("Pristine.TracklistParseFailed", $"Tracklist parse failed: {reason}");
+
+		public static Error No16BitFlac(string code, string candidates) =>
+			Error.Failure("Pristine.No16BitFlac", $"No 16-bit FLAC candidate for {code}. Available: {candidates}");
 	}
 }

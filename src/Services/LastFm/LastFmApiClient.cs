@@ -64,12 +64,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 		if (response.StatusCode == HttpStatusCode.TooManyRequests)
 		{
 			TimeSpan retryAfter = response.Headers.RetryAfter?.Delta ?? TimeSpan.FromSeconds(5);
-			throw new LastFmApiException(
-				29,
-				$"Rate limited. Retry-After: {retryAfter.TotalSeconds}s",
-				LastFmErrorType.Retryable,
-				retryAfter
-			);
+			return Errors.LastFm.RateLimited(retryAfter);
 		}
 
 		response.EnsureSuccessStatusCode();
@@ -103,7 +98,7 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 			LastFmErrorType errorType = ClassifyError(errorCode);
 
 			return errorType is not LastFmErrorType.Permanent
-				? throw new LastFmApiException(errorCode, errorMessage, errorType)
+				? Errors.LastFm.Retryable(errorCode, errorMessage)
 				: Errors.LastFm.ApiError(errorMessage);
 		}
 
