@@ -11,5 +11,6 @@
 		<ProjectReference Include="..\Services\Google\Google.csproj" />
 		<ProjectReference Include="..\Services\LastFm\LastFm.csproj" />
 		<ProjectReference Include="..\Services\Audio\Audio.csproj" />
+		<ProjectReference Include="..\Services\Pristine\Pristine.csproj" />
 	</ItemGroup>
 </Project>

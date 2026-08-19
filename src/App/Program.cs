@@ -4,6 +4,7 @@ using CLI;
 using CLI.Audio;
 using CLI.Azure;
 using CLI.Dashboard;
+using CLI.Pristine;
 using CLI.Sync;
 using Core;
 using DotNetEnv;
@@ -13,6 +14,7 @@ using Services.Audio;
 using Services.Azure;
 using Services.Google;
 using Services.LastFm;
+using Services.Pristine;
 using Spectre.Console.Cli;
 
 namespace App;
@@ -81,6 +83,7 @@ internal static class Program
 				services.AddLastFmServices();
 			}
 			services.AddAudioServices();
+			services.AddPristineServices();
 		}
 		catch (InvalidOperationException ex)
 		{
@@ -110,6 +113,7 @@ internal static class Program
 			SyncCommandModule.ConfigureCommands(cfg);
 			DashboardCommandModule.ConfigureCommands(cfg);
 			AudioCommandModule.ConfigureCommands(cfg);
+			PristineCommandModule.ConfigureCommands(cfg);
 		});
 
 		using CancellationTokenSource appCts = new();
