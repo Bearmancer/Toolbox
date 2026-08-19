@@ -159,4 +159,28 @@ public static class Errors
 		public static Error StripFailed(string file, string reason) =>
 			Error.Failure("Audio.StripFailed", $"DFF metadata strip failed for {file}: {reason}");
 	}
+
+	public static class Pristine
+	{
+		public static Error MissingBaseOutDir =>
+			Error.Validation("Pristine.MissingBaseOutDir", "PRISTINE_BASE_OUT_DIR not set");
+
+		public static Error AuthMissing =>
+			Error.NotFound("Pristine.AuthMissing", "No session at state/pristine/auth.json — run pristine login first");
+
+		public static Error BrowserFailed(string reason) =>
+			Error.Failure("Pristine.BrowserFailed", $"Browser failed: {reason}");
+
+		public static Error LoginTimeout =>
+			Error.Failure("Pristine.LoginTimeout", "Login not completed within timeout");
+
+		public static Error ResolveFailed(string code) =>
+			Error.NotFound("Pristine.ResolveFailed", $"Could not resolve {code}");
+
+		public static Error DownloadFailed(string file, string reason) =>
+			Error.Failure("Pristine.DownloadFailed", $"Download failed {file}: {reason}");
+
+		public static Error AlbumNotFound(string code) =>
+			Error.NotFound("Pristine.AlbumNotFound", $"Album not found: {code}");
+	}
 }
