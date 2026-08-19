@@ -16,24 +16,29 @@ Add five MCP server entries to `~/.config/opencode/opencode.jsonc` under the `"m
 **IMPORTANT:** Before committing to the .exe command names, run `uv tool run --from <package>@latest <package>.exe --help` to verify the entry point exists.
 
 **Must NOT:**
+
 - Modify existing MCP entries
 - Add `"autoApprove"` or `"disabled"` keys
 - Hardcode AWS credentials or profile names
 
 **References:**
+
 - `~/.config/opencode/opencode.jsonc:13-70`
 
 **Acceptance criteria:**
+
 - opencode.jsonc is valid JSON (parseable)
 - All five entries present
 - `uv --version` returns successfully
 
 **QA:**
+
 ```bash
 uv --version
 # Verify opencode.jsonc is valid JSON
 Get-Content ~/.config/opencode/opencode.jsonc | ConvertFrom-Json | Out-Null
 ```
+
 Expected: No errors
 
 **Commit:** `feat(config): add AWS MCP servers to opencode`
@@ -47,32 +52,39 @@ Execute the translation test:
 
 **Primary (MCP):**
 Ask the assistant to use the `amazon-translate` MCP `translate_text` tool:
+
 - `text="Jahan Teri Yeh Nazar Hai Mujhe Hai Jaan Mujhe Khabar Hai"`
 - `source_language="auto"`
 - `target_language="de"`
 
 **Fallback (CLI):**
+
 ```bash
 dotnet run --project src/App -- aws translate "Jahan Teri Yeh Nazar Hai Mujhe Hai Jaan Mujhe Khabar Hai" --to de
 ```
 
 **Must NOT:**
+
 - Skip verification
 - Assert the exact translation
 
 **References:**
+
 - `src/CLI/Azure/TranslateCommand.cs:14-19`
 
 **Acceptance criteria:**
+
 - German text is printed to stdout
 - The detected language is Hindi or "auto"
 - No exception is thrown
 
 **QA:**
+
 ```bash
 $env:AWS_REGION="us-east-1"
 dotnet run --project src/App -- aws translate "Jahan Teri Yeh Nazar Hai Mujhe Hai Jaan Mujhe Khabar Hai" --to de
 ```
+
 Expected: German output appears (contains umlauts or common German words)
 
 **Commit:** N/A (test only, no commit needed)

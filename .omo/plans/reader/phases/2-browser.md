@@ -50,16 +50,20 @@ public sealed class BrowserSetup
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add BrowserSetup with Patchright`
@@ -118,16 +122,20 @@ public sealed class GhostNoise
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add GhostNoise anti-detection`
@@ -186,17 +194,21 @@ private enum CaptchaType { Nsl, Capsolver }
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 - Separate CaptchaType enum into its own file (private to this file)
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add CaptchaSolver with NSL + CapSolver`
@@ -241,16 +253,20 @@ public sealed class AnubisPowSolver
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add AnubisPowSolver SHA256 proof-of-work`

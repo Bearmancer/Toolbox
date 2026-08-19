@@ -194,19 +194,20 @@
 )
 
 public static PlaylistSnapshot SelectWinner(
-    IReadOnlyList&lt;PlaylistSnapshot&gt; group
+IReadOnlyList&lt;PlaylistSnapshot&gt; group
 )
 
 public static TransferCandidateSet GetTransferCandidates(
-    IReadOnlySet&lt;string&gt; winnerVideoIds,
-    IReadOnlyList&lt;PlaylistItem&gt; loserItems
+IReadOnlySet&lt;string&gt; winnerVideoIds,
+IReadOnlyList&lt;PlaylistItem&gt; loserItems
 )
 
 public static bool ContainsAll(
-    IReadOnlySet&lt;string&gt; winnerVideoIds,
-    IReadOnlySet&lt;string&gt; sourceVideoIds
+IReadOnlySet&lt;string&gt; winnerVideoIds,
+IReadOnlySet&lt;string&gt; sourceVideoIds
 )
 </span></code></pre>
+
 <p><code>DuplicatePlaylistGroup</code> is <code>record struct DuplicatePlaylistGroup(string Key, IReadOnlyList&lt;PlaylistSnapshot&gt; Playlists)</code>. <code>TransferCandidateSet</code> is <code>record struct TransferCandidateSet(IReadOnlyList&lt;string&gt; MissingVideoIds, bool HasInvalidItems)</code>.</p>
 <p><strong>Policy steps:</strong></p>
 <ul>

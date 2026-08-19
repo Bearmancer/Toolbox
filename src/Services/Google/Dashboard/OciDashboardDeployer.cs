@@ -10,22 +10,7 @@ public static class OciDashboardDeployer
 
 	public static async Task DeployAsync(string dashboardDir, CancellationToken ct)
 	{
-		PrivateKeyFile key;
-		try
-		{
-			key = new(OciConfig.KeyPath);
-		}
-		catch (Exception ex)
-		{
-			Telemetry.Warn(
-				"OCI deploy: key not found at {Path} — {Error}",
-				OciConfig.KeyPath,
-				ex.Message
-			);
-			return;
-		}
-
-		PrivateKeyAuthenticationMethod auth = new(OciConfig.User, key);
+		NoneAuthenticationMethod auth = new(OciConfig.User);
 		ConnectionInfo connInfo = new(OciConfig.Host, OciConfig.User, auth);
 
 		var htmlFile = Path.Combine(dashboardDir, "dashboard.html");

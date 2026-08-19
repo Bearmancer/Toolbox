@@ -1,687 +1,687 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "jHZPyzU-bK0",
-			"VideoPublishedAtRaw": "2017-06-04T07:28:11Z",
-			"VideoPublishedAtDateTimeOffset": "2017-06-04T07:28:11+00:00",
-			"VideoPublishedAt": "2017-06-04T12:58:11+05:30"
-		},
-		"ETag": "y-OR01F3PDVFDU-rZ1zwLGHNEDc",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Boris Parsadanian (1925-1997) (Armenia/Estonia)\nSymphony No. 4 (1966)\nDir : Roman Matsov\n\n1-   ?   (7.17)\n2-   ?   (5.38)\n3-   ?   (6.07)\n4-   ?   (7.47)\n\nLIST OF UPLOADS OF COLLECTIONCB, COLLECTIONCB2, COLLECTIONCB3, COLLECTIONCB4 \nand\nIDEAL \u0022DISCOTHEQUE\u0022 OF MORE THAN 1,600 ORCHESTRAL WORKS OF FEELINGS :\nhttp://www.corentinboissier.net/",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 0,
-			"PublishedAtRaw": "2025-05-20T15:55:34Z",
-			"PublishedAtDateTimeOffset": "2025-05-20T15:55:34+00:00",
-			"PublishedAt": "2025-05-20T21:25:34+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "jHZPyzU-bK0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/jHZPyzU-bK0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/jHZPyzU-bK0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/jHZPyzU-bK0/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Boris Parsadanian (1925-1997) : Symphony No. 4 (1966)",
-			"VideoOwnerChannelId": "UCgNSwFFZzFhuVyW1n89I-XQ",
-			"VideoOwnerChannelTitle": "collectionCB4"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "IMQbdYxRgSE",
-			"VideoPublishedAtRaw": "2017-06-18T06:59:03Z",
-			"VideoPublishedAtDateTimeOffset": "2017-06-18T06:59:03+00:00",
-			"VideoPublishedAt": "2017-06-18T12:29:03+05:30"
-		},
-		"ETag": "UviSnW7nrJzKK-y8zc2OMcqc6BI",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Boris Parsadanian (1925-1997) (Armenia/Estonia)\nSymphony No. 6 for violin and orchestra (1978)\nViolinist : ?\nDir : Peter Lilje\n\n1-   ?   (11.27)\n2-   ?   (8.28)\n \nLIST OF UPLOADS OF COLLECTIONCB, COLLECTIONCB2, COLLECTIONCB3, COLLECTIONCB4 \nand\nIDEAL \u0022DISCOTHEQUE\u0022 OF MORE THAN 1,600 ORCHESTRAL WORKS OF FEELINGS :\nhttp://www.corentinboissier.net/",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 1,
-			"PublishedAtRaw": "2025-06-06T21:34:21Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:34:21+00:00",
-			"PublishedAt": "2025-06-07T03:04:21+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "IMQbdYxRgSE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/IMQbdYxRgSE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/IMQbdYxRgSE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/IMQbdYxRgSE/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Boris Parsadanian (1925-1997) : Symphony No. 6 for violin and orchestra (1978)",
-			"VideoOwnerChannelId": "UCgNSwFFZzFhuVyW1n89I-XQ",
-			"VideoOwnerChannelTitle": "collectionCB4"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "gYu9owxbWXA",
-			"VideoPublishedAtRaw": "2024-10-09T00:08:34Z",
-			"VideoPublishedAtDateTimeOffset": "2024-10-09T00:08:34+00:00",
-			"VideoPublishedAt": "2024-10-09T05:38:34+05:30"
-		},
-		"ETag": "a_wfyr7Otq-PW2HkrFTcUKaL_6g",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Boris Tishchenko (1939-2010)\n\nThe Stolen Sun, one-act opera based on the eponymous fairy tale by Korney Chukovsky Op. 40 (1968)\n\nLibretto by Z. Korogodsky, M. Byalik and B. Tishchenko\n\nThis work is the second part of a triptych based on the fairy tales of K. I. Chukovsky. The first part is the ballet \u0027The Tsokotukha Fly\u0027 and the third part is the operetta \u0027The Cockroach\u0027.\n\nPerformers, location and year of recording : unknown",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 2,
-			"PublishedAtRaw": "2025-05-20T15:51:18Z",
-			"PublishedAtDateTimeOffset": "2025-05-20T15:51:18+00:00",
-			"PublishedAt": "2025-05-20T21:21:18+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "gYu9owxbWXA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/gYu9owxbWXA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/gYu9owxbWXA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/gYu9owxbWXA/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/gYu9owxbWXA/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/gYu9owxbWXA/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Boris Tishchenko The Stolen Sun Op. 40 (1968)",
-			"VideoOwnerChannelId": "UCiiwDAaid5bne2TNJVNO0xQ",
-			"VideoOwnerChannelTitle": "Anastasia Vinogradova | composer"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "_bwLzmfRfuQ",
-			"VideoPublishedAtRaw": "2023-08-14T19:48:25Z",
-			"VideoPublishedAtDateTimeOffset": "2023-08-14T19:48:25+00:00",
-			"VideoPublishedAt": "2023-08-15T01:18:25+05:30"
-		},
-		"ETag": "Jaj-jkBt0zAUFJ11YBQcIwVz-Ps",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "The Orchestra Now (T\u014CN), conducted by Leon Botstein, performs Boris Tishchenko\u0027s Symphony No. 5 in a livestreamed concert from the Fisher Center at Bard on April 30, 2023.\nhttps://ton.bard.edu\n\n0:34 Prelude\n9:20 Dedication\n16:03 Sonata\n23:09 Interlude\n32:27 Rondo\n\nBoris Tishchenko\nBorn 3/23/1939 in Leningrad\nDied 12/9/2010 at age 71 in St. Petersburg\n\nWritten 1976, at age 37\n\nConcert notes by T\u014CN cellist Emma Churchill at https://ton.bard.edu/boris-tishchenkos-symphony-no-5.",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 3,
-			"PublishedAtRaw": "2025-05-20T15:51:30Z",
-			"PublishedAtDateTimeOffset": "2025-05-20T15:51:30+00:00",
-			"PublishedAt": "2025-05-20T21:21:30+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "_bwLzmfRfuQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Boris Tishchenko: Symphony No. 5 | The Orchestra Now",
-			"VideoOwnerChannelId": "UC00JUGg1AJiW8lM3d8C29tQ",
-			"VideoOwnerChannelTitle": "The Orchestra Now"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "q852nEpYJAo",
-			"VideoPublishedAtRaw": "2025-05-13T12:22:11Z",
-			"VideoPublishedAtDateTimeOffset": "2025-05-13T12:22:11+00:00",
-			"VideoPublishedAt": "2025-05-13T17:52:11+05:30"
-		},
-		"ETag": "_Ryey94nTJgskFm2Gs2hhmwuAIY",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Think for yourself. Subscribe to The Free Press today: https://thefp.pub/4j10S2T\n\nThe majority of people listening to this episode are hearing it on an iPhone. As most of us can attest, the iPhone is so central to our lives that if we lose it, we feel totally unmoored from our ability to function in the world.\n\nIt\u2019s hard to explain how ubiquitous the iPhone is\u2014and how much of a behemoth Apple is. Apple sells over 60 million iPhones in the U.S. a year, and one plant can make as many as 500,000 iPhones per day. And in 2024, the company brought in a total revenue of $391 billion.\n\nThe rise of Apple and the iPhone did not happen by accident. The fact that we all walk around with the most sophisticated technology in our pockets\u2014at a cost of about a thousand dollars each\u2014is the result of two forces: Tim Cook, the CEO of Apple, and China, our largest geostrategic and economic rival.\n\nFew people are more prepared to discuss the symbiotic relationship between Apple and Communist China than Patrick McGee, a longtime business journalist who has covered Apple for the Financial Times. McGee is the author of Apple in China: The Capture of the World\u2019s Greatest Company.\n\nAnd Patrick makes the case that Apple became the world\u2019s most valuable company by wedding itself\u2014and its future\u2014to an authoritarian state. As the president and others talk about decoupling from the country, Apple\u2019s exposure in China isn\u2019t just a liability for the company\u2014it\u2019s a liability to our national security, our own workforce, and our future.",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 4,
-			"PublishedAtRaw": "2025-05-25T14:13:21Z",
-			"PublishedAtDateTimeOffset": "2025-05-25T14:13:21+00:00",
-			"PublishedAt": "2025-05-25T19:43:21+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "q852nEpYJAo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/q852nEpYJAo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/q852nEpYJAo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/q852nEpYJAo/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/q852nEpYJAo/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/q852nEpYJAo/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "How Apple Sold Its Soul to an Authoritarian Regime | Patrick McGee",
-			"VideoOwnerChannelId": "UCSRRURbKlPf1HwPUhjmufTg",
-			"VideoOwnerChannelTitle": "The Free Press"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "9gwHkniDc4A",
-			"VideoPublishedAtRaw": "2014-04-24T13:57:44Z",
-			"VideoPublishedAtDateTimeOffset": "2014-04-24T13:57:44+00:00",
-			"VideoPublishedAt": "2014-04-24T19:27:44+05:30"
-		},
-		"ETag": "9YaBEjQ4K6y3ezleEH4OF1luTWI",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "http://www.nosyrev.com - composer\u0027s site",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 5,
-			"PublishedAtRaw": "2025-05-20T15:52:47Z",
-			"PublishedAtDateTimeOffset": "2025-05-20T15:52:47+00:00",
-			"PublishedAt": "2025-05-20T21:22:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "9gwHkniDc4A"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/9gwHkniDc4A/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/9gwHkniDc4A/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/9gwHkniDc4A/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/9gwHkniDc4A/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/9gwHkniDc4A/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "M. Nosyrev  Symphony No.1",
-			"VideoOwnerChannelId": "UCxgkFgCh0L8aMwH22meHjrQ",
-			"VideoOwnerChannelTitle": "composerNosyrev"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Fdvsd1n0cds",
-			"VideoPublishedAtRaw": "2017-09-01T13:51:24Z",
-			"VideoPublishedAtDateTimeOffset": "2017-09-01T13:51:24+00:00",
-			"VideoPublishedAt": "2017-09-01T19:21:24+05:30"
-		},
-		"ETag": "PZF1-2VpFY_I3hKOiq0icFSPbzE",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Meyer Kupferman (1926-2003): Fourth Symphony (1955) --- The Louisville Orchestra diretta da Robert Whitney --\n\nI. Lento misterioso\nII. Allegro con brio [5:21]\nIII. Largo [12:53]\n\n--- cover image by Emil Nolde ---\n\nThe music published in our channel is exclusively dedicated to divulgation purposes and not commercial. This within a program shared to study classic educational music of the 1900\u0027s (mostly Italian) which involves thousands of people around the world. If someone, for any reason, would deem that a video appearing in this channel violates the copyright, please inform us immediately before you submit a claim to Youtube, and it will be our care to remove immediately the video accordingly. Your collaboration will be appreciated.",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 6,
-			"PublishedAtRaw": "2025-06-06T21:33:54Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:33:54+00:00",
-			"PublishedAt": "2025-06-07T03:03:54+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Fdvsd1n0cds"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Meyer Kupferman: Fourth Symphony (1955)",
-			"VideoOwnerChannelId": "UCJZSLgt6I9Y67TGWNr9DEjA",
-			"VideoOwnerChannelTitle": "Wellesz Rhapsody"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "2YpZNcWfJRw",
-			"VideoPublishedAtRaw": "2022-12-05T22:33:39Z",
-			"VideoPublishedAtDateTimeOffset": "2022-12-05T22:33:39+00:00",
-			"VideoPublishedAt": "2022-12-06T04:03:39+05:30"
-		},
-		"ETag": "SfjO7B4NP2LfbJR6KOZX3s1MCic",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Mikhail Nosyrev (1924, Leningrad - 1981, Voronezh) was a Russian composer.\n\nSymphony N\u00BA2 (1977)\nDedicated to Dmitri Shostakovich\n\nI. Allegro moderato resoluto - Andante :  00:00\nII. Vivo :  11:34\nIII. Andante :  17:19\nIV. Allegro - Adagio :  26:18\n\nSt. Petersburg Academic Symphony Orchestra\nVladimir Verbitsky\n\nMore information :  http://www.historiadelasinfonia.es/naciones/la-sinfonia-en-rusia/los-compositores-mas-notables-2/nosyrev/\n\nImage :  Ina Hoekstra on Pixabay",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 7,
-			"PublishedAtRaw": "2025-05-20T15:52:33Z",
-			"PublishedAtDateTimeOffset": "2025-05-20T15:52:33+00:00",
-			"PublishedAt": "2025-05-20T21:22:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "2YpZNcWfJRw"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mikhail Nosyrev (1924-1981) : Symphony N\u00BA2 (1977)",
-			"VideoOwnerChannelId": "UCPfJe8fU94SE8CjtKOf-zxQ",
-			"VideoOwnerChannelTitle": "Jos\u00E9 Ignacio H."
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "K2qwiuMpj50",
-			"VideoPublishedAtRaw": "2023-03-22T12:42:11Z",
-			"VideoPublishedAtDateTimeOffset": "2023-03-22T12:42:11+00:00",
-			"VideoPublishedAt": "2023-03-22T18:12:11+05:30"
-		},
-		"ETag": "hcMgI60FuBX5PpoTSt-AWRQe4T8",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Mikhail Nosyrev (1924, Leningrad - 1981, Voronezh) was a Russian composer.\n\nSymphony N\u00BA3 (1978)\n\n\nI. Adagio non troppo, oscuro - Presto - Andante flebile :  00:00\nII. Andante ma non troppo :  15:15\nIII. Allegro :  24:25\n\n\nSt. Petersburg Academic Symphony Orchestra\nVladimir Verbitsky\n\nMore information :  http://www.historiadelasinfonia.es/naciones/la-sinfonia-en-rusia/los-compositores-mas-notables-2/nosyrev/\n\nImage : Joe  on Pixabay",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 8,
-			"PublishedAtRaw": "2025-05-20T15:52:28Z",
-			"PublishedAtDateTimeOffset": "2025-05-20T15:52:28+00:00",
-			"PublishedAt": "2025-05-20T21:22:28+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "K2qwiuMpj50"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/K2qwiuMpj50/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/K2qwiuMpj50/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/K2qwiuMpj50/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Mikhail Nosyrev (1924-1981) : Symphony N\u00BA3 (1978)",
-			"VideoOwnerChannelId": "UCPfJe8fU94SE8CjtKOf-zxQ",
-			"VideoOwnerChannelTitle": "Jos\u00E9 Ignacio H."
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "puUV86sJ0Ig",
-			"VideoPublishedAtRaw": "2021-04-13T20:13:15Z",
-			"VideoPublishedAtDateTimeOffset": "2021-04-13T20:13:15+00:00",
-			"VideoPublishedAt": "2021-04-14T01:43:15+05:30"
-		},
-		"ETag": "dK_l_qGNxJiC-Wz7fa-ILIaXQTQ",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Nikolai Karetnikov / \u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u041A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432 (1930\u20131994)\nSymphony No.3 / \u0421\u0438\u043C\u0444\u043E\u043D\u0438\u044F \u21163\n\u041E\u0440.10, 1959\nSoviet Radio Symphony Orchestra, conductor \u2014 Eri Klas. 1971. First performance. Archive recording premiere. / \u0421\u0438\u043C\u0444\u043E\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043E\u0440\u043A\u0435\u0441\u0442\u0440 \u0432\u0441\u0435\u0441\u043E\u044E\u0437\u043D\u043E\u0433\u043E \u0440\u0430\u0434\u0438\u043E, \u0434\u0438\u0440\u0438\u0436\u0435\u0440 \u2014 \u042D\u0440\u0438 \u041A\u043B\u0430\u0430\u0441, 1971. \u041F\u0435\u0440\u0432\u043E\u0435 \u0438\u0441\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435. \u0410\u0440\u0445\u0438\u0432\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C, \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u043D\u043E \u0432\u043F\u0435\u0440\u0432\u044B\u0435.\n\n00:00 \u2015 I. Allegro energico, sempre molto espressivo\n09:07 \u2015 II. Scherzo\n12:59 \u2015 III. Lento\n\n\n#\u043A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432 #\u043A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043E\u0440 #\u0425\u0425\u0432\u0435\u043A #\u043D\u0438\u043A\u043E\u043B\u0430\u0439\u043A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432 #\u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044F\u043A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043E\u0440 #\u0441\u0438\u043C\u0444\u043E\u043D\u0438\u044F #\u0432\u0442\u043E\u0440\u043E\u0439\u0430\u0432\u0430\u043D\u0433\u0430\u0440\u0434 #\u043D\u043E\u043D\u043A\u043E\u043D\u0444\u043E\u0440\u043C\u0438\u0437\u043C #\u044D\u0440\u0438\u043A\u043B\u0430\u0441 #eriklas #SovietRadioSymphonyOrchestra #\u043E\u0440\u043A\u0435\u0441\u0442\u0440\u0432\u0441\u0435\u0441\u043E\u044E\u0437\u043D\u043E\u0433\u043E\u0440\u0430\u0434\u0438\u043E",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 9,
-			"PublishedAtRaw": "2025-06-06T21:33:47Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:33:47+00:00",
-			"PublishedAt": "2025-06-07T03:03:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "puUV86sJ0Ig"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/puUV86sJ0Ig/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/puUV86sJ0Ig/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/puUV86sJ0Ig/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Nikolai Karetnikov. Symphony No.3 \u2015 \u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u041A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432. \u0421\u0438\u043C\u0444\u043E\u043D\u0438\u044F \u21163, \u043E\u0440.10, 1959",
-			"VideoOwnerChannelId": "UCkr5_Wqbqjet0-oN2Ketlgw",
-			"VideoOwnerChannelTitle": "\u0424\u043E\u043D\u0434 \u041D\u0438\u043A\u043E\u043B\u0430\u044F \u041A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432\u0430"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "38xpmK7ZvWM",
-			"VideoPublishedAtRaw": "2014-08-12T20:09:48Z",
-			"VideoPublishedAtDateTimeOffset": "2014-08-12T20:09:48+00:00",
-			"VideoPublishedAt": "2014-08-13T01:39:48+05:30"
-		},
-		"ETag": "7sSG9pg55Me8UBMp0mWgdpe4AVo",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-master/id874955423?ls=1\n\nClassical Treasures Master Series - Orchestral Masterpieces, Vol. 67\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 10,
-			"PublishedAtRaw": "2025-06-06T21:31:20Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:31:20+00:00",
-			"PublishedAt": "2025-06-07T03:01:20+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "38xpmK7ZvWM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Symphony No. 2: I. Maestoso \u0022Martyros Saryan\u0022",
-			"VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
-			"VideoOwnerChannelTitle": "Great Music Buyer"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "N6IcY6fe8pQ",
-			"VideoPublishedAtRaw": "2014-08-04T05:51:48Z",
-			"VideoPublishedAtDateTimeOffset": "2014-08-04T05:51:48+00:00",
-			"VideoPublishedAt": "2014-08-04T11:21:48+05:30"
-		},
-		"ETag": "A3jP_aME567cGTZ7BbmHEpsY_qs",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-composer/id890488444?ls=1\n\nClassical Treasures Composer Series: Boris Parsadanian Edition, Vol. 1\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 11,
-			"PublishedAtRaw": "2025-06-06T21:31:33Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:31:33+00:00",
-			"PublishedAt": "2025-06-07T03:01:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "N6IcY6fe8pQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/N6IcY6fe8pQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/N6IcY6fe8pQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/N6IcY6fe8pQ/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Symphony No. 2: II. Intermezzo \u0022Martyros Saryan\u0022",
-			"VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
-			"VideoOwnerChannelTitle": "Great Music Buyer"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "MBKNMhtomyA",
-			"VideoPublishedAtRaw": "2014-08-04T05:55:48Z",
-			"VideoPublishedAtDateTimeOffset": "2014-08-04T05:55:48+00:00",
-			"VideoPublishedAt": "2014-08-04T11:25:48+05:30"
-		},
-		"ETag": "Qtxk5wgV-2ftFPkhxdkO5Q8BdYI",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-composer/id890488444?ls=1\n\nClassical Treasures Composer Series: Boris Parsadanian Edition, Vol. 1\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 12,
-			"PublishedAtRaw": "2025-06-06T21:31:36Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:31:36+00:00",
-			"PublishedAt": "2025-06-07T03:01:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "MBKNMhtomyA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/MBKNMhtomyA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/MBKNMhtomyA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/MBKNMhtomyA/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Symphony No. 2: III. Lento \u0022Martyros Saryan\u0022",
-			"VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
-			"VideoOwnerChannelTitle": "Great Music Buyer"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "taFoa9oFUNs",
-			"VideoPublishedAtRaw": "2014-07-29T01:28:12Z",
-			"VideoPublishedAtDateTimeOffset": "2014-07-29T01:28:12+00:00",
-			"VideoPublishedAt": "2014-07-29T06:58:12+05:30"
-		},
-		"ETag": "yMcGrosbHqNyQsd7q6oGBxwoqDY",
-		"Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-master/id874955423?ls=1\n\nClassical Treasures Master Series - Orchestral Masterpieces, Vol. 67\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
-			"PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
-			"Position": 13,
-			"PublishedAtRaw": "2025-06-06T21:31:40Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:31:40+00:00",
-			"PublishedAt": "2025-06-07T03:01:40+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "taFoa9oFUNs"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/taFoa9oFUNs/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/taFoa9oFUNs/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/taFoa9oFUNs/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Symphony No. 2: IV. Alelgro com fuoco \u0022Martyros Saryan\u0022",
-			"VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
-			"VideoOwnerChannelTitle": "Great Music Buyer"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "jHZPyzU-bK0",
+      "VideoPublishedAtRaw": "2017-06-04T07:28:11Z",
+      "VideoPublishedAtDateTimeOffset": "2017-06-04T07:28:11+00:00",
+      "VideoPublishedAt": "2017-06-04T12:58:11+05:30"
+    },
+    "ETag": "y-OR01F3PDVFDU-rZ1zwLGHNEDc",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Boris Parsadanian (1925-1997) (Armenia/Estonia)\nSymphony No. 4 (1966)\nDir : Roman Matsov\n\n1-   ?   (7.17)\n2-   ?   (5.38)\n3-   ?   (6.07)\n4-   ?   (7.47)\n\nLIST OF UPLOADS OF COLLECTIONCB, COLLECTIONCB2, COLLECTIONCB3, COLLECTIONCB4 \nand\nIDEAL \u0022DISCOTHEQUE\u0022 OF MORE THAN 1,600 ORCHESTRAL WORKS OF FEELINGS :\nhttp://www.corentinboissier.net/",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 0,
+      "PublishedAtRaw": "2025-05-20T15:55:34Z",
+      "PublishedAtDateTimeOffset": "2025-05-20T15:55:34+00:00",
+      "PublishedAt": "2025-05-20T21:25:34+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jHZPyzU-bK0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jHZPyzU-bK0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jHZPyzU-bK0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jHZPyzU-bK0/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Boris Parsadanian (1925-1997) : Symphony No. 4 (1966)",
+      "VideoOwnerChannelId": "UCgNSwFFZzFhuVyW1n89I-XQ",
+      "VideoOwnerChannelTitle": "collectionCB4"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "IMQbdYxRgSE",
+      "VideoPublishedAtRaw": "2017-06-18T06:59:03Z",
+      "VideoPublishedAtDateTimeOffset": "2017-06-18T06:59:03+00:00",
+      "VideoPublishedAt": "2017-06-18T12:29:03+05:30"
+    },
+    "ETag": "UviSnW7nrJzKK-y8zc2OMcqc6BI",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Boris Parsadanian (1925-1997) (Armenia/Estonia)\nSymphony No. 6 for violin and orchestra (1978)\nViolinist : ?\nDir : Peter Lilje\n\n1-   ?   (11.27)\n2-   ?   (8.28)\n \nLIST OF UPLOADS OF COLLECTIONCB, COLLECTIONCB2, COLLECTIONCB3, COLLECTIONCB4 \nand\nIDEAL \u0022DISCOTHEQUE\u0022 OF MORE THAN 1,600 ORCHESTRAL WORKS OF FEELINGS :\nhttp://www.corentinboissier.net/",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 1,
+      "PublishedAtRaw": "2025-06-06T21:34:21Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:34:21+00:00",
+      "PublishedAt": "2025-06-07T03:04:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "IMQbdYxRgSE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/IMQbdYxRgSE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/IMQbdYxRgSE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/IMQbdYxRgSE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Boris Parsadanian (1925-1997) : Symphony No. 6 for violin and orchestra (1978)",
+      "VideoOwnerChannelId": "UCgNSwFFZzFhuVyW1n89I-XQ",
+      "VideoOwnerChannelTitle": "collectionCB4"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "gYu9owxbWXA",
+      "VideoPublishedAtRaw": "2024-10-09T00:08:34Z",
+      "VideoPublishedAtDateTimeOffset": "2024-10-09T00:08:34+00:00",
+      "VideoPublishedAt": "2024-10-09T05:38:34+05:30"
+    },
+    "ETag": "a_wfyr7Otq-PW2HkrFTcUKaL_6g",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Boris Tishchenko (1939-2010)\n\nThe Stolen Sun, one-act opera based on the eponymous fairy tale by Korney Chukovsky Op. 40 (1968)\n\nLibretto by Z. Korogodsky, M. Byalik and B. Tishchenko\n\nThis work is the second part of a triptych based on the fairy tales of K. I. Chukovsky. The first part is the ballet \u0027The Tsokotukha Fly\u0027 and the third part is the operetta \u0027The Cockroach\u0027.\n\nPerformers, location and year of recording : unknown",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 2,
+      "PublishedAtRaw": "2025-05-20T15:51:18Z",
+      "PublishedAtDateTimeOffset": "2025-05-20T15:51:18+00:00",
+      "PublishedAt": "2025-05-20T21:21:18+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "gYu9owxbWXA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/gYu9owxbWXA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/gYu9owxbWXA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/gYu9owxbWXA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/gYu9owxbWXA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/gYu9owxbWXA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Boris Tishchenko The Stolen Sun Op. 40 (1968)",
+      "VideoOwnerChannelId": "UCiiwDAaid5bne2TNJVNO0xQ",
+      "VideoOwnerChannelTitle": "Anastasia Vinogradova | composer"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "_bwLzmfRfuQ",
+      "VideoPublishedAtRaw": "2023-08-14T19:48:25Z",
+      "VideoPublishedAtDateTimeOffset": "2023-08-14T19:48:25+00:00",
+      "VideoPublishedAt": "2023-08-15T01:18:25+05:30"
+    },
+    "ETag": "Jaj-jkBt0zAUFJ11YBQcIwVz-Ps",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The Orchestra Now (T\u014CN), conducted by Leon Botstein, performs Boris Tishchenko\u0027s Symphony No. 5 in a livestreamed concert from the Fisher Center at Bard on April 30, 2023.\nhttps://ton.bard.edu\n\n0:34 Prelude\n9:20 Dedication\n16:03 Sonata\n23:09 Interlude\n32:27 Rondo\n\nBoris Tishchenko\nBorn 3/23/1939 in Leningrad\nDied 12/9/2010 at age 71 in St. Petersburg\n\nWritten 1976, at age 37\n\nConcert notes by T\u014CN cellist Emma Churchill at https://ton.bard.edu/boris-tishchenkos-symphony-no-5.",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 3,
+      "PublishedAtRaw": "2025-05-20T15:51:30Z",
+      "PublishedAtDateTimeOffset": "2025-05-20T15:51:30+00:00",
+      "PublishedAt": "2025-05-20T21:21:30+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "_bwLzmfRfuQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/_bwLzmfRfuQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Boris Tishchenko: Symphony No. 5 | The Orchestra Now",
+      "VideoOwnerChannelId": "UC00JUGg1AJiW8lM3d8C29tQ",
+      "VideoOwnerChannelTitle": "The Orchestra Now"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "q852nEpYJAo",
+      "VideoPublishedAtRaw": "2025-05-13T12:22:11Z",
+      "VideoPublishedAtDateTimeOffset": "2025-05-13T12:22:11+00:00",
+      "VideoPublishedAt": "2025-05-13T17:52:11+05:30"
+    },
+    "ETag": "_Ryey94nTJgskFm2Gs2hhmwuAIY",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Think for yourself. Subscribe to The Free Press today: https://thefp.pub/4j10S2T\n\nThe majority of people listening to this episode are hearing it on an iPhone. As most of us can attest, the iPhone is so central to our lives that if we lose it, we feel totally unmoored from our ability to function in the world.\n\nIt\u2019s hard to explain how ubiquitous the iPhone is\u2014and how much of a behemoth Apple is. Apple sells over 60 million iPhones in the U.S. a year, and one plant can make as many as 500,000 iPhones per day. And in 2024, the company brought in a total revenue of $391 billion.\n\nThe rise of Apple and the iPhone did not happen by accident. The fact that we all walk around with the most sophisticated technology in our pockets\u2014at a cost of about a thousand dollars each\u2014is the result of two forces: Tim Cook, the CEO of Apple, and China, our largest geostrategic and economic rival.\n\nFew people are more prepared to discuss the symbiotic relationship between Apple and Communist China than Patrick McGee, a longtime business journalist who has covered Apple for the Financial Times. McGee is the author of Apple in China: The Capture of the World\u2019s Greatest Company.\n\nAnd Patrick makes the case that Apple became the world\u2019s most valuable company by wedding itself\u2014and its future\u2014to an authoritarian state. As the president and others talk about decoupling from the country, Apple\u2019s exposure in China isn\u2019t just a liability for the company\u2014it\u2019s a liability to our national security, our own workforce, and our future.",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 4,
+      "PublishedAtRaw": "2025-05-25T14:13:21Z",
+      "PublishedAtDateTimeOffset": "2025-05-25T14:13:21+00:00",
+      "PublishedAt": "2025-05-25T19:43:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "q852nEpYJAo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/q852nEpYJAo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/q852nEpYJAo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/q852nEpYJAo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/q852nEpYJAo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/q852nEpYJAo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "How Apple Sold Its Soul to an Authoritarian Regime | Patrick McGee",
+      "VideoOwnerChannelId": "UCSRRURbKlPf1HwPUhjmufTg",
+      "VideoOwnerChannelTitle": "The Free Press"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "9gwHkniDc4A",
+      "VideoPublishedAtRaw": "2014-04-24T13:57:44Z",
+      "VideoPublishedAtDateTimeOffset": "2014-04-24T13:57:44+00:00",
+      "VideoPublishedAt": "2014-04-24T19:27:44+05:30"
+    },
+    "ETag": "9YaBEjQ4K6y3ezleEH4OF1luTWI",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "http://www.nosyrev.com - composer\u0027s site",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 5,
+      "PublishedAtRaw": "2025-05-20T15:52:47Z",
+      "PublishedAtDateTimeOffset": "2025-05-20T15:52:47+00:00",
+      "PublishedAt": "2025-05-20T21:22:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "9gwHkniDc4A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/9gwHkniDc4A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/9gwHkniDc4A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/9gwHkniDc4A/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/9gwHkniDc4A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/9gwHkniDc4A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "M. Nosyrev  Symphony No.1",
+      "VideoOwnerChannelId": "UCxgkFgCh0L8aMwH22meHjrQ",
+      "VideoOwnerChannelTitle": "composerNosyrev"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Fdvsd1n0cds",
+      "VideoPublishedAtRaw": "2017-09-01T13:51:24Z",
+      "VideoPublishedAtDateTimeOffset": "2017-09-01T13:51:24+00:00",
+      "VideoPublishedAt": "2017-09-01T19:21:24+05:30"
+    },
+    "ETag": "PZF1-2VpFY_I3hKOiq0icFSPbzE",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Meyer Kupferman (1926-2003): Fourth Symphony (1955) --- The Louisville Orchestra diretta da Robert Whitney --\n\nI. Lento misterioso\nII. Allegro con brio [5:21]\nIII. Largo [12:53]\n\n--- cover image by Emil Nolde ---\n\nThe music published in our channel is exclusively dedicated to divulgation purposes and not commercial. This within a program shared to study classic educational music of the 1900\u0027s (mostly Italian) which involves thousands of people around the world. If someone, for any reason, would deem that a video appearing in this channel violates the copyright, please inform us immediately before you submit a claim to Youtube, and it will be our care to remove immediately the video accordingly. Your collaboration will be appreciated.",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 6,
+      "PublishedAtRaw": "2025-06-06T21:33:54Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:33:54+00:00",
+      "PublishedAt": "2025-06-07T03:03:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Fdvsd1n0cds"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Fdvsd1n0cds/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Meyer Kupferman: Fourth Symphony (1955)",
+      "VideoOwnerChannelId": "UCJZSLgt6I9Y67TGWNr9DEjA",
+      "VideoOwnerChannelTitle": "Wellesz Rhapsody"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2YpZNcWfJRw",
+      "VideoPublishedAtRaw": "2022-12-05T22:33:39Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-05T22:33:39+00:00",
+      "VideoPublishedAt": "2022-12-06T04:03:39+05:30"
+    },
+    "ETag": "SfjO7B4NP2LfbJR6KOZX3s1MCic",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mikhail Nosyrev (1924, Leningrad - 1981, Voronezh) was a Russian composer.\n\nSymphony N\u00BA2 (1977)\nDedicated to Dmitri Shostakovich\n\nI. Allegro moderato resoluto - Andante :  00:00\nII. Vivo :  11:34\nIII. Andante :  17:19\nIV. Allegro - Adagio :  26:18\n\nSt. Petersburg Academic Symphony Orchestra\nVladimir Verbitsky\n\nMore information :  http://www.historiadelasinfonia.es/naciones/la-sinfonia-en-rusia/los-compositores-mas-notables-2/nosyrev/\n\nImage :  Ina Hoekstra on Pixabay",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 7,
+      "PublishedAtRaw": "2025-05-20T15:52:33Z",
+      "PublishedAtDateTimeOffset": "2025-05-20T15:52:33+00:00",
+      "PublishedAt": "2025-05-20T21:22:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2YpZNcWfJRw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/2YpZNcWfJRw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mikhail Nosyrev (1924-1981) : Symphony N\u00BA2 (1977)",
+      "VideoOwnerChannelId": "UCPfJe8fU94SE8CjtKOf-zxQ",
+      "VideoOwnerChannelTitle": "Jos\u00E9 Ignacio H."
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "K2qwiuMpj50",
+      "VideoPublishedAtRaw": "2023-03-22T12:42:11Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-22T12:42:11+00:00",
+      "VideoPublishedAt": "2023-03-22T18:12:11+05:30"
+    },
+    "ETag": "hcMgI60FuBX5PpoTSt-AWRQe4T8",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mikhail Nosyrev (1924, Leningrad - 1981, Voronezh) was a Russian composer.\n\nSymphony N\u00BA3 (1978)\n\n\nI. Adagio non troppo, oscuro - Presto - Andante flebile :  00:00\nII. Andante ma non troppo :  15:15\nIII. Allegro :  24:25\n\n\nSt. Petersburg Academic Symphony Orchestra\nVladimir Verbitsky\n\nMore information :  http://www.historiadelasinfonia.es/naciones/la-sinfonia-en-rusia/los-compositores-mas-notables-2/nosyrev/\n\nImage : Joe  on Pixabay",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 8,
+      "PublishedAtRaw": "2025-05-20T15:52:28Z",
+      "PublishedAtDateTimeOffset": "2025-05-20T15:52:28+00:00",
+      "PublishedAt": "2025-05-20T21:22:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "K2qwiuMpj50"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/K2qwiuMpj50/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/K2qwiuMpj50/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/K2qwiuMpj50/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Mikhail Nosyrev (1924-1981) : Symphony N\u00BA3 (1978)",
+      "VideoOwnerChannelId": "UCPfJe8fU94SE8CjtKOf-zxQ",
+      "VideoOwnerChannelTitle": "Jos\u00E9 Ignacio H."
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "puUV86sJ0Ig",
+      "VideoPublishedAtRaw": "2021-04-13T20:13:15Z",
+      "VideoPublishedAtDateTimeOffset": "2021-04-13T20:13:15+00:00",
+      "VideoPublishedAt": "2021-04-14T01:43:15+05:30"
+    },
+    "ETag": "dK_l_qGNxJiC-Wz7fa-ILIaXQTQ",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Nikolai Karetnikov / \u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u041A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432 (1930\u20131994)\nSymphony No.3 / \u0421\u0438\u043C\u0444\u043E\u043D\u0438\u044F \u21163\n\u041E\u0440.10, 1959\nSoviet Radio Symphony Orchestra, conductor \u2014 Eri Klas. 1971. First performance. Archive recording premiere. / \u0421\u0438\u043C\u0444\u043E\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043E\u0440\u043A\u0435\u0441\u0442\u0440 \u0432\u0441\u0435\u0441\u043E\u044E\u0437\u043D\u043E\u0433\u043E \u0440\u0430\u0434\u0438\u043E, \u0434\u0438\u0440\u0438\u0436\u0435\u0440 \u2014 \u042D\u0440\u0438 \u041A\u043B\u0430\u0430\u0441, 1971. \u041F\u0435\u0440\u0432\u043E\u0435 \u0438\u0441\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435. \u0410\u0440\u0445\u0438\u0432\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C, \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u043D\u043E \u0432\u043F\u0435\u0440\u0432\u044B\u0435.\n\n00:00 \u2015 I. Allegro energico, sempre molto espressivo\n09:07 \u2015 II. Scherzo\n12:59 \u2015 III. Lento\n\n\n#\u043A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432 #\u043A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043E\u0440 #\u0425\u0425\u0432\u0435\u043A #\u043D\u0438\u043A\u043E\u043B\u0430\u0439\u043A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432 #\u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044F\u043A\u043E\u043C\u043F\u043E\u0437\u0438\u0442\u043E\u0440 #\u0441\u0438\u043C\u0444\u043E\u043D\u0438\u044F #\u0432\u0442\u043E\u0440\u043E\u0439\u0430\u0432\u0430\u043D\u0433\u0430\u0440\u0434 #\u043D\u043E\u043D\u043A\u043E\u043D\u0444\u043E\u0440\u043C\u0438\u0437\u043C #\u044D\u0440\u0438\u043A\u043B\u0430\u0441 #eriklas #SovietRadioSymphonyOrchestra #\u043E\u0440\u043A\u0435\u0441\u0442\u0440\u0432\u0441\u0435\u0441\u043E\u044E\u0437\u043D\u043E\u0433\u043E\u0440\u0430\u0434\u0438\u043E",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 9,
+      "PublishedAtRaw": "2025-06-06T21:33:47Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:33:47+00:00",
+      "PublishedAt": "2025-06-07T03:03:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "puUV86sJ0Ig"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/puUV86sJ0Ig/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/puUV86sJ0Ig/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/puUV86sJ0Ig/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Nikolai Karetnikov. Symphony No.3 \u2015 \u041D\u0438\u043A\u043E\u043B\u0430\u0439 \u041A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432. \u0421\u0438\u043C\u0444\u043E\u043D\u0438\u044F \u21163, \u043E\u0440.10, 1959",
+      "VideoOwnerChannelId": "UCkr5_Wqbqjet0-oN2Ketlgw",
+      "VideoOwnerChannelTitle": "\u0424\u043E\u043D\u0434 \u041D\u0438\u043A\u043E\u043B\u0430\u044F \u041A\u0430\u0440\u0435\u0442\u043D\u0438\u043A\u043E\u0432\u0430"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "38xpmK7ZvWM",
+      "VideoPublishedAtRaw": "2014-08-12T20:09:48Z",
+      "VideoPublishedAtDateTimeOffset": "2014-08-12T20:09:48+00:00",
+      "VideoPublishedAt": "2014-08-13T01:39:48+05:30"
+    },
+    "ETag": "7sSG9pg55Me8UBMp0mWgdpe4AVo",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-master/id874955423?ls=1\n\nClassical Treasures Master Series - Orchestral Masterpieces, Vol. 67\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 10,
+      "PublishedAtRaw": "2025-06-06T21:31:20Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:31:20+00:00",
+      "PublishedAt": "2025-06-07T03:01:20+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "38xpmK7ZvWM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/38xpmK7ZvWM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Symphony No. 2: I. Maestoso \u0022Martyros Saryan\u0022",
+      "VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
+      "VideoOwnerChannelTitle": "Great Music Buyer"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "N6IcY6fe8pQ",
+      "VideoPublishedAtRaw": "2014-08-04T05:51:48Z",
+      "VideoPublishedAtDateTimeOffset": "2014-08-04T05:51:48+00:00",
+      "VideoPublishedAt": "2014-08-04T11:21:48+05:30"
+    },
+    "ETag": "A3jP_aME567cGTZ7BbmHEpsY_qs",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-composer/id890488444?ls=1\n\nClassical Treasures Composer Series: Boris Parsadanian Edition, Vol. 1\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 11,
+      "PublishedAtRaw": "2025-06-06T21:31:33Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:31:33+00:00",
+      "PublishedAt": "2025-06-07T03:01:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "N6IcY6fe8pQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/N6IcY6fe8pQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/N6IcY6fe8pQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/N6IcY6fe8pQ/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Symphony No. 2: II. Intermezzo \u0022Martyros Saryan\u0022",
+      "VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
+      "VideoOwnerChannelTitle": "Great Music Buyer"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MBKNMhtomyA",
+      "VideoPublishedAtRaw": "2014-08-04T05:55:48Z",
+      "VideoPublishedAtDateTimeOffset": "2014-08-04T05:55:48+00:00",
+      "VideoPublishedAt": "2014-08-04T11:25:48+05:30"
+    },
+    "ETag": "Qtxk5wgV-2ftFPkhxdkO5Q8BdYI",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-composer/id890488444?ls=1\n\nClassical Treasures Composer Series: Boris Parsadanian Edition, Vol. 1\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 12,
+      "PublishedAtRaw": "2025-06-06T21:31:36Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:31:36+00:00",
+      "PublishedAt": "2025-06-07T03:01:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MBKNMhtomyA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MBKNMhtomyA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MBKNMhtomyA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MBKNMhtomyA/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Symphony No. 2: III. Lento \u0022Martyros Saryan\u0022",
+      "VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
+      "VideoOwnerChannelTitle": "Great Music Buyer"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "taFoa9oFUNs",
+      "VideoPublishedAtRaw": "2014-07-29T01:28:12Z",
+      "VideoPublishedAtDateTimeOffset": "2014-07-29T01:28:12+00:00",
+      "VideoPublishedAt": "2014-07-29T06:58:12+05:30"
+    },
+    "ETag": "yMcGrosbHqNyQsd7q6oGBxwoqDY",
+    "Id": "UEwxemdOQ29XdF83WXJBakpUSE54SW5rQmVTMFVkT0VtMy45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u0022To purchase on iTunes click link below\nhttps://itunes.apple.com/us/album/classical-treasures-master/id874955423?ls=1\n\nClassical Treasures Master Series - Orchestral Masterpieces, Vol. 67\nComposer: Boris Parsadanian\nPerformer: Grand Symphony Orchestra of Television and Radio, Yevgeny Svetlanov\n\u0022",
+      "PlaylistId": "PL1zgNCoWt_7YrAjJTHNxInkBeS0UdOEm3",
+      "Position": 13,
+      "PublishedAtRaw": "2025-06-06T21:31:40Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:31:40+00:00",
+      "PublishedAt": "2025-06-07T03:01:40+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "taFoa9oFUNs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/taFoa9oFUNs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/taFoa9oFUNs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/taFoa9oFUNs/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Symphony No. 2: IV. Alelgro com fuoco \u0022Martyros Saryan\u0022",
+      "VideoOwnerChannelId": "UCw3kq_VZeUi3afNSbBYDYEg",
+      "VideoOwnerChannelTitle": "Great Music Buyer"
+    }
+  }
 ]

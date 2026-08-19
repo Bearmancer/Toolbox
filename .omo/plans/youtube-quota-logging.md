@@ -33,6 +33,7 @@ var logDir = Path.Combine(PathResolver.RepoRoot, &quot;logs&quot;);
 Directory.CreateDirectory(logDir);
 AddServiceLogger(config, service, Path.Combine(logDir, $&quot;{service.ToFileSlug()}.jsonl&quot;));
 </span></code></pre>
+
 <p><code>PathResolver.RepoRoot</code> walks up from <code>AppContext.BaseDirectory</code> to find <code>.git</code> or <code>.env</code> → resolves to <code>C:\Users\Lance\Dev\Toolbox\</code>. Logs always inside Toolbox dir, regardless of CWD.</p>
 <h3>acceptance criteria</h3>
 <ul>
@@ -61,29 +62,30 @@ AddServiceLogger(config, service, Path.Combine(logDir, $&quot;{service.ToFileSlu
 // AFTER: file sink has its own fixed Debug level
 
 private static async Task AddServiceLogger(
-    LoggerConfiguration config,
-    ServiceName service,
-    string path
+LoggerConfiguration config,
+ServiceName service,
+string path
 )
 {
-    _ = config.WriteTo.Logger(lc =&gt;
-        lc.Filter.ByIncludingOnly(e =&gt;
-                e.Properties.TryGetValue(&quot;Service&quot;, out LogEventPropertyValue? propValue)
-                &amp;&amp; propValue is ScalarValue sv
-                &amp;&amp; sv.Value is string serviceName
-                &amp;&amp; serviceName == service.ToString()
-            )
-            .WriteTo.File(
-                new CompactJsonFormatter(),
-                path,
-                rollingInterval: RollingInterval.Infinite,
-                retainedFileCountLimit: null,
-                fileSizeLimitBytes: 50 * 1024 * 1024,
-                restrictedToMinimumLevel: LogEventLevel.Debug  // &lt;-- ADD: always capture Debug+
-            )
-    );
+_ = config.WriteTo.Logger(lc =&gt;
+lc.Filter.ByIncludingOnly(e =&gt;
+e.Properties.TryGetValue(&quot;Service&quot;, out LogEventPropertyValue? propValue)
+&amp;&amp; propValue is ScalarValue sv
+&amp;&amp; sv.Value is string serviceName
+&amp;&amp; serviceName == service.ToString()
+)
+.WriteTo.File(
+new CompactJsonFormatter(),
+path,
+rollingInterval: RollingInterval.Infinite,
+retainedFileCountLimit: null,
+fileSizeLimitBytes: 50 * 1024 * 1024,
+restrictedToMinimumLevel: LogEventLevel.Debug // &lt;-- ADD: always capture Debug+
+)
+);
 }
 </span></code></pre>
+
 <p>Console still respects <code>--verbose</code>/<code>--debug</code>/default. File always captures Debug+ for diagnostics.</p>
 <h3>acceptance criteria</h3>
 <ul>
@@ -111,31 +113,32 @@ private static async Task AddServiceLogger(
 
 for (var i = 0; i &lt; plan.Updates.Count; i++)
 {
-    // ... existing code ...
-    try
-    {
-        await yt.PlaylistItems.Update(item, &quot;snippet&quot;).ExecuteAsync(ct);
-        successes++;
-    }
-    catch (GoogleApiException ex) when (IsQuotaOrRateLimit(ex))
-    {
-        Telemetry.Error(&quot;Quota/rate-limit exhausted at item {Index}/{Total}. Stopping sort.&quot;,
-            i + 1, plan.Updates.Count);
-        return Errors.YouTube.QuotaExceeded($&quot;Quota exhausted after {successes} updates&quot;);
-    }
-    catch (Exception ex)
-    {
-        failures++;
-        Telemetry.Error(&quot;Failed to update ItemId={ItemId} to position {Position}: {Error}&quot;,
-            itemId, newPosition, ex.Message);
-    }
-    // ...
+// ... existing code ...
+try
+{
+await yt.PlaylistItems.Update(item, &quot;snippet&quot;).ExecuteAsync(ct);
+successes++;
+}
+catch (GoogleApiException ex) when (IsQuotaOrRateLimit(ex))
+{
+Telemetry.Error(&quot;Quota/rate-limit exhausted at item {Index}/{Total}. Stopping sort.&quot;,
+i + 1, plan.Updates.Count);
+return Errors.YouTube.QuotaExceeded($&quot;Quota exhausted after {successes} updates&quot;);
+}
+catch (Exception ex)
+{
+failures++;
+Telemetry.Error(&quot;Failed to update ItemId={ItemId} to position {Position}: {Error}&quot;,
+itemId, newPosition, ex.Message);
+}
+// ...
 }
 
 private static bool IsQuotaOrRateLimit(GoogleApiException ex)
-    =&gt; ex.HttpStatusCode is HttpStatusCode.Forbidden or HttpStatusCode.TooManyRequests
-       &amp;&amp; ex.Message.Contains(&quot;quota&quot;, StringComparison.OrdinalIgnoreCase);
+=&gt; ex.HttpStatusCode is HttpStatusCode.Forbidden or HttpStatusCode.TooManyRequests
+&amp;&amp; ex.Message.Contains(&quot;quota&quot;, StringComparison.OrdinalIgnoreCase);
 </span></code></pre>
+
 <p>Return <code>ErrorOr</code> error → caller breaks pass loop → caller breaks playlist loop → graceful stop.</p>
 <h3>acceptance criteria</h3>
 <ul>
@@ -167,13 +170,13 @@ private static bool IsQuotaOrRateLimit(GoogleApiException ex)
 <pre class="syntax-highlighting"><code><span class="text plain">// YouTubeSyncProcessor.cs - pass budget to sort
 
 public async Task SortPlaylistsAsync(
-    IReadOnlyList&lt;string&gt; playlistIds,
-    YouTubeFetchState state,
-    CancellationToken ct
+IReadOnlyList&lt;string&gt; playlistIds,
+YouTubeFetchState state,
+CancellationToken ct
 )
 {
-    const int maxWritesPerRun = 150;  // 150 * 50 = 7,500 units, leaves headroom
-    var writesConsumed = 0;
+const int maxWritesPerRun = 150; // 150 * 50 = 7,500 units, leaves headroom
+var writesConsumed = 0;
 
     foreach (var playlistId in playlistIds)
     {
@@ -192,8 +195,10 @@ public async Task SortPlaylistsAsync(
         
         writesConsumed += result.WritesConsumed;
     }
+
 }
 </span></code></pre>
+
 <pre class="syntax-highlighting"><code><span class="text plain">// YouTubeSortService.cs - enforce budget within sort
 
 public async Task&lt;ErrorOr&lt;SortResult&gt;&gt; SortPlaylistAsync(
@@ -215,7 +220,7 @@ private async Task&lt;ErrorOr&lt;SortPassResult&gt;&gt; ExecuteSortPlanAsync(
 )
 {
     var maxUpdatesThisPass = Math.Min(plan.Updates.Count, remainingBudget);
-    
+
     for (var i = 0; i &lt; maxUpdatesThisPass; i++)
     {
         // ... existing update logic ...
@@ -259,12 +264,13 @@ private async Task&lt;ErrorOr&lt;SortPassResult&gt;&gt; ExecuteSortPlanAsync(
 
 public record PlaylistSnapshot
 {
-    // ... existing fields ...
-    public int? LastSortMoves { get; init; }  // moves needed last sort (null = never sorted)
-    public DateTimeOffset? LastSortAttempted { get; init; }
-    public bool LastSortCompleted { get; init; }  // true if 0 moves or fully sorted
+// ... existing fields ...
+public int? LastSortMoves { get; init; } // moves needed last sort (null = never sorted)
+public DateTimeOffset? LastSortAttempted { get; init; }
+public bool LastSortCompleted { get; init; } // true if 0 moves or fully sorted
 }
 </span></code></pre>
+
 <pre class="syntax-highlighting"><code><span class="text plain">// YouTubePlaylistOrchestrator.cs - prioritize changed + interrupted
 
 var prioritizedIds = allPlaylistIds
@@ -311,39 +317,41 @@ Telemetry.Info(&quot;Sync done ... {New} new, {Changed} changed ...&quot;, ...);
 
 // AFTER:
 Telemetry.Info(
-    &quot;Sync done in {Elapsed:F1}s: {New} new, {Changed} changed (YouTube) | {TotalVideos} videos&quot;,
-    syncStopwatch.Elapsed.TotalSeconds,
-    outcome.Changes.NewPlaylists.Count,
-    outcome.Changes.ChangedPlaylists.Count,
-    result.TotalVideos
+&quot;Sync done in {Elapsed:F1}s: {New} new, {Changed} changed (YouTube) | {TotalVideos} videos&quot;,
+syncStopwatch.Elapsed.TotalSeconds,
+outcome.Changes.NewPlaylists.Count,
+outcome.Changes.ChangedPlaylists.Count,
+result.TotalVideos
 );
 
 // Add sort summary after sort completes
 if (sortResult is { })
 {
-    Telemetry.Info(
-        &quot;Sort complete: {Attempted} attempted, {Modified} modified, {AlreadySorted} already-sorted | {TotalWrites} writes ({WritesUnits} units)&quot;,
-        sortResult.Attempted,
-        sortResult.Modified,
-        sortResult.AlreadySorted,
-        sortResult.TotalWrites,
-        sortResult.TotalWrites * 50
-    );
+Telemetry.Info(
+&quot;Sort complete: {Attempted} attempted, {Modified} modified, {AlreadySorted} already-sorted | {TotalWrites} writes ({WritesUnits} units)&quot;,
+sortResult.Attempted,
+sortResult.Modified,
+sortResult.AlreadySorted,
+sortResult.TotalWrites,
+sortResult.TotalWrites * 50
+);
 }
 </span></code></pre>
+
 <p><strong>File:</strong> <code>src/Services/Google/YouTube/YouTubeSortService.cs:56-62</code> (per-playlist log)</p>
 <pre class="syntax-highlighting"><code><span class="text plain">// BEFORE: &quot;X repositioned&quot; (ambiguous across passes)
 // AFTER: track distinct item IDs
 
 var distinctItemsMoved = updates
-    .Where(u =&gt; u.Success)
-    .Select(u =&gt; u.Item.Id)
-    .Distinct()
-    .Count();
+.Where(u =&gt; u.Success)
+.Select(u =&gt; u.Item.Id)
+.Distinct()
+.Count();
 
 Telemetry.Info(&quot;{PlaylistName} — {Distinct}/{Total} items sorted ({ApiCalls} API calls)&quot;,
-    playlistName, distinctItemsMoved, itemCount, totalRepositioned);
+playlistName, distinctItemsMoved, itemCount, totalRepositioned);
 </span></code></pre>
+
 <h3>acceptance criteria</h3>
 <ul>
 <li><input type="checkbox" checked="" disabled="" /> Sync summary: &quot;X changed (YouTube)&quot; (accurate)</li>

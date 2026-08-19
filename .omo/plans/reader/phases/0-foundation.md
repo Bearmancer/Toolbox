@@ -17,15 +17,19 @@ Add 4 new package versions inside the existing `<ItemGroup>`:
 Insert after existing `Hqub.Last.fm` entry (line 34), before closing `</ItemGroup>`.
 
 **References:**
+
 - `Directory.Packages.props:6-38`
 
 **Acceptance criteria:**
+
 - `dotnet restore` succeeds
 
 **QA:**
+
 ```bash
 dotnet restore
 ```
+
 Expected: No errors
 
 **Commit:** `chore(packages): add Reader dependencies`
@@ -44,15 +48,19 @@ Add 1 new project entry inside the existing `<Solution>` in `Toolbox.slnx`:
 Insert after `LastFm.csproj` line (line 7).
 
 **References:**
+
 - `Toolbox.slnx`
 
 **Acceptance criteria:**
+
 - Solution file is valid
 
 **QA:**
+
 ```bash
 dotnet sln list
 ```
+
 Expected: Reader.csproj appears in list
 
 **Commit:** `chore(solution): add Reader project`
@@ -80,15 +88,19 @@ public enum ServiceName
 ```
 
 **References:**
+
 - `src/Core/ServiceName.cs`
 
 **Acceptance criteria:**
+
 - `dotnet build` succeeds
 
 **QA:**
+
 ```bash
 dotnet build
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(core): add Reader to ServiceName enum`
@@ -105,16 +117,20 @@ ServiceName.Reader => "reader",
 ```
 
 **References:**
+
 - `src/Core/ServiceNameExtensions.cs`
 
 **Acceptance criteria:**
+
 - `dotnet build` succeeds
 - Switch remains exhaustive (no `_` arm)
 
 **QA:**
+
 ```bash
 dotnet build
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(core): add Reader switch arm`
@@ -176,15 +192,19 @@ public static class Reader
 Insert inside the `Errors` class, after the `TextAnalytics` class (line 102), before the final closing `}`.
 
 **References:**
+
 - `src/Core/Errors.cs`
 
 **Acceptance criteria:**
+
 - `dotnet build` succeeds
 
 **QA:**
+
 ```bash
 dotnet build
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(core): add Errors.Reader taxonomy`

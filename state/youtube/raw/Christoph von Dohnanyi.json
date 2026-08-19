@@ -1,1432 +1,1432 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "ATRcwQL28Nk",
-			"VideoPublishedAtRaw": "2024-01-05T10:34:32Z",
-			"VideoPublishedAtDateTimeOffset": "2024-01-05T10:34:32+00:00",
-			"VideoPublishedAt": "2024-01-05T16:04:32+05:30"
-		},
-		"ETag": "_BCQowIqucWklijm2_pnvkX60TM",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Der damalige Chefdirigent Christoph von Dohn\u00E1nyi dirigiert das NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) 2005 beim Abschlusskonzert des Schleswig-Holstein Musik Festivals. Eine Aufzeichnung vom 27. August 2005, SHMF-Abschlusskonzerrt, Musik- und Kongresshalle L\u00FCbeck.\r\n\r\nLudwig van Beethoven - Sinfonie Nr. 7 A-Dur op. 92   \r\n\r\n00:00:01 I. Poco sostenuto - Vivace \r\n00:12:00 II. Allegretto  \r\n00:20:30 III.  Presto  \r\n00:29:51 IV.  Allegro con brio  \r\n\r\nNDR Sinfonieorchester \r\nChristoph von Dohn\u00E1nyi, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 0,
-			"PublishedAtRaw": "2024-12-11T22:42:02Z",
-			"PublishedAtDateTimeOffset": "2024-12-11T22:42:02+00:00",
-			"PublishedAt": "2024-12-12T04:12:02+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ATRcwQL28Nk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven - Sinfonie Nr. 7 | Christoph von Dohn\u00E1nyi | SHMF | NDR Elbphilharmonie Orchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "GqUpIH2uJe8",
-			"VideoPublishedAtRaw": "2015-09-02T21:26:00Z",
-			"VideoPublishedAtDateTimeOffset": "2015-09-02T21:26:00+00:00",
-			"VideoPublishedAt": "2015-09-03T02:56:00+05:30"
-		},
-		"ETag": "jQBjYZ1OhRkyUDdUNJbDErrQoBI",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Johannes Brahms\u0027 Sinfonie Nr. 4 in e-Moll op. 98, gespielt vom NDR Elbphilharmonie Orchester (damals: NDR Sinfonieorchester) unter der Leitung seines damaligen Chefdirigenten Christoph von Dohn\u00E1nyi. Live aufgezeichnet im Mai 2007 in der der Hamburger Laeiszhalle.\n\nJohannes Brahms - Sinfonie Nr. 4 in e-Moll op. 98\n\nNDR Elbphilharmonie Orchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 1,
-			"PublishedAtRaw": "2024-12-11T22:43:51Z",
-			"PublishedAtDateTimeOffset": "2024-12-11T22:43:51+00:00",
-			"PublishedAt": "2024-12-12T04:13:51+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "GqUpIH2uJe8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Brahms - Sinfonie Nr. 4 in e-Moll | Christoph von Dohn\u00E1nyi (2007) | NDR Elbphilharmonie Orchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "1-fk0VeoLa8",
-			"VideoPublishedAtRaw": "2015-05-06T03:07:13Z",
-			"VideoPublishedAtDateTimeOffset": "2015-05-06T03:07:13+00:00",
-			"VideoPublishedAt": "2015-05-06T08:37:13+05:30"
-		},
-		"ETag": "gJsI5ipL6VePnD_F8hNq8dDGG88",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nJohannes Brahms\nSymphony No 4 in E minor, Op 98\n\nNDR Sinfonieorchester\nChristoph von Dohnanyi\n\nHamburg, 2007",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 2,
-			"PublishedAtRaw": "2025-10-25T21:44:47Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:47+00:00",
-			"PublishedAt": "2025-10-26T03:14:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "1-fk0VeoLa8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Brahms - Symphony No 4 - Dohnanyi",
-			"VideoOwnerChannelId": "UC9UkGZY5ezEfdBUG5wgZDdA",
-			"VideoOwnerChannelTitle": "Cantus 5"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ttHSNUIGxI4",
-			"VideoPublishedAtRaw": "2025-09-08T08:35:20Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-08T08:35:20+00:00",
-			"VideoPublishedAt": "2025-09-08T14:05:20+05:30"
-		},
-		"ETag": "5BmSv8fs_9FraBVnGWNJdW0R50A",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4zRjM0MkVCRTg0MkYyQTM0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Christoph von Dohn\u00E1nyi dirigiert Benjamin Brittens \u0022The Young Person\u0027s Guide to the Orchestra\u0022 im Gro\u00DFen Sendesaal des WDR im Jahr 1965. Christoph von Dohn\u00E1nyi war von 1965 bis 1969 der erste Chefdirigent des damaligen K\u00F6lner Rundfunk-Sinfonie-Orchesters. \n\nHistorische Aufnahme aus dem WDR Klassik-Archiv.\n\nBenjamin Britten - \u0022The Young Person\u0027s Guide to the Orchestra\u0022, Variations and Fugue on a Theme of Purcell, op. 34\n\n00:00:00 Ganzes Orchester\n00:00:29 Holzbl\u00E4ser\n00:01:00 Blechbl\u00E4ser\n00:01:21 Streicher\n00:01:40 Schlagzeug\n00:02:22 Fl\u00F6te und Piccolofl\u00F6te\n00:02:56 Oboe\n00:04:05 Klarinette\n00:04:46 Fagott\n00:05:44 Geige\n00:06:20 Bratsche\n00:07:25 Cello\n00:08:48 Kontrabass\n00:09:56 Harfe\n00:10:47 Waldhorn\n00:11:41 Trompete\n00:12:15 Posaune und Tuba\n00:13:27 Schlagzeug\n00:15:22 Fuge\n\nWDR Sinfonieorchester (damals: K\u00F6lner Rundfunk-Sinfonie-Orchester ). \nChristoph von Dohn\u00E1nyi, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://www.wdr-sinfonieorchester.de\n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 3,
-			"PublishedAtRaw": "2025-10-25T21:45:03Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:45:03+00:00",
-			"PublishedAt": "2025-10-26T03:15:03+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ttHSNUIGxI4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Britten - The Young Person\u0027s Guide to the Orchestra | Christoph von Dohn\u00E1nyi | WDR Sinfonieorchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ZzV03lVRhm4",
-			"VideoPublishedAtRaw": "2020-05-27T20:52:37Z",
-			"VideoPublishedAtDateTimeOffset": "2020-05-27T20:52:37+00:00",
-			"VideoPublishedAt": "2020-05-28T02:22:37+05:30"
-		},
-		"ETag": "PdZqf8b7NtejP1rlPnFcklV5i2I",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 4,
-			"PublishedAtRaw": "2025-10-25T21:44:47Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:47+00:00",
-			"PublishedAt": "2025-10-26T03:14:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ZzV03lVRhm4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ZzV03lVRhm4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ZzV03lVRhm4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ZzV03lVRhm4/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "BRUCKNER sf 4 dohnanyi,christoph von NDR hamburg 20070715 hamburg Laeiszhalle,musikhalle",
-			"VideoOwnerChannelId": "UCdUYhTeJBjJG_BsClX8gzJw",
-			"VideoOwnerChannelTitle": "Ignasi Rodriguez Reynares"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "oHxcYwkFuuE",
-			"VideoPublishedAtRaw": "2020-06-06T20:35:45Z",
-			"VideoPublishedAtDateTimeOffset": "2020-06-06T20:35:45+00:00",
-			"VideoPublishedAt": "2020-06-07T02:05:45+05:30"
-		},
-		"ETag": "-VDrVHaCpLTH9_dl202Mw_gEtjM",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded June 1999 at the Allen Theatre in Cleveland (during renovations to Severance Hall) and ripped from the brilliant Dohnanyi/Cleveland edition WHICH IS STILL AVAILABLE TO BUY at a bargain price from the orchestra\u0027s website! Szell didn\u0027t perform Sibelius 5, but Dohnanyi\u0027s recording of this great work helps to make up for that.",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 5,
-			"PublishedAtRaw": "2025-10-25T21:44:48Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:48+00:00",
-			"PublishedAt": "2025-10-26T03:14:48+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "oHxcYwkFuuE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland  and Dohnanyi LIVE 1999: Sibelius symphony no.5",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "sWNIf6CPmF4",
-			"VideoPublishedAtRaw": "2025-09-17T19:33:26Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-17T19:33:26+00:00",
-			"VideoPublishedAt": "2025-09-18T01:03:26+05:30"
-		},
-		"ETag": "NI7GITLXkYP7T7feFgQaQ8PsvSQ",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45RTgxNDRBMzUwRjQ0MDhC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded May 7, 1998, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 6,
-			"PublishedAtRaw": "2025-10-25T21:44:59Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:59+00:00",
-			"PublishedAt": "2025-10-26T03:14:59+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "sWNIf6CPmF4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Bela Bartok, Divertimento for Strings",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "djjGBuMDyG4",
-			"VideoPublishedAtRaw": "2025-09-18T17:53:12Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-18T17:53:12+00:00",
-			"VideoPublishedAt": "2025-09-18T23:23:12+05:30"
-		},
-		"ETag": "Xc8vrUrXxceMmWS2Q21NMiYHrns",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded on 11 May, 1995, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 7,
-			"PublishedAtRaw": "2025-10-25T21:44:54Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:54+00:00",
-			"PublishedAt": "2025-10-26T03:14:54+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "djjGBuMDyG4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/djjGBuMDyG4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/djjGBuMDyG4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/djjGBuMDyG4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/djjGBuMDyG4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/djjGBuMDyG4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Cesar Franck, Symphony in D minor",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "BOSMMSiLL5I",
-			"VideoPublishedAtRaw": "2025-09-19T19:39:21Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-19T19:39:21+00:00",
-			"VideoPublishedAt": "2025-09-20T01:09:21+05:30"
-		},
-		"ETag": "C_OWsQlnEMioIZm2lDxJNkC7szs",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy43MTI1NDIwOTMwQjIxMzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded 1 October, 1998, at Severance Hall, and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 8,
-			"PublishedAtRaw": "2025-10-25T21:47:57Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:47:57+00:00",
-			"PublishedAt": "2025-10-26T03:17:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "BOSMMSiLL5I"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Charles Ives, Central Park in the Dark",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "CW-SZVAl_Ac",
-			"VideoPublishedAtRaw": "2025-09-19T09:06:27Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-19T09:06:27+00:00",
-			"VideoPublishedAt": "2025-09-19T14:36:27+05:30"
-		},
-		"ETag": "rVSDTGzKuY9Ph3ZoyLtwoNiTKzk",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45NzUwQkI1M0UxNThBMkU0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded on 25 May, 1995, at Severance Hall, and ripped from the orchstra\u0027s von Dohnanyi edition (nla)",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 9,
-			"PublishedAtRaw": "2025-10-25T21:47:55Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:47:55+00:00",
-			"PublishedAt": "2025-10-26T03:17:55+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "CW-SZVAl_Ac"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Franz Liszt \u0027Les Preludes\u0027",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "XMVXQV-QmZo",
-			"VideoPublishedAtRaw": "2025-09-19T11:28:15Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-19T11:28:15+00:00",
-			"VideoPublishedAt": "2025-09-19T16:58:15+05:30"
-		},
-		"ETag": "OrEiIznD8j-cmodIV7UvTXeDK6g",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5DNzE1RjZEMUZCMjA0RDBB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded on 2 October 1997 at Severance Hall, and ripped from the orchestra\u0027s vov Dohnanyi edition (nla)",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 10,
-			"PublishedAtRaw": "2025-10-25T21:47:56Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:47:56+00:00",
-			"PublishedAt": "2025-10-26T03:17:56+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "XMVXQV-QmZo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Haydn Symphony No.88 in G major",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ns_ZqRLe2h4",
-			"VideoPublishedAtRaw": "2025-09-17T19:51:55Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-17T19:51:55+00:00",
-			"VideoPublishedAt": "2025-09-18T01:21:55+05:30"
-		},
-		"ETag": "hwAAC4AD3Ra2GCWkd491OyaSv-A",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded May 26, 1994, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 11,
-			"PublishedAtRaw": "2025-10-25T21:44:58Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:58+00:00",
-			"PublishedAt": "2025-10-26T03:14:58+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ns_ZqRLe2h4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Hindemith, Symphonic Metamorphosis on Themes by Weber",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "GvieNDP5s2o",
-			"VideoPublishedAtRaw": "2025-09-18T15:38:15Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-18T15:38:15+00:00",
-			"VideoPublishedAt": "2025-09-18T21:08:15+05:30"
-		},
-		"ETag": "sXaO26lN0ADRq2jBCbibTfaWZug",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded 25 September 1997 at Severance Hall, and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 12,
-			"PublishedAtRaw": "2025-10-25T21:44:55Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:55+00:00",
-			"PublishedAt": "2025-10-26T03:14:55+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "GvieNDP5s2o"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/GvieNDP5s2o/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/GvieNDP5s2o/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/GvieNDP5s2o/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/GvieNDP5s2o/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/GvieNDP5s2o/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Mendelssohn Symphony No.4 (\u0027Italian\u0027) in A major, Op.90",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "VCMUzVA3P5g",
-			"VideoPublishedAtRaw": "2025-09-17T18:12:35Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-17T18:12:35+00:00",
-			"VideoPublishedAt": "2025-09-17T23:42:35+05:30"
-		},
-		"ETag": "UkYDnj5poD1FEACQQjcbIEiEoOc",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5ENDU4Q0M4RDExNzM1Mjcy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded January 8, 2000, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 13,
-			"PublishedAtRaw": "2025-10-25T21:45:00Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:45:00+00:00",
-			"PublishedAt": "2025-10-26T03:15:00+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "VCMUzVA3P5g"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Prokofiev Symphony No.1 \u0027Classical\u0027 in D Major.",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "rOQaxo6xb4k",
-			"VideoPublishedAtRaw": "2025-09-18T18:51:18Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-18T18:51:18+00:00",
-			"VideoPublishedAt": "2025-09-19T00:21:18+05:30"
-		},
-		"ETag": "_RyXL4lKvPPGNNO-tfogh48CcNM",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5GM0Q3M0MzMzY5NTJFNTdE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded 23 January, 1997, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 14,
-			"PublishedAtRaw": "2025-10-25T21:45:02Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:45:02+00:00",
-			"PublishedAt": "2025-10-26T03:15:02+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "rOQaxo6xb4k"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Schubert Symphony No.5 in B-flat major, D.485",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "aDHQQvJF6bE",
-			"VideoPublishedAtRaw": "2025-09-17T21:07:12Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-17T21:07:12+00:00",
-			"VideoPublishedAt": "2025-09-18T02:37:12+05:30"
-		},
-		"ETag": "WrDPcuedEraxWntzEwx7_i6ysg0",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41QTY1Q0UxMTVCODczNThE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded September 17, 1998, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 15,
-			"PublishedAtRaw": "2025-10-25T21:44:57Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:57+00:00",
-			"PublishedAt": "2025-10-26T03:14:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "aDHQQvJF6bE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Shostakovich Symphony No.1 Op.10",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "3IJHPEDQuZ4",
-			"VideoPublishedAtRaw": "2025-09-18T12:09:08Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-18T12:09:08+00:00",
-			"VideoPublishedAt": "2025-09-18T17:39:08+05:30"
-		},
-		"ETag": "5dy99VrRPX-pnPdejVAIrwOLN3Y",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded on 14 September, 2000 at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 16,
-			"PublishedAtRaw": "2025-10-25T21:44:56Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:56+00:00",
-			"PublishedAt": "2025-10-26T03:14:56+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "3IJHPEDQuZ4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Cleveland / Dohnanyi LIVE: Tchaikovsky Symphony No.4 in F minor Op.36.",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "qFUyYERrF9o",
-			"VideoPublishedAtRaw": "2025-09-28T14:57:04Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-28T14:57:04+00:00",
-			"VideoPublishedAt": "2025-09-28T20:27:04+05:30"
-		},
-		"ETag": "pXlBKpBfwYYjbaygaSGKvWIJiSQ",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5DQ0MyQ0Y4Mzg0M0VGOEYw",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "DVORAK, A.: Symphony No.9 \u0022From the New World\u0022 \n1st movement   00:00\n2nd   09:52\n3rd    21:40\n4th    30:08\nChristoph von Dohn\u00E1nyi / New York Philharmonic\n12/11/2014 New York, Avery Fisher Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30AF\u30EA\u30B9\u30C8\u30D5\u30FB\u30D5\u30A9\u30F3\u30FB\u30C9\u30DB\u30CA\u30FC\u30CB\u6307\u63EE\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF2014\u5E7411\u670812\u65E5\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u3001\u30A8\u30A4\u30F4\u30EA\u30FC\u30FB\u30D5\u30A3\u30C3\u30B7\u30E3\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u672C\u5E749\u6708\u306B\u4EA1\u304F\u306A\u3063\u305F\u30C9\u30DB\u30CA\u30FC\u30CB\u304C\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u306B\u5BA2\u6F14\u3057\u305F\u8A18\u9332\u3002\u5F53\u6642\u3059\u3067\u306B85\u6B73\u3067\u3057\u305F\u304C\u3001\u305D\u306E\u5F15\u304D\u7DE0\u307E\u3063\u305F\u97F3\u697D\u306F\u5065\u5728\u30021893\u5E74\u306E\u521D\u6F14\u4EE5\u6765\u30C1\u30A7\u30B3\u306E\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u4EE5\u4E0A\u306B\u3053\u306E\u4F5C\u54C1\u3092\u770B\u677F\u3068\u3057\u3066\u304D\u305F\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u3068\u306E\u7D44\u307F\u5408\u308F\u305B\u306F\u307E\u3055\u306B\u81F3\u9AD8\u306E\u4E00\u8A00\u3002",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 17,
-			"PublishedAtRaw": "2025-10-25T21:47:58Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:47:58+00:00",
-			"PublishedAt": "2025-10-26T03:17:58+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "qFUyYERrF9o"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/qFUyYERrF9o/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/qFUyYERrF9o/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/qFUyYERrF9o/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "DVORAK, A.: Symphony No.9 \u0022From the New World\u0022     C.V. Dohn\u00E1nyi / NYPO 2014 New York live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "S6aCTklIymc",
-			"VideoPublishedAtRaw": "2025-03-09T06:27:43Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-09T06:27:43+00:00",
-			"VideoPublishedAt": "2025-03-09T11:57:43+05:30"
-		},
-		"ETag": "HF35k9bDGhtUxnnwYr7hzkx4DKs",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45NDk1REZENzhEMzU5MDQz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Nikolaj Znaider (Violin, 1975 - )\nNew York Philharmonic Orch. cond. by Christoph von Dohnanyi \n00:00 - I. Allegro moderato\n16:10 - II. Adagio di molto\n24:43 - III. Allegro, ma non tanto\nrec. October 2007, New York\nlive broadcast",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 18,
-			"PublishedAtRaw": "2025-10-25T21:44:49Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:49+00:00",
-			"PublishedAt": "2025-10-26T03:14:49+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "S6aCTklIymc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/S6aCTklIymc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/S6aCTklIymc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/S6aCTklIymc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/S6aCTklIymc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Nikolaj Znaider - Sibelius : Violin Concerto Op.47 (2007- Live)",
-			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-			"VideoOwnerChannelTitle": "uchukyoku1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "f7UO_miRI5A",
-			"VideoPublishedAtRaw": "2014-06-06T15:07:16Z",
-			"VideoPublishedAtDateTimeOffset": "2014-06-06T15:07:16+00:00",
-			"VideoPublishedAt": "2014-06-06T20:37:16+05:30"
-		},
-		"ETag": "GUnYri88sshjaJ2SZRaRCL822Zc",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u30D6\u30ED\u30B0\u300C\u5BF8\u8349\u6625\u6689\u300D2014\u5E746\u670810\u65E5\nhttp://blog.goo.ne.jp/tgcy2801\n\uFF08C1255B\uFF09",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 19,
-			"PublishedAtRaw": "2025-10-25T21:44:51Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:51+00:00",
-			"PublishedAt": "2025-10-26T03:14:51+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "f7UO_miRI5A"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/f7UO_miRI5A/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/f7UO_miRI5A/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/f7UO_miRI5A/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "R.\u30B7\u30E5\u30C8\u30E9\u30A6\u30B9\uFF0F\u4EA4\u97FF\u8A69\u300C\u30C4\u30A1\u30E9\u30C8\u30A5\u30B9\u30C8\u30E9\u306F\u304B\u304F\u8A9E\u308A\u304D\u300D\u4F5C\u54C130\uFF0F\u30C9\u30DB\u30CA\u30FC\u30CB\uFF0F\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\uFF081984 9 11\uFF09",
-			"VideoOwnerChannelId": "UCzZDVhwArsgUazOiNawiyDg",
-			"VideoOwnerChannelTitle": "Yasumi Taguchi"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "JxF6CHbwTws",
-			"VideoPublishedAtRaw": "2022-06-10T15:43:36Z",
-			"VideoPublishedAtDateTimeOffset": "2022-06-10T15:43:36+00:00",
-			"VideoPublishedAt": "2022-06-10T21:13:36+05:30"
-		},
-		"ETag": "fh4niMiF_LkWvs41TaIkrL6-uN8",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4yMDhBMkNBNjRDMjQxQTg1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Schubert sketched this movement for a symphony in autumn 1828. Performance edition (1982) prepared by Peter Gulke. Recorded live at Severance, February 15/16/17, 1990, and ripped from the Cleveland Orchestra 75th Anniversary Edition.",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 20,
-			"PublishedAtRaw": "2025-10-25T21:45:01Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:45:01+00:00",
-			"PublishedAt": "2025-10-26T03:15:01+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "JxF6CHbwTws"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/JxF6CHbwTws/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/JxF6CHbwTws/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/JxF6CHbwTws/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/JxF6CHbwTws/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/JxF6CHbwTws/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Schubert: Andante (B minor) from \u0022Symphony No.10\u0022 (D.936A) by Cleveland Orchestra / Dohnanyi (live)",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "KhdCT2IoqwU",
-			"VideoPublishedAtRaw": "2021-12-30T10:03:29Z",
-			"VideoPublishedAtDateTimeOffset": "2021-12-30T10:03:29+00:00",
-			"VideoPublishedAt": "2021-12-30T15:33:29+05:30"
-		},
-		"ETag": "ueNKlRrxvniqSOEdz9-ptylYd2g",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Robert Schumanns Sinfonie Nr. 1 B-Dur - auch \u0022Fr\u00FChlingssinfonie\u0022 genannt -, gespielt vom NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) unter der Leitung seines damaligen Chefdirigenten Christoph von Dohn\u00E1nyi. Live aufgezeichnet am 14. November 2008 in der Laeiszhalle in Hamburg.\n\nRobert Schumann - Sinfonie Nr. 1 B-Dur op. 38 \u0022Fr\u00FChlingssinfonie\u0022  \n\n00:00:00 I. Andante un poco maestoso - Allegro molto vivace  \n00:12:02 II. Larghetto  \n00:19:30 III. Scherzo. Molto vivace  \n00:25:22 IV. Finale. Allegro animato e grazioso  \n\nNDR Sinfonieorchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 21,
-			"PublishedAtRaw": "2024-12-11T22:42:41Z",
-			"PublishedAtDateTimeOffset": "2024-12-11T22:42:41+00:00",
-			"PublishedAt": "2024-12-12T04:12:41+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "KhdCT2IoqwU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Schumann - Sinfonie Nr. 1 | Christoph von Dohn\u00E1nyi | NDR Elbphilharmonie Orchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "i-FX6B-uWwc",
-			"VideoPublishedAtRaw": "2021-11-01T12:23:17Z",
-			"VideoPublishedAtDateTimeOffset": "2021-11-01T12:23:17+00:00",
-			"VideoPublishedAt": "2021-11-01T17:53:17+05:30"
-		},
-		"ETag": "kbceMnAhHJmNgsNFijbGcyrrKjw",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Robert Schumanns Sinfonie Nr. 2 C-Dur op. 61, gespielt vom damaligen NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) unter der Leitung seines damaligen Chefdirigenten Christoph von Dohn\u00E1nyi. Live aufgezeichnet am 14. Juni 2008 in der Laeiszhalle.\n\nRobert Schumann - Sinfonie Nr. 2 C-Dur op. 61  \n\n00:00:00 I. Sostenuto assai - Allegro ma non troppo  \n00:12:55 II. Scherzo. Allegro vivace  \n00:20:09 III. Adagio espressivo  \n00:30:34 IV. Allegro molto vivace  \n\nNDR Sinfonieorchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 22,
-			"PublishedAtRaw": "2024-12-11T22:42:35Z",
-			"PublishedAtDateTimeOffset": "2024-12-11T22:42:35+00:00",
-			"PublishedAt": "2024-12-12T04:12:35+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "i-FX6B-uWwc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Schumann - Sinfonie Nr. 2 | Christoph von Dohn\u00E1nyi | NDR Elbphilharmonie Orchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "w1M3eGYxbq0",
-			"VideoPublishedAtRaw": "2013-08-31T09:28:13Z",
-			"VideoPublishedAtDateTimeOffset": "2013-08-31T09:28:13+00:00",
-			"VideoPublishedAt": "2013-08-31T14:58:13+05:30"
-		},
-		"ETag": "ArBPQIhOShw1pDhoeiVQH5KC0ZU",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Be apart of my Facebook page! http://www.facebook.com/Blop888\nRobert Schumann\nConductor: Christoph von Dohnanyi)\nOrchestra: The Cleveland Orchestra",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 23,
-			"PublishedAtRaw": "2025-10-25T21:44:52Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:52+00:00",
-			"PublishedAt": "2025-10-26T03:14:52+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "w1M3eGYxbq0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Schumann Symphony no. 4 op. 120 in D minor (Christoph von Dohnanyi)",
-			"VideoOwnerChannelId": "UCWI2TGKQ57ROkapNgZSUiGA",
-			"VideoOwnerChannelTitle": "BLOP888"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Cq9vps8eCww",
-			"VideoPublishedAtRaw": "2020-09-20T08:27:33Z",
-			"VideoPublishedAtDateTimeOffset": "2020-09-20T08:27:33+00:00",
-			"VideoPublishedAt": "2020-09-20T13:57:33+05:30"
-		},
-		"ETag": "WTn8ZZnb_2Im_e1z6H3xQmZNAYs",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Igor Stravinsky\n\nL\u0027Oiseau de feu\n\n\u010Cesk\u00E1 filharmonie\nChristoph von Dohn\u00E1nyi\nLive recording, Prague",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 24,
-			"PublishedAtRaw": "2025-10-25T21:44:52Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:52+00:00",
-			"PublishedAt": "2025-10-26T03:14:52+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Cq9vps8eCww"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Cq9vps8eCww/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Cq9vps8eCww/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Cq9vps8eCww/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Cq9vps8eCww/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Cq9vps8eCww/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Stravinsky - The Firebird - Czech Ph / Dohnanyi",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "GZio51qoKaY",
-			"VideoPublishedAtRaw": "2020-02-04T11:11:02Z",
-			"VideoPublishedAtDateTimeOffset": "2020-02-04T11:11:02+00:00",
-			"VideoPublishedAt": "2020-02-04T16:41:02+05:30"
-		},
-		"ETag": "ckr6pPCLHkO2FbEHKLl4aywb97w",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Tschaikowskys \u0022Path\u00E9tique\u0022, Ligetis Doppelkonzert und Ives \u0022Unanswered Question\u0022, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung seines ehemaligen Chefdirigent Christoph von Dohn\u00E1nyi. Live aufgezeichnet am 18. Januar 2020 in der Elbphilharmonie Hamburg.\n\nCharles Edward Ives - The Unanswered Question\nGy\u00F6rgy Ligeti - Doppelkonzert f\u00FCr Fl\u00F6te, Oboe und Orchester\nPeter Tschaikowsky - Sinfonie Nr. 6 h-Moll op. 74 \u0022Path\u00E9tique\u0022\n\nHenrik Wiese, Fl\u00F6te\nKalev Kuljus, Oboe\nNDR Elbphilharmonie Orchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 25,
-			"PublishedAtRaw": "2024-12-11T22:44:01Z",
-			"PublishedAtDateTimeOffset": "2024-12-11T22:44:01+00:00",
-			"PublishedAt": "2024-12-12T04:14:01+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "GZio51qoKaY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/GZio51qoKaY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/GZio51qoKaY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/GZio51qoKaY/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/GZio51qoKaY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/GZio51qoKaY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tschaikowsky, Ives \u0026 Ligeti | Christoph von Dohn\u00E1nyi | NDR Elbphilharmonie Orchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "3JENDDnYQSo",
-			"VideoPublishedAtRaw": "2014-05-08T01:27:05Z",
-			"VideoPublishedAtDateTimeOffset": "2014-05-08T01:27:05+00:00",
-			"VideoPublishedAt": "2014-05-08T06:57:05+05:30"
-		},
-		"ETag": "gWAkIhqokhEdclFLhiD0rVo3yTA",
-		"Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u30D6\u30ED\u30B0\u300C\u5BF8\u8349\u6625\u6689\u300D2014\u5E745\u670814\u65E5\nhttp://blog.goo.ne.jp/tgcy2801\u3000C1298B\n\uFF081983.6.2\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u30DB\u30FC\u30EB\u306B\u3066\u53CE\u9332\uFF09\u3000\u30A8\u30A2\u30C1\u30A7\u30C3\u30AF\u306F1984.3.19\n\n\u3000\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\u306E3\u5927\u30D0\u30EC\u30FC\u97F3\u697D\u300C\u6625\u306E\u796D\u5178\u300D\u300C\u706B\u306E\u9CE5\u300D\u300C\u30DA\u30C8\u30EB\u30FC\u30B7\u30E5\u30AB\u300D\u306E\u3046\u3061\u306E\u4E00\u3064\u3067\u3059\u3002\u7D44\u66F2\u7248\uFF08\u7D0422\uFF5E23\u5206\uFF09\u3067\u306E\u6F14\u594F\u304C\u591A\u3044\u3067\u3059\u304C\u3001\u3053\u308C\u306F\u5168\u66F2\u7248\u3067\u3059\u306E\u306745\u5206\u4EE5\u4E0A\u3068\u9577\u3044\u3067\u3059\u3002\u66F2\u306E\u958B\u59CB\u306F0\u520625\u79D2\u3042\u305F\u308A\u304B\u3089\u3067\u3059\u3002\n\u3000\u4E07\u4E00\u306E\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\u30D5\u30A1\u30F3\u306E\u65B9\u3078\u3001\u30DE\u30BC\u30FC\u30EB\uFF0F\u30A6\u30A4\u30FC\u30F3\u30D5\u30A3\u30EB\uFF0884\uFF09\u3068\u82E5\u6749\u5F18\uFF0F\u30A6\u30A4\u30FC\u30F3\u4EA4\u97FF\u697D\u56E3\uFF0884\uFF09\u306E\u7D44\u66F2\u7248\u304C\u3042\u308A\u307E\u3059\u306E\u3067\u305D\u306E\u3046\u3061\u306B\u30A2\u30C3\u30D7\u3057\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
-			"Position": 26,
-			"PublishedAtRaw": "2025-10-25T21:44:53Z",
-			"PublishedAtDateTimeOffset": "2025-10-25T21:44:53+00:00",
-			"PublishedAt": "2025-10-26T03:14:53+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "3JENDDnYQSo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/3JENDDnYQSo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/3JENDDnYQSo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/3JENDDnYQSo/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF0F\u300C\u706B\u306E\u9CE5\u300D\uFF0F\u30C9\u30DB\u30CA\u30FC\u30CB\uFF0F\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB",
-			"VideoOwnerChannelId": "UCzZDVhwArsgUazOiNawiyDg",
-			"VideoOwnerChannelTitle": "Yasumi Taguchi"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "ATRcwQL28Nk",
+      "VideoPublishedAtRaw": "2024-01-05T10:34:32Z",
+      "VideoPublishedAtDateTimeOffset": "2024-01-05T10:34:32+00:00",
+      "VideoPublishedAt": "2024-01-05T16:04:32+05:30"
+    },
+    "ETag": "_BCQowIqucWklijm2_pnvkX60TM",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Der damalige Chefdirigent Christoph von Dohn\u00E1nyi dirigiert das NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) 2005 beim Abschlusskonzert des Schleswig-Holstein Musik Festivals. Eine Aufzeichnung vom 27. August 2005, SHMF-Abschlusskonzerrt, Musik- und Kongresshalle L\u00FCbeck.\r\n\r\nLudwig van Beethoven - Sinfonie Nr. 7 A-Dur op. 92   \r\n\r\n00:00:01 I. Poco sostenuto - Vivace \r\n00:12:00 II. Allegretto  \r\n00:20:30 III.  Presto  \r\n00:29:51 IV.  Allegro con brio  \r\n\r\nNDR Sinfonieorchester \r\nChristoph von Dohn\u00E1nyi, Dirigent\r\n\r\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\r\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\r\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\r\n\r\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 0,
+      "PublishedAtRaw": "2024-12-11T22:42:02Z",
+      "PublishedAtDateTimeOffset": "2024-12-11T22:42:02+00:00",
+      "PublishedAt": "2024-12-12T04:12:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ATRcwQL28Nk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ATRcwQL28Nk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Sinfonie Nr. 7 | Christoph von Dohn\u00E1nyi | SHMF | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "GqUpIH2uJe8",
+      "VideoPublishedAtRaw": "2015-09-02T21:26:00Z",
+      "VideoPublishedAtDateTimeOffset": "2015-09-02T21:26:00+00:00",
+      "VideoPublishedAt": "2015-09-03T02:56:00+05:30"
+    },
+    "ETag": "jQBjYZ1OhRkyUDdUNJbDErrQoBI",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms\u0027 Sinfonie Nr. 4 in e-Moll op. 98, gespielt vom NDR Elbphilharmonie Orchester (damals: NDR Sinfonieorchester) unter der Leitung seines damaligen Chefdirigenten Christoph von Dohn\u00E1nyi. Live aufgezeichnet im Mai 2007 in der der Hamburger Laeiszhalle.\n\nJohannes Brahms - Sinfonie Nr. 4 in e-Moll op. 98\n\nNDR Elbphilharmonie Orchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 1,
+      "PublishedAtRaw": "2024-12-11T22:43:51Z",
+      "PublishedAtDateTimeOffset": "2024-12-11T22:43:51+00:00",
+      "PublishedAt": "2024-12-12T04:13:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "GqUpIH2uJe8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/GqUpIH2uJe8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms - Sinfonie Nr. 4 in e-Moll | Christoph von Dohn\u00E1nyi (2007) | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1-fk0VeoLa8",
+      "VideoPublishedAtRaw": "2015-05-06T03:07:13Z",
+      "VideoPublishedAtDateTimeOffset": "2015-05-06T03:07:13+00:00",
+      "VideoPublishedAt": "2015-05-06T08:37:13+05:30"
+    },
+    "ETag": "gJsI5ipL6VePnD_F8hNq8dDGG88",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Support us on Patreon and get more content: https://www.patreon.com/classicalvault\n \n---\n \nJohannes Brahms\nSymphony No 4 in E minor, Op 98\n\nNDR Sinfonieorchester\nChristoph von Dohnanyi\n\nHamburg, 2007",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 2,
+      "PublishedAtRaw": "2025-10-25T21:44:47Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:47+00:00",
+      "PublishedAt": "2025-10-26T03:14:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1-fk0VeoLa8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1-fk0VeoLa8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms - Symphony No 4 - Dohnanyi",
+      "VideoOwnerChannelId": "UC9UkGZY5ezEfdBUG5wgZDdA",
+      "VideoOwnerChannelTitle": "Cantus 5"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ttHSNUIGxI4",
+      "VideoPublishedAtRaw": "2025-09-08T08:35:20Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-08T08:35:20+00:00",
+      "VideoPublishedAt": "2025-09-08T14:05:20+05:30"
+    },
+    "ETag": "5BmSv8fs_9FraBVnGWNJdW0R50A",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4zRjM0MkVCRTg0MkYyQTM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Christoph von Dohn\u00E1nyi dirigiert Benjamin Brittens \u0022The Young Person\u0027s Guide to the Orchestra\u0022 im Gro\u00DFen Sendesaal des WDR im Jahr 1965. Christoph von Dohn\u00E1nyi war von 1965 bis 1969 der erste Chefdirigent des damaligen K\u00F6lner Rundfunk-Sinfonie-Orchesters. \n\nHistorische Aufnahme aus dem WDR Klassik-Archiv.\n\nBenjamin Britten - \u0022The Young Person\u0027s Guide to the Orchestra\u0022, Variations and Fugue on a Theme of Purcell, op. 34\n\n00:00:00 Ganzes Orchester\n00:00:29 Holzbl\u00E4ser\n00:01:00 Blechbl\u00E4ser\n00:01:21 Streicher\n00:01:40 Schlagzeug\n00:02:22 Fl\u00F6te und Piccolofl\u00F6te\n00:02:56 Oboe\n00:04:05 Klarinette\n00:04:46 Fagott\n00:05:44 Geige\n00:06:20 Bratsche\n00:07:25 Cello\n00:08:48 Kontrabass\n00:09:56 Harfe\n00:10:47 Waldhorn\n00:11:41 Trompete\n00:12:15 Posaune und Tuba\n00:13:27 Schlagzeug\n00:15:22 Fuge\n\nWDR Sinfonieorchester (damals: K\u00F6lner Rundfunk-Sinfonie-Orchester ). \nChristoph von Dohn\u00E1nyi, Leitung\n\n\u25BA Mehr zum Sinfonieorchester, zu Konzerten und aktuellen Livestreams gibt es bei https://www.wdr-sinfonieorchester.de\n\u25BA Das WDR Sinfonieorchester bei Facebook https://www.facebook.com/wdrsinfonieorchester\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 3,
+      "PublishedAtRaw": "2025-10-25T21:45:03Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:45:03+00:00",
+      "PublishedAt": "2025-10-26T03:15:03+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ttHSNUIGxI4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ttHSNUIGxI4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Britten - The Young Person\u0027s Guide to the Orchestra | Christoph von Dohn\u00E1nyi | WDR Sinfonieorchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ZzV03lVRhm4",
+      "VideoPublishedAtRaw": "2020-05-27T20:52:37Z",
+      "VideoPublishedAtDateTimeOffset": "2020-05-27T20:52:37+00:00",
+      "VideoPublishedAt": "2020-05-28T02:22:37+05:30"
+    },
+    "ETag": "PdZqf8b7NtejP1rlPnFcklV5i2I",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 4,
+      "PublishedAtRaw": "2025-10-25T21:44:47Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:47+00:00",
+      "PublishedAt": "2025-10-26T03:14:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ZzV03lVRhm4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ZzV03lVRhm4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ZzV03lVRhm4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ZzV03lVRhm4/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "BRUCKNER sf 4 dohnanyi,christoph von NDR hamburg 20070715 hamburg Laeiszhalle,musikhalle",
+      "VideoOwnerChannelId": "UCdUYhTeJBjJG_BsClX8gzJw",
+      "VideoOwnerChannelTitle": "Ignasi Rodriguez Reynares"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "oHxcYwkFuuE",
+      "VideoPublishedAtRaw": "2020-06-06T20:35:45Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-06T20:35:45+00:00",
+      "VideoPublishedAt": "2020-06-07T02:05:45+05:30"
+    },
+    "ETag": "-VDrVHaCpLTH9_dl202Mw_gEtjM",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded June 1999 at the Allen Theatre in Cleveland (during renovations to Severance Hall) and ripped from the brilliant Dohnanyi/Cleveland edition WHICH IS STILL AVAILABLE TO BUY at a bargain price from the orchestra\u0027s website! Szell didn\u0027t perform Sibelius 5, but Dohnanyi\u0027s recording of this great work helps to make up for that.",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 5,
+      "PublishedAtRaw": "2025-10-25T21:44:48Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:48+00:00",
+      "PublishedAt": "2025-10-26T03:14:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "oHxcYwkFuuE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/oHxcYwkFuuE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland  and Dohnanyi LIVE 1999: Sibelius symphony no.5",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sWNIf6CPmF4",
+      "VideoPublishedAtRaw": "2025-09-17T19:33:26Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-17T19:33:26+00:00",
+      "VideoPublishedAt": "2025-09-18T01:03:26+05:30"
+    },
+    "ETag": "NI7GITLXkYP7T7feFgQaQ8PsvSQ",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded May 7, 1998, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 6,
+      "PublishedAtRaw": "2025-10-25T21:44:59Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:59+00:00",
+      "PublishedAt": "2025-10-26T03:14:59+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sWNIf6CPmF4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sWNIf6CPmF4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Bela Bartok, Divertimento for Strings",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "djjGBuMDyG4",
+      "VideoPublishedAtRaw": "2025-09-18T17:53:12Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-18T17:53:12+00:00",
+      "VideoPublishedAt": "2025-09-18T23:23:12+05:30"
+    },
+    "ETag": "Xc8vrUrXxceMmWS2Q21NMiYHrns",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded on 11 May, 1995, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 7,
+      "PublishedAtRaw": "2025-10-25T21:44:54Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:54+00:00",
+      "PublishedAt": "2025-10-26T03:14:54+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "djjGBuMDyG4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/djjGBuMDyG4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/djjGBuMDyG4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/djjGBuMDyG4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/djjGBuMDyG4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/djjGBuMDyG4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Cesar Franck, Symphony in D minor",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "BOSMMSiLL5I",
+      "VideoPublishedAtRaw": "2025-09-19T19:39:21Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-19T19:39:21+00:00",
+      "VideoPublishedAt": "2025-09-20T01:09:21+05:30"
+    },
+    "ETag": "C_OWsQlnEMioIZm2lDxJNkC7szs",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy43MTI1NDIwOTMwQjIxMzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded 1 October, 1998, at Severance Hall, and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 8,
+      "PublishedAtRaw": "2025-10-25T21:47:57Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:47:57+00:00",
+      "PublishedAt": "2025-10-26T03:17:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "BOSMMSiLL5I"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/BOSMMSiLL5I/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Charles Ives, Central Park in the Dark",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CW-SZVAl_Ac",
+      "VideoPublishedAtRaw": "2025-09-19T09:06:27Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-19T09:06:27+00:00",
+      "VideoPublishedAt": "2025-09-19T14:36:27+05:30"
+    },
+    "ETag": "rVSDTGzKuY9Ph3ZoyLtwoNiTKzk",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45NzUwQkI1M0UxNThBMkU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded on 25 May, 1995, at Severance Hall, and ripped from the orchstra\u0027s von Dohnanyi edition (nla)",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 9,
+      "PublishedAtRaw": "2025-10-25T21:47:55Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:47:55+00:00",
+      "PublishedAt": "2025-10-26T03:17:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CW-SZVAl_Ac"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CW-SZVAl_Ac/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Franz Liszt \u0027Les Preludes\u0027",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "XMVXQV-QmZo",
+      "VideoPublishedAtRaw": "2025-09-19T11:28:15Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-19T11:28:15+00:00",
+      "VideoPublishedAt": "2025-09-19T16:58:15+05:30"
+    },
+    "ETag": "OrEiIznD8j-cmodIV7UvTXeDK6g",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5DNzE1RjZEMUZCMjA0RDBB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded on 2 October 1997 at Severance Hall, and ripped from the orchestra\u0027s vov Dohnanyi edition (nla)",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 10,
+      "PublishedAtRaw": "2025-10-25T21:47:56Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:47:56+00:00",
+      "PublishedAt": "2025-10-26T03:17:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "XMVXQV-QmZo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/XMVXQV-QmZo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Haydn Symphony No.88 in G major",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ns_ZqRLe2h4",
+      "VideoPublishedAtRaw": "2025-09-17T19:51:55Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-17T19:51:55+00:00",
+      "VideoPublishedAt": "2025-09-18T01:21:55+05:30"
+    },
+    "ETag": "hwAAC4AD3Ra2GCWkd491OyaSv-A",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded May 26, 1994, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 11,
+      "PublishedAtRaw": "2025-10-25T21:44:58Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:58+00:00",
+      "PublishedAt": "2025-10-26T03:14:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ns_ZqRLe2h4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ns_ZqRLe2h4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Hindemith, Symphonic Metamorphosis on Themes by Weber",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "GvieNDP5s2o",
+      "VideoPublishedAtRaw": "2025-09-18T15:38:15Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-18T15:38:15+00:00",
+      "VideoPublishedAt": "2025-09-18T21:08:15+05:30"
+    },
+    "ETag": "sXaO26lN0ADRq2jBCbibTfaWZug",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded 25 September 1997 at Severance Hall, and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 12,
+      "PublishedAtRaw": "2025-10-25T21:44:55Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:55+00:00",
+      "PublishedAt": "2025-10-26T03:14:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "GvieNDP5s2o"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/GvieNDP5s2o/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/GvieNDP5s2o/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/GvieNDP5s2o/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/GvieNDP5s2o/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/GvieNDP5s2o/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Mendelssohn Symphony No.4 (\u0027Italian\u0027) in A major, Op.90",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "VCMUzVA3P5g",
+      "VideoPublishedAtRaw": "2025-09-17T18:12:35Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-17T18:12:35+00:00",
+      "VideoPublishedAt": "2025-09-17T23:42:35+05:30"
+    },
+    "ETag": "UkYDnj5poD1FEACQQjcbIEiEoOc",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded January 8, 2000, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 13,
+      "PublishedAtRaw": "2025-10-25T21:45:00Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:45:00+00:00",
+      "PublishedAt": "2025-10-26T03:15:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "VCMUzVA3P5g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/VCMUzVA3P5g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Prokofiev Symphony No.1 \u0027Classical\u0027 in D Major.",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "rOQaxo6xb4k",
+      "VideoPublishedAtRaw": "2025-09-18T18:51:18Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-18T18:51:18+00:00",
+      "VideoPublishedAt": "2025-09-19T00:21:18+05:30"
+    },
+    "ETag": "_RyXL4lKvPPGNNO-tfogh48CcNM",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded 23 January, 1997, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 14,
+      "PublishedAtRaw": "2025-10-25T21:45:02Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:45:02+00:00",
+      "PublishedAt": "2025-10-26T03:15:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "rOQaxo6xb4k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/rOQaxo6xb4k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Schubert Symphony No.5 in B-flat major, D.485",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "aDHQQvJF6bE",
+      "VideoPublishedAtRaw": "2025-09-17T21:07:12Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-17T21:07:12+00:00",
+      "VideoPublishedAt": "2025-09-18T02:37:12+05:30"
+    },
+    "ETag": "WrDPcuedEraxWntzEwx7_i6ysg0",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded September 17, 1998, at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla)",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 15,
+      "PublishedAtRaw": "2025-10-25T21:44:57Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:57+00:00",
+      "PublishedAt": "2025-10-26T03:14:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "aDHQQvJF6bE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/aDHQQvJF6bE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Shostakovich Symphony No.1 Op.10",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "3IJHPEDQuZ4",
+      "VideoPublishedAtRaw": "2025-09-18T12:09:08Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-18T12:09:08+00:00",
+      "VideoPublishedAt": "2025-09-18T17:39:08+05:30"
+    },
+    "ETag": "5dy99VrRPX-pnPdejVAIrwOLN3Y",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded on 14 September, 2000 at Severance Hall and ripped from the orchestra\u0027s von Dohnanyi edition (nla).",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 16,
+      "PublishedAtRaw": "2025-10-25T21:44:56Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:56+00:00",
+      "PublishedAt": "2025-10-26T03:14:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "3IJHPEDQuZ4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/3IJHPEDQuZ4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Cleveland / Dohnanyi LIVE: Tchaikovsky Symphony No.4 in F minor Op.36.",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "qFUyYERrF9o",
+      "VideoPublishedAtRaw": "2025-09-28T14:57:04Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-28T14:57:04+00:00",
+      "VideoPublishedAt": "2025-09-28T20:27:04+05:30"
+    },
+    "ETag": "pXlBKpBfwYYjbaygaSGKvWIJiSQ",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5DQ0MyQ0Y4Mzg0M0VGOEYw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "DVORAK, A.: Symphony No.9 \u0022From the New World\u0022 \n1st movement   00:00\n2nd   09:52\n3rd    21:40\n4th    30:08\nChristoph von Dohn\u00E1nyi / New York Philharmonic\n12/11/2014 New York, Avery Fisher Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30AF\u30EA\u30B9\u30C8\u30D5\u30FB\u30D5\u30A9\u30F3\u30FB\u30C9\u30DB\u30CA\u30FC\u30CB\u6307\u63EE\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF2014\u5E7411\u670812\u65E5\u3000\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u3001\u30A8\u30A4\u30F4\u30EA\u30FC\u30FB\u30D5\u30A3\u30C3\u30B7\u30E3\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u672C\u5E749\u6708\u306B\u4EA1\u304F\u306A\u3063\u305F\u30C9\u30DB\u30CA\u30FC\u30CB\u304C\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u306B\u5BA2\u6F14\u3057\u305F\u8A18\u9332\u3002\u5F53\u6642\u3059\u3067\u306B85\u6B73\u3067\u3057\u305F\u304C\u3001\u305D\u306E\u5F15\u304D\u7DE0\u307E\u3063\u305F\u97F3\u697D\u306F\u5065\u5728\u30021893\u5E74\u306E\u521D\u6F14\u4EE5\u6765\u30C1\u30A7\u30B3\u306E\u30AA\u30FC\u30B1\u30B9\u30C8\u30E9\u4EE5\u4E0A\u306B\u3053\u306E\u4F5C\u54C1\u3092\u770B\u677F\u3068\u3057\u3066\u304D\u305F\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u30FB\u30D5\u30A3\u30EB\u3068\u306E\u7D44\u307F\u5408\u308F\u305B\u306F\u307E\u3055\u306B\u81F3\u9AD8\u306E\u4E00\u8A00\u3002",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 17,
+      "PublishedAtRaw": "2025-10-25T21:47:58Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:47:58+00:00",
+      "PublishedAt": "2025-10-26T03:17:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "qFUyYERrF9o"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/qFUyYERrF9o/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/qFUyYERrF9o/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/qFUyYERrF9o/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "DVORAK, A.: Symphony No.9 \u0022From the New World\u0022     C.V. Dohn\u00E1nyi / NYPO 2014 New York live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "S6aCTklIymc",
+      "VideoPublishedAtRaw": "2025-03-09T06:27:43Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-09T06:27:43+00:00",
+      "VideoPublishedAt": "2025-03-09T11:57:43+05:30"
+    },
+    "ETag": "HF35k9bDGhtUxnnwYr7hzkx4DKs",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Nikolaj Znaider (Violin, 1975 - )\nNew York Philharmonic Orch. cond. by Christoph von Dohnanyi \n00:00 - I. Allegro moderato\n16:10 - II. Adagio di molto\n24:43 - III. Allegro, ma non tanto\nrec. October 2007, New York\nlive broadcast",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 18,
+      "PublishedAtRaw": "2025-10-25T21:44:49Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:49+00:00",
+      "PublishedAt": "2025-10-26T03:14:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "S6aCTklIymc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/S6aCTklIymc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/S6aCTklIymc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/S6aCTklIymc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/S6aCTklIymc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Nikolaj Znaider - Sibelius : Violin Concerto Op.47 (2007- Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "f7UO_miRI5A",
+      "VideoPublishedAtRaw": "2014-06-06T15:07:16Z",
+      "VideoPublishedAtDateTimeOffset": "2014-06-06T15:07:16+00:00",
+      "VideoPublishedAt": "2014-06-06T20:37:16+05:30"
+    },
+    "ETag": "GUnYri88sshjaJ2SZRaRCL822Zc",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D6\u30ED\u30B0\u300C\u5BF8\u8349\u6625\u6689\u300D2014\u5E746\u670810\u65E5\nhttp://blog.goo.ne.jp/tgcy2801\n\uFF08C1255B\uFF09",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 19,
+      "PublishedAtRaw": "2025-10-25T21:44:51Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:51+00:00",
+      "PublishedAt": "2025-10-26T03:14:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "f7UO_miRI5A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/f7UO_miRI5A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/f7UO_miRI5A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/f7UO_miRI5A/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "R.\u30B7\u30E5\u30C8\u30E9\u30A6\u30B9\uFF0F\u4EA4\u97FF\u8A69\u300C\u30C4\u30A1\u30E9\u30C8\u30A5\u30B9\u30C8\u30E9\u306F\u304B\u304F\u8A9E\u308A\u304D\u300D\u4F5C\u54C130\uFF0F\u30C9\u30DB\u30CA\u30FC\u30CB\uFF0F\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\uFF081984 9 11\uFF09",
+      "VideoOwnerChannelId": "UCzZDVhwArsgUazOiNawiyDg",
+      "VideoOwnerChannelTitle": "Yasumi Taguchi"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "JxF6CHbwTws",
+      "VideoPublishedAtRaw": "2022-06-10T15:43:36Z",
+      "VideoPublishedAtDateTimeOffset": "2022-06-10T15:43:36+00:00",
+      "VideoPublishedAt": "2022-06-10T21:13:36+05:30"
+    },
+    "ETag": "fh4niMiF_LkWvs41TaIkrL6-uN8",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Schubert sketched this movement for a symphony in autumn 1828. Performance edition (1982) prepared by Peter Gulke. Recorded live at Severance, February 15/16/17, 1990, and ripped from the Cleveland Orchestra 75th Anniversary Edition.",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 20,
+      "PublishedAtRaw": "2025-10-25T21:45:01Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:45:01+00:00",
+      "PublishedAt": "2025-10-26T03:15:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "JxF6CHbwTws"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/JxF6CHbwTws/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/JxF6CHbwTws/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/JxF6CHbwTws/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/JxF6CHbwTws/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/JxF6CHbwTws/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schubert: Andante (B minor) from \u0022Symphony No.10\u0022 (D.936A) by Cleveland Orchestra / Dohnanyi (live)",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "KhdCT2IoqwU",
+      "VideoPublishedAtRaw": "2021-12-30T10:03:29Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-30T10:03:29+00:00",
+      "VideoPublishedAt": "2021-12-30T15:33:29+05:30"
+    },
+    "ETag": "ueNKlRrxvniqSOEdz9-ptylYd2g",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumanns Sinfonie Nr. 1 B-Dur - auch \u0022Fr\u00FChlingssinfonie\u0022 genannt -, gespielt vom NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) unter der Leitung seines damaligen Chefdirigenten Christoph von Dohn\u00E1nyi. Live aufgezeichnet am 14. November 2008 in der Laeiszhalle in Hamburg.\n\nRobert Schumann - Sinfonie Nr. 1 B-Dur op. 38 \u0022Fr\u00FChlingssinfonie\u0022  \n\n00:00:00 I. Andante un poco maestoso - Allegro molto vivace  \n00:12:02 II. Larghetto  \n00:19:30 III. Scherzo. Molto vivace  \n00:25:22 IV. Finale. Allegro animato e grazioso  \n\nNDR Sinfonieorchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 21,
+      "PublishedAtRaw": "2024-12-11T22:42:41Z",
+      "PublishedAtDateTimeOffset": "2024-12-11T22:42:41+00:00",
+      "PublishedAt": "2024-12-12T04:12:41+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "KhdCT2IoqwU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/KhdCT2IoqwU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann - Sinfonie Nr. 1 | Christoph von Dohn\u00E1nyi | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "i-FX6B-uWwc",
+      "VideoPublishedAtRaw": "2021-11-01T12:23:17Z",
+      "VideoPublishedAtDateTimeOffset": "2021-11-01T12:23:17+00:00",
+      "VideoPublishedAt": "2021-11-01T17:53:17+05:30"
+    },
+    "ETag": "kbceMnAhHJmNgsNFijbGcyrrKjw",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Schumanns Sinfonie Nr. 2 C-Dur op. 61, gespielt vom damaligen NDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester) unter der Leitung seines damaligen Chefdirigenten Christoph von Dohn\u00E1nyi. Live aufgezeichnet am 14. Juni 2008 in der Laeiszhalle.\n\nRobert Schumann - Sinfonie Nr. 2 C-Dur op. 61  \n\n00:00:00 I. Sostenuto assai - Allegro ma non troppo  \n00:12:55 II. Scherzo. Allegro vivace  \n00:20:09 III. Adagio espressivo  \n00:30:34 IV. Allegro molto vivace  \n\nNDR Sinfonieorchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 22,
+      "PublishedAtRaw": "2024-12-11T22:42:35Z",
+      "PublishedAtDateTimeOffset": "2024-12-11T22:42:35+00:00",
+      "PublishedAt": "2024-12-12T04:12:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "i-FX6B-uWwc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/i-FX6B-uWwc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann - Sinfonie Nr. 2 | Christoph von Dohn\u00E1nyi | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "w1M3eGYxbq0",
+      "VideoPublishedAtRaw": "2013-08-31T09:28:13Z",
+      "VideoPublishedAtDateTimeOffset": "2013-08-31T09:28:13+00:00",
+      "VideoPublishedAt": "2013-08-31T14:58:13+05:30"
+    },
+    "ETag": "ArBPQIhOShw1pDhoeiVQH5KC0ZU",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Be apart of my Facebook page! http://www.facebook.com/Blop888\nRobert Schumann\nConductor: Christoph von Dohnanyi)\nOrchestra: The Cleveland Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 23,
+      "PublishedAtRaw": "2025-10-25T21:44:52Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:52+00:00",
+      "PublishedAt": "2025-10-26T03:14:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "w1M3eGYxbq0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/w1M3eGYxbq0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schumann Symphony no. 4 op. 120 in D minor (Christoph von Dohnanyi)",
+      "VideoOwnerChannelId": "UCWI2TGKQ57ROkapNgZSUiGA",
+      "VideoOwnerChannelTitle": "BLOP888"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Cq9vps8eCww",
+      "VideoPublishedAtRaw": "2020-09-20T08:27:33Z",
+      "VideoPublishedAtDateTimeOffset": "2020-09-20T08:27:33+00:00",
+      "VideoPublishedAt": "2020-09-20T13:57:33+05:30"
+    },
+    "ETag": "WTn8ZZnb_2Im_e1z6H3xQmZNAYs",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Igor Stravinsky\n\nL\u0027Oiseau de feu\n\n\u010Cesk\u00E1 filharmonie\nChristoph von Dohn\u00E1nyi\nLive recording, Prague",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 24,
+      "PublishedAtRaw": "2025-10-25T21:44:52Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:52+00:00",
+      "PublishedAt": "2025-10-26T03:14:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Cq9vps8eCww"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Cq9vps8eCww/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Cq9vps8eCww/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Cq9vps8eCww/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Cq9vps8eCww/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Cq9vps8eCww/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Stravinsky - The Firebird - Czech Ph / Dohnanyi",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "GZio51qoKaY",
+      "VideoPublishedAtRaw": "2020-02-04T11:11:02Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-04T11:11:02+00:00",
+      "VideoPublishedAt": "2020-02-04T16:41:02+05:30"
+    },
+    "ETag": "ckr6pPCLHkO2FbEHKLl4aywb97w",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Tschaikowskys \u0022Path\u00E9tique\u0022, Ligetis Doppelkonzert und Ives \u0022Unanswered Question\u0022, gespielt vom NDR Elbphilharmonie Orchester unter der Leitung seines ehemaligen Chefdirigent Christoph von Dohn\u00E1nyi. Live aufgezeichnet am 18. Januar 2020 in der Elbphilharmonie Hamburg.\n\nCharles Edward Ives - The Unanswered Question\nGy\u00F6rgy Ligeti - Doppelkonzert f\u00FCr Fl\u00F6te, Oboe und Orchester\nPeter Tschaikowsky - Sinfonie Nr. 6 h-Moll op. 74 \u0022Path\u00E9tique\u0022\n\nHenrik Wiese, Fl\u00F6te\nKalev Kuljus, Oboe\nNDR Elbphilharmonie Orchester\nChristoph von Dohn\u00E1nyi, Dirigent\n\n\u25BA Mehr zum NDR Elbphilharmonie Orchester, zu Konzerten, aktuellen Livestreams und Mitschnitten gibt es unter https://www.ndr.de/eo\n\u25BA Das NDR Elbphilharmonie Orchester bei Facebook: https://www.facebook.com/ndrelbphilharmonieorchester\n\u25BA Das NDR Elbphilharmonie Orchester auf Instagram: https://www.instagram.com/ndr.eo/\n\n\u25BA Weitere Konzerte und Werkeinf\u00FChrungen aus der Welt der klassischen Musik, Symphonic Crossover, Chorgesang und Konzerte f\u00FCr Kinder finden Sie auch in der ARD Mediathek: https://www.ardmediathek.de/klassik",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 25,
+      "PublishedAtRaw": "2024-12-11T22:44:01Z",
+      "PublishedAtDateTimeOffset": "2024-12-11T22:44:01+00:00",
+      "PublishedAt": "2024-12-12T04:14:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "GZio51qoKaY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/GZio51qoKaY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/GZio51qoKaY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/GZio51qoKaY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/GZio51qoKaY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/GZio51qoKaY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tschaikowsky, Ives \u0026 Ligeti | Christoph von Dohn\u00E1nyi | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "3JENDDnYQSo",
+      "VideoPublishedAtRaw": "2014-05-08T01:27:05Z",
+      "VideoPublishedAtDateTimeOffset": "2014-05-08T01:27:05+00:00",
+      "VideoPublishedAt": "2014-05-08T06:57:05+05:30"
+    },
+    "ETag": "gWAkIhqokhEdclFLhiD0rVo3yTA",
+    "Id": "UEwxemdOQ29XdF83YjhfWHhNM0ZmZDc5WEtrWVNpWjJaYy45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D6\u30ED\u30B0\u300C\u5BF8\u8349\u6625\u6689\u300D2014\u5E745\u670814\u65E5\nhttp://blog.goo.ne.jp/tgcy2801\u3000C1298B\n\uFF081983.6.2\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u30DB\u30FC\u30EB\u306B\u3066\u53CE\u9332\uFF09\u3000\u30A8\u30A2\u30C1\u30A7\u30C3\u30AF\u306F1984.3.19\n\n\u3000\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\u306E3\u5927\u30D0\u30EC\u30FC\u97F3\u697D\u300C\u6625\u306E\u796D\u5178\u300D\u300C\u706B\u306E\u9CE5\u300D\u300C\u30DA\u30C8\u30EB\u30FC\u30B7\u30E5\u30AB\u300D\u306E\u3046\u3061\u306E\u4E00\u3064\u3067\u3059\u3002\u7D44\u66F2\u7248\uFF08\u7D0422\uFF5E23\u5206\uFF09\u3067\u306E\u6F14\u594F\u304C\u591A\u3044\u3067\u3059\u304C\u3001\u3053\u308C\u306F\u5168\u66F2\u7248\u3067\u3059\u306E\u306745\u5206\u4EE5\u4E0A\u3068\u9577\u3044\u3067\u3059\u3002\u66F2\u306E\u958B\u59CB\u306F0\u520625\u79D2\u3042\u305F\u308A\u304B\u3089\u3067\u3059\u3002\n\u3000\u4E07\u4E00\u306E\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\u30D5\u30A1\u30F3\u306E\u65B9\u3078\u3001\u30DE\u30BC\u30FC\u30EB\uFF0F\u30A6\u30A4\u30FC\u30F3\u30D5\u30A3\u30EB\uFF0884\uFF09\u3068\u82E5\u6749\u5F18\uFF0F\u30A6\u30A4\u30FC\u30F3\u4EA4\u97FF\u697D\u56E3\uFF0884\uFF09\u306E\u7D44\u66F2\u7248\u304C\u3042\u308A\u307E\u3059\u306E\u3067\u305D\u306E\u3046\u3061\u306B\u30A2\u30C3\u30D7\u3057\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7b8_XxM3Ffd79XKkYSiZ2Zc",
+      "Position": 26,
+      "PublishedAtRaw": "2025-10-25T21:44:53Z",
+      "PublishedAtDateTimeOffset": "2025-10-25T21:44:53+00:00",
+      "PublishedAt": "2025-10-26T03:14:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "3JENDDnYQSo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/3JENDDnYQSo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/3JENDDnYQSo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/3JENDDnYQSo/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF0F\u300C\u706B\u306E\u9CE5\u300D\uFF0F\u30C9\u30DB\u30CA\u30FC\u30CB\uFF0F\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB",
+      "VideoOwnerChannelId": "UCzZDVhwArsgUazOiNawiyDg",
+      "VideoOwnerChannelTitle": "Yasumi Taguchi"
+    }
+  }
 ]

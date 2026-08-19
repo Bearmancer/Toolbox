@@ -1,942 +1,942 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "7cIVqYeE5u0",
-			"VideoPublishedAtRaw": "2022-01-06T15:32:18Z",
-			"VideoPublishedAtDateTimeOffset": "2022-01-06T15:32:18+00:00",
-			"VideoPublishedAt": "2022-01-06T21:02:18+05:30"
-		},
-		"ETag": "_DBiuXC2UiqQVPHyk5tlaXllwZo",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci45RTgxNDRBMzUwRjQ0MDhC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Overture in G minor by Anton Bruckner\nPittsburgh Symphony Orchestra\nWilliam Steinberg, Conductor",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 0,
-			"PublishedAtRaw": "2024-11-09T16:11:59Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:11:59+00:00",
-			"PublishedAt": "2024-11-09T21:41:59+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "7cIVqYeE5u0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Anton Bruckner \u0022Overture in G minor\u0022 William Steinberg",
-			"VideoOwnerChannelId": "UCowleoT1p2eZtz8J1EUuvHw",
-			"VideoOwnerChannelTitle": "Addiobelpassato"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "aIaqEyAfsfs",
-			"VideoPublishedAtRaw": "2014-08-25T13:59:45Z",
-			"VideoPublishedAtDateTimeOffset": "2014-08-25T13:59:45+00:00",
-			"VideoPublishedAt": "2014-08-25T19:29:45+05:30"
-		},
-		"ETag": "UdbbMzMXQ84vZExY1CHJ9kHrzHQ",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Ludwig van Beethoven\n\nPiano concerto n\u00B05 op.73 \u0022Emperor\u0022\n\nI. Allegro 0:00\nII. Adagio un poco mosso 20:06\nIII. Rondo. Allegro 27:52\n\nArturo Benedetti Michelangeli\nNew York Philharmonic Orchestra\nWilliam Steinberg\nLive recording, New York, 6 \u0026 10.I.1966",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 1,
-			"PublishedAtRaw": "2024-11-09T16:06:56Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:06:56+00:00",
-			"PublishedAt": "2024-11-09T21:36:56+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "aIaqEyAfsfs"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven - Piano concerto n\u00B05 - Michelangeli / NYP / Steinberg",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Y7CeYOgqFrg",
-			"VideoPublishedAtRaw": "2015-01-25T20:49:51Z",
-			"VideoPublishedAtDateTimeOffset": "2015-01-25T20:49:51+00:00",
-			"VideoPublishedAt": "2015-01-26T02:19:51+05:30"
-		},
-		"ETag": "_IccD-w_b7LLDje1zgd9pIUm4eU",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u0027Symphony no. 2\u0027 by Benjamin Lees, in an October 17, 1969 performance by the Boston Symphony Orchestra conducted by William Steinberg. This work has also been recorded on the Albany label:\n\nhttp://www.amazon.com/Symphonies-2-3-Benjamin-Lees/dp/B00008BLCF/ref=sr_1_4?ie=UTF8\u0026qid=1422218821\u0026sr=8-4\u0026keywords=lees\u002Bsymphony\u002Balbany",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 2,
-			"PublishedAtRaw": "2024-11-09T16:06:23Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:06:23+00:00",
-			"PublishedAt": "2024-11-09T21:36:23+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Y7CeYOgqFrg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Benjamin Lees: Symphony no. 2 (Boston S.O./Steinberg)",
-			"VideoOwnerChannelId": "UCeq81A3_ZzK5-A74k3BQ7hg",
-			"VideoOwnerChannelTitle": "noochinator2"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "XBgsrG6rDNg",
-			"VideoPublishedAtRaw": "2014-03-26T06:48:59Z",
-			"VideoPublishedAtDateTimeOffset": "2014-03-26T06:48:59+00:00",
-			"VideoPublishedAt": "2014-03-26T12:18:59+05:30"
-		},
-		"ETag": "pc9vPhxnxUoNM9rlJvyHzO6jG9Q",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Ernest Bloch\n\nConcerto grosso n\u00B01 for string orchestra with piano obbligato\n\nI. Prelude 0:00\nII. Dirge 2:43\nIII. Pastorale and Rustic Dances 8:50\nIV. Fugue 14:49\n\nHarry Franklin\nPittsburgh Symphony Orchestra\nWilliam Steinberg\nLive recording, Pittsburgh, 24.XI.1952",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 3,
-			"PublishedAtRaw": "2024-11-09T16:07:38Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:07:38+00:00",
-			"PublishedAt": "2024-11-09T21:37:38+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "XBgsrG6rDNg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Bloch - Concerto grosso n\u00B01 - Pittsburgh SO / Steinberg",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "6J9BdZ8DNsA",
-			"VideoPublishedAtRaw": "2015-08-07T13:52:53Z",
-			"VideoPublishedAtDateTimeOffset": "2015-08-07T13:52:53+00:00",
-			"VideoPublishedAt": "2015-08-07T19:22:53+05:30"
-		},
-		"ETag": "kxx3IGpGduLmbQ_EKkULzRubfIo",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Johannes Brahms\n\nPiano concerto n\u00B01 op.15\n\nI. Maestoso - Poco pi\u00F9 moderato 0:00\nII. Adagio 20:58\nIII. Rondo. Allegro ma non troppo 34:01\n\nMaurizio Pollini\nThe Cleveland Orchestra\nWilliam Steinberg\nLive recording, Cleveland, 9.III.1978",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 4,
-			"PublishedAtRaw": "2024-11-09T16:06:01Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:06:01+00:00",
-			"PublishedAt": "2024-11-09T21:36:01+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "6J9BdZ8DNsA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Brahms - Piano concerto n\u00B01 - Pollini / Cleveland / Steinberg",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "7cNAPTzApVg",
-			"VideoPublishedAtRaw": "2020-03-30T23:34:42Z",
-			"VideoPublishedAtDateTimeOffset": "2020-03-30T23:34:42+00:00",
-			"VideoPublishedAt": "2020-03-31T05:04:42+05:30"
-		},
-		"ETag": "GiWKmiLUBhKFlO8bHqVOj9hwgCE",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Brahms Tragic Ouverture op.81 - Piano Concerto No.2 op.83.\nVladimir Ashkenazy, piano - William Steinberg, conductor.\nBoston Symphony Orchestra (Live rec. 16.08.71)",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 5,
-			"PublishedAtRaw": "2024-11-09T15:54:35Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:54:35+00:00",
-			"PublishedAt": "2024-11-09T21:24:35+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "7cNAPTzApVg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/7cNAPTzApVg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/7cNAPTzApVg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/7cNAPTzApVg/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Brahms Tragic Ouv. and Piano Concerto No.2 - Ashkenazy / Steinberg / BSO (1971)",
-			"VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
-			"VideoOwnerChannelTitle": "goodmanmusica"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "C5q3tb6pRDk",
-			"VideoPublishedAtRaw": "2023-05-31T00:09:06Z",
-			"VideoPublishedAtDateTimeOffset": "2023-05-31T00:09:06+00:00",
-			"VideoPublishedAt": "2023-05-31T05:39:06+05:30"
-		},
-		"ETag": "rqbUFn-i0ytKy3Vf_LSEeMWdwSE",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Gottfried Von Einem Violin Concerto US Premiere\nChristiane Edinger - BSO Debut \n1-Andante\n2-Allegro Ma non troppo\n3-Presto\n4-Adagio",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 6,
-			"PublishedAtRaw": "2024-11-09T15:46:27Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:46:27+00:00",
-			"PublishedAt": "2024-11-09T21:16:27+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "C5q3tb6pRDk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Christiane Edinger, Gottfried Von Einem, Violin Concerto(1966)W.Steinberg, BSO Sept. 24, 1971",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "TTxTD14qwlQ",
-			"VideoPublishedAtRaw": "2023-05-01T20:41:02Z",
-			"VideoPublishedAtDateTimeOffset": "2023-05-01T20:41:02+00:00",
-			"VideoPublishedAt": "2023-05-02T02:11:02+05:30"
-		},
-		"ETag": "p16jYi9vbmgDxhBl1hAQQgb3Jrw",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 7,
-			"PublishedAtRaw": "2024-11-09T15:46:30Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:46:30+00:00",
-			"PublishedAt": "2024-11-09T21:16:30+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "TTxTD14qwlQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "David Oistrakh, Brahms Violin Concerto in D Op. 77 W. Steinberg, Boston Symph. Orch Live 1, 12, 1970",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "vuABmfJZ_nI",
-			"VideoPublishedAtRaw": "2015-02-08T22:11:46Z",
-			"VideoPublishedAtDateTimeOffset": "2015-02-08T22:11:46+00:00",
-			"VideoPublishedAt": "2015-02-09T03:41:46+05:30"
-		},
-		"ETag": "f64QpPopm0t-qGe3AK7yoO8u67k",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recorded in Symphony Hall, Boston MA\n16 January 1970\n\n3:47 : Allegro agitato\n19:25 : Andante sostenuto\n27:20 : Allegro con fuoco",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 8,
-			"PublishedAtRaw": "2024-11-09T15:47:25Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:47:25+00:00",
-			"PublishedAt": "2024-11-09T21:17:25+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "vuABmfJZ_nI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Dvorak - W. Steinberg \u0026 R. Firkusny (BSO, live 1970) Piano Concerto in G minor, Op 33",
-			"VideoOwnerChannelId": "UC2zlRzqMd3I9xd3g4nOVx6Q",
-			"VideoOwnerChannelTitle": "On The Top of Damavand for ever"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "998GlsPALtY",
-			"VideoPublishedAtRaw": "2023-11-23T10:01:53Z",
-			"VideoPublishedAtDateTimeOffset": "2023-11-23T10:01:53+00:00",
-			"VideoPublishedAt": "2023-11-23T15:31:53+05:30"
-		},
-		"ETag": "Dueg7Z9yRBTggSp8LWslo1mg0Ao",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Provided to YouTube by Universal Music Group\n\nDvo\u0159\u00E1k: Scherzo capriccioso, Op. 66, B. 131 \u00B7 Pittsburgh Symphony Orchestra \u00B7 William Steinberg\n\nVerdi Quartet \u0026 Curtain Calls!\n\n\u2117 1972 Deutsche Grammophon GmbH, Berlin\n\nReleased on: 2023-11-24\n\nProducer: Loren Becker\nProducer: Bobby Byrne\nEngineer: C. Robert Fine\nComposer: Anton\u00EDn Dvo\u0159\u00E1k\n\nAuto-generated by YouTube.",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 9,
-			"PublishedAtRaw": "2024-11-09T16:10:52Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:10:52+00:00",
-			"PublishedAt": "2024-11-09T21:40:52+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "998GlsPALtY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/998GlsPALtY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/998GlsPALtY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/998GlsPALtY/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/998GlsPALtY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/998GlsPALtY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Dvo\u0159\u00E1k: Scherzo capriccioso, Op. 66, B. 131",
-			"VideoOwnerChannelId": "UCzTx_S_adVTa0X22xy293ZA",
-			"VideoOwnerChannelTitle": "Pittsburgh Symphony Orchestra - Topic"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "OIj-ODbhIdQ",
-			"VideoPublishedAtRaw": "2016-09-13T11:41:20Z",
-			"VideoPublishedAtDateTimeOffset": "2016-09-13T11:41:20+00:00",
-			"VideoPublishedAt": "2016-09-13T17:11:20+05:30"
-		},
-		"ETag": "B2iorVi9jGUzAHBRhFG3aYzR8Ck",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Robert Starer: Symphony No 3 [William Steinberg-Boston Symphony Orchestra]. Note: All efforts have been made to downplay the excessive hiss.",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 10,
-			"PublishedAtRaw": "2024-11-09T16:05:51Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:05:51+00:00",
-			"PublishedAt": "2024-11-09T21:35:51+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "OIj-ODbhIdQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Robert Starer: Symphony No 3 [Steinberg-Boston SO]",
-			"VideoOwnerChannelId": "UCfFPCgr45pH_pzslan4EriQ",
-			"VideoOwnerChannelTitle": "James Stuart"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "zHnfv5bYBv4",
-			"VideoPublishedAtRaw": "2024-04-04T10:04:47Z",
-			"VideoPublishedAtDateTimeOffset": "2024-04-04T10:04:47+00:00",
-			"VideoPublishedAt": "2024-04-04T15:34:47+05:30"
-		},
-		"ETag": "k7Sdz2fn2w9cRnqc3yAtAReXDnA",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41QTY1Q0UxMTVCODczNThE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Provided to YouTube by RCA Red Seal\n\nScherzo fantastique (2024 Remastered Version) \u00B7 William Steinberg \u00B7 Boston Symphony Orchestra\n\nWilliam Steinberg - Boston Symphony Orchestra - The Complete RCA Victor Recordings\n\n\u2117 2023 Sony Music Entertainment\n\nReleased on: 2024-04-05\n\nConductor: William Steinberg\nOrchestra: Boston Symphony Orchestra\nComposer: Igor Stravinsky\n\nAuto-generated by YouTube.",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 11,
-			"PublishedAtRaw": "2024-11-09T16:10:10Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:10:10+00:00",
-			"PublishedAt": "2024-11-09T21:40:10+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "zHnfv5bYBv4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Scherzo fantastique (2024 Remastered Version)",
-			"VideoOwnerChannelId": "UCCU4WMYVgKdGOoNd0ygXrPQ",
-			"VideoOwnerChannelTitle": "William Steinberg - Topic"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "k-pkL5gK17s",
-			"VideoPublishedAtRaw": "2020-06-13T10:44:06Z",
-			"VideoPublishedAtDateTimeOffset": "2020-06-13T10:44:06+00:00",
-			"VideoPublishedAt": "2020-06-13T16:14:06+05:30"
-		},
-		"ETag": "wf3FS1Yr0YQTEYfkYAgRhEsRWuU",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "One of the most incredible, speaker shattering Le Sacre du Printemps out there.\n\nStravinsky - Le Sacre du Printemps (The Rite of Spring) - Steinberg/BSO (Live, 1970)\n\nWilliam Steinberg\nBoston Symphony Orchestra\nPrincipal timpanist: Everett \u0022Vic\u0022 Firth\n \nBroadcast Intro 0:00\n1. L\u2019Adoration de la terre 2:49\n2. Le Sacrifice 18:00",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 12,
-			"PublishedAtRaw": "2024-11-09T15:53:39Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:53:39+00:00",
-			"PublishedAt": "2024-11-09T21:23:39+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "k-pkL5gK17s"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/k-pkL5gK17s/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/k-pkL5gK17s/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/k-pkL5gK17s/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/k-pkL5gK17s/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/k-pkL5gK17s/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Stravinsky - Le Sacre du Printemps (The Rite of Spring) - Steinberg/BSO (Live, 1970)",
-			"VideoOwnerChannelId": "UCBU8KbiGB2xSnDN1E3toKhg",
-			"VideoOwnerChannelTitle": "RabidCh"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "a8kFUbBuGpo",
-			"VideoPublishedAtRaw": "2024-11-09T15:06:09Z",
-			"VideoPublishedAtDateTimeOffset": "2024-11-09T15:06:09+00:00",
-			"VideoPublishedAt": "2024-11-09T20:36:09+05:30"
-		},
-		"ETag": "96SUPgLPHof6lP8rJdMCcHh60OU",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Stravinsky : The Rite of Spring\n1st Part   00:00\n2nd Part  15:20\nWilliam Steinberg / Boston Symphony orchestra\n1970 ( date, place unknown ) live broadcast\n\n\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF1A\u6625\u306E\u796D\u5178\n\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u6307\u63EE\u3000\u30DC\u30B9\u30C8\u30F3\u4EA4\u97FF\u697D\u56E3\n1970\u5E74\uFF08\u65E5\u6642\u3001\u5834\u6240\u4E0D\u660E\uFF09\u30E9\u30A4\u30D6\u5B9F\u6CC1\u653E\u9001\u9332\u97F3\n\u203B\u300C\u6625\u306E\u796D\u5178\u300D\u306F\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u306E\u5F97\u610F\u66F2\u3067\u3001\u3053\u306E\u6F14\u594F\u306E\u51C4\u307F\u306F\u304B\u306A\u308A\u885D\u6483\u7684\u3060\u3068\u611F\u3058\u307E\u3059\u3002\u3053\u306E\u76F4\u3050\u5F8C\u306B\u30DC\u30B9\u30C8\u30F3\u97FF\u306F\u30C6\u30A3\u30EB\u30BD\u30F3\uFF1D\u30C8\u30FC\u30DE\u30B9\u3068\u9332\u97F3\u3057\u540D\u76E4\u306E\u8A55\u4FA1\u3092\u53D7\u3051\u308B\u306E\u3067\u3059\u304C\u3001\u305D\u306E\u30D9\u30FC\u30B9\u306B\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u306B\u3088\u308B\u7DCA\u5BC6\u306A\u8A13\u7DF4\u304C\u3042\u3063\u305F\u3068\u60F3\u50CF\u3067\u304D\u307E\u3059\u306D\u3002\u540D\u30C6\u30A3\u30F3\u30D1\u30CB\u30B9\u30C8\u3001\u30A8\u30F4\u30A1\u30EC\u30C3\u30C8\u30FB\u30D5\u30A1\u30FC\u30B9\u304C\u5927\u6D3B\u8E8D\u3057\u3066\u3044\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 13,
-			"PublishedAtRaw": "2024-11-09T15:45:41Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:45:41+00:00",
-			"PublishedAt": "2024-11-09T21:15:41+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "a8kFUbBuGpo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/a8kFUbBuGpo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/a8kFUbBuGpo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/a8kFUbBuGpo/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Stravinsky : The Rite of Spring      W. Steinberg / BSO 1970 live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "-wsAlP5y-64",
-			"VideoPublishedAtRaw": "2024-11-08T13:25:21Z",
-			"VideoPublishedAtDateTimeOffset": "2024-11-08T13:25:21+00:00",
-			"VideoPublishedAt": "2024-11-08T18:55:21+05:30"
-		},
-		"ETag": "VCEwuMrcKuGxkhUUqWzX88U_P14",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Tchaikovsky : Symphony No.4 \n1st movement   00:00\n2nd  18:00\n3rd   26:26\n4th   32:03\nWilliam Steinberg / Pittsburgh Symphony Orchestra\n4-5/1963  Command Classics recording( 35mm Magnetic film stereo )\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u6307\u63EE\u3000\u30D4\u30C3\u30C4\u30D0\u30FC\u30B0\u4EA4\u97FF\u697D\u56E3\n1963\u5E744\uFF5E5\u6708\u3000\u30B3\u30DE\u30F3\u30C9\u30FB\u30AF\u30E9\u30B7\u30C3\u30AF\u30B9\u9332\u97F3\uFF0835\uFF4D\uFF4D\u30DE\u30B0\u30CD\u30C3\u30C8\u30FB\u30D5\u30A3\u30EB\u30E0\u9332\u97F3\uFF09\n\u203B\u30B3\u30DE\u30F3\u30C9\u30FB\u30EC\u30FC\u30D9\u30EB\u306E\u30DE\u30B0\u30CD\u30C3\u30C8\u30FB\u30D5\u30A3\u30EB\u30E0\u306B\u3088\u308B\u512A\u79C0\u9332\u97F3\u3002\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u306E\u5B9F\u529B\u306E\u9AD8\u3055\u304C\u308F\u304B\u308B\u96A0\u308C\u540D\u76E4\u3002",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 14,
-			"PublishedAtRaw": "2024-11-09T15:45:49Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:45:49+00:00",
-			"PublishedAt": "2024-11-09T21:15:49+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "-wsAlP5y-64"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/-wsAlP5y-64/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/-wsAlP5y-64/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/-wsAlP5y-64/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Tchaikovsky : Symphony No.4     W. Steinberg / PSO 1963",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ndr5NzIe7lY",
-			"VideoPublishedAtRaw": "2020-06-05T13:53:12Z",
-			"VideoPublishedAtDateTimeOffset": "2020-06-05T13:53:12+00:00",
-			"VideoPublishedAt": "2020-06-05T19:23:12+05:30"
-		},
-		"ETag": "GaiIxtniboVTJ8Gve-ZWSKNLnOk",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci45NDk1REZENzhEMzU5MDQz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Peter Ilich Tchaikovsky. Piano concerto no. 1 in Bb minor, op. 23\nVladimir Horowitz, piano; Hollywood Bowl Orchestra; William Steinberg, conductor\nRecorded live at the Hollywood Bowl, 2 August 1949\n\nI. Allegro non troppo e molto maestoso - Allegro con spirito (0:00)\nII. Andantino semplice - Prestissimo - Tempo I (20:08)\nIII. Allegro con fuoco - Molto meno mosso - Allegro vivo (26:41)",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 15,
-			"PublishedAtRaw": "2024-11-09T15:53:56Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:53:56+00:00",
-			"PublishedAt": "2024-11-09T21:23:56+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ndr5NzIe7lY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tchaikovsky, Piano concerto no. 1 in Bb minor, op. 23 (Horowitz/Steinberg/Hollywood Bowl/1949)",
-			"VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
-			"VideoOwnerChannelTitle": "Music Lover"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "mP32c2PCj8I",
-			"VideoPublishedAtRaw": "2024-05-30T08:38:02Z",
-			"VideoPublishedAtDateTimeOffset": "2024-05-30T08:38:02+00:00",
-			"VideoPublishedAt": "2024-05-30T14:08:02+05:30"
-		},
-		"ETag": "1GoHMjAt9L5eAvjWKsvRmO11Q9E",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "P. Tchaikovsky\nPiano Concerto No. 1 in B flat minor, Op. 23\n\uCC28\uC774\uCF65\uC2A4\uD0A4 \uD53C\uC544\uB178 \uD611\uC8FC\uACE1 1\uBC88, \uC791\uD488\uBC88\uD638 23\uBC88\n...................\n00:00 I. Allegro non troppo e molto maestoso\n15:38 Cadenza\n20:08 II. Andantino simplice\n26:41 III. Allegro con fuoco\n...................\npiano: Vladimir Horowitz\nconductor: Wiliam Steinberg\norchestra: Hollywood Bowl Orchestra \n...................\nRecording Information:\nRadio Broadcast\n\nAugust 2, 1949\nThe Hollywood Bowl, Los Angeles, California (Live)\n...................\nComplete 1949 August 2 Concert:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXelUe2hMfBobWLLHkw1_DzD\n\nComplete 1949 Recordings:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXe7Ossz_FqeASHGbuJEHyLT\n\nLegend Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXco_U-2dx6r8HyfU28Vt_sp\n\nComplete Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdUmk5NGZXnVUnAaO7D9Qap\n\nOther Vladimir Horowitz Tchaikovsky Concerto No. 1 Performances:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXc0DaNA9HPUHDth-JKMX1u_\n...................\nConcert Program:\n\u00B7 Tchaikovsky: Piano Concerto No. 1 in B flat minor, Op. 23\n- William Steinberg/Hollywood Bowl Orchestra\n\nEncores:\n\u00B7 Scarlatti: Keyboard Sonata in E major, K. 380 L. 23\n\u00B7 Moszkowski: 15 \u00C9tudes de virtuosit\u00E9, Op. 72 No. 11 in A flat major\n\u00B7 Schumann: Kinderszenen Op. 15 No. 7, Tr\u00E4umerei\n\u00B7 Sousa-Horowitz: The Stars and Stripes Forever (arr. V. Horowitz)\n...................\n(Just for Koreans)\n\uD55C\uAD6D\uC778 \uC2DC\uCCAD\uC790\uBD84\uB4E4 \uD638\uB85C\uBE44\uCE20 \uBC0F 20\uC138\uAE30 \uD53C\uC544\uB2C8\uC2A4\uD2B8 \uC774\uC57C\uAE30 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uBD84\uB4E4\uC740 \uC544\uB798 \uC624\uD508\uCC44\uD305\uBC29\uC73C\uB85C \uC624\uC2DC\uBA74 \uAC10\uC0AC\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4!\nhttps://open.kakao.com/o/g5suCaug\n\n\uB2E4\uB4E4 \uC601\uC0C1 \uC2DC\uCCAD\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694!",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 16,
-			"PublishedAtRaw": "2024-11-09T15:48:32Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T15:48:32+00:00",
-			"PublishedAt": "2024-11-09T21:18:32+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "mP32c2PCj8I"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/mP32c2PCj8I/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Vladimir Horowitz-Steinberg: Tchaikovsky Piano Concerto No. 1 Op. 23 (1949/Hollywood Bowl Orchestra)",
-			"VideoOwnerChannelId": "UC9l9oD3bVIc0i73niINJ3Xg",
-			"VideoOwnerChannelTitle": "Vladimir Horowitz Archive: VHA"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "uAooIZ2usCA",
-			"VideoPublishedAtRaw": "2012-11-24T18:37:26Z",
-			"VideoPublishedAtDateTimeOffset": "2012-11-24T18:37:26+00:00",
-			"VideoPublishedAt": "2012-11-25T00:07:26+05:30"
-		},
-		"ETag": "0D8cv03H1bWKvvuEBsmOdkTF_eY",
-		"Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Here is a live performance of Symphony No. 2 in C minor (Resurrection) by Gustav Mahler with Benita Valente, Beverly Wolff, the Harvard-Radcliffe Collegium Musicum, and the Boston Symphony Orchestra conducted by William Steinberg.  From September, 1972. \n\nI.  Allegro maestoso\n\nII.  Andante moderato\n\nIII.  In ruhig flie\u00DFender Bewegung\n\nIV.  Urlicht (Sehr feierlich, aber schlicht)\n\u0022Urlicht O R\u00F6schen rot! Der Mensch liegt in gr\u00F6\u00DFter Not! Der Mensch liegt in gr\u00F6\u00DFter Pein! Je lieber m\u00F6cht\u0027 ich im Himmel sein. Da kam ich auf einen breiten Weg: Da kam ein Engelein und wollt\u0027 mich abweisen. Ach nein! Ich lie\u00DF mich nicht abweisen! Ich bin von Gott und will wieder zu Gott! Der liebe Gott wird mir ein Lichtchen geben, Wird leuchten mir bis in das ewig selig Leben!\u0022\n\nV.  Im Tempo des Scherzos\n\u0022Aufersteh\u0027n, ja aufersteh\u0027n Wirst du, Mein Staub, Nach kurzer Ruh\u0027! Unsterblich Leben! Unsterblich Leben wird der dich rief dir geben! Wieder aufzubl\u00FCh\u0027n wirst du ges\u00E4t! Der Herr der Ernte geht und sammelt Garben uns ein, die starben!  O glaube, mein Herz, o glaube: Es geht dir nichts verloren! Dein ist, ja dein, was du gesehnt! Dein, was du geliebt, Was du gestritten! O glaube Du wardst nicht umsonst geboren! Hast nicht umsonst gelebt, gelitten! Was entstanden ist Das mu\u00DF vergehen! Was vergangen, auferstehen! H\u00F6r\u0027 auf zu beben! Bereite dich zu leben! O Schmerz! Du Alldurchdringer! Dir bin ich entrungen! O Tod! Du Allbezwinger! Nun bist du bezwungen! Mit Fl\u00FCgeln, die ich mir errungen, In hei\u00DFem Liebesstreben, Werd\u0027ich entschweben Zum Licht, zu dem kein Aug\u0027 gedrungen! Sterben werd\u0027 ich, um zu leben! Aufersteh\u0027n, ja aufersteh\u0027n wirst du, mein Herz, in einem Nu! Was du geschlagen zu Gott wird es dich tragen!\u0022\n\nLink to my Benita Valente playlist:  \nhttp://www.youtube.com/playlist?list=PL65FACCEE2448B8B1",
-			"PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
-			"Position": 17,
-			"PublishedAtRaw": "2024-11-09T16:08:17Z",
-			"PublishedAtDateTimeOffset": "2024-11-09T16:08:17+00:00",
-			"PublishedAt": "2024-11-09T21:38:17+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "uAooIZ2usCA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/uAooIZ2usCA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/uAooIZ2usCA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/uAooIZ2usCA/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/uAooIZ2usCA/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "William Steinberg \u0026 BSO:  Mahler\u0027s \u0022Symphony No. 2\u0022 - LIVE!",
-			"VideoOwnerChannelId": "UCgQSnfbTS-AbWElba4zBxjw",
-			"VideoOwnerChannelTitle": "kadoguy"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "7cIVqYeE5u0",
+      "VideoPublishedAtRaw": "2022-01-06T15:32:18Z",
+      "VideoPublishedAtDateTimeOffset": "2022-01-06T15:32:18+00:00",
+      "VideoPublishedAt": "2022-01-06T21:02:18+05:30"
+    },
+    "ETag": "_DBiuXC2UiqQVPHyk5tlaXllwZo",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Overture in G minor by Anton Bruckner\nPittsburgh Symphony Orchestra\nWilliam Steinberg, Conductor",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 0,
+      "PublishedAtRaw": "2024-11-09T16:11:59Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:11:59+00:00",
+      "PublishedAt": "2024-11-09T21:41:59+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7cIVqYeE5u0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7cIVqYeE5u0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Anton Bruckner \u0022Overture in G minor\u0022 William Steinberg",
+      "VideoOwnerChannelId": "UCowleoT1p2eZtz8J1EUuvHw",
+      "VideoOwnerChannelTitle": "Addiobelpassato"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "aIaqEyAfsfs",
+      "VideoPublishedAtRaw": "2014-08-25T13:59:45Z",
+      "VideoPublishedAtDateTimeOffset": "2014-08-25T13:59:45+00:00",
+      "VideoPublishedAt": "2014-08-25T19:29:45+05:30"
+    },
+    "ETag": "UdbbMzMXQ84vZExY1CHJ9kHrzHQ",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven\n\nPiano concerto n\u00B05 op.73 \u0022Emperor\u0022\n\nI. Allegro 0:00\nII. Adagio un poco mosso 20:06\nIII. Rondo. Allegro 27:52\n\nArturo Benedetti Michelangeli\nNew York Philharmonic Orchestra\nWilliam Steinberg\nLive recording, New York, 6 \u0026 10.I.1966",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 1,
+      "PublishedAtRaw": "2024-11-09T16:06:56Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:06:56+00:00",
+      "PublishedAt": "2024-11-09T21:36:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "aIaqEyAfsfs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/aIaqEyAfsfs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Piano concerto n\u00B05 - Michelangeli / NYP / Steinberg",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Y7CeYOgqFrg",
+      "VideoPublishedAtRaw": "2015-01-25T20:49:51Z",
+      "VideoPublishedAtDateTimeOffset": "2015-01-25T20:49:51+00:00",
+      "VideoPublishedAt": "2015-01-26T02:19:51+05:30"
+    },
+    "ETag": "_IccD-w_b7LLDje1zgd9pIUm4eU",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u0027Symphony no. 2\u0027 by Benjamin Lees, in an October 17, 1969 performance by the Boston Symphony Orchestra conducted by William Steinberg. This work has also been recorded on the Albany label:\n\nhttp://www.amazon.com/Symphonies-2-3-Benjamin-Lees/dp/B00008BLCF/ref=sr_1_4?ie=UTF8\u0026qid=1422218821\u0026sr=8-4\u0026keywords=lees\u002Bsymphony\u002Balbany",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 2,
+      "PublishedAtRaw": "2024-11-09T16:06:23Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:06:23+00:00",
+      "PublishedAt": "2024-11-09T21:36:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Y7CeYOgqFrg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Y7CeYOgqFrg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Benjamin Lees: Symphony no. 2 (Boston S.O./Steinberg)",
+      "VideoOwnerChannelId": "UCeq81A3_ZzK5-A74k3BQ7hg",
+      "VideoOwnerChannelTitle": "noochinator2"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "XBgsrG6rDNg",
+      "VideoPublishedAtRaw": "2014-03-26T06:48:59Z",
+      "VideoPublishedAtDateTimeOffset": "2014-03-26T06:48:59+00:00",
+      "VideoPublishedAt": "2014-03-26T12:18:59+05:30"
+    },
+    "ETag": "pc9vPhxnxUoNM9rlJvyHzO6jG9Q",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ernest Bloch\n\nConcerto grosso n\u00B01 for string orchestra with piano obbligato\n\nI. Prelude 0:00\nII. Dirge 2:43\nIII. Pastorale and Rustic Dances 8:50\nIV. Fugue 14:49\n\nHarry Franklin\nPittsburgh Symphony Orchestra\nWilliam Steinberg\nLive recording, Pittsburgh, 24.XI.1952",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 3,
+      "PublishedAtRaw": "2024-11-09T16:07:38Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:07:38+00:00",
+      "PublishedAt": "2024-11-09T21:37:38+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "XBgsrG6rDNg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/XBgsrG6rDNg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bloch - Concerto grosso n\u00B01 - Pittsburgh SO / Steinberg",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6J9BdZ8DNsA",
+      "VideoPublishedAtRaw": "2015-08-07T13:52:53Z",
+      "VideoPublishedAtDateTimeOffset": "2015-08-07T13:52:53+00:00",
+      "VideoPublishedAt": "2015-08-07T19:22:53+05:30"
+    },
+    "ETag": "kxx3IGpGduLmbQ_EKkULzRubfIo",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms\n\nPiano concerto n\u00B01 op.15\n\nI. Maestoso - Poco pi\u00F9 moderato 0:00\nII. Adagio 20:58\nIII. Rondo. Allegro ma non troppo 34:01\n\nMaurizio Pollini\nThe Cleveland Orchestra\nWilliam Steinberg\nLive recording, Cleveland, 9.III.1978",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 4,
+      "PublishedAtRaw": "2024-11-09T16:06:01Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:06:01+00:00",
+      "PublishedAt": "2024-11-09T21:36:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6J9BdZ8DNsA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6J9BdZ8DNsA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms - Piano concerto n\u00B01 - Pollini / Cleveland / Steinberg",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7cNAPTzApVg",
+      "VideoPublishedAtRaw": "2020-03-30T23:34:42Z",
+      "VideoPublishedAtDateTimeOffset": "2020-03-30T23:34:42+00:00",
+      "VideoPublishedAt": "2020-03-31T05:04:42+05:30"
+    },
+    "ETag": "GiWKmiLUBhKFlO8bHqVOj9hwgCE",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Brahms Tragic Ouverture op.81 - Piano Concerto No.2 op.83.\nVladimir Ashkenazy, piano - William Steinberg, conductor.\nBoston Symphony Orchestra (Live rec. 16.08.71)",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 5,
+      "PublishedAtRaw": "2024-11-09T15:54:35Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:54:35+00:00",
+      "PublishedAt": "2024-11-09T21:24:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7cNAPTzApVg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7cNAPTzApVg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7cNAPTzApVg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7cNAPTzApVg/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Brahms Tragic Ouv. and Piano Concerto No.2 - Ashkenazy / Steinberg / BSO (1971)",
+      "VideoOwnerChannelId": "UCymxVdp0Hwlv_ztwLZyxxqA",
+      "VideoOwnerChannelTitle": "goodmanmusica"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "C5q3tb6pRDk",
+      "VideoPublishedAtRaw": "2023-05-31T00:09:06Z",
+      "VideoPublishedAtDateTimeOffset": "2023-05-31T00:09:06+00:00",
+      "VideoPublishedAt": "2023-05-31T05:39:06+05:30"
+    },
+    "ETag": "rqbUFn-i0ytKy3Vf_LSEeMWdwSE",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Gottfried Von Einem Violin Concerto US Premiere\nChristiane Edinger - BSO Debut \n1-Andante\n2-Allegro Ma non troppo\n3-Presto\n4-Adagio",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 6,
+      "PublishedAtRaw": "2024-11-09T15:46:27Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:46:27+00:00",
+      "PublishedAt": "2024-11-09T21:16:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "C5q3tb6pRDk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/C5q3tb6pRDk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Christiane Edinger, Gottfried Von Einem, Violin Concerto(1966)W.Steinberg, BSO Sept. 24, 1971",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "TTxTD14qwlQ",
+      "VideoPublishedAtRaw": "2023-05-01T20:41:02Z",
+      "VideoPublishedAtDateTimeOffset": "2023-05-01T20:41:02+00:00",
+      "VideoPublishedAt": "2023-05-02T02:11:02+05:30"
+    },
+    "ETag": "p16jYi9vbmgDxhBl1hAQQgb3Jrw",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 7,
+      "PublishedAtRaw": "2024-11-09T15:46:30Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:46:30+00:00",
+      "PublishedAt": "2024-11-09T21:16:30+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "TTxTD14qwlQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/TTxTD14qwlQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "David Oistrakh, Brahms Violin Concerto in D Op. 77 W. Steinberg, Boston Symph. Orch Live 1, 12, 1970",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "vuABmfJZ_nI",
+      "VideoPublishedAtRaw": "2015-02-08T22:11:46Z",
+      "VideoPublishedAtDateTimeOffset": "2015-02-08T22:11:46+00:00",
+      "VideoPublishedAt": "2015-02-09T03:41:46+05:30"
+    },
+    "ETag": "f64QpPopm0t-qGe3AK7yoO8u67k",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recorded in Symphony Hall, Boston MA\n16 January 1970\n\n3:47 : Allegro agitato\n19:25 : Andante sostenuto\n27:20 : Allegro con fuoco",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 8,
+      "PublishedAtRaw": "2024-11-09T15:47:25Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:47:25+00:00",
+      "PublishedAt": "2024-11-09T21:17:25+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "vuABmfJZ_nI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/vuABmfJZ_nI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvorak - W. Steinberg \u0026 R. Firkusny (BSO, live 1970) Piano Concerto in G minor, Op 33",
+      "VideoOwnerChannelId": "UC2zlRzqMd3I9xd3g4nOVx6Q",
+      "VideoOwnerChannelTitle": "On The Top of Damavand for ever"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "998GlsPALtY",
+      "VideoPublishedAtRaw": "2023-11-23T10:01:53Z",
+      "VideoPublishedAtDateTimeOffset": "2023-11-23T10:01:53+00:00",
+      "VideoPublishedAt": "2023-11-23T15:31:53+05:30"
+    },
+    "ETag": "Dueg7Z9yRBTggSp8LWslo1mg0Ao",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Provided to YouTube by Universal Music Group\n\nDvo\u0159\u00E1k: Scherzo capriccioso, Op. 66, B. 131 \u00B7 Pittsburgh Symphony Orchestra \u00B7 William Steinberg\n\nVerdi Quartet \u0026 Curtain Calls!\n\n\u2117 1972 Deutsche Grammophon GmbH, Berlin\n\nReleased on: 2023-11-24\n\nProducer: Loren Becker\nProducer: Bobby Byrne\nEngineer: C. Robert Fine\nComposer: Anton\u00EDn Dvo\u0159\u00E1k\n\nAuto-generated by YouTube.",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 9,
+      "PublishedAtRaw": "2024-11-09T16:10:52Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:10:52+00:00",
+      "PublishedAt": "2024-11-09T21:40:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "998GlsPALtY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/998GlsPALtY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/998GlsPALtY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/998GlsPALtY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/998GlsPALtY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/998GlsPALtY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k: Scherzo capriccioso, Op. 66, B. 131",
+      "VideoOwnerChannelId": "UCzTx_S_adVTa0X22xy293ZA",
+      "VideoOwnerChannelTitle": "Pittsburgh Symphony Orchestra - Topic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OIj-ODbhIdQ",
+      "VideoPublishedAtRaw": "2016-09-13T11:41:20Z",
+      "VideoPublishedAtDateTimeOffset": "2016-09-13T11:41:20+00:00",
+      "VideoPublishedAt": "2016-09-13T17:11:20+05:30"
+    },
+    "ETag": "B2iorVi9jGUzAHBRhFG3aYzR8Ck",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Robert Starer: Symphony No 3 [William Steinberg-Boston Symphony Orchestra]. Note: All efforts have been made to downplay the excessive hiss.",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 10,
+      "PublishedAtRaw": "2024-11-09T16:05:51Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:05:51+00:00",
+      "PublishedAt": "2024-11-09T21:35:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OIj-ODbhIdQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/OIj-ODbhIdQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Robert Starer: Symphony No 3 [Steinberg-Boston SO]",
+      "VideoOwnerChannelId": "UCfFPCgr45pH_pzslan4EriQ",
+      "VideoOwnerChannelTitle": "James Stuart"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zHnfv5bYBv4",
+      "VideoPublishedAtRaw": "2024-04-04T10:04:47Z",
+      "VideoPublishedAtDateTimeOffset": "2024-04-04T10:04:47+00:00",
+      "VideoPublishedAt": "2024-04-04T15:34:47+05:30"
+    },
+    "ETag": "k7Sdz2fn2w9cRnqc3yAtAReXDnA",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Provided to YouTube by RCA Red Seal\n\nScherzo fantastique (2024 Remastered Version) \u00B7 William Steinberg \u00B7 Boston Symphony Orchestra\n\nWilliam Steinberg - Boston Symphony Orchestra - The Complete RCA Victor Recordings\n\n\u2117 2023 Sony Music Entertainment\n\nReleased on: 2024-04-05\n\nConductor: William Steinberg\nOrchestra: Boston Symphony Orchestra\nComposer: Igor Stravinsky\n\nAuto-generated by YouTube.",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 11,
+      "PublishedAtRaw": "2024-11-09T16:10:10Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:10:10+00:00",
+      "PublishedAt": "2024-11-09T21:40:10+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zHnfv5bYBv4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/zHnfv5bYBv4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Scherzo fantastique (2024 Remastered Version)",
+      "VideoOwnerChannelId": "UCCU4WMYVgKdGOoNd0ygXrPQ",
+      "VideoOwnerChannelTitle": "William Steinberg - Topic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "k-pkL5gK17s",
+      "VideoPublishedAtRaw": "2020-06-13T10:44:06Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-13T10:44:06+00:00",
+      "VideoPublishedAt": "2020-06-13T16:14:06+05:30"
+    },
+    "ETag": "wf3FS1Yr0YQTEYfkYAgRhEsRWuU",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "One of the most incredible, speaker shattering Le Sacre du Printemps out there.\n\nStravinsky - Le Sacre du Printemps (The Rite of Spring) - Steinberg/BSO (Live, 1970)\n\nWilliam Steinberg\nBoston Symphony Orchestra\nPrincipal timpanist: Everett \u0022Vic\u0022 Firth\n \nBroadcast Intro 0:00\n1. L\u2019Adoration de la terre 2:49\n2. Le Sacrifice 18:00",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 12,
+      "PublishedAtRaw": "2024-11-09T15:53:39Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:53:39+00:00",
+      "PublishedAt": "2024-11-09T21:23:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "k-pkL5gK17s"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/k-pkL5gK17s/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/k-pkL5gK17s/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/k-pkL5gK17s/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/k-pkL5gK17s/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/k-pkL5gK17s/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Stravinsky - Le Sacre du Printemps (The Rite of Spring) - Steinberg/BSO (Live, 1970)",
+      "VideoOwnerChannelId": "UCBU8KbiGB2xSnDN1E3toKhg",
+      "VideoOwnerChannelTitle": "RabidCh"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "a8kFUbBuGpo",
+      "VideoPublishedAtRaw": "2024-11-09T15:06:09Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-09T15:06:09+00:00",
+      "VideoPublishedAt": "2024-11-09T20:36:09+05:30"
+    },
+    "ETag": "96SUPgLPHof6lP8rJdMCcHh60OU",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Stravinsky : The Rite of Spring\n1st Part   00:00\n2nd Part  15:20\nWilliam Steinberg / Boston Symphony orchestra\n1970 ( date, place unknown ) live broadcast\n\n\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF1A\u6625\u306E\u796D\u5178\n\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u6307\u63EE\u3000\u30DC\u30B9\u30C8\u30F3\u4EA4\u97FF\u697D\u56E3\n1970\u5E74\uFF08\u65E5\u6642\u3001\u5834\u6240\u4E0D\u660E\uFF09\u30E9\u30A4\u30D6\u5B9F\u6CC1\u653E\u9001\u9332\u97F3\n\u203B\u300C\u6625\u306E\u796D\u5178\u300D\u306F\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u306E\u5F97\u610F\u66F2\u3067\u3001\u3053\u306E\u6F14\u594F\u306E\u51C4\u307F\u306F\u304B\u306A\u308A\u885D\u6483\u7684\u3060\u3068\u611F\u3058\u307E\u3059\u3002\u3053\u306E\u76F4\u3050\u5F8C\u306B\u30DC\u30B9\u30C8\u30F3\u97FF\u306F\u30C6\u30A3\u30EB\u30BD\u30F3\uFF1D\u30C8\u30FC\u30DE\u30B9\u3068\u9332\u97F3\u3057\u540D\u76E4\u306E\u8A55\u4FA1\u3092\u53D7\u3051\u308B\u306E\u3067\u3059\u304C\u3001\u305D\u306E\u30D9\u30FC\u30B9\u306B\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u306B\u3088\u308B\u7DCA\u5BC6\u306A\u8A13\u7DF4\u304C\u3042\u3063\u305F\u3068\u60F3\u50CF\u3067\u304D\u307E\u3059\u306D\u3002\u540D\u30C6\u30A3\u30F3\u30D1\u30CB\u30B9\u30C8\u3001\u30A8\u30F4\u30A1\u30EC\u30C3\u30C8\u30FB\u30D5\u30A1\u30FC\u30B9\u304C\u5927\u6D3B\u8E8D\u3057\u3066\u3044\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 13,
+      "PublishedAtRaw": "2024-11-09T15:45:41Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:45:41+00:00",
+      "PublishedAt": "2024-11-09T21:15:41+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "a8kFUbBuGpo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/a8kFUbBuGpo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/a8kFUbBuGpo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/a8kFUbBuGpo/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Stravinsky : The Rite of Spring      W. Steinberg / BSO 1970 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "-wsAlP5y-64",
+      "VideoPublishedAtRaw": "2024-11-08T13:25:21Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-08T13:25:21+00:00",
+      "VideoPublishedAt": "2024-11-08T18:55:21+05:30"
+    },
+    "ETag": "VCEwuMrcKuGxkhUUqWzX88U_P14",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Tchaikovsky : Symphony No.4 \n1st movement   00:00\n2nd  18:00\n3rd   26:26\n4th   32:03\nWilliam Steinberg / Pittsburgh Symphony Orchestra\n4-5/1963  Command Classics recording( 35mm Magnetic film stereo )\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u6307\u63EE\u3000\u30D4\u30C3\u30C4\u30D0\u30FC\u30B0\u4EA4\u97FF\u697D\u56E3\n1963\u5E744\uFF5E5\u6708\u3000\u30B3\u30DE\u30F3\u30C9\u30FB\u30AF\u30E9\u30B7\u30C3\u30AF\u30B9\u9332\u97F3\uFF0835\uFF4D\uFF4D\u30DE\u30B0\u30CD\u30C3\u30C8\u30FB\u30D5\u30A3\u30EB\u30E0\u9332\u97F3\uFF09\n\u203B\u30B3\u30DE\u30F3\u30C9\u30FB\u30EC\u30FC\u30D9\u30EB\u306E\u30DE\u30B0\u30CD\u30C3\u30C8\u30FB\u30D5\u30A3\u30EB\u30E0\u306B\u3088\u308B\u512A\u79C0\u9332\u97F3\u3002\u30B9\u30BF\u30A4\u30F3\u30D0\u30FC\u30B0\u306E\u5B9F\u529B\u306E\u9AD8\u3055\u304C\u308F\u304B\u308B\u96A0\u308C\u540D\u76E4\u3002",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 14,
+      "PublishedAtRaw": "2024-11-09T15:45:49Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:45:49+00:00",
+      "PublishedAt": "2024-11-09T21:15:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-wsAlP5y-64"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/-wsAlP5y-64/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/-wsAlP5y-64/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/-wsAlP5y-64/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Tchaikovsky : Symphony No.4     W. Steinberg / PSO 1963",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ndr5NzIe7lY",
+      "VideoPublishedAtRaw": "2020-06-05T13:53:12Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-05T13:53:12+00:00",
+      "VideoPublishedAt": "2020-06-05T19:23:12+05:30"
+    },
+    "ETag": "GaiIxtniboVTJ8Gve-ZWSKNLnOk",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Peter Ilich Tchaikovsky. Piano concerto no. 1 in Bb minor, op. 23\nVladimir Horowitz, piano; Hollywood Bowl Orchestra; William Steinberg, conductor\nRecorded live at the Hollywood Bowl, 2 August 1949\n\nI. Allegro non troppo e molto maestoso - Allegro con spirito (0:00)\nII. Andantino semplice - Prestissimo - Tempo I (20:08)\nIII. Allegro con fuoco - Molto meno mosso - Allegro vivo (26:41)",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 15,
+      "PublishedAtRaw": "2024-11-09T15:53:56Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:53:56+00:00",
+      "PublishedAt": "2024-11-09T21:23:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ndr5NzIe7lY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ndr5NzIe7lY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky, Piano concerto no. 1 in Bb minor, op. 23 (Horowitz/Steinberg/Hollywood Bowl/1949)",
+      "VideoOwnerChannelId": "UCiLrfQSnyJCC1uCgHNaZAJw",
+      "VideoOwnerChannelTitle": "Music Lover"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mP32c2PCj8I",
+      "VideoPublishedAtRaw": "2024-05-30T08:38:02Z",
+      "VideoPublishedAtDateTimeOffset": "2024-05-30T08:38:02+00:00",
+      "VideoPublishedAt": "2024-05-30T14:08:02+05:30"
+    },
+    "ETag": "1GoHMjAt9L5eAvjWKsvRmO11Q9E",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "P. Tchaikovsky\nPiano Concerto No. 1 in B flat minor, Op. 23\n\uCC28\uC774\uCF65\uC2A4\uD0A4 \uD53C\uC544\uB178 \uD611\uC8FC\uACE1 1\uBC88, \uC791\uD488\uBC88\uD638 23\uBC88\n...................\n00:00 I. Allegro non troppo e molto maestoso\n15:38 Cadenza\n20:08 II. Andantino simplice\n26:41 III. Allegro con fuoco\n...................\npiano: Vladimir Horowitz\nconductor: Wiliam Steinberg\norchestra: Hollywood Bowl Orchestra \n...................\nRecording Information:\nRadio Broadcast\n\nAugust 2, 1949\nThe Hollywood Bowl, Los Angeles, California (Live)\n...................\nComplete 1949 August 2 Concert:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXelUe2hMfBobWLLHkw1_DzD\n\nComplete 1949 Recordings:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXe7Ossz_FqeASHGbuJEHyLT\n\nLegend Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXco_U-2dx6r8HyfU28Vt_sp\n\nComplete Recordings of Vladimir Horowitz:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXdUmk5NGZXnVUnAaO7D9Qap\n\nOther Vladimir Horowitz Tchaikovsky Concerto No. 1 Performances:\nhttps://www.youtube.com/playlist?list=PLr8IkYFkhDXc0DaNA9HPUHDth-JKMX1u_\n...................\nConcert Program:\n\u00B7 Tchaikovsky: Piano Concerto No. 1 in B flat minor, Op. 23\n- William Steinberg/Hollywood Bowl Orchestra\n\nEncores:\n\u00B7 Scarlatti: Keyboard Sonata in E major, K. 380 L. 23\n\u00B7 Moszkowski: 15 \u00C9tudes de virtuosit\u00E9, Op. 72 No. 11 in A flat major\n\u00B7 Schumann: Kinderszenen Op. 15 No. 7, Tr\u00E4umerei\n\u00B7 Sousa-Horowitz: The Stars and Stripes Forever (arr. V. Horowitz)\n...................\n(Just for Koreans)\n\uD55C\uAD6D\uC778 \uC2DC\uCCAD\uC790\uBD84\uB4E4 \uD638\uB85C\uBE44\uCE20 \uBC0F 20\uC138\uAE30 \uD53C\uC544\uB2C8\uC2A4\uD2B8 \uC774\uC57C\uAE30 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uBD84\uB4E4\uC740 \uC544\uB798 \uC624\uD508\uCC44\uD305\uBC29\uC73C\uB85C \uC624\uC2DC\uBA74 \uAC10\uC0AC\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4!\nhttps://open.kakao.com/o/g5suCaug\n\n\uB2E4\uB4E4 \uC601\uC0C1 \uC2DC\uCCAD\uD574\uC8FC\uC154\uC11C \uAC10\uC0AC\uD574\uC694!",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 16,
+      "PublishedAtRaw": "2024-11-09T15:48:32Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T15:48:32+00:00",
+      "PublishedAt": "2024-11-09T21:18:32+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mP32c2PCj8I"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mP32c2PCj8I/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mP32c2PCj8I/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mP32c2PCj8I/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mP32c2PCj8I/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mP32c2PCj8I/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Vladimir Horowitz-Steinberg: Tchaikovsky Piano Concerto No. 1 Op. 23 (1949/Hollywood Bowl Orchestra)",
+      "VideoOwnerChannelId": "UC9l9oD3bVIc0i73niINJ3Xg",
+      "VideoOwnerChannelTitle": "Vladimir Horowitz Archive: VHA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "uAooIZ2usCA",
+      "VideoPublishedAtRaw": "2012-11-24T18:37:26Z",
+      "VideoPublishedAtDateTimeOffset": "2012-11-24T18:37:26+00:00",
+      "VideoPublishedAt": "2012-11-25T00:07:26+05:30"
+    },
+    "ETag": "0D8cv03H1bWKvvuEBsmOdkTF_eY",
+    "Id": "UEwxemdOQ29XdF83WlR4NTMybEtna3Z1M2l1LVl0X056ci5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Here is a live performance of Symphony No. 2 in C minor (Resurrection) by Gustav Mahler with Benita Valente, Beverly Wolff, the Harvard-Radcliffe Collegium Musicum, and the Boston Symphony Orchestra conducted by William Steinberg.  From September, 1972. \n\nI.  Allegro maestoso\n\nII.  Andante moderato\n\nIII.  In ruhig flie\u00DFender Bewegung\n\nIV.  Urlicht (Sehr feierlich, aber schlicht)\n\u0022Urlicht O R\u00F6schen rot! Der Mensch liegt in gr\u00F6\u00DFter Not! Der Mensch liegt in gr\u00F6\u00DFter Pein! Je lieber m\u00F6cht\u0027 ich im Himmel sein. Da kam ich auf einen breiten Weg: Da kam ein Engelein und wollt\u0027 mich abweisen. Ach nein! Ich lie\u00DF mich nicht abweisen! Ich bin von Gott und will wieder zu Gott! Der liebe Gott wird mir ein Lichtchen geben, Wird leuchten mir bis in das ewig selig Leben!\u0022\n\nV.  Im Tempo des Scherzos\n\u0022Aufersteh\u0027n, ja aufersteh\u0027n Wirst du, Mein Staub, Nach kurzer Ruh\u0027! Unsterblich Leben! Unsterblich Leben wird der dich rief dir geben! Wieder aufzubl\u00FCh\u0027n wirst du ges\u00E4t! Der Herr der Ernte geht und sammelt Garben uns ein, die starben!  O glaube, mein Herz, o glaube: Es geht dir nichts verloren! Dein ist, ja dein, was du gesehnt! Dein, was du geliebt, Was du gestritten! O glaube Du wardst nicht umsonst geboren! Hast nicht umsonst gelebt, gelitten! Was entstanden ist Das mu\u00DF vergehen! Was vergangen, auferstehen! H\u00F6r\u0027 auf zu beben! Bereite dich zu leben! O Schmerz! Du Alldurchdringer! Dir bin ich entrungen! O Tod! Du Allbezwinger! Nun bist du bezwungen! Mit Fl\u00FCgeln, die ich mir errungen, In hei\u00DFem Liebesstreben, Werd\u0027ich entschweben Zum Licht, zu dem kein Aug\u0027 gedrungen! Sterben werd\u0027 ich, um zu leben! Aufersteh\u0027n, ja aufersteh\u0027n wirst du, mein Herz, in einem Nu! Was du geschlagen zu Gott wird es dich tragen!\u0022\n\nLink to my Benita Valente playlist:  \nhttp://www.youtube.com/playlist?list=PL65FACCEE2448B8B1",
+      "PlaylistId": "PL1zgNCoWt_7ZTx532lKgkvu3iu-Yt_Nzr",
+      "Position": 17,
+      "PublishedAtRaw": "2024-11-09T16:08:17Z",
+      "PublishedAtDateTimeOffset": "2024-11-09T16:08:17+00:00",
+      "PublishedAt": "2024-11-09T21:38:17+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "uAooIZ2usCA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/uAooIZ2usCA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/uAooIZ2usCA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/uAooIZ2usCA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/uAooIZ2usCA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "William Steinberg \u0026 BSO:  Mahler\u0027s \u0022Symphony No. 2\u0022 - LIVE!",
+      "VideoOwnerChannelId": "UCgQSnfbTS-AbWElba4zBxjw",
+      "VideoOwnerChannelTitle": "kadoguy"
+    }
+  }
 ]

@@ -29,16 +29,20 @@ public sealed class ReaderCommandModule : ICommandModule
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds (after project reference added)
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add ReaderCommandModule`
@@ -78,16 +82,20 @@ public sealed class DownloadCommand : AsyncCommand<DownloadCommand.Settings>
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add DownloadCommand`
@@ -135,16 +143,20 @@ public sealed class BatchCommand : AsyncCommand<BatchCommand.Settings>
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add BatchCommand with parallelism`
@@ -179,16 +191,20 @@ public sealed class StatusCommand : AsyncCommand
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add StatusCommand`
@@ -234,16 +250,20 @@ public sealed class HealthCommand : AsyncCommand
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add HealthCommand`
@@ -291,16 +311,20 @@ public static class ReaderSetup
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add ReaderSetup with DI registration`
@@ -310,6 +334,7 @@ Expected: Clean build
 ### Task 27: Wire Reader into CLI and App
 
 **What to do:**
+
 1. Add `<ProjectReference Include="..\Services\Reader\Reader.csproj"/>` to `src/CLI/CLI.csproj` (after LastFm.csproj reference, line 12)
 2. In `src/App/Program.cs`:
    - Add `using CLI.Reader;` (after `using CLI.Azure;`)
@@ -318,22 +343,27 @@ Expected: Clean build
    - Add `ReaderCommandModule.ConfigureCommands(cfg: cfg);` after `SyncCommandModule.ConfigureCommands(cfg: cfg);`
 
 **Must NOT:**
+
 - Reorder existing registrations
 - Change error handling
 
 **References:**
+
 - `src/CLI/CLI.csproj:1-13`
 - `src/App/Program.cs:36-58`
 
 **Acceptance criteria:**
+
 - `dotnet build` succeeds
 - `dotnet run --project src/App -- reader --help` shows command description
 
 **QA:**
+
 ```bash
 dotnet build
 dotnet run --project src/App -- reader --help
 ```
+
 Expected: Build succeeds, help output shows "PDF extraction from academic sites"
 
 **Commit:** `feat(reader): wire Reader into CLI and App`

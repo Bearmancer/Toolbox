@@ -1,962 +1,962 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "eQ1unCtX6K0",
-			"VideoPublishedAtRaw": "2023-09-29T14:45:52Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-29T14:45:52+00:00",
-			"VideoPublishedAt": "2023-09-29T20:15:52+05:30"
-		},
-		"ETag": "GSoqT60qpHX4xN1Th5KJmUBsvds",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41QTY1Q0UxMTVCODczNThE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Joseph Bologne Chevalier de Saint-Georges: Violin Concerto in A Major, Op. 5 No. 2\n- Allegro Moderato\n- Largo\n- Rondeau\nAugustin Hadelich, violin\nJoAnn Falletta, conductor\nDetroit Symphony Orchestra\n\nLive in performance on April 29 2023 in Orchestra Hall, Detroit\nwww.dso.org\nwww.augustinhadelich.com\n\ncopyright 2023 Detroit Symphony Orchestra",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 0,
-			"PublishedAtRaw": "2026-03-25T06:50:07Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:50:07+00:00",
-			"PublishedAt": "2026-03-25T12:20:07+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "eQ1unCtX6K0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Augustin Hadelich plays Chevalier de Saint-Georges Concerto in A, Op. 5/2",
-			"VideoOwnerChannelId": "UCX_bIRZP76N5HHWGdy3Qj8g",
-			"VideoOwnerChannelTitle": "Augustin Hadelich"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "pOAKQLGrKpc",
-			"VideoPublishedAtRaw": "2026-03-25T07:07:09Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-25T07:07:09+00:00",
-			"VideoPublishedAt": "2026-03-25T12:37:09+05:30"
-		},
-		"ETag": "5GtgdN3pLwkT0CG04aXUmMtILCY",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy45RTgxNDRBMzUwRjQ0MDhC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Beethoven: Symphony No. 9 in D Minor, Op. 125, \u0022Choral\u0022\n1st movement   00:00\n2nd   14:14\n3rd    24:08\n4th    39:08\nJoAnn Falletta / Buffalo Philharmonic Orchestra\nSo) Jaclyn Grossman      Alt) Hannah Shea \nTen) John Tiranno      Bar) Lester Lynch\nCho) Buffalo Philharmonic Chorus, Suny Fredonia Beethoven 9 Chorus\n2024 Buffalo, Kleinhans Music Hall live revording\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u5408\u5531\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A7\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30B8\u30E3\u30AF\u30EA\u30FC\u30F3\u30FB\u30B0\u30ED\u30B9\u30DE\u30F3\u3000\u30A2\u30EB\u30C8\uFF09\u30CF\u30F3\u30CA\u30FB\u30B7\u30A2\u30FC\n\u30C6\u30CE\u30FC\u30EB\uFF09\u30B8\u30E7\u30F3\u30FB\u30C6\u30A3\u30E9\u30F3\u30CE\u3000\u30D0\u30EA\u30C8\u30F3\uFF09\u30EC\u30B9\u30BF\u30FC\u30FB\u30EA\u30F3\u30C1\n\u5408\u5531\uFF09\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF\u5408\u5531\u56E3\u3001\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u5DDE\u7ACB\u5927\u5B66\u30D5\u30EC\u30C9\u30CB\u30A2\u6821\u7B2C\u4E5D\u5408\u5531\u56E3\n2024\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306F\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\u3082\u51C4\u3044\u3002\u6B63\u653B\u6CD5\u306B\u7A81\u304D\u9032\u307F\u306A\u304C\u3089\u30ED\u30DE\u30F3\u7684\u60C5\u611F\u304C\u6EA2\u308C\u3066\u3044\u307E\u3059\u3002\u30BD\u30EA\u30B9\u30C8\u3084\u5408\u5531\u306B\u30D3\u30C3\u30B0\u30CD\u30FC\u30E0\u306F\u6709\u308A\u307E\u305B\u3093\u304C\u3001\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u4F5C\u308B\u5927\u304D\u306A\u97F3\u697D\u306E\u6D41\u308C\u306E\u4E2D\u306B\u5F15\u304D\u8FBC\u307E\u308C\u5065\u95D8\u3057\u3066\u3044\u307E\u3059\u3002\u611F\u52D5\u3002",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 1,
-			"PublishedAtRaw": "2026-03-25T07:28:36Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T07:28:36+00:00",
-			"PublishedAt": "2026-03-25T12:58:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "pOAKQLGrKpc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/pOAKQLGrKpc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/pOAKQLGrKpc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/pOAKQLGrKpc/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Beethoven: Symphony No. 9 in D Minor, Op. 125, \u0022Choral\u0022\u3000J. Falletta / Buffalo PO 2024 live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ejZzma5pO1I",
-			"VideoPublishedAtRaw": "2011-05-20T17:41:47Z",
-			"VideoPublishedAtDateTimeOffset": "2011-05-20T17:41:47+00:00",
-			"VideoPublishedAt": "2011-05-20T23:11:47+05:30"
-		},
-		"ETag": "PsOb5S4NOD4R7Sg3qNoHyjA8dvU",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy45NDk1REZENzhEMzU5MDQz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "JoAnn Falletta, Music Director of the Buffalo Philharmonic Orchestra discusses the upcoming Tchaikovsky Piano Concerto 2 on May 1 and May 2, 2010 at Kleinhans Music Hall.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 2,
-			"PublishedAtRaw": "2026-03-25T06:49:01Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:01+00:00",
-			"PublishedAt": "2026-03-25T12:19:01+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ejZzma5pO1I"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ejZzma5pO1I/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ejZzma5pO1I/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ejZzma5pO1I/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "BPO Tchaikovsky Piano Concerto 2  Pre-Concert Lecture with JoAnn Falletta and William Wolfram",
-			"VideoOwnerChannelId": "UC23rMR1pSQRakD6rjCv14MQ",
-			"VideoOwnerChannelTitle": "Buffalo Philharmonic Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "TlwktOuyV5A",
-			"VideoPublishedAtRaw": "2026-03-23T14:06:59Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-23T14:06:59+00:00",
-			"VideoPublishedAt": "2026-03-23T19:36:59+05:30"
-		},
-		"ETag": "2rqJdg3LNESXswBtSNIi6rpDvrc",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Brahms: Symphony No.4\n1st movement     00:00\n2nd    11:48\n3rd     22:52\n4th     28:57\nJoann Falletta / Buffalo Philharmonic orchestra\n2011 Buffalo, Kleinhans Music Hall live recording\n\u30D6\u30E9\u30FC\u30E0\u30B9\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n2010\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u5B58\u5728\u3092\u521D\u3081\u3066\u77E5\u308A\u3001\u9A5A\u5606\u3057\u305F\u540D\u6F14\u3002\u3057\u306A\u3084\u304B\u3055\u3068\u5927\u80C6\u3055\u304C\u5171\u5B58\u3057\u3066\u3044\u307E\u3059\u304C\u3001\u97F3\u697D\u306E\u63A8\u9032\u529B\u306E\u5F37\u3055\u3053\u305D\u5F7C\u5973\u306E\u9B45\u529B\u3060\u3068\u601D\u3044\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 3,
-			"PublishedAtRaw": "2026-03-25T06:45:07Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:45:07+00:00",
-			"PublishedAt": "2026-03-25T12:15:07+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "TlwktOuyV5A"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/TlwktOuyV5A/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/TlwktOuyV5A/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/TlwktOuyV5A/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Brahms: Symphony No.4    J. Falletta / Buffalo PO 2010 live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "QqAEIF2jKus",
-			"VideoPublishedAtRaw": "2011-12-08T18:48:27Z",
-			"VideoPublishedAtDateTimeOffset": "2011-12-08T18:48:27+00:00",
-			"VideoPublishedAt": "2011-12-09T00:18:27+05:30"
-		},
-		"ETag": "IROkhf3mMJ70d-yLdI7ZNzS6GgQ",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Friday, November 4, 2011\r\nSaturday, November 5, 2011\r\nSunday, November 6, 2011\r\n\r\nBrahms Third \r\nJoAnn Falletta, conductor\r\nMichael Ludwig, violin\r\n\r\nBPO Concertmaster Michael Ludwig is featured as soloist in Wieniawski\u0027s Violin Concerto No. 2, one of the greatest violin concertos of the Romantic era, memorable for its lush and moving melodies and harmonies. JoAnn Falletta conducts the program, which also includes Wieniawski\u0027s countryman, Mieczys\u0142aw Kar\u0142owicz\u0027s Symphonic Poem \u0022A Sad Tale\u0022 and Brahms\u0027 Third Symphony. Built around the tonal theme of F-A flat-F, the symphony celebrates \u0022Free But Happy\u0022 (Frei aber froh) and is one of the composer\u0027s most popular.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 4,
-			"PublishedAtRaw": "2026-03-25T06:49:06Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:06+00:00",
-			"PublishedAt": "2026-03-25T12:19:06+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "QqAEIF2jKus"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/QqAEIF2jKus/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/QqAEIF2jKus/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/QqAEIF2jKus/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Buffalo Philharmonic Orchestra: Brahms Third Preconcert Lecture with JoAnn Falletta",
-			"VideoOwnerChannelId": "UC23rMR1pSQRakD6rjCv14MQ",
-			"VideoOwnerChannelTitle": "Buffalo Philharmonic Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "4OY2Cd2Z07E",
-			"VideoPublishedAtRaw": "2025-03-17T18:04:04Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-17T18:04:04+00:00",
-			"VideoPublishedAt": "2025-03-17T23:34:04+05:30"
-		},
-		"ETag": "xfHsy1XstLLdv6uMydSVq6gCF5Q",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Alexandra DARIESCU, piano\nJoAnn FALLETTA, conductor\nWinston-Salem Symphony",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 5,
-			"PublishedAtRaw": "2026-03-25T06:48:25Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:48:25+00:00",
-			"PublishedAt": "2026-03-25T12:18:25+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "4OY2Cd2Z07E"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "GRIEG : Piano Concerto - DARIESCU / FALLETTA / Winston Salem Symphony",
-			"VideoOwnerChannelId": "UCYqzXzZxmISqgmnBHYczVnw",
-			"VideoOwnerChannelTitle": "lapin blanc"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "6q6unE26axE",
-			"VideoPublishedAtRaw": "2025-03-25T07:14:14Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-25T07:14:14+00:00",
-			"VideoPublishedAt": "2025-03-25T12:44:14+05:30"
-		},
-		"ETag": "BzELOWe6nKNWkz9OK1_vk-3J3bQ",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Juilliard Orchestra\nJoAnn FALLETTA, conductor",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 6,
-			"PublishedAtRaw": "2026-03-25T06:48:37Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:48:37+00:00",
-			"PublishedAt": "2026-03-25T12:18:37+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "6q6unE26axE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/6q6unE26axE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/6q6unE26axE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/6q6unE26axE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/6q6unE26axE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/6q6unE26axE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "HINDEMITH : Symphonic Metamorphosis - FALLETTA / Juilliard Orchestra",
-			"VideoOwnerChannelId": "UCYqzXzZxmISqgmnBHYczVnw",
-			"VideoOwnerChannelTitle": "lapin blanc"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "nnYtZD3sldw",
-			"VideoPublishedAtRaw": "2017-12-12T05:25:35Z",
-			"VideoPublishedAtDateTimeOffset": "2017-12-12T05:25:35+00:00",
-			"VideoPublishedAt": "2017-12-12T10:55:35+05:30"
-		},
-		"ETag": "ziz88BcdvSrK5juDS70YZGuuMXo",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "American conductor JoAnn Falletta conducts the Ulster Orchestra in a beautiful performance of Amy Beach\u2019s seldom played Symphony in E Minor \u2018Gaelic\u0027. It was recorded live in August 13, 2010 in Ulster Hall in Belfast.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 7,
-			"PublishedAtRaw": "2026-03-25T06:49:31Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:31+00:00",
-			"PublishedAt": "2026-03-25T12:19:31+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "nnYtZD3sldw"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/nnYtZD3sldw/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/nnYtZD3sldw/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/nnYtZD3sldw/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/nnYtZD3sldw/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "JoAnn Falletta conducts Amy Beach: Gaelic Symphony (2010)",
-			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
-			"VideoOwnerChannelTitle": "Female Conductors"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "njEQ7e2rwM4",
-			"VideoPublishedAtRaw": "2018-03-09T14:46:37Z",
-			"VideoPublishedAtDateTimeOffset": "2018-03-09T14:46:37+00:00",
-			"VideoPublishedAt": "2018-03-09T20:16:37+05:30"
-		},
-		"ETag": "YDvwXXAVjjRpBI44iYldRnTnyzo",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "American conductor JoAnn Falletta leads the Virginia Symphony Orchestra in this fresh and dynamic performance of Ludwig Van Beethoven\u2019s Symphony No. 2.  The concert was recorded live from performances in November 2017.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 8,
-			"PublishedAtRaw": "2026-03-25T06:48:14Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:48:14+00:00",
-			"PublishedAt": "2026-03-25T12:18:14+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "njEQ7e2rwM4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "JoAnn Falletta conducts Beethoven - Symphony No. 2 (2017)",
-			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
-			"VideoOwnerChannelTitle": "Female Conductors"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "DsRJO0qBRAM",
-			"VideoPublishedAtRaw": "2018-01-03T20:46:43Z",
-			"VideoPublishedAtDateTimeOffset": "2018-01-03T20:46:43+00:00",
-			"VideoPublishedAt": "2018-01-04T02:16:43+05:30"
-		},
-		"ETag": "HE8qRkKn9nr1UBV3YObES0iQZmA",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "American conductor JoAnn Falletta leads the Buffalo Philharmonic Orchestra in an magnificent and mature performance of Robert Schumann\u0027s Symphony No. 3 in E-Flat Major \u2019Rhenish\u0027. The concert was recorded live from performances in April 2014.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 9,
-			"PublishedAtRaw": "2026-03-25T06:49:47Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:47+00:00",
-			"PublishedAt": "2026-03-25T12:19:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "DsRJO0qBRAM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "JoAnn Falletta conducts Schumann - Symphony No. 3 \u2018Rhenish\u0027 (2014)",
-			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
-			"VideoOwnerChannelTitle": "Female Conductors"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "wh8uBCIXtQU",
-			"VideoPublishedAtRaw": "2018-01-21T09:25:38Z",
-			"VideoPublishedAtDateTimeOffset": "2018-01-21T09:25:38+00:00",
-			"VideoPublishedAt": "2018-01-21T14:55:38+05:30"
-		},
-		"ETag": "61pPLFaALXHAq9mZPjDHLrouE2g",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "American conductor JoAnn Falletta leads the Norrlandsoperans Symfoniorkester in this performance of Richard Strauss\u2019 Bourgeois Gentilhomme. The concert was recorded live on November 30, 2017.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 10,
-			"PublishedAtRaw": "2026-03-25T06:49:18Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:18+00:00",
-			"PublishedAt": "2026-03-25T12:19:18+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "wh8uBCIXtQU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "JoAnn Falletta conducts Strauss  - Bourgeois Gentilhomme (2017)",
-			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
-			"VideoOwnerChannelTitle": "Female Conductors"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "jHM53wBkwxE",
-			"VideoPublishedAtRaw": "2018-02-24T01:25:13Z",
-			"VideoPublishedAtDateTimeOffset": "2018-02-24T01:25:13+00:00",
-			"VideoPublishedAt": "2018-02-24T06:55:13+05:30"
-		},
-		"ETag": "AvRqrRyucVmZu06rQOkMSkTAEQA",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "American conductor JoAnn Falletta leads the Buffalo Philharmonic in this performance of Peter Tchaikovsky\u2019s Serenade for Strings.  The concert was recorded live from concerts in October 2016.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 11,
-			"PublishedAtRaw": "2026-03-25T06:49:41Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:41+00:00",
-			"PublishedAt": "2026-03-25T12:19:41+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "jHM53wBkwxE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/jHM53wBkwxE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/jHM53wBkwxE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/jHM53wBkwxE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/jHM53wBkwxE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/jHM53wBkwxE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "JoAnn Falletta conducts Tchaikovsky - Serenade for Strings (2016)",
-			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
-			"VideoOwnerChannelTitle": "Female Conductors"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "pIsPwZLtuvU",
-			"VideoPublishedAtRaw": "2017-12-11T19:39:11Z",
-			"VideoPublishedAtDateTimeOffset": "2017-12-11T19:39:11+00:00",
-			"VideoPublishedAt": "2017-12-12T01:09:11+05:30"
-		},
-		"ETag": "Dk46dE9tVXdgajMamKPNjoHajXA",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "American conductor JoAnn Falletta conducts the Buffalo Philharmonic in a brilliant performance of Tchaikovsky\u0027s Symphony No. 5. It was recorded live in October 2016 in Kleinhans Music Hall in Buffalo, NY.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 12,
-			"PublishedAtRaw": "2026-03-25T06:48:20Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:48:20+00:00",
-			"PublishedAt": "2026-03-25T12:18:20+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "pIsPwZLtuvU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "JoAnn Falletta conducts Tchaikovsky: Symphony No. 5 (2016)",
-			"VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
-			"VideoOwnerChannelTitle": "Female Conductors"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "xUq0WuT9Z34",
-			"VideoPublishedAtRaw": "2026-03-23T07:18:01Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-23T07:18:01+00:00",
-			"VideoPublishedAt": "2026-03-23T12:48:01+05:30"
-		},
-		"ETag": "_0tRytJvM8P1cfxO9ti3lZhCPUY",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Nielsen: Symphony No.4 \u0027The Inextinguishable\u0027  \n1st movement   00:00\n2nd   12:45\n3rd    17:34\n4th    27:15\nJoann Falletta / Buffalo Philharmonic orchestra\n2013 Buffalo, Kleinhans Music Hall live recording\n\u30CB\u30FC\u30EB\u30BB\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\u300C\u4E0D\u6EC5\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n2013\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u30FB\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u30D0\u30E9\u30F3\u30B9\u611F\u899A\u3068\u7D71\u7387\u529B\u304C\u5149\u308B\u898B\u4E8B\u306A\u300C\u4E0D\u6EC5\u300D\u3002\u3053\u308C\u304B\u3089\u5F7C\u5973\u306E\u5353\u8D8A\u3057\u305F\u30E9\u30A4\u30D6\u97F3\u6E90\u306E\u6295\u7A3F\u304C\u7D9A\u304D\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 13,
-			"PublishedAtRaw": "2026-03-25T06:45:11Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:45:11+00:00",
-			"PublishedAt": "2026-03-25T12:15:11+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "xUq0WuT9Z34"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/xUq0WuT9Z34/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/xUq0WuT9Z34/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/xUq0WuT9Z34/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Nielsen: Symphony No.4 \u0027The Inextinguishable\u0027     J. Falletta / Buffalo PO 2013 live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "922oUUNatuk",
-			"VideoPublishedAtRaw": "2024-10-24T03:00:05Z",
-			"VideoPublishedAtDateTimeOffset": "2024-10-24T03:00:05+00:00",
-			"VideoPublishedAt": "2024-10-24T08:30:05+05:30"
-		},
-		"ETag": "pjvNvBz4NCCMLiEsWilYLfUjTxQ",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Richard Strauss - Symphonic Fantasy On Die Frau Ohne Schatten (The Woman Without A Shadow), TrV.234a\n\nBUFFALO PHILHARMONIC ORCHESTRA\nConductor: JoAnn Falletta",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 14,
-			"PublishedAtRaw": "2026-03-25T06:49:56Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:56+00:00",
-			"PublishedAt": "2026-03-25T12:19:56+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "922oUUNatuk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/922oUUNatuk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/922oUUNatuk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/922oUUNatuk/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/922oUUNatuk/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/922oUUNatuk/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Richard Strauss - Symphonic Fantasy On Die Frau Ohne Schatten (The Woman Without A Shadow)",
-			"VideoOwnerChannelId": "UC96aWof5PHoA1OOH1keA0xQ",
-			"VideoOwnerChannelTitle": "Immortal Classical Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Q9ylvBwiMfY",
-			"VideoPublishedAtRaw": "2017-01-23T14:50:13Z",
-			"VideoPublishedAtDateTimeOffset": "2017-01-23T14:50:13+00:00",
-			"VideoPublishedAt": "2017-01-23T20:20:13+05:30"
-		},
-		"ETag": "j7VOIr8CWU2as_rMnTnzE4-CPOg",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "The Orchestra Now, conducted by JoAnn Falletta, performs Nikolai Rimsky-Korsakov\u0027s \u0022Scheherazade\u0022 at the Lehman Center for the Performing Arts on Sunday, December 18, 2016.\nhttp://theorchestranow.org\n\nIntroduction by Holly Nelson, violin 0:00\nThe Sea and Sinbad\u0027s Ship 2:57\nThe Legend of the Kalendar Prince 12:56\nThe Young Prince and The Young Princess 25:19\nFestival at Baghdad\u2014The Sea\u2014The Shipwreck 36:11\n\nNikolai Rimsky-Korsakov\nBorn: 3/18/1844 in Tikhvin, Russia\nDied: 6/21/1908 at age 64 in St. Petersburg\n\nWritten: 1888, at age 44\n\nPremiered: 11/3/1888 at the Club of Nobility in St. Petersburg by the Russian Symphony with the composer conducting",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 15,
-			"PublishedAtRaw": "2026-03-25T06:50:23Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:50:23+00:00",
-			"PublishedAt": "2026-03-25T12:20:23+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Q9ylvBwiMfY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Rimsky-Korsakov: \u0022Scheherazade\u0022 | The Orchestra Now",
-			"VideoOwnerChannelId": "UC00JUGg1AJiW8lM3d8C29tQ",
-			"VideoOwnerChannelTitle": "The Orchestra Now"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "w5AgqEXzcdY",
-			"VideoPublishedAtRaw": "2026-03-24T15:04:01Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-24T15:04:01+00:00",
-			"VideoPublishedAt": "2026-03-24T20:34:01+05:30"
-		},
-		"ETag": "f8vzOaKfiEfBaRyFh8dUlj9CL9U",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "RIMSKY-KORSAKOV: Scheherazade\n\u7B2C1\u66F2 \u6D77\u3068\u30B7\u30F3\u30C9\u30D0\u30C3\u30C9\u306E\u8239    00:10\nI. The Sea and Sindbad\u0027s Ship\n\u7B2C2\u66F2 \u30AB\u30E9\u30F3\u30C0\u30FC\u30EB\u738B\u5B50\u306E\u7269\u8A9E    10:28\nII. The Tale of the Kalender Prince\n\u7B2C3\u66F2 \u82E5\u3044\u738B\u5B50\u3068\u738B\u5973   22:31\nIII. The Young Prince and the Young Princess\n\u7B2C4\u66F2 \u30D0\u30B0\u30C0\u30C3\u30C9\u306E\u796D\u308A - \u6D77    34:15\nIV. Festival in Baghdad - The Sea - The Ship Goes to Pieces on a Rock Surmounted by a Bronze Warrior - Conclusion\nJoann Falletta / Buffalo Philharmonic orchestra\nSolo Violin) Micheal Ludwig\n2009 Buffalo, Kleinhans Music Hall live recording\n\u30EA\u30E0\u30B9\u30AD\u30FC\uFF1D\u30B3\u30EB\u30B5\u30B3\u30D5\uFF1A\u4EA4\u97FF\u7D44\u66F2\u300C\u30B7\u30A7\u30A8\u30E9\u30B6\u30FC\u30C9\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\uFF09\u30DF\u30D2\u30E3\u30A8\u30EB\u30FB\u30EB\u30FC\u30C8\u30F4\u30A3\u30D2\n2009\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u52D5\u7684\u306A\u7279\u5FB4\u304C\u826F\u304F\u8868\u308C\u305F\u7F8E\u3057\u3044\u540D\u6F14\u3002\u30BD\u30ED\u3092\u57F7\u308B\u30EB\u30FC\u30C8\u30F4\u30A3\u30D2\u306F\u9577\u5E74\u30D0\u30C3\u30D5\u30A1\u30ED\u30FCPO\u306E\u30B3\u30F3\u30B5\u30FC\u30C8\u30FB\u30DE\u30B9\u30BF\u30FC\u3092\u52E4\u3081\u3001\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u7247\u8155\u3068\u3057\u3066\u6D3B\u8E8D\u3057\u307E\u3057\u305F\u304C\u3001\u30BD\u30EA\u30B9\u30C8\u3068\u3057\u3066\u3082\u7C73\u56FD\u6709\u6570\u306E\u5B58\u5728\u3002\u8868\u60C5\u8C4A\u304B\u306A\u7F8E\u97F3\u3067\u3053\u306E\u540D\u6F14\u3092\u3088\u308A\u5F15\u304D\u7ACB\u3066\u3066\u3044\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 16,
-			"PublishedAtRaw": "2026-03-25T06:44:57Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:44:57+00:00",
-			"PublishedAt": "2026-03-25T12:14:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "w5AgqEXzcdY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/w5AgqEXzcdY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/w5AgqEXzcdY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/w5AgqEXzcdY/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "RIMSKY-KORSAKOV: Scheherazade   J. Falletta / Buffalo PO 2009 live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "P3V3pq2KCnw",
-			"VideoPublishedAtRaw": "2026-03-22T15:18:16Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-22T15:18:16+00:00",
-			"VideoPublishedAt": "2026-03-22T20:48:16+05:30"
-		},
-		"ETag": "GNwsSoW5Dy5AowqV8YgBGIyW90o",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Stravinsky: The Rite of Springs\nPart1   00:00\nPart2   15:44\nJoann Falletta / Virginia Symphony orchestra\n9/2006 Norfolk, Chrysler Hall live recording\n\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF1A\u30D0\u30EC\u30A8\u97F3\u697D\u300C\u6625\u306E\u796D\u5178\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30F4\u30A1\u30FC\u30B8\u30CB\u30A2\u4EA4\u97FF\u697D\u56E3\n2006\u5E749\u6708\u3000\u30CE\u30FC\u30D5\u30A9\u30FC\u30AF\u3001\u30AF\u30E9\u30A4\u30B9\u30E9\u30FC\u30FB\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u73FE\u5728\u30A2\u30E1\u30EA\u30AB\u3067\u6700\u3082\u30DB\u30C3\u30C8\u3067\u30A8\u30AD\u30B5\u30A4\u30C6\u30A3\u30F3\u30B0\u306A\u6307\u63EE\u8005\u306E\u4E00\u4EBA\u30D5\u30A1\u30EC\u30C3\u30BF\u3002\u30A2\u30E1\u30EA\u30AB\u306B\u304A\u3051\u308B\u5973\u6D41\u6307\u63EE\u8005\u306E\u5148\u99C6\u3051\u7684\u5B58\u5728\u3067\u3059\u3002\u30F4\u30A1\u30FC\u30B8\u30CB\u30A2\u97FF\u3068\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u3068\u3044\u3046\u3084\u3084\u30DE\u30A4\u30CA\u30FC\u7684\u6271\u3044\u306E\u97F3\u697D\u76E3\u7763\u309230\u5E74\u6765\u52D9\u3081\u3066\u3044\u307E\u3059\u304C\u3001\u305D\u306E\u9593\u306E\u4E21\u56E3\u4F53\u306E\u97F3\u697D\u7684\u5411\u4E0A\u306F\u7D20\u6674\u3089\u3057\u304F\u3001\u3069\u3061\u3089\u3082\u5F7C\u5973\u3092\u653E\u3057\u305F\u304C\u3089\u306A\u3044\u3088\u3046\u3067\u3059\u3002\u3053\u3053\u3067\u3082\u5927\u5909\u523A\u6FC0\u7684\u306A\u300C\u30CF\u30EB\u30B5\u30A4\u300D\u3092\u8074\u304B\u305B\u3066\u304F\u308C\u3066\u3044\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 17,
-			"PublishedAtRaw": "2026-03-25T06:45:19Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:45:19+00:00",
-			"PublishedAt": "2026-03-25T12:15:19+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "P3V3pq2KCnw"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/P3V3pq2KCnw/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/P3V3pq2KCnw/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/P3V3pq2KCnw/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Stravinsky: The Rite of Springs      J. Falletta / Virginia SO 2006 live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "iAQyzb0PkRs",
-			"VideoPublishedAtRaw": "2022-09-08T15:34:40Z",
-			"VideoPublishedAtDateTimeOffset": "2022-09-08T15:34:40+00:00",
-			"VideoPublishedAt": "2022-09-08T21:04:40+05:30"
-		},
-		"ETag": "M65HA5ZWYQCWkRI0epitQcWMv4I",
-		"Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Recording from November 19, 2021 in Kulas Hall, conducted by Joann Falletta. I am playing principal horn in this concert, which has some great horn features.",
-			"PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
-			"Position": 18,
-			"PublishedAtRaw": "2026-03-25T06:49:36Z",
-			"PublishedAtDateTimeOffset": "2026-03-25T06:49:36+00:00",
-			"PublishedAt": "2026-03-25T12:19:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "iAQyzb0PkRs"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Zemlinsky - Die Seejungfrau - Joann Falletta conducts the Cleveland Institute of Music Orchestra",
-			"VideoOwnerChannelId": "UCPKat5YvtIJ6vbCgLNObTVg",
-			"VideoOwnerChannelTitle": "Liam McConlogue"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "eQ1unCtX6K0",
+      "VideoPublishedAtRaw": "2023-09-29T14:45:52Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-29T14:45:52+00:00",
+      "VideoPublishedAt": "2023-09-29T20:15:52+05:30"
+    },
+    "ETag": "GSoqT60qpHX4xN1Th5KJmUBsvds",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Joseph Bologne Chevalier de Saint-Georges: Violin Concerto in A Major, Op. 5 No. 2\n- Allegro Moderato\n- Largo\n- Rondeau\nAugustin Hadelich, violin\nJoAnn Falletta, conductor\nDetroit Symphony Orchestra\n\nLive in performance on April 29 2023 in Orchestra Hall, Detroit\nwww.dso.org\nwww.augustinhadelich.com\n\ncopyright 2023 Detroit Symphony Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 0,
+      "PublishedAtRaw": "2026-03-25T06:50:07Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:50:07+00:00",
+      "PublishedAt": "2026-03-25T12:20:07+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "eQ1unCtX6K0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/eQ1unCtX6K0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Augustin Hadelich plays Chevalier de Saint-Georges Concerto in A, Op. 5/2",
+      "VideoOwnerChannelId": "UCX_bIRZP76N5HHWGdy3Qj8g",
+      "VideoOwnerChannelTitle": "Augustin Hadelich"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "pOAKQLGrKpc",
+      "VideoPublishedAtRaw": "2026-03-25T07:07:09Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-25T07:07:09+00:00",
+      "VideoPublishedAt": "2026-03-25T12:37:09+05:30"
+    },
+    "ETag": "5GtgdN3pLwkT0CG04aXUmMtILCY",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven: Symphony No. 9 in D Minor, Op. 125, \u0022Choral\u0022\n1st movement   00:00\n2nd   14:14\n3rd    24:08\n4th    39:08\nJoAnn Falletta / Buffalo Philharmonic Orchestra\nSo) Jaclyn Grossman      Alt) Hannah Shea \nTen) John Tiranno      Bar) Lester Lynch\nCho) Buffalo Philharmonic Chorus, Suny Fredonia Beethoven 9 Chorus\n2024 Buffalo, Kleinhans Music Hall live revording\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u5408\u5531\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A7\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30B8\u30E3\u30AF\u30EA\u30FC\u30F3\u30FB\u30B0\u30ED\u30B9\u30DE\u30F3\u3000\u30A2\u30EB\u30C8\uFF09\u30CF\u30F3\u30CA\u30FB\u30B7\u30A2\u30FC\n\u30C6\u30CE\u30FC\u30EB\uFF09\u30B8\u30E7\u30F3\u30FB\u30C6\u30A3\u30E9\u30F3\u30CE\u3000\u30D0\u30EA\u30C8\u30F3\uFF09\u30EC\u30B9\u30BF\u30FC\u30FB\u30EA\u30F3\u30C1\n\u5408\u5531\uFF09\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF\u5408\u5531\u56E3\u3001\u30CB\u30E5\u30FC\u30E8\u30FC\u30AF\u5DDE\u7ACB\u5927\u5B66\u30D5\u30EC\u30C9\u30CB\u30A2\u6821\u7B2C\u4E5D\u5408\u5531\u56E3\n2024\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306F\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\u3082\u51C4\u3044\u3002\u6B63\u653B\u6CD5\u306B\u7A81\u304D\u9032\u307F\u306A\u304C\u3089\u30ED\u30DE\u30F3\u7684\u60C5\u611F\u304C\u6EA2\u308C\u3066\u3044\u307E\u3059\u3002\u30BD\u30EA\u30B9\u30C8\u3084\u5408\u5531\u306B\u30D3\u30C3\u30B0\u30CD\u30FC\u30E0\u306F\u6709\u308A\u307E\u305B\u3093\u304C\u3001\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u4F5C\u308B\u5927\u304D\u306A\u97F3\u697D\u306E\u6D41\u308C\u306E\u4E2D\u306B\u5F15\u304D\u8FBC\u307E\u308C\u5065\u95D8\u3057\u3066\u3044\u307E\u3059\u3002\u611F\u52D5\u3002",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 1,
+      "PublishedAtRaw": "2026-03-25T07:28:36Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T07:28:36+00:00",
+      "PublishedAt": "2026-03-25T12:58:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pOAKQLGrKpc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pOAKQLGrKpc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pOAKQLGrKpc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pOAKQLGrKpc/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Beethoven: Symphony No. 9 in D Minor, Op. 125, \u0022Choral\u0022\u3000J. Falletta / Buffalo PO 2024 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ejZzma5pO1I",
+      "VideoPublishedAtRaw": "2011-05-20T17:41:47Z",
+      "VideoPublishedAtDateTimeOffset": "2011-05-20T17:41:47+00:00",
+      "VideoPublishedAt": "2011-05-20T23:11:47+05:30"
+    },
+    "ETag": "PsOb5S4NOD4R7Sg3qNoHyjA8dvU",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "JoAnn Falletta, Music Director of the Buffalo Philharmonic Orchestra discusses the upcoming Tchaikovsky Piano Concerto 2 on May 1 and May 2, 2010 at Kleinhans Music Hall.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 2,
+      "PublishedAtRaw": "2026-03-25T06:49:01Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:01+00:00",
+      "PublishedAt": "2026-03-25T12:19:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ejZzma5pO1I"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ejZzma5pO1I/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ejZzma5pO1I/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ejZzma5pO1I/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "BPO Tchaikovsky Piano Concerto 2  Pre-Concert Lecture with JoAnn Falletta and William Wolfram",
+      "VideoOwnerChannelId": "UC23rMR1pSQRakD6rjCv14MQ",
+      "VideoOwnerChannelTitle": "Buffalo Philharmonic Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "TlwktOuyV5A",
+      "VideoPublishedAtRaw": "2026-03-23T14:06:59Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-23T14:06:59+00:00",
+      "VideoPublishedAt": "2026-03-23T19:36:59+05:30"
+    },
+    "ETag": "2rqJdg3LNESXswBtSNIi6rpDvrc",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Brahms: Symphony No.4\n1st movement     00:00\n2nd    11:48\n3rd     22:52\n4th     28:57\nJoann Falletta / Buffalo Philharmonic orchestra\n2011 Buffalo, Kleinhans Music Hall live recording\n\u30D6\u30E9\u30FC\u30E0\u30B9\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n2010\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u5B58\u5728\u3092\u521D\u3081\u3066\u77E5\u308A\u3001\u9A5A\u5606\u3057\u305F\u540D\u6F14\u3002\u3057\u306A\u3084\u304B\u3055\u3068\u5927\u80C6\u3055\u304C\u5171\u5B58\u3057\u3066\u3044\u307E\u3059\u304C\u3001\u97F3\u697D\u306E\u63A8\u9032\u529B\u306E\u5F37\u3055\u3053\u305D\u5F7C\u5973\u306E\u9B45\u529B\u3060\u3068\u601D\u3044\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 3,
+      "PublishedAtRaw": "2026-03-25T06:45:07Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:45:07+00:00",
+      "PublishedAt": "2026-03-25T12:15:07+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "TlwktOuyV5A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/TlwktOuyV5A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/TlwktOuyV5A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/TlwktOuyV5A/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Brahms: Symphony No.4    J. Falletta / Buffalo PO 2010 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "QqAEIF2jKus",
+      "VideoPublishedAtRaw": "2011-12-08T18:48:27Z",
+      "VideoPublishedAtDateTimeOffset": "2011-12-08T18:48:27+00:00",
+      "VideoPublishedAt": "2011-12-09T00:18:27+05:30"
+    },
+    "ETag": "IROkhf3mMJ70d-yLdI7ZNzS6GgQ",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Friday, November 4, 2011\r\nSaturday, November 5, 2011\r\nSunday, November 6, 2011\r\n\r\nBrahms Third \r\nJoAnn Falletta, conductor\r\nMichael Ludwig, violin\r\n\r\nBPO Concertmaster Michael Ludwig is featured as soloist in Wieniawski\u0027s Violin Concerto No. 2, one of the greatest violin concertos of the Romantic era, memorable for its lush and moving melodies and harmonies. JoAnn Falletta conducts the program, which also includes Wieniawski\u0027s countryman, Mieczys\u0142aw Kar\u0142owicz\u0027s Symphonic Poem \u0022A Sad Tale\u0022 and Brahms\u0027 Third Symphony. Built around the tonal theme of F-A flat-F, the symphony celebrates \u0022Free But Happy\u0022 (Frei aber froh) and is one of the composer\u0027s most popular.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 4,
+      "PublishedAtRaw": "2026-03-25T06:49:06Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:06+00:00",
+      "PublishedAt": "2026-03-25T12:19:06+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "QqAEIF2jKus"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/QqAEIF2jKus/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/QqAEIF2jKus/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/QqAEIF2jKus/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Buffalo Philharmonic Orchestra: Brahms Third Preconcert Lecture with JoAnn Falletta",
+      "VideoOwnerChannelId": "UC23rMR1pSQRakD6rjCv14MQ",
+      "VideoOwnerChannelTitle": "Buffalo Philharmonic Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "4OY2Cd2Z07E",
+      "VideoPublishedAtRaw": "2025-03-17T18:04:04Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-17T18:04:04+00:00",
+      "VideoPublishedAt": "2025-03-17T23:34:04+05:30"
+    },
+    "ETag": "xfHsy1XstLLdv6uMydSVq6gCF5Q",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Alexandra DARIESCU, piano\nJoAnn FALLETTA, conductor\nWinston-Salem Symphony",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 5,
+      "PublishedAtRaw": "2026-03-25T06:48:25Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:48:25+00:00",
+      "PublishedAt": "2026-03-25T12:18:25+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "4OY2Cd2Z07E"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/4OY2Cd2Z07E/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "GRIEG : Piano Concerto - DARIESCU / FALLETTA / Winston Salem Symphony",
+      "VideoOwnerChannelId": "UCYqzXzZxmISqgmnBHYczVnw",
+      "VideoOwnerChannelTitle": "lapin blanc"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6q6unE26axE",
+      "VideoPublishedAtRaw": "2025-03-25T07:14:14Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-25T07:14:14+00:00",
+      "VideoPublishedAt": "2025-03-25T12:44:14+05:30"
+    },
+    "ETag": "BzELOWe6nKNWkz9OK1_vk-3J3bQ",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Juilliard Orchestra\nJoAnn FALLETTA, conductor",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 6,
+      "PublishedAtRaw": "2026-03-25T06:48:37Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:48:37+00:00",
+      "PublishedAt": "2026-03-25T12:18:37+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6q6unE26axE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6q6unE26axE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6q6unE26axE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6q6unE26axE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6q6unE26axE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6q6unE26axE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "HINDEMITH : Symphonic Metamorphosis - FALLETTA / Juilliard Orchestra",
+      "VideoOwnerChannelId": "UCYqzXzZxmISqgmnBHYczVnw",
+      "VideoOwnerChannelTitle": "lapin blanc"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nnYtZD3sldw",
+      "VideoPublishedAtRaw": "2017-12-12T05:25:35Z",
+      "VideoPublishedAtDateTimeOffset": "2017-12-12T05:25:35+00:00",
+      "VideoPublishedAt": "2017-12-12T10:55:35+05:30"
+    },
+    "ETag": "ziz88BcdvSrK5juDS70YZGuuMXo",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "American conductor JoAnn Falletta conducts the Ulster Orchestra in a beautiful performance of Amy Beach\u2019s seldom played Symphony in E Minor \u2018Gaelic\u0027. It was recorded live in August 13, 2010 in Ulster Hall in Belfast.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 7,
+      "PublishedAtRaw": "2026-03-25T06:49:31Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:31+00:00",
+      "PublishedAt": "2026-03-25T12:19:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nnYtZD3sldw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nnYtZD3sldw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nnYtZD3sldw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nnYtZD3sldw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nnYtZD3sldw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "JoAnn Falletta conducts Amy Beach: Gaelic Symphony (2010)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "njEQ7e2rwM4",
+      "VideoPublishedAtRaw": "2018-03-09T14:46:37Z",
+      "VideoPublishedAtDateTimeOffset": "2018-03-09T14:46:37+00:00",
+      "VideoPublishedAt": "2018-03-09T20:16:37+05:30"
+    },
+    "ETag": "YDvwXXAVjjRpBI44iYldRnTnyzo",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "American conductor JoAnn Falletta leads the Virginia Symphony Orchestra in this fresh and dynamic performance of Ludwig Van Beethoven\u2019s Symphony No. 2.  The concert was recorded live from performances in November 2017.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 8,
+      "PublishedAtRaw": "2026-03-25T06:48:14Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:48:14+00:00",
+      "PublishedAt": "2026-03-25T12:18:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "njEQ7e2rwM4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/njEQ7e2rwM4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "JoAnn Falletta conducts Beethoven - Symphony No. 2 (2017)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DsRJO0qBRAM",
+      "VideoPublishedAtRaw": "2018-01-03T20:46:43Z",
+      "VideoPublishedAtDateTimeOffset": "2018-01-03T20:46:43+00:00",
+      "VideoPublishedAt": "2018-01-04T02:16:43+05:30"
+    },
+    "ETag": "HE8qRkKn9nr1UBV3YObES0iQZmA",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "American conductor JoAnn Falletta leads the Buffalo Philharmonic Orchestra in an magnificent and mature performance of Robert Schumann\u0027s Symphony No. 3 in E-Flat Major \u2019Rhenish\u0027. The concert was recorded live from performances in April 2014.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 9,
+      "PublishedAtRaw": "2026-03-25T06:49:47Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:47+00:00",
+      "PublishedAt": "2026-03-25T12:19:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DsRJO0qBRAM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DsRJO0qBRAM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "JoAnn Falletta conducts Schumann - Symphony No. 3 \u2018Rhenish\u0027 (2014)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wh8uBCIXtQU",
+      "VideoPublishedAtRaw": "2018-01-21T09:25:38Z",
+      "VideoPublishedAtDateTimeOffset": "2018-01-21T09:25:38+00:00",
+      "VideoPublishedAt": "2018-01-21T14:55:38+05:30"
+    },
+    "ETag": "61pPLFaALXHAq9mZPjDHLrouE2g",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "American conductor JoAnn Falletta leads the Norrlandsoperans Symfoniorkester in this performance of Richard Strauss\u2019 Bourgeois Gentilhomme. The concert was recorded live on November 30, 2017.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 10,
+      "PublishedAtRaw": "2026-03-25T06:49:18Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:18+00:00",
+      "PublishedAt": "2026-03-25T12:19:18+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wh8uBCIXtQU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wh8uBCIXtQU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "JoAnn Falletta conducts Strauss  - Bourgeois Gentilhomme (2017)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "jHM53wBkwxE",
+      "VideoPublishedAtRaw": "2018-02-24T01:25:13Z",
+      "VideoPublishedAtDateTimeOffset": "2018-02-24T01:25:13+00:00",
+      "VideoPublishedAt": "2018-02-24T06:55:13+05:30"
+    },
+    "ETag": "AvRqrRyucVmZu06rQOkMSkTAEQA",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "American conductor JoAnn Falletta leads the Buffalo Philharmonic in this performance of Peter Tchaikovsky\u2019s Serenade for Strings.  The concert was recorded live from concerts in October 2016.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 11,
+      "PublishedAtRaw": "2026-03-25T06:49:41Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:41+00:00",
+      "PublishedAt": "2026-03-25T12:19:41+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jHM53wBkwxE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jHM53wBkwxE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jHM53wBkwxE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/jHM53wBkwxE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jHM53wBkwxE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/jHM53wBkwxE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "JoAnn Falletta conducts Tchaikovsky - Serenade for Strings (2016)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "pIsPwZLtuvU",
+      "VideoPublishedAtRaw": "2017-12-11T19:39:11Z",
+      "VideoPublishedAtDateTimeOffset": "2017-12-11T19:39:11+00:00",
+      "VideoPublishedAt": "2017-12-12T01:09:11+05:30"
+    },
+    "ETag": "Dk46dE9tVXdgajMamKPNjoHajXA",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "American conductor JoAnn Falletta conducts the Buffalo Philharmonic in a brilliant performance of Tchaikovsky\u0027s Symphony No. 5. It was recorded live in October 2016 in Kleinhans Music Hall in Buffalo, NY.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 12,
+      "PublishedAtRaw": "2026-03-25T06:48:20Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:48:20+00:00",
+      "PublishedAt": "2026-03-25T12:18:20+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pIsPwZLtuvU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/pIsPwZLtuvU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "JoAnn Falletta conducts Tchaikovsky: Symphony No. 5 (2016)",
+      "VideoOwnerChannelId": "UCf0AwCz91dMxOxfFujBMYtQ",
+      "VideoOwnerChannelTitle": "Female Conductors"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xUq0WuT9Z34",
+      "VideoPublishedAtRaw": "2026-03-23T07:18:01Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-23T07:18:01+00:00",
+      "VideoPublishedAt": "2026-03-23T12:48:01+05:30"
+    },
+    "ETag": "_0tRytJvM8P1cfxO9ti3lZhCPUY",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Nielsen: Symphony No.4 \u0027The Inextinguishable\u0027  \n1st movement   00:00\n2nd   12:45\n3rd    17:34\n4th    27:15\nJoann Falletta / Buffalo Philharmonic orchestra\n2013 Buffalo, Kleinhans Music Hall live recording\n\u30CB\u30FC\u30EB\u30BB\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\u300C\u4E0D\u6EC5\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n2013\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u30FB\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u30D0\u30E9\u30F3\u30B9\u611F\u899A\u3068\u7D71\u7387\u529B\u304C\u5149\u308B\u898B\u4E8B\u306A\u300C\u4E0D\u6EC5\u300D\u3002\u3053\u308C\u304B\u3089\u5F7C\u5973\u306E\u5353\u8D8A\u3057\u305F\u30E9\u30A4\u30D6\u97F3\u6E90\u306E\u6295\u7A3F\u304C\u7D9A\u304D\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 13,
+      "PublishedAtRaw": "2026-03-25T06:45:11Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:45:11+00:00",
+      "PublishedAt": "2026-03-25T12:15:11+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xUq0WuT9Z34"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xUq0WuT9Z34/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xUq0WuT9Z34/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xUq0WuT9Z34/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Nielsen: Symphony No.4 \u0027The Inextinguishable\u0027     J. Falletta / Buffalo PO 2013 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "922oUUNatuk",
+      "VideoPublishedAtRaw": "2024-10-24T03:00:05Z",
+      "VideoPublishedAtDateTimeOffset": "2024-10-24T03:00:05+00:00",
+      "VideoPublishedAt": "2024-10-24T08:30:05+05:30"
+    },
+    "ETag": "pjvNvBz4NCCMLiEsWilYLfUjTxQ",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss - Symphonic Fantasy On Die Frau Ohne Schatten (The Woman Without A Shadow), TrV.234a\n\nBUFFALO PHILHARMONIC ORCHESTRA\nConductor: JoAnn Falletta",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 14,
+      "PublishedAtRaw": "2026-03-25T06:49:56Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:56+00:00",
+      "PublishedAt": "2026-03-25T12:19:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "922oUUNatuk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/922oUUNatuk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/922oUUNatuk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/922oUUNatuk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/922oUUNatuk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/922oUUNatuk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Richard Strauss - Symphonic Fantasy On Die Frau Ohne Schatten (The Woman Without A Shadow)",
+      "VideoOwnerChannelId": "UC96aWof5PHoA1OOH1keA0xQ",
+      "VideoOwnerChannelTitle": "Immortal Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Q9ylvBwiMfY",
+      "VideoPublishedAtRaw": "2017-01-23T14:50:13Z",
+      "VideoPublishedAtDateTimeOffset": "2017-01-23T14:50:13+00:00",
+      "VideoPublishedAt": "2017-01-23T20:20:13+05:30"
+    },
+    "ETag": "j7VOIr8CWU2as_rMnTnzE4-CPOg",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The Orchestra Now, conducted by JoAnn Falletta, performs Nikolai Rimsky-Korsakov\u0027s \u0022Scheherazade\u0022 at the Lehman Center for the Performing Arts on Sunday, December 18, 2016.\nhttp://theorchestranow.org\n\nIntroduction by Holly Nelson, violin 0:00\nThe Sea and Sinbad\u0027s Ship 2:57\nThe Legend of the Kalendar Prince 12:56\nThe Young Prince and The Young Princess 25:19\nFestival at Baghdad\u2014The Sea\u2014The Shipwreck 36:11\n\nNikolai Rimsky-Korsakov\nBorn: 3/18/1844 in Tikhvin, Russia\nDied: 6/21/1908 at age 64 in St. Petersburg\n\nWritten: 1888, at age 44\n\nPremiered: 11/3/1888 at the Club of Nobility in St. Petersburg by the Russian Symphony with the composer conducting",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 15,
+      "PublishedAtRaw": "2026-03-25T06:50:23Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:50:23+00:00",
+      "PublishedAt": "2026-03-25T12:20:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Q9ylvBwiMfY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Q9ylvBwiMfY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rimsky-Korsakov: \u0022Scheherazade\u0022 | The Orchestra Now",
+      "VideoOwnerChannelId": "UC00JUGg1AJiW8lM3d8C29tQ",
+      "VideoOwnerChannelTitle": "The Orchestra Now"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "w5AgqEXzcdY",
+      "VideoPublishedAtRaw": "2026-03-24T15:04:01Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-24T15:04:01+00:00",
+      "VideoPublishedAt": "2026-03-24T20:34:01+05:30"
+    },
+    "ETag": "f8vzOaKfiEfBaRyFh8dUlj9CL9U",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "RIMSKY-KORSAKOV: Scheherazade\n\u7B2C1\u66F2 \u6D77\u3068\u30B7\u30F3\u30C9\u30D0\u30C3\u30C9\u306E\u8239    00:10\nI. The Sea and Sindbad\u0027s Ship\n\u7B2C2\u66F2 \u30AB\u30E9\u30F3\u30C0\u30FC\u30EB\u738B\u5B50\u306E\u7269\u8A9E    10:28\nII. The Tale of the Kalender Prince\n\u7B2C3\u66F2 \u82E5\u3044\u738B\u5B50\u3068\u738B\u5973   22:31\nIII. The Young Prince and the Young Princess\n\u7B2C4\u66F2 \u30D0\u30B0\u30C0\u30C3\u30C9\u306E\u796D\u308A - \u6D77    34:15\nIV. Festival in Baghdad - The Sea - The Ship Goes to Pieces on a Rock Surmounted by a Bronze Warrior - Conclusion\nJoann Falletta / Buffalo Philharmonic orchestra\nSolo Violin) Micheal Ludwig\n2009 Buffalo, Kleinhans Music Hall live recording\n\u30EA\u30E0\u30B9\u30AD\u30FC\uFF1D\u30B3\u30EB\u30B5\u30B3\u30D5\uFF1A\u4EA4\u97FF\u7D44\u66F2\u300C\u30B7\u30A7\u30A8\u30E9\u30B6\u30FC\u30C9\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30F4\u30A1\u30A4\u30AA\u30EA\u30F3\uFF09\u30DF\u30D2\u30E3\u30A8\u30EB\u30FB\u30EB\u30FC\u30C8\u30F4\u30A3\u30D2\n2009\u5E74\u3000\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u3001\u30AF\u30E9\u30A4\u30F3\u30CF\u30F3\u30B9\u97F3\u697D\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u52D5\u7684\u306A\u7279\u5FB4\u304C\u826F\u304F\u8868\u308C\u305F\u7F8E\u3057\u3044\u540D\u6F14\u3002\u30BD\u30ED\u3092\u57F7\u308B\u30EB\u30FC\u30C8\u30F4\u30A3\u30D2\u306F\u9577\u5E74\u30D0\u30C3\u30D5\u30A1\u30ED\u30FCPO\u306E\u30B3\u30F3\u30B5\u30FC\u30C8\u30FB\u30DE\u30B9\u30BF\u30FC\u3092\u52E4\u3081\u3001\u30D5\u30A1\u30EC\u30C3\u30BF\u306E\u7247\u8155\u3068\u3057\u3066\u6D3B\u8E8D\u3057\u307E\u3057\u305F\u304C\u3001\u30BD\u30EA\u30B9\u30C8\u3068\u3057\u3066\u3082\u7C73\u56FD\u6709\u6570\u306E\u5B58\u5728\u3002\u8868\u60C5\u8C4A\u304B\u306A\u7F8E\u97F3\u3067\u3053\u306E\u540D\u6F14\u3092\u3088\u308A\u5F15\u304D\u7ACB\u3066\u3066\u3044\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 16,
+      "PublishedAtRaw": "2026-03-25T06:44:57Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:44:57+00:00",
+      "PublishedAt": "2026-03-25T12:14:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "w5AgqEXzcdY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/w5AgqEXzcdY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/w5AgqEXzcdY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/w5AgqEXzcdY/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "RIMSKY-KORSAKOV: Scheherazade   J. Falletta / Buffalo PO 2009 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "P3V3pq2KCnw",
+      "VideoPublishedAtRaw": "2026-03-22T15:18:16Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-22T15:18:16+00:00",
+      "VideoPublishedAt": "2026-03-22T20:48:16+05:30"
+    },
+    "ETag": "GNwsSoW5Dy5AowqV8YgBGIyW90o",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Stravinsky: The Rite of Springs\nPart1   00:00\nPart2   15:44\nJoann Falletta / Virginia Symphony orchestra\n9/2006 Norfolk, Chrysler Hall live recording\n\u30B9\u30C8\u30E9\u30F4\u30A3\u30F3\u30B9\u30AD\u30FC\uFF1A\u30D0\u30EC\u30A8\u97F3\u697D\u300C\u6625\u306E\u796D\u5178\u300D\n\u30B8\u30E7\u30A2\u30F3\u30FB\u30D5\u30A1\u30EC\u30C3\u30BF\u6307\u63EE\u3000\u30F4\u30A1\u30FC\u30B8\u30CB\u30A2\u4EA4\u97FF\u697D\u56E3\n2006\u5E749\u6708\u3000\u30CE\u30FC\u30D5\u30A9\u30FC\u30AF\u3001\u30AF\u30E9\u30A4\u30B9\u30E9\u30FC\u30FB\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u73FE\u5728\u30A2\u30E1\u30EA\u30AB\u3067\u6700\u3082\u30DB\u30C3\u30C8\u3067\u30A8\u30AD\u30B5\u30A4\u30C6\u30A3\u30F3\u30B0\u306A\u6307\u63EE\u8005\u306E\u4E00\u4EBA\u30D5\u30A1\u30EC\u30C3\u30BF\u3002\u30A2\u30E1\u30EA\u30AB\u306B\u304A\u3051\u308B\u5973\u6D41\u6307\u63EE\u8005\u306E\u5148\u99C6\u3051\u7684\u5B58\u5728\u3067\u3059\u3002\u30F4\u30A1\u30FC\u30B8\u30CB\u30A2\u97FF\u3068\u30D0\u30C3\u30D5\u30A1\u30ED\u30FC\u30FB\u30D5\u30A3\u30EB\u3068\u3044\u3046\u3084\u3084\u30DE\u30A4\u30CA\u30FC\u7684\u6271\u3044\u306E\u97F3\u697D\u76E3\u7763\u309230\u5E74\u6765\u52D9\u3081\u3066\u3044\u307E\u3059\u304C\u3001\u305D\u306E\u9593\u306E\u4E21\u56E3\u4F53\u306E\u97F3\u697D\u7684\u5411\u4E0A\u306F\u7D20\u6674\u3089\u3057\u304F\u3001\u3069\u3061\u3089\u3082\u5F7C\u5973\u3092\u653E\u3057\u305F\u304C\u3089\u306A\u3044\u3088\u3046\u3067\u3059\u3002\u3053\u3053\u3067\u3082\u5927\u5909\u523A\u6FC0\u7684\u306A\u300C\u30CF\u30EB\u30B5\u30A4\u300D\u3092\u8074\u304B\u305B\u3066\u304F\u308C\u3066\u3044\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 17,
+      "PublishedAtRaw": "2026-03-25T06:45:19Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:45:19+00:00",
+      "PublishedAt": "2026-03-25T12:15:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "P3V3pq2KCnw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/P3V3pq2KCnw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/P3V3pq2KCnw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/P3V3pq2KCnw/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Stravinsky: The Rite of Springs      J. Falletta / Virginia SO 2006 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iAQyzb0PkRs",
+      "VideoPublishedAtRaw": "2022-09-08T15:34:40Z",
+      "VideoPublishedAtDateTimeOffset": "2022-09-08T15:34:40+00:00",
+      "VideoPublishedAt": "2022-09-08T21:04:40+05:30"
+    },
+    "ETag": "M65HA5ZWYQCWkRI0epitQcWMv4I",
+    "Id": "UEwxemdOQ29XdF83WVJJVnlWLTBUOXJiMjV2SzlvRVhPYy45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Recording from November 19, 2021 in Kulas Hall, conducted by Joann Falletta. I am playing principal horn in this concert, which has some great horn features.",
+      "PlaylistId": "PL1zgNCoWt_7YRIVyV-0T9rb25vK9oEXOc",
+      "Position": 18,
+      "PublishedAtRaw": "2026-03-25T06:49:36Z",
+      "PublishedAtDateTimeOffset": "2026-03-25T06:49:36+00:00",
+      "PublishedAt": "2026-03-25T12:19:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iAQyzb0PkRs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/iAQyzb0PkRs/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Zemlinsky - Die Seejungfrau - Joann Falletta conducts the Cleveland Institute of Music Orchestra",
+      "VideoOwnerChannelId": "UCPKat5YvtIJ6vbCgLNObTVg",
+      "VideoOwnerChannelTitle": "Liam McConlogue"
+    }
+  }
 ]

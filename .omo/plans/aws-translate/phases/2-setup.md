@@ -34,22 +34,27 @@ public static class AwsSetup
 ```
 
 **Must NOT:**
+
 - Create client with explicit credentials (use SDK default chain)
 - Use block-scoped namespaces
 - Add comments
 
 **References:**
+
 - `src/Services/Azure/AzureSetup.cs:1-59`
 - `src/Services/Google/GoogleSetup.cs:1-43`
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Amazon/Amazon.csproj` succeeds
 - Calling `AddAmazonServices()` on a `ServiceCollection` does not throw
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Amazon/Amazon.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(amazon): add AwsSetup with DI registration`

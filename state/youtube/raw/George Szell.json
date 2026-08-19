@@ -1,1212 +1,1212 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "fnDCYGab8u0",
-			"VideoPublishedAtRaw": "2023-10-28T06:12:33Z",
-			"VideoPublishedAtDateTimeOffset": "2023-10-28T06:12:33+00:00",
-			"VideoPublishedAt": "2023-10-28T11:42:33+05:30"
-		},
-		"ETag": "2sOHacMySfCxpzyMpAOvK7glzog",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "From a rare WGN broadcast of 1961, George Szell leads the Chicago Symphony Orchestra in Beethoven\u0027s Symphony #5. This video should prove revealing because it clearly shows Szell\u0027s handling of the legendary tricky opening of the first movement (with repeat).\n\nII:  8:03 https://youtu.be/fnDCYGab8u0?t=482\nIII: 18:03 https://youtu.be/fnDCYGab8u0?t=1083\nIV: 23:44 https://youtu.be/fnDCYGab8u0?t=1424\n\nGit You One!: https://www.amazon.com/Chicago-Symphony-Orchestra-Telecasts-Mussorgsky/dp/B00006LPGT/ref=sr_1_5?crid=2IXGP2TNAVL93\u0026keywords=chicago\u002Bsymphony\u002Borchestra\u002Bhistoric\u002Btelecasts\u0026qid=1691874197\u0026sprefix=chicago\u002Bsymphony\u002Borchestra\u002Bhistoric\u002Btelecasts%2Caps%2C132\u0026sr=8-5",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 0,
-			"PublishedAtRaw": "2024-12-26T04:55:11Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:11+00:00",
-			"PublishedAt": "2024-12-26T10:25:11+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "fnDCYGab8u0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/fnDCYGab8u0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/fnDCYGab8u0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/fnDCYGab8u0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/fnDCYGab8u0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/fnDCYGab8u0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven: Symphony #5 - Rare 1961 George Szell, CSO",
-			"VideoOwnerChannelId": "UC6Hc6_McFwJbxoHyYWXBHrQ",
-			"VideoOwnerChannelTitle": "The Metronome And Quill"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "i6ofsGJtpF8",
-			"VideoPublishedAtRaw": "2024-12-03T01:57:39Z",
-			"VideoPublishedAtDateTimeOffset": "2024-12-03T01:57:39+00:00",
-			"VideoPublishedAt": "2024-12-03T07:27:39+05:30"
-		},
-		"ETag": "WVCD8jD9rb3EfR9ZNThOd833RPo",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Anton\u00EDn Dvo\u0159\u00E1k : Symphony No. 8 in G Major\n1st movement   00:00\n2nd   10:50\n3rd    21:24\n4th    28:01\nGeorge Szell / Czech Philharmonic Orchestra\n30/8/1969 Lucerne Kunsthaus live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u30C8\u9577\u8ABF\n\u30B8\u30E7\u30FC\u30B8\u30FB\u30BB\u30EB\u6307\u63EE\u3000\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1969\u5E748\u670830\u65E5\u3000\u30B9\u30A4\u30B9\u3001\u30EB\u30C4\u30A7\u30EB\u30F3\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6669\u5E74\u306E\u30BB\u30EB\u304C\u6307\u63EE\u3057\u305F\u3082\u306E\u3067\u3059\u304C\u3001\u6F14\u594F\u306F\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u306E\u81EA\u4E3B\u6027\u3092\u91CD\u3093\u3058\u3001\u6975\u3081\u3066\u81EA\u7136\u3067\u8C4A\u304B\u306A\u8A69\u60C5\u3092\u8B83\u3048\u305F\u540D\u6F14\u3060\u3068\u601D\u3044\u307E\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 1,
-			"PublishedAtRaw": "2024-12-26T04:54:29Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:29+00:00",
-			"PublishedAt": "2024-12-26T10:24:29+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "i6ofsGJtpF8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Dvo\u0159\u00E1k : Symphony No. 8  G.Szell / CPO live at Lucerne 1969",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ULtkv6LCmEI",
-			"VideoPublishedAtRaw": "2023-01-30T22:38:11Z",
-			"VideoPublishedAtDateTimeOffset": "2023-01-30T22:38:11+00:00",
-			"VideoPublishedAt": "2023-01-31T04:08:11+05:30"
-		},
-		"ETag": "xFtNjs7NHmpTHTPbCqeMUaPgxeY",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 2,
-			"PublishedAtRaw": "2024-12-26T04:55:28Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:28+00:00",
-			"PublishedAt": "2024-12-26T10:25:28+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ULtkv6LCmEI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Edith Peinemann - Brahms Violin Concerto - Cleveland Orchestra, G. Szell - Live Broadcast July 1968",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Gk4JC6WHOL8",
-			"VideoPublishedAtRaw": "2023-07-19T00:18:03Z",
-			"VideoPublishedAtDateTimeOffset": "2023-07-19T00:18:03+00:00",
-			"VideoPublishedAt": "2023-07-19T05:48:03+05:30"
-		},
-		"ETag": "GofyMTsVz8rX4yYNaCskWSKKoPk",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "In one of his very few filmed performances, George Szell conducts the Vienna Philharmonic and soloist Friedrich Gulda in this 1966 performance of Beethoven\u0027s Piano Concerto #5 in E-Flat (Emperor). This is followed by Gulda performing Bach\u0027s Chromatic Fantasy and Fugue in recital (1964)",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 3,
-			"PublishedAtRaw": "2024-12-26T04:55:15Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:15+00:00",
-			"PublishedAt": "2024-12-26T10:25:15+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Gk4JC6WHOL8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Friedrich Gulda \u0026 George Szell: Beethoven Piano Concerto #5 1966 - RARE!",
-			"VideoOwnerChannelId": "UC6Hc6_McFwJbxoHyYWXBHrQ",
-			"VideoOwnerChannelTitle": "The Metronome And Quill"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "H0Anm1JO2o0",
-			"VideoPublishedAtRaw": "2022-04-15T12:29:38Z",
-			"VideoPublishedAtDateTimeOffset": "2022-04-15T12:29:38+00:00",
-			"VideoPublishedAt": "2022-04-15T17:59:38+05:30"
-		},
-		"ETag": "Ik9-4oEtIhM-n65NL1CRBAsOr1U",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41QTY1Q0UxMTVCODczNThE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Judith Raskin, Florence Kopleff, Ernst Haefliger, Thomas Paul\nCleveland Orchestra \u0026 Chorus",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 4,
-			"PublishedAtRaw": "2024-12-26T04:55:33Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:33+00:00",
-			"PublishedAt": "2024-12-26T10:25:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "H0Anm1JO2o0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "George Szell conducts Te Deum by Bruckner (live)",
-			"VideoOwnerChannelId": "UCHciabt0LosiFVPs-te0q8A",
-			"VideoOwnerChannelTitle": "violim"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "yr9-QJlYE6U",
-			"VideoPublishedAtRaw": "2024-08-01T06:33:44Z",
-			"VideoPublishedAtDateTimeOffset": "2024-08-01T06:33:44+00:00",
-			"VideoPublishedAt": "2024-08-01T12:03:44+05:30"
-		},
-		"ETag": "1JsujjNUDgscfPAo8IK3JOgxqvQ",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "George Szell conducts the NY Philharmonic in performance of Schubert\u2019s Symphony in B minor, D.759, aka Unfinished Symphony on December 21st, 1947. Broadcast by CBS, simulcast to WCCO Minnesota where Reynolds Marchant recorded it on tape. \n\nI wish the quality of this recording was better - but given I cannot find this performance anywhere on the internet I figured it would be worth sharing anyway. I did some work trying to reduce the impact of the distorted parts with mixed results. \n\nThis is by far the earliest NY Philharmonic radio broadcast I\u2019ve come across in the archive - a clue is the paper-backed 3M tape - something that was only produced in 1947 (with the black oxide). You can tell it\u2019s paper because on the reels you see a white or light grey - that\u2019s the paper. In my other videos you would see acetate or other plastic backed which appears brown or black.\n\nThe super early formulation of tape might be part of the fidelity problem, but I think mostly Reynolds had not worked out the kinks on how to get a radio broadcast cleanly onto tape. It was clearly recorded too loud. By the time the rest of the recordings I\u2019ve already put online were captured in 1949, 1950 and beyond - he really had a great system and the quality of those is mostly stellar. But what do you think of this recording?\n\nThe program for the performance:\nhttps://archives.nyphil.org/index.php/artifact/9ae06c3f-2c18-4c04-9b65-617811d7ec20-0.1/fullview#page/1/mode/2up\n\nTechnical info:\nUnknown Scotch, probably 100A\n7\u201D Reel\n7 1/2 IPS\n\n00:00 - Allegro moderato\n10:57 - Andante con moto",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 5,
-			"PublishedAtRaw": "2024-12-26T04:54:33Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:33+00:00",
-			"PublishedAt": "2024-12-26T10:24:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "yr9-QJlYE6U"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "George Szell/NY Philharmonic: Schubert\u2019s Unfinished Symphony 1947",
-			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
-			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "kijwfECf3Mk",
-			"VideoPublishedAtRaw": "2023-07-16T00:44:52Z",
-			"VideoPublishedAtDateTimeOffset": "2023-07-16T00:44:52+00:00",
-			"VideoPublishedAt": "2023-07-16T06:14:52+05:30"
-		},
-		"ETag": "AfoaciMrfExHa3r8vqC7ITcV5xk",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 6,
-			"PublishedAtRaw": "2024-12-26T04:55:19Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:19+00:00",
-			"PublishedAt": "2024-12-26T10:25:19+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "kijwfECf3Mk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/kijwfECf3Mk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/kijwfECf3Mk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/kijwfECf3Mk/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/kijwfECf3Mk/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/kijwfECf3Mk/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "James Oliver Buswell IV, Stravinsky Violin Concerto, Cleveland Orch.  George Szell April  6 - 8 1967",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "jxh2DwTx3Dc",
-			"VideoPublishedAtRaw": "2023-12-01T21:01:59Z",
-			"VideoPublishedAtDateTimeOffset": "2023-12-01T21:01:59+00:00",
-			"VideoPublishedAt": "2023-12-02T02:31:59+05:30"
-		},
-		"ETag": "oRAPLbcCmh52UADFyGS18CUjDxE",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Joseph Gingold - Bernard Rogers \u0022Portrait\u0022 for Violin \u0026 Orchestra (1952) George Szell, Cleveland Orchestra Oct 18-20, 1956",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 7,
-			"PublishedAtRaw": "2024-12-26T04:55:02Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:02+00:00",
-			"PublishedAt": "2024-12-26T10:25:02+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "jxh2DwTx3Dc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Joseph Gingold - Bernard Rogers \u0022Portrait\u0022 for Violin \u0026 Orchestra- George Szell, Cleveland Orch 1956",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "gw9OmYob9W4",
-			"VideoPublishedAtRaw": "2024-07-05T09:44:09Z",
-			"VideoPublishedAtDateTimeOffset": "2024-07-05T09:44:09+00:00",
-			"VideoPublishedAt": "2024-07-05T15:14:09+05:30"
-		},
-		"ETag": "5Muh5Xt7KHDzB3BXrM7TwD-tuj0",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Frank Martin  (1890 - 1974)\n\nCello Concerto\n\nI       Lento - Allegro moderato - Lento\nII      Adagietto\nIII     Vivace\n\nPierre Fournier, cello\nGeorge Szell,  direttore\nCleveland Orchestra\nlive Cleveland, 1967",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 8,
-			"PublishedAtRaw": "2024-12-26T04:54:41Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:41+00:00",
-			"PublishedAt": "2024-12-26T10:24:41+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "gw9OmYob9W4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/gw9OmYob9W4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/gw9OmYob9W4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/gw9OmYob9W4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/gw9OmYob9W4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/gw9OmYob9W4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Martin:   Cello Concerto  -  Pierre Fournier; George Szell; Cleveland Orchestra (live 1967)",
-			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
-			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "_ZFQSMyz8Vc",
-			"VideoPublishedAtRaw": "2025-03-16T13:00:50Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-16T13:00:50+00:00",
-			"VideoPublishedAt": "2025-03-16T18:30:50+05:30"
-		},
-		"ETag": "A7gjW2G3yJTEPvx7VCWUKEqUWcQ",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5GM0Q3M0MzMzY5NTJFNTdE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "George Szell conducts the NY Philharmonic in performance of Beethoven\u2019s Piano Concerto No. 4 in G major, Op. 58, on December 21st, 1952. Brazilian pianist Guiomar Novaes is the featured soloist. \n\nThe program for the performance:\nhttps://archives.nyphil.org/index.php/artifact/ee0a7a98-c8b6-40df-9b9a-03c8222fb61a-0.1\n\nThis same recording is also on YouTube on a different channel that sounds about the same - but mine has Jim Fassett\u2019s golden voice introducing (and wrapping up) the piece so in my mind it\u2019s even better :) \n\nTechnical Info:\nScotch 190\n7\u201D reel\n7 1/2 IPS\nUnfortunately this was recorded quite loud - which means the biggest loudest parts of the piece are a bit distorted. Unfortunately I couldn\u0027t fix this. On the other hand, you can very clearly hear the softer piano parts with not much extra noise. \n \n00:15 - Allegro moderato\n16:57 - Andante con moto\n21:45 - Rondo vivace",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 9,
-			"PublishedAtRaw": "2025-03-16T14:07:57Z",
-			"PublishedAtDateTimeOffset": "2025-03-16T14:07:57+00:00",
-			"PublishedAt": "2025-03-16T19:37:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "_ZFQSMyz8Vc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Novaes, Szell Beethoven Piano Concerto No. 4 NY Philharmonic 1952",
-			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
-			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "wfGSXZzCthw",
-			"VideoPublishedAtRaw": "2023-11-04T04:50:09Z",
-			"VideoPublishedAtDateTimeOffset": "2023-11-04T04:50:09+00:00",
-			"VideoPublishedAt": "2023-11-04T10:20:09+05:30"
-		},
-		"ETag": "Irx5alr5aqAo_Xut7dHX2GW9YW4",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 10,
-			"PublishedAtRaw": "2024-12-26T04:55:07Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:07+00:00",
-			"PublishedAt": "2024-12-26T10:25:07+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "wfGSXZzCthw"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/wfGSXZzCthw/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/wfGSXZzCthw/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/wfGSXZzCthw/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/wfGSXZzCthw/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/wfGSXZzCthw/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Piano Concerto (1961), John Browning, pianist; George Szell with Cleveland Orchestra",
-			"VideoOwnerChannelId": "UCOvFjRioKueFCVtfAx9upmw",
-			"VideoOwnerChannelTitle": "Corrine Cushing"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Egyo9a7iMq8",
-			"VideoPublishedAtRaw": "2024-03-28T15:09:28Z",
-			"VideoPublishedAtDateTimeOffset": "2024-03-28T15:09:28+00:00",
-			"VideoPublishedAt": "2024-03-28T20:39:28+05:30"
-		},
-		"ETag": "ARG8vf9QSAHpcNX2mkUQQIr2ff8",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Richard Strauss\n\u0022Don Quixote\u0022\nTone-poem\nPierre Fournier, Cello\nConcertgebouworkest Amsterdam\nKlaas Boon, viola; Dick Mesman, bass clarinet; Kees Blokker, tuba\nGeorge Szell, conductor\nAmsterdam, 19.VI.1964\n.-.-.-.\nDon Quixote op. 35 \u00E9 um longo poema sinf\u00F4nico de RICHARD STRAUSS, concebido para violoncelo, viola e grande orquestra. Foi composto em Munique no ano de 1897 e estreado com a \u201COrquestra G\u00FCrzenich\u201D, em Col\u00F4nia, em 8 de mar\u00E7o de 1898.\nA obra \u00E9 inspirada em Don Quixote de Miguel de Cervantes e tem como subt\u00EDtulo \u201CVaria\u00E7\u00F5es fant\u00E1sticas sobre um tema cavalheiresco\u201D. \nO violoncelo encarna o personagem de Don Quixote, enquanto o clarinete baixo, a tuba e a viola tocam o motivo buc\u00F3lico e travesso que caracteriza seu fiel servidor, Sancho Pan\u00E7a. A maioria das aventuras do cavaleiro s\u00E3o descritas na partitura.\nINTRODU\u00C7\u00C3O, E VARIA\u00C7\u00D5ES FANT\u00C1STICAS SOBRE UM TEMA DE CAR\u00C1TER CAVALHEIRESCO:\nIntrodu\u00E7\u00E3o: M\u00E4\u00DFiges Zeitma\u00DF (Tempo moderado);\nThema m\u00E4\u00DFig (moderado): Don Quixote perde a raz\u00E3o ao ler romances;\nVaria\u00E7\u00E3o I: Gem\u00E4chlich (vagarosamente): aventura com os moinhos de vento;\n10:44  -  Varia\u00E7\u00E3o II: Kriegerisch (marcial): batalha contra as ovelhas;\nVaria\u00E7\u00E3o III: M\u00E4\u00DFiges Zeitma\u00DF (Tempo moderado): conversa entre o cavaleiro e o escudeiro;\n20:23  -  Varia\u00E7\u00E3o IV: Etwas breiter (Um pouco mais largo): aventura com os peregrinos;\nVaria\u00E7\u00E3o V: Sehr langsam (Muito devagar): a vig\u00EDlia das armas;\nVaria\u00E7\u00E3o VI: Schnell (Rapidamente): encontro com Dulcineia;\n26:55  -  Varia\u00E7\u00E3o VII: Ein wenig ruhiger als vohrer (Um pouco mais calma do que antes): o passeio nos ares;\n28:00  -  Varia\u00E7\u00E3o VIII: Gem\u00E4chlich (vagarosamente): viagem no barco encantado;\n29:48  -  Varia\u00E7\u00E3o IX: Schnell und st\u00FCrmisch (R\u00E1pido e tempestuoso): luta contra os dois magos;\n31:44  -  Varia\u00E7\u00E3o X: Viel breiter (muito mais largo): duelo contra o cavaleiro;\n35:26  -  Finale: Sehr ruhig (muito calmo): A morte de Don Quixote.",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 11,
-			"PublishedAtRaw": "2024-12-26T04:54:53Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:53+00:00",
-			"PublishedAt": "2024-12-26T10:24:53+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Egyo9a7iMq8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "RICHARD STRAUSS - \u0022Don Quixote\u0022 Op.35 ~ Pierre Fournier, Concertgebouworkest, George Szell",
-			"VideoOwnerChannelId": "UCe_ti5TWfoF9Z_YrkkJHVsg",
-			"VideoOwnerChannelTitle": "STAGE d\u0027ORO"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "WGGCkprmPyY",
-			"VideoPublishedAtRaw": "2025-03-09T13:00:41Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-09T13:00:41+00:00",
-			"VideoPublishedAt": "2025-03-09T18:30:41+05:30"
-		},
-		"ETag": "gCHWjUkbCbiYV46n1rArNYjXIcE",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5ENDU4Q0M4RDExNzM1Mjcy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "George Szell conducts the NY Philharmonic in performance of Pyotr Ilyich Tchaikovsky\u2019s Symphony No 4 in F minor, Op. 36 on December 30th, 1951. \n\nHonestly this has got to be one of the best sounding and most exciting recordings from my archive. I was so thrilled to discover this. Every one of Szell\u2019s guest conducting appearances with the NY Philharmonic were special, but in this one is just so epic - the brass practically leap out of your speakers. It was recorded very \u201Chot\u201D (you can see the VU meter well into the red in the loud parts) but not hot enough for distortion. This was recorded from a direct line at WCCO (CBS broadcast partner station) so the fidelity is really great. \n\nIt\u2019s not perfect however! The reel had to be turned over about 6 minutes into the first movement - I tried to join them up as seamlessly as possible but there is still a tiny glitch. There is also sadly a bit over a minute missing from the start of the second movement. Other than those two small things we have a complete recording. \n\nI almost didn\u2019t post this - when I first heard the reel back in June of 2024 it was broken up over two sides of the reel and I heard the missing part of the second movement and actually stopped the tape thinking too much was lost. But reviewing my notes I pulled it back out and figured it was worth a re-listen and reconstruction and I\u2019m so glad I did. Do you agree this recording sounds incredible? Comment below!\n\nThe program from the performance:\nhttps://archives.nyphil.org/index.php/artifact/5eef3b04-9e8d-49b3-b452-c34c7b403a9d-0.1?search-type=singleFilter\u0026search-text=*\u0026search-dates-from=12%2F30%2F1951\u0026search-dates-to=12%2F30%2F1951\n\nThis video is from the same night:\nhttps://www.youtube.com/watch?v=Q6zbDr5y1HQ\n\nTechnical Info:\nUnknown Scotch tape type probably 111\n7\u201D reel\n7 1/2 IPS\nThere were a few radio or machine noise artifacts that were very noticeable in quieter sections.  I went in and did some surgical edits in Izotope\u2019s RX 11 Advanced to remove those noises. Thankfully most of it was sine waves at a fairly predictable frequency so it was easy to remove over the whole piece. \n\n00:07 - Andante sostenuto \u2013 Moderato con anima\n17:07 - Andantino in modo di canzona\n24:43 - Scherzo. Allegro\n30:05 - Finale. Allegro con fuoco",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 12,
-			"PublishedAtRaw": "2025-03-10T03:17:47Z",
-			"PublishedAtDateTimeOffset": "2025-03-10T03:17:47+00:00",
-			"PublishedAt": "2025-03-10T08:47:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "WGGCkprmPyY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/WGGCkprmPyY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/WGGCkprmPyY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/WGGCkprmPyY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/WGGCkprmPyY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sensational Szell! Tchaikovsky\u2019s 4th NY Philharmonic 1951",
-			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
-			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "oGf_Ylb2Q8w",
-			"VideoPublishedAtRaw": "2023-02-19T05:36:15Z",
-			"VideoPublishedAtDateTimeOffset": "2023-02-19T05:36:15+00:00",
-			"VideoPublishedAt": "2023-02-19T11:06:15+05:30"
-		},
-		"ETag": "qDDy7qI_VKqDEVTEYd8p8TQmOTI",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Conductor: George Szell \nCleveland Orchestra\nOctober 15, 1966",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 13,
-			"PublishedAtRaw": "2024-12-26T04:55:24Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:24+00:00",
-			"PublishedAt": "2024-12-26T10:25:24+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "oGf_Ylb2Q8w"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sibelius Symphony No.2 -  George Szell (Live, 1966)",
-			"VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
-			"VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "6HZFuXGp8V4",
-			"VideoPublishedAtRaw": "2024-07-05T18:50:27Z",
-			"VideoPublishedAtDateTimeOffset": "2024-07-05T18:50:27+00:00",
-			"VideoPublishedAt": "2024-07-06T00:20:27+05:30"
-		},
-		"ETag": "cUgmLe6qEl1rjSYSYbCO5pMGa3k",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Richard Strauss  (1864 - 1949)\n\nDon Quixote op. 35\n\nPierre Fournier, cello\nGeorge Szell, direttore\nCleveland Orchestra\nlive Cleveland, 1967",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 14,
-			"PublishedAtRaw": "2024-12-26T04:54:36Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:36+00:00",
-			"PublishedAt": "2024-12-26T10:24:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "6HZFuXGp8V4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Strauss R.:   Don Quixote op. 35  -  Pierre Fournier; George Szell, Cleveland Orchestra (live 1967)",
-			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
-			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Q-fdRPsXjoc",
-			"VideoPublishedAtRaw": "2022-02-18T12:57:14Z",
-			"VideoPublishedAtDateTimeOffset": "2022-02-18T12:57:14+00:00",
-			"VideoPublishedAt": "2022-02-18T18:27:14+05:30"
-		},
-		"ETag": "uTxVOZ9mFVhIp9w33uUT_MVXJLY",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Ripped from a Doremi CD which gives the date of of the concert as 13 July 1966. Soloists are Isaac Stern, Leonard Rose and Eugene Istomin.",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 15,
-			"PublishedAtRaw": "2024-12-26T04:55:38Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:38+00:00",
-			"PublishedAt": "2024-12-26T10:25:38+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Q-fdRPsXjoc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Szell \u002B Cleveland LIVE: Beethoven Triple Concerto op.56, with Stern (vn) Rose (vc) and Istomin (pf)",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Isgce4qa2v0",
-			"VideoPublishedAtRaw": "2024-04-16T08:55:54Z",
-			"VideoPublishedAtDateTimeOffset": "2024-04-16T08:55:54+00:00",
-			"VideoPublishedAt": "2024-04-16T14:25:54+05:30"
-		},
-		"ETag": "1Pzs5A8upQrVD2SVBixh2Kn6MHM",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Radio broacast from Severance Hall, ripped from a Memories CD which gives the date 26 January 1967",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 16,
-			"PublishedAtRaw": "2024-12-26T04:54:49Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:49+00:00",
-			"PublishedAt": "2024-12-26T10:24:49+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Isgce4qa2v0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Isgce4qa2v0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Isgce4qa2v0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Isgce4qa2v0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Isgce4qa2v0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Isgce4qa2v0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Szell / Cleveland / Curzon LIVE 1967 Beethoven piano concerto no.5 \u0022Emperor\u0022",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "1Ex8__v12pc",
-			"VideoPublishedAtRaw": "2024-04-18T01:35:26Z",
-			"VideoPublishedAtDateTimeOffset": "2024-04-18T01:35:26+00:00",
-			"VideoPublishedAt": "2024-04-18T07:05:26+05:30"
-		},
-		"ETag": "pK0ciXHG6fxwbs38-NsnWsygoMk",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Radio broadcast from Severance Hall, ripped from a Memories CD which gives the date 27 October 1966",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 17,
-			"PublishedAtRaw": "2024-12-26T04:54:45Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:45+00:00",
-			"PublishedAt": "2024-12-26T10:24:45+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "1Ex8__v12pc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/1Ex8__v12pc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/1Ex8__v12pc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/1Ex8__v12pc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/1Ex8__v12pc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/1Ex8__v12pc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Szell / Cleveland / Gilels LIVE in 1966, Beethoven piano concerto no.3",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ATLomFhrWSI",
-			"VideoPublishedAtRaw": "2019-12-12T17:56:54Z",
-			"VideoPublishedAtDateTimeOffset": "2019-12-12T17:56:54+00:00",
-			"VideoPublishedAt": "2019-12-12T23:26:54+05:30"
-		},
-		"ETag": "x3w6M7UiPdrC0Jd3CwvxFoyzBc0",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci45RTgxNDRBMzUwRjQ0MDhC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "from the opening weekend of the first Blossom Music Festival, July 1968. (Maybe even better than the commercial recording, especially the coda).",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 18,
-			"PublishedAtRaw": "2024-12-26T04:55:42Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:55:42+00:00",
-			"PublishedAt": "2024-12-26T10:25:42+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ATLomFhrWSI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ATLomFhrWSI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ATLomFhrWSI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ATLomFhrWSI/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Szell and Cleveland LIVE in 1968: Strauss Tod und Verklarung (Death and Transfiguration)",
-			"VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
-			"VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "DBx4R51qq7w",
-			"VideoPublishedAtRaw": "2025-03-11T13:00:29Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-11T13:00:29+00:00",
-			"VideoPublishedAt": "2025-03-11T18:30:29+05:30"
-		},
-		"ETag": "k8C41kaueV0Tu4cWn4GDwLRox9k",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4yMDhBMkNBNjRDMjQxQTg1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "George Szell conducts the NY Philharmonic in performance of Johannes Brahms Symphony No. 3 in F major, Op. 90, on December 21st, 1952. \n\nI\u2019m pretty sure a recording of this performance doesn\u2019t exist anywhere else - does anyone know of any other recordings? \n\nThis was recorded quite loud (you can see the VU meter pegged into the red in the video) - which means the biggest parts of the piece are slightly distorted but I don\u2019t think it takes away from the majesty of this performance. What do you think? \n\nThe program for the performance:\nhttps://archives.nyphil.org/index.php/artifact/ee0a7a98-c8b6-40df-9b9a-03c8222fb61a-0.1\n\nTechnical Info:\nScotch 190\n7\u201D reel\n7 1/2 IPS\n\n00:08 - Allegro con brio\n10:14 - Andante\n18:24 - Poco Allegretto\n24:08 - Allegro",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 19,
-			"PublishedAtRaw": "2025-03-11T17:35:13Z",
-			"PublishedAtDateTimeOffset": "2025-03-11T17:35:13+00:00",
-			"PublishedAt": "2025-03-11T23:05:13+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "DBx4R51qq7w"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/DBx4R51qq7w/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/DBx4R51qq7w/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/DBx4R51qq7w/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Szell NY Philharmonic Brahms 3rd Symphony 1952",
-			"VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
-			"VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "AZqoNaf9zro",
-			"VideoPublishedAtRaw": "2024-12-06T14:39:26Z",
-			"VideoPublishedAtDateTimeOffset": "2024-12-06T14:39:26+00:00",
-			"VideoPublishedAt": "2024-12-06T20:09:26+05:30"
-		},
-		"ETag": "slYcwKksDYUKhYKGk1HTNPKlwEw",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Tchaikovsky : Symphony No.4 \n1st movement  00:00\n2nd 18:24\n3rd  26:44\n4th  32:07\nGeorge Szell / Cleveland Orchestra\n15/1/1958 Cleveland Severance Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30B8\u30E7\u30FC\u30B8\u30FB\u30BB\u30EB\u6307\u63EE\u3000\u30AF\u30EA\u30FC\u30F4\u30E9\u30F3\u30C9\u7BA1\u5F26\u697D\u56E3\n1968\u5E741\u670815\u65E5\u3000\u30AF\u30EA\u30FC\u30F4\u30E9\u30F3\u30C9\u3001\u30BB\u30F4\u30A7\u30E9\u30F3\u30B9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6B63\u898F\u76E4\u306E\u7121\u3044\u30BB\u30EB\uFF0F\u30AF\u30EA\u30FC\u30F4\u30E9\u30F3\u30C9\u306E\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\u300C\u7B2C4\u756A\u300D\u3002\u30BB\u30EB\u672C\u6765\u306E\u30B9\u30E9\u30F4\u306E\u8840\u304C\u6CB8\u304D\u7ACB\u3064\u3088\u3046\u306A\u7CBE\u7DFB\u4E14\u3064\u6FC0\u70C8\u306A\u8D85\u7D76\u540D\u6F14\u3002",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 20,
-			"PublishedAtRaw": "2024-12-26T04:54:24Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:24+00:00",
-			"PublishedAt": "2024-12-26T10:24:24+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "AZqoNaf9zro"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/AZqoNaf9zro/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/AZqoNaf9zro/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/AZqoNaf9zro/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/AZqoNaf9zro/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/AZqoNaf9zro/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tchaikovsky : Symphony No.4   G. Szell / Cleveland O. 1968 Live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "iXt6VQ27khQ",
-			"VideoPublishedAtRaw": "2024-03-02T14:49:13Z",
-			"VideoPublishedAtDateTimeOffset": "2024-03-02T14:49:13+00:00",
-			"VideoPublishedAt": "2024-03-02T20:19:13+05:30"
-		},
-		"ETag": "s76oYJXx8ezonEPX5Y_PCBnJqK4",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci45NDk1REZENzhEMzU5MDQz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Pyotr Ilyich Tchaikovsky  (1840 - 1893)\n\nSymphony no. 4 in F minor op. 36\n\nI        Andante sostenuto\nII      Andantino in modo di canzona\nIII     Scherzo - Allegro\nIV     Finale. Allegro con fuoco\n\nGeorge Szell, direttore\nCleveland Orchestra\nCleveland, 1968 live",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 21,
-			"PublishedAtRaw": "2024-12-26T04:54:57Z",
-			"PublishedAtDateTimeOffset": "2024-12-26T04:54:57+00:00",
-			"PublishedAt": "2024-12-26T10:24:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "iXt6VQ27khQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tchaikowsky:   Symphony no. 4 in F minor op. 36  -  George Szell, direttore; Cleveland Orchestra",
-			"VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
-			"VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "t-iPaO0Z3i8",
-			"VideoPublishedAtRaw": "2026-05-27T08:59:39Z",
-			"VideoPublishedAtDateTimeOffset": "2026-05-27T08:59:39+00:00",
-			"VideoPublishedAt": "2026-05-27T14:29:39+05:30"
-		},
-		"ETag": "zYbp48XaXc87Ds-XDc45QyShDEk",
-		"Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4zRjM0MkVCRTg0MkYyQTM0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Beethoven: Symphony No.9 \u0027Choral\u0027\n1st movement   00:00\n2nd    17:15\n3rd     29:57\n4th     45:32\nGeorge Szell / Vienna Philharmonic orchestra\nSop) Gundula Janowitz\u3000Alt) Meriel Dickinson\nTen) Ernst Haefliger\u3000Bar) Walter Berry\nCho) Wiener Singakademie\n22/6/1969 Vienna, Konzerthaus live recording (Closing Concert Vienna Festival Weeks) \n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u5408\u5531\u300D\n\u30B8\u30E7\u30FC\u30B8\u30FB\u30BB\u30EB\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30B0\u30F3\u30C9\u30A5\u30E9\u30FB\u30E4\u30CE\u30F4\u30A3\u30C3\u30C4\u3000\u30A2\u30EB\u30C8\uFF09\u30E1\u30EA\u30A8\u30EB\u30FB\u30C7\u30A3\u30C3\u30AD\u30F3\u30BD\u30F3\n\u30C6\u30CE\u30FC\u30EB\uFF09\u30A8\u30EB\u30F3\u30B9\u30C8\u30FB\u30D8\u30D5\u30EA\u30AC\u30FC\u3000\u30D0\u30EA\u30C8\u30F3\uFF09\u30EF\u30EB\u30BF\u30FC\u30FB\u30D9\u30EA\u30FC\n\u5408\u5531\uFF09\u30A6\u30A3\u30FC\u30F3\u30FB\u30B8\u30F3\u30B0\u30FB\u30A2\u30AB\u30C7\u30DF\u30FC\n1969\u5E746\u670822\u65E5\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30B3\u30F3\u30C4\u30A7\u30EB\u30C8\u30CF\u30A6\u30B9\u3000\u30E9\u30A4\u30D6\u9332\u97F3\uFF08\u30A6\u30A3\u30FC\u30F3\u82B8\u8853\u9031\u9593\u30AF\u30ED\u30FC\u30B8\u30F3\u30B0\u30FB\u30B3\u30F3\u30B5\u30FC\u30C8\u3001\u9AD8\u97F3\u8CEA\u76E4\uFF09\n\u203B\u30BB\u30EB\uFF0FVPO\u306B\u3088\u308B\u4E00\u671F\u4E00\u4F1A\u306E\u300C\u7B2C\u4E5D\u300D\u3002\u76E4\u77F3\u306E\u30BD\u30EA\u30B9\u30C8\u30FB\u5408\u5531\u3092\u63C3\u3048\u305F\u4F1D\u8AAC\u7684\u540D\u6F14\u3002",
-			"PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
-			"Position": 22,
-			"PublishedAtRaw": "2026-05-28T01:25:12Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T01:25:12+00:00",
-			"PublishedAt": "2026-05-28T06:55:12+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "t-iPaO0Z3i8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven: Symphony No.9 \u0027Choral\u0027     G. Szell / VPO 1969 live at Vienna Festival Weeks (HQ audio)",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "fnDCYGab8u0",
+      "VideoPublishedAtRaw": "2023-10-28T06:12:33Z",
+      "VideoPublishedAtDateTimeOffset": "2023-10-28T06:12:33+00:00",
+      "VideoPublishedAt": "2023-10-28T11:42:33+05:30"
+    },
+    "ETag": "2sOHacMySfCxpzyMpAOvK7glzog",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "From a rare WGN broadcast of 1961, George Szell leads the Chicago Symphony Orchestra in Beethoven\u0027s Symphony #5. This video should prove revealing because it clearly shows Szell\u0027s handling of the legendary tricky opening of the first movement (with repeat).\n\nII:  8:03 https://youtu.be/fnDCYGab8u0?t=482\nIII: 18:03 https://youtu.be/fnDCYGab8u0?t=1083\nIV: 23:44 https://youtu.be/fnDCYGab8u0?t=1424\n\nGit You One!: https://www.amazon.com/Chicago-Symphony-Orchestra-Telecasts-Mussorgsky/dp/B00006LPGT/ref=sr_1_5?crid=2IXGP2TNAVL93\u0026keywords=chicago\u002Bsymphony\u002Borchestra\u002Bhistoric\u002Btelecasts\u0026qid=1691874197\u0026sprefix=chicago\u002Bsymphony\u002Borchestra\u002Bhistoric\u002Btelecasts%2Caps%2C132\u0026sr=8-5",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 0,
+      "PublishedAtRaw": "2024-12-26T04:55:11Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:11+00:00",
+      "PublishedAt": "2024-12-26T10:25:11+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "fnDCYGab8u0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/fnDCYGab8u0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/fnDCYGab8u0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/fnDCYGab8u0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/fnDCYGab8u0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/fnDCYGab8u0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony #5 - Rare 1961 George Szell, CSO",
+      "VideoOwnerChannelId": "UC6Hc6_McFwJbxoHyYWXBHrQ",
+      "VideoOwnerChannelTitle": "The Metronome And Quill"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "i6ofsGJtpF8",
+      "VideoPublishedAtRaw": "2024-12-03T01:57:39Z",
+      "VideoPublishedAtDateTimeOffset": "2024-12-03T01:57:39+00:00",
+      "VideoPublishedAt": "2024-12-03T07:27:39+05:30"
+    },
+    "ETag": "WVCD8jD9rb3EfR9ZNThOd833RPo",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Anton\u00EDn Dvo\u0159\u00E1k : Symphony No. 8 in G Major\n1st movement   00:00\n2nd   10:50\n3rd    21:24\n4th    28:01\nGeorge Szell / Czech Philharmonic Orchestra\n30/8/1969 Lucerne Kunsthaus live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C8\u756A\u30C8\u9577\u8ABF\n\u30B8\u30E7\u30FC\u30B8\u30FB\u30BB\u30EB\u6307\u63EE\u3000\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1969\u5E748\u670830\u65E5\u3000\u30B9\u30A4\u30B9\u3001\u30EB\u30C4\u30A7\u30EB\u30F3\u97F3\u697D\u796D\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6669\u5E74\u306E\u30BB\u30EB\u304C\u6307\u63EE\u3057\u305F\u3082\u306E\u3067\u3059\u304C\u3001\u6F14\u594F\u306F\u30C1\u30A7\u30B3\u30FB\u30D5\u30A3\u30EB\u306E\u81EA\u4E3B\u6027\u3092\u91CD\u3093\u3058\u3001\u6975\u3081\u3066\u81EA\u7136\u3067\u8C4A\u304B\u306A\u8A69\u60C5\u3092\u8B83\u3048\u305F\u540D\u6F14\u3060\u3068\u601D\u3044\u307E\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 1,
+      "PublishedAtRaw": "2024-12-26T04:54:29Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:29+00:00",
+      "PublishedAt": "2024-12-26T10:24:29+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "i6ofsGJtpF8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/i6ofsGJtpF8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k : Symphony No. 8  G.Szell / CPO live at Lucerne 1969",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ULtkv6LCmEI",
+      "VideoPublishedAtRaw": "2023-01-30T22:38:11Z",
+      "VideoPublishedAtDateTimeOffset": "2023-01-30T22:38:11+00:00",
+      "VideoPublishedAt": "2023-01-31T04:08:11+05:30"
+    },
+    "ETag": "xFtNjs7NHmpTHTPbCqeMUaPgxeY",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 2,
+      "PublishedAtRaw": "2024-12-26T04:55:28Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:28+00:00",
+      "PublishedAt": "2024-12-26T10:25:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ULtkv6LCmEI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ULtkv6LCmEI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Edith Peinemann - Brahms Violin Concerto - Cleveland Orchestra, G. Szell - Live Broadcast July 1968",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Gk4JC6WHOL8",
+      "VideoPublishedAtRaw": "2023-07-19T00:18:03Z",
+      "VideoPublishedAtDateTimeOffset": "2023-07-19T00:18:03+00:00",
+      "VideoPublishedAt": "2023-07-19T05:48:03+05:30"
+    },
+    "ETag": "GofyMTsVz8rX4yYNaCskWSKKoPk",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "In one of his very few filmed performances, George Szell conducts the Vienna Philharmonic and soloist Friedrich Gulda in this 1966 performance of Beethoven\u0027s Piano Concerto #5 in E-Flat (Emperor). This is followed by Gulda performing Bach\u0027s Chromatic Fantasy and Fugue in recital (1964)",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 3,
+      "PublishedAtRaw": "2024-12-26T04:55:15Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:15+00:00",
+      "PublishedAt": "2024-12-26T10:25:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Gk4JC6WHOL8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Gk4JC6WHOL8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Friedrich Gulda \u0026 George Szell: Beethoven Piano Concerto #5 1966 - RARE!",
+      "VideoOwnerChannelId": "UC6Hc6_McFwJbxoHyYWXBHrQ",
+      "VideoOwnerChannelTitle": "The Metronome And Quill"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "H0Anm1JO2o0",
+      "VideoPublishedAtRaw": "2022-04-15T12:29:38Z",
+      "VideoPublishedAtDateTimeOffset": "2022-04-15T12:29:38+00:00",
+      "VideoPublishedAt": "2022-04-15T17:59:38+05:30"
+    },
+    "ETag": "Ik9-4oEtIhM-n65NL1CRBAsOr1U",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Judith Raskin, Florence Kopleff, Ernst Haefliger, Thomas Paul\nCleveland Orchestra \u0026 Chorus",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 4,
+      "PublishedAtRaw": "2024-12-26T04:55:33Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:33+00:00",
+      "PublishedAt": "2024-12-26T10:25:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "H0Anm1JO2o0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/H0Anm1JO2o0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "George Szell conducts Te Deum by Bruckner (live)",
+      "VideoOwnerChannelId": "UCHciabt0LosiFVPs-te0q8A",
+      "VideoOwnerChannelTitle": "violim"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "yr9-QJlYE6U",
+      "VideoPublishedAtRaw": "2024-08-01T06:33:44Z",
+      "VideoPublishedAtDateTimeOffset": "2024-08-01T06:33:44+00:00",
+      "VideoPublishedAt": "2024-08-01T12:03:44+05:30"
+    },
+    "ETag": "1JsujjNUDgscfPAo8IK3JOgxqvQ",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "George Szell conducts the NY Philharmonic in performance of Schubert\u2019s Symphony in B minor, D.759, aka Unfinished Symphony on December 21st, 1947. Broadcast by CBS, simulcast to WCCO Minnesota where Reynolds Marchant recorded it on tape. \n\nI wish the quality of this recording was better - but given I cannot find this performance anywhere on the internet I figured it would be worth sharing anyway. I did some work trying to reduce the impact of the distorted parts with mixed results. \n\nThis is by far the earliest NY Philharmonic radio broadcast I\u2019ve come across in the archive - a clue is the paper-backed 3M tape - something that was only produced in 1947 (with the black oxide). You can tell it\u2019s paper because on the reels you see a white or light grey - that\u2019s the paper. In my other videos you would see acetate or other plastic backed which appears brown or black.\n\nThe super early formulation of tape might be part of the fidelity problem, but I think mostly Reynolds had not worked out the kinks on how to get a radio broadcast cleanly onto tape. It was clearly recorded too loud. By the time the rest of the recordings I\u2019ve already put online were captured in 1949, 1950 and beyond - he really had a great system and the quality of those is mostly stellar. But what do you think of this recording?\n\nThe program for the performance:\nhttps://archives.nyphil.org/index.php/artifact/9ae06c3f-2c18-4c04-9b65-617811d7ec20-0.1/fullview#page/1/mode/2up\n\nTechnical info:\nUnknown Scotch, probably 100A\n7\u201D Reel\n7 1/2 IPS\n\n00:00 - Allegro moderato\n10:57 - Andante con moto",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 5,
+      "PublishedAtRaw": "2024-12-26T04:54:33Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:33+00:00",
+      "PublishedAt": "2024-12-26T10:24:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "yr9-QJlYE6U"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/yr9-QJlYE6U/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "George Szell/NY Philharmonic: Schubert\u2019s Unfinished Symphony 1947",
+      "VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+      "VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "kijwfECf3Mk",
+      "VideoPublishedAtRaw": "2023-07-16T00:44:52Z",
+      "VideoPublishedAtDateTimeOffset": "2023-07-16T00:44:52+00:00",
+      "VideoPublishedAt": "2023-07-16T06:14:52+05:30"
+    },
+    "ETag": "AfoaciMrfExHa3r8vqC7ITcV5xk",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 6,
+      "PublishedAtRaw": "2024-12-26T04:55:19Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:19+00:00",
+      "PublishedAt": "2024-12-26T10:25:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "kijwfECf3Mk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/kijwfECf3Mk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/kijwfECf3Mk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/kijwfECf3Mk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/kijwfECf3Mk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/kijwfECf3Mk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "James Oliver Buswell IV, Stravinsky Violin Concerto, Cleveland Orch.  George Szell April  6 - 8 1967",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "jxh2DwTx3Dc",
+      "VideoPublishedAtRaw": "2023-12-01T21:01:59Z",
+      "VideoPublishedAtDateTimeOffset": "2023-12-01T21:01:59+00:00",
+      "VideoPublishedAt": "2023-12-02T02:31:59+05:30"
+    },
+    "ETag": "oRAPLbcCmh52UADFyGS18CUjDxE",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Joseph Gingold - Bernard Rogers \u0022Portrait\u0022 for Violin \u0026 Orchestra (1952) George Szell, Cleveland Orchestra Oct 18-20, 1956",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 7,
+      "PublishedAtRaw": "2024-12-26T04:55:02Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:02+00:00",
+      "PublishedAt": "2024-12-26T10:25:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jxh2DwTx3Dc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/jxh2DwTx3Dc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Joseph Gingold - Bernard Rogers \u0022Portrait\u0022 for Violin \u0026 Orchestra- George Szell, Cleveland Orch 1956",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "gw9OmYob9W4",
+      "VideoPublishedAtRaw": "2024-07-05T09:44:09Z",
+      "VideoPublishedAtDateTimeOffset": "2024-07-05T09:44:09+00:00",
+      "VideoPublishedAt": "2024-07-05T15:14:09+05:30"
+    },
+    "ETag": "5Muh5Xt7KHDzB3BXrM7TwD-tuj0",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Frank Martin  (1890 - 1974)\n\nCello Concerto\n\nI       Lento - Allegro moderato - Lento\nII      Adagietto\nIII     Vivace\n\nPierre Fournier, cello\nGeorge Szell,  direttore\nCleveland Orchestra\nlive Cleveland, 1967",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 8,
+      "PublishedAtRaw": "2024-12-26T04:54:41Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:41+00:00",
+      "PublishedAt": "2024-12-26T10:24:41+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "gw9OmYob9W4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/gw9OmYob9W4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/gw9OmYob9W4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/gw9OmYob9W4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/gw9OmYob9W4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/gw9OmYob9W4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Martin:   Cello Concerto  -  Pierre Fournier; George Szell; Cleveland Orchestra (live 1967)",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "_ZFQSMyz8Vc",
+      "VideoPublishedAtRaw": "2025-03-16T13:00:50Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-16T13:00:50+00:00",
+      "VideoPublishedAt": "2025-03-16T18:30:50+05:30"
+    },
+    "ETag": "A7gjW2G3yJTEPvx7VCWUKEqUWcQ",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "George Szell conducts the NY Philharmonic in performance of Beethoven\u2019s Piano Concerto No. 4 in G major, Op. 58, on December 21st, 1952. Brazilian pianist Guiomar Novaes is the featured soloist. \n\nThe program for the performance:\nhttps://archives.nyphil.org/index.php/artifact/ee0a7a98-c8b6-40df-9b9a-03c8222fb61a-0.1\n\nThis same recording is also on YouTube on a different channel that sounds about the same - but mine has Jim Fassett\u2019s golden voice introducing (and wrapping up) the piece so in my mind it\u2019s even better :) \n\nTechnical Info:\nScotch 190\n7\u201D reel\n7 1/2 IPS\nUnfortunately this was recorded quite loud - which means the biggest loudest parts of the piece are a bit distorted. Unfortunately I couldn\u0027t fix this. On the other hand, you can very clearly hear the softer piano parts with not much extra noise. \n \n00:15 - Allegro moderato\n16:57 - Andante con moto\n21:45 - Rondo vivace",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 9,
+      "PublishedAtRaw": "2025-03-16T14:07:57Z",
+      "PublishedAtDateTimeOffset": "2025-03-16T14:07:57+00:00",
+      "PublishedAt": "2025-03-16T19:37:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "_ZFQSMyz8Vc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/_ZFQSMyz8Vc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Novaes, Szell Beethoven Piano Concerto No. 4 NY Philharmonic 1952",
+      "VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+      "VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wfGSXZzCthw",
+      "VideoPublishedAtRaw": "2023-11-04T04:50:09Z",
+      "VideoPublishedAtDateTimeOffset": "2023-11-04T04:50:09+00:00",
+      "VideoPublishedAt": "2023-11-04T10:20:09+05:30"
+    },
+    "ETag": "Irx5alr5aqAo_Xut7dHX2GW9YW4",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 10,
+      "PublishedAtRaw": "2024-12-26T04:55:07Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:07+00:00",
+      "PublishedAt": "2024-12-26T10:25:07+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wfGSXZzCthw"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wfGSXZzCthw/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wfGSXZzCthw/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/wfGSXZzCthw/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wfGSXZzCthw/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wfGSXZzCthw/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Piano Concerto (1961), John Browning, pianist; George Szell with Cleveland Orchestra",
+      "VideoOwnerChannelId": "UCOvFjRioKueFCVtfAx9upmw",
+      "VideoOwnerChannelTitle": "Corrine Cushing"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Egyo9a7iMq8",
+      "VideoPublishedAtRaw": "2024-03-28T15:09:28Z",
+      "VideoPublishedAtDateTimeOffset": "2024-03-28T15:09:28+00:00",
+      "VideoPublishedAt": "2024-03-28T20:39:28+05:30"
+    },
+    "ETag": "ARG8vf9QSAHpcNX2mkUQQIr2ff8",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss\n\u0022Don Quixote\u0022\nTone-poem\nPierre Fournier, Cello\nConcertgebouworkest Amsterdam\nKlaas Boon, viola; Dick Mesman, bass clarinet; Kees Blokker, tuba\nGeorge Szell, conductor\nAmsterdam, 19.VI.1964\n.-.-.-.\nDon Quixote op. 35 \u00E9 um longo poema sinf\u00F4nico de RICHARD STRAUSS, concebido para violoncelo, viola e grande orquestra. Foi composto em Munique no ano de 1897 e estreado com a \u201COrquestra G\u00FCrzenich\u201D, em Col\u00F4nia, em 8 de mar\u00E7o de 1898.\nA obra \u00E9 inspirada em Don Quixote de Miguel de Cervantes e tem como subt\u00EDtulo \u201CVaria\u00E7\u00F5es fant\u00E1sticas sobre um tema cavalheiresco\u201D. \nO violoncelo encarna o personagem de Don Quixote, enquanto o clarinete baixo, a tuba e a viola tocam o motivo buc\u00F3lico e travesso que caracteriza seu fiel servidor, Sancho Pan\u00E7a. A maioria das aventuras do cavaleiro s\u00E3o descritas na partitura.\nINTRODU\u00C7\u00C3O, E VARIA\u00C7\u00D5ES FANT\u00C1STICAS SOBRE UM TEMA DE CAR\u00C1TER CAVALHEIRESCO:\nIntrodu\u00E7\u00E3o: M\u00E4\u00DFiges Zeitma\u00DF (Tempo moderado);\nThema m\u00E4\u00DFig (moderado): Don Quixote perde a raz\u00E3o ao ler romances;\nVaria\u00E7\u00E3o I: Gem\u00E4chlich (vagarosamente): aventura com os moinhos de vento;\n10:44  -  Varia\u00E7\u00E3o II: Kriegerisch (marcial): batalha contra as ovelhas;\nVaria\u00E7\u00E3o III: M\u00E4\u00DFiges Zeitma\u00DF (Tempo moderado): conversa entre o cavaleiro e o escudeiro;\n20:23  -  Varia\u00E7\u00E3o IV: Etwas breiter (Um pouco mais largo): aventura com os peregrinos;\nVaria\u00E7\u00E3o V: Sehr langsam (Muito devagar): a vig\u00EDlia das armas;\nVaria\u00E7\u00E3o VI: Schnell (Rapidamente): encontro com Dulcineia;\n26:55  -  Varia\u00E7\u00E3o VII: Ein wenig ruhiger als vohrer (Um pouco mais calma do que antes): o passeio nos ares;\n28:00  -  Varia\u00E7\u00E3o VIII: Gem\u00E4chlich (vagarosamente): viagem no barco encantado;\n29:48  -  Varia\u00E7\u00E3o IX: Schnell und st\u00FCrmisch (R\u00E1pido e tempestuoso): luta contra os dois magos;\n31:44  -  Varia\u00E7\u00E3o X: Viel breiter (muito mais largo): duelo contra o cavaleiro;\n35:26  -  Finale: Sehr ruhig (muito calmo): A morte de Don Quixote.",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 11,
+      "PublishedAtRaw": "2024-12-26T04:54:53Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:53+00:00",
+      "PublishedAt": "2024-12-26T10:24:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Egyo9a7iMq8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Egyo9a7iMq8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "RICHARD STRAUSS - \u0022Don Quixote\u0022 Op.35 ~ Pierre Fournier, Concertgebouworkest, George Szell",
+      "VideoOwnerChannelId": "UCe_ti5TWfoF9Z_YrkkJHVsg",
+      "VideoOwnerChannelTitle": "STAGE d\u0027ORO"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "WGGCkprmPyY",
+      "VideoPublishedAtRaw": "2025-03-09T13:00:41Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-09T13:00:41+00:00",
+      "VideoPublishedAt": "2025-03-09T18:30:41+05:30"
+    },
+    "ETag": "gCHWjUkbCbiYV46n1rArNYjXIcE",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "George Szell conducts the NY Philharmonic in performance of Pyotr Ilyich Tchaikovsky\u2019s Symphony No 4 in F minor, Op. 36 on December 30th, 1951. \n\nHonestly this has got to be one of the best sounding and most exciting recordings from my archive. I was so thrilled to discover this. Every one of Szell\u2019s guest conducting appearances with the NY Philharmonic were special, but in this one is just so epic - the brass practically leap out of your speakers. It was recorded very \u201Chot\u201D (you can see the VU meter well into the red in the loud parts) but not hot enough for distortion. This was recorded from a direct line at WCCO (CBS broadcast partner station) so the fidelity is really great. \n\nIt\u2019s not perfect however! The reel had to be turned over about 6 minutes into the first movement - I tried to join them up as seamlessly as possible but there is still a tiny glitch. There is also sadly a bit over a minute missing from the start of the second movement. Other than those two small things we have a complete recording. \n\nI almost didn\u2019t post this - when I first heard the reel back in June of 2024 it was broken up over two sides of the reel and I heard the missing part of the second movement and actually stopped the tape thinking too much was lost. But reviewing my notes I pulled it back out and figured it was worth a re-listen and reconstruction and I\u2019m so glad I did. Do you agree this recording sounds incredible? Comment below!\n\nThe program from the performance:\nhttps://archives.nyphil.org/index.php/artifact/5eef3b04-9e8d-49b3-b452-c34c7b403a9d-0.1?search-type=singleFilter\u0026search-text=*\u0026search-dates-from=12%2F30%2F1951\u0026search-dates-to=12%2F30%2F1951\n\nThis video is from the same night:\nhttps://www.youtube.com/watch?v=Q6zbDr5y1HQ\n\nTechnical Info:\nUnknown Scotch tape type probably 111\n7\u201D reel\n7 1/2 IPS\nThere were a few radio or machine noise artifacts that were very noticeable in quieter sections.  I went in and did some surgical edits in Izotope\u2019s RX 11 Advanced to remove those noises. Thankfully most of it was sine waves at a fairly predictable frequency so it was easy to remove over the whole piece. \n\n00:07 - Andante sostenuto \u2013 Moderato con anima\n17:07 - Andantino in modo di canzona\n24:43 - Scherzo. Allegro\n30:05 - Finale. Allegro con fuoco",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 12,
+      "PublishedAtRaw": "2025-03-10T03:17:47Z",
+      "PublishedAtDateTimeOffset": "2025-03-10T03:17:47+00:00",
+      "PublishedAt": "2025-03-10T08:47:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "WGGCkprmPyY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/WGGCkprmPyY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/WGGCkprmPyY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/WGGCkprmPyY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/WGGCkprmPyY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sensational Szell! Tchaikovsky\u2019s 4th NY Philharmonic 1951",
+      "VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+      "VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "oGf_Ylb2Q8w",
+      "VideoPublishedAtRaw": "2023-02-19T05:36:15Z",
+      "VideoPublishedAtDateTimeOffset": "2023-02-19T05:36:15+00:00",
+      "VideoPublishedAt": "2023-02-19T11:06:15+05:30"
+    },
+    "ETag": "qDDy7qI_VKqDEVTEYd8p8TQmOTI",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Conductor: George Szell \nCleveland Orchestra\nOctober 15, 1966",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 13,
+      "PublishedAtRaw": "2024-12-26T04:55:24Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:24+00:00",
+      "PublishedAt": "2024-12-26T10:25:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "oGf_Ylb2Q8w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/oGf_Ylb2Q8w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius Symphony No.2 -  George Szell (Live, 1966)",
+      "VideoOwnerChannelId": "UCH-cDn4Hw8NrkToZpedKFzA",
+      "VideoOwnerChannelTitle": "\u6771\u8CE2\u592A\u90CE"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6HZFuXGp8V4",
+      "VideoPublishedAtRaw": "2024-07-05T18:50:27Z",
+      "VideoPublishedAtDateTimeOffset": "2024-07-05T18:50:27+00:00",
+      "VideoPublishedAt": "2024-07-06T00:20:27+05:30"
+    },
+    "ETag": "cUgmLe6qEl1rjSYSYbCO5pMGa3k",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Strauss  (1864 - 1949)\n\nDon Quixote op. 35\n\nPierre Fournier, cello\nGeorge Szell, direttore\nCleveland Orchestra\nlive Cleveland, 1967",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 14,
+      "PublishedAtRaw": "2024-12-26T04:54:36Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:36+00:00",
+      "PublishedAt": "2024-12-26T10:24:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6HZFuXGp8V4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6HZFuXGp8V4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Strauss R.:   Don Quixote op. 35  -  Pierre Fournier; George Szell, Cleveland Orchestra (live 1967)",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Q-fdRPsXjoc",
+      "VideoPublishedAtRaw": "2022-02-18T12:57:14Z",
+      "VideoPublishedAtDateTimeOffset": "2022-02-18T12:57:14+00:00",
+      "VideoPublishedAt": "2022-02-18T18:27:14+05:30"
+    },
+    "ETag": "uTxVOZ9mFVhIp9w33uUT_MVXJLY",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ripped from a Doremi CD which gives the date of of the concert as 13 July 1966. Soloists are Isaac Stern, Leonard Rose and Eugene Istomin.",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 15,
+      "PublishedAtRaw": "2024-12-26T04:55:38Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:38+00:00",
+      "PublishedAt": "2024-12-26T10:25:38+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Q-fdRPsXjoc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Q-fdRPsXjoc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Szell \u002B Cleveland LIVE: Beethoven Triple Concerto op.56, with Stern (vn) Rose (vc) and Istomin (pf)",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Isgce4qa2v0",
+      "VideoPublishedAtRaw": "2024-04-16T08:55:54Z",
+      "VideoPublishedAtDateTimeOffset": "2024-04-16T08:55:54+00:00",
+      "VideoPublishedAt": "2024-04-16T14:25:54+05:30"
+    },
+    "ETag": "1Pzs5A8upQrVD2SVBixh2Kn6MHM",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Radio broacast from Severance Hall, ripped from a Memories CD which gives the date 26 January 1967",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 16,
+      "PublishedAtRaw": "2024-12-26T04:54:49Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:49+00:00",
+      "PublishedAt": "2024-12-26T10:24:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Isgce4qa2v0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Isgce4qa2v0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Isgce4qa2v0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Isgce4qa2v0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Isgce4qa2v0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Isgce4qa2v0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Szell / Cleveland / Curzon LIVE 1967 Beethoven piano concerto no.5 \u0022Emperor\u0022",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1Ex8__v12pc",
+      "VideoPublishedAtRaw": "2024-04-18T01:35:26Z",
+      "VideoPublishedAtDateTimeOffset": "2024-04-18T01:35:26+00:00",
+      "VideoPublishedAt": "2024-04-18T07:05:26+05:30"
+    },
+    "ETag": "pK0ciXHG6fxwbs38-NsnWsygoMk",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Radio broadcast from Severance Hall, ripped from a Memories CD which gives the date 27 October 1966",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 17,
+      "PublishedAtRaw": "2024-12-26T04:54:45Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:45+00:00",
+      "PublishedAt": "2024-12-26T10:24:45+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1Ex8__v12pc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1Ex8__v12pc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1Ex8__v12pc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/1Ex8__v12pc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1Ex8__v12pc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1Ex8__v12pc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Szell / Cleveland / Gilels LIVE in 1966, Beethoven piano concerto no.3",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ATLomFhrWSI",
+      "VideoPublishedAtRaw": "2019-12-12T17:56:54Z",
+      "VideoPublishedAtDateTimeOffset": "2019-12-12T17:56:54+00:00",
+      "VideoPublishedAt": "2019-12-12T23:26:54+05:30"
+    },
+    "ETag": "x3w6M7UiPdrC0Jd3CwvxFoyzBc0",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "from the opening weekend of the first Blossom Music Festival, July 1968. (Maybe even better than the commercial recording, especially the coda).",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 18,
+      "PublishedAtRaw": "2024-12-26T04:55:42Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:55:42+00:00",
+      "PublishedAt": "2024-12-26T10:25:42+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ATLomFhrWSI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ATLomFhrWSI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ATLomFhrWSI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ATLomFhrWSI/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Szell and Cleveland LIVE in 1968: Strauss Tod und Verklarung (Death and Transfiguration)",
+      "VideoOwnerChannelId": "UCQRW4LPXN-X-RYzcuHEk_dw",
+      "VideoOwnerChannelTitle": "Szell and Cleveland Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DBx4R51qq7w",
+      "VideoPublishedAtRaw": "2025-03-11T13:00:29Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-11T13:00:29+00:00",
+      "VideoPublishedAt": "2025-03-11T18:30:29+05:30"
+    },
+    "ETag": "k8C41kaueV0Tu4cWn4GDwLRox9k",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "George Szell conducts the NY Philharmonic in performance of Johannes Brahms Symphony No. 3 in F major, Op. 90, on December 21st, 1952. \n\nI\u2019m pretty sure a recording of this performance doesn\u2019t exist anywhere else - does anyone know of any other recordings? \n\nThis was recorded quite loud (you can see the VU meter pegged into the red in the video) - which means the biggest parts of the piece are slightly distorted but I don\u2019t think it takes away from the majesty of this performance. What do you think? \n\nThe program for the performance:\nhttps://archives.nyphil.org/index.php/artifact/ee0a7a98-c8b6-40df-9b9a-03c8222fb61a-0.1\n\nTechnical Info:\nScotch 190\n7\u201D reel\n7 1/2 IPS\n\n00:08 - Allegro con brio\n10:14 - Andante\n18:24 - Poco Allegretto\n24:08 - Allegro",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 19,
+      "PublishedAtRaw": "2025-03-11T17:35:13Z",
+      "PublishedAtDateTimeOffset": "2025-03-11T17:35:13+00:00",
+      "PublishedAt": "2025-03-11T23:05:13+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DBx4R51qq7w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DBx4R51qq7w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DBx4R51qq7w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DBx4R51qq7w/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Szell NY Philharmonic Brahms 3rd Symphony 1952",
+      "VideoOwnerChannelId": "UCavYu1LjM9nUHVc7EdFm0yA",
+      "VideoOwnerChannelTitle": "Marchant 3M Tape Archiving Project"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "AZqoNaf9zro",
+      "VideoPublishedAtRaw": "2024-12-06T14:39:26Z",
+      "VideoPublishedAtDateTimeOffset": "2024-12-06T14:39:26+00:00",
+      "VideoPublishedAt": "2024-12-06T20:09:26+05:30"
+    },
+    "ETag": "slYcwKksDYUKhYKGk1HTNPKlwEw",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Tchaikovsky : Symphony No.4 \n1st movement  00:00\n2nd 18:24\n3rd  26:44\n4th  32:07\nGeorge Szell / Cleveland Orchestra\n15/1/1958 Cleveland Severance Hall live recording\n\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\uFF1A\u4EA4\u97FF\u66F2\u7B2C4\u756A\n\u30B8\u30E7\u30FC\u30B8\u30FB\u30BB\u30EB\u6307\u63EE\u3000\u30AF\u30EA\u30FC\u30F4\u30E9\u30F3\u30C9\u7BA1\u5F26\u697D\u56E3\n1968\u5E741\u670815\u65E5\u3000\u30AF\u30EA\u30FC\u30F4\u30E9\u30F3\u30C9\u3001\u30BB\u30F4\u30A7\u30E9\u30F3\u30B9\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u6B63\u898F\u76E4\u306E\u7121\u3044\u30BB\u30EB\uFF0F\u30AF\u30EA\u30FC\u30F4\u30E9\u30F3\u30C9\u306E\u30C1\u30E3\u30A4\u30B3\u30D5\u30B9\u30AD\u30FC\u300C\u7B2C4\u756A\u300D\u3002\u30BB\u30EB\u672C\u6765\u306E\u30B9\u30E9\u30F4\u306E\u8840\u304C\u6CB8\u304D\u7ACB\u3064\u3088\u3046\u306A\u7CBE\u7DFB\u4E14\u3064\u6FC0\u70C8\u306A\u8D85\u7D76\u540D\u6F14\u3002",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 20,
+      "PublishedAtRaw": "2024-12-26T04:54:24Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:24+00:00",
+      "PublishedAt": "2024-12-26T10:24:24+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "AZqoNaf9zro"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/AZqoNaf9zro/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/AZqoNaf9zro/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/AZqoNaf9zro/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/AZqoNaf9zro/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/AZqoNaf9zro/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky : Symphony No.4   G. Szell / Cleveland O. 1968 Live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iXt6VQ27khQ",
+      "VideoPublishedAtRaw": "2024-03-02T14:49:13Z",
+      "VideoPublishedAtDateTimeOffset": "2024-03-02T14:49:13+00:00",
+      "VideoPublishedAt": "2024-03-02T20:19:13+05:30"
+    },
+    "ETag": "s76oYJXx8ezonEPX5Y_PCBnJqK4",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pyotr Ilyich Tchaikovsky  (1840 - 1893)\n\nSymphony no. 4 in F minor op. 36\n\nI        Andante sostenuto\nII      Andantino in modo di canzona\nIII     Scherzo - Allegro\nIV     Finale. Allegro con fuoco\n\nGeorge Szell, direttore\nCleveland Orchestra\nCleveland, 1968 live",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 21,
+      "PublishedAtRaw": "2024-12-26T04:54:57Z",
+      "PublishedAtDateTimeOffset": "2024-12-26T04:54:57+00:00",
+      "PublishedAt": "2024-12-26T10:24:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iXt6VQ27khQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/iXt6VQ27khQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikowsky:   Symphony no. 4 in F minor op. 36  -  George Szell, direttore; Cleveland Orchestra",
+      "VideoOwnerChannelId": "UCyYkoBNCzeEtd_fXs84TeNQ",
+      "VideoOwnerChannelTitle": "CLASSIC\u0026OPERA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "t-iPaO0Z3i8",
+      "VideoPublishedAtRaw": "2026-05-27T08:59:39Z",
+      "VideoPublishedAtDateTimeOffset": "2026-05-27T08:59:39+00:00",
+      "VideoPublishedAt": "2026-05-27T14:29:39+05:30"
+    },
+    "ETag": "zYbp48XaXc87Ds-XDc45QyShDEk",
+    "Id": "UEwxemdOQ29XdF83WjhiXzRydC1ndHNERmpVMXA3dFQ0ci4zRjM0MkVCRTg0MkYyQTM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven: Symphony No.9 \u0027Choral\u0027\n1st movement   00:00\n2nd    17:15\n3rd     29:57\n4th     45:32\nGeorge Szell / Vienna Philharmonic orchestra\nSop) Gundula Janowitz\u3000Alt) Meriel Dickinson\nTen) Ernst Haefliger\u3000Bar) Walter Berry\nCho) Wiener Singakademie\n22/6/1969 Vienna, Konzerthaus live recording (Closing Concert Vienna Festival Weeks) \n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u5408\u5531\u300D\n\u30B8\u30E7\u30FC\u30B8\u30FB\u30BB\u30EB\u6307\u63EE\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\u30BD\u30D7\u30E9\u30CE\uFF09\u30B0\u30F3\u30C9\u30A5\u30E9\u30FB\u30E4\u30CE\u30F4\u30A3\u30C3\u30C4\u3000\u30A2\u30EB\u30C8\uFF09\u30E1\u30EA\u30A8\u30EB\u30FB\u30C7\u30A3\u30C3\u30AD\u30F3\u30BD\u30F3\n\u30C6\u30CE\u30FC\u30EB\uFF09\u30A8\u30EB\u30F3\u30B9\u30C8\u30FB\u30D8\u30D5\u30EA\u30AC\u30FC\u3000\u30D0\u30EA\u30C8\u30F3\uFF09\u30EF\u30EB\u30BF\u30FC\u30FB\u30D9\u30EA\u30FC\n\u5408\u5531\uFF09\u30A6\u30A3\u30FC\u30F3\u30FB\u30B8\u30F3\u30B0\u30FB\u30A2\u30AB\u30C7\u30DF\u30FC\n1969\u5E746\u670822\u65E5\u3000\u30A6\u30A3\u30FC\u30F3\u30FB\u30B3\u30F3\u30C4\u30A7\u30EB\u30C8\u30CF\u30A6\u30B9\u3000\u30E9\u30A4\u30D6\u9332\u97F3\uFF08\u30A6\u30A3\u30FC\u30F3\u82B8\u8853\u9031\u9593\u30AF\u30ED\u30FC\u30B8\u30F3\u30B0\u30FB\u30B3\u30F3\u30B5\u30FC\u30C8\u3001\u9AD8\u97F3\u8CEA\u76E4\uFF09\n\u203B\u30BB\u30EB\uFF0FVPO\u306B\u3088\u308B\u4E00\u671F\u4E00\u4F1A\u306E\u300C\u7B2C\u4E5D\u300D\u3002\u76E4\u77F3\u306E\u30BD\u30EA\u30B9\u30C8\u30FB\u5408\u5531\u3092\u63C3\u3048\u305F\u4F1D\u8AAC\u7684\u540D\u6F14\u3002",
+      "PlaylistId": "PL1zgNCoWt_7Z8b_4rt-gtsDFjU1p7tT4r",
+      "Position": 22,
+      "PublishedAtRaw": "2026-05-28T01:25:12Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T01:25:12+00:00",
+      "PublishedAt": "2026-05-28T06:55:12+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "t-iPaO0Z3i8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/t-iPaO0Z3i8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No.9 \u0027Choral\u0027     G. Szell / VPO 1969 live at Vienna Festival Weeks (HQ audio)",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  }
 ]

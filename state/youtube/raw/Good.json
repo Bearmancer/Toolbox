@@ -1,886 +1,886 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "XIiFYesMCjk",
-			"VideoPublishedAtRaw": "2017-04-07T11:03:52Z",
-			"VideoPublishedAtDateTimeOffset": "2017-04-07T11:03:52+00:00",
-			"VideoPublishedAt": "2017-04-07T16:33:52+05:30"
-		},
-		"ETag": "9TCo6KpXSuoHtpUxRR2rmhffsDc",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "En 2010, El Xacobeo Classics ofreci\u00F3 el estreno en Galicia de \u0022Parsifal\u0022 con Violeta Urmana, Nikolai Schukoff, Juka Rasilianen y Kurt Rydl, entre otros int\u00E9rpretes.\nVasily Petrenko dirigi\u00F3 la Filarm\u00F3nica de Liverpool",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 0,
-			"PublishedAtRaw": "2025-09-20T12:51:55Z",
-			"PublishedAtDateTimeOffset": "2025-09-20T12:51:55+00:00",
-			"PublishedAt": "2025-09-20T18:21:55+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "XIiFYesMCjk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/XIiFYesMCjk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/XIiFYesMCjk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/XIiFYesMCjk/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/XIiFYesMCjk/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/XIiFYesMCjk/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "\u0022Parsifal\u0022 (Santiago de Compostela, 2010). Preludio. Liverpool Philharmonic/Petrenko",
-			"VideoOwnerChannelId": "UCI23fNDTVl5s3UT2tAkuSXA",
-			"VideoOwnerChannelTitle": "amigosoperacoruna65"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "NY_ljBqoTC8",
-			"VideoPublishedAtRaw": "2022-07-30T15:46:54Z",
-			"VideoPublishedAtDateTimeOffset": "2022-07-30T15:46:54+00:00",
-			"VideoPublishedAt": "2022-07-30T21:16:54+05:30"
-		},
-		"ETag": "8-Nv19tIeo14HV0bwgEfBAUktF4",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Beethoven Symphony No.5  Op.67\nHerbert von Karajan\nBerliner Philharmoniker\n\nLive at Berlin Philharmonic hall, Nov.1982\n\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3 \u4EA4\u97FF\u66F2\u7B2C5\u756A\u300C\u904B\u547D\u300D  Op.67\n\u30D8\u30EB\u30D9\u30EB\u30C8\u30FB\u30D5\u30A9\u30F3\u30FB\u30AB\u30E9\u30E4\u30F3\u6307\u63EE\n\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\n\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC 1982\u5E7411\u6708\n\n1. 00:27\n2. 07:55\n3. 17:26\n4. 22:19",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 1,
-			"PublishedAtRaw": "2025-07-01T04:37:15Z",
-			"PublishedAtDateTimeOffset": "2025-07-01T04:37:15+00:00",
-			"PublishedAt": "2025-07-01T10:07:15+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "NY_ljBqoTC8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "(1080p) Karajan/Beethoven Symphony No.5 Live in Berlin, Nov. 1982\uFF1A\u30AB\u30E9\u30E4\u30F3 \uFF0F\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\u4EA4\u97FF\u66F2\u7B2C5\u756A \u904B\u547D \uFF0F\u30D9\u30EB\u30EA\u30F3 \u30E9\u30A4\u30F4",
-			"VideoOwnerChannelId": "UCeooittgk0fCismOlPNh8lw",
-			"VideoOwnerChannelTitle": "HM"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "qpdHqn7D1Oo"
-		},
-		"ETag": "8VKOprGu4qL6R9qLhlLdMNrHIKY",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This video is unavailable.",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 2,
-			"PublishedAtRaw": "2024-12-21T19:08:12Z",
-			"PublishedAtDateTimeOffset": "2024-12-21T19:08:12+00:00",
-			"PublishedAt": "2024-12-22T00:38:12+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "qpdHqn7D1Oo"
-			},
-			"Thumbnails": {},
-			"Title": "Deleted video"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "DzSIGf5OjKE",
-			"VideoPublishedAtRaw": "2016-11-05T18:41:08Z",
-			"VideoPublishedAtDateTimeOffset": "2016-11-05T18:41:08+00:00",
-			"VideoPublishedAt": "2016-11-06T00:11:08+05:30"
-		},
-		"ETag": "bfa4CZQ0sTT_7QuA5eHgFqaGnuU",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Igor Strawinsky: Capriccio for Piano and Orchestra (1926-1929)\nPresto \nAndante rapsodico 07:28\nAllegro capriccioso ma tempo giusto 13:21\nLiederhalle, Stuttgart (D)  27-10-2016 \nSWR Symphonieorchester\nAlexei Volodin (Soloist), Dima Slobodeniouk (Conductor)",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 3,
-			"PublishedAtRaw": "2025-01-13T12:08:39Z",
-			"PublishedAtDateTimeOffset": "2025-01-13T12:08:39+00:00",
-			"PublishedAt": "2025-01-13T17:38:39+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "DzSIGf5OjKE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Alexei Volodin-Dima Slobodeniouk. Strawinsky: Capriccio for Piano and Orchestra",
-			"VideoOwnerChannelId": "UCrp7gltXEE53xgQC9XKRbQA",
-			"VideoOwnerChannelTitle": "Margit Nagy"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "O5GQlwZAFTI",
-			"VideoPublishedAtRaw": "2024-04-15T12:17:31Z",
-			"VideoPublishedAtDateTimeOffset": "2024-04-15T12:17:31+00:00",
-			"VideoPublishedAt": "2024-04-15T17:47:31+05:30"
-		},
-		"ETag": "0wjNzKilWup0pNAMQs3sCIlFltY",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Ludwig van Beethoven - Symphony No. 7, Vasily Petrenko conducts the State Academic Symphony Orchestra \u0022Evgeny Svetlanov\u0022, Tchaikovsky Concert Hall, Moscow State Philharmonic, 29.12.2018",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 4,
-			"PublishedAtRaw": "2025-08-25T01:46:11Z",
-			"PublishedAtDateTimeOffset": "2025-08-25T01:46:11+00:00",
-			"PublishedAt": "2025-08-25T07:16:11+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "O5GQlwZAFTI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven - Symphony no. 7, Vasily Petrenko, Svetlanov Symphony Orchestra, Tchaikovsky Concert Hall",
-			"VideoOwnerChannelId": "UC_kzn-FdHccK5HOJOH_ue0Q",
-			"VideoOwnerChannelTitle": "Arina in Londonland"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "dq--kBw3bSI",
-			"VideoPublishedAtRaw": "2017-09-13T09:00:01Z",
-			"VideoPublishedAtDateTimeOffset": "2017-09-13T09:00:01+00:00",
-			"VideoPublishedAt": "2017-09-13T14:30:01+05:30"
-		},
-		"ETag": "SQ302fXjXnlj2r19mPmvSFR725Q",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Subscribe for more wonderful classical music: http://bit.ly/2wLsKlN.\n\nThe Concertgebouw Chamber Orchestra, conducted by Stefan Vladar, performs Beethoven\u0027s String Quartet op.95: \u0027Serioso\u0027. Written by Beethoven during a very difficult period in his life; with the loss of his hearing, other physical problems and financial troubles.\n\nConducted by Stefan Vladar\nArranged by M. Waterman\nPerformed by the Concertgebouw Chamber Orchestra\n\nMore AVROTROS Klassiek:\n\u266C Facebook: https://www.facebook.com/AVROTROS.Klassiek/\n\u266C Twitter: https://twitter.com/klassiekonline\n\u266C Instagram: https://www.instagram.com/avrotrosklassiek/",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 5,
-			"PublishedAtRaw": "2025-01-28T22:41:47Z",
-			"PublishedAtDateTimeOffset": "2025-01-28T22:41:47+00:00",
-			"PublishedAt": "2025-01-29T04:11:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "dq--kBw3bSI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/dq--kBw3bSI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/dq--kBw3bSI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/dq--kBw3bSI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/dq--kBw3bSI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/dq--kBw3bSI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven: String Quartet op.95 \u0027Serioso\u0027 - Concertgebouw Chamber Orchestra - Live Classical Music",
-			"VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
-			"VideoOwnerChannelTitle": "AVROTROS Klassiek"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "VVhMQmnlFTE",
-			"VideoPublishedAtRaw": "2025-01-20T01:40:03Z",
-			"VideoPublishedAtDateTimeOffset": "2025-01-20T01:40:03+00:00",
-			"VideoPublishedAt": "2025-01-20T07:10:03+05:30"
-		},
-		"ETag": "4MHEzq7TJjl-_mlLhRGpjs-RXt4",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027 \n1st movement   00:00\n2nd   10:11\n3rd    23:24\n4th    30:53\nAndris Nelsons / City of Birmingham Symphony Orchestra\n29/7/2010 Proms, Royal Albert Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30A2\u30F3\u30C9\u30EA\u30B9\u30FB\u30CD\u30EB\u30BD\u30F3\u30B9\u6307\u63EE\u3000\u30D0\u30FC\u30DF\u30F3\u30AC\u30E0\u5E02\u4EA4\u97FF\u697D\u56E3\n2010\u5E747\u670829\u65E5\u3000\u30D7\u30ED\u30E0\u30B9\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B2010\u5E74\u306F\u30CD\u30EB\u30BD\u30F3\u30B9\u98DB\u8E8D\u306E\u5E74\u3067\u3057\u305F\u3002\u30D0\u30A4\u30ED\u30A4\u30C8\u97F3\u697D\u796D\u3078\u306E\u521D\u767B\u5834\u3001\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u3084\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u97FF\u3001\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB \u3078\u30C7\u30D3\u30E5\u30FC\u3057\u305F\u306E\u3082\u3053\u306E\u5E74\u3002\u5F97\u610F\u3068\u3057\u305F\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\u306F\u9996\u5E2D\u3060\u3063\u305FCBSO\u3068\u306E\u3053\u306E\u30D7\u30ED\u30E0\u30B9\u3092\u7D4C\u3066\u3001\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u3068\u306E\u5B9A\u671F\u3001\u6765\u65E5\u516C\u6F14\u3067\u3082\u62AB\u9732\u3055\u308C\u3066\u3044\u307E\u3057\u305F\u3002",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 6,
-			"PublishedAtRaw": "2025-01-28T22:43:23Z",
-			"PublishedAtDateTimeOffset": "2025-01-28T22:43:23+00:00",
-			"PublishedAt": "2025-01-29T04:13:23+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "VVhMQmnlFTE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/VVhMQmnlFTE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/VVhMQmnlFTE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/VVhMQmnlFTE/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027  A. Nelsons / CBSO 2010 Proms live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "4Y4ByxhLPnU",
-			"VideoPublishedAtRaw": "2025-05-21T04:11:46Z",
-			"VideoPublishedAtDateTimeOffset": "2025-05-21T04:11:46+00:00",
-			"VideoPublishedAt": "2025-05-21T09:41:46+05:30"
-		},
-		"ETag": "mdV2thcwkVdBSyoMGjXPf-cPR4U",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4yMDhBMkNBNjRDMjQxQTg1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "New York Philharmonic, cond. by Lorin Maazel\n1. Lento lugubre (0:00)\n2. Vivace con spirito (19:37)\n3. Andante con moto (29:51)\n4. Allegro con fuoco (42:36)\nrec. October 2007\nRadio Broadcast",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 7,
-			"PublishedAtRaw": "2025-11-15T09:16:14Z",
-			"PublishedAtDateTimeOffset": "2025-11-15T09:16:14+00:00",
-			"PublishedAt": "2025-11-15T14:46:14+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "4Y4ByxhLPnU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Lorin Maazel - Tchaikovsky : Manfred Symphony Op.58 (2007-Live)",
-			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-			"VideoOwnerChannelTitle": "uchukyoku1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Vz_-CS2ypR4",
-			"VideoPublishedAtRaw": "2025-01-24T07:45:12Z",
-			"VideoPublishedAtDateTimeOffset": "2025-01-24T07:45:12+00:00",
-			"VideoPublishedAt": "2025-01-24T13:15:12+05:30"
-		},
-		"ETag": "72QkulRaQTLsComWrog_lhdORHQ",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Vienna Philharmonic Orch. cond. by Riccard Muti\n  I. Allegro con spirito (0:00)\n II. Andante (5:52)\nIII. Menuetto (14:45)\nIV. Finale, Presto (17:53)\nrec.20 May 2004, Wiener Musikvereinsaal",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 8,
-			"PublishedAtRaw": "2025-08-23T11:08:33Z",
-			"PublishedAtDateTimeOffset": "2025-08-23T11:08:33+00:00",
-			"PublishedAt": "2025-08-23T16:38:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Vz_-CS2ypR4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Riccard Muti / VPO - Mozart : Symphony No. 35 in D  K. 385 \u0027Haffner\u0027 (2004 -Live)",
-			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-			"VideoOwnerChannelTitle": "uchukyoku1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "BJZLhAaVJMU",
-			"VideoPublishedAtRaw": "2025-09-24T22:52:44Z",
-			"VideoPublishedAtDateTimeOffset": "2025-09-24T22:52:44+00:00",
-			"VideoPublishedAt": "2025-09-25T04:22:44+05:30"
-		},
-		"ETag": "FGSYJm31MQcqumbCL5tYh2k8YAg",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS45RTgxNDRBMzUwRjQ0MDhC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 9,
-			"PublishedAtRaw": "2025-10-07T22:23:00Z",
-			"PublishedAtDateTimeOffset": "2025-10-07T22:23:00+00:00",
-			"PublishedAt": "2025-10-08T03:53:00+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "BJZLhAaVJMU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sibelius 7 Bartok Va Cto DePasquale Philadelphia Ormandy Oct 1967 Live",
-			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
-			"VideoOwnerChannelTitle": "Peter Kohn"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "DfLW4pdvn-s",
-			"VideoPublishedAtRaw": "2023-11-12T12:05:00Z",
-			"VideoPublishedAtDateTimeOffset": "2023-11-12T12:05:00+00:00",
-			"VideoPublishedAt": "2023-11-12T17:35:00+05:30"
-		},
-		"ETag": "yu38evIo9Gqc8hSkn6LxYA74afE",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Jean Sibelius: \nViolinkonzert d-Moll op. 47 \u2219\n\nI. Allegro moderato  00:00 \u2219\nII. Adagio di molto  17:07 \u2219\nIII. Allegro ma non tanto  25:40 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nJulia Fischer, Violine \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 22. September 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 10,
-			"PublishedAtRaw": "2024-12-06T12:29:47Z",
-			"PublishedAtDateTimeOffset": "2024-12-06T12:29:47+00:00",
-			"PublishedAt": "2024-12-06T17:59:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "DfLW4pdvn-s"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sibelius: Violinkonzert \u2219 hr-Sinfonieorchester \u2219 Julia Fischer \u2219 Alain Altinoglu",
-			"VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
-			"VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "n77yTpsksmA",
-			"VideoPublishedAtRaw": "2025-10-11T12:01:26Z",
-			"VideoPublishedAtDateTimeOffset": "2025-10-11T12:01:26+00:00",
-			"VideoPublishedAt": "2025-10-11T17:31:26+05:30"
-		},
-		"ETag": "-Yc4UIJAavqpbYu04lzjYMnSQ88",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5ENDU4Q0M4RDExNzM1Mjcy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "It begins in a dark, melancholy mood and ends triumphantly: Pyotr Ilyich Tchaikovsky\u2019s Symphony No. 5 in E minor, Op. 64. This quintessentially Romantic symphony is performed by the Gewandhaus Orchestra under the baton of Andris Nelsons. The concert took place on 17 May 2019 at the Gewandhaus in Leipzig.\n\n(00:00) I. Andante \u2013 Allegro con anima\n(15:51) II. Andante cantabile, con alcuna licenza\n(30:34) III. Waltz. Allegro moderato\n(36:38) IV. Finale. Andante maestoso \u2013 Allegro vivace\n\nAlthough Tchaikovsky (1840\u20131893) explicitly stated that his Symphony No. 5 in E minor should not be understood as program music, it has long been associated with the idea of \u201CFate.\u201D A Fifth Symphony and the theme of fate inevitably bring to mind Ludwig van Beethoven\u2019s (1770\u20131827) Symphony No. 5 in C minor, Op. 67 (1808), universally known as the \u201CFate Symphony.\u201D Indeed, there is a clear parallel between the two Fifth Symphonies: both open in darkness, gradually move from minor to major, and end in a spirit of triumph. Such a fate drama \u2014 a journey from defeat to victory, from suffering to redemption \u2014 was a quintessentially Romantic theme in the 19th century.\n\nWhether Tchaikovsky\u2019s Fifth Symphony really does revolve around the concept of fate remains a matter of debate. In notes written before he began composing, Tchaikovsky mentions a sense of complete submission to fate, but it is by no means certain that this refers to the symphony itself. He composed the work in just a few weeks during the summer of 1888 at his country house. The premiere took place on November 17 of the same year in St. Petersburg and was conducted by the composer himself.\n\nIn formal terms, Tchaikovsky\u2019s Fifth is a cyclical symphony: a theme introduced at the outset recurs in varied forms throughout all four movements, creating a sense of unity across the entire work. Because this motto theme is initially presented in such a mournful and somber manner, it has often been interpreted as representing a tragic fate \u2014 hence the term \u201CFate motif,\u201D still commonly used today.\n\nAlready in the second movement, however, the supposed tragic character transforms into something more idyllic: the horn introduces a memorable theme (16:48) that Tchaikovsky himself described as a \u201Cray of light.\u201D In fact, the Russian composer borrowed this theme from the third movement of the Symphony No. 10 in F minor (\u201CZur Herbstzeit\u201D, 1879) by the Swiss-German composer Joseph Joachim Raff (1822\u20131882). Set against Raff\u2019s graceful melody, Tchaikovsky\u2019s motto theme appears as a secondary idea in the middle section of the movement.\n\nIn the third movement \u2014 a waltz \u2014 the main theme of the symphony reappears only briefly and almost incidentally. By contrast, the finale begins once again with the motto theme, which is then swiftly transformed from minor to major. The music develops with increasing positivity and culminates in a triumphant march.\n\nTchaikovsky initially regarded his Fifth Symphony as a failure, particularly disliking the finale. However, a year after the premiere he revised his opinion and was positive about the work. Today, the Symphony No. 5 is among the most beloved compositions of the Russian master and is performed regularly in concert halls around the world.\n\nText: Rita Kass\n\n\u00A9 2019 Accentus Music\n\nWatch more concerts in YOUR PERSONAL CONCERT HALL:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nYou can find more SYMPHONIES in this playlist:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBWJ5t7LxFkBRlcTu4qHdo67\n\nGet in touch with other great pieces by TCHAIKOVSKY:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBXeqiLcYJCB2Ct1lqIDtivN\n\nAnd this is your way to music of the ROMANTIC PERIOD:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic\n\n#symphony #romanticmusic #tchaikovsky",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 11,
-			"PublishedAtRaw": "2025-10-11T20:55:21Z",
-			"PublishedAtDateTimeOffset": "2025-10-11T20:55:21+00:00",
-			"PublishedAt": "2025-10-12T02:25:21+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "n77yTpsksmA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/n77yTpsksmA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/n77yTpsksmA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/n77yTpsksmA/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/n77yTpsksmA/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/n77yTpsksmA/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tchaikovsky: Symphony No. 5 | Andris Nelsons \u0026 the Gewandhaus Orchestra Leipzig",
-			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-			"VideoOwnerChannelTitle": "DW Classical Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "MTffOt34Uqc",
-			"VideoPublishedAtRaw": "2020-02-11T11:49:39Z",
-			"VideoPublishedAtDateTimeOffset": "2020-02-11T11:49:39+00:00",
-			"VideoPublishedAt": "2020-02-11T17:19:39+05:30"
-		},
-		"ETag": "NCuNtdgQQGO5s6TpFCxHmCsKJYs",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Compared to this orignal tape, It is apparent that DG Edition\u0027s applause after the end of performance (36:46) is unnatural.\nTchaikovsky,P. Concerto for Violin and Orchestra in D Op.35 \n1st . 00:03  2nd. 19:36  3rd.  26:50\nAnne-Sophie Mutter/Vn\nWiener Philharmoniker\nHerbert von Karajan\nSalzburg Festival 1988\nGro\u00DFes Festspielhaus,Salzburg\n1988,August,15",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 12,
-			"PublishedAtRaw": "2024-12-09T21:31:48Z",
-			"PublishedAtDateTimeOffset": "2024-12-09T21:31:48+00:00",
-			"PublishedAt": "2024-12-10T03:01:48+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "MTffOt34Uqc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/MTffOt34Uqc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/MTffOt34Uqc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/MTffOt34Uqc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/MTffOt34Uqc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/MTffOt34Uqc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tchaikovsky; Violin concert Mutter, Karajan VPO 1988 Live no edit version form Radio broadcasting",
-			"VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
-			"VideoOwnerChannelTitle": "Plow Fat"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "jmGMTf-RPSU",
-			"VideoPublishedAtRaw": "2025-04-28T19:34:14Z",
-			"VideoPublishedAtDateTimeOffset": "2025-04-28T19:34:14+00:00",
-			"VideoPublishedAt": "2025-04-29T01:04:14+05:30"
-		},
-		"ETag": "UVCq8VoDxozG2goI2guvbeeTtk8",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Richard Wagner - G\u00F6tterd\u00E4mmerung, WWV 86D: Suite (arr. Daniel Barenboim)\n\nDaniel Barenboim, Conductor\nLive at Orchestra Hall, November 1983",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 13,
-			"PublishedAtRaw": "2025-05-13T15:00:44Z",
-			"PublishedAtDateTimeOffset": "2025-05-13T15:00:44+00:00",
-			"PublishedAt": "2025-05-13T20:30:44+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "jmGMTf-RPSU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Wagner - G\u00F6tterd\u00E4mmerung, WWV 86D: Suite (arr. D. Barenboim) (Chicago Symphony Orchestra)",
-			"VideoOwnerChannelId": "UC3O3w9RXsVx_W2avnwrVFHA",
-			"VideoOwnerChannelTitle": "Orchestra Recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "OQpBQSOOups",
-			"VideoPublishedAtRaw": "2012-08-04T18:40:46Z",
-			"VideoPublishedAtDateTimeOffset": "2012-08-04T18:40:46+00:00",
-			"VideoPublishedAt": "2012-08-05T00:10:46+05:30"
-		},
-		"ETag": "ucXGSrbeE8rlIfLQqQEMO0V3B0Y",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "*Dolby Sounds*\n--Date\uFF1AOct 18 1988\n--Place:Suntory Hall (Tokyo)",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 14,
-			"PublishedAtRaw": "2024-12-18T13:52:52Z",
-			"PublishedAtDateTimeOffset": "2024-12-18T13:52:52+00:00",
-			"PublishedAt": "2024-12-18T19:22:52+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "OQpBQSOOups"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/OQpBQSOOups/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/OQpBQSOOups/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/OQpBQSOOups/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/OQpBQSOOups/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/OQpBQSOOups/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Wagner Tannh\u00E4user Overture Klaus Tennstedt London Philharmonic",
-			"VideoOwnerChannelId": "UCZUB1uxzg3Hie7PMhYxPD1g",
-			"VideoOwnerChannelTitle": "HDVideoCollections4"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "iBtXXAKkq8g",
-			"VideoPublishedAtRaw": "2020-08-07T08:18:46Z",
-			"VideoPublishedAtDateTimeOffset": "2020-08-07T08:18:46+00:00",
-			"VideoPublishedAt": "2020-08-07T13:48:46+05:30"
-		},
-		"ETag": "yHm6kA6TU3IzYWNiKzsrobI4HYs",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Schumann: Symphony No. 1 \u0022Spring\u0022 - Conductor: Vasily Petrenko\n\u05E9\u05D5\u05DE\u05D0\u05DF: \u05E1\u05D9\u05DE\u05E4\u05D5\u05E0\u05D9\u05D4 \u05DE\u05E1\u0027 1 \u05F4\u05D4\u05D0\u05D1\u05D9\u05D1\u05F4\n\u05DE\u05E0\u05E6\u05D7: \u05D5\u05E1\u05D9\u05DC\u05D9 \u05E4\u05D8\u05E8\u05E0\u05E7\u05D5\n\nSchumann: Symphony No. 1 \u0022Spring\u0022\nConductor: Vasily Petrenko\n\n0:00 Andante\u00A0un poco maestoso \u2013\u00A0Allegro\u00A0molto vivace\n10:20 Larghetto\n18:42 Scherzo\n24:30 Allegro animato e grazioso\n\n\u05E6\u05D9\u05DC\u05D5\u05DD: Go Live\n\u05E1\u05D0\u05D5\u05E0\u05D3: \u05E8\u05E4\u05D9 \u05D0\u05E9\u05DC\n15.12.18\n\n\u05DC\u05EA\u05DB\u05E0\u05D9\u05DD \u05E0\u05D5\u05E1\u05E4\u05D9\u05DD, \u05DE\u05D5\u05D6\u05DE\u05E0\u05D9\u05DD \u05DC\u05E2\u05E7\u05D5\u05D1 \u05D0\u05D7\u05E8\u05D9\u05E0\u05D5 \u05D1\u05D0\u05D9\u05E0\u05E1\u05D8\u05D2\u05E8\u05DD \u05D5\u05D1\u05E4\u05D9\u05D9\u05E1\u05D1\u05D5\u05E7\nFor more content, feel free to follow us on Instagram and Facebook\n\nhttps://www.instagram.com/israel_philharmonic/\n\nhttps://www.facebook.com/israel.philharmonic/\n\n#Schumann #Spring #VasilyPetrenko",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 15,
-			"PublishedAtRaw": "2025-08-25T02:11:09Z",
-			"PublishedAtDateTimeOffset": "2025-08-25T02:11:09+00:00",
-			"PublishedAt": "2025-08-25T07:41:09+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "iBtXXAKkq8g"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "\u05E9\u05D5\u05DE\u05D0\u05DF: \u05E1\u05D9\u05DE\u05E4\u05D5\u05E0\u05D9\u05D4 \u05DE\u05E1\u0027 1 \u05F4\u05D4\u05D0\u05D1\u05D9\u05D1\u05F4 - \u05DE\u05E0\u05E6\u05D7: \u05D5\u05E1\u05D9\u05DC\u05D9 \u05E4\u05D8\u05E8\u05E0\u05E7\u05D5",
-			"VideoOwnerChannelId": "UC1EOrHdZl7cDhXdLJRwrySA",
-			"VideoOwnerChannelTitle": "Israel Philharmonic - \u05D4\u05E4\u05D9\u05DC\u05D4\u05E8\u05DE\u05D5\u05E0\u05D9\u05EA \u05D4\u05D9\u05E9\u05E8\u05D0\u05DC\u05D9\u05EA"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "8wVuWOZQ0qI",
-			"VideoPublishedAtRaw": "2026-06-16T14:50:36Z",
-			"VideoPublishedAtDateTimeOffset": "2026-06-16T14:50:36+00:00",
-			"VideoPublishedAt": "2026-06-16T20:20:36+05:30"
-		},
-		"ETag": "ofHHCwX342oaRW_JSRMqaoG_CNo",
-		"Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5GM0Q3M0MzMzY5NTJFNTdE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This performance was given during the 1997 BBC Proms Season on 6 September 1997 in the Royal Albert Hall, London. I\u0027m afraid this is the only part of this concert I now seem to have.\n\nBBC National Orchestra of Wales\nconducted by\nDavid Atherton\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ec6fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
-			"Position": 16,
-			"PublishedAtRaw": "2026-06-17T02:50:14Z",
-			"PublishedAtDateTimeOffset": "2026-06-17T02:50:14+00:00",
-			"PublishedAt": "2026-06-17T08:20:14+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "8wVuWOZQ0qI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Rachmaninov Symphony No. 1 - BBC National Orchestra of Wales - David Atherton (RAH, 1997)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "XIiFYesMCjk",
+      "VideoPublishedAtRaw": "2017-04-07T11:03:52Z",
+      "VideoPublishedAtDateTimeOffset": "2017-04-07T11:03:52+00:00",
+      "VideoPublishedAt": "2017-04-07T16:33:52+05:30"
+    },
+    "ETag": "9TCo6KpXSuoHtpUxRR2rmhffsDc",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "En 2010, El Xacobeo Classics ofreci\u00F3 el estreno en Galicia de \u0022Parsifal\u0022 con Violeta Urmana, Nikolai Schukoff, Juka Rasilianen y Kurt Rydl, entre otros int\u00E9rpretes.\nVasily Petrenko dirigi\u00F3 la Filarm\u00F3nica de Liverpool",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 0,
+      "PublishedAtRaw": "2025-09-20T12:51:55Z",
+      "PublishedAtDateTimeOffset": "2025-09-20T12:51:55+00:00",
+      "PublishedAt": "2025-09-20T18:21:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "XIiFYesMCjk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/XIiFYesMCjk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/XIiFYesMCjk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/XIiFYesMCjk/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/XIiFYesMCjk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/XIiFYesMCjk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "\u0022Parsifal\u0022 (Santiago de Compostela, 2010). Preludio. Liverpool Philharmonic/Petrenko",
+      "VideoOwnerChannelId": "UCI23fNDTVl5s3UT2tAkuSXA",
+      "VideoOwnerChannelTitle": "amigosoperacoruna65"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "NY_ljBqoTC8",
+      "VideoPublishedAtRaw": "2022-07-30T15:46:54Z",
+      "VideoPublishedAtDateTimeOffset": "2022-07-30T15:46:54+00:00",
+      "VideoPublishedAt": "2022-07-30T21:16:54+05:30"
+    },
+    "ETag": "8-Nv19tIeo14HV0bwgEfBAUktF4",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven Symphony No.5  Op.67\nHerbert von Karajan\nBerliner Philharmoniker\n\nLive at Berlin Philharmonic hall, Nov.1982\n\n\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3 \u4EA4\u97FF\u66F2\u7B2C5\u756A\u300C\u904B\u547D\u300D  Op.67\n\u30D8\u30EB\u30D9\u30EB\u30C8\u30FB\u30D5\u30A9\u30F3\u30FB\u30AB\u30E9\u30E4\u30F3\u6307\u63EE\n\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n\n\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC 1982\u5E7411\u6708\n\n1. 00:27\n2. 07:55\n3. 17:26\n4. 22:19",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 1,
+      "PublishedAtRaw": "2025-07-01T04:37:15Z",
+      "PublishedAtDateTimeOffset": "2025-07-01T04:37:15+00:00",
+      "PublishedAt": "2025-07-01T10:07:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "NY_ljBqoTC8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/NY_ljBqoTC8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "(1080p) Karajan/Beethoven Symphony No.5 Live in Berlin, Nov. 1982\uFF1A\u30AB\u30E9\u30E4\u30F3 \uFF0F\u30D9\u30FC\u30C8\u30FC\u30F4\u30A7\u30F3\u4EA4\u97FF\u66F2\u7B2C5\u756A \u904B\u547D \uFF0F\u30D9\u30EB\u30EA\u30F3 \u30E9\u30A4\u30F4",
+      "VideoOwnerChannelId": "UCeooittgk0fCismOlPNh8lw",
+      "VideoOwnerChannelTitle": "HM"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "qpdHqn7D1Oo"
+    },
+    "ETag": "8VKOprGu4qL6R9qLhlLdMNrHIKY",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 2,
+      "PublishedAtRaw": "2024-12-21T19:08:12Z",
+      "PublishedAtDateTimeOffset": "2024-12-21T19:08:12+00:00",
+      "PublishedAt": "2024-12-22T00:38:12+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "qpdHqn7D1Oo"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DzSIGf5OjKE",
+      "VideoPublishedAtRaw": "2016-11-05T18:41:08Z",
+      "VideoPublishedAtDateTimeOffset": "2016-11-05T18:41:08+00:00",
+      "VideoPublishedAt": "2016-11-06T00:11:08+05:30"
+    },
+    "ETag": "bfa4CZQ0sTT_7QuA5eHgFqaGnuU",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Igor Strawinsky: Capriccio for Piano and Orchestra (1926-1929)\nPresto \nAndante rapsodico 07:28\nAllegro capriccioso ma tempo giusto 13:21\nLiederhalle, Stuttgart (D)  27-10-2016 \nSWR Symphonieorchester\nAlexei Volodin (Soloist), Dima Slobodeniouk (Conductor)",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 3,
+      "PublishedAtRaw": "2025-01-13T12:08:39Z",
+      "PublishedAtDateTimeOffset": "2025-01-13T12:08:39+00:00",
+      "PublishedAt": "2025-01-13T17:38:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DzSIGf5OjKE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DzSIGf5OjKE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Alexei Volodin-Dima Slobodeniouk. Strawinsky: Capriccio for Piano and Orchestra",
+      "VideoOwnerChannelId": "UCrp7gltXEE53xgQC9XKRbQA",
+      "VideoOwnerChannelTitle": "Margit Nagy"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "O5GQlwZAFTI",
+      "VideoPublishedAtRaw": "2024-04-15T12:17:31Z",
+      "VideoPublishedAtDateTimeOffset": "2024-04-15T12:17:31+00:00",
+      "VideoPublishedAt": "2024-04-15T17:47:31+05:30"
+    },
+    "ETag": "0wjNzKilWup0pNAMQs3sCIlFltY",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Ludwig van Beethoven - Symphony No. 7, Vasily Petrenko conducts the State Academic Symphony Orchestra \u0022Evgeny Svetlanov\u0022, Tchaikovsky Concert Hall, Moscow State Philharmonic, 29.12.2018",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 4,
+      "PublishedAtRaw": "2025-08-25T01:46:11Z",
+      "PublishedAtDateTimeOffset": "2025-08-25T01:46:11+00:00",
+      "PublishedAt": "2025-08-25T07:16:11+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "O5GQlwZAFTI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/O5GQlwZAFTI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven - Symphony no. 7, Vasily Petrenko, Svetlanov Symphony Orchestra, Tchaikovsky Concert Hall",
+      "VideoOwnerChannelId": "UC_kzn-FdHccK5HOJOH_ue0Q",
+      "VideoOwnerChannelTitle": "Arina in Londonland"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "dq--kBw3bSI",
+      "VideoPublishedAtRaw": "2017-09-13T09:00:01Z",
+      "VideoPublishedAtDateTimeOffset": "2017-09-13T09:00:01+00:00",
+      "VideoPublishedAt": "2017-09-13T14:30:01+05:30"
+    },
+    "ETag": "SQ302fXjXnlj2r19mPmvSFR725Q",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Subscribe for more wonderful classical music: http://bit.ly/2wLsKlN.\n\nThe Concertgebouw Chamber Orchestra, conducted by Stefan Vladar, performs Beethoven\u0027s String Quartet op.95: \u0027Serioso\u0027. Written by Beethoven during a very difficult period in his life; with the loss of his hearing, other physical problems and financial troubles.\n\nConducted by Stefan Vladar\nArranged by M. Waterman\nPerformed by the Concertgebouw Chamber Orchestra\n\nMore AVROTROS Klassiek:\n\u266C Facebook: https://www.facebook.com/AVROTROS.Klassiek/\n\u266C Twitter: https://twitter.com/klassiekonline\n\u266C Instagram: https://www.instagram.com/avrotrosklassiek/",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 5,
+      "PublishedAtRaw": "2025-01-28T22:41:47Z",
+      "PublishedAtDateTimeOffset": "2025-01-28T22:41:47+00:00",
+      "PublishedAt": "2025-01-29T04:11:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "dq--kBw3bSI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/dq--kBw3bSI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/dq--kBw3bSI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/dq--kBw3bSI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/dq--kBw3bSI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/dq--kBw3bSI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: String Quartet op.95 \u0027Serioso\u0027 - Concertgebouw Chamber Orchestra - Live Classical Music",
+      "VideoOwnerChannelId": "UC2UIXt4VQnhQ-VZM4P1bUMQ",
+      "VideoOwnerChannelTitle": "AVROTROS Klassiek"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "VVhMQmnlFTE",
+      "VideoPublishedAtRaw": "2025-01-20T01:40:03Z",
+      "VideoPublishedAtDateTimeOffset": "2025-01-20T01:40:03+00:00",
+      "VideoPublishedAt": "2025-01-20T07:10:03+05:30"
+    },
+    "ETag": "4MHEzq7TJjl-_mlLhRGpjs-RXt4",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027 \n1st movement   00:00\n2nd   10:11\n3rd    23:24\n4th    30:53\nAndris Nelsons / City of Birmingham Symphony Orchestra\n29/7/2010 Proms, Royal Albert Hall live recording\n\u30C9\u30F4\u30A9\u30EB\u30B6\u30FC\u30AF\uFF1A\u4EA4\u97FF\u66F2\u7B2C9\u756A\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\n\u30A2\u30F3\u30C9\u30EA\u30B9\u30FB\u30CD\u30EB\u30BD\u30F3\u30B9\u6307\u63EE\u3000\u30D0\u30FC\u30DF\u30F3\u30AC\u30E0\u5E02\u4EA4\u97FF\u697D\u56E3\n2010\u5E747\u670829\u65E5\u3000\u30D7\u30ED\u30E0\u30B9\u3001\u30ED\u30A4\u30E4\u30EB\u30FB\u30A2\u30EB\u30D0\u30FC\u30C8\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B2010\u5E74\u306F\u30CD\u30EB\u30BD\u30F3\u30B9\u98DB\u8E8D\u306E\u5E74\u3067\u3057\u305F\u3002\u30D0\u30A4\u30ED\u30A4\u30C8\u97F3\u697D\u796D\u3078\u306E\u521D\u767B\u5834\u3001\u30D9\u30EB\u30EA\u30F3\u30FB\u30D5\u30A3\u30EB\u3084\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u97FF\u3001\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB \u3078\u30C7\u30D3\u30E5\u30FC\u3057\u305F\u306E\u3082\u3053\u306E\u5E74\u3002\u5F97\u610F\u3068\u3057\u305F\u300C\u65B0\u4E16\u754C\u3088\u308A\u300D\u306F\u9996\u5E2D\u3060\u3063\u305FCBSO\u3068\u306E\u3053\u306E\u30D7\u30ED\u30E0\u30B9\u3092\u7D4C\u3066\u3001\u30A6\u30A3\u30FC\u30F3\u30FB\u30D5\u30A3\u30EB\u3068\u306E\u5B9A\u671F\u3001\u6765\u65E5\u516C\u6F14\u3067\u3082\u62AB\u9732\u3055\u308C\u3066\u3044\u307E\u3057\u305F\u3002",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 6,
+      "PublishedAtRaw": "2025-01-28T22:43:23Z",
+      "PublishedAtDateTimeOffset": "2025-01-28T22:43:23+00:00",
+      "PublishedAt": "2025-01-29T04:13:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "VVhMQmnlFTE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/VVhMQmnlFTE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/VVhMQmnlFTE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/VVhMQmnlFTE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k : Symphony No.9 \u0027 From the new world \u0027  A. Nelsons / CBSO 2010 Proms live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "4Y4ByxhLPnU",
+      "VideoPublishedAtRaw": "2025-05-21T04:11:46Z",
+      "VideoPublishedAtDateTimeOffset": "2025-05-21T04:11:46+00:00",
+      "VideoPublishedAt": "2025-05-21T09:41:46+05:30"
+    },
+    "ETag": "mdV2thcwkVdBSyoMGjXPf-cPR4U",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "New York Philharmonic, cond. by Lorin Maazel\n1. Lento lugubre (0:00)\n2. Vivace con spirito (19:37)\n3. Andante con moto (29:51)\n4. Allegro con fuoco (42:36)\nrec. October 2007\nRadio Broadcast",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 7,
+      "PublishedAtRaw": "2025-11-15T09:16:14Z",
+      "PublishedAtDateTimeOffset": "2025-11-15T09:16:14+00:00",
+      "PublishedAt": "2025-11-15T14:46:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "4Y4ByxhLPnU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/4Y4ByxhLPnU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Lorin Maazel - Tchaikovsky : Manfred Symphony Op.58 (2007-Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Vz_-CS2ypR4",
+      "VideoPublishedAtRaw": "2025-01-24T07:45:12Z",
+      "VideoPublishedAtDateTimeOffset": "2025-01-24T07:45:12+00:00",
+      "VideoPublishedAt": "2025-01-24T13:15:12+05:30"
+    },
+    "ETag": "72QkulRaQTLsComWrog_lhdORHQ",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Vienna Philharmonic Orch. cond. by Riccard Muti\n  I. Allegro con spirito (0:00)\n II. Andante (5:52)\nIII. Menuetto (14:45)\nIV. Finale, Presto (17:53)\nrec.20 May 2004, Wiener Musikvereinsaal",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 8,
+      "PublishedAtRaw": "2025-08-23T11:08:33Z",
+      "PublishedAtDateTimeOffset": "2025-08-23T11:08:33+00:00",
+      "PublishedAt": "2025-08-23T16:38:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Vz_-CS2ypR4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Vz_-CS2ypR4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Riccard Muti / VPO - Mozart : Symphony No. 35 in D  K. 385 \u0027Haffner\u0027 (2004 -Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "BJZLhAaVJMU",
+      "VideoPublishedAtRaw": "2025-09-24T22:52:44Z",
+      "VideoPublishedAtDateTimeOffset": "2025-09-24T22:52:44+00:00",
+      "VideoPublishedAt": "2025-09-25T04:22:44+05:30"
+    },
+    "ETag": "FGSYJm31MQcqumbCL5tYh2k8YAg",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 9,
+      "PublishedAtRaw": "2025-10-07T22:23:00Z",
+      "PublishedAtDateTimeOffset": "2025-10-07T22:23:00+00:00",
+      "PublishedAt": "2025-10-08T03:53:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "BJZLhAaVJMU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/BJZLhAaVJMU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius 7 Bartok Va Cto DePasquale Philadelphia Ormandy Oct 1967 Live",
+      "VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+      "VideoOwnerChannelTitle": "Peter Kohn"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DfLW4pdvn-s",
+      "VideoPublishedAtRaw": "2023-11-12T12:05:00Z",
+      "VideoPublishedAtDateTimeOffset": "2023-11-12T12:05:00+00:00",
+      "VideoPublishedAt": "2023-11-12T17:35:00+05:30"
+    },
+    "ETag": "yu38evIo9Gqc8hSkn6LxYA74afE",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius: \nViolinkonzert d-Moll op. 47 \u2219\n\nI. Allegro moderato  00:00 \u2219\nII. Adagio di molto  17:07 \u2219\nIII. Allegro ma non tanto  25:40 \u2219\n\nhr-Sinfonieorchester \u2013 Frankfurt Radio Symphony \u2219\nJulia Fischer, Violine \u2219\nAlain Altinoglu, Dirigent \u2219 \n\nhr-Sinfoniekonzert \u2219\nAlte Oper Frankfurt, 22. September 2023 \u2219\n\nWebsite: http://www.hr-sinfonieorchester.de \u2219\nFacebook: http://www.facebook.com/hrsinfonieorchester \u2219\nARD Mediathek: https://www.ardmediathek.de/hr/sendung/hr-sinfonieorchester/Y3JpZDovL2hyLW9ubGluZS8zODIyMDAxOQ/ \u2219\nSpenden / Donations: https://www.hr-sinfonieorchester.de/spende-102.html \u2219\n\n#4K\n\n\u00A9 2023\nHessischer Rundfunk (hr)",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 10,
+      "PublishedAtRaw": "2024-12-06T12:29:47Z",
+      "PublishedAtDateTimeOffset": "2024-12-06T12:29:47+00:00",
+      "PublishedAt": "2024-12-06T17:59:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DfLW4pdvn-s"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DfLW4pdvn-s/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius: Violinkonzert \u2219 hr-Sinfonieorchester \u2219 Julia Fischer \u2219 Alain Altinoglu",
+      "VideoOwnerChannelId": "UCiyuYC0D4-AO0AonCfMifPQ",
+      "VideoOwnerChannelTitle": "hr-Sinfonieorchester \u2013 Frankfurt Radio Symphony"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "n77yTpsksmA",
+      "VideoPublishedAtRaw": "2025-10-11T12:01:26Z",
+      "VideoPublishedAtDateTimeOffset": "2025-10-11T12:01:26+00:00",
+      "VideoPublishedAt": "2025-10-11T17:31:26+05:30"
+    },
+    "ETag": "-Yc4UIJAavqpbYu04lzjYMnSQ88",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "It begins in a dark, melancholy mood and ends triumphantly: Pyotr Ilyich Tchaikovsky\u2019s Symphony No. 5 in E minor, Op. 64. This quintessentially Romantic symphony is performed by the Gewandhaus Orchestra under the baton of Andris Nelsons. The concert took place on 17 May 2019 at the Gewandhaus in Leipzig.\n\n(00:00) I. Andante \u2013 Allegro con anima\n(15:51) II. Andante cantabile, con alcuna licenza\n(30:34) III. Waltz. Allegro moderato\n(36:38) IV. Finale. Andante maestoso \u2013 Allegro vivace\n\nAlthough Tchaikovsky (1840\u20131893) explicitly stated that his Symphony No. 5 in E minor should not be understood as program music, it has long been associated with the idea of \u201CFate.\u201D A Fifth Symphony and the theme of fate inevitably bring to mind Ludwig van Beethoven\u2019s (1770\u20131827) Symphony No. 5 in C minor, Op. 67 (1808), universally known as the \u201CFate Symphony.\u201D Indeed, there is a clear parallel between the two Fifth Symphonies: both open in darkness, gradually move from minor to major, and end in a spirit of triumph. Such a fate drama \u2014 a journey from defeat to victory, from suffering to redemption \u2014 was a quintessentially Romantic theme in the 19th century.\n\nWhether Tchaikovsky\u2019s Fifth Symphony really does revolve around the concept of fate remains a matter of debate. In notes written before he began composing, Tchaikovsky mentions a sense of complete submission to fate, but it is by no means certain that this refers to the symphony itself. He composed the work in just a few weeks during the summer of 1888 at his country house. The premiere took place on November 17 of the same year in St. Petersburg and was conducted by the composer himself.\n\nIn formal terms, Tchaikovsky\u2019s Fifth is a cyclical symphony: a theme introduced at the outset recurs in varied forms throughout all four movements, creating a sense of unity across the entire work. Because this motto theme is initially presented in such a mournful and somber manner, it has often been interpreted as representing a tragic fate \u2014 hence the term \u201CFate motif,\u201D still commonly used today.\n\nAlready in the second movement, however, the supposed tragic character transforms into something more idyllic: the horn introduces a memorable theme (16:48) that Tchaikovsky himself described as a \u201Cray of light.\u201D In fact, the Russian composer borrowed this theme from the third movement of the Symphony No. 10 in F minor (\u201CZur Herbstzeit\u201D, 1879) by the Swiss-German composer Joseph Joachim Raff (1822\u20131882). Set against Raff\u2019s graceful melody, Tchaikovsky\u2019s motto theme appears as a secondary idea in the middle section of the movement.\n\nIn the third movement \u2014 a waltz \u2014 the main theme of the symphony reappears only briefly and almost incidentally. By contrast, the finale begins once again with the motto theme, which is then swiftly transformed from minor to major. The music develops with increasing positivity and culminates in a triumphant march.\n\nTchaikovsky initially regarded his Fifth Symphony as a failure, particularly disliking the finale. However, a year after the premiere he revised his opinion and was positive about the work. Today, the Symphony No. 5 is among the most beloved compositions of the Russian master and is performed regularly in concert halls around the world.\n\nText: Rita Kass\n\n\u00A9 2019 Accentus Music\n\nWatch more concerts in YOUR PERSONAL CONCERT HALL:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nYou can find more SYMPHONIES in this playlist:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBWJ5t7LxFkBRlcTu4qHdo67\n\nGet in touch with other great pieces by TCHAIKOVSKY:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBXeqiLcYJCB2Ct1lqIDtivN\n\nAnd this is your way to music of the ROMANTIC PERIOD:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBUCHNKKxIIM88sntDk1TVih\n\nSubscribe to DW Classical Music: \nhttps://www.youtube.com/dwclassicalmusic\n\n#symphony #romanticmusic #tchaikovsky",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 11,
+      "PublishedAtRaw": "2025-10-11T20:55:21Z",
+      "PublishedAtDateTimeOffset": "2025-10-11T20:55:21+00:00",
+      "PublishedAt": "2025-10-12T02:25:21+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "n77yTpsksmA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/n77yTpsksmA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/n77yTpsksmA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/n77yTpsksmA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/n77yTpsksmA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/n77yTpsksmA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky: Symphony No. 5 | Andris Nelsons \u0026 the Gewandhaus Orchestra Leipzig",
+      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+      "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MTffOt34Uqc",
+      "VideoPublishedAtRaw": "2020-02-11T11:49:39Z",
+      "VideoPublishedAtDateTimeOffset": "2020-02-11T11:49:39+00:00",
+      "VideoPublishedAt": "2020-02-11T17:19:39+05:30"
+    },
+    "ETag": "NCuNtdgQQGO5s6TpFCxHmCsKJYs",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Compared to this orignal tape, It is apparent that DG Edition\u0027s applause after the end of performance (36:46) is unnatural.\nTchaikovsky,P. Concerto for Violin and Orchestra in D Op.35 \n1st . 00:03  2nd. 19:36  3rd.  26:50\nAnne-Sophie Mutter/Vn\nWiener Philharmoniker\nHerbert von Karajan\nSalzburg Festival 1988\nGro\u00DFes Festspielhaus,Salzburg\n1988,August,15",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 12,
+      "PublishedAtRaw": "2024-12-09T21:31:48Z",
+      "PublishedAtDateTimeOffset": "2024-12-09T21:31:48+00:00",
+      "PublishedAt": "2024-12-10T03:01:48+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MTffOt34Uqc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MTffOt34Uqc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MTffOt34Uqc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/MTffOt34Uqc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MTffOt34Uqc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/MTffOt34Uqc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky; Violin concert Mutter, Karajan VPO 1988 Live no edit version form Radio broadcasting",
+      "VideoOwnerChannelId": "UCNcR_sUp9lhpqQjP2w2ekug",
+      "VideoOwnerChannelTitle": "Plow Fat"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "jmGMTf-RPSU",
+      "VideoPublishedAtRaw": "2025-04-28T19:34:14Z",
+      "VideoPublishedAtDateTimeOffset": "2025-04-28T19:34:14+00:00",
+      "VideoPublishedAt": "2025-04-29T01:04:14+05:30"
+    },
+    "ETag": "UVCq8VoDxozG2goI2guvbeeTtk8",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Wagner - G\u00F6tterd\u00E4mmerung, WWV 86D: Suite (arr. Daniel Barenboim)\n\nDaniel Barenboim, Conductor\nLive at Orchestra Hall, November 1983",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 13,
+      "PublishedAtRaw": "2025-05-13T15:00:44Z",
+      "PublishedAtDateTimeOffset": "2025-05-13T15:00:44+00:00",
+      "PublishedAt": "2025-05-13T20:30:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jmGMTf-RPSU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/jmGMTf-RPSU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Wagner - G\u00F6tterd\u00E4mmerung, WWV 86D: Suite (arr. D. Barenboim) (Chicago Symphony Orchestra)",
+      "VideoOwnerChannelId": "UC3O3w9RXsVx_W2avnwrVFHA",
+      "VideoOwnerChannelTitle": "Orchestra Recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "OQpBQSOOups",
+      "VideoPublishedAtRaw": "2012-08-04T18:40:46Z",
+      "VideoPublishedAtDateTimeOffset": "2012-08-04T18:40:46+00:00",
+      "VideoPublishedAt": "2012-08-05T00:10:46+05:30"
+    },
+    "ETag": "ucXGSrbeE8rlIfLQqQEMO0V3B0Y",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "*Dolby Sounds*\n--Date\uFF1AOct 18 1988\n--Place:Suntory Hall (Tokyo)",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 14,
+      "PublishedAtRaw": "2024-12-18T13:52:52Z",
+      "PublishedAtDateTimeOffset": "2024-12-18T13:52:52+00:00",
+      "PublishedAt": "2024-12-18T19:22:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "OQpBQSOOups"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/OQpBQSOOups/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/OQpBQSOOups/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/OQpBQSOOups/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/OQpBQSOOups/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/OQpBQSOOups/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Wagner Tannh\u00E4user Overture Klaus Tennstedt London Philharmonic",
+      "VideoOwnerChannelId": "UCZUB1uxzg3Hie7PMhYxPD1g",
+      "VideoOwnerChannelTitle": "HDVideoCollections4"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iBtXXAKkq8g",
+      "VideoPublishedAtRaw": "2020-08-07T08:18:46Z",
+      "VideoPublishedAtDateTimeOffset": "2020-08-07T08:18:46+00:00",
+      "VideoPublishedAt": "2020-08-07T13:48:46+05:30"
+    },
+    "ETag": "yHm6kA6TU3IzYWNiKzsrobI4HYs",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Schumann: Symphony No. 1 \u0022Spring\u0022 - Conductor: Vasily Petrenko\n\u05E9\u05D5\u05DE\u05D0\u05DF: \u05E1\u05D9\u05DE\u05E4\u05D5\u05E0\u05D9\u05D4 \u05DE\u05E1\u0027 1 \u05F4\u05D4\u05D0\u05D1\u05D9\u05D1\u05F4\n\u05DE\u05E0\u05E6\u05D7: \u05D5\u05E1\u05D9\u05DC\u05D9 \u05E4\u05D8\u05E8\u05E0\u05E7\u05D5\n\nSchumann: Symphony No. 1 \u0022Spring\u0022\nConductor: Vasily Petrenko\n\n0:00 Andante\u00A0un poco maestoso \u2013\u00A0Allegro\u00A0molto vivace\n10:20 Larghetto\n18:42 Scherzo\n24:30 Allegro animato e grazioso\n\n\u05E6\u05D9\u05DC\u05D5\u05DD: Go Live\n\u05E1\u05D0\u05D5\u05E0\u05D3: \u05E8\u05E4\u05D9 \u05D0\u05E9\u05DC\n15.12.18\n\n\u05DC\u05EA\u05DB\u05E0\u05D9\u05DD \u05E0\u05D5\u05E1\u05E4\u05D9\u05DD, \u05DE\u05D5\u05D6\u05DE\u05E0\u05D9\u05DD \u05DC\u05E2\u05E7\u05D5\u05D1 \u05D0\u05D7\u05E8\u05D9\u05E0\u05D5 \u05D1\u05D0\u05D9\u05E0\u05E1\u05D8\u05D2\u05E8\u05DD \u05D5\u05D1\u05E4\u05D9\u05D9\u05E1\u05D1\u05D5\u05E7\nFor more content, feel free to follow us on Instagram and Facebook\n\nhttps://www.instagram.com/israel_philharmonic/\n\nhttps://www.facebook.com/israel.philharmonic/\n\n#Schumann #Spring #VasilyPetrenko",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 15,
+      "PublishedAtRaw": "2025-08-25T02:11:09Z",
+      "PublishedAtDateTimeOffset": "2025-08-25T02:11:09+00:00",
+      "PublishedAt": "2025-08-25T07:41:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iBtXXAKkq8g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/iBtXXAKkq8g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "\u05E9\u05D5\u05DE\u05D0\u05DF: \u05E1\u05D9\u05DE\u05E4\u05D5\u05E0\u05D9\u05D4 \u05DE\u05E1\u0027 1 \u05F4\u05D4\u05D0\u05D1\u05D9\u05D1\u05F4 - \u05DE\u05E0\u05E6\u05D7: \u05D5\u05E1\u05D9\u05DC\u05D9 \u05E4\u05D8\u05E8\u05E0\u05E7\u05D5",
+      "VideoOwnerChannelId": "UC1EOrHdZl7cDhXdLJRwrySA",
+      "VideoOwnerChannelTitle": "Israel Philharmonic - \u05D4\u05E4\u05D9\u05DC\u05D4\u05E8\u05DE\u05D5\u05E0\u05D9\u05EA \u05D4\u05D9\u05E9\u05E8\u05D0\u05DC\u05D9\u05EA"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "8wVuWOZQ0qI",
+      "VideoPublishedAtRaw": "2026-06-16T14:50:36Z",
+      "VideoPublishedAtDateTimeOffset": "2026-06-16T14:50:36+00:00",
+      "VideoPublishedAt": "2026-06-16T20:20:36+05:30"
+    },
+    "ETag": "ofHHCwX342oaRW_JSRMqaoG_CNo",
+    "Id": "UEwxemdOQ29XdF83Ymt0UVRsMDh5bWtUMU5BUlpWaDAtUS5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This performance was given during the 1997 BBC Proms Season on 6 September 1997 in the Royal Albert Hall, London. I\u0027m afraid this is the only part of this concert I now seem to have.\n\nBBC National Orchestra of Wales\nconducted by\nDavid Atherton\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ec6fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7bktQTl08ymkT1NARZVh0-Q",
+      "Position": 16,
+      "PublishedAtRaw": "2026-06-17T02:50:14Z",
+      "PublishedAtDateTimeOffset": "2026-06-17T02:50:14+00:00",
+      "PublishedAt": "2026-06-17T08:20:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "8wVuWOZQ0qI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/8wVuWOZQ0qI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Rachmaninov Symphony No. 1 - BBC National Orchestra of Wales - David Atherton (RAH, 1997)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  }
 ]

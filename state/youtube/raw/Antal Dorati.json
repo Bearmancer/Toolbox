@@ -1,57 +1,57 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "yeG1jfpbTS0",
-			"VideoPublishedAtRaw": "2025-11-04T19:19:43Z",
-			"VideoPublishedAtDateTimeOffset": "2025-11-04T19:19:43+00:00",
-			"VideoPublishedAt": "2025-11-05T00:49:43+05:30"
-		},
-		"ETag": "0Io7l70l8PrPtxdTykv42EHsR-4",
-		"Id": "UEwxemdOQ29XdF83WjAwZHZEM21YVzM1NFdNSnhPOW9xMC41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Antal Dorati guest conducts (from the harpsichord) the Philadelphia Orchestra in Haydn\u0027s Symphony No. 12, and then conducts Mahler\u0027s Symphony No. 6.  The Haydn is fine.  The Mahler starts off rather slowly in the first movement, with tempi so expansive (a la Barbirolli/EMI) that one may start to worry that the movement just isn\u0027t going to cohere (a la Barbirolli), but then Dorati gets things going midway through and it\u0027s just fantastic.  Our low brass strut their stuff; Gil Johnson is hitting almost all of his notes; horns show some signs of fatigue in the last movement.  I would like others to weigh in, but in the Andante I think that\u0027s Nolan Miller taking the Alma melody on horn with such silky smoothness rather than his more heroically-toned teacher Mason Jones.  I think this is a very successful performance, not quite in the Eschenbach (Ondine) echelon, but not far off. It reminds me of YNS\u0027s recent subscription concert performances:  extroverted and exuberant, rather than finely etched.  And those of you who heard visiting Rattle and BRSO (with the LA Phil principal horn as a ringer) know what a finely etched M6 sounds like.",
-			"PlaylistId": "PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0",
-			"Position": 0,
-			"PublishedAtRaw": "2025-11-05T01:29:33Z",
-			"PublishedAtDateTimeOffset": "2025-11-05T01:29:33+00:00",
-			"PublishedAt": "2025-11-05T06:59:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "yeG1jfpbTS0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Haydn 12 Mahler 6 Philadelphia Dorati Nov 1974 Live",
-			"VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
-			"VideoOwnerChannelTitle": "Peter Kohn"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "yeG1jfpbTS0",
+      "VideoPublishedAtRaw": "2025-11-04T19:19:43Z",
+      "VideoPublishedAtDateTimeOffset": "2025-11-04T19:19:43+00:00",
+      "VideoPublishedAt": "2025-11-05T00:49:43+05:30"
+    },
+    "ETag": "0Io7l70l8PrPtxdTykv42EHsR-4",
+    "Id": "UEwxemdOQ29XdF83WjAwZHZEM21YVzM1NFdNSnhPOW9xMC41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Antal Dorati guest conducts (from the harpsichord) the Philadelphia Orchestra in Haydn\u0027s Symphony No. 12, and then conducts Mahler\u0027s Symphony No. 6.  The Haydn is fine.  The Mahler starts off rather slowly in the first movement, with tempi so expansive (a la Barbirolli/EMI) that one may start to worry that the movement just isn\u0027t going to cohere (a la Barbirolli), but then Dorati gets things going midway through and it\u0027s just fantastic.  Our low brass strut their stuff; Gil Johnson is hitting almost all of his notes; horns show some signs of fatigue in the last movement.  I would like others to weigh in, but in the Andante I think that\u0027s Nolan Miller taking the Alma melody on horn with such silky smoothness rather than his more heroically-toned teacher Mason Jones.  I think this is a very successful performance, not quite in the Eschenbach (Ondine) echelon, but not far off. It reminds me of YNS\u0027s recent subscription concert performances:  extroverted and exuberant, rather than finely etched.  And those of you who heard visiting Rattle and BRSO (with the LA Phil principal horn as a ringer) know what a finely etched M6 sounds like.",
+      "PlaylistId": "PL1zgNCoWt_7Z00dvD3mXW354WMJxO9oq0",
+      "Position": 0,
+      "PublishedAtRaw": "2025-11-05T01:29:33Z",
+      "PublishedAtDateTimeOffset": "2025-11-05T01:29:33+00:00",
+      "PublishedAt": "2025-11-05T06:59:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "yeG1jfpbTS0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/yeG1jfpbTS0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Haydn 12 Mahler 6 Philadelphia Dorati Nov 1974 Live",
+      "VideoOwnerChannelId": "UCPjypaqxlfR5LrCJq3j1Pnw",
+      "VideoOwnerChannelTitle": "Peter Kohn"
+    }
+  }
 ]

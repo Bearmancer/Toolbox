@@ -128,6 +128,7 @@ Mirrors `toolkit pristine download --code --out-dir --headless`.
    - after `SyncCommandModule.ConfigureCommands(cfg);` → `PristineCommandModule.ConfigureCommands(cfg);`
 
 **QA:**
+
 ```bash
 dotnet build
 dotnet run --project src/App -- pristine --help

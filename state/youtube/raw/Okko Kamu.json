@@ -1,527 +1,527 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "Dur7RGrGM2Y",
-			"VideoPublishedAtRaw": "2016-03-27T18:23:21Z",
-			"VideoPublishedAtDateTimeOffset": "2016-03-27T18:23:21+00:00",
-			"VideoPublishedAt": "2016-03-27T23:53:21+05:30"
-		},
-		"ETag": "fdude2gjj4ivq3W0cAanHzOd_Ng",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Adolf Fredrik Lindblad (1 February 1801, Sk\u00E4nninge \u2013 23 August 1878, Link\u00F6ping) was a Swedish composer from the Romantic era. \n\nWork: Symphony No.1 in C-major, Op.19 (1832)\n\nMov.I: Allegro con brio 00:00\nMov.II: Scherzo: Presto 09:48\nMov.III: Adagio molto e cantabile 17:03\nMov.IV: Finale: Allegro molto 26:28\n\n\nOrchestra: Stockholm Philharmonic Orchestra\n\nConductor: Okko Kamu",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 0,
-			"PublishedAtRaw": "2024-11-27T08:05:47Z",
-			"PublishedAtDateTimeOffset": "2024-11-27T08:05:47+00:00",
-			"PublishedAt": "2024-11-27T13:35:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Dur7RGrGM2Y"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Adolf Fredrik Lindblad - Symphony No.1 in C-major, Op.19 (1832)",
-			"VideoOwnerChannelId": "UCYAbqQFZ4WV4z-t95Z-31GQ",
-			"VideoOwnerChannelTitle": "KuhlauDilfeng5"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "sP5Mf8LjSY4",
-			"VideoPublishedAtRaw": "2024-09-26T01:50:43Z",
-			"VideoPublishedAtDateTimeOffset": "2024-09-26T01:50:43+00:00",
-			"VideoPublishedAt": "2024-09-26T07:20:43+05:30"
-		},
-		"ETag": "yMjjSu0ZYa_rde-bKug_ZG9h5Co",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "in the Sydney Opera House Concert Hall, October 19, 1985. Concertmaster: Dene Olding/ 1st flute: Janet Webb/ piccolo: Christine Draeger/ 1st oboe: Guy Henderson/ cor anglais: Karel Lang/ 1st clarinet: Lawrence Dobell/ 1st bassoon: John Cran/ contra bassoon: Martin Foster/ 1st horn: Lee Bracegirdle/ 1st trumpet: John Wood/ 1st cornet: Paul Goodchild/ 1st trombone: Ronald Prussing/ tuba: Clifford Goodchild/ timpani: Richard Miller/ principal harp: Louise Johnson",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 1,
-			"PublishedAtRaw": "2024-11-27T08:04:40Z",
-			"PublishedAtDateTimeOffset": "2024-11-27T08:04:40+00:00",
-			"PublishedAt": "2024-11-27T13:34:40+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "sP5Mf8LjSY4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Debussy: La Mer - Okko Kamu, conductor; Sydney Symphony Orchestra",
-			"VideoOwnerChannelId": "UCpFpd6mLJ_aMr7o8ITR2-_g",
-			"VideoOwnerChannelTitle": "maestros155"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "F51UDyw7SFU",
-			"VideoPublishedAtRaw": "2020-04-30T01:22:53Z",
-			"VideoPublishedAtDateTimeOffset": "2020-04-30T01:22:53+00:00",
-			"VideoPublishedAt": "2020-04-30T06:52:53+05:30"
-		},
-		"ETag": "SF-V5kycT5I7U7DzZc_flZdPrQ8",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Jean Sibelius - Violin Concerto in D minor, Op. 47 (Original Version)\n1. Allegro moderato (00:30)\n2. Adagio di molto (21:54)\n3. Allegro, ma non tanto (32:07)\nIlya Gringolts, violin\nOkko Kamu, conductor\nLahti Symphony Orchestra",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 2,
-			"PublishedAtRaw": "2024-11-27T08:05:17Z",
-			"PublishedAtDateTimeOffset": "2024-11-27T08:05:17+00:00",
-			"PublishedAt": "2024-11-27T13:35:17+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "F51UDyw7SFU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/F51UDyw7SFU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/F51UDyw7SFU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/F51UDyw7SFU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/F51UDyw7SFU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/F51UDyw7SFU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Ilya Gringolts - Sibelius: Violin Concerto (Original Version) - Okko Kamu/Lahti Symphony Orchestra",
-			"VideoOwnerChannelId": "UCNYA6zBw0z_jTIbo8BpjRSw",
-			"VideoOwnerChannelTitle": "Passion For Violin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "zqIArZrmpvM",
-			"VideoPublishedAtRaw": "2016-04-17T08:59:25Z",
-			"VideoPublishedAtDateTimeOffset": "2016-04-17T08:59:25+00:00",
-			"VideoPublishedAt": "2016-04-17T14:29:25+05:30"
-		},
-		"ETag": "MPlmmLu5NzB5C78HyTeqvUlt3Ak",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Jeajoon Ryu\u0027s cello concerto was performed at Lahti. It was special concert for Maestro Okko Kamu\u0027s 70th Years Anniversary concert and perform by Maestro Arto Noras. It also world premi\u00E8re concert of 3rd edition.",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 3,
-			"PublishedAtRaw": "2024-11-27T08:05:36Z",
-			"PublishedAtDateTimeOffset": "2024-11-27T08:05:36+00:00",
-			"PublishedAt": "2024-11-27T13:35:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "zqIArZrmpvM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/zqIArZrmpvM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/zqIArZrmpvM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/zqIArZrmpvM/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/zqIArZrmpvM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/zqIArZrmpvM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Jeajoon Ryu concerto per violoncello ed orchestra by Lahti Orchestra, Arto Noras and Okko Kamu",
-			"VideoOwnerChannelId": "UCNRfynordZgH1AFX_OLkLOw",
-			"VideoOwnerChannelTitle": "Jeajoon Ryu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "SVUDj87nox4",
-			"VideoPublishedAtRaw": "2012-09-17T10:54:21Z",
-			"VideoPublishedAtDateTimeOffset": "2012-09-17T10:54:21+00:00",
-			"VideoPublishedAt": "2012-09-17T16:24:21+05:30"
-		},
-		"ETag": "gWWKLbelCz3sWoMloKZzH1HG7Qw",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Sibelius Festival 2012 concerts free at http://www.classiclive.com/Concerts\n\nLahti Symphony Orchestra\n\nSibelius Festival 2012 Day 2\n\nOkko Kamu, conductor\n\nJean Sibelius: Press Celebrations Music, JS 137\n\nPreludio\nTableau 1: V\u00E4in\u00E4m\u00F6inen delights Nature, and the peoples of Kaleva and\nPohjola, with his song\nTableau 2: The Finns are baptized\nTableau 3: Scene from Duke Johan\u0027s Court\nTableau 4: The Finns in the Thirty Years War\nTableau 5: The Great Hostility\nTableau 6: Finland Awakes\n\nThe Lahti Symphony Orchestra\u00B4s Sibelius Festival, under the baton of Okko Kamu, the orchestra\u00B4s principal conductor and the festival\u00B4s artistic director, took place on 6th-9th September 2012. The festival\u00B4s theme was \u00B4Sibelius - patriot and mystic\u0060. \n\nRecorded at Lahti Sibelius Hall Finland, 7th September 2012\n\nhttp://www.sinfonialahti.fi/\nhttp://www.facebook.com/lahtisymphony\nhttps://twitter.com/lahtisymphony\nhttp://www.classiclive.com/",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 4,
-			"PublishedAtRaw": "2024-11-27T08:07:36Z",
-			"PublishedAtDateTimeOffset": "2024-11-27T08:07:36+00:00",
-			"PublishedAt": "2024-11-27T13:37:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "SVUDj87nox4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/SVUDj87nox4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/SVUDj87nox4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/SVUDj87nox4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/SVUDj87nox4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Jean Sibelius: Press Celebrations Music - Okko Kamu, Lahti Symphony Orchestra",
-			"VideoOwnerChannelId": "UCnAO15sBwtI-f1OOw9ka35g",
-			"VideoOwnerChannelTitle": "Lahti Symphony Orchestra - Sinfonia Lahti"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "2QS-fSLhJWQ",
-			"VideoPublishedAtRaw": "2025-01-16T19:18:04Z",
-			"VideoPublishedAtDateTimeOffset": "2025-01-16T19:18:04+00:00",
-			"VideoPublishedAt": "2025-01-17T00:48:04+05:30"
-		},
-		"ETag": "9H0xKfLwYfTBRYYf7-xpdutHuj8",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Jean Sibelius: Symphony No. 6 in D minor op. 104\nOrchestre de Chambre de Lausanne\nOkko Kamu\n3 November 2006, Salle M\u00E9tropole, Lausanne\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 5,
-			"PublishedAtRaw": "2025-01-17T13:18:56Z",
-			"PublishedAtDateTimeOffset": "2025-01-17T13:18:56+00:00",
-			"PublishedAt": "2025-01-17T18:48:56+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "2QS-fSLhJWQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Jean Sibelius: Symphony No. 6 op. 104 -- Okko Kamu/Orchestre de Chambre de Lausanne (Lausanne 2006)",
-			"VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
-			"VideoOwnerChannelTitle": "Quality Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "18-h3wShPww",
-			"VideoPublishedAtRaw": "2026-03-26T08:27:44Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-26T08:27:44+00:00",
-			"VideoPublishedAt": "2026-03-26T13:57:44+05:30"
-		},
-		"ETag": "vjnMAByXes4lcVoY7Ncpbd-GU4I",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "in the Sydney Opera House Concert Hall, November 9, 1985. Concertmaster: Donald Hazelwood/ 1st flute: Janet Webb/ 1st oboe: Kathy Martin/ 1st clarinet: Martin Crook/ 1st bassoon: Rolf Kuhlmann/ horns: Lee Bracegirdle, Bernard Hillman, Douglas Trengove, Christopher Harrison/ 1st trumpet: Daniel Mendelow/ 1st trombone: Ronald Prussing/ tuba: Clifford Goodchild/ timpani: Richard Miller",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 6,
-			"PublishedAtRaw": "2026-03-29T04:55:27Z",
-			"PublishedAtDateTimeOffset": "2026-03-29T04:55:27+00:00",
-			"PublishedAt": "2026-03-29T10:25:27+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "18-h3wShPww"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/18-h3wShPww/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/18-h3wShPww/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/18-h3wShPww/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/18-h3wShPww/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/18-h3wShPww/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Nielsen: Helios Overture - Okko Kamu; Sydney Symphony Orchestra",
-			"VideoOwnerChannelId": "UCpFpd6mLJ_aMr7o8ITR2-_g",
-			"VideoOwnerChannelTitle": "maestros155"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "W6h9F1OGTng",
-			"VideoPublishedAtRaw": "2024-11-28T15:35:05Z",
-			"VideoPublishedAtDateTimeOffset": "2024-11-28T15:35:05+00:00",
-			"VideoPublishedAt": "2024-11-28T21:05:05+05:30"
-		},
-		"ETag": "NvbnRKVuoWXEgVFm6nlW7b6nTHI",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u2160\u3000J. Sibelius : Finlandia  00:00\n\u2161\u3000J. Sibelius : Symphony No.2\n\u3000\u3000\u30001st movement   08:25\n\u3000\u3000\u30002nd   17:52\n\u3000\u3000\u30003rd    31:52\n\u3000\u3000\u30004th    37:58\nOkko Kamu / Helsinki Philharmonic Orchestra\n22/1/1982 Tokyo Kouseinenkinkaikan Hall ( Finlandia )\n4/2/1982 Osaka Festival Hall ( Symphony )\nLive recording\n\u30B7\u30D9\u30EA\u30A6\u30B9\uFF1A\u30D5\u30A3\u30F3\u30E9\u30F3\u30C7\u30A3\u30A2\u3001\u4EA4\u97FF\u66F2\u7B2C2\u756A\n\u30AA\u30C3\u30B3\u30FB\u30AB\u30E0\u6307\u63EE\u3000\u30D8\u30EB\u30B7\u30F3\u30AD\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1982\u5E741\u670822\u65E5\u3000\u6771\u4EAC\u539A\u751F\u5E74\u91D1\u4F1A\u9928\u30DB\u30FC\u30EB\uFF08\u30D5\u30A3\u30F3\u30E9\u30F3\u30C7\u30A3\u30A2\uFF09\n1982\u5E742\u67084\u65E5\u3000\u5927\u962A\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u30DB\u30FC\u30EB\uFF08\u4EA4\u97FF\u66F2\u7B2C2\u756A\uFF09\n\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D8\u30EB\u30B7\u30F3\u30AD\u30FB\u30D5\u30A3\u30EB\u306F\u3053\u306E\u5E74\u521D\u6765\u65E5\u3067\u3001\u30B7\u30D9\u30EA\u30A6\u30B9\u30FB\u30C1\u30AF\u30EB\u30B9\u3092\u884C\u3044\u307E\u3057\u305F\u3002\u305D\u306E\u4E2D\u304B\u3089\u540D\u6F14\u306E\u8A89\u308C\u9AD8\u3044\u30AB\u30E0\u6307\u63EE\u306B\u3088\u308B\u516C\u6F14\u306E\u6A21\u69D8\u3067\u3059\u3002",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 7,
-			"PublishedAtRaw": "2024-11-28T20:55:46Z",
-			"PublishedAtDateTimeOffset": "2024-11-28T20:55:46+00:00",
-			"PublishedAt": "2024-11-29T02:25:46+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "W6h9F1OGTng"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/W6h9F1OGTng/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/W6h9F1OGTng/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/W6h9F1OGTng/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Okko Kamu / HPO 1982 live in Japan   Sibelius : Finlandia, Symphony No.2",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "pRP9hMr85-A",
-			"VideoPublishedAtRaw": "2020-03-11T12:00:15Z",
-			"VideoPublishedAtDateTimeOffset": "2020-03-11T12:00:15+00:00",
-			"VideoPublishedAt": "2020-03-11T17:30:15+05:30"
-		},
-		"ETag": "3zw0zG6XL59Wh1lPOQw680yzLD8",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Sibelius  Symphony No.3 in C major, Op.52\n\n\nI.   Allegro moderato ( 0:00 - )\nII.  Andantino con molto, quasi allegretto ( 10:17 - )\nIII. Moderato ( 20:42 - )\n\n( Studio recording. 1973 )\n\n\n\n*. source : dg cd ( modified )\n*. o. kamu    helsinki rso",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 8,
-			"PublishedAtRaw": "2024-11-27T08:05:23Z",
-			"PublishedAtDateTimeOffset": "2024-11-27T08:05:23+00:00",
-			"PublishedAt": "2024-11-27T13:35:23+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "pRP9hMr85-A"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/pRP9hMr85-A/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/pRP9hMr85-A/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/pRP9hMr85-A/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/pRP9hMr85-A/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/pRP9hMr85-A/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sibelius  Symphony No.3 in C major, Op.52 ( o. kamu )",
-			"VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
-			"VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "SOms4MyvwP4",
-			"VideoPublishedAtRaw": "2013-09-04T12:20:09Z",
-			"VideoPublishedAtDateTimeOffset": "2013-09-04T12:20:09+00:00",
-			"VideoPublishedAt": "2013-09-04T17:50:09+05:30"
-		},
-		"ETag": "WkAlCwwu8ZiH5fep6dSPK_556O0",
-		"Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Live from Tivoli Concert Hall 1990 on the occation of  the orchestra\u0027s 25th anniversary\nOkko Kamu - Copenhagen Philharmonic.",
-			"PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
-			"Position": 9,
-			"PublishedAtRaw": "2024-11-27T08:07:01Z",
-			"PublishedAtDateTimeOffset": "2024-11-27T08:07:01+00:00",
-			"PublishedAt": "2024-11-27T13:37:01+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "SOms4MyvwP4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/SOms4MyvwP4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/SOms4MyvwP4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/SOms4MyvwP4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/SOms4MyvwP4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Strawinskij - Sacre - Okko Kamu - Copenhagen Philharmonic",
-			"VideoOwnerChannelId": "UCldFlKm_jRHZAm-JAzLpRHg",
-			"VideoOwnerChannelTitle": "Torben Elm\u00F8e"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "Dur7RGrGM2Y",
+      "VideoPublishedAtRaw": "2016-03-27T18:23:21Z",
+      "VideoPublishedAtDateTimeOffset": "2016-03-27T18:23:21+00:00",
+      "VideoPublishedAt": "2016-03-27T23:53:21+05:30"
+    },
+    "ETag": "fdude2gjj4ivq3W0cAanHzOd_Ng",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Adolf Fredrik Lindblad (1 February 1801, Sk\u00E4nninge \u2013 23 August 1878, Link\u00F6ping) was a Swedish composer from the Romantic era. \n\nWork: Symphony No.1 in C-major, Op.19 (1832)\n\nMov.I: Allegro con brio 00:00\nMov.II: Scherzo: Presto 09:48\nMov.III: Adagio molto e cantabile 17:03\nMov.IV: Finale: Allegro molto 26:28\n\n\nOrchestra: Stockholm Philharmonic Orchestra\n\nConductor: Okko Kamu",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 0,
+      "PublishedAtRaw": "2024-11-27T08:05:47Z",
+      "PublishedAtDateTimeOffset": "2024-11-27T08:05:47+00:00",
+      "PublishedAt": "2024-11-27T13:35:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Dur7RGrGM2Y"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Dur7RGrGM2Y/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Adolf Fredrik Lindblad - Symphony No.1 in C-major, Op.19 (1832)",
+      "VideoOwnerChannelId": "UCYAbqQFZ4WV4z-t95Z-31GQ",
+      "VideoOwnerChannelTitle": "KuhlauDilfeng5"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sP5Mf8LjSY4",
+      "VideoPublishedAtRaw": "2024-09-26T01:50:43Z",
+      "VideoPublishedAtDateTimeOffset": "2024-09-26T01:50:43+00:00",
+      "VideoPublishedAt": "2024-09-26T07:20:43+05:30"
+    },
+    "ETag": "yMjjSu0ZYa_rde-bKug_ZG9h5Co",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "in the Sydney Opera House Concert Hall, October 19, 1985. Concertmaster: Dene Olding/ 1st flute: Janet Webb/ piccolo: Christine Draeger/ 1st oboe: Guy Henderson/ cor anglais: Karel Lang/ 1st clarinet: Lawrence Dobell/ 1st bassoon: John Cran/ contra bassoon: Martin Foster/ 1st horn: Lee Bracegirdle/ 1st trumpet: John Wood/ 1st cornet: Paul Goodchild/ 1st trombone: Ronald Prussing/ tuba: Clifford Goodchild/ timpani: Richard Miller/ principal harp: Louise Johnson",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 1,
+      "PublishedAtRaw": "2024-11-27T08:04:40Z",
+      "PublishedAtDateTimeOffset": "2024-11-27T08:04:40+00:00",
+      "PublishedAt": "2024-11-27T13:34:40+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sP5Mf8LjSY4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sP5Mf8LjSY4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Debussy: La Mer - Okko Kamu, conductor; Sydney Symphony Orchestra",
+      "VideoOwnerChannelId": "UCpFpd6mLJ_aMr7o8ITR2-_g",
+      "VideoOwnerChannelTitle": "maestros155"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "F51UDyw7SFU",
+      "VideoPublishedAtRaw": "2020-04-30T01:22:53Z",
+      "VideoPublishedAtDateTimeOffset": "2020-04-30T01:22:53+00:00",
+      "VideoPublishedAt": "2020-04-30T06:52:53+05:30"
+    },
+    "ETag": "SF-V5kycT5I7U7DzZc_flZdPrQ8",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius - Violin Concerto in D minor, Op. 47 (Original Version)\n1. Allegro moderato (00:30)\n2. Adagio di molto (21:54)\n3. Allegro, ma non tanto (32:07)\nIlya Gringolts, violin\nOkko Kamu, conductor\nLahti Symphony Orchestra",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 2,
+      "PublishedAtRaw": "2024-11-27T08:05:17Z",
+      "PublishedAtDateTimeOffset": "2024-11-27T08:05:17+00:00",
+      "PublishedAt": "2024-11-27T13:35:17+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "F51UDyw7SFU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/F51UDyw7SFU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/F51UDyw7SFU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/F51UDyw7SFU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/F51UDyw7SFU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/F51UDyw7SFU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Ilya Gringolts - Sibelius: Violin Concerto (Original Version) - Okko Kamu/Lahti Symphony Orchestra",
+      "VideoOwnerChannelId": "UCNYA6zBw0z_jTIbo8BpjRSw",
+      "VideoOwnerChannelTitle": "Passion For Violin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zqIArZrmpvM",
+      "VideoPublishedAtRaw": "2016-04-17T08:59:25Z",
+      "VideoPublishedAtDateTimeOffset": "2016-04-17T08:59:25+00:00",
+      "VideoPublishedAt": "2016-04-17T14:29:25+05:30"
+    },
+    "ETag": "MPlmmLu5NzB5C78HyTeqvUlt3Ak",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jeajoon Ryu\u0027s cello concerto was performed at Lahti. It was special concert for Maestro Okko Kamu\u0027s 70th Years Anniversary concert and perform by Maestro Arto Noras. It also world premi\u00E8re concert of 3rd edition.",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 3,
+      "PublishedAtRaw": "2024-11-27T08:05:36Z",
+      "PublishedAtDateTimeOffset": "2024-11-27T08:05:36+00:00",
+      "PublishedAt": "2024-11-27T13:35:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zqIArZrmpvM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zqIArZrmpvM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zqIArZrmpvM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/zqIArZrmpvM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zqIArZrmpvM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/zqIArZrmpvM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Jeajoon Ryu concerto per violoncello ed orchestra by Lahti Orchestra, Arto Noras and Okko Kamu",
+      "VideoOwnerChannelId": "UCNRfynordZgH1AFX_OLkLOw",
+      "VideoOwnerChannelTitle": "Jeajoon Ryu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "SVUDj87nox4",
+      "VideoPublishedAtRaw": "2012-09-17T10:54:21Z",
+      "VideoPublishedAtDateTimeOffset": "2012-09-17T10:54:21+00:00",
+      "VideoPublishedAt": "2012-09-17T16:24:21+05:30"
+    },
+    "ETag": "gWWKLbelCz3sWoMloKZzH1HG7Qw",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sibelius Festival 2012 concerts free at http://www.classiclive.com/Concerts\n\nLahti Symphony Orchestra\n\nSibelius Festival 2012 Day 2\n\nOkko Kamu, conductor\n\nJean Sibelius: Press Celebrations Music, JS 137\n\nPreludio\nTableau 1: V\u00E4in\u00E4m\u00F6inen delights Nature, and the peoples of Kaleva and\nPohjola, with his song\nTableau 2: The Finns are baptized\nTableau 3: Scene from Duke Johan\u0027s Court\nTableau 4: The Finns in the Thirty Years War\nTableau 5: The Great Hostility\nTableau 6: Finland Awakes\n\nThe Lahti Symphony Orchestra\u00B4s Sibelius Festival, under the baton of Okko Kamu, the orchestra\u00B4s principal conductor and the festival\u00B4s artistic director, took place on 6th-9th September 2012. The festival\u00B4s theme was \u00B4Sibelius - patriot and mystic\u0060. \n\nRecorded at Lahti Sibelius Hall Finland, 7th September 2012\n\nhttp://www.sinfonialahti.fi/\nhttp://www.facebook.com/lahtisymphony\nhttps://twitter.com/lahtisymphony\nhttp://www.classiclive.com/",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 4,
+      "PublishedAtRaw": "2024-11-27T08:07:36Z",
+      "PublishedAtDateTimeOffset": "2024-11-27T08:07:36+00:00",
+      "PublishedAt": "2024-11-27T13:37:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "SVUDj87nox4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/SVUDj87nox4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/SVUDj87nox4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/SVUDj87nox4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/SVUDj87nox4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Jean Sibelius: Press Celebrations Music - Okko Kamu, Lahti Symphony Orchestra",
+      "VideoOwnerChannelId": "UCnAO15sBwtI-f1OOw9ka35g",
+      "VideoOwnerChannelTitle": "Lahti Symphony Orchestra - Sinfonia Lahti"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2QS-fSLhJWQ",
+      "VideoPublishedAtRaw": "2025-01-16T19:18:04Z",
+      "VideoPublishedAtDateTimeOffset": "2025-01-16T19:18:04+00:00",
+      "VideoPublishedAt": "2025-01-17T00:48:04+05:30"
+    },
+    "ETag": "9H0xKfLwYfTBRYYf7-xpdutHuj8",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius: Symphony No. 6 in D minor op. 104\nOrchestre de Chambre de Lausanne\nOkko Kamu\n3 November 2006, Salle M\u00E9tropole, Lausanne\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 5,
+      "PublishedAtRaw": "2025-01-17T13:18:56Z",
+      "PublishedAtDateTimeOffset": "2025-01-17T13:18:56+00:00",
+      "PublishedAt": "2025-01-17T18:48:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2QS-fSLhJWQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/2QS-fSLhJWQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Jean Sibelius: Symphony No. 6 op. 104 -- Okko Kamu/Orchestre de Chambre de Lausanne (Lausanne 2006)",
+      "VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
+      "VideoOwnerChannelTitle": "Quality Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "18-h3wShPww",
+      "VideoPublishedAtRaw": "2026-03-26T08:27:44Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-26T08:27:44+00:00",
+      "VideoPublishedAt": "2026-03-26T13:57:44+05:30"
+    },
+    "ETag": "vjnMAByXes4lcVoY7Ncpbd-GU4I",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "in the Sydney Opera House Concert Hall, November 9, 1985. Concertmaster: Donald Hazelwood/ 1st flute: Janet Webb/ 1st oboe: Kathy Martin/ 1st clarinet: Martin Crook/ 1st bassoon: Rolf Kuhlmann/ horns: Lee Bracegirdle, Bernard Hillman, Douglas Trengove, Christopher Harrison/ 1st trumpet: Daniel Mendelow/ 1st trombone: Ronald Prussing/ tuba: Clifford Goodchild/ timpani: Richard Miller",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 6,
+      "PublishedAtRaw": "2026-03-29T04:55:27Z",
+      "PublishedAtDateTimeOffset": "2026-03-29T04:55:27+00:00",
+      "PublishedAt": "2026-03-29T10:25:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "18-h3wShPww"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/18-h3wShPww/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/18-h3wShPww/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/18-h3wShPww/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/18-h3wShPww/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/18-h3wShPww/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Nielsen: Helios Overture - Okko Kamu; Sydney Symphony Orchestra",
+      "VideoOwnerChannelId": "UCpFpd6mLJ_aMr7o8ITR2-_g",
+      "VideoOwnerChannelTitle": "maestros155"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "W6h9F1OGTng",
+      "VideoPublishedAtRaw": "2024-11-28T15:35:05Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-28T15:35:05+00:00",
+      "VideoPublishedAt": "2024-11-28T21:05:05+05:30"
+    },
+    "ETag": "NvbnRKVuoWXEgVFm6nlW7b6nTHI",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u2160\u3000J. Sibelius : Finlandia  00:00\n\u2161\u3000J. Sibelius : Symphony No.2\n\u3000\u3000\u30001st movement   08:25\n\u3000\u3000\u30002nd   17:52\n\u3000\u3000\u30003rd    31:52\n\u3000\u3000\u30004th    37:58\nOkko Kamu / Helsinki Philharmonic Orchestra\n22/1/1982 Tokyo Kouseinenkinkaikan Hall ( Finlandia )\n4/2/1982 Osaka Festival Hall ( Symphony )\nLive recording\n\u30B7\u30D9\u30EA\u30A6\u30B9\uFF1A\u30D5\u30A3\u30F3\u30E9\u30F3\u30C7\u30A3\u30A2\u3001\u4EA4\u97FF\u66F2\u7B2C2\u756A\n\u30AA\u30C3\u30B3\u30FB\u30AB\u30E0\u6307\u63EE\u3000\u30D8\u30EB\u30B7\u30F3\u30AD\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u7BA1\u5F26\u697D\u56E3\n1982\u5E741\u670822\u65E5\u3000\u6771\u4EAC\u539A\u751F\u5E74\u91D1\u4F1A\u9928\u30DB\u30FC\u30EB\uFF08\u30D5\u30A3\u30F3\u30E9\u30F3\u30C7\u30A3\u30A2\uFF09\n1982\u5E742\u67084\u65E5\u3000\u5927\u962A\u30D5\u30A7\u30B9\u30C6\u30A3\u30D0\u30EB\u30DB\u30FC\u30EB\uFF08\u4EA4\u97FF\u66F2\u7B2C2\u756A\uFF09\n\u30E9\u30A4\u30D6\u9332\u97F3\n\u203B\u30D8\u30EB\u30B7\u30F3\u30AD\u30FB\u30D5\u30A3\u30EB\u306F\u3053\u306E\u5E74\u521D\u6765\u65E5\u3067\u3001\u30B7\u30D9\u30EA\u30A6\u30B9\u30FB\u30C1\u30AF\u30EB\u30B9\u3092\u884C\u3044\u307E\u3057\u305F\u3002\u305D\u306E\u4E2D\u304B\u3089\u540D\u6F14\u306E\u8A89\u308C\u9AD8\u3044\u30AB\u30E0\u6307\u63EE\u306B\u3088\u308B\u516C\u6F14\u306E\u6A21\u69D8\u3067\u3059\u3002",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 7,
+      "PublishedAtRaw": "2024-11-28T20:55:46Z",
+      "PublishedAtDateTimeOffset": "2024-11-28T20:55:46+00:00",
+      "PublishedAt": "2024-11-29T02:25:46+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "W6h9F1OGTng"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/W6h9F1OGTng/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/W6h9F1OGTng/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/W6h9F1OGTng/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Okko Kamu / HPO 1982 live in Japan   Sibelius : Finlandia, Symphony No.2",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "pRP9hMr85-A",
+      "VideoPublishedAtRaw": "2020-03-11T12:00:15Z",
+      "VideoPublishedAtDateTimeOffset": "2020-03-11T12:00:15+00:00",
+      "VideoPublishedAt": "2020-03-11T17:30:15+05:30"
+    },
+    "ETag": "3zw0zG6XL59Wh1lPOQw680yzLD8",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sibelius  Symphony No.3 in C major, Op.52\n\n\nI.   Allegro moderato ( 0:00 - )\nII.  Andantino con molto, quasi allegretto ( 10:17 - )\nIII. Moderato ( 20:42 - )\n\n( Studio recording. 1973 )\n\n\n\n*. source : dg cd ( modified )\n*. o. kamu    helsinki rso",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 8,
+      "PublishedAtRaw": "2024-11-27T08:05:23Z",
+      "PublishedAtDateTimeOffset": "2024-11-27T08:05:23+00:00",
+      "PublishedAt": "2024-11-27T13:35:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pRP9hMr85-A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pRP9hMr85-A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pRP9hMr85-A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/pRP9hMr85-A/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pRP9hMr85-A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/pRP9hMr85-A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius  Symphony No.3 in C major, Op.52 ( o. kamu )",
+      "VideoOwnerChannelId": "UC_rNGB_DOldfGY2xmGe0vMw",
+      "VideoOwnerChannelTitle": "L\u2019\u00EEle aux Cerfs"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "SOms4MyvwP4",
+      "VideoPublishedAtRaw": "2013-09-04T12:20:09Z",
+      "VideoPublishedAtDateTimeOffset": "2013-09-04T12:20:09+00:00",
+      "VideoPublishedAt": "2013-09-04T17:50:09+05:30"
+    },
+    "ETag": "WkAlCwwu8ZiH5fep6dSPK_556O0",
+    "Id": "UEwxemdOQ29XdF83YjBKSjNaRURlZFhEVjIxQzE3ODdOSi4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Live from Tivoli Concert Hall 1990 on the occation of  the orchestra\u0027s 25th anniversary\nOkko Kamu - Copenhagen Philharmonic.",
+      "PlaylistId": "PL1zgNCoWt_7b0JJ3ZEDedXDV21C1787NJ",
+      "Position": 9,
+      "PublishedAtRaw": "2024-11-27T08:07:01Z",
+      "PublishedAtDateTimeOffset": "2024-11-27T08:07:01+00:00",
+      "PublishedAt": "2024-11-27T13:37:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "SOms4MyvwP4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/SOms4MyvwP4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/SOms4MyvwP4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/SOms4MyvwP4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/SOms4MyvwP4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Strawinskij - Sacre - Okko Kamu - Copenhagen Philharmonic",
+      "VideoOwnerChannelId": "UCldFlKm_jRHZAm-JAzLpRHg",
+      "VideoOwnerChannelTitle": "Torben Elm\u00F8e"
+    }
+  }
 ]

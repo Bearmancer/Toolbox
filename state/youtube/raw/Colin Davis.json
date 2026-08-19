@@ -1,2016 +1,2016 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "pId546IHjBY",
-			"VideoPublishedAtRaw": "2021-04-02T16:17:11Z",
-			"VideoPublishedAtDateTimeOffset": "2021-04-02T16:17:11+00:00",
-			"VideoPublishedAt": "2021-04-02T21:47:11+05:30"
-		},
-		"ETag": "Ueryn4bHpMZPKnhdWhpbfwm0tUw",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41QTY1Q0UxMTVCODczNThE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Es spielt das Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Sir Colin Davis\nVHS-Aufnahme einer \u00DCbertragung aus der Basilika Ottobeuren\n\n1. Feierlich - Misterioso\n2. Scherzo - Bewegt, lebhaft  30:27\n3. Adagio - Langsam, feierlich  43:27",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 0,
-			"PublishedAtRaw": "2024-10-30T23:52:20Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:52:20+00:00",
-			"PublishedAt": "2024-10-31T05:22:20+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "pId546IHjBY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/pId546IHjBY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/pId546IHjBY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/pId546IHjBY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/pId546IHjBY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Anton Bruckner - Symphonie Nr.9 d-moll (SO BR, Sir Colin Davis)",
-			"VideoOwnerChannelId": "UCR7CxM3gy2d2dpd7KmMTxOA",
-			"VideoOwnerChannelTitle": "Rainer F."
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "zPAn86kO1BA",
-			"VideoPublishedAtRaw": "2021-02-21T03:54:33Z",
-			"VideoPublishedAtDateTimeOffset": "2021-02-21T03:54:33+00:00",
-			"VideoPublishedAt": "2021-02-21T09:24:33+05:30"
-		},
-		"ETag": "cthmA6z4gp-nndzVeVYIxqND2mc",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Colin Davis, London Symphony Orchestra\nRoyal Albert Hall, London, 22 Aug. 1980\n\nBeethoven: Symphony No. 3 in E flat major \u0022Eroica\u0022\n00:00 - 1. Allegro con brio\n19:47 - 2. Marcia funebre \u2014 Adagio assai\n37:00 - 3. Allegro vivace\n43:05 - 4. Allegro molto",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 1,
-			"PublishedAtRaw": "2024-10-30T23:52:36Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:52:36+00:00",
-			"PublishedAt": "2024-10-31T05:22:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "zPAn86kO1BA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/zPAn86kO1BA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/zPAn86kO1BA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/zPAn86kO1BA/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/zPAn86kO1BA/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/zPAn86kO1BA/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven Symphony No. 3 \u0022Eroica\u0022 - Colin Davis, London SO (Live, 1980)",
-			"VideoOwnerChannelId": "UCd6DfN2xyvfrMo7vegTBa7A",
-			"VideoOwnerChannelTitle": "channel1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "wKn0ySVDfVU",
-			"VideoPublishedAtRaw": "2023-10-24T20:00:00Z",
-			"VideoPublishedAtDateTimeOffset": "2023-10-24T20:00:00+00:00",
-			"VideoPublishedAt": "2023-10-25T01:30:00+05:30"
-		},
-		"ETag": "bugrATIBA965MjrrixSZixNPg94",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Beethoven Symphony No. 6\n0:46:45 Berlioz Te Deum\n\nThis BBC Promenade Concert was given on 4 September 1977 in the Royal Albert Hall, London\n\nDavid Rendall (tenor)\nAlan Harverson (organ)\nSouthend Boys\u0027 Choir\nGoldsmiths Choral Union\nLondon Symphony Chorus\nBBC Symphony Chorus\n\nOrchestra of the Royal Opera House, Covent Garden\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/ex84fx\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 2,
-			"PublishedAtRaw": "2024-10-30T23:47:49Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:47:49+00:00",
-			"PublishedAt": "2024-10-31T05:17:49+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "wKn0ySVDfVU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven Symphony No. 6, Berlioz Te Deum - Royal Opera House Orchestra - Colin Davis (RAH, 1977)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "IfHZkV05wBU",
-			"VideoPublishedAtRaw": "2023-12-26T19:41:41Z",
-			"VideoPublishedAtDateTimeOffset": "2023-12-26T19:41:41+00:00",
-			"VideoPublishedAt": "2023-12-27T01:11:41+05:30"
-		},
-		"ETag": "M_7H458KPD9zjbMjUt6xAwWStHg",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This performance was taken from a concert given on 20 November 1981 in the Royal Festival Hall, London\n\nLeona Mitchell (soprano)\nLinda Finnie (contralto)\nCharles Craig (tenor)\nRobert Lloyd (bass)\nLondon Symphony Chorus\n\nLondon Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1981-11-20#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 3,
-			"PublishedAtRaw": "2024-10-30T23:47:18Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:47:18+00:00",
-			"PublishedAt": "2024-10-31T05:17:18+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "IfHZkV05wBU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/IfHZkV05wBU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/IfHZkV05wBU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/IfHZkV05wBU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/IfHZkV05wBU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/IfHZkV05wBU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven Symphony No. 9 - London Symphony Orchestra - Colin Davis (Royal Festival Hall, 1981)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "E1Dg1zeednc",
-			"VideoPublishedAtRaw": "2023-09-12T15:13:55Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-12T15:13:55+00:00",
-			"VideoPublishedAt": "2023-09-12T20:43:55+05:30"
-		},
-		"ETag": "uuiJvIEi_Wl0i5JIiRwuTOMz6mQ",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Beethoven Overture Leonora No. 1 (conducted by Colin Davis)\n0:11:14 Holst Suite - The Planets (conducted by Sir Adrian Boult)\n1:03:27 Encore: Coates Dambuster\u0027s March (conducted by Sir Adrian Boult)\n\nThis recording forms part of a BBC Promenade Concert at the Royal Albert Hall, London on 13 August 1974. The conducting duties for this concert were split between Colin Davis (who conducted the first half) and Sir Adrian Boult (who conducted the rest)\n\nFor full details of this concert please see https://www.bbc.co.uk/events/er4fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 4,
-			"PublishedAtRaw": "2024-10-30T23:48:35Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:48:35+00:00",
-			"PublishedAt": "2024-10-31T05:18:35+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "E1Dg1zeednc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/E1Dg1zeednc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/E1Dg1zeednc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/E1Dg1zeednc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/E1Dg1zeednc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/E1Dg1zeednc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven, Holst Planets, Coates - BBCSO - Colin Davis, Sir Adrian Boult (Royal Albert Hall 1974)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "BoKt3K-1ehQ",
-			"VideoPublishedAtRaw": "2025-11-11T12:58:57Z",
-			"VideoPublishedAtDateTimeOffset": "2025-11-11T12:58:57+00:00",
-			"VideoPublishedAt": "2025-11-11T18:28:57+05:30"
-		},
-		"ETag": "-ZGe3TeAbQeK7tEGbelibbUuW_c",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5CMEQ2Mjk5NTc3NDZFRUNB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Berlioz Hail, All Hail to the Queen (The Trojans)\n0:05:08 Rachmaninov Rhapsody on a Theme of Paganini\n0:34:51 Mendelssohn Octet\n0:39:47 Walton A Song for the Lord Mayor\u0027s Table\n\nThese performances were given as part of the Last Night of the Proms at the Royal Albert Hall, London on 16 September 1972. \n\nAndr\u00E9 Tchaikowsky (piano)\nElizabeth Bainbridge (mezzo-soprano)\nBBC Singers\nBBC Choral Society\n\nBBC Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ezd4fx\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 5,
-			"PublishedAtRaw": "2025-11-12T11:14:02Z",
-			"PublishedAtDateTimeOffset": "2025-11-12T11:14:02+00:00",
-			"PublishedAt": "2025-11-12T16:44:02+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "BoKt3K-1ehQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Berlioz, Rachmaninov, Mendelssohn, Walton - BBC Symphony Orchestra - Colin Davis (RAH, 1972)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "7LsfJ6TKX94",
-			"VideoPublishedAtRaw": "2023-09-25T09:16:58Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-25T09:16:58+00:00",
-			"VideoPublishedAt": "2023-09-25T14:46:58+05:30"
-		},
-		"ETag": "rgq7kbCzLtKl467rkz2cUCi8ueI",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Berlioz Overture - Benvenuto Cellini\n0:10:02 Ravel Sh\u00E9h\u00E9razade (Jill Gomez - soprano)\n0:29:44 Tchaikovsky Serenade for Strings\n\nThis performance was given as the first half of a BBC Promenade Concert given in the Royal Albert Hall, London on 7 September 1974.\n\nOrchestra of the Royal Opera House, Covent Garden\nconducted by\nColin Davis\n\nFor further details see: https://www.bbc.co.uk/events/ef4fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 6,
-			"PublishedAtRaw": "2024-10-30T23:48:06Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:48:06+00:00",
-			"PublishedAt": "2024-10-31T05:18:06+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "7LsfJ6TKX94"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Berlioz, Ravel, Tchaikovsky - Royal Opera House Orchestra -  Colin Davis (Royal Albert Hall, 1974)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "jyio-bFIj78",
-			"VideoPublishedAtRaw": "2023-09-15T02:29:54Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-15T02:29:54+00:00",
-			"VideoPublishedAt": "2023-09-15T07:59:54+05:30"
-		},
-		"ETag": "uTocQ_O6MNCD0Cm4qkglCG_GvqE",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "BRAHMS - Symphony #2 in D major, Op. 73; Sir Colin Davis / New York Philharmonic (PBS; 9/15/1987)",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 7,
-			"PublishedAtRaw": "2024-10-30T23:48:27Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:48:27+00:00",
-			"PublishedAt": "2024-10-31T05:18:27+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "jyio-bFIj78"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/jyio-bFIj78/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/jyio-bFIj78/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/jyio-bFIj78/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "BRAHMS - Symphony #2 in D major, Op. 73; Sir Colin Davis / New York Philharmonic (PBS; 9/15/1987)",
-			"VideoOwnerChannelId": "UC9X2dxi_Ih14GA1JCqu1fnA",
-			"VideoOwnerChannelTitle": "The Past Rediscovered Archives"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "psBbzOgtZ2g",
-			"VideoPublishedAtRaw": "2023-04-28T08:28:33Z",
-			"VideoPublishedAtDateTimeOffset": "2023-04-28T08:28:33+00:00",
-			"VideoPublishedAt": "2023-04-28T13:58:33+05:30"
-		},
-		"ETag": "6_83A7_13KFeGxCVXwbjD3_Ou9k",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "3 November 1988  Barbican Hall London\nBeethoven Piano Concerto no 5\nClaudio Arrau\nLondon Symphony Orchestra\nSir Colin Davis",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 8,
-			"PublishedAtRaw": "2024-10-30T23:49:15Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:49:15+00:00",
-			"PublishedAt": "2024-10-31T05:19:15+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "psBbzOgtZ2g"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Claudio Arrau Sir Colin Davis Beethoven Piano Co 5 1988 LSO",
-			"VideoOwnerChannelId": "UC7IF8E4AvUzafiXt6w9yTuw",
-			"VideoOwnerChannelTitle": "Mark Hood"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "0KrNBtUGNtc",
-			"VideoPublishedAtRaw": "2025-12-09T04:41:44Z",
-			"VideoPublishedAtDateTimeOffset": "2025-12-09T04:41:44+00:00",
-			"VideoPublishedAt": "2025-12-09T10:11:44+05:30"
-		},
-		"ETag": "v1vVdXpJyzwXwPBy6SZizbCiteE",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy40QTA3NTU2RkM1QzlCMzYx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "New York Philharmonic Orch.\ncond. by Colin Davis (1927 - 2013)\nrecoeded April 2008, live broadcast",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 9,
-			"PublishedAtRaw": "2025-12-09T11:14:26Z",
-			"PublishedAtDateTimeOffset": "2025-12-09T11:14:26+00:00",
-			"PublishedAt": "2025-12-09T16:44:26+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "0KrNBtUGNtc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Colin Davis / NYP - Beethoven : Leonore Overture No.2 (2008 -Live)",
-			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-			"VideoOwnerChannelTitle": "uchukyoku1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ROFA0Yjey-w",
-			"VideoPublishedAtRaw": "2023-09-21T09:54:54Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-21T09:54:54+00:00",
-			"VideoPublishedAt": "2023-09-21T15:24:54+05:30"
-		},
-		"ETag": "mezYSJxnMRDmNxtADn-NAdv9S5Y",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This concert marked one of only two appearances by the great Bulgarian Bass, Boris Christoff, at the BBC Promenade Concerts. This occasion was on 6 September 1973 at the Royal Albert Hall, London.\n\n0:00:00 Radio Announcer\n0:01:53 Glinka A Life for the Tsar - Act 4 (Excerpts) - Boris Christoff (bass), BBC Singers\n0:26:30 Radio Announcer\n0:28:08 Mussorgsky Night on the Bare Mountain (original version)\n\nBoris Christoff (bass)\nBBC Singers\nOrchestra of the Royal Opera House, Covent Garden\nconducted by\nColin Davis\n\nFor further details see: https://www.bbc.co.uk/events/emd4fx\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 10,
-			"PublishedAtRaw": "2024-10-30T23:48:22Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:48:22+00:00",
-			"PublishedAt": "2024-10-31T05:18:22+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ROFA0Yjey-w"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Glinka (Boris Christoff) and Mussorgsky - Royal Opera House - Colin Davis (Royal Albert Hall, 1973)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "sEZLuXR3jJU",
-			"VideoPublishedAtRaw": "2023-11-16T22:40:15Z",
-			"VideoPublishedAtDateTimeOffset": "2023-11-16T22:40:15+00:00",
-			"VideoPublishedAt": "2023-11-17T04:10:15+05:30"
-		},
-		"ETag": "klEe8VO0SHMBEUY54YmjXJjMwE0",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Grieg Piano Concerto (soloist Emil Gilels)\n0:33:00 Beethoven Symphony No. 5\n\nThese recordings are taken from a BBC Promenade Concert given on 26 July 1979 in the Royal Albert Hall, London. The soloist in the Grieg concerto was Emil Gilels. This was only the second (and last) time he appeared at the Proms.\n\nEmil Gilels (piano)\n\nLondon Sympony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/e8n5v2\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 11,
-			"PublishedAtRaw": "2024-10-30T23:47:36Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:47:36+00:00",
-			"PublishedAt": "2024-10-31T05:17:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "sEZLuXR3jJU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Grieg Piano Concerto (Gilels), Beethoven Symphony No.5 - London Symphony Orch. - Colin Davis (1979)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "_3qdKkAcwk0",
-			"VideoPublishedAtRaw": "2020-06-23T10:50:29Z",
-			"VideoPublishedAtDateTimeOffset": "2020-06-23T10:50:29+00:00",
-			"VideoPublishedAt": "2020-06-23T16:20:29+05:30"
-		},
-		"ETag": "C9n4qbcF6lr2b7JireJUCNXFvTo",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4yMDhBMkNBNjRDMjQxQTg1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Sir Colin with the LSO and Sibelius in October 1979.\n\n1. Allegretto \u2013 Poco allegro 0:00\n2. Tempo andante, ma rubato 10:16\n3. Vivacissimo \u2013 Lento e soave 25:32\n4. Finale: Allegro moderato 31:19\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 12,
-			"PublishedAtRaw": "2024-10-30T23:53:19Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:53:19+00:00",
-			"PublishedAt": "2024-10-31T05:23:19+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "_3qdKkAcwk0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/_3qdKkAcwk0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/_3qdKkAcwk0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/_3qdKkAcwk0/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Jean Sibelius - Symphony no. 2: Sir Colin Davis conducting the LSO in 1979",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "XYPtVQgNUXs",
-			"VideoPublishedAtRaw": "2018-01-23T13:02:23Z",
-			"VideoPublishedAtDateTimeOffset": "2018-01-23T13:02:23+00:00",
-			"VideoPublishedAt": "2018-01-23T18:32:23+05:30"
-		},
-		"ETag": "EC2Svyg7WdqxOr6pXdDOqM6Uo0A",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy43MTI1NDIwOTMwQjIxMzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Sir Colin Davis conducting the LSO in Brahms at the Barbican, two years after becoming the orchestra\u0027s Principal Conductor.\n\n1. Allegro non troppo 0:00\n2. Adagio non troppo 17:15\n3. Allegretto grazioso, quasi andantino 28:08\n4. Allegro con spirito 34:05\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 13,
-			"PublishedAtRaw": "2024-10-30T23:56:46Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:56:46+00:00",
-			"PublishedAt": "2024-10-31T05:26:46+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "XYPtVQgNUXs"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/XYPtVQgNUXs/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/XYPtVQgNUXs/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/XYPtVQgNUXs/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Johannes Brahms - Symphony no. 2: Sir Colin Davis conducting the LSO in 1997",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "E7e0ojKamkY",
-			"VideoPublishedAtRaw": "2022-12-07T20:56:38Z",
-			"VideoPublishedAtDateTimeOffset": "2022-12-07T20:56:38+00:00",
-			"VideoPublishedAt": "2022-12-08T02:26:38+05:30"
-		},
-		"ETag": "r4P4pg0JZijgJCI258ufgwjpb-E",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Johannes Brahms ( 7 May 1833 \u2013 3 April 1897)\nSymphony No. 3 In F Major op.90 \n (00:00) - 1. Allegro con brio (F major, in sonata form)\n (13:33) - 2. Andante (C major, in a modified sonata form)\n (23:07) - 3. Poco allegretto (C minor, in ternary form A\u2013B\u2013A\u2032)\n (29:47) - 4. Allegro \u2014 Un poco sostenuto (F minor \u2192 F major, in a modified sonata form)\n\nConductor \u2013 Sir Colin Davis\nOrchestra \u2013 Staatskapelle Dresden\n\nRecorded ,4 November 1992,Suntory Hall, Tokyo\nFrom  private tape",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 14,
-			"PublishedAtRaw": "2024-10-30T23:49:52Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:49:52+00:00",
-			"PublishedAt": "2024-10-31T05:19:52+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "E7e0ojKamkY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/E7e0ojKamkY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/E7e0ojKamkY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/E7e0ojKamkY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/E7e0ojKamkY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Johannes Brahms - Symphony No. 3 In F Major op.90/Sir Colin Davis \u0026 Staatskapelle Dresden,Live Tokyo",
-			"VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
-			"VideoOwnerChannelTitle": "Tsubame Classics"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "8HCf6-9EUoY",
-			"VideoPublishedAtRaw": "2025-10-25T13:03:04Z",
-			"VideoPublishedAtDateTimeOffset": "2025-10-25T13:03:04+00:00",
-			"VideoPublishedAt": "2025-10-25T18:33:04+05:30"
-		},
-		"ETag": "gjBy8cUjERj7a8H7rpXbpFJ2Smw",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy42MTI4Njc2QjM1RjU1MjlG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta\nI. Allegretto \u300C\u30D5\u30A1\u30F3\u30D5\u30A1\u30FC\u30EC\u300D 00:00\nII. Andante-Allegretto \u300C\u57CE\u585E \uFF08\u30B7\u30E5\u30D4\u30EB\u30D9\u30EB\u30AF\u57CE\uFF09\u300D 02:22\nIII. Moderato \u300C\u4FEE\u9053\u9662 \uFF08\u30D6\u30EB\u30CE\u306E\u738B\u5983\u306E\u4FEE\u9053\u9662\uFF09\u300D 08:17\nIV. Allegretto \u300C\u8857\u8DEF \uFF08\u53E4\u57CE\u306B\u81F3\u308B\u9053\uFF09\u300D 14:01\nV. Allegro\u300C\u5E02\u5E81\uFF08\u30D6\u30EB\u30CE\u65E7\u5E02\u5E81\u820E\uFF09\u300D17:00\nColin Davis / Bavarian Radio Symphony Orchestra\n10/1989 Munich, Gasteig Philharmony Hall live recording\n\u30EC\u30AA\u30B7\u30E5\u30FB\u30E4\u30CA\u30FC\u30C1\u30A7\u30AF\uFF1A\u30B7\u30F3\u30D5\u30A9\u30CB\u30A8\u30C3\u30BF\n\u30B3\u30EA\u30F3\u30FB\u30C7\u30A4\u30F4\u30A3\u30B9\u6307\u63EE\u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n1989\u5E7410\u6708\u3000\u30DF\u30E5\u30F3\u30D8\u30F3\u3001\u30AC\u30B9\u30BF\u30A4\u30AF\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 15,
-			"PublishedAtRaw": "2025-11-14T03:25:08Z",
-			"PublishedAtDateTimeOffset": "2025-11-14T03:25:08+00:00",
-			"PublishedAt": "2025-11-14T08:55:08+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "8HCf6-9EUoY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/8HCf6-9EUoY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/8HCf6-9EUoY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/8HCf6-9EUoY/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta    C. Davis / BRSO 1989 live",
-			"VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
-			"VideoOwnerChannelTitle": "Isappin"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "cgmjyK2IdP0",
-			"VideoPublishedAtRaw": "2024-09-24T11:10:15Z",
-			"VideoPublishedAtDateTimeOffset": "2024-09-24T11:10:15+00:00",
-			"VideoPublishedAt": "2024-09-24T16:40:15+05:30"
-		},
-		"ETag": "ceDU0kMykgESxQXjHvLvjnQzoZ0",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta\nSymphonieorchester des Bayerischen Rundfunks\nColin Davis\nOctober 1989, Philharmonie, Munich\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 16,
-			"PublishedAtRaw": "2024-10-30T23:44:42Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:44:42+00:00",
-			"PublishedAt": "2024-10-31T05:14:42+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "cgmjyK2IdP0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta -- Colin Davis/Symphonieorchester des Bayerischen Rundfunks (Munich 1989)",
-			"VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
-			"VideoOwnerChannelTitle": "Quality Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "1TUHBcjsNkg",
-			"VideoPublishedAtRaw": "2025-01-19T08:02:13Z",
-			"VideoPublishedAtDateTimeOffset": "2025-01-19T08:02:13+00:00",
-			"VideoPublishedAt": "2025-01-19T13:32:13+05:30"
-		},
-		"ETag": "4IgSHUmEIwMYYGuguwLXizlJrVI",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zRDBDOEZDOUM0MDY5NEEz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "New York Philnarmonic Orch. cond. by Colin Davis\n(00:00) 1. Allegro vivace\n(12:34) 2. Allegretto\n(20:15) 3. Allegro assai\nrec. in March 2007\nbraodcast live recording",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 17,
-			"PublishedAtRaw": "2025-08-23T11:37:59Z",
-			"PublishedAtDateTimeOffset": "2025-08-23T11:37:59+00:00",
-			"PublishedAt": "2025-08-23T17:07:59+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "1TUHBcjsNkg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mitsuko Uchida - Mozart : Piano Concerto No.19 K.459 (2007 -Live)",
-			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-			"VideoOwnerChannelTitle": "uchukyoku1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "je613yZ0Wb8",
-			"VideoPublishedAtRaw": "2018-07-25T10:37:43Z",
-			"VideoPublishedAtDateTimeOffset": "2018-07-25T10:37:43+00:00",
-			"VideoPublishedAt": "2018-07-25T16:07:43+05:30"
-		},
-		"ETag": "GG7QVW6oq5ozc8Bn7mkK-NP3YqY",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zRjM0MkVCRTg0MkYyQTM0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Serenade in D Major KV 250 \u0022Haffner\u0022 by\nWolfgang Amadeus Mozart\n1. Allegro maestoso-Allegro molto\n2. Andante\n3. Menuetto\n4. Rondo (Allegro)\n5. Menuetto galante\n6. Andante\n7. Menuetto\n8. Adagio-Allegro assai\nGlenn Dicterow, Violin\nNew York Philharmonic\nSir Colin Davis, Conductor",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 18,
-			"PublishedAtRaw": "2024-10-30T23:56:04Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:56:04+00:00",
-			"PublishedAt": "2024-10-31T05:26:04+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "je613yZ0Wb8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/je613yZ0Wb8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/je613yZ0Wb8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/je613yZ0Wb8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/je613yZ0Wb8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/je613yZ0Wb8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mozart \u0022Haffner-Serenade\u0022 Sir Colin Davis",
-			"VideoOwnerChannelId": "UCowleoT1p2eZtz8J1EUuvHw",
-			"VideoOwnerChannelTitle": "Addiobelpassato"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "lfhfZfXR7Jo",
-			"VideoPublishedAtRaw": "2018-11-10T13:45:52Z",
-			"VideoPublishedAtDateTimeOffset": "2018-11-10T13:45:52+00:00",
-			"VideoPublishedAt": "2018-11-10T19:15:52+05:30"
-		},
-		"ETag": "OgDQqXacJ6wISWAHUfWlegrGYzI",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5GM0Q3M0MzMzY5NTJFNTdE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Wolfgang Amadeus Mozart\n\nSerenade K.250 \u0022Haffner\u0022\n\nI. Allegro maestoso - Allegro molto\nII. Andante\nIII. Menuetto\nIV. Rondo. Allegro\nV. Menuetto galante\nVI. Andante\nVII. Menuetto\nVIII. Adagio - Allegro assai\n\nAndreas R\u00F6hn\nSymphonieorchester des Bayerischen Rundfunks\nColin Davis\nStudio recording, Munich, I.1988",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 19,
-			"PublishedAtRaw": "2024-10-30T23:55:39Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:55:39+00:00",
-			"PublishedAt": "2024-10-31T05:25:39+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "lfhfZfXR7Jo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mozart - Haffner-Serenade - BRSO / Davis",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "c_DmRRYxjZg",
-			"VideoPublishedAtRaw": "2018-04-23T18:04:09Z",
-			"VideoPublishedAtDateTimeOffset": "2018-04-23T18:04:09+00:00",
-			"VideoPublishedAt": "2018-04-23T23:34:09+05:30"
-		},
-		"ETag": "ZtAHHMWD71B92fgUljdhI0wggyg",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DNzE1RjZEMUZCMjA0RDBB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "A sparkling performance of Mozart\u0027s concerto no. 17 by Mitsuko Uchida and Sir Colin with the London Symphony Orchestra at the Barbican, 25 years after their first performance of it together.\n\n1. Allegro 0:00\n2. Andante 12:22\n3. Allegretto: presto 23:50\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 20,
-			"PublishedAtRaw": "2024-10-30T23:56:36Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:56:36+00:00",
-			"PublishedAt": "2024-10-31T05:26:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "c_DmRRYxjZg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/c_DmRRYxjZg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/c_DmRRYxjZg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/c_DmRRYxjZg/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Mozart - Piano Concerto no. 17: Mitsuko Uchida and Sir Colin Davis with the LSO in 2010",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "6arClYexPuU",
-			"VideoPublishedAtRaw": "2023-09-26T13:34:49Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-26T13:34:49+00:00",
-			"VideoPublishedAt": "2023-09-26T19:04:49+05:30"
-		},
-		"ETag": "6Kz0dISXNQ02yJVBxzaxslIxMNk",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Mozart Symphony No. 36 (Linz)\n0:31:05 Bart\u00F3k Piano Concerto No. 1 (soloist Michel B\u00E9roff)\n0:55:41 Vaughan Williams Symphony No. 4\n\nThis BBC Promenade Concert was given in the Royal Albert Hall, London on 18 August 1975\n\nMichel B\u00E9roff (piano)\nBBC Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/egq9rz\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 21,
-			"PublishedAtRaw": "2024-10-30T23:48:00Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:48:00+00:00",
-			"PublishedAt": "2024-10-31T05:18:00+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "6arClYexPuU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/6arClYexPuU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/6arClYexPuU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/6arClYexPuU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/6arClYexPuU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/6arClYexPuU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mozart, Bart\u00F3k, Vaughan Williams - BBC Symphony Orchestra - Colin Davis (Royal Albert Hall, 1975)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "it0NWwM248A",
-			"VideoPublishedAtRaw": "2026-05-01T15:57:34Z",
-			"VideoPublishedAtDateTimeOffset": "2026-05-01T15:57:34+00:00",
-			"VideoPublishedAt": "2026-05-01T21:27:34+05:30"
-		},
-		"ETag": "nz8hmowsc9N2ifPTQ1wD4EAH37U",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5GNDg1Njc1QzZERjlFRjE5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Radio commentary\n0:00:21 Mozart Piano Concerto No. 24\n0:31:40 Sibelius Kullervo Symphony\n\nThese performances were given on  26 June 1997 in the Barbican Centre, London.\n\nRadu Lupu (piano)\nHillevi Martinpelto (soprano)\nKarl Magnus Fredriksson (baritone)\nLondon Symphony Chorus\n\nLondon Symphony Orchestra\nconducted by\nSir Colin Davis\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1997-06-26#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 22,
-			"PublishedAtRaw": "2026-05-03T13:58:08Z",
-			"PublishedAtDateTimeOffset": "2026-05-03T13:58:08+00:00",
-			"PublishedAt": "2026-05-03T19:28:08+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "it0NWwM248A"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/it0NWwM248A/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/it0NWwM248A/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/it0NWwM248A/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/it0NWwM248A/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/it0NWwM248A/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mozart, Sibelius Kullervo - Radu Lupu - London Symphony Orchestra - Colin Davis (Barbican, 1997)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "1E-qWsJceDk",
-			"VideoPublishedAtRaw": "2023-06-04T12:00:01Z",
-			"VideoPublishedAtDateTimeOffset": "2023-06-04T12:00:01+00:00",
-			"VideoPublishedAt": "2023-06-04T17:30:01+05:30"
-		},
-		"ETag": "IisBx_SpUb737XwAP0PUTl2pPmM",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy43NDhFRTgwOTRERTU4Rjg3",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "One of the most emblematic pieces of classical music ever: Mozart\u2019s Serenade No. 13 in G major (K. 525), widely known as \u2018Eine kleine Nachtmusik\u2019, performed by Members of the Bavarian Radio Symphony Orchestra and conducted by Sir Colin Davis. This concert took place in 1991 in the venerable ambiance of the Historischer Reichssaal Regensburg, Germany. May you be as entranced by Mozart\u2019s genius as Sir Colin Davis, who seems to take obvious pleasure in conducting this famous classic.\n\n(00:00) Coming on stage\n(00:11) I. Allegro \n(06:19) II. Romance (Andante) \n(12:25) III. Menuetto (Allegretto) \n(14:32) IV. Rondo (Allegro) \n\nWolfgang Amadeus Mozart (1756-1791) composed the serenade \u2018Eine kleine Nachtmusik\u2019 in the summer of 1787, at the height of his success. While the piece was originally composed for two violins, a viola, a cello, and a double bass it is nowadays more commonly performed as an orchestral arrangement. \n\nOut of the many serenades, divertimenti, and cassations Mozart wrote during his lifetime, \u2018Eine kleine Nachtmusik\u2019 is doubtlessly his most famous work of chamber music. During the late 18th century, such light entertainment ensemble pieces enjoyed immense success and were often performed during social occasions, particularly in outdoor locations such as gardens and parks. \n\nThe four-piece Serenade No. 13 opens with an allegro in sonata form, followed by a slower, lyrical second movement and a minuet, and finishes on an energetically joyful rondo. The melodic lightness and effortlessness typical for this genre of music are present throughout all four movements. \n\nProduced by BR \u0026 BMG Classics\n\n\u00A9 BMG Classics 1991\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#WolfgangAmadeusMozart #EineKleineNachtmusik #mozartserenade",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 23,
-			"PublishedAtRaw": "2025-06-06T21:43:04Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:43:04+00:00",
-			"PublishedAt": "2025-06-07T03:13:04+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "1E-qWsJceDk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/1E-qWsJceDk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/1E-qWsJceDk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/1E-qWsJceDk/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/1E-qWsJceDk/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mozart: Eine kleine Nachtmusik | Sir Colin Davis \u0026 Members of the Bavarian Radio Symphony Orchestra",
-			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-			"VideoOwnerChannelTitle": "DW Classical Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "RRVr9l1zbgo",
-			"VideoPublishedAtRaw": "2016-10-31T20:13:15Z",
-			"VideoPublishedAtDateTimeOffset": "2016-10-31T20:13:15+00:00",
-			"VideoPublishedAt": "2016-11-01T01:43:15+05:30"
-		},
-		"ETag": "AedKe5HT2K_k22SP0HrUlXNY2ks",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy44Mjc5REFBRUE2MTdFRDU0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Wolfgang Amadeus Mozart (1756-1791)\nSYMPHONY NO. 32 in G major, K. 318\nSymphonieorchester des Bayerischen Rundfunks\nSIR COLIN DAVIS, cond.\nRecording: Herkulessaal, M\u00FCnchen, 17 November 2006\n\nI. Allegro spiritoso (0:00)\nII. Andante (3:19)\nIII. Primo tempo (6:13)",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 24,
-			"PublishedAtRaw": "2025-06-06T21:40:32Z",
-			"PublishedAtDateTimeOffset": "2025-06-06T21:40:32+00:00",
-			"PublishedAt": "2025-06-07T03:10:32+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "RRVr9l1zbgo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mozart: Symphony No. 32 - Bavarian Radio Symphony Orchestra/Sir Colin Davis (2006)",
-			"VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
-			"VideoOwnerChannelTitle": "Wahnfried"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "CnAfAnhiNr8",
-			"VideoPublishedAtRaw": "2022-04-21T18:52:51Z",
-			"VideoPublishedAtDateTimeOffset": "2022-04-21T18:52:51+00:00",
-			"VideoPublishedAt": "2022-04-22T00:22:51+05:30"
-		},
-		"ETag": "EWmzKtLVzTzSFERDynrbv1MU0LI",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Wolfgang Amadeus Mozart: Symphony N\u00BA 29 in A major, K. 201 (1774)\nI  Allegro moderato \nII  Andante \nIII  Menuetto: Allegretto \u2013 Trio  \nIV  Allegro con spirito, \nBoston Symphony Orchestra\nColin Davis, conductor\nStereo Broadcast of January 11, 1975",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 25,
-			"PublishedAtRaw": "2024-10-30T23:51:02Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:51:02+00:00",
-			"PublishedAt": "2024-10-31T05:21:02+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "CnAfAnhiNr8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "MOZART: Symphony N\u00BA 29 / Colin Davis / Boston SO",
-			"VideoOwnerChannelId": "UCmu2d94vW8Qdee6XvqxpHDQ",
-			"VideoOwnerChannelTitle": "Sound Dynamics Associates"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "iLdCmg-2HeM",
-			"VideoPublishedAtRaw": "2015-12-29T22:08:14Z",
-			"VideoPublishedAtDateTimeOffset": "2015-12-29T22:08:14+00:00",
-			"VideoPublishedAt": "2015-12-30T03:38:14+05:30"
-		},
-		"ETag": "PxGiV_ZmC_rTDvv8BZHnWWARBUk",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DQ0MyQ0Y4Mzg0M0VGOEYw",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Symphony nr 1 by Peter Schat, performed by the Concertgebouw Orchestra conducted by Colin Davis.\n\nLike the 10th of June 1978, when I first heard Diepenbrock\u0027s Mass, I shall never forget the 3rd of November of that same year.\n1978 was an important year for me. It was the year I turned 16. I finished school, entered my first real job (yes: in a music shop) and was now even legally allowed to have sex. It was also the year in which my interest in the music of my fellow countrymen, the Dutch composers you almost never heard anything from, became really serious, this mainly through two events that would leave their marks on my life from then on. \nIn June it was the first performance of the completed orchestrated version of Diepenbrock\u0027s Mass, which I now know put my existence on a different and definitely higher plane.\nIn November an event of likewise spectacularity took place, the premiere of Peter Schat\u0027s First Symphony.\nIt was a huge event for a number of reasons. Most important of course the fact that Peter Schat, of all people, had written a... \u0022symphony\u0022 - a musical form thought by just about anybody involved in contemporary music to have become extinct, something of the past. \u0022Nobody writes symphonies anymore.\u0022\n\n(more to follow)\n====\n\nThe picture quality of this film is not really smashing to say the last. It comes from a Betamax tape that very soon will be 40 years old.\n====\n\n!! CONCERT HALL, COMPOSER PERFORMERS,TELEVISION BROADCAST AND PRESERVATION WERE ALL FINANCED WITH\nPUBLIC MONEY !!",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 26,
-			"PublishedAtRaw": "2024-10-30T23:58:51Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:58:51+00:00",
-			"PublishedAt": "2024-10-31T05:28:51+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "iLdCmg-2HeM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Peter Schat: Symphony 1 \u00B01978 (Colin Davis)",
-			"VideoOwnerChannelId": "UCBFEO7DFfbvfZShbLnBP0tg",
-			"VideoOwnerChannelTitle": "carminum"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "1U2ZmPUK0wU",
-			"VideoPublishedAtRaw": "2025-12-09T07:43:18Z",
-			"VideoPublishedAtDateTimeOffset": "2025-12-09T07:43:18+00:00",
-			"VideoPublishedAt": "2025-12-09T13:13:18+05:30"
-		},
-		"ETag": "_LfoP1QwoVkQPwPtod8VqvoBlok",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5BRjJDODk5REM0NjkzMUIy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Richard Goode, piano (1943 - )\nNew York Philharmonic Orch. cond. by Colin Davis \nrecoeded April 2008, live broadcast\nI. Allegro moderato  (00:00)\nII. Andante con moto  (18:50)\nIII. Rondo. Vivace  (23:29)",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 27,
-			"PublishedAtRaw": "2025-12-09T11:14:39Z",
-			"PublishedAtDateTimeOffset": "2025-12-09T11:14:39+00:00",
-			"PublishedAt": "2025-12-09T16:44:39+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "1U2ZmPUK0wU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Richard Goode / NYP - Beethoven : Piano Concerto No.4 in G Op.58 (2008 -Live)",
-			"VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
-			"VideoOwnerChannelTitle": "uchukyoku1"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "nBzDHcDdNks",
-			"VideoPublishedAtRaw": "2018-07-06T01:12:40Z",
-			"VideoPublishedAtDateTimeOffset": "2018-07-06T01:12:40+00:00",
-			"VideoPublishedAt": "2018-07-06T06:42:40+05:30"
-		},
-		"ETag": "L7TDLMRRCLgdJRZuEASg1rm54QI",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45NzUwQkI1M0UxNThBMkU0",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Roberto Gerhard: Symphony No 4 \u0027New York\u0027 [Colin Davis-Boston Symphony Orchestra]. recorded for radio broadcast.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 28,
-			"PublishedAtRaw": "2024-10-30T23:56:23Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:56:23+00:00",
-			"PublishedAt": "2024-10-31T05:26:23+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "nBzDHcDdNks"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/nBzDHcDdNks/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/nBzDHcDdNks/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/nBzDHcDdNks/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/nBzDHcDdNks/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/nBzDHcDdNks/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Roberto Gerhard: Symphony No 4 \u0027New York\u0027 [C. Davis-Boston SO]",
-			"VideoOwnerChannelId": "UCfFPCgr45pH_pzslan4EriQ",
-			"VideoOwnerChannelTitle": "James Stuart"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "HEJXtEJNY2g",
-			"VideoPublishedAtRaw": "2023-09-24T10:22:40Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-24T10:22:40+00:00",
-			"VideoPublishedAt": "2023-09-24T15:52:40+05:30"
-		},
-		"ETag": "YI1arhTqL0xPp7r8dal7OrVuVjQ",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45NDk1REZENzhEMzU5MDQz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This performance of Schubert Symphony No. 5 was given in the Royal Albert Hall, London on 21 August 1975 as part of the BBC Promenade Concerts.\n\nBBC Symphony Orchestra\nconducted by\nColin Davis\n\nFor further details see https://www.bbc.co.uk/events/emfxj5\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 29,
-			"PublishedAtRaw": "2024-10-30T23:48:10Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:48:10+00:00",
-			"PublishedAt": "2024-10-31T05:18:10+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "HEJXtEJNY2g"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Schubert Symphony No.  5 - BBC Symphony Orchestra - Colin Davis ( Royal Albert Hall, 1975)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "0ORnfWylynM",
-			"VideoPublishedAtRaw": "2015-12-13T10:49:49Z",
-			"VideoPublishedAtDateTimeOffset": "2015-12-13T10:49:49+00:00",
-			"VideoPublishedAt": "2015-12-13T16:19:49+05:30"
-		},
-		"ETag": "vDdAjDBPbjKoygr2AuggN29-v8I",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4yQUE2Q0JEMTk4NTM3RTZC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Jean Sibelius\n\nSymphony n\u00B06 op.104\n\nI. Allegro molto moderato 0:00\nII. Allegretto moderato 8:28\nIII. Poco vivace 12:47\nIV. Allegro molto 16:27\n\nKoninklijk Concertgebouworkest\nSir Colin Davis\nLive recording, Amsterdam, 20.I.1983",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 30,
-			"PublishedAtRaw": "2024-10-30T23:58:58Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:58:58+00:00",
-			"PublishedAt": "2024-10-31T05:28:58+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "0ORnfWylynM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/0ORnfWylynM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/0ORnfWylynM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/0ORnfWylynM/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/0ORnfWylynM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/0ORnfWylynM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sibelius - Symphony n\u00B06 - Amsterdam / Davis",
-			"VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
-			"VideoOwnerChannelTitle": "incontrario motu"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "vLHI7bQAKkM",
-			"VideoPublishedAtRaw": "2023-12-04T19:39:24Z",
-			"VideoPublishedAtDateTimeOffset": "2023-12-04T19:39:24+00:00",
-			"VideoPublishedAt": "2023-12-05T01:09:24+05:30"
-		},
-		"ETag": "qBgrDxv-dDDn1Ex97cfdWZyAV0Q",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Sibelius En Saga\n0:18:26 Beethoven Symphony No. 3\n\nThis was part of a BBC Promenade Concert given in the Royal Albert Hall, London on 22 August 1980.\n\nLondon Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/efwxj5\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 31,
-			"PublishedAtRaw": "2024-10-30T23:47:28Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:47:28+00:00",
-			"PublishedAt": "2024-10-31T05:17:28+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "vLHI7bQAKkM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sibelius En Saga, Beethoven Symphony No. 3 - London Symphony Orchestra - Colin Davis (RAH, 1980)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "e2hLzPC40R8"
-		},
-		"ETag": "7DgFKqrpGSFn2Jfp25HfbVJ63Rc",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This video is unavailable.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 32,
-			"PublishedAtRaw": "2024-10-30T23:52:09Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:52:09+00:00",
-			"PublishedAt": "2024-10-31T05:22:09+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "e2hLzPC40R8"
-			},
-			"Thumbnails": {},
-			"Title": "Deleted video"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "h22O3IAfIyk",
-			"VideoPublishedAtRaw": "2020-11-17T19:10:09Z",
-			"VideoPublishedAtDateTimeOffset": "2020-11-17T19:10:09+00:00",
-			"VideoPublishedAt": "2020-11-18T00:40:09+05:30"
-		},
-		"ETag": "48pIBW-Nc8aw48YitY-5xdDT4-o",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45RTgxNDRBMzUwRjQ0MDhC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Five years after Sir Colin\u0027s reading of Elgar 2 was recorded at the Barbican Centre for LSO LIVE, he gave this superb performance with the LSO at the Proms in August 2006.\n\n\n1. Allegro vivace e nobilmente 0:00\n2. Larghetto 18:00\n3. Rondo 33:30\n4. Moderato e maestoso 42:03\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 33,
-			"PublishedAtRaw": "2024-10-30T23:52:47Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:52:47+00:00",
-			"PublishedAt": "2024-10-31T05:22:47+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "h22O3IAfIyk"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/h22O3IAfIyk/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/h22O3IAfIyk/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/h22O3IAfIyk/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "Sir Edward Elgar - Symphony no. 2: Sir Colin Davis conducting the LSO at the Proms in 2006",
-			"VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
-			"VideoOwnerChannelTitle": "LSO live recordings"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "1oO2tsw2yPU",
-			"VideoPublishedAtRaw": "2026-03-27T12:03:17Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-27T12:03:17+00:00",
-			"VideoPublishedAt": "2026-03-27T17:33:17+05:30"
-		},
-		"ETag": "sC-cyMy9Mc4JN_aIX2ltwJ6JWmA",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4xOTEzQzhBQzU3MDNDNjcz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Strauss Don Juan\n0:19:16 Elgar Enigma Variations\n0:51:18 Sibelius Symphony No. 2\n\nThese performances were given during the 1996 BBC Proms Season as part of the Promenade Concert given on  3 August 1996 in the Royal Albert Hall, London.\n\nEuropean Union Youth Orchestra\nconducted by\nSir Colin Davis\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ex2zc8\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 34,
-			"PublishedAtRaw": "2026-03-29T04:54:06Z",
-			"PublishedAtDateTimeOffset": "2026-03-29T04:54:06+00:00",
-			"PublishedAt": "2026-03-29T10:24:06+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "1oO2tsw2yPU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Strauss, Elgar, Sibelius - European Union Youth Orchestra - Colin Davis (RAH, 1996)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "PpImu4EeP-k",
-			"VideoPublishedAtRaw": "2020-08-20T13:15:02Z",
-			"VideoPublishedAtDateTimeOffset": "2020-08-20T13:15:02+00:00",
-			"VideoPublishedAt": "2020-08-20T18:45:02+05:30"
-		},
-		"ETag": "we4hefEgJlNgQG1OKLchTuqUO6g",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5ENDU4Q0M4RDExNzM1Mjcy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Pyotr Ilyich Tchaikovsky\n\nPiano Concerto No. 1 in B-flat minor, Op. 23\n[0:04] 1. Andante non troppo e molto maestoso - Allegro con spirito - Poco meno mosso - Tempo I - Poco pi\u00F9 lento - Meno mosso - Quasi Adagio - Molto moderato - Tempo I\n[22:41] 2. Andantino semplice - Prestissimo - Quasi Andante - Tempo I\n[30:09] 3. Allegro con fuoco - Poco meno mosso - Tempo I - Sostenuto molto - Tempo I - Molto pi\u00F9 mosso - Tempo I ma tranquillo - Poco pi\u00F9 mosso - Molto meno mosso - Allegro vivo\n\n\n\n\n\nEmil Gilels, piano\nColin Davis, conductor\nBerliner Philharmoniker\n\n\n\nApril 4, 1980\nBerlin, Philharmonie\n\n#EmilGilels #ColinDavis #BerlinerPhilharmoniker #Tchaikovsky #Live",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 35,
-			"PublishedAtRaw": "2024-10-30T23:53:05Z",
-			"PublishedAtDateTimeOffset": "2024-10-30T23:53:05+00:00",
-			"PublishedAt": "2024-10-31T05:23:05+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "PpImu4EeP-k"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/PpImu4EeP-k/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/PpImu4EeP-k/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/PpImu4EeP-k/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/PpImu4EeP-k/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tchaikovsky: Piano Concerto No. 1, Op. 23 / Emil Gilels; Colin Davis: BPO (1980.4.4 Berlin)",
-			"VideoOwnerChannelId": "UC9au97pbEBBP3Y1CQcvTDJQ",
-			"VideoOwnerChannelTitle": "Jun Kumazawa"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "3BM1X4zvWow",
-			"VideoPublishedAtRaw": "2023-04-05T01:31:10Z",
-			"VideoPublishedAtDateTimeOffset": "2023-04-05T01:31:10+00:00",
-			"VideoPublishedAt": "2023-04-05T07:01:10+05:30"
-		},
-		"ETag": "-0icE9w111qNUuwtUdq7ES07JmQ",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DMkU4NTY1QUFGQTYwMDE3",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 36,
-			"PublishedAtRaw": "2024-12-12T00:23:44Z",
-			"PublishedAtDateTimeOffset": "2024-12-12T00:23:44+00:00",
-			"PublishedAt": "2024-12-12T05:53:44+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "3BM1X4zvWow"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/3BM1X4zvWow/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/3BM1X4zvWow/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/3BM1X4zvWow/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/3BM1X4zvWow/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/3BM1X4zvWow/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Yehudi Menuhin, Mstislav Rostropovich, Brahms Violin \u0026 Cello Concerto LSO, C. Davis, Nov 14, 1966",
-			"VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
-			"VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "fIiRniJFpfM",
-			"VideoPublishedAtRaw": "2014-06-20T21:49:36Z",
-			"VideoPublishedAtDateTimeOffset": "2014-06-20T21:49:36+00:00",
-			"VideoPublishedAt": "2014-06-21T03:19:36+05:30"
-		},
-		"ETag": "CiM572OkkiQY-TqAnl3zxH8io6E",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41QUZGQTY5OTE4QTREQUU4",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "\u30D6\u30ED\u30B0\u300C\u5BF8\u8349\u6625\u6689\u300D2014\u5E746\u670825\u65E5\nhttp://blog.goo.ne.jp/tgcy2801\n\uFF08C1259A\uFF09",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 37,
-			"PublishedAtRaw": "2025-08-12T03:14:33Z",
-			"PublishedAtDateTimeOffset": "2025-08-12T03:14:33+00:00",
-			"PublishedAt": "2025-08-12T08:44:33+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "fIiRniJFpfM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/fIiRniJFpfM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/fIiRniJFpfM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/fIiRniJFpfM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/fIiRniJFpfM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF0F\u4EA4\u97FF\u66F2\u7B2C2\u756A\u5909\u30ED\u9577\u8ABF D125\uFF0FC \u30C7\u30A4\u30D3\u30B9\uFF0F\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\uFF081984 11 9\uFF09",
-			"VideoOwnerChannelId": "UCzZDVhwArsgUazOiNawiyDg",
-			"VideoOwnerChannelTitle": "Yasumi Taguchi"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "xXiCMHrwjXc",
-			"VideoPublishedAtRaw": "2026-05-21T11:58:33Z",
-			"VideoPublishedAtDateTimeOffset": "2026-05-21T11:58:33+00:00",
-			"VideoPublishedAt": "2026-05-21T17:28:33+05:30"
-		},
-		"ETag": "u4eXLqt0w14JnrrmBcxC7j0lO0o",
-		"Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zQzFBN0RGNzNFREFCMjBE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "0:00:00 Tippett The Midsummer Marriage - Ritual Dances\n0:24:32 Vaughan Williams Symphony No. 6\n0:58:11 Sibelius Symphony No. 1\n\nThese performances were given during the 1997 BBC Proms Season on  9 August 1997 in the Royal Albert Hall, London.\n\nNational Youth Orchestra of Great Britain\nconducted by\nSir Colin Davis\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ebb8gw\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
-			"PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
-			"Position": 38,
-			"PublishedAtRaw": "2026-06-09T22:05:53Z",
-			"PublishedAtDateTimeOffset": "2026-06-09T22:05:53+00:00",
-			"PublishedAt": "2026-06-10T03:35:53+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "xXiCMHrwjXc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Tippett, Vaughan Williams, Sibelius - Nation Youth Orchestra of G.B. - Sir Colin Davis (RAH, 1997)",
-			"VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
-			"VideoOwnerChannelTitle": "Classical Radio Archive UK"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "pId546IHjBY",
+      "VideoPublishedAtRaw": "2021-04-02T16:17:11Z",
+      "VideoPublishedAtDateTimeOffset": "2021-04-02T16:17:11+00:00",
+      "VideoPublishedAt": "2021-04-02T21:47:11+05:30"
+    },
+    "ETag": "Ueryn4bHpMZPKnhdWhpbfwm0tUw",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Es spielt das Symphonieorchester des Bayerischen Rundfunks unter der Leitung von Sir Colin Davis\nVHS-Aufnahme einer \u00DCbertragung aus der Basilika Ottobeuren\n\n1. Feierlich - Misterioso\n2. Scherzo - Bewegt, lebhaft  30:27\n3. Adagio - Langsam, feierlich  43:27",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 0,
+      "PublishedAtRaw": "2024-10-30T23:52:20Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:52:20+00:00",
+      "PublishedAt": "2024-10-31T05:22:20+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "pId546IHjBY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/pId546IHjBY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/pId546IHjBY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/pId546IHjBY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/pId546IHjBY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Anton Bruckner - Symphonie Nr.9 d-moll (SO BR, Sir Colin Davis)",
+      "VideoOwnerChannelId": "UCR7CxM3gy2d2dpd7KmMTxOA",
+      "VideoOwnerChannelTitle": "Rainer F."
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zPAn86kO1BA",
+      "VideoPublishedAtRaw": "2021-02-21T03:54:33Z",
+      "VideoPublishedAtDateTimeOffset": "2021-02-21T03:54:33+00:00",
+      "VideoPublishedAt": "2021-02-21T09:24:33+05:30"
+    },
+    "ETag": "cthmA6z4gp-nndzVeVYIxqND2mc",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Colin Davis, London Symphony Orchestra\nRoyal Albert Hall, London, 22 Aug. 1980\n\nBeethoven: Symphony No. 3 in E flat major \u0022Eroica\u0022\n00:00 - 1. Allegro con brio\n19:47 - 2. Marcia funebre \u2014 Adagio assai\n37:00 - 3. Allegro vivace\n43:05 - 4. Allegro molto",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 1,
+      "PublishedAtRaw": "2024-10-30T23:52:36Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:52:36+00:00",
+      "PublishedAt": "2024-10-31T05:22:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zPAn86kO1BA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zPAn86kO1BA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zPAn86kO1BA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/zPAn86kO1BA/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zPAn86kO1BA/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/zPAn86kO1BA/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony No. 3 \u0022Eroica\u0022 - Colin Davis, London SO (Live, 1980)",
+      "VideoOwnerChannelId": "UCd6DfN2xyvfrMo7vegTBa7A",
+      "VideoOwnerChannelTitle": "channel1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "wKn0ySVDfVU",
+      "VideoPublishedAtRaw": "2023-10-24T20:00:00Z",
+      "VideoPublishedAtDateTimeOffset": "2023-10-24T20:00:00+00:00",
+      "VideoPublishedAt": "2023-10-25T01:30:00+05:30"
+    },
+    "ETag": "bugrATIBA965MjrrixSZixNPg94",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Beethoven Symphony No. 6\n0:46:45 Berlioz Te Deum\n\nThis BBC Promenade Concert was given on 4 September 1977 in the Royal Albert Hall, London\n\nDavid Rendall (tenor)\nAlan Harverson (organ)\nSouthend Boys\u0027 Choir\nGoldsmiths Choral Union\nLondon Symphony Chorus\nBBC Symphony Chorus\n\nOrchestra of the Royal Opera House, Covent Garden\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/ex84fx\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 2,
+      "PublishedAtRaw": "2024-10-30T23:47:49Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:47:49+00:00",
+      "PublishedAt": "2024-10-31T05:17:49+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "wKn0ySVDfVU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/wKn0ySVDfVU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony No. 6, Berlioz Te Deum - Royal Opera House Orchestra - Colin Davis (RAH, 1977)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "IfHZkV05wBU",
+      "VideoPublishedAtRaw": "2023-12-26T19:41:41Z",
+      "VideoPublishedAtDateTimeOffset": "2023-12-26T19:41:41+00:00",
+      "VideoPublishedAt": "2023-12-27T01:11:41+05:30"
+    },
+    "ETag": "M_7H458KPD9zjbMjUt6xAwWStHg",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This performance was taken from a concert given on 20 November 1981 in the Royal Festival Hall, London\n\nLeona Mitchell (soprano)\nLinda Finnie (contralto)\nCharles Craig (tenor)\nRobert Lloyd (bass)\nLondon Symphony Chorus\n\nLondon Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1981-11-20#at-20.00\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 3,
+      "PublishedAtRaw": "2024-10-30T23:47:18Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:47:18+00:00",
+      "PublishedAt": "2024-10-31T05:17:18+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "IfHZkV05wBU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/IfHZkV05wBU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/IfHZkV05wBU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/IfHZkV05wBU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/IfHZkV05wBU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/IfHZkV05wBU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Symphony No. 9 - London Symphony Orchestra - Colin Davis (Royal Festival Hall, 1981)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "E1Dg1zeednc",
+      "VideoPublishedAtRaw": "2023-09-12T15:13:55Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-12T15:13:55+00:00",
+      "VideoPublishedAt": "2023-09-12T20:43:55+05:30"
+    },
+    "ETag": "uuiJvIEi_Wl0i5JIiRwuTOMz6mQ",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Beethoven Overture Leonora No. 1 (conducted by Colin Davis)\n0:11:14 Holst Suite - The Planets (conducted by Sir Adrian Boult)\n1:03:27 Encore: Coates Dambuster\u0027s March (conducted by Sir Adrian Boult)\n\nThis recording forms part of a BBC Promenade Concert at the Royal Albert Hall, London on 13 August 1974. The conducting duties for this concert were split between Colin Davis (who conducted the first half) and Sir Adrian Boult (who conducted the rest)\n\nFor full details of this concert please see https://www.bbc.co.uk/events/er4fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 4,
+      "PublishedAtRaw": "2024-10-30T23:48:35Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:48:35+00:00",
+      "PublishedAt": "2024-10-31T05:18:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "E1Dg1zeednc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/E1Dg1zeednc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/E1Dg1zeednc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/E1Dg1zeednc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/E1Dg1zeednc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/E1Dg1zeednc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven, Holst Planets, Coates - BBCSO - Colin Davis, Sir Adrian Boult (Royal Albert Hall 1974)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "BoKt3K-1ehQ",
+      "VideoPublishedAtRaw": "2025-11-11T12:58:57Z",
+      "VideoPublishedAtDateTimeOffset": "2025-11-11T12:58:57+00:00",
+      "VideoPublishedAt": "2025-11-11T18:28:57+05:30"
+    },
+    "ETag": "-ZGe3TeAbQeK7tEGbelibbUuW_c",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5CMEQ2Mjk5NTc3NDZFRUNB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Berlioz Hail, All Hail to the Queen (The Trojans)\n0:05:08 Rachmaninov Rhapsody on a Theme of Paganini\n0:34:51 Mendelssohn Octet\n0:39:47 Walton A Song for the Lord Mayor\u0027s Table\n\nThese performances were given as part of the Last Night of the Proms at the Royal Albert Hall, London on 16 September 1972. \n\nAndr\u00E9 Tchaikowsky (piano)\nElizabeth Bainbridge (mezzo-soprano)\nBBC Singers\nBBC Choral Society\n\nBBC Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ezd4fx\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 5,
+      "PublishedAtRaw": "2025-11-12T11:14:02Z",
+      "PublishedAtDateTimeOffset": "2025-11-12T11:14:02+00:00",
+      "PublishedAt": "2025-11-12T16:44:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "BoKt3K-1ehQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/BoKt3K-1ehQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz, Rachmaninov, Mendelssohn, Walton - BBC Symphony Orchestra - Colin Davis (RAH, 1972)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7LsfJ6TKX94",
+      "VideoPublishedAtRaw": "2023-09-25T09:16:58Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-25T09:16:58+00:00",
+      "VideoPublishedAt": "2023-09-25T14:46:58+05:30"
+    },
+    "ETag": "rgq7kbCzLtKl467rkz2cUCi8ueI",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Berlioz Overture - Benvenuto Cellini\n0:10:02 Ravel Sh\u00E9h\u00E9razade (Jill Gomez - soprano)\n0:29:44 Tchaikovsky Serenade for Strings\n\nThis performance was given as the first half of a BBC Promenade Concert given in the Royal Albert Hall, London on 7 September 1974.\n\nOrchestra of the Royal Opera House, Covent Garden\nconducted by\nColin Davis\n\nFor further details see: https://www.bbc.co.uk/events/ef4fxj\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 6,
+      "PublishedAtRaw": "2024-10-30T23:48:06Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:48:06+00:00",
+      "PublishedAt": "2024-10-31T05:18:06+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7LsfJ6TKX94"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7LsfJ6TKX94/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz, Ravel, Tchaikovsky - Royal Opera House Orchestra -  Colin Davis (Royal Albert Hall, 1974)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "jyio-bFIj78",
+      "VideoPublishedAtRaw": "2023-09-15T02:29:54Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-15T02:29:54+00:00",
+      "VideoPublishedAt": "2023-09-15T07:59:54+05:30"
+    },
+    "ETag": "uTocQ_O6MNCD0Cm4qkglCG_GvqE",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "BRAHMS - Symphony #2 in D major, Op. 73; Sir Colin Davis / New York Philharmonic (PBS; 9/15/1987)",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 7,
+      "PublishedAtRaw": "2024-10-30T23:48:27Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:48:27+00:00",
+      "PublishedAt": "2024-10-31T05:18:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "jyio-bFIj78"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/jyio-bFIj78/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/jyio-bFIj78/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/jyio-bFIj78/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "BRAHMS - Symphony #2 in D major, Op. 73; Sir Colin Davis / New York Philharmonic (PBS; 9/15/1987)",
+      "VideoOwnerChannelId": "UC9X2dxi_Ih14GA1JCqu1fnA",
+      "VideoOwnerChannelTitle": "The Past Rediscovered Archives"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "psBbzOgtZ2g",
+      "VideoPublishedAtRaw": "2023-04-28T08:28:33Z",
+      "VideoPublishedAtDateTimeOffset": "2023-04-28T08:28:33+00:00",
+      "VideoPublishedAt": "2023-04-28T13:58:33+05:30"
+    },
+    "ETag": "6_83A7_13KFeGxCVXwbjD3_Ou9k",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "3 November 1988  Barbican Hall London\nBeethoven Piano Concerto no 5\nClaudio Arrau\nLondon Symphony Orchestra\nSir Colin Davis",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 8,
+      "PublishedAtRaw": "2024-10-30T23:49:15Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:49:15+00:00",
+      "PublishedAt": "2024-10-31T05:19:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "psBbzOgtZ2g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/psBbzOgtZ2g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Claudio Arrau Sir Colin Davis Beethoven Piano Co 5 1988 LSO",
+      "VideoOwnerChannelId": "UC7IF8E4AvUzafiXt6w9yTuw",
+      "VideoOwnerChannelTitle": "Mark Hood"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0KrNBtUGNtc",
+      "VideoPublishedAtRaw": "2025-12-09T04:41:44Z",
+      "VideoPublishedAtDateTimeOffset": "2025-12-09T04:41:44+00:00",
+      "VideoPublishedAt": "2025-12-09T10:11:44+05:30"
+    },
+    "ETag": "v1vVdXpJyzwXwPBy6SZizbCiteE",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy40QTA3NTU2RkM1QzlCMzYx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "New York Philharmonic Orch.\ncond. by Colin Davis (1927 - 2013)\nrecoeded April 2008, live broadcast",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 9,
+      "PublishedAtRaw": "2025-12-09T11:14:26Z",
+      "PublishedAtDateTimeOffset": "2025-12-09T11:14:26+00:00",
+      "PublishedAt": "2025-12-09T16:44:26+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0KrNBtUGNtc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/0KrNBtUGNtc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Colin Davis / NYP - Beethoven : Leonore Overture No.2 (2008 -Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ROFA0Yjey-w",
+      "VideoPublishedAtRaw": "2023-09-21T09:54:54Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-21T09:54:54+00:00",
+      "VideoPublishedAt": "2023-09-21T15:24:54+05:30"
+    },
+    "ETag": "mezYSJxnMRDmNxtADn-NAdv9S5Y",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This concert marked one of only two appearances by the great Bulgarian Bass, Boris Christoff, at the BBC Promenade Concerts. This occasion was on 6 September 1973 at the Royal Albert Hall, London.\n\n0:00:00 Radio Announcer\n0:01:53 Glinka A Life for the Tsar - Act 4 (Excerpts) - Boris Christoff (bass), BBC Singers\n0:26:30 Radio Announcer\n0:28:08 Mussorgsky Night on the Bare Mountain (original version)\n\nBoris Christoff (bass)\nBBC Singers\nOrchestra of the Royal Opera House, Covent Garden\nconducted by\nColin Davis\n\nFor further details see: https://www.bbc.co.uk/events/emd4fx\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 10,
+      "PublishedAtRaw": "2024-10-30T23:48:22Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:48:22+00:00",
+      "PublishedAt": "2024-10-31T05:18:22+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ROFA0Yjey-w"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ROFA0Yjey-w/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Glinka (Boris Christoff) and Mussorgsky - Royal Opera House - Colin Davis (Royal Albert Hall, 1973)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "sEZLuXR3jJU",
+      "VideoPublishedAtRaw": "2023-11-16T22:40:15Z",
+      "VideoPublishedAtDateTimeOffset": "2023-11-16T22:40:15+00:00",
+      "VideoPublishedAt": "2023-11-17T04:10:15+05:30"
+    },
+    "ETag": "klEe8VO0SHMBEUY54YmjXJjMwE0",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Grieg Piano Concerto (soloist Emil Gilels)\n0:33:00 Beethoven Symphony No. 5\n\nThese recordings are taken from a BBC Promenade Concert given on 26 July 1979 in the Royal Albert Hall, London. The soloist in the Grieg concerto was Emil Gilels. This was only the second (and last) time he appeared at the Proms.\n\nEmil Gilels (piano)\n\nLondon Sympony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/e8n5v2\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 11,
+      "PublishedAtRaw": "2024-10-30T23:47:36Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:47:36+00:00",
+      "PublishedAt": "2024-10-31T05:17:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "sEZLuXR3jJU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/sEZLuXR3jJU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Grieg Piano Concerto (Gilels), Beethoven Symphony No.5 - London Symphony Orch. - Colin Davis (1979)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "_3qdKkAcwk0",
+      "VideoPublishedAtRaw": "2020-06-23T10:50:29Z",
+      "VideoPublishedAtDateTimeOffset": "2020-06-23T10:50:29+00:00",
+      "VideoPublishedAt": "2020-06-23T16:20:29+05:30"
+    },
+    "ETag": "C9n4qbcF6lr2b7JireJUCNXFvTo",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4yMDhBMkNBNjRDMjQxQTg1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sir Colin with the LSO and Sibelius in October 1979.\n\n1. Allegretto \u2013 Poco allegro 0:00\n2. Tempo andante, ma rubato 10:16\n3. Vivacissimo \u2013 Lento e soave 25:32\n4. Finale: Allegro moderato 31:19\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 60 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 12,
+      "PublishedAtRaw": "2024-10-30T23:53:19Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:53:19+00:00",
+      "PublishedAt": "2024-10-31T05:23:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "_3qdKkAcwk0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/_3qdKkAcwk0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/_3qdKkAcwk0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/_3qdKkAcwk0/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Jean Sibelius - Symphony no. 2: Sir Colin Davis conducting the LSO in 1979",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "XYPtVQgNUXs",
+      "VideoPublishedAtRaw": "2018-01-23T13:02:23Z",
+      "VideoPublishedAtDateTimeOffset": "2018-01-23T13:02:23+00:00",
+      "VideoPublishedAt": "2018-01-23T18:32:23+05:30"
+    },
+    "ETag": "EC2Svyg7WdqxOr6pXdDOqM6Uo0A",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy43MTI1NDIwOTMwQjIxMzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Sir Colin Davis conducting the LSO in Brahms at the Barbican, two years after becoming the orchestra\u0027s Principal Conductor.\n\n1. Allegro non troppo 0:00\n2. Adagio non troppo 17:15\n3. Allegretto grazioso, quasi andantino 28:08\n4. Allegro con spirito 34:05\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 13,
+      "PublishedAtRaw": "2024-10-30T23:56:46Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:56:46+00:00",
+      "PublishedAt": "2024-10-31T05:26:46+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "XYPtVQgNUXs"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/XYPtVQgNUXs/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/XYPtVQgNUXs/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/XYPtVQgNUXs/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Johannes Brahms - Symphony no. 2: Sir Colin Davis conducting the LSO in 1997",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "E7e0ojKamkY",
+      "VideoPublishedAtRaw": "2022-12-07T20:56:38Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-07T20:56:38+00:00",
+      "VideoPublishedAt": "2022-12-08T02:26:38+05:30"
+    },
+    "ETag": "r4P4pg0JZijgJCI258ufgwjpb-E",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johannes Brahms ( 7 May 1833 \u2013 3 April 1897)\nSymphony No. 3 In F Major op.90 \n (00:00) - 1. Allegro con brio (F major, in sonata form)\n (13:33) - 2. Andante (C major, in a modified sonata form)\n (23:07) - 3. Poco allegretto (C minor, in ternary form A\u2013B\u2013A\u2032)\n (29:47) - 4. Allegro \u2014 Un poco sostenuto (F minor \u2192 F major, in a modified sonata form)\n\nConductor \u2013 Sir Colin Davis\nOrchestra \u2013 Staatskapelle Dresden\n\nRecorded ,4 November 1992,Suntory Hall, Tokyo\nFrom  private tape",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 14,
+      "PublishedAtRaw": "2024-10-30T23:49:52Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:49:52+00:00",
+      "PublishedAt": "2024-10-31T05:19:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "E7e0ojKamkY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/E7e0ojKamkY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/E7e0ojKamkY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/E7e0ojKamkY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/E7e0ojKamkY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Johannes Brahms - Symphony No. 3 In F Major op.90/Sir Colin Davis \u0026 Staatskapelle Dresden,Live Tokyo",
+      "VideoOwnerChannelId": "UCM5bIKzkciUwo7HK9GRh-Ng",
+      "VideoOwnerChannelTitle": "Tsubame Classics"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "8HCf6-9EUoY",
+      "VideoPublishedAtRaw": "2025-10-25T13:03:04Z",
+      "VideoPublishedAtDateTimeOffset": "2025-10-25T13:03:04+00:00",
+      "VideoPublishedAt": "2025-10-25T18:33:04+05:30"
+    },
+    "ETag": "gjBy8cUjERj7a8H7rpXbpFJ2Smw",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy42MTI4Njc2QjM1RjU1MjlG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta\nI. Allegretto \u300C\u30D5\u30A1\u30F3\u30D5\u30A1\u30FC\u30EC\u300D 00:00\nII. Andante-Allegretto \u300C\u57CE\u585E \uFF08\u30B7\u30E5\u30D4\u30EB\u30D9\u30EB\u30AF\u57CE\uFF09\u300D 02:22\nIII. Moderato \u300C\u4FEE\u9053\u9662 \uFF08\u30D6\u30EB\u30CE\u306E\u738B\u5983\u306E\u4FEE\u9053\u9662\uFF09\u300D 08:17\nIV. Allegretto \u300C\u8857\u8DEF \uFF08\u53E4\u57CE\u306B\u81F3\u308B\u9053\uFF09\u300D 14:01\nV. Allegro\u300C\u5E02\u5E81\uFF08\u30D6\u30EB\u30CE\u65E7\u5E02\u5E81\u820E\uFF09\u300D17:00\nColin Davis / Bavarian Radio Symphony Orchestra\n10/1989 Munich, Gasteig Philharmony Hall live recording\n\u30EC\u30AA\u30B7\u30E5\u30FB\u30E4\u30CA\u30FC\u30C1\u30A7\u30AF\uFF1A\u30B7\u30F3\u30D5\u30A9\u30CB\u30A8\u30C3\u30BF\n\u30B3\u30EA\u30F3\u30FB\u30C7\u30A4\u30F4\u30A3\u30B9\u6307\u63EE\u3000\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\n1989\u5E7410\u6708\u3000\u30DF\u30E5\u30F3\u30D8\u30F3\u3001\u30AC\u30B9\u30BF\u30A4\u30AF\u30FB\u30D5\u30A3\u30EB\u30CF\u30FC\u30E2\u30CB\u30FC\u30DB\u30FC\u30EB\u3000\u30E9\u30A4\u30D6\u9332\u97F3",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 15,
+      "PublishedAtRaw": "2025-11-14T03:25:08Z",
+      "PublishedAtDateTimeOffset": "2025-11-14T03:25:08+00:00",
+      "PublishedAt": "2025-11-14T08:55:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "8HCf6-9EUoY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/8HCf6-9EUoY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/8HCf6-9EUoY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/8HCf6-9EUoY/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta    C. Davis / BRSO 1989 live",
+      "VideoOwnerChannelId": "UC_W-zQQHNRLW1QHWQAF9B_A",
+      "VideoOwnerChannelTitle": "Isappin"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "cgmjyK2IdP0",
+      "VideoPublishedAtRaw": "2024-09-24T11:10:15Z",
+      "VideoPublishedAtDateTimeOffset": "2024-09-24T11:10:15+00:00",
+      "VideoPublishedAt": "2024-09-24T16:40:15+05:30"
+    },
+    "ETag": "ceDU0kMykgESxQXjHvLvjnQzoZ0",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta\nSymphonieorchester des Bayerischen Rundfunks\nColin Davis\nOctober 1989, Philharmonie, Munich\n\nI apologize for the advertisements YouTube may add to my videos. As far as I know, there is no way to prevent that crap. (However, some of you may be familiar with some workarounds...)",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 16,
+      "PublishedAtRaw": "2024-10-30T23:44:42Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:44:42+00:00",
+      "PublishedAt": "2024-10-31T05:14:42+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "cgmjyK2IdP0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/cgmjyK2IdP0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Leo\u0161 Jan\u00E1\u010Dek: Sinfonietta -- Colin Davis/Symphonieorchester des Bayerischen Rundfunks (Munich 1989)",
+      "VideoOwnerChannelId": "UCICVGV_Pmk08DgdtpU9E0_Q",
+      "VideoOwnerChannelTitle": "Quality Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1TUHBcjsNkg",
+      "VideoPublishedAtRaw": "2025-01-19T08:02:13Z",
+      "VideoPublishedAtDateTimeOffset": "2025-01-19T08:02:13+00:00",
+      "VideoPublishedAt": "2025-01-19T13:32:13+05:30"
+    },
+    "ETag": "4IgSHUmEIwMYYGuguwLXizlJrVI",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zRDBDOEZDOUM0MDY5NEEz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "New York Philnarmonic Orch. cond. by Colin Davis\n(00:00) 1. Allegro vivace\n(12:34) 2. Allegretto\n(20:15) 3. Allegro assai\nrec. in March 2007\nbraodcast live recording",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 17,
+      "PublishedAtRaw": "2025-08-23T11:37:59Z",
+      "PublishedAtDateTimeOffset": "2025-08-23T11:37:59+00:00",
+      "PublishedAt": "2025-08-23T17:07:59+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1TUHBcjsNkg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1TUHBcjsNkg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mitsuko Uchida - Mozart : Piano Concerto No.19 K.459 (2007 -Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "je613yZ0Wb8",
+      "VideoPublishedAtRaw": "2018-07-25T10:37:43Z",
+      "VideoPublishedAtDateTimeOffset": "2018-07-25T10:37:43+00:00",
+      "VideoPublishedAt": "2018-07-25T16:07:43+05:30"
+    },
+    "ETag": "GG7QVW6oq5ozc8Bn7mkK-NP3YqY",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zRjM0MkVCRTg0MkYyQTM0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Serenade in D Major KV 250 \u0022Haffner\u0022 by\nWolfgang Amadeus Mozart\n1. Allegro maestoso-Allegro molto\n2. Andante\n3. Menuetto\n4. Rondo (Allegro)\n5. Menuetto galante\n6. Andante\n7. Menuetto\n8. Adagio-Allegro assai\nGlenn Dicterow, Violin\nNew York Philharmonic\nSir Colin Davis, Conductor",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 18,
+      "PublishedAtRaw": "2024-10-30T23:56:04Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:56:04+00:00",
+      "PublishedAt": "2024-10-31T05:26:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "je613yZ0Wb8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/je613yZ0Wb8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/je613yZ0Wb8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/je613yZ0Wb8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/je613yZ0Wb8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/je613yZ0Wb8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart \u0022Haffner-Serenade\u0022 Sir Colin Davis",
+      "VideoOwnerChannelId": "UCowleoT1p2eZtz8J1EUuvHw",
+      "VideoOwnerChannelTitle": "Addiobelpassato"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "lfhfZfXR7Jo",
+      "VideoPublishedAtRaw": "2018-11-10T13:45:52Z",
+      "VideoPublishedAtDateTimeOffset": "2018-11-10T13:45:52+00:00",
+      "VideoPublishedAt": "2018-11-10T19:15:52+05:30"
+    },
+    "ETag": "OgDQqXacJ6wISWAHUfWlegrGYzI",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5GM0Q3M0MzMzY5NTJFNTdE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart\n\nSerenade K.250 \u0022Haffner\u0022\n\nI. Allegro maestoso - Allegro molto\nII. Andante\nIII. Menuetto\nIV. Rondo. Allegro\nV. Menuetto galante\nVI. Andante\nVII. Menuetto\nVIII. Adagio - Allegro assai\n\nAndreas R\u00F6hn\nSymphonieorchester des Bayerischen Rundfunks\nColin Davis\nStudio recording, Munich, I.1988",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 19,
+      "PublishedAtRaw": "2024-10-30T23:55:39Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:55:39+00:00",
+      "PublishedAt": "2024-10-31T05:25:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "lfhfZfXR7Jo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/lfhfZfXR7Jo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart - Haffner-Serenade - BRSO / Davis",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "c_DmRRYxjZg",
+      "VideoPublishedAtRaw": "2018-04-23T18:04:09Z",
+      "VideoPublishedAtDateTimeOffset": "2018-04-23T18:04:09+00:00",
+      "VideoPublishedAt": "2018-04-23T23:34:09+05:30"
+    },
+    "ETag": "ZtAHHMWD71B92fgUljdhI0wggyg",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DNzE1RjZEMUZCMjA0RDBB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "A sparkling performance of Mozart\u0027s concerto no. 17 by Mitsuko Uchida and Sir Colin with the London Symphony Orchestra at the Barbican, 25 years after their first performance of it together.\n\n1. Allegro 0:00\n2. Andante 12:22\n3. Allegretto: presto 23:50\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are recordings made by a LSO fan over a period of 40 years from 1977, and are not rips of LSO LIVE recordings. I have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 20,
+      "PublishedAtRaw": "2024-10-30T23:56:36Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:56:36+00:00",
+      "PublishedAt": "2024-10-31T05:26:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "c_DmRRYxjZg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/c_DmRRYxjZg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/c_DmRRYxjZg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/c_DmRRYxjZg/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Mozart - Piano Concerto no. 17: Mitsuko Uchida and Sir Colin Davis with the LSO in 2010",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6arClYexPuU",
+      "VideoPublishedAtRaw": "2023-09-26T13:34:49Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-26T13:34:49+00:00",
+      "VideoPublishedAt": "2023-09-26T19:04:49+05:30"
+    },
+    "ETag": "6Kz0dISXNQ02yJVBxzaxslIxMNk",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Mozart Symphony No. 36 (Linz)\n0:31:05 Bart\u00F3k Piano Concerto No. 1 (soloist Michel B\u00E9roff)\n0:55:41 Vaughan Williams Symphony No. 4\n\nThis BBC Promenade Concert was given in the Royal Albert Hall, London on 18 August 1975\n\nMichel B\u00E9roff (piano)\nBBC Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/egq9rz\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 21,
+      "PublishedAtRaw": "2024-10-30T23:48:00Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:48:00+00:00",
+      "PublishedAt": "2024-10-31T05:18:00+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6arClYexPuU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6arClYexPuU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6arClYexPuU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6arClYexPuU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6arClYexPuU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6arClYexPuU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart, Bart\u00F3k, Vaughan Williams - BBC Symphony Orchestra - Colin Davis (Royal Albert Hall, 1975)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "it0NWwM248A",
+      "VideoPublishedAtRaw": "2026-05-01T15:57:34Z",
+      "VideoPublishedAtDateTimeOffset": "2026-05-01T15:57:34+00:00",
+      "VideoPublishedAt": "2026-05-01T21:27:34+05:30"
+    },
+    "ETag": "nz8hmowsc9N2ifPTQ1wD4EAH37U",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5GNDg1Njc1QzZERjlFRjE5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Radio commentary\n0:00:21 Mozart Piano Concerto No. 24\n0:31:40 Sibelius Kullervo Symphony\n\nThese performances were given on  26 June 1997 in the Barbican Centre, London.\n\nRadu Lupu (piano)\nHillevi Martinpelto (soprano)\nKarl Magnus Fredriksson (baritone)\nLondon Symphony Chorus\n\nLondon Symphony Orchestra\nconducted by\nSir Colin Davis\n\nFor more details see:\nhttps://genome.ch.bbc.co.uk/schedules/service_bbc_radio_three/1997-06-26#at-19.30\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 22,
+      "PublishedAtRaw": "2026-05-03T13:58:08Z",
+      "PublishedAtDateTimeOffset": "2026-05-03T13:58:08+00:00",
+      "PublishedAt": "2026-05-03T19:28:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "it0NWwM248A"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/it0NWwM248A/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/it0NWwM248A/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/it0NWwM248A/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/it0NWwM248A/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/it0NWwM248A/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart, Sibelius Kullervo - Radu Lupu - London Symphony Orchestra - Colin Davis (Barbican, 1997)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1E-qWsJceDk",
+      "VideoPublishedAtRaw": "2023-06-04T12:00:01Z",
+      "VideoPublishedAtDateTimeOffset": "2023-06-04T12:00:01+00:00",
+      "VideoPublishedAt": "2023-06-04T17:30:01+05:30"
+    },
+    "ETag": "IisBx_SpUb737XwAP0PUTl2pPmM",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy43NDhFRTgwOTRERTU4Rjg3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "One of the most emblematic pieces of classical music ever: Mozart\u2019s Serenade No. 13 in G major (K. 525), widely known as \u2018Eine kleine Nachtmusik\u2019, performed by Members of the Bavarian Radio Symphony Orchestra and conducted by Sir Colin Davis. This concert took place in 1991 in the venerable ambiance of the Historischer Reichssaal Regensburg, Germany. May you be as entranced by Mozart\u2019s genius as Sir Colin Davis, who seems to take obvious pleasure in conducting this famous classic.\n\n(00:00) Coming on stage\n(00:11) I. Allegro \n(06:19) II. Romance (Andante) \n(12:25) III. Menuetto (Allegretto) \n(14:32) IV. Rondo (Allegro) \n\nWolfgang Amadeus Mozart (1756-1791) composed the serenade \u2018Eine kleine Nachtmusik\u2019 in the summer of 1787, at the height of his success. While the piece was originally composed for two violins, a viola, a cello, and a double bass it is nowadays more commonly performed as an orchestral arrangement. \n\nOut of the many serenades, divertimenti, and cassations Mozart wrote during his lifetime, \u2018Eine kleine Nachtmusik\u2019 is doubtlessly his most famous work of chamber music. During the late 18th century, such light entertainment ensemble pieces enjoyed immense success and were often performed during social occasions, particularly in outdoor locations such as gardens and parks. \n\nThe four-piece Serenade No. 13 opens with an allegro in sonata form, followed by a slower, lyrical second movement and a minuet, and finishes on an energetically joyful rondo. The melodic lightness and effortlessness typical for this genre of music are present throughout all four movements. \n\nProduced by BR \u0026 BMG Classics\n\n\u00A9 BMG Classics 1991\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#WolfgangAmadeusMozart #EineKleineNachtmusik #mozartserenade",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 23,
+      "PublishedAtRaw": "2025-06-06T21:43:04Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:43:04+00:00",
+      "PublishedAt": "2025-06-07T03:13:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1E-qWsJceDk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1E-qWsJceDk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1E-qWsJceDk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1E-qWsJceDk/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1E-qWsJceDk/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart: Eine kleine Nachtmusik | Sir Colin Davis \u0026 Members of the Bavarian Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+      "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "RRVr9l1zbgo",
+      "VideoPublishedAtRaw": "2016-10-31T20:13:15Z",
+      "VideoPublishedAtDateTimeOffset": "2016-10-31T20:13:15+00:00",
+      "VideoPublishedAt": "2016-11-01T01:43:15+05:30"
+    },
+    "ETag": "AedKe5HT2K_k22SP0HrUlXNY2ks",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy44Mjc5REFBRUE2MTdFRDU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart (1756-1791)\nSYMPHONY NO. 32 in G major, K. 318\nSymphonieorchester des Bayerischen Rundfunks\nSIR COLIN DAVIS, cond.\nRecording: Herkulessaal, M\u00FCnchen, 17 November 2006\n\nI. Allegro spiritoso (0:00)\nII. Andante (3:19)\nIII. Primo tempo (6:13)",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 24,
+      "PublishedAtRaw": "2025-06-06T21:40:32Z",
+      "PublishedAtDateTimeOffset": "2025-06-06T21:40:32+00:00",
+      "PublishedAt": "2025-06-07T03:10:32+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "RRVr9l1zbgo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/RRVr9l1zbgo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mozart: Symphony No. 32 - Bavarian Radio Symphony Orchestra/Sir Colin Davis (2006)",
+      "VideoOwnerChannelId": "UCNBKUWR0HXkHUjL8PlT4PVQ",
+      "VideoOwnerChannelTitle": "Wahnfried"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "CnAfAnhiNr8",
+      "VideoPublishedAtRaw": "2022-04-21T18:52:51Z",
+      "VideoPublishedAtDateTimeOffset": "2022-04-21T18:52:51+00:00",
+      "VideoPublishedAt": "2022-04-22T00:22:51+05:30"
+    },
+    "ETag": "EWmzKtLVzTzSFERDynrbv1MU0LI",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Wolfgang Amadeus Mozart: Symphony N\u00BA 29 in A major, K. 201 (1774)\nI  Allegro moderato \nII  Andante \nIII  Menuetto: Allegretto \u2013 Trio  \nIV  Allegro con spirito, \nBoston Symphony Orchestra\nColin Davis, conductor\nStereo Broadcast of January 11, 1975",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 25,
+      "PublishedAtRaw": "2024-10-30T23:51:02Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:51:02+00:00",
+      "PublishedAt": "2024-10-31T05:21:02+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "CnAfAnhiNr8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/CnAfAnhiNr8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "MOZART: Symphony N\u00BA 29 / Colin Davis / Boston SO",
+      "VideoOwnerChannelId": "UCmu2d94vW8Qdee6XvqxpHDQ",
+      "VideoOwnerChannelTitle": "Sound Dynamics Associates"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iLdCmg-2HeM",
+      "VideoPublishedAtRaw": "2015-12-29T22:08:14Z",
+      "VideoPublishedAtDateTimeOffset": "2015-12-29T22:08:14+00:00",
+      "VideoPublishedAt": "2015-12-30T03:38:14+05:30"
+    },
+    "ETag": "PxGiV_ZmC_rTDvv8BZHnWWARBUk",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DQ0MyQ0Y4Mzg0M0VGOEYw",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Symphony nr 1 by Peter Schat, performed by the Concertgebouw Orchestra conducted by Colin Davis.\n\nLike the 10th of June 1978, when I first heard Diepenbrock\u0027s Mass, I shall never forget the 3rd of November of that same year.\n1978 was an important year for me. It was the year I turned 16. I finished school, entered my first real job (yes: in a music shop) and was now even legally allowed to have sex. It was also the year in which my interest in the music of my fellow countrymen, the Dutch composers you almost never heard anything from, became really serious, this mainly through two events that would leave their marks on my life from then on. \nIn June it was the first performance of the completed orchestrated version of Diepenbrock\u0027s Mass, which I now know put my existence on a different and definitely higher plane.\nIn November an event of likewise spectacularity took place, the premiere of Peter Schat\u0027s First Symphony.\nIt was a huge event for a number of reasons. Most important of course the fact that Peter Schat, of all people, had written a... \u0022symphony\u0022 - a musical form thought by just about anybody involved in contemporary music to have become extinct, something of the past. \u0022Nobody writes symphonies anymore.\u0022\n\n(more to follow)\n====\n\nThe picture quality of this film is not really smashing to say the last. It comes from a Betamax tape that very soon will be 40 years old.\n====\n\n!! CONCERT HALL, COMPOSER PERFORMERS,TELEVISION BROADCAST AND PRESERVATION WERE ALL FINANCED WITH\nPUBLIC MONEY !!",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 26,
+      "PublishedAtRaw": "2024-10-30T23:58:51Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:58:51+00:00",
+      "PublishedAt": "2024-10-31T05:28:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iLdCmg-2HeM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/iLdCmg-2HeM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Peter Schat: Symphony 1 \u00B01978 (Colin Davis)",
+      "VideoOwnerChannelId": "UCBFEO7DFfbvfZShbLnBP0tg",
+      "VideoOwnerChannelTitle": "carminum"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1U2ZmPUK0wU",
+      "VideoPublishedAtRaw": "2025-12-09T07:43:18Z",
+      "VideoPublishedAtDateTimeOffset": "2025-12-09T07:43:18+00:00",
+      "VideoPublishedAt": "2025-12-09T13:13:18+05:30"
+    },
+    "ETag": "_LfoP1QwoVkQPwPtod8VqvoBlok",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5BRjJDODk5REM0NjkzMUIy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Richard Goode, piano (1943 - )\nNew York Philharmonic Orch. cond. by Colin Davis \nrecoeded April 2008, live broadcast\nI. Allegro moderato  (00:00)\nII. Andante con moto  (18:50)\nIII. Rondo. Vivace  (23:29)",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 27,
+      "PublishedAtRaw": "2025-12-09T11:14:39Z",
+      "PublishedAtDateTimeOffset": "2025-12-09T11:14:39+00:00",
+      "PublishedAt": "2025-12-09T16:44:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1U2ZmPUK0wU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1U2ZmPUK0wU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Richard Goode / NYP - Beethoven : Piano Concerto No.4 in G Op.58 (2008 -Live)",
+      "VideoOwnerChannelId": "UC4VZ4Oy41Zd80GZFrtrjdiw",
+      "VideoOwnerChannelTitle": "uchukyoku1"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "nBzDHcDdNks",
+      "VideoPublishedAtRaw": "2018-07-06T01:12:40Z",
+      "VideoPublishedAtDateTimeOffset": "2018-07-06T01:12:40+00:00",
+      "VideoPublishedAt": "2018-07-06T06:42:40+05:30"
+    },
+    "ETag": "L7TDLMRRCLgdJRZuEASg1rm54QI",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45NzUwQkI1M0UxNThBMkU0",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Roberto Gerhard: Symphony No 4 \u0027New York\u0027 [Colin Davis-Boston Symphony Orchestra]. recorded for radio broadcast.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 28,
+      "PublishedAtRaw": "2024-10-30T23:56:23Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:56:23+00:00",
+      "PublishedAt": "2024-10-31T05:26:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "nBzDHcDdNks"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/nBzDHcDdNks/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/nBzDHcDdNks/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/nBzDHcDdNks/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/nBzDHcDdNks/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/nBzDHcDdNks/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Roberto Gerhard: Symphony No 4 \u0027New York\u0027 [C. Davis-Boston SO]",
+      "VideoOwnerChannelId": "UCfFPCgr45pH_pzslan4EriQ",
+      "VideoOwnerChannelTitle": "James Stuart"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "HEJXtEJNY2g",
+      "VideoPublishedAtRaw": "2023-09-24T10:22:40Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-24T10:22:40+00:00",
+      "VideoPublishedAt": "2023-09-24T15:52:40+05:30"
+    },
+    "ETag": "YI1arhTqL0xPp7r8dal7OrVuVjQ",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This performance of Schubert Symphony No. 5 was given in the Royal Albert Hall, London on 21 August 1975 as part of the BBC Promenade Concerts.\n\nBBC Symphony Orchestra\nconducted by\nColin Davis\n\nFor further details see https://www.bbc.co.uk/events/emfxj5\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 29,
+      "PublishedAtRaw": "2024-10-30T23:48:10Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:48:10+00:00",
+      "PublishedAt": "2024-10-31T05:18:10+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "HEJXtEJNY2g"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/HEJXtEJNY2g/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Schubert Symphony No.  5 - BBC Symphony Orchestra - Colin Davis ( Royal Albert Hall, 1975)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "0ORnfWylynM",
+      "VideoPublishedAtRaw": "2015-12-13T10:49:49Z",
+      "VideoPublishedAtDateTimeOffset": "2015-12-13T10:49:49+00:00",
+      "VideoPublishedAt": "2015-12-13T16:19:49+05:30"
+    },
+    "ETag": "vDdAjDBPbjKoygr2AuggN29-v8I",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4yQUE2Q0JEMTk4NTM3RTZC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius\n\nSymphony n\u00B06 op.104\n\nI. Allegro molto moderato 0:00\nII. Allegretto moderato 8:28\nIII. Poco vivace 12:47\nIV. Allegro molto 16:27\n\nKoninklijk Concertgebouworkest\nSir Colin Davis\nLive recording, Amsterdam, 20.I.1983",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 30,
+      "PublishedAtRaw": "2024-10-30T23:58:58Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:58:58+00:00",
+      "PublishedAt": "2024-10-31T05:28:58+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0ORnfWylynM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0ORnfWylynM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0ORnfWylynM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/0ORnfWylynM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0ORnfWylynM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/0ORnfWylynM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius - Symphony n\u00B06 - Amsterdam / Davis",
+      "VideoOwnerChannelId": "UCJ-YjzpJxteFS5-TUoBIWYQ",
+      "VideoOwnerChannelTitle": "incontrario motu"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "vLHI7bQAKkM",
+      "VideoPublishedAtRaw": "2023-12-04T19:39:24Z",
+      "VideoPublishedAtDateTimeOffset": "2023-12-04T19:39:24+00:00",
+      "VideoPublishedAt": "2023-12-05T01:09:24+05:30"
+    },
+    "ETag": "qBgrDxv-dDDn1Ex97cfdWZyAV0Q",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Sibelius En Saga\n0:18:26 Beethoven Symphony No. 3\n\nThis was part of a BBC Promenade Concert given in the Royal Albert Hall, London on 22 August 1980.\n\nLondon Symphony Orchestra\nconducted by\nColin Davis\n\nFor more details see: https://www.bbc.co.uk/events/efwxj5\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. Non of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 31,
+      "PublishedAtRaw": "2024-10-30T23:47:28Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:47:28+00:00",
+      "PublishedAt": "2024-10-31T05:17:28+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "vLHI7bQAKkM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/vLHI7bQAKkM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sibelius En Saga, Beethoven Symphony No. 3 - London Symphony Orchestra - Colin Davis (RAH, 1980)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "e2hLzPC40R8"
+    },
+    "ETag": "7DgFKqrpGSFn2Jfp25HfbVJ63Rc",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is unavailable.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 32,
+      "PublishedAtRaw": "2024-10-30T23:52:09Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:52:09+00:00",
+      "PublishedAt": "2024-10-31T05:22:09+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "e2hLzPC40R8"
+      },
+      "Thumbnails": {},
+      "Title": "Deleted video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "h22O3IAfIyk",
+      "VideoPublishedAtRaw": "2020-11-17T19:10:09Z",
+      "VideoPublishedAtDateTimeOffset": "2020-11-17T19:10:09+00:00",
+      "VideoPublishedAt": "2020-11-18T00:40:09+05:30"
+    },
+    "ETag": "48pIBW-Nc8aw48YitY-5xdDT4-o",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy45RTgxNDRBMzUwRjQ0MDhC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Five years after Sir Colin\u0027s reading of Elgar 2 was recorded at the Barbican Centre for LSO LIVE, he gave this superb performance with the LSO at the Proms in August 2006.\n\n\n1. Allegro vivace e nobilmente 0:00\n2. Larghetto 18:00\n3. Rondo 33:30\n4. Moderato e maestoso 42:03\n\n\n\nThis channel is not associated in any way with the London Symphony Orchestra, or its own CD label, LSO LIVE. These are audio recordings made by LSO fans over a period of some 70 years, and are not rips of LSO LIVE recordings. We have greatly enjoyed these performances over the years and just wish to share them with other music lovers. No copyright infringement is intended; please make contact if there is an issue.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 33,
+      "PublishedAtRaw": "2024-10-30T23:52:47Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:52:47+00:00",
+      "PublishedAt": "2024-10-31T05:22:47+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "h22O3IAfIyk"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/h22O3IAfIyk/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/h22O3IAfIyk/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/h22O3IAfIyk/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "Sir Edward Elgar - Symphony no. 2: Sir Colin Davis conducting the LSO at the Proms in 2006",
+      "VideoOwnerChannelId": "UC4KhAxhQUhOz45Tmp07RNKw",
+      "VideoOwnerChannelTitle": "LSO live recordings"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "1oO2tsw2yPU",
+      "VideoPublishedAtRaw": "2026-03-27T12:03:17Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-27T12:03:17+00:00",
+      "VideoPublishedAt": "2026-03-27T17:33:17+05:30"
+    },
+    "ETag": "sC-cyMy9Mc4JN_aIX2ltwJ6JWmA",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4xOTEzQzhBQzU3MDNDNjcz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Strauss Don Juan\n0:19:16 Elgar Enigma Variations\n0:51:18 Sibelius Symphony No. 2\n\nThese performances were given during the 1996 BBC Proms Season as part of the Promenade Concert given on  3 August 1996 in the Royal Albert Hall, London.\n\nEuropean Union Youth Orchestra\nconducted by\nSir Colin Davis\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ex2zc8\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 34,
+      "PublishedAtRaw": "2026-03-29T04:54:06Z",
+      "PublishedAtDateTimeOffset": "2026-03-29T04:54:06+00:00",
+      "PublishedAt": "2026-03-29T10:24:06+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "1oO2tsw2yPU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/1oO2tsw2yPU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Strauss, Elgar, Sibelius - European Union Youth Orchestra - Colin Davis (RAH, 1996)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "PpImu4EeP-k",
+      "VideoPublishedAtRaw": "2020-08-20T13:15:02Z",
+      "VideoPublishedAtDateTimeOffset": "2020-08-20T13:15:02+00:00",
+      "VideoPublishedAt": "2020-08-20T18:45:02+05:30"
+    },
+    "ETag": "we4hefEgJlNgQG1OKLchTuqUO6g",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5ENDU4Q0M4RDExNzM1Mjcy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Pyotr Ilyich Tchaikovsky\n\nPiano Concerto No. 1 in B-flat minor, Op. 23\n[0:04] 1. Andante non troppo e molto maestoso - Allegro con spirito - Poco meno mosso - Tempo I - Poco pi\u00F9 lento - Meno mosso - Quasi Adagio - Molto moderato - Tempo I\n[22:41] 2. Andantino semplice - Prestissimo - Quasi Andante - Tempo I\n[30:09] 3. Allegro con fuoco - Poco meno mosso - Tempo I - Sostenuto molto - Tempo I - Molto pi\u00F9 mosso - Tempo I ma tranquillo - Poco pi\u00F9 mosso - Molto meno mosso - Allegro vivo\n\n\n\n\n\nEmil Gilels, piano\nColin Davis, conductor\nBerliner Philharmoniker\n\n\n\nApril 4, 1980\nBerlin, Philharmonie\n\n#EmilGilels #ColinDavis #BerlinerPhilharmoniker #Tchaikovsky #Live",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 35,
+      "PublishedAtRaw": "2024-10-30T23:53:05Z",
+      "PublishedAtDateTimeOffset": "2024-10-30T23:53:05+00:00",
+      "PublishedAt": "2024-10-31T05:23:05+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "PpImu4EeP-k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/PpImu4EeP-k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/PpImu4EeP-k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/PpImu4EeP-k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/PpImu4EeP-k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tchaikovsky: Piano Concerto No. 1, Op. 23 / Emil Gilels; Colin Davis: BPO (1980.4.4 Berlin)",
+      "VideoOwnerChannelId": "UC9au97pbEBBP3Y1CQcvTDJQ",
+      "VideoOwnerChannelTitle": "Jun Kumazawa"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "3BM1X4zvWow",
+      "VideoPublishedAtRaw": "2023-04-05T01:31:10Z",
+      "VideoPublishedAtDateTimeOffset": "2023-04-05T01:31:10+00:00",
+      "VideoPublishedAt": "2023-04-05T07:01:10+05:30"
+    },
+    "ETag": "-0icE9w111qNUuwtUdq7ES07JmQ",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy5DMkU4NTY1QUFGQTYwMDE3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 36,
+      "PublishedAtRaw": "2024-12-12T00:23:44Z",
+      "PublishedAtDateTimeOffset": "2024-12-12T00:23:44+00:00",
+      "PublishedAt": "2024-12-12T05:53:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "3BM1X4zvWow"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/3BM1X4zvWow/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/3BM1X4zvWow/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/3BM1X4zvWow/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/3BM1X4zvWow/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/3BM1X4zvWow/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Yehudi Menuhin, Mstislav Rostropovich, Brahms Violin \u0026 Cello Concerto LSO, C. Davis, Nov 14, 1966",
+      "VideoOwnerChannelId": "UCM2DYvur7nXxDTPi48unGDA",
+      "VideoOwnerChannelTitle": "Hector\u0027s Rare Recordings "
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "fIiRniJFpfM",
+      "VideoPublishedAtRaw": "2014-06-20T21:49:36Z",
+      "VideoPublishedAtDateTimeOffset": "2014-06-20T21:49:36+00:00",
+      "VideoPublishedAt": "2014-06-21T03:19:36+05:30"
+    },
+    "ETag": "CiM572OkkiQY-TqAnl3zxH8io6E",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy41QUZGQTY5OTE4QTREQUU4",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "\u30D6\u30ED\u30B0\u300C\u5BF8\u8349\u6625\u6689\u300D2014\u5E746\u670825\u65E5\nhttp://blog.goo.ne.jp/tgcy2801\n\uFF08C1259A\uFF09",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 37,
+      "PublishedAtRaw": "2025-08-12T03:14:33Z",
+      "PublishedAtDateTimeOffset": "2025-08-12T03:14:33+00:00",
+      "PublishedAt": "2025-08-12T08:44:33+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "fIiRniJFpfM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/fIiRniJFpfM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/fIiRniJFpfM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/fIiRniJFpfM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/fIiRniJFpfM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8\uFF0F\u4EA4\u97FF\u66F2\u7B2C2\u756A\u5909\u30ED\u9577\u8ABF D125\uFF0FC \u30C7\u30A4\u30D3\u30B9\uFF0F\u30D0\u30A4\u30A8\u30EB\u30F3\u653E\u9001\u4EA4\u97FF\u697D\u56E3\uFF081984 11 9\uFF09",
+      "VideoOwnerChannelId": "UCzZDVhwArsgUazOiNawiyDg",
+      "VideoOwnerChannelTitle": "Yasumi Taguchi"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xXiCMHrwjXc",
+      "VideoPublishedAtRaw": "2026-05-21T11:58:33Z",
+      "VideoPublishedAtDateTimeOffset": "2026-05-21T11:58:33+00:00",
+      "VideoPublishedAt": "2026-05-21T17:28:33+05:30"
+    },
+    "ETag": "u4eXLqt0w14JnrrmBcxC7j0lO0o",
+    "Id": "UEwxemdOQ29XdF83YVQzZEtWTWszdHk3Qldxb2IxWkphRy4zQzFBN0RGNzNFREFCMjBE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "0:00:00 Tippett The Midsummer Marriage - Ritual Dances\n0:24:32 Vaughan Williams Symphony No. 6\n0:58:11 Sibelius Symphony No. 1\n\nThese performances were given during the 1997 BBC Proms Season on  9 August 1997 in the Royal Albert Hall, London.\n\nNational Youth Orchestra of Great Britain\nconducted by\nSir Colin Davis\n\nFor more details see:\nhttps://www.bbc.co.uk/events/ebb8gw\n\nThis is part of a collection of live \u0022off air\u0022 recordings from radio broadcasts I have made since 1970, and I have recently preserved by transferring from tape to digital format. None of the recordings is derived from a commercial release, nor are they of commercial sound quality. No payment is sought for listening to these recordings, I am sharing them in the hope that they may give pleasure to other music lovers, as they have given pleasure to me. No copyright infringement is intended, please do contact me to allow me to correct the situation should this be the case.",
+      "PlaylistId": "PL1zgNCoWt_7aT3dKVMk3ty7BWqob1ZJaG",
+      "Position": 38,
+      "PublishedAtRaw": "2026-06-09T22:05:53Z",
+      "PublishedAtDateTimeOffset": "2026-06-09T22:05:53+00:00",
+      "PublishedAt": "2026-06-10T03:35:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xXiCMHrwjXc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/xXiCMHrwjXc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Tippett, Vaughan Williams, Sibelius - Nation Youth Orchestra of G.B. - Sir Colin Davis (RAH, 1997)",
+      "VideoOwnerChannelId": "UCBXYsUfK3mUBKPwS7W8eivw",
+      "VideoOwnerChannelTitle": "Classical Radio Archive UK"
+    }
+  }
 ]

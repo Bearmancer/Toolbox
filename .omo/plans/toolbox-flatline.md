@@ -176,7 +176,7 @@
 </blockquote>
 <!-- raw HTML omitted -->
 <ul>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>1. Baseline inventory + verification snapshot
 What to do / Must NOT do: FIRST create the evidence dir: <code>New-Item -ItemType Directory -Force .omo/evidence</code>. In <code>C:\Users\Lance\Dev\Toolbox</code> capture: (a) full <code>git status --porcelain</code> (all entries, no truncation) to evidence, plus a tracked/untracked classification note (Metis-verified reality: <code>.omo/goal/**</code> + <code>.omo/ulw-loop/**</code> are TRACKED deletions; <code>.omo/Plan.md</code>, <code>.omo/plans/**</code> are UNTRACKED; <code>.omo/run-continuation/**</code> is gitignored; <code>state/youtube/manifest.json</code> is TRACKED+modified; <code>.superpowers/audit/sacd-probe-journal.md</code> is TRACKED+modified; <code>.superpowers/sdd/**</code> is UNTRACKED; <code>SACD.red.md</code> is a TRACKED deletion; <code>SACD errors.md</code>/<code>youtube-sync-log.md</code>/<code>.athena-state.json</code> are UNTRACKED) - re-derive this classification from the actual status output, do not trust this list blindly; (b) <code>git log --oneline origin/master..master</code> (the exact 15 unpushed commits, oldest-&gt;youngest via <code>--reverse</code>) to evidence; (c) SHA-256 of <code>C:\Users\Lance\Desktop\Claude\SaraconService.cs</code> and <code>DffMetadataStripper.cs</code> (Get-FileHash); (d) compare <code>tools/SacdProbe/*</code> (5 files) against repro version: <code>git diff sacd-deathloop-repro -- tools/SacdProbe</code> from the main worktree - record identical/divergent per file; (e) confirm v2 spec exists in nested repro worktree at <code>Toolbox-sacd-repro/docs/superpowers/specs/2026-08-09-sacd-death-loop-v2-design.md</code>; (f) confirm <code>.superpowers/audit/sacd-probe-journal.md</code> exists in main tree; (g) record <code>git stash list</code>. MUST NOT modify anything else.
 Parallelization: Wave 1 | Blocked by: none | Blocks: 2,3,12
@@ -185,7 +185,7 @@ Acceptance criteria (agent-executable): evidence file contains all 7 captures; <
 QA scenarios (name the exact tool + invocation): happy - all captures written, <code>Get-Content .omo/evidence/task-1-toolbox-flatline.txt | Select-String 'UNPUSHED_COUNT=15'</code> matches; failure - any capture missing or count != 15 -&gt; HALT and report divergence from plan assumptions. Evidence <code>.omo/evidence/task-1-toolbox-flatline.txt</code>
 Commit: N | -</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>2. Rescue artifacts before any deletion
 What to do / Must NOT do: (a) copy <code>Toolbox-sacd-repro/docs/superpowers/specs/2026-08-09-sacd-death-loop-v2-design.md</code> -&gt; <code>docs/superpowers/specs/2026-08-09-sacd-death-loop-v2-design.md</code> (dir exists, empty); (b) if todo 1d found SacdProbe divergence: overwrite main-tree <code>tools/SacdProbe/&lt;file&gt;</code> with the repro branch version (<code>git show sacd-deathloop-repro:tools/SacdProbe/&lt;file&gt;</code>), repro is source of truth; if identical, do nothing; (c) archive OCI SDD: create <code>C:\Users\Lance\Dev\Old\toolbox-oci-sdd-archive\</code>, then <code>robocopy .superpowers\sdd\oci-arr-exhaustive-repair C:\Users\Lance\Dev\Old\toolbox-oci-sdd-archive /E /XD .venv</code> (exclude regenerable .venv), verify file counts match (source minus .venv); (d) verify journal still at <code>.superpowers/audit/sacd-probe-journal.md</code>. MUST NOT delete anything yet; MUST NOT archive .venv.
 Parallelization: Wave 1 | Blocked by: 1 | Blocks: 11,12
@@ -194,7 +194,7 @@ Acceptance criteria (agent-executable): <code>Test-Path docs/superpowers/specs/2
 QA scenarios: happy - all three rescues verified by the assertions above; failure - any copy/verify fails -&gt; HALT before todo 11/12 (deletions stay blocked). Evidence <code>.omo/evidence/task-2-toolbox-flatline.txt</code>
 Commit: N | -</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>3. Apply audio fix drop-ins + B9/B10 micro-fixes
 What to do / Must NOT do: (a) copy <code>C:\Users\Lance\Desktop\Claude\SaraconService.cs</code> -&gt; <code>src/Services/Audio/SaraconService.cs</code> and <code>C:\Users\Lance\Desktop\Claude\DffMetadataStripper.cs</code> -&gt; <code>src/Services/Audio/DffMetadataStripper.cs</code>, then strip the leading <code>// Merged version</code> comment blocks from both files (repo rule 9: zero inline/explanatory comments) - change NOTHING else in either file; (b) B9: in <code>src/CLI/Audio/SacdConvertCommand.cs</code> remove the <code>--debug</code> and <code>--verbose</code> <code>CommandOption</code> properties from <code>Settings</code> (Program.cs blanket-strips them; keep the Program.cs mechanism, delete the dead options); remove any code reading those properties; (c) B10: in <code>src/CLI/Azure/SpeechTtsCommand.cs</code> add a <code>Validate()</code> override on Settings that returns <code>ValidationResult.Error</code> unless EXACTLY ONE of <code>--text</code> / <code>--file</code> is provided (mutual exclusivity + presence). MUST NOT alter signatures of <code>ConvertDsdToPcmAsync</code>/<code>ConvertDsdToFlacAsync</code> (DsdConvertService call sites depend on the 7-param shape incl. <code>onOutputLine</code>); MUST NOT add comments beyond existing XML docs.
 Parallelization: Wave 2 | Blocked by: 1 | Blocks: 4
@@ -203,7 +203,7 @@ Acceptance criteria (agent-executable): <code>Select-String -Path src/Services/A
 QA scenarios: happy - all 4 assertions pass; failure - any assertion fails -&gt; fix in place before todo 4 build gate. Evidence <code>.omo/evidence/task-3-toolbox-flatline.txt</code>
 Commit: N | -</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>4. Build gate + audio fix commit
 What to do / Must NOT do: (a) <code>dotnet build</code> at repo root - MUST be clean (0 errors; repo treats style warnings as errors); (b) from this EXACT list stage every path that shows a pending entry in <code>git status --porcelain</code> (some may already be clean - stage only what status shows): <code>src/Services/Audio/SaraconService.cs</code>, <code>src/Services/Audio/DffMetadataStripper.cs</code>, <code>src/App/Program.cs</code> (pre-existing audio-only DI skip + --verbose/--debug strip — battery B9/§3.4, part of audio fix lineage), <code>src/CLI/Audio/SacdConvertCommand.cs</code>, <code>src/CLI/Azure/AzureCommandModule.cs</code> (pre-existing module alignment — battery §3.6, part of audio fix), <code>src/CLI/Azure/SpeechTtsCommand.cs</code> (untracked-new), <code>src/Core/ServiceName.cs</code>, <code>Toolbox.slnx</code>, <code>tools/SacdProbe/</code> (all 5 files, untracked); (c) commit <code>fix(audio): no-retry Saracon conversion, correct DFF chunk offset, skip OAuth for audio-only runs</code>. MUST NOT stage state/, docs/, scratch, or unrelated src drift here.
 Parallelization: Wave 2 | Blocked by: 3 | Blocks: 5,6
@@ -212,7 +212,7 @@ Acceptance criteria (agent-executable): <code>dotnet build</code> exit code 0 wi
 QA scenarios: happy - build clean, commit created, staged set exactly matches; failure - build error -&gt; fix per error (only files from todo 3 may be touched), rebuild, then commit; if unfixable in those files -&gt; HALT with full build log. Evidence <code>.omo/evidence/task-4-toolbox-flatline.txt</code>
 Commit: Y | fix(audio): no-retry Saracon conversion, correct DFF chunk offset, skip OAuth for audio-only runs</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>5. Disc 10 conversion proof (HALT POINT - user runs Saracon step)
 What to do / Must NOT do: (a) Agent precondition check: verify saracon/sox/sacd_extract binaries resolve (<code>Get-Command</code> or PATH check matching <code>ProcessRunner.IsOnPath</code> logic) and record current session interactivity (<code>query session</code> / <code>(Get-Process -Id $PID).SessionId</code>); (b) present the user EXACTLY this block to run in their INTERACTIVE terminal: <code>dotnet run --project C:\Users\Lance\Dev\Toolbox\src\App -- --verbose audio sacd-convert &quot;&lt;path-to-Disc-10.iso&gt;&quot;</code> plus cleanup-first if prior death-loop residue: <code>Get-Process saracon -ErrorAction SilentlyContinue | Stop-Process -Force; Remove-Item &quot;&lt;disc10-dir&gt;\Disc 10*.wav&quot;,&quot;&lt;disc10-dir&gt;\Disc 10*_clean.dff&quot; -ErrorAction SilentlyContinue</code>; (c) HALT execution (report &quot;waiting for user Disc-10 run&quot;) until the user confirms the run finished; (d) then agent verifies from <code>logs/audio.jsonl</code>: sequence <code>Saracon.Id3Detected</code> -&gt; <code>DffMetadataStripper.Complete</code> -&gt; <code>ProcessRunner.Complete exitCode=0</code> -&gt; <code>Saracon.ConvertComplete</code>, ZERO retry entries (<code>Select-String 'retry' -CaseSensitive:$false</code> count 0 in Saracon entries), output file exists and size &gt;= 50% of expected (expected ~500MB+ for the 3GB DFF; assert <code>Length -gt 250MB</code>); (e) record the verified log excerpt + file size to evidence. MUST NOT run the conversion from the agent session itself (Saracon GUI dies without attached desktop - spec §2.3); MUST NOT proceed past this todo on verification failure - HALT with the failing log lines.
 Parallelization: Wave 3 | Blocked by: 4 | Blocks: 6
@@ -221,7 +221,7 @@ Acceptance criteria (agent-executable): evidence contains the 4 log events in or
 QA scenarios: happy - all 4 assertions pass after user run; failure - missing event / retry entries / undersized output -&gt; HALT, attach last 50 log lines, do not continue to todo 6. Evidence <code>.omo/evidence/task-5-toolbox-flatline.txt</code>
 Commit: N | -</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>6. Commit remaining src working-state drift (build-gated)
 What to do / Must NOT do: (a) stage ALL remaining modified/deleted files under <code>src/</code> plus modified <code>Directory.Packages.props</code> if present in status (this is accumulated working state - battery priority #1: it survives); (b) <code>dotnet build</code> clean; (c) commit <code>chore: sync working-state source changes</code>; (d) ON BUILD FAILURE: <code>git reset HEAD~1</code> (keep files in working tree), record the exact build errors, HALT with report - do NOT revert/checkout user files. MUST NOT stage state/, docs/, scratch here.
 Parallelization: Wave 4 | Blocked by: 5 | Blocks: 13
@@ -230,7 +230,7 @@ Acceptance criteria (agent-executable): after commit, <code>git status --porcela
 QA scenarios: happy - staged, built, committed, src/ clean; failure - build fails -&gt; reset commit, HALT with errors (working tree intact). Evidence <code>.omo/evidence/task-6-toolbox-flatline.txt</code>
 Commit: Y | chore: sync working-state source changes</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>7. State commit - routine youtube churn
 What to do / Must NOT do: stage <code>state/youtube/processed/*</code> + <code>state/youtube/raw/*</code> + <code>state/youtube/manifest.json</code> (tracked+modified - Metis finding: it belongs to routine churn and MUST be in one of the three state commits; all modified/new/deleted entries under those paths only); commit <code>chore(state): youtube sync state update (processed+raw)</code>. MUST NOT include <code>deleted/</code> or <code>merge-manifests/</code> (todo 8).
 Parallelization: Wave 4 | Blocked by: 6 | Blocks: 13
@@ -239,7 +239,7 @@ Acceptance criteria (agent-executable): <code>git status --porcelain -- state/yo
 QA scenarios: happy - clean path assertion; failure - staging error -&gt; <code>git reset</code>, re-stage with explicit pathspecs, retry once, else HALT. Evidence <code>.omo/evidence/task-7-toolbox-flatline.txt</code>
 Commit: Y | chore(state): youtube sync state update (processed+raw)</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>8. State commit - irreversible subset (deleted + merge-manifests), diff-reviewed
 What to do / Must NOT do: (a) <code>git diff -- state/youtube/deleted state/youtube/merge-manifests</code> AND <code>git status --porcelain -- state/youtube/deleted state/youtube/merge-manifests</code> - write full output to evidence and inspect every entry (these are one-way consolidation decisions - battery A6 warning: renamed records like <code>Gunter Wand</code> vs <code>Günter Wand</code> indicate hand edits); (b) stage both dirs; commit <code>chore(state): youtube deletions + merge manifests (reviewed)</code>. MUST NOT skip the diff capture; if diff shows JSON that fails to parse (<code>jaq</code> each file), HALT and report the corrupt file instead of committing.
 Parallelization: Wave 4 | Blocked by: 6 | Blocks: 13
@@ -248,7 +248,7 @@ Acceptance criteria (agent-executable): evidence contains full diff + per-file <
 QA scenarios: happy - diff captured, all JSON parses, committed; failure - unparseable JSON or diff capture failed -&gt; HALT with file name. Evidence <code>.omo/evidence/task-8-toolbox-flatline.txt</code>
 Commit: Y | chore(state): youtube deletions + merge manifests (reviewed)</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>9. State commit - dashboard + lastfm
 What to do / Must NOT do: stage <code>state/dashboard/*</code> + <code>state/lastfm/*</code>; commit <code>chore(state): dashboard + lastfm state update</code>. MUST NOT include youtube paths.
 Parallelization: Wave 4 | Blocked by: 6 | Blocks: 13
@@ -257,7 +257,7 @@ Acceptance criteria (agent-executable): <code>git status --porcelain -- state/da
 QA scenarios: happy - clean assertion; failure - staging error -&gt; reset, retry once, else HALT. Evidence <code>.omo/evidence/task-9-toolbox-flatline.txt</code>
 Commit: Y | chore(state): dashboard + lastfm state update</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>10. Docs correction + journal relocation
 What to do / Must NOT do: (a) identify every doc asserting the rejected UTF-8 root cause: <code>Select-String -Path docs/superpowers/plans/*.md,docs/plans/*.md,docs/athena/specs/*.md -Pattern 'UTF-8|65001|codepage' -List</code>; (b) at the TOP of each matching file insert exactly this banner (then a blank line): <code>&gt; **CORRECTION (2026-08-11):** The UTF-8/ACP root cause claimed here was REJECTED by probe run #4 (all-PASS with ACP=65001). Verified root cause: ID3 chunks in DFF + Saracon retry self-restart loop, compounded by non-interactive session GUI failure. Evidence: docs/superpowers/audits/sacd-probe-journal.md. Do not restate the UTF-8 hypothesis as settled.</code>; (c) <code>Move-Item .superpowers/audit/sacd-probe-journal.md docs/superpowers/audits/sacd-probe-journal.md</code>; (d) leave all other docs bytes untouched. MUST NOT delete any doc (answered B5: correct with note, never delete).
 Parallelization: Wave 5 | Blocked by: 2 | Blocks: 11
@@ -266,7 +266,7 @@ Acceptance criteria (agent-executable): every file that matched in (a) now match
 QA scenarios: happy - banner in all matches, journal moved, untouched set hash-identical; failure - zero files matched the UTF-8 pattern -&gt; HALT and report (assumption wrong), do not guess. Evidence <code>.omo/evidence/task-10-toolbox-flatline.txt</code>
 Commit: Y | docs(audio): correct rejected UTF-8 root cause; relocate probe journal</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>11. Flatline .omo + .superpowers + scratch
 What to do / Must NOT do: (a) delete root scratch: <code>SACD errors.md</code>, <code>youtube-sync-log.md</code>, <code>.athena-state.json</code> (all untracked - deletion produces NO git entry); (b) delete <code>.superpowers/</code> entirely (oci SDD archived in todo 2, journal rescued in todo 10, v2 spec rescued in todo 2 - verify all three receipts before removal; only the journal is TRACKED, its deletion stages; sdd/** is untracked - vanishes silently by design); (c) delete everything in <code>.omo/</code> EXCEPT <code>plans/toolbox-flatline.md</code>, <code>drafts/toolbox-flatline.md</code>, and <code>evidence/**</code> (this deletes: <code>Plan.md</code>, <code>plans/GIT-CLEANUP-DECISION-BATTERY.md</code>, <code>plans/SACD-FIX-FINAL-REPORT.md</code>, <code>plans/oracle-sacd-verification.md</code>, <code>plans/aws-translate/**</code>, <code>plans/reader/**</code> - all UNTRACKED, vanish silently - and the TRACKED deletions <code>.omo/goal/**</code> + <code>.omo/ulw-loop/**</code> which MUST be staged; <code>run-continuation/**</code> is gitignored, vanishes silently); (d) update <code>AGENTS.md</code> line <code>**Generated:** ... | **Branch:** master</code> -&gt; replace <code>master</code> with <code>main</code> on that line only;   (e) staging (Metis-corrected reality): <code>git add -A .omo .superpowers AGENTS.md .gitignore</code> (Metis R3 note: <code>.gitignore</code> included only if <code>git status</code> shows it modified — verify before staging; if clean, omit from pathspec) plus stage the tracked deletion <code>SACD.red.md</code> if present in status, plus CATCH-ALL: run <code>git status --porcelain</code> and stage ANY remaining tracked entry (line NOT starting with <code>??</code>) whose path is outside <code>src/</code> and <code>state/</code> (those closed in todos 4/6/7/8/9) into this same commit - list every such catch-all path in evidence; (f) commit <code>chore: flatline agent artifacts, delete scratch, docs hygiene</code>. MUST NOT delete <code>.omo/evidence/**</code>, the plan, or the draft; MUST NOT touch <code>C:\Users\Lance\.omo</code> or <code>C:\Users\Lance\Dev\.omo</code>; evidence files stay UNTRACKED (never stage <code>.omo/evidence</code>).
 Parallelization: Wave 5 | Blocked by: 2,10 | Blocks: 12
@@ -275,7 +275,7 @@ Acceptance criteria (agent-executable): <code>Test-Path .superpowers</code> fals
 QA scenarios: happy - all assertions pass, commit created; failure - any rescue receipt from todo 2/10 missing -&gt; HALT before deletion. Evidence <code>.omo/evidence/task-11-toolbox-flatline.txt</code>
 Commit: Y | chore: flatline agent artifacts, delete scratch, docs hygiene</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>12. Remove worktrees, branches, stash (post-rescue)
 What to do / Must NOT do: (a) dirty pre-check FIRST (Metis): <code>git -C .worktrees/youtube-duplicate-playlist-merge status --porcelain</code> -&gt; record full output to evidence (expected: deletions/mods reflecting its OLD fully-merged state; valueless because branch has 0 unique commits), then <code>git worktree remove --force .worktrees/youtube-duplicate-playlist-merge</code>; (b) delete nested repro dir: <code>Remove-Item -Recurse -Force Toolbox-sacd-repro</code> ONLY after re-verifying todo 2 receipts (v2 spec + SacdProbe + archive all present) - its unique content is the repro branch history, preserved in <code>.git</code> until (d); the filesystem delete + <code>git worktree prune</code> in (c) is the sanctioned two-step for this already-stale admin record; (c) <code>git worktree prune</code> (clears oci-arr-repair ghost + stale Toolbox-sacd-repro admin record); (d) <code>git branch -d feat/youtube-duplicate-merge feature/process-runner-streaming oci-arr-exhaustive-repair</code> (all 0 unique commits - <code>-d</code> must succeed WITHOUT <code>-D</code>; if any refuses, HALT - that means unmerged work appeared); then <code>git branch -D sacd-deathloop-repro</code> (rescue complete, fixes committed in todo 4); (e) <code>git stash drop stash@{0}</code> (Metis-verified: stash holds only stale <code>.omo/goal</code>/<code>.omo/ulw-loop</code> modifications - files this plan deletes; obsolete by construction); (f) verify <code>git worktree list</code> shows exactly 1 line and <code>git branch</code> shows exactly <code>* master</code>. Scope = 3 non-main worktrees (2 live + 1 ghost) + 4 branches. MUST NOT use <code>-D</code> on the three merged branches; MUST NOT run before todo 11.
 Parallelization: Wave 6 | Blocked by: 2,11 | Blocks: 13
@@ -284,7 +284,7 @@ Acceptance criteria (agent-executable): <code>(git worktree list | Measure-Objec
 QA scenarios: happy - all counts exact; failure - <code>-d</code> refusal on a merged branch -&gt; HALT, run <code>git log master..&lt;branch&gt;</code> and report (assumption broken). Evidence <code>.omo/evidence/task-12-toolbox-flatline.txt</code>
 Commit: N | -</p>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>13. Squash the 15 unpushed commits by adjacent topic (two-pass rebase, NO reordering)</p>
 <blockquote>
 <p>NOTE (Momus fix): the &quot;What to do&quot; below was originally a single 3306-char line. If your Read tool truncates at 2000 chars, read the full content with: <code>Get-Content .omo/plans/toolbox-flatline.md | Select-Object -Skip 180 -First 1</code> or break it into sub-lines (already done below).
@@ -304,7 +304,7 @@ QA scenarios: happy - tree-identical diff proof + grouping assertion pass; failu
 Commit: N | (history rewrite; verified tree-identical via backup tag diff)</p>
 </blockquote>
 </li>
-<li><input type="checkbox" disabled="" /> 
+<li><input type="checkbox" disabled="" />
 <p>14. Rename master -&gt; main, push, GitHub default switch, delete origin/master
 What to do / Must NOT do: (a) <code>git branch -m master main</code>; (b) <code>git push -u origin main</code>; (c) switch GitHub default: first pre-check <code>Get-Command gh -ErrorAction SilentlyContinue</code> (Metis R3: upfront gh availability), then <code>gh api -X PATCH repos/Bearmancer/Toolbox -f default_branch=main</code>; (d) IF (c) succeeded (verify via <code>gh api repos/Bearmancer/Toolbox --jq .default_branch</code> == <code>main</code>): <code>git push origin --delete master</code>; ELSE (gh missing/unauthenticated/API error): record follow-up line <code>FOLLOW-UP: GitHub default branch still master; switch manually then: git push origin --delete master</code> in evidence and KEEP origin/master - do NOT delete; (e) delete backup tag only after (b) succeeds: <code>git tag -d backup/pre-flatline-squash</code>; (f) final state capture: <code>git branch -a</code>, <code>git worktree list</code>, <code>git status --porcelain</code>, <code>git log --oneline -12</code> to evidence. MUST NOT force-push; MUST NOT delete origin/master unless default switch verified.
 Parallelization: Wave 6 | Blocked by: 13 | Blocks: F1-F4

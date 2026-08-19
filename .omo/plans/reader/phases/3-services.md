@@ -65,17 +65,21 @@ public sealed class SiteResolver
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 - Use `.Contains()` for SSRF check (only `.EndsWith()` and `.StartsWith()`)
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add SiteResolver with SSRF protection`
@@ -88,25 +92,31 @@ Expected: Clean build
 Create `src/Services/Reader/OpenAccessResolver.cs` with 9 provider methods (OpenAlex, CORE, GetFTR, Semantic Scholar, CrossRef, arXiv, PMC, OpenAIRE, EuropePMC). Each method has rate limiting via SemaphoreSlim.
 
 **Key points:**
+
 - Uses inline foreach loop (not FallbackChain<T> — that's private to PdfFetcher)
 - 10 req/s throttle via SemaphoreSlim(10, 10)
 - Each provider returns `ErrorOr<string?>` (URL or null)
 
 **References:**
+
 - Master plan Section 6d for full implementation
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 - Use FallbackChain<T> (not accessible here)
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add OpenAccessResolver with 9 providers`
@@ -117,32 +127,39 @@ Expected: Clean build
 
 **What to do:**
 Create `src/Services/Reader/PdfFetcher.cs` with 4-tier fallback chain:
+
 1. HttpClient (free, always tried first)
 2. Scraping API (paid, requires API key)
 3. HttpCloak (HTTP/3+QUIC)
 4. Browser (Patchright + GhostNoise + CaptchaSolver + AnubisPowSolver)
 
 **Key points:**
+
 - FallbackChain<T> is a PRIVATE NESTED CLASS inside PdfFetcher (~15 LOC)
 - ResiliencePipelineFactory methods are PRIVATE STATIC METHODS inside PdfFetcher (~50 LOC)
 - Size + %PDF guard after EVERY tier
 - MaxFileSizeMb = 100
 
 **References:**
+
 - Master plan Section 6c for full implementation
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 - Separate FallbackChain<T> into its own file (only consumer)
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add PdfFetcher with 4-tier fallback`
@@ -187,16 +204,20 @@ public sealed class BlobUploader
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add BlobUploader with SHA-256 dedup`
@@ -272,16 +293,20 @@ public sealed class ReaderService
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add ReaderService orchestrator`

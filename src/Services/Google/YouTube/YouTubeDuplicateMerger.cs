@@ -43,14 +43,12 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 			allCurrentPlaylists
 		);
 
-		Telemetry.Info(
-			"Duplicate merge: {GroupCount} duplicate group(s) detected across {PlaylistCount} playlists",
-			groups.Count,
-			allCurrentPlaylists.Count
-		);
-
 		if (groups.Count == 0)
 		{
+			Telemetry.Debug(
+				"Duplicate merge: 0 duplicate group(s) detected across {PlaylistCount} playlists",
+				allCurrentPlaylists.Count
+			);
 			activity.Complete(Serilog.Events.LogEventLevel.Debug);
 			return new DuplicateMergeOutcome(
 				Survivors: allCurrentPlaylists,
@@ -60,6 +58,12 @@ public class YouTubeDuplicateMerger(YouTubePlaylistService playlistService)
 				GroupsDeferred: 0
 			);
 		}
+
+		Telemetry.Info(
+			"Duplicate merge: {GroupCount} duplicate group(s) detected across {PlaylistCount} playlists",
+			groups.Count,
+			allCurrentPlaylists.Count
+		);
 
 		List<PlaylistSnapshot> survivors = [.. allCurrentPlaylists];
 		List<PlaylistSnapshot> removedLosers = [];

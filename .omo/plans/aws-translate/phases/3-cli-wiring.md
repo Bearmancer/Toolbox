@@ -42,20 +42,25 @@ public sealed class TranslateCommand(AwsTranslateService service) : AsyncCommand
 ```
 
 **Must NOT:**
+
 - Add Azure types or references
 - Use block-scoped namespaces
 - Add comments
 
 **References:**
+
 - `src/CLI/Azure/TranslateCommand.cs:1-40`
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds (after project reference added)
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(amazon): add CLI aws translate command`
@@ -84,20 +89,25 @@ public static class AwsCommandModule
 ```
 
 **Must NOT:**
+
 - Add other commands yet
 - Use block-scoped namespaces
 - Add comments
 
 **References:**
+
 - `src/CLI/Azure/AzureCommandModule.cs:1-18`
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(amazon): add AwsCommandModule for CLI aws branch`
@@ -108,28 +118,34 @@ Expected: Clean build
 
 **What to do:**
 In `src/App/Program.cs`:
+
 1. Add `using CLI.AWS;` and `using Services.Amazon;`
 2. Call `services.AddAmazonServices()` after `services.AddGoogleServices()`
 3. Call `AwsCommandModule.ConfigureCommands(cfg)` in the `app.Configure` block
 
 **Must NOT:**
+
 - Move or reorder existing Azure/Google registrations
 - Change try/catch error handling
 - Add comments
 
 **References:**
+
 - `src/App/Program.cs:36-58`
 - `src/App/App.csproj:1-15`
 
 **Acceptance criteria:**
+
 - `dotnet build src/App/App.csproj` succeeds
 - `dotnet run --project src/App -- aws translate --help` shows command description
 
 **QA:**
+
 ```bash
 dotnet build src/App/App.csproj
 dotnet run --project src/App -- aws translate --help
 ```
+
 Expected: Build succeeds, help output shows "AWS services — translation"
 
 **Commit:** `feat(amazon): wire Amazon services and CLI into App`
@@ -142,20 +158,25 @@ Expected: Build succeeds, help output shows "AWS services — translation"
 Add `<ProjectReference Include="..\Services\Amazon\Amazon.csproj" />` to `src/CLI/CLI.csproj`.
 
 **Must NOT:**
+
 - Add to App.csproj (transitive through CLI.csproj)
 - Remove existing references
 - Change order of existing references
 
 **References:**
+
 - `src/CLI/CLI.csproj:1-13`
 
 **Acceptance criteria:**
+
 - `dotnet build src/CLI/CLI.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/CLI/CLI.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `chore(amazon): add project reference for Services.Amazon`
@@ -174,18 +195,23 @@ In `src/Core/Telemetry.cs`, add after existing Whisper sink (line 90):
 ```
 
 **Must NOT:**
+
 - Modify existing sinks
 
 **References:**
+
 - `src/Core/Telemetry.cs:27-92`
 
 **Acceptance criteria:**
+
 - `dotnet build src/Core/Core.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Core/Core.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(telemetry): add per-service JSONL sink for AWS`

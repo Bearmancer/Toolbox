@@ -15,6 +15,7 @@ Add inside `<ItemGroup>` after `SSH.NET`:
 **Acceptance:** `dotnet restore` succeeds.
 
 **QA:**
+
 ```bash
 dotnet restore
 ```

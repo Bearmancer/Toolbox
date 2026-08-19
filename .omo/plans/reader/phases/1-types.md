@@ -22,20 +22,25 @@ Create `src/Services/Reader/Reader.csproj`:
 ```
 
 **Key decisions:**
+
 - No Shared.csproj (YAGNI for solo dev)
 - All browser/anti-detection files live directly in `src/Services/Reader/`
 - FallbackChain<T> and ResiliencePipelineFactory inlined into PdfFetcher (only consumer)
 
 **References:**
+
 - `src/Services/Azure/Azure.csproj:1-18` (pattern to mirror)
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds (even with empty .cs files)
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add Services.Reader project skeleton`
@@ -60,16 +65,20 @@ public sealed record DownloadConfig
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add DownloadConfig record`
@@ -101,16 +110,20 @@ public sealed record DownloadResult
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add DownloadResult record`
@@ -138,16 +151,20 @@ public sealed record BrowserPage(IPage Page, IBrowserContext Context) : IAsyncDi
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add BrowserPage record`
@@ -182,16 +199,20 @@ public sealed class ReaderCredentials
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add ReaderCredentials`
@@ -242,16 +263,20 @@ public sealed class ReaderState
 ```
 
 **Must NOT:**
+
 - Use block-scoped namespaces
 - Add comments
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Reader/Reader.csproj` succeeds
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Reader/Reader.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(reader): add ReaderState with atomic write`

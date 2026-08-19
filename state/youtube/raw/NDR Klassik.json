@@ -1,300 +1,300 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "0hvqer4LlUY",
-			"VideoPublishedAtRaw": "2021-10-19T12:47:54Z",
-			"VideoPublishedAtDateTimeOffset": "2021-10-19T12:47:54+00:00",
-			"VideoPublishedAt": "2021-10-19T18:17:54+05:30"
-		},
-		"ETag": "h1hbckarkmv3Hb5cD0E-wnzz7A8",
-		"Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "John Eliot Gardiner und das NDR Elbphilharmonie Orchester (damals: NDR Sinfonieorchester) spielen Anton Bruckners \u0022Te Deum\u0022. Ein Konzertmitschnitt vom Schleswig-Holstein Musik Festival im Jahr 1993. \n\nDie Solisten des Konzerts sind Katarina Dalayman, Sopran, Susan Graham, Mezzosopran, David Maxwell Anderson, Tenor und Peter Rose, Bass.\n\nANTON BRUCKNER\nTe Deum  00:00\nI. Te Deum laudamus  00:01\nII. Te ergo quaesumus  05:28\nIII. Aeterna fac  07:52\nIV. Salvum fac populum tuum  09:18\nV. In te, Domine, speravi  15:34\n\nJohn Eliot Gardiner, Dirigent\nKatarina Dalayman, Sopran\nSusan Graham, Mezzosopran\nDavid Maxwell Anderson, Tenor\nPeter Rose, Bass\nNDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester)\nMonteverdi Choir London\nNDR Chor (heute: NDR Vokalensemble)\n\nAbschlusskonzert Schleswig-Holstein Musik Festival, St. Marien, L\u00FCbeck, August 1993 \n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilha... \nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #johneliotgardiner #antonbruckner",
-			"PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
-			"Position": 0,
-			"PublishedAtRaw": "2024-05-14T19:06:08Z",
-			"PublishedAtDateTimeOffset": "2024-05-14T19:06:08+00:00",
-			"PublishedAt": "2024-05-15T00:36:08+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "0hvqer4LlUY"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/0hvqer4LlUY/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/0hvqer4LlUY/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/0hvqer4LlUY/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/0hvqer4LlUY/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Bruckner: \u0022Te Deum\u0022 mit John Eliot Gardiner | SHMF 1993 | NDR Elbphilharmonie Orchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "-jR511QrB6w"
-		},
-		"ETag": "R84tnJ69bCBtCa4iBX4y42LC-s8",
-		"Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi4zRDBDOEZDOUM0MDY5NEEz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This video is private.",
-			"PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
-			"Position": 1,
-			"PublishedAtRaw": "2024-05-14T19:09:57Z",
-			"PublishedAtDateTimeOffset": "2024-05-14T19:09:57+00:00",
-			"PublishedAt": "2024-05-15T00:39:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "-jR511QrB6w"
-			},
-			"Thumbnails": {},
-			"Title": "Private video"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "zQOtDTfjAJU",
-			"VideoPublishedAtRaw": "2023-11-17T11:07:10Z",
-			"VideoPublishedAtDateTimeOffset": "2023-11-17T11:07:10+00:00",
-			"VideoPublishedAt": "2023-11-17T16:37:10+05:30"
-		},
-		"ETag": "MHXm0vDRvDMFIbQPWUIpOd4ze3M",
-		"Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi42MTI4Njc2QjM1RjU1MjlG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Gemeinsam mit ihrem ehemaligen Chefdirigenten Eiji Oue (Amtszeit von 1998 bis 2009) und Pianist Frank Dupree interpretiert die NDR Radiophilharmonie George Gershwins Concerto in F f\u00FCr Klavier und Orchester. \n\nEin Konzertausschnitt vom 12. Oktober 2023 aus dem Gro\u00DFen Sendesaal des NDR in Hannover.\n\nGEORGE GERSHWIN\nConcerto in F f\u00FCr Klavier und Orchester  00:00\nI. Allegro  00:01\nII. Adagio - Andante con moto  13:49\nIII. Allegro agitato  26:58\n\nEiji Oue, Dirigent\nFrank Dupree, Klavier\nNDR Radiophilharmonie\n\nWeitere Informationen:\nWebsite: https://www.ndr.de/radiophilharmonie\nFacebook: https://www.facebook.com/NDRRadiophilharmonie\n\n#ndrradiophilharmonie #gershwin #eijioue #frankdupree",
-			"PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
-			"Position": 2,
-			"PublishedAtRaw": "2024-05-14T19:10:11Z",
-			"PublishedAtDateTimeOffset": "2024-05-14T19:10:11+00:00",
-			"PublishedAt": "2024-05-15T00:40:11+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "zQOtDTfjAJU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Gershwin: Concerto in F f\u00FCr Klavier und Orchester | Eiji Oue | Frank Dupree | NDR Radiophilharmonie",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "T2HCnAy74EM"
-		},
-		"ETag": "R-A-p0HSW-WjPLHDuapmUqdUKcI",
-		"Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi5DNkMwRUI2MkI4QkI4NDFG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "This video is private.",
-			"PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
-			"Position": 3,
-			"PublishedAtRaw": "2024-05-14T19:11:39Z",
-			"PublishedAtDateTimeOffset": "2024-05-14T19:11:39+00:00",
-			"PublishedAt": "2024-05-15T00:41:39+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "T2HCnAy74EM"
-			},
-			"Thumbnails": {},
-			"Title": "Private video"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "k3yWqgl9lkg",
-			"VideoPublishedAtRaw": "2016-05-09T09:47:36Z",
-			"VideoPublishedAtDateTimeOffset": "2016-05-09T09:47:36+00:00",
-			"VideoPublishedAt": "2016-05-09T15:17:36+05:30"
-		},
-		"ETag": "gjhA-lDVhIm3h-a9ZDvcdvq4jGI",
-		"Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi5DRUQwODMxQzUyRTlGRkY3",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "2014 f\u00FChren das NDR Elbphilharmonie Orchester gemeinsam mit NDR Chor und Berliner Rundfunkchor unter Leitung von Thomas Hengelbrock Brahms\u0027 Triumphlied auf. Das Werk wurde nur selten zur Auff\u00FChrung gebracht.\n\nhttp://www.ndr.de/elbphilharmonieorchester",
-			"PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
-			"Position": 4,
-			"PublishedAtRaw": "2024-05-14T19:11:44Z",
-			"PublishedAtDateTimeOffset": "2024-05-14T19:11:44+00:00",
-			"PublishedAt": "2024-05-15T00:41:44+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "k3yWqgl9lkg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Brahms: Triumphlied mit Hengelbrock | NDR",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "3yNT2NJykZ4",
-			"VideoPublishedAtRaw": "2016-07-18T11:41:29Z",
-			"VideoPublishedAtDateTimeOffset": "2016-07-18T11:41:29+00:00",
-			"VideoPublishedAt": "2016-07-18T17:11:29+05:30"
-		},
-		"ETag": "CgjNkvqxyLwjF4WyoEXcvYhG_dk",
-		"Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi41MzY4MzcwOUFFRUU3QzEx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Beim Er\u00F6ffnungskonzert des Schleswig-Holstein Musik Festivals spielt das NDR Elbphilharmonie Orchester unter Leitung von Thomas Hengelbrock die gefeierte \u0022Oxford\u0022-Sinfonie von Joseph Haydn.\n\nJOSEPH HAYDN\nSinfonie G-Dur Hob. I:92 \u0022Oxford\u0022\n\nThomas Hengelbrock, Dirigent\nNDR Elbphilharmonie Orchester\n\nMitschitt des Konzerts vom 3. Juli 2016, Musik- und Kongresshalle L\u00FCbeck\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo/",
-			"PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
-			"Position": 5,
-			"PublishedAtRaw": "2024-05-14T19:11:52Z",
-			"PublishedAtDateTimeOffset": "2024-05-14T19:11:52+00:00",
-			"PublishedAt": "2024-05-15T00:41:52+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "3yNT2NJykZ4"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Haydn: \u0022Oxford\u0022-Sinfonie Nr. 92  (SHMF 2016) | NDR Elbphilharmonie Orchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "Yl4oW0OqpFo",
-			"VideoPublishedAtRaw": "2022-02-16T09:27:06Z",
-			"VideoPublishedAtDateTimeOffset": "2022-02-16T09:27:06+00:00",
-			"VideoPublishedAt": "2022-02-16T14:57:06+05:30"
-		},
-		"ETag": "4QAbtx64w6uvkAzYid95Y6lnyVo",
-		"Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi4xMzgwMzBERjQ4NjEzNUE5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Joseph Joachims Ouvert\u00FCre zu Shakespeares \u0022Heinrich IV.\u0022 op. 7 spielte die NDR Radiophilharmonie als Er\u00F6ffnungsst\u00FCck bei den \u0022Hannover Proms\u0022 2021 unter der Leitung von Chefdirigent Andrew Manze. Die Ouvert\u00FCre ist etwas ganz Besonderes, denn sie ist nicht nur sehr selten zu h\u00F6ren, sondern auch ein echt \u201Ehannoversches Kind\u201C. Joseph Joachim \u2013 weltber\u00FChmter Geiger und wenig ber\u00FChmter Komponist \u2013 schrieb sie in seiner Zeit als junger Konzertmeister der Hannoverschen Hofkapelle. Und im Hoftheater erlebte das schwungvolle Werk 1855 auch seine Urauff\u00FChrung.\n\nJOSEPH JOACHIM\nOuvert\u00FCre zu Shakespeares \u0022Heinrich IV.\u0022 op. 7\n\nAndrew Manze, Dirigent\nNDR Radiophilharmonie\n\nMItschnitt vom 11. September 2021, Kuppelsaal - Hannover Congress Centrum\n\nFoto: Axel Herzig\n\nWebsite: https://www.ndr.de/radiophilharmonie\nFacebook: https://www.facebook.com/NDRRadiophilharmonie\n\n#shakespeare #josephjoachim #ndrradiophilharmonie",
-			"PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
-			"Position": 6,
-			"PublishedAtRaw": "2024-12-12T00:46:36Z",
-			"PublishedAtDateTimeOffset": "2024-12-12T00:46:36+00:00",
-			"PublishedAt": "2024-12-12T06:16:36+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Yl4oW0OqpFo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Joseph Joachim: Ouvert\u00FCre zu Shakespeares \u0022Heinrich IV.\u0022 mit Andrew Manze | NDR Radiophilharmonie",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "0hvqer4LlUY",
+      "VideoPublishedAtRaw": "2021-10-19T12:47:54Z",
+      "VideoPublishedAtDateTimeOffset": "2021-10-19T12:47:54+00:00",
+      "VideoPublishedAt": "2021-10-19T18:17:54+05:30"
+    },
+    "ETag": "h1hbckarkmv3Hb5cD0E-wnzz7A8",
+    "Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "John Eliot Gardiner und das NDR Elbphilharmonie Orchester (damals: NDR Sinfonieorchester) spielen Anton Bruckners \u0022Te Deum\u0022. Ein Konzertmitschnitt vom Schleswig-Holstein Musik Festival im Jahr 1993. \n\nDie Solisten des Konzerts sind Katarina Dalayman, Sopran, Susan Graham, Mezzosopran, David Maxwell Anderson, Tenor und Peter Rose, Bass.\n\nANTON BRUCKNER\nTe Deum  00:00\nI. Te Deum laudamus  00:01\nII. Te ergo quaesumus  05:28\nIII. Aeterna fac  07:52\nIV. Salvum fac populum tuum  09:18\nV. In te, Domine, speravi  15:34\n\nJohn Eliot Gardiner, Dirigent\nKatarina Dalayman, Sopran\nSusan Graham, Mezzosopran\nDavid Maxwell Anderson, Tenor\nPeter Rose, Bass\nNDR Sinfonieorchester (heute: NDR Elbphilharmonie Orchester)\nMonteverdi Choir London\nNDR Chor (heute: NDR Vokalensemble)\n\nAbschlusskonzert Schleswig-Holstein Musik Festival, St. Marien, L\u00FCbeck, August 1993 \n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilha... \nInstagram: https://www.instagram.com/ndr.eo \n\n#ndrelbphilharmonieorchester #johneliotgardiner #antonbruckner",
+      "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
+      "Position": 0,
+      "PublishedAtRaw": "2024-05-14T19:06:08Z",
+      "PublishedAtDateTimeOffset": "2024-05-14T19:06:08+00:00",
+      "PublishedAt": "2024-05-15T00:36:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "0hvqer4LlUY"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/0hvqer4LlUY/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/0hvqer4LlUY/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/0hvqer4LlUY/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/0hvqer4LlUY/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Bruckner: \u0022Te Deum\u0022 mit John Eliot Gardiner | SHMF 1993 | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "-jR511QrB6w"
+    },
+    "ETag": "R84tnJ69bCBtCa4iBX4y42LC-s8",
+    "Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi4zRDBDOEZDOUM0MDY5NEEz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
+      "Position": 1,
+      "PublishedAtRaw": "2024-05-14T19:09:57Z",
+      "PublishedAtDateTimeOffset": "2024-05-14T19:09:57+00:00",
+      "PublishedAt": "2024-05-15T00:39:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "-jR511QrB6w"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "zQOtDTfjAJU",
+      "VideoPublishedAtRaw": "2023-11-17T11:07:10Z",
+      "VideoPublishedAtDateTimeOffset": "2023-11-17T11:07:10+00:00",
+      "VideoPublishedAt": "2023-11-17T16:37:10+05:30"
+    },
+    "ETag": "MHXm0vDRvDMFIbQPWUIpOd4ze3M",
+    "Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi42MTI4Njc2QjM1RjU1MjlG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Gemeinsam mit ihrem ehemaligen Chefdirigenten Eiji Oue (Amtszeit von 1998 bis 2009) und Pianist Frank Dupree interpretiert die NDR Radiophilharmonie George Gershwins Concerto in F f\u00FCr Klavier und Orchester. \n\nEin Konzertausschnitt vom 12. Oktober 2023 aus dem Gro\u00DFen Sendesaal des NDR in Hannover.\n\nGEORGE GERSHWIN\nConcerto in F f\u00FCr Klavier und Orchester  00:00\nI. Allegro  00:01\nII. Adagio - Andante con moto  13:49\nIII. Allegro agitato  26:58\n\nEiji Oue, Dirigent\nFrank Dupree, Klavier\nNDR Radiophilharmonie\n\nWeitere Informationen:\nWebsite: https://www.ndr.de/radiophilharmonie\nFacebook: https://www.facebook.com/NDRRadiophilharmonie\n\n#ndrradiophilharmonie #gershwin #eijioue #frankdupree",
+      "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
+      "Position": 2,
+      "PublishedAtRaw": "2024-05-14T19:10:11Z",
+      "PublishedAtDateTimeOffset": "2024-05-14T19:10:11+00:00",
+      "PublishedAt": "2024-05-15T00:40:11+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "zQOtDTfjAJU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/zQOtDTfjAJU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Gershwin: Concerto in F f\u00FCr Klavier und Orchester | Eiji Oue | Frank Dupree | NDR Radiophilharmonie",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "T2HCnAy74EM"
+    },
+    "ETag": "R-A-p0HSW-WjPLHDuapmUqdUKcI",
+    "Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi5DNkMwRUI2MkI4QkI4NDFG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "This video is private.",
+      "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
+      "Position": 3,
+      "PublishedAtRaw": "2024-05-14T19:11:39Z",
+      "PublishedAtDateTimeOffset": "2024-05-14T19:11:39+00:00",
+      "PublishedAt": "2024-05-15T00:41:39+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "T2HCnAy74EM"
+      },
+      "Thumbnails": {},
+      "Title": "Private video"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "k3yWqgl9lkg",
+      "VideoPublishedAtRaw": "2016-05-09T09:47:36Z",
+      "VideoPublishedAtDateTimeOffset": "2016-05-09T09:47:36+00:00",
+      "VideoPublishedAt": "2016-05-09T15:17:36+05:30"
+    },
+    "ETag": "gjhA-lDVhIm3h-a9ZDvcdvq4jGI",
+    "Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi5DRUQwODMxQzUyRTlGRkY3",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "2014 f\u00FChren das NDR Elbphilharmonie Orchester gemeinsam mit NDR Chor und Berliner Rundfunkchor unter Leitung von Thomas Hengelbrock Brahms\u0027 Triumphlied auf. Das Werk wurde nur selten zur Auff\u00FChrung gebracht.\n\nhttp://www.ndr.de/elbphilharmonieorchester",
+      "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
+      "Position": 4,
+      "PublishedAtRaw": "2024-05-14T19:11:44Z",
+      "PublishedAtDateTimeOffset": "2024-05-14T19:11:44+00:00",
+      "PublishedAt": "2024-05-15T00:41:44+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "k3yWqgl9lkg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/k3yWqgl9lkg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Brahms: Triumphlied mit Hengelbrock | NDR",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "3yNT2NJykZ4",
+      "VideoPublishedAtRaw": "2016-07-18T11:41:29Z",
+      "VideoPublishedAtDateTimeOffset": "2016-07-18T11:41:29+00:00",
+      "VideoPublishedAt": "2016-07-18T17:11:29+05:30"
+    },
+    "ETag": "CgjNkvqxyLwjF4WyoEXcvYhG_dk",
+    "Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi41MzY4MzcwOUFFRUU3QzEx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beim Er\u00F6ffnungskonzert des Schleswig-Holstein Musik Festivals spielt das NDR Elbphilharmonie Orchester unter Leitung von Thomas Hengelbrock die gefeierte \u0022Oxford\u0022-Sinfonie von Joseph Haydn.\n\nJOSEPH HAYDN\nSinfonie G-Dur Hob. I:92 \u0022Oxford\u0022\n\nThomas Hengelbrock, Dirigent\nNDR Elbphilharmonie Orchester\n\nMitschitt des Konzerts vom 3. Juli 2016, Musik- und Kongresshalle L\u00FCbeck\n\nWebsite: https://www.ndr.de/eo\nFacebook: https://www.facebook.com/ndrelbphilharmonieorchester/ \nInstagram: https://www.instagram.com/ndr.eo/",
+      "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
+      "Position": 5,
+      "PublishedAtRaw": "2024-05-14T19:11:52Z",
+      "PublishedAtDateTimeOffset": "2024-05-14T19:11:52+00:00",
+      "PublishedAt": "2024-05-15T00:41:52+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "3yNT2NJykZ4"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/3yNT2NJykZ4/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Haydn: \u0022Oxford\u0022-Sinfonie Nr. 92  (SHMF 2016) | NDR Elbphilharmonie Orchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "Yl4oW0OqpFo",
+      "VideoPublishedAtRaw": "2022-02-16T09:27:06Z",
+      "VideoPublishedAtDateTimeOffset": "2022-02-16T09:27:06+00:00",
+      "VideoPublishedAt": "2022-02-16T14:57:06+05:30"
+    },
+    "ETag": "4QAbtx64w6uvkAzYid95Y6lnyVo",
+    "Id": "UEwxemdOQ29XdF83Wk9HR3FrY0FRcklscTd5dWRsaDlCQi4xMzgwMzBERjQ4NjEzNUE5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Joseph Joachims Ouvert\u00FCre zu Shakespeares \u0022Heinrich IV.\u0022 op. 7 spielte die NDR Radiophilharmonie als Er\u00F6ffnungsst\u00FCck bei den \u0022Hannover Proms\u0022 2021 unter der Leitung von Chefdirigent Andrew Manze. Die Ouvert\u00FCre ist etwas ganz Besonderes, denn sie ist nicht nur sehr selten zu h\u00F6ren, sondern auch ein echt \u201Ehannoversches Kind\u201C. Joseph Joachim \u2013 weltber\u00FChmter Geiger und wenig ber\u00FChmter Komponist \u2013 schrieb sie in seiner Zeit als junger Konzertmeister der Hannoverschen Hofkapelle. Und im Hoftheater erlebte das schwungvolle Werk 1855 auch seine Urauff\u00FChrung.\n\nJOSEPH JOACHIM\nOuvert\u00FCre zu Shakespeares \u0022Heinrich IV.\u0022 op. 7\n\nAndrew Manze, Dirigent\nNDR Radiophilharmonie\n\nMItschnitt vom 11. September 2021, Kuppelsaal - Hannover Congress Centrum\n\nFoto: Axel Herzig\n\nWebsite: https://www.ndr.de/radiophilharmonie\nFacebook: https://www.facebook.com/NDRRadiophilharmonie\n\n#shakespeare #josephjoachim #ndrradiophilharmonie",
+      "PlaylistId": "PL1zgNCoWt_7ZOGGqkcAQrIlq7yudlh9BB",
+      "Position": 6,
+      "PublishedAtRaw": "2024-12-12T00:46:36Z",
+      "PublishedAtDateTimeOffset": "2024-12-12T00:46:36+00:00",
+      "PublishedAt": "2024-12-12T06:16:36+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Yl4oW0OqpFo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Yl4oW0OqpFo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Joseph Joachim: Ouvert\u00FCre zu Shakespeares \u0022Heinrich IV.\u0022 mit Andrew Manze | NDR Radiophilharmonie",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  }
 ]

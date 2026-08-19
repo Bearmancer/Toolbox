@@ -25,23 +25,28 @@ public sealed class AwsCredentials
 ```
 
 **Must NOT:**
+
 - Store AWS keys (only region)
 - Use block-scoped namespaces
 - Add comments
 
 **References:**
+
 - `src/Services/Azure/AzureCredentials.cs:1-43`
 - `src/Services/Google/GoogleCredentials.cs:1-17`
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Amazon/Amazon.csproj` succeeds
 - Setting `AWS_REGION=us-east-1` and instantiating `AwsCredentials.Read()` returns valid object
 
 **QA:**
+
 ```bash
 $env:AWS_REGION="us-east-1"
 dotnet build src/Services/Amazon/Amazon.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(amazon): add AwsCredentials reading AWS_REGION from env`
@@ -91,22 +96,27 @@ public sealed class AwsTranslateService(IAmazonTranslate client)
 ```
 
 **Must NOT:**
+
 - Add Azure SDK types
 - Use block-scoped namespaces
 - Add comments
 
 **References:**
+
 - `src/Services/Azure/TranslateService.cs:1-60`
 - `src/Core/Telemetry.cs:100-101`
 
 **Acceptance criteria:**
+
 - `dotnet build src/Services/Amazon/Amazon.csproj` succeeds
 - `AwsTranslateResult` is `sealed record` with `DetectedLanguage` and `TranslatedText`
 
 **QA:**
+
 ```bash
 dotnet build src/Services/Amazon/Amazon.csproj
 ```
+
 Expected: Clean build
 
 **Commit:** `feat(amazon): add AwsTranslateService with inline AwsTranslateResult`

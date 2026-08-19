@@ -1,967 +1,967 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "Ylrkvz7haGE",
-			"VideoPublishedAtRaw": "2025-01-10T16:48:11Z",
-			"VideoPublishedAtDateTimeOffset": "2025-01-10T16:48:11+00:00",
-			"VideoPublishedAt": "2025-01-10T22:18:11+05:30"
-		},
-		"ETag": "ruOkW2PI1adVxoWT1GGprihBsZo",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5EMEEwRUY5M0RDRTU3NDJC",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Canadian violinist James Ehnes performs Walton\u0027s striking violin concerto, and Thomas S\u00F8nderg\u00E5rd  conducts the BBC National Orchestra of Wales in two works by Sibelius - the transcendent tone poem The Swan of Tuonela, and his Fifth Symphony with its memorable, ecstatic \u0027swan theme\u0027.\n\nThe oboe soloist in The Swan of Tuonela - Sarah-Jayne Porsmoguer.\n\nProgramme presented by Tom Service.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 0,
-			"PublishedAtRaw": "2026-05-28T06:37:23Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:37:23+00:00",
-			"PublishedAt": "2026-05-28T12:07:23+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Ylrkvz7haGE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Ylrkvz7haGE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Ylrkvz7haGE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Ylrkvz7haGE/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "BBC NOW at the Proms 2014",
-			"VideoOwnerChannelId": "UCeSjPNpyWnIzBRfoxEhPuig",
-			"VideoOwnerChannelTitle": "Paul Johnson"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "6Gl1d-7pfs0",
-			"VideoPublishedAtRaw": "2024-12-05T12:35:23Z",
-			"VideoPublishedAtDateTimeOffset": "2024-12-05T12:35:23+00:00",
-			"VideoPublishedAt": "2024-12-05T18:05:23+05:30"
-		},
-		"ETag": "06jbaS16K0eh47TkJczGcZsj_sE",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41Mzk2QTAxMTkzNDk4MDhF",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Beethoven\u0027s Piano Concerto No1 conducted by Thomas S\u00F8nderg\u00E5rd and performed by pianist Ethan Loch and the Royal Scottish National Orchestra. Plus, Ethan Loch performs two of his own compositions as encores. Recorded at The Glasgow Royal Concert Hall on 30 November 2024.\n\n0:00 Movement I: Allegro con brio\n19:33 Movement II: Largo\n31:11 Movement III: Rondo. Allegro scherzando \n42:43 Encore One: Out of the Darkness\n50:25 Encore Two: Melody of Tranquility\n.\nWatch Ethan Loch: A World of Sound at https://youtu.be/eDlK3Qm1FFE\n.\nFind out more about the Royal Scottish National Orchestra: https://www.rsno.org.uk/",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 1,
-			"PublishedAtRaw": "2026-05-28T06:39:10Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:39:10+00:00",
-			"PublishedAt": "2026-05-28T12:09:10+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "6Gl1d-7pfs0"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven Piano Concerto No1 \u2013 Ethan Loch \u2013 Royal Scottish National Orchestra",
-			"VideoOwnerChannelId": "UCYfVi1Q2DP-NkY2loIquRwA",
-			"VideoOwnerChannelTitle": "Royal Scottish National Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "mCVevvWbqyg",
-			"VideoPublishedAtRaw": "2026-05-27T16:00:06Z",
-			"VideoPublishedAtDateTimeOffset": "2026-05-27T16:00:06+00:00",
-			"VideoPublishedAt": "2026-05-27T21:30:06+05:30"
-		},
-		"ETag": "PW_qquZDFuooZP_xvYn1f3bXZL4",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41QTY1Q0UxMTVCODczNThE",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Brought to you by Ground News. Subscribe for 40% off our Vantage plan using our unique link https://groundnews.com/fifth\n\nFormer Obama Deputy National Security Advisor and speechwriter Ben Rhodes joins us to talk Iran, sanctions, Reagan, regime change, American decline, and whether America still knows what it wants to be.\n\nCheck out  new book: All We Say: The Battle for American Identity: A History in 15 Speeches: https://bookshop.org/a/120616/9780593595121\n\n(0:00) Cold Open\n(0:44) Ben Rhodes Joins\n(1:52) Iran, the JCPOA, and the Deal\n(7:43) Do Sanctions Work?\n(16:44) Libya, Kosovo, and Regime Change\n(20:59) Humanitarian Intervention\n(29:42) Is Rhodes Tucker-Adjacent?\n(33:22) Soft Power and Dissidents\n(42:18) Reagan\u2019s Evil Empire\n(51:01) Ground News Ad\n(53:25) Is Rhodes Too Negative on America?\n(57:05) Capitalism, AI, and Decline\n(1:04:21) The Left-Populist Temptation\n(1:15:38) Obama, Vance, and American Identity\n(1:34:51) Is This Authoritarianism?\n(1:39:30) Ben Franklin and Doubt\n(1:43:57) Experts, Populists, and Blind Spots\n(1:47:30) Every Billionaire Is a Policy Failure\n(1:48:07) Ground News Ad\n\n--\nHosted by journalists Kmele Foster, Michael Moynihan, and Matt Welch, The Fifth Column provides a weekly rhetorical assault on the news cycle, the people who make it, and occasionally themselves. \n\nGet our free newsletter \u0026 access to exclusive content: \nhttps://wethefifth.substack.com/\n\nListen to the audio version of the show:\nApple Podcasts - https://podcasts.apple.com/us/podcast/the-fifth-column/id1097696129\nSpotify - https://open.spotify.com/show/2KBQQlfgEr96NKeRLJGLC6\n\nFollow: \nInstagram -   https://www.instagram.com/we.the.fifth/\nX -  https://x.com/wethefifth\nTikTok -  https://www.tiktok.com/@wethefifth\nFacebook:  https://www.facebook.com/thefifthcolumn/",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 2,
-			"PublishedAtRaw": "2026-05-28T07:25:50Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T07:25:50+00:00",
-			"PublishedAt": "2026-05-28T12:55:50+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "mCVevvWbqyg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/mCVevvWbqyg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/mCVevvWbqyg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/mCVevvWbqyg/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/mCVevvWbqyg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/mCVevvWbqyg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Ben Rhodes and the Evil Empire State of Mind  - The Fifth Column",
-			"VideoOwnerChannelId": "UC1u8vBk71yQg-Pa3wSQMk9Q",
-			"VideoOwnerChannelTitle": "The Fifth Column - A Podcast"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "2aUizWyEZlc",
-			"VideoPublishedAtRaw": "2026-01-06T03:17:16Z",
-			"VideoPublishedAtDateTimeOffset": "2026-01-06T03:17:16+00:00",
-			"VideoPublishedAt": "2026-01-06T08:47:16+05:30"
-		},
-		"ETag": "z5i-EPmeGx97lIpYz3s0157Nhdw",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4wOTA3OTZBNzVEMTUzOTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Hector Berlioz\u0027s revolutionary Symphonie fantastique (1830), written just three years after Beethoven\u0027s death, transformed the symphony into an autobiographical narrative inspired by the composer\u0027s obsessive love for actress Harriet Smithson. The work follows an artist who poisons himself with opium after unrequited love, experiencing vivid hallucinations traced through five movements: from the introduction of the beloved\u0027s musical theme (the \u0022id\u00E9e fixe\u0022) in \u0022Reveries\u2013Passions,\u0022 through a glittering waltz at \u0022A Ball\u0022 and pastoral anxieties \u0022In the Country,\u0022 to the nightmarish \u0022March to the Scaffold\u0022 where he dreams of his own execution, culminating in the grotesque \u0022Dream of the Witches\u0027 Sabbath\u0022 where his beloved appears as a trivial dance tune amid sorcerers and devils. This performance features a pair of large church bells custom-cast for the Minnesota Orchestra by the Royal Eijsbouts foundry in the Netherlands, donated by patron Gary B. Cohen and now part of the Orchestra\u0027s permanent collection.\n\nConductor Thomas S\u00F8nderg\u00E5rd led the Minnesota Orchestra in this performance on November 14, 2025.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 3,
-			"PublishedAtRaw": "2026-05-28T06:35:51Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:35:51+00:00",
-			"PublishedAt": "2026-05-28T12:05:51+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "2aUizWyEZlc"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/2aUizWyEZlc/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/2aUizWyEZlc/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/2aUizWyEZlc/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/2aUizWyEZlc/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/2aUizWyEZlc/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Berlioz\u0027s Symphonie fantastique | Minnesota Orchestra | Thomas S\u00F8nderg\u00E5rd",
-			"VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
-			"VideoOwnerChannelTitle": "Minnesota Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "6XTN2KHmVo8",
-			"VideoPublishedAtRaw": "2026-05-26T12:00:04Z",
-			"VideoPublishedAtDateTimeOffset": "2026-05-26T12:00:04+00:00",
-			"VideoPublishedAt": "2026-05-26T17:30:04+05:30"
-		},
-		"ETag": "Sltwhw2DD3Ai5hjBWSvand0zpM8",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4yMUQyQTQzMjRDNzMyQTMy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt unter Leitung von Thomas S\u00F8nderg\u00E5rd die Symphonie Nr. 7 in d-Moll, op. 70 von Anton\u00EDn Dvo\u0159\u00E1k . Live aufgenommen am 16. Juni 2023 im Herkulessaal der M\u00FCnchener Residenz.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Symphonie Nr. 7 in d-Moll op. 70\n00:00 I. Allegro maestoso  \n11:00 II. Poco adagio\n20:30 III. Scherzo. Vivace  \n28:16 IV. Finale. Allegro  \n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: Thomas S\u00F8nderg\u00E5rd\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 4,
-			"PublishedAtRaw": "2026-06-09T22:01:14Z",
-			"PublishedAtDateTimeOffset": "2026-06-09T22:01:14+00:00",
-			"PublishedAt": "2026-06-10T03:31:14+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "6XTN2KHmVo8"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Dvo\u0159\u00E1k - Symphonie Nr. 7 | Thomas S\u00F8nderg\u00E5rd | BRSO",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "iZR3cqsYsTo",
-			"VideoPublishedAtRaw": "2021-12-01T09:26:24Z",
-			"VideoPublishedAtDateTimeOffset": "2021-12-01T09:26:24+00:00",
-			"VideoPublishedAt": "2021-12-01T14:56:24+05:30"
-		},
-		"ETag": "5QlWI72omXxB-J1FoTDQl_Q4FWg",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41MzJCQjBCNDIyRkJDN0VD",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Die NDR Radiophilharmonie spielt Anton\u00EDn Dvo\u0159\u00E1ks Sinfonie Nr. 9 \u0022Aus der Neuen Welt\u0022, dirigiert von Thomas S\u00F8nderg\u00E5rd.\n\nANTON\u00CDN DVO\u0158\u00C1K\nSinfonie Nr. 9 e-Moll op. 95 \u0022Aus der Neuen Welt\u0022  00:00\nI. Adagio - Allegro molto  00:29\nII. Largo  13:25\nIII. Scherzo - molto vivate  26:15\nIV. Allegro con fuoco  33:50\n\nThomas S\u00F8nderg\u00E5rd, Dirigent\nNDR Radiophilharmonie\n\nKonzertmitschnitt vom 9. Juli 2021, Gro\u00DFer Sendesaal im NDR Landesfunkhaus Hannover\n\nFoto Copyright: Andy Buchanan\n\nWebsite: https://www.ndr.de/radiophilharmonie\nFacebook: https://www.facebook.com/NDRRadiophilharmonie\n\n#ndrradiophilharmonie #thomassondergard #antonindvorak",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 5,
-			"PublishedAtRaw": "2026-05-28T06:36:04Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:36:04+00:00",
-			"PublishedAt": "2026-05-28T12:06:04+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "iZR3cqsYsTo"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Dvo\u0159\u00E1k: Sinfonie Nr. 9 \u0022Aus der Neuen Welt\u0022 mit Thomas S\u00F8nderg\u00E5rd | NDR Radiophilharmonie",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "dOT6MT0wp8k",
-			"VideoPublishedAtRaw": "2026-03-16T20:12:52Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-16T20:12:52+00:00",
-			"VideoPublishedAt": "2026-03-17T01:42:52+05:30"
-		},
-		"ETag": "5BJytcrPVJINS6ivQFXMjo5UTAA",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5DQUNERDQ2NkIzRUQxNTY1",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Jean Sibelius\u0027 Violin Concerto had a troubled birth: the 1904 Helsinki premiere featured an inadequately prepared soloist and received mostly negative reviews, prompting Sibelius to revise the work extensively before its successful 1905 Berlin premiere with Richard Strauss conducting. The composer\u0027s affinity for the violin stemmed from his youthful aspiration to become a great violinist, and though he began training too late for a performance career, he poured that passion into this concerto\u0027s fiendishly difficult solo part. The work features dark, somber orchestral colors and original formal structures: the first movement eschews traditional development in favor of elaborating each theme upon presentation, the Adagio contrasts dreamy reflection with turbulent passion, and the energetic finale in rondo form evokes polonaise and Romani dance rhythms while demanding the soloist\u0027s full technical prowess.\n\nMusic Director Thomas S\u00F8nderg\u00E5rd led the Minnesota Orchestra with soloist James Ehnes in this performance on January 10, 2026.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 6,
-			"PublishedAtRaw": "2026-05-28T06:36:08Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:36:08+00:00",
-			"PublishedAt": "2026-05-28T12:06:08+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "dOT6MT0wp8k"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "James Ehnes Plays Sibelius\u0027 Violin Concerto | Minnesota Orchestra | Thomas S\u00F8nderg\u00E5rd",
-			"VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
-			"VideoOwnerChannelTitle": "Minnesota Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "3Xt9nT9kTHE",
-			"VideoPublishedAtRaw": "2022-12-28T08:00:04Z",
-			"VideoPublishedAtDateTimeOffset": "2022-12-28T08:00:04+00:00",
-			"VideoPublishedAt": "2022-12-28T13:30:04+05:30"
-		},
-		"ETag": "SXmLFsu-4aNPxEE_jTQahWf4VH8",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5GNjNDRDREMDQxOThCMDQ2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Mahler Symphony No1 with Music Director Thomas S\u00F8nderg\u00E5rd. \n\n0:30 Movement I: Langsam, Schleppend (Slow, dragging) - Immer sehr gem\u00E4chlich (Always at a very leisurely pace)\n15:45 Movement II: Kr\u00E4ftig bewegt, doch nicht zu schnell (with strong movement, but not too fast) - Trio: Recht gem\u00E4chlich (Quite leisurely) - Tempo primo\n23:25 Movement III: Feierlich und gemessen, ohne zu schleppen (Solemn and measured, without dragging)\n34:28 Movement IV: St\u00FCrmisch bewegt (Stormy)\n\nIf you enjoyed this performance and would like to support the RSNO, please consider donating at https://www.rsno.org.uk/support-us/playyourpart/.\nText RSNO 5 to 70085 to donate \u00A35\nText RSNO 10 to 70085 to donate \u00A310\nText RSNO 20 to 70085 to donate \u00A320\n\nThis performance was recorded on Saturday 5 October 2019 at the Glasgow Royal Concert Hall. The concert was dedicated to the RSNO Conductors Circle. Original audio feed courtesy of BBC Radio 3.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 7,
-			"PublishedAtRaw": "2026-05-28T06:37:01Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:37:01+00:00",
-			"PublishedAt": "2026-05-28T12:07:01+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "3Xt9nT9kTHE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mahler Symphony No1 \u2013 Thomas S\u00F8nderg\u00E5rd \u2013 Royal Scottish National Orchestra",
-			"VideoOwnerChannelId": "UCYfVi1Q2DP-NkY2loIquRwA",
-			"VideoOwnerChannelTitle": "Royal Scottish National Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "3Xt9nT9kTHE",
-			"VideoPublishedAtRaw": "2022-12-28T08:00:04Z",
-			"VideoPublishedAtDateTimeOffset": "2022-12-28T08:00:04+00:00",
-			"VideoPublishedAt": "2022-12-28T13:30:04+05:30"
-		},
-		"ETag": "R8uYtv47oIPswq2sAsha5LnYSSs",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC45NDk1REZENzhEMzU5MDQz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Mahler Symphony No1 with Music Director Thomas S\u00F8nderg\u00E5rd. \n\n0:30 Movement I: Langsam, Schleppend (Slow, dragging) - Immer sehr gem\u00E4chlich (Always at a very leisurely pace)\n15:45 Movement II: Kr\u00E4ftig bewegt, doch nicht zu schnell (with strong movement, but not too fast) - Trio: Recht gem\u00E4chlich (Quite leisurely) - Tempo primo\n23:25 Movement III: Feierlich und gemessen, ohne zu schleppen (Solemn and measured, without dragging)\n34:28 Movement IV: St\u00FCrmisch bewegt (Stormy)\n\nIf you enjoyed this performance and would like to support the RSNO, please consider donating at https://www.rsno.org.uk/support-us/playyourpart/.\nText RSNO 5 to 70085 to donate \u00A35\nText RSNO 10 to 70085 to donate \u00A310\nText RSNO 20 to 70085 to donate \u00A320\n\nThis performance was recorded on Saturday 5 October 2019 at the Glasgow Royal Concert Hall. The concert was dedicated to the RSNO Conductors Circle. Original audio feed courtesy of BBC Radio 3.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 8,
-			"PublishedAtRaw": "2026-05-28T06:36:55Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:36:55+00:00",
-			"PublishedAt": "2026-05-28T12:06:55+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "3Xt9nT9kTHE"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Mahler Symphony No1 \u2013 Thomas S\u00F8nderg\u00E5rd \u2013 Royal Scottish National Orchestra",
-			"VideoOwnerChannelId": "UCYfVi1Q2DP-NkY2loIquRwA",
-			"VideoOwnerChannelTitle": "Royal Scottish National Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "UFnPxIwE7wM",
-			"VideoPublishedAtRaw": "2023-03-20T21:22:20Z",
-			"VideoPublishedAtDateTimeOffset": "2023-03-20T21:22:20+00:00",
-			"VideoPublishedAt": "2023-03-21T02:52:20+05:30"
-		},
-		"ETag": "Sa-3TB6EpNPyg6OwJu7hB30bDB8",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC45ODRDNTg0QjA4NkFBNkQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Tai Murray (violin), BBC National Orchestra of Wales conducted by Thomas S\u00F8nderg\u00E5rd\nhttp://5against4.com/2016/08/16/proms-2016-malcolm-hayes-violin-concerto-huw-watkins-cello-concerto-charlotte-bray-falling-in-the-fire-world-premieres/",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 9,
-			"PublishedAtRaw": "2026-05-28T06:37:51Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:37:51+00:00",
-			"PublishedAt": "2026-05-28T12:07:51+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "UFnPxIwE7wM"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Malcolm Hayes - Violin Concerto (World Premi\u00E8re)",
-			"VideoOwnerChannelId": "UCOV3RqrUtxMX3xPKVLsAI6g",
-			"VideoOwnerChannelTitle": "fiveagainstfour"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "3thb_LamUQI",
-			"VideoPublishedAtRaw": "2026-03-02T21:58:00Z",
-			"VideoPublishedAtDateTimeOffset": "2026-03-02T21:58:00+00:00",
-			"VideoPublishedAt": "2026-03-03T03:28:00+05:30"
-		},
-		"ETag": "eidvqZACMhb4cWX-shXxM7gSm8k",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Completed in 1892, Carl Nielsen\u0027s Symphony No. 1 premiered on March 14, 1894, at Copenhagen\u0027s Theatre Royal with Nielsen himself playing among the second violins, and the audience received it with excited applause. The work unfolds in four bold and adventurous movements: the dramatically insistent \u0022Allegro orgoglioso\u0022 (spirited and proud), a profoundly moving \u0022Andante,\u0022 an unconventional third movement in the complex 6/4 time signature, and a finale that begins and ends in C major despite its G minor key signature.\n\nMusic Director Thomas S\u00F8nderg\u00E5rd led the Minnesota Orchestra in this performance on January 10, 2026.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 10,
-			"PublishedAtRaw": "2026-05-28T06:35:15Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:35:15+00:00",
-			"PublishedAt": "2026-05-28T12:05:15+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "3thb_LamUQI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/3thb_LamUQI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/3thb_LamUQI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/3thb_LamUQI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/3thb_LamUQI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/3thb_LamUQI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Nielsen\u0027s Symphony No. 1 | Minnesota Orchestra | Thomas S\u00F8nderg\u00E5rd",
-			"VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
-			"VideoOwnerChannelTitle": "Minnesota Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "7G7XajHW1MI",
-			"VideoPublishedAtRaw": "2018-07-01T07:00:00Z",
-			"VideoPublishedAtDateTimeOffset": "2018-07-01T07:00:00+00:00",
-			"VideoPublishedAt": "2018-07-01T12:30:00+05:30"
-		},
-		"ETag": "bq7zwlTkof_VpFRTckY9rBiY7fY",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5EQUE1NTFDRjcwMDg0NEMz",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Prokofjews Sinfonie Nr. 6 es-Moll op. 111, aufgef\u00FChrt vom SWR Symphonieorchester unter der Leitung von Thomas S\u00F8nderg\u00E5rd. Live aufgenommen im April 2018 in der Liederhalle Stuttgart.\n\nProkofjew - Sinfonie Nr. 6 es-Moll op. 111\n\nMitwirkende:\nSWR Symphonieorchester\nDirigent: Thomas S\u00F8nderg\u00E5rd\n\n\u25BA ARD Klassik Mediathek: https://ardmediathek.de/klassik\n\u25BA Web: http://swr.li/web-concerts\n\u25BA Facebook: / klassikswrkultur\n\nImpressum: https://www.swr.de/impressum\n\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette:\nhttps://www.swr.de/home/netiquette-100\n\nDatenschutz: https://www.swr.de/datenschutz",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 11,
-			"PublishedAtRaw": "2026-05-28T06:39:27Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:39:27+00:00",
-			"PublishedAt": "2026-05-28T12:09:27+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "7G7XajHW1MI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/7G7XajHW1MI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/7G7XajHW1MI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/7G7XajHW1MI/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/7G7XajHW1MI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/7G7XajHW1MI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Prokofjew - Sinfonie Nr. 6 es-Moll op. 111 | Thomas S\u00F8nderg\u00E5rd | SWR Symphonieorchester",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "ISt4aHOMVcU",
-			"VideoPublishedAtRaw": "2025-03-25T18:48:24Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-25T18:48:24+00:00",
-			"VideoPublishedAt": "2025-03-26T00:18:24+05:30"
-		},
-		"ETag": "358hzQ0be3jDUCovYJ05qguG1co",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41MjE1MkI0OTQ2QzJGNzNG",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Minnesota Orchestra\nThomas S\u00D8NDERG\u00C5RD, conductor",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 12,
-			"PublishedAtRaw": "2026-05-28T06:35:35Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:35:35+00:00",
-			"PublishedAt": "2026-05-28T12:05:35+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "ISt4aHOMVcU"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Richard STRAUSS : Ein Heldenleben - S\u00D8NDERG\u00C5RD / Minnesota Orchestra",
-			"VideoOwnerChannelId": "UCYqzXzZxmISqgmnBHYczVnw",
-			"VideoOwnerChannelTitle": "lapin blanc"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "MKCM96Vv4Ek",
-			"VideoPublishedAtRaw": "2023-09-06T01:06:18Z",
-			"VideoPublishedAtDateTimeOffset": "2023-09-06T01:06:18+00:00",
-			"VideoPublishedAt": "2023-09-06T06:36:18+05:30"
-		},
-		"ETag": "_2Adc9oRD_MsR-bGURVVOd94SQw",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4zMDg5MkQ5MEVDMEM1NTg2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Provided to YouTube by IIP-DDS\n\nSergei Rachmaninoff: Piano Concerto No. 2 in C Minor, Op.18 (Live) \u00B7 Luka Okros \u00B7 Thomas S\u00F8nderg\u00E5rd \u00B7 Royal Scottish National Orchestra\n\nSergei Rachmaninoff: Piano Concerto No. 2 in C Minor, Op.18\n\n\u2117 Luka Okros\n\nReleased on: 2019-09-19\n\nComposer: Sergei Rachmaninoff\n\nAuto-generated by YouTube.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 13,
-			"PublishedAtRaw": "2026-05-28T06:38:53Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:38:53+00:00",
-			"PublishedAt": "2026-05-28T12:08:53+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "MKCM96Vv4Ek"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Sergei Rachmaninoff: Piano Concerto No. 2 in C Minor, Op.18 (Live)",
-			"VideoOwnerChannelId": "UCOwWKZA0RHBq-R5EqRZ-wHA",
-			"VideoOwnerChannelTitle": "Luka Okros - Topic"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "MPi047S-ZME",
-			"VideoPublishedAtRaw": "2025-03-05T16:46:26Z",
-			"VideoPublishedAtDateTimeOffset": "2025-03-05T16:46:26+00:00",
-			"VideoPublishedAt": "2025-03-05T22:16:26+05:30"
-		},
-		"ETag": "NZsEYISJiX8JaVQrSmjAvlAxaZs",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Johan Dalene performs Carl Nielsen\u2019s Violin Concerto and \u00D8rjan Matre creates an otherworldly experience from a collection of Edvard Grieg piano pieces. This Nordic Soundscapes Festival program is conducted by our Music Director Thomas S\u00F8nderg\u00E5rd.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 14,
-			"PublishedAtRaw": "2026-05-28T06:35:31Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:35:31+00:00",
-			"PublishedAt": "2026-05-28T12:05:31+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "MPi047S-ZME"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/MPi047S-ZME/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/MPi047S-ZME/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/MPi047S-ZME/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/MPi047S-ZME/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/MPi047S-ZME/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "S\u00F8nderg\u00E5rd Conducts Nordic Soundscapes: Full Episode | This is Minnesota Orchestra",
-			"VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
-			"VideoOwnerChannelTitle": "Minnesota Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "mh6eWLGXkpg",
-			"VideoPublishedAtRaw": "2024-11-12T17:35:29Z",
-			"VideoPublishedAtDateTimeOffset": "2024-11-12T17:35:29+00:00",
-			"VideoPublishedAt": "2024-11-12T23:05:29+05:30"
-		},
-		"ETag": "UjGE9ALRIyUI_q08JK0UqvzEVIs",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4xMkVGQjNCMUM1N0RFNEUx",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Immerse yourself in an orchestral experience that will keep you on the edge of your seat as Thomas S\u00F8nderg\u00E5rd conducts Stravinsky\u2019s groundbreaking and radical ballet score The Rite of Spring. Lili Boulanger\u2019s Of a Spring Morning brings a sweet, playful beginning to this program that truly puts the entire ensemble at the center. In between, and also orchestrated for dance, Ravel\u2019s Mother Goose ballet includes five tender and nostalgic miniatures inspired by fairy tales.\n\nThis concert was recorded live at Orchestra Hall on October 21, 2022 as part of the series, \u0022This Is Minnesota Orchestra.\u0022",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 15,
-			"PublishedAtRaw": "2026-05-28T06:35:57Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:35:57+00:00",
-			"PublishedAt": "2026-05-28T12:05:57+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "mh6eWLGXkpg"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "S\u00F8nderg\u00E5rd Conducts Rite of Spring: Full Concert | This Is Minnesota Orchestra",
-			"VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
-			"VideoOwnerChannelTitle": "Minnesota Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "xj2aSZyAr4Y",
-			"VideoPublishedAtRaw": "2026-01-06T03:16:51Z",
-			"VideoPublishedAtDateTimeOffset": "2026-01-06T03:16:51+00:00",
-			"VideoPublishedAt": "2026-01-06T08:46:51+05:30"
-		},
-		"ETag": "zxomZZT0PEt-PqYJYUjGrR5odS0",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Music Director Thomas S\u00F8nderg\u00E5rd conducts an exciting evening featuring Symphonie Fantastique by Berlioz. Also on the program is Night Signal by Takemitsu and guest soloist Benjamin Beilman performs Szymanowski\u0027s Violin Concerto No. 1.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 16,
-			"PublishedAtRaw": "2026-05-28T06:35:25Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:35:25+00:00",
-			"PublishedAt": "2026-05-28T12:05:25+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "xj2aSZyAr4Y"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "S\u00F8nderg\u00E5rd Conducts Symphonie Fantastique: Full Episode | This is Minnesota Orchestra",
-			"VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
-			"VideoOwnerChannelTitle": "Minnesota Orchestra"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "374v-pJkwiA",
-			"VideoPublishedAtRaw": "2020-12-02T23:09:35Z",
-			"VideoPublishedAtDateTimeOffset": "2020-12-02T23:09:35+00:00",
-			"VideoPublishedAt": "2020-12-03T04:39:35+05:30"
-		},
-		"ETag": "_-vtAwnshkxjnNhSiUF-lwczvhk",
-		"Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC40NzZCMERDMjVEN0RFRThB",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "The BBC NOW, under Thomas S\u00F8nderg\u00E5rd, play The Swan of Tuonela and Symphony No.5 in E Flat Major Op.82 by Jean Sibelius.\n\nThe Cor Anglais soloist in The Swan of Tuonela is the Orchestra\u0027s Principal Sarah-Jayne Porsmoguer.",
-			"PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
-			"Position": 17,
-			"PublishedAtRaw": "2026-05-28T06:37:14Z",
-			"PublishedAtDateTimeOffset": "2026-05-28T06:37:14+00:00",
-			"PublishedAt": "2026-05-28T12:07:14+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "374v-pJkwiA"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/374v-pJkwiA/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/374v-pJkwiA/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/374v-pJkwiA/mqdefault.jpg",
-					"Width": 320
-				}
-			},
-			"Title": "The BBC NOW play Sibelius at the BBC Proms in 2014.",
-			"VideoOwnerChannelId": "UCeSjPNpyWnIzBRfoxEhPuig",
-			"VideoOwnerChannelTitle": "Paul Johnson"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "Ylrkvz7haGE",
+      "VideoPublishedAtRaw": "2025-01-10T16:48:11Z",
+      "VideoPublishedAtDateTimeOffset": "2025-01-10T16:48:11+00:00",
+      "VideoPublishedAt": "2025-01-10T22:18:11+05:30"
+    },
+    "ETag": "ruOkW2PI1adVxoWT1GGprihBsZo",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5EMEEwRUY5M0RDRTU3NDJC",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Canadian violinist James Ehnes performs Walton\u0027s striking violin concerto, and Thomas S\u00F8nderg\u00E5rd  conducts the BBC National Orchestra of Wales in two works by Sibelius - the transcendent tone poem The Swan of Tuonela, and his Fifth Symphony with its memorable, ecstatic \u0027swan theme\u0027.\n\nThe oboe soloist in The Swan of Tuonela - Sarah-Jayne Porsmoguer.\n\nProgramme presented by Tom Service.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 0,
+      "PublishedAtRaw": "2026-05-28T06:37:23Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:37:23+00:00",
+      "PublishedAt": "2026-05-28T12:07:23+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Ylrkvz7haGE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Ylrkvz7haGE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Ylrkvz7haGE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Ylrkvz7haGE/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "BBC NOW at the Proms 2014",
+      "VideoOwnerChannelId": "UCeSjPNpyWnIzBRfoxEhPuig",
+      "VideoOwnerChannelTitle": "Paul Johnson"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6Gl1d-7pfs0",
+      "VideoPublishedAtRaw": "2024-12-05T12:35:23Z",
+      "VideoPublishedAtDateTimeOffset": "2024-12-05T12:35:23+00:00",
+      "VideoPublishedAt": "2024-12-05T18:05:23+05:30"
+    },
+    "ETag": "06jbaS16K0eh47TkJczGcZsj_sE",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41Mzk2QTAxMTkzNDk4MDhF",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven\u0027s Piano Concerto No1 conducted by Thomas S\u00F8nderg\u00E5rd and performed by pianist Ethan Loch and the Royal Scottish National Orchestra. Plus, Ethan Loch performs two of his own compositions as encores. Recorded at The Glasgow Royal Concert Hall on 30 November 2024.\n\n0:00 Movement I: Allegro con brio\n19:33 Movement II: Largo\n31:11 Movement III: Rondo. Allegro scherzando \n42:43 Encore One: Out of the Darkness\n50:25 Encore Two: Melody of Tranquility\n.\nWatch Ethan Loch: A World of Sound at https://youtu.be/eDlK3Qm1FFE\n.\nFind out more about the Royal Scottish National Orchestra: https://www.rsno.org.uk/",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 1,
+      "PublishedAtRaw": "2026-05-28T06:39:10Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:39:10+00:00",
+      "PublishedAt": "2026-05-28T12:09:10+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6Gl1d-7pfs0"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6Gl1d-7pfs0/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven Piano Concerto No1 \u2013 Ethan Loch \u2013 Royal Scottish National Orchestra",
+      "VideoOwnerChannelId": "UCYfVi1Q2DP-NkY2loIquRwA",
+      "VideoOwnerChannelTitle": "Royal Scottish National Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mCVevvWbqyg",
+      "VideoPublishedAtRaw": "2026-05-27T16:00:06Z",
+      "VideoPublishedAtDateTimeOffset": "2026-05-27T16:00:06+00:00",
+      "VideoPublishedAt": "2026-05-27T21:30:06+05:30"
+    },
+    "ETag": "PW_qquZDFuooZP_xvYn1f3bXZL4",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41QTY1Q0UxMTVCODczNThE",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Brought to you by Ground News. Subscribe for 40% off our Vantage plan using our unique link https://groundnews.com/fifth\n\nFormer Obama Deputy National Security Advisor and speechwriter Ben Rhodes joins us to talk Iran, sanctions, Reagan, regime change, American decline, and whether America still knows what it wants to be.\n\nCheck out  new book: All We Say: The Battle for American Identity: A History in 15 Speeches: https://bookshop.org/a/120616/9780593595121\n\n(0:00) Cold Open\n(0:44) Ben Rhodes Joins\n(1:52) Iran, the JCPOA, and the Deal\n(7:43) Do Sanctions Work?\n(16:44) Libya, Kosovo, and Regime Change\n(20:59) Humanitarian Intervention\n(29:42) Is Rhodes Tucker-Adjacent?\n(33:22) Soft Power and Dissidents\n(42:18) Reagan\u2019s Evil Empire\n(51:01) Ground News Ad\n(53:25) Is Rhodes Too Negative on America?\n(57:05) Capitalism, AI, and Decline\n(1:04:21) The Left-Populist Temptation\n(1:15:38) Obama, Vance, and American Identity\n(1:34:51) Is This Authoritarianism?\n(1:39:30) Ben Franklin and Doubt\n(1:43:57) Experts, Populists, and Blind Spots\n(1:47:30) Every Billionaire Is a Policy Failure\n(1:48:07) Ground News Ad\n\n--\nHosted by journalists Kmele Foster, Michael Moynihan, and Matt Welch, The Fifth Column provides a weekly rhetorical assault on the news cycle, the people who make it, and occasionally themselves. \n\nGet our free newsletter \u0026 access to exclusive content: \nhttps://wethefifth.substack.com/\n\nListen to the audio version of the show:\nApple Podcasts - https://podcasts.apple.com/us/podcast/the-fifth-column/id1097696129\nSpotify - https://open.spotify.com/show/2KBQQlfgEr96NKeRLJGLC6\n\nFollow: \nInstagram -   https://www.instagram.com/we.the.fifth/\nX -  https://x.com/wethefifth\nTikTok -  https://www.tiktok.com/@wethefifth\nFacebook:  https://www.facebook.com/thefifthcolumn/",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 2,
+      "PublishedAtRaw": "2026-05-28T07:25:50Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T07:25:50+00:00",
+      "PublishedAt": "2026-05-28T12:55:50+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mCVevvWbqyg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mCVevvWbqyg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mCVevvWbqyg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mCVevvWbqyg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mCVevvWbqyg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mCVevvWbqyg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Ben Rhodes and the Evil Empire State of Mind  - The Fifth Column",
+      "VideoOwnerChannelId": "UC1u8vBk71yQg-Pa3wSQMk9Q",
+      "VideoOwnerChannelTitle": "The Fifth Column - A Podcast"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "2aUizWyEZlc",
+      "VideoPublishedAtRaw": "2026-01-06T03:17:16Z",
+      "VideoPublishedAtDateTimeOffset": "2026-01-06T03:17:16+00:00",
+      "VideoPublishedAt": "2026-01-06T08:47:16+05:30"
+    },
+    "ETag": "z5i-EPmeGx97lIpYz3s0157Nhdw",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4wOTA3OTZBNzVEMTUzOTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Hector Berlioz\u0027s revolutionary Symphonie fantastique (1830), written just three years after Beethoven\u0027s death, transformed the symphony into an autobiographical narrative inspired by the composer\u0027s obsessive love for actress Harriet Smithson. The work follows an artist who poisons himself with opium after unrequited love, experiencing vivid hallucinations traced through five movements: from the introduction of the beloved\u0027s musical theme (the \u0022id\u00E9e fixe\u0022) in \u0022Reveries\u2013Passions,\u0022 through a glittering waltz at \u0022A Ball\u0022 and pastoral anxieties \u0022In the Country,\u0022 to the nightmarish \u0022March to the Scaffold\u0022 where he dreams of his own execution, culminating in the grotesque \u0022Dream of the Witches\u0027 Sabbath\u0022 where his beloved appears as a trivial dance tune amid sorcerers and devils. This performance features a pair of large church bells custom-cast for the Minnesota Orchestra by the Royal Eijsbouts foundry in the Netherlands, donated by patron Gary B. Cohen and now part of the Orchestra\u0027s permanent collection.\n\nConductor Thomas S\u00F8nderg\u00E5rd led the Minnesota Orchestra in this performance on November 14, 2025.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 3,
+      "PublishedAtRaw": "2026-05-28T06:35:51Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:35:51+00:00",
+      "PublishedAt": "2026-05-28T12:05:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "2aUizWyEZlc"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/2aUizWyEZlc/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/2aUizWyEZlc/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/2aUizWyEZlc/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/2aUizWyEZlc/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/2aUizWyEZlc/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Berlioz\u0027s Symphonie fantastique | Minnesota Orchestra | Thomas S\u00F8nderg\u00E5rd",
+      "VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
+      "VideoOwnerChannelTitle": "Minnesota Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "6XTN2KHmVo8",
+      "VideoPublishedAtRaw": "2026-05-26T12:00:04Z",
+      "VideoPublishedAtDateTimeOffset": "2026-05-26T12:00:04+00:00",
+      "VideoPublishedAt": "2026-05-26T17:30:04+05:30"
+    },
+    "ETag": "Sltwhw2DD3Ai5hjBWSvand0zpM8",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4yMUQyQTQzMjRDNzMyQTMy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das Symphonieorchester des Bayerischen Rundfunks spielt unter Leitung von Thomas S\u00F8nderg\u00E5rd die Symphonie Nr. 7 in d-Moll, op. 70 von Anton\u00EDn Dvo\u0159\u00E1k . Live aufgenommen am 16. Juni 2023 im Herkulessaal der M\u00FCnchener Residenz.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Symphonie Nr. 7 in d-Moll op. 70\n00:00 I. Allegro maestoso  \n11:00 II. Poco adagio\n20:30 III. Scherzo. Vivace  \n28:16 IV. Finale. Allegro  \n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: Thomas S\u00F8nderg\u00E5rd\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 4,
+      "PublishedAtRaw": "2026-06-09T22:01:14Z",
+      "PublishedAtDateTimeOffset": "2026-06-09T22:01:14+00:00",
+      "PublishedAt": "2026-06-10T03:31:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "6XTN2KHmVo8"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/6XTN2KHmVo8/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k - Symphonie Nr. 7 | Thomas S\u00F8nderg\u00E5rd | BRSO",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "iZR3cqsYsTo",
+      "VideoPublishedAtRaw": "2021-12-01T09:26:24Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-01T09:26:24+00:00",
+      "VideoPublishedAt": "2021-12-01T14:56:24+05:30"
+    },
+    "ETag": "5QlWI72omXxB-J1FoTDQl_Q4FWg",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41MzJCQjBCNDIyRkJDN0VD",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Die NDR Radiophilharmonie spielt Anton\u00EDn Dvo\u0159\u00E1ks Sinfonie Nr. 9 \u0022Aus der Neuen Welt\u0022, dirigiert von Thomas S\u00F8nderg\u00E5rd.\n\nANTON\u00CDN DVO\u0158\u00C1K\nSinfonie Nr. 9 e-Moll op. 95 \u0022Aus der Neuen Welt\u0022  00:00\nI. Adagio - Allegro molto  00:29\nII. Largo  13:25\nIII. Scherzo - molto vivate  26:15\nIV. Allegro con fuoco  33:50\n\nThomas S\u00F8nderg\u00E5rd, Dirigent\nNDR Radiophilharmonie\n\nKonzertmitschnitt vom 9. Juli 2021, Gro\u00DFer Sendesaal im NDR Landesfunkhaus Hannover\n\nFoto Copyright: Andy Buchanan\n\nWebsite: https://www.ndr.de/radiophilharmonie\nFacebook: https://www.facebook.com/NDRRadiophilharmonie\n\n#ndrradiophilharmonie #thomassondergard #antonindvorak",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 5,
+      "PublishedAtRaw": "2026-05-28T06:36:04Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:36:04+00:00",
+      "PublishedAt": "2026-05-28T12:06:04+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "iZR3cqsYsTo"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/iZR3cqsYsTo/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k: Sinfonie Nr. 9 \u0022Aus der Neuen Welt\u0022 mit Thomas S\u00F8nderg\u00E5rd | NDR Radiophilharmonie",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "dOT6MT0wp8k",
+      "VideoPublishedAtRaw": "2026-03-16T20:12:52Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-16T20:12:52+00:00",
+      "VideoPublishedAt": "2026-03-17T01:42:52+05:30"
+    },
+    "ETag": "5BJytcrPVJINS6ivQFXMjo5UTAA",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5DQUNERDQ2NkIzRUQxNTY1",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Jean Sibelius\u0027 Violin Concerto had a troubled birth: the 1904 Helsinki premiere featured an inadequately prepared soloist and received mostly negative reviews, prompting Sibelius to revise the work extensively before its successful 1905 Berlin premiere with Richard Strauss conducting. The composer\u0027s affinity for the violin stemmed from his youthful aspiration to become a great violinist, and though he began training too late for a performance career, he poured that passion into this concerto\u0027s fiendishly difficult solo part. The work features dark, somber orchestral colors and original formal structures: the first movement eschews traditional development in favor of elaborating each theme upon presentation, the Adagio contrasts dreamy reflection with turbulent passion, and the energetic finale in rondo form evokes polonaise and Romani dance rhythms while demanding the soloist\u0027s full technical prowess.\n\nMusic Director Thomas S\u00F8nderg\u00E5rd led the Minnesota Orchestra with soloist James Ehnes in this performance on January 10, 2026.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 6,
+      "PublishedAtRaw": "2026-05-28T06:36:08Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:36:08+00:00",
+      "PublishedAt": "2026-05-28T12:06:08+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "dOT6MT0wp8k"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/dOT6MT0wp8k/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "James Ehnes Plays Sibelius\u0027 Violin Concerto | Minnesota Orchestra | Thomas S\u00F8nderg\u00E5rd",
+      "VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
+      "VideoOwnerChannelTitle": "Minnesota Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "3Xt9nT9kTHE",
+      "VideoPublishedAtRaw": "2022-12-28T08:00:04Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-28T08:00:04+00:00",
+      "VideoPublishedAt": "2022-12-28T13:30:04+05:30"
+    },
+    "ETag": "SXmLFsu-4aNPxEE_jTQahWf4VH8",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5GNjNDRDREMDQxOThCMDQ2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mahler Symphony No1 with Music Director Thomas S\u00F8nderg\u00E5rd. \n\n0:30 Movement I: Langsam, Schleppend (Slow, dragging) - Immer sehr gem\u00E4chlich (Always at a very leisurely pace)\n15:45 Movement II: Kr\u00E4ftig bewegt, doch nicht zu schnell (with strong movement, but not too fast) - Trio: Recht gem\u00E4chlich (Quite leisurely) - Tempo primo\n23:25 Movement III: Feierlich und gemessen, ohne zu schleppen (Solemn and measured, without dragging)\n34:28 Movement IV: St\u00FCrmisch bewegt (Stormy)\n\nIf you enjoyed this performance and would like to support the RSNO, please consider donating at https://www.rsno.org.uk/support-us/playyourpart/.\nText RSNO 5 to 70085 to donate \u00A35\nText RSNO 10 to 70085 to donate \u00A310\nText RSNO 20 to 70085 to donate \u00A320\n\nThis performance was recorded on Saturday 5 October 2019 at the Glasgow Royal Concert Hall. The concert was dedicated to the RSNO Conductors Circle. Original audio feed courtesy of BBC Radio 3.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 7,
+      "PublishedAtRaw": "2026-05-28T06:37:01Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:37:01+00:00",
+      "PublishedAt": "2026-05-28T12:07:01+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "3Xt9nT9kTHE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler Symphony No1 \u2013 Thomas S\u00F8nderg\u00E5rd \u2013 Royal Scottish National Orchestra",
+      "VideoOwnerChannelId": "UCYfVi1Q2DP-NkY2loIquRwA",
+      "VideoOwnerChannelTitle": "Royal Scottish National Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "3Xt9nT9kTHE",
+      "VideoPublishedAtRaw": "2022-12-28T08:00:04Z",
+      "VideoPublishedAtDateTimeOffset": "2022-12-28T08:00:04+00:00",
+      "VideoPublishedAt": "2022-12-28T13:30:04+05:30"
+    },
+    "ETag": "R8uYtv47oIPswq2sAsha5LnYSSs",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC45NDk1REZENzhEMzU5MDQz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Mahler Symphony No1 with Music Director Thomas S\u00F8nderg\u00E5rd. \n\n0:30 Movement I: Langsam, Schleppend (Slow, dragging) - Immer sehr gem\u00E4chlich (Always at a very leisurely pace)\n15:45 Movement II: Kr\u00E4ftig bewegt, doch nicht zu schnell (with strong movement, but not too fast) - Trio: Recht gem\u00E4chlich (Quite leisurely) - Tempo primo\n23:25 Movement III: Feierlich und gemessen, ohne zu schleppen (Solemn and measured, without dragging)\n34:28 Movement IV: St\u00FCrmisch bewegt (Stormy)\n\nIf you enjoyed this performance and would like to support the RSNO, please consider donating at https://www.rsno.org.uk/support-us/playyourpart/.\nText RSNO 5 to 70085 to donate \u00A35\nText RSNO 10 to 70085 to donate \u00A310\nText RSNO 20 to 70085 to donate \u00A320\n\nThis performance was recorded on Saturday 5 October 2019 at the Glasgow Royal Concert Hall. The concert was dedicated to the RSNO Conductors Circle. Original audio feed courtesy of BBC Radio 3.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 8,
+      "PublishedAtRaw": "2026-05-28T06:36:55Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:36:55+00:00",
+      "PublishedAt": "2026-05-28T12:06:55+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "3Xt9nT9kTHE"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/3Xt9nT9kTHE/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Mahler Symphony No1 \u2013 Thomas S\u00F8nderg\u00E5rd \u2013 Royal Scottish National Orchestra",
+      "VideoOwnerChannelId": "UCYfVi1Q2DP-NkY2loIquRwA",
+      "VideoOwnerChannelTitle": "Royal Scottish National Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "UFnPxIwE7wM",
+      "VideoPublishedAtRaw": "2023-03-20T21:22:20Z",
+      "VideoPublishedAtDateTimeOffset": "2023-03-20T21:22:20+00:00",
+      "VideoPublishedAt": "2023-03-21T02:52:20+05:30"
+    },
+    "ETag": "Sa-3TB6EpNPyg6OwJu7hB30bDB8",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC45ODRDNTg0QjA4NkFBNkQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Tai Murray (violin), BBC National Orchestra of Wales conducted by Thomas S\u00F8nderg\u00E5rd\nhttp://5against4.com/2016/08/16/proms-2016-malcolm-hayes-violin-concerto-huw-watkins-cello-concerto-charlotte-bray-falling-in-the-fire-world-premieres/",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 9,
+      "PublishedAtRaw": "2026-05-28T06:37:51Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:37:51+00:00",
+      "PublishedAt": "2026-05-28T12:07:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "UFnPxIwE7wM"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/UFnPxIwE7wM/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Malcolm Hayes - Violin Concerto (World Premi\u00E8re)",
+      "VideoOwnerChannelId": "UCOV3RqrUtxMX3xPKVLsAI6g",
+      "VideoOwnerChannelTitle": "fiveagainstfour"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "3thb_LamUQI",
+      "VideoPublishedAtRaw": "2026-03-02T21:58:00Z",
+      "VideoPublishedAtDateTimeOffset": "2026-03-02T21:58:00+00:00",
+      "VideoPublishedAt": "2026-03-03T03:28:00+05:30"
+    },
+    "ETag": "eidvqZACMhb4cWX-shXxM7gSm8k",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Completed in 1892, Carl Nielsen\u0027s Symphony No. 1 premiered on March 14, 1894, at Copenhagen\u0027s Theatre Royal with Nielsen himself playing among the second violins, and the audience received it with excited applause. The work unfolds in four bold and adventurous movements: the dramatically insistent \u0022Allegro orgoglioso\u0022 (spirited and proud), a profoundly moving \u0022Andante,\u0022 an unconventional third movement in the complex 6/4 time signature, and a finale that begins and ends in C major despite its G minor key signature.\n\nMusic Director Thomas S\u00F8nderg\u00E5rd led the Minnesota Orchestra in this performance on January 10, 2026.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 10,
+      "PublishedAtRaw": "2026-05-28T06:35:15Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:35:15+00:00",
+      "PublishedAt": "2026-05-28T12:05:15+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "3thb_LamUQI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/3thb_LamUQI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/3thb_LamUQI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/3thb_LamUQI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/3thb_LamUQI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/3thb_LamUQI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Nielsen\u0027s Symphony No. 1 | Minnesota Orchestra | Thomas S\u00F8nderg\u00E5rd",
+      "VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
+      "VideoOwnerChannelTitle": "Minnesota Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "7G7XajHW1MI",
+      "VideoPublishedAtRaw": "2018-07-01T07:00:00Z",
+      "VideoPublishedAtDateTimeOffset": "2018-07-01T07:00:00+00:00",
+      "VideoPublishedAt": "2018-07-01T12:30:00+05:30"
+    },
+    "ETag": "bq7zwlTkof_VpFRTckY9rBiY7fY",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC5EQUE1NTFDRjcwMDg0NEMz",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Prokofjews Sinfonie Nr. 6 es-Moll op. 111, aufgef\u00FChrt vom SWR Symphonieorchester unter der Leitung von Thomas S\u00F8nderg\u00E5rd. Live aufgenommen im April 2018 in der Liederhalle Stuttgart.\n\nProkofjew - Sinfonie Nr. 6 es-Moll op. 111\n\nMitwirkende:\nSWR Symphonieorchester\nDirigent: Thomas S\u00F8nderg\u00E5rd\n\n\u25BA ARD Klassik Mediathek: https://ardmediathek.de/klassik\n\u25BA Web: http://swr.li/web-concerts\n\u25BA Facebook: / klassikswrkultur\n\nImpressum: https://www.swr.de/impressum\n\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette:\nhttps://www.swr.de/home/netiquette-100\n\nDatenschutz: https://www.swr.de/datenschutz",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 11,
+      "PublishedAtRaw": "2026-05-28T06:39:27Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:39:27+00:00",
+      "PublishedAt": "2026-05-28T12:09:27+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "7G7XajHW1MI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/7G7XajHW1MI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/7G7XajHW1MI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/7G7XajHW1MI/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/7G7XajHW1MI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/7G7XajHW1MI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Prokofjew - Sinfonie Nr. 6 es-Moll op. 111 | Thomas S\u00F8nderg\u00E5rd | SWR Symphonieorchester",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "ISt4aHOMVcU",
+      "VideoPublishedAtRaw": "2025-03-25T18:48:24Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-25T18:48:24+00:00",
+      "VideoPublishedAt": "2025-03-26T00:18:24+05:30"
+    },
+    "ETag": "358hzQ0be3jDUCovYJ05qguG1co",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC41MjE1MkI0OTQ2QzJGNzNG",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Minnesota Orchestra\nThomas S\u00D8NDERG\u00C5RD, conductor",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 12,
+      "PublishedAtRaw": "2026-05-28T06:35:35Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:35:35+00:00",
+      "PublishedAt": "2026-05-28T12:05:35+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "ISt4aHOMVcU"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/ISt4aHOMVcU/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Richard STRAUSS : Ein Heldenleben - S\u00D8NDERG\u00C5RD / Minnesota Orchestra",
+      "VideoOwnerChannelId": "UCYqzXzZxmISqgmnBHYczVnw",
+      "VideoOwnerChannelTitle": "lapin blanc"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MKCM96Vv4Ek",
+      "VideoPublishedAtRaw": "2023-09-06T01:06:18Z",
+      "VideoPublishedAtDateTimeOffset": "2023-09-06T01:06:18+00:00",
+      "VideoPublishedAt": "2023-09-06T06:36:18+05:30"
+    },
+    "ETag": "_2Adc9oRD_MsR-bGURVVOd94SQw",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4zMDg5MkQ5MEVDMEM1NTg2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Provided to YouTube by IIP-DDS\n\nSergei Rachmaninoff: Piano Concerto No. 2 in C Minor, Op.18 (Live) \u00B7 Luka Okros \u00B7 Thomas S\u00F8nderg\u00E5rd \u00B7 Royal Scottish National Orchestra\n\nSergei Rachmaninoff: Piano Concerto No. 2 in C Minor, Op.18\n\n\u2117 Luka Okros\n\nReleased on: 2019-09-19\n\nComposer: Sergei Rachmaninoff\n\nAuto-generated by YouTube.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 13,
+      "PublishedAtRaw": "2026-05-28T06:38:53Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:38:53+00:00",
+      "PublishedAt": "2026-05-28T12:08:53+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MKCM96Vv4Ek"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/MKCM96Vv4Ek/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Sergei Rachmaninoff: Piano Concerto No. 2 in C Minor, Op.18 (Live)",
+      "VideoOwnerChannelId": "UCOwWKZA0RHBq-R5EqRZ-wHA",
+      "VideoOwnerChannelTitle": "Luka Okros - Topic"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "MPi047S-ZME",
+      "VideoPublishedAtRaw": "2025-03-05T16:46:26Z",
+      "VideoPublishedAtDateTimeOffset": "2025-03-05T16:46:26+00:00",
+      "VideoPublishedAt": "2025-03-05T22:16:26+05:30"
+    },
+    "ETag": "NZsEYISJiX8JaVQrSmjAvlAxaZs",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Johan Dalene performs Carl Nielsen\u2019s Violin Concerto and \u00D8rjan Matre creates an otherworldly experience from a collection of Edvard Grieg piano pieces. This Nordic Soundscapes Festival program is conducted by our Music Director Thomas S\u00F8nderg\u00E5rd.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 14,
+      "PublishedAtRaw": "2026-05-28T06:35:31Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:35:31+00:00",
+      "PublishedAt": "2026-05-28T12:05:31+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "MPi047S-ZME"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/MPi047S-ZME/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/MPi047S-ZME/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/MPi047S-ZME/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/MPi047S-ZME/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/MPi047S-ZME/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "S\u00F8nderg\u00E5rd Conducts Nordic Soundscapes: Full Episode | This is Minnesota Orchestra",
+      "VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
+      "VideoOwnerChannelTitle": "Minnesota Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "mh6eWLGXkpg",
+      "VideoPublishedAtRaw": "2024-11-12T17:35:29Z",
+      "VideoPublishedAtDateTimeOffset": "2024-11-12T17:35:29+00:00",
+      "VideoPublishedAt": "2024-11-12T23:05:29+05:30"
+    },
+    "ETag": "UjGE9ALRIyUI_q08JK0UqvzEVIs",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4xMkVGQjNCMUM1N0RFNEUx",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Immerse yourself in an orchestral experience that will keep you on the edge of your seat as Thomas S\u00F8nderg\u00E5rd conducts Stravinsky\u2019s groundbreaking and radical ballet score The Rite of Spring. Lili Boulanger\u2019s Of a Spring Morning brings a sweet, playful beginning to this program that truly puts the entire ensemble at the center. In between, and also orchestrated for dance, Ravel\u2019s Mother Goose ballet includes five tender and nostalgic miniatures inspired by fairy tales.\n\nThis concert was recorded live at Orchestra Hall on October 21, 2022 as part of the series, \u0022This Is Minnesota Orchestra.\u0022",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 15,
+      "PublishedAtRaw": "2026-05-28T06:35:57Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:35:57+00:00",
+      "PublishedAt": "2026-05-28T12:05:57+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "mh6eWLGXkpg"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/mh6eWLGXkpg/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "S\u00F8nderg\u00E5rd Conducts Rite of Spring: Full Concert | This Is Minnesota Orchestra",
+      "VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
+      "VideoOwnerChannelTitle": "Minnesota Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "xj2aSZyAr4Y",
+      "VideoPublishedAtRaw": "2026-01-06T03:16:51Z",
+      "VideoPublishedAtDateTimeOffset": "2026-01-06T03:16:51+00:00",
+      "VideoPublishedAt": "2026-01-06T08:46:51+05:30"
+    },
+    "ETag": "zxomZZT0PEt-PqYJYUjGrR5odS0",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Music Director Thomas S\u00F8nderg\u00E5rd conducts an exciting evening featuring Symphonie Fantastique by Berlioz. Also on the program is Night Signal by Takemitsu and guest soloist Benjamin Beilman performs Szymanowski\u0027s Violin Concerto No. 1.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 16,
+      "PublishedAtRaw": "2026-05-28T06:35:25Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:35:25+00:00",
+      "PublishedAt": "2026-05-28T12:05:25+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "xj2aSZyAr4Y"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/xj2aSZyAr4Y/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "S\u00F8nderg\u00E5rd Conducts Symphonie Fantastique: Full Episode | This is Minnesota Orchestra",
+      "VideoOwnerChannelId": "UCSEZ45i4_l9h2e1FTmP3qXg",
+      "VideoOwnerChannelTitle": "Minnesota Orchestra"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "374v-pJkwiA",
+      "VideoPublishedAtRaw": "2020-12-02T23:09:35Z",
+      "VideoPublishedAtDateTimeOffset": "2020-12-02T23:09:35+00:00",
+      "VideoPublishedAt": "2020-12-03T04:39:35+05:30"
+    },
+    "ETag": "_-vtAwnshkxjnNhSiUF-lwczvhk",
+    "Id": "UEwxemdOQ29XdF83YW1na2dqOFVVVVZTTXV4bGtOZGVtMC40NzZCMERDMjVEN0RFRThB",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "The BBC NOW, under Thomas S\u00F8nderg\u00E5rd, play The Swan of Tuonela and Symphony No.5 in E Flat Major Op.82 by Jean Sibelius.\n\nThe Cor Anglais soloist in The Swan of Tuonela is the Orchestra\u0027s Principal Sarah-Jayne Porsmoguer.",
+      "PlaylistId": "PL1zgNCoWt_7amgkgj8UUUVSMuxlkNdem0",
+      "Position": 17,
+      "PublishedAtRaw": "2026-05-28T06:37:14Z",
+      "PublishedAtDateTimeOffset": "2026-05-28T06:37:14+00:00",
+      "PublishedAt": "2026-05-28T12:07:14+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "374v-pJkwiA"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/374v-pJkwiA/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/374v-pJkwiA/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/374v-pJkwiA/mqdefault.jpg",
+          "Width": 320
+        }
+      },
+      "Title": "The BBC NOW play Sibelius at the BBC Proms in 2014.",
+      "VideoOwnerChannelId": "UCeSjPNpyWnIzBRfoxEhPuig",
+      "VideoOwnerChannelTitle": "Paul Johnson"
+    }
+  }
 ]

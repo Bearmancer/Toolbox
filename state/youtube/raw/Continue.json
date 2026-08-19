@@ -1,162 +1,162 @@
 [
-	{
-		"ContentDetails": {
-			"VideoId": "Wq5jRXQoE5Q",
-			"VideoPublishedAtRaw": "2026-04-30T16:00:54Z",
-			"VideoPublishedAtDateTimeOffset": "2026-04-30T16:00:54+00:00",
-			"VideoPublishedAt": "2026-04-30T21:30:54+05:30"
-		},
-		"ETag": "9LoNu18JTpGvHihXSRgACXI6sbo",
-		"Id": "UExHWjI2R2ZGdV9CMC41NkI0NEY2RDEwNTU3Q0M2",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Das Symphonieorchester des Bayerischen Rundfunks unter Leitung von Sir Simon Rattle spielt die Slawischen T\u00E4nze op. 72 von Anton\u00EDn Dvo\u0159\u00E1k. Live aufgenommen am 7. Juni 2025 im Herkulessaal der Residenz in M\u00FCnchen.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Slawische T\u00E4nze, op. 72\n00:00 Nr. 1 in H-Dur, Allegro vivace (Odzemek)\n04:17 Nr. 2 in e-Moll, Allegretto grazioso (Dumka)\n09:49 Nr. 3 in F-Dur, Allegro (Sko\u010Dn\u00E1)\n13:28 Nr. 4 in Des-Dur, Allegretto grazioso (Dumka)\n19:05 Nr. 5 in b-Moll, Poco adagio. Vivace (\u0160pac\u00EDrka)\n21:49 Nr. 6 in B-Dur, Moderato, quasi Minuetto (Polonaise)\n25:40 Nr. 7 in C-Dur, Presto (Kolo)\n28:57 Nr. 8 in As-Dur, Grazioso e lento, ma non troppo, quasi tempo di valse (Sousedsk\u00E1)\n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: Sir Simon Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
-			"PlaylistId": "PLGZ26GfFu_B0",
-			"Position": 0,
-			"PublishedAtRaw": "2026-07-26T03:47:51Z",
-			"PublishedAtDateTimeOffset": "2026-07-26T03:47:51+00:00",
-			"PublishedAt": "2026-07-26T09:17:51+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "Wq5jRXQoE5Q"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Dvo\u0159\u00E1k \u2013 Slawische T\u00E4nze op. 72 | Simon Rattle | BRSO",
-			"VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
-			"VideoOwnerChannelTitle": "ARD Klassik"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "DWwppYEEdcI",
-			"VideoPublishedAtRaw": "2021-12-26T15:00:13Z",
-			"VideoPublishedAtDateTimeOffset": "2021-12-26T15:00:13+00:00",
-			"VideoPublishedAt": "2021-12-26T20:30:13+05:30"
-		},
-		"ETag": "ZYJI8W4T00zlO04NeBvObxEDYq0",
-		"Id": "UExHWjI2R2ZGdV9CMC4yODlGNEE0NkRGMEEzMEQy",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "It is one of the most popular symphonies ever: Ludwig van Beethoven\u2019s Symphony No. 3 in E-flat major, Op. 55, also called Eroica. Here it is performed by the ORF Vienna Radio Symphony Orchestra conducted by Michael Boder at the Beethovenfest Bonn 2021 at the World Conference Center Bonn (WCCB).\n\n(00:00) Symphony No. 3 in E-flat major, Op. 55, Eroica\n(00:36) I. Allegro con brio\n(17:38) II. Marcia funebre (Adagio assai)\n(30:18) III. Scherzo (Allegro vivace)\n(36:03) IV. Finale: Allegro molto - Poco andante \u2013 Presto\n\nLudwig van Beethoven (1770 - 1827) began planning his Symphony No. 3 in the fall of 1802, composing most of it in 1803, and probably not completing it until early 1804. The private premiere happened in the same year. The first public performance took place on April 7, 1805 and was conducted by Beethoven himself.\n\nBecause of the epithet \u2018Eroica\u2019 (the Heroic one), Beethoven\u2019s third symphony is commonly linked to Napoleon. However, Beethoven\u2019s relationship to Napoleon was rather ambivalent: on the one hand, he was fascinated by Napoleon\u2019s ideals, but at the same time he was deeply repelled by the fact that he had proclaimed himself emperor. Later, however, Beethoven is said to have revered Napoleon. His ambivalent attitude is also evidenced by the addition of the words \u201Cwritten on Bonaparte\u201D to the copy of the score, which he initially erased, but later added in again.\n\nIt is also unknown, however, who the hero could be to whom Beethoven dedicated the Eroica with the words \u201CSinfonia Eroica composta per celebrare la morte d\u2019un Eroe\u201D. Researchers doubt that he could have meant Napoleon. Whatever the case, Beethoven dedicated his third symphony to a hero whose funeral he commemorates in the second movement with a brilliant funeral march and who he resurrects triumphantly at the end of the fourth movement. Perhaps it is precisely this range of emotions, from serious, deepest mourning to joyfully enthusiastic exaltation that makes Beethoven\u2019s Eroica so appealing.\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#Beethoven #Eroica #MichaelBoder",
-			"PlaylistId": "PLGZ26GfFu_B0",
-			"Position": 1,
-			"PublishedAtRaw": "2026-07-26T03:48:19Z",
-			"PublishedAtDateTimeOffset": "2026-07-26T03:48:19+00:00",
-			"PublishedAt": "2026-07-26T09:18:19+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "DWwppYEEdcI"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/DWwppYEEdcI/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/DWwppYEEdcI/hqdefault.jpg",
-					"Width": 480
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/DWwppYEEdcI/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/DWwppYEEdcI/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven: Symphony No. 3 Eroica | Michael Boder \u0026 ORF Vienna Radio Symphony Orchestra",
-			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-			"VideoOwnerChannelTitle": "DW Classical Music"
-		}
-	},
-	{
-		"ContentDetails": {
-			"VideoId": "yq56l01_DsQ",
-			"VideoPublishedAtRaw": "2025-07-05T12:02:00Z",
-			"VideoPublishedAtDateTimeOffset": "2025-07-05T12:02:00+00:00",
-			"VideoPublishedAt": "2025-07-05T17:32:00+05:30"
-		},
-		"ETag": "2v5_UYko0DX5uxuLCiqxomIg5tI",
-		"Id": "UExHWjI2R2ZGdV9CMC4wMTcyMDhGQUE4NTIzM0Y5",
-		"Kind": "youtube#playlistItem",
-		"Snippet": {
-			"ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
-			"ChannelTitle": "Kanishk Nishar",
-			"Description": "Beethoven\u2019s Piano Concerto No. 2 in B-flat major, Op. 19 is an early work, rooted in the classical style, yet already revealing glimpses of the bold voice that would define his later compositions. In this performance, the concerto is played by Margarita H\u00F6henrieder (piano) and the Kammerphilharmonie Amad\u00E9 under the baton of Leon Fleisher. The concert took place in 2014 at the unique industrial setting of the Zeche Zollverein in Essen, Germany.\n\n(00:00) I. Allegro con brio\n(14:01) II. Adagio\n(23:51) III. Rondo. Molto allegro\n\nAlthough officially designated Beethoven\u2019s Piano Concerto No. 2, this was actually the first piano concerto he composed. Its creation spans several years: sketches and fragments date from 1786 to 1792, when Ludwig van Beethoven (1770 - 1827) was still living in Bonn. After multiple revisions, the work was premiered on March 29, 1795, at Vienna\u2019s Burgtheater \u2014 with Beethoven himself at the piano. He later revised the concerto again before publishing it at the end of 1801.\n\nInterestingly, Beethoven began work on his Piano Concerto No. 1 in C major, Op. 15 at a later date, but it was published earlier, in the spring of 1801. That\u2019s why it carries a lower opus number and is considered his \u0022first\u0022 concerto in the official catalog.\n\nBoth early piano concertos were pivotal for the young composer from Bonn \u2014 they served, so to speak, as his musical calling cards. Since arriving in Vienna in 1792, Beethoven had quickly gained access to aristocratic circles thanks to his virtuosity, and these influential patrons also supported him financially. The aforementioned 1795 concert marked his first public performance in the musical capital of Vienna, boosting his reputation as a piano virtuoso. That said, Beethoven himself reportedly claimed that his first and second piano concertos were not among his best works.\n\nFollowing in the footsteps of Wolfgang Amadeus Mozart (1756\u20131791), who had popularized the piano concerto as a genre \u2014 and dazzled audiences with his own brilliance as a pianist \u2014 Beethoven\u2019s Second Piano Concerto still closely echoes the stylistic hallmarks of his predecessor, especially in the first and third movements. Yet dramatic moments throughout already hint at the unmistakable personal style that would later define Beethoven\u2019s music.\n\nMargarita H\u00F6henrieder discovered her love for the piano at an early age. She gave her first public performance at the age of seven in Munich\u2019s Herkulessaal. She studied with Anna Stadler and Ludwig Hoffmann in Munich, and later with renowned American pianist and conductor Leon Fleisher in Baltimore.\n\nIn 1981, she won First Prize at the prestigious Busoni Competition in Bolzano, joining the ranks of other notable Busoni laureates such as Martha Argerich and J\u00F6rg Demus. At the age of 28, she became Germany\u0027s youngest piano professor when she was appointed to the University of Music in W\u00FCrzburg. In 1991, she was appointed to the University of Music and Performing Arts in Munich.\n\nAs a soloist, Margarita H\u00F6henrieder has performed with many of the world\u2019s most celebrated conductors and orchestras, including Kirill Petrenko, Claudio Abbado, Lorin Maazel, James Levine, Ivor Bolton, Riccardo Chailly, and Fabio Luisi, as well as with major ensembles such as the Bavarian Radio Symphony Orchestra, the Munich Philharmonic, the New York Philharmonic, the Staatskapelle Dresden, the Gewandhausorchester Leipzig, the Mozarteum Orchestra Salzburg, and the Mahler Chamber Orchestra.\n\n\u00A9 2014 Accentus Music\n\nWatch more concerts in your personal concert hall: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n  \nin our Beethoven playlist:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBWcX1eOXH-w75x-_-7gRF-w \n  \nand in our playlist with piano concertos: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBU7k2TJgrgNCc9aygnNkaGZ \n\nSee the first piano concerto by Beethoven with Margarita H\u00F6henrieder here:\nhttps://www.youtube.com/watch?v=279KL-eVnVM\n  \nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic \n  \n#Beethoven #pianoconcerto #fullconcert",
-			"PlaylistId": "PLGZ26GfFu_B0",
-			"Position": 2,
-			"PublishedAtRaw": "2026-07-26T03:48:56Z",
-			"PublishedAtDateTimeOffset": "2026-07-26T03:48:56+00:00",
-			"PublishedAt": "2026-07-26T09:18:56+05:30",
-			"ResourceId": {
-				"Kind": "youtube#video",
-				"VideoId": "yq56l01_DsQ"
-			},
-			"Thumbnails": {
-				"Default__": {
-					"Height": 90,
-					"Url": "https://i.ytimg.com/vi/yq56l01_DsQ/default.jpg",
-					"Width": 120
-				},
-				"High": {
-					"Height": 360,
-					"Url": "https://i.ytimg.com/vi/yq56l01_DsQ/hqdefault.jpg",
-					"Width": 480
-				},
-				"Maxres": {
-					"Height": 720,
-					"Url": "https://i.ytimg.com/vi/yq56l01_DsQ/maxresdefault.jpg",
-					"Width": 1280
-				},
-				"Medium": {
-					"Height": 180,
-					"Url": "https://i.ytimg.com/vi/yq56l01_DsQ/mqdefault.jpg",
-					"Width": 320
-				},
-				"Standard": {
-					"Height": 480,
-					"Url": "https://i.ytimg.com/vi/yq56l01_DsQ/sddefault.jpg",
-					"Width": 640
-				}
-			},
-			"Title": "Beethoven: Piano Concerto No. 2 | Margarita H\u00F6henrieder and the Kammerphilharmonie Amad\u00E9",
-			"VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
-			"VideoOwnerChannelTitle": "DW Classical Music"
-		}
-	}
+  {
+    "ContentDetails": {
+      "VideoId": "Wq5jRXQoE5Q",
+      "VideoPublishedAtRaw": "2026-04-30T16:00:54Z",
+      "VideoPublishedAtDateTimeOffset": "2026-04-30T16:00:54+00:00",
+      "VideoPublishedAt": "2026-04-30T21:30:54+05:30"
+    },
+    "ETag": "9LoNu18JTpGvHihXSRgACXI6sbo",
+    "Id": "UExHWjI2R2ZGdV9CMC41NkI0NEY2RDEwNTU3Q0M2",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Das Symphonieorchester des Bayerischen Rundfunks unter Leitung von Sir Simon Rattle spielt die Slawischen T\u00E4nze op. 72 von Anton\u00EDn Dvo\u0159\u00E1k. Live aufgenommen am 7. Juni 2025 im Herkulessaal der Residenz in M\u00FCnchen.\n\nAnton\u00EDn Dvo\u0159\u00E1k - Slawische T\u00E4nze, op. 72\n00:00 Nr. 1 in H-Dur, Allegro vivace (Odzemek)\n04:17 Nr. 2 in e-Moll, Allegretto grazioso (Dumka)\n09:49 Nr. 3 in F-Dur, Allegro (Sko\u010Dn\u00E1)\n13:28 Nr. 4 in Des-Dur, Allegretto grazioso (Dumka)\n19:05 Nr. 5 in b-Moll, Poco adagio. Vivace (\u0160pac\u00EDrka)\n21:49 Nr. 6 in B-Dur, Moderato, quasi Minuetto (Polonaise)\n25:40 Nr. 7 in C-Dur, Presto (Kolo)\n28:57 Nr. 8 in As-Dur, Grazioso e lento, ma non troppo, quasi tempo di valse (Sousedsk\u00E1)\n\nSymphonieorchester des Bayerischen Rundfunks\nLeitung: Sir Simon Rattle\n\n\u25BA Web: https://www.brso.de/\n\u25BA Facebook: https://www.facebook.com/brso/\n\u25BA Instagram: https://www.instagram.com/brsorchestra/\n\n\u25BA Web: https://www.br-klassik.de/\n\n\u25BA ARD Klassik Mediathek: https://ard-klassik.de\n\u25BA Facebook: https://www.facebook.com/ardklassik/\n\u25BA Instagram: https://www.instagram.com/ardklassik/\n\u25BA TikTok: https://www.tiktok.com/@ardklassik\n\nImpressum: https://www.br.de/impressum\nKommentare sind willkommen \u2013 aber bitte unter Beachtung unserer Netiquette: https://www.br.de/netiquette\nDatenschutz: https://www.br.de/datenschutz",
+      "PlaylistId": "PLGZ26GfFu_B0",
+      "Position": 0,
+      "PublishedAtRaw": "2026-07-26T03:47:51Z",
+      "PublishedAtDateTimeOffset": "2026-07-26T03:47:51+00:00",
+      "PublishedAt": "2026-07-26T09:17:51+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "Wq5jRXQoE5Q"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/Wq5jRXQoE5Q/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Dvo\u0159\u00E1k \u2013 Slawische T\u00E4nze op. 72 | Simon Rattle | BRSO",
+      "VideoOwnerChannelId": "UCgSO-M9hotp-0h7LYNp2oOg",
+      "VideoOwnerChannelTitle": "ARD Klassik"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "DWwppYEEdcI",
+      "VideoPublishedAtRaw": "2021-12-26T15:00:13Z",
+      "VideoPublishedAtDateTimeOffset": "2021-12-26T15:00:13+00:00",
+      "VideoPublishedAt": "2021-12-26T20:30:13+05:30"
+    },
+    "ETag": "ZYJI8W4T00zlO04NeBvObxEDYq0",
+    "Id": "UExHWjI2R2ZGdV9CMC4yODlGNEE0NkRGMEEzMEQy",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "It is one of the most popular symphonies ever: Ludwig van Beethoven\u2019s Symphony No. 3 in E-flat major, Op. 55, also called Eroica. Here it is performed by the ORF Vienna Radio Symphony Orchestra conducted by Michael Boder at the Beethovenfest Bonn 2021 at the World Conference Center Bonn (WCCB).\n\n(00:00) Symphony No. 3 in E-flat major, Op. 55, Eroica\n(00:36) I. Allegro con brio\n(17:38) II. Marcia funebre (Adagio assai)\n(30:18) III. Scherzo (Allegro vivace)\n(36:03) IV. Finale: Allegro molto - Poco andante \u2013 Presto\n\nLudwig van Beethoven (1770 - 1827) began planning his Symphony No. 3 in the fall of 1802, composing most of it in 1803, and probably not completing it until early 1804. The private premiere happened in the same year. The first public performance took place on April 7, 1805 and was conducted by Beethoven himself.\n\nBecause of the epithet \u2018Eroica\u2019 (the Heroic one), Beethoven\u2019s third symphony is commonly linked to Napoleon. However, Beethoven\u2019s relationship to Napoleon was rather ambivalent: on the one hand, he was fascinated by Napoleon\u2019s ideals, but at the same time he was deeply repelled by the fact that he had proclaimed himself emperor. Later, however, Beethoven is said to have revered Napoleon. His ambivalent attitude is also evidenced by the addition of the words \u201Cwritten on Bonaparte\u201D to the copy of the score, which he initially erased, but later added in again.\n\nIt is also unknown, however, who the hero could be to whom Beethoven dedicated the Eroica with the words \u201CSinfonia Eroica composta per celebrare la morte d\u2019un Eroe\u201D. Researchers doubt that he could have meant Napoleon. Whatever the case, Beethoven dedicated his third symphony to a hero whose funeral he commemorates in the second movement with a brilliant funeral march and who he resurrects triumphantly at the end of the fourth movement. Perhaps it is precisely this range of emotions, from serious, deepest mourning to joyfully enthusiastic exaltation that makes Beethoven\u2019s Eroica so appealing.\n\nWatch more concerts in your personal concert hall:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey\n\nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic\n\n#Beethoven #Eroica #MichaelBoder",
+      "PlaylistId": "PLGZ26GfFu_B0",
+      "Position": 1,
+      "PublishedAtRaw": "2026-07-26T03:48:19Z",
+      "PublishedAtDateTimeOffset": "2026-07-26T03:48:19+00:00",
+      "PublishedAt": "2026-07-26T09:18:19+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "DWwppYEEdcI"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/DWwppYEEdcI/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/DWwppYEEdcI/hqdefault.jpg",
+          "Width": 480
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/DWwppYEEdcI/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/DWwppYEEdcI/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Symphony No. 3 Eroica | Michael Boder \u0026 ORF Vienna Radio Symphony Orchestra",
+      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+      "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  },
+  {
+    "ContentDetails": {
+      "VideoId": "yq56l01_DsQ",
+      "VideoPublishedAtRaw": "2025-07-05T12:02:00Z",
+      "VideoPublishedAtDateTimeOffset": "2025-07-05T12:02:00+00:00",
+      "VideoPublishedAt": "2025-07-05T17:32:00+05:30"
+    },
+    "ETag": "2v5_UYko0DX5uxuLCiqxomIg5tI",
+    "Id": "UExHWjI2R2ZGdV9CMC4wMTcyMDhGQUE4NTIzM0Y5",
+    "Kind": "youtube#playlistItem",
+    "Snippet": {
+      "ChannelId": "UCiZeuI-7OPs7TmMel6Q5Msw",
+      "ChannelTitle": "Kanishk Nishar",
+      "Description": "Beethoven\u2019s Piano Concerto No. 2 in B-flat major, Op. 19 is an early work, rooted in the classical style, yet already revealing glimpses of the bold voice that would define his later compositions. In this performance, the concerto is played by Margarita H\u00F6henrieder (piano) and the Kammerphilharmonie Amad\u00E9 under the baton of Leon Fleisher. The concert took place in 2014 at the unique industrial setting of the Zeche Zollverein in Essen, Germany.\n\n(00:00) I. Allegro con brio\n(14:01) II. Adagio\n(23:51) III. Rondo. Molto allegro\n\nAlthough officially designated Beethoven\u2019s Piano Concerto No. 2, this was actually the first piano concerto he composed. Its creation spans several years: sketches and fragments date from 1786 to 1792, when Ludwig van Beethoven (1770 - 1827) was still living in Bonn. After multiple revisions, the work was premiered on March 29, 1795, at Vienna\u2019s Burgtheater \u2014 with Beethoven himself at the piano. He later revised the concerto again before publishing it at the end of 1801.\n\nInterestingly, Beethoven began work on his Piano Concerto No. 1 in C major, Op. 15 at a later date, but it was published earlier, in the spring of 1801. That\u2019s why it carries a lower opus number and is considered his \u0022first\u0022 concerto in the official catalog.\n\nBoth early piano concertos were pivotal for the young composer from Bonn \u2014 they served, so to speak, as his musical calling cards. Since arriving in Vienna in 1792, Beethoven had quickly gained access to aristocratic circles thanks to his virtuosity, and these influential patrons also supported him financially. The aforementioned 1795 concert marked his first public performance in the musical capital of Vienna, boosting his reputation as a piano virtuoso. That said, Beethoven himself reportedly claimed that his first and second piano concertos were not among his best works.\n\nFollowing in the footsteps of Wolfgang Amadeus Mozart (1756\u20131791), who had popularized the piano concerto as a genre \u2014 and dazzled audiences with his own brilliance as a pianist \u2014 Beethoven\u2019s Second Piano Concerto still closely echoes the stylistic hallmarks of his predecessor, especially in the first and third movements. Yet dramatic moments throughout already hint at the unmistakable personal style that would later define Beethoven\u2019s music.\n\nMargarita H\u00F6henrieder discovered her love for the piano at an early age. She gave her first public performance at the age of seven in Munich\u2019s Herkulessaal. She studied with Anna Stadler and Ludwig Hoffmann in Munich, and later with renowned American pianist and conductor Leon Fleisher in Baltimore.\n\nIn 1981, she won First Prize at the prestigious Busoni Competition in Bolzano, joining the ranks of other notable Busoni laureates such as Martha Argerich and J\u00F6rg Demus. At the age of 28, she became Germany\u0027s youngest piano professor when she was appointed to the University of Music in W\u00FCrzburg. In 1991, she was appointed to the University of Music and Performing Arts in Munich.\n\nAs a soloist, Margarita H\u00F6henrieder has performed with many of the world\u2019s most celebrated conductors and orchestras, including Kirill Petrenko, Claudio Abbado, Lorin Maazel, James Levine, Ivor Bolton, Riccardo Chailly, and Fabio Luisi, as well as with major ensembles such as the Bavarian Radio Symphony Orchestra, the Munich Philharmonic, the New York Philharmonic, the Staatskapelle Dresden, the Gewandhausorchester Leipzig, the Mozarteum Orchestra Salzburg, and the Mahler Chamber Orchestra.\n\n\u00A9 2014 Accentus Music\n\nWatch more concerts in your personal concert hall: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBV5A14dyRWy1KSkwcG8LEey \n  \nin our Beethoven playlist:\nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBWcX1eOXH-w75x-_-7gRF-w \n  \nand in our playlist with piano concertos: \nhttps://www.youtube.com/playlist?list=PL_SdnzPd3eBU7k2TJgrgNCc9aygnNkaGZ \n\nSee the first piano concerto by Beethoven with Margarita H\u00F6henrieder here:\nhttps://www.youtube.com/watch?v=279KL-eVnVM\n  \nSubscribe to DW Classical Music:\nhttps://www.youtube.com/dwclassicalmusic \n  \n#Beethoven #pianoconcerto #fullconcert",
+      "PlaylistId": "PLGZ26GfFu_B0",
+      "Position": 2,
+      "PublishedAtRaw": "2026-07-26T03:48:56Z",
+      "PublishedAtDateTimeOffset": "2026-07-26T03:48:56+00:00",
+      "PublishedAt": "2026-07-26T09:18:56+05:30",
+      "ResourceId": {
+        "Kind": "youtube#video",
+        "VideoId": "yq56l01_DsQ"
+      },
+      "Thumbnails": {
+        "Default__": {
+          "Height": 90,
+          "Url": "https://i.ytimg.com/vi/yq56l01_DsQ/default.jpg",
+          "Width": 120
+        },
+        "High": {
+          "Height": 360,
+          "Url": "https://i.ytimg.com/vi/yq56l01_DsQ/hqdefault.jpg",
+          "Width": 480
+        },
+        "Maxres": {
+          "Height": 720,
+          "Url": "https://i.ytimg.com/vi/yq56l01_DsQ/maxresdefault.jpg",
+          "Width": 1280
+        },
+        "Medium": {
+          "Height": 180,
+          "Url": "https://i.ytimg.com/vi/yq56l01_DsQ/mqdefault.jpg",
+          "Width": 320
+        },
+        "Standard": {
+          "Height": 480,
+          "Url": "https://i.ytimg.com/vi/yq56l01_DsQ/sddefault.jpg",
+          "Width": 640
+        }
+      },
+      "Title": "Beethoven: Piano Concerto No. 2 | Margarita H\u00F6henrieder and the Kammerphilharmonie Amad\u00E9",
+      "VideoOwnerChannelId": "UC_kqgIRwOD3XCZXXr4B6bPQ",
+      "VideoOwnerChannelTitle": "DW Classical Music"
+    }
+  }
 ]

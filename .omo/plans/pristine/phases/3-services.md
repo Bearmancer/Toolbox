@@ -27,6 +27,7 @@ Port `pristine.py:781-1003` core loop into `DownloadSingleAlbumAsync(IBrowserCon
 State: `seenUrls HashSet<string>`, `seenTitles HashSet<string>`, `stallCount int`, `trackNum int`, `capturedUrls List<string>` via `Page.Request` event filtered by `PristineText.IsAudioUrl`.
 
 Loop `while (stallCount < 60)`:
+
 - newSrc = first `capturedUrls` not in `seenUrls` else `EvaluateAsync<string?>("...!el.paused&&el.hasAttribute('src')")`
 - if found: `seenUrls.Add`, `trackNum++`, title = `EvaluateAsync("...pp-playbar__now-playing__track...")` ?? `f"Track {trackNum:02d}"`, duplicate-title break, `NormalizeTrackTitle().TitleCase` → `SanitizePathComponent` → `f"{trackNum:02d}. {safe}{ext}"` where `ext=".flac" if ".flac" in src else ".mp3"`, `EvaluateAsync("pause all")` then `PristineDownloader.DownloadAsync`, expected-count break, `Task.Delay(2000)` → `ClickForwardAsync` → `WaitForFunctionAsync("...readyState>=2",4000)` swallow → `ClickPlayAsync` → `WaitForFunctionAsync("...!paused",3000)` swallow.
 - else: `stallCount++`, if `HasReadyPausedAudio` → `ClickPlay`, else if `stallCount==5` → JS re-dispatch playnow.
