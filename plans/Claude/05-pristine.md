@@ -1,13 +1,25 @@
 ---
 concern: Pristine (PASC downloader)
-status: BLOCKED — source unavailable, plan-only
-ref: NONE — see §2
-source_docs: [0-foundation.md, 1-types.md, 2-browser.md, 3-services.md, 4-cli-di.md, pristine.md, "pristine-hardening (2).md", Pristine-Refactor-TODO.md, failures_tally.md, 2026-08-19-pristine-overhaul-design.md]
+status: partially complete — P1/P2/P3/P5/P9(static) done; P4/P6 deferred (no recoverable spec); P7/P8 pending live-download proof against the user's real paid account, explicitly not executed yet
+ref: github.com/Bearmancer/Toolbox @ master (git log for exact history)
+source_docs: superseded — see git history for the original P2 audit and P3/P5 fix commits
 ---
 
 # Pristine — Plan
 
-## 1. A blunt warning before anything else
+## Status update (supersedes §1 and §3 below)
+
+The source this plan believed was lost turned out to exist — §1's "blunt warning" and §3's "unverified, secondhand" framing describe a state that no longer applies; both sections are kept only as a historical record of what was believed at plan-writing time. What actually happened, once the real source was audited (`git log --oneline -- src/Services/Pristine`):
+
+- **P1** (recover source): satisfied — source was already on the branch, no recovery needed.
+- **P2** (re-verify all claims against real source): done. Most of the plan's secondhand concerns turned out already-fixed (no `!` operators, proper `IHttpClientFactory` DI, `singleTrack` flag fully wired, cookie handling correct, 5-concurrent-download limit already in place).
+- **P3** (error paths / cookie hygiene): done — 13 `OperationCanceledException`-swallow sites fixed, 2 empty catch blocks fixed, including a self-defeating nested-rethrow bug the original plan never mentioned.
+- **P5** (16-bit gate / ffprobe authority / exit codes): done — ffprobe-missing now hard-fails instead of presuming 16-bit-by-extension, CLI exit code is truthful on partial failure, a `--single` regression and a cancellation-drain bug found in final review were both fixed.
+- **P9** (static acceptance criteria only — no `!`, no empty `catch{}`): verified passing.
+- **P4** (diagnostics contract, retry isolation, resolver) and **P6** (Azure/runtime preflight): explicitly deferred, not implemented. Neither had enough surviving spec to action without inventing scope — P6's source text was literally "redacted," and P4's themes didn't map to any concrete defect P2's audit found.
+- **P7/P8** (single-FLAC and full-album live-download proof against the real site): **not executed** — requires a live login against the user's real paid Pristine account; deliberately deferred pending the user's review in a separate session.
+
+## 1. A blunt warning before anything else (historical — see status update above)
 
 **Every task below is written against a description of code I cannot see.** `git ls-remote` against the real GitHub repo shows only `master`, and `master`'s HEAD is titled "Pre-Pristine adding commit" — the actual `Services/Pristine/*.cs` files were never pushed. Neither Toolbox zip you've given me across this whole session contains a `Pristine` directory. Everything here is reconstructed from plan documents and bug reports that quote file:line locations I can't verify still match.
 

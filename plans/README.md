@@ -1,25 +1,23 @@
 # Plans
 
-`Claude/` is the authoritative, current plan set — one file per concern, each re-verified directly
-against source rather than inherited from prior passes. Start there.
+`Claude/05-pristine.md` is the one plan still tracking live work — most of it is done (see its own
+status update), but P7/P8 (live-download proof against the real Pristine account) are deliberately
+not executed yet, pending review.
 
 | File | Concern | Status |
 |---|---|---|
-| [Claude/00-repo-hygiene.md](Claude/00-repo-hygiene.md) | Repo/plan-corpus hygiene | read this first |
-| [Claude/01-audio.md](Claude/01-audio.md) | Audio / SACD pipeline | active |
-| [Claude/02-lastfm.md](Claude/02-lastfm.md) | Last.fm sync/scrobble | active — must be redone |
-| [Claude/03-azure.md](Claude/03-azure.md) | Azure services (Vision/Translate/DocIntel/Speech/TextAnalytics/OpenAI) | active |
-| [Claude/04-core.md](Claude/04-core.md) | Core cross-cutting (Telemetry, Errors, dead code) | active |
-| [Claude/05-pristine.md](Claude/05-pristine.md) | Pristine (PASC downloader) | active |
+| [Claude/05-pristine.md](Claude/05-pristine.md) | Pristine (PASC downloader) | partially complete — P7/P8 pending live proof |
 
-Everything else that used to live in `plans/` was raw source material for the six files above and has
-been deleted once its content was distilled in. What remains at the root, alongside this README, is
-kept deliberately — evidence, not active plans:
+`00-repo-hygiene.md`, `01-audio.md`, `02-lastfm.md`, `03-azure.md`, and `04-core.md` closed out and
+were deleted per this file's own policy below — their outcomes are folded into the relevant
+`AGENTS.md` files, and the reasoning/audit trail lives in git commit history (`git log`), not here.
+
+What remains at the root, alongside this README, is kept deliberately — evidence, not active plans:
 
 - `erroror_migration_assessment.md`, `ponytail_audit_verified.md` — prior audits, cross-checked and
   kept as a "don't re-propose this" record.
-- `content.md`, `removals.json`, `removals_analysis.csv`, `removals_analysis.txt`,
-  `youtube_search_results.json` — raw evidence backing past decisions, not forward-looking plans.
+- `removals.json`, `removals_analysis.csv`, `removals_analysis.txt`, `youtube_search_results.json` —
+  raw evidence backing past decisions, not forward-looking plans.
 - `taste.md` — synced from `~/.commandcode/taste/taste.md` (canonical source); working-style
   preferences, not project plans.
 
