@@ -62,11 +62,6 @@ public static class Errors
 		public static Error ApiError(string message) => Error.Failure("Vision.ApiError", message);
 	}
 
-	public static class OpenAi
-	{
-		public static Error ApiError(string message) => Error.Failure("OpenAI.ApiError", message);
-	}
-
 	public static class Translate
 	{
 		public static Error ApiError(string message) =>

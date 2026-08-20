@@ -1,6 +1,5 @@
 using Azure;
 using Azure.AI.DocumentIntelligence;
-using Azure.AI.OpenAI;
 using Azure.AI.TextAnalytics;
 using Azure.AI.Translation.Text;
 using Azure.AI.Vision.ImageAnalysis;
@@ -49,14 +48,6 @@ public static class AzureSetup
 				)
 			);
 			services.AddSingleton<VisionService>();
-
-			services.AddSingleton(
-				new AzureOpenAIClient(
-					new Uri(credentials.OpenAiEndpoint),
-					new AzureKeyCredential(credentials.OpenAiKey)
-				)
-			);
-			services.AddSingleton<OpenAiService>();
 
 			services.AddSingleton<SpeechService>();
 

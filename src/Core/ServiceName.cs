@@ -4,7 +4,6 @@ public enum ServiceName
 {
 	LastFm,
 	YouTube,
-	OpenAi,
 	Vision,
 	Translate,
 	TextAnalytics,
@@ -24,7 +23,6 @@ public static class ServiceNameMethods
 			{
 				ServiceName.LastFm => "lastfm",
 				ServiceName.YouTube => "youtube",
-				ServiceName.OpenAi => "openai",
 				ServiceName.Vision => "vision",
 				ServiceName.Translate => "translate",
 				ServiceName.TextAnalytics => "textanalytics",

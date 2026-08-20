@@ -2,14 +2,13 @@
 <p>Thin SDK wrappers — one client + service per Azure AI capability. Cross-service consumer: <code>Services.Google</code> → <code>TranslateService</code>.</p>
 <h2>STRUCTURE</h2>
 <pre class="syntax-highlighting"><code><span class="text plain">Azure/
-├── AzureSetup.cs               # extension AddAzureServices() — 6 SDK clients + SpeechService
+├── AzureSetup.cs               # extension AddAzureServices() — 4 SDK clients + SpeechService
 ├── AzureCredentials.cs         # 15 env vars: Read() + Env() — endpoints/keys/region/deployment
 ├── VisionService.cs            # ImageAnalysisClient → AnalyzeAsync()
 ├── TranslateService.cs         # TextTranslationClient → TranslateBatchAsync() / TransliterateBatchAsync()
 ├── SpeechService.cs            # SpeechConfig+ffmpeg → TranscribeAsync() / SynthesizeAsync() (chunked)
 ├── DocIntelService.cs          # DocumentIntelligenceClient → AnalyzeAsync()
-├── OpenAiService.cs            # AzureOpenAIClient → ChatAsync()
-├── TextAnalyticsService.cs     # TextAnalyticsClient → Sentiment/Entities/KeyPhrases/DetectLanguage/Pii
+├── TextAnalyticsService.cs     # TextAnalyticsClient → Entities/KeyPhrases
 ├── AzureSdkEventListener.cs    # AzureEventSourceListener → Serilog (Azure-Core/Identity)
 ├── ClientModelEventListener.cs # ClientModel EventSource → Serilog
 ├── SpeechSdkEventListener.cs   # Speech SDK EventSource → Serilog
