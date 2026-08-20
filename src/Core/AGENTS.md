@@ -4,9 +4,9 @@
 <pre class="syntax-highlighting"><code><span class="text plain">Core/
 ├── Core.csproj     # ErrorOr, Serilog+Compact/File/Seq/Spectre/Tracing, Spectre.Console
 ├── Telemetry.cs    # Per-service JSONL (CompactJsonFormatter, 50 MB) + Spectre console + Seq probe
-├── Errors.cs       # Domain factories: General/Validation/YouTube/Azure/LastFm/DocIntel/Speech/Vision/OpenAi/Translate/TextAnalytics/Audio/Pristine
+├── Errors.cs       # Domain factories: Validation/YouTube/Azure/LastFm/DocIntel/Speech/Vision/OpenAi/Translate/TextAnalytics/Audio/Pristine
 ├── PathResolver.cs # RepoRoot, GetStatePath(), ResolveInput(), ReadChecked()
-└── Text.cs         # SanitizeFileName + string extensions (IsEqualTo, Has, StartsWith)
+└── Text.cs         # SanitizeFileName + string extensions (IsEqualTo)
 </span></code></pre>
 <p><code>Telemetry.cs</code>: <code>state/logs</code> = <code>Path.Combine(RepoRoot,&quot;state&quot;,&quot;logs&quot;)</code>; one JSONL per <code>ServiceName</code> via <code>Enum.GetValues</code>→<code>AddServiceLogger</code> filtering on <code>Service==service.ToString()</code>; <code>LevelSwitch</code> controls Spectre sink; Seq at <code>SEQ_URL</code> gated by SEQ_URL env var presence (no TCP probe).
 <code>ServiceName.cs</code>: <code>LastFm, YouTube, OpenAi, Vision, Translate, TextAnalytics, Speech, DocIntel, Audio, Pristine, SdkDiagnostics</code> → <code>ToFileSlug()</code> maps <code>TextAnalytics→textanalytics</code>, <code>Pristine→pristine</code>, <code>SdkDiagnostics→sdk</code>.

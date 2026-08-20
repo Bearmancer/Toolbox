@@ -24,10 +24,5 @@ public static class Text
 
 		public bool IsEqualToIgnore(string? b) =>
 			string.Equals(a, b, StringComparison.OrdinalIgnoreCase);
-
-		public bool Has(string value) => a?.Contains(value, StringComparison.Ordinal) ?? false;
-
-		public bool StartsWith(string value) =>
-			a?.StartsWith(value, StringComparison.Ordinal) ?? false;
 	}
 }

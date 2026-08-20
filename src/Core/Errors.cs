@@ -4,22 +4,10 @@ namespace Core;
 
 public static class Errors
 {
-	public static class General
-	{
-		public static Error Unexpected =>
-			Error.Failure("General.Unexpected", "An unexpected error occurred.");
-
-		public static Error Internal =>
-			Error.Failure("General.Internal", "An internal system error occurred.");
-	}
-
 	public static class Validation
 	{
 		public static Error InvalidInput(string field, string reason) =>
 			Error.Validation($"Validation.{field}", reason);
-
-		public static Error RequiredField(string field) =>
-			Error.Validation($"Validation.{field}Required", $"{field} is required.");
 	}
 
 	public static class YouTube
@@ -44,17 +32,11 @@ public static class Errors
 
 	public static class LastFm
 	{
-		public static Error RateLimitExceeded =>
-			Error.Failure("Lfm.RateLimit", "Last.fm API rate limit exceeded.");
-
 		public static Error MalformedResponse =>
 			Error.Failure(
 				"Lfm.MalformedResponse",
 				"The API response is missing expected structure."
 			);
-
-		public static Error UserNotFound(string user) =>
-			Error.NotFound("Lfm.UserNotFound", $"Last.fm user {user} not found.");
 
 		public static Error ApiError(string message) => Error.Failure("Lfm.ApiError", message);
 
@@ -144,22 +126,10 @@ public static class Errors
 				$"Insufficient disk space at {path}. Required: {requiredBytes / 1_048_576} MB, Available: {availableBytes / 1_048_576} MB."
 			);
 
-		public static Error OutputPathUnwritable(string path) =>
-			Error.Failure("Audio.OutputPathUnwritable", $"Output path is not writable: {path}");
-
 		public static Error InvalidInputPath(string path) =>
 			Error.Failure(
 				"Audio.InvalidInputPath",
 				$"Input path does not exist or is not accessible: {path}"
-			);
-
-		public static Error ProcessFailed(string binary, string reason) =>
-			Error.Failure("Audio.ProcessFailed", $"{binary} process failed: {reason}");
-
-		public static Error PathTooLong(string path, int length) =>
-			Error.Failure(
-				"Audio.PathTooLong",
-				$"Output path exceeds Windows MAX_PATH ({length} chars): {path}"
 			);
 
 		public static Error StripFailed(string file, string reason) =>
@@ -168,9 +138,6 @@ public static class Errors
 
 	public static class Pristine
 	{
-		public static Error MissingBaseOutDir =>
-			Error.Validation("Pristine.MissingBaseOutDir", "Output dir unavailable");
-
 		public static Error AuthMissing =>
 			Error.NotFound("Pristine.AuthMissing", "No session at state/auth/pristine/auth.json — run pristine login first");
 
@@ -183,16 +150,7 @@ public static class Errors
 		public static Error ResolveFailed(string code) =>
 			Error.NotFound("Pristine.ResolveFailed", $"Could not resolve {code}");
 
-		public static Error DownloadFailed(string file, string reason) =>
-			Error.Failure("Pristine.DownloadFailed", $"Download failed {file}: {reason}");
-
-		public static Error AlbumNotFound(string code) =>
-			Error.NotFound("Pristine.AlbumNotFound", $"Album not found: {code}");
-
 		public static Error TracklistParseFailed(string reason) =>
 			Error.Failure("Pristine.TracklistParseFailed", $"Tracklist parse failed: {reason}");
-
-		public static Error No16BitFlac(string code, string candidates) =>
-			Error.Failure("Pristine.No16BitFlac", $"No 16-bit FLAC candidate for {code}. Available: {candidates}");
 	}
 }
