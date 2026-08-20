@@ -135,7 +135,8 @@ public sealed class SaraconService(ProcessRunner processRunner, string binaryPat
 			args,
 			ct,
 			timeout: DefaultTimeout,
-			onOutputLine: onOutputLine
+			inactivityTimeout: TimeSpan.FromMinutes(5),
+			onOutputLine: onOutputLine ?? (line => Telemetry.Debug("Saracon.Output {Line}", line))
 		);
 
 		if (result.IsError)
