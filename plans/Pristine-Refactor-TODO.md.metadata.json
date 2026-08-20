@@ -1,5 +1,0 @@
-{
-  "summary":  "A detailed markdown TODO list enumerating required refactoring tasks across the Pristine services, including missing WaitAsync calls and incomplete exception handling for Playwright operations.",
-  "updatedAt":  "2026-08-19T15:00:19.899110400Z",
-  "userFacing":  true
-}
