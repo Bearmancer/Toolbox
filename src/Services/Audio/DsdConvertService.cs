@@ -310,32 +310,6 @@ public sealed class DsdConvertService(
 		}
 	}
 
-	public async Task<ErrorOr<ConversionResult>> DeriveFlacAsync(
-		string sourceFlac,
-		string outputFlac,
-		int targetSampleRate,
-		CancellationToken ct = default
-	)
-	{
-		ErrorOr<string> deriveResult = await sox.DeriveFlacAsync(
-			sourceFlac,
-			outputFlac,
-			targetSampleRate,
-			ct
-		);
-		if (deriveResult.IsError)
-			return deriveResult.Errors;
-
-		ErrorOr<TimeSpan> durationResult = await sox.GetDurationAsync(outputFlac, ct);
-		if (durationResult.IsError)
-			return durationResult.Errors;
-
-		FileInfo fileInfo = new(outputFlac);
-		fileInfo.Refresh();
-
-		return new ConversionResult(outputFlac, durationResult.Value, fileInfo.Length);
-	}
-
 	private static string SanitizeFilename(string name)
 	{
 		var invalid = Path.GetInvalidFileNameChars();

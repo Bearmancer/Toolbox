@@ -24,9 +24,11 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 		[CommandOption("-m|--multichannel")]
 		public bool? Multichannel { get; init; }
 
-		[Description("Keep source ISO files (ISO deleted after conversion by default)")]
-		[CommandOption("--keep-iso")]
-		public bool KeepIso { get; init; }
+		[Description(
+			"Retain intermediate artifacts (source ISO and DFF/XML) after conversion; both are deleted by default"
+		)]
+		[CommandOption("--retain-artifacts")]
+		public bool RetainArtifacts { get; init; }
 
 		[Description("Clear all guard entries and exit")]
 		[CommandOption("--reset-guard")]
@@ -60,7 +62,7 @@ internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 			settings.Input,
 			settings.Format,
 			settings.Multichannel,
-			settings.KeepIso,
+			settings.RetainArtifacts,
 			cancellationToken
 		);
 

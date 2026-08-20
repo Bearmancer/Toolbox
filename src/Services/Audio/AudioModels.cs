@@ -24,7 +24,7 @@ public sealed record SacdTrack(
 
 public sealed record DsdConversionSettings(int SampleRate, int BitDepth, double GainDb)
 {
-	public static (DsdConversionSettings Primary, DsdConversionSettings? Derived) ForDsdRate(
+	public static DsdConversionSettings ForDsdRate(
 		int dsdSampleRate,
 		AudioOutputFormat format,
 		double gain
@@ -33,22 +33,14 @@ public sealed record DsdConversionSettings(int SampleRate, int BitDepth, double 
 		{
 			2822400 => format switch
 			{
-				AudioOutputFormat.Bit16 => (new DsdConversionSettings(44100, 16, gain), null),
-				AudioOutputFormat.Bit24 => (new DsdConversionSettings(88200, 24, gain), null),
-				AudioOutputFormat.Both => (
-					new DsdConversionSettings(88200, 24, gain),
-					new DsdConversionSettings(44100, 16, gain)
-				),
+				AudioOutputFormat.Bit16 => new DsdConversionSettings(44100, 16, gain),
+				AudioOutputFormat.Bit24 => new DsdConversionSettings(88200, 24, gain),
 				_ => throw new InvalidOperationException($"Unsupported format: {format}"),
 			},
 			5644800 => format switch
 			{
-				AudioOutputFormat.Bit16 => (new DsdConversionSettings(88200, 16, gain), null),
-				AudioOutputFormat.Bit24 => (new DsdConversionSettings(176400, 24, gain), null),
-				AudioOutputFormat.Both => (
-					new DsdConversionSettings(176400, 24, gain),
-					new DsdConversionSettings(88200, 16, gain)
-				),
+				AudioOutputFormat.Bit16 => new DsdConversionSettings(88200, 16, gain),
+				AudioOutputFormat.Bit24 => new DsdConversionSettings(176400, 24, gain),
 				_ => throw new InvalidOperationException($"Unsupported format: {format}"),
 			},
 			_ => throw new InvalidOperationException(
@@ -61,7 +53,6 @@ public enum AudioOutputFormat
 {
 	Bit16,
 	Bit24,
-	Both,
 }
 
 public sealed record DsdProbeResult(

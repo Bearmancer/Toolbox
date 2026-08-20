@@ -110,45 +110,6 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		return TimeSpan.FromSeconds(seconds);
 	}
 
-	public async Task<ErrorOr<string>> DeriveFlacAsync(
-		string sourceFlac,
-		string outputFlac,
-		int targetSampleRate,
-		CancellationToken ct = default
-	)
-	{
-		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
-			binaryPath,
-			[
-				sourceFlac,
-				"-b",
-				"16",
-				outputFlac,
-				"rate",
-				"-v",
-				targetSampleRate.ToString(CultureInfo.InvariantCulture),
-			],
-			ct
-		);
-
-		if (result.IsError)
-			return result.Errors;
-
-		if (result.Value.ExitCode != 0)
-			return Errors.Audio.ConversionFailed(
-				sourceFlac,
-				$"sox derive exit code {result.Value.ExitCode}: {result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)]}"
-			);
-
-		if (!File.Exists(outputFlac) || new FileInfo(outputFlac).Length == 0)
-			return Errors.Audio.ConversionFailed(
-				outputFlac,
-				"sox derive exited 0 but produced no output file"
-			);
-
-		return outputFlac;
-	}
-
 	private static string FormatSeconds(TimeSpan t) =>
 		t.TotalSeconds.ToString("F6", CultureInfo.InvariantCulture);
 }

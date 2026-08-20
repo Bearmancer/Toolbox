@@ -4,9 +4,9 @@
 <pre class="syntax-highlighting"><code><span class="text plain">Audio/
 ├── AudioSetup.cs              # DI extension AddAudioServices(), eager PATH check saracon/sox/sacd_extract
 ├── PipelineOrchestrator.cs    # Pure orchestration: enumerate ISOs (natural sort), probe, route, cleanup. 6 deps
-├── DsdConvertService.cs       # Facade: ProbeDsdAsync, PrepareDffAsync, CalculateGainAsync, ConvertAndSplitAsync, Derive. Owns Saracon/Sox/Metadata
+├── DsdConvertService.cs       # Facade: ProbeDsdAsync, PrepareDffAsync, CalculateGainAsync, ConvertAndSplitAsync. Owns Saracon/Sox/Metadata
 ├── SaraconService.cs          # Internal of DsdConvertService. saracon -c d2p wrapper. 1h timeout, 100% marker, Validates WAV/FLAC output
-├── SoxService.cs              # Internal of DsdConvertService. trim split, stats (Pk lev dB), duration --i -D, derive rate -v
+├── SoxService.cs              # Internal of DsdConvertService. trim split, stats (Pk lev dB), duration --i -D
 ├── SacdExtractService.cs      # sacd_extract: -P probe, -2/-m -e -c -C extract (Edit Master + CUE)
 ├── ProcessRunner.cs           # Shared: ArgumentList, concurrent stdout/stderr drain, CancellationToken, timeout/inactivity/completionPattern
 ├── PathValidator.cs           # Traversal/containment validation
@@ -98,7 +98,7 @@
 </ul>
 <h2>ENVIRONMENT</h2>
 <p>Binaries <code>saracon</code>, <code>sox</code>, <code>sacd_extract</code> from PATH only. Validated eagerly in AudioSetup.AddAudioServices() via ProcessRunner.IsOnPath() — throws InvalidOperationException if missing. No env vars.</p>
-<h2>PIPELINE — 9 steps</h2>
+<h2>PIPELINE — 8 steps</h2>
 <ol>
 <li>sacd_extract -P -i <!-- raw HTML omitted --> → stereo/mch probe</li>
 <li>sacd_extract -2/-m -e -c -C -i <!-- raw HTML omitted --> → DSDIFF Edit Master DFF + CUE (in channelDir sibling)</li>
@@ -108,8 +108,8 @@
 <li>saracon -c d2p -r <!-- raw HTML omitted --> -f wav -n <!-- raw HTML omitted -->bit -d tpdf -g <!-- raw HTML omitted --> -T -V all -t <!-- raw HTML omitted --> <!-- raw HTML omitted --> → master WAV</li>
 <li>sox trim per CueTrack → FLACs (inside ConvertAndSplitAsync), ATL.NET tag per track</li>
 <li>Delete master WAV in finally; best-effort (never masks primary error)</li>
-<li>Optional: DeriveDirectoryAsync → 16-bit FLAC via sox rate -v</li>
 </ol>
+<p>Single output format per run — <code>AudioOutputFormat</code> is <code>Bit16</code> (default) or <code>Bit24</code> via <code>-f|--format</code>. No combined/dual-format output exists anywhere in the pipeline.</p>
 <h2>SARACON</h2>
 <p>Headless only, never GUI. SaraconService builds: <code>saracon -c d2p -r &lt;rate&gt; -f wav -n &lt;bit&gt;bit -d tpdf -g &lt;gain&gt; -T -V all -t &quot;&lt;outDir&gt;&quot; &quot;&lt;input.dff&gt;&quot;</code>. -c d2p required, final arg = input DFF, -t = output dir. Default Bit16 at app layer (omit --format, parser rejects --format 16). Validates RIFF/WAVE/fmt/data chunks, checks -d2p variant filename, warns if output &lt;50% expected PCM bytes. 1h timeout.</p>
 <h2>STATE / RECOVERY</h2>
@@ -126,7 +126,7 @@
 <tbody>
 <tr>
 <td>ISO</td>
-<td>delete iff --keep-iso absent AND outputs validate (FLAC count==CUE tracks, non-zero)</td>
+<td>delete iff --retain-artifacts absent AND outputs validate (FLAC count==CUE tracks, non-zero)</td>
 <td>retain</td>
 </tr>
 <tr>
@@ -135,8 +135,8 @@
 <td>retain</td>
 </tr>
 <tr>
-<td>DFF/_clean.dff</td>
-<td>delete after full validation (even with --keep-iso)</td>
+<td>DFF/_clean.dff/XML</td>
+<td>delete iff --retain-artifacts absent AND outputs validate — same gate as ISO, both together</td>
 <td>retain/quarantine</td>
 </tr>
 <tr>

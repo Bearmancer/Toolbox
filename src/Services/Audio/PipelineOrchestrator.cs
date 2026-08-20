@@ -20,7 +20,7 @@ public sealed class PipelineOrchestrator(
 		string inputPath,
 		AudioOutputFormat format,
 		bool? multichannel,
-		bool keepIso,
+		bool retainArtifacts,
 		CancellationToken ct
 	)
 	{
@@ -134,7 +134,7 @@ public sealed class PipelineOrchestrator(
 			}
 		}
 
-		CleanupSuccesses(succeededDiscs, keepIso);
+		CleanupSuccesses(succeededDiscs, retainArtifacts);
 		return new PipelineResult(succeeded, failed, recoverableErrors, guardFailedDiscs);
 	}
 
@@ -371,9 +371,11 @@ public sealed class PipelineOrchestrator(
 		if (preparedDff.IsError)
 			return preparedDff.Errors;
 
-		DsdConversionSettings gainSettings = DsdConversionSettings
-			.ForDsdRate(dsdProbe.Value.SampleRate, format, 0.0)
-			.Primary;
+		DsdConversionSettings gainSettings = DsdConversionSettings.ForDsdRate(
+			dsdProbe.Value.SampleRate,
+			format,
+			0.0
+		);
 
 		ErrorOr<double> gainResult = await convertService.CalculateGainAsync(
 			preparedDff.Value,
@@ -384,9 +386,11 @@ public sealed class PipelineOrchestrator(
 		if (gainResult.IsError)
 			return gainResult.Errors;
 
-		DsdConversionSettings primary = DsdConversionSettings
-			.ForDsdRate(dsdProbe.Value.SampleRate, format, gainResult.Value)
-			.Primary;
+		DsdConversionSettings primary = DsdConversionSettings.ForDsdRate(
+			dsdProbe.Value.SampleRate,
+			format,
+			gainResult.Value
+		);
 
 		ErrorOr<List<string>> convertResult = await convertService.ConvertAndSplitAsync(
 			preparedDff.Value,
@@ -402,7 +406,7 @@ public sealed class PipelineOrchestrator(
 		return Result.Success;
 	}
 
-	private void CleanupSuccesses(List<ProcessedDisc> succeededDiscs, bool keepIso)
+	private void CleanupSuccesses(List<ProcessedDisc> succeededDiscs, bool retainArtifacts)
 	{
 		foreach (ProcessedDisc disc in succeededDiscs)
 		{
@@ -432,6 +436,15 @@ public sealed class PipelineOrchestrator(
 				Path.GetFileName(disc.IsoPath)
 			);
 
+			if (retainArtifacts)
+			{
+				Telemetry.Info(
+					"Pipeline.ArtifactsRetained iso={Iso}",
+					Path.GetFileName(disc.IsoPath)
+				);
+				continue;
+			}
+
 			foreach (var outputDir in disc.OutputDirectories)
 			{
 				if (!Directory.Exists(outputDir))
@@ -456,15 +469,6 @@ public sealed class PipelineOrchestrator(
 						);
 					}
 				}
-			}
-
-			if (keepIso)
-			{
-				Telemetry.Info(
-					"Pipeline.KeepIsoRetained iso={Iso}",
-					Path.GetFileName(disc.IsoPath)
-				);
-				continue;
 			}
 
 			try

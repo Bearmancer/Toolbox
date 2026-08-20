@@ -26,7 +26,7 @@ internal sealed class DsdConvertCommand(
 		[CommandOption("-g|--gain")]
 		public double? GainDb { get; init; }
 
-		[Description("Output format: 16 (default), 24, both")]
+		[Description("Output format: 16 (default) or 24")]
 		[CommandOption("-f|--format")]
 		public AudioOutputFormat Format { get; init; } = AudioOutputFormat.Bit16;
 
@@ -92,9 +92,11 @@ internal sealed class DsdConvertCommand(
 
 			var conversionInputPath = preparedDff.Value;
 			var gain = settings.GainDb ?? 0.0;
-			DsdConversionSettings primary = DsdConversionSettings
-				.ForDsdRate(dsdProbe.Value.SampleRate, settings.Format, gain)
-				.Primary;
+			DsdConversionSettings primary = DsdConversionSettings.ForDsdRate(
+				dsdProbe.Value.SampleRate,
+				settings.Format,
+				gain
+			);
 
 			if (settings.GainDb is null)
 			{
@@ -118,9 +120,11 @@ internal sealed class DsdConvertCommand(
 
 			Telemetry.Info("Converting with gain {Gain:F2} dB", gain);
 
-			(DsdConversionSettings finalPrimary, DsdConversionSettings? derived) =
-				DsdConversionSettings.ForDsdRate(dsdProbe.Value.SampleRate, settings.Format, gain);
-			primary = finalPrimary;
+			primary = DsdConversionSettings.ForDsdRate(
+				dsdProbe.Value.SampleRate,
+				settings.Format,
+				gain
+			);
 
 			ErrorOr<ConversionResult> result = await convertService.ConvertFullDffAsync(
 				conversionInputPath,
@@ -134,22 +138,6 @@ internal sealed class DsdConvertCommand(
 			{
 				await Console.Error.WriteLineAsync(result.Errors[0].Description, cancellationToken);
 				return 1;
-			}
-
-			if (derived is not null)
-			{
-				var derivedPath =
-					Path.ChangeExtension(outputPath, null) + $" [16-bit {derived.SampleRate}].flac";
-				Telemetry.Info("Deriving 16-bit: {File}", Path.GetFileName(derivedPath));
-
-				ErrorOr<ConversionResult> deriveResult = await convertService.DeriveFlacAsync(
-					outputPath,
-					derivedPath,
-					derived.SampleRate,
-					cancellationToken
-				);
-				if (deriveResult.IsError)
-					Telemetry.Warn("Derive failed: {Error}", deriveResult.Errors[0].Description);
 			}
 
 			if (settings.CopyTags)
