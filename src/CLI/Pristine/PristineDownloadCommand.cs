@@ -41,8 +41,23 @@ public sealed class PristineDownloadCommand(PristineOrchestrator orchestrator) :
 		return result.Match(
 			results =>
 			{
+				var anyAlbumFailed = false;
 				foreach (PristineAlbumResult r in results)
-					AnsiConsole.MarkupLine($"[green]{r.Code}[/] {r.Title} {r.Downloaded}/{r.Expected} -> {r.OutPath}");
+				{
+					// Expected == 0 means the album never resolved a tracklist at all (a degraded
+					// per-album failure from the orchestrator's catch site) -- that's a failure
+					// even though 0 < 0 is false, so it needs its own check alongside Downloaded < Expected.
+					var albumFailed = r.Expected <= 0 || r.Downloaded < r.Expected;
+					anyAlbumFailed |= albumFailed;
+					var color = albumFailed ? "red" : "green";
+					AnsiConsole.MarkupLine($"[{color}]{r.Code}[/] {r.Title} {r.Downloaded}/{r.Expected} -> {r.OutPath}");
+				}
+
+				if (anyAlbumFailed)
+				{
+					AnsiConsole.MarkupLine("[red]One or more albums did not fully download and verify.[/]");
+					return 1;
+				}
 
 				return 0;
 			},
