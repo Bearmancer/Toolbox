@@ -97,9 +97,11 @@ public class LastFmApiClient(HttpClient httpClient, string apiKey, string userna
 				: "Unknown";
 			LastFmErrorType errorType = ClassifyError(errorCode);
 
-			return errorType is not LastFmErrorType.Permanent
-				? Errors.LastFm.Retryable(errorCode, errorMessage)
-				: Errors.LastFm.ApiError(errorMessage);
+			return errorType switch
+			{
+				LastFmErrorType.Retryable => Errors.LastFm.Retryable(errorCode, errorMessage),
+				_ => Errors.LastFm.ApiError(errorMessage), // Fatal and Permanent both fail fast
+			};
 		}
 
 		return root.Clone();
