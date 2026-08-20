@@ -53,7 +53,7 @@
 <h2>CONVENTIONS</h2>
 <ul>
 <li><strong>Auth:</strong> <code>LASTFM_API_KEY</code> + <code>LASTFM_USERNAME</code> via env. Never hardcode.</li>
-<li><strong>Error flow:</strong> <code>LastFmApiException</code> (Retryable/Fatal) → <code>FetchPageAsync</code> → <code>ErrorOr&lt;T&gt;</code>.</li>
+<li><strong>Error flow:</strong> <code>ClassifyError</code> maps Last.fm numeric error codes to <code>LastFmErrorType</code>; <code>ParseJsonResponse</code> returns <code>Errors.LastFm.Retryable</code> or <code>Errors.LastFm.ApiError</code> (both <code>ErrorOr</code>). HTTP 429 returns <code>Errors.LastFm.RateLimited</code> from <code>ExecuteHttpRequestAsync</code>. <code>FetchPageAsync</code> in <code>LastFmService.cs</code> branches on 429/503 to decide retry vs. propagate.</li>
 <li><strong>Rate limit:</strong> 200ms between requests. HTTP 429 → <code>Retry-After</code> header, fallback 5s.</li>
 <li><strong>Retry:</strong> 3 attempts, exponential backoff. Only on <code>Retryable</code> + <code>HttpRequestException</code>.</li>
 <li><strong>Merge:</strong> <code>MergeScrobbles</code> dedups by <code>PlayedAt</code> (GroupBy, take First), sorted descending.</li>
@@ -66,6 +66,6 @@
 <li><strong>NEVER</strong> hardcode API keys. Env vars only.</li>
 <li><strong>NEVER</strong> bypass <code>WaitForRateLimit</code> (200ms) before each request.</li>
 <li><strong>NEVER</strong> write <code>state/lastfm/scrobbles.json</code> directly. Use <code>LastFmState.SaveScrobblesAsync</code>.</li>
-<li><strong>NEVER</strong> swallow <code>LastFmApiException</code> without logging. <code>FetchPageAsync</code> handles it.</li>
+<li><strong>NEVER</strong> discard an <code>ErrorOr</code> result without logging. <code>FetchPageAsync</code> logs retries via <code>Telemetry.Warn</code>; terminal failures are logged by <code>FetchRecentTracksAsync</code> via <code>Telemetry.Error</code> when it receives the errored result — maintain that expectation.</li>
 <li><strong>NEVER</strong> assume single track shape. Response <code>track</code> can be array or single object.</li>
 </ul>

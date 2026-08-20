@@ -200,15 +200,3 @@ public enum LastFmErrorType
 	Fatal,
 	Permanent,
 }
-
-public class LastFmApiException(
-	int errorCode,
-	string message,
-	LastFmErrorType errorType,
-	TimeSpan? retryAfter = null
-) : Exception(message)
-{
-	public int ErrorCode { get; } = errorCode;
-	public LastFmErrorType ErrorType { get; } = errorType;
-	public TimeSpan? RetryAfter { get; } = retryAfter;
-}
