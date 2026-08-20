@@ -9,9 +9,12 @@ public static class AudioCommandModule
 			"audio",
 			b =>
 			{
-				b.SetDescription("Audio conversion: SACD ISO extraction and DSD→FLAC");
+				b.SetDescription(
+					"Audio conversion: SACD ISO extraction, DSD→FLAC, and FLAC bit-depth transcoding"
+				);
 				b.AddCommand<SacdConvertCommand>("sacd-convert");
 				b.AddCommand<DsdConvertCommand>("dsd-convert");
+				b.AddCommand<FlacTranscodeCommand>("transcode");
 			}
 		);
 }

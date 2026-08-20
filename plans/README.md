@@ -1,12 +1,13 @@
 # Plans
 
-`Claude/05-pristine.md` is the one plan still tracking live work — most of it is done (see its own
-status update), but P7/P8 (live-download proof against the real Pristine account) are deliberately
-not executed yet, pending review.
+`Claude/05-pristine.md` documents the Pristine downloader, now complete: direct-API
+download (no browser on the success path) with automatic 24-bit→16-bit transcode,
+live-verified against the real account across 14+ distinct albums and two sample rates.
+Browser automation is kept only as a per-album fallback.
 
-| File | Concern | Status |
-|---|---|---|
-| [Claude/05-pristine.md](Claude/05-pristine.md) | Pristine (PASC downloader) | partially complete — P7/P8 pending live proof |
+| File                                           | Concern                    | Status   |
+| ---------------------------------------------- | -------------------------- | -------- |
+| [Claude/05-pristine.md](Claude/05-pristine.md) | Pristine (PASC downloader) | complete |
 
 `00-repo-hygiene.md`, `01-audio.md`, `02-lastfm.md`, `03-azure.md`, and `04-core.md` closed out and
 were deleted per this file's own policy below — their outcomes are folded into the relevant

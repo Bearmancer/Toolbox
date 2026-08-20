@@ -9,10 +9,7 @@ public static class PristineText
 		RegexOptions.Compiled
 	);
 
-	private static readonly Regex TrailingDotsSpaces = new(
-		@"[\s.]+$",
-		RegexOptions.Compiled
-	);
+	private static readonly Regex TrailingDotsSpaces = new(@"[\s.]+$", RegexOptions.Compiled);
 
 	private static readonly Regex AudioUrlRe = new(
 		@"\.(flac|mp3|wav|aac|ogg)(\?|$)",
@@ -77,6 +74,28 @@ public static class PristineText
 	}
 
 	public static bool IsAudioUrl(string url) => AudioUrlRe.IsMatch(url);
+
+	public static string ClampFileName(
+		string directory,
+		string stem,
+		string extension,
+		int maxPathLength = 240
+	)
+	{
+		var budget = maxPathLength - directory.Length - 1 - extension.Length;
+		if (budget < 1)
+			budget = 1;
+		return stem.Length <= budget ? stem : stem[..budget].TrimEnd();
+	}
+
+	public static string FormatAlbumFolderName(string code, string rawTitle)
+	{
+		var title = rawTitle;
+		var suffix = $" - {code}";
+		if (title.EndsWith(suffix, StringComparison.OrdinalIgnoreCase))
+			title = title[..^suffix.Length];
+		return SanitizePathComponent($"{code} - {title}");
+	}
 
 	public static string NormalizeTrackTitle(string title)
 	{

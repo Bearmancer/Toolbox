@@ -7,26 +7,25 @@ namespace CLI.Audio;
 
 using ErrorOr;
 
+[Description("Extract and convert SACD ISO(s) to FLAC.")]
 internal sealed class SacdConvertCommand(PipelineOrchestrator orchestrator)
 	: AsyncCommand<SacdConvertCommand.Settings>
 {
 	public sealed class Settings : CommandSettings
 	{
-		[Description("Input SACD ISO file or directory containing .iso files")]
+		[Description("SACD ISO file or directory of .iso files")]
 		[CommandArgument(0, "[input]")]
 		public string Input { get; init; } = string.Empty;
 
-		[Description("Output bit depth: 16 (default, CD-compatible) or 24 (hi-res)")]
+		[Description("Output bit depth: 16 (default) or 24")]
 		[CommandOption("-f|--format")]
 		public AudioOutputFormat Format { get; init; } = AudioOutputFormat.Bit16;
 
-		[Description("Force multichannel extraction (auto-detected from ISO if omitted)")]
+		[Description("Force multichannel extraction (default: auto-detect)")]
 		[CommandOption("-m|--multichannel")]
 		public bool? Multichannel { get; init; }
 
-		[Description(
-			"Retain intermediate artifacts (source ISO and DFF/XML) after conversion; both are deleted by default"
-		)]
+		[Description("Keep intermediate ISO/DFF/XML artifacts (default: deleted)")]
 		[CommandOption("--retain-artifacts")]
 		public bool RetainArtifacts { get; init; }
 

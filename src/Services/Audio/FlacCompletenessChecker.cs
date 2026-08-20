@@ -50,7 +50,7 @@ public sealed class FlacCompletenessChecker(SoxService sox)
 				var diff = Math.Abs((durationResult.Value - expectedDur).TotalSeconds);
 				if (diff > 2.0)
 				{
-					Telemetry.Info(
+					Telemetry.Debug(
 						"Pipeline.DurationMismatch dir={Dir} track={Track} expected={Expected:F1}s actual={Actual:F1}s",
 						Path.GetFileName(dffDir),
 						track.TrackNumber,

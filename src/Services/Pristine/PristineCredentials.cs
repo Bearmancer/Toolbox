@@ -9,12 +9,8 @@ public sealed class PristineCredentials
 
 	public required string BaseOutDir { get; init; }
 
-	public static PristineCredentials Read() =>
-		new()
-		{
-			BaseOutDir = DefaultOutDir,
-		};
+	public static PristineCredentials Read() => new() { BaseOutDir = DefaultOutDir };
 
 	public static string ResolveOutDir(string? outDir) =>
-		string.IsNullOrWhiteSpace(outDir) ? DefaultOutDir : outDir;
+		Path.GetFullPath(string.IsNullOrWhiteSpace(outDir) ? DefaultOutDir : outDir);
 }

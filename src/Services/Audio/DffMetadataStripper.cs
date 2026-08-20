@@ -25,11 +25,7 @@ public static class DffMetadataStripper
 			using FileStream input = File.OpenRead(dffPath);
 			return ScanAsync(input, CancellationToken.None).GetAwaiter().GetResult();
 		}
-		catch (OperationCanceledException)
-		{
-			throw;
-		}
-		catch (Exception ex)
+		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
 			Telemetry.Error(
 				"DffMetadataStripper.ScanFailed file={File} error={Error}",

@@ -12,6 +12,10 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		@"Pk lev dB\s+(-?\d+\.?\d*|-inf)",
 		RegexOptions.Compiled
 	);
+	private static readonly Regex SoxProgressPattern = new(
+		@"In:(\d+(?:\.\d+)?)%",
+		RegexOptions.Compiled
+	);
 
 	public async Task<ErrorOr<string>> SplitTrackAsync(
 		string sourcePcm,
@@ -89,6 +93,64 @@ public sealed class SoxService(ProcessRunner processRunner, string binaryPath)
 		);
 
 		return peak;
+	}
+
+	public async Task<ErrorOr<string>> DownsampleTo16BitAsync(
+		string sourceFlac,
+		string destFlac,
+		int sampleRate,
+		CancellationToken ct = default
+	)
+	{
+		var fileName = Path.GetFileName(sourceFlac);
+		Telemetry.Debug("Transcoding {File} → 16-bit", fileName);
+
+		var wroteProgress = false;
+		ErrorOr<ProcessResult> result = await processRunner.RunAsync(
+			binaryPath,
+			[
+				"-S",
+				sourceFlac,
+				"-b",
+				"16",
+				"-R",
+				"-G",
+				destFlac,
+				"rate",
+				"-v",
+				"-L",
+				sampleRate.ToString(CultureInfo.InvariantCulture),
+				"dither",
+				"-s",
+			],
+			ct,
+			onOutputLine: line =>
+			{
+				Match match = SoxProgressPattern.Match(line);
+				if (match.Success is false || Console.IsOutputRedirected)
+					return;
+				wroteProgress = true;
+				Console.Write($"\r  {match.Groups[1].Value, 5}%   ");
+			}
+		);
+		if (wroteProgress)
+			Console.Write("\r                \r");
+		if (result.IsError)
+			return result.Errors;
+
+		if (result.Value.ExitCode != 0)
+			return Errors.Audio.ConversionFailed(
+				sourceFlac,
+				$"sox downsample exit code {result.Value.ExitCode}: {result.Value.Stderr[..Math.Min(result.Value.Stderr.Length, 500)]}"
+			);
+
+		if (!File.Exists(destFlac) || new FileInfo(destFlac).Length == 0)
+			return Errors.Audio.ConversionFailed(
+				destFlac,
+				"sox downsample exited 0 but produced no output file"
+			);
+
+		return destFlac;
 	}
 
 	public async Task<ErrorOr<TimeSpan>> GetDurationAsync(

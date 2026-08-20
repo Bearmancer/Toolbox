@@ -13,6 +13,8 @@ public static class PristineSetup
 			services.AddSingleton<PristineBrowser>();
 			services.AddSingleton<PristineAlbumService>();
 			services.AddSingleton<PristinePollService>();
+			services.AddSingleton<PristineApiClient>();
+			services.AddSingleton<PristineApiPollService>();
 			services.AddSingleton<PristineLoginService>();
 			services.AddSingleton<PristineOrchestrator>();
 			services.AddHttpClient();

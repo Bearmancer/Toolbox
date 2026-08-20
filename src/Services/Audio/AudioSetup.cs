@@ -11,6 +11,7 @@ public static class AudioSetup
 			ValidateBinaryOnPath("saracon");
 			ValidateBinaryOnPath("sox");
 			ValidateBinaryOnPath("sacd_extract");
+			ValidateBinaryOnPath("ffprobe");
 
 			services.AddSingleton<ProcessRunner>();
 			services.AddSingleton<PathValidator>();
@@ -27,6 +28,7 @@ public static class AudioSetup
 				sp.GetRequiredService<ProcessRunner>(),
 				"sox"
 			));
+			services.AddSingleton<FlacTranscodeService>();
 			services.AddSingleton<DsdConvertService>();
 			services.AddSingleton<AudioMetadataService>();
 			services.AddSingleton<CueParser>();

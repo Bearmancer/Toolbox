@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Linq;
 using System.Text.RegularExpressions;
 using ErrorOr;
@@ -7,55 +8,94 @@ using Spectre.Console.Cli;
 
 namespace CLI.Pristine;
 
-public sealed class PristineDownloadCommand(PristineOrchestrator orchestrator) : AsyncCommand<PristineDownloadCommand.Settings>
+[Description(
+	"Download PASC albums from Pristine Classical: resolves via the API, downloads and verifies "
+		+ "each FLAC, transcodes 24-bit to 16-bit. Falls back to browser automation per-album on "
+		+ "API failure."
+)]
+public sealed class PristineDownloadCommand(PristineOrchestrator orchestrator)
+	: AsyncCommand<PristineDownloadCommand.Settings>
 {
 	private static readonly Regex SplitCodes = new(@"[,\s;]+", RegexOptions.Compiled);
+	private static readonly Regex ValidCodeFormat = new(
+		@"^[A-Z]{2,6}\d{2,5}$",
+		RegexOptions.Compiled
+	);
 
 	public sealed class Settings : CommandSettings
 	{
+		[Description("PASC codes, space- or comma-separated (e.g. PASC552 PASC553).")]
 		[CommandArgument(0, "[codes]")]
 		public string[] Codes { get; init; } = [];
 
+		[Description("Output directory (default: Desktop/Pristine).")]
 		[CommandOption("-o|--out-dir")]
 		public string? OutDir { get; init; }
 
+		[Description("Additional codes; merged with the positional argument.")]
 		[CommandOption("-c|--codes")]
 		public string[]? CodesOption { get; init; }
 
+		[Description("Run browser fallback headless.")]
 		[CommandOption("-H|--headless")]
 		public bool Headless { get; init; }
-
-		[CommandOption("--single")]
-		public bool Single { get; init; }
 	}
 
-	protected override async Task<int> ExecuteAsync(CommandContext context, Settings settings, CancellationToken ct)
+	protected override async Task<int> ExecuteAsync(
+		CommandContext context,
+		Settings settings,
+		CancellationToken ct
+	)
 	{
 		if (settings.Headless)
 			Environment.SetEnvironmentVariable("PRISTINE_HEADLESS", "1");
 
 		var merged = settings.Codes.Concat(settings.CodesOption ?? []).ToArray();
 		var normalized = NormalizeCodes(merged);
-		var codes = normalized.Length > 0 ? normalized : null;
-		ErrorOr<List<PristineAlbumResult>> result = await orchestrator.DownloadAsync(codes, settings.OutDir, settings.Headless, settings.Single, ct);
+
+		var invalid = normalized.Where(c => ValidCodeFormat.IsMatch(c) is false).ToArray();
+		if (invalid.Length > 0)
+		{
+			foreach (var bad in invalid)
+				AnsiConsole.MarkupLine(
+					$"[yellow]Skipping invalid code format: {bad} (expected letters followed by digits, e.g. PASC552)[/]"
+				);
+			normalized = [.. normalized.Except(invalid, StringComparer.OrdinalIgnoreCase)];
+		}
+
+		if (normalized.Length == 0)
+		{
+			AnsiConsole.MarkupLine(
+				"[red]No PASC codes provided. Pass at least one, e.g. `pristine download PASC552`.[/]"
+			);
+			return 1;
+		}
+
+		ErrorOr<List<PristineAlbumResult>> result = await orchestrator.DownloadAsync(
+			normalized,
+			settings.OutDir,
+			settings.Headless,
+			ct
+		);
 		return result.Match(
 			results =>
 			{
 				var anyAlbumFailed = false;
 				foreach (PristineAlbumResult r in results)
 				{
-					// Expected == 0 means the album never resolved a tracklist at all (a degraded
-					// per-album failure from the orchestrator's catch site) -- that's a failure
-					// even though 0 < 0 is false, so it needs its own check alongside Downloaded < Expected.
 					var albumFailed = r.Expected <= 0 || r.Downloaded < r.Expected;
 					anyAlbumFailed |= albumFailed;
 					var color = albumFailed ? "red" : "green";
-					AnsiConsole.MarkupLine($"[{color}]{r.Code}[/] {r.Title} {r.Downloaded}/{r.Expected} -> {r.OutPath}");
+					AnsiConsole.MarkupLine(
+						$"[{color}]{r.Code}[/] {r.Title} {r.Downloaded}/{r.Expected} -> {r.OutPath}"
+					);
 				}
 
 				if (anyAlbumFailed)
 				{
-					AnsiConsole.MarkupLine("[red]One or more albums did not fully download and verify.[/]");
+					AnsiConsole.MarkupLine(
+						"[red]One or more albums did not fully download and verify.[/]"
+					);
 					return 1;
 				}
 
@@ -63,7 +103,10 @@ public sealed class PristineDownloadCommand(PristineOrchestrator orchestrator) :
 			},
 			errors =>
 			{
-				var msg = errors.Count > 0 && errors[0].Description is string desc ? desc : "Unknown error";
+				var msg =
+					errors.Count > 0 && errors[0].Description is string desc
+						? desc
+						: "Unknown error";
 				AnsiConsole.MarkupLine($"[red]{msg}[/]");
 				return 1;
 			}

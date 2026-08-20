@@ -118,11 +118,7 @@ public sealed class PipelineOrchestrator(
 					succeeded++;
 				}
 			}
-			catch (OperationCanceledException)
-			{
-				throw;
-			}
-			catch (Exception ex)
+			catch (Exception ex) when (ex is not OperationCanceledException)
 			{
 				failed++;
 				Telemetry.Error(
@@ -176,10 +172,7 @@ public sealed class PipelineOrchestrator(
 		var sourceRoot = Path.GetDirectoryName(isoDir) ?? isoDir;
 		var outputParent = Path.GetDirectoryName(sourceRoot) ?? sourceRoot;
 		var suffix = extractMch ? "Multichannel" : "Stereo";
-		var channelDir = Path.Combine(
-			outputParent,
-			$"{Path.GetFileName(sourceRoot)} ({suffix})"
-		);
+		var channelDir = Path.Combine(outputParent, $"{Path.GetFileName(sourceRoot)} ({suffix})");
 
 		DiscOutputInspector.DiscAssessment assessment = await inspector.EvaluateDiscAsync(
 			channelDir,
@@ -297,7 +290,7 @@ public sealed class PipelineOrchestrator(
 		{
 			try
 			{
-				Telemetry.Info("Pipeline.StaleDffDeleted file={File}", Path.GetFileName(dff));
+				Telemetry.Debug("Pipeline.StaleDffDeleted file={File}", Path.GetFileName(dff));
 				File.Delete(dff);
 			}
 			catch (Exception ex)
@@ -322,7 +315,7 @@ public sealed class PipelineOrchestrator(
 		{
 			try
 			{
-				Telemetry.Info("Pipeline.ResplitFlacDeleted file={File}", Path.GetFileName(flac));
+				Telemetry.Debug("Pipeline.ResplitFlacDeleted file={File}", Path.GetFileName(flac));
 				File.Delete(flac);
 			}
 			catch (Exception ex)
@@ -423,7 +416,7 @@ public sealed class PipelineOrchestrator(
 
 			if (failureReason is not null)
 			{
-				Telemetry.Info(
+				Telemetry.Warn(
 					"Pipeline.DeletionValidationFailed iso={Iso} reason={Reason}",
 					Path.GetFileName(disc.IsoPath),
 					failureReason
@@ -431,14 +424,14 @@ public sealed class PipelineOrchestrator(
 				continue;
 			}
 
-			Telemetry.Info(
+			Telemetry.Debug(
 				"Pipeline.DeletionValidationPassed iso={Iso}",
 				Path.GetFileName(disc.IsoPath)
 			);
 
 			if (retainArtifacts)
 			{
-				Telemetry.Info(
+				Telemetry.Debug(
 					"Pipeline.ArtifactsRetained iso={Iso}",
 					Path.GetFileName(disc.IsoPath)
 				);

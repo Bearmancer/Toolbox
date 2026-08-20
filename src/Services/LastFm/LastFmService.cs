@@ -143,14 +143,15 @@ public class LastFmService(HttpClient httpClient, string apiKey, string username
 					var isRetryable = err.NumericType is 429 or 503;
 					if (isRetryable && attempt < maxRetries)
 					{
-						TimeSpan waitTime = err.NumericType == 429
-							? TimeSpan.FromSeconds(
-								double.Parse(
-									err.Description.Split("Retry-After: ")[1].TrimEnd('s'),
-									CultureInfo.InvariantCulture
+						TimeSpan waitTime =
+							err.NumericType == 429
+								? TimeSpan.FromSeconds(
+									double.Parse(
+										err.Description.Split("Retry-After: ")[1].TrimEnd('s'),
+										CultureInfo.InvariantCulture
+									)
 								)
-							)
-							: delay;
+								: delay;
 						Telemetry.Warn(
 							"Last.fm API attempt {Attempt} failed: {Error}. Retrying in {Delay}s",
 							attempt,

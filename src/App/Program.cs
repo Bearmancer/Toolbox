@@ -112,9 +112,18 @@ internal static class Program
 		});
 
 		using CancellationTokenSource appCts = new();
+		var cancelPresses = 0;
 		Console.CancelKeyPress += (_, e) =>
 		{
+			cancelPresses++;
+			if (cancelPresses > 1)
+			{
+				e.Cancel = false;
+				return;
+			}
+
 			e.Cancel = true;
+			Console.Error.WriteLine("Cancelling… press Ctrl+C again to force exit.");
 			appCts.Cancel();
 		};
 

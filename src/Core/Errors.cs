@@ -41,7 +41,11 @@ public static class Errors
 		public static Error ApiError(string message) => Error.Failure("Lfm.ApiError", message);
 
 		public static Error RateLimited(TimeSpan retryAfter) =>
-			Error.Custom(429, "LastFm.RateLimited", $"Rate limited. Retry-After: {retryAfter.TotalSeconds}s");
+			Error.Custom(
+				429,
+				"LastFm.RateLimited",
+				$"Rate limited. Retry-After: {retryAfter.TotalSeconds}s"
+			);
 
 		public static Error Retryable(int code, string message) =>
 			Error.Custom(503, "LastFm.Retryable", $"[{code}] {message}");
@@ -134,7 +138,10 @@ public static class Errors
 	public static class Pristine
 	{
 		public static Error AuthMissing =>
-			Error.NotFound("Pristine.AuthMissing", "No session at state/auth/pristine/auth.json — run pristine login first");
+			Error.NotFound(
+				"Pristine.AuthMissing",
+				"No session at state/auth/pristine/auth.json — run pristine login first"
+			);
 
 		public static Error BrowserFailed(string reason) =>
 			Error.Failure("Pristine.BrowserFailed", $"Browser failed: {reason}");
@@ -145,6 +152,9 @@ public static class Errors
 		public static Error ResolveFailed(string code) =>
 			Error.NotFound("Pristine.ResolveFailed", $"Could not resolve {code}");
 
+		public static Error NoCodesProvided =>
+			Error.Validation("Pristine.NoCodesProvided", "No PASC codes provided");
+
 		public static Error TracklistParseFailed(string reason) =>
 			Error.Failure("Pristine.TracklistParseFailed", $"Tracklist parse failed: {reason}");
 
@@ -153,5 +163,17 @@ public static class Errors
 				"Pristine.FfprobeMissing",
 				"ffprobe not found on PATH or common install locations — audio verification cannot proceed"
 			);
+
+		public static Error ApiAuthFailed(string reason) =>
+			Error.Failure("Pristine.ApiAuthFailed", $"Direct API authentication failed: {reason}");
+
+		public static Error CookieExpired(int statusCode) =>
+			Error.Unauthorized(
+				"Pristine.CookieExpired",
+				$"Pristine session cookie appears expired or invalid (HTTP {statusCode}) — run `pristine login` to refresh it."
+			);
+
+		public static Error ApiRequestFailed(string reason) =>
+			Error.Failure("Pristine.ApiRequestFailed", $"Direct API request failed: {reason}");
 	}
 }

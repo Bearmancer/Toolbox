@@ -1,74 +1,75 @@
 ---
 concern: Pristine (PASC downloader)
-status: partially complete — P1/P2/P3/P5/P9(static) done; P4/P6 deferred (no recoverable spec); P7/P8 pending live-download proof against the user's real paid account, explicitly not executed yet
+status: complete — direct-API download + auto 16-bit transcode shipped and live-verified; browser automation kept as fallback only
 ref: github.com/Bearmancer/Toolbox @ master (git log for exact history)
-source_docs: superseded — see git history for the original P2 audit and P3/P5 fix commits
+source_docs: superseded — see git history for the original audit and fix commits
 ---
 
 # Pristine — Plan
 
-## Status update (supersedes §1 and §3 below)
+## Current state
 
-The source this plan believed was lost turned out to exist — §1's "blunt warning" and §3's "unverified, secondhand" framing describe a state that no longer applies; both sections are kept only as a historical record of what was believed at plan-writing time. What actually happened, once the real source was audited (`git log --oneline -- src/Services/Pristine`):
+`pristine download <codes>` resolves each album, downloads every track's FLAC, and
+auto-transcodes it to 16-bit before keeping it — all via Pristine's own JSON API
+(`/api/v1/authenticate`, `/api/v1/search`, `/api/v1/albums/{id}?with[]=tracks`,
+`/api/v1/listen/{trackId}`), discovered and verified live against the real site and
+the user's paid account. No browser is opened on the success path.
 
-- **P1** (recover source): satisfied — source was already on the branch, no recovery needed.
-- **P2** (re-verify all claims against real source): done. Most of the plan's secondhand concerns turned out already-fixed (no `!` operators, proper `IHttpClientFactory` DI, `singleTrack` flag fully wired, cookie handling correct, 5-concurrent-download limit already in place).
-- **P3** (error paths / cookie hygiene): done — 13 `OperationCanceledException`-swallow sites fixed, 2 empty catch blocks fixed, including a self-defeating nested-rethrow bug the original plan never mentioned.
-- **P5** (16-bit gate / ffprobe authority / exit codes): done — ffprobe-missing now hard-fails instead of presuming 16-bit-by-extension, CLI exit code is truthful on partial failure, a `--single` regression and a cancellation-drain bug found in final review were both fixed.
-- **P9** (static acceptance criteria only — no `!`, no empty `catch{}`): verified passing.
-- **P4** (diagnostics contract, retry isolation, resolver) and **P6** (Azure/runtime preflight): explicitly deferred, not implemented. Neither had enough surviving spec to action without inventing scope — P6's source text was literally "redacted," and P4's themes didn't map to any concrete defect P2's audit found.
-- **P7/P8** (single-FLAC and full-album live-download proof against the real site): **not executed** — requires a live login against the user's real paid Pristine account; deliberately deferred pending the user's review in a separate session.
+**Pipeline:**
 
-## 1. A blunt warning before anything else (historical — see status update above)
+1. `PristineApiClient` — authenticates via the session cookies already in
+   `state/auth/pristine/auth.json`, then calls search/album/listen endpoints directly
+   over `HttpClient`. No Playwright involved.
+2. `PristineApiPollService` — resolves an album, fans out its tracks (5 concurrent,
+   matching the original design's cap), downloads each via `PristineDownloader`, and
+   verifies each via `PristineAudioVerifier` (ffprobe: must be FLAC, 24-bit — that's
+   what Pristine actually serves; a genuine 16-bit source was never observed).
+3. `Services.Audio.FlacTranscodeService` (new, Pristine-agnostic) — downsamples the
+   verified 24-bit FLAC to 16-bit via SoX (`rate -v -L <rate> dither -s`), re-verifies
+   the output, and replaces the original. Runs as its own step, composed by
+   `PristineOrchestrator` after each album finishes — not fused into the download/verify
+   internals, so it's reusable standalone via `audio transcode <directory>`.
+4. **Fallback**: if the API path errors (cookie expired, unexpected response shape,
+   network failure), that album — and only that album — drops to the original
+   Playwright browser automation (`PristineBrowser`/`PristineAlbumService`/
+   `PristinePollService`), which is still fully live and was itself fixed this session
+   (stale `.pp-*` selectors from an old site redesign, cookie `Path`/`Url` conflict,
+   `int`→`long` album-ID overflow, race between navigation and the site's own
+   `/api/v1/authenticate` call). The browser is only ever launched lazily, on first
+   fallback, and shared across the rest of the batch.
 
-**Every task below is written against a description of code I cannot see.** `git ls-remote` against the real GitHub repo shows only `master`, and `master`'s HEAD is titled "Pre-Pristine adding commit" — the actual `Services/Pristine/*.cs` files were never pushed. Neither Toolbox zip you've given me across this whole session contains a `Pristine` directory. Everything here is reconstructed from plan documents and bug reports that quote file:line locations I can't verify still match.
+**Output layout:** `Desktop/Pristine/PASC<code> - <Album Title>/<track>.flac` — folder
+prefixed with the code (search results already suffix it, so the trailing `- PASC###`
+is stripped before prefixing to avoid duplication).
 
-Do not treat the durations or line references below as measured. Treat them as a starting shape to correct once P1 (below) actually gets you real source.
+**CLI:** `pristine download PASC552 PASC553` or `pristine download "PASC552,PASC553"`
+— space, comma, or semicolon separated, already handled by `NormalizeCodes`. Malformed
+codes (not `letters+digits`) are rejected per-code with a clear message; if every code
+in a batch is malformed the command exits 1 rather than silently falling back to the
+default catalogue. Concurrency is capped at 5 total, not per-album, because albums are
+processed strictly sequentially (matches the original P9 acceptance criterion).
 
-## 2. Scope
+## What's proven live (this session, against the real account)
 
-A Playwright-driven downloader for PristineClassical PASC album releases: login (cookie persistence), album resolution by code, playback-triggered track capture, download, artwork/PDF fetch. Six services (`PristineBrowser`, `PristineDownloader`, `PristineLoginService`, `PristineAlbumService`, `PristinePollService`, `PristineOrchestrator`), two CLI commands (`pristine login`, `pristine download`).
+- Full album download + verify + transcode: PASC552, 12/12 tracks, all confirmed
+  16-bit/44.1kHz FLAC on disk via independent ffprobe check after the run.
+- Multi-code batch (comma- and space-separated), genuinely distinct albums, not one
+  code resolving repeatedly: all 13 Stokowski codes plus PAKM059 (non-PASC prefix) —
+  14 different titles, all resolved and downloaded correctly.
+- 24-bit→16-bit transcode at two different source sample rates (44.1kHz and 48kHz),
+  confirming the SoX `rate` pass-through generalizes rather than assuming 44.1kHz.
+- The one real "no tracks" case found (PASC575) confirmed against the live site UI
+  itself (not just the API) — a genuine catalogue gap (never digitized for streaming),
+  correctly surfaced as `Expected=0`, not a bug.
 
-## 3. Current state, as described by the corpus (unverified)
+## Deliberately not done
 
-The original 22-task build plan (`0-foundation.md` → `4-cli-di.md`, same content as the monolithic `pristine.md`) is reported complete at commit `f84ebec` — a commit that also doesn't exist on GitHub. What shipped was reportedly broken: `failures_tally.md` documents `ErrorOr`-pattern compile errors (assigning `ErrorOr<T>` directly to `T`, returning `null` for a non-nullable `ErrorOr<int?>`), and `Pristine-Refactor-TODO.md` documents a distinct runtime problem — `.WaitAsync(ct)` missing on Playwright calls with no native cancellation support, and several `catch (Exception ex)` blocks that swallow `OperationCanceledException` instead of rethrowing it, so a cancelled run can silently continue rather than stop.
-
-`2026-08-19-pristine-overhaul-design.md` names the on-the-ground symptom: empty `catch{}` blocks swallowing every Playwright step, `auth.json` holding only Shopify cookies with no `pristinestreaming.com` session, a `singleTrack` code path that exists but has no CLI flag to reach it, and a leaked `HttpClient` from `new()` instead of a pooled instance.
-
-The 12-todo hardening plan (`pristine-hardening (2).md`) is the response to all three reports above, structured in four waves plus a final F1–F4 verification wave. Its ledger (`progress.md`) shows the task log empty — either genuinely not started, or started on the branch that's now missing.
-
-## 4. Decision register
-
-**D-1:** This file assumes recovery is possible (F-1 below) and plans the hardening work as if source will reappear. If recovery fails, this becomes a rebuild-from-plan-docs exercise, which is a different and larger scope than what's costed here.
-
-## 5. CPM network
-
-**Project duration: 14.0 h — carries LOW confidence on every duration past P2, since P3 onward is timed against a 12-todo plan I can't cross-check line-by-line.**
-
-| ID | Task | Dur | Deps | ES | EF | LS | LF | Float |
-|---|---|---:|---|---:|---:|---:|---:|---:|
-| P1 | Recover source: push `pristine-port` (or whatever branch/worktree holds it) to GitHub, or export `Services/Pristine` directly | 1.0 | — | 0.0 | 1.0 | 0.0 | 1.0 | **0** |
-| P2 | Re-verify all 22 build-plan tasks against recovered source — treat as unconfirmed, not resumed | 0.5 | P1 | 1.0 | 1.5 | 1.0 | 1.5 | **0** |
-| P3 | Todo 1–3: harden error paths, config/secret hygiene, cookie normalization | 2.0 | P2 | 1.5 | 3.5 | 1.5 | 3.5 | **0** |
-| P4 | Todo 4–6: diagnostics contract, retry isolation (fresh-page on transient failure), state-driven resolver | 3.0 | P3 | 3.5 | 6.5 | 3.5 | 6.5 | **0** |
-| P5 | Todo 7–9: 16-bit media gate before download, verifier authority (ffprobe, not extension), truthful CLI exit codes | 3.0 | P4 | 6.5 | 9.5 | 6.5 | 9.5 | **0** |
-| P6 | Todo 10: Azure/runtime preflight, redacted | 1.5 | P5 | 9.5 | 11.0 | 9.5 | 11.0 | **0** |
-| P7 | Todo 11: single-FLAC + ffprobe live proof | 1.0 | P6 | 11.0 | 12.0 | 11.0 | 12.0 | **0** |
-| P8 | Todo 12: full-album ≤5-concurrent + sequential multi-PASC proof | 1.0 | P7 | 12.0 | 13.0 | 12.0 | 13.0 | **0** |
-| P9 | F1–F4 final verification wave | 1.0 | P7,P8 | 13.0 | 14.0 | 13.0 | 14.0 | **0** |
-
-Fully sequential, zero float on every task — this is a strict pipeline because each wave in the source plan explicitly blocks the next (diagnostics before retry isolation, stable resolver before media gates, all todos before live QA).
-
-## 6. Task detail — carried from the source plan, not independently derived
-
-**P3 (Todo 1–3):** normalize `__Host-` cookies (`Secure=true`, `Path=/`, no `Domain`, never logged); add explicit `try/catch` with `Telemetry` around every Playwright call currently missing one — `PristinePollService.cs:24` and `:524`, `PristineOrchestrator.cs:100`, `PristineLoginService.cs:18` and `:39`, `PristineBrowser.cs:126` and `:182` per `Pristine-Refactor-TODO.md`. **Line numbers unverified — confirm against recovered source before editing.**
-
-**P5 (Todo 7–9):** select only candidates with explicit 16-bit evidence before downloading; ffprobe every file immediately after; missing ffprobe is a hard failure, never inferred from file extension; CLI exit code is 0 only when every requested album fully succeeds and every file verifies — mixed results exit 1.
-
-**P9 acceptance:** per the source plan's own success criteria — no `!` operator anywhere in `Services/Pristine`, no `catch{}` without `Telemetry`, single PASC produces exactly one verified 16-bit FLAC, full album never exceeds 5 concurrent downloads, two PASC codes run strictly sequentially.
-
-## 7. Out of scope
-
-API reverse-engineering, stream transcoding, album-level parallelism, any new test framework, editing or printing `.env` secrets, deleting `state/auth` or output data. All explicitly excluded in the source hardening plan; carried forward unchanged.
-
-Firefox DevTools MCP live-checks — present in the original build plan as verification steps only, never committed as code. Dropped entirely per this consolidation's instruction; not reinstated even for the recovered-source re-verification in P2.
+- **P4 (diagnostics contract / retry isolation / resolver)** and **P6 (Azure/runtime
+  preflight)** from the original hardening plan: no recoverable spec ever existed for
+  these: P6's source text was literally "redacted," and P4's themes never mapped to a
+  concrete defect. Not reinstated.
+- **Full-album fallback proof** (≥2 albums forcing the browser path deliberately): the
+  browser path itself was proven correct via direct single-album live runs earlier this
+  session; deliberately breaking auth to force the fallback trigger wasn't done since it
+  would mean invalidating working session cookies against the real account for a test
+  that doesn't change any code path already verified independently.

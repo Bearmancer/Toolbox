@@ -123,6 +123,7 @@ public static class DffHeaderReader
 		}
 		catch (Exception ex) when (ex is InvalidDataException or EndOfStreamException)
 		{
+			Telemetry.Warn("Audio.DffHeader.ProbeFailed file={File}: {Error}", dffPath, ex.Message);
 			return Errors.Audio.ProbeFailed(dffPath, ex.Message);
 		}
 	}

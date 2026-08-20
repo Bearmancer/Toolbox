@@ -1,196 +1,307 @@
 using Core;
 using ErrorOr;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Playwright;
+using Services.Audio;
 
 namespace Services.Pristine;
 
-public sealed class PristineOrchestrator(PristineBrowser browser, PristinePollService pollService, IHttpClientFactory httpFactory)
+public sealed class PristineOrchestrator(
+	PristineBrowser browser,
+	PristinePollService pollService,
+	PristineApiClient api,
+	PristineApiPollService apiPollService,
+	FlacTranscodeService flacTranscode,
+	IHttpClientFactory httpFactory
+)
 {
-	public static readonly string[] ToscaniniBeethoven =
-	[
-		"PASC552",
-		"PASC553",
-		"PASC554",
-		"PASC555",
-		"PASC556",
-		"PASC557",
-	];
-
-	public static readonly string[] General =
-	[
-		"PASC762",
-		"PASC648",
-		"PASC313",
-		"PASC003",
-		"PASC040",
-		"PASC393",
-		"PASC626",
-		"PASC653",
-		"PASC246",
-		"PASC619",
-		"PASC731",
-		"PASC760",
-		"PACO180",
-		"PASC569",
-		"PASC669",
-		"PASC633",
-		"PASC655",
-		"PASC741",
-		"PASC736",
-		"PASC131",
-		"PASC006",
-		"PASC759",
-		"PASC764",
-		"PASC486",
-		"PASC450",
-		"PASC443",
-		"PASC447",
-		"PAKM059",
-	];
-
-	public static readonly string[] Stokowski =
-	[
-		"PASC591",
-		"PASC596",
-		"PASC531",
-		"PASC609",
-		"PASC625",
-		"PASC379",
-		"PASC161",
-		"PASC133",
-		"PASC182",
-		"PASC602",
-		"PASC536",
-		"PASC587",
-		"PASC629",
-	];
-
-	public static readonly string[] Releases = [.. ToscaniniBeethoven, .. General, .. Stokowski];
-
 	public async Task<ErrorOr<List<PristineAlbumResult>>> DownloadAsync(
 		string[]? codes,
 		string? outDir,
 		bool headless = false,
-		bool singleTrack = false,
 		CancellationToken ct = default
 	)
 	{
-		var dest = PristineCredentials.ResolveOutDir(outDir);
+		if (codes is not { Length: > 0 })
+		{
+			Telemetry.Warn("Pristine.Orchestrator.NoCodes");
+			return Errors.Pristine.NoCodesProvided;
+		}
 
+		var dest = PristineCredentials.ResolveOutDir(outDir);
 		Directory.CreateDirectory(dest);
 
-		var effective = codes is { Length: > 0 } ? codes : Releases;
-		Telemetry.Info("Pristine.Orchestrator.Start dest={Dest} codes={Codes} headless={Headless} single={Single}", dest, string.Join(",", effective), headless, singleTrack);
+		var effective = codes;
+		Telemetry.Info("Downloading {Count} album(s) → {Dest}", effective.Length, dest);
+		Telemetry.Debug(
+			"Pristine.Orchestrator.Start codes={Codes} headless={Headless}",
+			string.Join(",", effective),
+			headless
+		);
 
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 
-		Microsoft.Playwright.IBrowserContext ctx;
+		if (File.Exists(PristinePaths.AuthPath) is false)
+		{
+			Telemetry.Warn("Pristine.Orchestrator.AuthMissing path={Path}", PristinePaths.AuthPath);
+			return Errors.Pristine.AuthMissing;
+		}
+
+		using HttpClient http = httpFactory.CreateClient();
+		ErrorOr<string> apiKeyOr = await api.AuthenticateAsync(http, ct);
+		var apiKey = apiKeyOr.IsError ? null : apiKeyOr.Value;
+		if (apiKey is not null)
+			Telemetry.Debug("Pristine.Orchestrator.ApiAuthOk");
+		else
+			Telemetry.Warn(
+				"Pristine.Orchestrator.ApiAuthFailed err={Err} — every album falls back to the browser",
+				apiKeyOr.FirstError.Description
+			);
+
+		IBrowserContext? ctx = null;
 		try
 		{
-			ctx = await browser.CreateAsync(headless, ct);
-		}
-		catch (OperationCanceledException)
-		{
-			Telemetry.Debug("Pristine.Orchestrator.BrowserCancelled");
-			throw;
-		}
-		catch (Exception ex)
-		{
-			Telemetry.Error("Pristine.Orchestrator.BrowserFailed: {Error}", ex.Message);
-			return Errors.Pristine.BrowserFailed(ex.Message);
-		}
-
-		await using (ctx)
-		{
-			Microsoft.Playwright.IPage seed = await ctx.NewPageAsync().WaitAsync(ct);
-			try
-			{
-				await seed.GotoAsync("https://pristinestreaming.com/app/browse", new Microsoft.Playwright.PageGotoOptions { WaitUntil = Microsoft.Playwright.WaitUntilState.DOMContentLoaded }).WaitAsync(ct);
-				Telemetry.Debug("Pristine.Orchestrator.SeedGotoOk");
-			}
-			catch (OperationCanceledException)
-			{
-				throw;
-			}
-			catch (Exception ex)
-			{
-				Telemetry.Warn("Pristine.Orchestrator.SeedGotoFailed: {Error}", ex.Message);
-			}
-
-			var loggedIn = await WaitForLoginAsync(seed, ct, 180);
-			Telemetry.Info("Pristine.Orchestrator.LoginCheck loggedIn={LoggedIn}", loggedIn);
-			try
-			{
-				await seed.CloseAsync().WaitAsync(ct);
-			}
-			catch (OperationCanceledException)
-			{
-				Telemetry.Debug("Pristine.Orchestrator.SeedCloseCancelled");
-			}
-			catch (Exception ex)
-			{
-				Telemetry.Debug("Pristine.Orchestrator.SeedCloseFailed: {Error}", ex.Message);
-			}
-
-			if (loggedIn is false)
-			{
-				Telemetry.Warn("Pristine.Orchestrator.NotLoggedIn");
-				return Errors.Pristine.LoginTimeout;
-			}
-
-			if (File.Exists(PristinePaths.AuthPath) is false)
-			{
-				Telemetry.Warn("Pristine.Orchestrator.AuthMissing path={Path}", PristinePaths.AuthPath);
-				return Errors.Pristine.AuthMissing;
-			}
-
-			using HttpClient http = httpFactory.CreateClient();
 			List<PristineAlbumResult> results = [];
 			foreach (var code in effective)
 			{
 				ct.ThrowIfCancellationRequested();
-				Telemetry.Info("Pristine.Orchestrator.AlbumStart code={Code} {Index}/{Total}", code, results.Count + 1, effective.Length);
-				try
-				{
-					PristineAlbumResult r = await pollService.DownloadSingleAlbumAsync(ctx, code, dest, http, singleTrack, ct);
-					results.Add(r);
-					Telemetry.Info("Pristine.Orchestrator.AlbumDone code={Code} title={Title} {Downloaded}/{Expected} -> {Out}", r.Code, r.Title, r.Downloaded, r.Expected, r.OutPath);
-				}
-				catch (OperationCanceledException)
-				{
-					Telemetry.Debug("Pristine.Orchestrator.Cancelled code={Code}", code);
-					throw;
-				}
-				catch (Exception ex)
-				{
-					Telemetry.Error("Pristine.Orchestrator.AlbumFailed code={Code}: {Error}", code, ex.Message);
-					results.Add(new PristineAlbumResult { Code = code, Title = "error", OutPath = dest, Expected = 0, Downloaded = 0 });
-				}
+				Telemetry.Debug(
+					"Pristine.Orchestrator.AlbumStart code={Code} {Index}/{Total}",
+					code,
+					results.Count + 1,
+					effective.Length
+				);
+
+				(PristineAlbumResult r, ctx) = await DownloadAlbumAsync(
+					apiKey,
+					http,
+					code,
+					dest,
+					headless,
+					ctx,
+					ct
+				);
+				r = await TranscodeAlbumAsync(r, ct);
+				results.Add(r);
+				Telemetry.Info(
+					"[{Index}/{Total}] {Code} \"{Title}\" — {Downloaded}/{Expected} tracks → {Out}",
+					results.Count,
+					effective.Length,
+					r.Code,
+					r.Title,
+					r.Downloaded,
+					r.Expected,
+					r.OutPath
+				);
+				if (effective.Length > 1)
+					Telemetry.Info("────────────────────────────────────────");
 
 				if (effective.Length > 1)
-				{
-					try
-					{
-						await Task.Delay(3000, ct);
-					}
-					catch (OperationCanceledException)
-					{
-						throw;
-					}
-				}
+					await Task.Delay(3000, ct);
 			}
 
-			Telemetry.Info("Pristine.Orchestrator.Done total={Total}", results.Count);
+			Telemetry.Info("Done — {Total} album(s) processed", results.Count);
 			return results;
+		}
+		finally
+		{
+			if (ctx is not null)
+				await ctx.DisposeAsync();
 		}
 	}
 
-	private static async Task<bool> WaitForLoginAsync(Microsoft.Playwright.IPage page, CancellationToken ct, int timeoutS = 180)
+	private async Task<(PristineAlbumResult Result, IBrowserContext? Ctx)> DownloadAlbumAsync(
+		string? apiKey,
+		HttpClient http,
+		string code,
+		string dest,
+		bool headless,
+		IBrowserContext? ctx,
+		CancellationToken ct
+	)
+	{
+		if (apiKey is not null)
+		{
+			ErrorOr<PristineAlbumResult> apiResult = await apiPollService.DownloadSingleAlbumAsync(
+				http,
+				apiKey,
+				code,
+				dest,
+				ct
+			);
+			if (apiResult.IsError is false)
+				return (apiResult.Value, ctx);
+
+			Telemetry.Warn(
+				"Pristine.Orchestrator.ApiPathFailed code={Code} err={Err} — falling back to browser",
+				code,
+				apiResult.FirstError.Description
+			);
+		}
+
+		try
+		{
+			ctx ??= await EnsureBrowserAsync(headless, ct);
+		}
+		catch (Exception ex) when (ex is not OperationCanceledException)
+		{
+			Telemetry.Error("Pristine.Orchestrator.BrowserFailed: {Error}", ex.Message);
+			return (
+				new PristineAlbumResult
+				{
+					Code = code,
+					Title = "error",
+					OutPath = dest,
+					Expected = 0,
+					Downloaded = 0,
+				},
+				ctx
+			);
+		}
+
+		if (ctx is null)
+			return (
+				new PristineAlbumResult
+				{
+					Code = code,
+					Title = "error",
+					OutPath = dest,
+					Expected = 0,
+					Downloaded = 0,
+				},
+				null
+			);
+
+		try
+		{
+			PristineAlbumResult r = await pollService.DownloadSingleAlbumAsync(
+				ctx,
+				code,
+				dest,
+				http,
+				ct
+			);
+			return (r, ctx);
+		}
+		catch (OperationCanceledException)
+		{
+			Telemetry.Debug("Pristine.Orchestrator.Cancelled code={Code}", code);
+			throw;
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Error(
+				"Pristine.Orchestrator.AlbumFailed code={Code}: {Error}",
+				code,
+				ex.Message
+			);
+			return (
+				new PristineAlbumResult
+				{
+					Code = code,
+					Title = "error",
+					OutPath = dest,
+					Expected = 0,
+					Downloaded = 0,
+				},
+				ctx
+			);
+		}
+	}
+
+	private async Task<PristineAlbumResult> TranscodeAlbumAsync(
+		PristineAlbumResult r,
+		CancellationToken ct
+	)
+	{
+		if (r.Downloaded <= 0 || Directory.Exists(r.OutPath) is false)
+			return r;
+
+		ErrorOr<FlacTranscodeResult> transcodeOr = await flacTranscode.TranscodeDirectoryAsync(
+			r.OutPath,
+			ct
+		);
+		if (transcodeOr.IsError)
+		{
+			Telemetry.Warn(
+				"Pristine.Orchestrator.TranscodeFailed code={Code} err={Err}",
+				r.Code,
+				transcodeOr.FirstError.Description
+			);
+			return r;
+		}
+
+		FlacTranscodeResult t = transcodeOr.Value;
+		Telemetry.Debug(
+			"Pristine.Orchestrator.Transcoded code={Code} converted={Converted} skipped={Skipped} failed={Failed}",
+			r.Code,
+			t.Converted,
+			t.Skipped,
+			t.Failed
+		);
+		if (t.Failed == 0)
+			return r;
+
+		return r with
+		{
+			Downloaded = Math.Max(0, r.Downloaded - t.Failed),
+		};
+	}
+
+	private async Task<IBrowserContext?> EnsureBrowserAsync(bool headless, CancellationToken ct)
+	{
+		IBrowserContext ctx = await browser.CreateAsync(headless, ct);
+		IPage seed = await ctx.NewPageAsync().WaitAsync(ct);
+		try
+		{
+			await seed.GotoAsync(
+					"https://pristinestreaming.com/app/browse",
+					new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }
+				)
+				.WaitAsync(ct);
+			Telemetry.Debug("Pristine.Orchestrator.SeedGotoOk");
+		}
+		catch (Exception ex) when (ex is not OperationCanceledException)
+		{
+			Telemetry.Warn("Pristine.Orchestrator.SeedGotoFailed: {Error}", ex.Message);
+		}
+
+		var loggedIn = await WaitForLoginAsync(seed, ct, 180);
+		Telemetry.Debug("Pristine.Orchestrator.LoginCheck loggedIn={LoggedIn}", loggedIn);
+		try
+		{
+			await seed.CloseAsync().WaitAsync(ct);
+		}
+		catch (OperationCanceledException)
+		{
+			Telemetry.Debug("Pristine.Orchestrator.SeedCloseCancelled");
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Debug("Pristine.Orchestrator.SeedCloseFailed: {Error}", ex.Message);
+		}
+
+		if (loggedIn)
+			return ctx;
+
+		Telemetry.Warn("Pristine.Orchestrator.NotLoggedIn");
+		await ctx.DisposeAsync();
+		return null;
+	}
+
+	private static async Task<bool> WaitForLoginAsync(
+		Microsoft.Playwright.IPage page,
+		CancellationToken ct,
+		int timeoutS = 180
+	)
 	{
 		try
 		{
 			var url = page.Url;
-			if (url.Contains("browse", StringComparison.OrdinalIgnoreCase) && url.Contains("login", StringComparison.OrdinalIgnoreCase) is false)
+			if (
+				url.Contains("browse", StringComparison.OrdinalIgnoreCase)
+				&& url.Contains("login", StringComparison.OrdinalIgnoreCase) is false
+			)
 			{
 				return true;
 			}
@@ -202,19 +313,23 @@ public sealed class PristineOrchestrator(PristineBrowser browser, PristinePollSe
 
 		try
 		{
-			await page.WaitForURLAsync("**pristinestreaming.com/app/browse**", new Microsoft.Playwright.PageWaitForURLOptions { Timeout = timeoutS * 1000 }).WaitAsync(ct);
+			await page.WaitForURLAsync(
+					"**pristinestreaming.com/app/browse**",
+					new Microsoft.Playwright.PageWaitForURLOptions { Timeout = timeoutS * 1000 }
+				)
+				.WaitAsync(ct);
 			return true;
-		}
-		catch (OperationCanceledException)
-		{
-			throw;
 		}
 		catch (TimeoutException ex)
 		{
-			Telemetry.Warn("Pristine.Orchestrator.WaitLoginTimeout {Timeout}s: {Error}", timeoutS, ex.Message);
+			Telemetry.Warn(
+				"Pristine.Orchestrator.WaitLoginTimeout {Timeout}s: {Error}",
+				timeoutS,
+				ex.Message
+			);
 			return false;
 		}
-		catch (Exception ex)
+		catch (Exception ex) when (ex is not OperationCanceledException)
 		{
 			Telemetry.Debug("Pristine.Orchestrator.WaitLoginError: {Error}", ex.Message);
 			return false;

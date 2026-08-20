@@ -85,7 +85,7 @@ public sealed class DiscOutputInspector(
 
 		if (!hasAllTracks)
 		{
-			Telemetry.Info(
+			Telemetry.Debug(
 				"Pipeline.Incomplete dir={Dir} cue={CueCount} flacs={FlacCount}",
 				Path.GetFileName(dffDir),
 				allTrackNumbers.Count,

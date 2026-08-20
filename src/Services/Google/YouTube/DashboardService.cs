@@ -56,6 +56,11 @@ public class DashboardService
 		}
 		catch (Exception ex) when (ex is JsonException or IOException)
 		{
+			Telemetry.Error(
+				"Dashboard.LoadPlaylistsFailed path={Path}: {Error}",
+				ManifestFile,
+				ex.Message
+			);
 			return Errors.YouTube.ApiError($"Failed to load manifest: {ex.Message}");
 		}
 	}

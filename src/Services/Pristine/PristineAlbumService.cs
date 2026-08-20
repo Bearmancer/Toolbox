@@ -1,4 +1,4 @@
-using System.Text.Json;
+using System.Text.RegularExpressions;
 using Core;
 using ErrorOr;
 using Microsoft.Playwright;
@@ -8,225 +8,360 @@ namespace Services.Pristine;
 public sealed class PristineAlbumService(PristineDownloader downloader)
 {
 	private static readonly string PristineApp = "https://pristinestreaming.com/app/browse";
-	private static readonly string S3Covers = "https://s3-eu-west-1.amazonaws.com/pristine-classical-storage/covers/";
+	private static readonly string S3Covers =
+		"https://s3-eu-west-1.amazonaws.com/pristine-classical-storage/covers/";
 
-	public async Task<ErrorOr<int?>> ResolveAlbumIdAsync(IPage page, string code, CancellationToken ct = default)
+	public async Task<ErrorOr<long?>> ResolveAlbumIdAsync(
+		IPage page,
+		string code,
+		CancellationToken ct = default
+	)
 	{
 		ct.ThrowIfCancellationRequested();
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
-		Telemetry.Info("Pristine.Album.ResolveStart code={Code}", code);
-		
-		const string searchSelector = ".pp-navbar__search__input";
-		using CancellationTokenSource resolveCts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+		Telemetry.Debug("Pristine.Album.ResolveStart code={Code}", code);
+
+		const string searchSelector = "#quick-search-input";
+		const string resultSelector = ".result-heading + .album-grid button.album-open";
+		using CancellationTokenSource resolveCts = CancellationTokenSource.CreateLinkedTokenSource(
+			ct
+		);
 		resolveCts.CancelAfter(TimeSpan.FromSeconds(45));
 		CancellationToken resolveCt = resolveCts.Token;
 
-		string jsClear(string sel) => "var el=document.querySelector(" + JsonSerializer.Serialize(sel) + ");if(el){el.value='';el.dispatchEvent(new Event('input',{bubbles:true}));}";
-		string jsFill(string sel, string val) => "var el=document.querySelector(" + JsonSerializer.Serialize(sel) + ");if(el){el.value=" + JsonSerializer.Serialize(val) + ";el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));}";
-		string jsEnter(string sel) => "var el=document.querySelector(" + JsonSerializer.Serialize(sel) + ");if(el){el.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',keyCode:13,bubbles:true}));el.dispatchEvent(new KeyboardEvent('keyup',{key:'Enter',keyCode:13,bubbles:true}));}";
-		
 		for (var attempt = 0; attempt < 3; attempt++)
 		{
 			resolveCt.ThrowIfCancellationRequested();
-			Telemetry.Debug("Pristine.Album.Attempt code={Code} attempt={Attempt}/3", code, attempt + 1);
-			
+			Telemetry.Debug(
+				"Pristine.Album.Attempt code={Code} attempt={Attempt}/3",
+				code,
+				attempt + 1
+			);
+
 			try
 			{
-			ILocator search = page.Locator(searchSelector);
+				await page.GotoAsync(
+						PristineApp,
+						new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }
+					)
+					.WaitAsync(resolveCt);
 
-			bool searchAttached;
-			try
-			{
-				await search.WaitForAsync(new LocatorWaitForOptions
-				{
-					State = WaitForSelectorState.Attached,
-					Timeout = 5000
-				}).WaitAsync(resolveCt);
-				searchAttached = true;
-			}
-			catch (OperationCanceledException)
-			{
-				throw;
-			}
-			catch (Exception ex)
-			{
-				searchAttached = false;
-				Telemetry.Warn("Pristine.Album.SearchMissing code={Code} attempt={Attempt}: {Error}", code, attempt + 1, ex.Message);
-				(string Url, string Title, string Snippet) diag = await DumpPageAsync(page, resolveCt);
-				Telemetry.Warn("Pristine.Album.PageDiag code={Code} url={Url} title={Title} snippet={Snippet}", code, diag.Url, diag.Title, diag.Snippet);
-			}
-
-			if (searchAttached)
-			{
 				try
 				{
-					await search.ClickAsync(new LocatorClickOptions { Timeout = 5000 }).WaitAsync(resolveCt);
+					await page.WaitForResponseAsync(
+							resp =>
+								resp.Url.Contains(
+									"/api/v1/authenticate",
+									StringComparison.OrdinalIgnoreCase
+								),
+							new PageWaitForResponseOptions { Timeout = 8000 }
+						)
+						.WaitAsync(resolveCt);
+					Telemetry.Debug(
+						"Pristine.Album.AuthenticateResponded code={Code} attempt={Attempt}",
+						code,
+						attempt + 1
+					);
 				}
-				catch (OperationCanceledException)
+				catch (Exception ex) when (ex is not OperationCanceledException)
 				{
-					throw;
-				}
-				catch (Exception ex)
-				{
-					Telemetry.Debug("Pristine.Album.ClickIgnored code={Code}: {Error}", code, ex.Message);
+					Telemetry.Debug(
+						"Pristine.Album.AuthenticateWaitFailed code={Code} attempt={Attempt}: {Error}",
+						code,
+						attempt + 1,
+						ex.Message
+					);
 				}
 
-				await page.EvaluateAsync(jsClear(searchSelector)).WaitAsync(resolveCt);
+				ILocator search = page.Locator(searchSelector);
+
+				bool searchAttached;
 				try
 				{
-					await search.FillAsync(code, new LocatorFillOptions { Timeout = 5000 }).WaitAsync(resolveCt);
+					await search
+						.WaitForAsync(
+							new LocatorWaitForOptions
+							{
+								State = WaitForSelectorState.Attached,
+								Timeout = 5000,
+							}
+						)
+						.WaitAsync(resolveCt);
+					searchAttached = true;
 				}
-				catch (OperationCanceledException)
+				catch (Exception ex) when (ex is not OperationCanceledException)
 				{
-					throw;
+					searchAttached = false;
+					Telemetry.Warn(
+						"Pristine.Album.SearchMissing code={Code} attempt={Attempt}: {Error}",
+						code,
+						attempt + 1,
+						ex.Message
+					);
+					(string Url, string Title, string Snippet) diag = await DumpPageAsync(
+						page,
+						resolveCt
+					);
+					Telemetry.Warn(
+						"Pristine.Album.PageDiag code={Code} url={Url} title={Title} snippet={Snippet}",
+						code,
+						diag.Url,
+						diag.Title,
+						diag.Snippet
+					);
 				}
-				catch (Exception ex)
-				{
-					Telemetry.Debug("Pristine.Album.FillFallback code={Code}: {Error}", code, ex.Message);
-					await page.EvaluateAsync(jsFill(searchSelector, code)).WaitAsync(resolveCt);
-				}
-				Telemetry.Debug("Pristine.Album.Filled code={Code} attempt={Attempt}", code, attempt + 1);
 
-				await page.EvaluateAsync(jsEnter(searchSelector)).WaitAsync(resolveCt);
-				Telemetry.Debug("Pristine.Album.Enter code={Code} attempt={Attempt}", code, attempt + 1);
-			}
-
-			try
-			{
-				await page.WaitForLoadStateAsync(LoadState.NetworkIdle, new PageWaitForLoadStateOptions { Timeout = 5000 }).WaitAsync(resolveCt);
-			}
-			catch (OperationCanceledException)
-			{
-				throw;
-			}
-			catch (Exception ex)
-			{
-				Telemetry.Debug("Pristine.Album.LoadStateWaitFailed code={Code}: {Error}", code, ex.Message);
-			}
-				
-				var url = page.Url;
-				Telemetry.Debug("Pristine.Album.SearchUrl code={Code} url={Url}", code, url);
-				
-				var shortCode = code.Length > 4 ? code[4..] : code;
-				var urlMatches = url.Contains(code, StringComparison.OrdinalIgnoreCase) || 
-				                 url.Contains(shortCode, StringComparison.OrdinalIgnoreCase);
-				
-				if (urlMatches is false)
+				if (searchAttached is false)
 				{
-					Telemetry.Debug("Pristine.Album.UrlMismatch code={Code} url={Url} short={Short}", code, url, shortCode);
-					await page.GotoAsync(PristineApp, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }).WaitAsync(resolveCt);
 					continue;
 				}
-				
-				var sels = new[] { "[href*='/albums/']", ".pp-browse-grid__item", ".pp-search-results__item" };
-				var clicked = false;
-				
-				foreach (var sel in sels)
+
+				try
 				{
-					ILocator locator = page.Locator(sel).First;
-					
-					try
-					{
-					await locator.WaitForAsync(new LocatorWaitForOptions
-					{
-						State = WaitForSelectorState.Attached,
-						Timeout = 3000
-					}).WaitAsync(resolveCt);
-						
-						var href = await locator.GetAttributeAsync("href").WaitAsync(resolveCt) ?? string.Empty;
-						Telemetry.Debug("Pristine.Album.ElementFound sel={Sel} code={Code} attempt={Attempt} href={Href}", sel, code, attempt + 1, href.Length > 80 ? href[..80] : href);
-						
-						await locator.ClickAsync(new LocatorClickOptions { Timeout = 5000 }).WaitAsync(resolveCt);
-						Telemetry.Debug("Pristine.Album.ClickSelOk sel={Sel} code={Code}", sel, code);
-						
-						await page.WaitForLoadStateAsync(LoadState.DOMContentLoaded, new PageWaitForLoadStateOptions { Timeout = 10000 }).WaitAsync(resolveCt);
-						Telemetry.Debug("Pristine.Album.DOMContentOk sel={Sel} code={Code}", sel, code);
-						
-						var currentUrl = page.Url;
-						Telemetry.Debug("Pristine.Album.CurrentUrl sel={Sel} code={Code} url={Url}", sel, code, currentUrl);
-						
-						if (currentUrl.Contains("/albums/", StringComparison.OrdinalIgnoreCase))
-						{
-							var last = currentUrl.TrimEnd('/').Split('/')[^1];
-							if (int.TryParse(last, out var id) is false)
-							{
-								Telemetry.Warn("Pristine.Album.IdParseFailed url={Url} token={Token} code={Code}", currentUrl, last, code);
-								clicked = true;
-								break;
-							}
-							
-							var title = await page.Locator(".pp-album-view__title").TextContentAsync(new LocatorTextContentOptions { Timeout = 5000 }).WaitAsync(resolveCt) ?? string.Empty;
-							Telemetry.Debug("Pristine.Album.TitleRead code={Code} title={Title}", code, title);
-							
-							var titleMatches = title.Contains(code, StringComparison.OrdinalIgnoreCase);
-							var urlMatchesId = currentUrl.Contains(code, StringComparison.OrdinalIgnoreCase);
-							
-							if (titleMatches || urlMatchesId)
-							{
-								Telemetry.Info("Pristine.Album.Resolved code={Code} id={Id} title={Title}", code, id, title);
-								return id;
-							}
-							
-							Telemetry.Debug("Pristine.Album.TitleMismatch code={Code} title={Title} url={Url}", code, title, currentUrl);
-							await page.GotoAsync(PristineApp, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }).WaitAsync(resolveCt);
-							clicked = true;
-							break;
-						}
-						
-						clicked = true;
-						break;
-					}
-					catch (OperationCanceledException)
-					{
-						throw;
-					}
-					catch (Exception ex)
-					{
-						Telemetry.Warn("Pristine.Album.SelectorFailed sel={Sel} code={Code} attempt={Attempt}: {Error}", sel, code, attempt + 1, ex.Message);
-						continue;
-					}
+					await search
+						.FillAsync(code, new LocatorFillOptions { Timeout = 5000 })
+						.WaitAsync(resolveCt);
 				}
-				
-				if (clicked is false)
+				catch (Exception ex) when (ex is not OperationCanceledException)
 				{
-					Telemetry.Debug("Pristine.Album.NoClick code={Code} attempt={Attempt}", code, attempt + 1);
-					await page.GotoAsync(PristineApp, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }).WaitAsync(resolveCt);
+					Telemetry.Warn(
+						"Pristine.Album.FillFailed code={Code} attempt={Attempt}: {Error}",
+						code,
+						attempt + 1,
+						ex.Message
+					);
+					continue;
 				}
+
+				try
+				{
+					await page.RunAndWaitForResponseAsync(
+							async () =>
+								await search
+									.PressAsync("Enter", new LocatorPressOptions { Timeout = 5000 })
+									.WaitAsync(resolveCt),
+							resp =>
+								resp.Url.Contains(
+									"/api/v1/search",
+									StringComparison.OrdinalIgnoreCase
+								),
+							new PageRunAndWaitForResponseOptions { Timeout = 10000 }
+						)
+						.WaitAsync(resolveCt);
+					Telemetry.Debug(
+						"Pristine.Album.SearchApiResponded code={Code} attempt={Attempt}",
+						code,
+						attempt + 1
+					);
+				}
+				catch (Exception ex) when (ex is not OperationCanceledException)
+				{
+					Telemetry.Warn(
+						"Pristine.Album.SearchApiWaitFailed code={Code} attempt={Attempt}: {Error}",
+						code,
+						attempt + 1,
+						ex.Message
+					);
+				}
+
+				ILocator result = page.Locator(resultSelector)
+					.Filter(new LocatorFilterOptions { HasTextString = code });
+
+				bool resultFound;
+				try
+				{
+					await result
+						.First.WaitForAsync(
+							new LocatorWaitForOptions
+							{
+								State = WaitForSelectorState.Attached,
+								Timeout = 10000,
+							}
+						)
+						.WaitAsync(resolveCt);
+					resultFound = true;
+				}
+				catch (Exception ex) when (ex is not OperationCanceledException)
+				{
+					resultFound = false;
+					Telemetry.Warn(
+						"Pristine.Album.NoSearchResult code={Code} attempt={Attempt}: {Error}",
+						code,
+						attempt + 1,
+						ex.Message
+					);
+					var resultCount = await page.Locator(resultSelector)
+						.CountAsync()
+						.WaitAsync(resolveCt);
+					var gridCount = await page.Locator(".album-grid")
+						.CountAsync()
+						.WaitAsync(resolveCt);
+					var headingCount = await page.Locator(".result-heading")
+						.CountAsync()
+						.WaitAsync(resolveCt);
+					Telemetry.Warn(
+						"Pristine.Album.NoSearchResultDiag code={Code} resultSelectorCount={ResultCount} albumGridCount={GridCount} resultHeadingCount={HeadingCount}",
+						code,
+						resultCount,
+						gridCount,
+						headingCount
+					);
+					(string Url, string Title, string Snippet) diag = await DumpPageAsync(
+						page,
+						resolveCt
+					);
+					Telemetry.Warn(
+						"Pristine.Album.NoSearchResultPageDiag code={Code} url={Url} title={Title} snippet={Snippet}",
+						code,
+						diag.Url,
+						diag.Title,
+						diag.Snippet
+					);
+				}
+
+				if (resultFound is false)
+				{
+					continue;
+				}
+
+				try
+				{
+					await result
+						.First.ClickAsync(new LocatorClickOptions { Timeout = 5000 })
+						.WaitAsync(resolveCt);
+				}
+				catch (Exception ex) when (ex is not OperationCanceledException)
+				{
+					Telemetry.Warn(
+						"Pristine.Album.ResultClickFailed code={Code} attempt={Attempt}: {Error}",
+						code,
+						attempt + 1,
+						ex.Message
+					);
+					continue;
+				}
+
+				try
+				{
+					await page.WaitForURLAsync(
+							new Regex(@"#album/\d+"),
+							new PageWaitForURLOptions { Timeout = 8000 }
+						)
+						.WaitAsync(resolveCt);
+				}
+				catch (Exception ex) when (ex is not OperationCanceledException)
+				{
+					Telemetry.Warn(
+						"Pristine.Album.NavigateFailed code={Code} attempt={Attempt}: {Error}",
+						code,
+						attempt + 1,
+						ex.Message
+					);
+					continue;
+				}
+
+				var currentUrl = page.Url;
+				Telemetry.Debug(
+					"Pristine.Album.CurrentUrl code={Code} url={Url}",
+					code,
+					currentUrl
+				);
+
+				Match match = Regex.Match(currentUrl, @"#album/(\d+)");
+				if (
+					match.Success is false
+					|| long.TryParse(match.Groups[1].Value, out var id) is false
+				)
+				{
+					Telemetry.Warn(
+						"Pristine.Album.IdParseFailed url={Url} code={Code}",
+						currentUrl,
+						code
+					);
+					continue;
+				}
+
+				var title =
+					await page.GetByRole(AriaRole.Heading, new PageGetByRoleOptions { Level = 1 })
+						.TextContentAsync(new LocatorTextContentOptions { Timeout = 5000 })
+						.WaitAsync(resolveCt)
+					?? string.Empty;
+				Telemetry.Debug("Pristine.Album.TitleRead code={Code} title={Title}", code, title);
+
+				if (title.Contains(code, StringComparison.OrdinalIgnoreCase) is false)
+				{
+					Telemetry.Warn(
+						"Pristine.Album.TitleMismatch code={Code} title={Title} url={Url}",
+						code,
+						title,
+						currentUrl
+					);
+					continue;
+				}
+
+				Telemetry.Debug(
+					"Pristine.Album.Resolved code={Code} id={Id} title={Title}",
+					code,
+					id,
+					title
+				);
+				return id;
 			}
 			catch (OperationCanceledException)
 			{
-				Telemetry.Warn("Pristine.Album.ResolveCancelled code={Code} attempt={Attempt}", code, attempt + 1);
+				Telemetry.Warn(
+					"Pristine.Album.ResolveCancelled code={Code} attempt={Attempt}",
+					code,
+					attempt + 1
+				);
 				throw;
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Warn("Pristine.Album.ResolveFailed code={Code} attempt={Attempt}: {Error}", code, attempt + 1, ex.Message);
+				Telemetry.Warn(
+					"Pristine.Album.ResolveFailed code={Code} attempt={Attempt}: {Error}",
+					code,
+					attempt + 1,
+					ex.Message
+				);
 				try
 				{
-					await page.GotoAsync(PristineApp, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }).WaitAsync(resolveCt);
+					await page.GotoAsync(
+							PristineApp,
+							new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }
+						)
+						.WaitAsync(resolveCt);
 				}
-				catch (OperationCanceledException)
+				catch (Exception recoveryEx) when (recoveryEx is not OperationCanceledException)
 				{
-					throw;
-				}
-				catch (Exception recoveryEx)
-				{
-					Telemetry.Debug("Pristine.Album.RecoveryGotoFailed code={Code}: {Error}", code, recoveryEx.Message);
+					Telemetry.Debug(
+						"Pristine.Album.RecoveryGotoFailed code={Code}: {Error}",
+						code,
+						recoveryEx.Message
+					);
 				}
 			}
 		}
-		
+
 		Telemetry.Warn("Pristine.Album.ResolveFailed code={Code} attempts=3", code);
 		return Errors.Pristine.ResolveFailed(code);
 	}
 
-	private static async Task<(string Url, string Title, string Snippet)> DumpPageAsync(IPage page, CancellationToken ct)
+	private static async Task<(string Url, string Title, string Snippet)> DumpPageAsync(
+		IPage page,
+		CancellationToken ct
+	)
 	{
 		try
 		{
 			var url = page.Url;
 			var title = await page.TitleAsync().WaitAsync(ct);
-			var snippet = await page.EvaluateAsync<string>("() => (document.body ? (document.body.innerText || '') : '').slice(0,500)").WaitAsync(ct) ?? string.Empty;
+			var snippet =
+				await page.EvaluateAsync<string>(
+						"() => (document.body ? (document.body.innerText || '') : '').slice(0,500)"
+					)
+					.WaitAsync(ct)
+				?? string.Empty;
 			return (url, title, snippet.Replace("\n", " ").Replace("\r", " "));
 		}
 		catch (Exception ex)
@@ -241,24 +376,16 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		ct.ThrowIfCancellationRequested();
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		Telemetry.Debug("Pristine.Album.StartPlayback");
-		try
-		{
-			await page.EvaluateAsync("var t=document.querySelector('.pp-seekbar--togglebutton');if(t&&t.value!=='1')t.click();").WaitAsync(ct);
-			Telemetry.Debug("Pristine.Album.ToggleSeekbarOk");
-		}
-		catch (OperationCanceledException)
-		{
-			Telemetry.Warn("Pristine.Album.ToggleSeekbarCancelled");
-			throw;
-		}
-		catch (Exception ex)
-		{
-			Telemetry.Debug("Pristine.Album.ToggleSeekbarFailed: {Error}", ex.Message);
-		}
+
+		const string trackSelector = "li[data-album-track-id] button.track-title-button";
 
 		try
 		{
-			await page.WaitForSelectorAsync(".pp-tracklist__item", new PageWaitForSelectorOptions { Timeout = 15000 }).WaitAsync(ct);
+			await page.WaitForSelectorAsync(
+					trackSelector,
+					new PageWaitForSelectorOptions { Timeout = 15000 }
+				)
+				.WaitAsync(ct);
 			Telemetry.Debug("Pristine.Album.TracklistVisible");
 		}
 		catch (OperationCanceledException)
@@ -275,12 +402,11 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 			Telemetry.Debug("Pristine.Album.TracklistWaitFailed: {Error}", ex.Message);
 		}
 
-		var clicked = false;
 		try
 		{
-			await page.HoverAsync(".pp-tracklist__item").WaitAsync(ct);
-			await page.ClickAsync(".pp-tracklist__item .pp-tracklist__item__playnow", new PageClickOptions { Timeout = 5000 }).WaitAsync(ct);
-			clicked = true;
+			await page.Locator(trackSelector)
+				.First.ClickAsync(new LocatorClickOptions { Timeout = 5000 })
+				.WaitAsync(ct);
 			Telemetry.Debug("Pristine.Album.PlaynowClickOk");
 		}
 		catch (OperationCanceledException)
@@ -290,30 +416,17 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Debug("Pristine.Album.PlaynowClickFailed: {Error}", ex.Message);
-		}
-
-		if (clicked is false)
-		{
-			try
-			{
-				await page.EvaluateAsync("var btn=document.querySelector('.pp-tracklist__item .pp-tracklist__item__playnow');if(btn){btn.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));} else{var item=document.querySelector('.pp-tracklist__item');if(item)item.dispatchEvent(new MouseEvent('dblclick',{bubbles:true,cancelable:true}));}").WaitAsync(ct);
-				Telemetry.Debug("Pristine.Album.PlaynowFallbackOk");
-			}
-			catch (OperationCanceledException)
-			{
-				Telemetry.Warn("Pristine.Album.PlaynowFallbackCancelled");
-				throw;
-			}
-			catch (Exception ex)
-			{
-				Telemetry.Debug("Pristine.Album.PlaynowFallbackFailed: {Error}", ex.Message);
-			}
+			Telemetry.Warn("Pristine.Album.PlaynowClickFailed: {Error}", ex.Message);
 		}
 
 		try
 		{
-			await page.WaitForFunctionAsync("() => !!document.querySelector('body > audio[src]')", null, new PageWaitForFunctionOptions { Timeout = 5000 }).WaitAsync(ct);
+			await page.WaitForFunctionAsync(
+					"() => !!document.querySelector('body > audio[src]')",
+					null,
+					new PageWaitForFunctionOptions { Timeout = 5000 }
+				)
+				.WaitAsync(ct);
 			Telemetry.Debug("Pristine.Album.AudioSrcReady");
 		}
 		catch (OperationCanceledException)
@@ -331,12 +444,18 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		}
 	}
 
-	public async Task<ErrorOr<List<string>>> ParseTracklistAsync(IPage page, CancellationToken ct = default)
+	public async Task<ErrorOr<List<string>>> ParseTracklistAsync(
+		IPage page,
+		CancellationToken ct = default
+	)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		try
 		{
-			var raw = await page.EvaluateAsync<string[]>("() => Array.from(document.querySelectorAll('.pp-tracklist__item__title')).map(el=>el.textContent.trim())").WaitAsync(ct);
+			var raw = await page.EvaluateAsync<string[]>(
+					"() => Array.from(document.querySelectorAll('li[data-album-track-id] button.track-title-button')).map(el=>el.textContent.trim())"
+				)
+				.WaitAsync(ct);
 			List<string> list = raw is not null ? [.. raw] : [];
 			Telemetry.Debug("Pristine.Album.ParseTracklist count={Count}", list.Count);
 			return list;
@@ -353,14 +472,28 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		}
 	}
 
-	public async Task DownloadArtworkAndPdfAsync(IPage page, string albumOut, string albumTitle, HttpClient http, CancellationToken ct = default)
+	public async Task DownloadArtworkAndPdfAsync(
+		IPage page,
+		string albumOut,
+		string albumTitle,
+		HttpClient http,
+		CancellationToken ct = default
+	)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		var artworkSrc = string.Empty;
 		try
 		{
-			artworkSrc = await page.EvaluateAsync<string>("() => document.querySelector('.pp-album-view__artwork > img')?.src || ''").WaitAsync(ct) ?? string.Empty;
-			Telemetry.Debug("Pristine.Album.ArtworkSrc src={Src}", artworkSrc.Length > 120 ? artworkSrc[..120] : artworkSrc);
+			artworkSrc =
+				await page.EvaluateAsync<string>(
+						"() => document.querySelector('main .cover img')?.src || ''"
+					)
+					.WaitAsync(ct)
+				?? string.Empty;
+			Telemetry.Debug(
+				"Pristine.Album.ArtworkSrc src={Src}",
+				artworkSrc.Length > 120 ? artworkSrc[..120] : artworkSrc
+			);
 		}
 		catch (OperationCanceledException)
 		{
@@ -380,18 +513,35 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 
 		var imgFile = artworkSrc.Split('/')[^1].Split('?')[0];
 		var ext = Path.GetExtension(imgFile);
+		if (string.IsNullOrEmpty(ext))
+			ext = ".jpg";
 		var nameNoExt = Path.GetFileNameWithoutExtension(imgFile);
 		var imgDest = Path.Combine(albumOut, $"{albumTitle}{ext}");
-		Telemetry.Debug("Pristine.Album.ArtworkDownload src={Src} dest={Dest}", artworkSrc.Length > 80 ? artworkSrc[..80] : artworkSrc, Path.GetFileName(imgDest));
+		Telemetry.Debug(
+			"Pristine.Album.ArtworkDownload src={Src} dest={Dest}",
+			artworkSrc.Length > 80 ? artworkSrc[..80] : artworkSrc,
+			Path.GetFileName(imgDest)
+		);
 		var imgOk = await downloader.DownloadAsync(artworkSrc, imgDest, http, ct);
-		Telemetry.Debug("Pristine.Album.ArtworkResult dest={Dest} ok={Ok}", Path.GetFileName(imgDest), imgOk);
+		Telemetry.Debug(
+			"Pristine.Album.ArtworkResult dest={Dest} ok={Ok}",
+			Path.GetFileName(imgDest),
+			imgOk
+		);
 		var pdfUrl = $"{S3Covers}{nameNoExt}.pdf";
 		var pdfDest = Path.Combine(albumOut, $"{nameNoExt}.pdf");
-		Telemetry.Debug("Pristine.Album.PdfDownload url={Url} dest={Dest}", pdfUrl[..Math.Min(80, pdfUrl.Length)], Path.GetFileName(pdfDest));
+		Telemetry.Debug(
+			"Pristine.Album.PdfDownload url={Url} dest={Dest}",
+			pdfUrl[..Math.Min(80, pdfUrl.Length)],
+			Path.GetFileName(pdfDest)
+		);
 		var ok = await downloader.DownloadAsync(pdfUrl, pdfDest, http, ct);
 		if (ok is false)
 		{
-			Telemetry.Debug("Pristine.Album.PdfNotFound url={Url}", pdfUrl[..Math.Min(80, pdfUrl.Length)]);
+			Telemetry.Debug(
+				"Pristine.Album.PdfNotFound url={Url}",
+				pdfUrl[..Math.Min(80, pdfUrl.Length)]
+			);
 			try
 			{
 				if (File.Exists(pdfDest))
@@ -399,7 +549,11 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 			}
 			catch (Exception ex)
 			{
-				Telemetry.Debug("Pristine.Album.PdfDeleteFailed dest={Dest}: {Error}", Path.GetFileName(pdfDest), ex.Message);
+				Telemetry.Debug(
+					"Pristine.Album.PdfDeleteFailed dest={Dest}: {Error}",
+					Path.GetFileName(pdfDest),
+					ex.Message
+				);
 			}
 		}
 		else

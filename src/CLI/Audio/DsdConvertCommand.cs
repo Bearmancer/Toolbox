@@ -7,6 +7,7 @@ namespace CLI.Audio;
 
 using ErrorOr;
 
+[Description("Convert a single DSD (DFF) file to FLAC.")]
 internal sealed class DsdConvertCommand(
 	DsdConvertService convertService,
 	AudioMetadataService metadataService
@@ -18,19 +19,19 @@ internal sealed class DsdConvertCommand(
 		[CommandArgument(0, "<input>")]
 		public required string Input { get; init; }
 
-		[Description("Output FLAC file path")]
+		[Description("Output FLAC path")]
 		[CommandArgument(1, "[output]")]
 		public string? Output { get; init; }
 
-		[Description("Gain in dB (default: auto-detect from volumedetect)")]
+		[Description("Gain in dB (default: auto-detect)")]
 		[CommandOption("-g|--gain")]
 		public double? GainDb { get; init; }
 
-		[Description("Output format: 16 (default) or 24")]
+		[Description("Output bit depth: 16 (default) or 24")]
 		[CommandOption("-f|--format")]
 		public AudioOutputFormat Format { get; init; } = AudioOutputFormat.Bit16;
 
-		[Description("Copy metadata from source DSD file to output FLAC")]
+		[Description("Copy metadata from the source DSD file")]
 		[CommandOption("--copy-tags")]
 		public bool CopyTags { get; init; }
 	}
