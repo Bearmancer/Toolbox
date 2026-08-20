@@ -1,3 +1,6 @@
+using System.ComponentModel;
+using System.Globalization;
+
 namespace Services.Audio;
 
 public sealed record SacdDisc(
@@ -49,10 +52,73 @@ public sealed record DsdConversionSettings(int SampleRate, int BitDepth, double 
 		};
 }
 
+[TypeConverter(typeof(AudioOutputFormatConverter))]
 public enum AudioOutputFormat
 {
 	Bit16,
 	Bit24,
+}
+
+/// <summary>
+/// Parses <c>--format</c> option values for <see cref="AudioOutputFormat"/>.
+/// Spectre.Console.Cli's default enum binding falls through to <see cref="Enum.Parse(Type, string)"/>,
+/// which treats a purely numeric string as the enum's underlying integer value rather than a
+/// member name to match. Since <see cref="AudioOutputFormat.Bit24"/>'s underlying value is 1
+/// (not 24), typing <c>--format 24</c> would silently bind the undefined value
+/// <c>(AudioOutputFormat)24</c> instead of <see cref="AudioOutputFormat.Bit24"/>. This converter
+/// accepts the documented bit-depth numbers ("16"/"24") and the literal member names
+/// ("Bit16"/"Bit24"), and rejects everything else with a clear error instead of silently
+/// falling through to an out-of-range value.
+/// </summary>
+public sealed class AudioOutputFormatConverter : TypeConverter
+{
+	public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType) =>
+		sourceType == typeof(string) || base.CanConvertFrom(context, sourceType);
+
+	public override object ConvertFrom(
+		ITypeDescriptorContext? context,
+		CultureInfo? culture,
+		object value
+	)
+	{
+		if (value is string text)
+		{
+			var trimmed = text.Trim();
+
+			if (
+				string.Equals(trimmed, "16", StringComparison.OrdinalIgnoreCase)
+				|| string.Equals(
+					trimmed,
+					nameof(AudioOutputFormat.Bit16),
+					StringComparison.OrdinalIgnoreCase
+				)
+			)
+				return AudioOutputFormat.Bit16;
+
+			if (
+				string.Equals(trimmed, "24", StringComparison.OrdinalIgnoreCase)
+				|| string.Equals(
+					trimmed,
+					nameof(AudioOutputFormat.Bit24),
+					StringComparison.OrdinalIgnoreCase
+				)
+			)
+				return AudioOutputFormat.Bit24;
+
+			throw new FormatException(
+				$"Unsupported --format value '{text}'. Expected 16, 24, Bit16, or Bit24."
+			);
+		}
+
+		throw new NotSupportedException(
+			$"Cannot convert value of type '{value.GetType()}' to {nameof(AudioOutputFormat)}."
+		);
+	}
+
+	public override bool GetStandardValuesSupported(ITypeDescriptorContext? context) => true;
+
+	public override StandardValuesCollection GetStandardValues(ITypeDescriptorContext? context) =>
+		new(new object[] { AudioOutputFormat.Bit16, AudioOutputFormat.Bit24 });
 }
 
 public sealed record DsdProbeResult(
