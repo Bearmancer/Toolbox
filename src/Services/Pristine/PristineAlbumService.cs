@@ -44,6 +44,10 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 				}).WaitAsync(resolveCt);
 				searchAttached = true;
 			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
 			catch (Exception ex)
 			{
 				searchAttached = false;
@@ -58,6 +62,10 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 				{
 					await search.ClickAsync(new LocatorClickOptions { Timeout = 5000 }).WaitAsync(resolveCt);
 				}
+				catch (OperationCanceledException)
+				{
+					throw;
+				}
 				catch (Exception ex)
 				{
 					Telemetry.Debug("Pristine.Album.ClickIgnored code={Code}: {Error}", code, ex.Message);
@@ -67,6 +75,10 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 				try
 				{
 					await search.FillAsync(code, new LocatorFillOptions { Timeout = 5000 }).WaitAsync(resolveCt);
+				}
+				catch (OperationCanceledException)
+				{
+					throw;
 				}
 				catch (Exception ex)
 				{
@@ -83,8 +95,13 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 			{
 				await page.WaitForLoadStateAsync(LoadState.NetworkIdle, new PageWaitForLoadStateOptions { Timeout = 5000 }).WaitAsync(resolveCt);
 			}
-			catch (Exception)
+			catch (OperationCanceledException)
 			{
+				throw;
+			}
+			catch (Exception ex)
+			{
+				Telemetry.Debug("Pristine.Album.LoadStateWaitFailed code={Code}: {Error}", code, ex.Message);
 			}
 				
 				var url = page.Url;
@@ -188,8 +205,13 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 				{
 					await page.GotoAsync(PristineApp, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }).WaitAsync(resolveCt);
 				}
-				catch
+				catch (OperationCanceledException)
 				{
+					throw;
+				}
+				catch (Exception recoveryEx)
+				{
+					Telemetry.Debug("Pristine.Album.RecoveryGotoFailed code={Code}: {Error}", code, recoveryEx.Message);
 				}
 			}
 		}
@@ -209,6 +231,7 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		}
 		catch (Exception ex)
 		{
+			Telemetry.Debug("Pristine.Album.DumpPageFailed: {Error}", ex.Message);
 			return (page.Url, string.Empty, "dump-failed: " + ex.Message);
 		}
 	}

@@ -21,7 +21,7 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		Telemetry.Info("Pristine.Poll.Start code={Code} outDir={OutDir} single={Single}", code, outDir, singleTrack);
-		IPage page = await ctx.NewPageAsync();
+		IPage page = await ctx.NewPageAsync().WaitAsync(ct);
 		try
 		{
 			Telemetry.Debug("Pristine.Poll.GotoBrowse code={Code}", code);
@@ -135,6 +135,10 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 				await albumService.DownloadArtworkAndPdfAsync(page, albumOut, albumTitle, http, ct);
 				Telemetry.Debug("Pristine.Poll.ArtworkDone code={Code}", code);
 			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
 			catch (Exception ex)
 			{
 				Telemetry.Warn("Pristine.Poll.ArtworkFailed code={Code}: {Error}", code, ex.Message);
@@ -156,6 +160,10 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 			try
 			{
 				await albumService.StartPlaybackAsync(page, ct);
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
 			}
 			catch (Exception ex)
 			{
@@ -223,6 +231,10 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 						throw;
 					}
 				}
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
 			}
 			catch (Exception ex)
 			{
@@ -522,6 +534,10 @@ try
 				try
 				{
 					await Task.WhenAll(pendingDownloads);
+				}
+				catch (OperationCanceledException)
+				{
+					throw;
 				}
 				catch (Exception ex)
 				{

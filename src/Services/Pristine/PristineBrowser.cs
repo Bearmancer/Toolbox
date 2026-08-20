@@ -145,6 +145,10 @@ public sealed class PristineBrowser
 await ctx.AddCookiesAsync([ck]).WaitAsync(ct);
 							okCookies.Add(ck);
 							}
+							catch (OperationCanceledException)
+							{
+								throw;
+							}
 							catch (Exception ex)
 							{
 								var entry = $"{ck.Name}@{ck.Domain}:{ex.Message}";
@@ -201,6 +205,10 @@ await ctx.AddCookiesAsync([ck]).WaitAsync(ct);
 								await ctx.AddInitScriptAsync(
 									$"if (window.location.origin === {JsonSerializer.Serialize(originUrl)}) {{\n{script}\n}}"
 								).WaitAsync(ct);
+							}
+							catch (OperationCanceledException)
+							{
+								throw;
 							}
 							catch (Exception ex)
 							{
