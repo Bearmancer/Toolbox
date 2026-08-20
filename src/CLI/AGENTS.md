@@ -17,11 +17,8 @@
 │   ├── SacdConvertCommand.cs
 │   └── DsdConvertCommand.cs
 ├── Dashboard/
-│   ├── DashboardCommandModule.cs # &quot;dashboard&quot; branch: generate
-│   ├── DashboardGenerateCommand.cs
-│   ├── DashboardDataBuilder.cs
-│   ├── DashboardHtmlGenerator.cs
-│   └── OciDashboardDeployer.cs   # lives in CLI (not Services) — repo truth
+│   ├── DashboardCommandModule.cs # "dashboard" branch: generate
+│   └── DashboardGenerateCommand.cs
 └── Sync/
     ├── SyncCommandModule.cs      # &quot;sync&quot; branch: youtube, lastfm
     ├── YouTube/SyncYoutubeCommand.cs

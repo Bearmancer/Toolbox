@@ -11,5 +11,5 @@ public static class PristinePaths
 		);
 
 	public static string AuthPath =>
-		Path.Combine(PathResolver.RepoRoot, "state", "pristine", "auth.json");
+		Path.Combine(PathResolver.RepoRoot, "state", "auth", "pristine", "auth.json");
 }

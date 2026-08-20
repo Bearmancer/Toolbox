@@ -2,16 +2,14 @@
 <p>Leaf. All <code>Services.*</code> → Core. Never reverse. No service knowledge here.</p>
 <h2>Structure</h2>
 <pre class="syntax-highlighting"><code><span class="text plain">Core/
-├── Core.csproj     # ErrorOr, Serilog+Compact/File/Seq/Spectre/Tracing, Spectre.Console, SSH.NET
+├── Core.csproj     # ErrorOr, Serilog+Compact/File/Seq/Spectre/Tracing, Spectre.Console
 ├── Telemetry.cs    # Per-service JSONL (CompactJsonFormatter, 50 MB) + Spectre console + Seq probe
-├── Errors.cs       # Domain factories: General/Validation/YouTube/Azure/LastFm/DocIntel/Speech/Vision/OpenAi/Translate/TextAnalytics/Audio
+├── Errors.cs       # Domain factories: General/Validation/YouTube/Azure/LastFm/DocIntel/Speech/Vision/OpenAi/Translate/TextAnalytics/Audio/Pristine
 ├── PathResolver.cs # RepoRoot, GetStatePath(), ResolveInput(), ReadChecked()
-├── ServiceName.cs  # 10 values + ToFileSlug() extension
-├── Text.cs         # SanitizeFileName + string extensions (IsEqualTo, Has, StartsWith)
-└── OciConfig.cs    # OCI deploy constants: Host, User, KeyPath (~/.ssh/oci/id_ed25519)
+└── Text.cs         # SanitizeFileName + string extensions (IsEqualTo, Has, StartsWith)
 </span></code></pre>
-<p><code>Telemetry.cs</code>: <code>state/logs</code> = <code>Path.Combine(RepoRoot,&quot;state&quot;,&quot;logs&quot;)</code>; one JSONL per <code>ServiceName</code> via <code>Enum.GetValues</code>→<code>AddServiceLogger</code> filtering on <code>Service==service.ToString()</code>; <code>LevelSwitch</code> controls Spectre sink; Seq at <code>SEQ_URL</code>|<code>localhost:5341</code> gated by 500 ms TCP probe.
-<code>ServiceName.cs</code>: <code>LastFm, YouTube, OpenAi, Vision, Translate, TextAnalytics, Speech, DocIntel, Audio, SdkDiagnostics</code> → <code>ToFileSlug()</code> maps <code>TextAnalytics→textanalytics</code>, <code>SdkDiagnostics→sdk</code>.
+<p><code>Telemetry.cs</code>: <code>state/logs</code> = <code>Path.Combine(RepoRoot,&quot;state&quot;,&quot;logs&quot;)</code>; one JSONL per <code>ServiceName</code> via <code>Enum.GetValues</code>→<code>AddServiceLogger</code> filtering on <code>Service==service.ToString()</code>; <code>LevelSwitch</code> controls Spectre sink; Seq at <code>SEQ_URL</code> gated by SEQ_URL env var presence (no TCP probe).
+<code>ServiceName.cs</code>: <code>LastFm, YouTube, OpenAi, Vision, Translate, TextAnalytics, Speech, DocIntel, Audio, Pristine, SdkDiagnostics</code> → <code>ToFileSlug()</code> maps <code>TextAnalytics→textanalytics</code>, <code>Pristine→pristine</code>, <code>SdkDiagnostics→sdk</code>.
 <code>PathResolver.cs</code>: <code>RepoRoot</code> lazy walks ≤10 parents for <code>.git</code>/<code>.env</code>, fallback <code>GetCurrentDirectory()</code>; <code>ResolveInput()</code> resolves relative via <code>resources/</code>; <code>ReadChecked(path,maxBytes,service)</code>.</p>
 <h2>Where to Look</h2>
 <table>
@@ -45,7 +43,7 @@
 </tr>
 <tr>
 <td>OCI deploy target</td>
-<td><code>OciConfig.cs</code></td>
+<td><code>src/Services/Google/Dashboard/OciConfig.cs</code></td>
 <td><code>Host</code>/<code>User</code>/<code>KeyPath</code> — consumed by dashboard deploy</td>
 </tr>
 </tbody>

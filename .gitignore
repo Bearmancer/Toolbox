@@ -15,6 +15,10 @@ old
 # Google OAuth tokens (sensitive credentials)
 state/google-auth/
 
+# Pristine login session/cookie state (Playwright storage state — live credentials)
+state/auth/
+state/pristine/auth.json
+
 # Application settings (may contain secrets)
 appsettings.json
 appsettings.*.json
@@ -492,3 +496,12 @@ $RECYCLE.BIN/
 *.swp
 .worktrees/
 .omo/evidence/
+
+# AI session/chat export transcripts — these capture raw command output
+# (including .env dumps) and have leaked live credentials before. Never track.
+session-ses_*.md
+command-code-session-*.md
+Pristine Script.md
+plans/session-ses_*.md
+plans/command-code-session-*.md
+plans/Pristine Script.md

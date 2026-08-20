@@ -5,7 +5,7 @@
 <p>CLI toolbox wrapping Azure AI services, Google YouTube API, Last.fm, and SACD audio conversion. .NET 11.0, Spectre.Console.Cli, Serilog, ErrorOr.</p>
 <h2>STRUCTURE</h2>
 <pre class="syntax-highlighting"><code><span class="text plain">Toolbox/
-├── Toolbox.slnx           # 7 projects: App, CLI, Core, Audio, Azure, Google, LastFm
+├── Toolbox.slnx           # 8 projects: App, CLI, Core, Audio, Azure, Google, LastFm, Pristine
 ├── .editorconfig          # Code style — single source of truth
 ├── src/
 │   ├── App/               # Exe. DI wiring only.
@@ -21,7 +21,7 @@
 │       ├── Google/YouTube/# YouTube API + orchestration. Depends on Azure.TranslateService
 │       └── LastFm/        # Last.fm HTTP + sync orchestrator
 ├── state/                 # audio/, dashboard/, lastfm/, logs/, youtube/{deleted,merge-manifests,processed,raw}
-├── state/logs/            # 10 JSONL per service (rolling, 7-day)
+├── state/logs/            # 11 JSONL per service (rolling: Infinite, 50 MB cap)
 ├── artifacts/             # bin+obj via UseArtifactsOutput (not bin/)
 ├── Directory.Build.props
 ├── Directory.Packages.props
@@ -72,7 +72,7 @@ Services.LastFm → Core
 </tr>
 <tr>
 <td>Dashboard generation</td>
-<td><code>src/CLI/Dashboard/</code></td>
+<td><code>src/Services/Google/Dashboard/</code></td>
 <td>DashboardDataBuilder → DashboardHtmlGenerator → OciDashboardDeployer</td>
 </tr>
 <tr>
@@ -150,8 +150,8 @@ Services.LastFm → Core
 <li>.NET 11.0 preview SDK required. <code>SuppressNETCoreSdkPreviewMessage</code> is set.</li>
 <li><code>&lt;UseArtifactsOutput&gt;true&lt;/UseArtifactsOutput&gt;</code> — outputs in <code>artifacts/</code>, not <code>bin/</code>.</li>
 <li><code>.editorconfig</code> is source of truth. All rules enforced as <code>error</code>.</li>
-<li><code>Toolbox.slnx</code> is SDK-style, 7 projects.</li>
+<li><code>Toolbox.slnx</code> is SDK-style, 8 projects.</li>
 <li>No CI/CD (no <code>.github/</code>). No <code>tools/</code> dir. Manual builds.</li>
 <li>No test projects. Standalone <code>.cs</code> with <code>Main()</code> only.</li>
-<li>Sub-AGENTS.md in <code>src/CLI/</code>, <code>src/Core/</code>, <code>src/Services/Audio/</code>, <code>src/Services/Azure/</code>, <code>src/Services/Google/</code>, <code>src/Services/LastFm/</code>.</li>
+<li>Sub-AGENTS.md in <code>src/CLI/</code>, <code>src/Core/</code>, <code>src/Services/Audio/</code>, <code>src/Services/Azure/</code>, <code>src/Services/Google/</code>, <code>src/Services/LastFm/</code>, <code>src/Services/Pristine/</code>.</li>
 </ul>

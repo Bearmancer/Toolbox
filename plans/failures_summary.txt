@@ -1,0 +1,23 @@
+L2335: 892: <summary>SHELL {"cmd":"dotnet build 2>&1 | findstr /c:\"error\" /c:\"Build succeeded\" /c:\"Build FAILED\" /c:\"warning\"","description":"Build current state"}</summary>
+L2344: 901: <summary>SHELL dotnet build 2>&1 | findstr /c:"error" /c:"Build succeeded" /c:"Build FAILED" /c:"warning"</summary>
+L2347: 904: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristineAlbumService.cs(341,27): error CS0117: 'Errors.Pristine' does not contain a definition for 'TracklistParseFailed' [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L2348: 905: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(100,34): error CS0029: Cannot implicitly convert type 'ErrorOr.ErrorOr<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.List<string>' [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L2373: 930: Build FAILED.
+L2374: 931: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristineAlbumService.cs(341,27): error CS0117: 'Errors.Pristine' does not contain a definition for 'TracklistParseFailed' [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L2375: 932: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(100,34): error CS0029: Cannot implicitly convert type 'ErrorOr.ErrorOr<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.List<string>' [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L2818: 1337: <summary>SHELL dotnet build 2>&1 | findstr /c:": error" /c:"Build succeeded" /c:"Build FAILED"</summary>
+L2821: 1340: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(100,34): error CS0029: Cannot implicitly convert type 'ErrorOr.ErrorOr<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.List<string>' [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L2842: 1361: Build FAILED.
+L2843: 1362: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(100,34): error CS0029: Cannot implicitly convert type 'ErrorOr.ErrorOr<System.Collections.Generic.List<string>>' to 'System.Collections.Generic.List<string>' [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L5330: 3784: Build FAILED.
+L5340: 3794: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristineAlbumService.cs(131,128): error CS8602: Dereference of a possibly null reference. [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L5341: 3795: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristineAlbumService.cs(131,128): error CS8602: Dereference of a possibly null reference. [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L6783: 4768: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(45,19): error CS0037: Cannot convert null to 'ErrorOr<int?>' because it is a non-nullable value type [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L6816: 4801: Build FAILED.
+L6818: 4803: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(45,19): error CS0037: Cannot convert null to 'ErrorOr<int?>' because it is a non-nullable value type [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L6875: 4860: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(46,19): error CS0037: Cannot convert null to 'ErrorOr<int?>' because it is a non-nullable value type [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L6877: 4862: Build FAILED.
+L6879: 4864: C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\PristinePollService.cs(46,19): error CS0037: Cannot convert null to 'ErrorOr<int?>' because it is a non-nullable value type [C:\Users\Lance\Dev\Toolbox\src\Services\Pristine\Pristine.csproj]
+L6964: 4949: Build FAILED.
+L7614: 5438: Build FAILED.
+L9030: 6809: Build FAILED.

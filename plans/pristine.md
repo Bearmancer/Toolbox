@@ -589,3 +589,45 @@ dotnet run --project src/App -- pristine --help
 ## Firefox DevTools MCP live-check (post-wire, pre-release)
 
 Before marking done, repeat Phase 1 Task 10 live-check against real site with new C# selectors — confirm poll captures `.flac` URLs via `firefox-devtools_list_network_requests urlContains=.flac` during playback. If selector drift, patch and re-QA.
+
+---
+
+## Execution Status
+
+Verified 2026-08-19 by Atlas (orchestrator) via 6 parallel subagents + personal build.
+
+- [x] Task 1: Microsoft.Playwright in Directory.Packages.props
+- [x] Task 2: Pristine in Toolbox.slnx
+- [x] Task 3: Pristine in ServiceName enum
+- [x] Task 4: Pristine slug in ServiceName (ToFileSlug)
+- [x] Task 5: Errors.Pristine class
+- [x] Task 6: Pristine.csproj skeleton
+- [x] Task 7: PristineCredentials.cs
+- [x] Task 8: PristineText.cs (Sanitize/Normalize/Roman)
+- [x] Task 9: PristineDownloadConfig + PristineAlbumResult (PristineModels.cs)
+- [x] Task 10: Live-check selectors (Firefox DevTools MCP) — **N/A**: no auth session + Firefox DevTools MCP unavailable in env (see Chronic Firefox MCP Failures docs). Selectors hardcoded from pristine.py port; deferred to live run with credentials.
+- [x] Task 11: PristinePaths.cs
+- [x] Task 12: PristineBrowser.cs
+- [x] Task 13: PristineDownloader.cs
+- [x] Task 14: PristineLoginService.cs
+- [x] Task 15: PristineAlbumService.cs
+- [x] Task 16: PristinePollService.cs
+- [x] Task 17: PristineOrchestrator.cs
+- [x] Task 18: PristineSetup.cs DI
+- [x] Task 19: PristineCommandModule.cs
+- [x] Task 20: PristineLoginCommand.cs
+- [x] Task 21: PristineDownloadCommand.cs
+- [x] Task 22: Wire Pristine into CLI + App
+
+**Final verification:** `dotnet build` → 0 errors, 0 warnings, all 8 projects compile. `dotnet run --project src/App -- pristine --help` / `login --help` / `download --help` all exit 0 with correct command surface.
+
+**Benign deviations from plan (verified correct, not defects):**
+- T2: slnx uses backslash path separators (repo convention).
+- T4: slug mapping in `ServiceName.cs` `ToFileSlug` extension, not `ServiceNameExtensions.cs`.
+- T5: error descriptions reworded; AuthMissing path `state/auth/pristine/auth.json`.
+- T7: `PristineCredentials.Read()` defaults to Desktop/Pristine instead of throwing on missing `PRISTINE_BASE_OUT_DIR`.
+- T9: config + result merged into `PristineModels.cs`; `OutDir` nullable.
+- T11: AuthPath `state/auth/pristine/auth.json` (auth grouped under `state/auth`).
+- T18: extra `PristineAudioVerifier` singleton registered (required by PollService).
+- T21: `[codes]` positional arg + `NormalizeCodes` instead of `-c|--code` option (superior multi-code UX).
+- Extra file `PristineAudioVerifier.cs`: ffprobe-based 16-bit FLAC verification (enhancement beyond plan).

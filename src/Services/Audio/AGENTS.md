@@ -1,6 +1,6 @@
 <h1>Audio — SACD ISO → DSD → FLAC</h1>
 <p>External-bin pipeline: sacd_extract → DFF → saracon d2p → sox split → ATL.NET tag.</p>
-<h2>STRUCTURE — 18 files</h2>
+<h2>STRUCTURE — 19 files</h2>
 <pre class="syntax-highlighting"><code><span class="text plain">Audio/
 ├── AudioSetup.cs              # DI extension AddAudioServices(), eager PATH check saracon/sox/sacd_extract
 ├── PipelineOrchestrator.cs    # Pure orchestration: enumerate ISOs (natural sort), probe, route, cleanup. 6 deps
@@ -9,7 +9,6 @@
 ├── SoxService.cs              # Internal of DsdConvertService. trim split, stats (Pk lev dB), duration --i -D, derive rate -v
 ├── SacdExtractService.cs      # sacd_extract: -P probe, -2/-m -e -c -C extract (Edit Master + CUE)
 ├── ProcessRunner.cs           # Shared: ArgumentList, concurrent stdout/stderr drain, CancellationToken, timeout/inactivity/completionPattern
-├── LogPaths.cs                # Path redaction: Setup/Reset IsoRoot+OutputRoot, Format → «ISO»/«OUT»/«TMP»
 ├── PathValidator.cs           # Traversal/containment validation
 ├── DiskSpaceChecker.cs        # Pre-flight: 4x extraction, 8x conversion + 500MB margin
 ├── DiscOutputInspector.cs     # Disc assessment: CUE/FLAC/DFF probe → DiscState
@@ -17,6 +16,8 @@
 ├── DiscState.cs               # Complete | NeedsPrimaryConversion | NeedsExtraction | InvalidArtifacts | Failed
 ├── ReprocessGuard.cs          # state/audio/sacd-guard.json — 3 consecutive non-Complete → Failed
 ├── DffMetadataStripper.cs     # ID3 chunk strip → _clean.dff, FRM8 size rewrite, odd-pad handling
+├── DffHeader.cs              # DFF FRM8/DSD header model (PROP/SND/FS/CHNL)
+├── DffHeaderReader.cs        # Parses DFF header → sample rate + channels
 ├── AudioMetadataService.cs    # ATL.NET: new Track(path), set props, Save()
 ├── CueParser.cs               # Custom CUE: BOM + UTF-8 heuristic + Windows-1252 fallback, no external dep
 └── AudioModels.cs             # SacdDisc/Track, DsdProbeResult, CueSheet/Track, DsdConversionSettings.ForDsdRate, ConversionResult, PipelineResult

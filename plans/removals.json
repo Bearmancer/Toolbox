@@ -1,0 +1,971 @@
+[
+  {
+    "File": "2026-08-09-sacd-death-loop-v2-design.md",
+    "Matches": [
+      {
+        "LineNum": 152,
+        "Text": "`dotnet run -- audio sacd-convert ...` fails independently of Saracon: `App.Program.cs` unconditionally initializes Google/YouTube OAuth (`GoogleSetup.BuildYouTubeServiceAsync`, `src/Services/Google/GoogleSetup.cs:34`, called from `src/App/Program.cs:60`), which requires an interactive OAuth flow and throws `HttpListenerException` in any non-interactive context. This blocks Task 8 regardless of the Saracon/UTF-8 outcome."
+      }
+    ]
+  },
+  {
+    "File": "2026-08-10-logging-audit.md",
+    "Matches": [
+      {
+        "LineNum": 59,
+        "Text": "## Google/YouTube Service (src/Services/Google/YouTube/)"
+      },
+      {
+        "LineNum": 63,
+        "Text": "| YouTubePlaylistOrchestrator.cs | 352-354 | Silent catch in LoadStoredStateAsync — wraps exception without logging | CRITICAL | Add Telemetry.Error(\"YouTube.StateLoadFailed path={Path}: {Error}\", path, ex.Message) before returning error                    |"
+      },
+      {
+        "LineNum": 64,
+        "Text": "| YouTubePlaylistProcessor.cs    | 138-141 | Silent catch in FetchItemsAsync — wraps exception without logging      | HIGH     | Add Telemetry.Error(\"YouTube.FetchItemsFailed playlist={Id}: {Error}\", ctx.Snapshot.PlaylistId, ex.Message)                     |"
+      },
+      {
+        "LineNum": 65,
+        "Text": "| YouTubePlaylistService.cs      | 279-283 | DeletePlaylistAsync catch block returns error without logging          | MEDIUM   | Add Telemetry.Error(\"YouTube.DeletePlaylistFailed id={Id}: {Error}\", playlistId, ex.Message)                                    |"
+      },
+      {
+        "LineNum": 66,
+        "Text": "| YouTubePlaylistService.cs      | 325-331 | InsertPlaylistItemAsync catch block returns error without logging      | MEDIUM   | Add Telemetry.Error(\"YouTube.InsertItemFailed video={VideoId} playlist={PlaylistId}: {Error}\", videoId, playlistId, ex.Message) |"
+      },
+      {
+        "LineNum": 67,
+        "Text": "| YouTubeVideoService.cs         | 71-73   | Silent catch for FormatException — no logging                          | MEDIUM   | Add Telemetry.Error(\"YouTube.DurationParseFailed: {Error}\", ex.Message)                                                         |"
+      },
+      {
+        "LineNum": 68,
+        "Text": "| YouTubeSortService.cs          | 136-140 | Fetch failure logged at Verbose instead of Error/Warn                  | LOW      | Change Telemetry.Verbose to Telemetry.Warn in FetchPlaylistItemsAsync catch block                                               |"
+      },
+      {
+        "LineNum": 70,
+        "Text": "**Notes:** YouTubeChangeDetector.cs, YouTubeFetchState.cs, YouTubeSyncProcessor.cs, YouTubeDuplicateMerger.cs, DashboardService.cs, YouTubeTranslationService.cs, and YouTubeDuplicateMergePolicy.cs have adequate logging."
+      },
+      {
+        "LineNum": 98,
+        "Text": "**Notes:** All CLI command files (SacdConvertCommand.cs, DsdConvertCommand.cs, DashboardGenerateCommand.cs, SyncYoutubeCommand.cs, SyncLastFmCommand.cs) have adequate logging. TypeRegistrar.cs, module files, and DashboardDataBuilder.cs/HtmlGenerator.cs are clean."
+      },
+      {
+        "LineNum": 130,
+        "Text": "5. **YouTubePlaylistOrchestrator.cs:352** — Silent catch in LoadStoredStateAsync"
+      },
+      {
+        "LineNum": 131,
+        "Text": "   - Add: Telemetry.Error(\"YouTube.StateLoadFailed path={Path}: {Error}\", path, ex.Message);"
+      },
+      {
+        "LineNum": 141,
+        "Text": "8. **YouTubePlaylistProcessor.cs:138** — Silent catch in FetchItemsAsync"
+      },
+      {
+        "LineNum": 142,
+        "Text": "   - Add: Telemetry.Error(\"YouTube.FetchItemsFailed playlist={Id}: {Error}\", ctx.Snapshot.PlaylistId, ex.Message);"
+      },
+      {
+        "LineNum": 170,
+        "Text": "17. **YouTubePlaylistService.cs:279** — Missing log in DeletePlaylistAsync catch"
+      },
+      {
+        "LineNum": 171,
+        "Text": "    - Add: Telemetry.Error(\"YouTube.DeletePlaylistFailed id={Id}: {Error}\", playlistId, ex.Message);"
+      },
+      {
+        "LineNum": 173,
+        "Text": "18. **YouTubePlaylistService.cs:325** — Missing log in InsertPlaylistItemAsync catch"
+      },
+      {
+        "LineNum": 174,
+        "Text": "    - Add: Telemetry.Error(\"YouTube.InsertItemFailed video={VideoId} playlist={PlaylistId}: {Error}\", videoId, playlistId, ex.Message);"
+      },
+      {
+        "LineNum": 176,
+        "Text": "19. **YouTubeVideoService.cs:71** — Silent catch for FormatException"
+      },
+      {
+        "LineNum": 177,
+        "Text": "    - Add: Telemetry.Error(\"YouTube.DurationParseFailed: {Error}\", ex.Message);"
+      },
+      {
+        "LineNum": 181,
+        "Text": "20. **YouTubeSortService.cs:136** — Wrong log level (Verbose for fetch failure)"
+      }
+    ]
+  },
+  {
+    "File": "2026-08-12-sacd-consolidated.md",
+    "Matches": [
+      {
+        "LineNum": 172,
+        "Text": "- No cleanup of unrelated YouTube/Azure/dashboard/state work."
+      }
+    ]
+  },
+  {
+    "File": "2026-08-18-toolbox-mega-plan.md",
+    "Matches": [
+      {
+        "LineNum": 5,
+        "Text": "<p><strong>Goal:</strong> Land all actionable markdown backlog as working, testable software with zero feature loss, preserving F1-F10 (YouTube) and 9-step SACD pipeline, via 4 SoC modules sequenced on CPM critical path, maximizing modularity and exhaustiveness, verified against 309-file local state.</p>"
+      },
+      {
+        "LineNum": 6,
+        "Text": "<p><strong>Architecture:</strong> 4 SoC modules (M1 YouTube seams → M2 error plumbing → M3 Core/Audio shrink → M4 Layer/Telemetry) wired on CPM DAG where each module's produced data (seam metrics, typed errors, shrunk services, relocated Dashboard) is consumed by the next; M1+M3 parallel seeds, M2 consumes M1 mapper seam, M4 consumes all prior. Exhaustive catalog: 9 .omo/plans files deduped (seams S-<em>/N-</em>, error taxonomy 7 codes, dead catalog 18+4+5, verdict buckets/gods) + local state ground truth (145 snapshots, 10 jsonl).</p>"
+      },
+      {
+        "LineNum": 7,
+        "Text": "<p><strong>Tech Stack:</strong> .NET 11.0 preview SDK (<code>&lt;UseArtifactsOutput&gt;true&lt;/UseArtifactsOutput&gt;</code> → <code>artifacts/</code>), Spectre.Console.Cli, Serilog (<code>Telemetry.ForService</code>), ErrorOr, Google.Apis.YouTube.v3 (<code>GoogleApiException</code>), Azure.AI.Translation.Text (<code>RequestFailedException</code>), System.Text.Json (PascalCase, <code>WriteIndented=true</code>, <code>HmsTimeSpanConverter</code> <code>hh:mm:ss</code>), DotNetEnv, SSH.NET (<code>Renci.SshNet</code>).</p>"
+      },
+      {
+        "LineNum": 13,
+        "Text": "<li>Auth <code>.env</code> only (<code>AzureCredentials.Read()</code>, <code>GoogleCredentials.Read()</code>, <code>LASTFM_*</code> env), no hardcoded secrets; <code>GoogleSetup.AddGoogleServicesAsync</code> async OAuth2 <code>FileDataStore state/google-auth</code>, scope <code>Youtube</code>, 5-min CTS.</li>"
+      },
+      {
+        "LineNum": 17,
+        "Text": "<li>Branch <code>master</code> @ <code>06488b7 Pre YouTube pruning</code>; manifests: <code>state/youtube/manifest.json</code> (145 snapshots keyed by <code>PlaylistId</code>); raw/processed each 145; deleted 3 + merge-manifests 1.</li>"
+      },
+      {
+        "LineNum": 21,
+        "Text": "<pre class=\"syntax-highlighting\"><code><span class=\"text plain\">M1 (YouTube seams) ──┬──→ M2 (error plumbing, needs N-03 seam join)"
+      },
+      {
+        "LineNum": 22,
+        "Text": "                    └──→ M3 (Core/Audio shrink, parallel — no YouTube seam overlap)"
+      },
+      {
+        "LineNum": 25,
+        "Text": "Archive: youtube-quota-logging (DONE), youtube-duplicate-playlist-merge (DONE), toolbox-flatline (DONE snapshot) — not on DAG."
+      },
+      {
+        "LineNum": 42,
+        "Text": "<td>YouTube data seams</td>"
+      },
+      {
+        "LineNum": 43,
+        "Text": "<td><code>youtube-seams.md</code> + arch Buckets A-E (youtube-only)</td>"
+      },
+      {
+        "LineNum": 44,
+        "Text": "<td>6 youtube files seam hygiene only</td>"
+      },
+      {
+        "LineNum": 100,
+        "Text": "<h2>Module M1 — YouTube Data Seams &amp; Hygiene</h2>"
+      },
+      {
+        "LineNum": 102,
+        "Text": "<p><strong>Files:</strong> See fragment <code>.omo/plans/.tmp/m1-youtube-seams-plan.md</code> (445 lines) — full Seam Catalog table + 9 tasks Tasks 1-9 with exact diffs + harnesses.</p>"
+      },
+      {
+        "LineNum": 134,
+        "Text": "<td>fix — reuse <code>YouTubeFetchState.JsonOptions</code>, delete Merger private <code>JsonOptions</code></td>"
+      },
+      {
+        "LineNum": 154,
+        "Text": "<p><strong>Feature-loss gate (M1):</strong> F1 state cache ✓, F2 detection ✓, F3 bulk sync ✓, F4 single-playlist by title ✓ (delegate touched only in M4, not M1), F5 merge ✓, F6 LIS sort ✓, F7 resume sort ✓, F8 translate ✓ (N-05 fixed not removed), F9 archive ✓, F10 youtube.jsonl ✓. Dead-vs-gap rule: 0+0 = dead only (Bucket A none qualify); produced-never-consumed = propose consumer and keep until impl.</p>"
+      },
+      {
+        "LineNum": 158,
+        "Text": "<p><strong>Files:</strong> Modify <code>src/Services/Google/YouTube/DashboardService.cs</code></p>"
+      },
+      {
+        "LineNum": 180,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 5:</strong> Commit <code>fix(youtube): S-13 dashboard reverseLookup key by PlaylistId</code>.</li>"
+      },
+      {
+        "LineNum": 183,
+        "Text": "<p><strong>Files:</strong> Modify <code>src/Services/Google/YouTube/YouTubeTranslationService.cs</code> (<code>ApplyTranslationResults</code>)</p>"
+      },
+      {
+        "LineNum": 196,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 5:</strong> Commit <code>fix(youtube): N-05 hi transliterate not counted as translated</code>.</li>"
+      },
+      {
+        "LineNum": 199,
+        "Text": "<p><strong>Files:</strong> Modify <code>YouTubeSortService.cs</code>, <code>YouTubeSyncProcessor.cs</code>, <code>YouTubePlaylistOrchestrator.cs</code>, <code>CLI/Sync/YouTube/SyncYoutubeCommand.cs</code></p>"
+      },
+      {
+        "LineNum": 211,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 5:</strong> Commit <code>fix(youtube): N-03 preserve Failures, S-11 expose SortStatistics</code>.</li>"
+      },
+      {
+        "LineNum": 214,
+        "Text": "<p><strong>Files:</strong> Modify <code>YouTubePlaylistOrchestrator.cs</code> (<code>Finalize</code> log), <code>YouTubeSyncProcessor.cs</code> (log label), optionally <code>SyncYoutubeCommand.cs</code>.</p>"
+      },
+      {
+        "LineNum": 224,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 5:</strong> Commit <code>fix(youtube): wire S-09 SkippedVideos, clarify S-12</code>.</li>"
+      },
+      {
+        "LineNum": 227,
+        "Text": "<p><strong>Files:</strong> Modify <code>YouTubePlaylistOrchestrator.cs</code> (<code>Finalize</code> + detector log).</p>"
+      },
+      {
+        "LineNum": 235,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 3:</strong> Patch <code>Orchestrator.Finalize</code>; add doc note in <code>YouTubeChangeDetector.cs</code> if missing.</li>"
+      },
+      {
+        "LineNum": 237,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 5:</strong> Commit <code>fix(youtube): wire S-10 UnchangedPlaylists</code>.</li>"
+      },
+      {
+        "LineNum": 240,
+        "Text": "<p><strong>Files:</strong> Modify <code>YouTubeDuplicateMerger.cs</code> (delete private <code>JsonOptions</code>), <code>YouTubeFetchState.cs</code> (throttle comment).</p>"
+      },
+      {
+        "LineNum": 243,
+        "Text": "JsonSerializer.Serialize(manifest, YouTubeFetchState.JsonOptions)"
+      },
+      {
+        "LineNum": 249,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 1:</strong> Write <code>s17_harness.cs</code> — <code>Serialize(YouTubeVideo, YouTubeFetchState.JsonOptions)</code> contains <code>hh:mm:ss</code> vs bare <code>WriteIndented</code> lacks it.</li>"
+      },
+      {
+        "LineNum": 253,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 5:</strong> Commit <code>fix(youtube): S-17 reuse YouTubeFetchState.JsonOptions</code>.</li>"
+      },
+      {
+        "LineNum": 271,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 3:</strong> No commit (or <code>--allow-empty</code> <code>chore(youtube): confirm S-03/S-14</code>).</li>"
+      },
+      {
+        "LineNum": 275,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 1:</strong> Write <code>dedup_harness.cs</code> (<code>YouTubeDuplicateMergePolicy.FindGroups</code> GroupBy <code>Title.Trim()</code> OrdinalIgnoreCase; <code>DashboardData.PlaylistCount</code> consumed).</li>"
+      },
+      {
+        "LineNum": 278,
+        "Text": "<p><strong>Out of scope (M2/M4):</strong> god-file inline (<code>YouTubeChangeDetector</code>, <code>4 Execute*→2</code>, <code>ShouldBreak</code>), error <code>YT.RateLimit</code> mapper, <code>StateRoot</code>/<code>ManifestFile</code> path dedup, <code>ArchiveDeleted</code> duplicate — all M2/M4.</p>"
+      },
+      {
+        "LineNum": 283,
+        "Text": "<p><strong>Sources:</strong> <code>.omo/plans/error-taxonomy.md</code> (7 codes + Fix Spec), <code>.omo/plans/dead-code-catalog.md</code> (unconsumed #1-4, logical-error #1-5), <code>.omo/plans/youtube-seams.md</code> (N-03/N-05).</p>"
+      },
+      {
+        "LineNum": 289,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 2:</strong> Confirm <code>YouTubeSortService:343 IsQuotaOrRateLimit</code> is behavioural guard distinct from ErrorOr routing — stays.</li>"
+      },
+      {
+        "LineNum": 296,
+        "Text": "<pre class=\"syntax-highlighting\"><code><span class=\"text plain\">public static class Errors.YouTube { public static Error PlaylistNotFound(string id) =&gt; Error.NotFound(&quot;YT.PlaylistNotFound&quot;, ...); }"
+      },
+      {
+        "LineNum": 301,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 2:</strong> Scan <code>AGENTS.md</code> hierarchy + <code>youtube-architecture.md</code> + <code>youtube-quota-logging.md</code> for hidden consumer.</li>"
+      },
+      {
+        "LineNum": 306,
+        "Text": "<h3>Task 12 — Wire <code>YouTubePlaylistService</code> typed mapper</h3>"
+      },
+      {
+        "LineNum": 307,
+        "Text": "<p><strong>Files:</strong> <code>src/Services/Google/YouTube/YouTubePlaylistService.cs</code></p>"
+      },
+      {
+        "LineNum": 311,
+        "Text": "    HttpStatusCode.TooManyRequests =&gt; Errors.YouTube.RateLimitExceeded,"
+      },
+      {
+        "LineNum": 312,
+        "Text": "    HttpStatusCode.NotFound        =&gt; Errors.YouTube.PlaylistNotFound(contextId), // fallback to ApiError if T11 deleted"
+      },
+      {
+        "LineNum": 313,
+        "Text": "    HttpStatusCode.Forbidden when ex.Message.Contains(&quot;quota&quot;, StringComparison.OrdinalIgnoreCase) =&gt; Errors.YouTube.QuotaExceeded(ex.Message),"
+      },
+      {
+        "LineNum": 314,
+        "Text": "    _ =&gt; Errors.YouTube.ApiError(ex.Message)"
+      },
+      {
+        "LineNum": 322,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 5:</strong> Commit <code>fix(youtube): typed GoogleApiException mapper</code>.</li>"
+      },
+      {
+        "LineNum": 324,
+        "Text": "<h3>Task 13 — Extend <code>YouTubeSyncProcessor:79</code> for <code>YT.QuotaExceeded</code></h3>"
+      },
+      {
+        "LineNum": 325,
+        "Text": "<p><strong>Files:</strong> <code>src/Services/Google/YouTube/YouTubeSyncProcessor.cs</code></p>"
+      },
+      {
+        "LineNum": 331,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 2:</strong> Optional harness: feed <code>Errors.YouTube.QuotaExceeded(&quot;quota&quot;)</code> through mock error path → assert <code>Break</code>.</li>"
+      },
+      {
+        "LineNum": 333,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 4:</strong> Commit <code>fix(youtube): handle YT.QuotaExceeded in sync processor</code>.</li>"
+      },
+      {
+        "LineNum": 358,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> Note <code>IsQuotaOrRateLimit</code> stays as guard; <code>youtube-architecture.md</code> quota note unchanged.</li>"
+      },
+      {
+        "LineNum": 366,
+        "Text": "<p><strong>Modified:</strong> <code>DsdConvertService.cs</code> (464→~340), <code>ProcessRunner.cs</code> (378→~240), <code>SaraconService.cs</code> (357 adapt), <code>TextAnalyticsService.cs</code> (255→~160), <code>Telemetry.cs</code> (Seq probe + LogPaths cut, 5 wrappers→1), <code>LogPaths.cs</code> DELETE, <code>PathValidator.cs</code> excise <code>ValidateOutputDirectory</code>, <code>AudioSetup.cs</code> keep <code>AddSingleton&lt;PathValidator&gt;</code>, <code>YouTubeDuplicateMerger.cs</code> reuse <code>YouTubeFetchState.JsonOptions</code>, <code>Directory.Packages.props</code>, 6 csproj SSH.NET prune.</p>"
+      },
+      {
+        "LineNum": 367,
+        "Text": "<p><strong>Deleted:</strong> <code>LogPaths.cs</code>, <code>Serilog.Sinks.Console</code> PackageVersion, <code>YouTubeDuplicateMerger.JsonOptions</code>, 6 SSH.NET <code>PackageReference</code>.</p>"
+      },
+      {
+        "LineNum": 390,
+        "Text": "<h3>Task 19 — Reuse <code>YouTubeFetchState.JsonOptions</code> in <code>YouTubeDuplicateMerger</code></h3>"
+      },
+      {
+        "LineNum": 392,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 1:</strong> Verify <code>HmsTimeSpanConverter</code> only in <code>YouTubeFetchState</code> + <code>YouTubeDuplicateMerger</code> orphan.</li>"
+      },
+      {
+        "LineNum": 395,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 4:</strong> Commit <code>refactor(youtube): reuse YouTubeFetchState.JsonOptions</code>.</li>"
+      },
+      {
+        "LineNum": 434,
+        "Text": "<p><strong>Sources:</strong> <code>.omo/plans/overengineering-verdict.md</code> SoC-MOVE + Telemetry verdict, <code>.omo/plans/youtube-architecture.md</code> Bucket D.</p>"
+      },
+      {
+        "LineNum": 438,
+        "Text": "<p><strong>Modified:</strong> <code>Telemetry.cs</code> (keep 10 sinks, drop TCP probe, LevelSwitch→file sink), <code>YouTubeSyncProcessor.cs</code> (delegate), <code>YouTubePlaylistOrchestrator.cs</code> (delegate), <code>GoogleSetup.cs</code> (register), <code>CLI/Dashboard/DashboardGenerateCommand.cs</code> (thin), 2 csproj SSH moves.</p>"
+      },
+      {
+        "LineNum": 463,
+        "Text": "<h3>Task 28 — Wire YouTube title path via <code>SyncProcessor</code></h3>"
+      },
+      {
+        "LineNum": 466,
+        "Text": "// in YouTubeSyncProcessor, then:"
+      },
+      {
+        "LineNum": 467,
+        "Text": "YouTubePlaylistOrchestrator.ProcessTitlePipelineAsync → await syncProcessor.ProcessSingleViaProcessorAsync(snap, noTranslate, ct)"
+      },
+      {
+        "LineNum": 470,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 1:</strong> Expose <code>ProcessSingleViaProcessorAsync</code> in <code>YouTubeSyncProcessor</code> (reuse <code>ProcessSinglePlaylistAsync</code> logic).</li>"
+      },
+      {
+        "LineNum": 471,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <strong>Step 2:</strong> Delegate <code>YouTubePlaylistOrchestrator.ProcessTitlePipelineAsync</code> to it; keep ETag + <code>FindPlaylistByTitleAsync</code>.</li>"
+      },
+      {
+        "LineNum": 477,
+        "Text": "<li><input type=\"checkbox\" disabled=\"\" /> <code>dotnet build</code> clean each task; <code>dashboard generate</code> artifacts; <code>sync youtube</code> title path <code>FindPlaylistByTitleAsync</code> still via ETag; Oci deploy <code>Renci.SshNet</code> load still via Google csproj.</li>"
+      },
+      {
+        "LineNum": 522,
+        "Text": "<li><strong>Verify:</strong> <code>dotnet build</code> after each module; final <code>state/youtube/processed</code> 145 intact; <code>state/logs/youtube.jsonl</code> + <code>audio.jsonl</code> active; <code>dashboard.html</code> generated.</li>"
+      }
+    ]
+  },
+  {
+    "File": "2026-08-19-erroror-railway-and-pristine-hardening.md",
+    "Matches": [
+      {
+        "LineNum": 278,
+        "Text": "### Task 8: OciDashboardDeployer.DeployAsync → Task<ErrorOr<Success>> + fix SyncYoutubeCommand SoC"
+      },
+      {
+        "LineNum": 283,
+        "Text": "- Modify: `src/CLI/Sync/YouTube/SyncYoutubeCommand.cs` — delete `RegenerateDashboardAsync` private method, route through `_orchestrator.GenerateAndDeployAsync`"
+      },
+      {
+        "LineNum": 285,
+        "Text": "**Context:** The verified audit confirmed that `SyncYoutubeCommand.RegenerateDashboardAsync` manually reimplements what `DashboardOrchestrator.GenerateAndDeployAsync` already does, bypassing the orchestrator entirely. This task fixes both issues simultaneously."
+      },
+      {
+        "LineNum": 301,
+        "Text": "**Fix SyncYoutubeCommand — remove `RegenerateDashboardAsync`, use orchestrator:**"
+      },
+      {
+        "LineNum": 310,
+        "Text": "- [ ] **Step 2:** Delete `RegenerateDashboardAsync` from `SyncYoutubeCommand`. Add `_orchestrator` field injection. Route call through `GenerateAndDeployAsync`. Run `dotnet build --nologo -v q`. Expect 0 errors."
+      }
+    ]
+  },
+  {
+    "File": "audio-cli-spec.md",
+    "Matches": [
+      {
+        "LineNum": 21,
+        "Text": "DC-07: SyncResult.UpdatedSnapshots & 3 others @ Services/Google/YouTube/ | unconsumed | Computed, logged, discarded."
+      },
+      {
+        "LineNum": 37,
+        "Text": "FR-02: YouTubeSortService LIS | Services/Google/YouTube | Quota-optimized algo minimizes writes. Not overengineering."
+      },
+      {
+        "LineNum": 38,
+        "Text": "FR-03: YouTubeDuplicateMerger + Policy | Services/Google/YouTube | Action separated from rules. Destructive mutations justify split."
+      },
+      {
+        "LineNum": 73,
+        "Text": "- G-04/05: Inline YouTubeChangeDetector and ProcessResult wrapper"
+      },
+      {
+        "LineNum": 82,
+        "Text": "- M-01: Move DashboardHtmlGenerator + DataBuilder to Services/Google/YouTube/DashboardOrchestrator.cs"
+      }
+    ]
+  },
+  {
+    "File": "dead-code-catalog.md",
+    "Matches": [
+      {
+        "LineNum": 3,
+        "Text": "<strong>Verified:</strong> 2026-08-18 | Live: <code>src/Core/Errors.cs</code>, <code>src/Core/Text.cs</code>, <code>src/Services/Google/YouTube/*</code>, <code>src/Services/Audio/*</code>, <code>src/CLI/**</code>, <code>Directory.Packages.props</code></p>"
+      },
+      {
+        "LineNum": 48,
+        "Text": "<td><code>YouTubeSyncProcessor.cs:326</code></td>"
+      },
+      {
+        "LineNum": 54,
+        "Text": "<td><code>YouTubePlaylistOrchestrator.cs:396</code></td>"
+      },
+      {
+        "LineNum": 60,
+        "Text": "<td><code>YouTubeDuplicateMerger.cs:14</code></td>"
+      },
+      {
+        "LineNum": 107,
+        "Text": "<td><code>YouTubeFetchState.LastChecked/LastUpdated</code> top-level</td>"
+      },
+      {
+        "LineNum": 108,
+        "Text": "<td><code>YouTubeFetchState:13</code></td>"
+      },
+      {
+        "LineNum": 120,
+        "Text": "<td><code>YouTubeFetchState</code> vs <code>YouTubeSyncProcessor</code></td>"
+      },
+      {
+        "LineNum": 151,
+        "Text": "<td><code>YouTubeSyncProcessor.cs:335</code></td>"
+      },
+      {
+        "LineNum": 157,
+        "Text": "<td><code>YouTubeDuplicateMerger.cs</code></td>"
+      },
+      {
+        "LineNum": 158,
+        "Text": "<td>0 <code>TimeSpan</code> fields in manifest — reuse <code>YouTubeFetchState.JsonOptions</code></td>"
+      },
+      {
+        "LineNum": 208,
+        "Text": "<li><code>state/logs/*.jsonl</code> — 8 of 10 currently 0 B in dev; <code>audio.jsonl</code> + <code>youtube.jsonl</code> active. Empty ≠ dead architecture, but confirms missing <code>ForService</code> callers or level drop.</li>"
+      }
+    ]
+  },
+  {
+    "File": "error-taxonomy.md",
+    "Matches": [
+      {
+        "LineNum": 3,
+        "Text": "<strong>Verified:</strong> 2026-08-18 | Live: <code>src/Core/Errors.cs</code> (18 factories) + <code>src/Services/Google/YouTube/YouTubeSortService.cs</code> + <code>src/Services/Google/YouTube/YouTubeSyncProcessor.cs</code></p>"
+      },
+      {
+        "LineNum": 59,
+        "Text": "<p>Live quota handling exists (<code>IsQuotaOrRateLimit</code> in <code>YouTubeSortService</code>, <code>maxWritesPerRun=150</code> budget in <code>YouTubeSyncProcessor</code>, <code>remainingBudget</code> param) — this table tracks <em>typed ErrorOr codes</em>, not exception-guard behavior. <code>YT.RateLimit</code> vs generic <code>ApiError</code> is a code-routing bug, not a missing guard.</p>"
+      },
+      {
+        "LineNum": 62,
+        "Text": "<li><code>YouTubePlaylistService.Delete/Insert/Fetch</code>: catch <code>GoogleApiException</code> → typed mapper (429→<code>RateLimit</code>, 403+quota→<code>QuotaExceeded</code>, 404→<code>PlaylistNotFound</code>, else→<code>ApiError</code>).</li>"
+      }
+    ]
+  },
+  {
+    "File": "erroror_migration_assessment.md",
+    "Matches": [
+      {
+        "LineNum": 66,
+        "Text": "| **Google APIs** | `GoogleApiException` | Caught in YouTube services, mapped to ErrorOr | ✅ Already correct pattern |"
+      },
+      {
+        "LineNum": 99,
+        "Text": "| `YouTubeSyncProcessor.SortPlaylistsAsync` | `Task<SortStatistics>` | `Task<ErrorOr<SortStatistics>>` |"
+      }
+    ]
+  },
+  {
+    "File": "god-audit-spec.md",
+    "Matches": [
+      {
+        "LineNum": 6,
+        "Text": "P-02: YouTubeDuplicateMerger.cs (446) | keep | Destructive workflow density. Cohesive."
+      },
+      {
+        "LineNum": 8,
+        "Text": "P-04: YouTubeSortService.cs (421) | keep | Algorithmic density (LIS plan). Not god."
+      },
+      {
+        "LineNum": 9,
+        "Text": "P-05: YouTubePlaylistOrchestrator.cs (418) | split | True god. Overloaded coordinator. Overlaps SyncProcessor."
+      },
+      {
+        "LineNum": 10,
+        "Text": "P-06: YouTubeSyncProcessor.cs (383) | split | Weak god. Completes layer god with Orchestrator."
+      },
+      {
+        "LineNum": 14,
+        "Text": "P-10: YouTubePlaylistProcessor.cs (351) | keep | Cohesive per-playlist."
+      },
+      {
+        "LineNum": 15,
+        "Text": "P-11: YouTubePlaylistService.cs (339) | keep | Single API facade."
+      },
+      {
+        "LineNum": 19,
+        "Text": "P-15: YouTubeTranslationService.cs (267) | keep | Coherent."
+      },
+      {
+        "LineNum": 26,
+        "Text": "P-22: YouTubePlaylistOrchestrator ExecuteAsync x4 | split | Dispatch god. Collapse 4 points."
+      },
+      {
+        "LineNum": 27,
+        "Text": "P-23: YouTubeSyncProcessor ProcessPlaylistsAsync | keep | Single batch loop."
+      },
+      {
+        "LineNum": 28,
+        "Text": "P-24: YouTubeTranslationService ExecuteTranslationBatchesAsync | keep | Chunking justified."
+      },
+      {
+        "LineNum": 45,
+        "Text": "DC-04: YouTubeFetchState.ArchiveDeleted @ Services/Google/YouTube/YouTubeFetchState.cs:94 | unconsumed | Dupe of SyncProcessor archival."
+      },
+      {
+        "LineNum": 46,
+        "Text": "DC-05: SyncResult.UpdatedSnapshots fields @ Services/Google/YouTubeSyncProcessor.cs:323 | unused | Never read after log."
+      },
+      {
+        "LineNum": 56,
+        "Text": "DC-15: YouTubeChangeDetector @ Services/Google/YouTube/YouTubeChangeDetector.cs:12 | unconsumed | 1 caller pure function."
+      },
+      {
+        "LineNum": 57,
+        "Text": "DC-16: CombineNewAndChanged @ Services/Google/YouTube/YouTubePlaylistOrchestrator.cs:375 | unconsumed | 1 expr, 1 caller."
+      },
+      {
+        "LineNum": 58,
+        "Text": "DC-17: ProcessResult.ShouldBreak @ Services/Google/YouTube/YouTubeSyncProcessor.cs:45 | unconsumed | Always break on error."
+      },
+      {
+        "LineNum": 70,
+        "Text": "DC-29: YouTubeDuplicateMergePolicy Contains @ Services/Google/YouTube/YouTubeDuplicateMergePolicy.cs:39 | unused | Linear scan in hot loop."
+      },
+      {
+        "LineNum": 86,
+        "Text": "FR-02: YouTubeDuplicateMerger | Services/Google/YouTube/YouTubeDuplicateMerger.cs | Not dead. Destructive API sync logic."
+      },
+      {
+        "LineNum": 90,
+        "Text": "FR-06: LIS Sorting | Services/Google/YouTube/YouTubeSortService.cs | Not dead. Quota optimization algorithm."
+      },
+      {
+        "LineNum": 107,
+        "Text": "| Gray — keep until 2nd consumer  | Lean keep     | YouTubeChangeDetector, 4 command modules, FlacChecker statics                                                                          | YAGNI says inline; cost of file < benefit of isolated tests               |"
+      }
+    ]
+  },
+  {
+    "File": "mega_plan.md",
+    "Matches": [
+      {
+        "LineNum": 278,
+        "Text": "### Task 8: OciDashboardDeployer.DeployAsync → Task<ErrorOr<Success>> + fix SyncYoutubeCommand SoC"
+      },
+      {
+        "LineNum": 283,
+        "Text": "- Modify: `src/CLI/Sync/YouTube/SyncYoutubeCommand.cs` — delete `RegenerateDashboardAsync` private method, route through `_orchestrator.GenerateAndDeployAsync`"
+      },
+      {
+        "LineNum": 285,
+        "Text": "**Context:** The verified audit confirmed that `SyncYoutubeCommand.RegenerateDashboardAsync` manually reimplements what `DashboardOrchestrator.GenerateAndDeployAsync` already does, bypassing the orchestrator entirely. This task fixes both issues simultaneously."
+      },
+      {
+        "LineNum": 301,
+        "Text": "**Fix SyncYoutubeCommand — remove `RegenerateDashboardAsync`, use orchestrator:**"
+      },
+      {
+        "LineNum": 310,
+        "Text": "- [ ] **Step 2:** Delete `RegenerateDashboardAsync` from `SyncYoutubeCommand`. Add `_orchestrator` field injection. Route call through `GenerateAndDeployAsync`. Run `dotnet build --nologo -v q`. Expect 0 errors."
+      }
+    ]
+  },
+  {
+    "File": "overengineering-verdict.md",
+    "Matches": [
+      {
+        "LineNum": 4,
+        "Text": "<strong>Verified:</strong> 2026-08-18 | Live: <code>src/Services/Google/YouTube</code> (12 files), <code>src/Services/Audio</code> (18 files), <code>src/Core</code> (6 files), <code>src/CLI</code> (~22 files)</p>"
+      },
+      {
+        "LineNum": 42,
+        "Text": "<td><code>YouTubeChangeDetector</code> (62 LOC 1 caller), 4 command modules, <code>FlacChecker</code> statics</td>"
+      },
+      {
+        "LineNum": 104,
+        "Text": "<td><code>YouTubeDuplicateMerger.cs</code></td>"
+      },
+      {
+        "LineNum": 114,
+        "Text": "<td><code>YouTubeSortService.cs</code></td>"
+      },
+      {
+        "LineNum": 119,
+        "Text": "<td><code>YouTubePlaylistOrchestrator.cs</code></td>"
+      },
+      {
+        "LineNum": 124,
+        "Text": "<td><code>YouTubeSyncProcessor.cs</code></td>"
+      }
+    ]
+  },
+  {
+    "File": "ponytail_audit_verified.md",
+    "Matches": [
+      {
+        "LineNum": 49,
+        "Text": "| 3 | **OCI deployer in wrong namespace (`Services.Google`)** | ❌ **WRONG** | The dashboard IS Google/YouTube data. OCI is just the hosting target. Keeping it in `Services.Google.Dashboard` makes architectural sense when you consider the data lineage. |"
+      },
+      {
+        "LineNum": 51,
+        "Text": "| 5 | **`SyncYoutubeCommand` contains dashboard regeneration — SoC violation** | ✅ **VALID** | The command manually invokes `DashboardService`, builds HTML, does file I/O, and calls `OciDashboardDeployer` — completely bypassing `DashboardOrchestrator.GenerateAndDeployAsync` which already does the exact same thing. Confirmed architectural bug (duplication). |"
+      },
+      {
+        "LineNum": 93,
+        "Text": "| 6 | **SyncYoutubeCommand if/else tree for orchestrator methods** | ✅ **VALID** | (From original seal team, not contested by verifiers) |"
+      },
+      {
+        "LineNum": 97,
+        "Text": "## 7. Google Services (YouTube/Dashboard)"
+      },
+      {
+        "LineNum": 101,
+        "Text": "| 1 | **450-line God method in YouTubeDuplicateMerger** | ✅ **VALID** | (From original seal team, not contested by verifiers) |"
+      },
+      {
+        "LineNum": 102,
+        "Text": "| 2 | **Single-use record structs in YouTubePlaylistOrchestrator** | ✅ **VALID** | (From original seal team, not contested by verifiers) |"
+      }
+    ]
+  },
+  {
+    "File": "Pristine Script.md",
+    "Matches": [
+      {
+        "LineNum": 1668,
+        "Text": "\u001b[7m\u001b[0m      \"youtube-transcript\": {\u001b[0m"
+      },
+      {
+        "LineNum": 1673,
+        "Text": ">         \"@sinco-lab/\u001b[7mmcp\u001b[0m-youtube-transcript\"\u001b[0m"
+      },
+      {
+        "LineNum": 5535,
+        "Text": "6\t\tYouTube,"
+      },
+      {
+        "LineNum": 5555,
+        "Text": "26\t\t\t\t\tServiceName.YouTube => \"youtube\","
+      },
+      {
+        "LineNum": 5598,
+        "Text": "25\t\tpublic static class YouTube"
+      },
+      {
+        "LineNum": 5601,
+        "Text": "28\t\t\t\tError.Failure(\"YT.RateLimit\", \"YouTube API rate limit exceeded. Retrying...\");"
+      },
+      {
+        "LineNum": 5960,
+        "Text": "youtube.jsonl                          1018635"
+      },
+      {
+        "LineNum": 6698,
+        "Text": "1. CLI command patterns — how commands output success/failure. Read a couple of CLI commands: SyncYoutubeCommand, SacdConvertCommand (it uses RecoverableErrors), SyncLastFmCommand, DsdConvertCommand."
+      },
+      {
+        "LineNum": 6718,
+        "Text": "Also want to check the \"RecoverableErrors\" pattern — PipelineOrchestrator.cs 100-135. And YouTubeSyncProcessor catch at 203."
+      },
+      {
+        "LineNum": 6742,
+        "Text": "2. **ForService usage** — 29 matches, ~21 files. Pattern: `using IDisposable _ = Telemetry.ForService(ServiceName.X);` at method start. YouTube services use multiple scopes (YouTubePlaylistService has 7, nested scopes push same property)."
+      },
+      {
+        "LineNum": 6743,
+        "Text": "   - CLI commands also scope (SyncYoutubeCommand:31, SyncLastFmCommand:24, DsdConvertCommand:44)"
+      },
+      {
+        "LineNum": 6747,
+        "Text": "   - Naming convention: `Domain.Subject + verb/state` template prefix (\"Audio.MetadataReadFailed\", \"YouTube.DurationParseFailed\", \"Pipeline.StaleDffDeleted\", \"SacdExtract.ProbeStart\", \"YouTube.SortPlaylist ETag\")"
+      },
+      {
+        "LineNum": 6749,
+        "Text": "   - Info: phase/milestone messages (\"SACD run: ISO root={IsoRoot}\", \"YouTube sync starting\", \"Deleted playlist {Id}\")"
+      },
+      {
+        "LineNum": 6753,
+        "Text": "4. **ErrorOr factories** — Errors.cs taxonomy: static class Errors.{Domain}, methods return Error.Failure/Validation/NotFound/Unauthorized with \"Domain.Code\" convention. Examples: Errors.Audio.ConversionFailed, Errors.YouTube.ApiError, Errors.LastFm.MalformedResponse, Errors.Pristine.*."
+      },
+      {
+        "LineNum": 6770,
+        "Text": "   - SyncYoutubeCommand: Telemetry.Warn for skipped dashboard, no console"
+      },
+      {
+        "LineNum": 6801,
+        "Text": "- CLI commands: SyncYoutubeCommand:31, SyncLastFmCommand:24, DsdConvertCommand:44"
+      },
+      {
+        "LineNum": 6802,
+        "Text": "- Services: YouTubePlaylistService (7 scopes, per-method), TranslateService (2), YouTubePlaylistOrchestrator (2), others 1 each"
+      },
+      {
+        "LineNum": 6847,
+        "Text": "- C:\\Users\\Lance\\Dev\\Toolbox\\src\\CLI\\Sync\\YouTube\\SyncYoutubeCommand.cs - ForService scope in CLI, catch-filtered API errors, Warn on skipped dashboard"
+      },
+      {
+        "LineNum": 6855,
+        "Text": "- C:\\Users\\Lance\\Dev\\Toolbox\\src\\Services\\Google\\YouTube\\YouTubePlaylistService.cs - 7 nested ForService scopes (per-method)"
+      },
+      {
+        "LineNum": 6869,
+        "Text": "| Telemetry.cs:71-72 | `ForService(ServiceName)` → `LogContext.PushProperty(\"Service\", ...)` | `using IDisposable _ = Telemetry.ForService(ServiceName.YouTube);` |"
+      },
+      {
+        "LineNum": 6880,
+        "Text": "| CLI\\Sync\\YouTube\\SyncYoutubeCommand.cs:31 | CLI command scope |"
+      },
+      {
+        "LineNum": 6883,
+        "Text": "| Services\\Google\\YouTube\\YouTubePlaylistService.cs:69,100,142,177,225,302,342 | 7 per-method scopes (nested pushes same property — idempotent) |"
+      },
+      {
+        "LineNum": 6884,
+        "Text": "| Services\\Google\\YouTube\\YouTubePlaylistOrchestrator.cs:32,289 | 2 scopes |"
+      },
+      {
+        "LineNum": 6888,
+        "Text": "| Services\\LastFm\\LastFmSyncOrchestrator.cs:20, LastFmService.cs:31, YouTubeVideoService.cs:32, YouTubeSortService.cs:21, YouTubeDuplicateMerger.cs:35, DashboardService.cs:23, VisionService.cs:33, OpenAiService.cs:54, DocIntelService.cs:23, TextAnalyticsService.cs:201 | 1 scope each |"
+      },
+      {
+        "LineNum": 6898,
+        "Text": "| Error | Services\\Google\\YouTube\\YouTubeSyncProcessor.cs:99 | `Telemetry.Error(\"Azure translation key invalid or forbidden ({Code}).\", error.Code)` |"
+      },
+      {
+        "LineNum": 6902,
+        "Text": "| Warn | CLI\\Sync\\YouTube\\SyncYoutubeCommand.cs:76 | `Telemetry.Warn(\"Dashboard skipped: {Error}\", result.FirstError.Description)` — non-fatal skip |"
+      },
+      {
+        "LineNum": 6904,
+        "Text": "| Info | Services\\Google\\YouTube\\YouTubePlaylistOrchestrator.cs:35 | `Telemetry.Info(\"YouTube sync starting\")` |"
+      },
+      {
+        "LineNum": 6905,
+        "Text": "| Info | Services\\Google\\YouTube\\YouTubePlaylistService.cs:311 | `Telemetry.Info(\"Deleted playlist {Id}\", playlistId)` |"
+      },
+      {
+        "LineNum": 6907,
+        "Text": "| Debug | Services\\Google\\YouTube\\YouTubeVideoService.cs:68 | `Telemetry.Debug(\"YouTube.GetVideoDurations fetched {Count} durations\", result.Count)` |"
+      },
+      {
+        "LineNum": 6910,
+        "Text": "| Verbose | Services\\Google\\YouTube\\YouTubeSortService.cs:300 | `Telemetry.Verbose(\"API call completed in {ElapsedMs}ms\", sw.ElapsedMilliseconds)` |"
+      },
+      {
+        "LineNum": 6914,
+        "Text": "- `static class Errors.{Domain}` per domain: General, Validation, YouTube, Azure, LastFm, DocIntel, Speech, Vision, OpenAi, Translate, TextAnalytics, Audio, Pristine."
+      },
+      {
+        "LineNum": 6916,
+        "Text": "- Catch → factory: `return Errors.X.ApiError(ex.Message);` (TranslateService.cs:28, SpeechService.cs:45, YouTubeVideoService.cs:74, LastFmService.cs:159, DocIntelService.cs:57, OpenAiService.cs:77)."
+      },
+      {
+        "LineNum": 6918,
+        "Text": "- HTTP status mapping: YouTubePlaylistService.cs:271-275 `HttpStatusCode.TooManyRequests => Errors.YouTube.RateLimitExceeded`, TranslateService.cs:18 `rfe.Status == 429 => Errors.Azure.RateLimitExceeded`."
+      },
+      {
+        "LineNum": 6936,
+        "Text": "| CLI\\Sync\\YouTube\\SyncYoutubeCommand.cs:61-65 | `catch (Exception ex) when (ex is HttpRequestException or TimeoutException)` → `Telemetry.Error` + return 1 | filtered catch |"
+      },
+      {
+        "LineNum": 6949,
+        "Text": "| CLI\\Sync\\YouTube\\SyncYoutubeCommand.cs:74-78 | `result.IsError` → `Telemetry.Warn` (no console) — dashboard regen is side-effect, non-fatal |"
+      }
+    ]
+  },
+  {
+    "File": "telemetry-spec.md",
+    "Matches": [
+      {
+        "LineNum": 36,
+        "Text": "CR-07: 8/10 log files 0B | state/logs directory | MATCH (Verified audio 3.5KB, youtube 1MB, rest empty)"
+      }
+    ]
+  },
+  {
+    "File": "toolbox-flatline (2).md",
+    "Matches": [
+      {
+        "LineNum": 23,
+        "Text": "<li>Scratch deleted: <code>SACD errors.md</code>, <code>youtube-sync-log.md</code>, <code>.athena-state.json</code>.</li>"
+      },
+      {
+        "LineNum": 181,
+        "Text": "What to do / Must NOT do: FIRST create the evidence dir: <code>New-Item -ItemType Directory -Force .omo/evidence</code>. In <code>C:\\Users\\Lance\\Dev\\Toolbox</code> capture: (a) full <code>git status --porcelain</code> (all entries, no truncation) to evidence, plus a tracked/untracked classification note (Metis-verified reality: <code>.omo/goal/**</code> + <code>.omo/ulw-loop/**</code> are TRACKED deletions; <code>.omo/Plan.md</code>, <code>.omo/plans/**</code> are UNTRACKED; <code>.omo/run-continuation/**</code> is gitignored; <code>state/youtube/manifest.json</code> is TRACKED+modified; <code>.superpowers/audit/sacd-probe-journal.md</code> is TRACKED+modified; <code>.superpowers/sdd/**</code> is UNTRACKED; <code>SACD.red.md</code> is a TRACKED deletion; <code>SACD errors.md</code>/<code>youtube-sync-log.md</code>/<code>.athena-state.json</code> are UNTRACKED) - re-derive this classification from the actual status output, do not trust this list blindly; (b) <code>git log --oneline origin/master..master</code> (the exact 15 unpushed commits, oldest-&gt;youngest via <code>--reverse</code>) to evidence; (c) SHA-256 of <code>C:\\Users\\Lance\\Desktop\\Claude\\SaraconService.cs</code> and <code>DffMetadataStripper.cs</code> (Get-FileHash); (d) compare <code>tools/SacdProbe/*</code> (5 files) against repro version: <code>git diff sacd-deathloop-repro -- tools/SacdProbe</code> from the main worktree - record identical/divergent per file; (e) confirm v2 spec exists in nested repro worktree at <code>Toolbox-sacd-repro/docs/superpowers/specs/2026-08-09-sacd-death-loop-v2-design.md</code>; (f) confirm <code>.superpowers/audit/sacd-probe-journal.md</code> exists in main tree; (g) record <code>git stash list</code>. MUST NOT modify anything else."
+      },
+      {
+        "LineNum": 201,
+        "Text": "References: <code>C:\\Users\\Lance\\Desktop\\Claude\\SaraconService.cs</code> (header comment documents the merge rationale), <code>C:\\Users\\Lance\\Desktop\\Claude\\DffMetadataStripper.cs</code>; answered battery B1/B4/B9/B10; <code>src/Services/Audio/DsdConvertService.cs</code> call sites (worktree dump in <code>C:\\Users\\Lance\\Desktop\\Claude\\worktree-youtube-duplicate-merge.md</code> lines 283-564); <code>src/App/Program.cs</code> (blanket --verbose/--debug strip); repo AGENTS.md rules 1,9"
+      },
+      {
+        "LineNum": 234,
+        "Text": "<p>7. State commit - routine youtube churn"
+      },
+      {
+        "LineNum": 235,
+        "Text": "What to do / Must NOT do: stage <code>state/youtube/processed/*</code> + <code>state/youtube/raw/*</code> + <code>state/youtube/manifest.json</code> (tracked+modified - Metis finding: it belongs to routine churn and MUST be in one of the three state commits; all modified/new/deleted entries under those paths only); commit <code>chore(state): youtube sync state update (processed+raw)</code>. MUST NOT include <code>deleted/</code> or <code>merge-manifests/</code> (todo 8)."
+      },
+      {
+        "LineNum": 238,
+        "Text": "Acceptance criteria (agent-executable): <code>git status --porcelain -- state/youtube/processed state/youtube/raw</code> empty after commit; commit subject matches."
+      },
+      {
+        "LineNum": 240,
+        "Text": "Commit: Y | chore(state): youtube sync state update (processed+raw)</p>"
+      },
+      {
+        "LineNum": 244,
+        "Text": "What to do / Must NOT do: (a) <code>git diff -- state/youtube/deleted state/youtube/merge-manifests</code> AND <code>git status --porcelain -- state/youtube/deleted state/youtube/merge-manifests</code> - write full output to evidence and inspect every entry (these are one-way consolidation decisions - battery A6 warning: renamed records like <code>Gunter Wand</code> vs <code>Günter Wand</code> indicate hand edits); (b) stage both dirs; commit <code>chore(state): youtube deletions + merge manifests (reviewed)</code>. MUST NOT skip the diff capture; if diff shows JSON that fails to parse (<code>jaq</code> each file), HALT and report the corrupt file instead of committing."
+      },
+      {
+        "LineNum": 249,
+        "Text": "Commit: Y | chore(state): youtube deletions + merge manifests (reviewed)</p>"
+      },
+      {
+        "LineNum": 253,
+        "Text": "What to do / Must NOT do: stage <code>state/dashboard/*</code> + <code>state/lastfm/*</code>; commit <code>chore(state): dashboard + lastfm state update</code>. MUST NOT include youtube paths."
+      },
+      {
+        "LineNum": 264,
+        "Text": "References: answered battery B5; journal run #4 (prompt.md §2.1-2.2); docs inventory: docs/superpowers/plans/{2026-08-08-sacd-death-loop-repro.md, 2026-08-09-sacd-saracon-death-loop-fix.md, 2026-08-04-youtube-duplicate-playlist-merge.md}, docs/plans/2026-08-10-process-runner-streaming.md, docs/athena/specs/2026-08-10-process-runner-streaming-design.md"
+      },
+      {
+        "LineNum": 271,
+        "Text": "What to do / Must NOT do: (a) delete root scratch: <code>SACD errors.md</code>, <code>youtube-sync-log.md</code>, <code>.athena-state.json</code> (all untracked - deletion produces NO git entry); (b) delete <code>.superpowers/</code> entirely (oci SDD archived in todo 2, journal rescued in todo 10, v2 spec rescued in todo 2 - verify all three receipts before removal; only the journal is TRACKED, its deletion stages; sdd/** is untracked - vanishes silently by design); (c) delete everything in <code>.omo/</code> EXCEPT <code>plans/toolbox-flatline.md</code>, <code>drafts/toolbox-flatline.md</code>, and <code>evidence/**</code> (this deletes: <code>Plan.md</code>, <code>plans/GIT-CLEANUP-DECISION-BATTERY.md</code>, <code>plans/SACD-FIX-FINAL-REPORT.md</code>, <code>plans/oracle-sacd-verification.md</code>, <code>plans/aws-translate/**</code>, <code>plans/reader/**</code> - all UNTRACKED, vanish silently - and the TRACKED deletions <code>.omo/goal/**</code> + <code>.omo/ulw-loop/**</code> which MUST be staged; <code>run-continuation/**</code> is gitignored, vanishes silently); (d) update <code>AGENTS.md</code> line <code>**Generated:** ... | **Branch:** master</code> -&gt; replace <code>master</code> with <code>main</code> on that line only;   (e) staging (Metis-corrected reality): <code>git add -A .omo .superpowers AGENTS.md .gitignore</code> (Metis R3 note: <code>.gitignore</code> included only if <code>git status</code> shows it modified — verify before staging; if clean, omit from pathspec) plus stage the tracked deletion <code>SACD.red.md</code> if present in status, plus CATCH-ALL: run <code>git status --porcelain</code> and stage ANY remaining tracked entry (line NOT starting with <code>??</code>) whose path is outside <code>src/</code> and <code>state/</code> (those closed in todos 4/6/7/8/9) into this same commit - list every such catch-all path in evidence; (f) commit <code>chore: flatline agent artifacts, delete scratch, docs hygiene</code>. MUST NOT delete <code>.omo/evidence/**</code>, the plan, or the draft; MUST NOT touch <code>C:\\Users\\Lance\\.omo</code> or <code>C:\\Users\\Lance\\Dev\\.omo</code>; evidence files stay UNTRACKED (never stage <code>.omo/evidence</code>)."
+      },
+      {
+        "LineNum": 273,
+        "Text": "References: user order (flatline ALL in .omo/.superpowers); answered battery B7/B8; todo 2 rescue receipts; <code>.omo</code> inventory (38 files), <code>.superpowers</code> inventory (~100 files incl. sdd/youtube-duplicate-playlist-merge reports = DROP per B7)"
+      },
+      {
+        "LineNum": 274,
+        "Text": "Acceptance criteria (agent-executable): <code>Test-Path .superpowers</code> false; <code>(Get-ChildItem .omo -Recurse -File | Where-Object FullName -NotMatch 'plans.toolbox-flatline|drafts.toolbox-flatline|evidence').Count</code> == 0; <code>Test-Path 'SACD errors.md'</code> false; <code>Test-Path youtube-sync-log.md</code> false; <code>Test-Path .athena-state.json</code> false; <code>Select-String 'Branch:\\*\\* main' AGENTS.md</code> matches."
+      },
+      {
+        "LineNum": 280,
+        "Text": "What to do / Must NOT do: (a) dirty pre-check FIRST (Metis): <code>git -C .worktrees/youtube-duplicate-playlist-merge status --porcelain</code> -&gt; record full output to evidence (expected: deletions/mods reflecting its OLD fully-merged state; valueless because branch has 0 unique commits), then <code>git worktree remove --force .worktrees/youtube-duplicate-playlist-merge</code>; (b) delete nested repro dir: <code>Remove-Item -Recurse -Force Toolbox-sacd-repro</code> ONLY after re-verifying todo 2 receipts (v2 spec + SacdProbe + archive all present) - its unique content is the repro branch history, preserved in <code>.git</code> until (d); the filesystem delete + <code>git worktree prune</code> in (c) is the sanctioned two-step for this already-stale admin record; (c) <code>git worktree prune</code> (clears oci-arr-repair ghost + stale Toolbox-sacd-repro admin record); (d) <code>git branch -d feat/youtube-duplicate-merge feature/process-runner-streaming oci-arr-exhaustive-repair</code> (all 0 unique commits - <code>-d</code> must succeed WITHOUT <code>-D</code>; if any refuses, HALT - that means unmerged work appeared); then <code>git branch -D sacd-deathloop-repro</code> (rescue complete, fixes committed in todo 4); (e) <code>git stash drop stash@{0}</code> (Metis-verified: stash holds only stale <code>.omo/goal</code>/<code>.omo/ulw-loop</code> modifications - files this plan deletes; obsolete by construction); (f) verify <code>git worktree list</code> shows exactly 1 line and <code>git branch</code> shows exactly <code>* master</code>. Scope = 3 non-main worktrees (2 live + 1 ghost) + 4 branches. MUST NOT use <code>-D</code> on the three merged branches; MUST NOT run before todo 11."
+      },
+      {
+        "LineNum": 294,
+        "Text": "(c) classify each of the 15 by CASE-INSENSITIVE subject regex (Metis-corrected: the real subjects include 'feat: add streaming and inactivity timeout to ProcessRunner', 'feat: bubble up onOutputLine in SaraconService', 'feat: stream saracon output to console and log file' which the old hyphenated lowercase regex missed) - AUDIO: <code>audio|saracon|sacd|dsd|processrunner|process-runner|stream|onoutputline|completion|logging</code>; YT: <code>google|youtube|playlist|sort|oauth</code>; DOCS: subject starts with <code>docs</code>; anything matching none, or matching both AUDIO and YT (e.g. fcbbb12 'fix(logging)... across all services'), classifies AUDIO;"
+      },
+      {
+        "LineNum": 297,
+        "Text": "then run pass 1 as <code>$env:GIT_SEQUENCE_EDITOR='&lt;abs path&gt;\\seq-editor.cmd'; git rebase -i origin/master</code> (git invokes <code>&lt;editor&gt; &lt;todo-file&gt;</code>; a <code>.cmd</code> path works on Windows), and pass 2 per run-head: <code>$env:GIT_SEQUENCE_EDITOR='&lt;abs&gt;\\seq-editor-pass2-&lt;run&gt;.cmd'; $env:GIT_EDITOR='&lt;abs&gt;\\msg-editor-&lt;run&gt;.cmd'; git rebase -i origin/master</code>; prepared messages (bottom-to-top run order): AUDIO run(s) -&gt; <code>feat(audio): Saracon pipeline hardening - streaming, timeouts, completion detection, service-wide logging</code>; DOCS run -&gt; <code>docs(audio): SACD death-loop repro plans/specs (UTF-8 hypothesis - superseded, see correction banner)</code>; YT run(s) -&gt; <code>feat(youtube): duplicate consolidation, non-Latin sort, quota batching, OAuth timeout</code>; single-commit runs KEEP their original message (no reword);"
+      },
+      {
+        "LineNum": 337,
+        "Text": "<li><code>chore(state): youtube sync state update (processed+raw)</code></li>"
+      },
+      {
+        "LineNum": 338,
+        "Text": "<li><code>chore(state): youtube deletions + merge manifests (reviewed)</code></li>"
+      }
+    ]
+  },
+  {
+    "File": "toolbox-flatline.md",
+    "Matches": [
+      {
+        "LineNum": 26,
+        "Text": "- Scratch deleted: `SACD errors.md`, `youtube-sync-log.md`, `.athena-state.json`."
+      },
+      {
+        "LineNum": 92,
+        "Text": "  What to do / Must NOT do: FIRST create the evidence dir: `New-Item -ItemType Directory -Force .omo/evidence`. In `C:\\Users\\Lance\\Dev\\Toolbox` capture: (a) full `git status --porcelain` (all entries, no truncation) to evidence, plus a tracked/untracked classification note (Metis-verified reality: `.omo/goal/**` + `.omo/ulw-loop/**` are TRACKED deletions; `.omo/Plan.md`, `.omo/plans/**` are UNTRACKED; `.omo/run-continuation/**` is gitignored; `state/youtube/manifest.json` is TRACKED+modified; `.superpowers/audit/sacd-probe-journal.md` is TRACKED+modified; `.superpowers/sdd/**` is UNTRACKED; `SACD.red.md` is a TRACKED deletion; `SACD errors.md`/`youtube-sync-log.md`/`.athena-state.json` are UNTRACKED) - re-derive this classification from the actual status output, do not trust this list blindly; (b) `git log --oneline origin/master..master` (the exact 15 unpushed commits, oldest->youngest via `--reverse`) to evidence; (c) SHA-256 of `C:\\Users\\Lance\\Desktop\\Claude\\SaraconService.cs` and `DffMetadataStripper.cs` (Get-FileHash); (d) compare `tools/SacdProbe/*` (5 files) against repro version: `git diff sacd-deathloop-repro -- tools/SacdProbe` from the main worktree - record identical/divergent per file; (e) confirm v2 spec exists in nested repro worktree at `Toolbox-sacd-repro/docs/superpowers/specs/2026-08-09-sacd-death-loop-v2-design.md`; (f) confirm `.superpowers/audit/sacd-probe-journal.md` exists in main tree; (g) record `git stash list`. MUST NOT modify anything else."
+      },
+      {
+        "LineNum": 110,
+        "Text": "  References: `C:\\Users\\Lance\\Desktop\\Claude\\SaraconService.cs` (header comment documents the merge rationale), `C:\\Users\\Lance\\Desktop\\Claude\\DffMetadataStripper.cs`; answered battery B1/B4/B9/B10; `src/Services/Audio/DsdConvertService.cs` call sites (worktree dump in `C:\\Users\\Lance\\Desktop\\Claude\\worktree-youtube-duplicate-merge.md` lines 283-564); `src/App/Program.cs` (blanket --verbose/--debug strip); repo AGENTS.md rules 1,9"
+      },
+      {
+        "LineNum": 139,
+        "Text": "- [ ] 7. State commit - routine youtube churn"
+      },
+      {
+        "LineNum": 140,
+        "Text": "  What to do / Must NOT do: stage `state/youtube/processed/*` + `state/youtube/raw/*` + `state/youtube/manifest.json` (tracked+modified - Metis finding: it belongs to routine churn and MUST be in one of the three state commits; all modified/new/deleted entries under those paths only); commit `chore(state): youtube sync state update (processed+raw)`. MUST NOT include `deleted/` or `merge-manifests/` (todo 8)."
+      },
+      {
+        "LineNum": 143,
+        "Text": "  Acceptance criteria (agent-executable): `git status --porcelain -- state/youtube/processed state/youtube/raw` empty after commit; commit subject matches."
+      },
+      {
+        "LineNum": 145,
+        "Text": "  Commit: Y | chore(state): youtube sync state update (processed+raw)"
+      },
+      {
+        "LineNum": 148,
+        "Text": "  What to do / Must NOT do: (a) `git diff -- state/youtube/deleted state/youtube/merge-manifests` AND `git status --porcelain -- state/youtube/deleted state/youtube/merge-manifests` - write full output to evidence and inspect every entry (these are one-way consolidation decisions - battery A6 warning: renamed records like `Gunter Wand` vs `Günter Wand` indicate hand edits); (b) stage both dirs; commit `chore(state): youtube deletions + merge manifests (reviewed)`. MUST NOT skip the diff capture; if diff shows JSON that fails to parse (`jaq` each file), HALT and report the corrupt file instead of committing."
+      },
+      {
+        "LineNum": 153,
+        "Text": "  Commit: Y | chore(state): youtube deletions + merge manifests (reviewed)"
+      },
+      {
+        "LineNum": 156,
+        "Text": "  What to do / Must NOT do: stage `state/dashboard/*` + `state/lastfm/*`; commit `chore(state): dashboard + lastfm state update`. MUST NOT include youtube paths."
+      },
+      {
+        "LineNum": 166,
+        "Text": "  References: answered battery B5; journal run #4 (prompt.md §2.1-2.2); docs inventory: docs/superpowers/plans/{2026-08-08-sacd-death-loop-repro.md, 2026-08-09-sacd-saracon-death-loop-fix.md, 2026-08-04-youtube-duplicate-playlist-merge.md}, docs/plans/2026-08-10-process-runner-streaming.md, docs/athena/specs/2026-08-10-process-runner-streaming-design.md"
+      },
+      {
+        "LineNum": 172,
+        "Text": "  What to do / Must NOT do: (a) delete root scratch: `SACD errors.md`, `youtube-sync-log.md`, `.athena-state.json` (all untracked - deletion produces NO git entry); (b) delete `.superpowers/` entirely (oci SDD archived in todo 2, journal rescued in todo 10, v2 spec rescued in todo 2 - verify all three receipts before removal; only the journal is TRACKED, its deletion stages; sdd/** is untracked - vanishes silently by design); (c) delete everything in `.omo/` EXCEPT `plans/toolbox-flatline.md`, `drafts/toolbox-flatline.md`, and `evidence/**` (this deletes: `Plan.md`, `plans/GIT-CLEANUP-DECISION-BATTERY.md`, `plans/SACD-FIX-FINAL-REPORT.md`, `plans/oracle-sacd-verification.md`, `plans/aws-translate/**`, `plans/reader/**` - all UNTRACKED, vanish silently - and the TRACKED deletions `.omo/goal/**` + `.omo/ulw-loop/**` which MUST be staged; `run-continuation/**` is gitignored, vanishes silently); (d) update `AGENTS.md` line `**Generated:** ... | **Branch:** master` -> replace `master` with `main` on that line only;   (e) staging (Metis-corrected reality): `git add -A .omo .superpowers AGENTS.md .gitignore` (Metis R3 note: `.gitignore` included only if `git status` shows it modified — verify before staging; if clean, omit from pathspec) plus stage the tracked deletion `SACD.red.md` if present in status, plus CATCH-ALL: run `git status --porcelain` and stage ANY remaining tracked entry (line NOT starting with `??`) whose path is outside `src/` and `state/` (those closed in todos 4/6/7/8/9) into this same commit - list every such catch-all path in evidence; (f) commit `chore: flatline agent artifacts, delete scratch, docs hygiene`. MUST NOT delete `.omo/evidence/**`, the plan, or the draft; MUST NOT touch `C:\\Users\\Lance\\.omo` or `C:\\Users\\Lance\\Dev\\.omo`; evidence files stay UNTRACKED (never stage `.omo/evidence`)."
+      },
+      {
+        "LineNum": 174,
+        "Text": "  References: user order (flatline ALL in .omo/.superpowers); answered battery B7/B8; todo 2 rescue receipts; `.omo` inventory (38 files), `.superpowers` inventory (~100 files incl. sdd/youtube-duplicate-playlist-merge reports = DROP per B7)"
+      },
+      {
+        "LineNum": 175,
+        "Text": "  Acceptance criteria (agent-executable): `Test-Path .superpowers` false; `(Get-ChildItem .omo -Recurse -File | Where-Object FullName -NotMatch 'plans.toolbox-flatline|drafts.toolbox-flatline|evidence').Count` == 0; `Test-Path 'SACD errors.md'` false; `Test-Path youtube-sync-log.md` false; `Test-Path .athena-state.json` false; `Select-String 'Branch:\\*\\* main' AGENTS.md` matches."
+      },
+      {
+        "LineNum": 180,
+        "Text": "  What to do / Must NOT do: (a) dirty pre-check FIRST (Metis): `git -C .worktrees/youtube-duplicate-playlist-merge status --porcelain` -> record full output to evidence (expected: deletions/mods reflecting its OLD fully-merged state; valueless because branch has 0 unique commits), then `git worktree remove --force .worktrees/youtube-duplicate-playlist-merge`; (b) delete nested repro dir: `Remove-Item -Recurse -Force Toolbox-sacd-repro` ONLY after re-verifying todo 2 receipts (v2 spec + SacdProbe + archive all present) - its unique content is the repro branch history, preserved in `.git` until (d); the filesystem delete + `git worktree prune` in (c) is the sanctioned two-step for this already-stale admin record; (c) `git worktree prune` (clears oci-arr-repair ghost + stale Toolbox-sacd-repro admin record); (d) `git branch -d feat/youtube-duplicate-merge feature/process-runner-streaming oci-arr-exhaustive-repair` (all 0 unique commits - `-d` must succeed WITHOUT `-D`; if any refuses, HALT - that means unmerged work appeared); then `git branch -D sacd-deathloop-repro` (rescue complete, fixes committed in todo 4); (e) `git stash drop stash@{0}` (Metis-verified: stash holds only stale `.omo/goal`/`.omo/ulw-loop` modifications - files this plan deletes; obsolete by construction); (f) verify `git worktree list` shows exactly 1 line and `git branch` shows exactly `* master`. Scope = 3 non-main worktrees (2 live + 1 ghost) + 4 branches. MUST NOT use `-D` on the three merged branches; MUST NOT run before todo 11."
+      },
+      {
+        "LineNum": 192,
+        "Text": "  (c) classify each of the 15 by CASE-INSENSITIVE subject regex (Metis-corrected: the real subjects include 'feat: add streaming and inactivity timeout to ProcessRunner', 'feat: bubble up onOutputLine in SaraconService', 'feat: stream saracon output to console and log file' which the old hyphenated lowercase regex missed) - AUDIO: `audio|saracon|sacd|dsd|processrunner|process-runner|stream|onoutputline|completion|logging`; YT: `google|youtube|playlist|sort|oauth`; DOCS: subject starts with `docs`; anything matching none, or matching both AUDIO and YT (e.g. fcbbb12 'fix(logging)... across all services'), classifies AUDIO;"
+      },
+      {
+        "LineNum": 195,
+        "Text": "  then run pass 1 as `$env:GIT_SEQUENCE_EDITOR='<abs path>\\seq-editor.cmd'; git rebase -i origin/master` (git invokes `<editor> <todo-file>`; a `.cmd` path works on Windows), and pass 2 per run-head: `$env:GIT_SEQUENCE_EDITOR='<abs>\\seq-editor-pass2-<run>.cmd'; $env:GIT_EDITOR='<abs>\\msg-editor-<run>.cmd'; git rebase -i origin/master`; prepared messages (bottom-to-top run order): AUDIO run(s) -> `feat(audio): Saracon pipeline hardening - streaming, timeouts, completion detection, service-wide logging`; DOCS run -> `docs(audio): SACD death-loop repro plans/specs (UTF-8 hypothesis - superseded, see correction banner)`; YT run(s) -> `feat(youtube): duplicate consolidation, non-Latin sort, quota batching, OAuth timeout`; single-commit runs KEEP their original message (no reword);"
+      },
+      {
+        "LineNum": 228,
+        "Text": "4. `chore(state): youtube sync state update (processed+raw)`"
+      },
+      {
+        "LineNum": 229,
+        "Text": "5. `chore(state): youtube deletions + merge manifests (reviewed)`"
+      }
+    ]
+  }
+]

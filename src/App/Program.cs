@@ -72,16 +72,11 @@ internal static class Program
 
 		ServiceCollection services = new();
 
-		var isAudioOnly = commandArgs.Contains("audio");
-
 		try
 		{
-			if (!isAudioOnly)
-			{
-				services.AddAzureServices();
-				await services.AddGoogleServicesAsync();
-				services.AddLastFmServices();
-			}
+			services.AddAzureServices();
+			await services.AddGoogleServicesAsync();
+			services.AddLastFmServices();
 			services.AddAudioServices();
 			services.AddPristineServices();
 		}

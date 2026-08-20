@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td><code>DashboardService.cs</code></td>
-<td>~94</td>
+<td>126</td>
 <td>Reads <code>state/youtube/</code>, builds dashboard model</td>
 </tr>
 </tbody>

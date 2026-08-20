@@ -2,7 +2,7 @@
 <p>YouTube Data API v3 sync pipeline. Depends on <code>Services.Azure.TranslateService</code>.</p>
 <h2>STRUCTURE</h2>
 <pre class="syntax-highlighting"><code><span class="text plain">Google/
-├── GoogleSetup.cs                       # DI: extension AddGoogleServicesAsync(), OAuth2 (FileDataStore state/google-auth, scope Youtube)
+├── GoogleSetup.cs                       # DI: extension AddGoogleServicesAsync(), OAuth2 (FileDataStore("Toolbox") → %APPDATA%/Google.Apis.Auth/Toolbox, scope Youtube)
 └── YouTube/                             # 12 files
     ├── YouTubePlaylistOrchestrator.cs   # Top-level sync: fetch → detect → merge → process → sort (ExecuteAsync/ExecuteWithSortAsync)
     ├── YouTubePlaylistProcessor.cs      # Per-playlist: fetch videos, translate, save processed/raw JSON

@@ -25,7 +25,7 @@
 <li>UTF-8 root-cause docs corrected with banner (not deleted).</li>
 <li>Zero worktrees besides the main tree (removes all 3 others: 2 live + 1 ghost admin); zero branches besides <code>main</code> (deletes all 4 others); stash dropped; nested <code>Toolbox-sacd-repro/</code> dir removed; 2 ghost admin dirs pruned.</li>
 <li>15 unpushed commits squashed into adjacent-topic groups (NO reordering); new commits replayed on top.</li>
-<li><code>master</code> renamed <code>main</code>, pushed, GitHub default branch switched; <code>origin/master</code> deleted only after switch succeeds.</li>
+   <li>Current branch is <code>pristine-port</code>; the <code>master</code>→<code>main</code> rename was abandoned (no rename performed).</li>
 <li><code>dotnet build</code> clean at every gate.</li>
 </ul>
 <h3>Must NOT have (guardrails, anti-slop, scope boundaries)</h3>

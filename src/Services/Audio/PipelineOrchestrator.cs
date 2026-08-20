@@ -178,8 +178,7 @@ public sealed class PipelineOrchestrator(
 		var suffix = extractMch ? "Multichannel" : "Stereo";
 		var channelDir = Path.Combine(
 			outputParent,
-			$"{Path.GetFileName(sourceRoot)} ({suffix})",
-			Path.GetFileName(isoDir)
+			$"{Path.GetFileName(sourceRoot)} ({suffix})"
 		);
 
 		DiscOutputInspector.DiscAssessment assessment = await inspector.EvaluateDiscAsync(

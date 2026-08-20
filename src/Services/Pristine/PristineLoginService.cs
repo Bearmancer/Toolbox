@@ -10,11 +10,25 @@ public sealed class PristineLoginService(PristineBrowser browser)
 
 	public async Task<bool> LoginAsync(CancellationToken ct = default)
 	{
+		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
+		Telemetry.Info("Pristine.Login.Start");
 		IBrowserContext ctx = await browser.CreateAsync(headless: false, ct);
 		try
 		{
-			IPage page = ctx.Pages.Count > 0 ? ctx.Pages[0] : await ctx.NewPageAsync();
-			await page.GotoAsync(PristineApp, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded });
+			IPage page = ctx.Pages.Count > 0 ? ctx.Pages[0] : await ctx.NewPageAsync().WaitAsync(ct);
+			try
+			{
+				await page.GotoAsync(PristineApp, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }).WaitAsync(ct);
+				Telemetry.Debug("Pristine.Login.GotoBrowseOk url={Url}", page.Url);
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
+			catch (Exception ex)
+			{
+				Telemetry.Warn("Pristine.Login.GotoBrowseFailed: {Error}", ex.Message);
+			}
 
 			var alreadyIn = false;
 			try
@@ -22,32 +36,76 @@ public sealed class PristineLoginService(PristineBrowser browser)
 				var url = page.Url;
 				var hasBrowse = url.Contains("browse", StringComparison.OrdinalIgnoreCase);
 				var hasLogin = url.Contains("login", StringComparison.OrdinalIgnoreCase);
-				var isGuest = await page.Locator("text=Browsing as guest").IsVisibleAsync();
-				alreadyIn = !hasLogin && hasBrowse && !isGuest;
+				var isGuest = await page.Locator("text=Browsing as guest").IsVisibleAsync().WaitAsync(ct);
+				alreadyIn = hasLogin is false && hasBrowse && isGuest is false;
+				Telemetry.Debug("Pristine.Login.Check url={Url} browse={Browse} login={Login} guest={Guest} alreadyIn={Already}", url, hasBrowse, hasLogin, isGuest, alreadyIn);
 			}
-			catch
+			catch (Exception ex)
 			{
+				Telemetry.Debug("Pristine.Login.CheckFailed: {Error}", ex.Message);
 			}
 
-			if (!alreadyIn)
+			if (alreadyIn is false)
 			{
-				await page.GotoAsync(SubscribeUrl, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded });
+			try
+			{
+				await page.GotoAsync(SubscribeUrl, new PageGotoOptions { WaitUntil = WaitUntilState.DOMContentLoaded }).WaitAsync(ct);
+				Telemetry.Debug("Pristine.Login.GotoSubscribeOk url={Url}", page.Url);
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
+			catch (Exception ex)
+			{
+				Telemetry.Warn("Pristine.Login.GotoSubscribeFailed: {Error}", ex.Message);
+			}
 			}
 
 			var ok = alreadyIn || await WaitForLoginAsync(page, 300, ct);
-			if (!ok)
+			Telemetry.Info("Pristine.Login.WaitResult ok={Ok} alreadyIn={Already}", ok, alreadyIn);
+			if (ok is false)
 			{
+				Telemetry.Warn("Pristine.Login.Timeout");
 				return false;
 			}
 
-			var dir = Path.GetDirectoryName(PristinePaths.AuthPath) ?? "";
-			Directory.CreateDirectory(dir);
-			await ctx.StorageStateAsync(new BrowserContextStorageStateOptions { Path = PristinePaths.AuthPath });
+			var dir = Path.GetDirectoryName(PristinePaths.AuthPath);
+			if (string.IsNullOrEmpty(dir) is false)
+				Directory.CreateDirectory(dir);
+			Telemetry.Info("Pristine.Login.SavingAuth path={Path}", PristinePaths.AuthPath);
+			try
+			{
+				await ctx.StorageStateAsync(new BrowserContextStorageStateOptions { Path = PristinePaths.AuthPath }).WaitAsync(ct);
+				Telemetry.Info("Pristine.Login.Saved path={Path} bytes={Bytes}", PristinePaths.AuthPath, new FileInfo(PristinePaths.AuthPath).Length);
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
+			catch (Exception ex)
+			{
+				Telemetry.Error("Pristine.Login.SaveFailed: {Error}", ex.Message);
+				return false;
+			}
+
 			return true;
 		}
 		finally
 		{
-			await ctx.CloseAsync();
+		try
+		{
+			await ctx.CloseAsync().WaitAsync(ct);
+			Telemetry.Debug("Pristine.Login.ContextClosed");
+		}
+		catch (OperationCanceledException)
+		{
+			Telemetry.Debug("Pristine.Login.CloseCancelled");
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Debug("Pristine.Login.CloseFailed: {Error}", ex.Message);
+		}
 		}
 	}
 
@@ -56,22 +114,37 @@ public sealed class PristineLoginService(PristineBrowser browser)
 		ct.ThrowIfCancellationRequested();
 		try
 		{
-			if (page.Url.Contains("browse", StringComparison.OrdinalIgnoreCase) && !page.Url.Contains("login", StringComparison.OrdinalIgnoreCase))
+			var url = page.Url;
+			if (url.Contains("browse", StringComparison.OrdinalIgnoreCase) && url.Contains("login", StringComparison.OrdinalIgnoreCase) is false)
 			{
+				Telemetry.Debug("Pristine.Login.AlreadyAtBrowse url={Url}", url);
 				return true;
 			}
 		}
-		catch
+		catch (Exception ex)
 		{
+			Telemetry.Debug("Pristine.Login.UrlCheckFailed: {Error}", ex.Message);
 		}
 
+		Telemetry.Debug("Pristine.Login.WaitForBrowse timeout={Timeout}", timeoutS);
 		try
 		{
-			await page.WaitForURLAsync("**pristinestreaming.com/app/browse**", new PageWaitForURLOptions { Timeout = timeoutS * 1000 });
+			await page.WaitForURLAsync("**pristinestreaming.com/app/browse**", new PageWaitForURLOptions { Timeout = timeoutS * 1000 }).WaitAsync(ct);
+			Telemetry.Debug("Pristine.Login.WaitForBrowseOk url={Url}", page.Url);
 			return true;
 		}
-		catch
+		catch (OperationCanceledException)
 		{
+			throw;
+		}
+		catch (TimeoutException ex)
+		{
+			Telemetry.Warn("Pristine.Login.WaitTimeout {Timeout}s: {Error}", timeoutS, ex.Message);
+			return false;
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Debug("Pristine.Login.WaitError: {Error}", ex.Message);
 			return false;
 		}
 	}

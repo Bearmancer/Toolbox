@@ -12,7 +12,7 @@ namespace Services.Pristine;
 public static class PristinePaths
 {
     public static string UserDataDir => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "pristine-playwright-profile");
-    public static string AuthPath => Path.Combine(PathResolver.RepoRoot, "state", "pristine", "auth.json");
+    public static string AuthPath => Path.Combine(PathResolver.RepoRoot, "state", "auth", "pristine", "auth.json");
     public static string BaseOutDir => Environment.GetEnvironmentVariable("PRISTINE_BASE_OUT_DIR") ?? throw new InvalidOperationException("Missing: PRISTINE_BASE_OUT_DIR");
 }
 ```
