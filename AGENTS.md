@@ -144,7 +144,7 @@ Services.LastFm → Core
 <p>Headless only — never GUI. Shape built in <code>src/Services/Audio/SaraconService.cs</code> (<code>saracon</code> from <code>PATH</code>):</p>
 <pre class="syntax-highlighting"><code><span class="text plain">saracon -c d2p -r &lt;sample-rate&gt; -f wav -n &lt;bit-depth&gt;bit -d tpdf -g &lt;gain-db&gt; -T -V all -t &quot;&lt;output-directory&gt;&quot; &quot;&lt;input.dff&gt;&quot;
 </span></code></pre>
-<p><code>-c d2p</code> = DSD→PCM, <code>-t</code> = output dir, final arg = input .dff. Omit <code>--format</code> (default <code>Bit16</code>); parser rejects <code>--format 16</code>.</p>
+<p><code>-c d2p</code> = DSD→PCM, <code>-t</code> = output dir, final arg = input .dff. Omit <code>--format</code> (default <code>Bit16</code>); <code>--format</code> accepts <code>16</code>, <code>24</code>, <code>Bit16</code>, or <code>Bit24</code> (case-insensitive).</p>
 <h2>NOTES</h2>
 <ul>
 <li>.NET 11.0 preview SDK required. <code>SuppressNETCoreSdkPreviewMessage</code> is set.</li>

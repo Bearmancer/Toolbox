@@ -4,11 +4,11 @@
 <pre class="syntax-highlighting"><code><span class="text plain">Audio/
 ├── AudioSetup.cs              # DI extension AddAudioServices(), eager PATH check saracon/sox/sacd_extract
 ├── PipelineOrchestrator.cs    # Pure orchestration: enumerate ISOs (natural sort), probe, route, cleanup. 6 deps
-├── DsdConvertService.cs       # Facade: ProbeDsdAsync, PrepareDffAsync, CalculateGainAsync, ConvertAndSplitAsync. Owns Saracon/Sox/Metadata
-├── SaraconService.cs          # Internal of DsdConvertService. saracon -c d2p wrapper. 1h timeout, 100% marker, Validates WAV/FLAC output
+├── DsdConvertService.cs       # Facade: ProbeDsdAsync, PrepareDffAsync, CalculateGainAsync, ConvertAndSplitAsync, ConvertFullDffAsync. Owns Saracon/Sox/Metadata
+├── SaraconService.cs          # Internal of DsdConvertService. saracon -c d2p wrapper. 1h timeout + 5min inactivity, Validates WAV/FLAC output
 ├── SoxService.cs              # Internal of DsdConvertService. trim split, stats (Pk lev dB), duration --i -D
 ├── SacdExtractService.cs      # sacd_extract: -P probe, -2/-m -e -c -C extract (Edit Master + CUE)
-├── ProcessRunner.cs           # Shared: ArgumentList, concurrent stdout/stderr drain, CancellationToken, timeout/inactivity/completionPattern
+├── ProcessRunner.cs           # Shared: ArgumentList, concurrent stdout/stderr drain, CancellationToken, timeout/inactivity
 ├── PathValidator.cs           # Traversal/containment validation
 ├── DiskSpaceChecker.cs        # Pre-flight: 4x extraction, 8x conversion + 500MB margin
 ├── DiscOutputInspector.cs     # Disc assessment: CUE/FLAC/DFF probe → DiscState
@@ -46,7 +46,7 @@
 <tr>
 <td>Change sox op</td>
 <td><code>SoxService.cs</code></td>
-<td>Internal dep. Split/stats/duration/derive</td>
+<td>Internal dep. Split/stats/duration</td>
 </tr>
 <tr>
 <td>Change gain</td>
@@ -87,7 +87,8 @@
 </table>
 <h2>CONVENTIONS</h2>
 <ul>
-<li>ProcessRunner: ArgumentList only, concurrent stdout/stderr collectors, CancellationToken always, TerminationReason (Exited/Timeout/Inactivity/KilledAfterCompletionMarker/Canceled/StartFailed), completionPattern &quot;100%&quot; + 10s grace.</li>
+<li>ProcessRunner: ArgumentList only, concurrent stdout/stderr collectors, CancellationToken always, TerminationReason (Exited/CallerCanceled/Timeout/InactivityTimeout/StartFailed).</li>
+<li>onOutputLine wired to <code>Telemetry.Debug</code> at SaraconService's d2p call and all 3 SoxService call sites. SacdExtractService's 2 call sites (probe/extract) still discard it — known gap, deliberately deferred. inactivityTimeout=5min wired on SaraconService's d2p call only, alongside the unchanged 1h wall-clock timeout; real cadence measured against actual SACD media (Saracon progress lines every ~130-135s during normal conversion) confirms ~165s of margin, no retune needed.</li>
 <li>PipelineOrchestrator pure orchestration: natural-sort ISO enumeration, sacd_extract probe, DiscOutputInspector routing, delegates ONLY to DsdConvertService.</li>
 <li>CUE: custom parser, no lib. BOM + UTF-8 heuristic + Windows-1252 fallback.</li>
 <li>DsdConversionSettings.ForDsdRate(): single sample-rate mapping. DSD64→44100/16,88200/24; DSD128→88200/16,176400/24. No inline switches.</li>
@@ -111,7 +112,7 @@
 </ol>
 <p>Single output format per run — <code>AudioOutputFormat</code> is <code>Bit16</code> (default) or <code>Bit24</code> via <code>-f|--format</code>. No combined/dual-format output exists anywhere in the pipeline.</p>
 <h2>SARACON</h2>
-<p>Headless only, never GUI. SaraconService builds: <code>saracon -c d2p -r &lt;rate&gt; -f wav -n &lt;bit&gt;bit -d tpdf -g &lt;gain&gt; -T -V all -t &quot;&lt;outDir&gt;&quot; &quot;&lt;input.dff&gt;&quot;</code>. -c d2p required, final arg = input DFF, -t = output dir. Default Bit16 at app layer (omit --format, parser rejects --format 16). Validates RIFF/WAVE/fmt/data chunks, checks -d2p variant filename, warns if output &lt;50% expected PCM bytes. 1h timeout.</p>
+<p>Headless only, never GUI. SaraconService builds: <code>saracon -c d2p -r &lt;rate&gt; -f wav -n &lt;bit&gt;bit -d tpdf -g &lt;gain&gt; -T -V all -t &quot;&lt;outDir&gt;&quot; &quot;&lt;input.dff&gt;&quot;</code>. -c d2p required, final arg = input DFF, -t = output dir. Default Bit16 (omit --format). --format accepts 16, 24, Bit16, or Bit24 (case-insensitive) via a <code>[TypeConverter]</code> on <code>AudioOutputFormat</code> — bare numeric strings used to silently misparse via Enum.Parse's underlying-value fallback (Bit24=1, so --format 24 built an invalid (AudioOutputFormat)24); fixed. Validates RIFF/WAVE/fmt/data chunks, checks -d2p variant filename, warns if output &lt;50% expected PCM bytes. 1h wall-clock timeout + 5min inactivity timeout.</p>
 <h2>STATE / RECOVERY</h2>
 <p>DiscOutputInspector → Complete / NeedsPrimaryConversion / NeedsExtraction / InvalidArtifacts. ReprocessGuard in state/audio/sacd-guard.json, 3 consecutive non-Complete → Failed, Complete clears entry, Warn log on transition. Reset: <code>dotnet run --project src\App -- audio sacd-convert --reset-guard</code>. Don't edit JSON manually.</p>
 <h2>ARTIFACT OWNERSHIP</h2>
