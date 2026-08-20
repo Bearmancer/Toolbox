@@ -21,7 +21,21 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		Telemetry.Info("Pristine.Poll.Start code={Code} outDir={OutDir} single={Single}", code, outDir, singleTrack);
-		IPage page = await ctx.NewPageAsync();
+
+		// Preflight: verification is fail-closed (see VerifyAndKeepAsync), so if ffprobe isn't
+		// available at all, every downloaded track would be rejected and deleted anyway. Check
+		// this up front, before spending any bandwidth on navigation, artwork, or track
+		// downloads against the user's paid account, rather than discovering it only after a
+		// full album has already been pulled down. Uses the exact same availability check as
+		// the per-file verifier (PristineAudioVerifier.IsFfprobeAvailable) so the two never
+		// disagree about whether ffprobe is present.
+		if (PristineAudioVerifier.IsFfprobeAvailable() is false)
+		{
+			Telemetry.Error("Pristine.Poll.NoFfprobePreflight code={Code} — ffprobe missing, refusing to start downloads: {Err}", code, Errors.Pristine.FfprobeMissing.Description);
+			return new PristineAlbumResult { Code = code, Title = "unknown", OutPath = outDir, Expected = 0, Downloaded = 0 };
+		}
+
+		IPage page = await ctx.NewPageAsync().WaitAsync(ct);
 		try
 		{
 			Telemetry.Debug("Pristine.Poll.GotoBrowse code={Code}", code);
@@ -135,6 +149,10 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 				await albumService.DownloadArtworkAndPdfAsync(page, albumOut, albumTitle, http, ct);
 				Telemetry.Debug("Pristine.Poll.ArtworkDone code={Code}", code);
 			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
 			catch (Exception ex)
 			{
 				Telemetry.Warn("Pristine.Poll.ArtworkFailed code={Code}: {Error}", code, ex.Message);
@@ -156,6 +174,10 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 			try
 			{
 				await albumService.StartPlaybackAsync(page, ct);
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
 			}
 			catch (Exception ex)
 			{
@@ -222,7 +244,53 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 					{
 						throw;
 					}
+
+					// Best-effort confirmation only — NOT a pre-download gate. There is no way to
+					// know a stream's real bit depth before requesting and ffprobe-ing the file
+					// (see PristineAudioVerifier.VerifyAsync, which is the authoritative, fail-closed
+					// check). This just tells us whether the click appears to have registered, so a
+					// silently-ignored click doesn't look identical to a confirmed one in the logs.
+					var confirmScript = """
+						(() => {
+						  const cands = Array.from(document.querySelectorAll('[data-quality], .pp-quality, button, select option, [role="option"], [role="listbox"] *'));
+						  for (const el of cands) {
+						    const t=(el.textContent||'').toLowerCase();
+						    if (t.includes('16') || t.includes('flac') || t.includes('cd')) {
+						      if (el.getAttribute('aria-selected')==='true' || el.classList.contains('selected') || el.classList.contains('active') || el.selected===true) return true;
+						    }
+						  }
+						  const body=(document.body.innerText||'').toLowerCase();
+						  return ['16-bit','16 bit','cd quality'].some(kw => body.includes(kw));
+						})()
+						""";
+					bool confirmed;
+					try
+					{
+						confirmed = await page.EvaluateAsync<bool>(confirmScript).WaitAsync(ct);
+					}
+					catch (OperationCanceledException)
+					{
+						throw;
+					}
+					catch (Exception ex)
+					{
+						confirmed = false;
+						Telemetry.Debug("Pristine.Poll.QualityConfirmFailed code={Code}: {Error}", code, ex.Message);
+					}
+
+					if (confirmed)
+						Telemetry.Info("Pristine.Poll.QualityConfirmed code={Code} quality={Quality}", code, clickedQuality);
+					else
+						Telemetry.Warn("Pristine.Poll.QualityUnconfirmed code={Code} quality={Quality} — click fired but page state doesn't show it selected; downloaded files remain subject to post-download ffprobe verification", code, clickedQuality);
 				}
+				else
+				{
+					Telemetry.Warn("Pristine.Poll.QualitySelectorNotFound code={Code} — no 16-bit/FLAC/CD-quality selector found on page; proceeding with default stream, relying on post-download ffprobe verification", code);
+				}
+			}
+			catch (OperationCanceledException)
+			{
+				throw;
 			}
 			catch (Exception ex)
 			{
@@ -241,12 +309,26 @@ public sealed class PristinePollService(PristineAlbumService albumService, Prist
 			HashSet<string> seenTitles = [];
 			var stall = 0;
 			var trackNum = 0;
-			List<(string Dest, bool Verified16)> results = [];
+			// Only destinations that both downloaded successfully AND passed post-download
+			// ffprobe verification (fail-closed: rejected files are deleted, see
+			// VerifyAndKeepAsync) — this is the authoritative "actually downloaded" count,
+			// not merely "a track was observed in the playlist."
+			List<string> results = [];
 
 			Telemetry.Info("Pristine.Poll.LoopStart code={Code} maxStall={Max} candidates={Candidates} single={Single}", code, MaxStall, candidates.Count, singleTrack);
 			using SemaphoreSlim gate = new(5);
 			List<Task> pendingDownloads = [];
 
+			// The loop and its post-loop drain of pendingDownloads are wrapped in try/finally so
+			// the drain always runs before `gate` goes out of scope and is disposed — even when
+			// the loop exits via ct.ThrowIfCancellationRequested(), a cancelled Task.Delay(...,
+			// ct), or any of the OperationCanceledException rethrows below. Without this, in-flight
+			// download tasks could still be running when `gate` is disposed, throwing
+			// ObjectDisposedException from their own `finally { gate.Release(); }` (unobserved),
+			// and could leave a partially-downloaded, unverified file on disk — violating the
+			// fail-closed guarantee documented on VerifyAndKeepAsync.
+			try
+			{
 			while (stall < MaxStall)
 			{
 				ct.ThrowIfCancellationRequested();
@@ -344,9 +426,8 @@ try
 						else
 						{
 							Telemetry.Info("Pristine.Poll.DownloadOk code={Code} dest={Dest}", code, capturedDest);
-							PristineProbeResult probe = await verifier.VerifyAsync(capturedDest, code, capturedTrack, ct);
-							Telemetry.Info("Pristine.Poll.Verify code={Code} track={Track} is16={Is16} codec={Codec} dest={Dest} note={Note}", code, capturedTrack, probe.Is16BitFlac, probe.Codec, Path.GetFileName(capturedDest), probe.Note);
-							results.Add((capturedDest, probe.Is16BitFlac));
+							if (await VerifyAndKeepAsync(capturedDest, code, capturedTrack, ct))
+								results.Add(capturedDest);
 						}
 
 						Telemetry.Info("Pristine.Poll.SingleTrackDone code={Code}", code);
@@ -355,6 +436,12 @@ try
 					else
 					{
 						await gate.WaitAsync(ct);
+						// Deliberately passing CancellationToken.None here rather than `ct`: if ct
+						// were already cancelled by the time Task.Run schedules this work, Task.Run
+						// would return an already-cancelled task WITHOUT ever invoking the delegate
+						// below — which would mean the `finally { gate.Release(); }` never runs,
+						// leaking the permit just acquired by gate.WaitAsync(ct) above. Cancellation
+						// is still honored via the ct passed to the awaited calls inside the delegate.
 						downloadTask = Task.Run(async () =>
 						{
 							try
@@ -367,11 +454,12 @@ try
 								else
 								{
 									Telemetry.Info("Pristine.Poll.DownloadOk code={Code} dest={Dest}", code, capturedDest);
-									PristineProbeResult probe = await verifier.VerifyAsync(capturedDest, code, capturedTrack, ct);
-									Telemetry.Info("Pristine.Poll.Verify code={Code} track={Track} is16={Is16} codec={Codec} dest={Dest} note={Note}", code, capturedTrack, probe.Is16BitFlac, probe.Codec, Path.GetFileName(capturedDest), probe.Note);
-									lock (results)
+									if (await VerifyAndKeepAsync(capturedDest, code, capturedTrack, ct))
 									{
-										results.Add((capturedDest, probe.Is16BitFlac));
+										lock (results)
+										{
+											results.Add(capturedDest);
+										}
 									}
 								}
 							}
@@ -379,7 +467,7 @@ try
 							{
 								gate.Release();
 							}
-						}, ct);
+						}, CancellationToken.None);
 						pendingDownloads.Add(downloadTask);
 					}
 
@@ -515,24 +603,31 @@ try
 					await Task.Delay(PollMs, ct);
 				}
 			}
-
-			if (pendingDownloads.Count > 0)
+			}
+			finally
 			{
-				Telemetry.Info("Pristine.Poll.AwaitPending code={Code} pending={Count}", code, pendingDownloads.Count);
-				try
+				// Best-effort drain only — must never itself throw, or it would replace whatever
+				// exception (e.g. the original OperationCanceledException) is already propagating
+				// out of the try above. Individual task failures are already logged inside each
+				// download task's own catch blocks; this only needs to guarantee every task is
+				// observed before `gate` is disposed.
+				if (pendingDownloads.Count > 0)
 				{
-					await Task.WhenAll(pendingDownloads);
-				}
-				catch (Exception ex)
-				{
-					Telemetry.Warn("Pristine.Poll.PendingFailed code={Code}: {Error}", code, ex.Message);
+					Telemetry.Info("Pristine.Poll.AwaitPending code={Code} pending={Count}", code, pendingDownloads.Count);
+					try
+					{
+						await Task.WhenAll(pendingDownloads).ConfigureAwait(false);
+					}
+					catch (Exception ex)
+					{
+						Telemetry.Warn("Pristine.Poll.PendingDrainFailed code={Code}: {Error}", code, ex.Message);
+					}
 				}
 			}
 
-			if (results.Count > 0)
+			if (trackNum > 0)
 			{
-				var flac16 = results.Count(r => r.Verified16);
-				Telemetry.Info("Pristine.Poll.VerifySummary code={Code} total={Total} flac16={Flac16}", code, results.Count, flac16);
+				Telemetry.Info("Pristine.Poll.VerifySummary code={Code} attempted={Attempted} verified16={Verified}", code, trackNum, results.Count);
 			}
 
 			if (stall >= MaxStall)
@@ -541,8 +636,14 @@ try
 			}
 
 			await Task.Delay(2000, ct);
-			Telemetry.Info("Pristine.Poll.Done code={Code} downloaded={Downloaded} expected={Expected} out={Out}", code, seenTitles.Count, expectedCount, albumOut);
-			return new PristineAlbumResult { Code = code, Title = albumTitle, OutPath = albumOut, Expected = expectedCount, Downloaded = seenTitles.Count };
+			// A single-track run only ever intends to download one track, regardless of how
+			// many tracks the full album has — so the "expected" count for pass/fail purposes
+			// must be 1, not the full tracklist size. Using expectedCount here would make a
+			// fully successful --single run look like a failed partial-album download (see
+			// PristineDownloadCommand's Downloaded < Expected check).
+			var finalExpected = singleTrack ? 1 : expectedCount;
+			Telemetry.Info("Pristine.Poll.Done code={Code} downloaded={Downloaded} expected={Expected} out={Out}", code, results.Count, finalExpected, albumOut);
+			return new PristineAlbumResult { Code = code, Title = albumTitle, OutPath = albumOut, Expected = finalExpected, Downloaded = results.Count };
 		}
 		finally
 		{
@@ -559,6 +660,54 @@ try
 			{
 				Telemetry.Debug("Pristine.Poll.CloseFailed code={Code}: {Error}", code, ex.Message);
 			}
+		}
+	}
+
+	/// <summary>
+	/// Authoritative, fail-closed post-download verification. There is no reliable
+	/// pre-download signal for stream bit depth (see the quality-selector click above,
+	/// which is best-effort UI automation, not a gate) — so this is where a non-16-bit
+	/// FLAC file is actually rejected: verification failure or a hard verifier error
+	/// (e.g. ffprobe missing) both delete the file and exclude the track from the
+	/// album's Downloaded count, rather than silently keeping a file that doesn't meet
+	/// the requirement.
+	/// </summary>
+	private async Task<bool> VerifyAndKeepAsync(string dest, string code, int track, CancellationToken ct)
+	{
+		ErrorOr<PristineProbeResult> probeOr = await verifier.VerifyAsync(dest, code, track, ct);
+		if (probeOr.IsError)
+		{
+			Telemetry.Error("Pristine.Poll.VerifyHardFail code={Code} track={Track} dest={Dest} err={Err}", code, track, Path.GetFileName(dest), probeOr.FirstError.Description);
+			DeleteRejectedFile(dest, code, track, probeOr.FirstError.Code);
+			return false;
+		}
+
+		PristineProbeResult probe = probeOr.Value;
+		Telemetry.Info("Pristine.Poll.Verify code={Code} track={Track} is16={Is16} codec={Codec} dest={Dest} note={Note}", code, track, probe.Is16BitFlac, probe.Codec, Path.GetFileName(dest), probe.Note);
+		if (probe.Is16BitFlac is false)
+		{
+			DeleteRejectedFile(dest, code, track, probe.Note);
+			return false;
+		}
+
+		return true;
+	}
+
+	private static void DeleteRejectedFile(string path, string code, int track, string reason)
+	{
+		try
+		{
+			if (File.Exists(path))
+				File.Delete(path);
+			Telemetry.Warn("Pristine.Poll.VerifyRejected code={Code} track={Track} dest={Dest} reason={Reason} — file deleted, track not counted as downloaded", code, track, Path.GetFileName(path), reason);
+		}
+		catch (OperationCanceledException)
+		{
+			throw;
+		}
+		catch (Exception ex)
+		{
+			Telemetry.Warn("Pristine.Poll.VerifyRejectedDeleteFailed code={Code} track={Track} dest={Dest} reason={Reason}: {Error}", code, track, Path.GetFileName(path), reason, ex.Message);
 		}
 	}
 

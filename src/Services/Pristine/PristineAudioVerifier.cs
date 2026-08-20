@@ -1,12 +1,13 @@
 using System.Diagnostics;
 using System.Text.Json;
 using Core;
+using ErrorOr;
 
 namespace Services.Pristine;
 
 public sealed class PristineAudioVerifier
 {
-	public async Task<PristineProbeResult> VerifyAsync(string filePath, string code, int trackNum, CancellationToken ct = default)
+	public async Task<ErrorOr<PristineProbeResult>> VerifyAsync(string filePath, string code, int trackNum, CancellationToken ct = default)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		if (File.Exists(filePath) is false)
@@ -23,12 +24,10 @@ public sealed class PristineAudioVerifier
 			return new PristineProbeResult(false, string.Empty, 0, 0, 0, "empty");
 		}
 
-		if (IsOnPath("ffprobe") is false && File.Exists("ffprobe") is false && File.Exists("ffprobe.exe") is false)
+		if (IsFfprobeAvailable() is false)
 		{
-			var ext = Path.GetExtension(filePath);
-			Telemetry.Warn("Pristine.Verify.NoFfprobe code={Code} track={Track} ext={Ext} bytes={Bytes} — presuming by extension", code, trackNum, ext, bytes);
-			var presumedFlac = ext.Equals(".flac", StringComparison.OrdinalIgnoreCase);
-			return new PristineProbeResult(presumedFlac, presumedFlac ? "flac" : ext.TrimStart('.'), presumedFlac ? 16 : 0, 0, 0, "no-ffprobe");
+			Telemetry.Error("Pristine.Verify.NoFfprobe code={Code} track={Track} path={Path} bytes={Bytes} — ffprobe missing, cannot verify", code, trackNum, Path.GetFileName(filePath), bytes);
+			return Errors.Pristine.FfprobeMissing;
 		}
 
 		try
@@ -111,6 +110,15 @@ public sealed class PristineAudioVerifier
 			return new PristineProbeResult(false, string.Empty, 0, 0, 0, ex.Message);
 		}
 	}
+
+	/// <summary>
+	/// Whether ffprobe is available for verification: on PATH, or in the current working
+	/// directory. Shared by the per-file check above and by PristinePollService's upfront
+	/// preflight, so both agree on what "ffprobe is available" means — a preflight that used
+	/// a looser or stricter definition than the per-file check could pass when the real check
+	/// would fail (or vice versa).
+	/// </summary>
+	public static bool IsFfprobeAvailable() => IsOnPath("ffprobe") || File.Exists("ffprobe") || File.Exists("ffprobe.exe");
 
 	private static bool IsOnPath(string binaryName)
 	{

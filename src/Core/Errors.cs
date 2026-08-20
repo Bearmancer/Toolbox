@@ -147,5 +147,11 @@ public static class Errors
 
 		public static Error TracklistParseFailed(string reason) =>
 			Error.Failure("Pristine.TracklistParseFailed", $"Tracklist parse failed: {reason}");
+
+		public static Error FfprobeMissing =>
+			Error.Failure(
+				"Pristine.FfprobeMissing",
+				"ffprobe not found on PATH or common install locations — audio verification cannot proceed"
+			);
 	}
 }

@@ -89,6 +89,11 @@ public sealed class PristineOrchestrator(PristineBrowser browser, PristinePollSe
 		{
 			ctx = await browser.CreateAsync(headless, ct);
 		}
+		catch (OperationCanceledException)
+		{
+			Telemetry.Debug("Pristine.Orchestrator.BrowserCancelled");
+			throw;
+		}
 		catch (Exception ex)
 		{
 			Telemetry.Error("Pristine.Orchestrator.BrowserFailed: {Error}", ex.Message);

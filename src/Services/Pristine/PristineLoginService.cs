@@ -40,6 +40,10 @@ public sealed class PristineLoginService(PristineBrowser browser)
 				alreadyIn = hasLogin is false && hasBrowse && isGuest is false;
 				Telemetry.Debug("Pristine.Login.Check url={Url} browse={Browse} login={Login} guest={Guest} alreadyIn={Already}", url, hasBrowse, hasLogin, isGuest, alreadyIn);
 			}
+			catch (OperationCanceledException)
+			{
+				throw;
+			}
 			catch (Exception ex)
 			{
 				Telemetry.Debug("Pristine.Login.CheckFailed: {Error}", ex.Message);
