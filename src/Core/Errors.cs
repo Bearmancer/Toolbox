@@ -10,6 +10,12 @@ public static class Errors
 			Error.Validation($"Validation.{field}", reason);
 	}
 
+	public static class Dashboard
+	{
+		public static Error DeployFailed(string reason) =>
+			Error.Failure("Dashboard.DeployFailed", $"OCI deploy failed: {reason}");
+	}
+
 	public static class YouTube
 	{
 		public static Error RateLimitExceeded =>
@@ -175,5 +181,11 @@ public static class Errors
 
 		public static Error ApiRequestFailed(string reason) =>
 			Error.Failure("Pristine.ApiRequestFailed", $"Direct API request failed: {reason}");
+
+		public static Error DownloadFailed(string dest) =>
+			Error.Failure("Pristine.DownloadFailed", $"Download failed after retries: {dest}");
+
+		public static Error PlaybackNotStarted(string reason) =>
+			Error.Failure("Pristine.PlaybackNotStarted", $"Playback did not start: {reason}");
 	}
 }
