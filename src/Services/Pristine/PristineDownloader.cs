@@ -1,4 +1,5 @@
 using Core;
+using ErrorOr;
 
 namespace Services.Pristine;
 
@@ -7,7 +8,7 @@ public sealed class PristineDownloader
 	private const int MaxAttempts = 3;
 	private const int RetryBaseS = 2;
 
-	public async Task<bool> DownloadAsync(
+	public async Task<ErrorOr<Success>> DownloadAsync(
 		string url,
 		string dest,
 		HttpClient http,
@@ -51,7 +52,7 @@ public sealed class PristineDownloader
 						continue;
 					}
 
-					return false;
+					return Errors.Pristine.DownloadFailed(dest);
 				}
 
 				await using FileStream fs = File.Create(part);
@@ -65,11 +66,27 @@ public sealed class PristineDownloader
 					Path.GetFileName(dest),
 					new FileInfo(dest).Length
 				);
-				return true;
+				return Result.Success;
 			}
 			catch (OperationCanceledException) when (ct.IsCancellationRequested)
 			{
 				Telemetry.Debug("Pristine.Dl.Cancelled dest={Dest}", Path.GetFileName(dest));
+				if (File.Exists(part))
+				{
+					try
+					{
+						File.Delete(part);
+					}
+					catch (Exception delEx)
+					{
+						Telemetry.Debug(
+							"Pristine.Dl.CleanupFailed part={Part}: {Error}",
+							Path.GetFileName(part),
+							delEx.Message
+						);
+					}
+				}
+
 				throw;
 			}
 			catch (Exception ex)
@@ -114,6 +131,6 @@ public sealed class PristineDownloader
 			Path.GetFileName(dest),
 			url[..Math.Min(80, url.Length)]
 		);
-		return false;
+		return Errors.Pristine.DownloadFailed(dest);
 	}
 }

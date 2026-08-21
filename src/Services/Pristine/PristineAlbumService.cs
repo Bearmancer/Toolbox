@@ -371,7 +371,10 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		}
 	}
 
-	public async Task StartPlaybackAsync(IPage page, CancellationToken ct = default)
+	public async Task<ErrorOr<Success>> StartPlaybackAsync(
+		IPage page,
+		CancellationToken ct = default
+	)
 	{
 		ct.ThrowIfCancellationRequested();
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
@@ -428,6 +431,7 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 				)
 				.WaitAsync(ct);
 			Telemetry.Debug("Pristine.Album.AudioSrcReady");
+			return Result.Success;
 		}
 		catch (OperationCanceledException)
 		{
@@ -437,10 +441,12 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		catch (TimeoutException ex)
 		{
 			Telemetry.Debug("Pristine.Album.AudioSrcTimeout: {Error}", ex.Message);
+			return Errors.Pristine.PlaybackNotStarted(ex.Message);
 		}
 		catch (Exception ex)
 		{
 			Telemetry.Debug("Pristine.Album.AudioSrcWaitFailed: {Error}", ex.Message);
+			return Errors.Pristine.PlaybackNotStarted(ex.Message);
 		}
 	}
 
@@ -472,7 +478,7 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		}
 	}
 
-	public async Task DownloadArtworkAndPdfAsync(
+	public async Task<ErrorOr<Success>> DownloadArtworkAndPdfAsync(
 		IPage page,
 		string albumOut,
 		string albumTitle,
@@ -508,7 +514,7 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		if (string.IsNullOrEmpty(artworkSrc))
 		{
 			Telemetry.Debug("Pristine.Album.NoArtwork album={Album}", albumTitle);
-			return;
+			return Result.Success;
 		}
 
 		var imgFile = artworkSrc.Split('/')[^1].Split('?')[0];
@@ -522,11 +528,11 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 			artworkSrc.Length > 80 ? artworkSrc[..80] : artworkSrc,
 			Path.GetFileName(imgDest)
 		);
-		var imgOk = await downloader.DownloadAsync(artworkSrc, imgDest, http, ct);
+		ErrorOr<Success> imgResult = await downloader.DownloadAsync(artworkSrc, imgDest, http, ct);
 		Telemetry.Debug(
 			"Pristine.Album.ArtworkResult dest={Dest} ok={Ok}",
 			Path.GetFileName(imgDest),
-			imgOk
+			!imgResult.IsError
 		);
 		var pdfUrl = $"{S3Covers}{nameNoExt}.pdf";
 		var pdfDest = Path.Combine(albumOut, $"{nameNoExt}.pdf");
@@ -535,8 +541,8 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 			pdfUrl[..Math.Min(80, pdfUrl.Length)],
 			Path.GetFileName(pdfDest)
 		);
-		var ok = await downloader.DownloadAsync(pdfUrl, pdfDest, http, ct);
-		if (ok is false)
+		ErrorOr<Success> pdfResult = await downloader.DownloadAsync(pdfUrl, pdfDest, http, ct);
+		if (pdfResult.IsError)
 		{
 			Telemetry.Debug(
 				"Pristine.Album.PdfNotFound url={Url}",
@@ -560,5 +566,7 @@ public sealed class PristineAlbumService(PristineDownloader downloader)
 		{
 			Telemetry.Debug("Pristine.Album.PdfOk dest={Dest}", Path.GetFileName(pdfDest));
 		}
+
+		return Result.Success;
 	}
 }

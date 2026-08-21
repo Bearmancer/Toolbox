@@ -147,7 +147,6 @@ public static class PristineText
 			WordToInt.TryGetValue(m.Groups["word"].Value, out num);
 		}
 
-		var prefix = $"{Roman(num)}.";
-		return string.IsNullOrEmpty(remainder) ? prefix : $"{prefix} {remainder}";
+		return string.IsNullOrEmpty(remainder) ? $"{Roman(num)}." : remainder;
 	}
 }

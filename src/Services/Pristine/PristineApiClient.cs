@@ -133,9 +133,8 @@ public sealed class PristineApiClient
 					&& artEl.ValueKind is JsonValueKind.String
 						? artEl.GetString()
 						: null;
-				Telemetry.Info("{Code}: resolved \"{Title}\"", code, title);
 				Telemetry.Debug(
-					"Pristine.Api.Resolved code={Code} id={Id} title={Title}",
+					"Pristine.Api.Resolved code={Code:l} id={Id} title={Title:l}",
 					code,
 					id,
 					title

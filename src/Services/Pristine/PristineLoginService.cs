@@ -1,4 +1,5 @@
 using Core;
+using ErrorOr;
 using Microsoft.Playwright;
 
 namespace Services.Pristine;
@@ -13,7 +14,16 @@ public sealed class PristineLoginService(PristineBrowser browser)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		Telemetry.Info("Opening browser to log in to Pristine Classical…");
-		IBrowserContext ctx = await browser.CreateAsync(headless: false, ct);
+		ErrorOr<IBrowserContext> ctxResult = await browser.CreateAsync(headless: false, ct);
+		if (ctxResult.IsError)
+		{
+			Telemetry.Error(
+				"Pristine.Login.BrowserFailed: {Error}",
+				ctxResult.FirstError.Description
+			);
+			return false;
+		}
+		IBrowserContext ctx = ctxResult.Value;
 		try
 		{
 			IPage page =
@@ -91,7 +101,7 @@ public sealed class PristineLoginService(PristineBrowser browser)
 						new BrowserContextStorageStateOptions { Path = PristinePaths.AuthPath }
 					)
 					.WaitAsync(ct);
-				Telemetry.Info("Logged in — session saved to {Path}", PristinePaths.AuthPath);
+				Telemetry.Info("Logged in — session saved to {Path:l}", PristinePaths.AuthPath);
 			}
 			catch (Exception ex) when (ex is not OperationCanceledException)
 			{

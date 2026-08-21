@@ -1,12 +1,16 @@
 using System.Text.Json;
 using Core;
+using ErrorOr;
 using Microsoft.Playwright;
 
 namespace Services.Pristine;
 
 public sealed class PristineBrowser
 {
-	public async Task<IBrowserContext> CreateAsync(bool headless, CancellationToken ct = default)
+	public async Task<ErrorOr<IBrowserContext>> CreateAsync(
+		bool headless,
+		CancellationToken ct = default
+	)
 	{
 		using IDisposable _ = Telemetry.ForService(ServiceName.Pristine);
 		Telemetry.Debug(
@@ -44,7 +48,7 @@ public sealed class PristineBrowser
 		catch (Exception ex)
 		{
 			Telemetry.Error("Pristine.Browser.LaunchFailed: {Error}", ex.Message);
-			throw;
+			return Errors.Pristine.BrowserFailed(ex.Message);
 		}
 
 		var authPath = PristinePaths.AuthPath;
@@ -338,6 +342,6 @@ public sealed class PristineBrowser
 			Telemetry.Debug("Pristine.Browser.NoAuthFile path={Path}", authPath);
 		}
 
-		return ctx;
+		return ErrorOrFactory.From(ctx);
 	}
 }
