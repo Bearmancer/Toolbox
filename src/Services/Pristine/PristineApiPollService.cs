@@ -99,23 +99,26 @@ public sealed class PristineApiPollService(
 
 		PristineApiTrack firstTrack = available[0];
 		await DownloadTrackAsync(http, apiKey, code, firstTrack, albumOut, results, resumed, ct);
-		var firstMatch = Directory
-			.GetFiles(albumOut, $"{firstTrack.Position:00}. *.flac")
-			.FirstOrDefault();
-		if (firstMatch is not null)
+		if (resumed.Count == 0 && results.Count > 0)
 		{
-			ErrorOr<PristineProbeResult> sourceProbe = await verifier.VerifyAsync(
-				firstMatch,
-				code,
-				firstTrack.Position,
-				ct
-			);
-			if (sourceProbe.IsError is false)
-				Telemetry.Info(
-					"Source: {Bits}-bit/{Rate}Hz",
-					sourceProbe.Value.Bits,
-					sourceProbe.Value.SampleRate
+			var firstMatch = Directory
+				.GetFiles(albumOut, $"{firstTrack.Position:00}. *.flac")
+				.FirstOrDefault();
+			if (firstMatch is not null)
+			{
+				ErrorOr<PristineProbeResult> sourceProbe = await verifier.VerifyAsync(
+					firstMatch,
+					code,
+					firstTrack.Position,
+					ct
 				);
+				if (sourceProbe.IsError is false)
+					Telemetry.Info(
+						"Source: {Bits}-bit/{Rate}Hz",
+						sourceProbe.Value.Bits,
+						sourceProbe.Value.SampleRate
+					);
+			}
 		}
 
 		using SemaphoreSlim gate = new(MaxConcurrent);
