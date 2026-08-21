@@ -32,7 +32,7 @@ public sealed class PristineOrchestrator(
 		Directory.CreateDirectory(dest);
 
 		var effective = codes;
-		Telemetry.Info("Downloading {Count} album(s) → {Dest}", effective.Length, dest);
+		Telemetry.Info("Downloading {Count} album(s) → {Dest:l}", effective.Length, dest);
 		Telemetry.Debug(
 			"Pristine.Orchestrator.Start codes={Codes} headless={Headless}",
 			string.Join(",", effective),
@@ -83,12 +83,17 @@ public sealed class PristineOrchestrator(
 				);
 				r = await TranscodeAlbumAsync(r, ct);
 				results.Add(r);
+				var freshDownloaded = Math.Max(0, r.Downloaded - r.Resumed);
+				var rejected = Math.Max(0, r.Expected - r.Downloaded);
 				Telemetry.Info(
-					"[{Index}/{Total}] {Code} \"{Title}\" — {Downloaded}/{Expected} tracks → {Out}",
+					"[{Index}/{Total}] {Code:l} \"{Title:l}\" — {Fresh} fresh, {Resumed} resumed, {Rejected} rejected → {Downloaded}/{Expected} tracks → {Out:l}",
 					results.Count,
 					effective.Length,
 					r.Code,
 					r.Title,
+					freshDownloaded,
+					r.Resumed,
+					rejected,
 					r.Downloaded,
 					r.Expected,
 					r.OutPath
@@ -174,12 +179,23 @@ public sealed class PristineOrchestrator(
 
 		try
 		{
-			PristineAlbumResult r = await pollService.DownloadSingleAlbumAsync(
+			ErrorOr<PristineAlbumResult> pollResult = await pollService.DownloadSingleAlbumAsync(
 				ctx,
 				code,
 				dest,
 				http,
 				ct
+			);
+			PristineAlbumResult r = pollResult.Match(
+				value => value,
+				errors => new PristineAlbumResult
+				{
+					Code = code,
+					Title = "error",
+					OutPath = dest,
+					Expected = 0,
+					Downloaded = 0,
+				}
 			);
 			return (r, ctx);
 		}
@@ -217,10 +233,20 @@ public sealed class PristineOrchestrator(
 		if (r.Downloaded <= 0 || Directory.Exists(r.OutPath) is false)
 			return r;
 
-		ErrorOr<FlacTranscodeResult> transcodeOr = await flacTranscode.TranscodeDirectoryAsync(
-			r.OutPath,
-			ct
-		);
+		ErrorOr<FlacTranscodeResult> transcodeOr;
+		try
+		{
+			transcodeOr = await flacTranscode.TranscodeDirectoryAsync(r.OutPath, ct);
+		}
+		catch (TranscodePipelineException ex)
+		{
+			Telemetry.Error(
+				"Pristine.Orchestrator.TranscodePipelineBroken code={Code}: {Error} — our own transcode output is broken, skipping this album's transcode, batch continues",
+				r.Code,
+				ex.Message
+			);
+			return r;
+		}
 		if (transcodeOr.IsError)
 		{
 			Telemetry.Warn(
@@ -250,7 +276,10 @@ public sealed class PristineOrchestrator(
 
 	private async Task<IBrowserContext?> EnsureBrowserAsync(bool headless, CancellationToken ct)
 	{
-		IBrowserContext ctx = await browser.CreateAsync(headless, ct);
+		ErrorOr<IBrowserContext> ctxResult = await browser.CreateAsync(headless, ct);
+		if (ctxResult.IsError)
+			throw new InvalidOperationException(ctxResult.FirstError.Description);
+		IBrowserContext ctx = ctxResult.Value;
 		IPage seed = await ctx.NewPageAsync().WaitAsync(ct);
 		try
 		{

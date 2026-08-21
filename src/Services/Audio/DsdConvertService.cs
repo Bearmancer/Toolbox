@@ -281,7 +281,16 @@ public sealed class DsdConvertService(
 			if (!string.IsNullOrEmpty(outputDir))
 				Directory.CreateDirectory(outputDir);
 
-			File.Move(tempFlac, outputFlac, overwrite: true);
+			try
+			{
+				File.Move(tempFlac, outputFlac, overwrite: true);
+			}
+			catch (Exception ex)
+			{
+				throw new TranscodePipelineException(
+					$"could not move our own converted file into place: {tempFlac} -> {outputFlac}: {ex.Message}"
+				);
+			}
 
 			ErrorOr<TimeSpan> durationResult = await sox.GetDurationAsync(outputFlac, ct);
 			if (durationResult.IsError)

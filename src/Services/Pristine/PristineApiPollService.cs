@@ -56,8 +56,17 @@ public sealed class PristineApiPollService(
 		{
 			var artworkUrl = $"{BaseUrl}{album.ArtworkPath}";
 			var imgDest = Path.Combine(albumOut, $"{albumTitle}.jpg");
-			var imgOk = await downloader.DownloadAsync(artworkUrl, imgDest, http, ct);
-			Telemetry.Debug("Pristine.ApiPoll.ArtworkResult code={Code} ok={Ok}", code, imgOk);
+			ErrorOr<Success> imgResult = await downloader.DownloadAsync(
+				artworkUrl,
+				imgDest,
+				http,
+				ct
+			);
+			Telemetry.Debug(
+				"Pristine.ApiPoll.ArtworkResult code={Code} ok={Ok}",
+				code,
+				!imgResult.IsError
+			);
 		}
 
 		List<PristineApiTrack> available =
@@ -79,15 +88,39 @@ public sealed class PristineApiPollService(
 				OutPath = albumOut,
 				Expected = 0,
 				Downloaded = 0,
+				Resumed = 0,
 			};
 		}
 
-		Telemetry.Info("{Code}: downloading {Count} track(s)", code, available.Count);
+		Telemetry.Info("Now downloading: {Title:l}", album.Title);
+
+		List<string> results = [];
+		List<string> resumed = [];
+
+		PristineApiTrack firstTrack = available[0];
+		await DownloadTrackAsync(http, apiKey, code, firstTrack, albumOut, results, resumed, ct);
+		var firstMatch = Directory
+			.GetFiles(albumOut, $"{firstTrack.Position:00}. *.flac")
+			.FirstOrDefault();
+		if (firstMatch is not null)
+		{
+			ErrorOr<PristineProbeResult> sourceProbe = await verifier.VerifyAsync(
+				firstMatch,
+				code,
+				firstTrack.Position,
+				ct
+			);
+			if (sourceProbe.IsError is false)
+				Telemetry.Info(
+					"Source: {Bits}-bit/{Rate}Hz",
+					sourceProbe.Value.Bits,
+					sourceProbe.Value.SampleRate
+				);
+		}
 
 		using SemaphoreSlim gate = new(MaxConcurrent);
-		List<string> results = [];
 		List<Task> pending = [];
-		foreach (PristineApiTrack track in available)
+		foreach (PristineApiTrack track in available.Skip(1))
 		{
 			await gate.WaitAsync(ct);
 			PristineApiTrack capturedTrack = track;
@@ -103,6 +136,7 @@ public sealed class PristineApiPollService(
 							capturedTrack,
 							albumOut,
 							results,
+							resumed,
 							ct
 						);
 					}
@@ -130,9 +164,10 @@ public sealed class PristineApiPollService(
 		}
 
 		Telemetry.Debug(
-			"Pristine.ApiPoll.Done code={Code} downloaded={Downloaded} expected={Expected}",
+			"Pristine.ApiPoll.Done code={Code} downloaded={Downloaded} resumed={Resumed} expected={Expected}",
 			code,
 			results.Count,
+			resumed.Count,
 			available.Count
 		);
 		return new PristineAlbumResult
@@ -142,6 +177,7 @@ public sealed class PristineApiPollService(
 			OutPath = albumOut,
 			Expected = available.Count,
 			Downloaded = results.Count,
+			Resumed = resumed.Count,
 		};
 	}
 
@@ -152,6 +188,7 @@ public sealed class PristineApiPollService(
 		PristineApiTrack track,
 		string albumOut,
 		List<string> results,
+		List<string> resumed,
 		CancellationToken ct
 	)
 	{
@@ -164,6 +201,19 @@ public sealed class PristineApiPollService(
 			".flac"
 		);
 		var dest = Path.Combine(albumOut, $"{stem}.flac");
+		foreach (var stale in Directory.EnumerateFiles(albumOut, $"{track.Position:00}. *"))
+		{
+			if (string.Equals(stale, dest, StringComparison.OrdinalIgnoreCase))
+				continue;
+			Telemetry.Debug(
+				"Pristine.ApiPoll.StaleOrphanRemoved code={Code} track={Track} file={File}",
+				code,
+				track.Position,
+				Path.GetFileName(stale)
+			);
+			File.Delete(stale);
+		}
+
 		if (File.Exists(dest) && new FileInfo(dest).Length > 0)
 		{
 			ErrorOr<PristineProbeResult> resumeProbeOr = await verifier.VerifyAsync(
@@ -179,13 +229,17 @@ public sealed class PristineApiPollService(
 			if (usable)
 			{
 				Telemetry.Info(
-					"  [{Num:00}] {Title} — already present, skipping",
+					"  [{Num:00}] {Title:l} — already present, skipping",
 					track.Position,
 					safeTitle
 				);
 				lock (results)
 				{
 					results.Add(dest);
+				}
+				lock (resumed)
+				{
+					resumed.Add(dest);
 				}
 				return;
 			}
@@ -237,8 +291,9 @@ public sealed class PristineApiPollService(
 			Path.GetFileName(dest)
 		);
 
-		var dlOk = await downloader.DownloadAsync(flacUrl, dest, http, ct);
-		if (dlOk is false)
+		Telemetry.Info("Downloading: {Title:l}", safeTitle);
+		ErrorOr<Success> dlResult = await downloader.DownloadAsync(flacUrl, dest, http, ct);
+		if (dlResult.IsError)
 		{
 			Telemetry.Warn(
 				"Pristine.ApiPoll.DownloadFailed code={Code} track={Track} dest={Dest}",
@@ -257,7 +312,7 @@ public sealed class PristineApiPollService(
 		);
 		if (await PristineVerification.VerifyAndKeepAsync(verifier, dest, code, track.Position, ct))
 		{
-			Telemetry.Info("  [{Num:00}] {Title} — kept", track.Position, safeTitle);
+			Telemetry.Info("  [{Num:00}] {Title:l} — kept", track.Position, safeTitle);
 			lock (results)
 			{
 				results.Add(dest);
@@ -265,7 +320,7 @@ public sealed class PristineApiPollService(
 		}
 		else
 		{
-			Telemetry.Info("  [{Num:00}] {Title} — rejected", track.Position, safeTitle);
+			Telemetry.Info("  [{Num:00}] {Title:l} — rejected", track.Position, safeTitle);
 		}
 	}
 }

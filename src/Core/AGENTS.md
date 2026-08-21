@@ -6,6 +6,7 @@
 ├── Telemetry.cs    # Per-service JSONL (CompactJsonFormatter, 50 MB) + Spectre console + Seq probe
 ├── Errors.cs       # Domain factories: Validation/YouTube/Azure/LastFm/DocIntel/Speech/Vision/Translate/TextAnalytics/Audio/Pristine
 ├── PathResolver.cs # RepoRoot, GetStatePath(), ResolveInput(), ReadChecked()
+├── ServiceName.cs  # LastFm, YouTube, Vision, Translate, TextAnalytics, Speech, DocIntel, Audio, Pristine, SdkDiagnostics → ToFileSlug()
 └── Text.cs         # SanitizeFileName + string extensions (IsEqualTo)
 </span></code></pre>
 <p><code>Telemetry.cs</code>: <code>state/logs</code> = <code>Path.Combine(RepoRoot,&quot;state&quot;,&quot;logs&quot;)</code>; one JSONL per <code>ServiceName</code> via <code>Enum.GetValues</code>→<code>AddServiceLogger</code> filtering on <code>Service==service.ToString()</code>; <code>LevelSwitch</code> controls Spectre sink; Seq at <code>SEQ_URL</code> gated by SEQ_URL env var presence (no TCP probe).
@@ -52,6 +53,7 @@
 <ul>
 <li>Fallible → <code>ErrorOr&lt;T&gt;</code> via <code>Errors.{Domain}</code> factories (<code>Errors.cs</code> taxonomy, not ad-hoc <code>Error.Failure</code>).</li>
 <li>Telemetry scope: <code>using var _ = Telemetry.ForService(ServiceName.X);</code> pushes <code>Service</code> property for <code>AddServiceLogger</code> filter.</li>
+<li><strong>Info/Warn are user-facing console output — write for a human reading a live terminal, not a machine parsing fields.</strong> Plain sentence, no <code>Key=Value</code> soup. Debug/Verbose never hit the console by default (Spectre sink is <code>LevelSwitch</code>-gated, JSONL file sink always takes Debug) — that's where dense <code>Pristine.ApiPoll.Track code={Code} track={Track} dest={Dest}</code>-style tokens belong.<br/>Pre (Info, wrong): <code>Telemetry.Info("Pristine.ApiPoll.DownloadOk code={Code} track={Track} dest={Dest}", code, pos, dest)</code><br/>Post (Info, right): <code>Telemetry.Info("Downloading: {Title:l}", title)</code><br/>The same event at Debug keeps the dense form — it's for <code>state/logs/*.jsonl</code>/Seq, not eyeballs.</li>
 <li>Paths via <code>PathResolver.RepoRoot</code>/<code>GetStatePath()</code> — never hardcode <code>state/</code>.</li>
 <li>No <code>Services.*</code> references. No domain logic. Pure utilities.</li>
 </ul>
@@ -60,4 +62,6 @@
 <li><strong>NEVER</strong> add service-specific logic to Core.</li>
 <li><strong>NEVER</strong> add <code>ServiceName</code> value without <code>ToFileSlug()</code> case — <code>Configure()</code> will throw <code>ArgumentOutOfRangeException</code>.</li>
 <li><strong>NEVER</strong> bypass <code>PathResolver</code> with <code>Directory.GetCurrentDirectory()</code> — breaks when <code>AppContext.BaseDirectory</code> ≠ CWD.</li>
+<li><strong>NEVER</strong> give <code>Telemetry.Info</code>/<code>Telemetry.Warn</code> a Debug-style <code>event.Name code={Code} field={Value}...</code> template — that's for Debug/Verbose only. Info/Warn read on a live terminal; keep them a plain sentence.</li>
+<li><strong>NEVER</strong> let an operation expected to take more than a few seconds (network fetch, external-process invocation, browser wait) run silently. Emit an <code>Info</code> line the moment it starts, not only when it finishes — a console with no output for tens of seconds is indistinguishable from a hung process.</li>
 </ul>

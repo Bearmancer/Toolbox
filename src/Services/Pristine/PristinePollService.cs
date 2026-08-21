@@ -15,7 +15,7 @@ public sealed class PristinePollService(
 	private const int PostDlWaitMs = 2000;
 	private const int PollMs = 1000;
 
-	public async Task<PristineAlbumResult> DownloadSingleAlbumAsync(
+	public async Task<ErrorOr<PristineAlbumResult>> DownloadSingleAlbumAsync(
 		IBrowserContext ctx,
 		string code,
 		string outDir,
@@ -236,19 +236,21 @@ public sealed class PristinePollService(
 				Telemetry.Warn("Pristine.Poll.EmptyTracklist code={Code}", code);
 			}
 
-			try
-			{
-				await albumService.DownloadArtworkAndPdfAsync(page, albumOut, albumTitle, http, ct);
-				Telemetry.Debug("Pristine.Poll.ArtworkDone code={Code}", code);
-			}
-			catch (Exception ex) when (ex is not OperationCanceledException)
-			{
+			ErrorOr<Success> artworkResult = await albumService.DownloadArtworkAndPdfAsync(
+				page,
+				albumOut,
+				albumTitle,
+				http,
+				ct
+			);
+			if (artworkResult.IsError)
 				Telemetry.Warn(
 					"Pristine.Poll.ArtworkFailed code={Code}: {Error}",
 					code,
-					ex.Message
+					artworkResult.FirstError.Description
 				);
-			}
+			else
+				Telemetry.Debug("Pristine.Poll.ArtworkDone code={Code}", code);
 
 			List<string> capturedUrls = [];
 			EventHandler<IRequest> handler = (_, req) =>
@@ -267,18 +269,13 @@ public sealed class PristinePollService(
 			page.Request += handler;
 
 			Telemetry.Debug("Pristine.Poll.StartPlayback code={Code}", code);
-			try
-			{
-				await albumService.StartPlaybackAsync(page, ct);
-			}
-			catch (Exception ex) when (ex is not OperationCanceledException)
-			{
+			ErrorOr<Success> playbackResult = await albumService.StartPlaybackAsync(page, ct);
+			if (playbackResult.IsError)
 				Telemetry.Error(
 					"Pristine.Poll.PlaybackFailed code={Code}: {Error}",
 					code,
-					ex.Message
+					playbackResult.FirstError.Description
 				);
-			}
 
 			await Task.Delay(4000, ct);
 
@@ -355,6 +352,7 @@ public sealed class PristinePollService(
 			var stall = 0;
 			var trackNum = 0;
 			List<string> results = [];
+			List<string> resumed = [];
 
 			Telemetry.Debug(
 				"Pristine.Poll.LoopStart code={Code} maxStall={Max} candidates={Candidates}",
@@ -462,6 +460,21 @@ public sealed class PristinePollService(
 							ext
 						);
 						var dest = Path.Combine(albumOut, $"{stem}{ext}");
+						foreach (
+							var stale in Directory.EnumerateFiles(albumOut, $"{trackNum:00}. *")
+						)
+						{
+							if (string.Equals(stale, dest, StringComparison.OrdinalIgnoreCase))
+								continue;
+							Telemetry.Debug(
+								"Pristine.Poll.StaleOrphanRemoved code={Code} track={Track} file={File}",
+								code,
+								trackNum,
+								Path.GetFileName(stale)
+							);
+							File.Delete(stale);
+						}
+
 						if (File.Exists(dest) && new FileInfo(dest).Length > 0)
 						{
 							ErrorOr<PristineProbeResult> resumeProbeOr = await verifier.VerifyAsync(
@@ -480,13 +493,17 @@ public sealed class PristinePollService(
 							if (usable)
 							{
 								Telemetry.Info(
-									"  [{Num:00}] {Title} — already present, skipping",
+									"  [{Num:00}] {Title:l} — already present, skipping",
 									trackNum,
 									safe
 								);
 								lock (results)
 								{
 									results.Add(dest);
+								}
+								lock (resumed)
+								{
+									resumed.Add(dest);
 								}
 								continue;
 							}
@@ -540,58 +557,96 @@ public sealed class PristinePollService(
 						var capturedDest = dest;
 						var capturedTrack = trackNum;
 						var capturedSafe = safe;
-						await gate.WaitAsync(ct);
-						Task downloadTask = Task.Run(
-							async () =>
+
+						async Task downloadAndVerifyAsync()
+						{
+							Telemetry.Info("Downloading: {Title:l}", capturedSafe);
+							ErrorOr<Success> dlResult = await downloader.DownloadAsync(
+								capturedSrc,
+								capturedDest,
+								http,
+								ct
+							);
+							if (dlResult.IsError)
 							{
-								try
+								Telemetry.Warn(
+									"Pristine.Poll.DownloadFailed code={Code} dest={Dest}",
+									code,
+									capturedDest
+								);
+								return;
+							}
+
+							Telemetry.Debug(
+								"Pristine.Poll.DownloadOk code={Code} dest={Dest}",
+								code,
+								capturedDest
+							);
+							if (
+								await PristineVerification.VerifyAndKeepAsync(
+									verifier,
+									capturedDest,
+									code,
+									capturedTrack,
+									ct
+								)
+							)
+							{
+								Telemetry.Info(
+									"  [{Num:00}] {Title:l} — kept",
+									capturedTrack,
+									capturedSafe
+								);
+								lock (results)
 								{
-									var dlOk = await downloader.DownloadAsync(
-										capturedSrc,
-										capturedDest,
-										http,
-										ct
-									);
-									if (dlOk is false)
-									{
-										Telemetry.Warn(
-											"Pristine.Poll.DownloadFailed code={Code} dest={Dest}",
-											code,
-											capturedDest
-										);
-									}
-									else
-									{
-										Telemetry.Debug(
-											"Pristine.Poll.DownloadOk code={Code} dest={Dest}",
-											code,
-											capturedDest
-										);
-										if (
-											await PristineVerification.VerifyAndKeepAsync(
-												verifier,
-												capturedDest,
-												code,
-												capturedTrack,
-												ct
-											)
-										)
-										{
-											lock (results)
-											{
-												results.Add(capturedDest);
-											}
-										}
-									}
+									results.Add(capturedDest);
 								}
-								finally
+							}
+							else
+							{
+								Telemetry.Info(
+									"  [{Num:00}] {Title:l} — rejected",
+									capturedTrack,
+									capturedSafe
+								);
+							}
+						}
+
+						if (capturedTrack == 1)
+						{
+							await downloadAndVerifyAsync();
+							ErrorOr<PristineProbeResult> sourceProbe = await verifier.VerifyAsync(
+								capturedDest,
+								code,
+								capturedTrack,
+								ct
+							);
+							if (sourceProbe.IsError is false)
+								Telemetry.Info(
+									"Source: {Bits}-bit/{Rate}Hz",
+									sourceProbe.Value.Bits,
+									sourceProbe.Value.SampleRate
+								);
+						}
+						else
+						{
+							await gate.WaitAsync(ct);
+							Task downloadTask = Task.Run(
+								async () =>
 								{
-									gate.Release();
-								}
-							},
-							CancellationToken.None
-						);
-						pendingDownloads.Add(downloadTask);
+									try
+									{
+										await downloadAndVerifyAsync();
+									}
+									finally
+									{
+										gate.Release();
+									}
+								},
+								CancellationToken.None
+							);
+							pendingDownloads.Add(downloadTask);
+						}
 
 						if (expectedCount > 0 && trackNum >= expectedCount)
 						{
@@ -852,6 +907,7 @@ public sealed class PristinePollService(
 				OutPath = albumOut,
 				Expected = expectedCount,
 				Downloaded = results.Count,
+				Resumed = resumed.Count,
 			};
 		}
 		finally

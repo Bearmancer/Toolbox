@@ -17,19 +17,41 @@ public sealed class FlacTranscodeService(ProcessRunner processRunner, SoxService
 
 		var flacFiles = Directory.GetFiles(directory, "*.flac", SearchOption.TopDirectoryOnly);
 		var converted = 0;
-		var skipped = 0;
+		var skippedNotFlac = 0;
+		var skippedAlreadyMp3 = 0;
+		var skippedAlready16Bit = 0;
 		var failed = 0;
 		foreach (var file in flacFiles)
 		{
 			ct.ThrowIfCancellationRequested();
-			TranscodeOutcome outcome = await TranscodeFileAsync(file, ct);
+			TranscodeOutcome outcome;
+			try
+			{
+				outcome = await TranscodeFileAsync(file, ct);
+			}
+			catch (Exception ex)
+				when (ex is not OperationCanceledException and not TranscodePipelineException)
+			{
+				Telemetry.Warn(
+					"Audio.Transcode.UnexpectedException file={File}: {Error}",
+					Path.GetFileName(file),
+					ex.Message
+				);
+				outcome = TranscodeOutcome.Failed;
+			}
 			switch (outcome)
 			{
 				case TranscodeOutcome.Converted:
 					converted++;
 					break;
-				case TranscodeOutcome.Skipped:
-					skipped++;
+				case TranscodeOutcome.SkippedNotFlac:
+					skippedNotFlac++;
+					break;
+				case TranscodeOutcome.SkippedAlreadyMp3:
+					skippedAlreadyMp3++;
+					break;
+				case TranscodeOutcome.SkippedAlready16Bit:
+					skippedAlready16Bit++;
 					break;
 				default:
 					failed++;
@@ -37,13 +59,20 @@ public sealed class FlacTranscodeService(ProcessRunner processRunner, SoxService
 			}
 		}
 
+		var totalSkipped = skippedNotFlac + skippedAlreadyMp3 + skippedAlready16Bit;
 		Telemetry.Info(
 			"Transcode: {Converted} converted, {Skipped} skipped, {Failed} failed",
 			converted,
-			skipped,
+			totalSkipped,
 			failed
 		);
-		return new FlacTranscodeResult(converted, skipped, failed);
+		return new FlacTranscodeResult(
+			converted,
+			skippedNotFlac,
+			skippedAlreadyMp3,
+			skippedAlready16Bit,
+			failed
+		);
 	}
 
 	public async Task<TranscodeOutcome> TranscodeFileAsync(
@@ -51,12 +80,13 @@ public sealed class FlacTranscodeService(ProcessRunner processRunner, SoxService
 		CancellationToken ct = default
 	)
 	{
+		var fileName = Path.GetFileName(file);
 		ErrorOr<FlacProbeResult> probeOr = await ProbeAsync(file, ct);
 		if (probeOr.IsError)
 		{
 			Telemetry.Warn(
 				"Audio.Transcode.ProbeFailed file={File} err={Err}",
-				Path.GetFileName(file),
+				fileName,
 				probeOr.FirstError.Description
 			);
 			return TranscodeOutcome.Failed;
@@ -66,33 +96,23 @@ public sealed class FlacTranscodeService(ProcessRunner processRunner, SoxService
 		if (probe.Codec.Equals("flac", StringComparison.OrdinalIgnoreCase) is false)
 		{
 			if (probe.Codec.Equals("mp3", StringComparison.OrdinalIgnoreCase))
-				Telemetry.Info("{File}: already MP3, skipping", Path.GetFileName(file));
-			else
-				Telemetry.Info(
-					"{File}: not FLAC ({Codec}), skipping",
-					Path.GetFileName(file),
-					probe.Codec
-				);
-			return TranscodeOutcome.Skipped;
+			{
+				Telemetry.Info("{File:l}: already MP3, skipping", fileName);
+				return TranscodeOutcome.SkippedAlreadyMp3;
+			}
+
+			Telemetry.Info("{File:l}: not FLAC ({Codec:l}), skipping", fileName, probe.Codec);
+			return TranscodeOutcome.SkippedNotFlac;
 		}
 
 		if (probe.Bits is > 0 and <= 16)
 		{
-			Telemetry.Info(
-				"{File}: already {Bits}-bit, skipping",
-				Path.GetFileName(file),
-				probe.Bits
-			);
-			return TranscodeOutcome.Skipped;
+			Telemetry.Info("{File:l}: already {Bits}-bit, skipping", fileName, probe.Bits);
+			return TranscodeOutcome.SkippedAlready16Bit;
 		}
 
 		var targetSampleRate = ResolveTargetSampleRate(probe.SampleRate);
-		Telemetry.Debug(
-			"Audio.Transcode.Target file={File} fromRate={FromRate} toRate={ToRate}",
-			Path.GetFileName(file),
-			probe.SampleRate,
-			targetSampleRate
-		);
+		Telemetry.Info("Transcoding: {File:l}", fileName);
 		var tempDest = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid():N}.flac");
 		ErrorOr<string> convertOr = await sox.DownsampleTo16BitAsync(
 			file,
@@ -104,7 +124,7 @@ public sealed class FlacTranscodeService(ProcessRunner processRunner, SoxService
 		{
 			Telemetry.Warn(
 				"Audio.Transcode.SoxFailed file={File} err={Err}",
-				Path.GetFileName(file),
+				fileName,
 				convertOr.FirstError.Description
 			);
 			DeleteIfExists(tempDest);
@@ -119,40 +139,29 @@ public sealed class FlacTranscodeService(ProcessRunner processRunner, SoxService
 			|| verifyOr.Value.SampleRate != targetSampleRate
 		)
 		{
-			Telemetry.Warn(
-				"Audio.Transcode.VerifyFailed file={File} bits={Bits} rate={Rate} wantRate={WantRate}",
-				Path.GetFileName(file),
-				verifyOr.IsError ? -1 : verifyOr.Value.Bits,
-				verifyOr.IsError ? -1 : verifyOr.Value.SampleRate,
-				targetSampleRate
-			);
+			var got = verifyOr.IsError
+				? verifyOr.FirstError.Description
+				: $"bits={verifyOr.Value.Bits} rate={verifyOr.Value.SampleRate}";
 			DeleteIfExists(tempDest);
 			DeleteIfExists(file);
-			return TranscodeOutcome.Failed;
+			throw new TranscodePipelineException(
+				$"sox reported success but its own output for {fileName} failed verification (wanted 16-bit/{targetSampleRate}Hz flac, got {got}) — our transcode pipeline is broken, not the source file"
+			);
 		}
 
 		try
 		{
-			File.Delete(file);
-			File.Move(tempDest, file);
-			Telemetry.Info(
-				"{File}: {FromBits}-bit/{FromRate} → 16-bit/{ToRate}",
-				Path.GetFileName(file),
-				probe.Bits,
-				probe.SampleRate,
-				targetSampleRate
-			);
-			return TranscodeOutcome.Converted;
+			File.Move(tempDest, file, overwrite: true);
 		}
 		catch (Exception ex)
 		{
-			Telemetry.Warn(
-				"Audio.Transcode.ReplaceFailed file={File}: {Error}",
-				Path.GetFileName(file),
-				ex.Message
+			throw new TranscodePipelineException(
+				$"could not move our own verified-good transcode into place for {fileName}: {ex.Message}"
 			);
-			return TranscodeOutcome.Failed;
 		}
+
+		Telemetry.Info("{File:l}: {FromBits}-bit → 16-bit", fileName, probe.Bits);
+		return TranscodeOutcome.Converted;
 	}
 
 	private async Task<ErrorOr<FlacProbeResult>> ProbeAsync(string filePath, CancellationToken ct)
@@ -245,10 +254,23 @@ public sealed class FlacTranscodeService(ProcessRunner processRunner, SoxService
 public enum TranscodeOutcome
 {
 	Converted,
-	Skipped,
+	SkippedNotFlac,
+	SkippedAlreadyMp3,
+	SkippedAlready16Bit,
 	Failed,
 }
 
 public sealed record FlacProbeResult(string Codec, int Bits, int SampleRate);
 
-public sealed record FlacTranscodeResult(int Converted, int Skipped, int Failed);
+public sealed record FlacTranscodeResult(
+	int Converted,
+	int SkippedNotFlac,
+	int SkippedAlreadyMp3,
+	int SkippedAlready16Bit,
+	int Failed
+)
+{
+	public int Skipped => SkippedNotFlac + SkippedAlreadyMp3 + SkippedAlready16Bit;
+}
+
+public sealed class TranscodePipelineException(string message) : Exception(message);
