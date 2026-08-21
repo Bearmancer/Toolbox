@@ -930,12 +930,7 @@ Replace the whole body of `ProcessAlbumAsync` from the `available` list onward:
 			}
 
 			if (trackPlan.NeedsDownload is false)
-			{
-				// Present locally but not yet target-form — FlacTranscodeService
-				// (invoked later, once every download below has settled) will
-				// pick this up directly from disk. Nothing to do here.
 				continue;
-			}
 
 			await gate.WaitAsync(ct);
 			PristineApiTrack capturedTrack = track;
@@ -1129,10 +1124,6 @@ Add near the bottom of the class, above the closing brace:
 			.VerifyAsync(path, "local-probe", 0, CancellationToken.None)
 			.GetAwaiter()
 			.GetResult();
-		// null (not just on ffprobe process failure, but also when ffprobe ran fine and
-		// reported an unreadable/unknown codec) forces the classifier to treat this file
-		// as needing work rather than silently trusting a bogus zero-valued probe as
-		// "already target form".
 		return result.IsError || result.Value.IsValid is false
 			? null
 			: (result.Value.Bits, result.Value.SampleRate);
