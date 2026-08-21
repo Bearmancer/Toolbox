@@ -29,17 +29,23 @@ public static class PristineVerification
 
 		PristineProbeResult probe = probeOr.Value;
 		Telemetry.Debug(
-			"Pristine.Verify.Checked code={Code} track={Track} is24={Is24} codec={Codec} dest={Dest} note={Note}",
+			"Pristine.Verify.Checked code={Code} track={Track} acceptable={Acceptable} codec={Codec} bits={Bits} dest={Dest} note={Note}",
 			code,
 			track,
-			probe.Is24BitFlac,
+			probe.IsAcceptableFlac,
 			probe.Codec,
+			probe.Bits,
 			Path.GetFileName(dest),
 			probe.Note
 		);
-		if (probe.Is24BitFlac is false)
+		if (probe.IsAcceptableFlac is false)
 		{
-			DeleteRejectedFile(dest, code, track, probe.Note);
+			DeleteRejectedFile(
+				dest,
+				code,
+				track,
+				$"codec={probe.Codec} bits={probe.Bits} ({probe.Note})"
+			);
 			return false;
 		}
 

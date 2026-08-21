@@ -152,7 +152,7 @@ public sealed class PristineAudioVerifier
 					: 0;
 			var streamCount = streamsEl.GetArrayLength();
 			var isFlac = codec.Equals("flac", StringComparison.OrdinalIgnoreCase);
-			var is24 = bits == 24;
+			var isAcceptableBitDepth = bits is 16 or 24;
 			Telemetry.Debug(
 				"Pristine.Verify.Result code={Code} track={Track} streams={Streams} codec={Codec} bits={Bits} rate={Rate} channels={Channels} path={Path}",
 				code,
@@ -171,15 +171,15 @@ public sealed class PristineAudioVerifier
 					trackNum,
 					codec
 				);
-			if (is24 is false && bits != 0)
+			if (isAcceptableBitDepth is false && bits != 0)
 				Telemetry.Debug(
-					"Pristine.Verify.Not24Bit code={Code} track={Track} bits={Bits}",
+					"Pristine.Verify.UnexpectedBitDepth code={Code} track={Track} bits={Bits}",
 					code,
 					trackNum,
 					bits
 				);
 			return new PristineProbeResult(
-				isFlac && is24,
+				isFlac && isAcceptableBitDepth,
 				codec,
 				bits,
 				sampleRate,
@@ -216,7 +216,7 @@ public sealed class PristineAudioVerifier
 }
 
 public sealed record PristineProbeResult(
-	bool Is24BitFlac,
+	bool IsAcceptableFlac,
 	string Codec,
 	int Bits,
 	int SampleRate,
