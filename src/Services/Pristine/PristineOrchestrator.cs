@@ -230,8 +230,24 @@ public sealed class PristineOrchestrator(
 		CancellationToken ct
 	)
 	{
-		if (r.Downloaded <= 0 || Directory.Exists(r.OutPath) is false)
+		if (r.Downloaded <= 0)
+		{
+			Telemetry.Info(
+				"Transcode: skipped — 0/{Expected} tracks downloaded this run",
+				r.Expected
+			);
 			return r;
+		}
+
+		if (Directory.Exists(r.OutPath) is false)
+		{
+			Telemetry.Warn(
+				"Pristine.Orchestrator.TranscodeSkippedNoOutDir code={Code} path={Path}",
+				r.Code,
+				r.OutPath
+			);
+			return r;
+		}
 
 		ErrorOr<FlacTranscodeResult> transcodeOr;
 		try
